@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name_ar": "صحيح البخاري",
+    "name_en": "Sahih al-Bukhari",
+    "slug": "bukhari",
+    "author_id": 122,
+    "author_name_en": "Imam al-Bukhari",
+    "total_hadith": 7563,
+    "total_books": 97,
+    "description_en": "The most authentic collection of hadith, compiled by Imam Muhammad ibn Ismail al-Bukhari (d. 870 CE). Contains 7,563 hadith organized into 97 books. Universally accepted as the most reliable hadith collection after the Quran."
+  },
+  {
+    "id": 2,
+    "name_ar": "صحيح مسلم",
+    "name_en": "Sahih Muslim",
+    "slug": "muslim",
+    "author_id": 124,
+    "author_name_en": "Imam Muslim",
+    "total_hadith": 7563,
+    "total_books": 56,
+    "description_en": "The second most authentic collection of hadith, compiled by Imam Muslim ibn al-Hajjaj (d. 875 CE). Known for its rigorous methodology and organization by topic. Contains 7,563 hadith in 56 books."
+  },
+  {
+    "id": 3,
+    "name_ar": "سنن أبي داود",
+    "name_en": "Sunan Abu Dawud",
+    "slug": "abu-dawud",
+    "author_id": 123,
+    "author_name_en": "Imam Abu Dawud",
+    "total_hadith": 5274,
+    "total_books": 43,
+    "description_en": "One of the six canonical hadith collections, compiled by Imam Abu Dawud as-Sijistani (d. 889 CE). Focuses heavily on legal hadith (ahkam). Contains 5,274 hadith in 43 books."
+  },
+  {
+    "id": 4,
+    "name_ar": "جامع الترمذي",
+    "name_en": "Jami at-Tirmidhi",
+    "slug": "tirmidhi",
+    "author_id": 126,
+    "author_name_en": "Imam at-Tirmidhi",
+    "total_hadith": 3956,
+    "total_books": 49,
+    "description_en": "One of the six canonical hadith collections, compiled by Imam Muhammad ibn Isa at-Tirmidhi (d. 892 CE). Notable for including grading of each hadith and mentioning scholarly opinions. Contains 3,956 hadith."
+  },
+  {
+    "id": 5,
+    "name_ar": "سنن النسائي",
+    "name_en": "Sunan an-Nasa'i",
+    "slug": "nasai",
+    "author_id": 127,
+    "author_name_en": "Imam an-Nasa'i",
+    "total_hadith": 5758,
+    "total_books": 51,
+    "description_en": "One of the six canonical hadith collections, compiled by Imam Ahmad ibn Shuayb an-Nasa'i (d. 915 CE). Known for strict authentication criteria, considered by some scholars as second only to the Sahihayn."
+  },
+  {
+    "id": 6,
+    "name_ar": "سنن ابن ماجه",
+    "name_en": "Sunan Ibn Majah",
+    "slug": "ibn-majah",
+    "author_id": 125,
+    "author_name_en": "Imam Ibn Majah",
+    "total_hadith": 4341,
+    "total_books": 37,
+    "description_en": "One of the six canonical hadith collections, compiled by Imam Muhammad ibn Yazid Ibn Majah (d. 887 CE). Contains some hadith not found in the other five collections. 4,341 hadith in 37 books."
+  },
+  {
+    "id": 7,
+    "name_ar": "موطأ الإمام مالك",
+    "name_en": "Muwatta Imam Malik",
+    "slug": "muwatta",
+    "author_id": 94,
+    "author_name_en": "Imam Malik ibn Anas",
+    "total_hadith": 1832,
+    "total_books": 61,
+    "description_en": "The earliest surviving hadith collection, compiled by Imam Malik ibn Anas (d. 795 CE). Combines hadith with the practice of the people of Medina. A foundational text of the Maliki school. 1,832 narrations."
+  },
+  {
+    "id": 8,
+    "name_ar": "مسند الإمام أحمد",
+    "name_en": "Musnad Ahmad",
+    "slug": "musnad-ahmad",
+    "author_id": 115,
+    "author_name_en": "Imam Ahmad ibn Hanbal",
+    "total_hadith": 27647,
+    "total_books": 6,
+    "description_en": "The largest of the major hadith collections, compiled by Imam Ahmad ibn Hanbal (d. 855 CE). Organized by narrator rather than topic. Contains 27,647 hadith. A crucial source for hadith scholarship."
+  }
+]

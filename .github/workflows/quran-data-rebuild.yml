@@ -1,0 +1,14 @@
+name: Quran Data Rebuild
+
+on:
+  push:
+    paths:
+      - 'web/data/quran/**'
+
+jobs:
+  trigger-vercel-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel deploy hook
+        run: |
+          curl -X POST "${{ secrets.VERCEL_ISLAMWIKI_DEPLOY_HOOK }}"
