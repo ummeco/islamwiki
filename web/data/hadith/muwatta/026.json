@@ -179,7 +179,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:1065"
+    "ref": "muwatta:1065",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 4,
@@ -199,8 +201,8 @@
     "isnad_separation_method": "no_separation",
     "isnad_confidence": "low",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "It was narrated from Abdullah ibn Umar (may Allah be pleased with him) that he used to say regarding the trained hunting dog: 'Eat what it catches for you, whether it kills or does not kill.'",
+    "iwh_id": "Diriwayatkan dari Abdullah ibn Umar (radhiyallahu 'anhu) bahwa ia biasa berkata mengenai anjing pemburu yang terlatih: 'Makanlah apa yang ditangkapnya untukmu, baik ia membunuhnya maupun tidak.'",
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [
@@ -356,7 +358,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:1068"
+    "ref": "muwatta:1068",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 7,
@@ -376,8 +380,8 @@
     "isnad_separation_method": "qala_nodiac",
     "isnad_confidence": "medium",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "It was narrated from Nafi' that Abd al-Rahman ibn Abi Hurairah asked Abdullah ibn Umar (may Allah be pleased with him) about what the sea throws out (dead sea creatures washed ashore), and he forbade him from eating it. Nafi' said: 'Then Abdullah turned back, called for the Mushaf, and recited: {Lawful for you is the game from the sea and its food} (5:96).' Nafi' said: 'Abdullah ibn Umar sent me to Abd al-Rahman ibn Abi Hurairah with the message that there is no harm in eating it.'",
+    "iwh_id": "Diriwayatkan dari Nafi' bahwa Abd al-Rahman ibn Abi Hurairah bertanya kepada Abdullah ibn Umar (radhiyallahu 'anhu) tentang apa yang dilempar laut (hewan laut mati yang terdampar), dan ia melarangnya memakannya. Nafi' berkata: 'Kemudian Abdullah berbalik, meminta Mushaf, dan membaca: {Dihalalkan bagimu hewan buruan laut dan makanannya} (5:96).' Nafi' berkata: 'Abdullah ibn Umar mengutusku kepada Abd al-Rahman ibn Abi Hurairah dengan pesan bahwa tidak mengapa memakannya.'",
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [

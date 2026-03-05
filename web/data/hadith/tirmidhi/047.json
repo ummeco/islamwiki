@@ -5297,7 +5297,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:3043"
+    "ref": "tirmidhi:3043",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 65,
@@ -5768,7 +5770,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:3049"
+    "ref": "tirmidhi:3049",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 71,
@@ -34889,7 +34893,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:3401"
+    "ref": "tirmidhi:3401",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 423,
@@ -34963,7 +34969,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:3402"
+    "ref": "tirmidhi:3402",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 424,

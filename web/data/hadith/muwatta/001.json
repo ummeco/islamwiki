@@ -55,7 +55,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:1"
+    "ref": "muwatta:1",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 2,
@@ -113,7 +115,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:2"
+    "ref": "muwatta:2",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 3,
@@ -171,7 +175,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:3"
+    "ref": "muwatta:3",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 4,
@@ -229,7 +235,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:4"
+    "ref": "muwatta:4",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 5,
@@ -287,7 +295,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:5"
+    "ref": "muwatta:5",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 6,
@@ -345,7 +355,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:6"
+    "ref": "muwatta:6",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 7,
@@ -403,7 +415,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:7"
+    "ref": "muwatta:7",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 8,
@@ -461,7 +475,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:8"
+    "ref": "muwatta:8",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 9,
@@ -519,7 +535,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:9"
+    "ref": "muwatta:9",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 10,
@@ -577,7 +595,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:10"
+    "ref": "muwatta:10",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 11,
@@ -635,7 +655,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:11"
+    "ref": "muwatta:11",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 12,
@@ -693,7 +715,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:12"
+    "ref": "muwatta:12",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 13,
@@ -751,7 +775,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:13"
+    "ref": "muwatta:13",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 14,
@@ -809,7 +835,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:14"
+    "ref": "muwatta:14",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 15,
@@ -867,7 +895,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:15"
+    "ref": "muwatta:15",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 16,
@@ -925,7 +955,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:16"
+    "ref": "muwatta:16",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 17,
@@ -983,7 +1015,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:17"
+    "ref": "muwatta:17",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 18,
@@ -1041,6 +1075,8 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:18"
+    "ref": "muwatta:18",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   }
 ]

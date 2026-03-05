@@ -4612,7 +4612,9 @@
       "notes": "LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:2809"
+    "ref": "tirmidhi:2809",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 61,
@@ -10433,7 +10435,9 @@
       "notes": "LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:2883"
+    "ref": "tirmidhi:2883",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 135,

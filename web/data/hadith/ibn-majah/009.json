@@ -6119,7 +6119,9 @@
       "notes": "MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "Ibnmajah 1928"
+    "ref": "Ibnmajah 1928",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 1929,
@@ -6186,7 +6188,9 @@
       "notes": "MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "Ibnmajah 1929"
+    "ref": "Ibnmajah 1929",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 1930,
@@ -8057,7 +8061,9 @@
       "notes": "MISSING_IWH_EN; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "Ibnmajah 1955"
+    "ref": "Ibnmajah 1955",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 1956,

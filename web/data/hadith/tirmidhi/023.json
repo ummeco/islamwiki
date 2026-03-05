@@ -2984,7 +2984,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:1714"
+    "ref": "tirmidhi:1714",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 37,
@@ -3282,7 +3284,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:1718"
+    "ref": "tirmidhi:1718",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 41,
@@ -3440,7 +3444,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "tirmidhi:1720"
+    "ref": "tirmidhi:1720",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 43,

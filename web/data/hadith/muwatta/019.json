@@ -2975,7 +2975,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:693"
+    "ref": "muwatta:693",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 48,
@@ -2995,8 +2997,8 @@
     "isnad_separation_method": "qala_end_of_chain",
     "isnad_confidence": "medium",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "Malik said: 'Whoever dies while owing a vow of freeing a slave, fasting, charity, or a sacrificial animal, and he has bequeathed that it be fulfilled on his behalf from his wealth — then the charity and sacrificial animal come from his one-third bequest, and it takes priority over other bequests of the same type. This is because what is obligatory upon him from vows and the like is not like voluntary acts that are not obligatory. It is placed in his one-third specifically, apart from his principal wealth, because if it were permissible from his principal wealth, the deceased might have delayed such obligatory matters until when death approached and his wealth passed to his heirs, then he would name such things which no creditor had pressed him for — and were that permissible, he would delay these things until near death, naming them when they might consume all of his wealth, and that is not for him.'",
+    "iwh_id": "Malik berkata: 'Barangsiapa meninggal dunia sementara ia memiliki nazar untuk membebaskan budak, berpuasa, bersedekah, atau menyembelih hewan kurban, dan ia telah berwasiat agar hal itu ditunaikan atas namanya dari hartanya — maka sedekah dan hewan kurban tersebut diambil dari sepertiga wasiatnya, dan didahulukan atas wasiat-wasiat lain yang sejenis. Ini karena kewajiban yang ada padanya berupa nazar dan semacamnya tidaklah seperti amal sukarela yang tidak wajib. Hal itu ditempatkan dalam sepertiga hartanya secara khusus, terpisah dari pokok hartanya, karena jika hal itu diperbolehkan dari pokok hartanya, maka orang yang meninggal mungkin akan menunda kewajiban-kewajiban tersebut sampai menjelang kematian dan harta beralih ke ahli warisnya, lalu ia menyebutkan hal-hal yang tidak pernah ditagih oleh siapun — dan jika itu diperbolehkan, ia akan menunda hal-hal ini hingga menjelang kematian, menyebutkannya ketika mungkin mencakup seluruh hartanya, dan itu tidak diperbolehkan baginya.'",
     "grade": "daif",
     "grade_display": "Daif",
     "grades": [

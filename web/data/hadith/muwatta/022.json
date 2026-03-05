@@ -2266,7 +2266,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:1007"
+    "ref": "muwatta:1007",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 37,
@@ -2286,8 +2288,8 @@
     "isnad_separation_method": "qala_nodiac",
     "isnad_confidence": "medium",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "It was narrated from Yahya ibn Said that Umar ibn al-Khattab (may Allah be pleased with him) would allocate transport for forty thousand camels in a single year — one camel per man traveling to Syria and one camel for every two men traveling to Iraq. A man from Iraq came to him and said: 'Transport me and Suhaym.' Umar ibn al-Khattab said to him: 'I adjure you by Allah — is Suhaym a waterskin (i.e., baggage)?' The man said: 'Yes.' (Indicating Suhaym was a waterskin, not a person, so one camel sufficed for both)",
+    "iwh_id": "Diriwayatkan dari Yahya ibn Said bahwa Umar ibn al-Khattab (radhiyallahu 'anhu) mengalokasikan transportasi empat puluh ribu unta dalam satu tahun — satu unta per orang yang menuju Syam dan satu unta untuk setiap dua orang yang menuju Irak. Seorang laki-laki dari Irak datang kepadanya dan berkata: 'Angkutlah aku dan Suhaym.' Umar ibn al-Khattab berkata kepadanya: 'Aku bersumpah kepadamu dengan nama Allah — apakah Suhaym itu sebuah geriba (kantong air)?' Laki-laki itu berkata: 'Ya.' (Menunjukkan bahwa Suhaym adalah kantong air, bukan orang, sehingga satu unta sudah cukup untuk keduanya)",
     "grade": "daif",
     "grade_display": "Daif",
     "grades": [

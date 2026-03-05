@@ -55,7 +55,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:487"
+    "ref": "muwatta:487",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 2,
@@ -75,8 +77,8 @@
     "isnad_separation_method": "qala_nodiac",
     "isnad_confidence": "medium",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "It was narrated from Muhammad ibn Sirin that Umar ibn al-Khattab (may Allah be pleased with him) was with a group of people who were reciting the Quran. He went to relieve himself, then returned and was reciting the Quran. A man said to him: 'O Commander of the Faithful, are you reciting the Quran without having performed wudu?' Umar said to him: 'Who gave you this fatwa — Musaylimah?' (Indicating that reciting Quran without wudu from memory is permissible)",
+    "iwh_id": "Diriwayatkan dari Muhammad ibn Sirin bahwa Umar ibn al-Khattab (radhiyallahu 'anhu) berada bersama sekelompok orang yang sedang membaca Al-Quran. Ia pergi untuk buang hajat, kemudian kembali sambil membaca Al-Quran. Seseorang berkata kepadanya: 'Wahai Amirul Mukminin, apakah engkau membaca Al-Quran padahal engkau tidak dalam keadaan berwudu?' Umar berkata kepadanya: 'Siapa yang memberimu fatwa ini — Musailamah?' (Menunjukkan bahwa membaca Al-Quran dari hafalan tanpa wudu adalah diperbolehkan)",
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [
@@ -989,7 +991,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:502"
+    "ref": "muwatta:502",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 17,
@@ -1009,8 +1013,8 @@
     "isnad_separation_method": "qala_nodiac",
     "isnad_confidence": "medium",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "It was narrated from Abu Said al-Khudri (may Allah be pleased with him) that he heard a man repeatedly reciting 'Say: He is Allah, the One' (Surah al-Ikhlas). The next morning he went to the Messenger of Allah ﷺ and mentioned it, as though the man considered it too little. The Messenger of Allah ﷺ said: 'By Him in Whose Hand is my soul, it is indeed equal to one-third of the Quran.'",
+    "iwh_id": "Diriwayatkan dari Abu Said al-Khudri (radhiyallahu 'anhu) bahwa ia mendengar seorang laki-laki terus-menerus membaca 'Qul Huwallahu Ahad' (Surah al-Ikhlas). Keesokan paginya ia pergi kepada Rasulullah ﷺ dan menyampaikannya, seolah-olah laki-laki itu menganggapnya terlalu sedikit. Rasulullah ﷺ bersabda: 'Demi Dzat yang jiwaku ada di tangan-Nya, sesungguhnya ia setara dengan sepertiga Al-Quran.'",
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [

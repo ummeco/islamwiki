@@ -179,7 +179,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:539"
+    "ref": "muwatta:539",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 4,
@@ -199,8 +201,8 @@
     "isnad_separation_method": "no_separation",
     "isnad_confidence": "low",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "It was narrated from Aisha (may Allah be pleased with her), the wife of the Prophet ﷺ, that the Messenger of Allah ﷺ was shrouded in three white Sahooli garments, and there was no shirt among them, nor a turban.",
+    "iwh_id": "Diriwayatkan dari Aisyah (radhiyallahu 'anha), istri Nabi ﷺ, bahwa Rasulullah ﷺ dikafankan dengan tiga lembar kain putih dari Sahul, dan tidak ada baju di antaranya, juga tidak ada surban.",
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [

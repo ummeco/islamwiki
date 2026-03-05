@@ -316,7 +316,9 @@
       "notes": "MISSING_IWH_EN; LOW_ISNAD_CONFIDENCE; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "muwatta:710"
+    "ref": "muwatta:710",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 6,
@@ -336,8 +338,8 @@
     "isnad_separation_method": "qala_nodiac",
     "isnad_confidence": "medium",
     "sunnah_ref_en": "",
-    "iwh_en": "",
-    "iwh_id": "",
+    "iwh_en": "It was narrated from Aisha (may Allah be pleased with her) that the Messenger of Allah ﷺ intended to perform i'tikaf. When he went to the place where he intended to perform i'tikaf, he found tents — the tent of Aisha, the tent of Hafsa, and the tent of Zaynab. When he saw them he asked about them, and he was told: 'This is the tent of Aisha, Hafsa, and Zaynab.' The Messenger of Allah ﷺ said: 'Is it righteousness that you claim for them?' Then he turned away and did not perform i'tikaf until he performed i'tikaf for ten days of Shawwal.",
+    "iwh_id": "Diriwayatkan dari Aisyah (radhiyallahu 'anha) bahwa Rasulullah ﷺ berniat untuk beri'tikaf. Ketika beliau menuju tempat yang ingin beliau gunakan untuk i'tikaf, beliau menemukan tenda-tenda — tenda Aisyah, tenda Hafshah, dan tenda Zainab. Ketika beliau melihatnya, beliau bertanya tentangnya, dan diberitahu: 'Ini adalah tenda Aisyah, Hafshah, dan Zainab.' Rasulullah ﷺ bersabda: 'Apakah kalian menyebut ini sebagai kebaikan untuk mereka?' Kemudian beliau pergi dan tidak beri'tikaf hingga beliau beri'tikaf selama sepuluh hari di bulan Syawwal.",
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [

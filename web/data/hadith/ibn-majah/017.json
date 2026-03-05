@@ -421,7 +421,9 @@
       "notes": "MISSING_IWH_EN; MISSING_MATN_AR",
       "checked_by_agent": "P6-bulk"
     },
-    "ref": "Ibnmajah 2497"
+    "ref": "Ibnmajah 2497",
+    "data_gap": true,
+    "data_gap_reason": "no_arabic_source"
   },
   {
     "n": 2498,
