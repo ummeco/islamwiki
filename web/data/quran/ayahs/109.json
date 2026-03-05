@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُلۡ یَـٰۤأَیُّهَا ٱلۡكَـٰفِرُونَ",
-    "ar_simple": "قل یأیها ٱلكفرون",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ يَا أَيُّهَا الْكَافِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, \"O disbelievers",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَاۤ أَعۡبُدُ مَا تَعۡبُدُونَ",
-    "ar_simple": "لا أعبد ما تعبدون",
+    "ar_simple": "لَا أَعْبُدُ مَا تَعْبُدُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "I do not worship what you worship",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَاۤ أَنتُمۡ عَـٰبِدُونَ مَاۤ أَعۡبُدُ",
-    "ar_simple": "ولا أنتم عبدون ما أعبد",
+    "ar_simple": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Nor are you worshippers of what I worship",
@@ -206,7 +210,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 4,
@@ -220,7 +226,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَاۤ أَنَا۠ عَابِدࣱ مَّا عَبَدتُّمۡ",
-    "ar_simple": "ولا أنا عابد ما عبدتم",
+    "ar_simple": "وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ",
     "transliteration": "",
     "t": {
       "sahih-int": "Nor will I be a worshipper of what you worship",
@@ -273,7 +279,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 5,
@@ -287,7 +295,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَاۤ أَنتُمۡ عَـٰبِدُونَ مَاۤ أَعۡبُدُ",
-    "ar_simple": "ولا أنتم عبدون ما أعبد",
+    "ar_simple": "وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Nor will you be worshippers of what I worship",
@@ -342,7 +350,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 6,
@@ -356,7 +366,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَكُمۡ دِینُكُمۡ وَلِیَ دِینِ",
-    "ar_simple": "لكم دینكم ولی دین",
+    "ar_simple": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "For you is your religion, and for me is my religion",
@@ -411,6 +421,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

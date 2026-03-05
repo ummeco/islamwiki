@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِی خَلَقَ",
-    "ar_simple": "ٱقرأ بٱسم ربك ٱلذی خلق",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Recite in the name of your Lord who created",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "خَلَقَ ٱلۡإِنسَـٰنَ مِنۡ عَلَقٍ",
-    "ar_simple": "خلق ٱلإنسن من علق",
+    "ar_simple": "خَلَقَ الْإِنْسَانَ مِنْ عَلَقٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Created man from a clinging substance",
@@ -138,7 +140,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 3,
@@ -152,7 +156,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱقۡرَأۡ وَرَبُّكَ ٱلۡأَكۡرَمُ",
-    "ar_simple": "ٱقرأ وربك ٱلأكرم",
+    "ar_simple": "اقْرَأْ وَرَبُّكَ الْأَكْرَمُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Recite, and your Lord is the most Generous",
@@ -206,7 +210,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 4,
@@ -220,7 +226,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِی عَلَّمَ بِٱلۡقَلَمِ",
-    "ar_simple": "ٱلذی علم بٱلقلم",
+    "ar_simple": "الَّذِي عَلَّمَ بِالْقَلَمِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who taught by the pen",
@@ -274,7 +280,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 5,
@@ -288,7 +296,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "عَلَّمَ ٱلۡإِنسَـٰنَ مَا لَمۡ یَعۡلَمۡ",
-    "ar_simple": "علم ٱلإنسن ما لم یعلم",
+    "ar_simple": "عَلَّمَ الْإِنْسَانَ مَا لَمْ يَعْلَمْ",
     "transliteration": "",
     "t": {
       "sahih-int": "Taught man that which he knew not",
@@ -342,7 +350,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 6,
@@ -356,7 +366,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّاۤ إِنَّ ٱلۡإِنسَـٰنَ لَیَطۡغَىٰۤ",
-    "ar_simple": "كلا إن ٱلإنسن لیطغى",
+    "ar_simple": "كَلَّا إِنَّ الْإِنْسَانَ لَيَطْغَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! [But] indeed, man transgresses",
@@ -411,7 +421,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 7,
@@ -425,7 +437,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَن رَّءَاهُ ٱسۡتَغۡنَىٰۤ",
-    "ar_simple": "أن رءاه ٱستغنى",
+    "ar_simple": "أَنْ رَآهُ اسْتَغْنَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Because he sees himself self-sufficient",
@@ -480,7 +492,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 8,
@@ -494,7 +508,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجۡعَىٰۤ",
-    "ar_simple": "إن إلى ربك ٱلرجعى",
+    "ar_simple": "إِنَّ إِلَىٰ رَبِّكَ الرُّجْعَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, to your Lord is the return",
@@ -548,7 +562,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 9,
@@ -562,7 +578,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَرَءَیۡتَ ٱلَّذِی یَنۡهَىٰ",
-    "ar_simple": "أرءیت ٱلذی ینهى",
+    "ar_simple": "أَرَأَيْتَ الَّذِي يَنْهَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Have you seen the one who forbids",
@@ -617,7 +633,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 10,
@@ -631,7 +649,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "عَبۡدًا إِذَا صَلَّىٰۤ",
-    "ar_simple": "عبدا إذا صلى",
+    "ar_simple": "عَبْدًا إِذَا صَلَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "A servant when he prays",
@@ -684,7 +702,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 11,
@@ -698,7 +718,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَرَءَیۡتَ إِن كَانَ عَلَى ٱلۡهُدَىٰۤ",
-    "ar_simple": "أرءیت إن كان على ٱلهدى",
+    "ar_simple": "أَرَأَيْتَ إِنْ كَانَ عَلَى الْهُدَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Have you seen if he is upon guidance",
@@ -745,7 +765,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 12,
@@ -759,7 +781,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوۡ أَمَرَ بِٱلتَّقۡوَىٰۤ",
-    "ar_simple": "أو أمر بٱلتقوى",
+    "ar_simple": "أَوْ أَمَرَ بِالتَّقْوَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Or enjoins righteousness",
@@ -806,7 +828,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 13,
@@ -820,7 +844,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَرَءَیۡتَ إِن كَذَّبَ وَتَوَلَّىٰۤ",
-    "ar_simple": "أرءیت إن كذب وتولى",
+    "ar_simple": "أَرَأَيْتَ إِنْ كَذَّبَ وَتَوَلَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Have you seen if he denies and turns away",
@@ -866,7 +890,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 14,
@@ -880,7 +906,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ یَعۡلَم بِأَنَّ ٱللَّهَ یَرَىٰ",
-    "ar_simple": "ألم یعلم بأن ٱلله یرى",
+    "ar_simple": "أَلَمْ يَعْلَمْ بِأَنَّ اللَّهَ يَرَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Does he not know that Allah sees",
@@ -926,7 +952,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 15,
@@ -940,7 +968,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّا لَئِن لَّمۡ یَنتَهِ لَنَسۡفَعَۢا بِٱلنَّاصِیَةِ",
-    "ar_simple": "كلا لئن لم ینته لنسفعا بٱلناصیة",
+    "ar_simple": "كَلَّا لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعًا بِالنَّاصِيَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! If he does not desist, We will surely drag him by the forelock",
@@ -985,7 +1013,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 16,
@@ -999,7 +1029,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "نَاصِیَةࣲ كَـٰذِبَةٍ خَاطِئَةࣲ",
-    "ar_simple": "ناصیة كذبة خاطئة",
+    "ar_simple": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "A lying, sinning forelock",
@@ -1046,7 +1076,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 17,
@@ -1060,7 +1092,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلۡیَدۡعُ نَادِیَهُۥ",
-    "ar_simple": "فلیدع نادیه",
+    "ar_simple": "فَلْيَدْعُ نَادِيَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then let him call his associates",
@@ -1105,7 +1137,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 18,
@@ -1119,7 +1153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَنَدۡعُ ٱلزَّبَانِیَةَ",
-    "ar_simple": "سندع ٱلزبانیة",
+    "ar_simple": "سَنَدْعُ الزَّبَانِيَةَ",
     "transliteration": "",
     "t": {
       "sahih-int": "We will call the angels of Hell",
@@ -1167,7 +1201,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 19,
@@ -1181,7 +1217,7 @@
     "sajda_type": "obligatory",
     "section_id": null,
     "ar": "كَلَّا لَا تُطِعۡهُ وَ̅ٱ̅سۡ̅جُ̅دۡ̅ وَٱقۡتَرِب ۩",
-    "ar_simple": "كلا لا تطعه و̅ٱ̅س̅ج̅د̅ وٱقترب",
+    "ar_simple": "كَلَّا لَا تُطِعْهُ وَاسْجُدْ وَاقْتَرِبْ ۩",
     "transliteration": "",
     "t": {
       "sahih-int": "No! Do not obey him. But prostrate and draw near [to Allah]",
@@ -1226,6 +1262,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   }
 ]

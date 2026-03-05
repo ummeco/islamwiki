@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡمُرۡسَلَـٰتِ عُرۡفࣰا",
-    "ar_simple": "وٱلمرسلت عرفا",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالْمُرْسَلَاتِ عُرْفًا",
     "transliteration": "",
     "t": {
       "sahih-int": "By those [winds] sent forth in gusts",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَٱلۡعَـٰصِفَـٰتِ عَصۡفࣰا",
-    "ar_simple": "فٱلعصفت عصفا",
+    "ar_simple": "فَالْعَاصِفَاتِ عَصْفًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And the winds that blow violently",
@@ -135,7 +137,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 3,
@@ -149,7 +153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلنَّـٰشِرَ ٰتِ نَشۡرࣰا",
-    "ar_simple": "وٱلنشر ت نشرا",
+    "ar_simple": "وَالنَّاشِرَاتِ نَشْرًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] the winds that spread [clouds]",
@@ -203,7 +207,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 4,
@@ -217,7 +223,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَٱلۡفَـٰرِقَـٰتِ فَرۡقࣰا",
-    "ar_simple": "فٱلفرقت فرقا",
+    "ar_simple": "فَالْفَارِقَاتِ فَرْقًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And those [angels] who bring criterion",
@@ -271,7 +277,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 5,
@@ -285,7 +293,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَٱلۡمُلۡقِیَـٰتِ ذِكۡرًا",
-    "ar_simple": "فٱلملقیت ذكرا",
+    "ar_simple": "فَالْمُلْقِيَاتِ ذِكْرًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And those [angels] who deliver a message",
@@ -341,7 +349,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 6,
@@ -355,7 +365,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "عُذۡرًا أَوۡ نُذۡرًا",
-    "ar_simple": "عذرا أو نذرا",
+    "ar_simple": "عُذْرًا أَوْ نُذْرًا",
     "transliteration": "",
     "t": {
       "sahih-int": "As justification or warning",
@@ -411,7 +421,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 7,
@@ -425,7 +437,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّمَا تُوعَدُونَ لَوَ ٰقِعࣱ",
-    "ar_simple": "إنما توعدون لو قع",
+    "ar_simple": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, what you are promised is to occur",
@@ -479,7 +491,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 8,
@@ -493,7 +507,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَإِذَا ٱلنُّجُومُ طُمِسَتۡ",
-    "ar_simple": "فإذا ٱلنجوم طمست",
+    "ar_simple": "فَإِذَا النُّجُومُ طُمِسَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "So when the stars are obliterated",
@@ -548,7 +562,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 9,
@@ -562,7 +578,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا ٱلسَّمَاۤءُ فُرِجَتۡ",
-    "ar_simple": "وإذا ٱلسماء فرجت",
+    "ar_simple": "وَإِذَا السَّمَاءُ فُرِجَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the heaven is opened",
@@ -614,7 +630,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 10,
@@ -628,7 +646,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا ٱلۡجِبَالُ نُسِفَتۡ",
-    "ar_simple": "وإذا ٱلجبال نسفت",
+    "ar_simple": "وَإِذَا الْجِبَالُ نُسِفَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the mountains are blown away",
@@ -682,7 +700,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 11,
@@ -696,7 +716,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا ٱلرُّسُلُ أُقِّتَتۡ",
-    "ar_simple": "وإذا ٱلرسل أقتت",
+    "ar_simple": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the messengers' time has come",
@@ -745,7 +765,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 12,
@@ -759,7 +781,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لِأَیِّ یَوۡمٍ أُجِّلَتۡ",
-    "ar_simple": "لأی یوم أجلت",
+    "ar_simple": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "For what Day was it postponed",
@@ -806,7 +828,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 13,
@@ -820,7 +844,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لِیَوۡمِ ٱلۡفَصۡلِ",
-    "ar_simple": "لیوم ٱلفصل",
+    "ar_simple": "لِيَوْمِ الْفَصْلِ",
     "transliteration": "",
     "t": {
       "sahih-int": "For the Day of Judgement",
@@ -865,7 +889,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 14,
@@ -879,7 +905,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَاۤ أَدۡرَىٰكَ مَا یَوۡمُ ٱلۡفَصۡلِ",
-    "ar_simple": "وما أدرىك ما یوم ٱلفصل",
+    "ar_simple": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And what can make you know what is the Day of Judgement",
@@ -924,7 +950,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 15,
@@ -938,7 +966,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -983,7 +1011,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 16,
@@ -997,7 +1027,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ نُهۡلِكِ ٱلۡأَوَّلِینَ",
-    "ar_simple": "ألم نهلك ٱلأولین",
+    "ar_simple": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Did We not destroy the former peoples",
@@ -1043,7 +1073,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 17,
@@ -1057,7 +1089,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ نُتۡبِعُهُمُ ٱلۡءَاخِرِینَ",
-    "ar_simple": "ثم نتبعهم ٱلءاخرین",
+    "ar_simple": "ثُمَّ نُتْبِعُهُمُ الْآخِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then We will follow them with the later ones",
@@ -1103,7 +1135,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 18,
@@ -1117,7 +1151,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَذَ ٰلِكَ نَفۡعَلُ بِٱلۡمُجۡرِمِینَ",
-    "ar_simple": "كذ لك نفعل بٱلمجرمین",
+    "ar_simple": "كَذَٰلِكَ نَفْعَلُ بِالْمُجْرِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Thus do We deal with the criminals",
@@ -1164,7 +1198,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 19,
@@ -1178,7 +1214,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -1224,7 +1260,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 20,
@@ -1238,7 +1276,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ نَخۡلُقكُّم مِّن مَّاۤءࣲ مَّهِینࣲ",
-    "ar_simple": "ألم نخلقكم من ماء مهین",
+    "ar_simple": "أَلَمْ نَخْلُقْكُمْ مِنْ مَاءٍ مَهِينٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Did We not create you from a liquid disdained",
@@ -1286,7 +1324,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 21,
@@ -1300,7 +1340,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَجَعَلۡنَـٰهُ فِی قَرَارࣲ مَّكِینٍ",
-    "ar_simple": "فجعلنه فی قرار مكین",
+    "ar_simple": "فَجَعَلْنَاهُ فِي قَرَارٍ مَكِينٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We placed it in a firm lodging",
@@ -1346,7 +1386,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 22,
@@ -1360,7 +1402,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَىٰ قَدَرࣲ مَّعۡلُومࣲ",
-    "ar_simple": "إلى قدر معلوم",
+    "ar_simple": "إِلَىٰ قَدَرٍ مَعْلُومٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "For a known extent",
@@ -1405,7 +1447,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 23,
@@ -1419,7 +1463,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَقَدَرۡنَا فَنِعۡمَ ٱلۡقَـٰدِرُونَ",
-    "ar_simple": "فقدرنا فنعم ٱلقدرون",
+    "ar_simple": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We determined [it], and excellent [are We] to determine",
@@ -1464,7 +1508,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 24,
@@ -1478,7 +1524,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -1524,7 +1570,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 25,
@@ -1538,7 +1586,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ نَجۡعَلِ ٱلۡأَرۡضَ كِفَاتًا",
-    "ar_simple": "ألم نجعل ٱلأرض كفاتا",
+    "ar_simple": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Have We not made the earth a container",
@@ -1584,7 +1632,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 26,
@@ -1598,7 +1648,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَحۡیَاۤءࣰ وَأَمۡوَ ٰتࣰا",
-    "ar_simple": "أحیاء وأمو تا",
+    "ar_simple": "أَحْيَاءً وَأَمْوَاتًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Of the living and the dead",
@@ -1643,7 +1693,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 27,
@@ -1657,7 +1709,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَجَعَلۡنَا فِیهَا رَوَ ٰسِیَ شَـٰمِخَـٰتࣲ وَأَسۡقَیۡنَـٰكُم مَّاۤءࣰ فُرَاتࣰا",
-    "ar_simple": "وجعلنا فیها رو سی شمخت وأسقینكم ماء فراتا",
+    "ar_simple": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُمْ مَاءً فُرَاتًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water",
@@ -1704,7 +1756,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 28,
@@ -1718,7 +1772,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -1763,7 +1817,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 29,
@@ -1777,7 +1833,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱنطَلِقُوۤا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
-    "ar_simple": "ٱنطلقوا إلى ما كنتم به تكذبون",
+    "ar_simple": "انْطَلِقُوا إِلَىٰ مَا كُنْتُمْ بِهِ تُكَذِّبُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[They will be told], \"Proceed to that which you used to deny",
@@ -1822,7 +1878,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 30,
@@ -1836,7 +1894,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱنطَلِقُوۤا۟ إِلَىٰ ظِلࣲّ ذِی ثَلَـٰثِ شُعَبࣲ",
-    "ar_simple": "ٱنطلقوا إلى ظل ذی ثلث شعب",
+    "ar_simple": "انْطَلِقُوا إِلَىٰ ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Proceed to a shadow [of smoke] having three columns",
@@ -1881,7 +1939,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 31,
@@ -1895,7 +1955,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَّا ظَلِیلࣲ وَلَا یُغۡنِی مِنَ ٱللَّهَبِ",
-    "ar_simple": "لا ظلیل ولا یغنی من ٱللهب",
+    "ar_simple": "لَا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ",
     "transliteration": "",
     "t": {
       "sahih-int": "[But having] no cool shade and availing not against the flame",
@@ -1940,7 +2000,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 32,
@@ -1954,7 +2016,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّهَا تَرۡمِی بِشَرَرࣲ كَٱلۡقَصۡرِ",
-    "ar_simple": "إنها ترمی بشرر كٱلقصر",
+    "ar_simple": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, it throws sparks [as huge] as a fortress",
@@ -1999,7 +2061,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 33,
@@ -2013,7 +2077,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَأَنَّهُۥ جِمَـٰلَتࣱ صُفۡرࣱ",
-    "ar_simple": "كأنه جملت صفر",
+    "ar_simple": "كَأَنَّهُ جِمَالَتٌ صُفْرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "As if they were yellowish [black] camels",
@@ -2058,7 +2122,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 34,
@@ -2072,7 +2138,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -2117,7 +2183,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 35,
@@ -2131,7 +2199,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هَـٰذَا یَوۡمُ لَا یَنطِقُونَ",
-    "ar_simple": "هذا یوم لا ینطقون",
+    "ar_simple": "هَٰذَا يَوْمُ لَا يَنْطِقُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "This is a Day they will not speak",
@@ -2176,7 +2244,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 36,
@@ -2190,7 +2260,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَا یُؤۡذَنُ لَهُمۡ فَیَعۡتَذِرُونَ",
-    "ar_simple": "ولا یؤذن لهم فیعتذرون",
+    "ar_simple": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Nor will it be permitted for them to make an excuse",
@@ -2235,7 +2305,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 37,
@@ -2249,7 +2321,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -2294,7 +2366,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 38,
@@ -2308,7 +2382,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هَـٰذَا یَوۡمُ ٱلۡفَصۡلِۖ جَمَعۡنَـٰكُمۡ وَٱلۡأَوَّلِینَ",
-    "ar_simple": "هذا یوم ٱلفصل جمعنكم وٱلأولین",
+    "ar_simple": "هَٰذَا يَوْمُ الْفَصْلِ ۖ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "This is the Day of Judgement; We will have assembled you and the former peoples",
@@ -2353,7 +2427,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 39,
@@ -2367,7 +2443,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَإِن كَانَ لَكُمۡ كَیۡدࣱ فَكِیدُونِ",
-    "ar_simple": "فإن كان لكم كید فكیدون",
+    "ar_simple": "فَإِنْ كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So if you have a plan, then plan against Me",
@@ -2412,7 +2488,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 40,
@@ -2426,7 +2504,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -2471,7 +2549,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 41,
@@ -2485,7 +2565,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلۡمُتَّقِینَ فِی ظِلَـٰلࣲ وَعُیُونࣲ",
-    "ar_simple": "إن ٱلمتقین فی ظلل وعیون",
+    "ar_simple": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, the righteous will be among shades and springs",
@@ -2532,7 +2612,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 42,
@@ -2546,7 +2628,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَفَوَ ٰكِهَ مِمَّا یَشۡتَهُونَ",
-    "ar_simple": "وفو كه مما یشتهون",
+    "ar_simple": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And fruits from whatever they desire",
@@ -2591,7 +2673,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 43,
@@ -2605,7 +2689,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كُلُوا۟ وَٱشۡرَبُوا۟ هَنِیۤءَۢا بِمَا كُنتُمۡ تَعۡمَلُونَ",
-    "ar_simple": "كلوا وٱشربوا هنیءا بما كنتم تعملون",
+    "ar_simple": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Being told], \"Eat and drink in satisfaction for what you used to do",
@@ -2652,7 +2736,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 44,
@@ -2666,7 +2752,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّا كَذَ ٰلِكَ نَجۡزِی ٱلۡمُحۡسِنِینَ",
-    "ar_simple": "إنا كذ لك نجزی ٱلمحسنین",
+    "ar_simple": "إِنَّا كَذَٰلِكَ نَجْزِي الْمُحْسِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We thus reward the doers of good",
@@ -2713,7 +2799,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 45,
@@ -2727,7 +2815,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -2772,7 +2860,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 46,
@@ -2786,7 +2876,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِیلًا إِنَّكُم مُّجۡرِمُونَ",
-    "ar_simple": "كلوا وتمتعوا قلیلا إنكم مجرمون",
+    "ar_simple": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُمْ مُجْرِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals",
@@ -2835,7 +2925,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 47,
@@ -2849,7 +2941,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -2894,7 +2986,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 48,
@@ -2908,7 +3002,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا قِیلَ لَهُمُ ٱرۡكَعُوا۟ لَا یَرۡكَعُونَ",
-    "ar_simple": "وإذا قیل لهم ٱركعوا لا یركعون",
+    "ar_simple": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when it is said to them, \"Bow [in prayer],\" they do not bow",
@@ -2955,7 +3049,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 49,
@@ -2969,7 +3065,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
-    "ar_simple": "ویل یومئذ للمكذبین",
+    "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
@@ -3014,7 +3110,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   },
   {
     "n": 50,
@@ -3028,7 +3126,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ حَدِیثِۭ بَعۡدَهُۥ یُؤۡمِنُونَ",
-    "ar_simple": "فبأی حدیث بعده یؤمنون",
+    "ar_simple": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then in what statement after the Qur'an will they believe",
@@ -3076,6 +3174,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 232
   }
 ]

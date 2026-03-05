@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ الۤمۤصۤ",
-    "ar_simple": "المص",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ المص",
     "transliteration": "",
     "t": {
       "sahih-int": "Alif, Lam, Meem, Sad",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كِتَـٰبٌ أُنزِلَ إِلَیۡكَ فَلَا یَكُن فِی صَدۡرِكَ حَرَجࣱ مِّنۡهُ لِتُنذِرَ بِهِۦ وَذِكۡرَىٰ لِلۡمُؤۡمِنِینَ",
-    "ar_simple": "كتب أنزل إلیك فلا یكن فی صدرك حرج منه لتنذر به وذكرى للمؤمنین",
+    "ar_simple": "كِتَابٌ أُنْزِلَ إِلَيْكَ فَلَا يَكُنْ فِي صَدْرِكَ حَرَجٌ مِنْهُ لِتُنْذِرَ بِهِ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[This is] a Book revealed to you, [O Muhammad] - so let there not be in your breast distress therefrom - that you may warn thereby and as a reminder to the believers",
@@ -141,7 +143,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 3,
@@ -155,7 +159,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱتَّبِعُوا۟ مَاۤ أُنزِلَ إِلَیۡكُم مِّن رَّبِّكُمۡ وَلَا تَتَّبِعُوا۟ مِن دُونِهِۦۤ أَوۡلِیَاۤءَۗ قَلِیلࣰا مَّا تَذَكَّرُونَ",
-    "ar_simple": "ٱتبعوا ما أنزل إلیكم من ربكم ولا تتبعوا من دونه أولیاء قلیلا ما تذكرون",
+    "ar_simple": "اتَّبِعُوا مَا أُنْزِلَ إِلَيْكُمْ مِنْ رَبِّكُمْ وَلَا تَتَّبِعُوا مِنْ دُونِهِ أَوْلِيَاءَ ۗ قَلِيلًا مَا تَذَكَّرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Follow, [O mankind], what has been revealed to you from your Lord and do not follow other than Him any allies. Little do you remember",
@@ -212,7 +216,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 4,
@@ -226,7 +232,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَكَم مِّن قَرۡیَةٍ أَهۡلَكۡنَـٰهَا فَجَاۤءَهَا بَأۡسُنَا بَیَـٰتًا أَوۡ هُمۡ قَاۤئِلُونَ",
-    "ar_simple": "وكم من قریة أهلكنها فجاءها بأسنا بیتا أو هم قائلون",
+    "ar_simple": "وَكَمْ مِنْ قَرْيَةٍ أَهْلَكْنَاهَا فَجَاءَهَا بَأْسُنَا بَيَاتًا أَوْ هُمْ قَائِلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And how many cities have We destroyed, and Our punishment came to them at night or while they were sleeping at noon",
@@ -283,7 +289,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 5,
@@ -297,7 +305,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَمَا كَانَ دَعۡوَىٰهُمۡ إِذۡ جَاۤءَهُم بَأۡسُنَاۤ إِلَّاۤ أَن قَالُوۤا۟ إِنَّا كُنَّا ظَـٰلِمِینَ",
-    "ar_simple": "فما كان دعوىهم إذ جاءهم بأسنا إلا أن قالوا إنا كنا ظلمین",
+    "ar_simple": "فَمَا كَانَ دَعْوَاهُمْ إِذْ جَاءَهُمْ بَأْسُنَا إِلَّا أَنْ قَالُوا إِنَّا كُنَّا ظَالِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And their declaration when Our punishment came to them was only that they said, \"Indeed, we were wrongdoers",
@@ -354,7 +362,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 6,
@@ -368,7 +378,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَنَسۡءَلَنَّ ٱلَّذِینَ أُرۡسِلَ إِلَیۡهِمۡ وَلَنَسۡءَلَنَّ ٱلۡمُرۡسَلِینَ",
-    "ar_simple": "فلنسءلن ٱلذین أرسل إلیهم ولنسءلن ٱلمرسلین",
+    "ar_simple": "فَلَنَسْأَلَنَّ الَّذِينَ أُرْسِلَ إِلَيْهِمْ وَلَنَسْأَلَنَّ الْمُرْسَلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then We will surely question those to whom [a message] was sent, and We will surely question the messengers",
@@ -425,7 +435,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 7,
@@ -439,7 +451,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَنَقُصَّنَّ عَلَیۡهِم بِعِلۡمࣲۖ وَمَا كُنَّا غَاۤئِبِینَ",
-    "ar_simple": "فلنقصن علیهم بعلم وما كنا غائبین",
+    "ar_simple": "فَلَنَقُصَّنَّ عَلَيْهِمْ بِعِلْمٍ ۖ وَمَا كُنَّا غَائِبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then We will surely relate [their deeds] to them with knowledge, and We were not [at all] absent",
@@ -496,7 +508,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 8,
@@ -510,7 +524,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡوَزۡنُ یَوۡمَئِذٍ ٱلۡحَقُّۚ فَمَن ثَقُلَتۡ مَوَ ٰزِینُهُۥ فَأُو۟لَـٰۤئِكَ هُمُ ٱلۡمُفۡلِحُونَ",
-    "ar_simple": "وٱلوزن یومئذ ٱلحق فمن ثقلت مو زینه فأولئك هم ٱلمفلحون",
+    "ar_simple": "وَالْوَزْنُ يَوْمَئِذٍ الْحَقُّ ۚ فَمَنْ ثَقُلَتْ مَوَازِينُهُ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the weighing [of deeds] that Day will be the truth. So those whose scales are heavy - it is they who will be the successful",
@@ -567,7 +581,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 9,
@@ -581,7 +597,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَنۡ خَفَّتۡ مَوَ ٰزِینُهُۥ فَأُو۟لَـٰۤئِكَ ٱلَّذِینَ خَسِرُوۤا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِءَایَـٰتِنَا یَظۡلِمُونَ",
-    "ar_simple": "ومن خفت مو زینه فأولئك ٱلذین خسروا أنفسهم بما كانوا بءایتنا یظلمون",
+    "ar_simple": "وَمَنْ خَفَّتْ مَوَازِينُهُ فَأُولَٰئِكَ الَّذِينَ خَسِرُوا أَنْفُسَهُمْ بِمَا كَانُوا بِآيَاتِنَا يَظْلِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And those whose scales are light - they are the ones who will lose themselves for what injustice they were doing toward Our verses",
@@ -640,7 +656,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 10,
@@ -654,7 +672,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ مَكَّنَّـٰكُمۡ فِی ٱلۡأَرۡضِ وَجَعَلۡنَا لَكُمۡ فِیهَا مَعَـٰیِشَۗ قَلِیلࣰا مَّا تَشۡكُرُونَ",
-    "ar_simple": "ولقد مكنكم فی ٱلأرض وجعلنا لكم فیها معیش قلیلا ما تشكرون",
+    "ar_simple": "وَلَقَدْ مَكَّنَّاكُمْ فِي الْأَرْضِ وَجَعَلْنَا لَكُمْ فِيهَا مَعَايِشَ ۗ قَلِيلًا مَا تَشْكُرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have certainly established you upon the earth and made for you therein ways of livelihood. Little are you grateful",
@@ -709,7 +727,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 11,
@@ -723,7 +743,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ خَلَقۡنَـٰكُمۡ ثُمَّ صَوَّرۡنَـٰكُمۡ ثُمَّ قُلۡنَا لِلۡمَلَـٰۤئِكَةِ ٱسۡجُدُوا۟ لِءَادَمَ فَسَجَدُوۤا۟ إِلَّاۤ إِبۡلِیسَ لَمۡ یَكُن مِّنَ ٱلسَّـٰجِدِینَ",
-    "ar_simple": "ولقد خلقنكم ثم صورنكم ثم قلنا للملئكة ٱسجدوا لءادم فسجدوا إلا إبلیس لم یكن من ٱلسجدین",
+    "ar_simple": "وَلَقَدْ خَلَقْنَاكُمْ ثُمَّ صَوَّرْنَاكُمْ ثُمَّ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ لَمْ يَكُنْ مِنَ السَّاجِدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have certainly created you, [O Mankind], and given you [human] form. Then We said to the angels, \"Prostrate to Adam\"; so they prostrated, except for Iblees. He was not of those who prostrated",
@@ -771,7 +791,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 12,
@@ -785,7 +807,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ مَا مَنَعَكَ أَلَّا تَسۡجُدَ إِذۡ أَمَرۡتُكَۖ قَالَ أَنَا۠ خَیۡرࣱ مِّنۡهُ خَلَقۡتَنِی مِن نَّارࣲ وَخَلَقۡتَهُۥ مِن طِینࣲ",
-    "ar_simple": "قال ما منعك ألا تسجد إذ أمرتك قال أنا خیر منه خلقتنی من نار وخلقته من طین",
+    "ar_simple": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ ۖ قَالَ أَنَا خَيْرٌ مِنْهُ خَلَقْتَنِي مِنْ نَارٍ وَخَلَقْتَهُ مِنْ طِينٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah] said, \"What prevented you from prostrating when I commanded you?\" [Satan] said, \"I am better than him. You created me from fire and created him from clay",
@@ -833,7 +855,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 13,
@@ -847,7 +871,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ فَٱهۡبِطۡ مِنۡهَا فَمَا یَكُونُ لَكَ أَن تَتَكَبَّرَ فِیهَا فَٱخۡرُجۡ إِنَّكَ مِنَ ٱلصَّـٰغِرِینَ",
-    "ar_simple": "قال فٱهبط منها فما یكون لك أن تتكبر فیها فٱخرج إنك من ٱلصغرین",
+    "ar_simple": "قَالَ فَاهْبِطْ مِنْهَا فَمَا يَكُونُ لَكَ أَنْ تَتَكَبَّرَ فِيهَا فَاخْرُجْ إِنَّكَ مِنَ الصَّاغِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah] said, \"Descend from Paradise, for it is not for you to be arrogant therein. So get out; indeed, you are of the debased",
@@ -894,7 +918,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 14,
@@ -908,7 +934,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ أَنظِرۡنِیۤ إِلَىٰ یَوۡمِ یُبۡعَثُونَ",
-    "ar_simple": "قال أنظرنی إلى یوم یبعثون",
+    "ar_simple": "قَالَ أَنْظِرْنِي إِلَىٰ يَوْمِ يُبْعَثُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Satan] said, \"Reprieve me until the Day they are resurrected",
@@ -955,7 +981,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 15,
@@ -969,7 +997,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ إِنَّكَ مِنَ ٱلۡمُنظَرِینَ",
-    "ar_simple": "قال إنك من ٱلمنظرین",
+    "ar_simple": "قَالَ إِنَّكَ مِنَ الْمُنْظَرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah] said, \"Indeed, you are of those reprieved",
@@ -1014,7 +1042,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 16,
@@ -1028,7 +1058,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ فَبِمَاۤ أَغۡوَیۡتَنِی لَأَقۡعُدَنَّ لَهُمۡ صِرَ ٰطَكَ ٱلۡمُسۡتَقِیمَ",
-    "ar_simple": "قال فبما أغویتنی لأقعدن لهم صر طك ٱلمستقیم",
+    "ar_simple": "قَالَ فَبِمَا أَغْوَيْتَنِي لَأَقْعُدَنَّ لَهُمْ صِرَاطَكَ الْمُسْتَقِيمَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Satan] said, \"Because You have put me in error, I will surely sit in wait for them on Your straight path",
@@ -1075,7 +1105,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 17,
@@ -1089,7 +1121,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ لَءَاتِیَنَّهُم مِّنۢ بَیۡنِ أَیۡدِیهِمۡ وَمِنۡ خَلۡفِهِمۡ وَعَنۡ أَیۡمَـٰنِهِمۡ وَعَن شَمَاۤئِلِهِمۡۖ وَلَا تَجِدُ أَكۡثَرَهُمۡ شَـٰكِرِینَ",
-    "ar_simple": "ثم لءاتینهم من بین أیدیهم ومن خلفهم وعن أیمنهم وعن شمائلهم ولا تجد أكثرهم شكرین",
+    "ar_simple": "ثُمَّ لَآتِيَنَّهُمْ مِنْ بَيْنِ أَيْدِيهِمْ وَمِنْ خَلْفِهِمْ وَعَنْ أَيْمَانِهِمْ وَعَنْ شَمَائِلِهِمْ ۖ وَلَا تَجِدُ أَكْثَرَهُمْ شَاكِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then I will come to them from before them and from behind them and on their right and on their left, and You will not find most of them grateful [to You]",
@@ -1134,7 +1166,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 18,
@@ -1148,7 +1182,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱخۡرُجۡ مِنۡهَا مَذۡءُومࣰا مَّدۡحُورࣰاۖ لَّمَن تَبِعَكَ مِنۡهُمۡ لَأَمۡلَأَنَّ جَهَنَّمَ مِنكُمۡ أَجۡمَعِینَ",
-    "ar_simple": "قال ٱخرج منها مذءوما مدحورا لمن تبعك منهم لأملأن جهنم منكم أجمعین",
+    "ar_simple": "قَالَ اخْرُجْ مِنْهَا مَذْءُومًا مَدْحُورًا ۖ لَمَنْ تَبِعَكَ مِنْهُمْ لَأَمْلَأَنَّ جَهَنَّمَ مِنْكُمْ أَجْمَعِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah] said, \"Get out of Paradise, reproached and expelled. Whoever follows you among them - I will surely fill Hell with you, all together",
@@ -1195,7 +1229,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 19,
@@ -1209,7 +1245,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیَـٰۤءَادَمُ ٱسۡكُنۡ أَنتَ وَزَوۡجُكَ ٱلۡجَنَّةَ فَكُلَا مِنۡ حَیۡثُ شِئۡتُمَا وَلَا تَقۡرَبَا هَـٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّـٰلِمِینَ",
-    "ar_simple": "ویءادم ٱسكن أنت وزوجك ٱلجنة فكلا من حیث شئتما ولا تقربا هذه ٱلشجرة فتكونا من ٱلظلمین",
+    "ar_simple": "وَيَا آدَمُ اسْكُنْ أَنْتَ وَزَوْجُكَ الْجَنَّةَ فَكُلَا مِنْ حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ الشَّجَرَةَ فَتَكُونَا مِنَ الظَّالِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And \"O Adam, dwell, you and your wife, in Paradise and eat from wherever you will but do not approach this tree, lest you be among the wrongdoers",
@@ -1258,7 +1294,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 20,
@@ -1272,7 +1310,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَوَسۡوَسَ لَهُمَا ٱلشَّیۡطَـٰنُ لِیُبۡدِیَ لَهُمَا مَا وُۥرِیَ عَنۡهُمَا مِن سَوۡءَ ٰتِهِمَا وَقَالَ مَا نَهَىٰكُمَا رَبُّكُمَا عَنۡ هَـٰذِهِ ٱلشَّجَرَةِ إِلَّاۤ أَن تَكُونَا مَلَكَیۡنِ أَوۡ تَكُونَا مِنَ ٱلۡخَـٰلِدِینَ",
-    "ar_simple": "فوسوس لهما ٱلشیطن لیبدی لهما ما وری عنهما من سوء تهما وقال ما نهىكما ربكما عن هذه ٱلشجرة إلا أن تكونا ملكین أو تكونا من ٱلخلدین",
+    "ar_simple": "فَوَسْوَسَ لَهُمَا الشَّيْطَانُ لِيُبْدِيَ لَهُمَا مَا وُورِيَ عَنْهُمَا مِنْ سَوْآتِهِمَا وَقَالَ مَا نَهَاكُمَا رَبُّكُمَا عَنْ هَٰذِهِ الشَّجَرَةِ إِلَّا أَنْ تَكُونَا مَلَكَيْنِ أَوْ تَكُونَا مِنَ الْخَالِدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But Satan whispered to them to make apparent to them that which was concealed from them of their private parts. He said, \"Your Lord did not forbid you this tree except that you become angels or become of the immortal",
@@ -1321,7 +1359,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 21,
@@ -1335,7 +1375,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَاسَمَهُمَاۤ إِنِّی لَكُمَا لَمِنَ ٱلنَّـٰصِحِینَ",
-    "ar_simple": "وقاسمهما إنی لكما لمن ٱلنصحین",
+    "ar_simple": "وَقَاسَمَهُمَا إِنِّي لَكُمَا لَمِنَ النَّاصِحِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And he swore [by Allah] to them, \"Indeed, I am to you from among the sincere advisors",
@@ -1382,7 +1422,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 22,
@@ -1396,7 +1438,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَدَلَّىٰهُمَا بِغُرُورࣲۚ فَلَمَّا ذَاقَا ٱلشَّجَرَةَ بَدَتۡ لَهُمَا سَوۡءَ ٰتُهُمَا وَطَفِقَا یَخۡصِفَانِ عَلَیۡهِمَا مِن وَرَقِ ٱلۡجَنَّةِۖ وَنَادَىٰهُمَا رَبُّهُمَاۤ أَلَمۡ أَنۡهَكُمَا عَن تِلۡكُمَا ٱلشَّجَرَةِ وَأَقُل لَّكُمَاۤ إِنَّ ٱلشَّیۡطَـٰنَ لَكُمَا عَدُوࣱّ مُّبِینࣱ",
-    "ar_simple": "فدلىهما بغرور فلما ذاقا ٱلشجرة بدت لهما سوء تهما وطفقا یخصفان علیهما من ورق ٱلجنة ونادىهما ربهما ألم أنهكما عن تلكما ٱلشجرة وأقل لكما إن ٱلشیطن لكما عدو مبین",
+    "ar_simple": "فَدَلَّاهُمَا بِغُرُورٍ ۚ فَلَمَّا ذَاقَا الشَّجَرَةَ بَدَتْ لَهُمَا سَوْآتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِنْ وَرَقِ الْجَنَّةِ ۖ وَنَادَاهُمَا رَبُّهُمَا أَلَمْ أَنْهَكُمَا عَنْ تِلْكُمَا الشَّجَرَةِ وَأَقُلْ لَكُمَا إِنَّ الشَّيْطَانَ لَكُمَا عَدُوٌّ مُبِينٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "So he made them fall, through deception. And when they tasted of the tree, their private parts became apparent to them, and they began to fasten together over themselves from the leaves of Paradise. And their Lord called to them, \"Did I not forbid you from that tree and tell you that Satan is to you a clear enemy",
@@ -1447,7 +1489,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 23,
@@ -1461,7 +1505,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَا رَبَّنَا ظَلَمۡنَاۤ أَنفُسَنَا وَإِن لَّمۡ تَغۡفِرۡ لَنَا وَتَرۡحَمۡنَا لَنَكُونَنَّ مِنَ ٱلۡخَـٰسِرِینَ",
-    "ar_simple": "قالا ربنا ظلمنا أنفسنا وإن لم تغفر لنا وترحمنا لنكونن من ٱلخسرین",
+    "ar_simple": "قَالَا رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They said, \"Our Lord, we have wronged ourselves, and if You do not forgive us and have mercy upon us, we will surely be among the losers",
@@ -1508,7 +1552,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 24,
@@ -1522,7 +1568,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱهۡبِطُوا۟ بَعۡضُكُمۡ لِبَعۡضٍ عَدُوࣱّۖ وَلَكُمۡ فِی ٱلۡأَرۡضِ مُسۡتَقَرࣱّ وَمَتَـٰعٌ إِلَىٰ حِینࣲ",
-    "ar_simple": "قال ٱهبطوا بعضكم لبعض عدو ولكم فی ٱلأرض مستقر ومتع إلى حین",
+    "ar_simple": "قَالَ اهْبِطُوا بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ وَمَتَاعٌ إِلَىٰ حِينٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah] said, \"Descend, being to one another enemies. And for you on the earth is a place of settlement and enjoyment for a time",
@@ -1567,7 +1613,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 25,
@@ -1581,7 +1629,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ فِیهَا تَحۡیَوۡنَ وَفِیهَا تَمُوتُونَ وَمِنۡهَا تُخۡرَجُونَ",
-    "ar_simple": "قال فیها تحیون وفیها تموتون ومنها تخرجون",
+    "ar_simple": "قَالَ فِيهَا تَحْيَوْنَ وَفِيهَا تَمُوتُونَ وَمِنْهَا تُخْرَجُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "He said, \"Therein you will live, and therein you will die, and from it you will be brought forth",
@@ -1628,7 +1676,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 26,
@@ -1642,7 +1692,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰبَنِیۤ ءَادَمَ قَدۡ أَنزَلۡنَا عَلَیۡكُمۡ لِبَاسࣰا یُوَ ٰرِی سَوۡءَ ٰتِكُمۡ وَرِیشࣰاۖ وَلِبَاسُ ٱلتَّقۡوَىٰ ذَ ٰلِكَ خَیۡرࣱۚ ذَ ٰلِكَ مِنۡ ءَایَـٰتِ ٱللَّهِ لَعَلَّهُمۡ یَذَّكَّرُونَ",
-    "ar_simple": "یبنی ءادم قد أنزلنا علیكم لباسا یو ری سوء تكم وریشا ولباس ٱلتقوى ذ لك خیر ذ لك من ءایت ٱلله لعلهم یذكرون",
+    "ar_simple": "يَا بَنِي آدَمَ قَدْ أَنْزَلْنَا عَلَيْكُمْ لِبَاسًا يُوَارِي سَوْآتِكُمْ وَرِيشًا ۖ وَلِبَاسُ التَّقْوَىٰ ذَٰلِكَ خَيْرٌ ۚ ذَٰلِكَ مِنْ آيَاتِ اللَّهِ لَعَلَّهُمْ يَذَّكَّرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "O children of Adam, We have bestowed upon you clothing to conceal your private parts and as adornment. But the clothing of righteousness - that is best. That is from the signs of Allah that perhaps they will remember",
@@ -1690,7 +1740,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 27,
@@ -1704,7 +1756,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰبَنِیۤ ءَادَمَ لَا یَفۡتِنَنَّكُمُ ٱلشَّیۡطَـٰنُ كَمَاۤ أَخۡرَجَ أَبَوَیۡكُم مِّنَ ٱلۡجَنَّةِ یَنزِعُ عَنۡهُمَا لِبَاسَهُمَا لِیُرِیَهُمَا سَوۡءَ ٰتِهِمَاۤۚ إِنَّهُۥ یَرَىٰكُمۡ هُوَ وَقَبِیلُهُۥ مِنۡ حَیۡثُ لَا تَرَوۡنَهُمۡۗ إِنَّا جَعَلۡنَا ٱلشَّیَـٰطِینَ أَوۡلِیَاۤءَ لِلَّذِینَ لَا یُؤۡمِنُونَ",
-    "ar_simple": "یبنی ءادم لا یفتننكم ٱلشیطن كما أخرج أبویكم من ٱلجنة ینزع عنهما لباسهما لیریهما سوء تهما إنه یرىكم هو وقبیله من حیث لا ترونهم إنا جعلنا ٱلشیطین أولیاء للذین لا یؤمنون",
+    "ar_simple": "يَا بَنِي آدَمَ لَا يَفْتِنَنَّكُمُ الشَّيْطَانُ كَمَا أَخْرَجَ أَبَوَيْكُمْ مِنَ الْجَنَّةِ يَنْزِعُ عَنْهُمَا لِبَاسَهُمَا لِيُرِيَهُمَا سَوْآتِهِمَا ۗ إِنَّهُ يَرَاكُمْ هُوَ وَقَبِيلُهُ مِنْ حَيْثُ لَا تَرَوْنَهُمْ ۗ إِنَّا جَعَلْنَا الشَّيَاطِينَ أَوْلِيَاءَ لِلَّذِينَ لَا يُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "O children of Adam, let not Satan tempt you as he removed your parents from Paradise, stripping them of their clothing to show them their private parts. Indeed, he sees you, he and his tribe, from where you do not see them. Indeed, We have made the devils allies to those who do not believe",
@@ -1754,7 +1806,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 28,
@@ -1768,7 +1822,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا فَعَلُوا۟ فَـٰحِشَةࣰ قَالُوا۟ وَجَدۡنَا عَلَیۡهَاۤ ءَابَاۤءَنَا وَٱللَّهُ أَمَرَنَا بِهَاۗ قُلۡ إِنَّ ٱللَّهَ لَا یَأۡمُرُ بِٱلۡفَحۡشَاۤءِۖ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ",
-    "ar_simple": "وإذا فعلوا فحشة قالوا وجدنا علیها ءاباءنا وٱلله أمرنا بها قل إن ٱلله لا یأمر بٱلفحشاء أتقولون على ٱلله ما لا تعلمون",
+    "ar_simple": "وَإِذَا فَعَلُوا فَاحِشَةً قَالُوا وَجَدْنَا عَلَيْهَا آبَاءَنَا وَاللَّهُ أَمَرَنَا بِهَا ۗ قُلْ إِنَّ اللَّهَ لَا يَأْمُرُ بِالْفَحْشَاءِ ۖ أَتَقُولُونَ عَلَى اللَّهِ مَا لَا تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when they commit an immorality, they say, \"We found our fathers doing it, and Allah has ordered us to do it.\" Say, \"Indeed, Allah does not order immorality. Do you say about Allah that which you do not know",
@@ -1816,7 +1870,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 29,
@@ -1830,7 +1886,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُلۡ أَمَرَ رَبِّی بِٱلۡقِسۡطِۖ وَأَقِیمُوا۟ وُجُوهَكُمۡ عِندَ كُلِّ مَسۡجِدࣲ وَٱدۡعُوهُ مُخۡلِصِینَ لَهُ ٱلدِّینَۚ كَمَا بَدَأَكُمۡ تَعُودُونَ",
-    "ar_simple": "قل أمر ربی بٱلقسط وأقیموا وجوهكم عند كل مسجد وٱدعوه مخلصین له ٱلدین كما بدأكم تعودون",
+    "ar_simple": "قُلْ أَمَرَ رَبِّي بِالْقِسْطِ ۖ وَأَقِيمُوا وُجُوهَكُمْ عِنْدَ كُلِّ مَسْجِدٍ وَادْعُوهُ مُخْلِصِينَ لَهُ الدِّينَ ۚ كَمَا بَدَأَكُمْ تَعُودُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, [O Muhammad], \"My Lord has ordered justice and that you maintain yourselves [in worship of Him] at every place [or time] of prostration, and invoke Him, sincere to Him in religion.\" Just as He originated you, you will return [to life]",
@@ -1880,7 +1936,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 30,
@@ -1894,7 +1952,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَرِیقًا هَدَىٰ وَفَرِیقًا حَقَّ عَلَیۡهِمُ ٱلضَّلَـٰلَةُۚ إِنَّهُمُ ٱتَّخَذُوا۟ ٱلشَّیَـٰطِینَ أَوۡلِیَاۤءَ مِن دُونِ ٱللَّهِ وَیَحۡسَبُونَ أَنَّهُم مُّهۡتَدُونَ",
-    "ar_simple": "فریقا هدى وفریقا حق علیهم ٱلضللة إنهم ٱتخذوا ٱلشیطین أولیاء من دون ٱلله ویحسبون أنهم مهتدون",
+    "ar_simple": "فَرِيقًا هَدَىٰ وَفَرِيقًا حَقَّ عَلَيْهِمُ الضَّلَالَةُ ۗ إِنَّهُمُ اتَّخَذُوا الشَّيَاطِينَ أَوْلِيَاءَ مِنْ دُونِ اللَّهِ وَيَحْسَبُونَ أَنَّهُمْ مُهْتَدُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "A group [of you] He guided, and a group deserved [to be in] error. Indeed, they had taken the devils as allies instead of Allah while they thought that they were guided",
@@ -1942,7 +2000,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 61
   },
   {
     "n": 31,
@@ -1956,7 +2016,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ یَـٰبَنِیۤ ءَادَمَ خُذُوا۟ زِینَتَكُمۡ عِندَ كُلِّ مَسۡجِدࣲ وَكُلُوا۟ وَٱشۡرَبُوا۟ وَلَا تُسۡرِفُوۤا۟ۚ إِنَّهُۥ لَا یُحِبُّ ٱلۡمُسۡرِفِینَ",
-    "ar_simple": "یبنی ءادم خذوا زینتكم عند كل مسجد وكلوا وٱشربوا ولا تسرفوا إنه لا یحب ٱلمسرفین",
+    "ar_simple": "۞ يَا بَنِي آدَمَ خُذُوا زِينَتَكُمْ عِنْدَ كُلِّ مَسْجِدٍ وَكُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا ۚ إِنَّهُ لَا يُحِبُّ الْمُسْرِفِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "O children of Adam, take your adornment at every masjid, and eat and drink, but be not excessive. Indeed, He likes not those who commit excess",
@@ -2005,7 +2065,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 32,
@@ -2019,7 +2081,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُلۡ مَنۡ حَرَّمَ زِینَةَ ٱللَّهِ ٱلَّتِیۤ أَخۡرَجَ لِعِبَادِهِۦ وَٱلطَّیِّبَـٰتِ مِنَ ٱلرِّزۡقِۚ قُلۡ هِیَ لِلَّذِینَ ءَامَنُوا۟ فِی ٱلۡحَیَوٰةِ ٱلدُّنۡیَا خَالِصَةࣰ یَوۡمَ ٱلۡقِیَـٰمَةِۗ كَذَ ٰلِكَ نُفَصِّلُ ٱلۡءَایَـٰتِ لِقَوۡمࣲ یَعۡلَمُونَ",
-    "ar_simple": "قل من حرم زینة ٱلله ٱلتی أخرج لعباده وٱلطیبت من ٱلرزق قل هی للذین ءامنوا فی ٱلحیوة ٱلدنیا خالصة یوم ٱلقیمة كذ لك نفصل ٱلءایت لقوم یعلمون",
+    "ar_simple": "قُلْ مَنْ حَرَّمَ زِينَةَ اللَّهِ الَّتِي أَخْرَجَ لِعِبَادِهِ وَالطَّيِّبَاتِ مِنَ الرِّزْقِ ۚ قُلْ هِيَ لِلَّذِينَ آمَنُوا فِي الْحَيَاةِ الدُّنْيَا خَالِصَةً يَوْمَ الْقِيَامَةِ ۗ كَذَٰلِكَ نُفَصِّلُ الْآيَاتِ لِقَوْمٍ يَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, \"Who has forbidden the adornment of Allah which He has produced for His servants and the good [lawful] things of provision?\" Say, \"They are for those who believe during the worldly life [but] exclusively for them on the Day of Resurrection.\" Thus do We detail the verses for a people who know",
@@ -2069,7 +2131,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 33,
@@ -2083,7 +2147,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُلۡ إِنَّمَا حَرَّمَ رَبِّیَ ٱلۡفَوَ ٰحِشَ مَا ظَهَرَ مِنۡهَا وَمَا بَطَنَ وَٱلۡإِثۡمَ وَٱلۡبَغۡیَ بِغَیۡرِ ٱلۡحَقِّ وَأَن تُشۡرِكُوا۟ بِٱللَّهِ مَا لَمۡ یُنَزِّلۡ بِهِۦ سُلۡطَـٰنࣰا وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعۡلَمُونَ",
-    "ar_simple": "قل إنما حرم ربی ٱلفو حش ما ظهر منها وما بطن وٱلإثم وٱلبغی بغیر ٱلحق وأن تشركوا بٱلله ما لم ینزل به سلطنا وأن تقولوا على ٱلله ما لا تعلمون",
+    "ar_simple": "قُلْ إِنَّمَا حَرَّمَ رَبِّيَ الْفَوَاحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَالْإِثْمَ وَالْبَغْيَ بِغَيْرِ الْحَقِّ وَأَنْ تُشْرِكُوا بِاللَّهِ مَا لَمْ يُنَزِّلْ بِهِ سُلْطَانًا وَأَنْ تَقُولُوا عَلَى اللَّهِ مَا لَا تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, \"My Lord has only forbidden immoralities - what is apparent of them and what is concealed - and sin, and oppression without right, and that you associate with Allah that for which He has not sent down authority, and that you say about Allah that which you do not know",
@@ -2133,7 +2197,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 34,
@@ -2147,7 +2213,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلِكُلِّ أُمَّةٍ أَجَلࣱۖ فَإِذَا جَاۤءَ أَجَلُهُمۡ لَا یَسۡتَأۡخِرُونَ سَاعَةࣰ وَلَا یَسۡتَقۡدِمُونَ",
-    "ar_simple": "ولكل أمة أجل فإذا جاء أجلهم لا یستأخرون ساعة ولا یستقدمون",
+    "ar_simple": "وَلِكُلِّ أُمَّةٍ أَجَلٌ ۖ فَإِذَا جَاءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And for every nation is a [specified] term. So when their time has come, they will not remain behind an hour, nor will they precede [it]",
@@ -2192,7 +2258,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 35,
@@ -2206,7 +2274,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰبَنِیۤ ءَادَمَ إِمَّا یَأۡتِیَنَّكُمۡ رُسُلࣱ مِّنكُمۡ یَقُصُّونَ عَلَیۡكُمۡ ءَایَـٰتِی فَمَنِ ٱتَّقَىٰ وَأَصۡلَحَ فَلَا خَوۡفٌ عَلَیۡهِمۡ وَلَا هُمۡ یَحۡزَنُونَ",
-    "ar_simple": "یبنی ءادم إما یأتینكم رسل منكم یقصون علیكم ءایتی فمن ٱتقى وأصلح فلا خوف علیهم ولا هم یحزنون",
+    "ar_simple": "يَا بَنِي آدَمَ إِمَّا يَأْتِيَنَّكُمْ رُسُلٌ مِنْكُمْ يَقُصُّونَ عَلَيْكُمْ آيَاتِي ۙ فَمَنِ اتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "O children of Adam, if there come to you messengers from among you relating to you My verses, then whoever fears Allah and reforms - there will be no fear concerning them, nor will they grieve",
@@ -2255,7 +2323,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 36,
@@ -2269,7 +2339,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَا وَٱسۡتَكۡبَرُوا۟ عَنۡهَاۤ أُو۟لَـٰۤئِكَ أَصۡحَـٰبُ ٱلنَّارِۖ هُمۡ فِیهَا خَـٰلِدُونَ",
-    "ar_simple": "وٱلذین كذبوا بءایتنا وٱستكبروا عنها أولئك أصحب ٱلنار هم فیها خلدون",
+    "ar_simple": "وَالَّذِينَ كَذَّبُوا بِآيَاتِنَا وَاسْتَكْبَرُوا عَنْهَا أُولَٰئِكَ أَصْحَابُ النَّارِ ۖ هُمْ فِيهَا خَالِدُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But the ones who deny Our verses and are arrogant toward them - those are the companions of the Fire; they will abide therein eternally",
@@ -2318,7 +2388,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 37,
@@ -2332,7 +2404,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَمَنۡ أَظۡلَمُ مِمَّنِ ٱفۡتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوۡ كَذَّبَ بِءَایَـٰتِهِۦۤۚ أُو۟لَـٰۤئِكَ یَنَالُهُمۡ نَصِیبُهُم مِّنَ ٱلۡكِتَـٰبِۖ حَتَّىٰۤ إِذَا جَاۤءَتۡهُمۡ رُسُلُنَا یَتَوَفَّوۡنَهُمۡ قَالُوۤا۟ أَیۡنَ مَا كُنتُمۡ تَدۡعُونَ مِن دُونِ ٱللَّهِۖ قَالُوا۟ ضَلُّوا۟ عَنَّا وَشَهِدُوا۟ عَلَىٰۤ أَنفُسِهِمۡ أَنَّهُمۡ كَانُوا۟ كَـٰفِرِینَ",
-    "ar_simple": "فمن أظلم ممن ٱفترى على ٱلله كذبا أو كذب بءایته أولئك ینالهم نصیبهم من ٱلكتب حتى إذا جاءتهم رسلنا یتوفونهم قالوا أین ما كنتم تدعون من دون ٱلله قالوا ضلوا عنا وشهدوا على أنفسهم أنهم كانوا كفرین",
+    "ar_simple": "فَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَوْ كَذَّبَ بِآيَاتِهِ ۚ أُولَٰئِكَ يَنَالُهُمْ نَصِيبُهُمْ مِنَ الْكِتَابِ ۖ حَتَّىٰ إِذَا جَاءَتْهُمْ رُسُلُنَا يَتَوَفَّوْنَهُمْ قَالُوا أَيْنَ مَا كُنْتُمْ تَدْعُونَ مِنْ دُونِ اللَّهِ ۖ قَالُوا ضَلُّوا عَنَّا وَشَهِدُوا عَلَىٰ أَنْفُسِهِمْ أَنَّهُمْ كَانُوا كَافِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And who is more unjust than one who invents about Allah a lie or denies His verses? Those will attain their portion of the decree until when Our messengers come to them to take them in death, they will say, \"Where are those you used to invoke besides Allah?\" They will say, \"They have departed from us,\" and will bear witness against themselves that they were disbelievers",
@@ -2383,7 +2455,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 38,
@@ -2397,7 +2471,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱدۡخُلُوا۟ فِیۤ أُمَمࣲ قَدۡ خَلَتۡ مِن قَبۡلِكُم مِّنَ ٱلۡجِنِّ وَٱلۡإِنسِ فِی ٱلنَّارِۖ كُلَّمَا دَخَلَتۡ أُمَّةࣱ لَّعَنَتۡ أُخۡتَهَاۖ حَتَّىٰۤ إِذَا ٱدَّارَكُوا۟ فِیهَا جَمِیعࣰا قَالَتۡ أُخۡرَىٰهُمۡ لِأُولَىٰهُمۡ رَبَّنَا هَـٰۤؤُلَاۤءِ أَضَلُّونَا فَءَاتِهِمۡ عَذَابࣰا ضِعۡفࣰا مِّنَ ٱلنَّارِۖ قَالَ لِكُلࣲّ ضِعۡفࣱ وَلَـٰكِن لَّا تَعۡلَمُونَ",
-    "ar_simple": "قال ٱدخلوا فی أمم قد خلت من قبلكم من ٱلجن وٱلإنس فی ٱلنار كلما دخلت أمة لعنت أختها حتى إذا ٱداركوا فیها جمیعا قالت أخرىهم لأولىهم ربنا هؤلاء أضلونا فءاتهم عذابا ضعفا من ٱلنار قال لكل ضعف ولكن لا تعلمون",
+    "ar_simple": "قَالَ ادْخُلُوا فِي أُمَمٍ قَدْ خَلَتْ مِنْ قَبْلِكُمْ مِنَ الْجِنِّ وَالْإِنْسِ فِي النَّارِ ۖ كُلَّمَا دَخَلَتْ أُمَّةٌ لَعَنَتْ أُخْتَهَا ۖ حَتَّىٰ إِذَا ادَّارَكُوا فِيهَا جَمِيعًا قَالَتْ أُخْرَاهُمْ لِأُولَاهُمْ رَبَّنَا هَٰؤُلَاءِ أَضَلُّونَا فَآتِهِمْ عَذَابًا ضِعْفًا مِنَ النَّارِ ۖ قَالَ لِكُلٍّ ضِعْفٌ وَلَٰكِنْ لَا تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah] will say, \"Enter among nations which had passed on before you of jinn and mankind into the Fire.\" Every time a nation enters, it will curse its sister until, when they have all overtaken one another therein, the last of them will say about the first of them \"Our Lord, these had misled us, so give them a double punishment of the Fire. He will say, \"For each is double, but you do not know",
@@ -2445,7 +2519,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 39,
@@ -2459,7 +2535,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالَتۡ أُولَىٰهُمۡ لِأُخۡرَىٰهُمۡ فَمَا كَانَ لَكُمۡ عَلَیۡنَا مِن فَضۡلࣲ فَذُوقُوا۟ ٱلۡعَذَابَ بِمَا كُنتُمۡ تَكۡسِبُونَ",
-    "ar_simple": "وقالت أولىهم لأخرىهم فما كان لكم علینا من فضل فذوقوا ٱلعذاب بما كنتم تكسبون",
+    "ar_simple": "وَقَالَتْ أُولَاهُمْ لِأُخْرَاهُمْ فَمَا كَانَ لَكُمْ عَلَيْنَا مِنْ فَضْلٍ فَذُوقُوا الْعَذَابَ بِمَا كُنْتُمْ تَكْسِبُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the first of them will say to the last of them, \"Then you had not any favor over us, so taste the punishment for what you used to earn",
@@ -2506,7 +2582,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 40,
@@ -2520,7 +2598,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَا وَٱسۡتَكۡبَرُوا۟ عَنۡهَا لَا تُفَتَّحُ لَهُمۡ أَبۡوَ ٰبُ ٱلسَّمَاۤءِ وَلَا یَدۡخُلُونَ ٱلۡجَنَّةَ حَتَّىٰ یَلِجَ ٱلۡجَمَلُ فِی سَمِّ ٱلۡخِیَاطِۚ وَكَذَ ٰلِكَ نَجۡزِی ٱلۡمُجۡرِمِینَ",
-    "ar_simple": "إن ٱلذین كذبوا بءایتنا وٱستكبروا عنها لا تفتح لهم أبو ب ٱلسماء ولا یدخلون ٱلجنة حتى یلج ٱلجمل فی سم ٱلخیاط وكذ لك نجزی ٱلمجرمین",
+    "ar_simple": "إِنَّ الَّذِينَ كَذَّبُوا بِآيَاتِنَا وَاسْتَكْبَرُوا عَنْهَا لَا تُفَتَّحُ لَهُمْ أَبْوَابُ السَّمَاءِ وَلَا يَدْخُلُونَ الْجَنَّةَ حَتَّىٰ يَلِجَ الْجَمَلُ فِي سَمِّ الْخِيَاطِ ۚ وَكَذَٰلِكَ نَجْزِي الْمُجْرِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those who deny Our verses and are arrogant toward them - the gates of Heaven will not be opened for them, nor will they enter Paradise until a camel enters into the eye of a needle. And thus do We recompense the criminals",
@@ -2570,7 +2648,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 41,
@@ -2584,7 +2664,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَهُم مِّن جَهَنَّمَ مِهَادࣱ وَمِن فَوۡقِهِمۡ غَوَاشࣲۚ وَكَذَ ٰلِكَ نَجۡزِی ٱلظَّـٰلِمِینَ",
-    "ar_simple": "لهم من جهنم مهاد ومن فوقهم غواش وكذ لك نجزی ٱلظلمین",
+    "ar_simple": "لَهُمْ مِنْ جَهَنَّمَ مِهَادٌ وَمِنْ فَوْقِهِمْ غَوَاشٍ ۚ وَكَذَٰلِكَ نَجْزِي الظَّالِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They will have from Hell a bed and over them coverings [of fire]. And thus do We recompense the wrongdoers",
@@ -2631,7 +2711,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 42,
@@ -2645,7 +2727,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَا نُكَلِّفُ نَفۡسًا إِلَّا وُسۡعَهَاۤ أُو۟لَـٰۤئِكَ أَصۡحَـٰبُ ٱلۡجَنَّةِۖ هُمۡ فِیهَا خَـٰلِدُونَ",
-    "ar_simple": "وٱلذین ءامنوا وعملوا ٱلصلحت لا نكلف نفسا إلا وسعها أولئك أصحب ٱلجنة هم فیها خلدون",
+    "ar_simple": "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا أُولَٰئِكَ أَصْحَابُ الْجَنَّةِ ۖ هُمْ فِيهَا خَالِدُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But those who believed and did righteous deeds - We charge no soul except [within] its capacity. Those are the companions of Paradise; they will abide therein eternally",
@@ -2695,7 +2777,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 43,
@@ -2709,7 +2793,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَنَزَعۡنَا مَا فِی صُدُورِهِم مِّنۡ غِلࣲّ تَجۡرِی مِن تَحۡتِهِمُ ٱلۡأَنۡهَـٰرُۖ وَقَالُوا۟ ٱلۡحَمۡدُ لِلَّهِ ٱلَّذِی هَدَىٰنَا لِهَـٰذَا وَمَا كُنَّا لِنَهۡتَدِیَ لَوۡلَاۤ أَنۡ هَدَىٰنَا ٱللَّهُۖ لَقَدۡ جَاۤءَتۡ رُسُلُ رَبِّنَا بِٱلۡحَقِّۖ وَنُودُوۤا۟ أَن تِلۡكُمُ ٱلۡجَنَّةُ أُورِثۡتُمُوهَا بِمَا كُنتُمۡ تَعۡمَلُونَ",
-    "ar_simple": "ونزعنا ما فی صدورهم من غل تجری من تحتهم ٱلأنهر وقالوا ٱلحمد لله ٱلذی هدىنا لهذا وما كنا لنهتدی لولا أن هدىنا ٱلله لقد جاءت رسل ربنا بٱلحق ونودوا أن تلكم ٱلجنة أورثتموها بما كنتم تعملون",
+    "ar_simple": "وَنَزَعْنَا مَا فِي صُدُورِهِمْ مِنْ غِلٍّ تَجْرِي مِنْ تَحْتِهِمُ الْأَنْهَارُ ۖ وَقَالُوا الْحَمْدُ لِلَّهِ الَّذِي هَدَانَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِيَ لَوْلَا أَنْ هَدَانَا اللَّهُ ۖ لَقَدْ جَاءَتْ رُسُلُ رَبِّنَا بِالْحَقِّ ۖ وَنُودُوا أَنْ تِلْكُمُ الْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنْتُمْ تَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We will have removed whatever is within their breasts of resentment, [while] flowing beneath them are rivers. And they will say, \"Praise to Allah, who has guided us to this; and we would never have been guided if Allah had not guided us. Certainly the messengers of our Lord had come with the truth.\" And they will be called, \"This is Paradise, which you have been made to inherit for what you used to do",
@@ -2758,7 +2842,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 44,
@@ -2772,7 +2858,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَنَادَىٰۤ أَصۡحَـٰبُ ٱلۡجَنَّةِ أَصۡحَـٰبَ ٱلنَّارِ أَن قَدۡ وَجَدۡنَا مَا وَعَدَنَا رَبُّنَا حَقࣰّا فَهَلۡ وَجَدتُّم مَّا وَعَدَ رَبُّكُمۡ حَقࣰّاۖ قَالُوا۟ نَعَمۡۚ فَأَذَّنَ مُؤَذِّنُۢ بَیۡنَهُمۡ أَن لَّعۡنَةُ ٱللَّهِ عَلَى ٱلظَّـٰلِمِینَ",
-    "ar_simple": "ونادى أصحب ٱلجنة أصحب ٱلنار أن قد وجدنا ما وعدنا ربنا حقا فهل وجدتم ما وعد ربكم حقا قالوا نعم فأذن مؤذن بینهم أن لعنة ٱلله على ٱلظلمین",
+    "ar_simple": "وَنَادَىٰ أَصْحَابُ الْجَنَّةِ أَصْحَابَ النَّارِ أَنْ قَدْ وَجَدْنَا مَا وَعَدَنَا رَبُّنَا حَقًّا فَهَلْ وَجَدْتُمْ مَا وَعَدَ رَبُّكُمْ حَقًّا ۖ قَالُوا نَعَمْ ۚ فَأَذَّنَ مُؤَذِّنٌ بَيْنَهُمْ أَنْ لَعْنَةُ اللَّهِ عَلَى الظَّالِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the companions of Paradise will call out to the companions of the Fire, \"We have already found what our Lord promised us to be true. Have you found what your Lord promised to be true?\" They will say, \"Yes.\" Then an announcer will announce among them, \"The curse of Allah shall be upon the wrongdoers",
@@ -2820,7 +2906,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 45,
@@ -2834,7 +2922,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِینَ یَصُدُّونَ عَن سَبِیلِ ٱللَّهِ وَیَبۡغُونَهَا عِوَجࣰا وَهُم بِٱلۡءَاخِرَةِ كَـٰفِرُونَ",
-    "ar_simple": "ٱلذین یصدون عن سبیل ٱلله ویبغونها عوجا وهم بٱلءاخرة كفرون",
+    "ar_simple": "الَّذِينَ يَصُدُّونَ عَنْ سَبِيلِ اللَّهِ وَيَبْغُونَهَا عِوَجًا وَهُمْ بِالْآخِرَةِ كَافِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who averted [people] from the way of Allah and sought to make it [seem] deviant while they were, concerning the Hereafter, disbelievers",
@@ -2882,7 +2970,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 46,
@@ -2896,7 +2986,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَبَیۡنَهُمَا حِجَابࣱۚ وَعَلَى ٱلۡأَعۡرَافِ رِجَالࣱ یَعۡرِفُونَ كُلَّۢا بِسِیمَىٰهُمۡۚ وَنَادَوۡا۟ أَصۡحَـٰبَ ٱلۡجَنَّةِ أَن سَلَـٰمٌ عَلَیۡكُمۡۚ لَمۡ یَدۡخُلُوهَا وَهُمۡ یَطۡمَعُونَ",
-    "ar_simple": "وبینهما حجاب وعلى ٱلأعراف رجال یعرفون كلا بسیمىهم ونادوا أصحب ٱلجنة أن سلم علیكم لم یدخلوها وهم یطمعون",
+    "ar_simple": "وَبَيْنَهُمَا حِجَابٌ ۚ وَعَلَى الْأَعْرَافِ رِجَالٌ يَعْرِفُونَ كُلًّا بِسِيمَاهُمْ ۚ وَنَادَوْا أَصْحَابَ الْجَنَّةِ أَنْ سَلَامٌ عَلَيْكُمْ ۚ لَمْ يَدْخُلُوهَا وَهُمْ يَطْمَعُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And between them will be a partition, and on [its] elevations are men who recognize all by their mark. And they call out to the companions of Paradise, \"Peace be upon you.\" They have not [yet] entered it, but they long intensely",
@@ -2944,7 +3034,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 62
   },
   {
     "n": 47,
@@ -2958,7 +3050,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ وَإِذَا صُرِفَتۡ أَبۡصَـٰرُهُمۡ تِلۡقَاۤءَ أَصۡحَـٰبِ ٱلنَّارِ قَالُوا۟ رَبَّنَا لَا تَجۡعَلۡنَا مَعَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِینَ",
-    "ar_simple": "وإذا صرفت أبصرهم تلقاء أصحب ٱلنار قالوا ربنا لا تجعلنا مع ٱلقوم ٱلظلمین",
+    "ar_simple": "۞ وَإِذَا صُرِفَتْ أَبْصَارُهُمْ تِلْقَاءَ أَصْحَابِ النَّارِ قَالُوا رَبَّنَا لَا تَجْعَلْنَا مَعَ الْقَوْمِ الظَّالِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when their eyes are turned toward the companions of the Fire, they say, \"Our Lord, do not place us with the wrongdoing people",
@@ -3006,7 +3098,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 48,
@@ -3020,7 +3114,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَنَادَىٰۤ أَصۡحَـٰبُ ٱلۡأَعۡرَافِ رِجَالࣰا یَعۡرِفُونَهُم بِسِیمَىٰهُمۡ قَالُوا۟ مَاۤ أَغۡنَىٰ عَنكُمۡ جَمۡعُكُمۡ وَمَا كُنتُمۡ تَسۡتَكۡبِرُونَ",
-    "ar_simple": "ونادى أصحب ٱلأعراف رجالا یعرفونهم بسیمىهم قالوا ما أغنى عنكم جمعكم وما كنتم تستكبرون",
+    "ar_simple": "وَنَادَىٰ أَصْحَابُ الْأَعْرَافِ رِجَالًا يَعْرِفُونَهُمْ بِسِيمَاهُمْ قَالُوا مَا أَغْنَىٰ عَنْكُمْ جَمْعُكُمْ وَمَا كُنْتُمْ تَسْتَكْبِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the companions of the Elevations will call to men [within Hell] whom they recognize by their mark, saying, \"Of no avail to you was your gathering and [the fact] that you were arrogant",
@@ -3068,7 +3162,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 49,
@@ -3082,7 +3178,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَهَـٰۤؤُلَاۤءِ ٱلَّذِینَ أَقۡسَمۡتُمۡ لَا یَنَالُهُمُ ٱللَّهُ بِرَحۡمَةٍۚ ٱدۡخُلُوا۟ ٱلۡجَنَّةَ لَا خَوۡفٌ عَلَیۡكُمۡ وَلَاۤ أَنتُمۡ تَحۡزَنُونَ",
-    "ar_simple": "أهؤلاء ٱلذین أقسمتم لا ینالهم ٱلله برحمة ٱدخلوا ٱلجنة لا خوف علیكم ولا أنتم تحزنون",
+    "ar_simple": "أَهَٰؤُلَاءِ الَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ اللَّهُ بِرَحْمَةٍ ۚ ادْخُلُوا الْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَا أَنْتُمْ تَحْزَنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah will say], \"Are these the ones whom you [inhabitants of Hell] swore that Allah would never offer them mercy? Enter Paradise, [O People of the Elevations]. No fear will there be concerning you, nor will you grieve",
@@ -3129,7 +3225,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 50,
@@ -3143,7 +3241,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَنَادَىٰۤ أَصۡحَـٰبُ ٱلنَّارِ أَصۡحَـٰبَ ٱلۡجَنَّةِ أَنۡ أَفِیضُوا۟ عَلَیۡنَا مِنَ ٱلۡمَاۤءِ أَوۡ مِمَّا رَزَقَكُمُ ٱللَّهُۚ قَالُوۤا۟ إِنَّ ٱللَّهَ حَرَّمَهُمَا عَلَى ٱلۡكَـٰفِرِینَ",
-    "ar_simple": "ونادى أصحب ٱلنار أصحب ٱلجنة أن أفیضوا علینا من ٱلماء أو مما رزقكم ٱلله قالوا إن ٱلله حرمهما على ٱلكفرین",
+    "ar_simple": "وَنَادَىٰ أَصْحَابُ النَّارِ أَصْحَابَ الْجَنَّةِ أَنْ أَفِيضُوا عَلَيْنَا مِنَ الْمَاءِ أَوْ مِمَّا رَزَقَكُمُ اللَّهُ ۚ قَالُوا إِنَّ اللَّهَ حَرَّمَهُمَا عَلَى الْكَافِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the companions of the Fire will call to the companions of Paradise, \"Pour upon us some water or from whatever Allah has provided you.\" They will say, \"Indeed, Allah has forbidden them both to the disbelievers",
@@ -3193,7 +3291,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 51,
@@ -3207,7 +3307,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِینَ ٱتَّخَذُوا۟ دِینَهُمۡ لَهۡوࣰا وَلَعِبࣰا وَغَرَّتۡهُمُ ٱلۡحَیَوٰةُ ٱلدُّنۡیَاۚ فَٱلۡیَوۡمَ نَنسَىٰهُمۡ كَمَا نَسُوا۟ لِقَاۤءَ یَوۡمِهِمۡ هَـٰذَا وَمَا كَانُوا۟ بِءَایَـٰتِنَا یَجۡحَدُونَ",
-    "ar_simple": "ٱلذین ٱتخذوا دینهم لهوا ولعبا وغرتهم ٱلحیوة ٱلدنیا فٱلیوم ننسىهم كما نسوا لقاء یومهم هذا وما كانوا بءایتنا یجحدون",
+    "ar_simple": "الَّذِينَ اتَّخَذُوا دِينَهُمْ لَهْوًا وَلَعِبًا وَغَرَّتْهُمُ الْحَيَاةُ الدُّنْيَا ۚ فَالْيَوْمَ نَنْسَاهُمْ كَمَا نَسُوا لِقَاءَ يَوْمِهِمْ هَٰذَا وَمَا كَانُوا بِآيَاتِنَا يَجْحَدُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who took their religion as distraction and amusement and whom the worldly life deluded.\" So today We will forget them just as they forgot the meeting of this Day of theirs and for having rejected Our verses",
@@ -3254,7 +3354,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 52,
@@ -3268,7 +3370,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ جِئۡنَـٰهُم بِكِتَـٰبࣲ فَصَّلۡنَـٰهُ عَلَىٰ عِلۡمٍ هُدࣰى وَرَحۡمَةࣰ لِّقَوۡمࣲ یُؤۡمِنُونَ",
-    "ar_simple": "ولقد جئنهم بكتب فصلنه على علم هدى ورحمة لقوم یؤمنون",
+    "ar_simple": "وَلَقَدْ جِئْنَاهُمْ بِكِتَابٍ فَصَّلْنَاهُ عَلَىٰ عِلْمٍ هُدًى وَرَحْمَةً لِقَوْمٍ يُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We had certainly brought them a Book which We detailed by knowledge - as guidance and mercy to a people who believe",
@@ -3316,7 +3418,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 53,
@@ -3330,7 +3434,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هَلۡ یَنظُرُونَ إِلَّا تَأۡوِیلَهُۥۚ یَوۡمَ یَأۡتِی تَأۡوِیلُهُۥ یَقُولُ ٱلَّذِینَ نَسُوهُ مِن قَبۡلُ قَدۡ جَاۤءَتۡ رُسُلُ رَبِّنَا بِٱلۡحَقِّ فَهَل لَّنَا مِن شُفَعَاۤءَ فَیَشۡفَعُوا۟ لَنَاۤ أَوۡ نُرَدُّ فَنَعۡمَلَ غَیۡرَ ٱلَّذِی كُنَّا نَعۡمَلُۚ قَدۡ خَسِرُوۤا۟ أَنفُسَهُمۡ وَضَلَّ عَنۡهُم مَّا كَانُوا۟ یَفۡتَرُونَ",
-    "ar_simple": "هل ینظرون إلا تأویله یوم یأتی تأویله یقول ٱلذین نسوه من قبل قد جاءت رسل ربنا بٱلحق فهل لنا من شفعاء فیشفعوا لنا أو نرد فنعمل غیر ٱلذی كنا نعمل قد خسروا أنفسهم وضل عنهم ما كانوا یفترون",
+    "ar_simple": "هَلْ يَنْظُرُونَ إِلَّا تَأْوِيلَهُ ۚ يَوْمَ يَأْتِي تَأْوِيلُهُ يَقُولُ الَّذِينَ نَسُوهُ مِنْ قَبْلُ قَدْ جَاءَتْ رُسُلُ رَبِّنَا بِالْحَقِّ فَهَلْ لَنَا مِنْ شُفَعَاءَ فَيَشْفَعُوا لَنَا أَوْ نُرَدُّ فَنَعْمَلَ غَيْرَ الَّذِي كُنَّا نَعْمَلُ ۚ قَدْ خَسِرُوا أَنْفُسَهُمْ وَضَلَّ عَنْهُمْ مَا كَانُوا يَفْتَرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Do they await except its result? The Day its result comes those who had ignored it before will say, \"The messengers of our Lord had come with the truth, so are there [now] any intercessors to intercede for us or could we be sent back to do other than we used to do?\" They will have lost themselves, and lost from them is what they used to invent",
@@ -3377,7 +3481,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 54,
@@ -3391,7 +3497,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِی خَلَقَ ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضَ فِی سِتَّةِ أَیَّامࣲ ثُمَّ ٱسۡتَوَىٰ عَلَى ٱلۡعَرۡشِۖ یُغۡشِی ٱلَّیۡلَ ٱلنَّهَارَ یَطۡلُبُهُۥ حَثِیثࣰا وَٱلشَّمۡسَ وَٱلۡقَمَرَ وَٱلنُّجُومَ مُسَخَّرَ ٰتِۭ بِأَمۡرِهِۦۤۗ أَلَا لَهُ ٱلۡخَلۡقُ وَٱلۡأَمۡرُۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "إن ربكم ٱلله ٱلذی خلق ٱلسمو ت وٱلأرض فی ستة أیام ثم ٱستوى على ٱلعرش یغشی ٱلیل ٱلنهار یطلبه حثیثا وٱلشمس وٱلقمر وٱلنجوم مسخر ت بأمره ألا له ٱلخلق وٱلأمر تبارك ٱلله رب ٱلعلمین",
+    "ar_simple": "إِنَّ رَبَّكُمُ اللَّهُ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ ثُمَّ اسْتَوَىٰ عَلَى الْعَرْشِ يُغْشِي اللَّيْلَ النَّهَارَ يَطْلُبُهُ حَثِيثًا وَالشَّمْسَ وَالْقَمَرَ وَالنُّجُومَ مُسَخَّرَاتٍ بِأَمْرِهِ ۗ أَلَا لَهُ الْخَلْقُ وَالْأَمْرُ ۗ تَبَارَكَ اللَّهُ رَبُّ الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, your Lord is Allah, who created the heavens and earth in six days and then established Himself above the Throne. He covers the night with the day, [another night] chasing it rapidly; and [He created] the sun, the moon, and the stars, subjected by His command. Unquestionably, His is the creation and the command; blessed is Allah, Lord of the worlds",
@@ -3439,7 +3545,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 55,
@@ -3453,7 +3561,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱدۡعُوا۟ رَبَّكُمۡ تَضَرُّعࣰا وَخُفۡیَةًۚ إِنَّهُۥ لَا یُحِبُّ ٱلۡمُعۡتَدِینَ",
-    "ar_simple": "ٱدعوا ربكم تضرعا وخفیة إنه لا یحب ٱلمعتدین",
+    "ar_simple": "ادْعُوا رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً ۚ إِنَّهُ لَا يُحِبُّ الْمُعْتَدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Call upon your Lord in humility and privately; indeed, He does not like transgressors",
@@ -3498,7 +3606,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 56,
@@ -3512,7 +3622,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَا تُفۡسِدُوا۟ فِی ٱلۡأَرۡضِ بَعۡدَ إِصۡلَـٰحِهَا وَٱدۡعُوهُ خَوۡفࣰا وَطَمَعًاۚ إِنَّ رَحۡمَتَ ٱللَّهِ قَرِیبࣱ مِّنَ ٱلۡمُحۡسِنِینَ",
-    "ar_simple": "ولا تفسدوا فی ٱلأرض بعد إصلحها وٱدعوه خوفا وطمعا إن رحمت ٱلله قریب من ٱلمحسنین",
+    "ar_simple": "وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا وَادْعُوهُ خَوْفًا وَطَمَعًا ۚ إِنَّ رَحْمَتَ اللَّهِ قَرِيبٌ مِنَ الْمُحْسِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And cause not corruption upon the earth after its reformation. And invoke Him in fear and aspiration. Indeed, the mercy of Allah is near to the doers of good",
@@ -3559,7 +3669,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 57,
@@ -3573,7 +3685,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَهُوَ ٱلَّذِی یُرۡسِلُ ٱلرِّیَـٰحَ بُشۡرَۢا بَیۡنَ یَدَیۡ رَحۡمَتِهِۦۖ حَتَّىٰۤ إِذَاۤ أَقَلَّتۡ سَحَابࣰا ثِقَالࣰا سُقۡنَـٰهُ لِبَلَدࣲ مَّیِّتࣲ فَأَنزَلۡنَا بِهِ ٱلۡمَاۤءَ فَأَخۡرَجۡنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَ ٰتِۚ كَذَ ٰلِكَ نُخۡرِجُ ٱلۡمَوۡتَىٰ لَعَلَّكُمۡ تَذَكَّرُونَ",
-    "ar_simple": "وهو ٱلذی یرسل ٱلریح بشرا بین یدی رحمته حتى إذا أقلت سحابا ثقالا سقنه لبلد میت فأنزلنا به ٱلماء فأخرجنا به من كل ٱلثمر ت كذ لك نخرج ٱلموتى لعلكم تذكرون",
+    "ar_simple": "وَهُوَ الَّذِي يُرْسِلُ الرِّيَاحَ بُشْرًا بَيْنَ يَدَيْ رَحْمَتِهِ ۖ حَتَّىٰ إِذَا أَقَلَّتْ سَحَابًا ثِقَالًا سُقْنَاهُ لِبَلَدٍ مَيِّتٍ فَأَنْزَلْنَا بِهِ الْمَاءَ فَأَخْرَجْنَا بِهِ مِنْ كُلِّ الثَّمَرَاتِ ۚ كَذَٰلِكَ نُخْرِجُ الْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And it is He who sends the winds as good tidings before His mercy until, when they have carried heavy rainclouds, We drive them to a dead land and We send down rain therein and bring forth thereby [some] of all the fruits. Thus will We bring forth the dead; perhaps you may be reminded",
@@ -3618,7 +3730,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 58,
@@ -3632,7 +3746,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡبَلَدُ ٱلطَّیِّبُ یَخۡرُجُ نَبَاتُهُۥ بِإِذۡنِ رَبِّهِۦۖ وَٱلَّذِی خَبُثَ لَا یَخۡرُجُ إِلَّا نَكِدࣰاۚ كَذَ ٰلِكَ نُصَرِّفُ ٱلۡءَایَـٰتِ لِقَوۡمࣲ یَشۡكُرُونَ",
-    "ar_simple": "وٱلبلد ٱلطیب یخرج نباته بإذن ربه وٱلذی خبث لا یخرج إلا نكدا كذ لك نصرف ٱلءایت لقوم یشكرون",
+    "ar_simple": "وَالْبَلَدُ الطَّيِّبُ يَخْرُجُ نَبَاتُهُ بِإِذْنِ رَبِّهِ ۖ وَالَّذِي خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًا ۚ كَذَٰلِكَ نُصَرِّفُ الْآيَاتِ لِقَوْمٍ يَشْكُرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the good land - its vegetation emerges by permission of its Lord; but that which is bad - nothing emerges except sparsely, with difficulty. Thus do We diversify the signs for a people who are grateful",
@@ -3677,7 +3791,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 59,
@@ -3691,7 +3807,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَقَدۡ أَرۡسَلۡنَا نُوحًا إِلَىٰ قَوۡمِهِۦ فَقَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۤ إِنِّیۤ أَخَافُ عَلَیۡكُمۡ عَذَابَ یَوۡمٍ عَظِیمࣲ",
-    "ar_simple": "لقد أرسلنا نوحا إلى قومه فقال یقوم ٱعبدوا ٱلله ما لكم من إله غیره إنی أخاف علیكم عذاب یوم عظیم",
+    "ar_simple": "لَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ فَقَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ إِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "We had certainly sent Noah to his people, and he said, \"O my people, worship Allah; you have no deity other than Him. Indeed, I fear for you the punishment of a tremendous Day",
@@ -3738,7 +3854,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 60,
@@ -3752,7 +3870,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱلۡمَلَأُ مِن قَوۡمِهِۦۤ إِنَّا لَنَرَىٰكَ فِی ضَلَـٰلࣲ مُّبِینࣲ",
-    "ar_simple": "قال ٱلملأ من قومه إنا لنرىك فی ضلل مبین",
+    "ar_simple": "قَالَ الْمَلَأُ مِنْ قَوْمِهِ إِنَّا لَنَرَاكَ فِي ضَلَالٍ مُبِينٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said the eminent among his people, \"Indeed, we see you in clear error",
@@ -3797,7 +3915,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 61,
@@ -3811,7 +3931,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ یَـٰقَوۡمِ لَیۡسَ بِی ضَلَـٰلَةࣱ وَلَـٰكِنِّی رَسُولࣱ مِّن رَّبِّ ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "قال یقوم لیس بی ضللة ولكنی رسول من رب ٱلعلمین",
+    "ar_simple": "قَالَ يَا قَوْمِ لَيْسَ بِي ضَلَالَةٌ وَلَٰكِنِّي رَسُولٌ مِنْ رَبِّ الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Noah] said, \"O my people, there is not error in me, but I am a messenger from the Lord of the worlds",
@@ -3858,7 +3978,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 62,
@@ -3872,7 +3994,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أُبَلِّغُكُمۡ رِسَـٰلَـٰتِ رَبِّی وَأَنصَحُ لَكُمۡ وَأَعۡلَمُ مِنَ ٱللَّهِ مَا لَا تَعۡلَمُونَ",
-    "ar_simple": "أبلغكم رسلت ربی وأنصح لكم وأعلم من ٱلله ما لا تعلمون",
+    "ar_simple": "أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنْصَحُ لَكُمْ وَأَعْلَمُ مِنَ اللَّهِ مَا لَا تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "I convey to you the messages of my Lord and advise you; and I know from Allah what you do not know",
@@ -3917,7 +4039,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 63,
@@ -3931,7 +4055,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوَعَجِبۡتُمۡ أَن جَاۤءَكُمۡ ذِكۡرࣱ مِّن رَّبِّكُمۡ عَلَىٰ رَجُلࣲ مِّنكُمۡ لِیُنذِرَكُمۡ وَلِتَتَّقُوا۟ وَلَعَلَّكُمۡ تُرۡحَمُونَ",
-    "ar_simple": "أوعجبتم أن جاءكم ذكر من ربكم على رجل منكم لینذركم ولتتقوا ولعلكم ترحمون",
+    "ar_simple": "أَوَعَجِبْتُمْ أَنْ جَاءَكُمْ ذِكْرٌ مِنْ رَبِّكُمْ عَلَىٰ رَجُلٍ مِنْكُمْ لِيُنْذِرَكُمْ وَلِتَتَّقُوا وَلَعَلَّكُمْ تُرْحَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you and that you may fear Allah so you might receive mercy",
@@ -3978,7 +4102,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 64,
@@ -3992,7 +4118,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَكَذَّبُوهُ فَأَنجَیۡنَـٰهُ وَٱلَّذِینَ مَعَهُۥ فِی ٱلۡفُلۡكِ وَأَغۡرَقۡنَا ٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَاۤۚ إِنَّهُمۡ كَانُوا۟ قَوۡمًا عَمِینَ",
-    "ar_simple": "فكذبوه فأنجینه وٱلذین معه فی ٱلفلك وأغرقنا ٱلذین كذبوا بءایتنا إنهم كانوا قوما عمین",
+    "ar_simple": "فَكَذَّبُوهُ فَأَنْجَيْنَاهُ وَالَّذِينَ مَعَهُ فِي الْفُلْكِ وَأَغْرَقْنَا الَّذِينَ كَذَّبُوا بِآيَاتِنَا ۚ إِنَّهُمْ كَانُوا قَوْمًا عَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But they denied him, so We saved him and those who were with him in the ship. And We drowned those who denied Our signs. Indeed, they were a blind people",
@@ -4037,7 +4163,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 63
   },
   {
     "n": 65,
@@ -4051,7 +4179,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ وَإِلَىٰ عَادٍ أَخَاهُمۡ هُودࣰاۚ قَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۤۚ أَفَلَا تَتَّقُونَ",
-    "ar_simple": "وإلى عاد أخاهم هودا قال یقوم ٱعبدوا ٱلله ما لكم من إله غیره أفلا تتقون",
+    "ar_simple": "۞ وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۗ قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ ۚ أَفَلَا تَتَّقُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And to the 'Aad [We sent] their brother Hud. He said, \"O my people, worship Allah; you have no deity other than Him. Then will you not fear Him",
@@ -4096,7 +4224,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 66,
@@ -4110,7 +4240,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱلۡمَلَأُ ٱلَّذِینَ كَفَرُوا۟ مِن قَوۡمِهِۦۤ إِنَّا لَنَرَىٰكَ فِی سَفَاهَةࣲ وَإِنَّا لَنَظُنُّكَ مِنَ ٱلۡكَـٰذِبِینَ",
-    "ar_simple": "قال ٱلملأ ٱلذین كفروا من قومه إنا لنرىك فی سفاهة وإنا لنظنك من ٱلكذبین",
+    "ar_simple": "قَالَ الْمَلَأُ الَّذِينَ كَفَرُوا مِنْ قَوْمِهِ إِنَّا لَنَرَاكَ فِي سَفَاهَةٍ وَإِنَّا لَنَظُنُّكَ مِنَ الْكَاذِبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said the eminent ones who disbelieved among his people, \"Indeed, we see you in foolishness, and indeed, we think you are of the liars",
@@ -4157,7 +4287,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 67,
@@ -4171,7 +4303,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ یَـٰقَوۡمِ لَیۡسَ بِی سَفَاهَةࣱ وَلَـٰكِنِّی رَسُولࣱ مِّن رَّبِّ ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "قال یقوم لیس بی سفاهة ولكنی رسول من رب ٱلعلمین",
+    "ar_simple": "قَالَ يَا قَوْمِ لَيْسَ بِي سَفَاهَةٌ وَلَٰكِنِّي رَسُولٌ مِنْ رَبِّ الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Hud] said, \"O my people, there is not foolishness in me, but I am a messenger from the Lord of the worlds",
@@ -4218,7 +4350,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 68,
@@ -4232,7 +4366,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أُبَلِّغُكُمۡ رِسَـٰلَـٰتِ رَبِّی وَأَنَا۠ لَكُمۡ نَاصِحٌ أَمِینٌ",
-    "ar_simple": "أبلغكم رسلت ربی وأنا لكم ناصح أمین",
+    "ar_simple": "أُبَلِّغُكُمْ رِسَالَاتِ رَبِّي وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "I convey to you the messages of my Lord, and I am to you a trustworthy adviser",
@@ -4279,7 +4413,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 69,
@@ -4293,7 +4429,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوَعَجِبۡتُمۡ أَن جَاۤءَكُمۡ ذِكۡرࣱ مِّن رَّبِّكُمۡ عَلَىٰ رَجُلࣲ مِّنكُمۡ لِیُنذِرَكُمۡۚ وَٱذۡكُرُوۤا۟ إِذۡ جَعَلَكُمۡ خُلَفَاۤءَ مِنۢ بَعۡدِ قَوۡمِ نُوحࣲ وَزَادَكُمۡ فِی ٱلۡخَلۡقِ بَصۜۡطَةࣰۖ فَٱذۡكُرُوۤا۟ ءَالَاۤءَ ٱللَّهِ لَعَلَّكُمۡ تُفۡلِحُونَ",
-    "ar_simple": "أوعجبتم أن جاءكم ذكر من ربكم على رجل منكم لینذركم وٱذكروا إذ جعلكم خلفاء من بعد قوم نوح وزادكم فی ٱلخلق بصطة فٱذكروا ءالاء ٱلله لعلكم تفلحون",
+    "ar_simple": "أَوَعَجِبْتُمْ أَنْ جَاءَكُمْ ذِكْرٌ مِنْ رَبِّكُمْ عَلَىٰ رَجُلٍ مِنْكُمْ لِيُنْذِرَكُمْ ۚ وَاذْكُرُوا إِذْ جَعَلَكُمْ خُلَفَاءَ مِنْ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِي الْخَلْقِ بَسْطَةً ۖ فَاذْكُرُوا آلَاءَ اللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then do you wonder that there has come to you a reminder from your Lord through a man from among you, that he may warn you? And remember when He made you successors after the people of Noah and increased you in stature extensively. So remember the favors of Allah that you might succeed",
@@ -4340,7 +4476,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 70,
@@ -4354,7 +4492,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالُوۤا۟ أَجِئۡتَنَا لِنَعۡبُدَ ٱللَّهَ وَحۡدَهُۥ وَنَذَرَ مَا كَانَ یَعۡبُدُ ءَابَاۤؤُنَا فَأۡتِنَا بِمَا تَعِدُنَاۤ إِن كُنتَ مِنَ ٱلصَّـٰدِقِینَ",
-    "ar_simple": "قالوا أجئتنا لنعبد ٱلله وحده ونذر ما كان یعبد ءاباؤنا فأتنا بما تعدنا إن كنت من ٱلصدقین",
+    "ar_simple": "قَالُوا أَجِئْتَنَا لِنَعْبُدَ اللَّهَ وَحْدَهُ وَنَذَرَ مَا كَانَ يَعْبُدُ آبَاؤُنَا ۖ فَأْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الصَّادِقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They said, \"Have you come to us that we should worship Allah alone and leave what our fathers have worshipped? Then bring us what you promise us, if you should be of the truthful",
@@ -4403,7 +4541,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 71,
@@ -4417,7 +4557,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ قَدۡ وَقَعَ عَلَیۡكُم مِّن رَّبِّكُمۡ رِجۡسࣱ وَغَضَبٌۖ أَتُجَـٰدِلُونَنِی فِیۤ أَسۡمَاۤءࣲ سَمَّیۡتُمُوهَاۤ أَنتُمۡ وَءَابَاۤؤُكُم مَّا نَزَّلَ ٱللَّهُ بِهَا مِن سُلۡطَـٰنࣲۚ فَٱنتَظِرُوۤا۟ إِنِّی مَعَكُم مِّنَ ٱلۡمُنتَظِرِینَ",
-    "ar_simple": "قال قد وقع علیكم من ربكم رجس وغضب أتجدلوننی فی أسماء سمیتموها أنتم وءاباؤكم ما نزل ٱلله بها من سلطن فٱنتظروا إنی معكم من ٱلمنتظرین",
+    "ar_simple": "قَالَ قَدْ وَقَعَ عَلَيْكُمْ مِنْ رَبِّكُمْ رِجْسٌ وَغَضَبٌ ۖ أَتُجَادِلُونَنِي فِي أَسْمَاءٍ سَمَّيْتُمُوهَا أَنْتُمْ وَآبَاؤُكُمْ مَا نَزَّلَ اللَّهُ بِهَا مِنْ سُلْطَانٍ ۚ فَانْتَظِرُوا إِنِّي مَعَكُمْ مِنَ الْمُنْتَظِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Hud] said, \"Already have defilement and anger fallen upon you from your Lord. Do you dispute with me concerning [mere] names you have named them, you and your fathers, for which Allah has not sent down any authority? Then wait; indeed, I am with you among those who wait",
@@ -4465,7 +4605,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 72,
@@ -4479,7 +4621,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَنجَیۡنَـٰهُ وَٱلَّذِینَ مَعَهُۥ بِرَحۡمَةࣲ مِّنَّا وَقَطَعۡنَا دَابِرَ ٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَاۖ وَمَا كَانُوا۟ مُؤۡمِنِینَ",
-    "ar_simple": "فأنجینه وٱلذین معه برحمة منا وقطعنا دابر ٱلذین كذبوا بءایتنا وما كانوا مؤمنین",
+    "ar_simple": "فَأَنْجَيْنَاهُ وَالَّذِينَ مَعَهُ بِرَحْمَةٍ مِنَّا وَقَطَعْنَا دَابِرَ الَّذِينَ كَذَّبُوا بِآيَاتِنَا ۖ وَمَا كَانُوا مُؤْمِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So We saved him and those with him by mercy from Us. And We eliminated those who denied Our signs, and they were not [at all] believers",
@@ -4527,7 +4669,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 73,
@@ -4541,7 +4685,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وإِلَىٰ ثَمُودَ أَخَاهُمۡ صَـٰلِحࣰاۚ قَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۖ قَدۡ جَاۤءَتۡكُم بَیِّنَةࣱ مِّن رَّبِّكُمۡۖ هَـٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمۡ ءَایَةࣰۖ فَذَرُوهَا تَأۡكُلۡ فِیۤ أَرۡضِ ٱللَّهِۖ وَلَا تَمَسُّوهَا بِسُوۤءࣲ فَیَأۡخُذَكُمۡ عَذَابٌ أَلِیمࣱ",
-    "ar_simple": "وإلى ثمود أخاهم صلحا قال یقوم ٱعبدوا ٱلله ما لكم من إله غیره قد جاءتكم بینة من ربكم هذه ناقة ٱلله لكم ءایة فذروها تأكل فی أرض ٱلله ولا تمسوها بسوء فیأخذكم عذاب ألیم",
+    "ar_simple": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَالِحًا ۗ قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ ۖ قَدْ جَاءَتْكُمْ بَيِّنَةٌ مِنْ رَبِّكُمْ ۖ هَٰذِهِ نَاقَةُ اللَّهِ لَكُمْ آيَةً ۖ فَذَرُوهَا تَأْكُلْ فِي أَرْضِ اللَّهِ ۖ وَلَا تَمَسُّوهَا بِسُوءٍ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And to the Thamud [We sent] their brother Salih. He said, \"O my people, worship Allah; you have no deity other than Him. There has come to you clear evidence from your Lord. This is the she-camel of Allah [sent] to you as a sign. So leave her to eat within Allah 's land and do not touch her with harm, lest there seize you a painful punishment",
@@ -4590,7 +4734,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 74,
@@ -4604,7 +4750,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱذۡكُرُوۤا۟ إِذۡ جَعَلَكُمۡ خُلَفَاۤءَ مِنۢ بَعۡدِ عَادࣲ وَبَوَّأَكُمۡ فِی ٱلۡأَرۡضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورࣰا وَتَنۡحِتُونَ ٱلۡجِبَالَ بُیُوتࣰاۖ فَٱذۡكُرُوۤا۟ ءَالَاۤءَ ٱللَّهِ وَلَا تَعۡثَوۡا۟ فِی ٱلۡأَرۡضِ مُفۡسِدِینَ",
-    "ar_simple": "وٱذكروا إذ جعلكم خلفاء من بعد عاد وبوأكم فی ٱلأرض تتخذون من سهولها قصورا وتنحتون ٱلجبال بیوتا فٱذكروا ءالاء ٱلله ولا تعثوا فی ٱلأرض مفسدین",
+    "ar_simple": "وَاذْكُرُوا إِذْ جَعَلَكُمْ خُلَفَاءَ مِنْ بَعْدِ عَادٍ وَبَوَّأَكُمْ فِي الْأَرْضِ تَتَّخِذُونَ مِنْ سُهُولِهَا قُصُورًا وَتَنْحِتُونَ الْجِبَالَ بُيُوتًا ۖ فَاذْكُرُوا آلَاءَ اللَّهِ وَلَا تَعْثَوْا فِي الْأَرْضِ مُفْسِدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And remember when He made you successors after the 'Aad and settled you in the land, [and] you take for yourselves palaces from its plains and carve from the mountains, homes. Then remember the favors of Allah and do not commit abuse on the earth, spreading corruption",
@@ -4649,7 +4795,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 75,
@@ -4663,7 +4811,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱلۡمَلَأُ ٱلَّذِینَ ٱسۡتَكۡبَرُوا۟ مِن قَوۡمِهِۦ لِلَّذِینَ ٱسۡتُضۡعِفُوا۟ لِمَنۡ ءَامَنَ مِنۡهُمۡ أَتَعۡلَمُونَ أَنَّ صَـٰلِحࣰا مُّرۡسَلࣱ مِّن رَّبِّهِۦۚ قَالُوۤا۟ إِنَّا بِمَاۤ أُرۡسِلَ بِهِۦ مُؤۡمِنُونَ",
-    "ar_simple": "قال ٱلملأ ٱلذین ٱستكبروا من قومه للذین ٱستضعفوا لمن ءامن منهم أتعلمون أن صلحا مرسل من ربه قالوا إنا بما أرسل به مؤمنون",
+    "ar_simple": "قَالَ الْمَلَأُ الَّذِينَ اسْتَكْبَرُوا مِنْ قَوْمِهِ لِلَّذِينَ اسْتُضْعِفُوا لِمَنْ آمَنَ مِنْهُمْ أَتَعْلَمُونَ أَنَّ صَالِحًا مُرْسَلٌ مِنْ رَبِّهِ ۚ قَالُوا إِنَّا بِمَا أُرْسِلَ بِهِ مُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said the eminent ones who were arrogant among his people to those who were oppressed - to those who believed among them, \"Do you [actually] know that Salih is sent from his Lord?\" They said, \"Indeed we, in that with which he was sent, are believers",
@@ -4711,7 +4859,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 76,
@@ -4725,7 +4875,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱلَّذِینَ ٱسۡتَكۡبَرُوۤا۟ إِنَّا بِٱلَّذِیۤ ءَامَنتُم بِهِۦ كَـٰفِرُونَ",
-    "ar_simple": "قال ٱلذین ٱستكبروا إنا بٱلذی ءامنتم به كفرون",
+    "ar_simple": "قَالَ الَّذِينَ اسْتَكْبَرُوا إِنَّا بِالَّذِي آمَنْتُمْ بِهِ كَافِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said those who were arrogant, \"Indeed we, in that which you have believed, are disbelievers",
@@ -4772,7 +4922,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 77,
@@ -4786,7 +4938,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَعَقَرُوا۟ ٱلنَّاقَةَ وَعَتَوۡا۟ عَنۡ أَمۡرِ رَبِّهِمۡ وَقَالُوا۟ یَـٰصَـٰلِحُ ٱئۡتِنَا بِمَا تَعِدُنَاۤ إِن كُنتَ مِنَ ٱلۡمُرۡسَلِینَ",
-    "ar_simple": "فعقروا ٱلناقة وعتوا عن أمر ربهم وقالوا یصلح ٱئتنا بما تعدنا إن كنت من ٱلمرسلین",
+    "ar_simple": "فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَا صَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الْمُرْسَلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So they hamstrung the she-camel and were insolent toward the command of their Lord and said, \"O Salih, bring us what you promise us, if you should be of the messengers",
@@ -4835,7 +4987,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 78,
@@ -4849,7 +5003,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَخَذَتۡهُمُ ٱلرَّجۡفَةُ فَأَصۡبَحُوا۟ فِی دَارِهِمۡ جَـٰثِمِینَ",
-    "ar_simple": "فأخذتهم ٱلرجفة فأصبحوا فی دارهم جثمین",
+    "ar_simple": "فَأَخَذَتْهُمُ الرَّجْفَةُ فَأَصْبَحُوا فِي دَارِهِمْ جَاثِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So the earthquake seized them, and they became within their home [corpses] fallen prone",
@@ -4894,7 +5048,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 79,
@@ -4908,7 +5064,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَتَوَلَّىٰ عَنۡهُمۡ وَقَالَ یَـٰقَوۡمِ لَقَدۡ أَبۡلَغۡتُكُمۡ رِسَالَةَ رَبِّی وَنَصَحۡتُ لَكُمۡ وَلَـٰكِن لَّا تُحِبُّونَ ٱلنَّـٰصِحِینَ",
-    "ar_simple": "فتولى عنهم وقال یقوم لقد أبلغتكم رسالة ربی ونصحت لكم ولكن لا تحبون ٱلنصحین",
+    "ar_simple": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَا قَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَالَةَ رَبِّي وَنَصَحْتُ لَكُمْ وَلَٰكِنْ لَا تُحِبُّونَ النَّاصِحِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And he turned away from them and said, \"O my people, I had certainly conveyed to you the message of my Lord and advised you, but you do not like advisors",
@@ -4953,7 +5109,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 80,
@@ -4967,7 +5125,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلُوطًا إِذۡ قَالَ لِقَوۡمِهِۦۤ أَتَأۡتُونَ ٱلۡفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنۡ أَحَدࣲ مِّنَ ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "ولوطا إذ قال لقومه أتأتون ٱلفحشة ما سبقكم بها من أحد من ٱلعلمین",
+    "ar_simple": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِ أَتَأْتُونَ الْفَاحِشَةَ مَا سَبَقَكُمْ بِهَا مِنْ أَحَدٍ مِنَ الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [We had sent] Lot when he said to his people, \"Do you commit such immorality as no one has preceded you with from among the worlds",
@@ -5014,7 +5172,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 81,
@@ -5028,7 +5188,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّكُمۡ لَتَأۡتُونَ ٱلرِّجَالَ شَهۡوَةࣰ مِّن دُونِ ٱلنِّسَاۤءِۚ بَلۡ أَنتُمۡ قَوۡمࣱ مُّسۡرِفُونَ",
-    "ar_simple": "إنكم لتأتون ٱلرجال شهوة من دون ٱلنساء بل أنتم قوم مسرفون",
+    "ar_simple": "إِنَّكُمْ لَتَأْتُونَ الرِّجَالَ شَهْوَةً مِنْ دُونِ النِّسَاءِ ۚ بَلْ أَنْتُمْ قَوْمٌ مُسْرِفُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, you approach men with desire, instead of women. Rather, you are a transgressing people",
@@ -5075,7 +5235,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 82,
@@ -5089,7 +5251,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا كَانَ جَوَابَ قَوۡمِهِۦۤ إِلَّاۤ أَن قَالُوۤا۟ أَخۡرِجُوهُم مِّن قَرۡیَتِكُمۡۖ إِنَّهُمۡ أُنَاسࣱ یَتَطَهَّرُونَ",
-    "ar_simple": "وما كان جواب قومه إلا أن قالوا أخرجوهم من قریتكم إنهم أناس یتطهرون",
+    "ar_simple": "وَمَا كَانَ جَوَابَ قَوْمِهِ إِلَّا أَنْ قَالُوا أَخْرِجُوهُمْ مِنْ قَرْيَتِكُمْ ۖ إِنَّهُمْ أُنَاسٌ يَتَطَهَّرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But the answer of his people was only that they said, \"Evict them from your city! Indeed, they are men who keep themselves pure",
@@ -5134,7 +5296,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 83,
@@ -5148,7 +5312,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَنجَیۡنَـٰهُ وَأَهۡلَهُۥۤ إِلَّا ٱمۡرَأَتَهُۥ كَانَتۡ مِنَ ٱلۡغَـٰبِرِینَ",
-    "ar_simple": "فأنجینه وأهله إلا ٱمرأته كانت من ٱلغبرین",
+    "ar_simple": "فَأَنْجَيْنَاهُ وَأَهْلَهُ إِلَّا امْرَأَتَهُ كَانَتْ مِنَ الْغَابِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So We saved him and his family, except for his wife; she was of those who remained [with the evildoers]",
@@ -5196,7 +5360,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 84,
@@ -5210,7 +5376,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَمۡطَرۡنَا عَلَیۡهِم مَّطَرࣰاۖ فَٱنظُرۡ كَیۡفَ كَانَ عَـٰقِبَةُ ٱلۡمُجۡرِمِینَ",
-    "ar_simple": "وأمطرنا علیهم مطرا فٱنظر كیف كان عقبة ٱلمجرمین",
+    "ar_simple": "وَأَمْطَرْنَا عَلَيْهِمْ مَطَرًا ۖ فَانْظُرْ كَيْفَ كَانَ عَاقِبَةُ الْمُجْرِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We rained upon them a rain [of stones]. Then see how was the end of the criminals",
@@ -5257,7 +5423,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 85,
@@ -5271,7 +5439,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِلَىٰ مَدۡیَنَ أَخَاهُمۡ شُعَیۡبࣰاۚ قَالَ یَـٰقَوۡمِ ٱعۡبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنۡ إِلَـٰهٍ غَیۡرُهُۥۖ قَدۡ جَاۤءَتۡكُم بَیِّنَةࣱ مِّن رَّبِّكُمۡۖ فَأَوۡفُوا۟ ٱلۡكَیۡلَ وَٱلۡمِیزَانَ وَلَا تَبۡخَسُوا۟ ٱلنَّاسَ أَشۡیَاۤءَهُمۡ وَلَا تُفۡسِدُوا۟ فِی ٱلۡأَرۡضِ بَعۡدَ إِصۡلَـٰحِهَاۚ ذَ ٰلِكُمۡ خَیۡرࣱ لَّكُمۡ إِن كُنتُم مُّؤۡمِنِینَ",
-    "ar_simple": "وإلى مدین أخاهم شعیبا قال یقوم ٱعبدوا ٱلله ما لكم من إله غیره قد جاءتكم بینة من ربكم فأوفوا ٱلكیل وٱلمیزان ولا تبخسوا ٱلناس أشیاءهم ولا تفسدوا فی ٱلأرض بعد إصلحها ذ لكم خیر لكم إن كنتم مؤمنین",
+    "ar_simple": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۗ قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ ۖ قَدْ جَاءَتْكُمْ بَيِّنَةٌ مِنْ رَبِّكُمْ ۖ فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And to [the people of] Madyan [We sent] their brother Shu'ayb. He said, \"O my people, worship Allah; you have no deity other than Him. There has come to you clear evidence from your Lord. So fulfill the measure and weight and do not deprive people of their due and cause not corruption upon the earth after its reformation. That is better for you, if you should be believers",
@@ -5318,7 +5486,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 86,
@@ -5332,7 +5502,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَا تَقۡعُدُوا۟ بِكُلِّ صِرَ ٰطࣲ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِیلِ ٱللَّهِ مَنۡ ءَامَنَ بِهِۦ وَتَبۡغُونَهَا عِوَجࣰاۚ وَٱذۡكُرُوۤا۟ إِذۡ كُنتُمۡ قَلِیلࣰا فَكَثَّرَكُمۡۖ وَٱنظُرُوا۟ كَیۡفَ كَانَ عَـٰقِبَةُ ٱلۡمُفۡسِدِینَ",
-    "ar_simple": "ولا تقعدوا بكل صر ط توعدون وتصدون عن سبیل ٱلله من ءامن به وتبغونها عوجا وٱذكروا إذ كنتم قلیلا فكثركم وٱنظروا كیف كان عقبة ٱلمفسدین",
+    "ar_simple": "وَلَا تَقْعُدُوا بِكُلِّ صِرَاطٍ تُوعِدُونَ وَتَصُدُّونَ عَنْ سَبِيلِ اللَّهِ مَنْ آمَنَ بِهِ وَتَبْغُونَهَا عِوَجًا ۚ وَاذْكُرُوا إِذْ كُنْتُمْ قَلِيلًا فَكَثَّرَكُمْ ۖ وَانْظُرُوا كَيْفَ كَانَ عَاقِبَةُ الْمُفْسِدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And do not sit on every path, threatening and averting from the way of Allah those who believe in Him, seeking to make it [seem] deviant. And remember when you were few and He increased you. And see how was the end of the corrupters",
@@ -5380,7 +5550,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 87,
@@ -5394,7 +5566,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِن كَانَ طَاۤئِفَةࣱ مِّنكُمۡ ءَامَنُوا۟ بِٱلَّذِیۤ أُرۡسِلۡتُ بِهِۦ وَطَاۤئِفَةࣱ لَّمۡ یُؤۡمِنُوا۟ فَٱصۡبِرُوا۟ حَتَّىٰ یَحۡكُمَ ٱللَّهُ بَیۡنَنَاۚ وَهُوَ خَیۡرُ ٱلۡحَـٰكِمِینَ",
-    "ar_simple": "وإن كان طائفة منكم ءامنوا بٱلذی أرسلت به وطائفة لم یؤمنوا فٱصبروا حتى یحكم ٱلله بیننا وهو خیر ٱلحكمین",
+    "ar_simple": "وَإِنْ كَانَ طَائِفَةٌ مِنْكُمْ آمَنُوا بِالَّذِي أُرْسِلْتُ بِهِ وَطَائِفَةٌ لَمْ يُؤْمِنُوا فَاصْبِرُوا حَتَّىٰ يَحْكُمَ اللَّهُ بَيْنَنَا ۚ وَهُوَ خَيْرُ الْحَاكِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And if there should be a group among you who has believed in that with which I have been sent and a group that has not believed, then be patient until Allah judges between us. And He is the best of judges",
@@ -5441,7 +5613,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 64
   },
   {
     "n": 88,
@@ -5455,7 +5629,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ قَالَ ٱلۡمَلَأُ ٱلَّذِینَ ٱسۡتَكۡبَرُوا۟ مِن قَوۡمِهِۦ لَنُخۡرِجَنَّكَ یَـٰشُعَیۡبُ وَٱلَّذِینَ ءَامَنُوا۟ مَعَكَ مِن قَرۡیَتِنَاۤ أَوۡ لَتَعُودُنَّ فِی مِلَّتِنَاۚ قَالَ أَوَ لَوۡ كُنَّا كَـٰرِهِینَ",
-    "ar_simple": "قال ٱلملأ ٱلذین ٱستكبروا من قومه لنخرجنك یشعیب وٱلذین ءامنوا معك من قریتنا أو لتعودن فی ملتنا قال أو لو كنا كرهین",
+    "ar_simple": "۞ قَالَ الْمَلَأُ الَّذِينَ اسْتَكْبَرُوا مِنْ قَوْمِهِ لَنُخْرِجَنَّكَ يَا شُعَيْبُ وَالَّذِينَ آمَنُوا مَعَكَ مِنْ قَرْيَتِنَا أَوْ لَتَعُودُنَّ فِي مِلَّتِنَا ۚ قَالَ أَوَلَوْ كُنَّا كَارِهِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said the eminent ones who were arrogant among his people, \"We will surely evict you, O Shu'ayb, and those who have believed with you from our city, or you must return to our religion.\" He said, \"Even if we were unwilling",
@@ -5502,7 +5676,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 89,
@@ -5516,7 +5692,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَدِ ٱفۡتَرَیۡنَا عَلَى ٱللَّهِ كَذِبًا إِنۡ عُدۡنَا فِی مِلَّتِكُم بَعۡدَ إِذۡ نَجَّىٰنَا ٱللَّهُ مِنۡهَاۚ وَمَا یَكُونُ لَنَاۤ أَن نَّعُودَ فِیهَاۤ إِلَّاۤ أَن یَشَاۤءَ ٱللَّهُ رَبُّنَاۚ وَسِعَ رَبُّنَا كُلَّ شَیۡءٍ عِلۡمًاۚ عَلَى ٱللَّهِ تَوَكَّلۡنَاۚ رَبَّنَا ٱفۡتَحۡ بَیۡنَنَا وَبَیۡنَ قَوۡمِنَا بِٱلۡحَقِّ وَأَنتَ خَیۡرُ ٱلۡفَـٰتِحِینَ",
-    "ar_simple": "قد ٱفترینا على ٱلله كذبا إن عدنا فی ملتكم بعد إذ نجىنا ٱلله منها وما یكون لنا أن نعود فیها إلا أن یشاء ٱلله ربنا وسع ربنا كل شیء علما على ٱلله توكلنا ربنا ٱفتح بیننا وبین قومنا بٱلحق وأنت خیر ٱلفتحین",
+    "ar_simple": "قَدِ افْتَرَيْنَا عَلَى اللَّهِ كَذِبًا إِنْ عُدْنَا فِي مِلَّتِكُمْ بَعْدَ إِذْ نَجَّانَا اللَّهُ مِنْهَا ۚ وَمَا يَكُونُ لَنَا أَنْ نَعُودَ فِيهَا إِلَّا أَنْ يَشَاءَ اللَّهُ رَبُّنَا ۚ وَسِعَ رَبُّنَا كُلَّ شَيْءٍ عِلْمًا ۚ عَلَى اللَّهِ تَوَكَّلْنَا ۚ رَبَّنَا افْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِالْحَقِّ وَأَنْتَ خَيْرُ الْفَاتِحِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "We would have invented against Allah a lie if we returned to your religion after Allah had saved us from it. And it is not for us to return to it except that Allah, our Lord, should will. Our Lord has encompassed all things in knowledge. Upon Allah we have relied. Our Lord, decide between us and our people in truth, and You are the best of those who give decision",
@@ -5564,7 +5740,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 90,
@@ -5578,7 +5756,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالَ ٱلۡمَلَأُ ٱلَّذِینَ كَفَرُوا۟ مِن قَوۡمِهِۦ لَئِنِ ٱتَّبَعۡتُمۡ شُعَیۡبًا إِنَّكُمۡ إِذࣰا لَّخَـٰسِرُونَ",
-    "ar_simple": "وقال ٱلملأ ٱلذین كفروا من قومه لئن ٱتبعتم شعیبا إنكم إذا لخسرون",
+    "ar_simple": "وَقَالَ الْمَلَأُ الَّذِينَ كَفَرُوا مِنْ قَوْمِهِ لَئِنِ اتَّبَعْتُمْ شُعَيْبًا إِنَّكُمْ إِذًا لَخَاسِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said the eminent ones who disbelieved among his people, \"If you should follow Shu'ayb, indeed, you would then be losers",
@@ -5625,7 +5803,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 91,
@@ -5639,7 +5819,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَخَذَتۡهُمُ ٱلرَّجۡفَةُ فَأَصۡبَحُوا۟ فِی دَارِهِمۡ جَـٰثِمِینَ",
-    "ar_simple": "فأخذتهم ٱلرجفة فأصبحوا فی دارهم جثمین",
+    "ar_simple": "فَأَخَذَتْهُمُ الرَّجْفَةُ فَأَصْبَحُوا فِي دَارِهِمْ جَاثِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So the earthquake seized them, and they became within their home [corpses] fallen prone",
@@ -5684,7 +5864,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 92,
@@ -5698,7 +5880,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِینَ كَذَّبُوا۟ شُعَیۡبࣰا كَأَن لَّمۡ یَغۡنَوۡا۟ فِیهَاۚ ٱلَّذِینَ كَذَّبُوا۟ شُعَیۡبࣰا كَانُوا۟ هُمُ ٱلۡخَـٰسِرِینَ",
-    "ar_simple": "ٱلذین كذبوا شعیبا كأن لم یغنوا فیها ٱلذین كذبوا شعیبا كانوا هم ٱلخسرین",
+    "ar_simple": "الَّذِينَ كَذَّبُوا شُعَيْبًا كَأَنْ لَمْ يَغْنَوْا فِيهَا ۚ الَّذِينَ كَذَّبُوا شُعَيْبًا كَانُوا هُمُ الْخَاسِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Those who denied Shu'ayb - it was as though they had never resided there. Those who denied Shu'ayb - it was they who were the losers",
@@ -5743,7 +5925,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 93,
@@ -5757,7 +5941,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَتَوَلَّىٰ عَنۡهُمۡ وَقَالَ یَـٰقَوۡمِ لَقَدۡ أَبۡلَغۡتُكُمۡ رِسَـٰلَـٰتِ رَبِّی وَنَصَحۡتُ لَكُمۡۖ فَكَیۡفَ ءَاسَىٰ عَلَىٰ قَوۡمࣲ كَـٰفِرِینَ",
-    "ar_simple": "فتولى عنهم وقال یقوم لقد أبلغتكم رسلت ربی ونصحت لكم فكیف ءاسى على قوم كفرین",
+    "ar_simple": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَا قَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَالَاتِ رَبِّي وَنَصَحْتُ لَكُمْ ۖ فَكَيْفَ آسَىٰ عَلَىٰ قَوْمٍ كَافِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And he turned away from them and said, \"O my people, I had certainly conveyed to you the messages of my Lord and advised you, so how could I grieve for a disbelieving people",
@@ -5804,7 +5988,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 94,
@@ -5818,7 +6004,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَاۤ أَرۡسَلۡنَا فِی قَرۡیَةࣲ مِّن نَّبِیٍّ إِلَّاۤ أَخَذۡنَاۤ أَهۡلَهَا بِٱلۡبَأۡسَاۤءِ وَٱلضَّرَّاۤءِ لَعَلَّهُمۡ یَضَّرَّعُونَ",
-    "ar_simple": "وما أرسلنا فی قریة من نبی إلا أخذنا أهلها بٱلبأساء وٱلضراء لعلهم یضرعون",
+    "ar_simple": "وَمَا أَرْسَلْنَا فِي قَرْيَةٍ مِنْ نَبِيٍّ إِلَّا أَخَذْنَا أَهْلَهَا بِالْبَأْسَاءِ وَالضَّرَّاءِ لَعَلَّهُمْ يَضَّرَّعُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We sent to no city a prophet [who was denied] except that We seized its people with poverty and hardship that they might humble themselves [to Allah]",
@@ -5865,7 +6051,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 95,
@@ -5879,7 +6067,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ بَدَّلۡنَا مَكَانَ ٱلسَّیِّئَةِ ٱلۡحَسَنَةَ حَتَّىٰ عَفَوا۟ وَّقَالُوا۟ قَدۡ مَسَّ ءَابَاۤءَنَا ٱلضَّرَّاۤءُ وَٱلسَّرَّاۤءُ فَأَخَذۡنَـٰهُم بَغۡتَةࣰ وَهُمۡ لَا یَشۡعُرُونَ",
-    "ar_simple": "ثم بدلنا مكان ٱلسیئة ٱلحسنة حتى عفوا وقالوا قد مس ءاباءنا ٱلضراء وٱلسراء فأخذنهم بغتة وهم لا یشعرون",
+    "ar_simple": "ثُمَّ بَدَّلْنَا مَكَانَ السَّيِّئَةِ الْحَسَنَةَ حَتَّىٰ عَفَوْا وَقَالُوا قَدْ مَسَّ آبَاءَنَا الضَّرَّاءُ وَالسَّرَّاءُ فَأَخَذْنَاهُمْ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then We exchanged in place of the bad [condition], good, until they increased [and prospered] and said, \"Our fathers [also] were touched with hardship and ease.\" So We seized them suddenly while they did not perceive",
@@ -5926,7 +6114,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 96,
@@ -5940,7 +6130,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَوۡ أَنَّ أَهۡلَ ٱلۡقُرَىٰۤ ءَامَنُوا۟ وَٱتَّقَوۡا۟ لَفَتَحۡنَا عَلَیۡهِم بَرَكَـٰتࣲ مِّنَ ٱلسَّمَاۤءِ وَٱلۡأَرۡضِ وَلَـٰكِن كَذَّبُوا۟ فَأَخَذۡنَـٰهُم بِمَا كَانُوا۟ یَكۡسِبُونَ",
-    "ar_simple": "ولو أن أهل ٱلقرى ءامنوا وٱتقوا لفتحنا علیهم بركت من ٱلسماء وٱلأرض ولكن كذبوا فأخذنهم بما كانوا یكسبون",
+    "ar_simple": "وَلَوْ أَنَّ أَهْلَ الْقُرَىٰ آمَنُوا وَاتَّقَوْا لَفَتَحْنَا عَلَيْهِمْ بَرَكَاتٍ مِنَ السَّمَاءِ وَالْأَرْضِ وَلَٰكِنْ كَذَّبُوا فَأَخَذْنَاهُمْ بِمَا كَانُوا يَكْسِبُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And if only the people of the cities had believed and feared Allah, We would have opened upon them blessings from the heaven and the earth; but they denied [the messengers], so We seized them for what they were earning",
@@ -5989,7 +6179,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 97,
@@ -6003,7 +6195,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَفَأَمِنَ أَهۡلُ ٱلۡقُرَىٰۤ أَن یَأۡتِیَهُم بَأۡسُنَا بَیَـٰتࣰا وَهُمۡ نَاۤئِمُونَ",
-    "ar_simple": "أفأمن أهل ٱلقرى أن یأتیهم بأسنا بیتا وهم نائمون",
+    "ar_simple": "أَفَأَمِنَ أَهْلُ الْقُرَىٰ أَنْ يَأْتِيَهُمْ بَأْسُنَا بَيَاتًا وَهُمْ نَائِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then, did the people of the cities feel secure from Our punishment coming to them at night while they were asleep",
@@ -6051,7 +6243,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 98,
@@ -6065,7 +6259,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوَ أَمِنَ أَهۡلُ ٱلۡقُرَىٰۤ أَن یَأۡتِیَهُم بَأۡسُنَا ضُحࣰى وَهُمۡ یَلۡعَبُونَ",
-    "ar_simple": "أو أمن أهل ٱلقرى أن یأتیهم بأسنا ضحى وهم یلعبون",
+    "ar_simple": "أَوَأَمِنَ أَهْلُ الْقُرَىٰ أَنْ يَأْتِيَهُمْ بَأْسُنَا ضُحًى وَهُمْ يَلْعَبُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Or did the people of the cities feel secure from Our punishment coming to them in the morning while they were at play",
@@ -6113,7 +6307,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 99,
@@ -6127,7 +6323,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَفَأَمِنُوا۟ مَكۡرَ ٱللَّهِۚ فَلَا یَأۡمَنُ مَكۡرَ ٱللَّهِ إِلَّا ٱلۡقَوۡمُ ٱلۡخَـٰسِرُونَ",
-    "ar_simple": "أفأمنوا مكر ٱلله فلا یأمن مكر ٱلله إلا ٱلقوم ٱلخسرون",
+    "ar_simple": "أَفَأَمِنُوا مَكْرَ اللَّهِ ۚ فَلَا يَأْمَنُ مَكْرَ اللَّهِ إِلَّا الْقَوْمُ الْخَاسِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then did they feel secure from the plan of Allah? But no one feels secure from the plan of Allah except the losing people",
@@ -6175,7 +6371,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 100,
@@ -6189,7 +6387,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوَ لَمۡ یَهۡدِ لِلَّذِینَ یَرِثُونَ ٱلۡأَرۡضَ مِنۢ بَعۡدِ أَهۡلِهَاۤ أَن لَّوۡ نَشَاۤءُ أَصَبۡنَـٰهُم بِذُنُوبِهِمۡۚ وَنَطۡبَعُ عَلَىٰ قُلُوبِهِمۡ فَهُمۡ لَا یَسۡمَعُونَ",
-    "ar_simple": "أو لم یهد للذین یرثون ٱلأرض من بعد أهلها أن لو نشاء أصبنهم بذنوبهم ونطبع على قلوبهم فهم لا یسمعون",
+    "ar_simple": "أَوَلَمْ يَهْدِ لِلَّذِينَ يَرِثُونَ الْأَرْضَ مِنْ بَعْدِ أَهْلِهَا أَنْ لَوْ نَشَاءُ أَصَبْنَاهُمْ بِذُنُوبِهِمْ ۚ وَنَطْبَعُ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَسْمَعُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Has it not become clear to those who inherited the earth after its [previous] people that if We willed, We could afflict them for their sins? But We seal over their hearts so they do not hear",
@@ -6236,7 +6434,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 101,
@@ -6250,7 +6450,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تِلۡكَ ٱلۡقُرَىٰ نَقُصُّ عَلَیۡكَ مِنۡ أَنۢبَاۤئِهَاۚ وَلَقَدۡ جَاۤءَتۡهُمۡ رُسُلُهُم بِٱلۡبَیِّنَـٰتِ فَمَا كَانُوا۟ لِیُؤۡمِنُوا۟ بِمَا كَذَّبُوا۟ مِن قَبۡلُۚ كَذَ ٰلِكَ یَطۡبَعُ ٱللَّهُ عَلَىٰ قُلُوبِ ٱلۡكَـٰفِرِینَ",
-    "ar_simple": "تلك ٱلقرى نقص علیك من أنبائها ولقد جاءتهم رسلهم بٱلبینت فما كانوا لیؤمنوا بما كذبوا من قبل كذ لك یطبع ٱلله على قلوب ٱلكفرین",
+    "ar_simple": "تِلْكَ الْقُرَىٰ نَقُصُّ عَلَيْكَ مِنْ أَنْبَائِهَا ۚ وَلَقَدْ جَاءَتْهُمْ رُسُلُهُمْ بِالْبَيِّنَاتِ فَمَا كَانُوا لِيُؤْمِنُوا بِمَا كَذَّبُوا مِنْ قَبْلُ ۚ كَذَٰلِكَ يَطْبَعُ اللَّهُ عَلَىٰ قُلُوبِ الْكَافِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Those cities - We relate to you, [O Muhammad], some of their news. And certainly did their messengers come to them with clear proofs, but they were not to believe in that which they had denied before. Thus does Allah seal over the hearts of the disbelievers",
@@ -6298,7 +6498,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 102,
@@ -6312,7 +6514,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا وَجَدۡنَا لِأَكۡثَرِهِم مِّنۡ عَهۡدࣲۖ وَإِن وَجَدۡنَاۤ أَكۡثَرَهُمۡ لَفَـٰسِقِینَ",
-    "ar_simple": "وما وجدنا لأكثرهم من عهد وإن وجدنا أكثرهم لفسقین",
+    "ar_simple": "وَمَا وَجَدْنَا لِأَكْثَرِهِمْ مِنْ عَهْدٍ ۖ وَإِنْ وَجَدْنَا أَكْثَرَهُمْ لَفَاسِقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We did not find for most of them any covenant; but indeed, We found most of them defiantly disobedient",
@@ -6359,7 +6561,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 103,
@@ -6373,7 +6577,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ بَعَثۡنَا مِنۢ بَعۡدِهِم مُّوسَىٰ بِءَایَـٰتِنَاۤ إِلَىٰ فِرۡعَوۡنَ وَمَلَإِی۟هِۦ فَظَلَمُوا۟ بِهَاۖ فَٱنظُرۡ كَیۡفَ كَانَ عَـٰقِبَةُ ٱلۡمُفۡسِدِینَ",
-    "ar_simple": "ثم بعثنا من بعدهم موسى بءایتنا إلى فرعون وملإیه فظلموا بها فٱنظر كیف كان عقبة ٱلمفسدین",
+    "ar_simple": "ثُمَّ بَعَثْنَا مِنْ بَعْدِهِمْ مُوسَىٰ بِآيَاتِنَا إِلَىٰ فِرْعَوْنَ وَمَلَئِهِ فَظَلَمُوا بِهَا ۖ فَانْظُرْ كَيْفَ كَانَ عَاقِبَةُ الْمُفْسِدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then We sent after them Moses with Our signs to Pharaoh and his establishment, but they were unjust toward them. So see how was the end of the corrupters",
@@ -6420,7 +6624,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 104,
@@ -6434,7 +6640,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالَ مُوسَىٰ یَـٰفِرۡعَوۡنُ إِنِّی رَسُولࣱ مِّن رَّبِّ ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "وقال موسى یفرعون إنی رسول من رب ٱلعلمین",
+    "ar_simple": "وَقَالَ مُوسَىٰ يَا فِرْعَوْنُ إِنِّي رَسُولٌ مِنْ رَبِّ الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And Moses said, \"O Pharaoh, I am a messenger from the Lord of the worlds",
@@ -6481,7 +6687,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 105,
@@ -6495,7 +6703,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "حَقِیقٌ عَلَىٰۤ أَن لَّاۤ أَقُولَ عَلَى ٱللَّهِ إِلَّا ٱلۡحَقَّۚ قَدۡ جِئۡتُكُم بِبَیِّنَةࣲ مِّن رَّبِّكُمۡ فَأَرۡسِلۡ مَعِیَ بَنِیۤ إِسۡرَ ٰۤءِیلَ",
-    "ar_simple": "حقیق على أن لا أقول على ٱلله إلا ٱلحق قد جئتكم ببینة من ربكم فأرسل معی بنی إسر ءیل",
+    "ar_simple": "حَقِيقٌ عَلَىٰ أَنْ لَا أَقُولَ عَلَى اللَّهِ إِلَّا الْحَقَّ ۚ قَدْ جِئْتُكُمْ بِبَيِّنَةٍ مِنْ رَبِّكُمْ فَأَرْسِلْ مَعِيَ بَنِي إِسْرَائِيلَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Who is] obligated not to say about Allah except the truth. I have come to you with clear evidence from your Lord, so send with me the Children of Israel",
@@ -6542,7 +6750,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 106,
@@ -6556,7 +6766,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ إِن كُنتَ جِئۡتَ بِءَایَةࣲ فَأۡتِ بِهَاۤ إِن كُنتَ مِنَ ٱلصَّـٰدِقِینَ",
-    "ar_simple": "قال إن كنت جئت بءایة فأت بها إن كنت من ٱلصدقین",
+    "ar_simple": "قَالَ إِنْ كُنْتَ جِئْتَ بِآيَةٍ فَأْتِ بِهَا إِنْ كُنْتَ مِنَ الصَّادِقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Pharaoh] said, \"If you have come with a sign, then bring it forth, if you should be of the truthful",
@@ -6603,7 +6813,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 107,
@@ -6617,7 +6829,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَلۡقَىٰ عَصَاهُ فَإِذَا هِیَ ثُعۡبَانࣱ مُّبِینࣱ",
-    "ar_simple": "فألقى عصاه فإذا هی ثعبان مبین",
+    "ar_simple": "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُبِينٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "So Moses threw his staff, and suddenly it was a serpent, manifest",
@@ -6662,7 +6874,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 108,
@@ -6676,7 +6890,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَنَزَعَ یَدَهُۥ فَإِذَا هِیَ بَیۡضَاۤءُ لِلنَّـٰظِرِینَ",
-    "ar_simple": "ونزع یده فإذا هی بیضاء للنظرین",
+    "ar_simple": "وَنَزَعَ يَدَهُ فَإِذَا هِيَ بَيْضَاءُ لِلنَّاظِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And he drew out his hand; thereupon it was white [with radiance] for the observers",
@@ -6721,7 +6935,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 109,
@@ -6735,7 +6951,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ ٱلۡمَلَأُ مِن قَوۡمِ فِرۡعَوۡنَ إِنَّ هَـٰذَا لَسَـٰحِرٌ عَلِیمࣱ",
-    "ar_simple": "قال ٱلملأ من قوم فرعون إن هذا لسحر علیم",
+    "ar_simple": "قَالَ الْمَلَأُ مِنْ قَوْمِ فِرْعَوْنَ إِنَّ هَٰذَا لَسَاحِرٌ عَلِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said the eminent among the people of Pharaoh, \"Indeed, this is a learned magician",
@@ -6783,7 +6999,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 110,
@@ -6797,7 +7015,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یُرِیدُ أَن یُخۡرِجَكُم مِّنۡ أَرۡضِكُمۡۖ فَمَاذَا تَأۡمُرُونَ",
-    "ar_simple": "یرید أن یخرجكم من أرضكم فماذا تأمرون",
+    "ar_simple": "يُرِيدُ أَنْ يُخْرِجَكُمْ مِنْ أَرْضِكُمْ ۖ فَمَاذَا تَأْمُرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who wants to expel you from your land [through magic], so what do you instruct",
@@ -6844,7 +7062,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 111,
@@ -6858,7 +7078,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالُوۤا۟ أَرۡجِهۡ وَأَخَاهُ وَأَرۡسِلۡ فِی ٱلۡمَدَاۤئِنِ حَـٰشِرِینَ",
-    "ar_simple": "قالوا أرجه وأخاه وأرسل فی ٱلمدائن حشرین",
+    "ar_simple": "قَالُوا أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِي الْمَدَائِنِ حَاشِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They said, \"Postpone [the matter of] him and his brother and send among the cities gatherers",
@@ -6903,7 +7123,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 112,
@@ -6917,7 +7139,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَأۡتُوكَ بِكُلِّ سَـٰحِرٍ عَلِیمࣲ",
-    "ar_simple": "یأتوك بكل سحر علیم",
+    "ar_simple": "يَأْتُوكَ بِكُلِّ سَاحِرٍ عَلِيمٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who will bring you every learned magician",
@@ -6965,7 +7187,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 113,
@@ -6979,7 +7203,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَجَاۤءَ ٱلسَّحَرَةُ فِرۡعَوۡنَ قَالُوۤا۟ إِنَّ لَنَا لَأَجۡرًا إِن كُنَّا نَحۡنُ ٱلۡغَـٰلِبِینَ",
-    "ar_simple": "وجاء ٱلسحرة فرعون قالوا إن لنا لأجرا إن كنا نحن ٱلغلبین",
+    "ar_simple": "وَجَاءَ السَّحَرَةُ فِرْعَوْنَ قَالُوا إِنَّ لَنَا لَأَجْرًا إِنْ كُنَّا نَحْنُ الْغَالِبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the magicians came to Pharaoh. They said, \"Indeed for us is a reward if we are the predominant",
@@ -7028,7 +7252,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 114,
@@ -7042,7 +7268,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ نَعَمۡ وَإِنَّكُمۡ لَمِنَ ٱلۡمُقَرَّبِینَ",
-    "ar_simple": "قال نعم وإنكم لمن ٱلمقربین",
+    "ar_simple": "قَالَ نَعَمْ وَإِنَّكُمْ لَمِنَ الْمُقَرَّبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "He said, \"Yes, and, [moreover], you will be among those made near [to me]",
@@ -7087,7 +7313,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 115,
@@ -7101,7 +7329,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالُوا۟ یَـٰمُوسَىٰۤ إِمَّاۤ أَن تُلۡقِیَ وَإِمَّاۤ أَن نَّكُونَ نَحۡنُ ٱلۡمُلۡقِینَ",
-    "ar_simple": "قالوا یموسى إما أن تلقی وإما أن نكون نحن ٱلملقین",
+    "ar_simple": "قَالُوا يَا مُوسَىٰ إِمَّا أَنْ تُلْقِيَ وَإِمَّا أَنْ نَكُونَ نَحْنُ الْمُلْقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They said, \"O Moses, either you throw [your staff], or we will be the ones to throw [first]",
@@ -7146,7 +7374,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 116,
@@ -7160,7 +7390,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ أَلۡقُوا۟ۖ فَلَمَّاۤ أَلۡقَوۡا۟ سَحَرُوۤا۟ أَعۡیُنَ ٱلنَّاسِ وَٱسۡتَرۡهَبُوهُمۡ وَجَاۤءُو بِسِحۡرٍ عَظِیمࣲ",
-    "ar_simple": "قال ألقوا فلما ألقوا سحروا أعین ٱلناس وٱسترهبوهم وجاءو بسحر عظیم",
+    "ar_simple": "قَالَ أَلْقُوا ۖ فَلَمَّا أَلْقَوْا سَحَرُوا أَعْيُنَ النَّاسِ وَاسْتَرْهَبُوهُمْ وَجَاءُوا بِسِحْرٍ عَظِيمٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "He said, \"Throw,\" and when they threw, they bewitched the eyes of the people and struck terror into them, and they presented a great [feat of] magic",
@@ -7208,7 +7438,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 65
   },
   {
     "n": 117,
@@ -7222,7 +7454,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ وَأَوۡحَیۡنَاۤ إِلَىٰ مُوسَىٰۤ أَنۡ أَلۡقِ عَصَاكَۖ فَإِذَا هِیَ تَلۡقَفُ مَا یَأۡفِكُونَ",
-    "ar_simple": "وأوحینا إلى موسى أن ألق عصاك فإذا هی تلقف ما یأفكون",
+    "ar_simple": "۞ وَأَوْحَيْنَا إِلَىٰ مُوسَىٰ أَنْ أَلْقِ عَصَاكَ ۖ فَإِذَا هِيَ تَلْقَفُ مَا يَأْفِكُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We inspired to Moses, \"Throw your staff,\" and at once it devoured what they were falsifying",
@@ -7267,7 +7499,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 118,
@@ -7281,7 +7515,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَوَقَعَ ٱلۡحَقُّ وَبَطَلَ مَا كَانُوا۟ یَعۡمَلُونَ",
-    "ar_simple": "فوقع ٱلحق وبطل ما كانوا یعملون",
+    "ar_simple": "فَوَقَعَ الْحَقُّ وَبَطَلَ مَا كَانُوا يَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So the truth was established, and abolished was what they were doing",
@@ -7326,7 +7560,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 119,
@@ -7340,7 +7576,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَغُلِبُوا۟ هُنَالِكَ وَٱنقَلَبُوا۟ صَـٰغِرِینَ",
-    "ar_simple": "فغلبوا هنالك وٱنقلبوا صغرین",
+    "ar_simple": "فَغُلِبُوا هُنَالِكَ وَانْقَلَبُوا صَاغِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And Pharaoh and his people were overcome right there and became debased",
@@ -7385,7 +7621,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 120,
@@ -7399,7 +7637,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأُلۡقِیَ ٱلسَّحَرَةُ سَـٰجِدِینَ",
-    "ar_simple": "وألقی ٱلسحرة سجدین",
+    "ar_simple": "وَأُلْقِيَ السَّحَرَةُ سَاجِدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the magicians fell down in prostration [to Allah]",
@@ -7447,7 +7685,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 121,
@@ -7461,7 +7701,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالُوۤا۟ ءَامَنَّا بِرَبِّ ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "قالوا ءامنا برب ٱلعلمین",
+    "ar_simple": "قَالُوا آمَنَّا بِرَبِّ الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They said, \"We have believed in the Lord of the worlds",
@@ -7508,7 +7748,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 122,
@@ -7522,7 +7764,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "رَبِّ مُوسَىٰ وَهَـٰرُونَ",
-    "ar_simple": "رب موسى وهرون",
+    "ar_simple": "رَبِّ مُوسَىٰ وَهَارُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "The Lord of Moses and Aaron",
@@ -7567,7 +7809,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 123,
@@ -7581,7 +7825,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ فِرۡعَوۡنُ ءَامَنتُم بِهِۦ قَبۡلَ أَنۡ ءَاذَنَ لَكُمۡۖ إِنَّ هَـٰذَا لَمَكۡرࣱ مَّكَرۡتُمُوهُ فِی ٱلۡمَدِینَةِ لِتُخۡرِجُوا۟ مِنۡهَاۤ أَهۡلَهَاۖ فَسَوۡفَ تَعۡلَمُونَ",
-    "ar_simple": "قال فرعون ءامنتم به قبل أن ءاذن لكم إن هذا لمكر مكرتموه فی ٱلمدینة لتخرجوا منها أهلها فسوف تعلمون",
+    "ar_simple": "قَالَ فِرْعَوْنُ آمَنْتُمْ بِهِ قَبْلَ أَنْ آذَنَ لَكُمْ ۖ إِنَّ هَٰذَا لَمَكْرٌ مَكَرْتُمُوهُ فِي الْمَدِينَةِ لِتُخْرِجُوا مِنْهَا أَهْلَهَا ۖ فَسَوْفَ تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said Pharaoh, \"You believed in him before I gave you permission. Indeed, this is a conspiracy which you conspired in the city to expel therefrom its people. But you are going to know",
@@ -7628,7 +7872,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 124,
@@ -7642,7 +7888,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَأُقَطِّعَنَّ أَیۡدِیَكُمۡ وَأَرۡجُلَكُم مِّنۡ خِلَـٰفࣲ ثُمَّ لَأُصَلِّبَنَّكُمۡ أَجۡمَعِینَ",
-    "ar_simple": "لأقطعن أیدیكم وأرجلكم من خلف ثم لأصلبنكم أجمعین",
+    "ar_simple": "لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُمْ مِنْ خِلَافٍ ثُمَّ لَأُصَلِّبَنَّكُمْ أَجْمَعِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "I will surely cut off your hands and your feet on opposite sides; then I will surely crucify you all",
@@ -7687,7 +7933,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 125,
@@ -7701,7 +7949,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالُوۤا۟ إِنَّاۤ إِلَىٰ رَبِّنَا مُنقَلِبُونَ",
-    "ar_simple": "قالوا إنا إلى ربنا منقلبون",
+    "ar_simple": "قَالُوا إِنَّا إِلَىٰ رَبِّنَا مُنْقَلِبُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They said, \"Indeed, to our Lord we will return",
@@ -7746,7 +7994,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 126,
@@ -7760,7 +8010,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا تَنقِمُ مِنَّاۤ إِلَّاۤ أَنۡ ءَامَنَّا بِءَایَـٰتِ رَبِّنَا لَمَّا جَاۤءَتۡنَاۚ رَبَّنَاۤ أَفۡرِغۡ عَلَیۡنَا صَبۡرࣰا وَتَوَفَّنَا مُسۡلِمِینَ",
-    "ar_simple": "وما تنقم منا إلا أن ءامنا بءایت ربنا لما جاءتنا ربنا أفرغ علینا صبرا وتوفنا مسلمین",
+    "ar_simple": "وَمَا تَنْقِمُ مِنَّا إِلَّا أَنْ آمَنَّا بِآيَاتِ رَبِّنَا لَمَّا جَاءَتْنَا ۚ رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And you do not resent us except because we believed in the signs of our Lord when they came to us. Our Lord, pour upon us patience and let us die as Muslims [in submission to You]",
@@ -7809,7 +8059,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 127,
@@ -7823,7 +8075,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالَ ٱلۡمَلَأُ مِن قَوۡمِ فِرۡعَوۡنَ أَتَذَرُ مُوسَىٰ وَقَوۡمَهُۥ لِیُفۡسِدُوا۟ فِی ٱلۡأَرۡضِ وَیَذَرَكَ وَءَالِهَتَكَۚ قَالَ سَنُقَتِّلُ أَبۡنَاۤءَهُمۡ وَنَسۡتَحۡیِۦ نِسَاۤءَهُمۡ وَإِنَّا فَوۡقَهُمۡ قَـٰهِرُونَ",
-    "ar_simple": "وقال ٱلملأ من قوم فرعون أتذر موسى وقومه لیفسدوا فی ٱلأرض ویذرك وءالهتك قال سنقتل أبناءهم ونستحی نساءهم وإنا فوقهم قهرون",
+    "ar_simple": "وَقَالَ الْمَلَأُ مِنْ قَوْمِ فِرْعَوْنَ أَتَذَرُ مُوسَىٰ وَقَوْمَهُ لِيُفْسِدُوا فِي الْأَرْضِ وَيَذَرَكَ وَآلِهَتَكَ ۚ قَالَ سَنُقَتِّلُ أَبْنَاءَهُمْ وَنَسْتَحْيِي نِسَاءَهُمْ وَإِنَّا فَوْقَهُمْ قَاهِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the eminent among the people of Pharaoh said,\" Will you leave Moses and his people to cause corruption in the land and abandon you and your gods?\" [Pharaoh] said, \"We will kill their sons and keep their women alive; and indeed, we are subjugators over them",
@@ -7870,7 +8122,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 128,
@@ -7884,7 +8138,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ مُوسَىٰ لِقَوۡمِهِ ٱسۡتَعِینُوا۟ بِٱللَّهِ وَٱصۡبِرُوۤا۟ۖ إِنَّ ٱلۡأَرۡضَ لِلَّهِ یُورِثُهَا مَن یَشَاۤءُ مِنۡ عِبَادِهِۦۖ وَٱلۡعَـٰقِبَةُ لِلۡمُتَّقِینَ",
-    "ar_simple": "قال موسى لقومه ٱستعینوا بٱلله وٱصبروا إن ٱلأرض لله یورثها من یشاء من عباده وٱلعقبة للمتقین",
+    "ar_simple": "قَالَ مُوسَىٰ لِقَوْمِهِ اسْتَعِينُوا بِاللَّهِ وَاصْبِرُوا ۖ إِنَّ الْأَرْضَ لِلَّهِ يُورِثُهَا مَنْ يَشَاءُ مِنْ عِبَادِهِ ۖ وَالْعَاقِبَةُ لِلْمُتَّقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Said Moses to his people, \"Seek help through Allah and be patient. Indeed, the earth belongs to Allah. He causes to inherit it whom He wills of His servants. And the [best] outcome is for the righteous",
@@ -7931,7 +8185,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 129,
@@ -7945,7 +8201,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالُوۤا۟ أُوذِینَا مِن قَبۡلِ أَن تَأۡتِیَنَا وَمِنۢ بَعۡدِ مَا جِئۡتَنَاۚ قَالَ عَسَىٰ رَبُّكُمۡ أَن یُهۡلِكَ عَدُوَّكُمۡ وَیَسۡتَخۡلِفَكُمۡ فِی ٱلۡأَرۡضِ فَیَنظُرَ كَیۡفَ تَعۡمَلُونَ",
-    "ar_simple": "قالوا أوذینا من قبل أن تأتینا ومن بعد ما جئتنا قال عسى ربكم أن یهلك عدوكم ویستخلفكم فی ٱلأرض فینظر كیف تعملون",
+    "ar_simple": "قَالُوا أُوذِينَا مِنْ قَبْلِ أَنْ تَأْتِيَنَا وَمِنْ بَعْدِ مَا جِئْتَنَا ۚ قَالَ عَسَىٰ رَبُّكُمْ أَنْ يُهْلِكَ عَدُوَّكُمْ وَيَسْتَخْلِفَكُمْ فِي الْأَرْضِ فَيَنْظُرَ كَيْفَ تَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They said, \"We have been harmed before you came to us and after you have come to us.\" He said, \"Perhaps your Lord will destroy your enemy and grant you succession in the land and see how you will do",
@@ -7992,7 +8248,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 130,
@@ -8006,7 +8264,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ أَخَذۡنَاۤ ءَالَ فِرۡعَوۡنَ بِٱلسِّنِینَ وَنَقۡصࣲ مِّنَ ٱلثَّمَرَ ٰتِ لَعَلَّهُمۡ یَذَّكَّرُونَ",
-    "ar_simple": "ولقد أخذنا ءال فرعون بٱلسنین ونقص من ٱلثمر ت لعلهم یذكرون",
+    "ar_simple": "وَلَقَدْ أَخَذْنَا آلَ فِرْعَوْنَ بِالسِّنِينَ وَنَقْصٍ مِنَ الثَّمَرَاتِ لَعَلَّهُمْ يَذَّكَّرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We certainly seized the people of Pharaoh with years of famine and a deficiency in fruits that perhaps they would be reminded",
@@ -8051,7 +8309,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 131,
@@ -8065,7 +8325,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَإِذَا جَاۤءَتۡهُمُ ٱلۡحَسَنَةُ قَالُوا۟ لَنَا هَـٰذِهِۦۖ وَإِن تُصِبۡهُمۡ سَیِّئَةࣱ یَطَّیَّرُوا۟ بِمُوسَىٰ وَمَن مَّعَهُۥۤۗ أَلَاۤ إِنَّمَا طَـٰۤئِرُهُمۡ عِندَ ٱللَّهِ وَلَـٰكِنَّ أَكۡثَرَهُمۡ لَا یَعۡلَمُونَ",
-    "ar_simple": "فإذا جاءتهم ٱلحسنة قالوا لنا هذه وإن تصبهم سیئة یطیروا بموسى ومن معه ألا إنما طئرهم عند ٱلله ولكن أكثرهم لا یعلمون",
+    "ar_simple": "فَإِذَا جَاءَتْهُمُ الْحَسَنَةُ قَالُوا لَنَا هَٰذِهِ ۖ وَإِنْ تُصِبْهُمْ سَيِّئَةٌ يَطَّيَّرُوا بِمُوسَىٰ وَمَنْ مَعَهُ ۗ أَلَا إِنَّمَا طَائِرُهُمْ عِنْدَ اللَّهِ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But when good came to them, they said, \"This is ours [by right].\" And if a bad [condition] struck them, they saw an evil omen in Moses and those with him. Unquestionably, their fortune is with Allah, but most of them do not know",
@@ -8110,7 +8370,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 132,
@@ -8124,7 +8386,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالُوا۟ مَهۡمَا تَأۡتِنَا بِهِۦ مِنۡ ءَایَةࣲ لِّتَسۡحَرَنَا بِهَا فَمَا نَحۡنُ لَكَ بِمُؤۡمِنِینَ",
-    "ar_simple": "وقالوا مهما تأتنا به من ءایة لتسحرنا بها فما نحن لك بمؤمنین",
+    "ar_simple": "وَقَالُوا مَهْمَا تَأْتِنَا بِهِ مِنْ آيَةٍ لِتَسْحَرَنَا بِهَا فَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And they said, \"No matter what sign you bring us with which to bewitch us, we will not be believers in you",
@@ -8171,7 +8433,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 133,
@@ -8185,7 +8449,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَرۡسَلۡنَا عَلَیۡهِمُ ٱلطُّوفَانَ وَٱلۡجَرَادَ وَٱلۡقُمَّلَ وَٱلضَّفَادِعَ وَٱلدَّمَ ءَایَـٰتࣲ مُّفَصَّلَـٰتࣲ فَٱسۡتَكۡبَرُوا۟ وَكَانُوا۟ قَوۡمࣰا مُّجۡرِمِینَ",
-    "ar_simple": "فأرسلنا علیهم ٱلطوفان وٱلجراد وٱلقمل وٱلضفادع وٱلدم ءایت مفصلت فٱستكبروا وكانوا قوما مجرمین",
+    "ar_simple": "فَأَرْسَلْنَا عَلَيْهِمُ الطُّوفَانَ وَالْجَرَادَ وَالْقُمَّلَ وَالضَّفَادِعَ وَالدَّمَ آيَاتٍ مُفَصَّلَاتٍ فَاسْتَكْبَرُوا وَكَانُوا قَوْمًا مُجْرِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So We sent upon them the flood and locusts and lice and frogs and blood as distinct signs, but they were arrogant and were a criminal people",
@@ -8232,7 +8496,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 134,
@@ -8246,7 +8512,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَمَّا وَقَعَ عَلَیۡهِمُ ٱلرِّجۡزُ قَالُوا۟ یَـٰمُوسَى ٱدۡعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَۖ لَئِن كَشَفۡتَ عَنَّا ٱلرِّجۡزَ لَنُؤۡمِنَنَّ لَكَ وَلَنُرۡسِلَنَّ مَعَكَ بَنِیۤ إِسۡرَ ٰۤءِیلَ",
-    "ar_simple": "ولما وقع علیهم ٱلرجز قالوا یموسى ٱدع لنا ربك بما عهد عندك لئن كشفت عنا ٱلرجز لنؤمنن لك ولنرسلن معك بنی إسر ءیل",
+    "ar_simple": "وَلَمَّا وَقَعَ عَلَيْهِمُ الرِّجْزُ قَالُوا يَا مُوسَى ادْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِنْدَكَ ۖ لَئِنْ كَشَفْتَ عَنَّا الرِّجْزَ لَنُؤْمِنَنَّ لَكَ وَلَنُرْسِلَنَّ مَعَكَ بَنِي إِسْرَائِيلَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the punishment descended upon them, they said, \"O Moses, invoke for us your Lord by what He has promised you. If you [can] remove the punishment from us, we will surely believe you, and we will send with you the Children of Israel",
@@ -8296,7 +8562,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 135,
@@ -8310,7 +8578,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَمَّا كَشَفۡنَا عَنۡهُمُ ٱلرِّجۡزَ إِلَىٰۤ أَجَلٍ هُم بَـٰلِغُوهُ إِذَا هُمۡ یَنكُثُونَ",
-    "ar_simple": "فلما كشفنا عنهم ٱلرجز إلى أجل هم بلغوه إذا هم ینكثون",
+    "ar_simple": "فَلَمَّا كَشَفْنَا عَنْهُمُ الرِّجْزَ إِلَىٰ أَجَلٍ هُمْ بَالِغُوهُ إِذَا هُمْ يَنْكُثُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But when We removed the punishment from them until a term which they were to reach, then at once they broke their word",
@@ -8357,7 +8625,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 136,
@@ -8371,7 +8641,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَٱنتَقَمۡنَا مِنۡهُمۡ فَأَغۡرَقۡنَـٰهُمۡ فِی ٱلۡیَمِّ بِأَنَّهُمۡ كَذَّبُوا۟ بِءَایَـٰتِنَا وَكَانُوا۟ عَنۡهَا غَـٰفِلِینَ",
-    "ar_simple": "فٱنتقمنا منهم فأغرقنهم فی ٱلیم بأنهم كذبوا بءایتنا وكانوا عنها غفلین",
+    "ar_simple": "فَانْتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَاهُمْ فِي الْيَمِّ بِأَنَّهُمْ كَذَّبُوا بِآيَاتِنَا وَكَانُوا عَنْهَا غَافِلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So We took retribution from them, and We drowned them in the sea because they denied Our signs and were heedless of them",
@@ -8416,7 +8686,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 137,
@@ -8430,7 +8702,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَوۡرَثۡنَا ٱلۡقَوۡمَ ٱلَّذِینَ كَانُوا۟ یُسۡتَضۡعَفُونَ مَشَـٰرِقَ ٱلۡأَرۡضِ وَمَغَـٰرِبَهَا ٱلَّتِی بَـٰرَكۡنَا فِیهَاۖ وَتَمَّتۡ كَلِمَتُ رَبِّكَ ٱلۡحُسۡنَىٰ عَلَىٰ بَنِیۤ إِسۡرَ ٰۤءِیلَ بِمَا صَبَرُوا۟ۖ وَدَمَّرۡنَا مَا كَانَ یَصۡنَعُ فِرۡعَوۡنُ وَقَوۡمُهُۥ وَمَا كَانُوا۟ یَعۡرِشُونَ",
-    "ar_simple": "وأورثنا ٱلقوم ٱلذین كانوا یستضعفون مشرق ٱلأرض ومغربها ٱلتی بركنا فیها وتمت كلمت ربك ٱلحسنى على بنی إسر ءیل بما صبروا ودمرنا ما كان یصنع فرعون وقومه وما كانوا یعرشون",
+    "ar_simple": "وَأَوْرَثْنَا الْقَوْمَ الَّذِينَ كَانُوا يُسْتَضْعَفُونَ مَشَارِقَ الْأَرْضِ وَمَغَارِبَهَا الَّتِي بَارَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ الْحُسْنَىٰ عَلَىٰ بَنِي إِسْرَائِيلَ بِمَا صَبَرُوا ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُ وَمَا كَانُوا يَعْرِشُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We caused the people who had been oppressed to inherit the eastern regions of the land and the western ones, which We had blessed. And the good word of your Lord was fulfilled for the Children of Israel because of what they had patiently endured. And We destroyed [all] that Pharaoh and his people were producing and what they had been building",
@@ -8477,7 +8749,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 138,
@@ -8491,7 +8765,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَجَـٰوَزۡنَا بِبَنِیۤ إِسۡرَ ٰۤءِیلَ ٱلۡبَحۡرَ فَأَتَوۡا۟ عَلَىٰ قَوۡمࣲ یَعۡكُفُونَ عَلَىٰۤ أَصۡنَامࣲ لَّهُمۡۚ قَالُوا۟ یَـٰمُوسَى ٱجۡعَل لَّنَاۤ إِلَـٰهࣰا كَمَا لَهُمۡ ءَالِهَةࣱۚ قَالَ إِنَّكُمۡ قَوۡمࣱ تَجۡهَلُونَ",
-    "ar_simple": "وجوزنا ببنی إسر ءیل ٱلبحر فأتوا على قوم یعكفون على أصنام لهم قالوا یموسى ٱجعل لنا إلها كما لهم ءالهة قال إنكم قوم تجهلون",
+    "ar_simple": "وَجَاوَزْنَا بِبَنِي إِسْرَائِيلَ الْبَحْرَ فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَهُمْ ۚ قَالُوا يَا مُوسَى اجْعَلْ لَنَا إِلَٰهًا كَمَا لَهُمْ آلِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We took the Children of Israel across the sea; then they came upon a people intent in devotion to [some] idols of theirs. They said, \"O Moses, make for us a god just as they have gods.\" He said, \"Indeed, you are a people behaving ignorantly",
@@ -8539,7 +8813,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 139,
@@ -8553,7 +8829,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ هَـٰۤؤُلَاۤءِ مُتَبَّرࣱ مَّا هُمۡ فِیهِ وَبَـٰطِلࣱ مَّا كَانُوا۟ یَعۡمَلُونَ",
-    "ar_simple": "إن هؤلاء متبر ما هم فیه وبطل ما كانوا یعملون",
+    "ar_simple": "إِنَّ هَٰؤُلَاءِ مُتَبَّرٌ مَا هُمْ فِيهِ وَبَاطِلٌ مَا كَانُوا يَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those [worshippers] - destroyed is that in which they are [engaged], and worthless is whatever they were doing",
@@ -8598,7 +8874,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 140,
@@ -8612,7 +8890,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ أَغَیۡرَ ٱللَّهِ أَبۡغِیكُمۡ إِلَـٰهࣰا وَهُوَ فَضَّلَكُمۡ عَلَى ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "قال أغیر ٱلله أبغیكم إلها وهو فضلكم على ٱلعلمین",
+    "ar_simple": "قَالَ أَغَيْرَ اللَّهِ أَبْغِيكُمْ إِلَٰهًا وَهُوَ فَضَّلَكُمْ عَلَى الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "He said, \"Is it other than Allah I should desire for you as a god while He has preferred you over the worlds",
@@ -8657,7 +8935,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 141,
@@ -8671,7 +8951,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذۡ أَنجَیۡنَـٰكُم مِّنۡ ءَالِ فِرۡعَوۡنَ یَسُومُونَكُمۡ سُوۤءَ ٱلۡعَذَابِ یُقَتِّلُونَ أَبۡنَاۤءَكُمۡ وَیَسۡتَحۡیُونَ نِسَاۤءَكُمۡۚ وَفِی ذَ ٰلِكُم بَلَاۤءࣱ مِّن رَّبِّكُمۡ عَظِیمࣱ",
-    "ar_simple": "وإذ أنجینكم من ءال فرعون یسومونكم سوء ٱلعذاب یقتلون أبناءكم ویستحیون نساءكم وفی ذ لكم بلاء من ربكم عظیم",
+    "ar_simple": "وَإِذْ أَنْجَيْنَاكُمْ مِنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوءَ الْعَذَابِ ۖ يُقَتِّلُونَ أَبْنَاءَكُمْ وَيَسْتَحْيُونَ نِسَاءَكُمْ ۚ وَفِي ذَٰلِكُمْ بَلَاءٌ مِنْ رَبِّكُمْ عَظِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [recall, O Children of Israel], when We saved you from the people of Pharaoh, [who were] afflicting you with the worst torment - killing your sons and keeping your women alive. And in that was a great trial from your Lord",
@@ -8720,7 +9000,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 66
   },
   {
     "n": 142,
@@ -8734,7 +9016,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ وَوَ ٰعَدۡنَا مُوسَىٰ ثَلَـٰثِینَ لَیۡلَةࣰ وَأَتۡمَمۡنَـٰهَا بِعَشۡرࣲ فَتَمَّ مِیقَـٰتُ رَبِّهِۦۤ أَرۡبَعِینَ لَیۡلَةࣰۚ وَقَالَ مُوسَىٰ لِأَخِیهِ هَـٰرُونَ ٱخۡلُفۡنِی فِی قَوۡمِی وَأَصۡلِحۡ وَلَا تَتَّبِعۡ سَبِیلَ ٱلۡمُفۡسِدِینَ",
-    "ar_simple": "وو عدنا موسى ثلثین لیلة وأتممنها بعشر فتم میقت ربه أربعین لیلة وقال موسى لأخیه هرون ٱخلفنی فی قومی وأصلح ولا تتبع سبیل ٱلمفسدین",
+    "ar_simple": "۞ وَوَاعَدْنَا مُوسَىٰ ثَلَاثِينَ لَيْلَةً وَأَتْمَمْنَاهَا بِعَشْرٍ فَتَمَّ مِيقَاتُ رَبِّهِ أَرْبَعِينَ لَيْلَةً ۚ وَقَالَ مُوسَىٰ لِأَخِيهِ هَارُونَ اخْلُفْنِي فِي قَوْمِي وَأَصْلِحْ وَلَا تَتَّبِعْ سَبِيلَ الْمُفْسِدِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We made an appointment with Moses for thirty nights and perfected them by [the addition of] ten; so the term of his Lord was completed as forty nights. And Moses said to his brother Aaron, \"Take my place among my people, do right [by them], and do not follow the way of the corrupters",
@@ -8779,7 +9061,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 143,
@@ -8793,7 +9077,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَمَّا جَاۤءَ مُوسَىٰ لِمِیقَـٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِیۤ أَنظُرۡ إِلَیۡكَۚ قَالَ لَن تَرَىٰنِی وَلَـٰكِنِ ٱنظُرۡ إِلَى ٱلۡجَبَلِ فَإِنِ ٱسۡتَقَرَّ مَكَانَهُۥ فَسَوۡفَ تَرَىٰنِیۚ فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلۡجَبَلِ جَعَلَهُۥ دَكࣰّا وَخَرَّ مُوسَىٰ صَعِقࣰاۚ فَلَمَّاۤ أَفَاقَ قَالَ سُبۡحَـٰنَكَ تُبۡتُ إِلَیۡكَ وَأَنَا۠ أَوَّلُ ٱلۡمُؤۡمِنِینَ",
-    "ar_simple": "ولما جاء موسى لمیقتنا وكلمه ربه قال رب أرنی أنظر إلیك قال لن ترىنی ولكن ٱنظر إلى ٱلجبل فإن ٱستقر مكانه فسوف ترىنی فلما تجلى ربه للجبل جعله دكا وخر موسى صعقا فلما أفاق قال سبحنك تبت إلیك وأنا أول ٱلمؤمنین",
+    "ar_simple": "وَلَمَّا جَاءَ مُوسَىٰ لِمِيقَاتِنَا وَكَلَّمَهُ رَبُّهُ قَالَ رَبِّ أَرِنِي أَنْظُرْ إِلَيْكَ ۚ قَالَ لَنْ تَرَانِي وَلَٰكِنِ انْظُرْ إِلَى الْجَبَلِ فَإِنِ اسْتَقَرَّ مَكَانَهُ فَسَوْفَ تَرَانِي ۚ فَلَمَّا تَجَلَّىٰ رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا ۚ فَلَمَّا أَفَاقَ قَالَ سُبْحَانَكَ تُبْتُ إِلَيْكَ وَأَنَا أَوَّلُ الْمُؤْمِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when Moses arrived at Our appointed time and his Lord spoke to him, he said, \"My Lord, show me [Yourself] that I may look at You.\" [Allah] said, \"You will not see Me, but look at the mountain; if it should remain in place, then you will see Me.\" But when his Lord appeared to the mountain, He rendered it level, and Moses fell unconscious. And when he awoke, he said, \"Exalted are You! I have repented to You, and I am the first of the believers",
@@ -8841,7 +9125,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 144,
@@ -8855,7 +9141,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ یَـٰمُوسَىٰۤ إِنِّی ٱصۡطَفَیۡتُكَ عَلَى ٱلنَّاسِ بِرِسَـٰلَـٰتِی وَبِكَلَـٰمِی فَخُذۡ مَاۤ ءَاتَیۡتُكَ وَكُن مِّنَ ٱلشَّـٰكِرِینَ",
-    "ar_simple": "قال یموسى إنی ٱصطفیتك على ٱلناس برسلتی وبكلمی فخذ ما ءاتیتك وكن من ٱلشكرین",
+    "ar_simple": "قَالَ يَا مُوسَىٰ إِنِّي اصْطَفَيْتُكَ عَلَى النَّاسِ بِرِسَالَاتِي وَبِكَلَامِي فَخُذْ مَا آتَيْتُكَ وَكُنْ مِنَ الشَّاكِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Allah] said, \"O Moses, I have chosen you over the people with My messages and My words [to you]. So take what I have given you and be among the grateful",
@@ -8900,7 +9186,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 145,
@@ -8914,7 +9202,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَكَتَبۡنَا لَهُۥ فِی ٱلۡأَلۡوَاحِ مِن كُلِّ شَیۡءࣲ مَّوۡعِظَةࣰ وَتَفۡصِیلࣰا لِّكُلِّ شَیۡءࣲ فَخُذۡهَا بِقُوَّةࣲ وَأۡمُرۡ قَوۡمَكَ یَأۡخُذُوا۟ بِأَحۡسَنِهَاۚ سَأُو۟رِیكُمۡ دَارَ ٱلۡفَـٰسِقِینَ",
-    "ar_simple": "وكتبنا له فی ٱلألواح من كل شیء موعظة وتفصیلا لكل شیء فخذها بقوة وأمر قومك یأخذوا بأحسنها سأوریكم دار ٱلفسقین",
+    "ar_simple": "وَكَتَبْنَا لَهُ فِي الْأَلْوَاحِ مِنْ كُلِّ شَيْءٍ مَوْعِظَةً وَتَفْصِيلًا لِكُلِّ شَيْءٍ فَخُذْهَا بِقُوَّةٍ وَأْمُرْ قَوْمَكَ يَأْخُذُوا بِأَحْسَنِهَا ۚ سَأُرِيكُمْ دَارَ الْفَاسِقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We wrote for him on the tablets [something] of all things - instruction and explanation for all things, [saying], \"Take them with determination and order your people to take the best of it. I will show you the home of the defiantly disobedient",
@@ -8962,7 +9250,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 146,
@@ -8976,7 +9266,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَأَصۡرِفُ عَنۡ ءَایَـٰتِیَ ٱلَّذِینَ یَتَكَبَّرُونَ فِی ٱلۡأَرۡضِ بِغَیۡرِ ٱلۡحَقِّ وَإِن یَرَوۡا۟ كُلَّ ءَایَةࣲ لَّا یُؤۡمِنُوا۟ بِهَا وَإِن یَرَوۡا۟ سَبِیلَ ٱلرُّشۡدِ لَا یَتَّخِذُوهُ سَبِیلࣰا وَإِن یَرَوۡا۟ سَبِیلَ ٱلۡغَیِّ یَتَّخِذُوهُ سَبِیلࣰاۚ ذَ ٰلِكَ بِأَنَّهُمۡ كَذَّبُوا۟ بِءَایَـٰتِنَا وَكَانُوا۟ عَنۡهَا غَـٰفِلِینَ",
-    "ar_simple": "سأصرف عن ءایتی ٱلذین یتكبرون فی ٱلأرض بغیر ٱلحق وإن یروا كل ءایة لا یؤمنوا بها وإن یروا سبیل ٱلرشد لا یتخذوه سبیلا وإن یروا سبیل ٱلغی یتخذوه سبیلا ذ لك بأنهم كذبوا بءایتنا وكانوا عنها غفلین",
+    "ar_simple": "سَأَصْرِفُ عَنْ آيَاتِيَ الَّذِينَ يَتَكَبَّرُونَ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ وَإِنْ يَرَوْا كُلَّ آيَةٍ لَا يُؤْمِنُوا بِهَا وَإِنْ يَرَوْا سَبِيلَ الرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِنْ يَرَوْا سَبِيلَ الْغَيِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا بِآيَاتِنَا وَكَانُوا عَنْهَا غَافِلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "I will turn away from My signs those who are arrogant upon the earth without right; and if they should see every sign, they will not believe in it. And if they see the way of consciousness, they will not adopt it as a way; but if they see the way of error, they will adopt it as a way. That is because they have denied Our signs and they were heedless of them",
@@ -9023,7 +9313,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 147,
@@ -9037,7 +9329,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَا وَلِقَاۤءِ ٱلۡءَاخِرَةِ حَبِطَتۡ أَعۡمَـٰلُهُمۡۚ هَلۡ یُجۡزَوۡنَ إِلَّا مَا كَانُوا۟ یَعۡمَلُونَ",
-    "ar_simple": "وٱلذین كذبوا بءایتنا ولقاء ٱلءاخرة حبطت أعملهم هل یجزون إلا ما كانوا یعملون",
+    "ar_simple": "وَالَّذِينَ كَذَّبُوا بِآيَاتِنَا وَلِقَاءِ الْآخِرَةِ حَبِطَتْ أَعْمَالُهُمْ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا يَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Those who denied Our signs and the meeting of the Hereafter - their deeds have become worthless. Are they recompensed except for what they used to do",
@@ -9084,7 +9376,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 148,
@@ -9098,7 +9392,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱتَّخَذَ قَوۡمُ مُوسَىٰ مِنۢ بَعۡدِهِۦ مِنۡ حُلِیِّهِمۡ عِجۡلࣰا جَسَدࣰا لَّهُۥ خُوَارٌۚ أَلَمۡ یَرَوۡا۟ أَنَّهُۥ لَا یُكَلِّمُهُمۡ وَلَا یَهۡدِیهِمۡ سَبِیلًاۘ ٱتَّخَذُوهُ وَكَانُوا۟ ظَـٰلِمِینَ",
-    "ar_simple": "وٱتخذ قوم موسى من بعده من حلیهم عجلا جسدا له خوار ألم یروا أنه لا یكلمهم ولا یهدیهم سبیلا ٱتخذوه وكانوا ظلمین",
+    "ar_simple": "وَاتَّخَذَ قَوْمُ مُوسَىٰ مِنْ بَعْدِهِ مِنْ حُلِيِّهِمْ عِجْلًا جَسَدًا لَهُ خُوَارٌ ۚ أَلَمْ يَرَوْا أَنَّهُ لَا يُكَلِّمُهُمْ وَلَا يَهْدِيهِمْ سَبِيلًا ۘ اتَّخَذُوهُ وَكَانُوا ظَالِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the people of Moses made, after [his departure], from their ornaments a calf - an image having a lowing sound. Did they not see that it could neither speak to them nor guide them to a way? They took it [for worship], and they were wrongdoers",
@@ -9143,7 +9437,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 149,
@@ -9157,7 +9453,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَمَّا سُقِطَ فِیۤ أَیۡدِیهِمۡ وَرَأَوۡا۟ أَنَّهُمۡ قَدۡ ضَلُّوا۟ قَالُوا۟ لَئِن لَّمۡ یَرۡحَمۡنَا رَبُّنَا وَیَغۡفِرۡ لَنَا لَنَكُونَنَّ مِنَ ٱلۡخَـٰسِرِینَ",
-    "ar_simple": "ولما سقط فی أیدیهم ورأوا أنهم قد ضلوا قالوا لئن لم یرحمنا ربنا ویغفر لنا لنكونن من ٱلخسرین",
+    "ar_simple": "وَلَمَّا سُقِطَ فِي أَيْدِيهِمْ وَرَأَوْا أَنَّهُمْ قَدْ ضَلُّوا قَالُوا لَئِنْ لَمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when regret overcame them and they saw that they had gone astray, they said, \"If our Lord does not have mercy upon us and forgive us, we will surely be among the losers",
@@ -9204,7 +9500,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 150,
@@ -9218,7 +9516,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَمَّا رَجَعَ مُوسَىٰۤ إِلَىٰ قَوۡمِهِۦ غَضۡبَـٰنَ أَسِفࣰا قَالَ بِئۡسَمَا خَلَفۡتُمُونِی مِنۢ بَعۡدِیۤۖ أَعَجِلۡتُمۡ أَمۡرَ رَبِّكُمۡۖ وَأَلۡقَى ٱلۡأَلۡوَاحَ وَأَخَذَ بِرَأۡسِ أَخِیهِ یَجُرُّهُۥۤ إِلَیۡهِۚ قَالَ ٱبۡنَ أُمَّ إِنَّ ٱلۡقَوۡمَ ٱسۡتَضۡعَفُونِی وَكَادُوا۟ یَقۡتُلُونَنِی فَلَا تُشۡمِتۡ بِیَ ٱلۡأَعۡدَاۤءَ وَلَا تَجۡعَلۡنِی مَعَ ٱلۡقَوۡمِ ٱلظَّـٰلِمِینَ",
-    "ar_simple": "ولما رجع موسى إلى قومه غضبن أسفا قال بئسما خلفتمونی من بعدی أعجلتم أمر ربكم وألقى ٱلألواح وأخذ برأس أخیه یجره إلیه قال ٱبن أم إن ٱلقوم ٱستضعفونی وكادوا یقتلوننی فلا تشمت بی ٱلأعداء ولا تجعلنی مع ٱلقوم ٱلظلمین",
+    "ar_simple": "وَلَمَّا رَجَعَ مُوسَىٰ إِلَىٰ قَوْمِهِ غَضْبَانَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِي مِنْ بَعْدِي ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى الْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُ إِلَيْهِ ۚ قَالَ ابْنَ أُمَّ إِنَّ الْقَوْمَ اسْتَضْعَفُونِي وَكَادُوا يَقْتُلُونَنِي فَلَا تُشْمِتْ بِيَ الْأَعْدَاءَ وَلَا تَجْعَلْنِي مَعَ الْقَوْمِ الظَّالِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when Moses returned to his people, angry and grieved, he said, \"How wretched is that by which you have replaced me after [my departure]. Were you impatient over the matter of your Lord?\" And he threw down the tablets and seized his brother by [the hair of] his head, pulling him toward him. [Aaron] said, \"O son of my mother, indeed the people oppressed me and were about to kill me, so let not the enemies rejoice over me and do not place me among the wrongdoing people",
@@ -9266,7 +9564,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 151,
@@ -9280,7 +9580,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ رَبِّ ٱغۡفِرۡ لِی وَلِأَخِی وَأَدۡخِلۡنَا فِی رَحۡمَتِكَۖ وَأَنتَ أَرۡحَمُ ٱلرَّ ٰحِمِینَ",
-    "ar_simple": "قال رب ٱغفر لی ولأخی وأدخلنا فی رحمتك وأنت أرحم ٱلر حمین",
+    "ar_simple": "قَالَ رَبِّ اغْفِرْ لِي وَلِأَخِي وَأَدْخِلْنَا فِي رَحْمَتِكَ ۖ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Moses] said, \"My Lord, forgive me and my brother and admit us into Your mercy, for You are the most merciful of the merciful",
@@ -9327,7 +9627,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 152,
@@ -9341,7 +9643,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ ٱتَّخَذُوا۟ ٱلۡعِجۡلَ سَیَنَالُهُمۡ غَضَبࣱ مِّن رَّبِّهِمۡ وَذِلَّةࣱ فِی ٱلۡحَیَوٰةِ ٱلدُّنۡیَاۚ وَكَذَ ٰلِكَ نَجۡزِی ٱلۡمُفۡتَرِینَ",
-    "ar_simple": "إن ٱلذین ٱتخذوا ٱلعجل سینالهم غضب من ربهم وذلة فی ٱلحیوة ٱلدنیا وكذ لك نجزی ٱلمفترین",
+    "ar_simple": "إِنَّ الَّذِينَ اتَّخَذُوا الْعِجْلَ سَيَنَالُهُمْ غَضَبٌ مِنْ رَبِّهِمْ وَذِلَّةٌ فِي الْحَيَاةِ الدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِي الْمُفْتَرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those who took the calf [for worship] will obtain anger from their Lord and humiliation in the life of this world, and thus do We recompense the inventors [of falsehood]",
@@ -9386,7 +9688,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 153,
@@ -9400,7 +9704,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ عَمِلُوا۟ ٱلسَّیِّءَاتِ ثُمَّ تَابُوا۟ مِنۢ بَعۡدِهَا وَءَامَنُوۤا۟ إِنَّ رَبَّكَ مِنۢ بَعۡدِهَا لَغَفُورࣱ رَّحِیمࣱ",
-    "ar_simple": "وٱلذین عملوا ٱلسیءات ثم تابوا من بعدها وءامنوا إن ربك من بعدها لغفور رحیم",
+    "ar_simple": "وَالَّذِينَ عَمِلُوا السَّيِّئَاتِ ثُمَّ تَابُوا مِنْ بَعْدِهَا وَآمَنُوا إِنَّ رَبَّكَ مِنْ بَعْدِهَا لَغَفُورٌ رَحِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "But those who committed misdeeds and then repented after them and believed - indeed your Lord, thereafter, is Forgiving and Merciful",
@@ -9449,7 +9753,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 154,
@@ -9463,7 +9769,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلۡغَضَبُ أَخَذَ ٱلۡأَلۡوَاحَۖ وَفِی نُسۡخَتِهَا هُدࣰى وَرَحۡمَةࣱ لِّلَّذِینَ هُمۡ لِرَبِّهِمۡ یَرۡهَبُونَ",
-    "ar_simple": "ولما سكت عن موسى ٱلغضب أخذ ٱلألواح وفی نسختها هدى ورحمة للذین هم لربهم یرهبون",
+    "ar_simple": "وَلَمَّا سَكَتَ عَنْ مُوسَى الْغَضَبُ أَخَذَ الْأَلْوَاحَ ۖ وَفِي نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the anger subsided in Moses, he took up the tablets; and in their inscription was guidance and mercy for those who are fearful of their Lord",
@@ -9508,7 +9814,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 155,
@@ -9522,7 +9830,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱخۡتَارَ مُوسَىٰ قَوۡمَهُۥ سَبۡعِینَ رَجُلࣰا لِّمِیقَـٰتِنَاۖ فَلَمَّاۤ أَخَذَتۡهُمُ ٱلرَّجۡفَةُ قَالَ رَبِّ لَوۡ شِئۡتَ أَهۡلَكۡتَهُم مِّن قَبۡلُ وَإِیَّـٰیَۖ أَتُهۡلِكُنَا بِمَا فَعَلَ ٱلسُّفَهَاۤءُ مِنَّاۤۖ إِنۡ هِیَ إِلَّا فِتۡنَتُكَ تُضِلُّ بِهَا مَن تَشَاۤءُ وَتَهۡدِی مَن تَشَاۤءُۖ أَنتَ وَلِیُّنَا فَٱغۡفِرۡ لَنَا وَٱرۡحَمۡنَاۖ وَأَنتَ خَیۡرُ ٱلۡغَـٰفِرِینَ",
-    "ar_simple": "وٱختار موسى قومه سبعین رجلا لمیقتنا فلما أخذتهم ٱلرجفة قال رب لو شئت أهلكتهم من قبل وإیی أتهلكنا بما فعل ٱلسفهاء منا إن هی إلا فتنتك تضل بها من تشاء وتهدی من تشاء أنت ولینا فٱغفر لنا وٱرحمنا وأنت خیر ٱلغفرین",
+    "ar_simple": "وَاخْتَارَ مُوسَىٰ قَوْمَهُ سَبْعِينَ رَجُلًا لِمِيقَاتِنَا ۖ فَلَمَّا أَخَذَتْهُمُ الرَّجْفَةُ قَالَ رَبِّ لَوْ شِئْتَ أَهْلَكْتَهُمْ مِنْ قَبْلُ وَإِيَّايَ ۖ أَتُهْلِكُنَا بِمَا فَعَلَ السُّفَهَاءُ مِنَّا ۖ إِنْ هِيَ إِلَّا فِتْنَتُكَ تُضِلُّ بِهَا مَنْ تَشَاءُ وَتَهْدِي مَنْ تَشَاءُ ۖ أَنْتَ وَلِيُّنَا فَاغْفِرْ لَنَا وَارْحَمْنَا ۖ وَأَنْتَ خَيْرُ الْغَافِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And Moses chose from his people seventy men for Our appointment. And when the earthquake seized them, he said, \"My Lord, if You had willed, You could have destroyed them before and me [as well]. Would You destroy us for what the foolish among us have done? This is not but Your trial by which You send astray whom You will and guide whom You will. You are our Protector, so forgive us and have mercy upon us; and You are the best of forgivers",
@@ -9569,7 +9877,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 67
   },
   {
     "n": 156,
@@ -9583,7 +9893,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ وَٱكۡتُبۡ لَنَا فِی هَـٰذِهِ ٱلدُّنۡیَا حَسَنَةࣰ وَفِی ٱلۡءَاخِرَةِ إِنَّا هُدۡنَاۤ إِلَیۡكَۚ قَالَ عَذَابِیۤ أُصِیبُ بِهِۦ مَنۡ أَشَاۤءُۖ وَرَحۡمَتِی وَسِعَتۡ كُلَّ شَیۡءࣲۚ فَسَأَكۡتُبُهَا لِلَّذِینَ یَتَّقُونَ وَیُؤۡتُونَ ٱلزَّكَوٰةَ وَٱلَّذِینَ هُم بِءَایَـٰتِنَا یُؤۡمِنُونَ",
-    "ar_simple": "وٱكتب لنا فی هذه ٱلدنیا حسنة وفی ٱلءاخرة إنا هدنا إلیك قال عذابی أصیب به من أشاء ورحمتی وسعت كل شیء فسأكتبها للذین یتقون ویؤتون ٱلزكوة وٱلذین هم بءایتنا یؤمنون",
+    "ar_simple": "۞ وَاكْتُبْ لَنَا فِي هَٰذِهِ الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ إِنَّا هُدْنَا إِلَيْكَ ۚ قَالَ عَذَابِي أُصِيبُ بِهِ مَنْ أَشَاءُ ۖ وَرَحْمَتِي وَسِعَتْ كُلَّ شَيْءٍ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ الزَّكَاةَ وَالَّذِينَ هُمْ بِآيَاتِنَا يُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And decree for us in this world [that which is] good and [also] in the Hereafter; indeed, we have turned back to You.\" [Allah] said, \"My punishment - I afflict with it whom I will, but My mercy encompasses all things.\" So I will decree it [especially] for those who fear Me and give zakah and those who believe in Our verses",
@@ -9634,7 +9944,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 157,
@@ -9648,7 +9960,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِینَ یَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِیَّ ٱلۡأُمِّیَّ ٱلَّذِی یَجِدُونَهُۥ مَكۡتُوبًا عِندَهُمۡ فِی ٱلتَّوۡرَىٰةِ وَٱلۡإِنجِیلِ یَأۡمُرُهُم بِٱلۡمَعۡرُوفِ وَیَنۡهَىٰهُمۡ عَنِ ٱلۡمُنكَرِ وَیُحِلُّ لَهُمُ ٱلطَّیِّبَـٰتِ وَیُحَرِّمُ عَلَیۡهِمُ ٱلۡخَبَـٰۤئِثَ وَیَضَعُ عَنۡهُمۡ إِصۡرَهُمۡ وَٱلۡأَغۡلَـٰلَ ٱلَّتِی كَانَتۡ عَلَیۡهِمۡۚ فَٱلَّذِینَ ءَامَنُوا۟ بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِیۤ أُنزِلَ مَعَهُۥۤ أُو۟لَـٰۤئِكَ هُمُ ٱلۡمُفۡلِحُونَ",
-    "ar_simple": "ٱلذین یتبعون ٱلرسول ٱلنبی ٱلأمی ٱلذی یجدونه مكتوبا عندهم فی ٱلتورىة وٱلإنجیل یأمرهم بٱلمعروف وینهىهم عن ٱلمنكر ویحل لهم ٱلطیبت ویحرم علیهم ٱلخبئث ویضع عنهم إصرهم وٱلأغلل ٱلتی كانت علیهم فٱلذین ءامنوا به وعزروه ونصروه وٱتبعوا ٱلنور ٱلذی أنزل معه أولئك هم ٱلمفلحون",
+    "ar_simple": "الَّذِينَ يَتَّبِعُونَ الرَّسُولَ النَّبِيَّ الْأُمِّيَّ الَّذِي يَجِدُونَهُ مَكْتُوبًا عِنْدَهُمْ فِي التَّوْرَاةِ وَالْإِنْجِيلِ يَأْمُرُهُمْ بِالْمَعْرُوفِ وَيَنْهَاهُمْ عَنِ الْمُنْكَرِ وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَالْأَغْلَالَ الَّتِي كَانَتْ عَلَيْهِمْ ۚ فَالَّذِينَ آمَنُوا بِهِ وَعَزَّرُوهُ وَنَصَرُوهُ وَاتَّبَعُوا النُّورَ الَّذِي أُنْزِلَ مَعَهُ ۙ أُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Those who follow the Messenger, the unlettered prophet, whom they find written in what they have of the Torah and the Gospel, who enjoins upon them what is right and forbids them what is wrong and makes lawful for them the good things and prohibits for them the evil and relieves them of their burden and the shackles which were upon them. So they who have believed in him, honored him, supported him and followed the light which was sent down with him - it is those who will be the successful",
@@ -9696,7 +10008,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 158,
@@ -9710,7 +10024,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُلۡ یَـٰۤأَیُّهَا ٱلنَّاسُ إِنِّی رَسُولُ ٱللَّهِ إِلَیۡكُمۡ جَمِیعًا ٱلَّذِی لَهُۥ مُلۡكُ ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِۖ لَاۤ إِلَـٰهَ إِلَّا هُوَ یُحۡیِۦ وَیُمِیتُۖ فَءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِ ٱلنَّبِیِّ ٱلۡأُمِّیِّ ٱلَّذِی یُؤۡمِنُ بِٱللَّهِ وَكَلِمَـٰتِهِۦ وَٱتَّبِعُوهُ لَعَلَّكُمۡ تَهۡتَدُونَ",
-    "ar_simple": "قل یأیها ٱلناس إنی رسول ٱلله إلیكم جمیعا ٱلذی له ملك ٱلسمو ت وٱلأرض لا إله إلا هو یحی ویمیت فءامنوا بٱلله ورسوله ٱلنبی ٱلأمی ٱلذی یؤمن بٱلله وكلمته وٱتبعوه لعلكم تهتدون",
+    "ar_simple": "قُلْ يَا أَيُّهَا النَّاسُ إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ جَمِيعًا الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ۖ لَا إِلَٰهَ إِلَّا هُوَ يُحْيِي وَيُمِيتُ ۖ فَآمِنُوا بِاللَّهِ وَرَسُولِهِ النَّبِيِّ الْأُمِّيِّ الَّذِي يُؤْمِنُ بِاللَّهِ وَكَلِمَاتِهِ وَاتَّبِعُوهُ لَعَلَّكُمْ تَهْتَدُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, [O Muhammad], \"O mankind, indeed I am the Messenger of Allah to you all, [from Him] to whom belongs the dominion of the heavens and the earth. There is no deity except Him; He gives life and causes death.\" So believe in Allah and His Messenger, the unlettered prophet, who believes in Allah and His words, and follow him that you may be guided",
@@ -9761,7 +10075,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 159,
@@ -9775,7 +10091,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمِن قَوۡمِ مُوسَىٰۤ أُمَّةࣱ یَهۡدُونَ بِٱلۡحَقِّ وَبِهِۦ یَعۡدِلُونَ",
-    "ar_simple": "ومن قوم موسى أمة یهدون بٱلحق وبه یعدلون",
+    "ar_simple": "وَمِنْ قَوْمِ مُوسَىٰ أُمَّةٌ يَهْدُونَ بِالْحَقِّ وَبِهِ يَعْدِلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And among the people of Moses is a community which guides by truth and by it establishes justice",
@@ -9820,7 +10136,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 160,
@@ -9834,7 +10152,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَطَّعۡنَـٰهُمُ ٱثۡنَتَیۡ عَشۡرَةَ أَسۡبَاطًا أُمَمࣰاۚ وَأَوۡحَیۡنَاۤ إِلَىٰ مُوسَىٰۤ إِذِ ٱسۡتَسۡقَىٰهُ قَوۡمُهُۥۤ أَنِ ٱضۡرِب بِّعَصَاكَ ٱلۡحَجَرَۖ فَٱنۢبَجَسَتۡ مِنۡهُ ٱثۡنَتَا عَشۡرَةَ عَیۡنࣰاۖ قَدۡ عَلِمَ كُلُّ أُنَاسࣲ مَّشۡرَبَهُمۡۚ وَظَلَّلۡنَا عَلَیۡهِمُ ٱلۡغَمَـٰمَ وَأَنزَلۡنَا عَلَیۡهِمُ ٱلۡمَنَّ وَٱلسَّلۡوَىٰۖ كُلُوا۟ مِن طَیِّبَـٰتِ مَا رَزَقۡنَـٰكُمۡۚ وَمَا ظَلَمُونَا وَلَـٰكِن كَانُوۤا۟ أَنفُسَهُمۡ یَظۡلِمُونَ",
-    "ar_simple": "وقطعنهم ٱثنتی عشرة أسباطا أمما وأوحینا إلى موسى إذ ٱستسقىه قومه أن ٱضرب بعصاك ٱلحجر فٱنبجست منه ٱثنتا عشرة عینا قد علم كل أناس مشربهم وظللنا علیهم ٱلغمم وأنزلنا علیهم ٱلمن وٱلسلوى كلوا من طیبت ما رزقنكم وما ظلمونا ولكن كانوا أنفسهم یظلمون",
+    "ar_simple": "وَقَطَّعْنَاهُمُ اثْنَتَيْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَا إِلَىٰ مُوسَىٰ إِذِ اسْتَسْقَاهُ قَوْمُهُ أَنِ اضْرِبْ بِعَصَاكَ الْحَجَرَ ۖ فَانْبَجَسَتْ مِنْهُ اثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ الْغَمَامَ وَأَنْزَلْنَا عَلَيْهِمُ الْمَنَّ وَالسَّلْوَىٰ ۖ كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِنْ كَانُوا أَنْفُسَهُمْ يَظْلِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We divided them into twelve descendant tribes [as distinct] nations. And We inspired to Moses when his people implored him for water, \"Strike with your staff the stone,\" and there gushed forth from it twelve springs. Every people knew its watering place. And We shaded them with clouds and sent down upon them manna and quails, [saying], \"Eat from the good things with which We have provided you.\" And they wronged Us not, but they were [only] wronging themselves",
@@ -9881,7 +10199,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 161,
@@ -9895,7 +10215,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذۡ قِیلَ لَهُمُ ٱسۡكُنُوا۟ هَـٰذِهِ ٱلۡقَرۡیَةَ وَكُلُوا۟ مِنۡهَا حَیۡثُ شِئۡتُمۡ وَقُولُوا۟ حِطَّةࣱ وَٱدۡخُلُوا۟ ٱلۡبَابَ سُجَّدࣰا نَّغۡفِرۡ لَكُمۡ خَطِیۤءَـٰتِكُمۡۚ سَنَزِیدُ ٱلۡمُحۡسِنِینَ",
-    "ar_simple": "وإذ قیل لهم ٱسكنوا هذه ٱلقریة وكلوا منها حیث شئتم وقولوا حطة وٱدخلوا ٱلباب سجدا نغفر لكم خطیءتكم سنزید ٱلمحسنین",
+    "ar_simple": "وَإِذْ قِيلَ لَهُمُ اسْكُنُوا هَٰذِهِ الْقَرْيَةَ وَكُلُوا مِنْهَا حَيْثُ شِئْتُمْ وَقُولُوا حِطَّةٌ وَادْخُلُوا الْبَابَ سُجَّدًا نَغْفِرْ لَكُمْ خَطِيئَاتِكُمْ ۚ سَنَزِيدُ الْمُحْسِنِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [mention, O Muhammad], when it was said to them, \"Dwell in this city and eat from it wherever you will and say, 'Relieve us of our burdens,' and enter the gate bowing humbly; We will [then] forgive you your sins. We will increase the doers of good [in goodness and reward]",
@@ -9946,7 +10266,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 162,
@@ -9960,7 +10282,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبَدَّلَ ٱلَّذِینَ ظَلَمُوا۟ مِنۡهُمۡ قَوۡلًا غَیۡرَ ٱلَّذِی قِیلَ لَهُمۡ فَأَرۡسَلۡنَا عَلَیۡهِمۡ رِجۡزࣰا مِّنَ ٱلسَّمَاۤءِ بِمَا كَانُوا۟ یَظۡلِمُونَ",
-    "ar_simple": "فبدل ٱلذین ظلموا منهم قولا غیر ٱلذی قیل لهم فأرسلنا علیهم رجزا من ٱلسماء بما كانوا یظلمون",
+    "ar_simple": "فَبَدَّلَ الَّذِينَ ظَلَمُوا مِنْهُمْ قَوْلًا غَيْرَ الَّذِي قِيلَ لَهُمْ فَأَرْسَلْنَا عَلَيْهِمْ رِجْزًا مِنَ السَّمَاءِ بِمَا كَانُوا يَظْلِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But those who wronged among them changed [the words] to a statement other than that which had been said to them. So We sent upon them a punishment from the sky for the wrong that they were doing",
@@ -10007,7 +10329,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 163,
@@ -10021,7 +10345,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَسۡءَلۡهُمۡ عَنِ ٱلۡقَرۡیَةِ ٱلَّتِی كَانَتۡ حَاضِرَةَ ٱلۡبَحۡرِ إِذۡ یَعۡدُونَ فِی ٱلسَّبۡتِ إِذۡ تَأۡتِیهِمۡ حِیتَانُهُمۡ یَوۡمَ سَبۡتِهِمۡ شُرَّعࣰا وَیَوۡمَ لَا یَسۡبِتُونَ لَا تَأۡتِیهِمۡۚ كَذَ ٰلِكَ نَبۡلُوهُم بِمَا كَانُوا۟ یَفۡسُقُونَ",
-    "ar_simple": "وسءلهم عن ٱلقریة ٱلتی كانت حاضرة ٱلبحر إذ یعدون فی ٱلسبت إذ تأتیهم حیتانهم یوم سبتهم شرعا ویوم لا یسبتون لا تأتیهم كذ لك نبلوهم بما كانوا یفسقون",
+    "ar_simple": "وَاسْأَلْهُمْ عَنِ الْقَرْيَةِ الَّتِي كَانَتْ حَاضِرَةَ الْبَحْرِ إِذْ يَعْدُونَ فِي السَّبْتِ إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا وَيَوْمَ لَا يَسْبِتُونَ ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُمْ بِمَا كَانُوا يَفْسُقُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And ask them about the town that was by the sea - when they transgressed in [the matter of] the sabbath - when their fish came to them openly on their sabbath day, and the day they had no sabbath they did not come to them. Thus did We give them trial because they were defiantly disobedient",
@@ -10068,7 +10392,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 164,
@@ -10082,7 +10408,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذۡ قَالَتۡ أُمَّةࣱ مِّنۡهُمۡ لِمَ تَعِظُونَ قَوۡمًا ٱللَّهُ مُهۡلِكُهُمۡ أَوۡ مُعَذِّبُهُمۡ عَذَابࣰا شَدِیدࣰاۖ قَالُوا۟ مَعۡذِرَةً إِلَىٰ رَبِّكُمۡ وَلَعَلَّهُمۡ یَتَّقُونَ",
-    "ar_simple": "وإذ قالت أمة منهم لم تعظون قوما ٱلله مهلكهم أو معذبهم عذابا شدیدا قالوا معذرة إلى ربكم ولعلهم یتقون",
+    "ar_simple": "وَإِذْ قَالَتْ أُمَّةٌ مِنْهُمْ لِمَ تَعِظُونَ قَوْمًا ۙ اللَّهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ عَذَابًا شَدِيدًا ۖ قَالُوا مَعْذِرَةً إِلَىٰ رَبِّكُمْ وَلَعَلَّهُمْ يَتَّقُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when a community among them said, \"Why do you advise [or warn] a people whom Allah is [about] to destroy or to punish with a severe punishment?\" they [the advisors] said, \"To be absolved before your Lord and perhaps they may fear Him",
@@ -10130,7 +10456,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 165,
@@ -10144,7 +10472,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَمَّا نَسُوا۟ مَا ذُكِّرُوا۟ بِهِۦۤ أَنجَیۡنَا ٱلَّذِینَ یَنۡهَوۡنَ عَنِ ٱلسُّوۤءِ وَأَخَذۡنَا ٱلَّذِینَ ظَلَمُوا۟ بِعَذَابِۭ بَءِیسِۭ بِمَا كَانُوا۟ یَفۡسُقُونَ",
-    "ar_simple": "فلما نسوا ما ذكروا به أنجینا ٱلذین ینهون عن ٱلسوء وأخذنا ٱلذین ظلموا بعذاب بءیس بما كانوا یفسقون",
+    "ar_simple": "فَلَمَّا نَسُوا مَا ذُكِّرُوا بِهِ أَنْجَيْنَا الَّذِينَ يَنْهَوْنَ عَنِ السُّوءِ وَأَخَذْنَا الَّذِينَ ظَلَمُوا بِعَذَابٍ بَئِيسٍ بِمَا كَانُوا يَفْسُقُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when they forgot that by which they had been reminded, We saved those who had forbidden evil and seized those who wronged, with a wretched punishment, because they were defiantly disobeying",
@@ -10191,7 +10519,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 166,
@@ -10205,7 +10535,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَمَّا عَتَوۡا۟ عَن مَّا نُهُوا۟ عَنۡهُ قُلۡنَا لَهُمۡ كُونُوا۟ قِرَدَةً خَـٰسِءِینَ",
-    "ar_simple": "فلما عتوا عن ما نهوا عنه قلنا لهم كونوا قردة خسءین",
+    "ar_simple": "فَلَمَّا عَتَوْا عَنْ مَا نُهُوا عَنْهُ قُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِئِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So when they were insolent about that which they had been forbidden, We said to them, \"Be apes, despised",
@@ -10252,7 +10582,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 167,
@@ -10266,7 +10598,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذۡ تَأَذَّنَ رَبُّكَ لَیَبۡعَثَنَّ عَلَیۡهِمۡ إِلَىٰ یَوۡمِ ٱلۡقِیَـٰمَةِ مَن یَسُومُهُمۡ سُوۤءَ ٱلۡعَذَابِۗ إِنَّ رَبَّكَ لَسَرِیعُ ٱلۡعِقَابِ وَإِنَّهُۥ لَغَفُورࣱ رَّحِیمࣱ",
-    "ar_simple": "وإذ تأذن ربك لیبعثن علیهم إلى یوم ٱلقیمة من یسومهم سوء ٱلعذاب إن ربك لسریع ٱلعقاب وإنه لغفور رحیم",
+    "ar_simple": "وَإِذْ تَأَذَّنَ رَبُّكَ لَيَبْعَثَنَّ عَلَيْهِمْ إِلَىٰ يَوْمِ الْقِيَامَةِ مَنْ يَسُومُهُمْ سُوءَ الْعَذَابِ ۗ إِنَّ رَبَّكَ لَسَرِيعُ الْعِقَابِ ۖ وَإِنَّهُ لَغَفُورٌ رَحِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [mention] when your Lord declared that He would surely [continue to] send upon them until the Day of Resurrection those who would afflict them with the worst torment. Indeed, your Lord is swift in penalty; but indeed, He is Forgiving and Merciful",
@@ -10313,7 +10645,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 168,
@@ -10327,7 +10661,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَطَّعۡنَـٰهُمۡ فِی ٱلۡأَرۡضِ أُمَمࣰاۖ مِّنۡهُمُ ٱلصَّـٰلِحُونَ وَمِنۡهُمۡ دُونَ ذَ ٰلِكَۖ وَبَلَوۡنَـٰهُم بِٱلۡحَسَنَـٰتِ وَٱلسَّیِّءَاتِ لَعَلَّهُمۡ یَرۡجِعُونَ",
-    "ar_simple": "وقطعنهم فی ٱلأرض أمما منهم ٱلصلحون ومنهم دون ذ لك وبلونهم بٱلحسنت وٱلسیءات لعلهم یرجعون",
+    "ar_simple": "وَقَطَّعْنَاهُمْ فِي الْأَرْضِ أُمَمًا ۖ مِنْهُمُ الصَّالِحُونَ وَمِنْهُمْ دُونَ ذَٰلِكَ ۖ وَبَلَوْنَاهُمْ بِالْحَسَنَاتِ وَالسَّيِّئَاتِ لَعَلَّهُمْ يَرْجِعُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We divided them throughout the earth into nations. Of them some were righteous, and of them some were otherwise. And We tested them with good [times] and bad that perhaps they would return [to obedience]",
@@ -10376,7 +10710,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 169,
@@ -10390,7 +10726,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَخَلَفَ مِنۢ بَعۡدِهِمۡ خَلۡفࣱ وَرِثُوا۟ ٱلۡكِتَـٰبَ یَأۡخُذُونَ عَرَضَ هَـٰذَا ٱلۡأَدۡنَىٰ وَیَقُولُونَ سَیُغۡفَرُ لَنَا وَإِن یَأۡتِهِمۡ عَرَضࣱ مِّثۡلُهُۥ یَأۡخُذُوهُۚ أَلَمۡ یُؤۡخَذۡ عَلَیۡهِم مِّیثَـٰقُ ٱلۡكِتَـٰبِ أَن لَّا یَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلۡحَقَّ وَدَرَسُوا۟ مَا فِیهِۗ وَٱلدَّارُ ٱلۡءَاخِرَةُ خَیۡرࣱ لِّلَّذِینَ یَتَّقُونَۚ أَفَلَا تَعۡقِلُونَ",
-    "ar_simple": "فخلف من بعدهم خلف ورثوا ٱلكتب یأخذون عرض هذا ٱلأدنى ویقولون سیغفر لنا وإن یأتهم عرض مثله یأخذوه ألم یؤخذ علیهم میثق ٱلكتب أن لا یقولوا على ٱلله إلا ٱلحق ودرسوا ما فیه وٱلدار ٱلءاخرة خیر للذین یتقون أفلا تعقلون",
+    "ar_simple": "فَخَلَفَ مِنْ بَعْدِهِمْ خَلْفٌ وَرِثُوا الْكِتَابَ يَأْخُذُونَ عَرَضَ هَٰذَا الْأَدْنَىٰ وَيَقُولُونَ سَيُغْفَرُ لَنَا وَإِنْ يَأْتِهِمْ عَرَضٌ مِثْلُهُ يَأْخُذُوهُ ۚ أَلَمْ يُؤْخَذْ عَلَيْهِمْ مِيثَاقُ الْكِتَابِ أَنْ لَا يَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ وَدَرَسُوا مَا فِيهِ ۗ وَالدَّارُ الْآخِرَةُ خَيْرٌ لِلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And there followed them successors who inherited the Scripture [while] taking the commodities of this lower life and saying, \"It will be forgiven for us.\" And if an offer like it comes to them, they will [again] take it. Was not the covenant of the Scripture taken from them that they would not say about Allah except the truth, and they studied what was in it? And the home of the Hereafter is better for those who fear Allah, so will you not use reason",
@@ -10439,7 +10775,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 170,
@@ -10453,7 +10791,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ یُمَسِّكُونَ بِٱلۡكِتَـٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ إِنَّا لَا نُضِیعُ أَجۡرَ ٱلۡمُصۡلِحِینَ",
-    "ar_simple": "وٱلذین یمسكون بٱلكتب وأقاموا ٱلصلوة إنا لا نضیع أجر ٱلمصلحین",
+    "ar_simple": "وَالَّذِينَ يُمَسِّكُونَ بِالْكِتَابِ وَأَقَامُوا الصَّلَاةَ إِنَّا لَا نُضِيعُ أَجْرَ الْمُصْلِحِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But those who hold fast to the Book and establish prayer - indeed, We will not allow to be lost the reward of the reformers",
@@ -10502,7 +10840,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 68
   },
   {
     "n": 171,
@@ -10516,7 +10856,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ وَإِذۡ نَتَقۡنَا ٱلۡجَبَلَ فَوۡقَهُمۡ كَأَنَّهُۥ ظُلَّةࣱ وَظَنُّوۤا۟ أَنَّهُۥ وَاقِعُۢ بِهِمۡ خُذُوا۟ مَاۤ ءَاتَیۡنَـٰكُم بِقُوَّةࣲ وَٱذۡكُرُوا۟ مَا فِیهِ لَعَلَّكُمۡ تَتَّقُونَ",
-    "ar_simple": "وإذ نتقنا ٱلجبل فوقهم كأنه ظلة وظنوا أنه واقع بهم خذوا ما ءاتینكم بقوة وٱذكروا ما فیه لعلكم تتقون",
+    "ar_simple": "۞ وَإِذْ نَتَقْنَا الْجَبَلَ فَوْقَهُمْ كَأَنَّهُ ظُلَّةٌ وَظَنُّوا أَنَّهُ وَاقِعٌ بِهِمْ خُذُوا مَا آتَيْنَاكُمْ بِقُوَّةٍ وَاذْكُرُوا مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [mention] when We raised the mountain above them as if it was a dark cloud and they were certain that it would fall upon them, [and Allah said], \"Take what We have given you with determination and remember what is in it that you might fear Allah",
@@ -10563,7 +10903,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 172,
@@ -10577,7 +10919,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذۡ أَخَذَ رَبُّكَ مِنۢ بَنِیۤ ءَادَمَ مِن ظُهُورِهِمۡ ذُرِّیَّتَهُمۡ وَأَشۡهَدَهُمۡ عَلَىٰۤ أَنفُسِهِمۡ أَلَسۡتُ بِرَبِّكُمۡۖ قَالُوا۟ بَلَىٰ شَهِدۡنَاۤۚ أَن تَقُولُوا۟ یَوۡمَ ٱلۡقِیَـٰمَةِ إِنَّا كُنَّا عَنۡ هَـٰذَا غَـٰفِلِینَ",
-    "ar_simple": "وإذ أخذ ربك من بنی ءادم من ظهورهم ذریتهم وأشهدهم على أنفسهم ألست بربكم قالوا بلى شهدنا أن تقولوا یوم ٱلقیمة إنا كنا عن هذا غفلین",
+    "ar_simple": "وَإِذْ أَخَذَ رَبُّكَ مِنْ بَنِي آدَمَ مِنْ ظُهُورِهِمْ ذُرِّيَّتَهُمْ وَأَشْهَدَهُمْ عَلَىٰ أَنْفُسِهِمْ أَلَسْتُ بِرَبِّكُمْ ۖ قَالُوا بَلَىٰ ۛ شَهِدْنَا ۛ أَنْ تَقُولُوا يَوْمَ الْقِيَامَةِ إِنَّا كُنَّا عَنْ هَٰذَا غَافِلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [mention] when your Lord took from the children of Adam - from their loins - their descendants and made them testify of themselves, [saying to them], \"Am I not your Lord?\" They said, \"Yes, we have testified.\" [This] - lest you should say on the day of Resurrection, \"Indeed, we were of this unaware",
@@ -10626,7 +10968,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 173,
@@ -10640,7 +10984,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوۡ تَقُولُوۤا۟ إِنَّمَاۤ أَشۡرَكَ ءَابَاۤؤُنَا مِن قَبۡلُ وَكُنَّا ذُرِّیَّةࣰ مِّنۢ بَعۡدِهِمۡۖ أَفَتُهۡلِكُنَا بِمَا فَعَلَ ٱلۡمُبۡطِلُونَ",
-    "ar_simple": "أو تقولوا إنما أشرك ءاباؤنا من قبل وكنا ذریة من بعدهم أفتهلكنا بما فعل ٱلمبطلون",
+    "ar_simple": "أَوْ تَقُولُوا إِنَّمَا أَشْرَكَ آبَاؤُنَا مِنْ قَبْلُ وَكُنَّا ذُرِّيَّةً مِنْ بَعْدِهِمْ ۖ أَفَتُهْلِكُنَا بِمَا فَعَلَ الْمُبْطِلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Or [lest] you say, \"It was only that our fathers associated [others in worship] with Allah before, and we were but descendants after them. Then would You destroy us for what the falsifiers have done",
@@ -10687,7 +11031,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 174,
@@ -10701,7 +11047,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَكَذَ ٰلِكَ نُفَصِّلُ ٱلۡءَایَـٰتِ وَلَعَلَّهُمۡ یَرۡجِعُونَ",
-    "ar_simple": "وكذ لك نفصل ٱلءایت ولعلهم یرجعون",
+    "ar_simple": "وَكَذَٰلِكَ نُفَصِّلُ الْآيَاتِ وَلَعَلَّهُمْ يَرْجِعُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And thus do We [explain in] detail the verses, and perhaps they will return",
@@ -10748,7 +11094,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 175,
@@ -10762,7 +11110,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱتۡلُ عَلَیۡهِمۡ نَبَأَ ٱلَّذِیۤ ءَاتَیۡنَـٰهُ ءَایَـٰتِنَا فَٱنسَلَخَ مِنۡهَا فَأَتۡبَعَهُ ٱلشَّیۡطَـٰنُ فَكَانَ مِنَ ٱلۡغَاوِینَ",
-    "ar_simple": "وٱتل علیهم نبأ ٱلذی ءاتینه ءایتنا فٱنسلخ منها فأتبعه ٱلشیطن فكان من ٱلغاوین",
+    "ar_simple": "وَاتْلُ عَلَيْهِمْ نَبَأَ الَّذِي آتَيْنَاهُ آيَاتِنَا فَانْسَلَخَ مِنْهَا فَأَتْبَعَهُ الشَّيْطَانُ فَكَانَ مِنَ الْغَاوِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And recite to them, [O Muhammad], the news of him to whom we gave [knowledge of] Our signs, but he detached himself from them; so Satan pursued him, and he became of the deviators",
@@ -10811,7 +11159,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 176,
@@ -10825,7 +11175,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَوۡ شِئۡنَا لَرَفَعۡنَـٰهُ بِهَا وَلَـٰكِنَّهُۥۤ أَخۡلَدَ إِلَى ٱلۡأَرۡضِ وَٱتَّبَعَ هَوَىٰهُۚ فَمَثَلُهُۥ كَمَثَلِ ٱلۡكَلۡبِ إِن تَحۡمِلۡ عَلَیۡهِ یَلۡهَثۡ أَوۡ تَتۡرُكۡهُ یَلۡهَثۚ ذَّ ٰلِكَ مَثَلُ ٱلۡقَوۡمِ ٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَاۚ فَٱقۡصُصِ ٱلۡقَصَصَ لَعَلَّهُمۡ یَتَفَكَّرُونَ",
-    "ar_simple": "ولو شئنا لرفعنه بها ولكنه أخلد إلى ٱلأرض وٱتبع هوىه فمثله كمثل ٱلكلب إن تحمل علیه یلهث أو تتركه یلهث ذ لك مثل ٱلقوم ٱلذین كذبوا بءایتنا فٱقصص ٱلقصص لعلهم یتفكرون",
+    "ar_simple": "وَلَوْ شِئْنَا لَرَفَعْنَاهُ بِهَا وَلَٰكِنَّهُ أَخْلَدَ إِلَى الْأَرْضِ وَاتَّبَعَ هَوَاهُ ۚ فَمَثَلُهُ كَمَثَلِ الْكَلْبِ إِنْ تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَثْ ۚ ذَٰلِكَ مَثَلُ الْقَوْمِ الَّذِينَ كَذَّبُوا بِآيَاتِنَا ۚ فَاقْصُصِ الْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And if We had willed, we could have elevated him thereby, but he adhered [instead] to the earth and followed his own desire. So his example is like that of the dog: if you chase him, he pants, or if you leave him, he [still] pants. That is the example of the people who denied Our signs. So relate the stories that perhaps they will give thought",
@@ -10870,7 +11220,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 177,
@@ -10884,7 +11236,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَاۤءَ مَثَلًا ٱلۡقَوۡمُ ٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَا وَأَنفُسَهُمۡ كَانُوا۟ یَظۡلِمُونَ",
-    "ar_simple": "ساء مثلا ٱلقوم ٱلذین كذبوا بءایتنا وأنفسهم كانوا یظلمون",
+    "ar_simple": "سَاءَ مَثَلًا الْقَوْمُ الَّذِينَ كَذَّبُوا بِآيَاتِنَا وَأَنْفُسَهُمْ كَانُوا يَظْلِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "How evil an example [is that of] the people who denied Our signs and used to wrong themselves",
@@ -10929,7 +11281,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 178,
@@ -10943,7 +11297,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مَن یَهۡدِ ٱللَّهُ فَهُوَ ٱلۡمُهۡتَدِیۖ وَمَن یُضۡلِلۡ فَأُو۟لَـٰۤئِكَ هُمُ ٱلۡخَـٰسِرُونَ",
-    "ar_simple": "من یهد ٱلله فهو ٱلمهتدی ومن یضلل فأولئك هم ٱلخسرون",
+    "ar_simple": "مَنْ يَهْدِ اللَّهُ فَهُوَ الْمُهْتَدِي ۖ وَمَنْ يُضْلِلْ فَأُولَٰئِكَ هُمُ الْخَاسِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Whoever Allah guides - he is the [rightly] guided; and whoever He sends astray - it is those who are the losers",
@@ -10988,7 +11342,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 179,
@@ -11002,7 +11358,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ ذَرَأۡنَا لِجَهَنَّمَ كَثِیرࣰا مِّنَ ٱلۡجِنِّ وَٱلۡإِنسِۖ لَهُمۡ قُلُوبࣱ لَّا یَفۡقَهُونَ بِهَا وَلَهُمۡ أَعۡیُنࣱ لَّا یُبۡصِرُونَ بِهَا وَلَهُمۡ ءَاذَانࣱ لَّا یَسۡمَعُونَ بِهَاۤۚ أُو۟لَـٰۤئِكَ كَٱلۡأَنۡعَـٰمِ بَلۡ هُمۡ أَضَلُّۚ أُو۟لَـٰۤئِكَ هُمُ ٱلۡغَـٰفِلُونَ",
-    "ar_simple": "ولقد ذرأنا لجهنم كثیرا من ٱلجن وٱلإنس لهم قلوب لا یفقهون بها ولهم أعین لا یبصرون بها ولهم ءاذان لا یسمعون بها أولئك كٱلأنعم بل هم أضل أولئك هم ٱلغفلون",
+    "ar_simple": "وَلَقَدْ ذَرَأْنَا لِجَهَنَّمَ كَثِيرًا مِنَ الْجِنِّ وَالْإِنْسِ ۖ لَهُمْ قُلُوبٌ لَا يَفْقَهُونَ بِهَا وَلَهُمْ أَعْيُنٌ لَا يُبْصِرُونَ بِهَا وَلَهُمْ آذَانٌ لَا يَسْمَعُونَ بِهَا ۚ أُولَٰئِكَ كَالْأَنْعَامِ بَلْ هُمْ أَضَلُّ ۚ أُولَٰئِكَ هُمُ الْغَافِلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have certainly created for Hell many of the jinn and mankind. They have hearts with which they do not understand, they have eyes with which they do not see, and they have ears with which they do not hear. Those are like livestock; rather, they are more astray. It is they who are the heedless",
@@ -11051,7 +11407,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 180,
@@ -11065,7 +11423,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلِلَّهِ ٱلۡأَسۡمَاۤءُ ٱلۡحُسۡنَىٰ فَٱدۡعُوهُ بِهَاۖ وَذَرُوا۟ ٱلَّذِینَ یُلۡحِدُونَ فِیۤ أَسۡمَـٰۤئِهِۦۚ سَیُجۡزَوۡنَ مَا كَانُوا۟ یَعۡمَلُونَ",
-    "ar_simple": "ولله ٱلأسماء ٱلحسنى فٱدعوه بها وذروا ٱلذین یلحدون فی أسمئه سیجزون ما كانوا یعملون",
+    "ar_simple": "وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَىٰ فَادْعُوهُ بِهَا ۖ وَذَرُوا الَّذِينَ يُلْحِدُونَ فِي أَسْمَائِهِ ۚ سَيُجْزَوْنَ مَا كَانُوا يَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And to Allah belong the best names, so invoke Him by them. And leave [the company of] those who practice deviation concerning His names. They will be recompensed for what they have been doing",
@@ -11112,7 +11470,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 181,
@@ -11126,7 +11486,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمِمَّنۡ خَلَقۡنَاۤ أُمَّةࣱ یَهۡدُونَ بِٱلۡحَقِّ وَبِهِۦ یَعۡدِلُونَ",
-    "ar_simple": "وممن خلقنا أمة یهدون بٱلحق وبه یعدلون",
+    "ar_simple": "وَمِمَّنْ خَلَقْنَا أُمَّةٌ يَهْدُونَ بِالْحَقِّ وَبِهِ يَعْدِلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And among those We created is a community which guides by truth and thereby establishes justice",
@@ -11173,7 +11533,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 182,
@@ -11187,7 +11549,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ كَذَّبُوا۟ بِءَایَـٰتِنَا سَنَسۡتَدۡرِجُهُم مِّنۡ حَیۡثُ لَا یَعۡلَمُونَ",
-    "ar_simple": "وٱلذین كذبوا بءایتنا سنستدرجهم من حیث لا یعلمون",
+    "ar_simple": "وَالَّذِينَ كَذَّبُوا بِآيَاتِنَا سَنَسْتَدْرِجُهُمْ مِنْ حَيْثُ لَا يَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But those who deny Our signs - We will progressively lead them [to destruction] from where they do not know",
@@ -11232,7 +11594,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 183,
@@ -11246,7 +11610,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأُمۡلِی لَهُمۡۚ إِنَّ كَیۡدِی مَتِینٌ",
-    "ar_simple": "وأملی لهم إن كیدی متین",
+    "ar_simple": "وَأُمْلِي لَهُمْ ۚ إِنَّ كَيْدِي مَتِينٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And I will give them time. Indeed, my plan is firm",
@@ -11291,7 +11655,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 184,
@@ -11305,7 +11671,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوَ لَمۡ یَتَفَكَّرُوا۟ۗ مَا بِصَاحِبِهِم مِّن جِنَّةٍۚ إِنۡ هُوَ إِلَّا نَذِیرࣱ مُّبِینٌ",
-    "ar_simple": "أو لم یتفكروا ما بصاحبهم من جنة إن هو إلا نذیر مبین",
+    "ar_simple": "أَوَلَمْ يَتَفَكَّرُوا ۗ مَا بِصَاحِبِهِمْ مِنْ جِنَّةٍ ۚ إِنْ هُوَ إِلَّا نَذِيرٌ مُبِينٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then do they not give thought? There is in their companion [Muhammad] no madness. He is not but a clear warner",
@@ -11354,7 +11720,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 185,
@@ -11368,7 +11736,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوَ لَمۡ یَنظُرُوا۟ فِی مَلَكُوتِ ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِ وَمَا خَلَقَ ٱللَّهُ مِن شَیۡءࣲ وَأَنۡ عَسَىٰۤ أَن یَكُونَ قَدِ ٱقۡتَرَبَ أَجَلُهُمۡۖ فَبِأَیِّ حَدِیثِۭ بَعۡدَهُۥ یُؤۡمِنُونَ",
-    "ar_simple": "أو لم ینظروا فی ملكوت ٱلسمو ت وٱلأرض وما خلق ٱلله من شیء وأن عسى أن یكون قد ٱقترب أجلهم فبأی حدیث بعده یؤمنون",
+    "ar_simple": "أَوَلَمْ يَنْظُرُوا فِي مَلَكُوتِ السَّمَاوَاتِ وَالْأَرْضِ وَمَا خَلَقَ اللَّهُ مِنْ شَيْءٍ وَأَنْ عَسَىٰ أَنْ يَكُونَ قَدِ اقْتَرَبَ أَجَلُهُمْ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Do they not look into the realm of the heavens and the earth and everything that Allah has created and [think] that perhaps their appointed time has come near? So in what statement hereafter will they believe",
@@ -11417,7 +11785,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 186,
@@ -11431,7 +11801,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مَن یُضۡلِلِ ٱللَّهُ فَلَا هَادِیَ لَهُۥۚ وَیَذَرُهُمۡ فِی طُغۡیَـٰنِهِمۡ یَعۡمَهُونَ",
-    "ar_simple": "من یضلل ٱلله فلا هادی له ویذرهم فی طغینهم یعمهون",
+    "ar_simple": "مَنْ يُضْلِلِ اللَّهُ فَلَا هَادِيَ لَهُ ۚ وَيَذَرُهُمْ فِي طُغْيَانِهِمْ يَعْمَهُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Whoever Allah sends astray - there is no guide for him. And He leaves them in their transgression, wandering blindly",
@@ -11476,7 +11846,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 187,
@@ -11490,7 +11862,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَسۡءَلُونَكَ عَنِ ٱلسَّاعَةِ أَیَّانَ مُرۡسَىٰهَاۖ قُلۡ إِنَّمَا عِلۡمُهَا عِندَ رَبِّیۖ لَا یُجَلِّیهَا لِوَقۡتِهَاۤ إِلَّا هُوَۚ ثَقُلَتۡ فِی ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِۚ لَا تَأۡتِیكُمۡ إِلَّا بَغۡتَةࣰۗ یَسۡءَلُونَكَ كَأَنَّكَ حَفِیٌّ عَنۡهَاۖ قُلۡ إِنَّمَا عِلۡمُهَا عِندَ ٱللَّهِ وَلَـٰكِنَّ أَكۡثَرَ ٱلنَّاسِ لَا یَعۡلَمُونَ",
-    "ar_simple": "یسءلونك عن ٱلساعة أیان مرسىها قل إنما علمها عند ربی لا یجلیها لوقتها إلا هو ثقلت فی ٱلسمو ت وٱلأرض لا تأتیكم إلا بغتة یسءلونك كأنك حفی عنها قل إنما علمها عند ٱلله ولكن أكثر ٱلناس لا یعلمون",
+    "ar_simple": "يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْسَاهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِنْدَ رَبِّي ۖ لَا يُجَلِّيهَا لِوَقْتِهَا إِلَّا هُوَ ۚ ثَقُلَتْ فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْأَلُونَكَ كَأَنَّكَ حَفِيٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِنْدَ اللَّهِ وَلَٰكِنَّ أَكْثَرَ النَّاسِ لَا يَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They ask you, [O Muhammad], about the Hour: when is its arrival? Say, \"Its knowledge is only with my Lord. None will reveal its time except Him. It lays heavily upon the heavens and the earth. It will not come upon you except unexpectedly.\" They ask you as if you are familiar with it. Say, \"Its knowledge is only with Allah, but most of the people do not know",
@@ -11538,7 +11910,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 188,
@@ -11552,7 +11926,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُل لَّاۤ أَمۡلِكُ لِنَفۡسِی نَفۡعࣰا وَلَا ضَرًّا إِلَّا مَا شَاۤءَ ٱللَّهُۚ وَلَوۡ كُنتُ أَعۡلَمُ ٱلۡغَیۡبَ لَٱسۡتَكۡثَرۡتُ مِنَ ٱلۡخَیۡرِ وَمَا مَسَّنِیَ ٱلسُّوۤءُۚ إِنۡ أَنَا۠ إِلَّا نَذِیرࣱ وَبَشِیرࣱ لِّقَوۡمࣲ یُؤۡمِنُونَ",
-    "ar_simple": "قل لا أملك لنفسی نفعا ولا ضرا إلا ما شاء ٱلله ولو كنت أعلم ٱلغیب لٱستكثرت من ٱلخیر وما مسنی ٱلسوء إن أنا إلا نذیر وبشیر لقوم یؤمنون",
+    "ar_simple": "قُلْ لَا أَمْلِكُ لِنَفْسِي نَفْعًا وَلَا ضَرًّا إِلَّا مَا شَاءَ اللَّهُ ۚ وَلَوْ كُنْتُ أَعْلَمُ الْغَيْبَ لَاسْتَكْثَرْتُ مِنَ الْخَيْرِ وَمَا مَسَّنِيَ السُّوءُ ۚ إِنْ أَنَا إِلَّا نَذِيرٌ وَبَشِيرٌ لِقَوْمٍ يُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, \"I hold not for myself [the power of] benefit or harm, except what Allah has willed. And if I knew the unseen, I could have acquired much wealth, and no harm would have touched me. I am not except a warner and a bringer of good tidings to a people who believe",
@@ -11601,7 +11975,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 69
   },
   {
     "n": 189,
@@ -11615,7 +11991,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ هُوَ ٱلَّذِی خَلَقَكُم مِّن نَّفۡسࣲ وَ ٰحِدَةࣲ وَجَعَلَ مِنۡهَا زَوۡجَهَا لِیَسۡكُنَ إِلَیۡهَاۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتۡ حَمۡلًا خَفِیفࣰا فَمَرَّتۡ بِهِۦۖ فَلَمَّاۤ أَثۡقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنۡ ءَاتَیۡتَنَا صَـٰلِحࣰا لَّنَكُونَنَّ مِنَ ٱلشَّـٰكِرِینَ",
-    "ar_simple": "هو ٱلذی خلقكم من نفس و حدة وجعل منها زوجها لیسكن إلیها فلما تغشىها حملت حملا خفیفا فمرت به فلما أثقلت دعوا ٱلله ربهما لئن ءاتیتنا صلحا لنكونن من ٱلشكرین",
+    "ar_simple": "۞ هُوَ الَّذِي خَلَقَكُمْ مِنْ نَفْسٍ وَاحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّاهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِ ۖ فَلَمَّا أَثْقَلَتْ دَعَوَا اللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَالِحًا لَنَكُونَنَّ مِنَ الشَّاكِرِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "It is He who created you from one soul and created from it its mate that he might dwell in security with her. And when he covers her, she carries a light burden and continues therein. And when it becomes heavy, they both invoke Allah, their Lord, \"If You should give us a good [child], we will surely be among the grateful",
@@ -11664,7 +12040,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 190,
@@ -11678,7 +12056,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَمَّاۤ ءَاتَىٰهُمَا صَـٰلِحࣰا جَعَلَا لَهُۥ شُرَكَاۤءَ فِیمَاۤ ءَاتَىٰهُمَاۚ فَتَعَـٰلَى ٱللَّهُ عَمَّا یُشۡرِكُونَ",
-    "ar_simple": "فلما ءاتىهما صلحا جعلا له شركاء فیما ءاتىهما فتعلى ٱلله عما یشركون",
+    "ar_simple": "فَلَمَّا آتَاهُمَا صَالِحًا جَعَلَا لَهُ شُرَكَاءَ فِيمَا آتَاهُمَا ۚ فَتَعَالَى اللَّهُ عَمَّا يُشْرِكُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But when He gives them a good [child], they ascribe partners to Him concerning that which He has given them. Exalted is Allah above what they associate with Him",
@@ -11725,7 +12103,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 191,
@@ -11739,7 +12119,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَیُشۡرِكُونَ مَا لَا یَخۡلُقُ شَیۡءࣰا وَهُمۡ یُخۡلَقُونَ",
-    "ar_simple": "أیشركون ما لا یخلق شیءا وهم یخلقون",
+    "ar_simple": "أَيُشْرِكُونَ مَا لَا يَخْلُقُ شَيْئًا وَهُمْ يُخْلَقُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Do they associate with Him those who create nothing and they are [themselves] created",
@@ -11786,7 +12166,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 192,
@@ -11800,7 +12182,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَا یَسۡتَطِیعُونَ لَهُمۡ نَصۡرࣰا وَلَاۤ أَنفُسَهُمۡ یَنصُرُونَ",
-    "ar_simple": "ولا یستطیعون لهم نصرا ولا أنفسهم ینصرون",
+    "ar_simple": "وَلَا يَسْتَطِيعُونَ لَهُمْ نَصْرًا وَلَا أَنْفُسَهُمْ يَنْصُرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the false deities are unable to [give] them help, nor can they help themselves",
@@ -11845,7 +12227,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 193,
@@ -11859,7 +12243,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِن تَدۡعُوهُمۡ إِلَى ٱلۡهُدَىٰ لَا یَتَّبِعُوكُمۡۚ سَوَاۤءٌ عَلَیۡكُمۡ أَدَعَوۡتُمُوهُمۡ أَمۡ أَنتُمۡ صَـٰمِتُونَ",
-    "ar_simple": "وإن تدعوهم إلى ٱلهدى لا یتبعوكم سواء علیكم أدعوتموهم أم أنتم صمتون",
+    "ar_simple": "وَإِنْ تَدْعُوهُمْ إِلَى الْهُدَىٰ لَا يَتَّبِعُوكُمْ ۚ سَوَاءٌ عَلَيْكُمْ أَدَعَوْتُمُوهُمْ أَمْ أَنْتُمْ صَامِتُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And if you [believers] invite them to guidance, they will not follow you. It is all the same for you whether you invite them or you are silent",
@@ -11906,7 +12290,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 194,
@@ -11920,7 +12306,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ تَدۡعُونَ مِن دُونِ ٱللَّهِ عِبَادٌ أَمۡثَالُكُمۡۖ فَٱدۡعُوهُمۡ فَلۡیَسۡتَجِیبُوا۟ لَكُمۡ إِن كُنتُمۡ صَـٰدِقِینَ",
-    "ar_simple": "إن ٱلذین تدعون من دون ٱلله عباد أمثالكم فٱدعوهم فلیستجیبوا لكم إن كنتم صدقین",
+    "ar_simple": "إِنَّ الَّذِينَ تَدْعُونَ مِنْ دُونِ اللَّهِ عِبَادٌ أَمْثَالُكُمْ ۖ فَادْعُوهُمْ فَلْيَسْتَجِيبُوا لَكُمْ إِنْ كُنْتُمْ صَادِقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those you [polytheists] call upon besides Allah are servants like you. So call upon them and let them respond to you, if you should be truthful",
@@ -11967,7 +12353,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 195,
@@ -11981,7 +12369,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَهُمۡ أَرۡجُلࣱ یَمۡشُونَ بِهَاۤۖ أَمۡ لَهُمۡ أَیۡدࣲ یَبۡطِشُونَ بِهَاۤۖ أَمۡ لَهُمۡ أَعۡیُنࣱ یُبۡصِرُونَ بِهَاۤۖ أَمۡ لَهُمۡ ءَاذَانࣱ یَسۡمَعُونَ بِهَاۗ قُلِ ٱدۡعُوا۟ شُرَكَاۤءَكُمۡ ثُمَّ كِیدُونِ فَلَا تُنظِرُونِ",
-    "ar_simple": "ألهم أرجل یمشون بها أم لهم أید یبطشون بها أم لهم أعین یبصرون بها أم لهم ءاذان یسمعون بها قل ٱدعوا شركاءكم ثم كیدون فلا تنظرون",
+    "ar_simple": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَا ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَا ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَا ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ادْعُوا شُرَكَاءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنْظِرُونِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Do they have feet by which they walk? Or do they have hands by which they strike? Or do they have eyes by which they see? Or do they have ears by which they hear? Say, [O Muhammad], \"Call your 'partners' and then conspire against me and give me no respite",
@@ -12028,7 +12416,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 196,
@@ -12042,7 +12432,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ وَلِـِّۧیَ ٱللَّهُ ٱلَّذِی نَزَّلَ ٱلۡكِتَـٰبَۖ وَهُوَ یَتَوَلَّى ٱلصَّـٰلِحِینَ",
-    "ar_simple": "إن ولی ٱلله ٱلذی نزل ٱلكتب وهو یتولى ٱلصلحین",
+    "ar_simple": "إِنَّ وَلِيِّيَ اللَّهُ الَّذِي نَزَّلَ الْكِتَابَ ۖ وَهُوَ يَتَوَلَّى الصَّالِحِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, my protector is Allah, who has sent down the Book; and He is an ally to the righteous",
@@ -12089,7 +12479,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 197,
@@ -12103,7 +12495,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ تَدۡعُونَ مِن دُونِهِۦ لَا یَسۡتَطِیعُونَ نَصۡرَكُمۡ وَلَاۤ أَنفُسَهُمۡ یَنصُرُونَ",
-    "ar_simple": "وٱلذین تدعون من دونه لا یستطیعون نصركم ولا أنفسهم ینصرون",
+    "ar_simple": "وَالَّذِينَ تَدْعُونَ مِنْ دُونِهِ لَا يَسْتَطِيعُونَ نَصْرَكُمْ وَلَا أَنْفُسَهُمْ يَنْصُرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And those you call upon besides Him are unable to help you, nor can they help themselves",
@@ -12148,7 +12540,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 198,
@@ -12162,7 +12556,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِن تَدۡعُوهُمۡ إِلَى ٱلۡهُدَىٰ لَا یَسۡمَعُوا۟ۖ وَتَرَىٰهُمۡ یَنظُرُونَ إِلَیۡكَ وَهُمۡ لَا یُبۡصِرُونَ",
-    "ar_simple": "وإن تدعوهم إلى ٱلهدى لا یسمعوا وترىهم ینظرون إلیك وهم لا یبصرون",
+    "ar_simple": "وَإِنْ تَدْعُوهُمْ إِلَى الْهُدَىٰ لَا يَسْمَعُوا ۖ وَتَرَاهُمْ يَنْظُرُونَ إِلَيْكَ وَهُمْ لَا يُبْصِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And if you invite them to guidance, they do not hear; and you see them looking at you while they do not see",
@@ -12207,7 +12601,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 199,
@@ -12221,7 +12617,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "خُذِ ٱلۡعَفۡوَ وَأۡمُرۡ بِٱلۡعُرۡفِ وَأَعۡرِضۡ عَنِ ٱلۡجَـٰهِلِینَ",
-    "ar_simple": "خذ ٱلعفو وأمر بٱلعرف وأعرض عن ٱلجهلین",
+    "ar_simple": "خُذِ الْعَفْوَ وَأْمُرْ بِالْعُرْفِ وَأَعْرِضْ عَنِ الْجَاهِلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Take what is given freely, enjoin what is good, and turn away from the ignorant",
@@ -12266,7 +12662,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 200,
@@ -12280,7 +12678,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِمَّا یَنزَغَنَّكَ مِنَ ٱلشَّیۡطَـٰنِ نَزۡغࣱ فَٱسۡتَعِذۡ بِٱللَّهِۚ إِنَّهُۥ سَمِیعٌ عَلِیمٌ",
-    "ar_simple": "وإما ینزغنك من ٱلشیطن نزغ فٱستعذ بٱلله إنه سمیع علیم",
+    "ar_simple": "وَإِمَّا يَنْزَغَنَّكَ مِنَ الشَّيْطَانِ نَزْغٌ فَاسْتَعِذْ بِاللَّهِ ۚ إِنَّهُ سَمِيعٌ عَلِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And if an evil suggestion comes to you from Satan, then seek refuge in Allah. Indeed, He is Hearing and Knowing",
@@ -12327,7 +12725,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 201,
@@ -12341,7 +12741,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ ٱتَّقَوۡا۟ إِذَا مَسَّهُمۡ طَـٰۤئِفࣱ مِّنَ ٱلشَّیۡطَـٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبۡصِرُونَ",
-    "ar_simple": "إن ٱلذین ٱتقوا إذا مسهم طئف من ٱلشیطن تذكروا فإذا هم مبصرون",
+    "ar_simple": "إِنَّ الَّذِينَ اتَّقَوْا إِذَا مَسَّهُمْ طَائِفٌ مِنَ الشَّيْطَانِ تَذَكَّرُوا فَإِذَا هُمْ مُبْصِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those who fear Allah - when an impulse touches them from Satan, they remember [Him] and at once they have insight",
@@ -12388,7 +12788,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 202,
@@ -12402,7 +12804,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِخۡوَ ٰنُهُمۡ یَمُدُّونَهُمۡ فِی ٱلۡغَیِّ ثُمَّ لَا یُقۡصِرُونَ",
-    "ar_simple": "وإخو نهم یمدونهم فی ٱلغی ثم لا یقصرون",
+    "ar_simple": "وَإِخْوَانُهُمْ يَمُدُّونَهُمْ فِي الْغَيِّ ثُمَّ لَا يُقْصِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But their brothers - the devils increase them in error; then they do not stop short",
@@ -12449,7 +12851,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 203,
@@ -12463,7 +12867,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا لَمۡ تَأۡتِهِم بِءَایَةࣲ قَالُوا۟ لَوۡلَا ٱجۡتَبَیۡتَهَاۚ قُلۡ إِنَّمَاۤ أَتَّبِعُ مَا یُوحَىٰۤ إِلَیَّ مِن رَّبِّیۚ هَـٰذَا بَصَاۤئِرُ مِن رَّبِّكُمۡ وَهُدࣰى وَرَحۡمَةࣱ لِّقَوۡمࣲ یُؤۡمِنُونَ",
-    "ar_simple": "وإذا لم تأتهم بءایة قالوا لولا ٱجتبیتها قل إنما أتبع ما یوحى إلی من ربی هذا بصائر من ربكم وهدى ورحمة لقوم یؤمنون",
+    "ar_simple": "وَإِذَا لَمْ تَأْتِهِمْ بِآيَةٍ قَالُوا لَوْلَا اجْتَبَيْتَهَا ۚ قُلْ إِنَّمَا أَتَّبِعُ مَا يُوحَىٰ إِلَيَّ مِنْ رَبِّي ۚ هَٰذَا بَصَائِرُ مِنْ رَبِّكُمْ وَهُدًى وَرَحْمَةٌ لِقَوْمٍ يُؤْمِنُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when you, [O Muhammad], do not bring them a sign, they say, \"Why have you not contrived it?\" Say, \"I only follow what is revealed to me from my Lord. This [Qur'an] is enlightenment from your Lord and guidance and mercy for a people who believe",
@@ -12512,7 +12916,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 204,
@@ -12526,7 +12932,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا قُرِئَ ٱلۡقُرۡءَانُ فَٱسۡتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمۡ تُرۡحَمُونَ",
-    "ar_simple": "وإذا قرئ ٱلقرءان فٱستمعوا له وأنصتوا لعلكم ترحمون",
+    "ar_simple": "وَإِذَا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَأَنْصِتُوا لَعَلَّكُمْ تُرْحَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So when the Qur'an is recited, then listen to it and pay attention that you may receive mercy",
@@ -12573,7 +12979,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 205,
@@ -12587,7 +12995,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱذۡكُر رَّبَّكَ فِی نَفۡسِكَ تَضَرُّعࣰا وَخِیفَةࣰ وَدُونَ ٱلۡجَهۡرِ مِنَ ٱلۡقَوۡلِ بِٱلۡغُدُوِّ وَٱلۡءَاصَالِ وَلَا تَكُن مِّنَ ٱلۡغَـٰفِلِینَ",
-    "ar_simple": "وٱذكر ربك فی نفسك تضرعا وخیفة ودون ٱلجهر من ٱلقول بٱلغدو وٱلءاصال ولا تكن من ٱلغفلین",
+    "ar_simple": "وَاذْكُرْ رَبَّكَ فِي نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ الْجَهْرِ مِنَ الْقَوْلِ بِالْغُدُوِّ وَالْآصَالِ وَلَا تَكُنْ مِنَ الْغَافِلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And remember your Lord within yourself in humility and in fear without being apparent in speech - in the mornings and the evenings. And do not be among the heedless",
@@ -12634,7 +13042,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   },
   {
     "n": 206,
@@ -12648,7 +13058,7 @@
     "sajda_type": "obligatory",
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ عِندَ رَبِّكَ لَا یَسۡتَكۡبِرُونَ عَنۡ عِبَادَتِهِۦ وَیُسَبِّحُونَهُۥ وَلَهُۥ یَ̅سۡ̅جُ̅دُ̅و̅نَ̅ ۩",
-    "ar_simple": "إن ٱلذین عند ربك لا یستكبرون عن عبادته ویسبحونه وله ی̅س̅ج̅د̅و̅ن̅",
+    "ar_simple": "إِنَّ الَّذِينَ عِنْدَ رَبِّكَ لَا يَسْتَكْبِرُونَ عَنْ عِبَادَتِهِ وَيُسَبِّحُونَهُ وَلَهُ يَسْجُدُونَ ۩",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those who are near your Lord are not prevented by arrogance from His worship, and they exalt Him, and to Him they prostrate",
@@ -12693,6 +13103,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 2,
+    "rub_el_hizb": 70
   }
 ]

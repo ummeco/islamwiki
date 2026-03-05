@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ تَرَ كَیۡفَ فَعَلَ رَبُّكَ بِأَصۡحَـٰبِ ٱلۡفِیلِ",
-    "ar_simple": "ألم تر كیف فعل ربك بأصحب ٱلفیل",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Have you not considered, [O Muhammad], how your Lord dealt with the companions of the elephant",
@@ -69,7 +69,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -83,7 +85,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ یَجۡعَلۡ كَیۡدَهُمۡ فِی تَضۡلِیلࣲ",
-    "ar_simple": "ألم یجعل كیدهم فی تضلیل",
+    "ar_simple": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Did He not make their plan into misguidance",
@@ -138,7 +140,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -152,7 +156,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَرۡسَلَ عَلَیۡهِمۡ طَیۡرًا أَبَابِیلَ",
-    "ar_simple": "وأرسل علیهم طیرا أبابیل",
+    "ar_simple": "وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And He sent against them birds in flocks",
@@ -207,7 +211,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 4,
@@ -221,7 +227,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تَرۡمِیهِم بِحِجَارَةࣲ مِّن سِجِّیلࣲ",
-    "ar_simple": "ترمیهم بحجارة من سجیل",
+    "ar_simple": "تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Striking them with stones of hard clay",
@@ -275,7 +281,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 5,
@@ -289,7 +297,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَجَعَلَهُمۡ كَعَصۡفࣲ مَّأۡكُولِۭ",
-    "ar_simple": "فجعلهم كعصف مأكول",
+    "ar_simple": "فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And He made them like eaten straw",
@@ -346,6 +354,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَرَءَیۡتَ ٱلَّذِی یُكَذِّبُ بِٱلدِّینِ",
-    "ar_simple": "أرءیت ٱلذی یكذب بٱلدین",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Have you seen the one who denies the Recompense",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَذَ ٰلِكَ ٱلَّذِی یَدُعُّ ٱلۡیَتِیمَ",
-    "ar_simple": "فذ لك ٱلذی یدع ٱلیتیم",
+    "ar_simple": "فَذَٰلِكَ الَّذِي يَدُعُّ الْيَتِيمَ",
     "transliteration": "",
     "t": {
       "sahih-int": "For that is the one who drives away the orphan",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَا یَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِینِ",
-    "ar_simple": "ولا یحض على طعام ٱلمسكین",
+    "ar_simple": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ الْمِسْكِينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And does not encourage the feeding of the poor",
@@ -208,7 +212,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 4,
@@ -222,7 +228,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَوَیۡلࣱ لِّلۡمُصَلِّینَ",
-    "ar_simple": "فویل للمصلین",
+    "ar_simple": "فَوَيْلٌ لِلْمُصَلِّينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "So woe to those who pray",
@@ -277,7 +283,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 5,
@@ -291,7 +299,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِینَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
-    "ar_simple": "ٱلذین هم عن صلاتهم ساهون",
+    "ar_simple": "الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[But] who are heedless of their prayer",
@@ -347,7 +355,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 6,
@@ -361,7 +371,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِینَ هُمۡ یُرَاۤءُونَ",
-    "ar_simple": "ٱلذین هم یراءون",
+    "ar_simple": "الَّذِينَ هُمْ يُرَاءُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Those who make show [of their deeds]",
@@ -416,7 +426,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 7,
@@ -430,7 +442,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیَمۡنَعُونَ ٱلۡمَاعُونَ",
-    "ar_simple": "ویمنعون ٱلماعون",
+    "ar_simple": "وَيَمْنَعُونَ الْمَاعُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And withhold [simple] assistance",
@@ -485,6 +497,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

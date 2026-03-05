@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تَبَّتۡ یَدَاۤ أَبِی لَهَبࣲ وَتَبَّ",
-    "ar_simple": "تبت یدا أبی لهب وتب",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
     "transliteration": "",
     "t": {
       "sahih-int": "May the hands of Abu Lahab be ruined, and ruined is he",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مَاۤ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
-    "ar_simple": "ما أغنى عنه ماله وما كسب",
+    "ar_simple": "مَا أَغْنَىٰ عَنْهُ مَالُهُ وَمَا كَسَبَ",
     "transliteration": "",
     "t": {
       "sahih-int": "His wealth will not avail him or that which he gained",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَیَصۡلَىٰ نَارࣰا ذَاتَ لَهَبࣲ",
-    "ar_simple": "سیصلى نارا ذات لهب",
+    "ar_simple": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "He will [enter to] burn in a Fire of [blazing] flame",
@@ -206,7 +210,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 4,
@@ -220,7 +226,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
-    "ar_simple": "وٱمرأته حمالة ٱلحطب",
+    "ar_simple": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And his wife [as well] - the carrier of firewood",
@@ -277,7 +283,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 5,
@@ -291,7 +299,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِی جِیدِهَا حَبۡلࣱ مِّن مَّسَدِۭ",
-    "ar_simple": "فی جیدها حبل من مسد",
+    "ar_simple": "فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Around her neck is a rope of [twisted] fiber",
@@ -346,6 +354,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

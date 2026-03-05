@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ",
-    "ar_simple": "بسم ٱلله ٱلرحمن ٱلرحیم",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
     "transliteration": "",
     "t": {
       "sahih-int": "In the name of Allah, the Entirely Merciful, the Especially Merciful",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 1,
+    "rub_el_hizb": 1
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَـٰلَمِینَ",
-    "ar_simple": "ٱلحمد لله رب ٱلعلمین",
+    "ar_simple": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[All] praise is [due] to Allah, Lord of the worlds",
@@ -135,7 +137,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 1,
+    "rub_el_hizb": 1
   },
   {
     "n": 3,
@@ -149,7 +153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ",
-    "ar_simple": "ٱلرحمن ٱلرحیم",
+    "ar_simple": "الرَّحْمَٰنِ الرَّحِيمِ",
     "transliteration": "",
     "t": {
       "sahih-int": "The Entirely Merciful, the Especially Merciful",
@@ -204,7 +208,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 1,
+    "rub_el_hizb": 1
   },
   {
     "n": 4,
@@ -218,7 +224,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مَـٰلِكِ یَوۡمِ ٱلدِّینِ",
-    "ar_simple": "ملك یوم ٱلدین",
+    "ar_simple": "مَالِكِ يَوْمِ الدِّينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Sovereign of the Day of Recompense",
@@ -273,7 +279,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 1,
+    "rub_el_hizb": 1
   },
   {
     "n": 5,
@@ -287,7 +295,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِیَّاكَ نَعۡبُدُ وَإِیَّاكَ نَسۡتَعِینُ",
-    "ar_simple": "إیاك نعبد وإیاك نستعین",
+    "ar_simple": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
     "transliteration": "",
     "t": {
       "sahih-int": "It is You we worship and You we ask for help",
@@ -342,7 +350,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 1,
+    "rub_el_hizb": 1
   },
   {
     "n": 6,
@@ -356,7 +366,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱهۡدِنَا ٱلصِّرَ ٰطَ ٱلۡمُسۡتَقِیمَ",
-    "ar_simple": "ٱهدنا ٱلصر ط ٱلمستقیم",
+    "ar_simple": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Guide us to the straight path",
@@ -411,7 +421,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 1,
+    "rub_el_hizb": 1
   },
   {
     "n": 7,
@@ -425,7 +437,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "صِرَ ٰطَ ٱلَّذِینَ أَنۡعَمۡتَ عَلَیۡهِمۡ غَیۡرِ ٱلۡمَغۡضُوبِ عَلَیۡهِمۡ وَلَا ٱلضَّاۤلِّینَ",
-    "ar_simple": "صر ط ٱلذین أنعمت علیهم غیر ٱلمغضوب علیهم ولا ٱلضالین",
+    "ar_simple": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray",
@@ -480,6 +492,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 1,
+    "rub_el_hizb": 1
   }
 ]

@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا",
-    "ar_simple": "إذا زلزلت ٱلأرض زلزالها",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِذَا زُلْزِلَتِ الْأَرْضُ زِلْزَالَهَا",
     "transliteration": "",
     "t": {
       "sahih-int": "When the earth is shaken with its [final] earthquake",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا",
-    "ar_simple": "وأخرجت ٱلأرض أثقالها",
+    "ar_simple": "وَأَخْرَجَتِ الْأَرْضُ أَثْقَالَهَا",
     "transliteration": "",
     "t": {
       "sahih-int": "And the earth discharges its burdens",
@@ -134,7 +136,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 3,
@@ -148,7 +152,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالَ ٱلۡإِنسَـٰنُ مَا لَهَا",
-    "ar_simple": "وقال ٱلإنسن ما لها",
+    "ar_simple": "وَقَالَ الْإِنْسَانُ مَا لَهَا",
     "transliteration": "",
     "t": {
       "sahih-int": "And man says, \"What is [wrong] with it",
@@ -202,7 +206,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 4,
@@ -216,7 +222,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَوۡمَئِذࣲ تُحَدِّثُ أَخۡبَارَهَا",
-    "ar_simple": "یومئذ تحدث أخبارها",
+    "ar_simple": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
     "transliteration": "",
     "t": {
       "sahih-int": "That Day, it will report its news",
@@ -271,7 +277,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 5,
@@ -285,7 +293,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بِأَنَّ رَبَّكَ أَوۡحَىٰ لَهَا",
-    "ar_simple": "بأن ربك أوحى لها",
+    "ar_simple": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
     "transliteration": "",
     "t": {
       "sahih-int": "Because your Lord has commanded it",
@@ -339,7 +347,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 6,
@@ -353,7 +363,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَوۡمَئِذࣲ یَصۡدُرُ ٱلنَّاسُ أَشۡتَاتࣰا لِّیُرَوۡا۟ أَعۡمَـٰلَهُمۡ",
-    "ar_simple": "یومئذ یصدر ٱلناس أشتاتا لیروا أعملهم",
+    "ar_simple": "يَوْمَئِذٍ يَصْدُرُ النَّاسُ أَشْتَاتًا لِيُرَوْا أَعْمَالَهُمْ",
     "transliteration": "",
     "t": {
       "sahih-int": "That Day, the people will depart separated [into categories] to be shown [the result of] their deeds",
@@ -408,7 +418,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 7,
@@ -422,7 +434,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَمَن یَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ خَیۡرࣰا یَرَهُۥ",
-    "ar_simple": "فمن یعمل مثقال ذرة خیرا یره",
+    "ar_simple": "فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "So whoever does an atom's weight of good will see it",
@@ -477,7 +489,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 8,
@@ -491,7 +505,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَن یَعۡمَلۡ مِثۡقَالَ ذَرَّةࣲ شَرࣰّا یَرَهُۥ",
-    "ar_simple": "ومن یعمل مثقال ذرة شرا یره",
+    "ar_simple": "وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And whoever does an atom's weight of evil will see it",
@@ -545,6 +559,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   }
 ]

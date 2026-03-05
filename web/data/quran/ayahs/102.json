@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ",
-    "ar_simple": "ألهىكم ٱلتكاثر",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ أَلْهَاكُمُ التَّكَاثُرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Competition in [worldly] increase diverts you",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ",
-    "ar_simple": "حتى زرتم ٱلمقابر",
+    "ar_simple": "حَتَّىٰ زُرْتُمُ الْمَقَابِرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Until you visit the graveyards",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّا سَوۡفَ تَعۡلَمُونَ",
-    "ar_simple": "كلا سوف تعلمون",
+    "ar_simple": "كَلَّا سَوْفَ تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! You are going to know",
@@ -206,7 +210,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 4,
@@ -220,7 +226,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ كَلَّا سَوۡفَ تَعۡلَمُونَ",
-    "ar_simple": "ثم كلا سوف تعلمون",
+    "ar_simple": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then no! You are going to know",
@@ -275,7 +281,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 5,
@@ -289,7 +297,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّا لَوۡ تَعۡلَمُونَ عِلۡمَ ٱلۡیَقِینِ",
-    "ar_simple": "كلا لو تعلمون علم ٱلیقین",
+    "ar_simple": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! If you only knew with knowledge of certainty",
@@ -346,7 +354,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 6,
@@ -360,7 +370,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَتَرَوُنَّ ٱلۡجَحِیمَ",
-    "ar_simple": "لترون ٱلجحیم",
+    "ar_simple": "لَتَرَوُنَّ الْجَحِيمَ",
     "transliteration": "",
     "t": {
       "sahih-int": "You will surely see the Hellfire",
@@ -416,7 +426,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 7,
@@ -430,7 +442,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ لَتَرَوُنَّهَا عَیۡنَ ٱلۡیَقِینِ",
-    "ar_simple": "ثم لترونها عین ٱلیقین",
+    "ar_simple": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then you will surely see it with the eye of certainty",
@@ -484,7 +496,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 8,
@@ -498,7 +512,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ لَتُسۡءَلُنَّ یَوۡمَئِذٍ عَنِ ٱلنَّعِیمِ",
-    "ar_simple": "ثم لتسءلن یومئذ عن ٱلنعیم",
+    "ar_simple": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then you will surely be asked that Day about pleasure",
@@ -552,6 +566,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

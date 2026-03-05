@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّاۤ أَعۡطَیۡنَـٰكَ ٱلۡكَوۡثَرَ",
-    "ar_simple": "إنا أعطینك ٱلكوثر",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We have granted you, [O Muhammad], al-Kawthar",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
-    "ar_simple": "فصل لربك وٱنحر",
+    "ar_simple": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
     "transliteration": "",
     "t": {
       "sahih-int": "So pray to your Lord and sacrifice [to Him alone]",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
-    "ar_simple": "إن شانئك هو ٱلأبتر",
+    "ar_simple": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, your enemy is the one cut off",
@@ -208,6 +212,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

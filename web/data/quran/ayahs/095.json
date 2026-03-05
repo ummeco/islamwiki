@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلتِّینِ وَٱلزَّیۡتُونِ",
-    "ar_simple": "وٱلتین وٱلزیتون",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالتِّينِ وَالزَّيْتُونِ",
     "transliteration": "",
     "t": {
       "sahih-int": "By the fig and the olive",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَطُورِ سِینِینَ",
-    "ar_simple": "وطور سینین",
+    "ar_simple": "وَطُورِ سِينِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] Mount Sinai",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَهَـٰذَا ٱلۡبَلَدِ ٱلۡأَمِینِ",
-    "ar_simple": "وهذا ٱلبلد ٱلأمین",
+    "ar_simple": "وَهَٰذَا الْبَلَدِ الْأَمِينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] this secure city [Makkah]",
@@ -208,7 +212,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 4,
@@ -222,7 +228,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَـٰنَ فِیۤ أَحۡسَنِ تَقۡوِیمࣲ",
-    "ar_simple": "لقد خلقنا ٱلإنسن فی أحسن تقویم",
+    "ar_simple": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "We have certainly created man in the best of stature",
@@ -278,7 +284,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 5,
@@ -292,7 +300,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ رَدَدۡنَـٰهُ أَسۡفَلَ سَـٰفِلِینَ",
-    "ar_simple": "ثم رددنه أسفل سفلین",
+    "ar_simple": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then We return him to the lowest of the low",
@@ -346,7 +354,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 6,
@@ -360,7 +370,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَّا ٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَلَهُمۡ أَجۡرٌ غَیۡرُ مَمۡنُونࣲ",
-    "ar_simple": "إلا ٱلذین ءامنوا وعملوا ٱلصلحت فلهم أجر غیر ممنون",
+    "ar_simple": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted",
@@ -417,7 +427,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 7,
@@ -431,7 +443,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَمَا یُكَذِّبُكَ بَعۡدُ بِٱلدِّینِ",
-    "ar_simple": "فما یكذبك بعد بٱلدین",
+    "ar_simple": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So what yet causes you to deny the Recompense",
@@ -486,7 +498,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 8,
@@ -500,7 +514,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَیۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَـٰكِمِینَ",
-    "ar_simple": "ألیس ٱلله بأحكم ٱلحكمین",
+    "ar_simple": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Is not Allah the most just of judges",
@@ -555,6 +569,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   }
 ]

@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡفَجۡرِ",
-    "ar_simple": "وٱلفجر",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالْفَجْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "By the dawn",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "MISSING_IWQ_EN",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَیَالٍ عَشۡرࣲ",
-    "ar_simple": "ولیال عشر",
+    "ar_simple": "وَلَيَالٍ عَشْرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] ten nights",
@@ -134,7 +136,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 3,
@@ -148,7 +152,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلشَّفۡعِ وَٱلۡوَتۡرِ",
-    "ar_simple": "وٱلشفع وٱلوتر",
+    "ar_simple": "وَالشَّفْعِ وَالْوَتْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] the even [number] and the odd",
@@ -200,7 +204,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 4,
@@ -214,7 +220,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّیۡلِ إِذَا یَسۡرِ",
-    "ar_simple": "وٱلیل إذا یسر",
+    "ar_simple": "وَاللَّيْلِ إِذَا يَسْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] the night when it passes",
@@ -268,7 +274,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 5,
@@ -282,7 +290,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هَلۡ فِی ذَ ٰلِكَ قَسَمࣱ لِّذِی حِجۡرٍ",
-    "ar_simple": "هل فی ذ لك قسم لذی حجر",
+    "ar_simple": "هَلْ فِي ذَٰلِكَ قَسَمٌ لِذِي حِجْرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Is there [not] in [all] that an oath [sufficient] for one of perception",
@@ -336,7 +344,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 6,
@@ -350,7 +360,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ تَرَ كَیۡفَ فَعَلَ رَبُّكَ بِعَادٍ",
-    "ar_simple": "ألم تر كیف فعل ربك بعاد",
+    "ar_simple": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Have you not considered how your Lord dealt with 'Aad",
@@ -405,7 +415,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 7,
@@ -419,7 +431,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِرَمَ ذَاتِ ٱلۡعِمَادِ",
-    "ar_simple": "إرم ذات ٱلعماد",
+    "ar_simple": "إِرَمَ ذَاتِ الْعِمَادِ",
     "transliteration": "",
     "t": {
       "sahih-int": "[With] Iram - who had lofty pillars",
@@ -473,7 +485,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 8,
@@ -487,7 +501,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّتِی لَمۡ یُخۡلَقۡ مِثۡلُهَا فِی ٱلۡبِلَـٰدِ",
-    "ar_simple": "ٱلتی لم یخلق مثلها فی ٱلبلد",
+    "ar_simple": "الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ",
     "transliteration": "",
     "t": {
       "sahih-int": "The likes of whom had never been created in the land",
@@ -543,7 +557,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 9,
@@ -557,7 +573,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَثَمُودَ ٱلَّذِینَ جَابُوا۟ ٱلصَّخۡرَ بِٱلۡوَادِ",
-    "ar_simple": "وثمود ٱلذین جابوا ٱلصخر بٱلواد",
+    "ar_simple": "وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [with] Thamud, who carved out the rocks in the valley",
@@ -612,7 +628,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 10,
@@ -626,7 +644,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَفِرۡعَوۡنَ ذِی ٱلۡأَوۡتَادِ",
-    "ar_simple": "وفرعون ذی ٱلأوتاد",
+    "ar_simple": "وَفِرْعَوْنَ ذِي الْأَوْتَادِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [with] Pharaoh, owner of the stakes",
@@ -681,7 +699,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 11,
@@ -695,7 +715,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِینَ طَغَوۡا۟ فِی ٱلۡبِلَـٰدِ",
-    "ar_simple": "ٱلذین طغوا فی ٱلبلد",
+    "ar_simple": "الَّذِينَ طَغَوْا فِي الْبِلَادِ",
     "transliteration": "",
     "t": {
       "sahih-int": "[All of] whom oppressed within the lands",
@@ -743,7 +763,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 12,
@@ -757,7 +779,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَكۡثَرُوا۟ فِیهَا ٱلۡفَسَادَ",
-    "ar_simple": "فأكثروا فیها ٱلفساد",
+    "ar_simple": "فَأَكْثَرُوا فِيهَا الْفَسَادَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And increased therein the corruption",
@@ -802,7 +824,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 13,
@@ -816,7 +840,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَصَبَّ عَلَیۡهِمۡ رَبُّكَ سَوۡطَ عَذَابٍ",
-    "ar_simple": "فصب علیهم ربك سوط عذاب",
+    "ar_simple": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "So your Lord poured upon them a scourge of punishment",
@@ -863,7 +887,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 14,
@@ -877,7 +903,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ رَبَّكَ لَبِٱلۡمِرۡصَادِ",
-    "ar_simple": "إن ربك لبٱلمرصاد",
+    "ar_simple": "إِنَّ رَبَّكَ لَبِالْمِرْصَادِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, your Lord is in observation",
@@ -922,7 +948,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 15,
@@ -936,7 +964,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَمَّا ٱلۡإِنسَـٰنُ إِذَا مَا ٱبۡتَلَىٰهُ رَبُّهُۥ فَأَكۡرَمَهُۥ وَنَعَّمَهُۥ فَیَقُولُ رَبِّیۤ أَكۡرَمَنِ",
-    "ar_simple": "فأما ٱلإنسن إذا ما ٱبتلىه ربه فأكرمه ونعمه فیقول ربی أكرمن",
+    "ar_simple": "فَأَمَّا الْإِنْسَانُ إِذَا مَا ابْتَلَاهُ رَبُّهُ فَأَكْرَمَهُ وَنَعَّمَهُ فَيَقُولُ رَبِّي أَكْرَمَنِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And as for man, when his Lord tries him and [thus] is generous to him and favors him, he says, \"My Lord has honored me",
@@ -982,7 +1010,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 16,
@@ -996,7 +1026,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَمَّاۤ إِذَا مَا ٱبۡتَلَىٰهُ فَقَدَرَ عَلَیۡهِ رِزۡقَهُۥ فَیَقُولُ رَبِّیۤ أَهَـٰنَنِ",
-    "ar_simple": "وأما إذا ما ٱبتلىه فقدر علیه رزقه فیقول ربی أهنن",
+    "ar_simple": "وَأَمَّا إِذَا مَا ابْتَلَاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّي أَهَانَنِ",
     "transliteration": "",
     "t": {
       "sahih-int": "But when He tries him and restricts his provision, he says, \"My Lord has humiliated me",
@@ -1042,7 +1072,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 17,
@@ -1056,7 +1088,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّاۖ بَل لَّا تُكۡرِمُونَ ٱلۡیَتِیمَ",
-    "ar_simple": "كلا بل لا تكرمون ٱلیتیم",
+    "ar_simple": "كَلَّا ۖ بَلْ لَا تُكْرِمُونَ الْيَتِيمَ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! But you do not honor the orphan",
@@ -1104,7 +1136,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 18,
@@ -1118,7 +1152,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَا تَحَـٰۤضُّونَ عَلَىٰ طَعَامِ ٱلۡمِسۡكِینِ",
-    "ar_simple": "ولا تحضون على طعام ٱلمسكین",
+    "ar_simple": "وَلَا تَحَاضُّونَ عَلَىٰ طَعَامِ الْمِسْكِينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And you do not encourage one another to feed the poor",
@@ -1166,7 +1200,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 19,
@@ -1180,7 +1216,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَتَأۡكُلُونَ ٱلتُّرَاثَ أَكۡلࣰا لَّمࣰّا",
-    "ar_simple": "وتأكلون ٱلتراث أكلا لما",
+    "ar_simple": "وَتَأْكُلُونَ التُّرَاثَ أَكْلًا لَمًّا",
     "transliteration": "",
     "t": {
       "sahih-int": "And you consume inheritance, devouring [it] altogether",
@@ -1225,7 +1261,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 20,
@@ -1239,7 +1277,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَتُحِبُّونَ ٱلۡمَالَ حُبࣰّا جَمࣰّا",
-    "ar_simple": "وتحبون ٱلمال حبا جما",
+    "ar_simple": "وَتُحِبُّونَ الْمَالَ حُبًّا جَمًّا",
     "transliteration": "",
     "t": {
       "sahih-int": "And you love wealth with immense love",
@@ -1286,7 +1324,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 21,
@@ -1300,7 +1340,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّاۤۖ إِذَا دُكَّتِ ٱلۡأَرۡضُ دَكࣰّا دَكࣰّا",
-    "ar_simple": "كلا إذا دكت ٱلأرض دكا دكا",
+    "ar_simple": "كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا",
     "transliteration": "",
     "t": {
       "sahih-int": "No! When the earth has been leveled - pounded and crushed",
@@ -1346,7 +1386,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 22,
@@ -1360,7 +1402,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَجَاۤءَ رَبُّكَ وَٱلۡمَلَكُ صَفࣰّا صَفࣰّا",
-    "ar_simple": "وجاء ربك وٱلملك صفا صفا",
+    "ar_simple": "وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا",
     "transliteration": "",
     "t": {
       "sahih-int": "And your Lord has come and the angels, rank upon rank",
@@ -1407,7 +1449,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 23,
@@ -1421,7 +1465,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَجِا۟یۤءَ یَوۡمَئِذِۭ بِجَهَنَّمَۚ یَوۡمَئِذࣲ یَتَذَكَّرُ ٱلۡإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكۡرَىٰ",
-    "ar_simple": "وجایء یومئذ بجهنم یومئذ یتذكر ٱلإنسن وأنى له ٱلذكرى",
+    "ar_simple": "وَجِيءَ يَوْمَئِذٍ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ الْإِنْسَانُ وَأَنَّىٰ لَهُ الذِّكْرَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And brought [within view], that Day, is Hell - that Day, man will remember, but what good to him will be the remembrance",
@@ -1468,7 +1512,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 24,
@@ -1482,7 +1528,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَقُولُ یَـٰلَیۡتَنِی قَدَّمۡتُ لِحَیَاتِی",
-    "ar_simple": "یقول یلیتنی قدمت لحیاتی",
+    "ar_simple": "يَقُولُ يَا لَيْتَنِي قَدَّمْتُ لِحَيَاتِي",
     "transliteration": "",
     "t": {
       "sahih-int": "He will say, \"Oh, I wish I had sent ahead [some good] for my life",
@@ -1527,7 +1573,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 25,
@@ -1541,7 +1589,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَیَوۡمَئِذࣲ لَّا یُعَذِّبُ عَذَابَهُۥۤ أَحَدࣱ",
-    "ar_simple": "فیومئذ لا یعذب عذابه أحد",
+    "ar_simple": "فَيَوْمَئِذٍ لَا يُعَذِّبُ عَذَابَهُ أَحَدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "So on that Day, none will punish [as severely] as His punishment",
@@ -1588,7 +1636,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 26,
@@ -1602,7 +1652,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَا یُوثِقُ وَثَاقَهُۥۤ أَحَدࣱ",
-    "ar_simple": "ولا یوثق وثاقه أحد",
+    "ar_simple": "وَلَا يُوثِقُ وَثَاقَهُ أَحَدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And none will bind [as severely] as His binding [of the evildoers]",
@@ -1647,7 +1697,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 27,
@@ -1661,7 +1713,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰۤأَیَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَئِنَّةُ",
-    "ar_simple": "یأیتها ٱلنفس ٱلمطمئنة",
+    "ar_simple": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
     "transliteration": "",
     "t": {
       "sahih-int": "[To the righteous it will be said], \"O reassured soul",
@@ -1708,7 +1760,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 28,
@@ -1722,7 +1776,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱرۡجِعِیۤ إِلَىٰ رَبِّكِ رَاضِیَةࣰ مَّرۡضِیَّةࣰ",
-    "ar_simple": "ٱرجعی إلى ربك راضیة مرضیة",
+    "ar_simple": "ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَرْضِيَّةً",
     "transliteration": "",
     "t": {
       "sahih-int": "Return to your Lord, well-pleased and pleasing [to Him]",
@@ -1769,7 +1823,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 29,
@@ -1783,7 +1839,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَٱدۡخُلِی فِی عِبَـٰدِی",
-    "ar_simple": "فٱدخلی فی عبدی",
+    "ar_simple": "فَادْخُلِي فِي عِبَادِي",
     "transliteration": "",
     "t": {
       "sahih-int": "And enter among My [righteous] servants",
@@ -1830,7 +1886,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   },
   {
     "n": 30,
@@ -1844,7 +1902,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱدۡخُلِی جَنَّتِی",
-    "ar_simple": "وٱدخلی جنتی",
+    "ar_simple": "وَادْخُلِي جَنَّتِي",
     "transliteration": "",
     "t": {
       "sahih-int": "And enter My Paradise",
@@ -1891,6 +1949,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 237
   }
 ]

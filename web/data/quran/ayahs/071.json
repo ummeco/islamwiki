@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّاۤ أَرۡسَلۡنَا نُوحًا إِلَىٰ قَوۡمِهِۦۤ أَنۡ أَنذِرۡ قَوۡمَكَ مِن قَبۡلِ أَن یَأۡتِیَهُمۡ عَذَابٌ أَلِیمࣱ",
-    "ar_simple": "إنا أرسلنا نوحا إلى قومه أن أنذر قومك من قبل أن یأتیهم عذاب ألیم",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِنَّا أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِ أَنْ أَنْذِرْ قَوْمَكَ مِنْ قَبْلِ أَنْ يَأْتِيَهُمْ عَذَابٌ أَلِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We sent Noah to his people, [saying], \"Warn your people before there comes to them a painful punishment",
@@ -69,7 +69,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 2,
@@ -83,7 +85,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ یَـٰقَوۡمِ إِنِّی لَكُمۡ نَذِیرࣱ مُّبِینٌ",
-    "ar_simple": "قال یقوم إنی لكم نذیر مبین",
+    "ar_simple": "قَالَ يَا قَوْمِ إِنِّي لَكُمْ نَذِيرٌ مُبِينٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "He said, \"O my people, indeed I am to you a clear warner",
@@ -140,7 +142,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 3,
@@ -154,7 +158,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَنِ ٱعۡبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ وَأَطِیعُونِ",
-    "ar_simple": "أن ٱعبدوا ٱلله وٱتقوه وأطیعون",
+    "ar_simple": "أَنِ اعْبُدُوا اللَّهَ وَاتَّقُوهُ وَأَطِيعُونِ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Saying], 'Worship Allah, fear Him and obey me",
@@ -208,7 +212,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 4,
@@ -222,7 +228,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَغۡفِرۡ لَكُم مِّن ذُنُوبِكُمۡ وَیُؤَخِّرۡكُمۡ إِلَىٰۤ أَجَلࣲ مُّسَمًّىۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَاۤءَ لَا یُؤَخَّرُۚ لَوۡ كُنتُمۡ تَعۡلَمُونَ",
-    "ar_simple": "یغفر لكم من ذنوبكم ویؤخركم إلى أجل مسمى إن أجل ٱلله إذا جاء لا یؤخر لو كنتم تعلمون",
+    "ar_simple": "يَغْفِرْ لَكُمْ مِنْ ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰ أَجَلٍ مُسَمًّى ۚ إِنَّ أَجَلَ اللَّهِ إِذَا جَاءَ لَا يُؤَخَّرُ ۖ لَوْ كُنْتُمْ تَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Allah will forgive you of your sins and delay you for a specified term. Indeed, the time [set by] Allah, when it comes, will not be delayed, if you only knew",
@@ -279,7 +285,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 5,
@@ -293,7 +301,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ رَبِّ إِنِّی دَعَوۡتُ قَوۡمِی لَیۡلࣰا وَنَهَارࣰا",
-    "ar_simple": "قال رب إنی دعوت قومی لیلا ونهارا",
+    "ar_simple": "قَالَ رَبِّ إِنِّي دَعَوْتُ قَوْمِي لَيْلًا وَنَهَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "He said, \"My Lord, indeed I invited my people [to truth] night and day",
@@ -348,7 +356,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 6,
@@ -362,7 +372,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَمۡ یَزِدۡهُمۡ دُعَاۤءِیۤ إِلَّا فِرَارࣰا",
-    "ar_simple": "فلم یزدهم دعاءی إلا فرارا",
+    "ar_simple": "فَلَمْ يَزِدْهُمْ دُعَائِي إِلَّا فِرَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "But my invitation increased them not except in flight",
@@ -417,7 +427,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 7,
@@ -431,7 +443,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِنِّی كُلَّمَا دَعَوۡتُهُمۡ لِتَغۡفِرَ لَهُمۡ جَعَلُوۤا۟ أَصَـٰبِعَهُمۡ فِیۤ ءَاذَانِهِمۡ وَٱسۡتَغۡشَوۡا۟ ثِیَابَهُمۡ وَأَصَرُّوا۟ وَٱسۡتَكۡبَرُوا۟ ٱسۡتِكۡبَارࣰا",
-    "ar_simple": "وإنی كلما دعوتهم لتغفر لهم جعلوا أصبعهم فی ءاذانهم وٱستغشوا ثیابهم وأصروا وٱستكبروا ٱستكبارا",
+    "ar_simple": "وَإِنِّي كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوا أَصَابِعَهُمْ فِي آذَانِهِمْ وَاسْتَغْشَوْا ثِيَابَهُمْ وَأَصَرُّوا وَاسْتَكْبَرُوا اسْتِكْبَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And indeed, every time I invited them that You may forgive them, they put their fingers in their ears, covered themselves with their garments, persisted, and were arrogant with [great] arrogance",
@@ -488,7 +500,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 8,
@@ -502,7 +516,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ إِنِّی دَعَوۡتُهُمۡ جِهَارࣰا",
-    "ar_simple": "ثم إنی دعوتهم جهارا",
+    "ar_simple": "ثُمَّ إِنِّي دَعَوْتُهُمْ جِهَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Then I invited them publicly",
@@ -556,7 +570,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 9,
@@ -570,7 +586,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ إِنِّیۤ أَعۡلَنتُ لَهُمۡ وَأَسۡرَرۡتُ لَهُمۡ إِسۡرَارࣰا",
-    "ar_simple": "ثم إنی أعلنت لهم وأسررت لهم إسرارا",
+    "ar_simple": "ثُمَّ إِنِّي أَعْلَنْتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Then I announced to them and [also] confided to them secretly",
@@ -624,7 +640,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 10,
@@ -638,7 +656,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَقُلۡتُ ٱسۡتَغۡفِرُوا۟ رَبَّكُمۡ إِنَّهُۥ كَانَ غَفَّارࣰا",
-    "ar_simple": "فقلت ٱستغفروا ربكم إنه كان غفارا",
+    "ar_simple": "فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And said, 'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver",
@@ -694,7 +712,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 11,
@@ -708,7 +728,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یُرۡسِلِ ٱلسَّمَاۤءَ عَلَیۡكُم مِّدۡرَارࣰا",
-    "ar_simple": "یرسل ٱلسماء علیكم مدرارا",
+    "ar_simple": "يُرْسِلِ السَّمَاءَ عَلَيْكُمْ مِدْرَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "He will send [rain from] the sky upon you in [continuing] showers",
@@ -754,7 +774,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 12,
@@ -768,7 +790,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیُمۡدِدۡكُم بِأَمۡوَ ٰلࣲ وَبَنِینَ وَیَجۡعَل لَّكُمۡ جَنَّـٰتࣲ وَیَجۡعَل لَّكُمۡ أَنۡهَـٰرࣰا",
-    "ar_simple": "ویمددكم بأمو ل وبنین ویجعل لكم جنت ویجعل لكم أنهرا",
+    "ar_simple": "وَيُمْدِدْكُمْ بِأَمْوَالٍ وَبَنِينَ وَيَجْعَلْ لَكُمْ جَنَّاتٍ وَيَجْعَلْ لَكُمْ أَنْهَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And give you increase in wealth and children and provide for you gardens and provide for you rivers",
@@ -817,7 +839,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 13,
@@ -831,7 +855,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مَّا لَكُمۡ لَا تَرۡجُونَ لِلَّهِ وَقَارࣰا",
-    "ar_simple": "ما لكم لا ترجون لله وقارا",
+    "ar_simple": "مَا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "What is [the matter] with you that you do not attribute to Allah [due] grandeur",
@@ -878,7 +902,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 14,
@@ -892,7 +918,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَدۡ خَلَقَكُمۡ أَطۡوَارًا",
-    "ar_simple": "وقد خلقكم أطوارا",
+    "ar_simple": "وَقَدْ خَلَقَكُمْ أَطْوَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "While He has created you in stages",
@@ -939,7 +965,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 15,
@@ -953,7 +981,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ تَرَوۡا۟ كَیۡفَ خَلَقَ ٱللَّهُ سَبۡعَ سَمَـٰوَ ٰتࣲ طِبَاقࣰا",
-    "ar_simple": "ألم تروا كیف خلق ٱلله سبع سمو ت طباقا",
+    "ar_simple": "أَلَمْ تَرَوْا كَيْفَ خَلَقَ اللَّهُ سَبْعَ سَمَاوَاتٍ طِبَاقًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Do you not consider how Allah has created seven heavens in layers",
@@ -1000,7 +1028,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 16,
@@ -1014,7 +1044,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَجَعَلَ ٱلۡقَمَرَ فِیهِنَّ نُورࣰا وَجَعَلَ ٱلشَّمۡسَ سِرَاجࣰا",
-    "ar_simple": "وجعل ٱلقمر فیهن نورا وجعل ٱلشمس سراجا",
+    "ar_simple": "وَجَعَلَ الْقَمَرَ فِيهِنَّ نُورًا وَجَعَلَ الشَّمْسَ سِرَاجًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And made the moon therein a [reflected] light and made the sun a burning lamp",
@@ -1059,7 +1089,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 17,
@@ -1073,7 +1105,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱللَّهُ أَنۢبَتَكُم مِّنَ ٱلۡأَرۡضِ نَبَاتࣰا",
-    "ar_simple": "وٱلله أنبتكم من ٱلأرض نباتا",
+    "ar_simple": "وَاللَّهُ أَنْبَتَكُمْ مِنَ الْأَرْضِ نَبَاتًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And Allah has caused you to grow from the earth a [progressive] growth",
@@ -1119,7 +1151,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 18,
@@ -1133,7 +1167,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ یُعِیدُكُمۡ فِیهَا وَیُخۡرِجُكُمۡ إِخۡرَاجࣰا",
-    "ar_simple": "ثم یعیدكم فیها ویخرجكم إخراجا",
+    "ar_simple": "ثُمَّ يُعِيدُكُمْ فِيهَا وَيُخْرِجُكُمْ إِخْرَاجًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Then He will return you into it and extract you [another] extraction",
@@ -1178,7 +1212,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 19,
@@ -1192,7 +1228,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱللَّهُ جَعَلَ لَكُمُ ٱلۡأَرۡضَ بِسَاطࣰا",
-    "ar_simple": "وٱلله جعل لكم ٱلأرض بساطا",
+    "ar_simple": "وَاللَّهُ جَعَلَ لَكُمُ الْأَرْضَ بِسَاطًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And Allah has made for you the earth an expanse",
@@ -1237,7 +1273,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 20,
@@ -1251,7 +1289,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لِّتَسۡلُكُوا۟ مِنۡهَا سُبُلࣰا فِجَاجࣰا",
-    "ar_simple": "لتسلكوا منها سبلا فجاجا",
+    "ar_simple": "لِتَسْلُكُوا مِنْهَا سُبُلًا فِجَاجًا",
     "transliteration": "",
     "t": {
       "sahih-int": "That you may follow therein roads of passage",
@@ -1296,7 +1334,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 21,
@@ -1310,7 +1350,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قَالَ نُوحࣱ رَّبِّ إِنَّهُمۡ عَصَوۡنِی وَٱتَّبَعُوا۟ مَن لَّمۡ یَزِدۡهُ مَالُهُۥ وَوَلَدُهُۥۤ إِلَّا خَسَارࣰا",
-    "ar_simple": "قال نوح رب إنهم عصونی وٱتبعوا من لم یزده ماله وولده إلا خسارا",
+    "ar_simple": "قَالَ نُوحٌ رَبِّ إِنَّهُمْ عَصَوْنِي وَاتَّبَعُوا مَنْ لَمْ يَزِدْهُ مَالُهُ وَوَلَدُهُ إِلَّا خَسَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Noah said, \"My Lord, indeed they have disobeyed me and followed him whose wealth and children will not increase him except in loss",
@@ -1359,7 +1399,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 22,
@@ -1373,7 +1415,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَكَرُوا۟ مَكۡرࣰا كُبَّارࣰا",
-    "ar_simple": "ومكروا مكرا كبارا",
+    "ar_simple": "وَمَكَرُوا مَكْرًا كُبَّارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And they conspired an immense conspiracy",
@@ -1419,7 +1461,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 23,
@@ -1433,7 +1477,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمۡ وَلَا تَذَرُنَّ وَدࣰّا وَلَا سُوَاعࣰا وَلَا یَغُوثَ وَیَعُوقَ وَنَسۡرࣰا",
-    "ar_simple": "وقالوا لا تذرن ءالهتكم ولا تذرن ودا ولا سواعا ولا یغوث ویعوق ونسرا",
+    "ar_simple": "وَقَالُوا لَا تَذَرُنَّ آلِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَلَا سُوَاعًا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And said, 'Never leave your gods and never leave Wadd or Suwa' or Yaghuth and Ya'uq and Nasr",
@@ -1480,7 +1524,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 24,
@@ -1494,7 +1540,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَدۡ أَضَلُّوا۟ كَثِیرࣰاۖ وَلَا تَزِدِ ٱلظَّـٰلِمِینَ إِلَّا ضَلَـٰلࣰا",
-    "ar_simple": "وقد أضلوا كثیرا ولا تزد ٱلظلمین إلا ضللا",
+    "ar_simple": "وَقَدْ أَضَلُّوا كَثِيرًا ۖ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا ضَلَالًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And already they have misled many. And, [my Lord], do not increase the wrongdoers except in error",
@@ -1539,7 +1585,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 25,
@@ -1553,7 +1601,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مِّمَّا خَطِیۤءَـٰتِهِمۡ أُغۡرِقُوا۟ فَأُدۡخِلُوا۟ نَارࣰا فَلَمۡ یَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارࣰا",
-    "ar_simple": "مما خطیءتهم أغرقوا فأدخلوا نارا فلم یجدوا لهم من دون ٱلله أنصارا",
+    "ar_simple": "مِمَّا خَطِيئَاتِهِمْ أُغْرِقُوا فَأُدْخِلُوا نَارًا فَلَمْ يَجِدُوا لَهُمْ مِنْ دُونِ اللَّهِ أَنْصَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Because of their sins they were drowned and put into the Fire, and they found not for themselves besides Allah [any] helpers",
@@ -1600,7 +1648,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 26,
@@ -1614,7 +1664,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقَالَ نُوحࣱ رَّبِّ لَا تَذَرۡ عَلَى ٱلۡأَرۡضِ مِنَ ٱلۡكَـٰفِرِینَ دَیَّارًا",
-    "ar_simple": "وقال نوح رب لا تذر على ٱلأرض من ٱلكفرین دیارا",
+    "ar_simple": "وَقَالَ نُوحٌ رَبِّ لَا تَذَرْ عَلَى الْأَرْضِ مِنَ الْكَافِرِينَ دَيَّارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And Noah said, \"My Lord, do not leave upon the earth from among the disbelievers an inhabitant",
@@ -1662,7 +1712,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 27,
@@ -1676,7 +1728,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّكَ إِن تَذَرۡهُمۡ یُضِلُّوا۟ عِبَادَكَ وَلَا یَلِدُوۤا۟ إِلَّا فَاجِرࣰا كَفَّارࣰا",
-    "ar_simple": "إنك إن تذرهم یضلوا عبادك ولا یلدوا إلا فاجرا كفارا",
+    "ar_simple": "إِنَّكَ إِنْ تَذَرْهُمْ يُضِلُّوا عِبَادَكَ وَلَا يَلِدُوا إِلَّا فَاجِرًا كَفَّارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, if You leave them, they will mislead Your servants and not beget except [every] wicked one and [confirmed] disbeliever",
@@ -1723,7 +1775,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   },
   {
     "n": 28,
@@ -1737,7 +1791,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "رَّبِّ ٱغۡفِرۡ لِی وَلِوَ ٰلِدَیَّ وَلِمَن دَخَلَ بَیۡتِیَ مُؤۡمِنࣰا وَلِلۡمُؤۡمِنِینَ وَٱلۡمُؤۡمِنَـٰتِۖ وَلَا تَزِدِ ٱلظَّـٰلِمِینَ إِلَّا تَبَارَۢا",
-    "ar_simple": "رب ٱغفر لی ولو لدی ولمن دخل بیتی مؤمنا وللمؤمنین وٱلمؤمنت ولا تزد ٱلظلمین إلا تبارا",
+    "ar_simple": "رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَنْ دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَلَا تَزِدِ الظَّالِمِينَ إِلَّا تَبَارًا",
     "transliteration": "",
     "t": {
       "sahih-int": "My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing women. And do not increase the wrongdoers except in destruction",
@@ -1786,6 +1840,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 228
   }
 ]

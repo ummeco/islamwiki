@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ ٱلرَّحۡمَـٰنُ",
-    "ar_simple": "ٱلرحمن",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ الرَّحْمَٰنُ",
     "transliteration": "",
     "t": {
       "sahih-int": "The Most Merciful",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "عَلَّمَ ٱلۡقُرۡءَانَ",
-    "ar_simple": "علم ٱلقرءان",
+    "ar_simple": "عَلَّمَ الْقُرْآنَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Taught the Qur'an",
@@ -136,7 +138,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 3,
@@ -150,7 +154,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "خَلَقَ ٱلۡإِنسَـٰنَ",
-    "ar_simple": "خلق ٱلإنسن",
+    "ar_simple": "خَلَقَ الْإِنْسَانَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Created man",
@@ -207,7 +211,9 @@
       "translator_divergence": 0,
       "notes": "MISSING_IWQ_EN",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 4,
@@ -221,7 +227,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "عَلَّمَهُ ٱلۡبَیَانَ",
-    "ar_simple": "علمه ٱلبیان",
+    "ar_simple": "عَلَّمَهُ الْبَيَانَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[And] taught him eloquence",
@@ -275,7 +281,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 5,
@@ -289,7 +297,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلشَّمۡسُ وَٱلۡقَمَرُ بِحُسۡبَانࣲ",
-    "ar_simple": "ٱلشمس وٱلقمر بحسبان",
+    "ar_simple": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "The sun and the moon [move] by precise calculation",
@@ -344,7 +352,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 6,
@@ -358,7 +368,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلنَّجۡمُ وَٱلشَّجَرُ یَسۡجُدَانِ",
-    "ar_simple": "وٱلنجم وٱلشجر یسجدان",
+    "ar_simple": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the stars and trees prostrate",
@@ -413,7 +423,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 7,
@@ -427,7 +439,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلسَّمَاۤءَ رَفَعَهَا وَوَضَعَ ٱلۡمِیزَانَ",
-    "ar_simple": "وٱلسماء رفعها ووضع ٱلمیزان",
+    "ar_simple": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the heaven He raised and imposed the balance",
@@ -482,7 +494,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 8,
@@ -496,7 +510,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَّا تَطۡغَوۡا۟ فِی ٱلۡمِیزَانِ",
-    "ar_simple": "ألا تطغوا فی ٱلمیزان",
+    "ar_simple": "أَلَّا تَطْغَوْا فِي الْمِيزَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "That you not transgress within the balance",
@@ -551,7 +565,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 9,
@@ -565,7 +581,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَقِیمُوا۟ ٱلۡوَزۡنَ بِٱلۡقِسۡطِ وَلَا تُخۡسِرُوا۟ ٱلۡمِیزَانَ",
-    "ar_simple": "وأقیموا ٱلوزن بٱلقسط ولا تخسروا ٱلمیزان",
+    "ar_simple": "وَأَقِيمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيزَانَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And establish weight in justice and do not make deficient the balance",
@@ -619,7 +635,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 10,
@@ -633,7 +651,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡأَرۡضَ وَضَعَهَا لِلۡأَنَامِ",
-    "ar_simple": "وٱلأرض وضعها للأنام",
+    "ar_simple": "وَالْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the earth He laid [out] for the creatures",
@@ -690,7 +708,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 11,
@@ -704,7 +724,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهَا فَـٰكِهَةࣱ وَٱلنَّخۡلُ ذَاتُ ٱلۡأَكۡمَامِ",
-    "ar_simple": "فیها فكهة وٱلنخل ذات ٱلأكمام",
+    "ar_simple": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Therein is fruit and palm trees having sheaths [of dates]",
@@ -751,7 +771,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 12,
@@ -765,7 +787,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡحَبُّ ذُو ٱلۡعَصۡفِ وَٱلرَّیۡحَانُ",
-    "ar_simple": "وٱلحب ذو ٱلعصف وٱلریحان",
+    "ar_simple": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And grain having husks and scented plants",
@@ -810,7 +832,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 13,
@@ -824,7 +848,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -870,7 +894,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 14,
@@ -884,7 +910,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "خَلَقَ ٱلۡإِنسَـٰنَ مِن صَلۡصَـٰلࣲ كَٱلۡفَخَّارِ",
-    "ar_simple": "خلق ٱلإنسن من صلصل كٱلفخار",
+    "ar_simple": "خَلَقَ الْإِنْسَانَ مِنْ صَلْصَالٍ كَالْفَخَّارِ",
     "transliteration": "",
     "t": {
       "sahih-int": "He created man from clay like [that of] pottery",
@@ -932,7 +958,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 15,
@@ -946,7 +974,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَخَلَقَ ٱلۡجَاۤنَّ مِن مَّارِجࣲ مِّن نَّارࣲ",
-    "ar_simple": "وخلق ٱلجان من مارج من نار",
+    "ar_simple": "وَخَلَقَ الْجَانَّ مِنْ مَارِجٍ مِنْ نَارٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And He created the jinn from a smokeless flame of fire",
@@ -994,7 +1022,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 16,
@@ -1008,7 +1038,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1054,7 +1084,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 17,
@@ -1068,7 +1100,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "رَبُّ ٱلۡمَشۡرِقَیۡنِ وَرَبُّ ٱلۡمَغۡرِبَیۡنِ",
-    "ar_simple": "رب ٱلمشرقین ورب ٱلمغربین",
+    "ar_simple": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ",
     "transliteration": "",
     "t": {
       "sahih-int": "[He is] Lord of the two sunrises and Lord of the two sunsets",
@@ -1113,7 +1145,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 18,
@@ -1127,7 +1161,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1172,7 +1206,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 19,
@@ -1186,7 +1222,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مَرَجَ ٱلۡبَحۡرَیۡنِ یَلۡتَقِیَانِ",
-    "ar_simple": "مرج ٱلبحرین یلتقیان",
+    "ar_simple": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "He released the two seas, meeting [side by side]",
@@ -1231,7 +1267,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 20,
@@ -1245,7 +1283,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بَیۡنَهُمَا بَرۡزَخࣱ لَّا یَبۡغِیَانِ",
-    "ar_simple": "بینهما برزخ لا یبغیان",
+    "ar_simple": "بَيْنَهُمَا بَرْزَخٌ لَا يَبْغِيَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Between them is a barrier [so] neither of them transgresses",
@@ -1290,7 +1328,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 21,
@@ -1304,7 +1344,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1349,7 +1389,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 22,
@@ -1363,7 +1405,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَخۡرُجُ مِنۡهُمَا ٱللُّؤۡلُؤُ وَٱلۡمَرۡجَانُ",
-    "ar_simple": "یخرج منهما ٱللؤلؤ وٱلمرجان",
+    "ar_simple": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ",
     "transliteration": "",
     "t": {
       "sahih-int": "From both of them emerge pearl and coral",
@@ -1408,7 +1450,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 23,
@@ -1422,7 +1466,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1467,7 +1511,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 24,
@@ -1481,7 +1527,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَهُ ٱلۡجَوَارِ ٱلۡمُنشَءَاتُ فِی ٱلۡبَحۡرِ كَٱلۡأَعۡلَـٰمِ",
-    "ar_simple": "وله ٱلجوار ٱلمنشءات فی ٱلبحر كٱلأعلم",
+    "ar_simple": "وَلَهُ الْجَوَارِ الْمُنْشَآتُ فِي الْبَحْرِ كَالْأَعْلَامِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And to Him belong the ships [with sails] elevated in the sea like mountains",
@@ -1526,7 +1572,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 25,
@@ -1540,7 +1588,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1585,7 +1633,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 26,
@@ -1599,7 +1649,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كُلُّ مَنۡ عَلَیۡهَا فَانࣲ",
-    "ar_simple": "كل من علیها فان",
+    "ar_simple": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Everyone upon the earth will perish",
@@ -1644,7 +1694,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 27,
@@ -1658,7 +1710,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَیَبۡقَىٰ وَجۡهُ رَبِّكَ ذُو ٱلۡجَلَـٰلِ وَٱلۡإِكۡرَامِ",
-    "ar_simple": "ویبقى وجه ربك ذو ٱلجلل وٱلإكرام",
+    "ar_simple": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And there will remain the Face of your Lord, Owner of Majesty and Honor",
@@ -1703,7 +1755,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 28,
@@ -1717,7 +1771,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1762,7 +1816,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 29,
@@ -1776,7 +1832,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَسۡءَلُهُۥ مَن فِی ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِۚ كُلَّ یَوۡمٍ هُوَ فِی شَأۡنࣲ",
-    "ar_simple": "یسءله من فی ٱلسمو ت وٱلأرض كل یوم هو فی شأن",
+    "ar_simple": "يَسْأَلُهُ مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ ۚ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Whoever is within the heavens and earth asks Him; every day He is bringing about a matter",
@@ -1821,7 +1877,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 30,
@@ -1835,7 +1893,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1880,7 +1938,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 31,
@@ -1894,7 +1954,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَنَفۡرُغُ لَكُمۡ أَیُّهَ ٱلثَّقَلَانِ",
-    "ar_simple": "سنفرغ لكم أیه ٱلثقلان",
+    "ar_simple": "سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "We will attend to you, O prominent beings",
@@ -1939,7 +1999,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 32,
@@ -1953,7 +2015,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -1998,7 +2060,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 33,
@@ -2012,7 +2076,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰمَعۡشَرَ ٱلۡجِنِّ وَٱلۡإِنسِ إِنِ ٱسۡتَطَعۡتُمۡ أَن تَنفُذُوا۟ مِنۡ أَقۡطَارِ ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِ فَٱنفُذُوا۟ۚ لَا تَنفُذُونَ إِلَّا بِسُلۡطَـٰنࣲ",
-    "ar_simple": "یمعشر ٱلجن وٱلإنس إن ٱستطعتم أن تنفذوا من أقطار ٱلسمو ت وٱلأرض فٱنفذوا لا تنفذون إلا بسلطن",
+    "ar_simple": "يَا مَعْشَرَ الْجِنِّ وَالْإِنْسِ إِنِ اسْتَطَعْتُمْ أَنْ تَنْفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانْفُذُوا ۚ لَا تَنْفُذُونَ إِلَّا بِسُلْطَانٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "O company of jinn and mankind, if you are able to pass beyond the regions of the heavens and the earth, then pass. You will not pass except by authority [from Allah]",
@@ -2060,7 +2124,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 34,
@@ -2074,7 +2140,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -2119,7 +2185,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 35,
@@ -2133,7 +2201,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یُرۡسَلُ عَلَیۡكُمَا شُوَاظࣱ مِّن نَّارࣲ وَنُحَاسࣱ فَلَا تَنتَصِرَانِ",
-    "ar_simple": "یرسل علیكما شواظ من نار ونحاس فلا تنتصران",
+    "ar_simple": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِنْ نَارٍ وَنُحَاسٌ فَلَا تَنْتَصِرَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "There will be sent upon you a flame of fire and smoke, and you will not defend yourselves",
@@ -2178,7 +2246,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 36,
@@ -2192,7 +2262,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -2237,7 +2307,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 37,
@@ -2251,7 +2323,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَاۤءُ فَكَانَتۡ وَرۡدَةࣰ كَٱلدِّهَانِ",
-    "ar_simple": "فإذا ٱنشقت ٱلسماء فكانت وردة كٱلدهان",
+    "ar_simple": "فَإِذَا انْشَقَّتِ السَّمَاءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the heaven is split open and becomes rose-colored like oil",
@@ -2296,7 +2368,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 38,
@@ -2310,7 +2384,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -2355,7 +2429,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 39,
@@ -2369,7 +2445,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَیَوۡمَئِذࣲ لَّا یُسۡءَلُ عَن ذَنۢبِهِۦۤ إِنسࣱ وَلَا جَاۤنࣱّ",
-    "ar_simple": "فیومئذ لا یسءل عن ذنبه إنس ولا جان",
+    "ar_simple": "فَيَوْمَئِذٍ لَا يُسْأَلُ عَنْ ذَنْبِهِ إِنْسٌ وَلَا جَانٌّ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then on that Day none will be asked about his sin among men or jinn",
@@ -2417,7 +2493,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 40,
@@ -2431,7 +2509,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -2476,7 +2554,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 41,
@@ -2490,7 +2570,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یُعۡرَفُ ٱلۡمُجۡرِمُونَ بِسِیمَـٰهُمۡ فَیُؤۡخَذُ بِٱلنَّوَ ٰصِی وَٱلۡأَقۡدَامِ",
-    "ar_simple": "یعرف ٱلمجرمون بسیمهم فیؤخذ بٱلنو صی وٱلأقدام",
+    "ar_simple": "يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ فَيُؤْخَذُ بِالنَّوَاصِي وَالْأَقْدَامِ",
     "transliteration": "",
     "t": {
       "sahih-int": "The criminals will be known by their marks, and they will be seized by the forelocks and the feet",
@@ -2537,7 +2617,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 42,
@@ -2551,7 +2633,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -2596,7 +2678,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 43,
@@ -2610,7 +2694,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِی یُكَذِّبُ بِهَا ٱلۡمُجۡرِمُونَ",
-    "ar_simple": "هذه جهنم ٱلتی یكذب بها ٱلمجرمون",
+    "ar_simple": "هَٰذِهِ جَهَنَّمُ الَّتِي يُكَذِّبُ بِهَا الْمُجْرِمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "This is Hell, which the criminals deny",
@@ -2658,7 +2742,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 44,
@@ -2672,7 +2758,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَطُوفُونَ بَیۡنَهَا وَبَیۡنَ حَمِیمٍ ءَانࣲ",
-    "ar_simple": "یطوفون بینها وبین حمیم ءان",
+    "ar_simple": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ آنٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "They will go around between it and scalding water, heated [to the utmost degree]",
@@ -2719,7 +2805,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 45,
@@ -2733,7 +2821,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -2778,7 +2866,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 46,
@@ -2792,7 +2882,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلِمَنۡ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
-    "ar_simple": "ولمن خاف مقام ربه جنتان",
+    "ar_simple": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "But for he who has feared the position of his Lord are two gardens",
@@ -2837,7 +2927,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 47,
@@ -2851,7 +2943,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -2896,7 +2988,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 48,
@@ -2910,7 +3004,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ذَوَاتَاۤ أَفۡنَانࣲ",
-    "ar_simple": "ذواتا أفنان",
+    "ar_simple": "ذَوَاتَا أَفْنَانٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Having [spreading] branches",
@@ -2955,7 +3049,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 49,
@@ -2969,7 +3065,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3014,7 +3110,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 50,
@@ -3028,7 +3126,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهِمَا عَیۡنَانِ تَجۡرِیَانِ",
-    "ar_simple": "فیهما عینان تجریان",
+    "ar_simple": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "In both of them are two springs, flowing",
@@ -3073,7 +3171,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 51,
@@ -3087,7 +3187,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3132,7 +3232,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 52,
@@ -3146,7 +3248,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهِمَا مِن كُلِّ فَـٰكِهَةࣲ زَوۡجَانِ",
-    "ar_simple": "فیهما من كل فكهة زوجان",
+    "ar_simple": "فِيهِمَا مِنْ كُلِّ فَاكِهَةٍ زَوْجَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "In both of them are of every fruit, two kinds",
@@ -3191,7 +3293,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 53,
@@ -3205,7 +3309,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3250,7 +3354,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 54,
@@ -3264,7 +3370,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مُتَّكِءِینَ عَلَىٰ فُرُشِۭ بَطَاۤئِنُهَا مِنۡ إِسۡتَبۡرَقࣲۚ وَجَنَى ٱلۡجَنَّتَیۡنِ دَانࣲ",
-    "ar_simple": "متكءین على فرش بطائنها من إستبرق وجنى ٱلجنتین دان",
+    "ar_simple": "مُتَّكِئِينَ عَلَىٰ فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى الْجَنَّتَيْنِ دَانٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "[They are] reclining on beds whose linings are of silk brocade, and the fruit of the two gardens is hanging low",
@@ -3309,7 +3415,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 55,
@@ -3323,7 +3431,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3368,7 +3476,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 56,
@@ -3382,7 +3492,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهِنَّ قَـٰصِرَ ٰتُ ٱلطَّرۡفِ لَمۡ یَطۡمِثۡهُنَّ إِنسࣱ قَبۡلَهُمۡ وَلَا جَاۤنࣱّ",
-    "ar_simple": "فیهن قصر ت ٱلطرف لم یطمثهن إنس قبلهم ولا جان",
+    "ar_simple": "فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
     "transliteration": "",
     "t": {
       "sahih-int": "In them are women limiting [their] glances, untouched before them by man or jinni",
@@ -3429,7 +3539,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 57,
@@ -3443,7 +3555,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3488,7 +3600,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 58,
@@ -3502,7 +3616,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَأَنَّهُنَّ ٱلۡیَاقُوتُ وَٱلۡمَرۡجَانُ",
-    "ar_simple": "كأنهن ٱلیاقوت وٱلمرجان",
+    "ar_simple": "كَأَنَّهُنَّ الْيَاقُوتُ وَالْمَرْجَانُ",
     "transliteration": "",
     "t": {
       "sahih-int": "As if they were rubies and coral",
@@ -3547,7 +3661,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 59,
@@ -3561,7 +3677,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3606,7 +3722,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 60,
@@ -3620,7 +3738,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هَلۡ جَزَاۤءُ ٱلۡإِحۡسَـٰنِ إِلَّا ٱلۡإِحۡسَـٰنُ",
-    "ar_simple": "هل جزاء ٱلإحسن إلا ٱلإحسن",
+    "ar_simple": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Is the reward for good [anything] but good",
@@ -3667,7 +3785,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 61,
@@ -3681,7 +3801,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3726,7 +3846,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 62,
@@ -3740,7 +3862,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمِن دُونِهِمَا جَنَّتَانِ",
-    "ar_simple": "ومن دونهما جنتان",
+    "ar_simple": "وَمِنْ دُونِهِمَا جَنَّتَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And below them both [in excellence] are two [other] gardens",
@@ -3787,7 +3909,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 63,
@@ -3801,7 +3925,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3846,7 +3970,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 64,
@@ -3860,7 +3986,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مُدۡهَاۤمَّتَانِ",
-    "ar_simple": "مدهامتان",
+    "ar_simple": "مُدْهَامَّتَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Dark green [in color]",
@@ -3905,7 +4031,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 65,
@@ -3919,7 +4047,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -3964,7 +4092,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 66,
@@ -3978,7 +4108,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهِمَا عَیۡنَانِ نَضَّاخَتَانِ",
-    "ar_simple": "فیهما عینان نضاختان",
+    "ar_simple": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "In both of them are two springs, spouting",
@@ -4023,7 +4153,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 67,
@@ -4037,7 +4169,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -4082,7 +4214,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 68,
@@ -4096,7 +4230,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهِمَا فَـٰكِهَةࣱ وَنَخۡلࣱ وَرُمَّانࣱ",
-    "ar_simple": "فیهما فكهة ونخل ورمان",
+    "ar_simple": "فِيهِمَا فَاكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "In both of them are fruit and palm trees and pomegranates",
@@ -4141,7 +4275,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 69,
@@ -4155,7 +4291,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -4200,7 +4336,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 70,
@@ -4214,7 +4352,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهِنَّ خَیۡرَ ٰتٌ حِسَانࣱ",
-    "ar_simple": "فیهن خیر ت حسان",
+    "ar_simple": "فِيهِنَّ خَيْرَاتٌ حِسَانٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "In them are good and beautiful women",
@@ -4259,7 +4397,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 71,
@@ -4273,7 +4413,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -4318,7 +4458,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 72,
@@ -4332,7 +4474,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "حُورࣱ مَّقۡصُورَ ٰتࣱ فِی ٱلۡخِیَامِ",
-    "ar_simple": "حور مقصور ت فی ٱلخیام",
+    "ar_simple": "حُورٌ مَقْصُورَاتٌ فِي الْخِيَامِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Fair ones reserved in pavilions",
@@ -4377,7 +4519,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 73,
@@ -4391,7 +4535,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -4436,7 +4580,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 74,
@@ -4450,7 +4596,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَمۡ یَطۡمِثۡهُنَّ إِنسࣱ قَبۡلَهُمۡ وَلَا جَاۤنࣱّ",
-    "ar_simple": "لم یطمثهن إنس قبلهم ولا جان",
+    "ar_simple": "لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلَا جَانٌّ",
     "transliteration": "",
     "t": {
       "sahih-int": "Untouched before them by man or jinni",
@@ -4497,7 +4643,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 75,
@@ -4511,7 +4659,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -4556,7 +4704,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 76,
@@ -4570,7 +4720,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مُتَّكِءِینَ عَلَىٰ رَفۡرَفٍ خُضۡرࣲ وَعَبۡقَرِیٍّ حِسَانࣲ",
-    "ar_simple": "متكءین على رفرف خضر وعبقری حسان",
+    "ar_simple": "مُتَّكِئِينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِيٍّ حِسَانٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Reclining on green cushions and beautiful fine carpets",
@@ -4615,7 +4765,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 77,
@@ -4629,7 +4781,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَبِأَیِّ ءَالَاۤءِ رَبِّكُمَا تُكَذِّبَانِ",
-    "ar_simple": "فبأی ءالاء ربكما تكذبان",
+    "ar_simple": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So which of the favors of your Lord would you deny",
@@ -4674,7 +4826,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   },
   {
     "n": 78,
@@ -4688,7 +4842,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تَبَـٰرَكَ ٱسۡمُ رَبِّكَ ذِی ٱلۡجَلَـٰلِ وَٱلۡإِكۡرَامِ",
-    "ar_simple": "تبرك ٱسم ربك ذی ٱلجلل وٱلإكرام",
+    "ar_simple": "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Blessed is the name of your Lord, Owner of Majesty and Honor",
@@ -4733,6 +4887,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 213
   }
 ]

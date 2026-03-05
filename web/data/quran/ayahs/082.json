@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ إِذَا ٱلسَّمَاۤءُ ٱنفَطَرَتۡ",
-    "ar_simple": "إذا ٱلسماء ٱنفطرت",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِذَا السَّمَاءُ انْفَطَرَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "When the sky breaks apart",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا ٱلۡكَوَاكِبُ ٱنتَثَرَتۡ",
-    "ar_simple": "وإذا ٱلكواكب ٱنتثرت",
+    "ar_simple": "وَإِذَا الْكَوَاكِبُ انْتَثَرَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the stars fall, scattering",
@@ -134,7 +136,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 3,
@@ -148,7 +152,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا ٱلۡبِحَارُ فُجِّرَتۡ",
-    "ar_simple": "وإذا ٱلبحار فجرت",
+    "ar_simple": "وَإِذَا الْبِحَارُ فُجِّرَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the seas are erupted",
@@ -202,7 +206,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 4,
@@ -216,7 +222,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا ٱلۡقُبُورُ بُعۡثِرَتۡ",
-    "ar_simple": "وإذا ٱلقبور بعثرت",
+    "ar_simple": "وَإِذَا الْقُبُورُ بُعْثِرَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when the [contents of] graves are scattered",
@@ -272,7 +278,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 5,
@@ -286,7 +294,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "عَلِمَتۡ نَفۡسࣱ مَّا قَدَّمَتۡ وَأَخَّرَتۡ",
-    "ar_simple": "علمت نفس ما قدمت وأخرت",
+    "ar_simple": "عَلِمَتْ نَفْسٌ مَا قَدَّمَتْ وَأَخَّرَتْ",
     "transliteration": "",
     "t": {
       "sahih-int": "A soul will [then] know what it has put forth and kept back",
@@ -340,7 +348,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 6,
@@ -354,7 +364,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلۡإِنسَـٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلۡكَرِیمِ",
-    "ar_simple": "یأیها ٱلإنسن ما غرك بربك ٱلكریم",
+    "ar_simple": "يَا أَيُّهَا الْإِنْسَانُ مَا غَرَّكَ بِرَبِّكَ الْكَرِيمِ",
     "transliteration": "",
     "t": {
       "sahih-int": "O mankind, what has deceived you concerning your Lord, the Generous",
@@ -409,7 +419,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 7,
@@ -423,7 +435,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِی خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
-    "ar_simple": "ٱلذی خلقك فسوىك فعدلك",
+    "ar_simple": "الَّذِي خَلَقَكَ فَسَوَّاكَ فَعَدَلَكَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who created you, proportioned you, and balanced you",
@@ -479,7 +491,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 8,
@@ -493,7 +507,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیۤ أَیِّ صُورَةࣲ مَّا شَاۤءَ رَكَّبَكَ",
-    "ar_simple": "فی أی صورة ما شاء ركبك",
+    "ar_simple": "فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ",
     "transliteration": "",
     "t": {
       "sahih-int": "In whatever form He willed has He assembled you",
@@ -547,7 +561,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 9,
@@ -561,7 +577,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّا بَلۡ تُكَذِّبُونَ بِٱلدِّینِ",
-    "ar_simple": "كلا بل تكذبون بٱلدین",
+    "ar_simple": "كَلَّا بَلْ تُكَذِّبُونَ بِالدِّينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! But you deny the Recompense",
@@ -616,7 +632,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 10,
@@ -630,7 +648,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِنَّ عَلَیۡكُمۡ لَحَـٰفِظِینَ",
-    "ar_simple": "وإن علیكم لحفظین",
+    "ar_simple": "وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And indeed, [appointed] over you are keepers",
@@ -685,7 +703,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 11,
@@ -699,7 +719,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كِرَامࣰا كَـٰتِبِینَ",
-    "ar_simple": "كراما كتبین",
+    "ar_simple": "كِرَامًا كَاتِبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Noble and recording",
@@ -744,7 +764,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 12,
@@ -758,7 +780,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَعۡلَمُونَ مَا تَفۡعَلُونَ",
-    "ar_simple": "یعلمون ما تفعلون",
+    "ar_simple": "يَعْلَمُونَ مَا تَفْعَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They know whatever you do",
@@ -803,7 +825,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 13,
@@ -817,7 +841,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلۡأَبۡرَارَ لَفِی نَعِیمࣲ",
-    "ar_simple": "إن ٱلأبرار لفی نعیم",
+    "ar_simple": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, the righteous will be in pleasure",
@@ -865,7 +889,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 14,
@@ -879,7 +905,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِنَّ ٱلۡفُجَّارَ لَفِی جَحِیمࣲ",
-    "ar_simple": "وإن ٱلفجار لفی جحیم",
+    "ar_simple": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And indeed, the wicked will be in Hellfire",
@@ -927,7 +953,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 15,
@@ -941,7 +969,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَصۡلَوۡنَهَا یَوۡمَ ٱلدِّینِ",
-    "ar_simple": "یصلونها یوم ٱلدین",
+    "ar_simple": "يَصْلَوْنَهَا يَوْمَ الدِّينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "They will [enter to] burn therein on the Day of Recompense",
@@ -986,7 +1014,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 16,
@@ -1000,7 +1030,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا هُمۡ عَنۡهَا بِغَاۤئِبِینَ",
-    "ar_simple": "وما هم عنها بغائبین",
+    "ar_simple": "وَمَا هُمْ عَنْهَا بِغَائِبِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And never therefrom will they be absent",
@@ -1045,7 +1075,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 17,
@@ -1059,7 +1091,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَاۤ أَدۡرَىٰكَ مَا یَوۡمُ ٱلدِّینِ",
-    "ar_simple": "وما أدرىك ما یوم ٱلدین",
+    "ar_simple": "وَمَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And what can make you know what is the Day of Recompense",
@@ -1105,7 +1137,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 18,
@@ -1119,7 +1153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ مَاۤ أَدۡرَىٰكَ مَا یَوۡمُ ٱلدِّینِ",
-    "ar_simple": "ثم ما أدرىك ما یوم ٱلدین",
+    "ar_simple": "ثُمَّ مَا أَدْرَاكَ مَا يَوْمُ الدِّينِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then, what can make you know what is the Day of Recompense",
@@ -1164,7 +1198,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   },
   {
     "n": 19,
@@ -1178,7 +1214,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَوۡمَ لَا تَمۡلِكُ نَفۡسࣱ لِّنَفۡسࣲ شَیۡءࣰاۖ وَٱلۡأَمۡرُ یَوۡمَئِذࣲ لِّلَّهِ",
-    "ar_simple": "یوم لا تملك نفس لنفس شیءا وٱلأمر یومئذ لله",
+    "ar_simple": "يَوْمَ لَا تَمْلِكُ نَفْسٌ لِنَفْسٍ شَيْئًا ۖ وَالْأَمْرُ يَوْمَئِذٍ لِلَّهِ",
     "transliteration": "",
     "t": {
       "sahih-int": "It is the Day when a soul will not possess for another soul [power to do] a thing; and the command, that Day, is [entirely] with Allah",
@@ -1223,6 +1259,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 235
   }
 ]

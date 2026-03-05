@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱقۡتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلۡقَمَرُ",
-    "ar_simple": "ٱقتربت ٱلساعة وٱنشق ٱلقمر",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ اقْتَرَبَتِ السَّاعَةُ وَانْشَقَّ الْقَمَرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "The Hour has come near, and the moon has split [in two]",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِن یَرَوۡا۟ ءَایَةࣰ یُعۡرِضُوا۟ وَیَقُولُوا۟ سِحۡرࣱ مُّسۡتَمِرࣱّ",
-    "ar_simple": "وإن یروا ءایة یعرضوا ویقولوا سحر مستمر",
+    "ar_simple": "وَإِنْ يَرَوْا آيَةً يُعْرِضُوا وَيَقُولُوا سِحْرٌ مُسْتَمِرٌّ",
     "transliteration": "",
     "t": {
       "sahih-int": "And if they see a miracle, they turn away and say, \"Passing magic",
@@ -138,7 +140,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 3,
@@ -152,7 +156,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَكَذَّبُوا۟ وَٱتَّبَعُوۤا۟ أَهۡوَاۤءَهُمۡۚ وَكُلُّ أَمۡرࣲ مُّسۡتَقِرࣱّ",
-    "ar_simple": "وكذبوا وٱتبعوا أهواءهم وكل أمر مستقر",
+    "ar_simple": "وَكَذَّبُوا وَاتَّبَعُوا أَهْوَاءَهُمْ ۚ وَكُلُّ أَمْرٍ مُسْتَقِرٌّ",
     "transliteration": "",
     "t": {
       "sahih-int": "And they denied and followed their inclinations. But for every matter is a [time of] settlement",
@@ -207,7 +211,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 4,
@@ -221,7 +227,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ جَاۤءَهُم مِّنَ ٱلۡأَنۢبَاۤءِ مَا فِیهِ مُزۡدَجَرٌ",
-    "ar_simple": "ولقد جاءهم من ٱلأنباء ما فیه مزدجر",
+    "ar_simple": "وَلَقَدْ جَاءَهُمْ مِنَ الْأَنْبَاءِ مَا فِيهِ مُزْدَجَرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And there has already come to them of information that in which there is deterrence",
@@ -276,7 +282,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 5,
@@ -290,7 +298,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "حِكۡمَةُۢ بَـٰلِغَةࣱۖ فَمَا تُغۡنِ ٱلنُّذُرُ",
-    "ar_simple": "حكمة بلغة فما تغن ٱلنذر",
+    "ar_simple": "حِكْمَةٌ بَالِغَةٌ ۖ فَمَا تُغْنِ النُّذُرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Extensive wisdom - but warning does not avail [them]",
@@ -348,7 +356,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 6,
@@ -362,7 +372,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَتَوَلَّ عَنۡهُمۡۘ یَوۡمَ یَدۡعُ ٱلدَّاعِ إِلَىٰ شَیۡءࣲ نُّكُرٍ",
-    "ar_simple": "فتول عنهم یوم یدع ٱلداع إلى شیء نكر",
+    "ar_simple": "فَتَوَلَّ عَنْهُمْ ۘ يَوْمَ يَدْعُ الدَّاعِ إِلَىٰ شَيْءٍ نُكُرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "So leave them, [O Muhammad]. The Day the Caller calls to something forbidding",
@@ -419,7 +429,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 7,
@@ -433,7 +445,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "خُشَّعًا أَبۡصَـٰرُهُمۡ یَخۡرُجُونَ مِنَ ٱلۡأَجۡدَاثِ كَأَنَّهُمۡ جَرَادࣱ مُّنتَشِرࣱ",
-    "ar_simple": "خشعا أبصرهم یخرجون من ٱلأجداث كأنهم جراد منتشر",
+    "ar_simple": "خُشَّعًا أَبْصَارُهُمْ يَخْرُجُونَ مِنَ الْأَجْدَاثِ كَأَنَّهُمْ جَرَادٌ مُنْتَشِرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Their eyes humbled, they will emerge from the graves as if they were locusts spreading",
@@ -490,7 +502,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 8,
@@ -504,7 +518,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مُّهۡطِعِینَ إِلَى ٱلدَّاعِۖ یَقُولُ ٱلۡكَـٰفِرُونَ هَـٰذَا یَوۡمٌ عَسِرࣱ",
-    "ar_simple": "مهطعین إلى ٱلداع یقول ٱلكفرون هذا یوم عسر",
+    "ar_simple": "مُهْطِعِينَ إِلَى الدَّاعِ ۖ يَقُولُ الْكَافِرُونَ هَٰذَا يَوْمٌ عَسِرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Racing ahead toward the Caller. The disbelievers will say, \"This is a difficult Day",
@@ -561,7 +575,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 211
   },
   {
     "n": 9,
@@ -575,7 +591,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ كَذَّبَتۡ قَبۡلَهُمۡ قَوۡمُ نُوحࣲ فَكَذَّبُوا۟ عَبۡدَنَا وَقَالُوا۟ مَجۡنُونࣱ وَٱزۡدُجِرَ",
-    "ar_simple": "كذبت قبلهم قوم نوح فكذبوا عبدنا وقالوا مجنون وٱزدجر",
+    "ar_simple": "۞ كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ فَكَذَّبُوا عَبْدَنَا وَقَالُوا مَجْنُونٌ وَازْدُجِرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "The people of Noah denied before them, and they denied Our servant and said, \"A madman,\" and he was repelled",
@@ -630,7 +646,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 10,
@@ -644,7 +662,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَدَعَا رَبَّهُۥۤ أَنِّی مَغۡلُوبࣱ فَٱنتَصِرۡ",
-    "ar_simple": "فدعا ربه أنی مغلوب فٱنتصر",
+    "ar_simple": "فَدَعَا رَبَّهُ أَنِّي مَغْلُوبٌ فَانْتَصِرْ",
     "transliteration": "",
     "t": {
       "sahih-int": "So he invoked his Lord, \"Indeed, I am overpowered, so help",
@@ -701,7 +719,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 11,
@@ -715,7 +735,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَفَتَحۡنَاۤ أَبۡوَ ٰبَ ٱلسَّمَاۤءِ بِمَاۤءࣲ مُّنۡهَمِرࣲ",
-    "ar_simple": "ففتحنا أبو ب ٱلسماء بماء منهمر",
+    "ar_simple": "فَفَتَحْنَا أَبْوَابَ السَّمَاءِ بِمَاءٍ مُنْهَمِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then We opened the gates of the heaven with rain pouring down",
@@ -761,7 +781,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 12,
@@ -775,7 +797,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَفَجَّرۡنَا ٱلۡأَرۡضَ عُیُونࣰا فَٱلۡتَقَى ٱلۡمَاۤءُ عَلَىٰۤ أَمۡرࣲ قَدۡ قُدِرَ",
-    "ar_simple": "وفجرنا ٱلأرض عیونا فٱلتقى ٱلماء على أمر قد قدر",
+    "ar_simple": "وَفَجَّرْنَا الْأَرْضَ عُيُونًا فَالْتَقَى الْمَاءُ عَلَىٰ أَمْرٍ قَدْ قُدِرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And caused the earth to burst with springs, and the waters met for a matter already predestined",
@@ -820,7 +842,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 13,
@@ -834,7 +858,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَحَمَلۡنَـٰهُ عَلَىٰ ذَاتِ أَلۡوَ ٰحࣲ وَدُسُرࣲ",
-    "ar_simple": "وحملنه على ذات ألو ح ودسر",
+    "ar_simple": "وَحَمَلْنَاهُ عَلَىٰ ذَاتِ أَلْوَاحٍ وَدُسُرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We carried him on a [construction of] planks and nails",
@@ -879,7 +903,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 14,
@@ -893,7 +919,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تَجۡرِی بِأَعۡیُنِنَا جَزَاۤءࣰ لِّمَن كَانَ كُفِرَ",
-    "ar_simple": "تجری بأعیننا جزاء لمن كان كفر",
+    "ar_simple": "تَجْرِي بِأَعْيُنِنَا جَزَاءً لِمَنْ كَانَ كُفِرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Sailing under Our observation as reward for he who had been denied",
@@ -940,7 +966,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 15,
@@ -954,7 +982,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَد تَّرَكۡنَـٰهَاۤ ءَایَةࣰ فَهَلۡ مِن مُّدَّكِرࣲ",
-    "ar_simple": "ولقد تركنها ءایة فهل من مدكر",
+    "ar_simple": "وَلَقَدْ تَرَكْنَاهَا آيَةً فَهَلْ مِنْ مُدَّكِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We left it as a sign, so is there any who will remember",
@@ -999,7 +1027,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 16,
@@ -1013,7 +1043,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَكَیۡفَ كَانَ عَذَابِی وَنُذُرِ",
-    "ar_simple": "فكیف كان عذابی ونذر",
+    "ar_simple": "فَكَيْفَ كَانَ عَذَابِي وَنُذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And how [severe] were My punishment and warning",
@@ -1061,7 +1091,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 17,
@@ -1075,7 +1107,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ یَسَّرۡنَا ٱلۡقُرۡءَانَ لِلذِّكۡرِ فَهَلۡ مِن مُّدَّكِرࣲ",
-    "ar_simple": "ولقد یسرنا ٱلقرءان للذكر فهل من مدكر",
+    "ar_simple": "وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ فَهَلْ مِنْ مُدَّكِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have certainly made the Qur'an easy for remembrance, so is there any who will remember",
@@ -1122,7 +1154,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 18,
@@ -1136,7 +1170,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَذَّبَتۡ عَادࣱ فَكَیۡفَ كَانَ عَذَابِی وَنُذُرِ",
-    "ar_simple": "كذبت عاد فكیف كان عذابی ونذر",
+    "ar_simple": "كَذَّبَتْ عَادٌ فَكَيْفَ كَانَ عَذَابِي وَنُذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Aad denied; and how [severe] were My punishment and warning",
@@ -1184,7 +1218,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 19,
@@ -1198,7 +1234,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّاۤ أَرۡسَلۡنَا عَلَیۡهِمۡ رِیحࣰا صَرۡصَرࣰا فِی یَوۡمِ نَحۡسࣲ مُّسۡتَمِرࣲّ",
-    "ar_simple": "إنا أرسلنا علیهم ریحا صرصرا فی یوم نحس مستمر",
+    "ar_simple": "إِنَّا أَرْسَلْنَا عَلَيْهِمْ رِيحًا صَرْصَرًا فِي يَوْمِ نَحْسٍ مُسْتَمِرٍّ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We sent upon them a screaming wind on a day of continuous misfortune",
@@ -1243,7 +1279,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 20,
@@ -1257,7 +1295,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمۡ أَعۡجَازُ نَخۡلࣲ مُّنقَعِرࣲ",
-    "ar_simple": "تنزع ٱلناس كأنهم أعجاز نخل منقعر",
+    "ar_simple": "تَنْزِعُ النَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُنْقَعِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Extracting the people as if they were trunks of palm trees uprooted",
@@ -1302,7 +1340,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 21,
@@ -1316,7 +1356,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَكَیۡفَ كَانَ عَذَابِی وَنُذُرِ",
-    "ar_simple": "فكیف كان عذابی ونذر",
+    "ar_simple": "فَكَيْفَ كَانَ عَذَابِي وَنُذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And how [severe] were My punishment and warning",
@@ -1364,7 +1404,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 22,
@@ -1378,7 +1420,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ یَسَّرۡنَا ٱلۡقُرۡءَانَ لِلذِّكۡرِ فَهَلۡ مِن مُّدَّكِرࣲ",
-    "ar_simple": "ولقد یسرنا ٱلقرءان للذكر فهل من مدكر",
+    "ar_simple": "وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ فَهَلْ مِنْ مُدَّكِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have certainly made the Qur'an easy for remembrance, so is there any who will remember",
@@ -1425,7 +1467,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 23,
@@ -1439,7 +1483,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَذَّبَتۡ ثَمُودُ بِٱلنُّذُرِ",
-    "ar_simple": "كذبت ثمود بٱلنذر",
+    "ar_simple": "كَذَّبَتْ ثَمُودُ بِالنُّذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Thamud denied the warning",
@@ -1486,7 +1530,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 24,
@@ -1500,7 +1546,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَقَالُوۤا۟ أَبَشَرࣰا مِّنَّا وَ ٰحِدࣰا نَّتَّبِعُهُۥۤ إِنَّاۤ إِذࣰا لَّفِی ضَلَـٰلࣲ وَسُعُرٍ",
-    "ar_simple": "فقالوا أبشرا منا و حدا نتبعه إنا إذا لفی ضلل وسعر",
+    "ar_simple": "فَقَالُوا أَبَشَرًا مِنَّا وَاحِدًا نَتَّبِعُهُ إِنَّا إِذًا لَفِي ضَلَالٍ وَسُعُرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And said, \"Is it one human being among us that we should follow? Indeed, we would then be in error and madness",
@@ -1545,7 +1591,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 25,
@@ -1559,7 +1607,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَءُلۡقِیَ ٱلذِّكۡرُ عَلَیۡهِ مِنۢ بَیۡنِنَا بَلۡ هُوَ كَذَّابٌ أَشِرࣱ",
-    "ar_simple": "أءلقی ٱلذكر علیه من بیننا بل هو كذاب أشر",
+    "ar_simple": "أَأُلْقِيَ الذِّكْرُ عَلَيْهِ مِنْ بَيْنِنَا بَلْ هُوَ كَذَّابٌ أَشِرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Has the message been sent down upon him from among us? Rather, he is an insolent liar",
@@ -1604,7 +1652,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 26,
@@ -1618,7 +1668,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَیَعۡلَمُونَ غَدࣰا مَّنِ ٱلۡكَذَّابُ ٱلۡأَشِرُ",
-    "ar_simple": "سیعلمون غدا من ٱلكذاب ٱلأشر",
+    "ar_simple": "سَيَعْلَمُونَ غَدًا مَنِ الْكَذَّابُ الْأَشِرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "They will know tomorrow who is the insolent liar",
@@ -1663,7 +1713,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 27,
@@ -1677,7 +1729,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّا مُرۡسِلُوا۟ ٱلنَّاقَةِ فِتۡنَةࣰ لَّهُمۡ فَٱرۡتَقِبۡهُمۡ وَٱصۡطَبِرۡ",
-    "ar_simple": "إنا مرسلوا ٱلناقة فتنة لهم فٱرتقبهم وٱصطبر",
+    "ar_simple": "إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ فَارْتَقِبْهُمْ وَاصْطَبِرْ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We are sending the she-camel as trial for them, so watch them and be patient",
@@ -1722,7 +1774,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 28,
@@ -1736,7 +1790,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَنَبِّئۡهُمۡ أَنَّ ٱلۡمَاۤءَ قِسۡمَةُۢ بَیۡنَهُمۡۖ كُلُّ شِرۡبࣲ مُّحۡتَضَرࣱ",
-    "ar_simple": "ونبئهم أن ٱلماء قسمة بینهم كل شرب محتضر",
+    "ar_simple": "وَنَبِّئْهُمْ أَنَّ الْمَاءَ قِسْمَةٌ بَيْنَهُمْ ۖ كُلُّ شِرْبٍ مُحْتَضَرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And inform them that the water is shared between them, each [day of] drink attended [by turn]",
@@ -1783,7 +1837,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 29,
@@ -1797,7 +1853,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَنَادَوۡا۟ صَاحِبَهُمۡ فَتَعَاطَىٰ فَعَقَرَ",
-    "ar_simple": "فنادوا صاحبهم فتعاطى فعقر",
+    "ar_simple": "فَنَادَوْا صَاحِبَهُمْ فَتَعَاطَىٰ فَعَقَرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But they called their companion, and he dared and hamstrung [her]",
@@ -1844,7 +1900,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 30,
@@ -1858,7 +1916,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَكَیۡفَ كَانَ عَذَابِی وَنُذُرِ",
-    "ar_simple": "فكیف كان عذابی ونذر",
+    "ar_simple": "فَكَيْفَ كَانَ عَذَابِي وَنُذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And how [severe] were My punishment and warning",
@@ -1906,7 +1964,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 31,
@@ -1920,7 +1980,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّاۤ أَرۡسَلۡنَا عَلَیۡهِمۡ صَیۡحَةࣰ وَ ٰحِدَةࣰ فَكَانُوا۟ كَهَشِیمِ ٱلۡمُحۡتَظِرِ",
-    "ar_simple": "إنا أرسلنا علیهم صیحة و حدة فكانوا كهشیم ٱلمحتظر",
+    "ar_simple": "إِنَّا أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَاحِدَةً فَكَانُوا كَهَشِيمِ الْمُحْتَظِرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We sent upon them one blast from the sky, and they became like the dry twig fragments of an [animal] pen",
@@ -1965,7 +2025,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 32,
@@ -1979,7 +2041,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ یَسَّرۡنَا ٱلۡقُرۡءَانَ لِلذِّكۡرِ فَهَلۡ مِن مُّدَّكِرࣲ",
-    "ar_simple": "ولقد یسرنا ٱلقرءان للذكر فهل من مدكر",
+    "ar_simple": "وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ فَهَلْ مِنْ مُدَّكِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have certainly made the Qur'an easy for remembrance, so is there any who will remember",
@@ -2026,7 +2088,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 33,
@@ -2040,7 +2104,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَذَّبَتۡ قَوۡمُ لُوطِۭ بِٱلنُّذُرِ",
-    "ar_simple": "كذبت قوم لوط بٱلنذر",
+    "ar_simple": "كَذَّبَتْ قَوْمُ لُوطٍ بِالنُّذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "The people of Lot denied the warning",
@@ -2087,7 +2151,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 34,
@@ -2101,7 +2167,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّاۤ أَرۡسَلۡنَا عَلَیۡهِمۡ حَاصِبًا إِلَّاۤ ءَالَ لُوطࣲۖ نَّجَّیۡنَـٰهُم بِسَحَرࣲ",
-    "ar_simple": "إنا أرسلنا علیهم حاصبا إلا ءال لوط نجینهم بسحر",
+    "ar_simple": "إِنَّا أَرْسَلْنَا عَلَيْهِمْ حَاصِبًا إِلَّا آلَ لُوطٍ ۖ نَجَّيْنَاهُمْ بِسَحَرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We sent upon them a storm of stones, except the family of Lot - We saved them before dawn",
@@ -2148,7 +2214,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 35,
@@ -2162,7 +2230,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "نِّعۡمَةࣰ مِّنۡ عِندِنَاۚ كَذَ ٰلِكَ نَجۡزِی مَن شَكَرَ",
-    "ar_simple": "نعمة من عندنا كذ لك نجزی من شكر",
+    "ar_simple": "نِعْمَةً مِنْ عِنْدِنَا ۚ كَذَٰلِكَ نَجْزِي مَنْ شَكَرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "As favor from us. Thus do We reward he who is grateful",
@@ -2209,7 +2277,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 36,
@@ -2223,7 +2293,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ أَنذَرَهُم بَطۡشَتَنَا فَتَمَارَوۡا۟ بِٱلنُّذُرِ",
-    "ar_simple": "ولقد أنذرهم بطشتنا فتماروا بٱلنذر",
+    "ar_simple": "وَلَقَدْ أَنْذَرَهُمْ بَطْشَتَنَا فَتَمَارَوْا بِالنُّذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And he had already warned them of Our assault, but they disputed the warning",
@@ -2270,7 +2340,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 37,
@@ -2284,7 +2356,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ رَ ٰوَدُوهُ عَن ضَیۡفِهِۦ فَطَمَسۡنَاۤ أَعۡیُنَهُمۡ فَذُوقُوا۟ عَذَابِی وَنُذُرِ",
-    "ar_simple": "ولقد ر ودوه عن ضیفه فطمسنا أعینهم فذوقوا عذابی ونذر",
+    "ar_simple": "وَلَقَدْ رَاوَدُوهُ عَنْ ضَيْفِهِ فَطَمَسْنَا أَعْيُنَهُمْ فَذُوقُوا عَذَابِي وَنُذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And they had demanded from him his guests, but We obliterated their eyes, [saying], \"Taste My punishment and warning",
@@ -2332,7 +2404,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 38,
@@ -2346,7 +2420,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ صَبَّحَهُم بُكۡرَةً عَذَابࣱ مُّسۡتَقِرࣱّ",
-    "ar_simple": "ولقد صبحهم بكرة عذاب مستقر",
+    "ar_simple": "وَلَقَدْ صَبَّحَهُمْ بُكْرَةً عَذَابٌ مُسْتَقِرٌّ",
     "transliteration": "",
     "t": {
       "sahih-int": "And there came upon them by morning an abiding punishment",
@@ -2393,7 +2467,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 39,
@@ -2407,7 +2483,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَذُوقُوا۟ عَذَابِی وَنُذُرِ",
-    "ar_simple": "فذوقوا عذابی ونذر",
+    "ar_simple": "فَذُوقُوا عَذَابِي وَنُذُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "So taste My punishment and warning",
@@ -2455,7 +2531,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 40,
@@ -2469,7 +2547,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ یَسَّرۡنَا ٱلۡقُرۡءَانَ لِلذِّكۡرِ فَهَلۡ مِن مُّدَّكِرࣲ",
-    "ar_simple": "ولقد یسرنا ٱلقرءان للذكر فهل من مدكر",
+    "ar_simple": "وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ فَهَلْ مِنْ مُدَّكِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have certainly made the Qur'an easy for remembrance, so is there any who will remember",
@@ -2516,7 +2594,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 41,
@@ -2530,7 +2610,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ جَاۤءَ ءَالَ فِرۡعَوۡنَ ٱلنُّذُرُ",
-    "ar_simple": "ولقد جاء ءال فرعون ٱلنذر",
+    "ar_simple": "وَلَقَدْ جَاءَ آلَ فِرْعَوْنَ النُّذُرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And there certainly came to the people of Pharaoh warning",
@@ -2577,7 +2657,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 42,
@@ -2591,7 +2673,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَذَّبُوا۟ بِءَایَـٰتِنَا كُلِّهَا فَأَخَذۡنَـٰهُمۡ أَخۡذَ عَزِیزࣲ مُّقۡتَدِرٍ",
-    "ar_simple": "كذبوا بءایتنا كلها فأخذنهم أخذ عزیز مقتدر",
+    "ar_simple": "كَذَّبُوا بِآيَاتِنَا كُلِّهَا فَأَخَذْنَاهُمْ أَخْذَ عَزِيزٍ مُقْتَدِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "They denied Our signs, all of them, so We seized them with a seizure of one Exalted in Might and Perfect in Ability",
@@ -2636,7 +2718,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 43,
@@ -2650,7 +2734,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَكُفَّارُكُمۡ خَیۡرࣱ مِّنۡ أُو۟لَـٰۤئِكُمۡ أَمۡ لَكُم بَرَاۤءَةࣱ فِی ٱلزُّبُرِ",
-    "ar_simple": "أكفاركم خیر من أولئكم أم لكم براءة فی ٱلزبر",
+    "ar_simple": "أَكُفَّارُكُمْ خَيْرٌ مِنْ أُولَٰئِكُمْ أَمْ لَكُمْ بَرَاءَةٌ فِي الزُّبُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Are your disbelievers better than those [former ones], or have you immunity in the scripture",
@@ -2697,7 +2781,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 44,
@@ -2711,7 +2797,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَمۡ یَقُولُونَ نَحۡنُ جَمِیعࣱ مُّنتَصِرࣱ",
-    "ar_simple": "أم یقولون نحن جمیع منتصر",
+    "ar_simple": "أَمْ يَقُولُونَ نَحْنُ جَمِيعٌ مُنْتَصِرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Or do they say, \"We are an assembly supporting [each other]",
@@ -2756,7 +2842,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 45,
@@ -2770,7 +2858,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَیُهۡزَمُ ٱلۡجَمۡعُ وَیُوَلُّونَ ٱلدُّبُرَ",
-    "ar_simple": "سیهزم ٱلجمع ویولون ٱلدبر",
+    "ar_simple": "سَيُهْزَمُ الْجَمْعُ وَيُوَلُّونَ الدُّبُرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Their] assembly will be defeated, and they will turn their backs [in retreat]",
@@ -2817,7 +2905,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 46,
@@ -2831,7 +2921,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بَلِ ٱلسَّاعَةُ مَوۡعِدُهُمۡ وَٱلسَّاعَةُ أَدۡهَىٰ وَأَمَرُّ",
-    "ar_simple": "بل ٱلساعة موعدهم وٱلساعة أدهى وأمر",
+    "ar_simple": "بَلِ السَّاعَةُ مَوْعِدُهُمْ وَالسَّاعَةُ أَدْهَىٰ وَأَمَرُّ",
     "transliteration": "",
     "t": {
       "sahih-int": "But the Hour is their appointment [for due punishment], and the Hour is more disastrous and more bitter",
@@ -2878,7 +2968,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 47,
@@ -2892,7 +2984,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلۡمُجۡرِمِینَ فِی ضَلَـٰلࣲ وَسُعُرࣲ",
-    "ar_simple": "إن ٱلمجرمین فی ضلل وسعر",
+    "ar_simple": "إِنَّ الْمُجْرِمِينَ فِي ضَلَالٍ وَسُعُرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, the criminals are in error and madness",
@@ -2939,7 +3031,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 48,
@@ -2953,7 +3047,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَوۡمَ یُسۡحَبُونَ فِی ٱلنَّارِ عَلَىٰ وُجُوهِهِمۡ ذُوقُوا۟ مَسَّ سَقَرَ",
-    "ar_simple": "یوم یسحبون فی ٱلنار على وجوههم ذوقوا مس سقر",
+    "ar_simple": "يَوْمَ يُسْحَبُونَ فِي النَّارِ عَلَىٰ وُجُوهِهِمْ ذُوقُوا مَسَّ سَقَرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "The Day they are dragged into the Fire on their faces [it will be said], \"Taste the touch of Saqar",
@@ -2998,7 +3092,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 49,
@@ -3012,7 +3108,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّا كُلَّ شَیۡءٍ خَلَقۡنَـٰهُ بِقَدَرࣲ",
-    "ar_simple": "إنا كل شیء خلقنه بقدر",
+    "ar_simple": "إِنَّا كُلَّ شَيْءٍ خَلَقْنَاهُ بِقَدَرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, all things We created with predestination",
@@ -3060,7 +3156,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 50,
@@ -3074,7 +3172,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَاۤ أَمۡرُنَاۤ إِلَّا وَ ٰحِدَةࣱ كَلَمۡحِۭ بِٱلۡبَصَرِ",
-    "ar_simple": "وما أمرنا إلا و حدة كلمح بٱلبصر",
+    "ar_simple": "وَمَا أَمْرُنَا إِلَّا وَاحِدَةٌ كَلَمْحٍ بِالْبَصَرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And Our command is but one, like a glance of the eye",
@@ -3119,7 +3217,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 51,
@@ -3133,7 +3233,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَقَدۡ أَهۡلَكۡنَاۤ أَشۡیَاعَكُمۡ فَهَلۡ مِن مُّدَّكِرࣲ",
-    "ar_simple": "ولقد أهلكنا أشیاعكم فهل من مدكر",
+    "ar_simple": "وَلَقَدْ أَهْلَكْنَا أَشْيَاعَكُمْ فَهَلْ مِنْ مُدَّكِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And We have already destroyed your kinds, so is there any who will remember",
@@ -3178,7 +3278,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 52,
@@ -3192,7 +3294,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَكُلُّ شَیۡءࣲ فَعَلُوهُ فِی ٱلزُّبُرِ",
-    "ar_simple": "وكل شیء فعلوه فی ٱلزبر",
+    "ar_simple": "وَكُلُّ شَيْءٍ فَعَلُوهُ فِي الزُّبُرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And everything they did is in written records",
@@ -3237,7 +3339,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 53,
@@ -3251,7 +3355,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَكُلُّ صَغِیرࣲ وَكَبِیرࣲ مُّسۡتَطَرٌ",
-    "ar_simple": "وكل صغیر وكبیر مستطر",
+    "ar_simple": "وَكُلُّ صَغِيرٍ وَكَبِيرٍ مُسْتَطَرٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And every small and great [thing] is inscribed",
@@ -3298,7 +3402,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 54,
@@ -3312,7 +3418,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلۡمُتَّقِینَ فِی جَنَّـٰتࣲ وَنَهَرࣲ",
-    "ar_simple": "إن ٱلمتقین فی جنت ونهر",
+    "ar_simple": "إِنَّ الْمُتَّقِينَ فِي جَنَّاتٍ وَنَهَرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, the righteous will be among gardens and rivers",
@@ -3359,7 +3465,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   },
   {
     "n": 55,
@@ -3373,7 +3481,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِی مَقۡعَدِ صِدۡقٍ عِندَ مَلِیكࣲ مُّقۡتَدِرِۭ",
-    "ar_simple": "فی مقعد صدق عند ملیك مقتدر",
+    "ar_simple": "فِي مَقْعَدِ صِدْقٍ عِنْدَ مَلِيكٍ مُقْتَدِرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "In a seat of honor near a Sovereign, Perfect in Ability",
@@ -3420,6 +3528,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 212
   }
 ]

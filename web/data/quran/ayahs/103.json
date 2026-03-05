@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡعَصۡرِ",
-    "ar_simple": "وٱلعصر",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالْعَصْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "By time",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "MISSING_IWQ_EN",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلۡإِنسَـٰنَ لَفِی خُسۡرٍ",
-    "ar_simple": "إن ٱلإنسن لفی خسر",
+    "ar_simple": "إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, mankind is in loss",
@@ -135,7 +137,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -149,7 +153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَّا ٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوۡا۟ بِٱلۡحَقِّ وَتَوَاصَوۡا۟ بِٱلصَّبۡرِ",
-    "ar_simple": "إلا ٱلذین ءامنوا وعملوا ٱلصلحت وتواصوا بٱلحق وتواصوا بٱلصبر",
+    "ar_simple": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience",
@@ -206,6 +210,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَمۡ یَكُنِ ٱلَّذِینَ كَفَرُوا۟ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ وَٱلۡمُشۡرِكِینَ مُنفَكِّینَ حَتَّىٰ تَأۡتِیَهُمُ ٱلۡبَیِّنَةُ",
-    "ar_simple": "لم یكن ٱلذین كفروا من أهل ٱلكتب وٱلمشركین منفكین حتى تأتیهم ٱلبینة",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ الْبَيِّنَةُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence",
@@ -69,7 +69,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 2,
@@ -83,7 +85,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "رَسُولࣱ مِّنَ ٱللَّهِ یَتۡلُوا۟ صُحُفࣰا مُّطَهَّرَةࣰ",
-    "ar_simple": "رسول من ٱلله یتلوا صحفا مطهرة",
+    "ar_simple": "رَسُولٌ مِنَ اللَّهِ يَتْلُو صُحُفًا مُطَهَّرَةً",
     "transliteration": "",
     "t": {
       "sahih-int": "A Messenger from Allah, reciting purified scriptures",
@@ -140,7 +142,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 3,
@@ -154,7 +158,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِیهَا كُتُبࣱ قَیِّمَةࣱ",
-    "ar_simple": "فیها كتب قیمة",
+    "ar_simple": "فِيهَا كُتُبٌ قَيِّمَةٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Within which are correct writings",
@@ -209,7 +213,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 4,
@@ -223,7 +229,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا تَفَرَّقَ ٱلَّذِینَ أُوتُوا۟ ٱلۡكِتَـٰبَ إِلَّا مِنۢ بَعۡدِ مَا جَاۤءَتۡهُمُ ٱلۡبَیِّنَةُ",
-    "ar_simple": "وما تفرق ٱلذین أوتوا ٱلكتب إلا من بعد ما جاءتهم ٱلبینة",
+    "ar_simple": "وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِنْ بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence",
@@ -278,7 +284,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 5,
@@ -292,7 +300,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَاۤ أُمِرُوۤا۟ إِلَّا لِیَعۡبُدُوا۟ ٱللَّهَ مُخۡلِصِینَ لَهُ ٱلدِّینَ حُنَفَاۤءَ وَیُقِیمُوا۟ ٱلصَّلَوٰةَ وَیُؤۡتُوا۟ ٱلزَّكَوٰةَۚ وَذَ ٰلِكَ دِینُ ٱلۡقَیِّمَةِ",
-    "ar_simple": "وما أمروا إلا لیعبدوا ٱلله مخلصین له ٱلدین حنفاء ویقیموا ٱلصلوة ویؤتوا ٱلزكوة وذ لك دین ٱلقیمة",
+    "ar_simple": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ ۚ وَذَٰلِكَ دِينُ الْقَيِّمَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion",
@@ -351,7 +359,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 6,
@@ -365,7 +375,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ كَفَرُوا۟ مِنۡ أَهۡلِ ٱلۡكِتَـٰبِ وَٱلۡمُشۡرِكِینَ فِی نَارِ جَهَنَّمَ خَـٰلِدِینَ فِیهَاۤۚ أُو۟لَـٰۤئِكَ هُمۡ شَرُّ ٱلۡبَرِیَّةِ",
-    "ar_simple": "إن ٱلذین كفروا من أهل ٱلكتب وٱلمشركین فی نار جهنم خلدین فیها أولئك هم شر ٱلبریة",
+    "ar_simple": "إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا ۚ أُولَٰئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures",
@@ -425,7 +435,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 7,
@@ -439,7 +451,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰۤئِكَ هُمۡ خَیۡرُ ٱلۡبَرِیَّةِ",
-    "ar_simple": "إن ٱلذین ءامنوا وعملوا ٱلصلحت أولئك هم خیر ٱلبریة",
+    "ar_simple": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَٰئِكَ هُمْ خَيْرُ الْبَرِيَّةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, they who have believed and done righteous deeds - those are the best of creatures",
@@ -497,7 +509,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 8,
@@ -511,7 +525,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "جَزَاۤؤُهُمۡ عِندَ رَبِّهِمۡ جَنَّـٰتُ عَدۡنࣲ تَجۡرِی مِن تَحۡتِهَا ٱلۡأَنۡهَـٰرُ خَـٰلِدِینَ فِیهَاۤ أَبَدࣰاۖ رَّضِیَ ٱللَّهُ عَنۡهُمۡ وَرَضُوا۟ عَنۡهُۚ ذَ ٰلِكَ لِمَنۡ خَشِیَ رَبَّهُۥ",
-    "ar_simple": "جزاؤهم عند ربهم جنت عدن تجری من تحتها ٱلأنهر خلدین فیها أبدا رضی ٱلله عنهم ورضوا عنه ذ لك لمن خشی ربه",
+    "ar_simple": "جَزَاؤُهُمْ عِنْدَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا ۖ رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ۚ ذَٰلِكَ لِمَنْ خَشِيَ رَبَّهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Their reward with Allah will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allah being pleased with them and they with Him. That is for whoever has feared his Lord",
@@ -569,6 +583,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   }
 ]

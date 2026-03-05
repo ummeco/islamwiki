@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّیۡلِ إِذَا یَغۡشَىٰ",
-    "ar_simple": "وٱلیل إذا یغشى",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَاللَّيْلِ إِذَا يَغْشَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "By the night when it covers",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
-    "ar_simple": "وٱلنهار إذا تجلى",
+    "ar_simple": "وَالنَّهَارِ إِذَا تَجَلَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] the day when it appears",
@@ -134,7 +136,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 3,
@@ -148,7 +152,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلۡأُنثَىٰۤ",
-    "ar_simple": "وما خلق ٱلذكر وٱلأنثى",
+    "ar_simple": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنْثَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] He who created the male and female",
@@ -204,7 +208,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 4,
@@ -218,7 +224,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ سَعۡیَكُمۡ لَشَتَّىٰ",
-    "ar_simple": "إن سعیكم لشتى",
+    "ar_simple": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, your efforts are diverse",
@@ -274,7 +280,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 5,
@@ -288,7 +296,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَمَّا مَنۡ أَعۡطَىٰ وَٱتَّقَىٰ",
-    "ar_simple": "فأما من أعطى وٱتقى",
+    "ar_simple": "فَأَمَّا مَنْ أَعْطَىٰ وَاتَّقَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "As for he who gives and fears Allah",
@@ -343,7 +351,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 6,
@@ -357,7 +367,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَصَدَّقَ بِٱلۡحُسۡنَىٰ",
-    "ar_simple": "وصدق بٱلحسنى",
+    "ar_simple": "وَصَدَّقَ بِالْحُسْنَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And believes in the best [reward]",
@@ -415,7 +425,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 7,
@@ -429,7 +441,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَسَنُیَسِّرُهُۥ لِلۡیُسۡرَىٰ",
-    "ar_simple": "فسنیسره للیسرى",
+    "ar_simple": "فَسَنُيَسِّرُهُ لِلْيُسْرَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "We will ease him toward ease",
@@ -485,7 +497,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 8,
@@ -499,7 +513,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَمَّا مَنۢ بَخِلَ وَٱسۡتَغۡنَىٰ",
-    "ar_simple": "وأما من بخل وٱستغنى",
+    "ar_simple": "وَأَمَّا مَنْ بَخِلَ وَاسْتَغْنَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "But as for he who withholds and considers himself free of need",
@@ -554,7 +568,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 9,
@@ -568,7 +584,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَكَذَّبَ بِٱلۡحُسۡنَىٰ",
-    "ar_simple": "وكذب بٱلحسنى",
+    "ar_simple": "وَكَذَّبَ بِالْحُسْنَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And denies the best [reward]",
@@ -625,7 +641,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 10,
@@ -639,7 +657,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَسَنُیَسِّرُهُۥ لِلۡعُسۡرَىٰ",
-    "ar_simple": "فسنیسره للعسرى",
+    "ar_simple": "فَسَنُيَسِّرُهُ لِلْعُسْرَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "We will ease him toward difficulty",
@@ -696,7 +714,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 11,
@@ -710,7 +730,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا یُغۡنِی عَنۡهُ مَالُهُۥۤ إِذَا تَرَدَّىٰۤ",
-    "ar_simple": "وما یغنی عنه ماله إذا تردى",
+    "ar_simple": "وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And what will his wealth avail him when he falls",
@@ -758,7 +778,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 12,
@@ -772,7 +794,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ عَلَیۡنَا لَلۡهُدَىٰ",
-    "ar_simple": "إن علینا للهدى",
+    "ar_simple": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, [incumbent] upon Us is guidance",
@@ -818,7 +840,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 13,
@@ -832,7 +856,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِنَّ لَنَا لَلۡءَاخِرَةَ وَٱلۡأُولَىٰ",
-    "ar_simple": "وإن لنا للءاخرة وٱلأولى",
+    "ar_simple": "وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And indeed, to Us belongs the Hereafter and the first [life]",
@@ -879,7 +903,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 14,
@@ -893,7 +919,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَأَنذَرۡتُكُمۡ نَارࣰا تَلَظَّىٰ",
-    "ar_simple": "فأنذرتكم نارا تلظى",
+    "ar_simple": "فَأَنْذَرْتُكُمْ نَارًا تَلَظَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "So I have warned you of a Fire which is blazing",
@@ -941,7 +967,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 15,
@@ -955,7 +983,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَا یَصۡلَىٰهَاۤ إِلَّا ٱلۡأَشۡقَى",
-    "ar_simple": "لا یصلىها إلا ٱلأشقى",
+    "ar_simple": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
     "transliteration": "",
     "t": {
       "sahih-int": "None will [enter to] burn therein except the most wretched one",
@@ -1001,7 +1029,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 16,
@@ -1015,7 +1045,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِی كَذَّبَ وَتَوَلَّىٰ",
-    "ar_simple": "ٱلذی كذب وتولى",
+    "ar_simple": "الَّذِي كَذَّبَ وَتَوَلَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who had denied and turned away",
@@ -1060,7 +1090,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 17,
@@ -1074,7 +1106,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَسَیُجَنَّبُهَا ٱلۡأَتۡقَى",
-    "ar_simple": "وسیجنبها ٱلأتقى",
+    "ar_simple": "وَسَيُجَنَّبُهَا الْأَتْقَى",
     "transliteration": "",
     "t": {
       "sahih-int": "But the righteous one will avoid it",
@@ -1121,7 +1153,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 18,
@@ -1135,7 +1169,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِی یُؤۡتِی مَالَهُۥ یَتَزَكَّىٰ",
-    "ar_simple": "ٱلذی یؤتی ماله یتزكى",
+    "ar_simple": "الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "[He] who gives [from] his wealth to purify himself",
@@ -1182,7 +1216,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 19,
@@ -1196,7 +1232,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعۡمَةࣲ تُجۡزَىٰۤ",
-    "ar_simple": "وما لأحد عنده من نعمة تجزى",
+    "ar_simple": "وَمَا لِأَحَدٍ عِنْدَهُ مِنْ نِعْمَةٍ تُجْزَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And not [giving] for anyone who has [done him] a favor to be rewarded",
@@ -1243,7 +1279,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 20,
@@ -1257,7 +1295,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَّا ٱبۡتِغَاۤءَ وَجۡهِ رَبِّهِ ٱلۡأَعۡلَىٰ",
-    "ar_simple": "إلا ٱبتغاء وجه ربه ٱلأعلى",
+    "ar_simple": "إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "But only seeking the countenance of his Lord, Most High",
@@ -1302,7 +1340,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 21,
@@ -1316,7 +1356,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَسَوۡفَ یَرۡضَىٰ",
-    "ar_simple": "ولسوف یرضى",
+    "ar_simple": "وَلَسَوْفَ يَرْضَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And he is going to be satisfied",
@@ -1361,6 +1401,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   }
 ]

@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
-    "ar_simple": "قل أعوذ برب ٱلناس",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, \"I seek refuge in the Lord of mankind",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مَلِكِ ٱلنَّاسِ",
-    "ar_simple": "ملك ٱلناس",
+    "ar_simple": "مَلِكِ النَّاسِ",
     "transliteration": "",
     "t": {
       "sahih-int": "The Sovereign of mankind",
@@ -135,7 +137,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -149,7 +153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَـٰهِ ٱلنَّاسِ",
-    "ar_simple": "إله ٱلناس",
+    "ar_simple": "إِلَٰهِ النَّاسِ",
     "transliteration": "",
     "t": {
       "sahih-int": "The God of mankind",
@@ -204,7 +208,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 4,
@@ -218,7 +224,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ",
-    "ar_simple": "من شر ٱلوسواس ٱلخناس",
+    "ar_simple": "مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
     "transliteration": "",
     "t": {
       "sahih-int": "From the evil of the retreating whisperer",
@@ -275,7 +281,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 5,
@@ -289,7 +297,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِی یُوَسۡوِسُ فِی صُدُورِ ٱلنَّاسِ",
-    "ar_simple": "ٱلذی یوسوس فی صدور ٱلناس",
+    "ar_simple": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Who whispers [evil] into the breasts of mankind",
@@ -344,7 +352,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 6,
@@ -358,7 +368,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
-    "ar_simple": "من ٱلجنة وٱلناس",
+    "ar_simple": "مِنَ الْجِنَّةِ وَالنَّاسِ",
     "transliteration": "",
     "t": {
       "sahih-int": "From among the jinn and mankind",
@@ -415,6 +425,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

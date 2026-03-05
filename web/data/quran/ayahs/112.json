@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
-    "ar_simple": "قل هو ٱلله أحد",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ قُلْ هُوَ اللَّهُ أَحَدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Say, \"He is Allah, [who is] One",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱللَّهُ ٱلصَّمَدُ",
-    "ar_simple": "ٱلله ٱلصمد",
+    "ar_simple": "اللَّهُ الصَّمَدُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Allah, the Eternal Refuge",
@@ -135,7 +137,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -149,7 +153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَمۡ یَلِدۡ وَلَمۡ یُولَدۡ",
-    "ar_simple": "لم یلد ولم یولد",
+    "ar_simple": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
     "transliteration": "",
     "t": {
       "sahih-int": "He neither begets nor is born",
@@ -204,7 +208,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 4,
@@ -218,7 +224,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَمۡ یَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
-    "ar_simple": "ولم یكن له كفوا أحد",
+    "ar_simple": "وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Nor is there to Him any equivalent",
@@ -273,6 +279,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

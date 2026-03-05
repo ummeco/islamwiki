@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلۡمُزَّمِّلُ",
-    "ar_simple": "یأیها ٱلمزمل",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ يَا أَيُّهَا الْمُزَّمِّلُ",
     "transliteration": "",
     "t": {
       "sahih-int": "O you who wraps himself [in clothing]",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُمِ ٱلَّیۡلَ إِلَّا قَلِیلࣰا",
-    "ar_simple": "قم ٱلیل إلا قلیلا",
+    "ar_simple": "قُمِ اللَّيْلَ إِلَّا قَلِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Arise [to pray] the night, except for a little",
@@ -134,7 +136,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 3,
@@ -148,7 +152,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "نِّصۡفَهُۥۤ أَوِ ٱنقُصۡ مِنۡهُ قَلِیلًا",
-    "ar_simple": "نصفه أو ٱنقص منه قلیلا",
+    "ar_simple": "نِصْفَهُ أَوِ انْقُصْ مِنْهُ قَلِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Half of it - or subtract from it a little",
@@ -202,7 +206,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 4,
@@ -216,7 +222,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوۡ زِدۡ عَلَیۡهِ وَرَتِّلِ ٱلۡقُرۡءَانَ تَرۡتِیلًا",
-    "ar_simple": "أو زد علیه ورتل ٱلقرءان ترتیلا",
+    "ar_simple": "أَوْ زِدْ عَلَيْهِ وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Or add to it, and recite the Qur'an with measured recitation",
@@ -272,7 +278,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 5,
@@ -286,7 +294,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّا سَنُلۡقِی عَلَیۡكَ قَوۡلࣰا ثَقِیلًا",
-    "ar_simple": "إنا سنلقی علیك قولا ثقیلا",
+    "ar_simple": "إِنَّا سَنُلْقِي عَلَيْكَ قَوْلًا ثَقِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We will cast upon you a heavy word",
@@ -341,7 +349,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 6,
@@ -355,7 +365,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ نَاشِئَةَ ٱلَّیۡلِ هِیَ أَشَدُّ وَطۡءࣰا وَأَقۡوَمُ قِیلًا",
-    "ar_simple": "إن ناشئة ٱلیل هی أشد وطءا وأقوم قیلا",
+    "ar_simple": "إِنَّ نَاشِئَةَ اللَّيْلِ هِيَ أَشَدُّ وَطْئًا وَأَقْوَمُ قِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, the hours of the night are more effective for concurrence [of heart and tongue] and more suitable for words",
@@ -410,7 +420,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 7,
@@ -424,7 +436,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ لَكَ فِی ٱلنَّهَارِ سَبۡحࣰا طَوِیلࣰا",
-    "ar_simple": "إن لك فی ٱلنهار سبحا طویلا",
+    "ar_simple": "إِنَّ لَكَ فِي النَّهَارِ سَبْحًا طَوِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, for you by day is prolonged occupation",
@@ -479,7 +491,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 8,
@@ -493,7 +507,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱذۡكُرِ ٱسۡمَ رَبِّكَ وَتَبَتَّلۡ إِلَیۡهِ تَبۡتِیلࣰا",
-    "ar_simple": "وٱذكر ٱسم ربك وتبتل إلیه تبتیلا",
+    "ar_simple": "وَاذْكُرِ اسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And remember the name of your Lord and devote yourself to Him with [complete] devotion",
@@ -548,7 +562,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 9,
@@ -562,7 +578,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "رَّبُّ ٱلۡمَشۡرِقِ وَٱلۡمَغۡرِبِ لَاۤ إِلَـٰهَ إِلَّا هُوَ فَٱتَّخِذۡهُ وَكِیلࣰا",
-    "ar_simple": "رب ٱلمشرق وٱلمغرب لا إله إلا هو فٱتخذه وكیلا",
+    "ar_simple": "رَبُّ الْمَشْرِقِ وَالْمَغْرِبِ لَا إِلَٰهَ إِلَّا هُوَ فَاتَّخِذْهُ وَكِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "[He is] the Lord of the East and the West; there is no deity except Him, so take Him as Disposer of [your] affairs",
@@ -616,7 +632,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 10,
@@ -630,7 +648,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱصۡبِرۡ عَلَىٰ مَا یَقُولُونَ وَٱهۡجُرۡهُمۡ هَجۡرࣰا جَمِیلࣰا",
-    "ar_simple": "وٱصبر على ما یقولون وٱهجرهم هجرا جمیلا",
+    "ar_simple": "وَاصْبِرْ عَلَىٰ مَا يَقُولُونَ وَاهْجُرْهُمْ هَجْرًا جَمِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And be patient over what they say and avoid them with gracious avoidance",
@@ -685,7 +703,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 11,
@@ -699,7 +719,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَذَرۡنِی وَٱلۡمُكَذِّبِینَ أُو۟لِی ٱلنَّعۡمَةِ وَمَهِّلۡهُمۡ قَلِیلًا",
-    "ar_simple": "وذرنی وٱلمكذبین أولی ٱلنعمة ومهلهم قلیلا",
+    "ar_simple": "وَذَرْنِي وَالْمُكَذِّبِينَ أُولِي النَّعْمَةِ وَمَهِّلْهُمْ قَلِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And leave Me with [the matter of] the deniers, those of ease [in life], and allow them respite a little",
@@ -745,7 +765,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 12,
@@ -759,7 +781,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ لَدَیۡنَاۤ أَنكَالࣰا وَجَحِیمࣰا",
-    "ar_simple": "إن لدینا أنكالا وجحیما",
+    "ar_simple": "إِنَّ لَدَيْنَا أَنْكَالًا وَجَحِيمًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, with Us [for them] are shackles and burning fire",
@@ -805,7 +827,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 13,
@@ -819,7 +843,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَطَعَامࣰا ذَا غُصَّةࣲ وَعَذَابًا أَلِیمࣰا",
-    "ar_simple": "وطعاما ذا غصة وعذابا ألیما",
+    "ar_simple": "وَطَعَامًا ذَا غُصَّةٍ وَعَذَابًا أَلِيمًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And food that chokes and a painful punishment",
@@ -867,7 +891,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 14,
@@ -881,7 +907,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَوۡمَ تَرۡجُفُ ٱلۡأَرۡضُ وَٱلۡجِبَالُ وَكَانَتِ ٱلۡجِبَالُ كَثِیبࣰا مَّهِیلًا",
-    "ar_simple": "یوم ترجف ٱلأرض وٱلجبال وكانت ٱلجبال كثیبا مهیلا",
+    "ar_simple": "يَوْمَ تَرْجُفُ الْأَرْضُ وَالْجِبَالُ وَكَانَتِ الْجِبَالُ كَثِيبًا مَهِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "On the Day the earth and the mountains will convulse and the mountains will become a heap of sand pouring down",
@@ -927,7 +953,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 15,
@@ -941,7 +969,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّاۤ أَرۡسَلۡنَاۤ إِلَیۡكُمۡ رَسُولࣰا شَـٰهِدًا عَلَیۡكُمۡ كَمَاۤ أَرۡسَلۡنَاۤ إِلَىٰ فِرۡعَوۡنَ رَسُولࣰا",
-    "ar_simple": "إنا أرسلنا إلیكم رسولا شهدا علیكم كما أرسلنا إلى فرعون رسولا",
+    "ar_simple": "إِنَّا أَرْسَلْنَا إِلَيْكُمْ رَسُولًا شَاهِدًا عَلَيْكُمْ كَمَا أَرْسَلْنَا إِلَىٰ فِرْعَوْنَ رَسُولًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We have sent to you a Messenger as a witness upon you just as We sent to Pharaoh a messenger",
@@ -989,7 +1017,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 16,
@@ -1003,7 +1033,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَعَصَىٰ فِرۡعَوۡنُ ٱلرَّسُولَ فَأَخَذۡنَـٰهُ أَخۡذࣰا وَبِیلࣰا",
-    "ar_simple": "فعصى فرعون ٱلرسول فأخذنه أخذا وبیلا",
+    "ar_simple": "فَعَصَىٰ فِرْعَوْنُ الرَّسُولَ فَأَخَذْنَاهُ أَخْذًا وَبِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "But Pharaoh disobeyed the messenger, so We seized him with a ruinous seizure",
@@ -1050,7 +1080,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 17,
@@ -1064,7 +1096,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَكَیۡفَ تَتَّقُونَ إِن كَفَرۡتُمۡ یَوۡمࣰا یَجۡعَلُ ٱلۡوِلۡدَ ٰنَ شِیبًا",
-    "ar_simple": "فكیف تتقون إن كفرتم یوما یجعل ٱلولد ن شیبا",
+    "ar_simple": "فَكَيْفَ تَتَّقُونَ إِنْ كَفَرْتُمْ يَوْمًا يَجْعَلُ الْوِلْدَانَ شِيبًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Then how can you fear, if you disbelieve, a Day that will make the children white- haired",
@@ -1112,7 +1144,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 18,
@@ -1126,7 +1160,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلسَّمَاۤءُ مُنفَطِرُۢ بِهِۦۚ كَانَ وَعۡدُهُۥ مَفۡعُولًا",
-    "ar_simple": "ٱلسماء منفطر به كان وعده مفعولا",
+    "ar_simple": "السَّمَاءُ مُنْفَطِرٌ بِهِ ۚ كَانَ وَعْدُهُ مَفْعُولًا",
     "transliteration": "",
     "t": {
       "sahih-int": "The heaven will break apart therefrom; ever is His promise fulfilled",
@@ -1171,7 +1205,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 19,
@@ -1185,7 +1221,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ هَـٰذِهِۦ تَذۡكِرَةࣱۖ فَمَن شَاۤءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ سَبِیلًا",
-    "ar_simple": "إن هذه تذكرة فمن شاء ٱتخذ إلى ربه سبیلا",
+    "ar_simple": "إِنَّ هَٰذِهِ تَذْكِرَةٌ ۖ فَمَنْ شَاءَ اتَّخَذَ إِلَىٰ رَبِّهِ سَبِيلًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, this is a reminder, so whoever wills may take to his Lord a way",
@@ -1230,7 +1266,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 229
   },
   {
     "n": 20,
@@ -1244,7 +1282,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ إِنَّ رَبَّكَ یَعۡلَمُ أَنَّكَ تَقُومُ أَدۡنَىٰ مِن ثُلُثَیِ ٱلَّیۡلِ وَنِصۡفَهُۥ وَثُلُثَهُۥ وَطَاۤئِفَةࣱ مِّنَ ٱلَّذِینَ مَعَكَۚ وَٱللَّهُ یُقَدِّرُ ٱلَّیۡلَ وَٱلنَّهَارَۚ عَلِمَ أَن لَّن تُحۡصُوهُ فَتَابَ عَلَیۡكُمۡۖ فَٱقۡرَءُوا۟ مَا تَیَسَّرَ مِنَ ٱلۡقُرۡءَانِۚ عَلِمَ أَن سَیَكُونُ مِنكُم مَّرۡضَىٰ وَءَاخَرُونَ یَضۡرِبُونَ فِی ٱلۡأَرۡضِ یَبۡتَغُونَ مِن فَضۡلِ ٱللَّهِ وَءَاخَرُونَ یُقَـٰتِلُونَ فِی سَبِیلِ ٱللَّهِۖ فَٱقۡرَءُوا۟ مَا تَیَسَّرَ مِنۡهُۚ وَأَقِیمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقۡرِضُوا۟ ٱللَّهَ قَرۡضًا حَسَنࣰاۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنۡ خَیۡرࣲ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَیۡرࣰا وَأَعۡظَمَ أَجۡرࣰاۚ وَٱسۡتَغۡفِرُوا۟ ٱللَّهَۖ إِنَّ ٱللَّهَ غَفُورࣱ رَّحِیمُۢ",
-    "ar_simple": "إن ربك یعلم أنك تقوم أدنى من ثلثی ٱلیل ونصفه وثلثه وطائفة من ٱلذین معك وٱلله یقدر ٱلیل وٱلنهار علم أن لن تحصوه فتاب علیكم فٱقرءوا ما تیسر من ٱلقرءان علم أن سیكون منكم مرضى وءاخرون یضربون فی ٱلأرض یبتغون من فضل ٱلله وءاخرون یقتلون فی سبیل ٱلله فٱقرءوا ما تیسر منه وأقیموا ٱلصلوة وءاتوا ٱلزكوة وأقرضوا ٱلله قرضا حسنا وما تقدموا لأنفسكم من خیر تجدوه عند ٱلله هو خیرا وأعظم أجرا وٱستغفروا ٱلله إن ٱلله غفور رحیم",
+    "ar_simple": "۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِنْ ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِنَ الَّذِينَ مَعَكَ ۚ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ ۚ عَلِمَ أَنْ لَنْ تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْآنِ ۚ عَلِمَ أَنْ سَيَكُونُ مِنْكُمْ مَرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِي الْأَرْضِ يَبْتَغُونَ مِنْ فَضْلِ اللَّهِ ۙ وَآخَرُونَ يُقَاتِلُونَ فِي سَبِيلِ اللَّهِ ۖ فَاقْرَءُوا مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَأَقْرِضُوا اللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا لِأَنْفُسِكُمْ مِنْ خَيْرٍ تَجِدُوهُ عِنْدَ اللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَاسْتَغْفِرُوا اللَّهَ ۖ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, your Lord knows, [O Muhammad], that you stand [in prayer] almost two thirds of the night or half of it or a third of it, and [so do] a group of those with you. And Allah determines [the extent of] the night and the day. He has known that you [Muslims] will not be able to do it and has turned to you in forgiveness, so recite what is easy [for you] of the Qur'an. He has known that there will be among you those who are ill and others traveling throughout the land seeking [something] of the bounty of Allah and others fighting for the cause of Allah. So recite what is easy from it and establish prayer and give zakah and loan Allah a goodly loan. And whatever good you put forward for yourselves - you will find it with Allah. It is better and greater in reward. And seek forgiveness of Allah. Indeed, Allah is Forgiving and Merciful",
@@ -1295,6 +1333,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 230
   }
 ]

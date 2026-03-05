@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِذَا جَاۤءَكَ ٱلۡمُنَـٰفِقُونَ قَالُوا۟ نَشۡهَدُ إِنَّكَ لَرَسُولُ ٱللَّهِۗ وَٱللَّهُ یَعۡلَمُ إِنَّكَ لَرَسُولُهُۥ وَٱللَّهُ یَشۡهَدُ إِنَّ ٱلۡمُنَـٰفِقِینَ لَكَـٰذِبُونَ",
-    "ar_simple": "إذا جاءك ٱلمنفقون قالوا نشهد إنك لرسول ٱلله وٱلله یعلم إنك لرسوله وٱلله یشهد إن ٱلمنفقین لكذبون",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِذَا جَاءَكَ الْمُنَافِقُونَ قَالُوا نَشْهَدُ إِنَّكَ لَرَسُولُ اللَّهِ ۗ وَاللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُ وَاللَّهُ يَشْهَدُ إِنَّ الْمُنَافِقِينَ لَكَاذِبُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "When the hypocrites come to you, [O Muhammad], they say, \"We testify that you are the Messenger of Allah.\" And Allah knows that you are His Messenger, and Allah testifies that the hypocrites are liars",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 221
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱتَّخَذُوۤا۟ أَیۡمَـٰنَهُمۡ جُنَّةࣰ فَصَدُّوا۟ عَن سَبِیلِ ٱللَّهِۚ إِنَّهُمۡ سَاۤءَ مَا كَانُوا۟ یَعۡمَلُونَ",
-    "ar_simple": "ٱتخذوا أیمنهم جنة فصدوا عن سبیل ٱلله إنهم ساء ما كانوا یعملون",
+    "ar_simple": "اتَّخَذُوا أَيْمَانَهُمْ جُنَّةً فَصَدُّوا عَنْ سَبِيلِ اللَّهِ ۚ إِنَّهُمْ سَاءَ مَا كَانُوا يَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They have taken their oaths as a cover, so they averted [people] from the way of Allah. Indeed, it was evil that they were doing",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 221
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ذَ ٰلِكَ بِأَنَّهُمۡ ءَامَنُوا۟ ثُمَّ كَفَرُوا۟ فَطُبِعَ عَلَىٰ قُلُوبِهِمۡ فَهُمۡ لَا یَفۡقَهُونَ",
-    "ar_simple": "ذ لك بأنهم ءامنوا ثم كفروا فطبع على قلوبهم فهم لا یفقهون",
+    "ar_simple": "ذَٰلِكَ بِأَنَّهُمْ آمَنُوا ثُمَّ كَفَرُوا فَطُبِعَ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "That is because they believed, and then they disbelieved; so their hearts were sealed over, and they do not understand",
@@ -207,7 +211,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 221
   },
   {
     "n": 4,
@@ -221,7 +227,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ وَإِذَا رَأَیۡتَهُمۡ تُعۡجِبُكَ أَجۡسَامُهُمۡۖ وَإِن یَقُولُوا۟ تَسۡمَعۡ لِقَوۡلِهِمۡۖ كَأَنَّهُمۡ خُشُبࣱ مُّسَنَّدَةࣱۖ یَحۡسَبُونَ كُلَّ صَیۡحَةٍ عَلَیۡهِمۡۚ هُمُ ٱلۡعَدُوُّ فَٱحۡذَرۡهُمۡۚ قَـٰتَلَهُمُ ٱللَّهُۖ أَنَّىٰ یُؤۡفَكُونَ",
-    "ar_simple": "وإذا رأیتهم تعجبك أجسامهم وإن یقولوا تسمع لقولهم كأنهم خشب مسندة یحسبون كل صیحة علیهم هم ٱلعدو فٱحذرهم قتلهم ٱلله أنى یؤفكون",
+    "ar_simple": "۞ وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِنْ يَقُولُوا تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ مُسَنَّدَةٌ ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ الْعَدُوُّ فَاحْذَرْهُمْ ۚ قَاتَلَهُمُ اللَّهُ ۖ أَنَّىٰ يُؤْفَكُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when you see them, their forms please you, and if they speak, you listen to their speech. [They are] as if they were pieces of wood propped up - they think that every shout is against them. They are the enemy, so beware of them. May Allah destroy them; how are they deluded",
@@ -278,7 +284,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   },
   {
     "n": 5,
@@ -292,7 +300,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَإِذَا قِیلَ لَهُمۡ تَعَالَوۡا۟ یَسۡتَغۡفِرۡ لَكُمۡ رَسُولُ ٱللَّهِ لَوَّوۡا۟ رُءُوسَهُمۡ وَرَأَیۡتَهُمۡ یَصُدُّونَ وَهُم مُّسۡتَكۡبِرُونَ",
-    "ar_simple": "وإذا قیل لهم تعالوا یستغفر لكم رسول ٱلله لووا رءوسهم ورأیتهم یصدون وهم مستكبرون",
+    "ar_simple": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا يَسْتَغْفِرْ لَكُمْ رَسُولُ اللَّهِ لَوَّوْا رُءُوسَهُمْ وَرَأَيْتَهُمْ يَصُدُّونَ وَهُمْ مُسْتَكْبِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And when it is said to them, \"Come, the Messenger of Allah will ask forgiveness for you,\" they turn their heads aside and you see them evading while they are arrogant",
@@ -350,7 +358,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   },
   {
     "n": 6,
@@ -364,7 +374,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَوَاۤءٌ عَلَیۡهِمۡ أَسۡتَغۡفَرۡتَ لَهُمۡ أَمۡ لَمۡ تَسۡتَغۡفِرۡ لَهُمۡ لَن یَغۡفِرَ ٱللَّهُ لَهُمۡۚ إِنَّ ٱللَّهَ لَا یَهۡدِی ٱلۡقَوۡمَ ٱلۡفَـٰسِقِینَ",
-    "ar_simple": "سواء علیهم أستغفرت لهم أم لم تستغفر لهم لن یغفر ٱلله لهم إن ٱلله لا یهدی ٱلقوم ٱلفسقین",
+    "ar_simple": "سَوَاءٌ عَلَيْهِمْ أَسْتَغْفَرْتَ لَهُمْ أَمْ لَمْ تَسْتَغْفِرْ لَهُمْ لَنْ يَغْفِرَ اللَّهُ لَهُمْ ۚ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الْفَاسِقِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "It is all the same for them whether you ask forgiveness for them or do not ask forgiveness for them; never will Allah forgive them. Indeed, Allah does not guide the defiantly disobedient people",
@@ -422,7 +432,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   },
   {
     "n": 7,
@@ -436,7 +448,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هُمُ ٱلَّذِینَ یَقُولُونَ لَا تُنفِقُوا۟ عَلَىٰ مَنۡ عِندَ رَسُولِ ٱللَّهِ حَتَّىٰ یَنفَضُّوا۟ۗ وَلِلَّهِ خَزَاۤئِنُ ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِ وَلَـٰكِنَّ ٱلۡمُنَـٰفِقِینَ لَا یَفۡقَهُونَ",
-    "ar_simple": "هم ٱلذین یقولون لا تنفقوا على من عند رسول ٱلله حتى ینفضوا ولله خزائن ٱلسمو ت وٱلأرض ولكن ٱلمنفقین لا یفقهون",
+    "ar_simple": "هُمُ الَّذِينَ يَقُولُونَ لَا تُنْفِقُوا عَلَىٰ مَنْ عِنْدَ رَسُولِ اللَّهِ حَتَّىٰ يَنْفَضُّوا ۗ وَلِلَّهِ خَزَائِنُ السَّمَاوَاتِ وَالْأَرْضِ وَلَٰكِنَّ الْمُنَافِقِينَ لَا يَفْقَهُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They are the ones who say, \"Do not spend on those who are with the Messenger of Allah until they disband.\" And to Allah belongs the depositories of the heavens and the earth, but the hypocrites do not understand",
@@ -493,7 +505,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   },
   {
     "n": 8,
@@ -507,7 +521,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَقُولُونَ لَئِن رَّجَعۡنَاۤ إِلَى ٱلۡمَدِینَةِ لَیُخۡرِجَنَّ ٱلۡأَعَزُّ مِنۡهَا ٱلۡأَذَلَّۚ وَلِلَّهِ ٱلۡعِزَّةُ وَلِرَسُولِهِۦ وَلِلۡمُؤۡمِنِینَ وَلَـٰكِنَّ ٱلۡمُنَـٰفِقِینَ لَا یَعۡلَمُونَ",
-    "ar_simple": "یقولون لئن رجعنا إلى ٱلمدینة لیخرجن ٱلأعز منها ٱلأذل ولله ٱلعزة ولرسوله وللمؤمنین ولكن ٱلمنفقین لا یعلمون",
+    "ar_simple": "يَقُولُونَ لَئِنْ رَجَعْنَا إِلَى الْمَدِينَةِ لَيُخْرِجَنَّ الْأَعَزُّ مِنْهَا الْأَذَلَّ ۚ وَلِلَّهِ الْعِزَّةُ وَلِرَسُولِهِ وَلِلْمُؤْمِنِينَ وَلَٰكِنَّ الْمُنَافِقِينَ لَا يَعْلَمُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "They say, \"If we return to al-Madinah, the more honored [for power] will surely expel therefrom the more humble.\" And to Allah belongs [all] honor, and to His Messenger, and to the believers, but the hypocrites do not know",
@@ -565,7 +579,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   },
   {
     "n": 9,
@@ -579,7 +595,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تُلۡهِكُمۡ أَمۡوَ ٰلُكُمۡ وَلَاۤ أَوۡلَـٰدُكُمۡ عَن ذِكۡرِ ٱللَّهِۚ وَمَن یَفۡعَلۡ ذَ ٰلِكَ فَأُو۟لَـٰۤئِكَ هُمُ ٱلۡخَـٰسِرُونَ",
-    "ar_simple": "یأیها ٱلذین ءامنوا لا تلهكم أمو لكم ولا أولدكم عن ذكر ٱلله ومن یفعل ذ لك فأولئك هم ٱلخسرون",
+    "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُلْهِكُمْ أَمْوَالُكُمْ وَلَا أَوْلَادُكُمْ عَنْ ذِكْرِ اللَّهِ ۚ وَمَنْ يَفْعَلْ ذَٰلِكَ فَأُولَٰئِكَ هُمُ الْخَاسِرُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "O you who have believed, let not your wealth and your children divert you from remembrance of Allah. And whoever does that - then those are the losers",
@@ -639,7 +655,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   },
   {
     "n": 10,
@@ -653,7 +671,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَنفِقُوا۟ مِن مَّا رَزَقۡنَـٰكُم مِّن قَبۡلِ أَن یَأۡتِیَ أَحَدَكُمُ ٱلۡمَوۡتُ فَیَقُولَ رَبِّ لَوۡلَاۤ أَخَّرۡتَنِیۤ إِلَىٰۤ أَجَلࣲ قَرِیبࣲ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّـٰلِحِینَ",
-    "ar_simple": "وأنفقوا من ما رزقنكم من قبل أن یأتی أحدكم ٱلموت فیقول رب لولا أخرتنی إلى أجل قریب فأصدق وأكن من ٱلصلحین",
+    "ar_simple": "وَأَنْفِقُوا مِنْ مَا رَزَقْنَاكُمْ مِنْ قَبْلِ أَنْ يَأْتِيَ أَحَدَكُمُ الْمَوْتُ فَيَقُولَ رَبِّ لَوْلَا أَخَّرْتَنِي إِلَىٰ أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُنْ مِنَ الصَّالِحِينَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And spend [in the way of Allah] from what We have provided you before death approaches one of you and he says, \"My Lord, if only You would delay me for a brief term so I would give charity and be among the righteous",
@@ -713,7 +731,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   },
   {
     "n": 11,
@@ -727,7 +747,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَن یُؤَخِّرَ ٱللَّهُ نَفۡسًا إِذَا جَاۤءَ أَجَلُهَاۚ وَٱللَّهُ خَبِیرُۢ بِمَا تَعۡمَلُونَ",
-    "ar_simple": "ولن یؤخر ٱلله نفسا إذا جاء أجلها وٱلله خبیر بما تعملون",
+    "ar_simple": "وَلَنْ يُؤَخِّرَ اللَّهُ نَفْسًا إِذَا جَاءَ أَجَلُهَا ۚ وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But never will Allah delay a soul when its time has come. And Allah is Acquainted with what you do",
@@ -773,6 +793,8 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 222
   }
 ]

@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّاۤ أَنزَلۡنَـٰهُ فِی لَیۡلَةِ ٱلۡقَدۡرِ",
-    "ar_simple": "إنا أنزلنه فی لیلة ٱلقدر",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِنَّا أَنْزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, We sent the Qur'an down during the Night of Decree",
@@ -69,7 +69,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 2,
@@ -83,7 +85,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَاۤ أَدۡرَىٰكَ مَا لَیۡلَةُ ٱلۡقَدۡرِ",
-    "ar_simple": "وما أدرىك ما لیلة ٱلقدر",
+    "ar_simple": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And what can make you know what is the Night of Decree",
@@ -140,7 +142,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 3,
@@ -154,7 +158,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَیۡلَةُ ٱلۡقَدۡرِ خَیۡرࣱ مِّنۡ أَلۡفِ شَهۡرࣲ",
-    "ar_simple": "لیلة ٱلقدر خیر من ألف شهر",
+    "ar_simple": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِنْ أَلْفِ شَهْرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "The Night of Decree is better than a thousand months",
@@ -211,7 +215,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 4,
@@ -225,7 +231,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تَنَزَّلُ ٱلۡمَلَـٰۤئِكَةُ وَٱلرُّوحُ فِیهَا بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرࣲ",
-    "ar_simple": "تنزل ٱلملئكة وٱلروح فیها بإذن ربهم من كل أمر",
+    "ar_simple": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِمْ مِنْ كُلِّ أَمْرٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "The angels and the Spirit descend therein by permission of their Lord for every matter",
@@ -282,7 +288,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   },
   {
     "n": 5,
@@ -296,7 +304,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "سَلَـٰمٌ هِیَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ",
-    "ar_simple": "سلم هی حتى مطلع ٱلفجر",
+    "ar_simple": "سَلَامٌ هِيَ حَتَّىٰ مَطْلَعِ الْفَجْرِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Peace it is until the emergence of dawn",
@@ -351,6 +359,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 239
   }
 ]

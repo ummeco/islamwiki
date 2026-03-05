@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِذَا جَاۤءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ",
-    "ar_simple": "إذا جاء نصر ٱلله وٱلفتح",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
     "transliteration": "",
     "t": {
       "sahih-int": "When the victory of Allah has come and the conquest",
@@ -66,7 +66,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 2,
@@ -80,7 +82,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَرَأَیۡتَ ٱلنَّاسَ یَدۡخُلُونَ فِی دِینِ ٱللَّهِ أَفۡوَاجࣰا",
-    "ar_simple": "ورأیت ٱلناس یدخلون فی دین ٱلله أفواجا",
+    "ar_simple": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
     "transliteration": "",
     "t": {
       "sahih-int": "And you see the people entering into the religion of Allah in multitudes",
@@ -135,7 +137,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   },
   {
     "n": 3,
@@ -149,7 +153,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا",
-    "ar_simple": "فسبح بحمد ربك وٱستغفره إنه كان توابا",
+    "ar_simple": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
     "transliteration": "",
     "t": {
       "sahih-int": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance",
@@ -206,6 +210,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 240
   }
 ]

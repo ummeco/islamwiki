@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ لَاۤ أُقۡسِمُ بِهَـٰذَا ٱلۡبَلَدِ",
-    "ar_simple": "لا أقسم بهذا ٱلبلد",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ لَا أُقْسِمُ بِهَٰذَا الْبَلَدِ",
     "transliteration": "",
     "t": {
       "sahih-int": "I swear by this city, Makkah",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَأَنتَ حِلُّۢ بِهَـٰذَا ٱلۡبَلَدِ",
-    "ar_simple": "وأنت حل بهذا ٱلبلد",
+    "ar_simple": "وَأَنْتَ حِلٌّ بِهَٰذَا الْبَلَدِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And you, [O Muhammad], are free of restriction in this city",
@@ -139,7 +141,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 3,
@@ -153,7 +157,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَوَالِدࣲ وَمَا وَلَدَ",
-    "ar_simple": "ووالد وما ولد",
+    "ar_simple": "وَوَالِدٍ وَمَا وَلَدَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] the father and that which was born [of him]",
@@ -209,7 +213,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 4,
@@ -223,7 +229,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَـٰنَ فِی كَبَدٍ",
-    "ar_simple": "لقد خلقنا ٱلإنسن فی كبد",
+    "ar_simple": "لَقَدْ خَلَقْنَا الْإِنْسَانَ فِي كَبَدٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "We have certainly created man into hardship",
@@ -279,7 +285,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 5,
@@ -293,7 +301,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَیَحۡسَبُ أَن لَّن یَقۡدِرَ عَلَیۡهِ أَحَدࣱ",
-    "ar_simple": "أیحسب أن لن یقدر علیه أحد",
+    "ar_simple": "أَيَحْسَبُ أَنْ لَنْ يَقْدِرَ عَلَيْهِ أَحَدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Does he think that never will anyone overcome him",
@@ -348,7 +356,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 6,
@@ -362,7 +372,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَقُولُ أَهۡلَكۡتُ مَالࣰا لُّبَدًا",
-    "ar_simple": "یقول أهلكت مالا لبدا",
+    "ar_simple": "يَقُولُ أَهْلَكْتُ مَالًا لُبَدًا",
     "transliteration": "",
     "t": {
       "sahih-int": "He says, \"I have spent wealth in abundance",
@@ -419,7 +429,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 7,
@@ -433,7 +445,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَیَحۡسَبُ أَن لَّمۡ یَرَهُۥۤ أَحَدٌ",
-    "ar_simple": "أیحسب أن لم یره أحد",
+    "ar_simple": "أَيَحْسَبُ أَنْ لَمْ يَرَهُ أَحَدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Does he think that no one has seen him",
@@ -488,7 +500,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 8,
@@ -502,7 +516,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ نَجۡعَل لَّهُۥ عَیۡنَیۡنِ",
-    "ar_simple": "ألم نجعل له عینین",
+    "ar_simple": "أَلَمْ نَجْعَلْ لَهُ عَيْنَيْنِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Have We not made for him two eyes",
@@ -557,7 +571,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 9,
@@ -571,7 +587,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلِسَانࣰا وَشَفَتَیۡنِ",
-    "ar_simple": "ولسانا وشفتین",
+    "ar_simple": "وَلِسَانًا وَشَفَتَيْنِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And a tongue and two lips",
@@ -625,7 +641,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 10,
@@ -639,7 +657,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَهَدَیۡنَـٰهُ ٱلنَّجۡدَیۡنِ",
-    "ar_simple": "وهدینه ٱلنجدین",
+    "ar_simple": "وَهَدَيْنَاهُ النَّجْدَيْنِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And have shown him the two ways",
@@ -693,7 +711,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 11,
@@ -707,7 +727,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَا ٱقۡتَحَمَ ٱلۡعَقَبَةَ",
-    "ar_simple": "فلا ٱقتحم ٱلعقبة",
+    "ar_simple": "فَلَا اقْتَحَمَ الْعَقَبَةَ",
     "transliteration": "",
     "t": {
       "sahih-int": "But he has not broken through the difficult pass",
@@ -753,7 +773,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 12,
@@ -767,7 +789,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَاۤ أَدۡرَىٰكَ مَا ٱلۡعَقَبَةُ",
-    "ar_simple": "وما أدرىك ما ٱلعقبة",
+    "ar_simple": "وَمَا أَدْرَاكَ مَا الْعَقَبَةُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And what can make you know what is [breaking through] the difficult pass",
@@ -813,7 +835,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 13,
@@ -827,7 +851,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَكُّ رَقَبَةٍ",
-    "ar_simple": "فك رقبة",
+    "ar_simple": "فَكُّ رَقَبَةٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "It is the freeing of a slave",
@@ -873,7 +897,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 14,
@@ -887,7 +913,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوۡ إِطۡعَـٰمࣱ فِی یَوۡمࣲ ذِی مَسۡغَبَةࣲ",
-    "ar_simple": "أو إطعم فی یوم ذی مسغبة",
+    "ar_simple": "أَوْ إِطْعَامٌ فِي يَوْمٍ ذِي مَسْغَبَةٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Or feeding on a day of severe hunger",
@@ -933,7 +959,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 15,
@@ -947,7 +975,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَتِیمࣰا ذَا مَقۡرَبَةٍ",
-    "ar_simple": "یتیما ذا مقربة",
+    "ar_simple": "يَتِيمًا ذَا مَقْرَبَةٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "An orphan of near relationship",
@@ -994,7 +1022,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 16,
@@ -1008,7 +1038,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوۡ مِسۡكِینࣰا ذَا مَتۡرَبَةࣲ",
-    "ar_simple": "أو مسكینا ذا متربة",
+    "ar_simple": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "Or a needy person in misery",
@@ -1053,7 +1083,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 17,
@@ -1067,7 +1099,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ كَانَ مِنَ ٱلَّذِینَ ءَامَنُوا۟ وَتَوَاصَوۡا۟ بِٱلصَّبۡرِ وَتَوَاصَوۡا۟ بِٱلۡمَرۡحَمَةِ",
-    "ar_simple": "ثم كان من ٱلذین ءامنوا وتواصوا بٱلصبر وتواصوا بٱلمرحمة",
+    "ar_simple": "ثُمَّ كَانَ مِنَ الَّذِينَ آمَنُوا وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And then being among those who believed and advised one another to patience and advised one another to compassion",
@@ -1114,7 +1146,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 18,
@@ -1128,7 +1162,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أُو۟لَـٰۤئِكَ أَصۡحَـٰبُ ٱلۡمَیۡمَنَةِ",
-    "ar_simple": "أولئك أصحب ٱلمیمنة",
+    "ar_simple": "أُولَٰئِكَ أَصْحَابُ الْمَيْمَنَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Those are the companions of the right",
@@ -1175,7 +1209,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 19,
@@ -1189,7 +1225,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلَّذِینَ كَفَرُوا۟ بِءَایَـٰتِنَا هُمۡ أَصۡحَـٰبُ ٱلۡمَشۡءَمَةِ",
-    "ar_simple": "وٱلذین كفروا بءایتنا هم أصحب ٱلمشءمة",
+    "ar_simple": "وَالَّذِينَ كَفَرُوا بِآيَاتِنَا هُمْ أَصْحَابُ الْمَشْأَمَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "But they who disbelieved in Our signs - those are the companions of the left",
@@ -1237,7 +1273,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   },
   {
     "n": 20,
@@ -1251,7 +1289,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "عَلَیۡهِمۡ نَارࣱ مُّؤۡصَدَةُۢ",
-    "ar_simple": "علیهم نار مؤصدة",
+    "ar_simple": "عَلَيْهِمْ نَارٌ مُؤْصَدَةٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Over them will be fire closed in",
@@ -1296,6 +1334,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 238
   }
 ]

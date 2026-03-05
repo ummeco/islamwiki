@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "۞ لَاۤ أُقۡسِمُ بِیَوۡمِ ٱلۡقِیَـٰمَةِ",
-    "ar_simple": "لا أقسم بیوم ٱلقیمة",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "I swear by the Day of Resurrection",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَاۤ أُقۡسِمُ بِٱلنَّفۡسِ ٱللَّوَّامَةِ",
-    "ar_simple": "ولا أقسم بٱلنفس ٱللوامة",
+    "ar_simple": "وَلَا أُقْسِمُ بِالنَّفْسِ اللَّوَّامَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And I swear by the reproaching soul [to the certainty of resurrection]",
@@ -139,7 +141,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 3,
@@ -153,7 +157,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَیَحۡسَبُ ٱلۡإِنسَـٰنُ أَلَّن نَّجۡمَعَ عِظَامَهُۥ",
-    "ar_simple": "أیحسب ٱلإنسن ألن نجمع عظامه",
+    "ar_simple": "أَيَحْسَبُ الْإِنْسَانُ أَلَّنْ نَجْمَعَ عِظَامَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Does man think that We will not assemble his bones",
@@ -207,7 +211,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 4,
@@ -221,7 +227,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بَلَىٰ قَـٰدِرِینَ عَلَىٰۤ أَن نُّسَوِّیَ بَنَانَهُۥ",
-    "ar_simple": "بلى قدرین على أن نسوی بنانه",
+    "ar_simple": "بَلَىٰ قَادِرِينَ عَلَىٰ أَنْ نُسَوِّيَ بَنَانَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Yes. [We are] Able [even] to proportion his fingertips",
@@ -275,7 +281,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 5,
@@ -289,7 +297,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بَلۡ یُرِیدُ ٱلۡإِنسَـٰنُ لِیَفۡجُرَ أَمَامَهُۥ",
-    "ar_simple": "بل یرید ٱلإنسن لیفجر أمامه",
+    "ar_simple": "بَلْ يُرِيدُ الْإِنْسَانُ لِيَفْجُرَ أَمَامَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "But man desires to continue in sin",
@@ -346,7 +354,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 6,
@@ -360,7 +370,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَسۡءَلُ أَیَّانَ یَوۡمُ ٱلۡقِیَـٰمَةِ",
-    "ar_simple": "یسءل أیان یوم ٱلقیمة",
+    "ar_simple": "يَسْأَلُ أَيَّانَ يَوْمُ الْقِيَامَةِ",
     "transliteration": "",
     "t": {
       "sahih-int": "He asks, \"When is the Day of Resurrection",
@@ -416,7 +426,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 7,
@@ -430,7 +442,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَإِذَا بَرِقَ ٱلۡبَصَرُ",
-    "ar_simple": "فإذا برق ٱلبصر",
+    "ar_simple": "فَإِذَا بَرِقَ الْبَصَرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "So when vision is dazzled",
@@ -485,7 +497,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 8,
@@ -499,7 +513,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَخَسَفَ ٱلۡقَمَرُ",
-    "ar_simple": "وخسف ٱلقمر",
+    "ar_simple": "وَخَسَفَ الْقَمَرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the moon darkens",
@@ -553,7 +567,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 9,
@@ -567,7 +583,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَجُمِعَ ٱلشَّمۡسُ وَٱلۡقَمَرُ",
-    "ar_simple": "وجمع ٱلشمس وٱلقمر",
+    "ar_simple": "وَجُمِعَ الشَّمْسُ وَالْقَمَرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the sun and the moon are joined",
@@ -621,7 +637,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 10,
@@ -635,7 +653,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یَقُولُ ٱلۡإِنسَـٰنُ یَوۡمَئِذٍ أَیۡنَ ٱلۡمَفَرُّ",
-    "ar_simple": "یقول ٱلإنسن یومئذ أین ٱلمفر",
+    "ar_simple": "يَقُولُ الْإِنْسَانُ يَوْمَئِذٍ أَيْنَ الْمَفَرُّ",
     "transliteration": "",
     "t": {
       "sahih-int": "Man will say on that Day, \"Where is the [place of] escape",
@@ -689,7 +707,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 11,
@@ -703,7 +723,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّا لَا وَزَرَ",
-    "ar_simple": "كلا لا وزر",
+    "ar_simple": "كَلَّا لَا وَزَرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! There is no refuge",
@@ -749,7 +769,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 12,
@@ -763,7 +785,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَىٰ رَبِّكَ یَوۡمَئِذٍ ٱلۡمُسۡتَقَرُّ",
-    "ar_simple": "إلى ربك یومئذ ٱلمستقر",
+    "ar_simple": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمُسْتَقَرُّ",
     "transliteration": "",
     "t": {
       "sahih-int": "To your Lord, that Day, is the [place of] permanence",
@@ -809,7 +831,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 13,
@@ -823,7 +847,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "یُنَبَّؤُا۟ ٱلۡإِنسَـٰنُ یَوۡمَئِذِۭ بِمَا قَدَّمَ وَأَخَّرَ",
-    "ar_simple": "ینبؤا ٱلإنسن یومئذ بما قدم وأخر",
+    "ar_simple": "يُنَبَّأُ الْإِنْسَانُ يَوْمَئِذٍ بِمَا قَدَّمَ وَأَخَّرَ",
     "transliteration": "",
     "t": {
       "sahih-int": "Man will be informed that Day of what he sent ahead and kept back",
@@ -869,7 +893,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 14,
@@ -883,7 +909,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بَلِ ٱلۡإِنسَـٰنُ عَلَىٰ نَفۡسِهِۦ بَصِیرَةࣱ",
-    "ar_simple": "بل ٱلإنسن على نفسه بصیرة",
+    "ar_simple": "بَلِ الْإِنْسَانُ عَلَىٰ نَفْسِهِ بَصِيرَةٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Rather, man, against himself, will be a witness",
@@ -929,7 +955,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 15,
@@ -943,7 +971,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَوۡ أَلۡقَىٰ مَعَاذِیرَهُۥ",
-    "ar_simple": "ولو ألقى معاذیره",
+    "ar_simple": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Even if he presents his excuses",
@@ -988,7 +1016,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 16,
@@ -1002,7 +1032,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "لَا تُحَرِّكۡ بِهِۦ لِسَانَكَ لِتَعۡجَلَ بِهِۦۤ",
-    "ar_simple": "لا تحرك به لسانك لتعجل به",
+    "ar_simple": "لَا تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Move not your tongue with it, [O Muhammad], to hasten with recitation of the Qur'an",
@@ -1051,7 +1081,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 17,
@@ -1065,7 +1097,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ عَلَیۡنَا جَمۡعَهُۥ وَقُرۡءَانَهُۥ",
-    "ar_simple": "إن علینا جمعه وقرءانه",
+    "ar_simple": "إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, upon Us is its collection [in your heart] and [to make possible] its recitation",
@@ -1112,7 +1144,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 18,
@@ -1126,7 +1160,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَإِذَا قَرَأۡنَـٰهُ فَٱتَّبِعۡ قُرۡءَانَهُۥ",
-    "ar_simple": "فإذا قرأنه فٱتبع قرءانه",
+    "ar_simple": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "So when We have recited it [through Gabriel], then follow its recitation",
@@ -1174,7 +1208,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 19,
@@ -1188,7 +1224,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ إِنَّ عَلَیۡنَا بَیَانَهُۥ",
-    "ar_simple": "ثم إن علینا بیانه",
+    "ar_simple": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then upon Us is its clarification [to you]",
@@ -1233,7 +1269,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 20,
@@ -1247,7 +1285,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّا بَلۡ تُحِبُّونَ ٱلۡعَاجِلَةَ",
-    "ar_simple": "كلا بل تحبون ٱلعاجلة",
+    "ar_simple": "كَلَّا بَلْ تُحِبُّونَ الْعَاجِلَةَ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! But you love the immediate",
@@ -1293,7 +1331,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 21,
@@ -1307,7 +1347,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَتَذَرُونَ ٱلۡءَاخِرَةَ",
-    "ar_simple": "وتذرون ٱلءاخرة",
+    "ar_simple": "وَتَذَرُونَ الْآخِرَةَ",
     "transliteration": "",
     "t": {
       "sahih-int": "And leave the Hereafter",
@@ -1354,7 +1394,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 22,
@@ -1368,7 +1410,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وُجُوهࣱ یَوۡمَئِذࣲ نَّاضِرَةٌ",
-    "ar_simple": "وجوه یومئذ ناضرة",
+    "ar_simple": "وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Some] faces, that Day, will be radiant",
@@ -1413,7 +1455,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 23,
@@ -1427,7 +1471,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَىٰ رَبِّهَا نَاظِرَةࣱ",
-    "ar_simple": "إلى ربها ناظرة",
+    "ar_simple": "إِلَىٰ رَبِّهَا نَاظِرَةٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Looking at their Lord",
@@ -1472,7 +1516,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 24,
@@ -1486,7 +1532,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَوُجُوهࣱ یَوۡمَئِذِۭ بَاسِرَةࣱ",
-    "ar_simple": "ووجوه یومئذ باسرة",
+    "ar_simple": "وَوُجُوهٌ يَوْمَئِذٍ بَاسِرَةٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [some] faces, that Day, will be contorted",
@@ -1531,7 +1577,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 25,
@@ -1545,7 +1593,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "تَظُنُّ أَن یُفۡعَلَ بِهَا فَاقِرَةࣱ",
-    "ar_simple": "تظن أن یفعل بها فاقرة",
+    "ar_simple": "تَظُنُّ أَنْ يُفْعَلَ بِهَا فَاقِرَةٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Expecting that there will be done to them [something] backbreaking",
@@ -1590,7 +1638,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 26,
@@ -1604,7 +1654,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "كَلَّاۤ إِذَا بَلَغَتِ ٱلتَّرَاقِیَ",
-    "ar_simple": "كلا إذا بلغت ٱلتراقی",
+    "ar_simple": "كَلَّا إِذَا بَلَغَتِ التَّرَاقِيَ",
     "transliteration": "",
     "t": {
       "sahih-int": "No! When the soul has reached the collar bones",
@@ -1649,7 +1699,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 27,
@@ -1663,7 +1715,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَقِیلَ مَنۡۜ رَاقࣲ",
-    "ar_simple": "وقیل من راق",
+    "ar_simple": "وَقِيلَ مَنْ ۜ رَاقٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And it is said, \"Who will cure [him]",
@@ -1710,7 +1762,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 28,
@@ -1724,7 +1778,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَظَنَّ أَنَّهُ ٱلۡفِرَاقُ",
-    "ar_simple": "وظن أنه ٱلفراق",
+    "ar_simple": "وَظَنَّ أَنَّهُ الْفِرَاقُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the dying one is certain that it is the [time of] separation",
@@ -1771,7 +1825,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 29,
@@ -1785,7 +1841,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
-    "ar_simple": "وٱلتفت ٱلساق بٱلساق",
+    "ar_simple": "وَالْتَفَّتِ السَّاقُ بِالسَّاقِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the leg is wound about the leg",
@@ -1830,7 +1886,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 30,
@@ -1844,7 +1902,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِلَىٰ رَبِّكَ یَوۡمَئِذٍ ٱلۡمَسَاقُ",
-    "ar_simple": "إلى ربك یومئذ ٱلمساق",
+    "ar_simple": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ الْمَسَاقُ",
     "transliteration": "",
     "t": {
       "sahih-int": "To your Lord, that Day, will be the procession",
@@ -1889,7 +1947,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 31,
@@ -1903,7 +1963,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
-    "ar_simple": "فلا صدق ولا صلى",
+    "ar_simple": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And the disbeliever had not believed, nor had he prayed",
@@ -1950,7 +2010,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 32,
@@ -1964,7 +2026,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ",
-    "ar_simple": "ولكن كذب وتولى",
+    "ar_simple": "وَلَٰكِنْ كَذَّبَ وَتَوَلَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "But [instead], he denied and turned away",
@@ -2009,7 +2071,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 33,
@@ -2023,7 +2087,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ ذَهَبَ إِلَىٰۤ أَهۡلِهِۦ یَتَمَطَّىٰۤ",
-    "ar_simple": "ثم ذهب إلى أهله یتمطى",
+    "ar_simple": "ثُمَّ ذَهَبَ إِلَىٰ أَهْلِهِ يَتَمَطَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And then he went to his people, swaggering [in pride]",
@@ -2068,7 +2132,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 34,
@@ -2082,7 +2148,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَوۡلَىٰ لَكَ فَأَوۡلَىٰ",
-    "ar_simple": "أولى لك فأولى",
+    "ar_simple": "أَوْلَىٰ لَكَ فَأَوْلَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Woe to you, and woe",
@@ -2127,7 +2193,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 35,
@@ -2141,7 +2209,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ أَوۡلَىٰ لَكَ فَأَوۡلَىٰۤ",
-    "ar_simple": "ثم أولى لك فأولى",
+    "ar_simple": "ثُمَّ أَوْلَىٰ لَكَ فَأَوْلَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then woe to you, and woe",
@@ -2186,7 +2254,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 36,
@@ -2200,7 +2270,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَیَحۡسَبُ ٱلۡإِنسَـٰنُ أَن یُتۡرَكَ سُدًى",
-    "ar_simple": "أیحسب ٱلإنسن أن یترك سدى",
+    "ar_simple": "أَيَحْسَبُ الْإِنْسَانُ أَنْ يُتْرَكَ سُدًى",
     "transliteration": "",
     "t": {
       "sahih-int": "Does man think that he will be left neglected",
@@ -2245,7 +2315,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 37,
@@ -2259,7 +2331,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَمۡ یَكُ نُطۡفَةࣰ مِّن مَّنِیࣲّ یُمۡنَىٰ",
-    "ar_simple": "ألم یك نطفة من منی یمنى",
+    "ar_simple": "أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Had he not been a sperm from semen emitted",
@@ -2304,7 +2376,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 38,
@@ -2318,7 +2392,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ثُمَّ كَانَ عَلَقَةࣰ فَخَلَقَ فَسَوَّىٰ",
-    "ar_simple": "ثم كان علقة فخلق فسوى",
+    "ar_simple": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Then he was a clinging clot, and [Allah] created [his form] and proportioned [him]",
@@ -2365,7 +2439,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 39,
@@ -2379,7 +2455,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَجَعَلَ مِنۡهُ ٱلزَّوۡجَیۡنِ ٱلذَّكَرَ وَٱلۡأُنثَىٰۤ",
-    "ar_simple": "فجعل منه ٱلزوجین ٱلذكر وٱلأنثى",
+    "ar_simple": "فَجَعَلَ مِنْهُ الزَّوْجَيْنِ الذَّكَرَ وَالْأُنْثَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "And made of him two mates, the male and the female",
@@ -2424,7 +2500,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   },
   {
     "n": 40,
@@ -2438,7 +2516,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "أَلَیۡسَ ذَ ٰلِكَ بِقَـٰدِرٍ عَلَىٰۤ أَن یُحۡـِۧیَ ٱلۡمَوۡتَىٰ",
-    "ar_simple": "ألیس ذ لك بقدر على أن یحی ٱلموتى",
+    "ar_simple": "أَلَيْسَ ذَٰلِكَ بِقَادِرٍ عَلَىٰ أَنْ يُحْيِيَ الْمَوْتَىٰ",
     "transliteration": "",
     "t": {
       "sahih-int": "Is not that [Creator] Able to give life to the dead",
@@ -2485,6 +2563,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 231
   }
 ]

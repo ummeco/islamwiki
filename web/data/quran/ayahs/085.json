@@ -11,7 +11,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلسَّمَاۤءِ ذَاتِ ٱلۡبُرُوجِ",
-    "ar_simple": "وٱلسماء ذات ٱلبروج",
+    "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالسَّمَاءِ ذَاتِ الْبُرُوجِ",
     "transliteration": "",
     "t": {
       "sahih-int": "By the sky containing great stars",
@@ -68,7 +68,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 2,
@@ -82,7 +84,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱلۡیَوۡمِ ٱلۡمَوۡعُودِ",
-    "ar_simple": "وٱلیوم ٱلموعود",
+    "ar_simple": "وَالْيَوْمِ الْمَوْعُودِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] the promised Day",
@@ -137,7 +139,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 3,
@@ -151,7 +155,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَشَاهِدࣲ وَمَشۡهُودࣲ",
-    "ar_simple": "وشاهد ومشهود",
+    "ar_simple": "وَشَاهِدٍ وَمَشْهُودٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "And [by] the witness and what is witnessed",
@@ -205,7 +209,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 4,
@@ -219,7 +225,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "قُتِلَ أَصۡحَـٰبُ ٱلۡأُخۡدُودِ",
-    "ar_simple": "قتل أصحب ٱلأخدود",
+    "ar_simple": "قُتِلَ أَصْحَابُ الْأُخْدُودِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Cursed were the companions of the trench",
@@ -275,7 +281,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 5,
@@ -289,7 +297,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلنَّارِ ذَاتِ ٱلۡوَقُودِ",
-    "ar_simple": "ٱلنار ذات ٱلوقود",
+    "ar_simple": "النَّارِ ذَاتِ الْوَقُودِ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Containing] the fire full of fuel",
@@ -343,7 +351,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 6,
@@ -357,7 +367,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِذۡ هُمۡ عَلَیۡهَا قُعُودࣱ",
-    "ar_simple": "إذ هم علیها قعود",
+    "ar_simple": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "When they were sitting near it",
@@ -411,7 +421,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 7,
@@ -425,7 +437,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَهُمۡ عَلَىٰ مَا یَفۡعَلُونَ بِٱلۡمُؤۡمِنِینَ شُهُودࣱ",
-    "ar_simple": "وهم على ما یفعلون بٱلمؤمنین شهود",
+    "ar_simple": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِالْمُؤْمِنِينَ شُهُودٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "And they, to what they were doing against the believers, were witnesses",
@@ -481,7 +493,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 8,
@@ -495,7 +509,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَمَا نَقَمُوا۟ مِنۡهُمۡ إِلَّاۤ أَن یُؤۡمِنُوا۟ بِٱللَّهِ ٱلۡعَزِیزِ ٱلۡحَمِیدِ",
-    "ar_simple": "وما نقموا منهم إلا أن یؤمنوا بٱلله ٱلعزیز ٱلحمید",
+    "ar_simple": "وَمَا نَقَمُوا مِنْهُمْ إِلَّا أَنْ يُؤْمِنُوا بِاللَّهِ الْعَزِيزِ الْحَمِيدِ",
     "transliteration": "",
     "t": {
       "sahih-int": "And they resented them not except because they believed in Allah, the Exalted in Might, the Praiseworthy",
@@ -551,7 +565,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 9,
@@ -565,7 +581,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ٱلَّذِی لَهُۥ مُلۡكُ ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِۚ وَٱللَّهُ عَلَىٰ كُلِّ شَیۡءࣲ شَهِیدٌ",
-    "ar_simple": "ٱلذی له ملك ٱلسمو ت وٱلأرض وٱلله على كل شیء شهید",
+    "ar_simple": "الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ ۚ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ شَهِيدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "To whom belongs the dominion of the heavens and the earth. And Allah, over all things, is Witness",
@@ -619,7 +635,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 10,
@@ -633,7 +651,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ فَتَنُوا۟ ٱلۡمُؤۡمِنِینَ وَٱلۡمُؤۡمِنَـٰتِ ثُمَّ لَمۡ یَتُوبُوا۟ فَلَهُمۡ عَذَابُ جَهَنَّمَ وَلَهُمۡ عَذَابُ ٱلۡحَرِیقِ",
-    "ar_simple": "إن ٱلذین فتنوا ٱلمؤمنین وٱلمؤمنت ثم لم یتوبوا فلهم عذاب جهنم ولهم عذاب ٱلحریق",
+    "ar_simple": "إِنَّ الَّذِينَ فَتَنُوا الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ثُمَّ لَمْ يَتُوبُوا فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ الْحَرِيقِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those who have tortured the believing men and believing women and then have not repented will have the punishment of Hell, and they will have the punishment of the Burning Fire",
@@ -693,7 +711,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 11,
@@ -707,7 +727,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمۡ جَنَّـٰتࣱ تَجۡرِی مِن تَحۡتِهَا ٱلۡأَنۡهَـٰرُۚ ذَ ٰلِكَ ٱلۡفَوۡزُ ٱلۡكَبِیرُ",
-    "ar_simple": "إن ٱلذین ءامنوا وعملوا ٱلصلحت لهم جنت تجری من تحتها ٱلأنهر ذ لك ٱلفوز ٱلكبیر",
+    "ar_simple": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ جَنَّاتٌ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ ۚ ذَٰلِكَ الْفَوْزُ الْكَبِيرُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, those who have believed and done righteous deeds will have gardens beneath which rivers flow. That is the great attainment",
@@ -756,7 +776,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 12,
@@ -770,7 +792,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّ بَطۡشَ رَبِّكَ لَشَدِیدٌ",
-    "ar_simple": "إن بطش ربك لشدید",
+    "ar_simple": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, the vengeance of your Lord is severe",
@@ -816,7 +838,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 13,
@@ -830,7 +854,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "إِنَّهُۥ هُوَ یُبۡدِئُ وَیُعِیدُ",
-    "ar_simple": "إنه هو یبدئ ویعید",
+    "ar_simple": "إِنَّهُ هُوَ يُبْدِئُ وَيُعِيدُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Indeed, it is He who originates [creation] and repeats",
@@ -877,7 +901,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 14,
@@ -891,7 +917,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَهُوَ ٱلۡغَفُورُ ٱلۡوَدُودُ",
-    "ar_simple": "وهو ٱلغفور ٱلودود",
+    "ar_simple": "وَهُوَ الْغَفُورُ الْوَدُودُ",
     "transliteration": "",
     "t": {
       "sahih-int": "And He is the Forgiving, the Affectionate",
@@ -936,7 +962,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 15,
@@ -950,7 +978,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "ذُو ٱلۡعَرۡشِ ٱلۡمَجِیدُ",
-    "ar_simple": "ذو ٱلعرش ٱلمجید",
+    "ar_simple": "ذُو الْعَرْشِ الْمَجِيدُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Honorable Owner of the Throne",
@@ -995,7 +1023,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 16,
@@ -1009,7 +1039,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فَعَّالࣱ لِّمَا یُرِیدُ",
-    "ar_simple": "فعال لما یرید",
+    "ar_simple": "فَعَّالٌ لِمَا يُرِيدُ",
     "transliteration": "",
     "t": {
       "sahih-int": "Effecter of what He intends",
@@ -1054,7 +1084,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 17,
@@ -1068,7 +1100,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "هَلۡ أَتَىٰكَ حَدِیثُ ٱلۡجُنُودِ",
-    "ar_simple": "هل أتىك حدیث ٱلجنود",
+    "ar_simple": "هَلْ أَتَاكَ حَدِيثُ الْجُنُودِ",
     "transliteration": "",
     "t": {
       "sahih-int": "Has there reached you the story of the soldiers",
@@ -1116,7 +1148,9 @@
       "translator_divergence": 0,
       "notes": "VERBATIM_SAHIH_INT_LONG",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 18,
@@ -1130,7 +1164,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِرۡعَوۡنَ وَثَمُودَ",
-    "ar_simple": "فرعون وثمود",
+    "ar_simple": "فِرْعَوْنَ وَثَمُودَ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Those of] Pharaoh and Thamud",
@@ -1175,7 +1209,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 19,
@@ -1189,7 +1225,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بَلِ ٱلَّذِینَ كَفَرُوا۟ فِی تَكۡذِیبࣲ",
-    "ar_simple": "بل ٱلذین كفروا فی تكذیب",
+    "ar_simple": "بَلِ الَّذِينَ كَفَرُوا فِي تَكْذِيبٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "But they who disbelieve are in [persistent] denial",
@@ -1236,7 +1272,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 20,
@@ -1250,7 +1288,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "وَٱللَّهُ مِن وَرَاۤئِهِم مُّحِیطُۢ",
-    "ar_simple": "وٱلله من ورائهم محیط",
+    "ar_simple": "وَاللَّهُ مِنْ وَرَائِهِمْ مُحِيطٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "While Allah encompasses them from behind",
@@ -1295,7 +1333,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 21,
@@ -1309,7 +1349,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "بَلۡ هُوَ قُرۡءَانࣱ مَّجِیدࣱ",
-    "ar_simple": "بل هو قرءان مجید",
+    "ar_simple": "بَلْ هُوَ قُرْآنٌ مَجِيدٌ",
     "transliteration": "",
     "t": {
       "sahih-int": "But this is an honored Qur'an",
@@ -1356,7 +1396,9 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   },
   {
     "n": 22,
@@ -1370,7 +1412,7 @@
     "sajda_type": null,
     "section_id": null,
     "ar": "فِی لَوۡحࣲ مَّحۡفُوظِۭ",
-    "ar_simple": "فی لوح محفوظ",
+    "ar_simple": "فِي لَوْحٍ مَحْفُوظٍ",
     "transliteration": "",
     "t": {
       "sahih-int": "[Inscribed] in a Preserved Slate",
@@ -1415,6 +1457,8 @@
       "translator_divergence": 0,
       "notes": "P6 verified",
       "checked_by_agent": "P1-A"
-    }
+    },
+    "manzil": 7,
+    "rub_el_hizb": 236
   }
 ]
