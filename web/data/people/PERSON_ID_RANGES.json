@@ -1,0 +1,22 @@
+{
+  "companions": {
+    "range_start": "PRS-000001",
+    "range_end": "PRS-000099",
+    "count_reserved": 99,
+    "description": "Companions of the Prophet (Sahabah)"
+  },
+  "classical_narrators": {
+    "range_start": "PRS-000100",
+    "range_end": "PRS-009999",
+    "count_reserved": 9900,
+    "description": "Pre-existing classical narrators from Tahdhib al-Kamal, Siyar, etc."
+  },
+  "isnad_derived": {
+    "range_start": "PRS-010000",
+    "range_end": "PRS-099999",
+    "count_reserved": 90000,
+    "description": "Narrators extracted from isnad chains during Phase 2 (assigned by Phase 2-CONSOLIDATE)"
+  },
+  "shard_format": "PRS-SHARD-{collection}-{book}-{n}-{hash}",
+  "shard_note": "Temporary IDs used by Phase 2 agents — resolved to PRS-NNNNNN by Phase 2-CONSOLIDATE"
+}

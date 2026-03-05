@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "generated": "2026-03-05T19:00:00Z",
+  "crunch_phase": "P10-FINAL",
+  "quran": {
+    "total_ayahs": 6236,
+    "missing_ar": 0,
+    "missing_ar_simple": 0,
+    "missing_iwq_en": 18,
+    "missing_iwq_id": 18,
+    "missing_topics": 2352,
+    "verified": 4886
+  },
+  "hadith": {
+    "total_hadiths": 70224,
+    "missing_iwh_en": 10750,
+    "missing_iwh_id": 10750,
+    "invalid_grade": 0,
+    "missing_ar": 408,
+    "prs_shard_ids": 0,
+    "duplicate_iw_ids": 0,
+    "stub_text": 0,
+    "low_isnad_confidence": 7895
+  }
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "meccan",
+    "name_en": "Meccan",
+    "type": "revelation"
+  },
+  {
+    "id": "medinan",
+    "name_en": "Medinan",
+    "type": "revelation"
+  },
+  {
+    "id": "early-meccan",
+    "name_en": "Early Meccan",
+    "type": "revelation"
+  },
+  {
+    "id": "late-meccan",
+    "name_en": "Late Meccan",
+    "type": "revelation"
+  },
+  {
+    "id": "short-surah",
+    "name_en": "Short Surah",
+    "type": "structural"
+  },
+  {
+    "id": "long-surah",
+    "name_en": "Long Surah",
+    "type": "structural"
+  },
+  {
+    "id": "opening",
+    "name_en": "Opening Surah",
+    "type": "structural"
+  },
+  {
+    "id": "closing",
+    "name_en": "Closing Section",
+    "type": "structural"
+  },
+  {
+    "id": "narrative",
+    "name_en": "Narrative/Story",
+    "type": "content"
+  },
+  {
+    "id": "legal",
+    "name_en": "Legal Ruling",
+    "type": "content"
+  },
+  {
+    "id": "ethical",
+    "name_en": "Ethical Teaching",
+    "type": "content"
+  },
+  {
+    "id": "creedal",
+    "name_en": "Creedal",
+    "type": "content"
+  },
+  {
+    "id": "spiritual",
+    "name_en": "Spiritual",
+    "type": "content"
+  },
+  {
+    "id": "historical",
+    "name_en": "Historical",
+    "type": "content"
+  },
+  {
+    "id": "prophetic-story",
+    "name_en": "Story of a Prophet",
+    "type": "content"
+  },
+  {
+    "id": "dua-verse",
+    "name_en": "Contains Dua",
+    "type": "content"
+  },
+  {
+    "id": "promise-of-jannah",
+    "name_en": "Promise of Jannah",
+    "type": "content"
+  },
+  {
+    "id": "warning-of-jahannam",
+    "name_en": "Warning of Jahannam",
+    "type": "content"
+  },
+  {
+    "id": "divine-attributes",
+    "name_en": "Divine Attributes",
+    "type": "content"
+  },
+  {
+    "id": "creation",
+    "name_en": "Creation",
+    "type": "content"
+  },
+  {
+    "id": "nature-signs",
+    "name_en": "Signs in Nature",
+    "type": "content"
+  },
+  {
+    "id": "sahih-bukhari",
+    "name_en": "In Sahih Bukhari",
+    "type": "collection"
+  },
+  {
+    "id": "sahih-muslim",
+    "name_en": "In Sahih Muslim",
+    "type": "collection"
+  },
+  {
+    "id": "mutafaq-alayhi",
+    "name_en": "Mutafaq Alayhi (Agreed Upon)",
+    "type": "collection"
+  },
+  {
+    "id": "forty-hadith",
+    "name_en": "From Forty Hadith of al-Nawawi",
+    "type": "collection"
+  },
+  {
+    "id": "nawawi-40",
+    "name_en": "Nawawi 40",
+    "type": "collection"
+  },
+  {
+    "id": "arkan",
+    "name_en": "Foundational (Arkan)",
+    "type": "importance"
+  },
+  {
+    "id": "foundation",
+    "name_en": "Foundation of the Deen",
+    "type": "importance"
+  },
+  {
+    "id": "essential",
+    "name_en": "Essential Knowledge",
+    "type": "importance"
+  },
+  {
+    "id": "widely-narrated",
+    "name_en": "Widely Narrated",
+    "type": "isnad"
+  },
+  {
+    "id": "companion-narrated",
+    "name_en": "Companion Narrated",
+    "type": "isnad"
+  },
+  {
+    "id": "aisha-narrated",
+    "name_en": "Narrated by Aishah",
+    "type": "isnad"
+  },
+  {
+    "id": "abu-hurayrah-narrated",
+    "name_en": "Narrated by Abu Hurayrah",
+    "type": "isnad"
+  },
+  {
+    "id": "worship-ritual",
+    "name_en": "Ritual Worship",
+    "type": "topic"
+  },
+  {
+    "id": "social-interaction",
+    "name_en": "Social Interaction",
+    "type": "topic"
+  },
+  {
+    "id": "daily-life",
+    "name_en": "Daily Life",
+    "type": "topic"
+  },
+  {
+    "id": "family-life",
+    "name_en": "Family Life",
+    "type": "topic"
+  },
+  {
+    "id": "business-ethics",
+    "name_en": "Business Ethics",
+    "type": "topic"
+  },
+  {
+    "id": "political-ethics",
+    "name_en": "Political Ethics",
+    "type": "topic"
+  },
+  {
+    "id": "dietary-law",
+    "name_en": "Dietary Law",
+    "type": "topic"
+  },
+  {
+    "id": "medical-advice",
+    "name_en": "Medical Advice",
+    "type": "topic"
+  },
+  {
+    "id": "eschatology",
+    "name_en": "Eschatology (End Times)",
+    "type": "topic"
+  },
+  {
+    "id": "prophethood",
+    "name_en": "Prophethood",
+    "type": "topic"
+  },
+  {
+    "id": "revelation",
+    "name_en": "Revelation (Wahy)",
+    "type": "topic"
+  },
+  {
+    "id": "prayer-etiquette",
+    "name_en": "Prayer Etiquette",
+    "type": "topic"
+  },
+  {
+    "id": "fasting-etiquette",
+    "name_en": "Fasting Etiquette",
+    "type": "topic"
+  },
+  {
+    "id": "charity-giving",
+    "name_en": "Charity and Giving",
+    "type": "topic"
+  },
+  {
+    "id": "night-worship",
+    "name_en": "Night Worship",
+    "type": "topic"
+  },
+  {
+    "id": "sunna-prayer",
+    "name_en": "Sunnah Prayer",
+    "type": "topic"
+  },
+  {
+    "id": "quran-virtues",
+    "name_en": "Virtues of Quran Chapters/Verses",
+    "type": "topic"
+  },
+  {
+    "id": "remembrance",
+    "name_en": "Remembrance of Allah",
+    "type": "topic"
+  },
+  {
+    "id": "death-preparation",
+    "name_en": "Preparation for Death",
+    "type": "topic"
+  },
+  {
+    "id": "sincere-worship",
+    "name_en": "Sincere Worship",
+    "type": "topic"
+  },
+  {
+    "id": "scholars-biographies",
+    "name_en": "Scholar Biography",
+    "type": "topic"
+  },
+  {
+    "id": "sufi-practice",
+    "name_en": "Sufi Practice (Evaluated)",
+    "type": "topic"
+  },
+  {
+    "id": "contested",
+    "name_en": "Scholars Disagree on This",
+    "type": "status"
+  },
+  {
+    "id": "consensus",
+    "name_en": "Scholarly Consensus (Ijma)",
+    "type": "status"
+  },
+  {
+    "id": "arabic-text",
+    "name_en": "Arabic Text Available",
+    "type": "format"
+  },
+  {
+    "id": "english-translation",
+    "name_en": "English Translation",
+    "type": "format"
+  },
+  {
+    "id": "indonesian-translation",
+    "name_en": "Indonesian Translation",
+    "type": "format"
+  },
+  {
+    "id": "tafsir-available",
+    "name_en": "Tafsir Available",
+    "type": "format"
+  },
+  {
+    "id": "sharh-available",
+    "name_en": "Sharh Available",
+    "type": "format"
+  },
+  {
+    "id": "verified",
+    "name_en": "Verified",
+    "type": "quality"
+  },
+  {
+    "id": "peer-reviewed",
+    "name_en": "Peer Reviewed",
+    "type": "quality"
+  }
+]

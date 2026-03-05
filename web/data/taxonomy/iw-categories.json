@@ -1,0 +1,909 @@
+[
+  {
+    "id": 1,
+    "slug": "faith-and-creed",
+    "name_en": "Faith and Creed",
+    "name_ar": "العقيدة والإيمان",
+    "name_id": "Akidah dan Iman",
+    "description_en": "Fundamentals of Islamic belief: tawhid, pillars of faith, aqeedah",
+    "subcategories": [
+      {
+        "id": 101,
+        "slug": "tawhid",
+        "name_en": "Tawhid (Monotheism)",
+        "name_ar": "التوحيد",
+        "name_id": "Tauhid"
+      },
+      {
+        "id": 102,
+        "slug": "pillars-of-faith",
+        "name_en": "Pillars of Faith",
+        "name_ar": "أركان الإيمان",
+        "name_id": "Rukun Iman"
+      },
+      {
+        "id": 103,
+        "slug": "belief-in-allah",
+        "name_en": "Belief in Allah",
+        "name_ar": "الإيمان بالله",
+        "name_id": "Iman kepada Allah"
+      },
+      {
+        "id": 104,
+        "slug": "belief-in-angels",
+        "name_en": "Belief in Angels",
+        "name_ar": "الإيمان بالملائكة",
+        "name_id": "Iman kepada Malaikat"
+      },
+      {
+        "id": 105,
+        "slug": "belief-in-books",
+        "name_en": "Belief in Divine Books",
+        "name_ar": "الإيمان بالكتب",
+        "name_id": "Iman kepada Kitab"
+      },
+      {
+        "id": 106,
+        "slug": "belief-in-prophets",
+        "name_en": "Belief in Prophets",
+        "name_ar": "الإيمان بالأنبياء",
+        "name_id": "Iman kepada Nabi"
+      },
+      {
+        "id": 107,
+        "slug": "belief-in-hereafter",
+        "name_en": "Belief in the Hereafter",
+        "name_ar": "الإيمان باليوم الآخر",
+        "name_id": "Iman kepada Hari Akhir"
+      },
+      {
+        "id": 108,
+        "slug": "divine-decree",
+        "name_en": "Divine Decree (Qadar)",
+        "name_ar": "القضاء والقدر",
+        "name_id": "Qada dan Qadar"
+      },
+      {
+        "id": 109,
+        "slug": "shirk-and-innovation",
+        "name_en": "Shirk and Bidah",
+        "name_ar": "الشرك والبدعة",
+        "name_id": "Syirik dan Bid'ah"
+      },
+      {
+        "id": 110,
+        "slug": "allahss-names-attributes",
+        "name_en": "Allah's Names and Attributes",
+        "name_ar": "أسماء الله وصفاته",
+        "name_id": "Asmaul Husna"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "worship",
+    "name_en": "Acts of Worship",
+    "name_ar": "العبادات",
+    "name_id": "Ibadah",
+    "description_en": "The five pillars and all acts of worship",
+    "subcategories": [
+      {
+        "id": 201,
+        "slug": "shahadah",
+        "name_en": "Testimony of Faith",
+        "name_ar": "الشهادتان",
+        "name_id": "Syahadat"
+      },
+      {
+        "id": 202,
+        "slug": "salah",
+        "name_en": "Prayer (Salah)",
+        "name_ar": "الصلاة",
+        "name_id": "Shalat"
+      },
+      {
+        "id": 203,
+        "slug": "zakat",
+        "name_en": "Zakat (Almsgiving)",
+        "name_ar": "الزكاة",
+        "name_id": "Zakat"
+      },
+      {
+        "id": 204,
+        "slug": "fasting",
+        "name_en": "Fasting (Sawm)",
+        "name_ar": "الصيام",
+        "name_id": "Puasa"
+      },
+      {
+        "id": 205,
+        "slug": "hajj-and-umrah",
+        "name_en": "Hajj and Umrah",
+        "name_ar": "الحج والعمرة",
+        "name_id": "Haji dan Umrah"
+      },
+      {
+        "id": 206,
+        "slug": "quran-recitation",
+        "name_en": "Quran Recitation and Memorization",
+        "name_ar": "تلاوة القرآن وحفظه",
+        "name_id": "Tilawah dan Hafalan Quran"
+      },
+      {
+        "id": 207,
+        "slug": "dhikr-and-dua",
+        "name_en": "Dhikr and Supplication",
+        "name_ar": "الذكر والدعاء",
+        "name_id": "Dzikir dan Doa"
+      },
+      {
+        "id": 208,
+        "slug": "voluntary-worship",
+        "name_en": "Voluntary Acts of Worship",
+        "name_ar": "النوافل والتطوع",
+        "name_id": "Ibadah Sunnah"
+      },
+      {
+        "id": 209,
+        "slug": "purification",
+        "name_en": "Purification (Taharah)",
+        "name_ar": "الطهارة",
+        "name_id": "Taharah"
+      },
+      {
+        "id": 210,
+        "slug": "friday-and-eid",
+        "name_en": "Friday Prayer and Eid",
+        "name_ar": "الجمعة والعيدين",
+        "name_id": "Jumat dan Ied"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "character-and-manners",
+    "name_en": "Character and Manners",
+    "name_ar": "الأخلاق والآداب",
+    "name_id": "Akhlak dan Adab",
+    "description_en": "Islamic ethics, character, and etiquette",
+    "subcategories": [
+      {
+        "id": 301,
+        "slug": "truthfulness-and-honesty",
+        "name_en": "Truthfulness and Honesty",
+        "name_ar": "الصدق والأمانة",
+        "name_id": "Kejujuran dan Amanah"
+      },
+      {
+        "id": 302,
+        "slug": "patience-and-gratitude",
+        "name_en": "Patience and Gratitude",
+        "name_ar": "الصبر والشكر",
+        "name_id": "Sabar dan Syukur"
+      },
+      {
+        "id": 303,
+        "slug": "humility",
+        "name_en": "Humility and Modesty",
+        "name_ar": "التواضع والحياء",
+        "name_id": "Tawadhu dan Malu"
+      },
+      {
+        "id": 304,
+        "slug": "generosity",
+        "name_en": "Generosity and Charity",
+        "name_ar": "الكرم والسخاء",
+        "name_id": "Kedermawanan"
+      },
+      {
+        "id": 305,
+        "slug": "family-manners",
+        "name_en": "Family Relationships",
+        "name_ar": "صلة الرحم",
+        "name_id": "Silaturahmi"
+      },
+      {
+        "id": 306,
+        "slug": "social-manners",
+        "name_en": "Social Manners and Etiquette",
+        "name_ar": "آداب التعامل",
+        "name_id": "Adab Bergaul"
+      },
+      {
+        "id": 307,
+        "slug": "anger-and-emotions",
+        "name_en": "Anger Management and Emotions",
+        "name_ar": "كظم الغيظ",
+        "name_id": "Mengelola Amarah"
+      },
+      {
+        "id": 308,
+        "slug": "intentions-and-actions",
+        "name_en": "Intentions and Actions",
+        "name_ar": "النية والأعمال",
+        "name_id": "Niat dan Amal"
+      },
+      {
+        "id": 309,
+        "slug": "forbidding-evil",
+        "name_en": "Commanding Good, Forbidding Evil",
+        "name_ar": "الأمر بالمعروف والنهي عن المنكر",
+        "name_id": "Amar Makruf Nahi Munkar"
+      },
+      {
+        "id": 310,
+        "slug": "repentance",
+        "name_en": "Repentance and Forgiveness",
+        "name_ar": "التوبة والاستغفار",
+        "name_id": "Taubat dan Istighfar"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "knowledge-and-learning",
+    "name_en": "Knowledge and Learning",
+    "name_ar": "العلم والتعلم",
+    "name_id": "Ilmu dan Pendidikan",
+    "description_en": "The virtue of Islamic knowledge and scholars",
+    "subcategories": [
+      {
+        "id": 401,
+        "slug": "virtue-of-knowledge",
+        "name_en": "Virtue of Knowledge",
+        "name_ar": "فضل العلم",
+        "name_id": "Keutamaan Ilmu"
+      },
+      {
+        "id": 402,
+        "slug": "seeking-knowledge",
+        "name_en": "Seeking Knowledge",
+        "name_ar": "طلب العلم",
+        "name_id": "Menuntut Ilmu"
+      },
+      {
+        "id": 403,
+        "slug": "scholars-and-teaching",
+        "name_en": "Scholars and Teaching",
+        "name_ar": "العلماء والتعليم",
+        "name_id": "Ulama dan Pengajaran"
+      },
+      {
+        "id": 404,
+        "slug": "quran-sciences",
+        "name_en": "Quran Sciences",
+        "name_ar": "علوم القرآن",
+        "name_id": "Ulumul Quran"
+      },
+      {
+        "id": 405,
+        "slug": "hadith-sciences",
+        "name_en": "Hadith Sciences",
+        "name_ar": "علوم الحديث",
+        "name_id": "Ulumul Hadis"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "family-and-society",
+    "name_en": "Family and Society",
+    "name_ar": "الأسرة والمجتمع",
+    "name_id": "Keluarga dan Masyarakat",
+    "description_en": "Marriage, family, parenting, and social relations",
+    "subcategories": [
+      {
+        "id": 501,
+        "slug": "marriage",
+        "name_en": "Marriage",
+        "name_ar": "النكاح والزواج",
+        "name_id": "Pernikahan"
+      },
+      {
+        "id": 502,
+        "slug": "divorce-and-separation",
+        "name_en": "Divorce and Separation",
+        "name_ar": "الطلاق والفرقة",
+        "name_id": "Cerai dan Pisah"
+      },
+      {
+        "id": 503,
+        "slug": "parenting",
+        "name_en": "Parenting and Children",
+        "name_ar": "تربية الأبناء",
+        "name_id": "Mendidik Anak"
+      },
+      {
+        "id": 504,
+        "slug": "rights-of-parents",
+        "name_en": "Rights of Parents",
+        "name_ar": "بر الوالدين",
+        "name_id": "Berbakti kepada Orang Tua"
+      },
+      {
+        "id": 505,
+        "slug": "neighborly-relations",
+        "name_en": "Neighborly Relations",
+        "name_ar": "حق الجار",
+        "name_id": "Hak Tetangga"
+      },
+      {
+        "id": 506,
+        "slug": "brotherhood-and-friendship",
+        "name_en": "Brotherhood and Friendship",
+        "name_ar": "الأخوة والصداقة",
+        "name_id": "Persaudaraan dan Persahabatan"
+      },
+      {
+        "id": 507,
+        "slug": "women-in-islam",
+        "name_en": "Women in Islam",
+        "name_ar": "المرأة في الإسلام",
+        "name_id": "Wanita dalam Islam"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "finance-and-business",
+    "name_en": "Finance and Business",
+    "name_ar": "المعاملات المالية",
+    "name_id": "Muamalah Keuangan",
+    "description_en": "Islamic finance, trade, and economic principles",
+    "subcategories": [
+      {
+        "id": 601,
+        "slug": "trade-and-contracts",
+        "name_en": "Trade and Contracts",
+        "name_ar": "البيع والعقود",
+        "name_id": "Jual Beli dan Akad"
+      },
+      {
+        "id": 602,
+        "slug": "riba-and-usury",
+        "name_en": "Riba and Usury",
+        "name_ar": "الربا والفوائد",
+        "name_id": "Riba"
+      },
+      {
+        "id": 603,
+        "slug": "charity-and-waqf",
+        "name_en": "Charity, Sadaqah, and Waqf",
+        "name_ar": "الصدقة والوقف",
+        "name_id": "Sedekah dan Wakaf"
+      },
+      {
+        "id": 604,
+        "slug": "inheritance",
+        "name_en": "Inheritance (Miras)",
+        "name_ar": "الميراث والتركة",
+        "name_id": "Warisan"
+      },
+      {
+        "id": 605,
+        "slug": "debts-and-loans",
+        "name_en": "Debts and Loans",
+        "name_ar": "الديون والقروض",
+        "name_id": "Hutang dan Pinjaman"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "food-and-drink",
+    "name_en": "Food, Drink, and Halal",
+    "name_ar": "الأطعمة والأشربة",
+    "name_id": "Makanan dan Minuman",
+    "description_en": "Halal and haram in food and drink",
+    "subcategories": [
+      {
+        "id": 701,
+        "slug": "halal-food",
+        "name_en": "Halal Food",
+        "name_ar": "الأطعمة الحلال",
+        "name_id": "Makanan Halal"
+      },
+      {
+        "id": 702,
+        "slug": "haram-food",
+        "name_en": "Forbidden Food and Drink",
+        "name_ar": "المحرمات من الطعام",
+        "name_id": "Makanan Haram"
+      },
+      {
+        "id": 703,
+        "slug": "slaughter-and-hunting",
+        "name_en": "Slaughter and Hunting",
+        "name_ar": "الذبح والصيد",
+        "name_id": "Penyembelihan dan Berburu"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "death-and-afterlife",
+    "name_en": "Death and the Afterlife",
+    "name_ar": "الموت والآخرة",
+    "name_id": "Kematian dan Akhirat",
+    "description_en": "Death, funeral rites, grave, resurrection, Day of Judgment, paradise, hellfire",
+    "subcategories": [
+      {
+        "id": 801,
+        "slug": "death-and-soul",
+        "name_en": "Death and the Soul",
+        "name_ar": "الموت والروح",
+        "name_id": "Kematian dan Ruh"
+      },
+      {
+        "id": 802,
+        "slug": "funeral-rites",
+        "name_en": "Funeral Rites",
+        "name_ar": "الجنائز وأحكامها",
+        "name_id": "Tata Cara Jenazah"
+      },
+      {
+        "id": 803,
+        "slug": "grave-and-barzakh",
+        "name_en": "The Grave and Barzakh",
+        "name_ar": "القبر والبرزخ",
+        "name_id": "Alam Kubur dan Barzakh"
+      },
+      {
+        "id": 804,
+        "slug": "resurrection-and-judgment",
+        "name_en": "Resurrection and Day of Judgment",
+        "name_ar": "البعث والحساب",
+        "name_id": "Hari Kiamat dan Hisab"
+      },
+      {
+        "id": 805,
+        "slug": "paradise",
+        "name_en": "Paradise (Jannah)",
+        "name_ar": "الجنة ونعيمها",
+        "name_id": "Surga"
+      },
+      {
+        "id": 806,
+        "slug": "hellfire",
+        "name_en": "Hellfire (Jahannam)",
+        "name_ar": "النار وعذابها",
+        "name_id": "Neraka"
+      },
+      {
+        "id": 807,
+        "slug": "signs-of-judgment-day",
+        "name_en": "Signs of the Day of Judgment",
+        "name_ar": "أشراط الساعة",
+        "name_id": "Tanda Hari Kiamat"
+      },
+      {
+        "id": 808,
+        "slug": "intercession",
+        "name_en": "Intercession (Shafaah)",
+        "name_ar": "الشفاعة",
+        "name_id": "Syafaat"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "prophets-and-messengers",
+    "name_en": "Prophets and Messengers",
+    "name_ar": "الأنبياء والرسل",
+    "name_id": "Para Nabi dan Rasul",
+    "description_en": "Stories and teachings of the prophets",
+    "subcategories": [
+      {
+        "id": 901,
+        "slug": "prophet-muhammad",
+        "name_en": "Prophet Muhammad ☪",
+        "name_ar": "النبي محمد ☪",
+        "name_id": "Nabi Muhammad ☪"
+      },
+      {
+        "id": 902,
+        "slug": "prophet-ibrahim",
+        "name_en": "Prophet Ibrahim",
+        "name_ar": "النبي إبراهيم",
+        "name_id": "Nabi Ibrahim"
+      },
+      {
+        "id": 903,
+        "slug": "prophet-musa",
+        "name_en": "Prophet Musa",
+        "name_ar": "النبي موسى",
+        "name_id": "Nabi Musa"
+      },
+      {
+        "id": 904,
+        "slug": "prophet-isa",
+        "name_en": "Prophet Isa",
+        "name_ar": "النبي عيسى",
+        "name_id": "Nabi Isa"
+      },
+      {
+        "id": 905,
+        "slug": "other-prophets",
+        "name_en": "Other Prophets",
+        "name_ar": "سائر الأنبياء",
+        "name_id": "Nabi-Nabi Lainnya"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "seerah-and-companions",
+    "name_en": "Seerah and Companions",
+    "name_ar": "السيرة والصحابة",
+    "name_id": "Sirah dan Sahabat",
+    "description_en": "Life of the Prophet, seerah events, and biographies of companions",
+    "subcategories": [
+      {
+        "id": 1001,
+        "slug": "meccan-period",
+        "name_en": "Meccan Period",
+        "name_ar": "العهد المكي",
+        "name_id": "Periode Mekah"
+      },
+      {
+        "id": 1002,
+        "slug": "medinan-period",
+        "name_en": "Medinan Period",
+        "name_ar": "العهد المدني",
+        "name_id": "Periode Madinah"
+      },
+      {
+        "id": 1003,
+        "slug": "battles-and-expeditions",
+        "name_en": "Battles and Expeditions",
+        "name_ar": "الغزوات والسرايا",
+        "name_id": "Peperangan dan Ekspedisi"
+      },
+      {
+        "id": 1004,
+        "slug": "companions-ansar",
+        "name_en": "Companions: The Ansar",
+        "name_ar": "الأنصار",
+        "name_id": "Sahabat Anshar"
+      },
+      {
+        "id": 1005,
+        "slug": "companions-muhajirun",
+        "name_en": "Companions: The Muhajirun",
+        "name_ar": "المهاجرون",
+        "name_id": "Sahabat Muhajirin"
+      },
+      {
+        "id": 1006,
+        "slug": "early-caliphs",
+        "name_en": "Early Caliphs",
+        "name_ar": "الخلفاء الراشدون",
+        "name_id": "Khulafaur Rasyidin"
+      },
+      {
+        "id": 1007,
+        "slug": "family-of-prophet",
+        "name_en": "Family of the Prophet",
+        "name_ar": "آل البيت النبوي",
+        "name_id": "Keluarga Nabi"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "health-and-medicine",
+    "name_en": "Health and Medicine",
+    "name_ar": "الصحة والطب",
+    "name_id": "Kesehatan dan Pengobatan",
+    "description_en": "Islamic medicine, prophetic medicine, and health rulings",
+    "subcategories": [
+      {
+        "id": 1101,
+        "slug": "prophetic-medicine",
+        "name_en": "Prophetic Medicine (Al-Tibb al-Nabawi)",
+        "name_ar": "الطب النبوي",
+        "name_id": "Thibbun Nabawi"
+      },
+      {
+        "id": 1102,
+        "slug": "ruqyah-and-healing",
+        "name_en": "Ruqyah and Spiritual Healing",
+        "name_ar": "الرقية والشفاء",
+        "name_id": "Ruqyah"
+      },
+      {
+        "id": 1103,
+        "slug": "fasting-and-health",
+        "name_en": "Fasting and Health",
+        "name_ar": "الصيام والصحة",
+        "name_id": "Puasa dan Kesehatan"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "sins-and-prohibited-acts",
+    "name_en": "Sins and Prohibited Acts",
+    "name_ar": "الكبائر والمحرمات",
+    "name_id": "Dosa dan Perbuatan Haram",
+    "description_en": "Major sins and prohibitions in Islam",
+    "subcategories": [
+      {
+        "id": 1201,
+        "slug": "major-sins",
+        "name_en": "Major Sins (Kaba'ir)",
+        "name_ar": "الكبائر",
+        "name_id": "Dosa Besar"
+      },
+      {
+        "id": 1202,
+        "slug": "shirk-and-kufr",
+        "name_en": "Shirk and Kufr",
+        "name_ar": "الشرك والكفر",
+        "name_id": "Syirik dan Kufur"
+      },
+      {
+        "id": 1203,
+        "slug": "lying-and-backbiting",
+        "name_en": "Lying, Backbiting, Slander",
+        "name_ar": "الكذب والغيبة والنميمة",
+        "name_id": "Dusta, Ghibah, dan Namimah"
+      },
+      {
+        "id": 1204,
+        "slug": "zina-and-immorality",
+        "name_en": "Zina and Immorality",
+        "name_ar": "الزنا والفاحشة",
+        "name_id": "Zina dan Kemaksiatan"
+      },
+      {
+        "id": 1205,
+        "slug": "intoxicants-and-gambling",
+        "name_en": "Intoxicants and Gambling",
+        "name_ar": "الخمر والميسر",
+        "name_id": "Minuman Keras dan Perjudian"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "spiritual-purification",
+    "name_en": "Spiritual Purification",
+    "name_ar": "تزكية النفس",
+    "name_id": "Tazkiyah Nafs",
+    "description_en": "Inner dimensions of faith, spiritual development",
+    "subcategories": [
+      {
+        "id": 1301,
+        "slug": "sincerity",
+        "name_en": "Sincerity (Ikhlas)",
+        "name_ar": "الإخلاص",
+        "name_id": "Ikhlas"
+      },
+      {
+        "id": 1302,
+        "slug": "fear-and-hope",
+        "name_en": "Fear and Hope in Allah",
+        "name_ar": "الخوف والرجاء",
+        "name_id": "Khauf dan Raja'"
+      },
+      {
+        "id": 1303,
+        "slug": "love-of-allah",
+        "name_en": "Love of Allah and His Messenger",
+        "name_ar": "محبة الله والرسول",
+        "name_id": "Cinta Allah dan Rasul"
+      },
+      {
+        "id": 1304,
+        "slug": "reliance-on-allah",
+        "name_en": "Reliance on Allah (Tawakkul)",
+        "name_ar": "التوكل على الله",
+        "name_id": "Tawakal kepada Allah"
+      },
+      {
+        "id": 1305,
+        "slug": "mindfulness-and-consciousness",
+        "name_en": "Mindfulness of Allah (Muraqabah)",
+        "name_ar": "المراقبة والإحسان",
+        "name_id": "Muraqabah"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "governance-and-justice",
+    "name_en": "Governance and Justice",
+    "name_ar": "السياسة والعدل",
+    "name_id": "Pemerintahan dan Keadilan",
+    "description_en": "Islamic governance, leadership, justice, and rights",
+    "subcategories": [
+      {
+        "id": 1401,
+        "slug": "leadership",
+        "name_en": "Leadership and Authority",
+        "name_ar": "الإمارة والولاية",
+        "name_id": "Kepemimpinan"
+      },
+      {
+        "id": 1402,
+        "slug": "justice-and-rights",
+        "name_en": "Justice and Human Rights",
+        "name_ar": "العدل وحقوق الإنسان",
+        "name_id": "Keadilan dan Hak Manusia"
+      },
+      {
+        "id": 1403,
+        "slug": "tax-and-governance",
+        "name_en": "Taxes and Governance (Kharaj/Jizyah)",
+        "name_ar": "الجزية والخراج",
+        "name_id": "Pajak dan Kharaj"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "signs-and-wonders",
+    "name_en": "Signs, Miracles, and Unseen",
+    "name_ar": "الآيات والمعجزات",
+    "name_id": "Tanda-Tanda dan Mukjizat",
+    "description_en": "Miracles, signs of Allah, the unseen world",
+    "subcategories": [
+      {
+        "id": 1501,
+        "slug": "quran-miracles",
+        "name_en": "Miracles of the Quran",
+        "name_ar": "إعجاز القرآن",
+        "name_id": "Mukjizat Al-Quran"
+      },
+      {
+        "id": 1502,
+        "slug": "prophetic-miracles",
+        "name_en": "Prophetic Miracles",
+        "name_ar": "معجزات النبي",
+        "name_id": "Mukjizat Nabi"
+      },
+      {
+        "id": 1503,
+        "slug": "jinn-and-unseen",
+        "name_en": "Jinn and the Unseen World",
+        "name_ar": "الجن وعالم الغيب",
+        "name_id": "Jin dan Alam Ghaib"
+      },
+      {
+        "id": 1504,
+        "slug": "dreams",
+        "name_en": "Dreams and Visions",
+        "name_ar": "الرؤيا والأحلام",
+        "name_id": "Mimpi dan Ru'yah"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "environment-and-nature",
+    "name_en": "Environment and Nature",
+    "name_ar": "البيئة والطبيعة",
+    "name_id": "Lingkungan dan Alam",
+    "description_en": "Islamic teachings on nature, animals, environment",
+    "subcategories": [
+      {
+        "id": 1601,
+        "slug": "animals-and-rights",
+        "name_en": "Animals and Their Rights",
+        "name_ar": "الحيوانات وحقوقها",
+        "name_id": "Hewan dan Haknya"
+      },
+      {
+        "id": 1602,
+        "slug": "environment-stewardship",
+        "name_en": "Environmental Stewardship",
+        "name_ar": "الاستخلاف في الأرض",
+        "name_id": "Menjaga Lingkungan"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "foundations-of-religion",
+    "name_en": "Foundations of Religion",
+    "name_ar": "أصول الدين",
+    "name_id": "Ushul al-Din",
+    "description_en": "Core principles: hadith of Jibreel, pillars of Islam",
+    "subcategories": [
+      {
+        "id": 1701,
+        "slug": "five-pillars",
+        "name_en": "Five Pillars of Islam",
+        "name_ar": "أركان الإسلام الخمسة",
+        "name_id": "Rukun Islam"
+      },
+      {
+        "id": 1702,
+        "slug": "hadith-jibreel",
+        "name_en": "Hadith of Jibreel (Islam/Iman/Ihsan)",
+        "name_ar": "حديث جبريل",
+        "name_id": "Hadis Jibril"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "dress-and-adornment",
+    "name_en": "Dress and Adornment",
+    "name_ar": "اللباس والزينة",
+    "name_id": "Pakaian dan Perhiasan",
+    "description_en": "Islamic dress code, hijab, and adornment",
+    "subcategories": [
+      {
+        "id": 1801,
+        "slug": "hijab-and-modesty",
+        "name_en": "Hijab and Modesty",
+        "name_ar": "الحجاب والستر",
+        "name_id": "Hijab dan Kesopanan"
+      },
+      {
+        "id": 1802,
+        "slug": "gold-and-silk",
+        "name_en": "Gold and Silk for Men",
+        "name_ar": "الذهب والحرير",
+        "name_id": "Emas dan Sutra"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "dawah-and-outreach",
+    "name_en": "Dawah and Outreach",
+    "name_ar": "الدعوة والإرشاد",
+    "name_id": "Dakwah dan Bimbingan",
+    "description_en": "Spreading Islam, interfaith relations, and dawah",
+    "subcategories": [
+      {
+        "id": 1901,
+        "slug": "dawah-methodology",
+        "name_en": "Dawah Methodology",
+        "name_ar": "أساليب الدعوة",
+        "name_id": "Metode Dakwah"
+      },
+      {
+        "id": 1902,
+        "slug": "people-of-the-book",
+        "name_en": "Relations with People of the Book",
+        "name_ar": "أهل الكتاب",
+        "name_id": "Hubungan dengan Ahlul Kitab"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "supplications-and-adhkar",
+    "name_en": "Supplications and Adhkar",
+    "name_ar": "الأذكار والأدعية المأثورة",
+    "name_id": "Dzikir dan Doa yang Diajarkan",
+    "description_en": "Prophetic supplications, morning/evening adhkar, specific dua",
+    "subcategories": [
+      {
+        "id": 2001,
+        "slug": "morning-evening-adhkar",
+        "name_en": "Morning and Evening Adhkar",
+        "name_ar": "أذكار الصباح والمساء",
+        "name_id": "Dzikir Pagi dan Petang"
+      },
+      {
+        "id": 2002,
+        "slug": "specific-duas",
+        "name_en": "Specific Supplications",
+        "name_ar": "الأدعية الخاصة",
+        "name_id": "Doa-Doa Khusus"
+      },
+      {
+        "id": 2003,
+        "slug": "quran-duas",
+        "name_en": "Quranic Supplications",
+        "name_ar": "الأدعية القرآنية",
+        "name_id": "Doa-Doa dalam Quran"
+      }
+    ]
+  }
+]

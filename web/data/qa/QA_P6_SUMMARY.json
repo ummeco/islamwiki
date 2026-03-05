@@ -1,0 +1,17 @@
+{
+  "quran": {
+    "total_ayahs": 6236,
+    "verified": 3045,
+    "flagged": 3191,
+    "missing_iwq": 18,
+    "flags": []
+  },
+  "hadith": {
+    "total": 70224,
+    "verified": 40032,
+    "flagged": 30192,
+    "missing_iwh_en": 10750,
+    "low_confidence": 7895
+  },
+  "generated": "2026-03-05T17:45:00Z"
+}

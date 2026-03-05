@@ -1,0 +1,3236 @@
+[
+  {
+    "n": 1,
+    "cn": 3969,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ النُّفَيْلِيُّ، حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، ح وَحَدَّثَنَا نَصْرُ بْنُ عَاصِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَابِرٍ، رضى الله عنه أَنَّ النَّبِيَّ صلى الله عليه وسلم قَرَأَ ‏{‏ وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى ‏}‏",
+    "ar_clean": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ النُّفَيْلِيُّ، حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، ح وَحَدَّثَنَا نَصْرُ بْنُ عَاصِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَابِرٍ، رضى الله عنه أَنَّ النَّبِيَّ صلى الله عليه وسلم قَرَأَ { وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى }",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ مُحَمَّدٍ النُّفَيْلِيُّ، حَدَّثَنَا حَاتِمُ بْنُ إِسْمَاعِيلَ، ح وَحَدَّثَنَا نَصْرُ بْنُ عَاصِمٍ، حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ، عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَابِرٍ، رضى الله عنه أَنَّ النَّبِيَّ صلى الله عليه وسلم قَرَأَ ‏{‏ وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى ‏}‏",
+    "matn_ar_clean": "حدثنا عبد الله بن محمد النفيلي، حدثنا حاتم بن إسماعيل، ح وحدثنا نصر بن عاصم، حدثنا يحيى بن سعيد، عن جعفر بن محمد، عن أبيه، عن جابر، رضى الله عنه أن النبي صلى الله عليه وسلم قرأ ‏{‏ واتخذوا من مقام إبراهيم مصلى ‏}‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "Narrated Jabir ibn Abdullah: The Prophet (ﷺ) read the Qur'anic verse, \"And take ye the Station of Abraham as a place of prayer",
+    "iwh_en": "Jabir ibn Abdullah (may Allah be pleased with him) reported that the Prophet ﷺ read the Qur'anic verse, \"And take ye the Station of Abraham as a place of prayer",
+    "iwh_id": "Jabir ibn Abdullah  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ read the Qur'anic verse, \"And take ye the Station of Abraham as a place of prayer",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Isnaad Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19121",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3969"
+  },
+  {
+    "n": 2,
+    "cn": 3970,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُوسَى، - يَعْنِي ابْنَ إِسْمَاعِيلَ - حَدَّثَنَا حَمَّادٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، رضى الله عنها أَنَّ رَجُلاً، قَامَ مِنَ اللَّيْلِ فَقَرَأَ فَرَفَعَ صَوْتَهُ بِالْقُرْآنِ فَلَمَّا أَصْبَحَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ يَرْحَمُ اللَّهُ فُلاَنًا كَائِنٌ مِنْ آيَةٍ أَذْكَرَنِيهَا اللَّيْلَةَ كُنْتُ قَدْ أَسْقَطْتُهَا ‏\"‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُوسَى، - يَعْنِي ابْنَ إِسْمَاعِيلَ - حَدَّثَنَا حَمَّادٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، رضى الله عنها أَنَّ رَجُلاً، قَامَ مِنَ اللَّيْلِ فَقَرَأَ فَرَفَعَ صَوْتَهُ بِالْقُرْآنِ فَلَمَّا أَصْبَحَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" يَرْحَمُ اللَّهُ فُلاَنًا كَائِنٌ مِنْ آيَةٍ أَذْكَرَنِيهَا اللَّيْلَةَ كُنْتُ قَدْ أَسْقَطْتُهَا \" .",
+    "isnad_ar": "حَدَّثَنَا مُوسَى، - يَعْنِي ابْنَ إِسْمَاعِيلَ - حَدَّثَنَا حَمَّادٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ عُرْوَةَ، عَنْ عَائِشَةَ، رضى الله عنها أَنَّ",
+    "matn_ar": "رَجُلاً، قَامَ مِنَ اللَّيْلِ فَقَرَأَ فَرَفَعَ صَوْتَهُ بِالْقُرْآنِ فَلَمَّا أَصْبَحَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" يَرْحَمُ اللَّهُ فُلاَنًا كَائِنٌ مِنْ آيَةٍ أَذْكَرَنِيهَا اللَّيْلَةَ كُنْتُ قَدْ أَسْقَطْتُهَا \" .",
+    "matn_ar_clean": "رجلا، قام من الليل فقرأ فرفع صوته بالقرآن فلما أصبح قال رسول الله صلى الله عليه وسلم \" يرحم الله فلانا كائن من آية أذكرنيها الليلة كنت قد أسقطتها \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated A'ishah:A man got up (for prayer) at night, he read the Qur'an and raised his voice in reading. When the morning came, the Messenger of Allah (ﷺ) said: May Allah have mercy on so-and-so! Last night he reminded me a number of verses which I was about to forget",
+    "iwh_en": "A'ishah (may Allah be pleased with her) reported that a man got up (for prayer) at night, he read the Qur'an and raised his voice in reading. When the morning came, the Messenger of Allah ﷺ said: May Allah have mercy on so-and-so! Last night he reminded me a number of verses which I was about to forget",
+    "iwh_id": "A'ishah  (radhiyallahu 'anha) meriwayatkan bahwa a man got up (for prayer) at night, he read the Qur'an and raised his voice in reading. When the morning came, Rasulullah ﷺ said: May Allah have mercy on so-and-so! Last night he reminded me a number of verses which I was about to forget",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19122",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3970"
+  },
+  {
+    "n": 3,
+    "cn": 3971,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، حَدَّثَنَا خُصَيْفٌ، حَدَّثَنَا مِقْسَمٌ، مَوْلَى ابْنِ عَبَّاسٍ قَالَ قَالَ ابْنُ عَبَّاسٍ رضى الله عنهما نَزَلَتْ هَذِهِ الآيَةُ ‏{‏ وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ ‏}‏ فِي قَطِيفَةٍ حَمْرَاءَ فُقِدَتْ يَوْمَ بَدْرٍ فَقَالَ بَعْضُ النَّاسِ لَعَلَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَخَذَهَا فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏{‏ وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ ‏}‏ إِلَى آخِرِ الآيَةِ ‏.‏ قَالَ أَبُو دَاوُدَ يَغُلَّ مَفْتُوحَةُ الْيَاءِ ‏.‏",
+    "ar_clean": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، حَدَّثَنَا خُصَيْفٌ، حَدَّثَنَا مِقْسَمٌ، مَوْلَى ابْنِ عَبَّاسٍ قَالَ قَالَ ابْنُ عَبَّاسٍ رضى الله عنهما نَزَلَتْ هَذِهِ الآيَةُ { وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ } فِي قَطِيفَةٍ حَمْرَاءَ فُقِدَتْ يَوْمَ بَدْرٍ فَقَالَ بَعْضُ النَّاسِ لَعَلَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَخَذَهَا فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ { وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ } إِلَى آخِرِ الآيَةِ . قَالَ أَبُو دَاوُدَ يَغُلَّ مَفْتُوحَةُ الْيَاءِ .",
+    "isnad_ar": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا عَبْدُ الْوَاحِدِ بْنُ زِيَادٍ، حَدَّثَنَا خُصَيْفٌ، حَدَّثَنَا مِقْسَمٌ، مَوْلَى ابْنِ عَبَّاسٍ قَالَ قَالَ ابْنُ عَبَّاسٍ رضى الله عنهما نَزَلَتْ هَذِهِ الآيَةُ { وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ } فِي قَطِيفَةٍ حَمْرَاءَ فُقِدَتْ يَوْمَ بَدْرٍ",
+    "matn_ar": "فَقَالَ بَعْضُ النَّاسِ لَعَلَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أَخَذَهَا فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ { وَمَا كَانَ لِنَبِيٍّ أَنْ يَغُلَّ } إِلَى آخِرِ الآيَةِ . قَالَ أَبُو دَاوُدَ يَغُلَّ مَفْتُوحَةُ الْيَاءِ .",
+    "matn_ar_clean": "فقال بعض الناس لعل رسول الله صلى الله عليه وسلم أخذها فأنزل الله عز وجل { وما كان لنبي أن يغل } إلى آخر الآية . قال أبو داود يغل مفتوحة الياء .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abdullah ibn Abbas: The verse \"And no Prophet could (ever) be false to his trust\" was revealed about a red velvet. When it was found missing on the day of Badr, some people said; Perhaps the Messenger of Allah (ﷺ) has taken it. So Allah, the Exalted, sent down \"And no prophet could (ever) be false to his trust\" to the end of the verse. Abu Dawud said: In the word yaghulla the letter ya has a short vowel a",
+    "iwh_en": "Abdullah ibn Abbas (may Allah be pleased with him) reported that the verse \"And no Prophet could (ever) be false to his trust\" was revealed about a red velvet. When it was found missing on the day of Badr, some people said; Perhaps the Messenger of Allah ﷺ has taken it. So Allah, the Exalted, sent down \"And no prophet could (ever) be false to his trust\" to the end of the verse. Abu Dawud said: In the word yaghulla the letter ya has a short vowel a",
+    "iwh_id": "Abdullah ibn Abbas  (radhiyallahu 'anhu) meriwayatkan bahwa the verse \"And no Prophet could (ever) be false to his trust\" was revealed about a red velvet. When it was found missing on the day of Badr, some people said; Perhaps Rasulullah ﷺ has taken it. So Allah, the Exalted, sent down \"And no prophet could (ever) be false to his trust\" to the end of the verse. Abu Dawud said: In the word yaghulla the letter ya has a short vowel a",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "prophet",
+      "ethics",
+      "sin"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19123",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3971"
+  },
+  {
+    "n": 4,
+    "cn": 3972,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَبِي قَالَ، سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، يَقُولُ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏ \"‏ اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبُخْلِ وَالْهَرَمِ ‏\"‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَبِي قَالَ، سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، يَقُولُ قَالَ النَّبِيُّ صلى الله عليه وسلم  \" اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبُخْلِ وَالْهَرَمِ \" .",
+    "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا مُعْتَمِرٌ، قَالَ سَمِعْتُ أَ",
+    "matn_ar": "بِي قَالَ، سَمِعْتُ أَنَسَ بْنَ مَالِكٍ، يَقُولُ قَالَ النَّبِيُّ صلى الله عليه وسلم \" اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْبُخْلِ وَالْهَرَمِ \" .",
+    "matn_ar_clean": "بي قال، سمعت أنس بن مالك، يقول قال النبي صلى الله عليه وسلم \" اللهم إني أعوذ بك من البخل والهرم \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Anas b. Malik reported that Messenger of Allah (ﷺ) as saying:O Allah, I seek refuge in Thee from niggardliness and old age",
+    "iwh_en": "Anas b. Malik reported that Messenger of Allah (ﷺ) as saying:O Allah, I seek refuge in Thee from niggardliness and old age",
+    "iwh_id": "Anas b. Malik reported that Messenger of Allah (ﷺ) as saying:O Allah, I seek refuge in Thee from niggardliness and old age",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Bukhari (2823) Sahih Muslim (2706)",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19124",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3972"
+  },
+  {
+    "n": 5,
+    "cn": 3973,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَحْيَى بْنُ سُلَيْمٍ، عَنْ إِسْمَاعِيلَ بْنِ كَثِيرٍ، عَنْ عَاصِمِ بْنِ لَقِيطِ بْنِ صَبِرَةَ، عَنْ أَبِيهِ، لَقِيطِ بْنِ صَبِرَةَ قَالَ كُنْتُ وَافِدَ بَنِي الْمُنْتَفِقِ - أَوْ فِي وَفْدِ بَنِي الْمُنْتَفِقِ - إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ الْحَدِيثَ فَقَالَ - يَعْنِي النَّبِيَّ صلى الله عليه وسلم - ‏ \"‏ لاَ تَحْسِبَنَّ ‏\"‏ ‏.‏ وَلَمْ يَقُلْ لاَ تَحْسَبَنَّ ‏.‏",
+    "ar_clean": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَحْيَى بْنُ سُلَيْمٍ، عَنْ إِسْمَاعِيلَ بْنِ كَثِيرٍ، عَنْ عَاصِمِ بْنِ لَقِيطِ بْنِ صَبِرَةَ، عَنْ أَبِيهِ، لَقِيطِ بْنِ صَبِرَةَ قَالَ كُنْتُ وَافِدَ بَنِي الْمُنْتَفِقِ - أَوْ فِي وَفْدِ بَنِي الْمُنْتَفِقِ - إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ الْحَدِيثَ فَقَالَ - يَعْنِي النَّبِيَّ صلى الله عليه وسلم -  \" لاَ تَحْسِبَنَّ \" . وَلَمْ يَقُلْ لاَ تَحْسَبَنَّ .",
+    "isnad_ar": "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، حَدَّثَنَا يَحْيَى بْنُ سُلَيْمٍ، عَنْ إِسْمَاعِيلَ بْنِ كَثِيرٍ، عَنْ عَاصِمِ بْنِ لَقِيطِ بْنِ صَبِرَةَ، عَنْ أَبِيهِ، لَقِيطِ بْنِ صَبِرَةَ قَالَ كُنْتُ وَافِدَ بَنِي",
+    "matn_ar": "الْمُنْتَفِقِ - أَوْ فِي وَفْدِ بَنِي الْمُنْتَفِقِ - إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَذَكَرَ الْحَدِيثَ فَقَالَ - يَعْنِي النَّبِيَّ صلى الله عليه وسلم - \" لاَ تَحْسِبَنَّ \" . وَلَمْ يَقُلْ لاَ تَحْسَبَنَّ .",
+    "matn_ar_clean": "المنتفق - أو في وفد بني المنتفق - إلى رسول الله صلى الله عليه وسلم فذكر الحديث فقال - يعني النبي صلى الله عليه وسلم - \" لا تحسبن \" . ولم يقل لا تحسبن .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Laqit ibn Sabirah: I came in the deputation of Banu al-Muntafiq to the Messenger of Allah (ﷺ). He then narrated the rest of the tradition. The Prophet (ﷺ) said: la tahsibanna (do not think) and did not say: la tahsabanna (do not think)",
+    "iwh_en": "Laqit ibn Sabirah (may Allah be pleased with him) reported that i came in the deputation of Banu al-Muntafiq to the Messenger of Allah ﷺ. He then narrated the rest of the tradition. the Prophet ﷺ said: la tahsibanna (do not think) and did not say: la tahsabanna (do not think)",
+    "iwh_id": "Laqit ibn Sabirah  (radhiyallahu 'anhu) meriwayatkan bahwa i came in the deputation of Banu al-Muntafiq to Rasulullah ﷺ. He then narrated the rest of the tradition. Nabi ﷺ said: la tahsibanna (do not think) and did not say: la tahsabanna (do not think)",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19125",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3973"
+  },
+  {
+    "n": 6,
+    "cn": 3974,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ لَحِقَ الْمُسْلِمُونَ رَجُلاً فِي غُنَيْمَةٍ لَهُ فَقَالَ السَّلاَمُ عَلَيْكُمْ فَقَتَلُوهُ وَأَخَذُوا تِلْكَ الْغُنَيْمَةَ فَنَزَلَتْ ‏{‏ وَلاَ تَقُولُوا لِمَنْ أَلْقَى إِلَيْكُمُ السَّلاَمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ الْحَيَاةِ الدُّنْيَا ‏}‏ تِلْكَ الْغُنَيْمَةَ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ عَطَاءٍ، عَنِ ابْنِ عَبَّاسٍ، قَالَ لَحِقَ الْمُسْلِمُونَ رَجُلاً فِي غُنَيْمَةٍ لَهُ فَقَالَ السَّلاَمُ عَلَيْكُمْ فَقَتَلُوهُ وَأَخَذُوا تِلْكَ الْغُنَيْمَةَ فَنَزَلَتْ { وَلاَ تَقُولُوا لِمَنْ أَلْقَى إِلَيْكُمُ السَّلاَمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ الْحَيَاةِ الدُّنْيَا } تِلْكَ الْغُنَيْمَةَ .",
+    "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا سُفْيَانُ، حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ عَطَاءٍ، عَنِ اب",
+    "matn_ar": "ْنِ عَبَّاسٍ، قَالَ لَحِقَ الْمُسْلِمُونَ رَجُلاً فِي غُنَيْمَةٍ لَهُ فَقَالَ السَّلاَمُ عَلَيْكُمْ فَقَتَلُوهُ وَأَخَذُوا تِلْكَ الْغُنَيْمَةَ فَنَزَلَتْ { وَلاَ تَقُولُوا لِمَنْ أَلْقَى إِلَيْكُمُ السَّلاَمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ الْحَيَاةِ الدُّنْيَا } تِلْكَ الْغُنَيْمَةَ .",
+    "matn_ar_clean": "ن عباس، قال لحق المسلمون رجلا في غنيمة له فقال السلام عليكم فقتلوه وأخذوا تلك الغنيمة فنزلت { ولا تقولوا لمن ألقى إليكم السلام لست مؤمنا تبتغون عرض الحياة الدنيا } تلك الغنيمة .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Ibn 'Abbas:The Muslims met a man with some sheep of his. He said: Peace be upon you. But they killed him and took those few sheep. Thereupon the following Qur'anic verse was revealed: \"...And say to anyone who offers you a salutation: Thou art none of believer, coveting the perishable good of this life.\" meaning these few sheep",
+    "iwh_en": "Ibn 'Abbas (may Allah be pleased with him) reported that the Muslims met a man with some sheep of his. He said: Peace be upon you. But they killed him and took those few sheep. Thereupon the following Qur'anic verse was revealed: \"...And say to anyone who offers you a salutation: Thou art none of believer, coveting the perishable good of this life.\" meaning these few sheep",
+    "iwh_id": "Ibn 'Abbas  (radhiyallahu 'anhu) meriwayatkan bahwa the Muslims met a man with some sheep of his. He said: Peace be upon you. But they killed him and took those few sheep. Thereupon the following Qur'anic verse was revealed: \"...And say to anyone who offers you a salutation: Thou art none of believer, coveting the perishable good of this life.\" meaning these few sheep",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Bukhari (4591) Sahih Muslim (3025)",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "islam",
+      "salah",
+      "quran",
+      "ethics"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19126",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3974"
+  },
+  {
+    "n": 7,
+    "cn": 3975,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، حَدَّثَنَا ابْنُ أَبِي الزِّنَادِ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ سُلَيْمَانَ الأَنْبَارِيُّ، حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، عَنِ ابْنِ أَبِي الزِّنَادِ، - وَهُوَ أَشْبَعُ - عَنْ أَبِيهِ، عَنْ خَارِجَةَ بْنِ زَيْدِ بْنِ ثَابِتٍ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَقْرَأُ ‏{‏ غَيْرُ أُولِي الضَّرَرِ ‏}‏ وَلَمْ يَقُلْ سَعِيدٌ كَانَ يَقْرَأُ ‏.‏",
+    "ar_clean": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، حَدَّثَنَا ابْنُ أَبِي الزِّنَادِ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ سُلَيْمَانَ الأَنْبَارِيُّ، حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، عَنِ ابْنِ أَبِي الزِّنَادِ، - وَهُوَ أَشْبَعُ - عَنْ أَبِيهِ، عَنْ خَارِجَةَ بْنِ زَيْدِ بْنِ ثَابِتٍ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَقْرَأُ { غَيْرُ أُولِي الضَّرَرِ } وَلَمْ يَقُلْ سَعِيدٌ كَانَ يَقْرَأُ .",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا سَعِيدُ بْنُ مَنْصُورٍ، حَدَّثَنَا ابْنُ أَبِي الزِّنَادِ، ح وَحَدَّثَنَا مُحَمَّدُ بْنُ سُلَيْمَانَ الأَنْبَارِيُّ، حَدَّثَنَا حَجَّاجُ بْنُ مُحَمَّدٍ، عَنِ ابْنِ أَبِي الزِّنَادِ، - وَهُوَ أَشْبَعُ - عَنْ أَبِيهِ، عَنْ خَارِجَةَ بْنِ زَيْدِ بْنِ ثَابِتٍ، عَنْ أَبِيهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَقْرَأُ ‏{‏ غَيْرُ أُولِي الضَّرَرِ ‏}‏ وَلَمْ يَقُلْ سَعِيدٌ كَانَ يَقْرَأُ ‏.‏",
+    "matn_ar_clean": "حدثنا سعيد بن منصور، حدثنا ابن أبي الزناد، ح وحدثنا محمد بن سليمان الأنباري، حدثنا حجاج بن محمد، عن ابن أبي الزناد، - وهو أشبع - عن أبيه، عن خارجة بن زيد بن ثابت، عن أبيه، أن النبي صلى الله عليه وسلم كان يقرأ ‏{‏ غير أولي الضرر ‏}‏ ولم يقل سعيد كان يقرأ ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "Narrated Zayd ibn Thabit: The Prophet (ﷺ) used to read: \"Not equal are those believers who sit (at home) and receive no hurt (ghayru ulid-darari) but the narrator Sa'id did not say the words \"used to read",
+    "iwh_en": "Zayd ibn Thabit (may Allah be pleased with him) reported that the Prophet ﷺ used to read: \"Not equal are those believers who sit (at home) and receive no hurt (ghayru ulid-darari) but the narrator Sa'id did not say the words \"used to read",
+    "iwh_id": "Zayd ibn Thabit  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ used to read: \"Not equal are those believers who sit (at home) and receive no hurt (ghayru ulid-darari) but the narrator Sa'id did not say the words \"used to read",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "hajj",
+      "prophet",
+      "ethics"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19127",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3975"
+  },
+  {
+    "n": 8,
+    "cn": 3976,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، حَدَّثَنَا يُونُسُ بْنُ يَزِيدَ، عَنْ أَبِي عَلِيِّ بْنِ يَزِيدَ، عَنِ الزُّهْرِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَرَأَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم ‏{‏ وَالْعَيْنُ بِالْعَيْنِ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، حَدَّثَنَا يُونُسُ بْنُ يَزِيدَ، عَنْ أَبِي عَلِيِّ بْنِ يَزِيدَ، عَنِ الزُّهْرِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَرَأَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم { وَالْعَيْنُ بِالْعَيْنِ } .",
+    "isnad_ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، قَالاَ حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، حَدَّثَنَا يُونُسُ",
+    "matn_ar": "بْنُ يَزِيدَ، عَنْ أَبِي عَلِيِّ بْنِ يَزِيدَ، عَنِ الزُّهْرِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، قَالَ قَرَأَهَا رَسُولُ اللَّهِ صلى الله عليه وسلم { وَالْعَيْنُ بِالْعَيْنِ } .",
+    "matn_ar_clean": "بن يزيد، عن أبي علي بن يزيد، عن الزهري، عن أنس بن مالك، قال قرأها رسول الله صلى الله عليه وسلم { والعين بالعين } .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Anas ibn Malik: The Messenger of Allah (ﷺ) read the verse: \"eye for eye\" (al-'aynu bil-'ayn)",
+    "iwh_en": "Anas ibn Malik (may Allah be pleased with him) reported that the Messenger of Allah ﷺ read the verse: \"eye for eye\" (al-'aynu bil-'ayn)",
+    "iwh_id": "Anas ibn Malik  (radhiyallahu 'anhu) meriwayatkan bahwa Rasulullah ﷺ read the verse: \"eye for eye\" (al-'aynu bil-'ayn)",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "magic-and-evil-eye",
+      "quran",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19128",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3976"
+  },
+  {
+    "n": 9,
+    "cn": 3977,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، حَدَّثَنَا أَبِي، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، حَدَّثَنَا يُونُسُ بْنُ يَزِيدَ، عَنْ أَبِي عَلِيِّ بْنِ يَزِيدَ، عَنِ الزُّهْرِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَرَأَ ‏{‏ وَكَتَبْنَا عَلَيْهِمْ فِيهَا أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنُ بِالْعَيْنِ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، حَدَّثَنَا أَبِي، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، حَدَّثَنَا يُونُسُ بْنُ يَزِيدَ، عَنْ أَبِي عَلِيِّ بْنِ يَزِيدَ، عَنِ الزُّهْرِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَرَأَ { وَكَتَبْنَا عَلَيْهِمْ فِيهَا أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنُ بِالْعَيْنِ } .",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، حَدَّثَنَا أَبِي، حَدَّثَنَا عَبْدُ اللَّهِ بْنُ الْمُبَارَكِ، حَدَّثَنَا يُونُسُ بْنُ يَزِيدَ، عَنْ أَبِي عَلِيِّ بْنِ يَزِيدَ، عَنِ الزُّهْرِيِّ، عَنْ أَنَسِ بْنِ مَالِكٍ، رَضِيَ اللَّهُ عَنْهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَرَأَ ‏{‏ وَكَتَبْنَا عَلَيْهِمْ فِيهَا أَنَّ النَّفْسَ بِالنَّفْسِ وَالْعَيْنُ بِالْعَيْنِ ‏}‏ ‏.‏",
+    "matn_ar_clean": "حدثنا نصر بن علي، حدثنا أبي، حدثنا عبد الله بن المبارك، حدثنا يونس بن يزيد، عن أبي علي بن يزيد، عن الزهري، عن أنس بن مالك، رضي الله عنه أن رسول الله صلى الله عليه وسلم قرأ ‏{‏ وكتبنا عليهم فيها أن النفس بالنفس والعين بالعين ‏}‏ ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "Narrated Anas ibn Malik: The Prophet (ﷺ) read the verse: \"We ordained therein for them: Life for life and eye for eye (an-nafsa bin-nafsi wal-'aynu bil-'ayn)",
+    "iwh_en": "Anas ibn Malik (may Allah be pleased with him) reported that the Prophet ﷺ read the verse: \"We ordained therein for them: Life for life and eye for eye (an-nafsa bin-nafsi wal-'aynu bil-'ayn)",
+    "iwh_id": "Anas ibn Malik  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ read the verse: \"We ordained therein for them: Life for life and eye for eye (an-nafsa bin-nafsi wal-'aynu bil-'ayn)",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "magic-and-evil-eye",
+      "quran",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19129",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3977"
+  },
+  {
+    "n": 10,
+    "cn": 3978,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا النُّفَيْلِيُّ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا فُضَيْلُ بْنُ مَرْزُوقٍ، عَنْ عَطِيَّةَ بْنِ سَعْدٍ الْعَوْفِيِّ، قَالَ قَرَأْتُ عَلَى عَبْدِ اللَّهِ بْنِ عُمَرَ ‏{‏ اللَّهُ الَّذِي خَلَقَكُمْ مِنْ ضَعْفٍ ‏}‏ فَقَالَ ‏{‏ مِنْ ضُعْفٍ ‏}‏ قَرَأْتُهَا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم كَمَا قَرَأْتَهَا عَلَىَّ فَأَخَذَ عَلَىَّ كَمَا أَخَذْتُ عَلَيْكَ ‏.‏",
+    "ar_clean": "حَدَّثَنَا النُّفَيْلِيُّ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا فُضَيْلُ بْنُ مَرْزُوقٍ، عَنْ عَطِيَّةَ بْنِ سَعْدٍ الْعَوْفِيِّ، قَالَ قَرَأْتُ عَلَى عَبْدِ اللَّهِ بْنِ عُمَرَ { اللَّهُ الَّذِي خَلَقَكُمْ مِنْ ضَعْفٍ } فَقَالَ { مِنْ ضُعْفٍ } قَرَأْتُهَا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم كَمَا قَرَأْتَهَا عَلَىَّ فَأَخَذَ عَلَىَّ كَمَا أَخَذْتُ عَلَيْكَ .",
+    "isnad_ar": "حَدَّثَنَا النُّفَيْلِيُّ، حَدَّثَنَا زُهَيْرٌ، حَدَّثَنَا فُضَيْلُ بْنُ مَرْزُوقٍ، عَنْ عَطِيَّةَ بْنِ سَعْدٍ الْعَوْفِيِّ، قَا",
+    "matn_ar": "لَ قَرَأْتُ عَلَى عَبْدِ اللَّهِ بْنِ عُمَرَ { اللَّهُ الَّذِي خَلَقَكُمْ مِنْ ضَعْفٍ } فَقَالَ { مِنْ ضُعْفٍ } قَرَأْتُهَا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم كَمَا قَرَأْتَهَا عَلَىَّ فَأَخَذَ عَلَىَّ كَمَا أَخَذْتُ عَلَيْكَ .",
+    "matn_ar_clean": "ل قرأت على عبد الله بن عمر { الله الذي خلقكم من ضعف } فقال { من ضعف } قرأتها على رسول الله صلى الله عليه وسلم كما قرأتها على فأخذ على كما أخذت عليك .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abdullah ibn Umar: Atiyyah ibn Sa'd al-Awfi said: I recited to Abdullah ibn Umar the verse: \"It is Allah Who created you in a state of (helplessness) weakness (min da'f).\" He said: (Read) min du'f. I recited it to the Messenger of Allah (ﷺ) as you recited it to me, and he gripped me as I gripped you",
+    "iwh_en": "Abdullah ibn Umar (may Allah be pleased with him) reported that atiyyah ibn Sa'd al-Awfi said: I recited to Abdullah ibn Umar the verse: \"It is Allah Who created you in a state of (helplessness) weakness (min da'f).\" He said: (Read) min du'f. I recited it to the Messenger of Allah ﷺ as you recited it to me, and he gripped me as I gripped you",
+    "iwh_id": "Abdullah ibn Umar  (radhiyallahu 'anhu) meriwayatkan bahwa atiyyah ibn Sa'd al-Awfi said: I recited to Abdullah ibn Umar the verse: \"It is Allah Who created you in a state of (helplessness) weakness (min da'f).\" He said: (Read) min du'f. I recited it to Rasulullah ﷺ as you recited it to me, and he gripped me as I gripped you",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "food-and-drink",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19130",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3978"
+  },
+  {
+    "n": 11,
+    "cn": 3979,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى الْقُطَعِيُّ، حَدَّثَنَا عُبَيْدٌ، - يَعْنِي ابْنَ عَقِيلٍ - عَنْ هَارُونَ، عَنْ عَبْدِ اللَّهِ بْنِ جَابِرٍ، عَنْ عَطِيَّةَ، عَنْ أَبِي سَعِيدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏{‏ مِنْ ضُعْفٍ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى الْقُطَعِيُّ، حَدَّثَنَا عُبَيْدٌ، - يَعْنِي ابْنَ عَقِيلٍ - عَنْ هَارُونَ، عَنْ عَبْدِ اللَّهِ بْنِ جَابِرٍ، عَنْ عَطِيَّةَ، عَنْ أَبِي سَعِيدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم { مِنْ ضُعْفٍ } .",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى الْقُطَعِيُّ، حَدَّثَنَا عُبَيْدٌ، - يَعْنِي ابْنَ عَقِيلٍ - عَنْ هَارُونَ، عَنْ عَبْدِ اللَّهِ بْنِ جَابِرٍ، عَنْ عَطِيَّةَ، عَنْ أَبِي سَعِيدٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم ‏{‏ مِنْ ضُعْفٍ ‏}‏ ‏.‏",
+    "matn_ar_clean": "حدثنا محمد بن يحيى القطعي، حدثنا عبيد، - يعني ابن عقيل - عن هارون، عن عبد الله بن جابر، عن عطية، عن أبي سعيد، عن النبي صلى الله عليه وسلم ‏{‏ من ضعف ‏}‏ ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "Narrated AbuSa'id al-Khudri: The Prophet (ﷺ) read the verse mentioned above, \"min du'f",
+    "iwh_en": "AbuSa'id al-Khudri (may Allah be pleased with him) reported that the Prophet ﷺ read the verse mentioned above, \"min du'f",
+    "iwh_id": "AbuSa'id al-Khudri  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ read the verse mentioned above, \"min du'f",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "hajj",
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19131",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3979"
+  },
+  {
+    "n": 12,
+    "cn": 3980,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، عَنْ أَسْلَمَ الْمِنْقَرِيِّ، عَنْ عَبْدِ اللَّهِ، عَنْ أَبِيهِ عَبْدِ الرَّحْمَنِ بْنِ أَبْزَى، قَالَ قَالَ أُبَىُّ بْنُ كَعْبٍ ‏{‏ بِفَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَلِكَ فَلْتَفْرَحُوا ‏}‏ ‏.‏ قَالَ أَبُو دَاوُدَ بِالتَّاءِ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، عَنْ أَسْلَمَ الْمِنْقَرِيِّ، عَنْ عَبْدِ اللَّهِ، عَنْ أَبِيهِ عَبْدِ الرَّحْمَنِ بْنِ أَبْزَى، قَالَ قَالَ أُبَىُّ بْنُ كَعْبٍ { بِفَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَلِكَ فَلْتَفْرَحُوا } . قَالَ أَبُو دَاوُدَ بِالتَّاءِ .",
+    "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ كَثِيرٍ، أَخْبَرَنَا سُفْيَانُ، عَنْ أَسْلَمَ الْمِنْقَرِيِّ، عَنْ عَبْدِ اللَّهِ، عَنْ أَبِيهِ عَبْدِ الرَّحْمَنِ بْنِ أَبْ",
+    "matn_ar": "زَى، قَالَ قَالَ أُبَىُّ بْنُ كَعْبٍ { بِفَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَلِكَ فَلْتَفْرَحُوا } . قَالَ أَبُو دَاوُدَ بِالتَّاءِ .",
+    "matn_ar_clean": "زى، قال قال أبى بن كعب { بفضل الله وبرحمته فبذلك فلتفرحوا } . قال أبو داود بالتاء .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Ubayy b. Ka'b:\"Say, in the bounty of Allah, and in His mercy- in that let you rejoice",
+    "iwh_en": "Ubayy b. Ka'b (may Allah be pleased with him) reported that \"Say, in the bounty of Allah, and in His mercy- in that let you rejoice",
+    "iwh_id": "Ubayy b. Ka'b  (radhiyallahu 'anhu) meriwayatkan bahwa \"Say, in the bounty of Allah, and in His mercy- in that let you rejoice",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19132",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3980"
+  },
+  {
+    "n": 13,
+    "cn": 3981,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا الْمُغِيرَةُ بْنُ سَلَمَةَ، حَدَّثَنَا ابْنُ الْمُبَارَكِ، عَنِ الأَجْلَحِ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ بْنِ أَبْزَى، عَنْ أَبِيهِ، عَنْ أُبَىٍّ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَرَأَ ‏{‏ بِفَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَلِكَ فَلْيَفْرَحُوا هُوَ خَيْرٌ مِمَّا تَجْمَعُونَ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا الْمُغِيرَةُ بْنُ سَلَمَةَ، حَدَّثَنَا ابْنُ الْمُبَارَكِ، عَنِ الأَجْلَحِ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ بْنِ أَبْزَى، عَنْ أَبِيهِ، عَنْ أُبَىٍّ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَرَأَ { بِفَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَلِكَ فَلْيَفْرَحُوا هُوَ خَيْرٌ مِمَّا تَجْمَعُونَ } .",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ، حَدَّثَنَا الْمُغِيرَةُ بْنُ سَلَمَةَ، حَدَّثَنَا ابْنُ الْمُبَارَكِ، عَنِ الأَجْلَحِ، حَدَّثَنِي عَبْدُ اللَّهِ بْنُ عَبْدِ الرَّحْمَنِ بْنِ أَبْزَى، عَنْ أَبِيهِ، عَنْ أُبَىٍّ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَرَأَ ‏{‏ بِفَضْلِ اللَّهِ وَبِرَحْمَتِهِ فَبِذَلِكَ فَلْيَفْرَحُوا هُوَ خَيْرٌ مِمَّا تَجْمَعُونَ ‏}‏ ‏.‏",
+    "matn_ar_clean": "حدثنا محمد بن عبد الله، حدثنا المغيرة بن سلمة، حدثنا ابن المبارك، عن الأجلح، حدثني عبد الله بن عبد الرحمن بن أبزى، عن أبيه، عن أبى، أن النبي صلى الله عليه وسلم قرأ ‏{‏ بفضل الله وبرحمته فبذلك فليفرحوا هو خير مما تجمعون ‏}‏ ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "(Narrated Ibn Abzi: Ubayy ibn Ka'b) said: The Prophet (ﷺ) read the verse: \"Say: In the bounty of Allah and in His mercy--in that let you rejoice: that is better than the wealth you hoard",
+    "iwh_en": "(Narrated Ibn Abzi: Ubayy ibn Ka'b) said: the Prophet ﷺ read the verse: \"Say: In the bounty of Allah and in His mercy--in that let you rejoice: that is better than the wealth you hoard",
+    "iwh_id": "(Narrated Ibn Abzi: Ubayy ibn Ka'b) said: Nabi ﷺ read the verse: \"Say: In the bounty of Allah and in His mercy--in that let you rejoice: that is better than the wealth you hoard",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "prophet",
+      "wealth"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19133",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3981"
+  },
+  {
+    "n": 14,
+    "cn": 3982,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، أَخْبَرَنَا ثَابِتٌ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، عَنْ أَسْمَاءَ بِنْتِ يَزِيدَ، أَنَّهَا سَمِعَتِ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ ‏{‏ إِنَّهُ عَمِلَ غَيْرَ صَالِحٍ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، أَخْبَرَنَا ثَابِتٌ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، عَنْ أَسْمَاءَ بِنْتِ يَزِيدَ، أَنَّهَا سَمِعَتِ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ { إِنَّهُ عَمِلَ غَيْرَ صَالِحٍ } .",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، أَخْبَرَنَا ثَابِتٌ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، عَنْ أَسْمَاءَ بِنْتِ يَزِيدَ، أَنَّهَا سَمِعَتِ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ ‏{‏ إِنَّهُ عَمِلَ غَيْرَ صَالِحٍ ‏}‏ ‏.‏",
+    "matn_ar_clean": "حدثنا موسى بن إسماعيل، حدثنا حماد، أخبرنا ثابت، عن شهر بن حوشب، عن أسماء بنت يزيد، أنها سمعت النبي صلى الله عليه وسلم يقرأ ‏{‏ إنه عمل غير صالح ‏}‏ ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "Narrated Asma' daughter of Yazid: She heard the Prophet (ﷺ) read the verse: \"He acted unrighteously.\" (innahu 'amila ghayra salih)",
+    "iwh_en": "Asma' daughter of Yazid (may Allah be pleased with her) reported that she heard the Prophet ﷺ read the verse: \"He acted unrighteously.\" (innahu 'amila ghayra salih)",
+    "iwh_id": "Asma' daughter of Yazid  (radhiyallahu 'anha) meriwayatkan bahwa she heard Nabi ﷺ read the verse: \"He acted unrighteously.\" (innahu 'amila ghayra salih)",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "taqwa",
+      "allahss-names",
+      "quran",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19134",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3982"
+  },
+  {
+    "n": 15,
+    "cn": 3983,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا أَبُو كَامِلٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي ابْنَ الْمُخْتَارِ - حَدَّثَنَا ثَابِتٌ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، قَالَ سَأَلْتُ أُمَّ سَلَمَةَ كَيْفَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم صلى الله عليه وسلم يَقْرَأُ هَذِهِ الآيَةَ ‏{‏ إِنَّهُ عَمَلٌ غَيْرُ صَالِحٍ ‏}‏ فَقَالَتْ قَرَأَهَا ‏{‏ إِنَّهُ عَمِلَ غَيْرَ صَالِحٍ ‏}‏ قَالَ أَبُو دَاوُدَ وَرَوَاهُ هَارُونُ النَّحْوِيُّ وَمُوسَى بْنُ خَلَفٍ عَنْ ثَابِتٍ كَمَا قَالَ عَبْدُ الْعَزِيزِ ‏.‏",
+    "ar_clean": "حَدَّثَنَا أَبُو كَامِلٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي ابْنَ الْمُخْتَارِ - حَدَّثَنَا ثَابِتٌ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، قَالَ سَأَلْتُ أُمَّ سَلَمَةَ كَيْفَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم صلى الله عليه وسلم يَقْرَأُ هَذِهِ الآيَةَ { إِنَّهُ عَمَلٌ غَيْرُ صَالِحٍ } فَقَالَتْ قَرَأَهَا { إِنَّهُ عَمِلَ غَيْرَ صَالِحٍ } قَالَ أَبُو دَاوُدَ وَرَوَاهُ هَارُونُ النَّحْوِيُّ وَمُوسَى بْنُ خَلَفٍ عَنْ ثَابِتٍ كَمَا قَالَ عَبْدُ الْعَزِيزِ .",
+    "isnad_ar": "حَدَّثَنَا أَبُو كَامِلٍ، حَدَّثَنَا عَبْدُ الْعَزِيزِ، - يَعْنِي ابْنَ الْمُخْتَارِ - حَدَّثَنَا ثَابِتٌ، عَنْ شَهْرِ بْنِ حَوْشَبٍ، قَالَ سَأَلْتُ أُمَّ سَلَمَةَ كَيْفَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم صلى الله عليه وسلم يَقْرَأُ هَذِهِ الآيَةَ { إِنَّهُ عَمَلٌ غَيْرُ صَا",
+    "matn_ar": "لِحٍ } فَقَالَتْ قَرَأَهَا { إِنَّهُ عَمِلَ غَيْرَ صَالِحٍ } قَالَ أَبُو دَاوُدَ وَرَوَاهُ هَارُونُ النَّحْوِيُّ وَمُوسَى بْنُ خَلَفٍ عَنْ ثَابِتٍ كَمَا قَالَ عَبْدُ الْعَزِيزِ .",
+    "matn_ar_clean": "لح } فقالت قرأها { إنه عمل غير صالح } قال أبو داود ورواه هارون النحوي وموسى بن خلف عن ثابت كما قال عبد العزيز .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Umm Salamah, Ummul Mu'minin: Shahr ibn Hawshab said: I asked Umm Salamah: How did the Messenger of Allah (ﷺ) read this verse: \"For his conduct is unrighteous (innahu 'amalun ghayru salih\". She replied: He read it: \"He acted unrighteously\" (innahu 'amila ghayra salih). Abu Dawud said: This tradition has been transmitted by Harun al-Nahwi and Musa b. Khalaf from Thabit as reported by the narrator 'Abd al-Aziz",
+    "iwh_en": "Umm Salamah, Ummul Mu'minin (may Allah be pleased with her) reported that shahr ibn Hawshab said: I asked Umm Salamah: How did the Messenger of Allah ﷺ read this verse: \"For his conduct is unrighteous (innahu 'amalun ghayru salih\". She replied: He read it: \"He acted unrighteously\" (innahu 'amila ghayra salih). Abu Dawud said: This tradition has been transmitted by Harun al-Nahwi and Musa b. Khalaf from Thabit as reported by the narrator 'Abd al-Aziz",
+    "iwh_id": "Umm Salamah, Ummul Mu'minin (radhiyallahu 'anha) reported that shahr ibn Hawshab said: I asked Umm Salamah: How did Rasulullah ﷺ read this verse: \"For his conduct is unrighteous (innahu 'amalun ghayru salih\". She replied: He read it: \"He acted unrighteously\" (innahu 'amila ghayra salih). Abu Dawud said: This tradition has been transmitted by Harun al-Nahwi and Musa b. Khalaf from Thabit as reported by the narrator 'Abd al-Aziz",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "taqwa",
+      "quran",
+      "manners",
+      "prophet",
+      "companions",
+      "ethics"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19135",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3983"
+  },
+  {
+    "n": 16,
+    "cn": 3984,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا عِيسَى، عَنْ حَمْزَةَ الزَّيَّاتِ، عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا دَعَا بَدَأَ بِنَفْسِهِ وَقَالَ ‏\"‏ رَحْمَةُ اللَّهِ عَلَيْنَا وَعَلَى مُوسَى لَوْ صَبَرَ لَرَأَى مِنْ صَاحِبِهِ الْعَجَبَ وَلَكِنَّهُ قَالَ ‏{‏ إِنْ سَأَلْتُكَ عَنْ شَىْءٍ بَعْدَهَا فَلاَ تُصَاحِبْنِي قَدْ بَلَغْتَ مِنْ لَدُنِي ‏}‏ ‏\"‏ ‏.‏ طَوَّلَهَا حَمْزَةُ ‏.‏",
+    "ar_clean": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا عِيسَى، عَنْ حَمْزَةَ الزَّيَّاتِ، عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا دَعَا بَدَأَ بِنَفْسِهِ وَقَالَ \" رَحْمَةُ اللَّهِ عَلَيْنَا وَعَلَى مُوسَى لَوْ صَبَرَ لَرَأَى مِنْ صَاحِبِهِ الْعَجَبَ وَلَكِنَّهُ قَالَ { إِنْ سَأَلْتُكَ عَنْ شَىْءٍ بَعْدَهَا فَلاَ تُصَاحِبْنِي قَدْ بَلَغْتَ مِنْ لَدُنِي } \" . طَوَّلَهَا حَمْزَةُ .",
+    "isnad_ar": "حَدَّثَنَا إِبْرَاهِيمُ بْنُ مُوسَى، أَخْبَرَنَا عِيسَى، عَنْ حَمْزَةَ الزَّيَّاتِ، عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، قَالَ كَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَ",
+    "matn_ar": "ا دَعَا بَدَأَ بِنَفْسِهِ وَقَالَ \" رَحْمَةُ اللَّهِ عَلَيْنَا وَعَلَى مُوسَى لَوْ صَبَرَ لَرَأَى مِنْ صَاحِبِهِ الْعَجَبَ وَلَكِنَّهُ قَالَ { إِنْ سَأَلْتُكَ عَنْ شَىْءٍ بَعْدَهَا فَلاَ تُصَاحِبْنِي قَدْ بَلَغْتَ مِنْ لَدُنِي } \" . طَوَّلَهَا حَمْزَةُ .",
+    "matn_ar_clean": "ا دعا بدأ بنفسه وقال \" رحمة الله علينا وعلى موسى لو صبر لرأى من صاحبه العجب ولكنه قال { إن سألتك عن شىء بعدها فلا تصاحبني قد بلغت من لدني } \" . طولها حمزة .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Ubayy ibn Ka'b:: When the Messenger of Allah (ﷺ) prayed, he began with himself and said: May the mercy of Allah be upon us and upon Moses. If he had patience, he would have seen marvels from his Companion. But he said: \"(Moses) said: If ever I ask thee about anything after this, keep me not in they company: then wouldst thou have received (full) excuse from my side\". Hamzah lengthened it",
+    "iwh_en": "Ubayy ibn Ka'b (may Allah be pleased with him) reported that : When the Messenger of Allah ﷺ prayed, he began with himself and said: May the mercy of Allah be upon us and upon Moses. If he had patience, he would have seen marvels from his Companion. But he said: \"(Moses) said: If ever I ask thee about anything after this, keep me not in they company: then wouldst thou have received (full) excuse from my side\". Hamzah lengthened it",
+    "iwh_id": "Ubayy ibn Ka'b  (radhiyallahu 'anhu) meriwayatkan bahwa : When Rasulullah ﷺ prayed, he began with himself and said: May the mercy of Allah be upon us and upon Moses. If he had patience, he would have seen marvels from his Companion. But he said: \"(Moses) said: If ever I ask thee about anything after this, keep me not in they company: then wouldst thou have received (full) excuse from my side\". Hamzah lengthened it",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19136",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3984"
+  },
+  {
+    "n": 17,
+    "cn": 3985,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحْمَنِ أَبُو عَبْدِ اللَّهِ الْعَنْبَرِيُّ، حَدَّثَنَا أُمَيَّةُ بْنُ خَالِدٍ، حَدَّثَنَا أَبُو الْجَارِيَةِ الْعَبْدِيُّ، عَنْ شُعْبَةَ، عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَرَأَهَا ‏{‏ قَدْ بَلَغْتَ مِنْ لَدُنِّي ‏}‏ وَثَقَّلَهَا ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحْمَنِ أَبُو عَبْدِ اللَّهِ الْعَنْبَرِيُّ، حَدَّثَنَا أُمَيَّةُ بْنُ خَالِدٍ، حَدَّثَنَا أَبُو الْجَارِيَةِ الْعَبْدِيُّ، عَنْ شُعْبَةَ، عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَرَأَهَا { قَدْ بَلَغْتَ مِنْ لَدُنِّي } وَثَقَّلَهَا .",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ الرَّحْمَنِ أَبُو عَبْدِ اللَّهِ الْعَنْبَرِيُّ، حَدَّثَنَا أُمَيَّةُ بْنُ خَالِدٍ، حَدَّثَنَا أَبُو الْجَارِيَةِ الْعَبْدِيُّ، عَنْ شُعْبَةَ، عَنْ أَبِي إِسْحَاقَ، عَنْ سَعِيدِ بْنِ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ، عَنْ أُبَىِّ بْنِ كَعْبٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم أَنَّهُ قَرَأَهَا ‏{‏ قَدْ بَلَغْتَ مِنْ لَدُنِّي ‏}‏ وَثَقَّلَهَا ‏.‏",
+    "matn_ar_clean": "حدثنا محمد بن عبد الرحمن أبو عبد الله العنبري، حدثنا أمية بن خالد، حدثنا أبو الجارية العبدي، عن شعبة، عن أبي إسحاق، عن سعيد بن جبير، عن ابن عباس، عن أبى بن كعب، عن النبي صلى الله عليه وسلم أنه قرأها ‏{‏ قد بلغت من لدني ‏}‏ وثقلها ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "Narrated Ubayy ibn Ka'b: The Prophet (ﷺ) read the Qur'anic verse: \"Thou hast received (full) excuse from me (min ladunni)\" and put tashdid (doubling of consonants) on nun (n)",
+    "iwh_en": "Ubayy ibn Ka'b (may Allah be pleased with him) reported that the Prophet ﷺ read the Qur'anic verse: \"Thou hast received (full) excuse from me (min ladunni)\" and put tashdid (doubling of consonants) on nun (n)",
+    "iwh_id": "Ubayy ibn Ka'b  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ read the Qur'anic verse: \"Thou hast received (full) excuse from me (min ladunni)\" and put tashdid (doubling of consonants) on nun (n)",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19137",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3985"
+  },
+  {
+    "n": 18,
+    "cn": 3986,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ مَسْعُودٍ الْمِصِّيصِيُّ، حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنَا مُحَمَّدُ بْنُ دِينَارٍ، حَدَّثَنَا سَعْدُ بْنُ أَوْسٍ، عَنْ مِصْدَعٍ أَبِي يَحْيَى، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ أَقْرَأَنِي أُبَىُّ بْنُ كَعْبٍ كَمَا أَقْرَأَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏{‏ فِي عَيْنٍ حَمِئَةٍ ‏}‏ مُخَفَّفَةً ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ مَسْعُودٍ الْمِصِّيصِيُّ، حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنَا مُحَمَّدُ بْنُ دِينَارٍ، حَدَّثَنَا سَعْدُ بْنُ أَوْسٍ، عَنْ مِصْدَعٍ أَبِي يَحْيَى، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ أَقْرَأَنِي أُبَىُّ بْنُ كَعْبٍ كَمَا أَقْرَأَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم { فِي عَيْنٍ حَمِئَةٍ } مُخَفَّفَةً .",
+    "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ مَسْعُودٍ الْمِصِّيصِيُّ، حَدَّثَنَا عَبْدُ الصَّمَدِ بْنُ عَبْدِ الْوَارِثِ، حَدَّثَنَا مُ",
+    "matn_ar": "حَمَّدُ بْنُ دِينَارٍ، حَدَّثَنَا سَعْدُ بْنُ أَوْسٍ، عَنْ مِصْدَعٍ أَبِي يَحْيَى، قَالَ سَمِعْتُ ابْنَ عَبَّاسٍ، يَقُولُ أَقْرَأَنِي أُبَىُّ بْنُ كَعْبٍ كَمَا أَقْرَأَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم { فِي عَيْنٍ حَمِئَةٍ } مُخَفَّفَةً .",
+    "matn_ar_clean": "حمد بن دينار، حدثنا سعد بن أوس، عن مصدع أبي يحيى، قال سمعت ابن عباس، يقول أقرأني أبى بن كعب كما أقرأه رسول الله صلى الله عليه وسلم { في عين حمئة } مخففة .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abdullah ibn Abbas: Ubayy ibn Ka'b made me read the following verse as the Messenger of Allah (ﷺ) made him read: \"in a spring of murky water\" (fi 'aynin hami'atin) with short vowel a after h",
+    "iwh_en": "Abdullah ibn Abbas (may Allah be pleased with him) reported that ubayy ibn Ka'b made me read the following verse as the Messenger of Allah ﷺ made him read: \"in a spring of murky water\" (fi 'aynin hami'atin) with short vowel a after h",
+    "iwh_id": "Abdullah ibn Abbas  (radhiyallahu 'anhu) meriwayatkan bahwa ubayy ibn Ka'b made me read the following verse as Rasulullah ﷺ made him read: \"in a spring of murky water\" (fi 'aynin hami'atin) with short vowel a after h",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "magic-and-evil-eye",
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19138",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3986"
+  },
+  {
+    "n": 19,
+    "cn": 3987,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا يَحْيَى بْنُ الْفَضْلِ، حَدَّثَنَا وُهَيْبٌ، - يَعْنِي ابْنَ عَمْرٍو النَّمَرِيَّ - أَخْبَرَنَا هَارُونُ، أَخْبَرَنِي أَبَانُ بْنُ تَغْلِبَ، عَنْ عَطِيَّةَ الْعَوْفِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ ‏\"‏ إِنَّ الرَّجُلَ مِنْ أَهْلِ عِلِّيِّينَ لَيُشْرِفُ عَلَى أَهْلِ الْجَنَّةِ فَتُضِيءُ الْجَنَّةُ لِوَجْهِهِ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ ‏\"‏ ‏.‏ قَالَ وَهَكَذَا جَاءَ الْحَدِيثُ ‏\"‏ دُرِّيٌّ ‏\"‏ ‏.‏ مَرْفُوعَةُ الدَّالِ لاَ تُهْمَزُ ‏\"‏ وَإِنَّ أَبَا بَكْرٍ وَعُمَرَ لَمِنْهُمْ وَأَنْعَمَا ‏\"‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا يَحْيَى بْنُ الْفَضْلِ، حَدَّثَنَا وُهَيْبٌ، - يَعْنِي ابْنَ عَمْرٍو النَّمَرِيَّ - أَخْبَرَنَا هَارُونُ، أَخْبَرَنِي أَبَانُ بْنُ تَغْلِبَ، عَنْ عَطِيَّةَ الْعَوْفِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَالَ \" إِنَّ الرَّجُلَ مِنْ أَهْلِ عِلِّيِّينَ لَيُشْرِفُ عَلَى أَهْلِ الْجَنَّةِ فَتُضِيءُ الْجَنَّةُ لِوَجْهِهِ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ \" . قَالَ وَهَكَذَا جَاءَ الْحَدِيثُ \" دُرِّيٌّ \" . مَرْفُوعَةُ الدَّالِ لاَ تُهْمَزُ \" وَإِنَّ أَبَا بَكْرٍ وَعُمَرَ لَمِنْهُمْ وَأَنْعَمَا \" .",
+    "isnad_ar": "حَدَّثَنَا يَحْيَى بْنُ الْفَضْلِ، حَدَّثَنَا وُهَيْبٌ، - يَعْنِي ابْنَ عَمْرٍو النَّمَرِيَّ - أَخْبَرَنَا هَارُونُ، أَخْبَرَنِي أَبَانُ بْنُ تَغْلِبَ، عَنْ عَطِيَّةَ الْعَوْفِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، أَنَّ النَّبِيَّ صلى الله عل",
+    "matn_ar": "يه وسلم قَالَ \" إِنَّ الرَّجُلَ مِنْ أَهْلِ عِلِّيِّينَ لَيُشْرِفُ عَلَى أَهْلِ الْجَنَّةِ فَتُضِيءُ الْجَنَّةُ لِوَجْهِهِ كَأَنَّهَا كَوْكَبٌ دُرِّيٌّ \" . قَالَ وَهَكَذَا جَاءَ الْحَدِيثُ \" دُرِّيٌّ \" . مَرْفُوعَةُ الدَّالِ لاَ تُهْمَزُ \" وَإِنَّ أَبَا بَكْرٍ وَعُمَرَ لَمِنْهُمْ وَأَنْعَمَا \" .",
+    "matn_ar_clean": "يه وسلم قال \" إن الرجل من أهل عليين ليشرف على أهل الجنة فتضيء الجنة لوجهه كأنها كوكب دري \" . قال وهكذا جاء الحديث \" دري \" . مرفوعة الدال لا تهمز \" وإن أبا بكر وعمر لمنهم وأنعما \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated AbuSa'id al-Khudri: The Prophet (ﷺ) said: A man from the Illiyyun will look downwards at the people of Paradise and Paradise will be glittering as if it were a brilliant star. He (the narrator) said: In this way the word durri (brilliant) occurs in this tradition, i.e. the letter dal (d) has short vowel u and it has no hamzah ('). AbuBakr and Umar will be of them and will have some additional blessings",
+    "iwh_en": "AbuSa'id al-Khudri (may Allah be pleased with him) reported that the Prophet ﷺ said: A man from the Illiyyun will look downwards at the people of Paradise and Paradise will be glittering as if it were a brilliant star. He (the narrator) said: In this way the word durri (brilliant) occurs in this tradition, i.e. the letter dal (d) has short vowel u and it has no hamzah ('). AbuBakr and Umar will be of them and will have some additional blessings",
+    "iwh_id": "AbuSa'id al-Khudri  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ said: A man from the Illiyyun will look downwards at the people of Paradise and Paradise will be glittering as if it were a brilliant star. He (the narrator) said: In this way the word durri (brilliant) occurs in this tradition, i.e. the letter dal (d) has short vowel u and it has no hamzah ('). AbuBakr and Umar will be of them and will have some additional blessings",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "hajj",
+      "jihad",
+      "hereafter",
+      "prophet",
+      "companions",
+      "sin"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19139",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3987"
+  },
+  {
+    "n": 20,
+    "cn": 3988,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنِي الْحَسَنُ بْنُ الْحَكَمِ النَّخَعِيُّ، حَدَّثَنَا أَبُو سَبْرَةَ النَّخَعِيُّ، عَنْ فَرْوَةَ بْنِ مُسَيْكٍ الْغُطَيْفِيِّ، قَالَ أَتَيْتُ النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ الْحَدِيثَ فَقَالَ رَجُلٌ مِنَ الْقَوْمِ يَا رَسُولَ اللَّهِ أَخْبِرْنَا عَنْ سَبَإٍ مَا هُوَ أَرْضٌ أَمِ امْرَأَةٌ فَقَالَ ‏ \"‏ لَيْسَ بِأَرْضٍ وَلاَ امْرَأَةٍ وَلَكِنَّهُ رَجُلٌ وَلَدَ عَشَرَةً مِنَ الْعَرَبِ فَتَيَامَنَ سِتَّةٌ وَتَشَاءَمَ أَرْبَعَةٌ ‏\"‏ ‏.‏ قَالَ عُثْمَانُ الْغَطَفَانِيِّ مَكَانَ الْغُطَيْفِيِّ وَقَالَ حَدَّثَنَا الْحَسَنُ بْنُ الْحَكَمِ النَّخَعِيُّ ‏.‏",
+    "ar_clean": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنِي الْحَسَنُ بْنُ الْحَكَمِ النَّخَعِيُّ، حَدَّثَنَا أَبُو سَبْرَةَ النَّخَعِيُّ، عَنْ فَرْوَةَ بْنِ مُسَيْكٍ الْغُطَيْفِيِّ، قَالَ أَتَيْتُ النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ الْحَدِيثَ فَقَالَ رَجُلٌ مِنَ الْقَوْمِ يَا رَسُولَ اللَّهِ أَخْبِرْنَا عَنْ سَبَإٍ مَا هُوَ أَرْضٌ أَمِ امْرَأَةٌ فَقَالَ  \" لَيْسَ بِأَرْضٍ وَلاَ امْرَأَةٍ وَلَكِنَّهُ رَجُلٌ وَلَدَ عَشَرَةً مِنَ الْعَرَبِ فَتَيَامَنَ سِتَّةٌ وَتَشَاءَمَ أَرْبَعَةٌ \" . قَالَ عُثْمَانُ الْغَطَفَانِيِّ مَكَانَ الْغُطَيْفِيِّ وَقَالَ حَدَّثَنَا الْحَسَنُ بْنُ الْحَكَمِ النَّخَعِيُّ .",
+    "isnad_ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَهَارُونُ بْنُ عَبْدِ اللَّهِ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، حَدَّثَنِي الْحَسَنُ بْنُ الْحَكَمِ النَّخَعِيُّ، حَدَّثَنَا أَبُو سَبْرَةَ النَّخَعِيُّ، عَنْ فَرْوَةَ بْنِ مُسَيْكٍ الْغُطَيْفِيِّ، قَالَ أَتَيْتُ النَّبِيَّ صلى الله عليه وسلم فَذَكَرَ الْحَدِيثَ فَقَالَ رَجُلٌ مِنَ الْقَوْم",
+    "matn_ar": "ِ يَا رَسُولَ اللَّهِ أَخْبِرْنَا عَنْ سَبَإٍ مَا هُوَ أَرْضٌ أَمِ امْرَأَةٌ فَقَالَ \" لَيْسَ بِأَرْضٍ وَلاَ امْرَأَةٍ وَلَكِنَّهُ رَجُلٌ وَلَدَ عَشَرَةً مِنَ الْعَرَبِ فَتَيَامَنَ سِتَّةٌ وَتَشَاءَمَ أَرْبَعَةٌ \" . قَالَ عُثْمَانُ الْغَطَفَانِيِّ مَكَانَ الْغُطَيْفِيِّ وَقَالَ حَدَّثَنَا الْحَسَنُ بْنُ الْحَكَمِ النَّخَعِيُّ .",
+    "matn_ar_clean": " يا رسول الله أخبرنا عن سبإ ما هو أرض أم امرأة فقال \" ليس بأرض ولا امرأة ولكنه رجل ولد عشرة من العرب فتيامن ستة وتشاءم أربعة \" . قال عثمان الغطفاني مكان الغطيفي وقال حدثنا الحسن بن الحكم النخعي .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Farwah ibn Musayk al-Ghutayfi: I came to the Prophet (ﷺ). He then narrated the rest of the tradition. A man from the people said: \"Messenger of Allah! tell us about Saba'; what is it: land or woman? He replied: It is neither land nor woman; it is a man to whom ten children of the Arabs were born: six of them lived in the Yemen and four lived in Syria. The narrator Uthman said al-Ghatafani instead of al-Ghutayfi. He said: It has been transmitted to us by al-Hasan ibn al-Hakam an-Nakha'i",
+    "iwh_en": "Farwah ibn Musayk al-Ghutayfi (may Allah be pleased with him) reported that i came to the Prophet ﷺ. He then narrated the rest of the tradition. A man from the people said: \"Messenger of Allah! tell us about Saba'; what is it: land or woman? He replied: It is neither land nor woman; it is a man to whom ten children of the Arabs were born: six of them lived in the Yemen and four lived in Syria. The narrator Uthman said al-Ghatafani instead of al-Ghutayfi. He said: It has been transmitted to us by al-Hasan ibn al-Hakam an-Nakha'i",
+    "iwh_id": "Farwah ibn Musayk al-Ghutayfi  (radhiyallahu 'anhu) meriwayatkan bahwa i came to Nabi ﷺ. He then narrated the rest of the tradition. A man from the people said: \"Messenger of Allah! tell us about Saba'; what is it: land or woman? He replied: It is neither land nor woman; it is a man to whom ten children of the Arabs were born: six of them lived in the Yemen and four lived in Syria. The narrator Uthman said al-Ghatafani instead of al-Ghutayfi. He said: It has been transmitted to us by al-Hasan ibn al-Hakam an-Nakha'i",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "family",
+      "prophet",
+      "companions",
+      "ethics"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19140",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3988"
+  },
+  {
+    "n": 21,
+    "cn": 3989,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ، وَإِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ أَبُو مَعْمَرٍ الْهُذَلِيُّ، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ عِكْرِمَةَ، قَالَ حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم - قَالَ إِسْمَاعِيلُ عَنْ أَبِي هُرَيْرَةَ رِوَايَةً - فَذَكَرَ حَدِيثَ الْوَحْىِ قَالَ فَذَلِكَ قَوْلُهُ تَعَالَى ‏{‏ حَتَّى إِذَا فُزِّعَ عَنْ قُلُوبِهِمْ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ، وَإِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ أَبُو مَعْمَرٍ الْهُذَلِيُّ، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ عِكْرِمَةَ، قَالَ حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم - قَالَ إِسْمَاعِيلُ عَنْ أَبِي هُرَيْرَةَ رِوَايَةً - فَذَكَرَ حَدِيثَ الْوَحْىِ قَالَ فَذَلِكَ قَوْلُهُ تَعَالَى { حَتَّى إِذَا فُزِّعَ عَنْ قُلُوبِهِمْ } .",
+    "isnad_ar": "حَدَّثَنَا أَحْمَدُ بْنُ عَبْدَةَ، وَإِسْمَاعِيلُ بْنُ إِبْرَاهِيمَ أَبُو مَعْمَرٍ الْهُذَلِيُّ، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ عِكْرِمَةَ، قَالَ حَدَّثَنَا أَبُو هُرَيْرَةَ، عَنِ ال",
+    "matn_ar": "نَّبِيِّ صلى الله عليه وسلم - قَالَ إِسْمَاعِيلُ عَنْ أَبِي هُرَيْرَةَ رِوَايَةً - فَذَكَرَ حَدِيثَ الْوَحْىِ قَالَ فَذَلِكَ قَوْلُهُ تَعَالَى { حَتَّى إِذَا فُزِّعَ عَنْ قُلُوبِهِمْ } .",
+    "matn_ar_clean": "نبي صلى الله عليه وسلم - قال إسماعيل عن أبي هريرة رواية - فذكر حديث الوحى قال فذلك قوله تعالى { حتى إذا فزع عن قلوبهم } .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abu Hurairah:The Prophet (ﷺ) as saying - the narrator Isma'il transmitted it from Abu Hurairah, and mentioned the tradition about the coming down of revelation-: \"So far (is this the case) that when terror is removed from their hearts",
+    "iwh_en": "Abu Hurairah (may Allah be pleased with him) reported that the Prophet ﷺ as saying - the narrator Isma'il transmitted it from Abu Hurairah, and mentioned the tradition about the coming down of revelation-: \"So far (is this the case) that when terror is removed from their hearts",
+    "iwh_id": "Abu Hurairah  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ as saying - the narrator Isma'il transmitted it from Abu Hurairah, and mentioned the tradition about the coming down of revelation-: \"So far (is this the case) that when terror is removed from their hearts",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Bukhari (4800، 4701)",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19141",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3989"
+  },
+  {
+    "n": 22,
+    "cn": 3990,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ النَّيْسَابُورِيُّ، حَدَّثَنَا إِسْحَاقُ بْنُ سُلَيْمَانَ الرَّازِيُّ، سَمِعْتُ أَبَا جَعْفَرٍ، يَذْكُرُ عَنِ الرَّبِيعِ بْنِ أَنَسٍ، عَنْ أُمِّ سَلَمَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم قَالَتْ قِرَاءَةُ النَّبِيِّ صلى الله عليه وسلم ‏{‏ بَلَى قَدْ جَاءَتْكِ آيَاتِي فَكَذَّبْتِ بِهَا وَاسْتَكْبَرْتِ وَكُنْتِ مِنَ الْكَافِرِينَ ‏}‏ قَالَ أَبُو دَاوُدَ هَذَا مُرْسَلٌ الرَّبِيعُ لَمْ يُدْرِكْ أُمَّ سَلَمَةَ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ النَّيْسَابُورِيُّ، حَدَّثَنَا إِسْحَاقُ بْنُ سُلَيْمَانَ الرَّازِيُّ، سَمِعْتُ أَبَا جَعْفَرٍ، يَذْكُرُ عَنِ الرَّبِيعِ بْنِ أَنَسٍ، عَنْ أُمِّ سَلَمَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم قَالَتْ قِرَاءَةُ النَّبِيِّ صلى الله عليه وسلم { بَلَى قَدْ جَاءَتْكِ آيَاتِي فَكَذَّبْتِ بِهَا وَاسْتَكْبَرْتِ وَكُنْتِ مِنَ الْكَافِرِينَ } قَالَ أَبُو دَاوُدَ هَذَا مُرْسَلٌ الرَّبِيعُ لَمْ يُدْرِكْ أُمَّ سَلَمَةَ .",
+    "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ رَافِعٍ النَّيْسَابُورِيُّ، حَدَّثَنَا إِسْحَاقُ بْنُ سُلَيْمَانَ الرَّازِيُّ، سَمِعْتُ أَبَا جَعْفَرٍ، يَذْكُرُ عَنِ الرَّبِيعِ بْنِ أَنَسٍ، عَنْ أُمِّ سَلَمَةَ، زَوْجِ النَّبِيِّ صلى الله عليه وسلم قَالَتْ ق",
+    "matn_ar": "ِرَاءَةُ النَّبِيِّ صلى الله عليه وسلم { بَلَى قَدْ جَاءَتْكِ آيَاتِي فَكَذَّبْتِ بِهَا وَاسْتَكْبَرْتِ وَكُنْتِ مِنَ الْكَافِرِينَ } قَالَ أَبُو دَاوُدَ هَذَا مُرْسَلٌ الرَّبِيعُ لَمْ يُدْرِكْ أُمَّ سَلَمَةَ .",
+    "matn_ar_clean": "راءة النبي صلى الله عليه وسلم { بلى قد جاءتك آياتي فكذبت بها واستكبرت وكنت من الكافرين } قال أبو داود هذا مرسل الربيع لم يدرك أم سلمة .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Umm Salamah, wife of the Prophet (ﷺ): The reading of the following verse by the Prophet (ﷺ) goes: \"Nay, but there came to thee (ja'atki) my signs, and thou didst reject them (fakadhdhabti biha) ; thou wast haughty (wastakbarti) and became one of those who reject Faith (wa kunti). Abu Dawud said: This is a mursal tradition, i.e. the link of the Companion has been omitted, for the narrator al-Rabi' did not meet Umm Salamah",
+    "iwh_en": "Umm Salamah, wife of the Prophet (ﷺ) (may Allah be pleased with her) reported that the reading of the following verse by the Prophet ﷺ goes: \"Nay, but there came to thee (ja'atki) my signs, and thou didst reject them (fakadhdhabti biha) ; thou wast haughty (wastakbarti) and became one of those who reject Faith (wa kunti). Abu Dawud said: This is a mursal tradition, i.e. the link of the Companion has been omitted, for the narrator al-Rabi' did not meet Umm Salamah",
+    "iwh_id": "Umm Salamah, wife of the Prophet (ﷺ) (radhiyallahu 'anha) reported that the reading of the following verse by Nabi ﷺ goes: \"Nay, but there came to thee (ja'atki) my signs, and thou didst reject them (fakadhdhabti biha) ; thou wast haughty (wastakbarti) and became one of those who reject Faith (wa kunti). Abu Dawud said: This is a mursal tradition, i.e. the link of the Companion has been omitted, for the narrator al-Rabi' did not meet Umm Salamah",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "iman",
+      "quran",
+      "marriage",
+      "manners",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19142",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3990"
+  },
+  {
+    "n": 23,
+    "cn": 3991,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هَارُونُ بْنُ مُوسَى النَّحْوِيُّ، عَنْ بُدَيْلِ بْنِ مَيْسَرَةَ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، عَنْ عَائِشَةَ، - رضى الله تعالى عنها - قَالَتْ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَؤُهَا ‏{‏ فَرُوحٌ وَرَيْحَانٌ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هَارُونُ بْنُ مُوسَى النَّحْوِيُّ، عَنْ بُدَيْلِ بْنِ مَيْسَرَةَ، عَنْ عَبْدِ اللَّهِ بْنِ شَقِيقٍ، عَنْ عَائِشَةَ، - رضى الله تعالى عنها - قَالَتْ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَؤُهَا { فَرُوحٌ وَرَيْحَانٌ } .",
+    "isnad_ar": "حَدَّثَنَا مُسْلِمُ بْنُ إِبْرَاهِيمَ، حَدَّثَنَا هَارُونُ بْنُ مُوسَى النَّحْوِيُّ، عَنْ بُدَيْلِ بْنِ مَيْسَرَةَ، عَنْ عَب",
+    "matn_ar": "ْدِ اللَّهِ بْنِ شَقِيقٍ، عَنْ عَائِشَةَ، - رضى الله تعالى عنها - قَالَتْ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَؤُهَا { فَرُوحٌ وَرَيْحَانٌ } .",
+    "matn_ar_clean": "د الله بن شقيق، عن عائشة، - رضى الله تعالى عنها - قالت سمعت النبي صلى الله عليه وسلم يقرؤها { فروح وريحان } .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Aisha, Ummul Mu'minin: I heard the Messenger of Allah (ﷺ) read: \"(There is for him) Rest and satisfaction\" (faruhun wa rayhan)",
+    "iwh_en": "Aisha, Ummul Mu'minin (may Allah be pleased with her) reported that i heard the Messenger of Allah ﷺ read: \"(There is for him) Rest and satisfaction\" (faruhun wa rayhan)",
+    "iwh_id": "Aisha, Ummul Mu'minin (radhiyallahu 'anha) reported that i heard Rasulullah ﷺ read: \"(There is for him) Rest and satisfaction\" (faruhun wa rayhan)",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19143",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3991"
+  },
+  {
+    "n": 24,
+    "cn": 3992,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، وَأَحْمَدُ بْنُ عَبْدَةَ، قَالاَ حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ عَطَاءٍ، - قَالَ ابْنُ حَنْبَلٍ لَمْ أَفْهَمْهُ جَيِّدًا - عَنْ صَفْوَانَ، - قَالَ ابْنُ عَبْدَةَ ابْنِ يَعْلَى - عَنْ أَبِيهِ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم عَلَى الْمِنْبَرِ يَقْرَأُ ‏{‏ وَنَادَوْا يَا مَالِكُ ‏}‏ ‏.‏ قَالَ أَبُو دَاوُدَ يَعْنِي بِلاَ تَرْخِيمٍ ‏.‏",
+    "ar_clean": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، وَأَحْمَدُ بْنُ عَبْدَةَ، قَالاَ حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ عَطَاءٍ، - قَالَ ابْنُ حَنْبَلٍ لَمْ أَفْهَمْهُ جَيِّدًا - عَنْ صَفْوَانَ، - قَالَ ابْنُ عَبْدَةَ ابْنِ يَعْلَى - عَنْ أَبِيهِ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم عَلَى الْمِنْبَرِ يَقْرَأُ { وَنَادَوْا يَا مَالِكُ } . قَالَ أَبُو دَاوُدَ يَعْنِي بِلاَ تَرْخِيمٍ .",
+    "isnad_ar": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، وَأَحْمَدُ بْنُ عَبْدَةَ، قَالاَ حَدَّثَنَا سُفْيَانُ، عَنْ عَمْرٍو، عَنْ عَطَاءٍ، - قَالَ ابْنُ حَنْبَلٍ لَمْ أَفْهَمْهُ جَيِّدًا - عَنْ صَفْوَانَ، - قَالَ ابْنُ عَبْدَةَ ابْنِ يَعْل",
+    "matn_ar": "َى - عَنْ أَبِيهِ، قَالَ سَمِعْتُ النَّبِيَّ صلى الله عليه وسلم عَلَى الْمِنْبَرِ يَقْرَأُ { وَنَادَوْا يَا مَالِكُ } . قَالَ أَبُو دَاوُدَ يَعْنِي بِلاَ تَرْخِيمٍ .",
+    "matn_ar_clean": "ى - عن أبيه، قال سمعت النبي صلى الله عليه وسلم على المنبر يقرأ { ونادوا يا مالك } . قال أبو داود يعني بلا ترخيم .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Safwan b. Ya'la quoting his father said:I heard the Prophet (ﷺ) read on the pulpit the verse: \"They will cry: O Malik.\" Abu Dawud said: That is, without shortening the name (Malik)",
+    "iwh_en": "Safwan b. Ya'la quoting his father said:I heard the Prophet ﷺ read on the pulpit the verse: \"They will cry: O Malik.\" Abu Dawud said: That is, without shortening the name (Malik)",
+    "iwh_id": "Safwan b. Ya'la quoting his father said:I heard Nabi ﷺ read on the pulpit the verse: \"They will cry: O Malik.\" Abu Dawud said: That is, without shortening the name (Malik)",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Bukhari (4819) Sahih Muslim (871)",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "family",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19144",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3992"
+  },
+  {
+    "n": 25,
+    "cn": 3993,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، أَخْبَرَنَا أَبُو أَحْمَدَ، أَخْبَرَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْحَاقَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ يَزِيدَ، عَنْ عَبْدِ اللَّهِ، قَالَ أَقْرَأَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم ‏{‏ إِنِّي أَنَا الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، أَخْبَرَنَا أَبُو أَحْمَدَ، أَخْبَرَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْحَاقَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ يَزِيدَ، عَنْ عَبْدِ اللَّهِ، قَالَ أَقْرَأَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم { إِنِّي أَنَا الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ } .",
+    "isnad_ar": "حَدَّثَنَا نَصْرُ بْنُ عَلِيٍّ، أَخْبَرَنَا أَبُو أَحْمَدَ، أَخْبَرَنَا إِسْرَائِيلُ، عَنْ أَبِي إِسْ",
+    "matn_ar": "حَاقَ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ يَزِيدَ، عَنْ عَبْدِ اللَّهِ، قَالَ أَقْرَأَنِي رَسُولُ اللَّهِ صلى الله عليه وسلم { إِنِّي أَنَا الرَّزَّاقُ ذُو الْقُوَّةِ الْمَتِينُ } .",
+    "matn_ar_clean": "حاق، عن عبد الرحمن بن يزيد، عن عبد الله، قال أقرأني رسول الله صلى الله عليه وسلم { إني أنا الرزاق ذو القوة المتين } .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abdullah ibn Mas'ud: The Messenger of Allah (ﷺ) made me read the verse \"It is I who give (all) sustenance, Lord of power, steadfast (for ever)",
+    "iwh_en": "Abdullah ibn Mas'ud (may Allah be pleased with him) reported that the Messenger of Allah ﷺ made me read the verse \"It is I who give (all) sustenance, Lord of power, steadfast (for ever)",
+    "iwh_id": "Abdullah ibn Mas'ud  (radhiyallahu 'anhu) meriwayatkan bahwa Rasulullah ﷺ made me read the verse \"It is I who give (all) sustenance, Lord of power, steadfast (for ever)",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "sawm",
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19145",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3993"
+  },
+  {
+    "n": 26,
+    "cn": 3994,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنِ الأَسْوَدِ، عَنْ عَبْدِ اللَّهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَقْرَؤُهَا ‏{‏ فَهَلْ مِنْ مُدَّكِرٍ ‏}‏ يَعْنِي مُثَقَّلاً ‏.‏ قَالَ أَبُو دَاوُدَ مَضْمُومَةَ الْمِيمِ مَفْتُوحَةَ الدَّالِ مَكْسُورَةَ الْكَافِ ‏.‏",
+    "ar_clean": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنِ الأَسْوَدِ، عَنْ عَبْدِ اللَّهِ، أَنَّ النَّبِيَّ صلى الله عليه وسلم كَانَ يَقْرَؤُهَا { فَهَلْ مِنْ مُدَّكِرٍ } يَعْنِي مُثَقَّلاً . قَالَ أَبُو دَاوُدَ مَضْمُومَةَ الْمِيمِ مَفْتُوحَةَ الدَّالِ مَكْسُورَةَ الْكَافِ .",
+    "isnad_ar": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ أَبِي إِسْحَاقَ، عَنِ الأَسْوَدِ، عَنْ عَبْدِ اللَّهِ، أَنَّ النَّبِيَّ صلى الل",
+    "matn_ar": "ه عليه وسلم كَانَ يَقْرَؤُهَا { فَهَلْ مِنْ مُدَّكِرٍ } يَعْنِي مُثَقَّلاً . قَالَ أَبُو دَاوُدَ مَضْمُومَةَ الْمِيمِ مَفْتُوحَةَ الدَّالِ مَكْسُورَةَ الْكَافِ .",
+    "matn_ar_clean": "ه عليه وسلم كان يقرؤها { فهل من مدكر } يعني مثقلا . قال أبو داود مضمومة الميم مفتوحة الدال مكسورة الكاف .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abdullah ibn Mas'ud: The Prophet (ﷺ) used to read the verse \"Is there any that will receive admonition (muddakir)? \" that is with doubling of consonant [(dal)(d)]. Abu Dawud said: The word muddakir may be pronounced as mim (m) with a short vowel u. (dal)(d) with a short vowel and kaf (k) with a short vowel i",
+    "iwh_en": "Abdullah ibn Mas'ud (may Allah be pleased with him) reported that the Prophet ﷺ used to read the verse \"Is there any that will receive admonition (muddakir)? \" that is with doubling of consonant [(dal)(d)]. Abu Dawud said: The word muddakir may be pronounced as mim (m) with a short vowel u. (dal)(d) with a short vowel and kaf (k) with a short vowel i",
+    "iwh_id": "Abdullah ibn Mas'ud  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ used to read the verse \"Is there any that will receive admonition (muddakir)? \" that is with doubling of consonant [(dal)(d)]. Abu Dawud said: The word muddakir may be pronounced as mim (m) with a short vowel u. (dal)(d) with a short vowel and kaf (k) with a short vowel i",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19146",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3994"
+  },
+  {
+    "n": 27,
+    "cn": 3995,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ عَبْدِ الرَّحْمَنِ الذِّمَارِيُّ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنِي مُحَمَّدُ بْنُ الْمُنْكَدِرِ، عَنْ جَابِرٍ، قَالَ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ ‏{‏ يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ ‏}‏",
+    "ar_clean": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ عَبْدِ الرَّحْمَنِ الذِّمَارِيُّ، حَدَّثَنَا سُفْيَانُ، حَدَّثَنِي مُحَمَّدُ بْنُ الْمُنْكَدِرِ، عَنْ جَابِرٍ، قَالَ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ { يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ }",
+    "isnad_ar": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، حَدَّثَنَا عَبْدُ الْمَلِكِ بْنُ عَبْدِ الرَّحْمَنِ الذِّمَارِيُّ، حَد",
+    "matn_ar": "َّثَنَا سُفْيَانُ، حَدَّثَنِي مُحَمَّدُ بْنُ الْمُنْكَدِرِ، عَنْ جَابِرٍ، قَالَ رَأَيْتُ النَّبِيَّ صلى الله عليه وسلم يَقْرَأُ { يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ }",
+    "matn_ar_clean": "ثنا سفيان، حدثني محمد بن المنكدر، عن جابر، قال رأيت النبي صلى الله عليه وسلم يقرأ { يحسب أن ماله أخلده }",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Jabir ibn Abdullah: I saw the Prophet (ﷺ) reading the verse; \"does he think that his wealth would make him last for ever?",
+    "iwh_en": "Jabir ibn Abdullah (may Allah be pleased with him) reported that i saw the Prophet ﷺ reading the verse; \"does he think that his wealth would make him last for ever?",
+    "iwh_id": "Jabir ibn Abdullah  (radhiyallahu 'anhu) meriwayatkan bahwa i saw Nabi ﷺ reading the verse; \"does he think that his wealth would make him last for ever?",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "prophet",
+      "wealth"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19147",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3995"
+  },
+  {
+    "n": 28,
+    "cn": 3996,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ خَالِدٍ، عَنْ أَبِي قِلاَبَةَ، عَمَّنْ أَقْرَأَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏{‏ فَيَوْمَئِذٍ لاَ يُعَذَّبُ عَذَابَهُ أَحَدٌ * وَلاَ يُوثَقُ وَثَاقَهُ أَحَدٌ ‏}‏ ‏.‏ قَالَ أَبُو دَاوُدَ بَعْضُهُمْ أَدْخَلَ بَيْنَ خَالِدٍ وَأَبِي قِلاَبَةَ رَجُلاً ‏.‏",
+    "ar_clean": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ خَالِدٍ، عَنْ أَبِي قِلاَبَةَ، عَمَّنْ أَقْرَأَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم { فَيَوْمَئِذٍ لاَ يُعَذَّبُ عَذَابَهُ أَحَدٌ * وَلاَ يُوثَقُ وَثَاقَهُ أَحَدٌ } . قَالَ أَبُو دَاوُدَ بَعْضُهُمْ أَدْخَلَ بَيْنَ خَالِدٍ وَأَبِي قِلاَبَةَ رَجُلاً .",
+    "isnad_ar": "حَدَّثَنَا حَفْصُ بْنُ عُمَرَ، حَدَّثَنَا شُعْبَةُ، عَنْ خَالِدٍ، عَنْ أَبِي قِلاَبَةَ، عَمَّنْ أَقْرَأَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم {",
+    "matn_ar": "فَيَوْمَئِذٍ لاَ يُعَذَّبُ عَذَابَهُ أَحَدٌ * وَلاَ يُوثَقُ وَثَاقَهُ أَحَدٌ } . قَالَ أَبُو دَاوُدَ بَعْضُهُمْ أَدْخَلَ بَيْنَ خَالِدٍ وَأَبِي قِلاَبَةَ رَجُلاً .",
+    "matn_ar_clean": "فيومئذ لا يعذب عذابه أحد * ولا يوثق وثاقه أحد } . قال أبو داود بعضهم أدخل بين خالد وأبي قلابة رجلا .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abu Qilabah:That the Prophet (ﷺ) made a man read the verse: \"For, that day His chastisement will be such as none (else) can be chastised. And his bonds will be such as none (other) can be bound. Abu Dawud said: According to some (scholars), there is a narrator between the narrator Khalid and Abu Qilabah",
+    "iwh_en": "Abu Qilabah (may Allah be pleased with him) reported that that the Prophet ﷺ made a man read the verse: \"For, that day His chastisement will be such as none (else) can be chastised. And his bonds will be such as none (other) can be bound. Abu Dawud said: According to some (scholars), there is a narrator between the narrator Khalid and Abu Qilabah",
+    "iwh_id": "Abu Qilabah  (radhiyallahu 'anhu) meriwayatkan bahwa that Nabi ﷺ made a man read the verse: \"For, that day His chastisement will be such as none (else) can be chastised. And his bonds will be such as none (other) can be bound. Abu Dawud said: According to some (scholars), there is a narrator between the narrator Khalid and Abu Qilabah",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "knowledge",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19148",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3996"
+  },
+  {
+    "n": 29,
+    "cn": 3997,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدٍ، حَدَّثَنَا حَمَّادٌ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ أَبِي قِلاَبَةَ، قَالَ أَنْبَأَنِي مَنْ، أَقْرَأَهُ النَّبِيُّ صلى الله عليه وسلم أَوْ مَنْ أَقْرَأَهُ مَنْ أَقْرَأَهُ النَّبِيُّ صلى الله عليه وسلم ‏{‏ فَيَوْمَئِذٍ لاَ يُعَذَّبُ ‏}‏ ‏.‏ قَالَ أَبُو دَاوُدَ قَرَأَ عَاصِمٌ وَالأَعْمَشُ وَطَلْحَةُ بْنُ مُصَرِّفٍ وَأَبُو جَعْفَرٍ يَزِيدُ بْنُ الْقَعْقَاعِ وَشَيْبَةُ بْنُ نَصَّاحٍ وَنَافِعُ بْنُ عَبْدِ الرَّحْمَنِ وَعَبْدُ اللَّهِ بْنُ كَثِيرٍ الدَّارِيُّ وَأَبُو عَمْرِو بْنِ الْعَلاَءِ وَحَمْزَةُ الزَّيَّاتُ وَعَبْدُ الرَّحْمَنِ الأَعْرَجُ وَقَتَادَةُ وَالْحَسَنُ الْبَصْرِيُّ وَمُجَاهِدٌ وَحُمَيْدٌ الأَعْرَجُ وَعَبْدُ اللَّهِ بْنُ عَبَّاسٍ وَعَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرٍ ‏{‏ لاَ يُعَذِّبُ ‏}‏ ‏{‏ وَلاَ يُوثِقُ ‏}‏ إِلاَّ الْحَدِيثَ الْمَرْفُوعَ فَإِنَّهُ ‏{‏ يُعَذَّبُ ‏}‏ بِالْفَتْحِ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدٍ، حَدَّثَنَا حَمَّادٌ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ أَبِي قِلاَبَةَ، قَالَ أَنْبَأَنِي مَنْ، أَقْرَأَهُ النَّبِيُّ صلى الله عليه وسلم أَوْ مَنْ أَقْرَأَهُ مَنْ أَقْرَأَهُ النَّبِيُّ صلى الله عليه وسلم { فَيَوْمَئِذٍ لاَ يُعَذَّبُ } . قَالَ أَبُو دَاوُدَ قَرَأَ عَاصِمٌ وَالأَعْمَشُ وَطَلْحَةُ بْنُ مُصَرِّفٍ وَأَبُو جَعْفَرٍ يَزِيدُ بْنُ الْقَعْقَاعِ وَشَيْبَةُ بْنُ نَصَّاحٍ وَنَافِعُ بْنُ عَبْدِ الرَّحْمَنِ وَعَبْدُ اللَّهِ بْنُ كَثِيرٍ الدَّارِيُّ وَأَبُو عَمْرِو بْنِ الْعَلاَءِ وَحَمْزَةُ الزَّيَّاتُ وَعَبْدُ الرَّحْمَنِ الأَعْرَجُ وَقَتَادَةُ وَالْحَسَنُ الْبَصْرِيُّ وَمُجَاهِدٌ وَحُمَيْدٌ الأَعْرَجُ وَعَبْدُ اللَّهِ بْنُ عَبَّاسٍ وَعَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرٍ { لاَ يُعَذِّبُ } { وَلاَ يُوثِقُ } إِلاَّ الْحَدِيثَ الْمَرْفُوعَ فَإِنَّهُ { يُعَذَّبُ } بِالْفَتْحِ .",
+    "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عُبَيْدٍ، حَدَّثَنَا حَمَّادٌ، عَنْ خَالِدٍ الْحَذَّاءِ، عَنْ أَبِي قِلاَبَةَ، قَالَ أَنْبَأَنِي مَنْ، أَقْرَأَهُ النَّبِيُّ صلى الله عليه وسلم أَوْ",
+    "matn_ar": "مَنْ أَقْرَأَهُ مَنْ أَقْرَأَهُ النَّبِيُّ صلى الله عليه وسلم { فَيَوْمَئِذٍ لاَ يُعَذَّبُ } . قَالَ أَبُو دَاوُدَ قَرَأَ عَاصِمٌ وَالأَعْمَشُ وَطَلْحَةُ بْنُ مُصَرِّفٍ وَأَبُو جَعْفَرٍ يَزِيدُ بْنُ الْقَعْقَاعِ وَشَيْبَةُ بْنُ نَصَّاحٍ وَنَافِعُ بْنُ عَبْدِ الرَّحْمَنِ وَعَبْدُ اللَّهِ بْنُ كَثِيرٍ الدَّارِيُّ وَأَبُو عَمْرِو بْنِ الْعَلاَءِ وَحَمْزَةُ الزَّيَّاتُ وَعَبْدُ الرَّحْمَنِ الأَعْرَجُ وَقَتَادَةُ وَالْحَسَنُ الْبَصْرِيُّ وَمُجَاهِدٌ وَحُمَيْدٌ الأَعْرَجُ وَعَبْدُ اللَّهِ بْنُ عَبَّاسٍ وَعَبْدُ الرَّحْمَنِ بْنُ أَبِي بَكْرٍ { لاَ يُعَذِّبُ } { وَلاَ يُوثِقُ } إِلاَّ الْحَدِيثَ الْمَرْفُوعَ فَإِنَّهُ { يُعَذَّبُ } بِالْفَتْحِ .",
+    "matn_ar_clean": "من أقرأه من أقرأه النبي صلى الله عليه وسلم { فيومئذ لا يعذب } . قال أبو داود قرأ عاصم والأعمش وطلحة بن مصرف وأبو جعفر يزيد بن القعقاع وشيبة بن نصاح ونافع بن عبد الرحمن وعبد الله بن كثير الداري وأبو عمرو بن العلاء وحمزة الزيات وعبد الرحمن الأعرج وقتادة والحسن البصري ومجاهد وحميد الأعرج وعبد الله بن عباس وعبد الرحمن بن أبي بكر { لا يعذب } { ولا يوثق } إلا الحديث المرفوع فإنه { يعذب } بالفتح .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abu Qilabah: A man whom the Prophet (ﷺ) made the following verse read informed me, or he was informed by a man whom a man made the following verse read through a man whom the Prophet (ﷺ) made the following verse read: \"For, that day His chastisement will be such as none (else) can be inflicted (la yu'adhdhabu) Abu Dawud said: 'Asim, al-A'mash, Talhah b. Musarrif, Abu Ja'far Yazid b. al-Qa'qa', Shaibah b. Nassah, Nafi' b. 'Abd al-Rahman, 'Abd Allah b. Kathir al-Dari, Abu 'Amr b. al-'Ala', Hamzat al-Zayyat, 'Abd al-Rahman al-A'raj, Qatadah, al-Hasan al-Basri, Mujahid, Hamid al=A'raj, Abd Allah b. 'Abbas and 'Abd al-Rahman b. Abi Bakr recited: \"For,that day His chastisement will be such as none (else) can inflict (la ya'adhdhibu), and His bonds will be such as none (other) can bind (wa la yathiqu), except the verse mentioned in this tradition from the Prophet (ﷺ). It has een read yu'adhdhabu with short vowel a in passive voice",
+    "iwh_en": "Abu Qilabah (may Allah be pleased with him) reported that a man whom the Prophet ﷺ made the following verse read informed me, or he was informed by a man whom a man made the following verse read through a man whom the Prophet ﷺ made the following verse read: \"For, that day His chastisement will be such as none (else) can be inflicted (la yu'adhdhabu) Abu Dawud said: 'Asim, al-A'mash, Talhah b. Musarrif, Abu Ja'far Yazid b. al-Qa'qa', Shaibah b. Nassah, Nafi' b. 'Abd al-Rahman, 'Abd Allah b. Kathir al-Dari, Abu 'Amr b. al-'Ala', Hamzat al-Zayyat, 'Abd al-Rahman al-A'raj, Qatadah, al-Hasan al-Basri, Mujahid, Hamid al=A'raj, Abd Allah b. 'Abbas and 'Abd al-Rahman b. Abi Bakr recited: \"For,that day His chastisement will be such as none (else) can inflict (la ya'adhdhibu), and His bonds will be such as none (other) can bind (wa la yathiqu), except the verse mentioned in this tradition from the Prophet ﷺ. It has een read yu'adhdhabu with short vowel a in passive voice",
+    "iwh_id": "Abu Qilabah  (radhiyallahu 'anhu) meriwayatkan bahwa a man whom Nabi ﷺ made the following verse read informed me, or he was informed by a man whom a man made the following verse read through a man whom Nabi ﷺ made the following verse read: \"For, that day His chastisement will be such as none (else) can be inflicted (la yu'adhdhabu) Abu Dawud said: 'Asim, al-A'mash, Talhah b. Musarrif, Abu Ja'far Yazid b. al-Qa'qa', Shaibah b. Nassah, Nafi' b. 'Abd al-Rahman, 'Abd Allah b. Kathir al-Dari, Abu 'Amr b. al-'Ala', Hamzat al-Zayyat, 'Abd al-Rahman al-A'raj, Qatadah, al-Hasan al-Basri, Mujahid, Hamid al=A'raj, Abd Allah b. 'Abbas and 'Abd al-Rahman b. Abi Bakr recited: \"For,that day His chastisement will be such as none (else) can inflict (la ya'adhdhibu), and His bonds will be such as none (other) can bind (wa la yathiqu), except the verse mentioned in this tradition from Nabi ﷺ. It has een read yu'adhdhabu with short vowel a in passive voice",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "quran",
+      "prophet"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19149",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3997"
+  },
+  {
+    "n": 30,
+    "cn": 3998,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، أَنَّ مُحَمَّدَ بْنَ أَبِي عُبَيْدَةَ، حَدَّثَهُمْ قَالَ حَدَّثَنَا أَبِي، عَنِ الأَعْمَشِ، عَنْ سَعْدٍ الطَّائِيِّ، عَنْ عَطِيَّةَ الْعَوْفِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ حَدَّثَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَدِيثًا ذَكَرَ فِيهِ ‏ \"‏ جِبْرِيلَ وَمِيكَالَ ‏\"‏ ‏.‏ فَقَرَأَ ‏{‏ جِبْرَائِلَ وَمِيكَائِلَ ‏}‏ ‏.‏ قَالَ أَبُو دَاوُدَ قَالَ خَلَفٌ مُنْذُ أَرْبَعِينَ سَنَةً لَمْ أَرْفَعِ الْقَلَمَ عَنْ كِتَابَةِ الْحُرُوفِ مَا أَعْيَانِي شَىْءٌ مَا أَعْيَانِي جِبْرَائِلُ وَمِيكَائِلُ ‏.‏",
+    "ar_clean": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، أَنَّ مُحَمَّدَ بْنَ أَبِي عُبَيْدَةَ، حَدَّثَهُمْ قَالَ حَدَّثَنَا أَبِي، عَنِ الأَعْمَشِ، عَنْ سَعْدٍ الطَّائِيِّ، عَنْ عَطِيَّةَ الْعَوْفِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ حَدَّثَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَدِيثًا ذَكَرَ فِيهِ  \" جِبْرِيلَ وَمِيكَالَ \" . فَقَرَأَ { جِبْرَائِلَ وَمِيكَائِلَ } . قَالَ أَبُو دَاوُدَ قَالَ خَلَفٌ مُنْذُ أَرْبَعِينَ سَنَةً لَمْ أَرْفَعِ الْقَلَمَ عَنْ كِتَابَةِ الْحُرُوفِ مَا أَعْيَانِي شَىْءٌ مَا أَعْيَانِي جِبْرَائِلُ وَمِيكَائِلُ .",
+    "isnad_ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَمُحَمَّدُ بْنُ الْعَلاَءِ، أَنَّ مُحَمَّدَ بْنَ أَبِي عُبَيْدَةَ، حَدَّثَهُمْ قَالَ حَدَّثَنَا أَبِي، عَنِ الأَعْمَشِ، عَنْ سَعْدٍ الطَّائِيِّ، عَنْ عَطِيَّةَ الْعَوْفِيِّ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ",
+    "matn_ar": "حَدَّثَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَدِيثًا ذَكَرَ فِيهِ \" جِبْرِيلَ وَمِيكَالَ \" . فَقَرَأَ { جِبْرَائِلَ وَمِيكَائِلَ } . قَالَ أَبُو دَاوُدَ قَالَ خَلَفٌ مُنْذُ أَرْبَعِينَ سَنَةً لَمْ أَرْفَعِ الْقَلَمَ عَنْ كِتَابَةِ الْحُرُوفِ مَا أَعْيَانِي شَىْءٌ مَا أَعْيَانِي جِبْرَائِلُ وَمِيكَائِلُ .",
+    "matn_ar_clean": "حدث رسول الله صلى الله عليه وسلم حديثا ذكر فيه \" جبريل وميكال \" . فقرأ { جبرائل وميكائل } . قال أبو داود قال خلف منذ أربعين سنة لم أرفع القلم عن كتابة الحروف ما أعياني شىء ما أعياني جبرائل وميكائل .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated AbuSa'id al-Khudri: The Messenger of Allah (ﷺ) related a tradition in which he mentioned the words \"Jibril and Mikal\" and he pronounced them \"Jibra'ila wa Mika'ila.\" Abu Dawud said: Khalaf said: I did not put the pen aside from writing letters (huruf) for forty years: nothing tired me (or made me incapable of writing), even Jibril and Mika'il did not tire me",
+    "iwh_en": "AbuSa'id al-Khudri (may Allah be pleased with him) reported that the Messenger of Allah ﷺ related a tradition in which he mentioned the words \"Jibril and Mikal\" and he pronounced them \"Jibra'ila wa Mika'ila.\" Abu Dawud said: Khalaf said: I did not put the pen aside from writing letters (huruf) for forty years: nothing tired me (or made me incapable of writing), even Jibril and Mika'il did not tire me",
+    "iwh_id": "AbuSa'id al-Khudri  (radhiyallahu 'anhu) meriwayatkan bahwa Rasulullah ﷺ related a tradition in which he mentioned the words \"Jibril and Mikal\" and he pronounced them \"Jibra'ila wa Mika'ila.\" Abu Dawud said: Khalaf said: I did not put the pen aside from writing letters (huruf) for forty years: nothing tired me (or made me incapable of writing), even Jibril and Mika'il did not tire me",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "hajj",
+      "prophet"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19150",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3998"
+  },
+  {
+    "n": 31,
+    "cn": 3999,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ، حَدَّثَنَا بِشْرٌ، - يَعْنِي ابْنَ عُمَرَ - حَدَّثَنَا مُحَمَّدُ بْنُ خَازِمٍ، قَالَ ذُكِرَ كَيْفَ قِرَاءَةُ جِبْرَائِلَ وَمِيكَائِلَ عِنْدَ الأَعْمَشِ فَحَدَّثَنَا الأَعْمَشُ عَنْ سَعْدٍ الطَّائِيِّ عَنْ عَطِيَّةَ الْعَوْفِيِّ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ ذَكَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم صَاحِبَ الصُّورِ فَقَالَ ‏ \"‏ عَنْ يَمِينِهِ جِبْرَائِلُ وَعَنْ يَسَارِهِ مِيكَائِلُ ‏\"‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ، حَدَّثَنَا بِشْرٌ، - يَعْنِي ابْنَ عُمَرَ - حَدَّثَنَا مُحَمَّدُ بْنُ خَازِمٍ، قَالَ ذُكِرَ كَيْفَ قِرَاءَةُ جِبْرَائِلَ وَمِيكَائِلَ عِنْدَ الأَعْمَشِ فَحَدَّثَنَا الأَعْمَشُ عَنْ سَعْدٍ الطَّائِيِّ عَنْ عَطِيَّةَ الْعَوْفِيِّ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ ذَكَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم صَاحِبَ الصُّورِ فَقَالَ  \" عَنْ يَمِينِهِ جِبْرَائِلُ وَعَنْ يَسَارِهِ مِيكَائِلُ \" .",
+    "isnad_ar": "حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ، حَدَّثَنَا بِشْرٌ، - يَعْنِي ابْنَ عُمَرَ - حَدَّثَنَا مُحَمَّدُ بْنُ خَازِمٍ، قَالَ ذُكِرَ كَيْفَ قِرَاءَةُ جِبْرَائِلَ وَمِيكَائِلَ عِنْدَ الأَعْمَشِ فَحَدَّثَنَا الأَعْمَشُ عَنْ سَعْدٍ ا",
+    "matn_ar": "لطَّائِيِّ عَنْ عَطِيَّةَ الْعَوْفِيِّ عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ قَالَ ذَكَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم صَاحِبَ الصُّورِ فَقَالَ \" عَنْ يَمِينِهِ جِبْرَائِلُ وَعَنْ يَسَارِهِ مِيكَائِلُ \" .",
+    "matn_ar_clean": "لطائي عن عطية العوفي عن أبي سعيد الخدري قال ذكر رسول الله صلى الله عليه وسلم صاحب الصور فقال \" عن يمينه جبرائل وعن يساره ميكائل \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated AbuSa'id al-Khudri: The Messenger of Allah (ﷺ) mentioned the name of the one who will sound the trumpet (sahib as-sur) and said: On his right will be Jibra'il and on his left will be Mika'il",
+    "iwh_en": "AbuSa'id al-Khudri (may Allah be pleased with him) reported that the Messenger of Allah ﷺ mentioned the name of the one who will sound the trumpet (sahib as-sur) and said: On his right will be Jibra'il and on his left will be Mika'il",
+    "iwh_id": "AbuSa'id al-Khudri  (radhiyallahu 'anhu) meriwayatkan bahwa Rasulullah ﷺ mentioned the name of the one who will sound the trumpet (sahib as-sur) and said: On his right will be Jibra'il and on his left will be Mika'il",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "hajj",
+      "prophet"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19151",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:3999"
+  },
+  {
+    "n": 32,
+    "cn": 4000,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، قَالَ مَعْمَرٌ وَرُبَّمَا ذَكَرَ ابْنَ الْمُسَيَّبِ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم وَأَبُو بَكْرٍ وَعُمَرُ وَعُثْمَانُ يَقْرَءُونَ ‏{‏ مَالِكِ يَوْمِ الدِّينِ ‏}‏ وَأَوَّلُ مَنْ قَرَأَهَا ‏{‏ مَلِكِ يَوْمِ الدِّينِ ‏}‏ مَرْوَانُ ‏.‏ قَالَ أَبُو دَاوُدَ هَذَا أَصَحُّ مِنْ حَدِيثِ الزُّهْرِيِّ عَنْ أَنَسٍ وَالزُّهْرِيِّ عَنْ سَالِمٍ عَنْ أَبِيهِ ‏.‏",
+    "ar_clean": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، قَالَ مَعْمَرٌ وَرُبَّمَا ذَكَرَ ابْنَ الْمُسَيَّبِ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم وَأَبُو بَكْرٍ وَعُمَرُ وَعُثْمَانُ يَقْرَءُونَ { مَالِكِ يَوْمِ الدِّينِ } وَأَوَّلُ مَنْ قَرَأَهَا { مَلِكِ يَوْمِ الدِّينِ } مَرْوَانُ . قَالَ أَبُو دَاوُدَ هَذَا أَصَحُّ مِنْ حَدِيثِ الزُّهْرِيِّ عَنْ أَنَسٍ وَالزُّهْرِيِّ عَنْ سَالِمٍ عَنْ أَبِيهِ .",
+    "isnad_ar": "حَدَّثَنَا أَحْمَدُ بْنُ حَنْبَلٍ، حَدَّثَنَا عَبْدُ الرَّزَّاقِ، أَخْبَرَنَا مَعْمَرٌ، عَنِ الزُّهْرِيِّ، قَالَ مَعْمَرٌ وَرُبَّمَا ذَكَرَ ابْنَ الْمُسَيَّبِ قَالَ كَانَ النَّبِيُّ صلى الله عليه وسلم وَأَبُو بَك",
+    "matn_ar": "ْرٍ وَعُمَرُ وَعُثْمَانُ يَقْرَءُونَ { مَالِكِ يَوْمِ الدِّينِ } وَأَوَّلُ مَنْ قَرَأَهَا { مَلِكِ يَوْمِ الدِّينِ } مَرْوَانُ . قَالَ أَبُو دَاوُدَ هَذَا أَصَحُّ مِنْ حَدِيثِ الزُّهْرِيِّ عَنْ أَنَسٍ وَالزُّهْرِيِّ عَنْ سَالِمٍ عَنْ أَبِيهِ .",
+    "matn_ar_clean": "ر وعمر وعثمان يقرءون { مالك يوم الدين } وأول من قرأها { ملك يوم الدين } مروان . قال أبو داود هذا أصح من حديث الزهري عن أنس والزهري عن سالم عن أبيه .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Ibn al-Musayyab: The Prophet (ﷺ), AbuBakr, Umar and Uthman used to read \"maliki yawmid-din (master of the Day of Judgment)\". The first to read maliki yawmid-din was Marwan. Abu Dawud said: This is sounder that the tradition which transmitted by al-Zuhri from Anas, and al-Zuhri from Salim, from his father (Ibn 'Umar)",
+    "iwh_en": "Ibn al-Musayyab (may Allah be pleased with him) reported that the Prophet ﷺ, AbuBakr, Umar and Uthman used to read \"maliki yawmid-din (master of the Day of Judgment)\". The first to read maliki yawmid-din was Marwan. Abu Dawud said: This is sounder that the tradition which transmitted by al-Zuhri from Anas, and al-Zuhri from Salim, from his father (Ibn 'Umar)",
+    "iwh_id": "Ibn al-Musayyab  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ, AbuBakr, Umar and Uthman used to read \"maliki yawmid-din (master of the Day of Judgment)\". The first to read maliki yawmid-din was Marwan. Abu Dawud said: This is sounder that the tradition which transmitted by al-Zuhri from Anas, and al-Zuhri from Salim, from his father (Ibn 'Umar)",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "family",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19152",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4000"
+  },
+  {
+    "n": 33,
+    "cn": 4001,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا سَعِيدُ بْنُ يَحْيَى الأُمَوِيُّ، حَدَّثَنِي أَبِي، حَدَّثَنَا ابْنُ جُرَيْجٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي مُلَيْكَةَ، عَنْ أُمِّ سَلَمَةَ، أَنَّهَا ذَكَرَتْ - أَوْ كَلِمَةً غَيْرَهَا - قِرَاءَةَ رَسُولِ اللَّهِ صلى الله عليه وسلم ‏{‏ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ * الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ * الرَّحْمَنِ الرَّحِيمِ * مَلِكِ يَوْمِ الدِّينِ ‏}‏ يَقْطَعُ قِرَاءَتَهُ آيَةً آيَةً ‏.‏ قَالَ أَبُو دَاوُدَ سَمِعْتُ أَحْمَدَ يَقُولُ الْقِرَاءَةُ الْقَدِيمَةُ ‏{‏ مَالِكِ يَوْمِ الدِّينِ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا سَعِيدُ بْنُ يَحْيَى الأُمَوِيُّ، حَدَّثَنِي أَبِي، حَدَّثَنَا ابْنُ جُرَيْجٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي مُلَيْكَةَ، عَنْ أُمِّ سَلَمَةَ، أَنَّهَا ذَكَرَتْ - أَوْ كَلِمَةً غَيْرَهَا - قِرَاءَةَ رَسُولِ اللَّهِ صلى الله عليه وسلم { بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ * الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ * الرَّحْمَنِ الرَّحِيمِ * مَلِكِ يَوْمِ الدِّينِ } يَقْطَعُ قِرَاءَتَهُ آيَةً آيَةً . قَالَ أَبُو دَاوُدَ سَمِعْتُ أَحْمَدَ يَقُولُ الْقِرَاءَةُ الْقَدِيمَةُ { مَالِكِ يَوْمِ الدِّينِ } .",
+    "isnad_ar": "حَدَّثَنَا سَعِيدُ بْنُ يَحْيَى الأُمَوِيُّ، حَدَّثَنِي أَبِي، حَدَّثَنَا ابْنُ جُرَيْجٍ، عَنْ عَبْدِ اللَّهِ بْنِ أَبِي مُلَيْكَةَ، عَنْ أُمِّ سَلَمَةَ، أَنَّهَا ذَكَرَتْ - أَوْ كَلِمَةً غَيْرَهَا - قِرَاءَةَ رَسُولِ اللَّهِ صلى الله عليه وسلم { بِسْمِ اللَّه",
+    "matn_ar": "ِ الرَّحْمَنِ الرَّحِيمِ * الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ * الرَّحْمَنِ الرَّحِيمِ * مَلِكِ يَوْمِ الدِّينِ } يَقْطَعُ قِرَاءَتَهُ آيَةً آيَةً . قَالَ أَبُو دَاوُدَ سَمِعْتُ أَحْمَدَ يَقُولُ الْقِرَاءَةُ الْقَدِيمَةُ { مَالِكِ يَوْمِ الدِّينِ } .",
+    "matn_ar_clean": " الرحمن الرحيم * الحمد لله رب العالمين * الرحمن الرحيم * ملك يوم الدين } يقطع قراءته آية آية . قال أبو داود سمعت أحمد يقول القراءة القديمة { مالك يوم الدين } .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Umm Salamah, Ummul Mu'minin: The Messenger of Allah (ﷺ) used to recite: \"In the name of Allah, the Cherisher and Sustainer of the worlds; most Gracious, most Merciful; Master of the Day of Judgment,\" breaking its recitation into verses, one after another. Abu Dawud said: I heard Ahmad (b. Hanbal) say: The early reading is: Maliki yawmi'l-din",
+    "iwh_en": "Umm Salamah, Ummul Mu'minin (may Allah be pleased with her) reported that the Messenger of Allah ﷺ used to recite: \"In the name of Allah, the Cherisher and Sustainer of the worlds; most Gracious, most Merciful; Master of the Day of Judgment,\" breaking its recitation into verses, one after another. Abu Dawud said: I heard Ahmad (b. Hanbal) say: The early reading is: Maliki yawmi'l-din",
+    "iwh_id": "Umm Salamah, Ummul Mu'minin (radhiyallahu 'anha) reported that Rasulullah ﷺ used to recite: \"In the name of Allah, the Cherisher and Sustainer of the worlds; most Gracious, most Merciful; Master of the Day of Judgment,\" breaking its recitation into verses, one after another. Abu Dawud said: I heard Ahmad (b. Hanbal) say: The early reading is: Maliki yawmi'l-din",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "manners",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19153",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4001"
+  },
+  {
+    "n": 34,
+    "cn": 4002,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَعُبَيْدُ اللَّهِ بْنُ عُمَرَ بْنِ مَيْسَرَةَ، - الْمَعْنَى - قَالاَ حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ سُفْيَانَ بْنِ حُسَيْنٍ، عَنِ الْحَكَمِ بْنِ عُتَيْبَةَ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، عَنْ أَبِي ذَرٍّ، قَالَ كُنْتُ رَدِيفَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ عَلَى حِمَارٍ وَالشَّمْسُ عِنْدَ غُرُوبِهَا فَقَالَ ‏\"‏ هَلْ تَدْرِي أَيْنَ تَغْرُبُ هَذِهِ ‏\"‏ ‏.‏ قُلْتُ اللَّهُ وَرَسُولُهُ أَعْلَمُ ‏.‏ قَالَ ‏\"‏ فَإِنَّهَا تَغْرُبُ فِي عَيْنِ حَامِيَةٍ ‏\"‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَعُبَيْدُ اللَّهِ بْنُ عُمَرَ بْنِ مَيْسَرَةَ، - الْمَعْنَى - قَالاَ حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ سُفْيَانَ بْنِ حُسَيْنٍ، عَنِ الْحَكَمِ بْنِ عُتَيْبَةَ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، عَنْ أَبِي ذَرٍّ، قَالَ كُنْتُ رَدِيفَ رَسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ عَلَى حِمَارٍ وَالشَّمْسُ عِنْدَ غُرُوبِهَا فَقَالَ \" هَلْ تَدْرِي أَيْنَ تَغْرُبُ هَذِهِ \" . قُلْتُ اللَّهُ وَرَسُولُهُ أَعْلَمُ . قَالَ \" فَإِنَّهَا تَغْرُبُ فِي عَيْنِ حَامِيَةٍ \" .",
+    "isnad_ar": "حَدَّثَنَا عُثْمَانُ بْنُ أَبِي شَيْبَةَ، وَعُبَيْدُ اللَّهِ بْنُ عُمَرَ بْنِ مَيْسَرَةَ، - الْمَعْنَى - قَالاَ حَدَّثَنَا يَزِيدُ بْنُ هَارُونَ، عَنْ سُفْيَانَ بْنِ حُسَيْنٍ، عَنِ الْحَكَمِ بْنِ عُتَيْبَةَ، عَنْ إِبْرَاهِيمَ التَّيْمِيِّ، عَنْ أَبِيهِ، عَنْ أَبِي ذَرٍّ، قَالَ كُنْتُ رَدِيفَ ر",
+    "matn_ar": "َسُولِ اللَّهِ صلى الله عليه وسلم وَهُوَ عَلَى حِمَارٍ وَالشَّمْسُ عِنْدَ غُرُوبِهَا فَقَالَ \" هَلْ تَدْرِي أَيْنَ تَغْرُبُ هَذِهِ \" . قُلْتُ اللَّهُ وَرَسُولُهُ أَعْلَمُ . قَالَ \" فَإِنَّهَا تَغْرُبُ فِي عَيْنِ حَامِيَةٍ \" .",
+    "matn_ar_clean": "سول الله صلى الله عليه وسلم وهو على حمار والشمس عند غروبها فقال \" هل تدري أين تغرب هذه \" . قلت الله ورسوله أعلم . قال \" فإنها تغرب في عين حامية \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abu Dharr:I was sitting behind the Messenger of Allah (ﷺ) who was riding a donkey while the sun was setting. He asked: Do you know where this sets ? I replied: Allah and his Apostle know best. He said: It sets in a spring of warm water (Hamiyah)",
+    "iwh_en": "Abu Dharr (may Allah be pleased with him) reported that i was sitting behind the Messenger of Allah ﷺ who was riding a donkey while the sun was setting. He asked: Do you know where this sets ? I replied: Allah and his Apostle know best. He said: It sets in a spring of warm water (Hamiyah)",
+    "iwh_id": "Abu Dharr  (radhiyallahu 'anhu) meriwayatkan bahwa i was sitting behind Rasulullah ﷺ who was riding a donkey while the sun was setting. He asked: Do you know where this sets ? I replied: Allah and his Apostle know best. He said: It sets in a spring of warm water (Hamiyah)",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Bukhari (3199، 4802، 4803) Sahih Muslim (159)",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "jihad",
+      "prophet",
+      "ethics"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19154",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4002"
+  },
+  {
+    "n": 35,
+    "cn": 4003,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا حَجَّاجٌ، عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي عُمَرُ بْنُ عَطَاءٍ، أَنَّ مَوْلًى، لاِبْنِ الأَسْقَعِ - رَجُلَ صِدْقٍ - أَخْبَرَهُ عَنِ ابْنِ الأَسْقَعِ أَنَّهُ سَمِعَهُ يَقُولُ إِنَّ النَّبِيَّ صلى الله عليه وسلم جَاءَهُمْ فِي صُفَّةِ الْمُهَاجِرِينَ فَسَأَلَهُ إِنْسَانٌ أَىُّ آيَةٍ فِي الْقُرْآنِ أَعْظَمُ قَالَ النَّبِيُّ صلى الله عليه وسلم ‏\"‏ ‏{‏ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ ‏}‏ ‏\"‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا حَجَّاجٌ، عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي عُمَرُ بْنُ عَطَاءٍ، أَنَّ مَوْلًى، لاِبْنِ الأَسْقَعِ - رَجُلَ صِدْقٍ - أَخْبَرَهُ عَنِ ابْنِ الأَسْقَعِ أَنَّهُ سَمِعَهُ يَقُولُ إِنَّ النَّبِيَّ صلى الله عليه وسلم جَاءَهُمْ فِي صُفَّةِ الْمُهَاجِرِينَ فَسَأَلَهُ إِنْسَانٌ أَىُّ آيَةٍ فِي الْقُرْآنِ أَعْظَمُ قَالَ النَّبِيُّ صلى الله عليه وسلم \" { اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ } \" .",
+    "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، حَدَّثَنَا حَجَّاجٌ، عَنِ ابْنِ جُرَيْجٍ، قَالَ أَخْبَرَنِي عُمَرُ بْنُ عَطَاءٍ، أَنَّ مَوْلًى، لاِبْنِ الأَسْقَعِ - رَجُلَ صِدْقٍ - أَخْبَرَهُ عَنِ ابْنِ الأَسْقَعِ أَنَّهُ سَمِعَهُ يَقُ",
+    "matn_ar": "ولُ إِنَّ النَّبِيَّ صلى الله عليه وسلم جَاءَهُمْ فِي صُفَّةِ الْمُهَاجِرِينَ فَسَأَلَهُ إِنْسَانٌ أَىُّ آيَةٍ فِي الْقُرْآنِ أَعْظَمُ قَالَ النَّبِيُّ صلى الله عليه وسلم \" { اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَىُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ } \" .",
+    "matn_ar_clean": "ول إن النبي صلى الله عليه وسلم جاءهم في صفة المهاجرين فسأله إنسان أى آية في القرآن أعظم قال النبي صلى الله عليه وسلم \" { الله لا إله إلا هو الحى القيوم لا تأخذه سنة ولا نوم } \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Ibn al-Asqa':The Prophet (ﷺ) came to them in the swelling place of immigrants and a man asked him: Which is the greatest verse of the Qur'an ? The Prophet (ﷺ) replied: Allah, there is no god but He - the Living, the Self-Subsisting Eternal. No slumber can seize Him nor sleep",
+    "iwh_en": "Ibn al-Asqa (may Allah be pleased with him) reported that the Prophet ﷺ came to them in the swelling place of immigrants and a man asked him: Which is the greatest verse of the Qur'an ? the Prophet ﷺ replied: Allah, there is no god but He - the Living, the Self-Subsisting Eternal. No slumber can seize Him nor sleep",
+    "iwh_id": "Ibn al-Asqa  (radhiyallahu 'anhu) meriwayatkan bahwa Nabi ﷺ came to them in the swelling place of immigrants and a man asked him: Which is the greatest verse of the Qur'an ? Nabi ﷺ replied: Allah, there is no god but He - the Living, the Self-Subsisting Eternal. No slumber can seize Him nor sleep",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Lighairihi",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran",
+      "food-and-drink",
+      "prophet",
+      "ethics"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19155",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4003"
+  },
+  {
+    "n": 36,
+    "cn": 4004,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا أَبُو مَعْمَرٍ عَبْدُ اللَّهِ بْنُ عَمْرِو بْنِ أَبِي الْحَجَّاجِ الْمِنْقَرِيُّ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا شَيْبَانُ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، عَنِ ابْنِ مَسْعُودٍ، أَنَّهُ قَرَأَ ‏{‏ هَيْتَ لَكَ ‏}‏ فَقَالَ شَقِيقٌ إِنَّا نَقْرَؤُهَا ‏{‏ هِئْتُ لَكَ ‏}‏ يَعْنِي فَقَالَ ابْنُ مَسْعُودٍ أَقْرَؤُهَا كَمَا عُلِّمْتُ أَحَبُّ إِلَىَّ ‏.‏",
+    "ar_clean": "حَدَّثَنَا أَبُو مَعْمَرٍ عَبْدُ اللَّهِ بْنُ عَمْرِو بْنِ أَبِي الْحَجَّاجِ الْمِنْقَرِيُّ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا شَيْبَانُ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، عَنِ ابْنِ مَسْعُودٍ، أَنَّهُ قَرَأَ { هَيْتَ لَكَ } فَقَالَ شَقِيقٌ إِنَّا نَقْرَؤُهَا { هِئْتُ لَكَ } يَعْنِي فَقَالَ ابْنُ مَسْعُودٍ أَقْرَؤُهَا كَمَا عُلِّمْتُ أَحَبُّ إِلَىَّ .",
+    "isnad_ar": "حَدَّثَنَا أَبُو مَعْمَرٍ عَبْدُ اللَّهِ بْنُ عَمْرِو بْنِ أَبِي الْحَجَّاجِ الْمِنْقَرِيُّ، حَدَّثَنَا عَبْدُ الْوَارِثِ، حَدَّثَنَا شَيْبَانُ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، ع",
+    "matn_ar": "َنِ ابْنِ مَسْعُودٍ، أَنَّهُ قَرَأَ { هَيْتَ لَكَ } فَقَالَ شَقِيقٌ إِنَّا نَقْرَؤُهَا { هِئْتُ لَكَ } يَعْنِي فَقَالَ ابْنُ مَسْعُودٍ أَقْرَؤُهَا كَمَا عُلِّمْتُ أَحَبُّ إِلَىَّ .",
+    "matn_ar_clean": "ن ابن مسعود، أنه قرأ { هيت لك } فقال شقيق إنا نقرؤها { هئت لك } يعني فقال ابن مسعود أقرؤها كما علمت أحب إلى .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Shariq:Ibn Mas'ud said read the verse: \"Now come, thou\" (haita laka). Then Shariq said: We read it, \"hi'tu laka\" (I am prepared for thee). Ibn Mas'ud said: I read it as I have been taught ; it is dearer to me",
+    "iwh_en": "Shariq (may Allah be pleased with him) reported that ibn Mas'ud said read the verse: \"Now come, thou\" (haita laka). Then Shariq said: We read it, \"hi'tu laka\" (I am prepared for thee). Ibn Mas'ud said: I read it as I have been taught ; it is dearer to me",
+    "iwh_id": "Shariq  (radhiyallahu 'anhu) meriwayatkan bahwa ibn Mas'ud said read the verse: \"Now come, thou\" (haita laka). Then Shariq said: We read it, \"hi'tu laka\" (I am prepared for thee). Ibn Mas'ud said: I read it as I have been taught ; it is dearer to me",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Bukhari (4692)",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19156",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4004"
+  },
+  {
+    "n": 37,
+    "cn": 4005,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، قَالَ قِيلَ لِعَبْدِ اللَّهِ إِنَّ أُنَاسًا يَقْرَءُونَ هَذِهِ الآيَةَ ‏{‏ وَقَالَتْ هِيتَ لَكَ ‏}‏ فَقَالَ إِنِّي أَقْرَأُ كَمَا عُلِّمْتُ أَحَبُّ إِلَىَّ ‏{‏ وَقَالَتْ هَيْتَ لَكَ ‏}‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، قَالَ قِيلَ لِعَبْدِ اللَّهِ إِنَّ أُنَاسًا يَقْرَءُونَ هَذِهِ الآيَةَ { وَقَالَتْ هِيتَ لَكَ } فَقَالَ إِنِّي أَقْرَأُ كَمَا عُلِّمْتُ أَحَبُّ إِلَىَّ { وَقَالَتْ هَيْتَ لَكَ } .",
+    "isnad_ar": "حَدَّثَنَا هَنَّادٌ، حَدَّثَنَا أَبُو مُعَاوِيَةَ، عَنِ الأَعْمَشِ، عَنْ شَقِيقٍ، قَالَ قِيلَ لِعَبْدِ اللَّهِ إِنَّ أُنَاسًا يَقْرَءُونَ هَذِهِ",
+    "matn_ar": "الآيَةَ { وَقَالَتْ هِيتَ لَكَ } فَقَالَ إِنِّي أَقْرَأُ كَمَا عُلِّمْتُ أَحَبُّ إِلَىَّ { وَقَالَتْ هَيْتَ لَكَ } .",
+    "matn_ar_clean": "الآية { وقالت هيت لك } فقال إني أقرأ كما علمت أحب إلى { وقالت هيت لك } .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Shariq:'Abd Allah (b. Mas'ud) was told that the people had read this verse: \"She said: Now come, thou\" (hita laka). He said: I read it as I have been taught ; it is dearer to me. It goes \"wa qalat haita laka\" (She said: Now come thou)",
+    "iwh_en": "Shariq (may Allah be pleased with him) reported that 'Abd Allah (b. Mas'ud) was told that the people had read this verse: \"She said: Now come, thou\" (hita laka). He said: I read it as I have been taught ; it is dearer to me. It goes \"wa qalat haita laka\" (She said: Now come thou)",
+    "iwh_id": "Shariq  (radhiyallahu 'anhu) meriwayatkan bahwa 'Abd Allah (b. Mas'ud) was told that the people had read this verse: \"She said: Now come, thou\" (hita laka). He said: I read it as I have been taught ; it is dearer to me. It goes \"wa qalat haita laka\" (She said: Now come thou)",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "quran"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19157",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4005"
+  },
+  {
+    "n": 38,
+    "cn": 4006,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، قَالَ حَدَّثَنَا ح، وَحَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمَهْرِيُّ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنَا هِشَامُ بْنُ سَعْدٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ قَالَ اللَّهُ عَزَّ وَجَلَّ لِبَنِي إِسْرَائِيلَ ‏{‏ ادْخُلُوا الْبَابَ سُجَّدًا وَقُولُوا حِطَّةٌ تُغْفَرْ لَكُمْ خَطَايَاكُمْ ‏}‏ ‏\"‏ ‏.‏",
+    "ar_clean": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، قَالَ حَدَّثَنَا ح، وَحَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمَهْرِيُّ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنَا هِشَامُ بْنُ سَعْدٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ، عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" قَالَ اللَّهُ عَزَّ وَجَلَّ لِبَنِي إِسْرَائِيلَ { ادْخُلُوا الْبَابَ سُجَّدًا وَقُولُوا حِطَّةٌ تُغْفَرْ لَكُمْ خَطَايَاكُمْ } \" .",
+    "isnad_ar": "حَدَّثَنَا أَحْمَدُ بْنُ صَالِحٍ، قَالَ حَدَّثَنَا ح، وَحَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمَهْرِيُّ، أَخْبَرَنَا ابْنُ وَهْبٍ، أَخْبَرَنَا هِشَامُ بْنُ سَعْدٍ، عَنْ زَيْدِ بْنِ أَسْلَمَ",
+    "matn_ar": "عَنْ عَطَاءِ بْنِ يَسَارٍ، عَنْ أَبِي سَعِيدٍ الْخُدْرِيِّ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" قَالَ اللَّهُ عَزَّ وَجَلَّ لِبَنِي إِسْرَائِيلَ { ادْخُلُوا الْبَابَ سُجَّدًا وَقُولُوا حِطَّةٌ تُغْفَرْ لَكُمْ خَطَايَاكُمْ } \" .",
+    "matn_ar_clean": "عن عطاء بن يسار، عن أبي سعيد الخدري، قال قال رسول الله صلى الله عليه وسلم \" قال الله عز وجل لبني إسرائيل { ادخلوا الباب سجدا وقولوا حطة تغفر لكم خطاياكم } \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated Abu Sa’id Al Khudri :The Messenger of Allah (ﷺ) said: Allah, the Exalted, said to the children of Israel : \"... but enter the gate with humility, in posture and in words, and you will be forgiven your faults (tughfar lakum)",
+    "iwh_en": "Abu Sa’id Al Khudri (may Allah be pleased with him) reported that the Messenger of Allah ﷺ said: Allah, the Exalted, said to the children of Israel : \"... but enter the gate with humility, in posture and in words, and you will be forgiven your faults (tughfar lakum)",
+    "iwh_id": "Abu Sa’id Al Khudri (radhiyallahu 'anhu) reported that Rasulullah ﷺ said: Allah, the Exalted, said to the children of Israel : \"... but enter the gate with humility, in posture and in words, and you will be forgiven your faults (tughfar lakum)",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Shuaib Al Arnaut",
+        "scholar_id": "shuaib-al-arnaut",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Lighairihi",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "tawbah",
+      "family",
+      "prophet"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19158",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4006"
+  },
+  {
+    "n": 39,
+    "cn": 4007,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا جَعْفَرُ بْنُ مُسَافِرٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، عَنْ هِشَامِ بْنِ سَعْدٍ، بِإِسْنَادِهِ مِثْلَهُ ‏.‏",
+    "ar_clean": "حَدَّثَنَا جَعْفَرُ بْنُ مُسَافِرٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، عَنْ هِشَامِ بْنِ سَعْدٍ، بِإِسْنَادِهِ مِثْلَهُ .",
+    "isnad_ar": "",
+    "matn_ar": "حَدَّثَنَا جَعْفَرُ بْنُ مُسَافِرٍ، حَدَّثَنَا ابْنُ أَبِي فُدَيْكٍ، عَنْ هِشَامِ بْنِ سَعْدٍ، بِإِسْنَادِهِ مِثْلَهُ ‏.‏",
+    "matn_ar_clean": "حدثنا جعفر بن مسافر، حدثنا ابن أبي فديك، عن هشام بن سعد، بإسناده مثله ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "The tradition mentioned above has also been transmitted by Hisham b. Sa'd with a different chain of narrators in a similar way",
+    "iwh_en": "The tradition mentioned above has also been transmitted by Hisham b. Sa'd with a different chain of narrators in a similar way",
+    "iwh_id": "The tradition mentioned above has also been transmitted by Hisham b. Sa'd with a different chain of narrators in a similar way",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19159",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4007"
+  },
+  {
+    "n": 40,
+    "cn": 4008,
+    "book": 32,
+    "collection": "abu-dawud",
+    "chapter_ar": "",
+    "chapter_en": "",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةَ، - رضى الله عنها - قَالَتْ نَزَلَ الْوَحْىُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَرَأَ عَلَيْنَا ‏{‏ سُورَةٌ أَنْزَلْنَاهَا وَفَرَضْنَاهَا ‏}‏ ‏.‏ قَالَ أَبُو دَاوُدَ يَعْنِي مُخَفَّفَةً حَتَّى أَتَى عَلَى هَذِهِ الآيَاتِ ‏.‏",
+    "ar_clean": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةَ، - رضى الله عنها - قَالَتْ نَزَلَ الْوَحْىُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَرَأَ عَلَيْنَا { سُورَةٌ أَنْزَلْنَاهَا وَفَرَضْنَاهَا } . قَالَ أَبُو دَاوُدَ يَعْنِي مُخَفَّفَةً حَتَّى أَتَى عَلَى هَذِهِ الآيَاتِ .",
+    "isnad_ar": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، حَدَّثَنَا حَمَّادٌ، حَدَّثَنَا هِشَامُ بْنُ عُرْوَةَ، عَنْ عُرْوَةَ، أَنَّ عَائِشَةَ، - رضى الله عنها - قَالَتْ نَزَلَ الْوَحْىُ عَلَى رَسُولِ",
+    "matn_ar": "اللَّهِ صلى الله عليه وسلم فَقَرَأَ عَلَيْنَا { سُورَةٌ أَنْزَلْنَاهَا وَفَرَضْنَاهَا } . قَالَ أَبُو دَاوُدَ يَعْنِي مُخَفَّفَةً حَتَّى أَتَى عَلَى هَذِهِ الآيَاتِ .",
+    "matn_ar_clean": "الله صلى الله عليه وسلم فقرأ علينا { سورة أنزلناها وفرضناها } . قال أبو داود يعني مخففة حتى أتى على هذه الآيات .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Narrated 'Aishah: The revelation came down to Messenger of Allah (ﷺ) and he recited to is: \"A surah which We have sent down and which We have ordained (faradnaha)\" Abu Dawud said: The letter ra (r) is the word faradnaha has short vowel a (with out doubling of consonant r), and then he reached the verses after this verse",
+    "iwh_en": "Aishah (may Allah be pleased with her) reported that the revelation came down to Messenger of Allah (ﷺ) and he recited to is: \"A surah which We have sent down and which We have ordained (faradnaha)\" Abu Dawud said: The letter ra (r) is the word faradnaha has short vowel a (with out doubling of consonant r), and then he reached the verses after this verse",
+    "iwh_id": "Aishah  (radhiyallahu 'anha) meriwayatkan bahwa the revelation came down to Messenger of Allah (ﷺ) and he recited to is: \"A surah which We have sent down and which We have ordained (faradnaha)\" Abu Dawud said: The letter ra (r) is the word faradnaha has short vowel a (with out doubling of consonant r), and then he reached the verses after this verse",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih li dhatihi",
+    "grades": [
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Muhammad Muhyi Al-Din Abdul Hamid",
+        "scholar_id": "muhammad-muhyi-al-din-abdul-hamid",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Isnaad Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "quran",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-19160",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "abu-dawud:4008"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "collection": "nasai",
+  "book": "015",
+  "total": 66,
+  "verified": 1430,
+  "flags": [
+    {
+      "cn": 1452,
+      "n": 2,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1453,
+      "n": 3,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1456,
+      "n": 6,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

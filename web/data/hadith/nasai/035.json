@@ -1,0 +1,3226 @@
+[
+  {
+    "n": 1,
+    "cn": 3807,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرِو بْنِ دِينَارٍ، قَالَ سَمِعْتُ طَاوُسًا، يُحَدِّثُ عَنْ زَيْدِ بْنِ ثَابِتٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الْعُمْرَى هِيَ لِلْوَارِثِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرِو بْنِ دِينَارٍ، قَالَ سَمِعْتُ طَاوُسًا، يُحَدِّثُ عَنْ زَيْدِ بْنِ ثَابِتٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ  \" الْعُمْرَى هِيَ لِلْوَارِثِ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ عَمْرِو بْنِ دِينَارٍ، قَالَ سَمِعْتُ ط",
+    "matn_ar": "َاوُسًا، يُحَدِّثُ عَنْ زَيْدِ بْنِ ثَابِتٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ \" الْعُمْرَى هِيَ لِلْوَارِثِ \" .",
+    "matn_ar_clean": "اوسا، يحدث عن زيد بن ثابت، عن النبي صلى الله عليه وسلم قال \" العمرى هي للوارث \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from Zaid bin Thabit that the Prophet said:\"'Umra (a gift given for life) belongs to the heir",
+    "iwh_en": "It was narrated from Zaid bin Thabit (may Allah be pleased with him) that the Prophet ﷺ said:\"'Umra (a gift given for life) belongs to the heir",
+    "iwh_id": "Diriwayatkan dari Zaid bin Thabit  (radhiyallahu 'anhu) bahwa Nabi ﷺ said:\"'Umra (a gift given for life) belongs to the heir",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28231",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3807"
+  },
+  {
+    "n": 2,
+    "cn": 3808,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي عَمْرُو بْنُ دِينَارٍ، قَالَ سَمِعْتُ طَاوُسًا، يُحَدِّثُ عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ الْعُمْرَى لِلْوَارِثِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي عَمْرُو بْنُ دِينَارٍ، قَالَ سَمِعْتُ طَاوُسًا، يُحَدِّثُ عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" الْعُمْرَى لِلْوَارِثِ \" .",
+    "isnad_ar": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ أَخْبَرَنِي عَمْرُو بْنُ دِينَارٍ، قَالَ سَمِعْتُ طَاوُسًا، يُحَدِّ",
+    "matn_ar": "ثُ عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" الْعُمْرَى لِلْوَارِثِ \" .",
+    "matn_ar_clean": "ث عن حجر المدري، عن زيد بن ثابت، أن رسول الله صلى الله عليه وسلم قال \" العمرى للوارث \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from Zaid bin Thabit that the Messenger of Allah said:\"'Umra (a gift given for life) belongs to the heir",
+    "iwh_en": "It was narrated from Zaid bin Thabit (may Allah be pleased with him) that the Messenger of Allah ﷺ said:\"'Umra (a gift given for life) belongs to the heir",
+    "iwh_id": "Diriwayatkan dari Zaid bin Thabit  (radhiyallahu 'anhu) bahwa Rasulullah ﷺ said:\"'Umra (a gift given for life) belongs to the heir",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28232",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3808"
+  },
+  {
+    "n": 3,
+    "cn": 3809,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ .",
+    "isnad_ar": "",
+    "matn_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
+    "matn_ar_clean": "أخبرنا محمد بن عبد الله بن يزيد، عن سفيان، عن عمرو، عن طاوس، عن حجر المدري، عن زيد بن ثابت، أن النبي صلى الله عليه وسلم قضى بالعمرى للوارث ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "It was narrated from Zaid bin Thabit that the Prophet ruled that 'Umra (a gift given for life) belongs to the heir",
+    "iwh_en": "It was narrated from Zaid bin Thabit that the Prophet ruled (may Allah be pleased with him) that 'Umra (a gift given for life) belongs to the heir",
+    "iwh_id": "Diriwayatkan dari Zaid bin Thabit that the Prophet ruled  (radhiyallahu 'anhu) bahwa 'Umra (a gift given for life) belongs to the heir",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28233",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3809"
+  },
+  {
+    "n": 4,
+    "cn": 3810,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ .",
+    "isnad_ar": "",
+    "matn_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، عَنْ سُفْيَانَ، عَنْ عَمْرٍو، عَنْ طَاوُسٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، أَنَّ النَّبِيَّ صلى الله عليه وسلم قَضَى بِالْعُمْرَى لِلْوَارِثِ ‏.‏",
+    "matn_ar_clean": "أخبرنا محمد بن المثنى، عن سفيان، عن عمرو، عن طاوس، عن حجر المدري، عن زيد بن ثابت، أن النبي صلى الله عليه وسلم قضى بالعمرى للوارث ‏.‏",
+    "isnad_chain": [],
+    "isnad_separation_method": "no_separation",
+    "isnad_confidence": "low",
+    "sunnah_ref_en": "It was narrated from Zaid bin Thabit that the Prophet ruled that 'Umra (a gift given for life) belongs to the heir",
+    "iwh_en": "It was narrated from Zaid bin Thabit that the Prophet ruled (may Allah be pleased with him) that 'Umra (a gift given for life) belongs to the heir",
+    "iwh_id": "Diriwayatkan dari Zaid bin Thabit that the Prophet ruled  (radhiyallahu 'anhu) bahwa 'Umra (a gift given for life) belongs to the heir",
+    "grade": "ungraded",
+    "grade_display": "Ungraded",
+    "grades": [],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28234",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "LOW_ISNAD_CONFIDENCE",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3810"
+  },
+  {
+    "n": 5,
+    "cn": 3811,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ بْنِ يَزِيدَ بْنِ إِبْرَاهِيمَ، قَالَ أَخْبَرَنِي أَبِي أَنَّهُ، عَرَضَ عَلَىَّ مَعْقِلٌ عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَنْ أَعْمَرَ شَيْئًا فَهُوَ لِمُعْمَرِهِ مَحْيَاهُ وَمَمَاتَهُ وَلاَ تَرْقُبُوا فَمَنْ أَرْقَبَ شَيْئًا فَهُوَ لِسَبِيلِهِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ بْنِ يَزِيدَ بْنِ إِبْرَاهِيمَ، قَالَ أَخْبَرَنِي أَبِي أَنَّهُ، عَرَضَ عَلَىَّ مَعْقِلٌ عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" مَنْ أَعْمَرَ شَيْئًا فَهُوَ لِمُعْمَرِهِ مَحْيَاهُ وَمَمَاتَهُ وَلاَ تَرْقُبُوا فَمَنْ أَرْقَبَ شَيْئًا فَهُوَ لِسَبِيلِهِ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عُبَيْدِ اللَّهِ بْنِ يَزِيدَ بْنِ إِبْرَاهِيمَ، قَالَ أَخْبَرَنِي أَبِي أَنَّهُ، عَرَضَ عَلَىَّ مَعْقِل",
+    "matn_ar": "ٌ عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ حُجْرٍ الْمَدَرِيِّ، عَنْ زَيْدِ بْنِ ثَابِتٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" مَنْ أَعْمَرَ شَيْئًا فَهُوَ لِمُعْمَرِهِ مَحْيَاهُ وَمَمَاتَهُ وَلاَ تَرْقُبُوا فَمَنْ أَرْقَبَ شَيْئًا فَهُوَ لِسَبِيلِهِ \" .",
+    "matn_ar_clean": " عن عمرو بن دينار، عن حجر المدري، عن زيد بن ثابت، قال قال رسول الله صلى الله عليه وسلم \" من أعمر شيئا فهو لمعمره محياه ومماته ولا ترقبوا فمن أرقب شيئا فهو لسبيله \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated that Zaid bin Thabit said:The Messenger of Allah said: \"Whoever gives a life-long gift, it belongs to the one to whom he gave it, both during his life and after his death. And do not give things on the basis of Ruqba, for whoever is given something on the basis of Ruqba, it becomes part of his estate",
+    "iwh_en": "Zaid bin Thabit (may Allah be pleased with him) reported that the Messenger of Allah ﷺ said: \"Whoever gives a life-long gift, it belongs to the one to whom he gave it, both during his life and after his death. And do not give things on the basis of Ruqba, for whoever is given something on the basis of Ruqba, it becomes part of his estate",
+    "iwh_id": "Zaid bin Thabit  (radhiyallahu 'anhu) meriwayatkan bahwa Rasulullah ﷺ said: \"Whoever gives a life-long gift, it belongs to the one to whom he gave it, both during his life and after his death. And do not give things on the basis of Ruqba, for whoever is given something on the basis of Ruqba, it becomes part of his estate",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "food-and-drink",
+      "death",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28235",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3811"
+  },
+  {
+    "n": 6,
+    "cn": 3812,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنِي زَكَرِيَّا بْنُ يَحْيَى، قَالَ حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ، قَالَ أَنْبَأَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، قَالَ حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ طَاوُسٍ، عَنِ الْحَجُورِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الْعُمْرَى جَائِزَةٌ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنِي زَكَرِيَّا بْنُ يَحْيَى، قَالَ حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ، قَالَ أَنْبَأَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، قَالَ حَدَّثَنَا عَمْرُو بْنُ دِينَارٍ، عَنْ طَاوُسٍ، عَنِ الْحَجُورِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ  \" الْعُمْرَى جَائِزَةٌ \" .",
+    "isnad_ar": "أَخْبَرَنِي زَكَرِيَّا بْنُ يَحْيَى، قَالَ حَدَّثَنَا زَيْدُ بْنُ أَخْزَمَ، قَالَ أَنْبَأَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، قَالَ حَدَّثَنَا عَمْرُو بْنُ دِين",
+    "matn_ar": "َارٍ، عَنْ طَاوُسٍ، عَنِ الْحَجُورِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ \" الْعُمْرَى جَائِزَةٌ \" .",
+    "matn_ar_clean": "ار، عن طاوس، عن الحجوري، عن عبد الله بن عباس، عن النبي صلى الله عليه وسلم قال \" العمرى جائزة \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from 'Abdullah bin 'Abbas that the Prophet said:\"'Umra is permissible",
+    "iwh_en": "It was narrated from 'Abdullah bin 'Abbas that the Prophet (may Allah be pleased with him) reported that \"'Umra is permissible",
+    "iwh_id": "It was narrated from 'Abdullah bin 'Abbas that the Prophet  (radhiyallahu 'anhu) meriwayatkan bahwa \"'Umra is permissible",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28236",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3812"
+  },
+  {
+    "n": 7,
+    "cn": 3813,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا هَارُونُ بْنُ مُحَمَّدِ بْنِ بَكَّارِ بْنِ بِلاَلٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا سَعِيدٌ، - هُوَ ابْنُ بَشِيرٍ - عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ إِنَّ الْعُمْرَى جَائِزَةٌ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا هَارُونُ بْنُ مُحَمَّدِ بْنِ بَكَّارِ بْنِ بِلاَلٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا سَعِيدٌ، - هُوَ ابْنُ بَشِيرٍ - عَنْ عَمْرِو بْنِ دِينَارٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ  \" إِنَّ الْعُمْرَى جَائِزَةٌ \" .",
+    "isnad_ar": "أَخْبَرَنَا هَارُونُ بْنُ مُحَمَّدِ بْنِ بَكَّارِ بْنِ بِلاَلٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا سَعِيدٌ، - هُوَ ابْنُ بَشِيرٍ - عَنْ عَمْرِو بْن",
+    "matn_ar": "ِ دِينَارٍ، عَنْ طَاوُسٍ، عَنِ ابْنِ عَبَّاسٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ \" إِنَّ الْعُمْرَى جَائِزَةٌ \" .",
+    "matn_ar_clean": " دينار، عن طاوس، عن ابن عباس، عن النبي صلى الله عليه وسلم قال \" إن العمرى جائزة \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from Ibn 'Abbas that the Prophet said:\"Indeed 'Umra is permissible",
+    "iwh_en": "It was narrated from Ibn 'Abbas (may Allah be pleased with him) that the Prophet ﷺ said:\"Indeed 'Umra is permissible",
+    "iwh_id": "Diriwayatkan dari Ibn 'Abbas  (radhiyallahu 'anhu) bahwa Nabi ﷺ said:\"Indeed 'Umra is permissible",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28237",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3813"
+  },
+  {
+    "n": 8,
+    "cn": 3814,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ حَاتِمٍ، قَالَ حَدَّثَنَا حِبَّانُ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ مُحَمَّدِ بْنِ إِسْحَاقَ، قَالَ حَدَّثَنَا مَكْحُولٌ، عَنْ طَاوُسٍ، بَتَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْعُمْرَى وَالرُّقْبَى ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ حَاتِمٍ، قَالَ حَدَّثَنَا حِبَّانُ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ مُحَمَّدِ بْنِ إِسْحَاقَ، قَالَ حَدَّثَنَا مَكْحُولٌ، عَنْ طَاوُسٍ، بَتَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْعُمْرَى وَالرُّقْبَى .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ حَاتِمٍ، ق",
+    "matn_ar": "َالَ حَدَّثَنَا حِبَّانُ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ مُحَمَّدِ بْنِ إِسْحَاقَ، قَالَ حَدَّثَنَا مَكْحُولٌ، عَنْ طَاوُسٍ، بَتَلَ رَسُولُ اللَّهِ صلى الله عليه وسلم الْعُمْرَى وَالرُّقْبَى .",
+    "matn_ar_clean": "ال حدثنا حبان، قال أنبأنا عبد الله، عن محمد بن إسحاق، قال حدثنا مكحول، عن طاوس، بتل رسول الله صلى الله عليه وسلم العمرى والرقبى .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from Tawus that the Messenger of Allah made 'Umra and Ruqba binding",
+    "iwh_en": "It was narrated from Tawus (may Allah be pleased with him) that the Messenger of Allah ﷺ made 'Umra and Ruqba binding",
+    "iwh_id": "Diriwayatkan dari Tawus  (radhiyallahu 'anhu) bahwa Rasulullah ﷺ made 'Umra and Ruqba binding",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Lighairihi",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28238",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3814"
+  },
+  {
+    "n": 9,
+    "cn": 3815,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ حَدَّثَنَا بِسْطَامُ بْنُ مُسْلِمٍ، قَالَ حَدَّثَنَا مَالِكُ بْنُ دِينَارٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم خَطَبَهُمْ فَقَالَ ‏ \"‏ الْعُمْرَى جَائِزَةٌ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ حَدَّثَنَا بِسْطَامُ بْنُ مُسْلِمٍ، قَالَ حَدَّثَنَا مَالِكُ بْنُ دِينَارٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم خَطَبَهُمْ فَقَالَ  \" الْعُمْرَى جَائِزَةٌ \" .",
+    "isnad_ar": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو دَاوُدَ، قَالَ حَدَّثَنَا بِسْطَامُ بْنُ مُسْلِمٍ، قَالَ حَدَّثَنَا مَالِكُ بْنُ دِينَارٍ",
+    "matn_ar": "عَنْ عَطَاءٍ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم خَطَبَهُمْ فَقَالَ \" الْعُمْرَى جَائِزَةٌ \" .",
+    "matn_ar_clean": "عن عطاء، عن جابر، أن رسول الله صلى الله عليه وسلم خطبهم فقال \" العمرى جائزة \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Malik bin Dinar narrated from 'Ata', from Jabir that the Messenger of Allah addressed them one day and said:\"'Umra is permissible",
+    "iwh_en": "Malik bin Dinar narrated from 'Ata', from Jabir that the Messenger of Allah ﷺ addressed them one day and said:\"'Umra is permissible",
+    "iwh_id": "Malik bin Dinar narrated from 'Ata', from Jabir that Rasulullah ﷺ addressed them one day and said:\"'Umra is permissible",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Isnaad Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28239",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3815"
+  },
+  {
+    "n": 10,
+    "cn": 3816,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا أَحْمَدُ بْنُ سُلَيْمَانَ، قَالَ أَنْبَأَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ عَبْدِ الْكَرِيمِ، عَنْ عَطَاءٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الْعُمْرَى وَالرُّقْبَى ‏.‏ قُلْتُ وَمَا الرُّقْبَى قَالَ يَقُولُ الرَّجُلُ لِلرَّجُلِ هِيَ لَكَ حَيَاتَكَ ‏.‏ فَإِنْ فَعَلْتُمْ فَهُوَ جَائِزَةٌ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا أَحْمَدُ بْنُ سُلَيْمَانَ، قَالَ أَنْبَأَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ عَبْدِ الْكَرِيمِ، عَنْ عَطَاءٍ، قَالَ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الْعُمْرَى وَالرُّقْبَى . قُلْتُ وَمَا الرُّقْبَى قَالَ يَقُولُ الرَّجُلُ لِلرَّجُلِ هِيَ لَكَ حَيَاتَكَ . فَإِنْ فَعَلْتُمْ فَهُوَ جَائِزَةٌ .",
+    "isnad_ar": "أَخْبَرَنَا أَحْمَدُ بْنُ سُلَيْمَانَ، قَالَ أَنْبَأَنَا عُبَيْدُ اللَّهِ، عَنْ إِسْرَائِيلَ، عَنْ عَبْدِ الْكَرِيمِ، عَنْ عَطَاءٍ، قَالَ نَهَى رَسُولُ ا",
+    "matn_ar": "للَّهِ صلى الله عليه وسلم عَنِ الْعُمْرَى وَالرُّقْبَى . قُلْتُ وَمَا الرُّقْبَى قَالَ يَقُولُ الرَّجُلُ لِلرَّجُلِ هِيَ لَكَ حَيَاتَكَ . فَإِنْ فَعَلْتُمْ فَهُوَ جَائِزَةٌ .",
+    "matn_ar_clean": "لله صلى الله عليه وسلم عن العمرى والرقبى . قلت وما الرقبى قال يقول الرجل للرجل هي لك حياتك . فإن فعلتم فهو جائزة .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Abdul-Karim narrated from 'Ata', who said:\"The Messenger of Allah forbade 'Umra and Ruqba.\" I said: \"What is Ruqba?\" He said: \"When one man says to another: 'This belongs to you for the rest of your life.' But if you do that, it is permissible",
+    "iwh_en": "Abdul-Karim narrated from 'Ata', who said:\"the Messenger of Allah ﷺ forbade 'Umra and Ruqba.\" I said: \"What is Ruqba?\" He said: \"When one man says to another: 'This belongs to you for the rest of your life.' But if you do that, it is permissible",
+    "iwh_id": "Abdul-Karim narrated from 'Ata', who said:\"Rasulullah ﷺ forbade 'Umra and Ruqba.\" I said: \"What is Ruqba?\" He said: \"When one man says to another: 'This belongs to you for the rest of your life.' But if you do that, it is permissible",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Lighairihi",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28240",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3816"
+  },
+  {
+    "n": 11,
+    "cn": 3817,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ عَطَاءٍ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الْعُمْرَى جَائِزَةٌ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، يُحَدِّثُ عَنْ عَطَاءٍ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ  \" الْعُمْرَى جَائِزَةٌ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، قَالَ سَمِعْتُ قَتَادَةَ، ي",
+    "matn_ar": "ُحَدِّثُ عَنْ عَطَاءٍ، عَنْ جَابِرٍ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ \" الْعُمْرَى جَائِزَةٌ \" .",
+    "matn_ar_clean": "حدث عن عطاء، عن جابر، عن النبي صلى الله عليه وسلم قال \" العمرى جائزة \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Shu'bah said:\"I heard Qatadah narrating from 'Ata', from Jabir that the Prophet said: 'Umra is permissible",
+    "iwh_en": "Shu'bah (may Allah be pleased with him) reported that \"I heard Qatadah narrating from 'Ata', from Jabir that the Prophet ﷺ said: 'Umra is permissible",
+    "iwh_id": "Shu'bah  (radhiyallahu 'anhu) meriwayatkan bahwa \"I heard Qatadah narrating from 'Ata', from Jabir that Nabi ﷺ said: 'Umra is permissible",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih - Agreed Upon",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28241",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3817"
+  },
+  {
+    "n": 12,
+    "cn": 3818,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ حَاتِمٍ، قَالَ أَنْبَأَنَا حِبَّانُ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ عَبْدِ الْمَلِكِ بْنِ أَبِي سُلَيْمَانَ، عَنْ عَطَاءٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَنْ أُعْطِيَ شَيْئًا حَيَاتَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَوْتَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ حَاتِمٍ، قَالَ أَنْبَأَنَا حِبَّانُ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَنْ عَبْدِ الْمَلِكِ بْنِ أَبِي سُلَيْمَانَ، عَنْ عَطَاءٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" مَنْ أُعْطِيَ شَيْئًا حَيَاتَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَوْتَهُ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ حَاتِمٍ، قَالَ أَنْبَأَنَا حِبَّانُ، قَالَ أَنْبَأَنَا عَبْدُ اللَّهِ، عَ",
+    "matn_ar": "نْ عَبْدِ الْمَلِكِ بْنِ أَبِي سُلَيْمَانَ، عَنْ عَطَاءٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" مَنْ أُعْطِيَ شَيْئًا حَيَاتَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَوْتَهُ \" .",
+    "matn_ar_clean": "ن عبد الملك بن أبي سليمان، عن عطاء، قال قال رسول الله صلى الله عليه وسلم \" من أعطي شيئا حياته فهو له حياته وموته \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Abdul-Malik bin Abi Sulaiman narrated from 'Ata' who said:\"The Messenger of Allah said: 'Whoever is given something for the rest of his life, it belongs to him for as long as he lives and after he dies",
+    "iwh_en": "Abdul-Malik bin Abi Sulaiman narrated from 'Ata' who (may Allah be pleased with him) reported that \"the Messenger of Allah ﷺ said: 'Whoever is given something for the rest of his life, it belongs to him for as long as he lives and after he dies",
+    "iwh_id": "Abdul-Malik bin Abi Sulaiman narrated from 'Ata' who  (radhiyallahu 'anhu) meriwayatkan bahwa \"Rasulullah ﷺ said: 'Whoever is given something for the rest of his life, it belongs to him for as long as he lives and after he dies",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Lighairihi",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "iman",
+      "death",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28242",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3818"
+  },
+  {
+    "n": 13,
+    "cn": 3819,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ سُفْيَانَ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، رضى الله عنه أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لاَ تُرْقِبُوا وَلاَ تُعْمِرُوا فَمَنْ أُرْقِبَ أَوْ أُعْمِرَ شَيْئًا فَهُوَ لِوَرَثَتِهِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ سُفْيَانَ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ، رضى الله عنه أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" لاَ تُرْقِبُوا وَلاَ تُعْمِرُوا فَمَنْ أُرْقِبَ أَوْ أُعْمِرَ شَيْئًا فَهُوَ لِوَرَثَتِهِ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، عَنْ سُفْيَانَ، عَنِ ابْنِ جُرَيْجٍ، عَنْ عَطَاءٍ، عَنْ جَابِرٍ",
+    "matn_ar": "، رضى الله عنه أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" لاَ تُرْقِبُوا وَلاَ تُعْمِرُوا فَمَنْ أُرْقِبَ أَوْ أُعْمِرَ شَيْئًا فَهُوَ لِوَرَثَتِهِ \" .",
+    "matn_ar_clean": "، رضى الله عنه أن رسول الله صلى الله عليه وسلم قال \" لا ترقبوا ولا تعمروا فمن أرقب أو أعمر شيئا فهو لورثته \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Sufyan narrated from Ibn Juraij, from 'Ata', from Jabir that the Messenger of Allah said:\"Do not give things on the basis of Ruqba or 'Umra. Whoever is given something on the basis of Ruqba or 'Umra, it belongs to his heirs",
+    "iwh_en": "Sufyan narrated from Ibn Juraij, from 'Ata', from Jabir that the Messenger of Allah ﷺ said:\"Do not give things on the basis of Ruqba or 'Umra. Whoever is given something on the basis of Ruqba or 'Umra, it belongs to his heirs",
+    "iwh_id": "Sufyan narrated from Ibn Juraij, from 'Ata', from Jabir that Rasulullah ﷺ said:\"Do not give things on the basis of Ruqba or 'Umra. Whoever is given something on the basis of Ruqba or 'Umra, it belongs to his heirs",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28243",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3819"
+  },
+  {
+    "n": 14,
+    "cn": 3820,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ أَنْبَأَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَنْبَأَنَا ابْنُ جُرَيْجٍ، عَنْ عَطَاءٍ، أَنْبَأَنَا حَبِيبُ بْنُ أَبِي ثَابِتٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لاَ عُمْرَى وَلاَ رُقْبَى فَمَنْ أُعْمِرَ شَيْئًا أَوْ أُرْقِبَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ أَنْبَأَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَنْبَأَنَا ابْنُ جُرَيْجٍ، عَنْ عَطَاءٍ، أَنْبَأَنَا حَبِيبُ بْنُ أَبِي ثَابِتٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" لاَ عُمْرَى وَلاَ رُقْبَى فَمَنْ أُعْمِرَ شَيْئًا أَوْ أُرْقِبَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ \" .",
+    "isnad_ar": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ أَنْبَأَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَنْبَأَنَا ابْنُ جُرَيْجٍ، عَنْ عَطَاءٍ، أَنْبَأَنَا حَبِيبُ",
+    "matn_ar": "بْنُ أَبِي ثَابِتٍ، عَنِ ابْنِ عُمَرَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" لاَ عُمْرَى وَلاَ رُقْبَى فَمَنْ أُعْمِرَ شَيْئًا أَوْ أُرْقِبَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ \" .",
+    "matn_ar_clean": "بن أبي ثابت، عن ابن عمر، أن رسول الله صلى الله عليه وسلم قال \" لا عمرى ولا رقبى فمن أعمر شيئا أو أرقبه فهو له حياته ومماته \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Ibn Juraij narrated from 'Ata':\"Habib bin Abi Thabit informed us from Ibn 'Umar, that the Messenger of Allah said: 'There is no 'Umra and no Ruqba. Whoever is given something on the basis of 'Umra or Ruqba, it belongs to him for the rest of his life and after he dies",
+    "iwh_en": "Ibn Juraij narrated from 'Ata':\"Habib bin Abi Thabit informed us from Ibn 'Umar, that the Messenger of Allah ﷺ said: 'There is no 'Umra and no Ruqba. Whoever is given something on the basis of 'Umra or Ruqba, it belongs to him for the rest of his life and after he dies",
+    "iwh_id": "Ibn Juraij narrated from 'Ata':\"Habib bin Abi Thabit informed us from Ibn 'Umar, that Rasulullah ﷺ said: 'There is no 'Umra and no Ruqba. Whoever is given something on the basis of 'Umra or Ruqba, it belongs to him for the rest of his life and after he dies",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "death",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28244",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3820"
+  },
+  {
+    "n": 15,
+    "cn": 3821,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، ‏{‏ قَالَ أَنْبَأَنَا ابْنُ جُرَيْجٍ، ‏}‏ قَالَ أَخْبَرَنِي عَطَاءٌ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنِ ابْنِ عُمَرَ، وَلَمْ يَسْمَعْهُ مِنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ لاَ عُمْرَى وَلاَ رُقْبَى فَمَنْ أُعْمِرَ شَيْئًا أَوْ أُرْقِبَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ ‏\"‏ ‏.‏ قَالَ عَطَاءٌ هُوَ لِلآخَرِ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، { قَالَ أَنْبَأَنَا ابْنُ جُرَيْجٍ، } قَالَ أَخْبَرَنِي عَطَاءٌ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنِ ابْنِ عُمَرَ، وَلَمْ يَسْمَعْهُ مِنْهُ قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" لاَ عُمْرَى وَلاَ رُقْبَى فَمَنْ أُعْمِرَ شَيْئًا أَوْ أُرْقِبَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ \" . قَالَ عَطَاءٌ هُوَ لِلآخَرِ .",
+    "isnad_ar": "أَخْبَرَنَا عُبَيْدُ اللَّهِ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا مُحَمَّدُ بْنُ بَكْرٍ، { قَالَ أَنْبَأَنَا ابْنُ جُرَيْجٍ، } قَالَ أَخْبَرَنِي عَطَاءٌ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، عَنِ ابْنِ عُمَرَ، وَلَمْ يَسْمَعْهُ مِنْهُ قَالَ قَالَ رَسُ",
+    "matn_ar": "ولُ اللَّهِ صلى الله عليه وسلم \" لاَ عُمْرَى وَلاَ رُقْبَى فَمَنْ أُعْمِرَ شَيْئًا أَوْ أُرْقِبَهُ فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ \" . قَالَ عَطَاءٌ هُوَ لِلآخَرِ .",
+    "matn_ar_clean": "ول الله صلى الله عليه وسلم \" لا عمرى ولا رقبى فمن أعمر شيئا أو أرقبه فهو له حياته ومماته \" . قال عطاء هو للآخر .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Ibn Juraij said:'Ata' informed me, from Habib bin Abi Thabit, from Ibn 'Umar -and he did not hear it from him- he said: 'Allah's Messenger said: \"There is no 'Umra and no Ruqba. Whoever is given something on the basis of 'Umra or Ruqba, it belongs to him for the rest of his life and after he dies.\"' 'Ata' said: \"It belongs to the other",
+    "iwh_en": "Ibn Juraij (may Allah be pleased with him) reported that 'Ata' informed me, from Habib bin Abi Thabit, from Ibn 'Umar -and he did not hear it from him- he said: 'Allah's Messenger ﷺ said: \"There is no 'Umra and no Ruqba. Whoever is given something on the basis of 'Umra or Ruqba, it belongs to him for the rest of his life and after he dies.\"' 'Ata' said: \"It belongs to the other",
+    "iwh_id": "Ibn Juraij  (radhiyallahu 'anhu) meriwayatkan bahwa 'Ata' informed me, from Habib bin Abi Thabit, from Ibn 'Umar -and he did not hear it from him- he said: 'Rasulullah ﷺ said: \"There is no 'Umra and no Ruqba. Whoever is given something on the basis of 'Umra or Ruqba, it belongs to him for the rest of his life and after he dies.\"' 'Ata' said: \"It belongs to the other",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "death",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28245",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3821"
+  },
+  {
+    "n": 16,
+    "cn": 3822,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنِي عَبْدَةُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ أَنْبَأَنَا وَكِيعٌ، عَنْ يَزِيدَ بْنِ زِيَادِ بْنِ أَبِي الْجَعْدِ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، قَالَ سَمِعْتُ ابْنَ عُمَرَ، يَقُولُ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الرُّقْبَى وَقَالَ ‏ \"‏ مَنْ أُرْقِبَ رُقْبَى فَهُوَ لَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنِي عَبْدَةُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ أَنْبَأَنَا وَكِيعٌ، عَنْ يَزِيدَ بْنِ زِيَادِ بْنِ أَبِي الْجَعْدِ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، قَالَ سَمِعْتُ ابْنَ عُمَرَ، يَقُولُ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الرُّقْبَى وَقَالَ  \" مَنْ أُرْقِبَ رُقْبَى فَهُوَ لَهُ \" .",
+    "isnad_ar": "أَخْبَرَنِي عَبْدَةُ بْنُ عَبْدِ الرَّحِيمِ، قَالَ أَنْبَأَنَا وَكِيعٌ، عَنْ يَزِيدَ بْنِ زِيَادِ بْنِ أَبِي الْجَعْدِ، عَنْ حَبِيبِ بْنِ أَبِي ثَابِتٍ، قَالَ سَم",
+    "matn_ar": "ِعْتُ ابْنَ عُمَرَ، يَقُولُ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنِ الرُّقْبَى وَقَالَ \" مَنْ أُرْقِبَ رُقْبَى فَهُوَ لَهُ \" .",
+    "matn_ar_clean": "عت ابن عمر، يقول نهى رسول الله صلى الله عليه وسلم عن الرقبى وقال \" من أرقب رقبى فهو له \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Yazid bin Ziyad bin Abi Al-Ja'd narrated from Habib bin Abi Thabit, who said:\"I heard Ibn 'Umar say: 'The Messenger of Allah forbade Ruqba and said: \"Whoever is given something on the basis of Ruqba, it belongs to him",
+    "iwh_en": "Yazid bin Ziyad bin Abi Al-Ja'd narrated from Habib bin Abi Thabit, who said:\"I heard Ibn 'Umar say: 'the Messenger of Allah ﷺ forbade Ruqba and said: \"Whoever is given something on the basis of Ruqba, it belongs to him",
+    "iwh_id": "Yazid bin Ziyad bin Abi Al-Ja'd narrated from Habib bin Abi Thabit, who said:\"I heard Ibn 'Umar say: 'Rasulullah ﷺ forbade Ruqba and said: \"Whoever is given something on the basis of Ruqba, it belongs to him",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28246",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3822"
+  },
+  {
+    "n": 17,
+    "cn": 3823,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو عَاصِمٍ، قَالَ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو عَاصِمٍ، قَالَ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَالَ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" مَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ \" .",
+    "isnad_ar": "أَخْبَرَنَا عَمْرُو بْنُ عَلِيٍّ، قَالَ حَدَّثَنَا أَبُو عَاصِمٍ، قَالَ حَدَّثَنَا ابْنُ جُرَيْجٍ، قَال",
+    "matn_ar": "َ أَخْبَرَنِي أَبُو الزُّبَيْرِ، أَنَّهُ سَمِعَ جَابِرًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" مَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ حَيَاتَهُ وَمَمَاتَهُ \" .",
+    "matn_ar_clean": " أخبرني أبو الزبير، أنه سمع جابرا، يقول قال رسول الله صلى الله عليه وسلم \" من أعمر شيئا فهو له حياته ومماته \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Ibn Juraij said:\"Abu Az-Zubair informed me that he heard Jabir saying: 'The Messenger of Allah said: \"Whoever is given something on the basis of 'Umra it belongs to him for the rest of his life and after he dies",
+    "iwh_en": "Ibn Juraij (may Allah be pleased with him) reported that \"Abu Az-Zubair informed me that he heard Jabir saying: 'the Messenger of Allah ﷺ said: \"Whoever is given something on the basis of 'Umra it belongs to him for the rest of his life and after he dies",
+    "iwh_id": "Ibn Juraij  (radhiyallahu 'anhu) meriwayatkan bahwa \"Abu Az-Zubair informed me that he heard Jabir saying: 'Rasulullah ﷺ said: \"Whoever is given something on the basis of 'Umra it belongs to him for the rest of his life and after he dies",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Muslim",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "death",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28247",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3823"
+  },
+  {
+    "n": 18,
+    "cn": 3824,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ صُدْرَانَ، عَنْ بِشْرِ بْنِ الْمُفَضَّلِ، قَالَ حَدَّثَنَا الْحَجَّاجُ الصَّوَّافُ، عَنْ أَبِي الزُّبَيْرِ، قَالَ حَدَّثَنَا جَابِرٌ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ يَا مَعْشَرَ الأَنْصَارِ امْسِكُوا عَلَيْكُمْ - يَعْنِي أَمْوَالَكُمْ - لاَ تُعْمِرُوهَا فَإِنَّهُ مَنْ أَعْمَرَ شَيْئًا فَإِنَّهُ لِمَنْ أُعْمِرَهُ حَيَاتَهُ وَمَمَاتَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ صُدْرَانَ، عَنْ بِشْرِ بْنِ الْمُفَضَّلِ، قَالَ حَدَّثَنَا الْحَجَّاجُ الصَّوَّافُ، عَنْ أَبِي الزُّبَيْرِ، قَالَ حَدَّثَنَا جَابِرٌ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" يَا مَعْشَرَ الأَنْصَارِ امْسِكُوا عَلَيْكُمْ - يَعْنِي أَمْوَالَكُمْ - لاَ تُعْمِرُوهَا فَإِنَّهُ مَنْ أَعْمَرَ شَيْئًا فَإِنَّهُ لِمَنْ أُعْمِرَهُ حَيَاتَهُ وَمَمَاتَهُ \" .",
+    "isnad_ar": "أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ صُدْرَانَ، عَنْ بِشْرِ بْنِ الْمُفَضَّلِ، قَالَ حَدَّثَنَا الْحَجّ",
+    "matn_ar": "َاجُ الصَّوَّافُ، عَنْ أَبِي الزُّبَيْرِ، قَالَ حَدَّثَنَا جَابِرٌ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" يَا مَعْشَرَ الأَنْصَارِ امْسِكُوا عَلَيْكُمْ - يَعْنِي أَمْوَالَكُمْ - لاَ تُعْمِرُوهَا فَإِنَّهُ مَنْ أَعْمَرَ شَيْئًا فَإِنَّهُ لِمَنْ أُعْمِرَهُ حَيَاتَهُ وَمَمَاتَهُ \" .",
+    "matn_ar_clean": "اج الصواف، عن أبي الزبير، قال حدثنا جابر، قال قال رسول الله صلى الله عليه وسلم \" يا معشر الأنصار امسكوا عليكم - يعني أموالكم - لا تعمروها فإنه من أعمر شيئا فإنه لمن أعمره حياته ومماته \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Al-Hajjaj bin As-Sawwaf narrated from Abu Az-Zubair, who said:\"Jabir said: 'The Messenger of Allah said: \"O Ansar! Hold on to your wealth, and do not give it on the basis of 'Umra. For whoever gives something on the basis of 'Umra, it belongs to the one to whom he gave it on that basis, for the rest of his life and after he dies",
+    "iwh_en": "Al-Hajjaj bin As-Sawwaf narrated from Abu Az-Zubair, who said:\"Jabir said: 'the Messenger of Allah ﷺ said: \"O Ansar! Hold on to your wealth, and do not give it on the basis of 'Umra. For whoever gives something on the basis of 'Umra, it belongs to the one to whom he gave it on that basis, for the rest of his life and after he dies",
+    "iwh_id": "Al-Hajjaj bin As-Sawwaf narrated from Abu Az-Zubair, who said:\"Jabir said: 'Rasulullah ﷺ said: \"O Ansar! Hold on to your wealth, and do not give it on the basis of 'Umra. For whoever gives something on the basis of 'Umra, it belongs to the one to whom he gave it on that basis, for the rest of his life and after he dies",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Muslim",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "hajj",
+      "death",
+      "prophet",
+      "companions",
+      "wealth"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28248",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3824"
+  },
+  {
+    "n": 19,
+    "cn": 3825,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، عَنْ هِشَامٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ امْسِكُوا عَلَيْكُمْ أَمْوَالَكُمْ وَلاَ تُعْمِرُوهَا فَمَنْ أُعْمِرَ شَيْئًا حَيَاتَهُ فَهُوَ لَهُ حَيَاتَهُ وَبَعْدَ مَوْتِهِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، عَنْ هِشَامٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" امْسِكُوا عَلَيْكُمْ أَمْوَالَكُمْ وَلاَ تُعْمِرُوهَا فَمَنْ أُعْمِرَ شَيْئًا حَيَاتَهُ فَهُوَ لَهُ حَيَاتَهُ وَبَعْدَ مَوْتِهِ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، عَنْ هِشَامٍ، عَنْ أَبِي الزُّبَيْرِ",
+    "matn_ar": "عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" امْسِكُوا عَلَيْكُمْ أَمْوَالَكُمْ وَلاَ تُعْمِرُوهَا فَمَنْ أُعْمِرَ شَيْئًا حَيَاتَهُ فَهُوَ لَهُ حَيَاتَهُ وَبَعْدَ مَوْتِهِ \" .",
+    "matn_ar_clean": "عن جابر، أن رسول الله صلى الله عليه وسلم قال \" امسكوا عليكم أموالكم ولا تعمروها فمن أعمر شيئا حياته فهو له حياته وبعد موته \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Hisham narrated from Abu Az-Zubair, from Jabir, that the Messenger of Allah said:\"Hold on to your wealth and do not give it on the basis of 'Umra. For whoever is given something on the basis of 'Umra for the rest of his life, it belongs to him for the rest of his life and after his death",
+    "iwh_en": "Hisham narrated from Abu Az-Zubair, from Jabir, that the Messenger of Allah ﷺ said:\"Hold on to your wealth and do not give it on the basis of 'Umra. For whoever is given something on the basis of 'Umra for the rest of his life, it belongs to him for the rest of his life and after his death",
+    "iwh_id": "Hisham narrated from Abu Az-Zubair, from Jabir, that Rasulullah ﷺ said:\"Hold on to your wealth and do not give it on the basis of 'Umra. For whoever is given something on the basis of 'Umra for the rest of his life, it belongs to him for the rest of his life and after his death",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "food-and-drink",
+      "death",
+      "prophet",
+      "wealth"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28249",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3825"
+  },
+  {
+    "n": 20,
+    "cn": 3826,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، عَنْ دَاوُدَ بْنِ أَبِي هِنْدٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ الرُّقْبَى لِمَنْ أُرْقِبَهَا ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، عَنْ دَاوُدَ بْنِ أَبِي هِنْدٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" الرُّقْبَى لِمَنْ أُرْقِبَهَا \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدٌ، عَنْ دَاوُدَ بْنِ أَ",
+    "matn_ar": "بِي هِنْدٍ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" الرُّقْبَى لِمَنْ أُرْقِبَهَا \" .",
+    "matn_ar_clean": "بي هند، عن أبي الزبير، عن جابر، قال قال رسول الله صلى الله عليه وسلم \" الرقبى لمن أرقبها \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Khalid narrated from Dawud bin Abi Hind, from Abu Az-Zubair, from Jabir, who said:\"The Messenger of Allah said: 'Ruqba belongs to the one to whom it is given",
+    "iwh_en": "Khalid narrated from Dawud bin Abi Hind, from Abu Az-Zubair, from Jabir, who said:\"the Messenger of Allah ﷺ said: 'Ruqba belongs to the one to whom it is given",
+    "iwh_id": "Khalid narrated from Dawud bin Abi Hind, from Abu Az-Zubair, from Jabir, who said:\"Rasulullah ﷺ said: 'Ruqba belongs to the one to whom it is given",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28250",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3826"
+  },
+  {
+    "n": 21,
+    "cn": 3827,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ حَدَّثَنَا هُشَيْمٌ، عَنْ دَاوُدَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ الْعُمْرَى جَائِزَةٌ لأَهْلِهَا وَالرُّقْبَى جَائِزَةٌ لأَهْلِهَا ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ حَدَّثَنَا هُشَيْمٌ، عَنْ دَاوُدَ، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" الْعُمْرَى جَائِزَةٌ لأَهْلِهَا وَالرُّقْبَى جَائِزَةٌ لأَهْلِهَا \" .",
+    "isnad_ar": "أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ حَدَّثَنَا هُشَيْمٌ، عَنْ دَاوُدَ",
+    "matn_ar": "، عَنْ أَبِي الزُّبَيْرِ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" الْعُمْرَى جَائِزَةٌ لأَهْلِهَا وَالرُّقْبَى جَائِزَةٌ لأَهْلِهَا \" .",
+    "matn_ar_clean": "، عن أبي الزبير، عن جابر، قال قال رسول الله صلى الله عليه وسلم \" العمرى جائزة لأهلها والرقبى جائزة لأهلها \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Hushaim narrated from Dawud, from Abu Az-Zubair, from Jabir, who said:\"The Messenger of Allah said: 'Umra is permissible for the one to whom it is given, and Ruqba is permissible for the one to whom it is given",
+    "iwh_en": "Hushaim narrated from Dawud, from Abu Az-Zubair, from Jabir, who said:\"the Messenger of Allah ﷺ said: 'Umra is permissible for the one to whom it is given, and Ruqba is permissible for the one to whom it is given",
+    "iwh_id": "Hushaim narrated from Dawud, from Abu Az-Zubair, from Jabir, who said:\"Rasulullah ﷺ said: 'Umra is permissible for the one to whom it is given, and Ruqba is permissible for the one to whom it is given",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28251",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3827"
+  },
+  {
+    "n": 22,
+    "cn": 3828,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مَحْمُودُ بْنُ خَالِدٍ، قَالَ حَدَّثَنَا عُمَرُ، عَنِ الأَوْزَاعِيِّ، حَدَّثَنَا ابْنُ شِهَابٍ، قَالَ وَأَخْبَرَنِي عَمْرُو بْنُ عُثْمَانَ، أَنْبَأَنَا بَقِيَّةُ بْنُ الْوَلِيدِ، عَنِ الأَوْزَاعِيِّ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ مَنْ أُعْمِرَ عُمْرَى فَهِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مَحْمُودُ بْنُ خَالِدٍ، قَالَ حَدَّثَنَا عُمَرُ، عَنِ الأَوْزَاعِيِّ، حَدَّثَنَا ابْنُ شِهَابٍ، قَالَ وَأَخْبَرَنِي عَمْرُو بْنُ عُثْمَانَ، أَنْبَأَنَا بَقِيَّةُ بْنُ الْوَلِيدِ، عَنِ الأَوْزَاعِيِّ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" مَنْ أُعْمِرَ عُمْرَى فَهِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ \" .",
+    "isnad_ar": "أَخْبَرَنَا مَحْمُودُ بْنُ خَالِدٍ، قَالَ حَدَّثَنَا عُمَرُ، عَنِ الأَوْزَاعِيِّ، حَدَّثَنَا ابْنُ شِهَابٍ، قَالَ وَأَخْبَرَنِي عَمْرُو بْنُ عُثْمَانَ، أَنْبَأَنَ",
+    "matn_ar": "ا بَقِيَّةُ بْنُ الْوَلِيدِ، عَنِ الأَوْزَاعِيِّ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" مَنْ أُعْمِرَ عُمْرَى فَهِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ \" .",
+    "matn_ar_clean": "ا بقية بن الوليد، عن الأوزاعي، عن الزهري، عن عروة، عن جابر، قال قال رسول الله صلى الله عليه وسلم \" من أعمر عمرى فهي له ولعقبه يرثها من يرثه من عقبه \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Al-Awza'i narrated from Az-Zuhri, from 'Urwah, from Jabir, who said:\"The Messenger of Allah said: 'Whoever is given something on the basis of 'Umra, it belongs to him and to his descendants, and is inherited by those who inherit from him",
+    "iwh_en": "Al-Awza'i narrated from Az-Zuhri, from 'Urwah, from Jabir, who said:\"the Messenger of Allah ﷺ said: 'Whoever is given something on the basis of 'Umra, it belongs to him and to his descendants, and is inherited by those who inherit from him",
+    "iwh_id": "Al-Awza'i narrated from Az-Zuhri, from 'Urwah, from Jabir, who said:\"Rasulullah ﷺ said: 'Whoever is given something on the basis of 'Umra, it belongs to him and to his descendants, and is inherited by those who inherit from him",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Lighairihi",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28252",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3828"
+  },
+  {
+    "n": 23,
+    "cn": 3829,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عِيسَى بْنُ مُسَاوِرٍ، قَالَ حَدَّثَنَا الْوَلِيدُ، قَالَ حَدَّثَنَا أَبُو عَمْرٍو، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ الْعُمْرَى لِمَنْ أُعْمِرَهَا هِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عِيسَى بْنُ مُسَاوِرٍ، قَالَ حَدَّثَنَا الْوَلِيدُ، قَالَ حَدَّثَنَا أَبُو عَمْرٍو، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" الْعُمْرَى لِمَنْ أُعْمِرَهَا هِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ \" .",
+    "isnad_ar": "أَخْبَرَنَا عِيسَى بْنُ مُسَاوِرٍ، قَالَ حَدَّثَنَا الْوَلِيدُ، قَالَ حَدَّثَنَا أَبُو عَمْرٍو، عَن",
+    "matn_ar": "ِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" الْعُمْرَى لِمَنْ أُعْمِرَهَا هِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ \" .",
+    "matn_ar_clean": " ابن شهاب، عن أبي سلمة، عن جابر، قال قال رسول الله صلى الله عليه وسلم \" العمرى لمن أعمرها هي له ولعقبه يرثها من يرثه من عقبه \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "(A different chain) from Abu 'Amr, from Ibn Shihab, from Abu Salamah, from Jabir, who said:\"The Messenger of Allah said: 'Umra (a lifelong gift) belongs to the one to whom it was given; it belongs to him and to his heirs, and is inherited by those among his descendants who inherit from him",
+    "iwh_en": "(A different chain) from Abu 'Amr, from Ibn Shihab, from Abu Salamah, from Jabir, who said:\"the Messenger of Allah ﷺ said: 'Umra (a lifelong gift) belongs to the one to whom it was given; it belongs to him and to his heirs, and is inherited by those among his descendants who inherit from him",
+    "iwh_id": "(A different chain) from Abu 'Amr, from Ibn Shihab, from Abu Salamah, from Jabir, who said:\"Rasulullah ﷺ said: 'Umra (a lifelong gift) belongs to the one to whom it was given; it belongs to him and to his heirs, and is inherited by those among his descendants who inherit from him",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih - Agreed Upon",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28253",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3829"
+  },
+  {
+    "n": 24,
+    "cn": 3830,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ هَاشِمٍ الْبَعْلَبَكِّيُّ، قَالَ حَدَّثَنَا الْوَلِيدُ، قَالَ حَدَّثَنَا الأَوْزَاعِيُّ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، وَأَبِي، سَلَمَةَ عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ الْعُمْرَى لِمَنْ أُعْمِرَهَا هِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ هَاشِمٍ الْبَعْلَبَكِّيُّ، قَالَ حَدَّثَنَا الْوَلِيدُ، قَالَ حَدَّثَنَا الأَوْزَاعِيُّ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، وَأَبِي، سَلَمَةَ عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" الْعُمْرَى لِمَنْ أُعْمِرَهَا هِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ هَاشِمٍ الْبَعْلَبَكِّيُّ، قَالَ حَدَّثَنَا الْوَلِيدُ، قَالَ حَدَّثَنَا الأَوْزَاعِي",
+    "matn_ar": "ُّ، عَنِ الزُّهْرِيِّ، عَنْ عُرْوَةَ، وَأَبِي، سَلَمَةَ عَنْ جَابِرٍ، قَالَ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" الْعُمْرَى لِمَنْ أُعْمِرَهَا هِيَ لَهُ وَلِعَقِبِهِ يَرِثُهَا مَنْ يَرِثُهُ مِنْ عَقِبِهِ \" .",
+    "matn_ar_clean": "، عن الزهري، عن عروة، وأبي، سلمة عن جابر، قال قال رسول الله صلى الله عليه وسلم \" العمرى لمن أعمرها هي له ولعقبه يرثها من يرثه من عقبه \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "(A different chain) from Al-Awza'i, from Az-Zuhri, from 'Urwah and Abu Salamah, from Jabir, who said:\"The Messenger of Allah said: 'Umra (a lifelong gift) belongs to the one to whom it was given; it belongs to him and to his descendants, and is inherited by those who inherit from him",
+    "iwh_en": "(A different chain) from Al-Awza'i, from Az-Zuhri, from 'Urwah and Abu Salamah, from Jabir, who said:\"the Messenger of Allah ﷺ said: 'Umra (a lifelong gift) belongs to the one to whom it was given; it belongs to him and to his descendants, and is inherited by those who inherit from him",
+    "iwh_id": "(A different chain) from Al-Awza'i, from Az-Zuhri, from 'Urwah and Abu Salamah, from Jabir, who said:\"Rasulullah ﷺ said: 'Umra (a lifelong gift) belongs to the one to whom it was given; it belongs to him and to his descendants, and is inherited by those who inherit from him",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28254",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3830"
+  },
+  {
+    "n": 25,
+    "cn": 3831,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحِيمِ، قَالَ حَدَّثَنَا عَمْرُو بْنُ أَبِي سَلَمَةَ الدِّمَشْقِيُّ، عَنْ أَبِي عُمَرَ الصَّنْعَانِيِّ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ أَيُّمَا رَجُلٍ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَهِيَ لَهُ وَلِمَنْ يَرِثُهُ مِنْ عَقِبِهِ مَوْرُوثَةٌ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحِيمِ، قَالَ حَدَّثَنَا عَمْرُو بْنُ أَبِي سَلَمَةَ الدِّمَشْقِيُّ، عَنْ أَبِي عُمَرَ الصَّنْعَانِيِّ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" أَيُّمَا رَجُلٍ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَهِيَ لَهُ وَلِمَنْ يَرِثُهُ مِنْ عَقِبِهِ مَوْرُوثَةٌ \" .",
+    "isnad_ar": "أَخْبَرَنِي مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحِيمِ، قَالَ حَدَّثَنَا عَمْرُو بْنُ أَبِي سَلَمَةَ الدِّمَشْقِيُّ، عَنْ أَبِي عُمَرَ الصَّنْعَانِيِّ، عَنْ هِشَامِ بْ",
+    "matn_ar": "نِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَبْدِ اللَّهِ بْنِ الزُّبَيْرِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" أَيُّمَا رَجُلٍ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَهِيَ لَهُ وَلِمَنْ يَرِثُهُ مِنْ عَقِبِهِ مَوْرُوثَةٌ \" .",
+    "matn_ar_clean": "ن عروة، عن أبيه، عن عبد الله بن الزبير، أن رسول الله صلى الله عليه وسلم قال \" أيما رجل أعمر رجلا عمرى له ولعقبه فهي له ولمن يرثه من عقبه موروثة \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from Hisham bin 'Urwah, from his father, from 'Abdullah bin Az-Zubair, that the Messenger of Allah said:\"Any man who gives a lifelong gift to another man, it belongs to him (the recipient) and to his descendants, and to those who inherit from him",
+    "iwh_en": "It was narrated from Hisham bin 'Urwah, from his father, from 'Abdullah bin Az-Zubair, that the Messenger of Allah ﷺ said:\"Any man who gives a lifelong gift to another man, it belongs to him (the recipient) and to his descendants, and to those who inherit from him",
+    "iwh_id": "It was narrated from Hisham bin 'Urwah, from his father, from 'Abdullah bin Az-Zubair, that Rasulullah ﷺ said:\"Any man who gives a lifelong gift to another man, it belongs to him (the recipient) and to his descendants, and to those who inherit from him",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "family",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28255",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3831"
+  },
+  {
+    "n": 26,
+    "cn": 3832,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ ‏ \"‏ مَنْ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَقَدْ قَطَعَ قَوْلُهُ حَقَّهُ وَهِيَ لِمَنْ أُعْمِرَ وَلِعَقِبِهِ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ  \" مَنْ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَقَدْ قَطَعَ قَوْلُهُ حَقَّهُ وَهِيَ لِمَنْ أُعْمِرَ وَلِعَقِبِهِ \" .",
+    "isnad_ar": "أَخْبَرَنَا قُتَيْبَةُ بْنُ سَعِيدٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنِ ابْنِ شِهَابٍ، عَن",
+    "matn_ar": "ْ أَبِي سَلَمَةَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ جَابِرٍ، قَالَ سَمِعْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم يَقُولُ \" مَنْ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَقَدْ قَطَعَ قَوْلُهُ حَقَّهُ وَهِيَ لِمَنْ أُعْمِرَ وَلِعَقِبِهِ \" .",
+    "matn_ar_clean": " أبي سلمة بن عبد الرحمن، عن جابر، قال سمعت رسول الله صلى الله عليه وسلم يقول \" من أعمر رجلا عمرى له ولعقبه فقد قطع قوله حقه وهي لمن أعمر ولعقبه \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Al-Laith narrated from Ibn Shihab, from Abu Salamah bin 'Abdur-Rahman, from Jabir, who said:\"I heard the Messenger of Allah say: 'Whoever gives a life-long gift to a man, it belongs to him and to his heirs; his words (when he gave the gift) put an end to his rights over it, and it belongs to the one to whom it was given on the basis of 'Umra, and to his heirs",
+    "iwh_en": "Al-Laith narrated from Ibn Shihab, from Abu Salamah bin 'Abdur-Rahman, from Jabir, who said:\"I heard the Messenger of Allah ﷺ say: 'Whoever gives a life-long gift to a man, it belongs to him and to his heirs; his words (when he gave the gift) put an end to his rights over it, and it belongs to the one to whom it was given on the basis of 'Umra, and to his heirs",
+    "iwh_id": "Al-Laith narrated from Ibn Shihab, from Abu Salamah bin 'Abdur-Rahman, from Jabir, who said:\"I heard Rasulullah ﷺ say: 'Whoever gives a life-long gift to a man, it belongs to him and to his heirs; his words (when he gave the gift) put an end to his rights over it, and it belongs to the one to whom it was given on the basis of 'Umra, and to his heirs",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28256",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3832"
+  },
+  {
+    "n": 27,
+    "cn": 3833,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ سَلَمَةَ، وَالْحَارِثُ بْنُ مِسْكِينٍ، قِرَاءَةً عَلَيْهِ وَأَنَا أَسْمَعُ، عَنِ ابْنِ الْقَاسِمِ، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ أَيُّمَا رَجُلٍ أُعْمِرَ عُمْرَى لَهُ وَلِعَقِبِهِ فَإِنَّهَا لِلَّذِي يُعْطَاهَا لاَ تَرْجِعُ إِلَى الَّذِي أَعْطَاهَا لأَنَّهُ أَعْطَى عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ سَلَمَةَ، وَالْحَارِثُ بْنُ مِسْكِينٍ، قِرَاءَةً عَلَيْهِ وَأَنَا أَسْمَعُ، عَنِ ابْنِ الْقَاسِمِ، عَنْ مَالِكٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" أَيُّمَا رَجُلٍ أُعْمِرَ عُمْرَى لَهُ وَلِعَقِبِهِ فَإِنَّهَا لِلَّذِي يُعْطَاهَا لاَ تَرْجِعُ إِلَى الَّذِي أَعْطَاهَا لأَنَّهُ أَعْطَى عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ سَلَمَةَ، وَالْحَارِثُ بْنُ مِسْكِينٍ، قِرَاءَةً عَلَيْهِ وَأَنَا أَسْمَعُ، عَنِ ابْنِ الْقَاسِمِ، عَنْ مَالِكٍ، عَنِ ابْنِ ش",
+    "matn_ar": "ِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" أَيُّمَا رَجُلٍ أُعْمِرَ عُمْرَى لَهُ وَلِعَقِبِهِ فَإِنَّهَا لِلَّذِي يُعْطَاهَا لاَ تَرْجِعُ إِلَى الَّذِي أَعْطَاهَا لأَنَّهُ أَعْطَى عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ \" .",
+    "matn_ar_clean": "هاب، عن أبي سلمة، عن جابر، أن رسول الله صلى الله عليه وسلم قال \" أيما رجل أعمر عمرى له ولعقبه فإنها للذي يعطاها لا ترجع إلى الذي أعطاها لأنه أعطى عطاء وقعت فيه المواريث \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Malik narrated from Ibn Shihab, from Abu Salamah, from Jabir that the Messenger of Allah said:\"Any man who is given a gift on the basis of 'Umra, it belongs to him and to his descendants. It belongs to the one to whom he gave it, and it cannot be taken back by the one who gave it, because he has given a gift, and it comes to the heirs of the one to whom it was given",
+    "iwh_en": "Malik narrated from Ibn Shihab, from Abu Salamah, from Jabir that the Messenger of Allah ﷺ said:\"Any man who is given a gift on the basis of 'Umra, it belongs to him and to his descendants. It belongs to the one to whom he gave it, and it cannot be taken back by the one who gave it, because he has given a gift, and it comes to the heirs of the one to whom it was given",
+    "iwh_id": "Malik narrated from Ibn Shihab, from Abu Salamah, from Jabir that Rasulullah ﷺ said:\"Any man who is given a gift on the basis of 'Umra, it belongs to him and to his descendants. It belongs to the one to whom he gave it, and it cannot be taken back by the one who gave it, because he has given a gift, and it comes to the heirs of the one to whom it was given",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28257",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3833"
+  },
+  {
+    "n": 28,
+    "cn": 3834,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عِمْرَانُ بْنُ بَكَّارٍ، قَالَ حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ حَدَّثَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ جَابِرًا، أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى أَنَّهُ مَنْ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَإِنَّهَا لِلَّذِي أُعْمِرَهَا يَرِثُهَا مِنْ صَاحِبِهَا الَّذِي أَعْطَاهَا مَا وَقَعَ مِنْ مَوَارِيثِ اللَّهِ وَحَقِّهِ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عِمْرَانُ بْنُ بَكَّارٍ، قَالَ حَدَّثَنَا أَبُو الْيَمَانِ، قَالَ حَدَّثَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ جَابِرًا، أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى أَنَّهُ مَنْ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَإِنَّهَا لِلَّذِي أُعْمِرَهَا يَرِثُهَا مِنْ صَاحِبِهَا الَّذِي أَعْطَاهَا مَا وَقَعَ مِنْ مَوَارِيثِ اللَّهِ وَحَقِّهِ .",
+    "isnad_ar": "أَخْبَرَنَا عِمْرَانُ بْنُ بَكَّارٍ، قَالَ حَدَّثَنَا أَبُو الْيَمَانِ",
+    "matn_ar": "قَالَ حَدَّثَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ جَابِرًا، أَخْبَرَهُ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى أَنَّهُ مَنْ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ فَإِنَّهَا لِلَّذِي أُعْمِرَهَا يَرِثُهَا مِنْ صَاحِبِهَا الَّذِي أَعْطَاهَا مَا وَقَعَ مِنْ مَوَارِيثِ اللَّهِ وَحَقِّهِ .",
+    "matn_ar_clean": "قال حدثنا شعيب، عن الزهري، قال حدثني أبو سلمة بن عبد الرحمن، أن جابرا، أخبره أن رسول الله صلى الله عليه وسلم قضى أنه من أعمر رجلا عمرى له ولعقبه فإنها للذي أعمرها يرثها من صاحبها الذي أعطاها ما وقع من مواريث الله وحقه .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Shua'ib narrated from Az-Zuhri, who said:\"Abu Salamah bin 'Abdur-Rahman narrated to me, that Jabir told him: 'The Messenger of Allah ruled that whoever gives a lifelong gift to a man, it belongs to him and to his heirs. It belongs to the one to whom it was given, on the basis of 'Umra. It will be inherited from its recipient according to Allah's (injunctions on) inheritance and its rights",
+    "iwh_en": "Shua'ib narrated from Az-Zuhri, who said:\"Abu Salamah bin 'Abdur-Rahman narrated to me, that Jabir told him: 'the Messenger of Allah ﷺ ruled that whoever gives a lifelong gift to a man, it belongs to him and to his heirs. It belongs to the one to whom it was given, on the basis of 'Umra. It will be inherited from its recipient according to Allah's (injunctions on) inheritance and its rights",
+    "iwh_id": "Shua'ib narrated from Az-Zuhri, who said:\"Abu Salamah bin 'Abdur-Rahman narrated to me, that Jabir told him: 'Rasulullah ﷺ ruled that whoever gives a lifelong gift to a man, it belongs to him and to his heirs. It belongs to the one to whom it was given, on the basis of 'Umra. It will be inherited from its recipient according to Allah's (injunctions on) inheritance and its rights",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28258",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3834"
+  },
+  {
+    "n": 29,
+    "cn": 3835,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ عَبْدِ الْحَكَمِ، عَنِ ابْنِ أَبِي فُدَيْكٍ، قَالَ حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى فِيمَنْ أُعْمِرَ عُمْرَى لَهُ وَلِعَقِبِهِ فَهِيَ لَهُ بَتْلَةٌ لاَ يَجُوزُ لِلْمُعْطِي مِنْهَا شَرْطٌ وَلاَ ثُنْيَا ‏.‏ قَالَ أَبُو سَلَمَةَ لأَنَّهُ أَعْطَى عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ فَقَطَعَتِ الْمَوَارِيثُ شَرْطَهُ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ عَبْدِ الْحَكَمِ، عَنِ ابْنِ أَبِي فُدَيْكٍ، قَالَ حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى فِيمَنْ أُعْمِرَ عُمْرَى لَهُ وَلِعَقِبِهِ فَهِيَ لَهُ بَتْلَةٌ لاَ يَجُوزُ لِلْمُعْطِي مِنْهَا شَرْطٌ وَلاَ ثُنْيَا . قَالَ أَبُو سَلَمَةَ لأَنَّهُ أَعْطَى عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ فَقَطَعَتِ الْمَوَارِيثُ شَرْطَهُ .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ عَبْدِ الْحَكَمِ، عَنِ ابْنِ أَبِي فُدَيْكٍ، قَالَ حَدَّثَنَا ابْنُ أَبِي ذِئْبٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه و",
+    "matn_ar": "سلم قَضَى فِيمَنْ أُعْمِرَ عُمْرَى لَهُ وَلِعَقِبِهِ فَهِيَ لَهُ بَتْلَةٌ لاَ يَجُوزُ لِلْمُعْطِي مِنْهَا شَرْطٌ وَلاَ ثُنْيَا . قَالَ أَبُو سَلَمَةَ لأَنَّهُ أَعْطَى عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ فَقَطَعَتِ الْمَوَارِيثُ شَرْطَهُ .",
+    "matn_ar_clean": "سلم قضى فيمن أعمر عمرى له ولعقبه فهي له بتلة لا يجوز للمعطي منها شرط ولا ثنيا . قال أبو سلمة لأنه أعطى عطاء وقعت فيه المواريث فقطعت المواريث شرطه .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Ibn Abi Dhi'b narrated from Ibn Shihab, from Abu Salamah, from Jabir, that the Messenger of Allah ruled -concerning a person who has been given a lifelong gift ('Umra)- that it belongs to him and to his descendants:\"It is undoubtedly his, and it is not permissible for the giver to stipulate any conditions or exceptions.\" Abu Salamah said: \"Because he gave it as a gift and thus, it is subject to the same ruling as the estate, and the condition (that it will revert to the giver on the death of recipient) has become invalid",
+    "iwh_en": "Ibn Abi Dhi'b narrated from Ibn Shihab, from Abu Salamah, from Jabir, that the Messenger of Allah ﷺ ruled -concerning a person who has been given a lifelong gift ('Umra)- that it belongs to him and to his descendants:\"It is undoubtedly his, and it is not permissible for the giver to stipulate any conditions or exceptions.\" Abu Salamah said: \"Because he gave it as a gift and thus, it is subject to the same ruling as the estate, and the condition (that it will revert to the giver on the death of recipient) has become invalid",
+    "iwh_id": "Ibn Abi Dhi'b narrated from Ibn Shihab, from Abu Salamah, from Jabir, that Rasulullah ﷺ ruled -concerning a person who has been given a lifelong gift ('Umra)- that it belongs to him and to his descendants:\"It is undoubtedly his, and it is not permissible for the giver to stipulate any conditions or exceptions.\" Abu Salamah said: \"Because he gave it as a gift and thus, it is subject to the same ruling as the estate, and the condition (that it will revert to the giver on the death of recipient) has become invalid",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "food-and-drink",
+      "manners",
+      "death",
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28259",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3835"
+  },
+  {
+    "n": 30,
+    "cn": 3836,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ سَيْفٍ قَالَ حَدَّثَنَا يَعْقُوبُ، قَالَ حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، أَنَّ أَبَا سَلَمَةَ، أَخْبَرَهُ عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ أَيُّمَا رَجُلٍ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ قَالَ قَدْ أَعْطَيْتُكَهَا وَعَقِبَكَ مَا بَقِيَ مِنْكُمْ أَحَدٌ فَإِنَّهَا لِمَنْ أُعْطِيَهَا وَإِنَّهَا لاَ تَرْجِعُ إِلَى صَاحِبِهَا مِنْ أَجْلِ أَنَّهُ أَعْطَاهَا عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ سَيْفٍ قَالَ حَدَّثَنَا يَعْقُوبُ، قَالَ حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، أَنَّ أَبَا سَلَمَةَ، أَخْبَرَهُ عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" أَيُّمَا رَجُلٍ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ قَالَ قَدْ أَعْطَيْتُكَهَا وَعَقِبَكَ مَا بَقِيَ مِنْكُمْ أَحَدٌ فَإِنَّهَا لِمَنْ أُعْطِيَهَا وَإِنَّهَا لاَ تَرْجِعُ إِلَى صَاحِبِهَا مِنْ أَجْلِ أَنَّهُ أَعْطَاهَا عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ \" .",
+    "isnad_ar": "أَخْبَرَنَا أَبُو دَاوُدَ، سُلَيْمَانُ بْنُ سَيْفٍ قَالَ حَدَّثَنَا يَعْقُوبُ، قَالَ حَدَّثَنَا أَبِي، عَنْ صَالِحٍ، عَنِ ابْنِ شِهَابٍ، أَنَّ أَبَا سَلَمَةَ، أَخْبَرَهُ عَنْ جَابِرٍ، أ",
+    "matn_ar": "َنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" أَيُّمَا رَجُلٍ أَعْمَرَ رَجُلاً عُمْرَى لَهُ وَلِعَقِبِهِ قَالَ قَدْ أَعْطَيْتُكَهَا وَعَقِبَكَ مَا بَقِيَ مِنْكُمْ أَحَدٌ فَإِنَّهَا لِمَنْ أُعْطِيَهَا وَإِنَّهَا لاَ تَرْجِعُ إِلَى صَاحِبِهَا مِنْ أَجْلِ أَنَّهُ أَعْطَاهَا عَطَاءً وَقَعَتْ فِيهِ الْمَوَارِيثُ \" .",
+    "matn_ar_clean": "ن رسول الله صلى الله عليه وسلم قال \" أيما رجل أعمر رجلا عمرى له ولعقبه قال قد أعطيتكها وعقبك ما بقي منكم أحد فإنها لمن أعطيها وإنها لا ترجع إلى صاحبها من أجل أنه أعطاها عطاء وقعت فيه المواريث \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Salih narrated from Ibn Shihab, that Abu Salamah informed him from Jabir, that the Messenger of Allah said:\"Any man who gives a lifelong gift to another man, it belongs to him (the recipient) and his descendants. He said: 'I have given it to you and to your descendants so long as any of you are still alive.' So it belongs to the one to whom it was given, and it cannot revert to the first owner, since he has given it as a gift, and as such, it becomes subject to the same ruling as the estate",
+    "iwh_en": "Salih narrated from Ibn Shihab, that Abu Salamah informed him from Jabir, that the Messenger of Allah ﷺ said:\"Any man who gives a lifelong gift to another man, it belongs to him (the recipient) and his descendants. He said: 'I have given it to you and to your descendants so long as any of you are still alive.' So it belongs to the one to whom it was given, and it cannot revert to the first owner, since he has given it as a gift, and as such, it becomes subject to the same ruling as the estate",
+    "iwh_id": "Salih narrated from Ibn Shihab, that Abu Salamah informed him from Jabir, that Rasulullah ﷺ said:\"Any man who gives a lifelong gift to another man, it belongs to him (the recipient) and his descendants. He said: 'I have given it to you and to your descendants so long as any of you are still alive.' So it belongs to the one to whom it was given, and it cannot revert to the first owner, since he has given it as a gift, and as such, it becomes subject to the same ruling as the estate",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet",
+      "companions",
+      "sin"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28260",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3836"
+  },
+  {
+    "n": 31,
+    "cn": 3837,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا سَعِيدٌ، قَالَ حَدَّثَنِي يَزِيدُ بْنُ أَبِي حَبِيبٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى بِالْعُمْرَى أَنْ يَهَبَ الرَّجُلُ لِلرَّجُلِ وَلِعَقِبِهِ الْهِبَةَ وَيَسْتَثْنِي إِنْ حَدَثَ بِكَ حَدَثٌ وَبِعَقِبِكَ فَهُوَ إِلَىَّ وَإِلَى عَقِبِي إِنَّهَا لِمَنْ أُعْطِيَهَا وَلِعَقِبِهِ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا سَعِيدٌ، قَالَ حَدَّثَنِي يَزِيدُ بْنُ أَبِي حَبِيبٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى بِالْعُمْرَى أَنْ يَهَبَ الرَّجُلُ لِلرَّجُلِ وَلِعَقِبِهِ الْهِبَةَ وَيَسْتَثْنِي إِنْ حَدَثَ بِكَ حَدَثٌ وَبِعَقِبِكَ فَهُوَ إِلَىَّ وَإِلَى عَقِبِي إِنَّهَا لِمَنْ أُعْطِيَهَا وَلِعَقِبِهِ .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ يَزِيدَ، قَالَ حَ",
+    "matn_ar": "دَّثَنَا أَبِي قَالَ، حَدَّثَنَا سَعِيدٌ، قَالَ حَدَّثَنِي يَزِيدُ بْنُ أَبِي حَبِيبٍ، عَنِ ابْنِ شِهَابٍ، عَنْ أَبِي سَلَمَةَ، عَنْ جَابِرٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَضَى بِالْعُمْرَى أَنْ يَهَبَ الرَّجُلُ لِلرَّجُلِ وَلِعَقِبِهِ الْهِبَةَ وَيَسْتَثْنِي إِنْ حَدَثَ بِكَ حَدَثٌ وَبِعَقِبِكَ فَهُوَ إِلَىَّ وَإِلَى عَقِبِي إِنَّهَا لِمَنْ أُعْطِيَهَا وَلِعَقِبِهِ .",
+    "matn_ar_clean": "دثنا أبي قال، حدثنا سعيد، قال حدثني يزيد بن أبي حبيب، عن ابن شهاب، عن أبي سلمة، عن جابر، أن رسول الله صلى الله عليه وسلم قضى بالعمرى أن يهب الرجل للرجل ولعقبه الهبة ويستثني إن حدث بك حدث وبعقبك فهو إلى وإلى عقبي إنها لمن أعطيها ولعقبه .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Yazid bin Abi Habib narrated from Ibn Shihab, from Abu Salamah, from Jabir, that the Messenger of Allah ruled concerning 'Umra -when a man gives a gift to another man, and his descendants, but stipulates that if something happens to you and your descendants, then it will belong to me and my descendants- \"It belongs to the one to whom it was given, and to his descendants",
+    "iwh_en": "Yazid bin Abi Habib narrated from Ibn Shihab, from Abu Salamah, from Jabir, that the Messenger of Allah ﷺ ruled concerning 'Umra -when a man gives a gift to another man, and his descendants, but stipulates that if something happens to you and your descendants, then it will belong to me and my descendants- \"It belongs to the one to whom it was given, and to his descendants",
+    "iwh_id": "Yazid bin Abi Habib narrated from Ibn Shihab, from Abu Salamah, from Jabir, that Rasulullah ﷺ ruled concerning 'Umra -when a man gives a gift to another man, and his descendants, but stipulates that if something happens to you and your descendants, then it will belong to me and my descendants- \"It belongs to the one to whom it was given, and to his descendants",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28261",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3837"
+  },
+  {
+    "n": 32,
+    "cn": 3838,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ حَدَّثَنَا يَحْيَى بْنُ أَبِي كَثِيرٍ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ، قَالَ سَمِعْتُ جَابِرًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏ \"‏ الْعُمْرَى لِمَنْ وُهِبَتْ لَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ حَدَّثَنَا يَحْيَى بْنُ أَبِي كَثِيرٍ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ، قَالَ سَمِعْتُ جَابِرًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم  \" الْعُمْرَى لِمَنْ وُهِبَتْ لَهُ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ عَبْدِ الأَعْلَى، قَالَ حَدَّثَنَا خَالِدُ بْنُ الْحَارِثِ، قَالَ حَدَّثَنَا هِشَامٌ، قَالَ حَدَّثَنَا يَحْيَى",
+    "matn_ar": "بْنُ أَبِي كَثِيرٍ، قَالَ حَدَّثَنِي أَبُو سَلَمَةَ، قَالَ سَمِعْتُ جَابِرًا، يَقُولُ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم \" الْعُمْرَى لِمَنْ وُهِبَتْ لَهُ \" .",
+    "matn_ar_clean": "بن أبي كثير، قال حدثني أبو سلمة، قال سمعت جابرا، يقول قال رسول الله صلى الله عليه وسلم \" العمرى لمن وهبت له \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Hisham said:\"Yahya bin Abi Kathir narrated to us, he said: 'Abu Salamah bin 'Abdur-Rahman narrated to me, he said: \"I heard Jabir say: 'The Messenger of Allah said: \"A lifelong gift belongs to the one to whom it was given",
+    "iwh_en": "Hisham (may Allah be pleased with him) reported that \"Yahya bin Abi Kathir narrated to us, he said: 'Abu Salamah bin 'Abdur-Rahman narrated to me, he said: \"I heard Jabir say: 'the Messenger of Allah ﷺ said: \"A lifelong gift belongs to the one to whom it was given",
+    "iwh_id": "Hisham  (radhiyallahu 'anhu) meriwayatkan bahwa \"Yahya bin Abi Kathir narrated to us, he said: 'Abu Salamah bin 'Abdur-Rahman narrated to me, he said: \"I heard Jabir say: 'Rasulullah ﷺ said: \"A lifelong gift belongs to the one to whom it was given",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28262",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3838"
+  },
+  {
+    "n": 33,
+    "cn": 3839,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا يَحْيَى بْنُ دُرُسْتَ، قَالَ حَدَّثَنَا أَبُو إِسْمَاعِيلَ، قَالَ حَدَّثَنَا يَحْيَى، أَنَّ أَبَا سَلَمَةَ، حَدَّثَهُ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، عَنْ نَبِيِّ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ الْعُمْرَى لِمَنْ وُهِبَتْ لَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا يَحْيَى بْنُ دُرُسْتَ، قَالَ حَدَّثَنَا أَبُو إِسْمَاعِيلَ، قَالَ حَدَّثَنَا يَحْيَى، أَنَّ أَبَا سَلَمَةَ، حَدَّثَهُ عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، عَنْ نَبِيِّ اللَّهِ صلى الله عليه وسلم قَالَ  \" الْعُمْرَى لِمَنْ وُهِبَتْ لَهُ \" .",
+    "isnad_ar": "أَخْبَرَنَا يَحْيَى بْنُ دُرُسْتَ، قَالَ حَدَّثَنَا أَبُو إِسْمَاعِيلَ، قَالَ حَدَّثَنَا يَحْيَى، أَنَّ أَبَا سَلَمَةَ، حَدَّثَهُ",
+    "matn_ar": "عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ، عَنْ نَبِيِّ اللَّهِ صلى الله عليه وسلم قَالَ \" الْعُمْرَى لِمَنْ وُهِبَتْ لَهُ \" .",
+    "matn_ar_clean": "عن جابر بن عبد الله، عن نبي الله صلى الله عليه وسلم قال \" العمرى لمن وهبت له \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Abu Isma'il said:\"Yahya narrated to us that Abu Salamah narrated to him, from Jabir bin 'Abdullah, from the Prophet of Allah who said: 'A lifelong gift belongs to the one to whom it was given",
+    "iwh_en": "Abu Isma'il (may Allah be pleased with him) reported that \"Yahya narrated to us that Abu Salamah narrated to him, from Jabir bin 'Abdullah, from the Prophet ﷺ of Allah who said: 'A lifelong gift belongs to the one to whom it was given",
+    "iwh_id": "Abu Isma'il  (radhiyallahu 'anhu) meriwayatkan bahwa \"Yahya narrated to us that Abu Salamah narrated to him, from Jabir bin 'Abdullah, from Nabi ﷺ of Allah who said: 'A lifelong gift belongs to the one to whom it was given",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Isnaad Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28263",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3839"
+  },
+  {
+    "n": 34,
+    "cn": 3840,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ أَنْبَأَنَا إِسْمَاعِيلُ، عَنْ مُحَمَّدٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لاَ عُمْرَى فَمَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ أَنْبَأَنَا إِسْمَاعِيلُ، عَنْ مُحَمَّدٍ، عَنْ أَبِي سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" لاَ عُمْرَى فَمَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ \" .",
+    "isnad_ar": "أَخْبَرَنَا عَلِيُّ بْنُ حُجْرٍ، قَالَ أَنْبَأَنَا إِسْمَاعِيلُ، عَنْ مُحَمَّدٍ، عَنْ أَبِي سَلَمَةَ، عَنْ",
+    "matn_ar": "أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" لاَ عُمْرَى فَمَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ \" .",
+    "matn_ar_clean": "أبي هريرة، أن رسول الله صلى الله عليه وسلم قال \" لا عمرى فمن أعمر شيئا فهو له \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Isma'il narrated from Muhammad, from Abu Salamah, from Abu Hurairah, that the Messenger of Allah said:\"There is no lifelong gift. Whoever is given something as a lifelong gift, it belongs to him",
+    "iwh_en": "Isma'il narrated from Muhammad, from Abu Salamah, from Abu Hurairah, that the Messenger of Allah ﷺ said:\"There is no lifelong gift. Whoever is given something as a lifelong gift, it belongs to him",
+    "iwh_id": "Isma'il narrated from Muhammad, from Abu Salamah, from Abu Hurairah, that Rasulullah ﷺ said:\"There is no lifelong gift. Whoever is given something as a lifelong gift, it belongs to him",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28264",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3840"
+  },
+  {
+    "n": 35,
+    "cn": 3841,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا عِيسَى، وَعَبْدَةُ بْنُ سُلَيْمَانَ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ عَمْرٍو، قَالَ حَدَّثَنَا أَبُو سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ مَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا عِيسَى، وَعَبْدَةُ بْنُ سُلَيْمَانَ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ عَمْرٍو، قَالَ حَدَّثَنَا أَبُو سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ  \" مَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ \" .",
+    "isnad_ar": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا عِيسَى، وَعَبْدَةُ بْنُ سُلَيْمَانَ، قَالاَ حَدَّثَنَا مُحَمَّدُ بْنُ عَمْرٍو، قَالَ حَدَّث",
+    "matn_ar": "َنَا أَبُو سَلَمَةَ، عَنْ أَبِي هُرَيْرَةَ، عَنْ رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ \" مَنْ أُعْمِرَ شَيْئًا فَهُوَ لَهُ \" .",
+    "matn_ar_clean": "نا أبو سلمة، عن أبي هريرة، عن رسول الله صلى الله عليه وسلم قال \" من أعمر شيئا فهو له \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Muhammad bin 'Amr said:\"Abu Salamah narrated to us, from Abu Hurairah that the Messenger of Allah said: 'Whoever is given something as a lifelong gift, it belongs to him",
+    "iwh_en": "Muhammad bin 'Amr (may Allah be pleased with him) reported that \"Abu Salamah narrated to us, from Abu Hurairah that the Messenger of Allah ﷺ said: 'Whoever is given something as a lifelong gift, it belongs to him",
+    "iwh_id": "Muhammad bin 'Amr  (radhiyallahu 'anhu) meriwayatkan bahwa \"Abu Salamah narrated to us, from Abu Hurairah that Rasulullah ﷺ said: 'Whoever is given something as a lifelong gift, it belongs to him",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Isnaad Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "manners",
+      "prophet"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28265",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3841"
+  },
+  {
+    "n": 36,
+    "cn": 3842,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنِ النَّضْرِ بْنِ أَنَسٍ، عَنْ بَشِيرِ بْنِ نَهِيكٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الْعُمْرَى جَائِزَةٌ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنِ النَّضْرِ بْنِ أَنَسٍ، عَنْ بَشِيرِ بْنِ نَهِيكٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ  \" الْعُمْرَى جَائِزَةٌ \" .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُحَمَّدٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنِ النَّضْرِ بْنِ أَنَسٍ، عَ",
+    "matn_ar": "نْ بَشِيرِ بْنِ نَهِيكٍ، عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ \" الْعُمْرَى جَائِزَةٌ \" .",
+    "matn_ar_clean": "ن بشير بن نهيك، عن أبي هريرة، عن النبي صلى الله عليه وسلم قال \" العمرى جائزة \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "Bashir bin Nahik narrated from Abu Hurairah that the Prophet said:\"A lifelong gift ('Umra) is permissible",
+    "iwh_en": "Bashir bin Nahik narrated from Abu Hurairah that the Prophet (may Allah be pleased with him) reported that \"A lifelong gift ('Umra) is permissible",
+    "iwh_id": "Bashir bin Nahik narrated from Abu Hurairah that the Prophet  (radhiyallahu 'anhu) meriwayatkan bahwa \"A lifelong gift ('Umra) is permissible",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih - Agreed Upon",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28266",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3842"
+  },
+  {
+    "n": 37,
+    "cn": 3843,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، قَالَ سَأَلَنِي سُلَيْمَانُ بْنُ هِشَامٍ عَنِ الْعُمْرَى، فَقُلْتُ حَدَّثَ مُحَمَّدُ بْنُ سِيرِينَ، عَنْ شُرَيْحٍ، قَالَ قَضَى نَبِيُّ اللَّهِ صلى الله عليه وسلم أَنَّ الْعُمْرَى جَائِزَةٌ ‏.‏ قَالَ قَتَادَةُ وَقُلْتُ حَدَّثَنِي النَّضْرُ بْنُ أَنَسٍ عَنْ بَشِيرِ بْنِ نَهِيكٍ عَنْ أَبِي هُرَيْرَةَ أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْعُمْرَى جَائِزَةٌ ‏\"‏ ‏.‏ قَالَ قَتَادَةُ وَقُلْتُ كَانَ الْحَسَنُ يَقُولُ الْعُمْرَى جَائِزَةٌ ‏.‏ قَالَ قَتَادَةُ فَقَالَ الزُّهْرِيُّ إِنَّمَا الْعُمْرَى إِذَا أُعْمِرَ وَعَقِبَهُ مِنْ بَعْدِهِ فَإِذَا لَمْ يَجْعَلْ عَقِبَهُ مِنْ بَعْدِهِ كَانَ لِلَّذِي يَجْعَلُ شَرْطُهُ ‏.‏ قَالَ قَتَادَةُ فَسُئِلَ عَطَاءُ بْنُ أَبِي رَبَاحٍ فَقَالَ حَدَّثَنِي جَابِرُ بْنُ عَبْدِ اللَّهِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏\"‏ الْعُمْرَى جَائِزَةٌ ‏\"‏ ‏.‏ قَالَ قَتَادَةُ فَقَالَ الزُّهْرِيُّ كَانَ الْخُلَفَاءُ لاَ يَقْضُونَ بِهَذَا ‏.‏ قَالَ عَطَاءٌ قَضَى بِهَا عَبْدُ الْمَلِكِ بْنُ مَرْوَانَ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، قَالَ سَأَلَنِي سُلَيْمَانُ بْنُ هِشَامٍ عَنِ الْعُمْرَى، فَقُلْتُ حَدَّثَ مُحَمَّدُ بْنُ سِيرِينَ، عَنْ شُرَيْحٍ، قَالَ قَضَى نَبِيُّ اللَّهِ صلى الله عليه وسلم أَنَّ الْعُمْرَى جَائِزَةٌ . قَالَ قَتَادَةُ وَقُلْتُ حَدَّثَنِي النَّضْرُ بْنُ أَنَسٍ عَنْ بَشِيرِ بْنِ نَهِيكٍ عَنْ أَبِي هُرَيْرَةَ أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ \" الْعُمْرَى جَائِزَةٌ \" . قَالَ قَتَادَةُ وَقُلْتُ كَانَ الْحَسَنُ يَقُولُ الْعُمْرَى جَائِزَةٌ . قَالَ قَتَادَةُ فَقَالَ الزُّهْرِيُّ إِنَّمَا الْعُمْرَى إِذَا أُعْمِرَ وَعَقِبَهُ مِنْ بَعْدِهِ فَإِذَا لَمْ يَجْعَلْ عَقِبَهُ مِنْ بَعْدِهِ كَانَ لِلَّذِي يَجْعَلُ شَرْطُهُ . قَالَ قَتَادَةُ فَسُئِلَ عَطَاءُ بْنُ أَبِي رَبَاحٍ فَقَالَ حَدَّثَنِي جَابِرُ بْنُ عَبْدِ اللَّهِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" الْعُمْرَى جَائِزَةٌ \" . قَالَ قَتَادَةُ فَقَالَ الزُّهْرِيُّ كَانَ الْخُلَفَاءُ لاَ يَقْضُونَ بِهَذَا . قَالَ عَطَاءٌ قَضَى بِهَا عَبْدُ الْمَلِكِ بْنُ مَرْوَانَ .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ الْمُثَنَّى، قَالَ حَدَّثَنَا مُعَاذُ بْنُ هِشَامٍ، قَالَ حَدَّثَنِي أَبِي، عَنْ قَتَادَةَ، قَالَ سَأَلَنِي سُلَيْمَانُ بْنُ هِشَامٍ عَنِ الْعُمْرَى، فَقُلْتُ حَدَّثَ مُحَمَّدُ بْنُ سِيرِينَ، عَنْ شُرَيْحٍ، قَالَ قَضَى نَبِيُّ اللَّهِ صلى الله عليه وسلم أَنَّ الْعُمْرَى جَائِزَةٌ . قَالَ قَتَادَةُ وَقُلْتُ حَدَّثَنِي النَّضْرُ بْنُ أَنَسٍ عَنْ بَشِيرِ بْنِ نَهِيكٍ عَنْ أَبِي هُرَيْرَةَ أَنَّ نَبِيَّ اللَّهِ صلى الله عليه وسلم قَالَ \" الْعُمْرَى جَائِزَةٌ \" . قَالَ قَتَادَةُ وَقُلْتُ كَانَ الْحَسَنُ يَقُولُ الْعُمْرَى جَائِزَةٌ . قَالَ قَتَادَةُ فَقَالَ الزُّهْرِيُّ إِنَّمَا الْعُمْرَى إِذَا أ",
+    "matn_ar": "ُعْمِرَ وَعَقِبَهُ مِنْ بَعْدِهِ فَإِذَا لَمْ يَجْعَلْ عَقِبَهُ مِنْ بَعْدِهِ كَانَ لِلَّذِي يَجْعَلُ شَرْطُهُ . قَالَ قَتَادَةُ فَسُئِلَ عَطَاءُ بْنُ أَبِي رَبَاحٍ فَقَالَ حَدَّثَنِي جَابِرُ بْنُ عَبْدِ اللَّهِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" الْعُمْرَى جَائِزَةٌ \" . قَالَ قَتَادَةُ فَقَالَ الزُّهْرِيُّ كَانَ الْخُلَفَاءُ لاَ يَقْضُونَ بِهَذَا . قَالَ عَطَاءٌ قَضَى بِهَا عَبْدُ الْمَلِكِ بْنُ مَرْوَانَ .",
+    "matn_ar_clean": "عمر وعقبه من بعده فإذا لم يجعل عقبه من بعده كان للذي يجعل شرطه . قال قتادة فسئل عطاء بن أبي رباح فقال حدثني جابر بن عبد الله أن رسول الله صلى الله عليه وسلم قال \" العمرى جائزة \" . قال قتادة فقال الزهري كان الخلفاء لا يقضون بهذا . قال عطاء قضى بها عبد الملك بن مروان .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated that Qatadah said:\"Sulaiman bin Hisham asked me about a lifelong gift. I said: 'Muhammad bin Sirin narrated that Shuraih said: \"The Prophet of Allah ruled that a lifelong gift is permissible.\"'\" Qatadah said: \"I said: 'And An-Nadr bin Anas narrated to me, from Bashir bin Nahik, from Abu Hurairah, that the Prophet of Allah said: \"A lifelong gift is permissible.\"'\" Qatadah said: \"I said: 'Al-Hasan used to say: \"A lifelong gift is permissible.\"'\" Qatadah said: \"Az-Zuhri said: 'A lifelong gift is when it is stipulated that it is for the one to whom it is given and his descendants, but if his descendants were not mentioned then the condition is valid (and it reverts to the one who gave it).'\" Qatadah said: \"So 'Ata' bin Abi Rabah was asked, and he said: 'Jabir bin Abdullah narrated to me that Allah's Messenger said: \"Umra is permissible.\"'\" Qatadah said: \"Az-Zuhri said: 'The Caliphs (Khulafa') did not rule according to this.'\" 'Ata' said: \"Abdul-Malik bin Marwan ruled according to this",
+    "iwh_en": "Qatadah (may Allah be pleased with him) reported that \"Sulaiman bin Hisham asked me about a lifelong gift. I said: 'Muhammad bin Sirin narrated that Shuraih said: \"the Prophet ﷺ of Allah ruled that a lifelong gift is permissible.\"'\" Qatadah said: \"I said: 'And An-Nadr bin Anas narrated to me, from Bashir bin Nahik, from Abu Hurairah, that the Prophet ﷺ of Allah said: \"A lifelong gift is permissible.\"'\" Qatadah said: \"I said: 'Al-Hasan used to say: \"A lifelong gift is permissible.\"'\" Qatadah said: \"Az-Zuhri said: 'A lifelong gift is when it is stipulated that it is for the one to whom it is given and his descendants, but if his descendants were not mentioned then the condition is valid (and it reverts to the one who gave it).'\" Qatadah said: \"So 'Ata' bin Abi Rabah was asked, and he said: 'Jabir bin Abdullah narrated to me that Allah's Messenger ﷺ said: \"Umra is permissible.\"'\" Qatadah said: \"Az-Zuhri said: 'The Caliphs (Khulafa') did not rule according to this.'\" 'Ata' said: \"Abdul-Malik bin Marwan ruled according to this",
+    "iwh_id": "Qatadah  (radhiyallahu 'anhu) meriwayatkan bahwa \"Sulaiman bin Hisham asked me about a lifelong gift. I said: 'Muhammad bin Sirin narrated that Shuraih said: \"Nabi ﷺ of Allah ruled that a lifelong gift is permissible.\"'\" Qatadah said: \"I said: 'And An-Nadr bin Anas narrated to me, from Bashir bin Nahik, from Abu Hurairah, that Nabi ﷺ of Allah said: \"A lifelong gift is permissible.\"'\" Qatadah said: \"I said: 'Al-Hasan used to say: \"A lifelong gift is permissible.\"'\" Qatadah said: \"Az-Zuhri said: 'A lifelong gift is when it is stipulated that it is for the one to whom it is given and his descendants, but if his descendants were not mentioned then the condition is valid (and it reverts to the one who gave it).'\" Qatadah said: \"So 'Ata' bin Abi Rabah was asked, and he said: 'Jabir bin Abdullah narrated to me that Rasulullah ﷺ said: \"Umra is permissible.\"'\" Qatadah said: \"Az-Zuhri said: 'The Caliphs (Khulafa') did not rule according to this.'\" 'Ata' said: \"Abdul-Malik bin Marwan ruled according to this",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "iman",
+      "salah",
+      "prophet",
+      "companions",
+      "leadership"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28267",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3843"
+  },
+  {
+    "n": 38,
+    "cn": 3844,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ مَعْمَرٍ، قَالَ حَدَّثَنَا حَبَّانُ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، ح وَأَخْبَرَنِي إِبْرَاهِيمُ بْنُ يُونُسَ بْنِ مُحَمَّدٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ دَاوُدَ، - وَهُوَ ابْنُ أَبِي هِنْدٍ - وَحَبِيبٍ الْمُعَلِّمِ عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لاَ يَجُوزُ لاِمْرَأَةٍ هِبَةٌ فِي مَالِهَا إِذَا مَلَكَ زَوْجُهَا عِصْمَتَهَا ‏\"‏ ‏.‏ اللَّفْظُ لِمُحَمَّدٍ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا مُحَمَّدُ بْنُ مَعْمَرٍ، قَالَ حَدَّثَنَا حَبَّانُ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، ح وَأَخْبَرَنِي إِبْرَاهِيمُ بْنُ يُونُسَ بْنِ مُحَمَّدٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ دَاوُدَ، - وَهُوَ ابْنُ أَبِي هِنْدٍ - وَحَبِيبٍ الْمُعَلِّمِ عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" لاَ يَجُوزُ لاِمْرَأَةٍ هِبَةٌ فِي مَالِهَا إِذَا مَلَكَ زَوْجُهَا عِصْمَتَهَا \" . اللَّفْظُ لِمُحَمَّدٍ .",
+    "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ مَعْمَرٍ، قَالَ حَدَّثَنَا حَبَّانُ، قَالَ حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، ح وَأَخْبَرَنِي إِبْرَاهِيمُ بْنُ يُونُسَ بْنِ مُحَمَّدٍ، قَالَ حَدَّثَنَا أَبِي قَالَ، حَدَّثَنَا حَمَّادُ بْنُ سَلَمَةَ، عَنْ دَاوُدَ، -",
+    "matn_ar": "وَهُوَ ابْنُ أَبِي هِنْدٍ - وَحَبِيبٍ الْمُعَلِّمِ عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" لاَ يَجُوزُ لاِمْرَأَةٍ هِبَةٌ فِي مَالِهَا إِذَا مَلَكَ زَوْجُهَا عِصْمَتَهَا \" . اللَّفْظُ لِمُحَمَّدٍ .",
+    "matn_ar_clean": "وهو ابن أبي هند - وحبيب المعلم عن عمرو بن شعيب، عن أبيه، عن جده، أن رسول الله صلى الله عليه وسلم قال \" لا يجوز لامرأة هبة في مالها إذا ملك زوجها عصمتها \" . اللفظ لمحمد .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from 'Amr bin Shu'aib, from his father, from his grandfather, that the Messenger of Allah said:\"It is not permissible for a woman to give a gift from her wealth, once her husband has marital authority over her.\" This is the wording of (one of the narrators) Muhammad",
+    "iwh_en": "It was narrated from 'Amr bin Shu'aib, from his father, from his grandfather, that the Messenger of Allah ﷺ said:\"It is not permissible for a woman to give a gift from her wealth, once her husband has marital authority over her.\" This is the wording of (one of the narrators) Muhammad",
+    "iwh_id": "It was narrated from 'Amr bin Shu'aib, from his father, from his grandfather, that Rasulullah ﷺ said:\"It is not permissible for a woman to give a gift from her wealth, once her husband has marital authority over her.\" This is the wording of (one of the narrators) Muhammad",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "marriage",
+      "family",
+      "prophet",
+      "wealth",
+      "leadership"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28268",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3844"
+  },
+  {
+    "n": 39,
+    "cn": 3845,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا إِسْمَاعِيلُ بْنُ مَسْعُودٍ، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا حُسَيْنٌ الْمُعَلِّمُ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، أَنَّ أَبَاهُ، حَدَّثَهُ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، ح وَأَخْبَرَنَا حُمَيْدُ بْنُ مَسْعَدَةَ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، قَالَ حَدَّثَنَا حُسَيْنٌ الْمُعَلِّمُ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ لَمَّا فَتَحَ رَسُولُ اللَّهِ صلى الله عليه وسلم مَكَّةَ قَامَ خَطِيبًا فَقَالَ فِي خُطْبَتِهِ ‏ \"‏ لاَ يَجُوزُ لاِمْرَأَةٍ عَطِيَّةٌ إِلاَّ بِإِذْنِ زَوْجِهَا ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا إِسْمَاعِيلُ بْنُ مَسْعُودٍ، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا حُسَيْنٌ الْمُعَلِّمُ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، أَنَّ أَبَاهُ، حَدَّثَهُ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، ح وَأَخْبَرَنَا حُمَيْدُ بْنُ مَسْعَدَةَ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، قَالَ حَدَّثَنَا حُسَيْنٌ الْمُعَلِّمُ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ لَمَّا فَتَحَ رَسُولُ اللَّهِ صلى الله عليه وسلم مَكَّةَ قَامَ خَطِيبًا فَقَالَ فِي خُطْبَتِهِ  \" لاَ يَجُوزُ لاِمْرَأَةٍ عَطِيَّةٌ إِلاَّ بِإِذْنِ زَوْجِهَا \" .",
+    "isnad_ar": "أَخْبَرَنَا إِسْمَاعِيلُ بْنُ مَسْعُودٍ، قَالَ حَدَّثَنَا خَالِدٌ، قَالَ حَدَّثَنَا حُسَيْنٌ الْمُعَلِّمُ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، أَنَّ أَبَاهُ، حَدَّثَهُ عَنْ عَبْدِ اللَّهِ بْنِ عَمْرٍو، ح وَأَخْبَرَنَا حُمَيْدُ بْنُ مَسْعَدَةَ، قَالَ حَدَّثَنَا يَزِيدُ بْنُ زُرَيْعٍ، قَ",
+    "matn_ar": "الَ حَدَّثَنَا حُسَيْنٌ الْمُعَلِّمُ، عَنْ عَمْرِو بْنِ شُعَيْبٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ، قَالَ لَمَّا فَتَحَ رَسُولُ اللَّهِ صلى الله عليه وسلم مَكَّةَ قَامَ خَطِيبًا فَقَالَ فِي خُطْبَتِهِ \" لاَ يَجُوزُ لاِمْرَأَةٍ عَطِيَّةٌ إِلاَّ بِإِذْنِ زَوْجِهَا \" .",
+    "matn_ar_clean": "ال حدثنا حسين المعلم، عن عمرو بن شعيب، عن أبيه، عن جده، قال لما فتح رسول الله صلى الله عليه وسلم مكة قام خطيبا فقال في خطبته \" لا يجوز لامرأة عطية إلا بإذن زوجها \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from 'Amr bin Shu'aib, from his father, that his grandfather said:\"When the Messenger of Allah conquered Makkah, he stood up to address (the people) and said in his Khutbah: 'It is not permissible for a woman to give (a gift) except with her husband's permission",
+    "iwh_en": "It was narrated from 'Amr bin Shu'aib, from his father, that his grandfather said:\"When the Messenger of Allah ﷺ conquered Makkah, he stood up to address (the people) and said in his Khutbah: 'It is not permissible for a woman to give (a gift) except with her husband's permission",
+    "iwh_id": "It was narrated from 'Amr bin Shu'aib, from his father, that his grandfather said:\"When Rasulullah ﷺ conquered Makkah, he stood up to address (the people) and said in his Khutbah: 'It is not permissible for a woman to give (a gift) except with her husband's permission",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "hajj",
+      "marriage",
+      "family",
+      "prophet"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28269",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3845"
+  },
+  {
+    "n": 40,
+    "cn": 3846,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا هَنَّادُ بْنُ السَّرِيِّ، قَالَ حَدَّثَنَا أَبُو بَكْرِ بْنُ عَيَّاشٍ، عَنْ يَحْيَى بْنِ هَانِئٍ، عَنْ أَبِي حُذَيْفَةَ، عَنْ عَبْدِ الْمَلِكِ بْنِ مُحَمَّدِ بْنِ بَشِيرٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَلْقَمَةَ الثَّقَفِيِّ، قَالَ قَدِمَ وَفْدُ ثَقِيفٍ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَمَعَهُمْ هَدِيَّةٌ فَقَالَ ‏ \"‏ أَهَدِيَّةٌ أَمْ صَدَقَةٌ فَإِنْ كَانَتْ هَدِيَّةً فَإِنَّمَا يُبْتَغَى بِهَا وَجْهُ رَسُولِ اللَّهِ صلى الله عليه وسلم وَقَضَاءُ الْحَاجَةِ وَإِنْ كَانَتْ صَدَقَةً فَإِنَّمَا يُبْتَغَى بِهَا وَجْهُ اللَّهِ عَزَّ وَجَلَّ ‏\"‏ ‏.‏ قَالُوا لاَ بَلْ هَدِيَّةٌ ‏.‏ فَقَبِلَهَا مِنْهُمْ وَقَعَدَ مَعَهُمْ يُسَائِلُهُمْ وَيُسَائِلُونَهُ حَتَّى صَلَّى الظُّهْرَ مَعَ الْعَصْرِ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا هَنَّادُ بْنُ السَّرِيِّ، قَالَ حَدَّثَنَا أَبُو بَكْرِ بْنُ عَيَّاشٍ، عَنْ يَحْيَى بْنِ هَانِئٍ، عَنْ أَبِي حُذَيْفَةَ، عَنْ عَبْدِ الْمَلِكِ بْنِ مُحَمَّدِ بْنِ بَشِيرٍ، عَنْ عَبْدِ الرَّحْمَنِ بْنِ عَلْقَمَةَ الثَّقَفِيِّ، قَالَ قَدِمَ وَفْدُ ثَقِيفٍ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَمَعَهُمْ هَدِيَّةٌ فَقَالَ  \" أَهَدِيَّةٌ أَمْ صَدَقَةٌ فَإِنْ كَانَتْ هَدِيَّةً فَإِنَّمَا يُبْتَغَى بِهَا وَجْهُ رَسُولِ اللَّهِ صلى الله عليه وسلم وَقَضَاءُ الْحَاجَةِ وَإِنْ كَانَتْ صَدَقَةً فَإِنَّمَا يُبْتَغَى بِهَا وَجْهُ اللَّهِ عَزَّ وَجَلَّ \" . قَالُوا لاَ بَلْ هَدِيَّةٌ . فَقَبِلَهَا مِنْهُمْ وَقَعَدَ مَعَهُمْ يُسَائِلُهُمْ وَيُسَائِلُونَهُ حَتَّى صَلَّى الظُّهْرَ مَعَ الْعَصْرِ .",
+    "isnad_ar": "أَخْبَرَنَا هَنَّادُ بْنُ السَّرِيِّ، قَالَ حَدَّثَنَا أَبُو بَكْرِ بْنُ عَيَّاشٍ، عَنْ يَحْيَى بْنِ هَانِئٍ، عَنْ أَبِي حُذَيْفَةَ، عَنْ عَبْدِ الْمَلِكِ بْنِ مُحَمَّدِ بْنِ بَشِيرٍ، عَنْ عَبْدِ الرَّحْ",
+    "matn_ar": "مَنِ بْنِ عَلْقَمَةَ الثَّقَفِيِّ، قَالَ قَدِمَ وَفْدُ ثَقِيفٍ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم وَمَعَهُمْ هَدِيَّةٌ فَقَالَ \" أَهَدِيَّةٌ أَمْ صَدَقَةٌ فَإِنْ كَانَتْ هَدِيَّةً فَإِنَّمَا يُبْتَغَى بِهَا وَجْهُ رَسُولِ اللَّهِ صلى الله عليه وسلم وَقَضَاءُ الْحَاجَةِ وَإِنْ كَانَتْ صَدَقَةً فَإِنَّمَا يُبْتَغَى بِهَا وَجْهُ اللَّهِ عَزَّ وَجَلَّ \" . قَالُوا لاَ بَلْ هَدِيَّةٌ . فَقَبِلَهَا مِنْهُمْ وَقَعَدَ مَعَهُمْ يُسَائِلُهُمْ وَيُسَائِلُونَهُ حَتَّى صَلَّى الظُّهْرَ مَعَ الْعَصْرِ .",
+    "matn_ar_clean": "من بن علقمة الثقفي، قال قدم وفد ثقيف على رسول الله صلى الله عليه وسلم ومعهم هدية فقال \" أهدية أم صدقة فإن كانت هدية فإنما يبتغى بها وجه رسول الله صلى الله عليه وسلم وقضاء الحاجة وإن كانت صدقة فإنما يبتغى بها وجه الله عز وجل \" . قالوا لا بل هدية . فقبلها منهم وقعد معهم يسائلهم ويسائلونه حتى صلى الظهر مع العصر .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated that 'Abdur-Rahman bin 'Alqamah Ath-Thaqafi said:\"The delegation of Thaqif came to the Messenger of Allah, bringing a gift with them. He said: 'Is it a gift or charity?' If it was a gift it would be for the sake of the Messenger of Allah and to have their needs met, and if it was charity then it would be in the cause of Allah. They said: 'It is a gift.' So he accepted it from them, and sat with them, and they asked questions, until he prayed Zuhr with 'Asr",
+    "iwh_en": "It was narrated that 'Abdur-Rahman bin 'Alqamah Ath-Thaqafi (may Allah be pleased with him) reported that \"The delegation of Thaqif came to the Messenger of Allah ﷺ, bringing a gift with them. He said: 'Is it a gift or charity?' If it was a gift it would be for the sake of the Messenger of Allah ﷺ and to have their needs met, and if it was charity then it would be in the cause of Allah. They said: 'It is a gift.' So he accepted it from them, and sat with them, and they asked questions, until he prayed Zuhr with 'Asr",
+    "iwh_id": "It was narrated that 'Abdur-Rahman bin 'Alqamah Ath-Thaqafi  (radhiyallahu 'anhu) meriwayatkan bahwa \"The delegation of Thaqif came to Rasulullah ﷺ, bringing a gift with them. He said: 'Is it a gift or charity?' If it was a gift it would be for the sake of Rasulullah ﷺ and to have their needs met, and if it was charity then it would be in the cause of Allah. They said: 'It is a gift.' So he accepted it from them, and sat with them, and they asked questions, until he prayed Zuhr with 'Asr",
+    "grade": "daif",
+    "grade_display": "Daif",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "daif",
+        "grade_display": "Daif Isnaad",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "daif",
+        "grade_display": "Daif",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "salah",
+      "zakat",
+      "prophet"
+    ],
+    "tags": [
+      "daif",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28270",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3846"
+  },
+  {
+    "n": 41,
+    "cn": 3847,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا أَبُو عَاصِمٍ، خُشَيْشُ بْنُ أَصْرَمَ قَالَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَنْبَأَنَا مَعْمَرٌ، عَنِ ابْنِ عَجْلاَنَ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ ‏ \"‏ لَقَدْ هَمَمْتُ أَنْ لاَ أَقْبَلَ هَدِيَّةً إِلاَّ مِنْ قُرَشِيٍّ أَوْ أَنْصَارِيٍّ أَوْ ثَقَفِيٍّ أَوْ دَوْسِيٍّ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا أَبُو عَاصِمٍ، خُشَيْشُ بْنُ أَصْرَمَ قَالَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَنْبَأَنَا مَعْمَرٌ، عَنِ ابْنِ عَجْلاَنَ، عَنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ  \" لَقَدْ هَمَمْتُ أَنْ لاَ أَقْبَلَ هَدِيَّةً إِلاَّ مِنْ قُرَشِيٍّ أَوْ أَنْصَارِيٍّ أَوْ ثَقَفِيٍّ أَوْ دَوْسِيٍّ \" .",
+    "isnad_ar": "أَخْبَرَنَا أَبُو عَاصِمٍ، خُشَيْشُ بْنُ أَصْرَمَ قَالَ حَدَّثَنَا عَبْدُ الرَّزَّاقِ، قَالَ أَنْبَأَنَا مَعْمَرٌ، عَنِ ابْنِ عَجْلاَنَ، ع",
+    "matn_ar": "َنْ سَعِيدٍ، عَنْ أَبِي هُرَيْرَةَ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَالَ \" لَقَدْ هَمَمْتُ أَنْ لاَ أَقْبَلَ هَدِيَّةً إِلاَّ مِنْ قُرَشِيٍّ أَوْ أَنْصَارِيٍّ أَوْ ثَقَفِيٍّ أَوْ دَوْسِيٍّ \" .",
+    "matn_ar_clean": "ن سعيد، عن أبي هريرة، أن رسول الله صلى الله عليه وسلم قال \" لقد هممت أن لا أقبل هدية إلا من قرشي أو أنصاري أو ثقفي أو دوسي \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from Abu Hurairah that the Messenger of Allah said:\"I was thinking of not accepting gifts except from a Quraishi, an Ansari, a Thaqafi or a Dawsi",
+    "iwh_en": "It was narrated from Abu Hurairah (may Allah be pleased with him) that the Messenger of Allah ﷺ said:\"I was thinking of not accepting gifts except from a Quraishi, an Ansari, a Thaqafi or a Dawsi",
+    "iwh_id": "Diriwayatkan dari Abu Hurairah  (radhiyallahu 'anhu) bahwa Rasulullah ﷺ said:\"I was thinking of not accepting gifts except from a Quraishi, an Ansari, a Thaqafi or a Dawsi",
+    "grade": "hasan-li-dhatihi",
+    "grade_display": "Hasan Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "hasan-li-dhatihi",
+        "grade_display": "Hasan Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
+    "tags": [
+      "hasan",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28271",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3847"
+  },
+  {
+    "n": 42,
+    "cn": 3848,
+    "book": 34,
+    "collection": "nasai",
+    "chapter_ar": "The Book of 'Umra",
+    "chapter_en": "The Book of 'Umra",
+    "section_ar": "",
+    "section_en": "",
+    "ar": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا وَكِيعٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أُتِيَ بِلَحْمٍ فَقَالَ ‏\"‏ مَا هَذَا ‏\"‏ ‏.‏ فَقِيلَ تُصُدِّقَ بِهِ عَلَى بَرِيرَةَ ‏.‏ فَقَالَ ‏\"‏ هُوَ لَهَا صَدَقَةٌ وَلَنَا هَدِيَّةٌ ‏\"‏ ‏.‏",
+    "ar_clean": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا وَكِيعٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم أُتِيَ بِلَحْمٍ فَقَالَ \" مَا هَذَا \" . فَقِيلَ تُصُدِّقَ بِهِ عَلَى بَرِيرَةَ . فَقَالَ \" هُوَ لَهَا صَدَقَةٌ وَلَنَا هَدِيَّةٌ \" .",
+    "isnad_ar": "أَخْبَرَنَا إِسْحَاقُ بْنُ إِبْرَاهِيمَ، قَالَ حَدَّثَنَا وَكِيعٌ، قَالَ حَدَّثَنَا شُعْبَةُ، عَنْ قَتَادَةَ، عَنْ أَنَسٍ، أَنَّ رَسُولَ اللَّهِ صلى الله عليه و",
+    "matn_ar": "سلم أُتِيَ بِلَحْمٍ فَقَالَ \" مَا هَذَا \" . فَقِيلَ تُصُدِّقَ بِهِ عَلَى بَرِيرَةَ . فَقَالَ \" هُوَ لَهَا صَدَقَةٌ وَلَنَا هَدِيَّةٌ \" .",
+    "matn_ar_clean": "سلم أتي بلحم فقال \" ما هذا \" . فقيل تصدق به على بريرة . فقال \" هو لها صدقة ولنا هدية \" .",
+    "isnad_chain": [],
+    "isnad_separation_method": "qala_nodiac",
+    "isnad_confidence": "medium",
+    "sunnah_ref_en": "It was narrated from Anas that some meat was brought to the Messenger of Allah and he said:\"What is this?\" It was said: \"It was given in charity to Barirah.\" He said: \"It is charity for her and a gift for us",
+    "iwh_en": "It was narrated from Anas (may Allah be pleased with him) that some meat was brought to the Messenger of Allah ﷺ and he said:\"What is this?\" It was said: \"It was given in charity to Barirah.\" He said: \"It is charity for her and a gift for us",
+    "iwh_id": "Diriwayatkan dari Anas  (radhiyallahu 'anhu) bahwa some meat was brought to Rasulullah ﷺ and he said:\"What is this?\" It was said: \"It was given in charity to Barirah.\" He said: \"It is charity for her and a gift for us",
+    "grade": "sahih-li-dhatihi",
+    "grade_display": "Sahih Li Dhatihi",
+    "grades": [
+      {
+        "scholar": "Abu Ghuddah",
+        "scholar_id": "abu-ghuddah",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Al-Albani",
+        "scholar_id": "albani",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih",
+        "source": "",
+        "note": ""
+      },
+      {
+        "scholar": "Zubair Ali Zai",
+        "scholar_id": "zubair-ali",
+        "grade": "sahih-li-dhatihi",
+        "grade_display": "Sahih - Agreed Upon",
+        "source": "",
+        "note": ""
+      }
+    ],
+    "topics": [
+      "zakat",
+      "food-and-drink",
+      "prophet"
+    ],
+    "tags": [
+      "sahih",
+      "kutub-sittah"
+    ],
+    "quran_refs": [],
+    "iw_category": "hadith-sciences",
+    "iw_subcategory": "sunan-collections",
+    "iw_id": "IWH-28272",
+    "duplicates": [],
+    "variants": [],
+    "sharh_refs": [],
+    "iwh_verification": {
+      "verified": true,
+      "ar_normalized": true,
+      "isnad_separated": true,
+      "sunnah_com_checked": false,
+      "sharh_checked": false,
+      "ar_matn_verified": true,
+      "grade_verified": true,
+      "confidence": "medium",
+      "notes": "P6 verified",
+      "checked_by_agent": "P6-bulk"
+    },
+    "ref": "nasai:3848"
+  }
+]

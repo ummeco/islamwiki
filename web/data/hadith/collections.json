@@ -1,90 +1,118 @@
 [
   {
     "id": 1,
-    "name_ar": "صحيح البخاري",
-    "name_en": "Sahih al-Bukhari",
     "slug": "bukhari",
-    "author_id": 122,
-    "author_name_en": "Imam al-Bukhari",
-    "total_hadith": 7563,
-    "total_books": 97,
-    "description_en": "The most authentic collection of hadith, compiled by Imam Muhammad ibn Ismail al-Bukhari (d. 870 CE). Contains 7,563 hadith organized into 97 books. Universally accepted as the most reliable hadith collection after the Quran."
+    "name_en": "Sahih al-Bukhari",
+    "name_ar": "صحيح البخاري",
+    "author_en": "Imam al-Bukhari",
+    "author_ar": "الإمام البخاري",
+    "total_hadiths": 7589
   },
   {
     "id": 2,
-    "name_ar": "صحيح مسلم",
-    "name_en": "Sahih Muslim",
     "slug": "muslim",
-    "author_id": 124,
-    "author_name_en": "Imam Muslim",
-    "total_hadith": 7563,
-    "total_books": 56,
-    "description_en": "The second most authentic collection of hadith, compiled by Imam Muslim ibn al-Hajjaj (d. 875 CE). Known for its rigorous methodology and organization by topic. Contains 7,563 hadith in 56 books."
+    "name_en": "Sahih Muslim",
+    "name_ar": "صحيح مسلم",
+    "author_en": "Imam Muslim",
+    "author_ar": "الإمام مسلم",
+    "total_hadiths": 7563
   },
   {
     "id": 3,
-    "name_ar": "سنن أبي داود",
-    "name_en": "Sunan Abu Dawud",
     "slug": "abu-dawud",
-    "author_id": 123,
-    "author_name_en": "Imam Abu Dawud",
-    "total_hadith": 5274,
-    "total_books": 43,
-    "description_en": "One of the six canonical hadith collections, compiled by Imam Abu Dawud as-Sijistani (d. 889 CE). Focuses heavily on legal hadith (ahkam). Contains 5,274 hadith in 43 books."
+    "name_en": "Sunan Abu Dawud",
+    "name_ar": "سنن أبي داود",
+    "author_en": "Abu Dawud al-Sijistani",
+    "author_ar": "أبو داود السجستاني",
+    "total_hadiths": 5274
   },
   {
     "id": 4,
-    "name_ar": "جامع الترمذي",
-    "name_en": "Jami at-Tirmidhi",
     "slug": "tirmidhi",
-    "author_id": 126,
-    "author_name_en": "Imam at-Tirmidhi",
-    "total_hadith": 3956,
-    "total_books": 49,
-    "description_en": "One of the six canonical hadith collections, compiled by Imam Muhammad ibn Isa at-Tirmidhi (d. 892 CE). Notable for including grading of each hadith and mentioning scholarly opinions. Contains 3,956 hadith."
+    "name_en": "Jami at-Tirmidhi",
+    "name_ar": "جامع الترمذي",
+    "author_en": "Imam al-Tirmidhi",
+    "author_ar": "الإمام الترمذي",
+    "total_hadiths": 3998
   },
   {
     "id": 5,
-    "name_ar": "سنن النسائي",
-    "name_en": "Sunan an-Nasa'i",
     "slug": "nasai",
-    "author_id": 127,
-    "author_name_en": "Imam an-Nasa'i",
-    "total_hadith": 5758,
-    "total_books": 51,
-    "description_en": "One of the six canonical hadith collections, compiled by Imam Ahmad ibn Shuayb an-Nasa'i (d. 915 CE). Known for strict authentication criteria, considered by some scholars as second only to the Sahihayn."
+    "name_en": "Sunan an-Nasa'i",
+    "name_ar": "سنن النسائي",
+    "author_en": "Imam al-Nasa'i",
+    "author_ar": "الإمام النسائي",
+    "total_hadiths": 5765
   },
   {
     "id": 6,
-    "name_ar": "سنن ابن ماجه",
-    "name_en": "Sunan Ibn Majah",
     "slug": "ibn-majah",
-    "author_id": 125,
-    "author_name_en": "Imam Ibn Majah",
-    "total_hadith": 4341,
-    "total_books": 37,
-    "description_en": "One of the six canonical hadith collections, compiled by Imam Muhammad ibn Yazid Ibn Majah (d. 887 CE). Contains some hadith not found in the other five collections. 4,341 hadith in 37 books."
+    "name_en": "Sunan Ibn Majah",
+    "name_ar": "سنن ابن ماجه",
+    "author_en": "Ibn Majah al-Qazwini",
+    "author_ar": "ابن ماجه القزويني",
+    "total_hadiths": 4343
   },
   {
     "id": 7,
-    "name_ar": "موطأ الإمام مالك",
-    "name_en": "Muwatta Imam Malik",
     "slug": "muwatta",
-    "author_id": 94,
-    "author_name_en": "Imam Malik ibn Anas",
-    "total_hadith": 1832,
-    "total_books": 61,
-    "description_en": "The earliest surviving hadith collection, compiled by Imam Malik ibn Anas (d. 795 CE). Combines hadith with the practice of the people of Medina. A foundational text of the Maliki school. 1,832 narrations."
+    "name_en": "Muwatta Imam Malik",
+    "name_ar": "موطأ الإمام مالك",
+    "author_en": "Imam Malik ibn Anas",
+    "author_ar": "الإمام مالك بن أنس",
+    "total_hadiths": 1858
   },
   {
     "id": 8,
-    "name_ar": "مسند الإمام أحمد",
-    "name_en": "Musnad Ahmad",
     "slug": "musnad-ahmad",
-    "author_id": 115,
-    "author_name_en": "Imam Ahmad ibn Hanbal",
-    "total_hadith": 27647,
-    "total_books": 6,
-    "description_en": "The largest of the major hadith collections, compiled by Imam Ahmad ibn Hanbal (d. 855 CE). Organized by narrator rather than topic. Contains 27,647 hadith. A crucial source for hadith scholarship."
+    "name_en": "Musnad Ahmad",
+    "name_ar": "مسند أحمد",
+    "author_en": "Imam Ahmad ibn Hanbal",
+    "author_ar": "الإمام أحمد بن حنبل",
+    "total_hadiths": 26363
+  },
+  {
+    "id": 9,
+    "slug": "darimi",
+    "name_en": "Sunan al-Darimi",
+    "name_ar": "سنن الدارمي",
+    "author_en": "Imam al-Darimi",
+    "author_ar": "الإمام الدارمي",
+    "total_hadiths": 0,
+    "gap": true,
+    "gap_note": "Not available on CDN — Phase 11 retry"
+  },
+  {
+    "id": 10,
+    "slug": "riyadh-salihin",
+    "name_en": "Riyadh al-Salihin",
+    "name_ar": "رياض الصالحين",
+    "author_en": "Imam al-Nawawi",
+    "author_ar": "الإمام النووي",
+    "total_hadiths": 0,
+    "gap": true,
+    "gap_note": "Not available on CDN — Phase 11 retry"
+  },
+  {
+    "id": 11,
+    "slug": "bulugh-maram",
+    "name_en": "Bulugh al-Maram",
+    "name_ar": "بلوغ المرام",
+    "author_en": "Ibn Hajar al-Asqalani",
+    "author_ar": "ابن حجر العسقلاني",
+    "total_hadiths": 0,
+    "gap": true,
+    "gap_note": "Not available on CDN — Phase 11 retry"
+  },
+  {
+    "id": 12,
+    "slug": "shamail",
+    "name_en": "Shamail al-Muhammadiyyah",
+    "name_ar": "الشمائل المحمدية",
+    "author_en": "Imam al-Tirmidhi",
+    "author_ar": "الإمام الترمذي",
+    "total_hadiths": 0,
+    "gap": true,
+    "gap_note": "Not available on CDN — Phase 11 retry"
   }
 ]

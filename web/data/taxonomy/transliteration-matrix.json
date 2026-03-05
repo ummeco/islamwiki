@@ -1,0 +1,3846 @@
+{
+  "الله": {
+    "iw_en": "Allah",
+    "iw_id": "Allah",
+    "alt_spellings": [
+      "God"
+    ],
+    "notes": "Always 'Allah' in IW — never 'God'"
+  },
+  "الرحمن": {
+    "iw_en": "Al-Rahman",
+    "iw_id": "Al-Rahman",
+    "alt_spellings": [
+      "ar-Rahman",
+      "The Most Gracious"
+    ],
+    "notes": ""
+  },
+  "الرحيم": {
+    "iw_en": "Al-Rahim",
+    "iw_id": "Al-Rahim",
+    "alt_spellings": [
+      "ar-Raheem"
+    ],
+    "notes": ""
+  },
+  "السميع": {
+    "iw_en": "Al-Sami",
+    "iw_id": "Al-Sami",
+    "alt_spellings": [
+      "as-Sami'"
+    ],
+    "notes": ""
+  },
+  "البصير": {
+    "iw_en": "Al-Basir",
+    "iw_id": "Al-Basir",
+    "alt_spellings": [
+      "al-Baseer"
+    ],
+    "notes": ""
+  },
+  "العليم": {
+    "iw_en": "Al-Alim",
+    "iw_id": "Al-Alim",
+    "alt_spellings": [
+      "al-Aleem"
+    ],
+    "notes": ""
+  },
+  "القدير": {
+    "iw_en": "Al-Qadir",
+    "iw_id": "Al-Qadir",
+    "alt_spellings": [
+      "al-Qadeer"
+    ],
+    "notes": ""
+  },
+  "الحكيم": {
+    "iw_en": "Al-Hakim",
+    "iw_id": "Al-Hakim",
+    "alt_spellings": [
+      "al-Hakeem"
+    ],
+    "notes": ""
+  },
+  "الخبير": {
+    "iw_en": "Al-Khabir",
+    "iw_id": "Al-Khabir",
+    "alt_spellings": [
+      "al-Khabeer"
+    ],
+    "notes": ""
+  },
+  "اللطيف": {
+    "iw_en": "Al-Latif",
+    "iw_id": "Al-Latif",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الغفور": {
+    "iw_en": "Al-Ghafur",
+    "iw_id": "Al-Ghafur",
+    "alt_spellings": [
+      "al-Ghafoor"
+    ],
+    "notes": ""
+  },
+  "الشكور": {
+    "iw_en": "Al-Shakur",
+    "iw_id": "Al-Shakur",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "العزيز": {
+    "iw_en": "Al-Aziz",
+    "iw_id": "Al-Aziz",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الكريم": {
+    "iw_en": "Al-Karim",
+    "iw_id": "Al-Karim",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحليم": {
+    "iw_en": "Al-Halim",
+    "iw_id": "Al-Halim",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الواسع": {
+    "iw_en": "Al-Wasi",
+    "iw_id": "Al-Wasi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الرزاق": {
+    "iw_en": "Al-Razzaq",
+    "iw_id": "Al-Razzaq",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الفتاح": {
+    "iw_en": "Al-Fattah",
+    "iw_id": "Al-Fattah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الرقيب": {
+    "iw_en": "Al-Raqib",
+    "iw_id": "Al-Raqib",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المجيب": {
+    "iw_en": "Al-Mujib",
+    "iw_id": "Al-Mujib",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الواحد": {
+    "iw_en": "Al-Wahid",
+    "iw_id": "Al-Wahid",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الأحد": {
+    "iw_en": "Al-Ahad",
+    "iw_id": "Al-Ahad",
+    "alt_spellings": [],
+    "notes": "The One, Unique"
+  },
+  "الصمد": {
+    "iw_en": "Al-Samad",
+    "iw_id": "Al-Samad",
+    "alt_spellings": [],
+    "notes": "The Self-Sufficient"
+  },
+  "الغني": {
+    "iw_en": "Al-Ghani",
+    "iw_id": "Al-Ghani",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "التواب": {
+    "iw_en": "Al-Tawwab",
+    "iw_id": "Al-Tawwab",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الرؤوف": {
+    "iw_en": "Al-Rauf",
+    "iw_id": "Al-Rauf",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الودود": {
+    "iw_en": "Al-Wadud",
+    "iw_id": "Al-Wadud",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المجيد": {
+    "iw_en": "Al-Majid",
+    "iw_id": "Al-Majid",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحميد": {
+    "iw_en": "Al-Hamid",
+    "iw_id": "Al-Hamid",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المؤمن": {
+    "iw_en": "Al-Mumin",
+    "iw_id": "Al-Mumin",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المهيمن": {
+    "iw_en": "Al-Muhaymin",
+    "iw_id": "Al-Muhaymin",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الجبار": {
+    "iw_en": "Al-Jabbar",
+    "iw_id": "Al-Jabbar",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المتكبر": {
+    "iw_en": "Al-Mutakabbir",
+    "iw_id": "Al-Mutakabbir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الخالق": {
+    "iw_en": "Al-Khaliq",
+    "iw_id": "Al-Khaliq",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "البارئ": {
+    "iw_en": "Al-Bari",
+    "iw_id": "Al-Bari",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المصور": {
+    "iw_en": "Al-Musawwir",
+    "iw_id": "Al-Musawwir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "القاهر": {
+    "iw_en": "Al-Qahir",
+    "iw_id": "Al-Qahir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الوهاب": {
+    "iw_en": "Al-Wahhab",
+    "iw_id": "Al-Wahhab",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المقيت": {
+    "iw_en": "Al-Muqit",
+    "iw_id": "Al-Muqit",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحسيب": {
+    "iw_en": "Al-Hasib",
+    "iw_id": "Al-Hasib",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الجليل": {
+    "iw_en": "Al-Jalil",
+    "iw_id": "Al-Jalil",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الكبير": {
+    "iw_en": "Al-Kabir",
+    "iw_id": "Al-Kabir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحفيظ": {
+    "iw_en": "Al-Hafiz",
+    "iw_id": "Al-Hafiz",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المقدم": {
+    "iw_en": "Al-Muqaddim",
+    "iw_id": "Al-Muqaddim",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المؤخر": {
+    "iw_en": "Al-Muakhkhir",
+    "iw_id": "Al-Muakhkhir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الأول": {
+    "iw_en": "Al-Awwal",
+    "iw_id": "Al-Awwal",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الآخر": {
+    "iw_en": "Al-Akhir",
+    "iw_id": "Al-Akhir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الظاهر": {
+    "iw_en": "Al-Zahir",
+    "iw_id": "Al-Zahir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الباطن": {
+    "iw_en": "Al-Batin",
+    "iw_id": "Al-Batin",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الوالي": {
+    "iw_en": "Al-Wali",
+    "iw_id": "Al-Wali",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المتعالي": {
+    "iw_en": "Al-Mutaali",
+    "iw_id": "Al-Mutaali",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "البر": {
+    "iw_en": "Al-Barr",
+    "iw_id": "Al-Barr",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المنتقم": {
+    "iw_en": "Al-Muntaqim",
+    "iw_id": "Al-Muntaqim",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "العفو": {
+    "iw_en": "Al-Afu",
+    "iw_id": "Al-Afu",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "القيوم": {
+    "iw_en": "Al-Qayyum",
+    "iw_id": "Al-Qayyum",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "القدوس": {
+    "iw_en": "Al-Quddus",
+    "iw_id": "Al-Quddus",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "السلام_اسم": {
+    "iw_en": "Al-Salam",
+    "iw_id": "Al-Salam",
+    "alt_spellings": [],
+    "notes": "Name of Allah"
+  },
+  "الملك": {
+    "iw_en": "Al-Mulk",
+    "iw_id": "Al-Mulk",
+    "alt_spellings": [
+      "the Sovereignty"
+    ],
+    "notes": "Surah 67"
+  },
+  "القوي": {
+    "iw_en": "Al-Qawi",
+    "iw_id": "Al-Qawi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المتين": {
+    "iw_en": "Al-Matin",
+    "iw_id": "Al-Matin",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الولي": {
+    "iw_en": "Al-Wali",
+    "iw_id": "Al-Wali",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الشهيد": {
+    "iw_en": "Al-Shahid",
+    "iw_id": "Al-Shahid",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحق": {
+    "iw_en": "Al-Haqq",
+    "iw_id": "Al-Haqq",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الوكيل": {
+    "iw_en": "Al-Wakil",
+    "iw_id": "Al-Wakil",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المحيي": {
+    "iw_en": "Al-Muhyi",
+    "iw_id": "Al-Muhyi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المميت": {
+    "iw_en": "Al-Mumit",
+    "iw_id": "Al-Mumit",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحي": {
+    "iw_en": "Al-Hayy",
+    "iw_id": "Al-Hayy",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الباعث": {
+    "iw_en": "Al-Baith",
+    "iw_id": "Al-Baith",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الوارث": {
+    "iw_en": "Al-Warith",
+    "iw_id": "Al-Warith",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الرشيد": {
+    "iw_en": "Al-Rashid",
+    "iw_id": "Al-Rashid",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الصبور": {
+    "iw_en": "Al-Sabur",
+    "iw_id": "Al-Sabur",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الغفار": {
+    "iw_en": "Al-Ghaffar",
+    "iw_id": "Al-Ghaffar",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "القابض": {
+    "iw_en": "Al-Qabid",
+    "iw_id": "Al-Qabid",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الباسط": {
+    "iw_en": "Al-Basit",
+    "iw_id": "Al-Basit",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الخافض": {
+    "iw_en": "Al-Khafid",
+    "iw_id": "Al-Khafid",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الرافع": {
+    "iw_en": "Al-Rafi",
+    "iw_id": "Al-Rafi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المعز": {
+    "iw_en": "Al-Muizz",
+    "iw_id": "Al-Muizz",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المذل": {
+    "iw_en": "Al-Mudhil",
+    "iw_id": "Al-Mudhil",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المعطي": {
+    "iw_en": "Al-Muti",
+    "iw_id": "Al-Muti",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المانع": {
+    "iw_en": "Al-Mani",
+    "iw_id": "Al-Mani",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الضار": {
+    "iw_en": "Al-Darr",
+    "iw_id": "Al-Darr",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "النافع": {
+    "iw_en": "Al-Nafi",
+    "iw_id": "Al-Nafi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "النور": {
+    "iw_en": "Al-Nur",
+    "iw_id": "Al-Nur",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الهادي": {
+    "iw_en": "Al-Hadi",
+    "iw_id": "Al-Hadi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "البديع": {
+    "iw_en": "Al-Badi",
+    "iw_id": "Al-Badi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المقسط": {
+    "iw_en": "Al-Muqsit",
+    "iw_id": "Al-Muqsit",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الجامع": {
+    "iw_en": "Al-Jami",
+    "iw_id": "Al-Jami",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المغني": {
+    "iw_en": "Al-Mughni",
+    "iw_id": "Al-Mughni",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "محمد": {
+    "iw_en": "Muhammad",
+    "iw_id": "Muhammad",
+    "alt_spellings": [
+      "Mohammed",
+      "Mohammad"
+    ],
+    "notes": ""
+  },
+  "إبراهيم": {
+    "iw_en": "Ibrahim",
+    "iw_id": "Ibrahim",
+    "alt_spellings": [
+      "Abraham"
+    ],
+    "notes": ""
+  },
+  "موسى": {
+    "iw_en": "Musa",
+    "iw_id": "Musa",
+    "alt_spellings": [
+      "Moses"
+    ],
+    "notes": ""
+  },
+  "عيسى": {
+    "iw_en": "Isa",
+    "iw_id": "Isa",
+    "alt_spellings": [
+      "Jesus"
+    ],
+    "notes": ""
+  },
+  "نوح": {
+    "iw_en": "Nuh",
+    "iw_id": "Nuh",
+    "alt_spellings": [
+      "Noah"
+    ],
+    "notes": ""
+  },
+  "آدم": {
+    "iw_en": "Adam",
+    "iw_id": "Adam",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "يوسف": {
+    "iw_en": "Yusuf",
+    "iw_id": "Yusuf",
+    "alt_spellings": [
+      "Joseph"
+    ],
+    "notes": ""
+  },
+  "داود": {
+    "iw_en": "Dawud",
+    "iw_id": "Dawud",
+    "alt_spellings": [
+      "David"
+    ],
+    "notes": ""
+  },
+  "سليمان": {
+    "iw_en": "Sulayman",
+    "iw_id": "Sulayman",
+    "alt_spellings": [
+      "Solomon"
+    ],
+    "notes": ""
+  },
+  "يحيى": {
+    "iw_en": "Yahya",
+    "iw_id": "Yahya",
+    "alt_spellings": [
+      "John"
+    ],
+    "notes": ""
+  },
+  "زكريا": {
+    "iw_en": "Zakariyya",
+    "iw_id": "Zakariyya",
+    "alt_spellings": [
+      "Zacharias"
+    ],
+    "notes": ""
+  },
+  "إلياس": {
+    "iw_en": "Ilyas",
+    "iw_id": "Ilyas",
+    "alt_spellings": [
+      "Elijah"
+    ],
+    "notes": ""
+  },
+  "إدريس": {
+    "iw_en": "Idris",
+    "iw_id": "Idris",
+    "alt_spellings": [
+      "Enoch"
+    ],
+    "notes": ""
+  },
+  "هود": {
+    "iw_en": "Hud",
+    "iw_id": "Hud",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "صالح": {
+    "iw_en": "Salih",
+    "iw_id": "Salih",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "شعيب": {
+    "iw_en": "Shuayb",
+    "iw_id": "Shuayb",
+    "alt_spellings": [
+      "Jethro"
+    ],
+    "notes": ""
+  },
+  "لوط": {
+    "iw_en": "Lut",
+    "iw_id": "Lut",
+    "alt_spellings": [
+      "Lot"
+    ],
+    "notes": ""
+  },
+  "إسماعيل": {
+    "iw_en": "Ismail",
+    "iw_id": "Ismail",
+    "alt_spellings": [
+      "Ishmael"
+    ],
+    "notes": ""
+  },
+  "إسحاق": {
+    "iw_en": "Ishaq",
+    "iw_id": "Ishaq",
+    "alt_spellings": [
+      "Isaac"
+    ],
+    "notes": ""
+  },
+  "يعقوب": {
+    "iw_en": "Yaqub",
+    "iw_id": "Yaqub",
+    "alt_spellings": [
+      "Jacob"
+    ],
+    "notes": ""
+  },
+  "يونس": {
+    "iw_en": "Yunus",
+    "iw_id": "Yunus",
+    "alt_spellings": [
+      "Jonah"
+    ],
+    "notes": ""
+  },
+  "أيوب": {
+    "iw_en": "Ayyub",
+    "iw_id": "Ayyub",
+    "alt_spellings": [
+      "Job"
+    ],
+    "notes": ""
+  },
+  "ذو الكفل": {
+    "iw_en": "Dhul-Kifl",
+    "iw_id": "Dzulkifli",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "إلياسع": {
+    "iw_en": "al-Yasa",
+    "iw_id": "al-Yasa",
+    "alt_spellings": [
+      "Elisha"
+    ],
+    "notes": ""
+  },
+  "مريم": {
+    "iw_en": "Maryam",
+    "iw_id": "Maryam",
+    "alt_spellings": [
+      "Mary"
+    ],
+    "notes": "Mother of Isa"
+  },
+  "صلى الله عليه وسلم": {
+    "iw_en": "ﷺ",
+    "iw_id": "ﷺ",
+    "alt_spellings": [
+      "sallallahu alayhi wasallam",
+      "PBUH"
+    ],
+    "notes": "Use ﷺ symbol inline after Prophet's name"
+  },
+  "رضي الله عنه": {
+    "iw_en": "(may Allah be pleased with him)",
+    "iw_id": "(semoga Allah meridhainya)",
+    "alt_spellings": [
+      "radi Allahu anhu"
+    ],
+    "notes": "For male companions"
+  },
+  "رضي الله عنها": {
+    "iw_en": "(may Allah be pleased with her)",
+    "iw_id": "(semoga Allah meridhainya)",
+    "alt_spellings": [
+      "radi Allahu anha"
+    ],
+    "notes": "For female companions"
+  },
+  "رضي الله عنهم": {
+    "iw_en": "(may Allah be pleased with them)",
+    "iw_id": "(semoga Allah meridhai mereka)",
+    "alt_spellings": [],
+    "notes": "For multiple companions"
+  },
+  "عليه السلام": {
+    "iw_en": "(peace be upon him)",
+    "iw_id": "(alaihissalam)",
+    "alt_spellings": [
+      "AS"
+    ],
+    "notes": "For prophets other than Muhammad"
+  },
+  "رحمه الله": {
+    "iw_en": "(may Allah have mercy on him)",
+    "iw_id": "(rahimahullah)",
+    "alt_spellings": [
+      "rahimahullah"
+    ],
+    "notes": "For scholars"
+  },
+  "رحمها الله": {
+    "iw_en": "(may Allah have mercy on her)",
+    "iw_id": "(rahimahallah)",
+    "alt_spellings": [],
+    "notes": "For female scholars"
+  },
+  "حفظه الله": {
+    "iw_en": "(may Allah preserve him)",
+    "iw_id": "(hafidzahullah)",
+    "alt_spellings": [],
+    "notes": "For living scholars"
+  },
+  "سبحانه وتعالى": {
+    "iw_en": "the Exalted",
+    "iw_id": "Subhanahu wa Ta'ala",
+    "alt_spellings": [
+      "SWT"
+    ],
+    "notes": "After mention of Allah"
+  },
+  "الصلاة": {
+    "iw_en": "salah",
+    "iw_id": "salat",
+    "alt_spellings": [
+      "prayer",
+      "salat",
+      "namaz"
+    ],
+    "notes": "Use 'prayer (salah)' on first use"
+  },
+  "الزكاة": {
+    "iw_en": "zakat",
+    "iw_id": "zakat",
+    "alt_spellings": [
+      "zakah",
+      "alms"
+    ],
+    "notes": ""
+  },
+  "الحج": {
+    "iw_en": "hajj",
+    "iw_id": "haji",
+    "alt_spellings": [
+      "haj",
+      "pilgrimage"
+    ],
+    "notes": ""
+  },
+  "الصوم": {
+    "iw_en": "sawm",
+    "iw_id": "puasa",
+    "alt_spellings": [
+      "saum",
+      "fasting"
+    ],
+    "notes": "Use 'fasting (sawm)' on first use"
+  },
+  "الجهاد": {
+    "iw_en": "jihad",
+    "iw_id": "jihad",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الشهادة": {
+    "iw_en": "shahadah",
+    "iw_id": "syahadat",
+    "alt_spellings": [
+      "testimony of faith"
+    ],
+    "notes": ""
+  },
+  "العمرة": {
+    "iw_en": "umrah",
+    "iw_id": "umrah",
+    "alt_spellings": [
+      "umra"
+    ],
+    "notes": ""
+  },
+  "الوضوء": {
+    "iw_en": "wudu",
+    "iw_id": "wudu",
+    "alt_spellings": [
+      "ablution"
+    ],
+    "notes": ""
+  },
+  "التيمم": {
+    "iw_en": "tayammum",
+    "iw_id": "tayammum",
+    "alt_spellings": [
+      "dry ablution"
+    ],
+    "notes": ""
+  },
+  "الغسل": {
+    "iw_en": "ghusl",
+    "iw_id": "mandi wajib",
+    "alt_spellings": [
+      "ritual bath"
+    ],
+    "notes": ""
+  },
+  "أركان الإسلام": {
+    "iw_en": "pillars of Islam",
+    "iw_id": "rukun Islam",
+    "alt_spellings": [],
+    "notes": "Five pillars"
+  },
+  "أركان الإيمان": {
+    "iw_en": "pillars of faith",
+    "iw_id": "rukun iman",
+    "alt_spellings": [],
+    "notes": "Six pillars of iman"
+  },
+  "الفجر": {
+    "iw_en": "Fajr",
+    "iw_id": "Subuh",
+    "alt_spellings": [
+      "dawn prayer"
+    ],
+    "notes": "Dawn prayer"
+  },
+  "الظهر": {
+    "iw_en": "Dhuhr",
+    "iw_id": "Dzuhur",
+    "alt_spellings": [
+      "noon prayer"
+    ],
+    "notes": "Noon prayer"
+  },
+  "العصر": {
+    "iw_en": "Asr",
+    "iw_id": "Ashar",
+    "alt_spellings": [
+      "afternoon prayer"
+    ],
+    "notes": "Afternoon prayer"
+  },
+  "المغرب": {
+    "iw_en": "Maghrib",
+    "iw_id": "Maghrib",
+    "alt_spellings": [
+      "sunset prayer"
+    ],
+    "notes": "Sunset prayer"
+  },
+  "العشاء": {
+    "iw_en": "Isha",
+    "iw_id": "Isya",
+    "alt_spellings": [
+      "night prayer"
+    ],
+    "notes": "Night prayer"
+  },
+  "الوتر": {
+    "iw_en": "Witr",
+    "iw_id": "Witir",
+    "alt_spellings": [],
+    "notes": "Odd-unit night prayer"
+  },
+  "التراويح": {
+    "iw_en": "Tarawih",
+    "iw_id": "Tarawih",
+    "alt_spellings": [],
+    "notes": "Ramadan night prayers"
+  },
+  "تهجد": {
+    "iw_en": "Tahajjud",
+    "iw_id": "Tahajud",
+    "alt_spellings": [],
+    "notes": "Late night voluntary prayer"
+  },
+  "الاستخارة": {
+    "iw_en": "Istikhara",
+    "iw_id": "Istikharah",
+    "alt_spellings": [],
+    "notes": "Prayer for guidance"
+  },
+  "الركعة": {
+    "iw_en": "rakah",
+    "iw_id": "rakaat",
+    "alt_spellings": [
+      "unit of prayer"
+    ],
+    "notes": "Plural: rakahat"
+  },
+  "الركوع_صلاة": {
+    "iw_en": "ruku (bowing)",
+    "iw_id": "ruku",
+    "alt_spellings": [],
+    "notes": "Bowing position in prayer"
+  },
+  "السجود": {
+    "iw_en": "sujud",
+    "iw_id": "sujud",
+    "alt_spellings": [
+      "prostration"
+    ],
+    "notes": ""
+  },
+  "القيام": {
+    "iw_en": "qiyam",
+    "iw_id": "qiyam",
+    "alt_spellings": [
+      "standing"
+    ],
+    "notes": "Standing in prayer"
+  },
+  "التشهد": {
+    "iw_en": "tashahhud",
+    "iw_id": "tasyahud",
+    "alt_spellings": [],
+    "notes": "Sitting recitation in prayer"
+  },
+  "السلام_صلاة": {
+    "iw_en": "taslim",
+    "iw_id": "salam",
+    "alt_spellings": [
+      "ending the prayer"
+    ],
+    "notes": "Ending prayer with salam"
+  },
+  "القنوت": {
+    "iw_en": "qunut",
+    "iw_id": "qunut",
+    "alt_spellings": [],
+    "notes": "Supplication in prayer"
+  },
+  "السترة": {
+    "iw_en": "sutrah",
+    "iw_id": "sutrah",
+    "alt_spellings": [],
+    "notes": "Barrier in front of praying person"
+  },
+  "الصف": {
+    "iw_en": "saf",
+    "iw_id": "shaf",
+    "alt_spellings": [
+      "prayer row"
+    ],
+    "notes": "Row in congregational prayer"
+  },
+  "الإمامة": {
+    "iw_en": "imamate",
+    "iw_id": "imamah",
+    "alt_spellings": [
+      "leading prayer"
+    ],
+    "notes": ""
+  },
+  "المأموم": {
+    "iw_en": "mamum",
+    "iw_id": "makmum",
+    "alt_spellings": [
+      "follower in prayer"
+    ],
+    "notes": "Prayer follower"
+  },
+  "المسبوق": {
+    "iw_en": "masbuq",
+    "iw_id": "masbuk",
+    "alt_spellings": [],
+    "notes": "Latecomer to prayer"
+  },
+  "القرآن": {
+    "iw_en": "Quran",
+    "iw_id": "Al-Quran",
+    "alt_spellings": [
+      "Qur'an",
+      "Koran"
+    ],
+    "notes": "Always 'Quran' — no apostrophe, no Koran"
+  },
+  "الآية": {
+    "iw_en": "ayah",
+    "iw_id": "ayat",
+    "alt_spellings": [
+      "verse"
+    ],
+    "notes": "Plural: ayat"
+  },
+  "السورة": {
+    "iw_en": "surah",
+    "iw_id": "surah",
+    "alt_spellings": [
+      "sura",
+      "chapter"
+    ],
+    "notes": "Plural: suwar"
+  },
+  "الجزء": {
+    "iw_en": "juz",
+    "iw_id": "juz",
+    "alt_spellings": [
+      "para"
+    ],
+    "notes": "Plural: ajza"
+  },
+  "الحزب": {
+    "iw_en": "hizb",
+    "iw_id": "hizb",
+    "alt_spellings": [],
+    "notes": "Half-juz"
+  },
+  "الركوع": {
+    "iw_en": "ruku",
+    "iw_id": "ruku",
+    "alt_spellings": [
+      "section"
+    ],
+    "notes": "Quran ruku division"
+  },
+  "السجدة": {
+    "iw_en": "sajdah",
+    "iw_id": "sujud",
+    "alt_spellings": [
+      "prostration"
+    ],
+    "notes": ""
+  },
+  "الفاتحة": {
+    "iw_en": "Al-Fatihah",
+    "iw_id": "Al-Fatihah",
+    "alt_spellings": [
+      "the Opening"
+    ],
+    "notes": ""
+  },
+  "البسملة": {
+    "iw_en": "Bismillah",
+    "iw_id": "Bismillah",
+    "alt_spellings": [],
+    "notes": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"
+  },
+  "الحمد": {
+    "iw_en": "Alhamdulillah",
+    "iw_id": "Alhamdulillah",
+    "alt_spellings": [
+      "praise be to Allah"
+    ],
+    "notes": ""
+  },
+  "التفسير": {
+    "iw_en": "tafsir",
+    "iw_id": "tafsir",
+    "alt_spellings": [
+      "exegesis",
+      "commentary"
+    ],
+    "notes": ""
+  },
+  "التجويد": {
+    "iw_en": "tajwid",
+    "iw_id": "tajwid",
+    "alt_spellings": [
+      "recitation rules"
+    ],
+    "notes": ""
+  },
+  "الناسخ والمنسوخ": {
+    "iw_en": "nasikh and mansukh",
+    "iw_id": "nasikh dan mansukh",
+    "alt_spellings": [],
+    "notes": "Abrogating and abrogated verses"
+  },
+  "أسباب النزول": {
+    "iw_en": "asbab al-nuzul",
+    "iw_id": "asbab al-nuzul",
+    "alt_spellings": [
+      "occasions of revelation"
+    ],
+    "notes": ""
+  },
+  "المكي والمدني": {
+    "iw_en": "Makki and Madani",
+    "iw_id": "Makkiyah dan Madaniyah",
+    "alt_spellings": [],
+    "notes": "Meccan and Medinan surahs"
+  },
+  "الحفظ": {
+    "iw_en": "hifz",
+    "iw_id": "hafalan",
+    "alt_spellings": [
+      "memorization"
+    ],
+    "notes": "Quran memorization"
+  },
+  "الحافظ": {
+    "iw_en": "hafiz",
+    "iw_id": "hafiz",
+    "alt_spellings": [],
+    "notes": "One who memorizes the Quran"
+  },
+  "القراءات": {
+    "iw_en": "qiraaat",
+    "iw_id": "qiraat",
+    "alt_spellings": [
+      "recitations"
+    ],
+    "notes": "Variant recitations of the Quran"
+  },
+  "الترتيل": {
+    "iw_en": "tartil",
+    "iw_id": "tartil",
+    "alt_spellings": [],
+    "notes": "Slow, measured Quran recitation"
+  },
+  "التلاوة": {
+    "iw_en": "tilawah",
+    "iw_id": "tilawah",
+    "alt_spellings": [
+      "recitation"
+    ],
+    "notes": ""
+  },
+  "المحكم": {
+    "iw_en": "muhkam",
+    "iw_id": "muhkam",
+    "alt_spellings": [],
+    "notes": "Clear, unambiguous verses"
+  },
+  "المتشابه": {
+    "iw_en": "mutashabih",
+    "iw_id": "mutasyabih",
+    "alt_spellings": [],
+    "notes": "Ambiguous verses"
+  },
+  "الحديث": {
+    "iw_en": "hadith",
+    "iw_id": "hadis",
+    "alt_spellings": [
+      "hadeeth",
+      "hadīth"
+    ],
+    "notes": "Plural: ahadith"
+  },
+  "السنة_اصطلاح": {
+    "iw_en": "sunnah",
+    "iw_id": "sunnah",
+    "alt_spellings": [
+      "sunna"
+    ],
+    "notes": "Practice of the Prophet"
+  },
+  "الإسناد": {
+    "iw_en": "isnad",
+    "iw_id": "isnad",
+    "alt_spellings": [
+      "sanad",
+      "chain of narration"
+    ],
+    "notes": ""
+  },
+  "المتن": {
+    "iw_en": "matn",
+    "iw_id": "matan",
+    "alt_spellings": [
+      "text"
+    ],
+    "notes": "The text of the hadith"
+  },
+  "الراوي": {
+    "iw_en": "narrator",
+    "iw_id": "perawi",
+    "alt_spellings": [
+      "transmitter"
+    ],
+    "notes": "Plural: ruwat"
+  },
+  "الصحيح": {
+    "iw_en": "sahih",
+    "iw_id": "shahih",
+    "alt_spellings": [
+      "authentic"
+    ],
+    "notes": "Grade: authentic"
+  },
+  "الحسن": {
+    "iw_en": "hasan",
+    "iw_id": "hasan",
+    "alt_spellings": [
+      "good"
+    ],
+    "notes": "Grade: good"
+  },
+  "الضعيف": {
+    "iw_en": "daif",
+    "iw_id": "dhaif",
+    "alt_spellings": [
+      "weak"
+    ],
+    "notes": "Grade: weak"
+  },
+  "الموضوع": {
+    "iw_en": "mawdu",
+    "iw_id": "mawdhu",
+    "alt_spellings": [
+      "fabricated"
+    ],
+    "notes": "Grade: fabricated"
+  },
+  "المنكر": {
+    "iw_en": "munkar",
+    "iw_id": "munkar",
+    "alt_spellings": [
+      "rejected"
+    ],
+    "notes": "Grade: rejected/objectionable"
+  },
+  "المتواتر": {
+    "iw_en": "mutawatir",
+    "iw_id": "mutawatir",
+    "alt_spellings": [],
+    "notes": "Mass-transmitted hadith"
+  },
+  "الآحاد": {
+    "iw_en": "ahad",
+    "iw_id": "ahad",
+    "alt_spellings": [
+      "single-chain"
+    ],
+    "notes": ""
+  },
+  "الرجال": {
+    "iw_en": "rijal",
+    "iw_id": "rijal",
+    "alt_spellings": [
+      "narrators"
+    ],
+    "notes": "Science of narrator criticism"
+  },
+  "الجرح والتعديل": {
+    "iw_en": "jarh wa tadil",
+    "iw_id": "jarh wa ta'dil",
+    "alt_spellings": [],
+    "notes": "Criticism and endorsement of narrators"
+  },
+  "الثقة": {
+    "iw_en": "thiqah",
+    "iw_id": "tsiqah",
+    "alt_spellings": [
+      "trustworthy"
+    ],
+    "notes": "Narrator reliability grade"
+  },
+  "الشرح": {
+    "iw_en": "sharh",
+    "iw_id": "syarah",
+    "alt_spellings": [
+      "commentary",
+      "explanation"
+    ],
+    "notes": ""
+  },
+  "حدثنا": {
+    "iw_en": "narrated to us",
+    "iw_id": "menceritakan kepada kami",
+    "alt_spellings": [
+      "told us"
+    ],
+    "notes": "Transmission term: direct narration"
+  },
+  "أخبرنا": {
+    "iw_en": "informed us",
+    "iw_id": "mengabarkan kepada kami",
+    "alt_spellings": [],
+    "notes": "Transmission term"
+  },
+  "عن": {
+    "iw_en": "from",
+    "iw_id": "dari",
+    "alt_spellings": [],
+    "notes": "Transmission term: on the authority of"
+  },
+  "المرفوع": {
+    "iw_en": "marfu",
+    "iw_id": "marfu",
+    "alt_spellings": [],
+    "notes": "Hadith traced to the Prophet"
+  },
+  "الموقوف": {
+    "iw_en": "mawquf",
+    "iw_id": "mauquf",
+    "alt_spellings": [],
+    "notes": "Hadith traced to a Companion"
+  },
+  "المقطوع": {
+    "iw_en": "maqtu",
+    "iw_id": "maqthu",
+    "alt_spellings": [],
+    "notes": "Hadith traced to a Tabiun"
+  },
+  "المرسل": {
+    "iw_en": "mursal",
+    "iw_id": "mursal",
+    "alt_spellings": [],
+    "notes": "Hadith with a missing link"
+  },
+  "المنقطع": {
+    "iw_en": "munqati",
+    "iw_id": "munqathi",
+    "alt_spellings": [],
+    "notes": "Hadith with a break in the chain"
+  },
+  "المعضل": {
+    "iw_en": "mudal",
+    "iw_id": "mu'dhal",
+    "alt_spellings": [],
+    "notes": "Hadith with two consecutive missing links"
+  },
+  "الشاذ": {
+    "iw_en": "shadhdh",
+    "iw_id": "syadz",
+    "alt_spellings": [],
+    "notes": "Irregular hadith"
+  },
+  "كتب الستة": {
+    "iw_en": "the Six Books",
+    "iw_id": "Kutub al-Sittah",
+    "alt_spellings": [],
+    "notes": "The six canonical hadith collections"
+  },
+  "صحيح البخاري": {
+    "iw_en": "Sahih al-Bukhari",
+    "iw_id": "Shahih al-Bukhari",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "صحيح مسلم": {
+    "iw_en": "Sahih Muslim",
+    "iw_id": "Shahih Muslim",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "سنن أبي داود": {
+    "iw_en": "Sunan Abu Dawud",
+    "iw_id": "Sunan Abu Dawud",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "سنن الترمذي": {
+    "iw_en": "Jami al-Tirmidhi",
+    "iw_id": "Jami al-Tirmidzi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "سنن النسائي": {
+    "iw_en": "Sunan al-Nasai",
+    "iw_id": "Sunan al-Nasai",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "سنن ابن ماجه": {
+    "iw_en": "Sunan Ibn Majah",
+    "iw_id": "Sunan Ibnu Majah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "مسند أحمد": {
+    "iw_en": "Musnad Ahmad",
+    "iw_id": "Musnad Ahmad",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "موطأ مالك": {
+    "iw_en": "Muwatta Malik",
+    "iw_id": "Muwatha Malik",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المستدرك": {
+    "iw_en": "al-Mustadrak",
+    "iw_id": "al-Mustadrak",
+    "alt_spellings": [],
+    "notes": "al-Hakim's collection"
+  },
+  "رياض الصالحين": {
+    "iw_en": "Riyadh al-Salihin",
+    "iw_id": "Riyadhus Shalihin",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "التوحيد": {
+    "iw_en": "tawhid",
+    "iw_id": "tauhid",
+    "alt_spellings": [
+      "monotheism"
+    ],
+    "notes": "Oneness of Allah"
+  },
+  "توحيد الربوبية": {
+    "iw_en": "tawhid al-rububiyyah",
+    "iw_id": "tauhid rububiyah",
+    "alt_spellings": [],
+    "notes": "Oneness of Lordship"
+  },
+  "توحيد الألوهية": {
+    "iw_en": "tawhid al-uluhiyyah",
+    "iw_id": "tauhid uluhiyah",
+    "alt_spellings": [],
+    "notes": "Oneness of Worship"
+  },
+  "توحيد الأسماء والصفات": {
+    "iw_en": "tawhid al-asma wa al-sifat",
+    "iw_id": "tauhid asma wa sifat",
+    "alt_spellings": [],
+    "notes": "Oneness of Names and Attributes"
+  },
+  "الشرك": {
+    "iw_en": "shirk",
+    "iw_id": "syirik",
+    "alt_spellings": [
+      "polytheism"
+    ],
+    "notes": "Associating partners with Allah"
+  },
+  "الشرك الأكبر": {
+    "iw_en": "major shirk",
+    "iw_id": "syirik besar",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الشرك الأصغر": {
+    "iw_en": "minor shirk",
+    "iw_id": "syirik kecil",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الإيمان": {
+    "iw_en": "iman",
+    "iw_id": "iman",
+    "alt_spellings": [
+      "faith",
+      "belief"
+    ],
+    "notes": ""
+  },
+  "الإسلام": {
+    "iw_en": "Islam",
+    "iw_id": "Islam",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الإحسان": {
+    "iw_en": "ihsan",
+    "iw_id": "ihsan",
+    "alt_spellings": [],
+    "notes": "Excellence in worship"
+  },
+  "التقوى": {
+    "iw_en": "taqwa",
+    "iw_id": "takwa",
+    "alt_spellings": [
+      "piety",
+      "God-consciousness"
+    ],
+    "notes": ""
+  },
+  "التوبة": {
+    "iw_en": "tawbah",
+    "iw_id": "taubat",
+    "alt_spellings": [
+      "repentance"
+    ],
+    "notes": ""
+  },
+  "الكفر": {
+    "iw_en": "kufr",
+    "iw_id": "kufur",
+    "alt_spellings": [
+      "disbelief"
+    ],
+    "notes": ""
+  },
+  "النفاق": {
+    "iw_en": "nifaq",
+    "iw_id": "nifak",
+    "alt_spellings": [
+      "hypocrisy"
+    ],
+    "notes": ""
+  },
+  "البدعة": {
+    "iw_en": "bidah",
+    "iw_id": "bid'ah",
+    "alt_spellings": [
+      "innovation"
+    ],
+    "notes": "Religious innovation"
+  },
+  "القضاء والقدر": {
+    "iw_en": "qada and qadar",
+    "iw_id": "qada dan qadar",
+    "alt_spellings": [
+      "divine decree"
+    ],
+    "notes": ""
+  },
+  "الجنة": {
+    "iw_en": "Jannah",
+    "iw_id": "surga",
+    "alt_spellings": [
+      "paradise",
+      "heaven"
+    ],
+    "notes": ""
+  },
+  "النار": {
+    "iw_en": "Jahannam",
+    "iw_id": "neraka",
+    "alt_spellings": [
+      "hellfire",
+      "hell"
+    ],
+    "notes": ""
+  },
+  "البرزخ": {
+    "iw_en": "barzakh",
+    "iw_id": "barzakh",
+    "alt_spellings": [
+      "intermediate realm"
+    ],
+    "notes": ""
+  },
+  "الآخرة": {
+    "iw_en": "akhirah",
+    "iw_id": "akhirat",
+    "alt_spellings": [
+      "the hereafter"
+    ],
+    "notes": ""
+  },
+  "الدنيا": {
+    "iw_en": "dunya",
+    "iw_id": "dunia",
+    "alt_spellings": [
+      "this world"
+    ],
+    "notes": ""
+  },
+  "الصراط": {
+    "iw_en": "sirat",
+    "iw_id": "sirat",
+    "alt_spellings": [
+      "the path"
+    ],
+    "notes": ""
+  },
+  "الميزان": {
+    "iw_en": "mizan",
+    "iw_id": "mizan",
+    "alt_spellings": [
+      "the scales"
+    ],
+    "notes": ""
+  },
+  "الحوض": {
+    "iw_en": "hawd",
+    "iw_id": "telaga",
+    "alt_spellings": [
+      "the cistern/pool"
+    ],
+    "notes": ""
+  },
+  "الشفاعة": {
+    "iw_en": "shafaah",
+    "iw_id": "syafaat",
+    "alt_spellings": [
+      "intercession"
+    ],
+    "notes": ""
+  },
+  "الصراط المستقيم": {
+    "iw_en": "the straight path",
+    "iw_id": "jalan yang lurus",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحساب": {
+    "iw_en": "hisab",
+    "iw_id": "hisab",
+    "alt_spellings": [
+      "reckoning"
+    ],
+    "notes": "Day of Reckoning"
+  },
+  "البعث": {
+    "iw_en": "bath",
+    "iw_id": "kebangkitan",
+    "alt_spellings": [
+      "resurrection"
+    ],
+    "notes": "Rising from the dead"
+  },
+  "القيامة": {
+    "iw_en": "Qiyamah",
+    "iw_id": "Kiamat",
+    "alt_spellings": [
+      "Judgment Day"
+    ],
+    "notes": ""
+  },
+  "يوم القيامة": {
+    "iw_en": "Day of Judgment",
+    "iw_id": "Hari Kiamat",
+    "alt_spellings": [
+      "Day of Resurrection"
+    ],
+    "notes": ""
+  },
+  "الملائكة": {
+    "iw_en": "angels",
+    "iw_id": "malaikat",
+    "alt_spellings": [],
+    "notes": "Plural of malak"
+  },
+  "الجن": {
+    "iw_en": "jinn",
+    "iw_id": "jin",
+    "alt_spellings": [
+      "djinn"
+    ],
+    "notes": ""
+  },
+  "الشيطان": {
+    "iw_en": "Shaytan",
+    "iw_id": "setan",
+    "alt_spellings": [
+      "Satan",
+      "devil"
+    ],
+    "notes": ""
+  },
+  "إبليس": {
+    "iw_en": "Iblis",
+    "iw_id": "Iblis",
+    "alt_spellings": [
+      "Lucifer"
+    ],
+    "notes": ""
+  },
+  "الوسوسة": {
+    "iw_en": "waswasah",
+    "iw_id": "waswas",
+    "alt_spellings": [
+      "whispering"
+    ],
+    "notes": "Satanic whispering"
+  },
+  "العرش": {
+    "iw_en": "Arsh",
+    "iw_id": "Arsy",
+    "alt_spellings": [
+      "Throne of Allah"
+    ],
+    "notes": ""
+  },
+  "الكرسي": {
+    "iw_en": "Ayat al-Kursi",
+    "iw_id": "Ayat Kursi",
+    "alt_spellings": [
+      "Throne Verse"
+    ],
+    "notes": "Al-Baqarah 2:255"
+  },
+  "اللوح المحفوظ": {
+    "iw_en": "al-Lawh al-Mahfuz",
+    "iw_id": "Lauh Mahfuz",
+    "alt_spellings": [
+      "Preserved Tablet"
+    ],
+    "notes": ""
+  },
+  "القلم": {
+    "iw_en": "al-Qalam",
+    "iw_id": "al-Qalam",
+    "alt_spellings": [
+      "the Pen"
+    ],
+    "notes": ""
+  },
+  "الفقه": {
+    "iw_en": "fiqh",
+    "iw_id": "fikih",
+    "alt_spellings": [
+      "Islamic jurisprudence"
+    ],
+    "notes": ""
+  },
+  "الحلال": {
+    "iw_en": "halal",
+    "iw_id": "halal",
+    "alt_spellings": [
+      "permissible"
+    ],
+    "notes": ""
+  },
+  "الحرام": {
+    "iw_en": "haram",
+    "iw_id": "haram",
+    "alt_spellings": [
+      "forbidden"
+    ],
+    "notes": ""
+  },
+  "المكروه": {
+    "iw_en": "makruh",
+    "iw_id": "makruh",
+    "alt_spellings": [
+      "disliked"
+    ],
+    "notes": ""
+  },
+  "المستحب": {
+    "iw_en": "mustahabb",
+    "iw_id": "mustahab",
+    "alt_spellings": [
+      "recommended",
+      "sunna"
+    ],
+    "notes": ""
+  },
+  "الواجب": {
+    "iw_en": "wajib",
+    "iw_id": "wajib",
+    "alt_spellings": [
+      "obligatory"
+    ],
+    "notes": ""
+  },
+  "الفرض": {
+    "iw_en": "fard",
+    "iw_id": "fardu",
+    "alt_spellings": [
+      "obligatory"
+    ],
+    "notes": ""
+  },
+  "المباح": {
+    "iw_en": "mubah",
+    "iw_id": "mubah",
+    "alt_spellings": [
+      "permissible",
+      "neutral"
+    ],
+    "notes": ""
+  },
+  "الزنا": {
+    "iw_en": "zina",
+    "iw_id": "zina",
+    "alt_spellings": [
+      "fornication",
+      "adultery"
+    ],
+    "notes": ""
+  },
+  "الطلاق": {
+    "iw_en": "talaq",
+    "iw_id": "talak",
+    "alt_spellings": [
+      "divorce"
+    ],
+    "notes": ""
+  },
+  "النكاح": {
+    "iw_en": "nikah",
+    "iw_id": "nikah",
+    "alt_spellings": [
+      "marriage"
+    ],
+    "notes": ""
+  },
+  "المهر": {
+    "iw_en": "mahr",
+    "iw_id": "mahar",
+    "alt_spellings": [
+      "dowry"
+    ],
+    "notes": ""
+  },
+  "الربا": {
+    "iw_en": "riba",
+    "iw_id": "riba",
+    "alt_spellings": [
+      "usury",
+      "interest"
+    ],
+    "notes": ""
+  },
+  "الميراث": {
+    "iw_en": "miras",
+    "iw_id": "warisan",
+    "alt_spellings": [
+      "inheritance"
+    ],
+    "notes": ""
+  },
+  "الوصية": {
+    "iw_en": "wasiyyah",
+    "iw_id": "wasiat",
+    "alt_spellings": [
+      "bequest",
+      "will"
+    ],
+    "notes": ""
+  },
+  "الجنازة": {
+    "iw_en": "janazah",
+    "iw_id": "jenazah",
+    "alt_spellings": [
+      "funeral prayer"
+    ],
+    "notes": ""
+  },
+  "القبر": {
+    "iw_en": "qabr",
+    "iw_id": "kubur",
+    "alt_spellings": [
+      "grave"
+    ],
+    "notes": ""
+  },
+  "الطهارة": {
+    "iw_en": "taharah",
+    "iw_id": "taharah",
+    "alt_spellings": [
+      "purity",
+      "purification"
+    ],
+    "notes": ""
+  },
+  "النجاسة": {
+    "iw_en": "najasah",
+    "iw_id": "najis",
+    "alt_spellings": [
+      "impurity"
+    ],
+    "notes": ""
+  },
+  "الأذان": {
+    "iw_en": "adhan",
+    "iw_id": "azan",
+    "alt_spellings": [
+      "call to prayer"
+    ],
+    "notes": ""
+  },
+  "الإقامة": {
+    "iw_en": "iqamah",
+    "iw_id": "iqamah",
+    "alt_spellings": [],
+    "notes": "Second call before prayer"
+  },
+  "الجماعة": {
+    "iw_en": "jamaah",
+    "iw_id": "jamaah",
+    "alt_spellings": [
+      "congregation"
+    ],
+    "notes": ""
+  },
+  "الإمام": {
+    "iw_en": "imam",
+    "iw_id": "imam",
+    "alt_spellings": [
+      "prayer leader"
+    ],
+    "notes": ""
+  },
+  "المسجد": {
+    "iw_en": "masjid",
+    "iw_id": "masjid",
+    "alt_spellings": [
+      "mosque"
+    ],
+    "notes": "Plural: masajid"
+  },
+  "الخطبة": {
+    "iw_en": "khutbah",
+    "iw_id": "khutbah",
+    "alt_spellings": [
+      "sermon"
+    ],
+    "notes": ""
+  },
+  "الجمعة": {
+    "iw_en": "Jumuah",
+    "iw_id": "Jumat",
+    "alt_spellings": [
+      "Friday prayer"
+    ],
+    "notes": ""
+  },
+  "العيد": {
+    "iw_en": "Eid",
+    "iw_id": "Eid",
+    "alt_spellings": [
+      "celebration"
+    ],
+    "notes": ""
+  },
+  "عيد الفطر": {
+    "iw_en": "Eid al-Fitr",
+    "iw_id": "Idulfitri",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "عيد الأضحى": {
+    "iw_en": "Eid al-Adha",
+    "iw_id": "Iduladha",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "رمضان": {
+    "iw_en": "Ramadan",
+    "iw_id": "Ramadan",
+    "alt_spellings": [
+      "Ramadhan"
+    ],
+    "notes": ""
+  },
+  "الأضحية": {
+    "iw_en": "udhiyah",
+    "iw_id": "kurban",
+    "alt_spellings": [
+      "sacrifice",
+      "qurbani"
+    ],
+    "notes": ""
+  },
+  "صدقة الفطر": {
+    "iw_en": "Zakat al-Fitr",
+    "iw_id": "Zakat Fitrah",
+    "alt_spellings": [
+      "Sadaqah al-Fitr"
+    ],
+    "notes": ""
+  },
+  "الحدود": {
+    "iw_en": "hudud",
+    "iw_id": "hudud",
+    "alt_spellings": [
+      "Islamic punishments"
+    ],
+    "notes": ""
+  },
+  "القصاص": {
+    "iw_en": "qisas",
+    "iw_id": "qisas",
+    "alt_spellings": [
+      "retaliation",
+      "eye for an eye"
+    ],
+    "notes": ""
+  },
+  "الدية": {
+    "iw_en": "diyah",
+    "iw_id": "diyat",
+    "alt_spellings": [
+      "blood money"
+    ],
+    "notes": ""
+  },
+  "الكفارة": {
+    "iw_en": "kaffarah",
+    "iw_id": "kafarat",
+    "alt_spellings": [
+      "expiation",
+      "atonement"
+    ],
+    "notes": ""
+  },
+  "الاجتهاد": {
+    "iw_en": "ijtihad",
+    "iw_id": "ijtihad",
+    "alt_spellings": [
+      "independent reasoning"
+    ],
+    "notes": ""
+  },
+  "القياس": {
+    "iw_en": "qiyas",
+    "iw_id": "qiyas",
+    "alt_spellings": [
+      "analogical reasoning"
+    ],
+    "notes": ""
+  },
+  "الإجماع": {
+    "iw_en": "ijma",
+    "iw_id": "ijma",
+    "alt_spellings": [
+      "scholarly consensus"
+    ],
+    "notes": ""
+  },
+  "الاستحسان": {
+    "iw_en": "istihsan",
+    "iw_id": "istihsan",
+    "alt_spellings": [
+      "juristic preference"
+    ],
+    "notes": ""
+  },
+  "المصلحة": {
+    "iw_en": "maslahah",
+    "iw_id": "maslahat",
+    "alt_spellings": [
+      "public interest"
+    ],
+    "notes": ""
+  },
+  "المذهب": {
+    "iw_en": "madhab",
+    "iw_id": "mazhab",
+    "alt_spellings": [
+      "school of law"
+    ],
+    "notes": "Plural: madhahib"
+  },
+  "المذاهب الأربعة": {
+    "iw_en": "four madhabs",
+    "iw_id": "empat mazhab",
+    "alt_spellings": [],
+    "notes": "Hanafi, Maliki, Shafii, Hanbali"
+  },
+  "الحنفي": {
+    "iw_en": "Hanafi",
+    "iw_id": "Hanafi",
+    "alt_spellings": [],
+    "notes": "Madhab of Abu Hanifah"
+  },
+  "المالكي": {
+    "iw_en": "Maliki",
+    "iw_id": "Maliki",
+    "alt_spellings": [],
+    "notes": "Madhab of Malik ibn Anas"
+  },
+  "الشافعي_مذهب": {
+    "iw_en": "Shafii",
+    "iw_id": "Syafi'i",
+    "alt_spellings": [],
+    "notes": "Madhab of al-Shafii"
+  },
+  "الحنبلي": {
+    "iw_en": "Hanbali",
+    "iw_id": "Hanbali",
+    "alt_spellings": [],
+    "notes": "Madhab of Ahmad ibn Hanbal"
+  },
+  "الفتوى": {
+    "iw_en": "fatwa",
+    "iw_id": "fatwa",
+    "alt_spellings": [],
+    "notes": "Religious ruling"
+  },
+  "المفتي": {
+    "iw_en": "mufti",
+    "iw_id": "mufti",
+    "alt_spellings": [],
+    "notes": "One who issues fatwas"
+  },
+  "القاضي": {
+    "iw_en": "qadi",
+    "iw_id": "qadhi",
+    "alt_spellings": [
+      "judge"
+    ],
+    "notes": "Islamic judge"
+  },
+  "الشريعة": {
+    "iw_en": "sharia",
+    "iw_id": "syariah",
+    "alt_spellings": [
+      "Shariah"
+    ],
+    "notes": "Islamic law"
+  },
+  "العبادة": {
+    "iw_en": "ibadah",
+    "iw_id": "ibadah",
+    "alt_spellings": [
+      "worship",
+      "acts of worship"
+    ],
+    "notes": ""
+  },
+  "المعاملة": {
+    "iw_en": "muamalah",
+    "iw_id": "muamalah",
+    "alt_spellings": [
+      "transactions",
+      "dealings"
+    ],
+    "notes": ""
+  },
+  "العقد": {
+    "iw_en": "aqd",
+    "iw_id": "akad",
+    "alt_spellings": [
+      "contract"
+    ],
+    "notes": ""
+  },
+  "الوقف": {
+    "iw_en": "waqf",
+    "iw_id": "wakaf",
+    "alt_spellings": [
+      "endowment"
+    ],
+    "notes": "Religious endowment"
+  },
+  "الصدقة": {
+    "iw_en": "sadaqah",
+    "iw_id": "sedekah",
+    "alt_spellings": [
+      "charity"
+    ],
+    "notes": "Voluntary charity"
+  },
+  "الخمس": {
+    "iw_en": "khums",
+    "iw_id": "khumus",
+    "alt_spellings": [
+      "one-fifth"
+    ],
+    "notes": "One-fifth of war spoils"
+  },
+  "الجزية": {
+    "iw_en": "jizyah",
+    "iw_id": "jizyah",
+    "alt_spellings": [
+      "poll tax"
+    ],
+    "notes": "Tax on non-Muslims in Islamic state"
+  },
+  "الإحرام": {
+    "iw_en": "ihram",
+    "iw_id": "ihram",
+    "alt_spellings": [],
+    "notes": "State of consecration for hajj/umrah"
+  },
+  "الطواف": {
+    "iw_en": "tawaf",
+    "iw_id": "tawaf",
+    "alt_spellings": [],
+    "notes": "Circling the Kabah"
+  },
+  "السعي": {
+    "iw_en": "sai",
+    "iw_id": "sai",
+    "alt_spellings": [],
+    "notes": "Walking between Safa and Marwa"
+  },
+  "عرفة": {
+    "iw_en": "Arafah",
+    "iw_id": "Arafah",
+    "alt_spellings": [
+      "Mount Arafat"
+    ],
+    "notes": ""
+  },
+  "المزدلفة": {
+    "iw_en": "Muzdalifah",
+    "iw_id": "Muzdalifah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "منى": {
+    "iw_en": "Mina",
+    "iw_id": "Mina",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الجمرة": {
+    "iw_en": "jamrah",
+    "iw_id": "jumrah",
+    "alt_spellings": [
+      "stoning pillar"
+    ],
+    "notes": "Plural: jamarat"
+  },
+  "الهدي": {
+    "iw_en": "hady",
+    "iw_id": "hadyu",
+    "alt_spellings": [],
+    "notes": "Sacrificial animal for hajj"
+  },
+  "التلبية": {
+    "iw_en": "talbiyah",
+    "iw_id": "talbiyah",
+    "alt_spellings": [],
+    "notes": "Labbayk Allahumma labbayk"
+  },
+  "الحلق": {
+    "iw_en": "halq",
+    "iw_id": "cukur",
+    "alt_spellings": [
+      "shaving the head"
+    ],
+    "notes": "Shaving head after hajj"
+  },
+  "التقصير": {
+    "iw_en": "taqsir",
+    "iw_id": "taqsir",
+    "alt_spellings": [
+      "shortening hair"
+    ],
+    "notes": ""
+  },
+  "الميقات": {
+    "iw_en": "miqat",
+    "iw_id": "miqat",
+    "alt_spellings": [],
+    "notes": "Station for entering ihram"
+  },
+  "الصفا والمروة": {
+    "iw_en": "al-Safa and al-Marwah",
+    "iw_id": "Shafa dan Marwah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "زمزم": {
+    "iw_en": "Zamzam",
+    "iw_id": "Zamzam",
+    "alt_spellings": [],
+    "notes": "Sacred well in Mecca"
+  },
+  "أبو بكر": {
+    "iw_en": "Abu Bakr",
+    "iw_id": "Abu Bakr",
+    "alt_spellings": [
+      "Abu Bakr al-Siddiq"
+    ],
+    "notes": ""
+  },
+  "عمر بن الخطاب": {
+    "iw_en": "Umar ibn al-Khattab",
+    "iw_id": "Umar bin al-Khattab",
+    "alt_spellings": [
+      "Umar al-Faruq"
+    ],
+    "notes": ""
+  },
+  "عثمان بن عفان": {
+    "iw_en": "Uthman ibn Affan",
+    "iw_id": "Utsman bin Affan",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "علي بن أبي طالب": {
+    "iw_en": "Ali ibn Abi Talib",
+    "iw_id": "Ali bin Abi Thalib",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "عائشة": {
+    "iw_en": "Aishah",
+    "iw_id": "Aisyah",
+    "alt_spellings": [
+      "Aisha",
+      "Ayesha"
+    ],
+    "notes": "Wife of the Prophet"
+  },
+  "خديجة": {
+    "iw_en": "Khadijah",
+    "iw_id": "Khadijah",
+    "alt_spellings": [
+      "Khadija"
+    ],
+    "notes": "First wife of the Prophet"
+  },
+  "فاطمة": {
+    "iw_en": "Fatimah",
+    "iw_id": "Fatimah",
+    "alt_spellings": [
+      "Fatima"
+    ],
+    "notes": "Daughter of the Prophet"
+  },
+  "أبو هريرة": {
+    "iw_en": "Abu Hurayrah",
+    "iw_id": "Abu Hurairah",
+    "alt_spellings": [
+      "Abu Hurairah"
+    ],
+    "notes": "Prolific hadith narrator"
+  },
+  "عبد الله بن عمر": {
+    "iw_en": "Abdullah ibn Umar",
+    "iw_id": "Abdullah bin Umar",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "عبد الله بن مسعود": {
+    "iw_en": "Abdullah ibn Masud",
+    "iw_id": "Abdullah bin Masud",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "أنس بن مالك": {
+    "iw_en": "Anas ibn Malik",
+    "iw_id": "Anas bin Malik",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "جابر بن عبد الله": {
+    "iw_en": "Jabir ibn Abdullah",
+    "iw_id": "Jabir bin Abdullah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "معاذ بن جبل": {
+    "iw_en": "Muadh ibn Jabal",
+    "iw_id": "Muadz bin Jabal",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "أبو ذر الغفاري": {
+    "iw_en": "Abu Dharr al-Ghifari",
+    "iw_id": "Abu Dzar al-Ghifari",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "حذيفة بن اليمان": {
+    "iw_en": "Hudhayfah ibn al-Yaman",
+    "iw_id": "Hudzaifah bin al-Yaman",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "بلال بن رباح": {
+    "iw_en": "Bilal ibn Rabah",
+    "iw_id": "Bilal bin Rabah",
+    "alt_spellings": [],
+    "notes": "First muadhin"
+  },
+  "سلمان الفارسي": {
+    "iw_en": "Salman al-Farisi",
+    "iw_id": "Salman al-Farisi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "سعد بن أبي وقاص": {
+    "iw_en": "Sad ibn Abi Waqqas",
+    "iw_id": "Sa'd bin Abi Waqqas",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "طلحة بن عبيد الله": {
+    "iw_en": "Talhah ibn Ubaydillah",
+    "iw_id": "Thalhah bin Ubaidillah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الزبير بن العوام": {
+    "iw_en": "al-Zubayr ibn al-Awwam",
+    "iw_id": "al-Zubair bin al-Awwam",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "عبد الرحمن بن عوف": {
+    "iw_en": "Abd al-Rahman ibn Awf",
+    "iw_id": "Abdurrahman bin Auf",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "أبو عبيدة بن الجراح": {
+    "iw_en": "Abu Ubaydah ibn al-Jarrah",
+    "iw_id": "Abu Ubaidah bin al-Jarrah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "عمر بن عبد العزيز": {
+    "iw_en": "Umar ibn Abd al-Aziz",
+    "iw_id": "Umar bin Abdul Aziz",
+    "alt_spellings": [
+      "Umar II"
+    ],
+    "notes": "Umayyad caliph, known as 5th rightly-guided"
+  },
+  "حسن بن علي": {
+    "iw_en": "al-Hasan ibn Ali",
+    "iw_id": "Hasan bin Ali",
+    "alt_spellings": [],
+    "notes": "Grandson of the Prophet"
+  },
+  "حسين بن علي": {
+    "iw_en": "al-Husayn ibn Ali",
+    "iw_id": "Husain bin Ali",
+    "alt_spellings": [],
+    "notes": "Grandson of the Prophet"
+  },
+  "خالد بن الوليد": {
+    "iw_en": "Khalid ibn al-Walid",
+    "iw_id": "Khalid bin al-Walid",
+    "alt_spellings": [],
+    "notes": "Sword of Allah"
+  },
+  "عمرو بن العاص": {
+    "iw_en": "Amr ibn al-As",
+    "iw_id": "Amr bin al-Ash",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "أبو موسى الأشعري": {
+    "iw_en": "Abu Musa al-Ashari",
+    "iw_id": "Abu Musa al-Asy'ari",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "عبد الله بن عباس": {
+    "iw_en": "Abdullah ibn Abbas",
+    "iw_id": "Abdullah bin Abbas",
+    "alt_spellings": [
+      "Ibn Abbas"
+    ],
+    "notes": "Quranic scholar"
+  },
+  "عبد الله بن عمرو": {
+    "iw_en": "Abdullah ibn Amr",
+    "iw_id": "Abdullah bin Amr",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "أبو سعيد الخدري": {
+    "iw_en": "Abu Said al-Khudri",
+    "iw_id": "Abu Said al-Khudri",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "حمزة بن عبد المطلب": {
+    "iw_en": "Hamzah ibn Abd al-Muttalib",
+    "iw_id": "Hamzah bin Abdul Muthalib",
+    "alt_spellings": [],
+    "notes": "Lion of Allah"
+  },
+  "أبو الدرداء": {
+    "iw_en": "Abu al-Darda",
+    "iw_id": "Abu al-Darda",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "أم سلمة": {
+    "iw_en": "Umm Salamah",
+    "iw_id": "Ummu Salamah",
+    "alt_spellings": [],
+    "notes": "Wife of the Prophet"
+  },
+  "حفصة": {
+    "iw_en": "Hafsah",
+    "iw_id": "Hafsah",
+    "alt_spellings": [],
+    "notes": "Wife of the Prophet"
+  },
+  "زيد بن ثابت": {
+    "iw_en": "Zayd ibn Thabit",
+    "iw_id": "Zaid bin Tsabit",
+    "alt_spellings": [],
+    "notes": "Quran scribe"
+  },
+  "البخاري": {
+    "iw_en": "al-Bukhari",
+    "iw_id": "al-Bukhari",
+    "alt_spellings": [
+      "Imam al-Bukhari"
+    ],
+    "notes": ""
+  },
+  "مسلم": {
+    "iw_en": "Imam Muslim",
+    "iw_id": "Imam Muslim",
+    "alt_spellings": [
+      "Muslim ibn al-Hajjaj"
+    ],
+    "notes": ""
+  },
+  "أبو داود": {
+    "iw_en": "Abu Dawud",
+    "iw_id": "Abu Dawud",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الترمذي": {
+    "iw_en": "al-Tirmidhi",
+    "iw_id": "al-Tirmidzi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "النسائي": {
+    "iw_en": "al-Nasai",
+    "iw_id": "al-Nasai",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "ابن ماجه": {
+    "iw_en": "Ibn Majah",
+    "iw_id": "Ibnu Majah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "مالك بن أنس": {
+    "iw_en": "Malik ibn Anas",
+    "iw_id": "Malik bin Anas",
+    "alt_spellings": [
+      "Imam Malik"
+    ],
+    "notes": ""
+  },
+  "أحمد بن حنبل": {
+    "iw_en": "Ahmad ibn Hanbal",
+    "iw_id": "Ahmad bin Hanbal",
+    "alt_spellings": [
+      "Imam Ahmad"
+    ],
+    "notes": ""
+  },
+  "الشافعي": {
+    "iw_en": "al-Shafii",
+    "iw_id": "al-Syafi'i",
+    "alt_spellings": [
+      "Imam al-Shafi'i"
+    ],
+    "notes": ""
+  },
+  "أبو حنيفة": {
+    "iw_en": "Abu Hanifah",
+    "iw_id": "Abu Hanifah",
+    "alt_spellings": [
+      "Imam Abu Hanifah"
+    ],
+    "notes": ""
+  },
+  "ابن كثير": {
+    "iw_en": "Ibn Kathir",
+    "iw_id": "Ibnu Katsir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الطبري": {
+    "iw_en": "al-Tabari",
+    "iw_id": "al-Thabari",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "النووي": {
+    "iw_en": "al-Nawawi",
+    "iw_id": "al-Nawawi",
+    "alt_spellings": [
+      "Imam al-Nawawi"
+    ],
+    "notes": ""
+  },
+  "ابن تيمية": {
+    "iw_en": "Ibn Taymiyyah",
+    "iw_id": "Ibnu Taimiyyah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "ابن القيم": {
+    "iw_en": "Ibn al-Qayyim",
+    "iw_id": "Ibnul Qayyim",
+    "alt_spellings": [
+      "Ibn Qayyim al-Jawziyyah"
+    ],
+    "notes": ""
+  },
+  "الألباني": {
+    "iw_en": "al-Albani",
+    "iw_id": "al-Albani",
+    "alt_spellings": [
+      "Nasir al-Din al-Albani"
+    ],
+    "notes": ""
+  },
+  "ابن حجر": {
+    "iw_en": "Ibn Hajar",
+    "iw_id": "Ibnu Hajar",
+    "alt_spellings": [
+      "Ibn Hajar al-Asqalani"
+    ],
+    "notes": ""
+  },
+  "الذهبي": {
+    "iw_en": "al-Dhahabi",
+    "iw_id": "al-Dzahabi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "السيوطي": {
+    "iw_en": "al-Suyuti",
+    "iw_id": "al-Suyuthi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "القرطبي": {
+    "iw_en": "al-Qurtubi",
+    "iw_id": "al-Qurtubi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "السعدي": {
+    "iw_en": "al-Sadi",
+    "iw_id": "al-Sa'di",
+    "alt_spellings": [
+      "Abd al-Rahman al-Sa'di"
+    ],
+    "notes": ""
+  },
+  "ابن باز": {
+    "iw_en": "Ibn Baz",
+    "iw_id": "Ibnu Baz",
+    "alt_spellings": [
+      "Abd al-Aziz ibn Baz"
+    ],
+    "notes": ""
+  },
+  "ابن عثيمين": {
+    "iw_en": "Ibn Uthaymin",
+    "iw_id": "Ibnu Utsaimin",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحاكم": {
+    "iw_en": "al-Hakim",
+    "iw_id": "al-Hakim",
+    "alt_spellings": [],
+    "notes": "Abu Abdillah al-Hakim"
+  },
+  "البيهقي": {
+    "iw_en": "al-Bayhaqi",
+    "iw_id": "al-Baihaqi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الدارقطني": {
+    "iw_en": "al-Daraqutni",
+    "iw_id": "al-Daruquthni",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "ابن أبي شيبة": {
+    "iw_en": "Ibn Abi Shaybah",
+    "iw_id": "Ibnu Abi Syaibah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الطحاوي": {
+    "iw_en": "al-Tahawi",
+    "iw_id": "al-Thahawi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الغزالي": {
+    "iw_en": "al-Ghazali",
+    "iw_id": "al-Ghazali",
+    "alt_spellings": [
+      "Imam al-Ghazali"
+    ],
+    "notes": ""
+  },
+  "ابن رشد": {
+    "iw_en": "Ibn Rushd",
+    "iw_id": "Ibnu Rusyd",
+    "alt_spellings": [
+      "Averroes"
+    ],
+    "notes": ""
+  },
+  "ابن خلدون": {
+    "iw_en": "Ibn Khaldun",
+    "iw_id": "Ibnu Khaldun",
+    "alt_spellings": [],
+    "notes": "Historian and sociologist"
+  },
+  "ابن بطوطة": {
+    "iw_en": "Ibn Battutah",
+    "iw_id": "Ibnu Batutah",
+    "alt_spellings": [],
+    "notes": "Traveler and geographer"
+  },
+  "السرخسي": {
+    "iw_en": "al-Sarakhsi",
+    "iw_id": "al-Sarakhsi",
+    "alt_spellings": [],
+    "notes": "Hanafi scholar"
+  },
+  "الشوكاني": {
+    "iw_en": "al-Shawkani",
+    "iw_id": "al-Syaukani",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الصنعاني": {
+    "iw_en": "al-Sanani",
+    "iw_id": "al-Shan'ani",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "ابن رجب": {
+    "iw_en": "Ibn Rajab",
+    "iw_id": "Ibnu Rajab",
+    "alt_spellings": [],
+    "notes": "Hanbali scholar"
+  },
+  "ابن الجوزي": {
+    "iw_en": "Ibn al-Jawzi",
+    "iw_id": "Ibnul Jauzi",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "ابن قدامة": {
+    "iw_en": "Ibn Qudamah",
+    "iw_id": "Ibnu Qudamah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الرازي": {
+    "iw_en": "al-Razi",
+    "iw_id": "al-Razi",
+    "alt_spellings": [],
+    "notes": "Fakhr al-Din al-Razi"
+  },
+  "مكة المكرمة": {
+    "iw_en": "Mecca",
+    "iw_id": "Mekah",
+    "alt_spellings": [
+      "Makkah"
+    ],
+    "notes": ""
+  },
+  "المدينة المنورة": {
+    "iw_en": "Medina",
+    "iw_id": "Madinah",
+    "alt_spellings": [
+      "Madinah"
+    ],
+    "notes": ""
+  },
+  "القدس": {
+    "iw_en": "Jerusalem",
+    "iw_id": "Yerusalem",
+    "alt_spellings": [
+      "al-Quds"
+    ],
+    "notes": ""
+  },
+  "المسجد الحرام": {
+    "iw_en": "al-Masjid al-Haram",
+    "iw_id": "Masjid al-Haram",
+    "alt_spellings": [
+      "the Grand Mosque"
+    ],
+    "notes": ""
+  },
+  "المسجد النبوي": {
+    "iw_en": "al-Masjid al-Nabawi",
+    "iw_id": "Masjid Nabawi",
+    "alt_spellings": [
+      "Prophet's Mosque"
+    ],
+    "notes": ""
+  },
+  "المسجد الأقصى": {
+    "iw_en": "al-Masjid al-Aqsa",
+    "iw_id": "Masjid al-Aqsha",
+    "alt_spellings": [
+      "al-Aqsa Mosque"
+    ],
+    "notes": ""
+  },
+  "الكعبة": {
+    "iw_en": "the Kabah",
+    "iw_id": "Ka'bah",
+    "alt_spellings": [
+      "Kaaba"
+    ],
+    "notes": ""
+  },
+  "الشام": {
+    "iw_en": "al-Sham",
+    "iw_id": "al-Syam",
+    "alt_spellings": [
+      "the Levant",
+      "Syria region"
+    ],
+    "notes": ""
+  },
+  "الحجاز": {
+    "iw_en": "al-Hijaz",
+    "iw_id": "al-Hijaz",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المدينة": {
+    "iw_en": "Medina",
+    "iw_id": "Madinah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "بدر": {
+    "iw_en": "Badr",
+    "iw_id": "Badr",
+    "alt_spellings": [],
+    "notes": "Battle of Badr site"
+  },
+  "أحد": {
+    "iw_en": "Uhud",
+    "iw_id": "Uhud",
+    "alt_spellings": [],
+    "notes": "Mount Uhud / Battle of Uhud"
+  },
+  "خندق": {
+    "iw_en": "al-Khandaq",
+    "iw_id": "Khandaq",
+    "alt_spellings": [
+      "the Trench"
+    ],
+    "notes": "Battle of the Trench"
+  },
+  "تبوك": {
+    "iw_en": "Tabuk",
+    "iw_id": "Tabuk",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "خيبر": {
+    "iw_en": "Khaybar",
+    "iw_id": "Khaibar",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الطائف": {
+    "iw_en": "al-Taif",
+    "iw_id": "Thaif",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الحبشة": {
+    "iw_en": "Abyssinia",
+    "iw_id": "Habasyah",
+    "alt_spellings": [
+      "Ethiopia"
+    ],
+    "notes": "First hijrah destination"
+  },
+  "فلسطين": {
+    "iw_en": "Palestine",
+    "iw_id": "Palestina",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "العراق": {
+    "iw_en": "Iraq",
+    "iw_id": "Irak",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "مصر": {
+    "iw_en": "Egypt",
+    "iw_id": "Mesir",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الأندلس": {
+    "iw_en": "al-Andalus",
+    "iw_id": "Andalusia",
+    "alt_spellings": [
+      "Islamic Iberia"
+    ],
+    "notes": ""
+  },
+  "بغداد": {
+    "iw_en": "Baghdad",
+    "iw_id": "Baghdad",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "القاهرة": {
+    "iw_en": "Cairo",
+    "iw_id": "Kairo",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "دمشق": {
+    "iw_en": "Damascus",
+    "iw_id": "Damaskus",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "بخارى": {
+    "iw_en": "Bukhara",
+    "iw_id": "Bukhara",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الهجرة": {
+    "iw_en": "Hijrah",
+    "iw_id": "Hijrah",
+    "alt_spellings": [
+      "migration",
+      "emigration"
+    ],
+    "notes": "Migration from Mecca to Medina"
+  },
+  "النصرة": {
+    "iw_en": "Nusrah",
+    "iw_id": "Nusrah",
+    "alt_spellings": [
+      "support"
+    ],
+    "notes": ""
+  },
+  "الأنصار": {
+    "iw_en": "the Ansar",
+    "iw_id": "Anshar",
+    "alt_spellings": [
+      "the Helpers"
+    ],
+    "notes": "Companions from Medina"
+  },
+  "المهاجرون": {
+    "iw_en": "the Muhajirun",
+    "iw_id": "Muhajirin",
+    "alt_spellings": [
+      "the Emigrants"
+    ],
+    "notes": "Companions who migrated from Mecca"
+  },
+  "السيرة": {
+    "iw_en": "seerah",
+    "iw_id": "sirah",
+    "alt_spellings": [
+      "biography of the Prophet"
+    ],
+    "notes": ""
+  },
+  "غزوة": {
+    "iw_en": "ghazwah",
+    "iw_id": "ghazwah",
+    "alt_spellings": [
+      "battle",
+      "expedition"
+    ],
+    "notes": "Military expedition led by the Prophet"
+  },
+  "سرية": {
+    "iw_en": "sariyyah",
+    "iw_id": "sariyyah",
+    "alt_spellings": [
+      "expedition"
+    ],
+    "notes": "Military expedition not led by the Prophet"
+  },
+  "الصحابة": {
+    "iw_en": "Companions",
+    "iw_id": "Sahabat",
+    "alt_spellings": [
+      "Sahabah"
+    ],
+    "notes": ""
+  },
+  "التابعون": {
+    "iw_en": "Tabiun",
+    "iw_id": "Tabiin",
+    "alt_spellings": [
+      "successors"
+    ],
+    "notes": "Generation after the Companions"
+  },
+  "السلف": {
+    "iw_en": "al-Salaf",
+    "iw_id": "al-Salaf",
+    "alt_spellings": [
+      "pious predecessors"
+    ],
+    "notes": ""
+  },
+  "السلف الصالح": {
+    "iw_en": "al-Salaf al-Salih",
+    "iw_id": "Salafus Shalih",
+    "alt_spellings": [
+      "the pious predecessors"
+    ],
+    "notes": ""
+  },
+  "أهل السنة": {
+    "iw_en": "Ahl al-Sunnah",
+    "iw_id": "Ahlus Sunnah",
+    "alt_spellings": [
+      "Sunni Muslims"
+    ],
+    "notes": ""
+  },
+  "أهل البيت": {
+    "iw_en": "Ahl al-Bayt",
+    "iw_id": "Ahlul Bait",
+    "alt_spellings": [
+      "the Prophet's household"
+    ],
+    "notes": ""
+  },
+  "المعجزة": {
+    "iw_en": "mujizia",
+    "iw_id": "mukjizat",
+    "alt_spellings": [
+      "miracle"
+    ],
+    "notes": ""
+  },
+  "الإسراء": {
+    "iw_en": "Al-Isra",
+    "iw_id": "Al-Isra",
+    "alt_spellings": [
+      "the Night Journey"
+    ],
+    "notes": "Surah 17"
+  },
+  "المعراج": {
+    "iw_en": "al-Miraj",
+    "iw_id": "Mikraj",
+    "alt_spellings": [
+      "Ascent to Heaven"
+    ],
+    "notes": ""
+  },
+  "البعثة": {
+    "iw_en": "Bithah",
+    "iw_id": "Bi'tsah",
+    "alt_spellings": [
+      "prophethood mission"
+    ],
+    "notes": "Start of prophethood"
+  },
+  "غار حراء": {
+    "iw_en": "Cave of Hira",
+    "iw_id": "Gua Hira",
+    "alt_spellings": [],
+    "notes": "First revelation site"
+  },
+  "غار ثور": {
+    "iw_en": "Cave of Thawr",
+    "iw_id": "Gua Tsur",
+    "alt_spellings": [],
+    "notes": "Hijrah refuge"
+  },
+  "فتح مكة": {
+    "iw_en": "Conquest of Mecca",
+    "iw_id": "Fathu Mekah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "غزوة بدر": {
+    "iw_en": "Battle of Badr",
+    "iw_id": "Perang Badr",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "غزوة أحد": {
+    "iw_en": "Battle of Uhud",
+    "iw_id": "Perang Uhud",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "غزوة الخندق": {
+    "iw_en": "Battle of the Trench",
+    "iw_id": "Perang Khandaq",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "صلح الحديبية": {
+    "iw_en": "Treaty of Hudaybiyyah",
+    "iw_id": "Perjanjian Hudaibiyah",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "حجة الوداع": {
+    "iw_en": "Farewell Pilgrimage",
+    "iw_id": "Haji Wada",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "العشرة المبشرون": {
+    "iw_en": "Ten Promised Paradise",
+    "iw_id": "Sepuluh yang dijanjikan surga",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "المؤاخاة": {
+    "iw_en": "brotherhood pact",
+    "iw_id": "persaudaraan",
+    "alt_spellings": [],
+    "notes": "Brotherhood between Muhajirun and Ansar"
+  },
+  "الخلفاء الراشدون": {
+    "iw_en": "Rightly Guided Caliphs",
+    "iw_id": "Khulafaur Rasyidin",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "الفترة": {
+    "iw_en": "fatrah",
+    "iw_id": "fatrah",
+    "alt_spellings": [
+      "gap between prophets"
+    ],
+    "notes": ""
+  },
+  "المحرم": {
+    "iw_en": "Muharram",
+    "iw_id": "Muharram",
+    "alt_spellings": [],
+    "notes": "First Islamic month"
+  },
+  "صفر": {
+    "iw_en": "Safar",
+    "iw_id": "Safar",
+    "alt_spellings": [],
+    "notes": "Second Islamic month"
+  },
+  "ربيع الأول": {
+    "iw_en": "Rabi al-Awwal",
+    "iw_id": "Rabi'ul Awwal",
+    "alt_spellings": [],
+    "notes": "Third Islamic month"
+  },
+  "ربيع الثاني": {
+    "iw_en": "Rabi al-Thani",
+    "iw_id": "Rabi'ul Akhir",
+    "alt_spellings": [],
+    "notes": "Fourth Islamic month"
+  },
+  "جمادى الأولى": {
+    "iw_en": "Jumada al-Ula",
+    "iw_id": "Jumadal Ula",
+    "alt_spellings": [],
+    "notes": "Fifth Islamic month"
+  },
+  "جمادى الآخرة": {
+    "iw_en": "Jumada al-Akhirah",
+    "iw_id": "Jumadal Akhirah",
+    "alt_spellings": [],
+    "notes": "Sixth Islamic month"
+  },
+  "رجب": {
+    "iw_en": "Rajab",
+    "iw_id": "Rajab",
+    "alt_spellings": [],
+    "notes": "Seventh Islamic month"
+  },
+  "شعبان": {
+    "iw_en": "Shaban",
+    "iw_id": "Sya'ban",
+    "alt_spellings": [],
+    "notes": "Eighth Islamic month"
+  },
+  "شوال": {
+    "iw_en": "Shawwal",
+    "iw_id": "Syawal",
+    "alt_spellings": [],
+    "notes": "Tenth Islamic month"
+  },
+  "ذو القعدة": {
+    "iw_en": "Dhul-Qadah",
+    "iw_id": "Dzulqaedah",
+    "alt_spellings": [],
+    "notes": "Eleventh Islamic month"
+  },
+  "ذو الحجة": {
+    "iw_en": "Dhul-Hijjah",
+    "iw_id": "Dzulhijjah",
+    "alt_spellings": [],
+    "notes": "Twelfth Islamic month"
+  },
+  "ليلة القدر": {
+    "iw_en": "Laylat al-Qadr",
+    "iw_id": "Lailatul Qadar",
+    "alt_spellings": [
+      "Night of Power"
+    ],
+    "notes": "Night in last ten days of Ramadan"
+  },
+  "ليلة الإسراء": {
+    "iw_en": "Laylat al-Isra",
+    "iw_id": "Malam Isra Mikraj",
+    "alt_spellings": [],
+    "notes": ""
+  },
+  "عاشوراء": {
+    "iw_en": "Ashura",
+    "iw_id": "Asyura",
+    "alt_spellings": [],
+    "notes": "10th of Muharram"
+  },
+  "يوم عرفة": {
+    "iw_en": "Day of Arafah",
+    "iw_id": "Hari Arafah",
+    "alt_spellings": [],
+    "notes": "9th of Dhul-Hijjah"
+  },
+  "الأيام البيض": {
+    "iw_en": "white days",
+    "iw_id": "hari putih",
+    "alt_spellings": [],
+    "notes": "13th, 14th, 15th of each Islamic month"
+  },
+  "الدعوة": {
+    "iw_en": "dawah",
+    "iw_id": "dakwah",
+    "alt_spellings": [
+      "invitation to Islam"
+    ],
+    "notes": ""
+  },
+  "العلم": {
+    "iw_en": "ilm",
+    "iw_id": "ilmu",
+    "alt_spellings": [
+      "knowledge"
+    ],
+    "notes": "Islamic knowledge"
+  },
+  "العلماء": {
+    "iw_en": "ulama",
+    "iw_id": "ulama",
+    "alt_spellings": [
+      "scholars"
+    ],
+    "notes": "Islamic scholars"
+  },
+  "الخليفة": {
+    "iw_en": "caliph",
+    "iw_id": "khalifah",
+    "alt_spellings": [
+      "khalifah"
+    ],
+    "notes": ""
+  },
+  "الخلافة": {
+    "iw_en": "caliphate",
+    "iw_id": "khilafah",
+    "alt_spellings": [
+      "khilafah"
+    ],
+    "notes": ""
+  },
+  "الأمة": {
+    "iw_en": "ummah",
+    "iw_id": "umat",
+    "alt_spellings": [
+      "community",
+      "nation"
+    ],
+    "notes": "The Muslim community"
+  },
+  "الدين": {
+    "iw_en": "din",
+    "iw_id": "agama",
+    "alt_spellings": [
+      "religion",
+      "way of life"
+    ],
+    "notes": ""
+  },
+  "الذكر": {
+    "iw_en": "dhikr",
+    "iw_id": "dzikir",
+    "alt_spellings": [
+      "remembrance of Allah"
+    ],
+    "notes": ""
+  },
+  "الدعاء": {
+    "iw_en": "dua",
+    "iw_id": "doa",
+    "alt_spellings": [
+      "supplication"
+    ],
+    "notes": ""
+  },
+  "الاستغفار": {
+    "iw_en": "istighfar",
+    "iw_id": "istighfar",
+    "alt_spellings": [
+      "seeking forgiveness"
+    ],
+    "notes": ""
+  },
+  "الصبر": {
+    "iw_en": "sabr",
+    "iw_id": "sabar",
+    "alt_spellings": [
+      "patience",
+      "perseverance"
+    ],
+    "notes": ""
+  },
+  "الشكر": {
+    "iw_en": "shukr",
+    "iw_id": "syukur",
+    "alt_spellings": [
+      "gratitude"
+    ],
+    "notes": ""
+  },
+  "التوكل": {
+    "iw_en": "tawakkul",
+    "iw_id": "tawakal",
+    "alt_spellings": [
+      "reliance on Allah"
+    ],
+    "notes": ""
+  },
+  "الزهد": {
+    "iw_en": "zuhd",
+    "iw_id": "zuhud",
+    "alt_spellings": [
+      "asceticism",
+      "detachment from dunya"
+    ],
+    "notes": ""
+  },
+  "الأخلاق": {
+    "iw_en": "akhlaq",
+    "iw_id": "akhlak",
+    "alt_spellings": [
+      "character",
+      "morality"
+    ],
+    "notes": ""
+  },
+  "الأمانة": {
+    "iw_en": "amanah",
+    "iw_id": "amanah",
+    "alt_spellings": [
+      "trustworthiness"
+    ],
+    "notes": ""
+  },
+  "الصدق": {
+    "iw_en": "sidq",
+    "iw_id": "kejujuran",
+    "alt_spellings": [
+      "truthfulness"
+    ],
+    "notes": ""
+  },
+  "الإخلاص": {
+    "iw_en": "Al-Ikhlas",
+    "iw_id": "Al-Ikhlas",
+    "alt_spellings": [
+      "Sincerity"
+    ],
+    "notes": "Surah 112"
+  },
+  "النية": {
+    "iw_en": "niyyah",
+    "iw_id": "niat",
+    "alt_spellings": [
+      "intention"
+    ],
+    "notes": ""
+  },
+  "الحياء": {
+    "iw_en": "haya",
+    "iw_id": "malu",
+    "alt_spellings": [
+      "modesty",
+      "shyness"
+    ],
+    "notes": ""
+  },
+  "الرحمة": {
+    "iw_en": "rahmah",
+    "iw_id": "rahmat",
+    "alt_spellings": [
+      "mercy",
+      "compassion"
+    ],
+    "notes": ""
+  },
+  "الكرم": {
+    "iw_en": "karam",
+    "iw_id": "kemurahan",
+    "alt_spellings": [
+      "generosity"
+    ],
+    "notes": ""
+  },
+  "العدل": {
+    "iw_en": "adl",
+    "iw_id": "adil",
+    "alt_spellings": [
+      "justice"
+    ],
+    "notes": ""
+  },
+  "الحكمة": {
+    "iw_en": "hikmah",
+    "iw_id": "hikmah",
+    "alt_spellings": [
+      "wisdom"
+    ],
+    "notes": ""
+  },
+  "الفطرة": {
+    "iw_en": "fitrah",
+    "iw_id": "fitrah",
+    "alt_spellings": [
+      "natural disposition"
+    ],
+    "notes": ""
+  },
+  "الرزق": {
+    "iw_en": "rizq",
+    "iw_id": "rezeki",
+    "alt_spellings": [
+      "sustenance"
+    ],
+    "notes": ""
+  },
+  "البركة": {
+    "iw_en": "barakah",
+    "iw_id": "berkah",
+    "alt_spellings": [
+      "blessing"
+    ],
+    "notes": ""
+  },
+  "النعمة": {
+    "iw_en": "nimah",
+    "iw_id": "nikmat",
+    "alt_spellings": [
+      "blessing",
+      "bounty"
+    ],
+    "notes": ""
+  },
+  "الامتحان": {
+    "iw_en": "ibtila",
+    "iw_id": "ujian",
+    "alt_spellings": [
+      "trial",
+      "test"
+    ],
+    "notes": ""
+  },
+  "الحكم": {
+    "iw_en": "hukm",
+    "iw_id": "hukum",
+    "alt_spellings": [
+      "ruling",
+      "judgment"
+    ],
+    "notes": ""
+  },
+  "الوحي": {
+    "iw_en": "wahy",
+    "iw_id": "wahyu",
+    "alt_spellings": [
+      "revelation"
+    ],
+    "notes": ""
+  },
+  "الرسالة": {
+    "iw_en": "risalah",
+    "iw_id": "risalah",
+    "alt_spellings": [
+      "message",
+      "prophethood"
+    ],
+    "notes": ""
+  },
+  "النبوة": {
+    "iw_en": "nubuwwah",
+    "iw_id": "kenabian",
+    "alt_spellings": [
+      "prophethood"
+    ],
+    "notes": ""
+  },
+  "الصديق": {
+    "iw_en": "Siddiq",
+    "iw_id": "Siddiq",
+    "alt_spellings": [
+      "the truthful"
+    ],
+    "notes": "Title of Abu Bakr"
+  },
+  "الفاروق": {
+    "iw_en": "al-Faruq",
+    "iw_id": "al-Faruq",
+    "alt_spellings": [
+      "the one who distinguishes truth from falsehood"
+    ],
+    "notes": "Title of Umar"
+  },
+  "ذو النورين": {
+    "iw_en": "Dhul-Nurayn",
+    "iw_id": "Dzun Nurayn",
+    "alt_spellings": [
+      "Possessor of Two Lights"
+    ],
+    "notes": "Title of Uthman"
+  },
+  "المصطفى": {
+    "iw_en": "al-Mustafa",
+    "iw_id": "al-Mustafa",
+    "alt_spellings": [
+      "the Chosen One"
+    ],
+    "notes": "Title of the Prophet"
+  },
+  "خاتم النبيين": {
+    "iw_en": "Seal of the Prophets",
+    "iw_id": "Khatamun Nabiyyin",
+    "alt_spellings": [],
+    "notes": "Title of the Prophet"
+  },
+  "أمين": {
+    "iw_en": "al-Amin",
+    "iw_id": "al-Amin",
+    "alt_spellings": [
+      "the Trustworthy"
+    ],
+    "notes": "Title of the Prophet before prophethood"
+  },
+  "علم الكلام": {
+    "iw_en": "ilm al-kalam",
+    "iw_id": "ilmu kalam",
+    "alt_spellings": [
+      "Islamic theology",
+      "scholastic theology"
+    ],
+    "notes": ""
+  },
+  "علم التفسير": {
+    "iw_en": "ilm al-tafsir",
+    "iw_id": "ilmu tafsir",
+    "alt_spellings": [
+      "science of Quran exegesis"
+    ],
+    "notes": ""
+  },
+  "علم الحديث": {
+    "iw_en": "ilm al-hadith",
+    "iw_id": "ilmu hadis",
+    "alt_spellings": [
+      "hadith sciences"
+    ],
+    "notes": ""
+  },
+  "علم الفقه": {
+    "iw_en": "ilm al-fiqh",
+    "iw_id": "ilmu fiqih",
+    "alt_spellings": [
+      "Islamic jurisprudence"
+    ],
+    "notes": ""
+  },
+  "علم الأصول": {
+    "iw_en": "ilm al-usul",
+    "iw_id": "ilmu ushul fiqih",
+    "alt_spellings": [
+      "principles of jurisprudence"
+    ],
+    "notes": ""
+  },
+  "علم النحو": {
+    "iw_en": "ilm al-nahw",
+    "iw_id": "ilmu nahwu",
+    "alt_spellings": [
+      "Arabic grammar"
+    ],
+    "notes": ""
+  },
+  "علم الصرف": {
+    "iw_en": "ilm al-sarf",
+    "iw_id": "ilmu sharaf",
+    "alt_spellings": [
+      "Arabic morphology"
+    ],
+    "notes": ""
+  },
+  "علم البلاغة": {
+    "iw_en": "ilm al-balaghah",
+    "iw_id": "ilmu balaghah",
+    "alt_spellings": [
+      "Arabic rhetoric"
+    ],
+    "notes": ""
+  },
+  "علم السيرة": {
+    "iw_en": "ilm al-sirah",
+    "iw_id": "ilmu sirah",
+    "alt_spellings": [
+      "prophetic biography"
+    ],
+    "notes": ""
+  },
+  "الأثري": {
+    "iw_en": "Athari",
+    "iw_id": "Athari",
+    "alt_spellings": [
+      "traditionalist"
+    ],
+    "notes": "Theological methodology"
+  },
+  "الأشعري": {
+    "iw_en": "Ashari",
+    "iw_id": "Asy'ari",
+    "alt_spellings": [],
+    "notes": "Theological school"
+  },
+  "الماتريدي": {
+    "iw_en": "Maturidi",
+    "iw_id": "Maturidi",
+    "alt_spellings": [],
+    "notes": "Theological school"
+  },
+  "الصوفية": {
+    "iw_en": "Sufism",
+    "iw_id": "Tasawuf",
+    "alt_spellings": [
+      "tasawwuf"
+    ],
+    "notes": "Islamic mysticism"
+  },
+  "الطريقة": {
+    "iw_en": "tariqah",
+    "iw_id": "tarikat",
+    "alt_spellings": [
+      "Sufi order"
+    ],
+    "notes": ""
+  },
+  "الشيعة": {
+    "iw_en": "Shia",
+    "iw_id": "Syiah",
+    "alt_spellings": [
+      "Shi'ism"
+    ],
+    "notes": ""
+  },
+  "الخوارج": {
+    "iw_en": "Khawarij",
+    "iw_id": "Khawarij",
+    "alt_spellings": [],
+    "notes": "Early sect"
+  },
+  "المعتزلة": {
+    "iw_en": "Mutazilah",
+    "iw_id": "Mu'tazilah",
+    "alt_spellings": [],
+    "notes": "Rationalist theological school"
+  },
+  "البقرة": {
+    "iw_en": "Al-Baqarah",
+    "iw_id": "Al-Baqarah",
+    "alt_spellings": [
+      "the Cow"
+    ],
+    "notes": "Surah 2"
+  },
+  "آل عمران": {
+    "iw_en": "Al Imran",
+    "iw_id": "Ali Imran",
+    "alt_spellings": [
+      "the Family of Imran"
+    ],
+    "notes": "Surah 3"
+  },
+  "النساء": {
+    "iw_en": "Al-Nisa",
+    "iw_id": "An-Nisa",
+    "alt_spellings": [
+      "the Women"
+    ],
+    "notes": "Surah 4"
+  },
+  "المائدة": {
+    "iw_en": "Al-Maidah",
+    "iw_id": "Al-Maidah",
+    "alt_spellings": [
+      "the Table Spread"
+    ],
+    "notes": "Surah 5"
+  },
+  "الأنعام": {
+    "iw_en": "Al-Anam",
+    "iw_id": "Al-An'am",
+    "alt_spellings": [
+      "the Cattle"
+    ],
+    "notes": "Surah 6"
+  },
+  "الكهف": {
+    "iw_en": "Al-Kahf",
+    "iw_id": "Al-Kahfi",
+    "alt_spellings": [
+      "the Cave"
+    ],
+    "notes": "Surah 18"
+  },
+  "مريم_سورة": {
+    "iw_en": "Maryam",
+    "iw_id": "Maryam",
+    "alt_spellings": [
+      "Mary"
+    ],
+    "notes": "Surah 19"
+  },
+  "يس": {
+    "iw_en": "Yasin",
+    "iw_id": "Yasin",
+    "alt_spellings": [
+      "Ya Sin"
+    ],
+    "notes": "Surah 36"
+  },
+  "الرحمن_سورة": {
+    "iw_en": "Al-Rahman",
+    "iw_id": "Ar-Rahman",
+    "alt_spellings": [
+      "the Beneficent"
+    ],
+    "notes": "Surah 55"
+  },
+  "الواقعة": {
+    "iw_en": "Al-Waqiah",
+    "iw_id": "Al-Waqiah",
+    "alt_spellings": [
+      "the Event"
+    ],
+    "notes": "Surah 56"
+  },
+  "الفلق": {
+    "iw_en": "Al-Falaq",
+    "iw_id": "Al-Falaq",
+    "alt_spellings": [
+      "the Daybreak"
+    ],
+    "notes": "Surah 113"
+  },
+  "الناس": {
+    "iw_en": "Al-Nas",
+    "iw_id": "An-Nas",
+    "alt_spellings": [
+      "Mankind"
+    ],
+    "notes": "Surah 114"
+  }
+}

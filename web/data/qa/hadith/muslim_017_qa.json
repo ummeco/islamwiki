@@ -1,0 +1,16 @@
+{
+  "collection": "muslim",
+  "book": "017",
+  "total": 168,
+  "verified": 3551,
+  "flags": [
+    {
+      "cn": 3681,
+      "n": 101,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}
