@@ -32,6 +32,9 @@ Thumbs.db
 # Claude AI working memory
 .claude/
 
+# Crunch execution prompt (local only)
+PROMPT.md
+
 # Scraper checkpoints
 scripts/.checkpoints/*.json
 
