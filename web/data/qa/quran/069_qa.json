@@ -1,0 +1,148 @@
+{
+  "surah": 69,
+  "total_ayahs": 52,
+  "verified": 14,
+  "flagged": 38,
+  "flags": [
+    {
+      "ayah_cn": 5324,
+      "n": 1,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5325,
+      "n": 2,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5326,
+      "n": 3,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5327,
+      "n": 4,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5329,
+      "n": 6,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5330,
+      "n": 7,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5331,
+      "n": 8,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5332,
+      "n": 9,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5334,
+      "n": 11,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5336,
+      "n": 13,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5337,
+      "n": 14,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5338,
+      "n": 15,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5342,
+      "n": 19,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5343,
+      "n": 20,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5344,
+      "n": 21,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5345,
+      "n": 22,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5348,
+      "n": 25,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5349,
+      "n": 26,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5350,
+      "n": 27,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 5351,
+      "n": 28,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    }
+  ]
+}

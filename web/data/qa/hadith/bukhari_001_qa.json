@@ -1,0 +1,48 @@
+{
+  "collection": "bukhari",
+  "book": "001",
+  "total": 311,
+  "verified": 306,
+  "flags": [
+    {
+      "cn": 241,
+      "n": 241,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 242,
+      "n": 242,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 247,
+      "n": 247,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 254,
+      "n": 254,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 258,
+      "n": 258,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

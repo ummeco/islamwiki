@@ -1,0 +1,22 @@
+{
+  "collection": "tirmidhi",
+  "book": "043",
+  "total": 138,
+  "verified": 2821,
+  "flags": [
+    {
+      "cn": 2809,
+      "n": 60,
+      "flags": [
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 2883,
+      "n": 134,
+      "flags": [
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "surah": 99,
+  "total_ayahs": 8,
+  "verified": 3,
+  "flagged": 5,
+  "flags": [
+    {
+      "ayah_cn": 6140,
+      "n": 2,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 6142,
+      "n": 4,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 6143,
+      "n": 5,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 6145,
+      "n": 7,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 6146,
+      "n": 8,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    }
+  ]
+}

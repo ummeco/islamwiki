@@ -54,6 +54,7 @@ export function WikiGrid({ pages }: { pages: WikiItem[] }) {
               {page.category.replace(/_/g, ' ')}
             </p>
           )}
+          <span className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent group-hover:text-iw-accent-light">Read →</span>
         </Link>
       )}
     />

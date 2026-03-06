@@ -1,0 +1,31 @@
+# Letters to the Kings
+
+## The Diplomatic Initiative
+
+In the months following the Treaty of Hudaybiyyah in late 6 AH and early 7 AH, the Prophet ﷺ dispatched a series of letters to the major rulers of the known world, inviting them to Islam. This diplomatic initiative — unprecedented in the early Muslim community's history — reflected the new reality that Hudaybiyyah had created: the Muslim community was no longer a besieged minority fighting for survival against the Quraysh but a recognized political entity with the freedom to communicate with foreign powers. The ceasefire had, in effect, acknowledged the Muslim community's legitimacy. The Prophet ﷺ used that legitimacy to extend the invitation of Islam beyond Arabia.
+
+The letters were identical in structure and largely in content: they opened with the basmala, identified the sender as the Prophet of Allah, invited the recipient to accept Islam, and warned of the consequences of refusal — citing Quranic principles about those who reject the message. Each was sealed with the Prophet's ﷺ seal ring, inscribed with "Muhammad Rasul Allah" (Muhammad, Messenger of Allah), which he had made specifically for the purpose of sending official correspondence.
+
+## The Major Letters
+
+**To Heraclius (Hiraql), Emperor of Byzantium:** Heraclius received the letter through Dihyah al-Kalbi, the companion chosen as envoy to the Byzantine court. The hadith in Sahih al-Bukhari preserves a remarkable account: Heraclius, intrigued by the letter, summoned Abu Sufyan — who happened to be in Byzantine territory on a trade mission — and questioned him about the Prophet ﷺ with careful, methodical intelligence. The questions he asked were designed to identify whether the signs of a genuine prophet were present: Was he from a noble family? Did he have followers among the common people or the elite? Had any of his followers left the religion? Did his followers grow or decline? Did he lie before his prophecy? The answers Abu Sufyan gave — despite being an enemy of the Prophet ﷺ at the time — confirmed every criterion of a genuine prophet. Heraclius told his court: "If what you say is true, he will come to own the ground under my feet." He reportedly wanted to accept Islam but feared losing his kingdom. He honored the letter and the envoy. He did not convert.
+
+**To Khosrow Parviz (Kisra), King of Persia:** Khosrow tore up the letter in contempt when it was read to him — enraged at the form of address (the Prophet ﷺ had written his own name before Khosrow's, as was the convention for the sender). The Prophet ﷺ, when informed that Khosrow had torn the letter, said: "He has torn his kingdom." Khosrow was assassinated by his own son within months. The Persian empire fell within a generation to the Muslim armies under Umar ibn al-Khattab.
+
+**To the Negus (al-Najashi), King of Abyssinia:** The Negus had already been informed about the Prophet ﷺ by the Muslim emigrants who had lived in his kingdom for years. He received this formal letter with respect and, according to some narrations, confirmed his belief in the Prophet ﷺ. The Prophet ﷺ prayed the funeral prayer (salat al-gha'ib) over the Negus when he died — the only time in the seerah that the Prophet ﷺ performed the absent funeral prayer for a non-Muslim ruler, an act that has been understood as an acknowledgment of the Negus's personal faith even if he never publicly declared it.
+
+**To al-Muqawqis, ruler of Egypt:** Al-Muqawqis received the envoy Hatib ibn Abi Balta'ah with honor, wrote a respectful response, and sent the Prophet ﷺ gifts including two Coptic women — one of whom, Mariyah al-Qibtiyyah, became the Prophet's ﷺ wife and the mother of his son Ibrahim.
+
+**To al-Harith ibn Abi Shimr al-Ghassani, the Ghassanid King (Byzantine client state):** The Ghassanid king reportedly wrote across the letter "I am going to him" — meaning he intended to march against Medina — but was recalled by Heraclius before any campaign was launched.
+
+## The Significance
+
+The letters to the kings represent a fundamental shift in the Prophet's ﷺ conception of the mission. Islam was not a regional religion for Arabia but a message for all of humanity — and the political moment created by Hudaybiyyah allowed the Prophet ﷺ to begin acting on this understanding diplomatically. The responses varied enormously: respect from Heraclius, contempt from Khosrow, honor from al-Muqawqis, personal faith from the Negus. But the invitation had been made to the rulers of the greatest empires of the age, and the Prophet ﷺ had placed himself in formal diplomatic correspondence with them as their equal — which was itself a statement about what the Muslim community had become.
+
+## The Prophetic Seal
+
+The seal ring made for this correspondence — inscribed "Muhammad Rasul Allah" in three lines, with "Allah" on top, "Rasul" below, and "Muhammad" below that — was used on every official letter. It became one of the most sacred objects of the early caliphs: Abu Bakr used it, then Umar, then Uthman, who dropped it into a well at Medina's 'Aris region. The well was searched for three days without finding it. The loss of the Prophet's ﷺ seal was regarded as an ominous sign, and historians have noted that the period of greatest political instability in early Islamic history (the assassinations and civil war) followed soon after.
+
+The letters themselves — some preserved in later historical compilations, others known only through narration — are remarkable for their tone: they are invitations, not ultimatums, and they address the recipients with respect as leaders of their peoples. They acknowledge the recipients' authority and ask them to consider the message on its merits. They are the diplomatic expression of a religion that understands itself as a universal mercy: offered to all, refused at the recipient's own cost, but never forced. The Prophet ﷺ had been told in Surah Yusuf (12:108): "Say: This is my way; I invite to Allah with clarity — I and those who follow me." The letters to the kings were that invitation made visible on parchment, sealed with the ring, and carried across the known world.
+
+**Sources:** Sahih al-Bukhari (Kitab Bad' al-Wahy, Kitab al-Jihad); Sahih Muslim; Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Kathir, *al-Bidayah wan-Nihayah*; Ibn Sa'd, *al-Tabaqat al-Kubra*

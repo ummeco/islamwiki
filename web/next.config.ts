@@ -45,12 +45,17 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/auth/login',
-        destination: '/signin',
+        destination: '/account',
         permanent: true,
       },
       {
         source: '/auth/register',
-        destination: '/signup',
+        destination: '/account',
+        permanent: true,
+      },
+      {
+        source: '/signin',
+        destination: '/account',
         permanent: true,
       },
     ]

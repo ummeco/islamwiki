@@ -1,0 +1,23 @@
+{
+  "collection": "muwatta",
+  "book": "020",
+  "total": 15,
+  "verified": 692,
+  "flags": [
+    {
+      "cn": 710,
+      "n": 5,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 711,
+      "n": 6,
+      "flags": [
+        "MISSING_IWH_EN"
+      ]
+    }
+  ]
+}

@@ -50,26 +50,22 @@ export function SignupWizard() {
   const searchParams = useSearchParams()
   const [registerState, registerAction, registerPending] = useActionState(register, undefined)
 
-  const [wizard, setWizard] = useState<WizardState>({
-    step: 1,
-    email: '',
-    password: '',
-    confirmPassword: '',
-    fullName: '',
-    kunya: '',
-    username: '',
-    verifiedProviders: [],
+  const [wizard, setWizard] = useState<WizardState>(() => {
+    const saved = loadSavedState()
+    return {
+      step: 1,
+      email: '',
+      password: '',
+      confirmPassword: '',
+      fullName: '',
+      kunya: '',
+      username: '',
+      verifiedProviders: [],
+      ...saved,
+    }
   })
   const [error, setError] = useState('')
   const [showKunyaInfo, setShowKunyaInfo] = useState(false)
-
-  // Restore state from sessionStorage on mount
-  useEffect(() => {
-    const saved = loadSavedState()
-    if (saved) {
-      setWizard((prev) => ({ ...prev, ...saved }))
-    }
-  }, [])
 
   // Check for OAuth callback
   useEffect(() => {
@@ -150,7 +146,7 @@ export function SignupWizard() {
     // Save state before navigating away
     saveState(wizard)
     // Navigate to OAuth initiation
-    window.location.href = `/api/auth/oauth/${provider}`
+    window.location.assign(`/api/auth/oauth/${provider}`)
   }
 
   function handleCreateAccount() {

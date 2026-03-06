@@ -1,0 +1,15 @@
+{
+  "surah": 108,
+  "total_ayahs": 3,
+  "verified": 2,
+  "flagged": 1,
+  "flags": [
+    {
+      "ayah_cn": 6207,
+      "n": 3,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    }
+  ]
+}

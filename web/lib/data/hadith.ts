@@ -6,20 +6,27 @@ interface CollectionData {
   name_ar: string
   name_en: string
   slug: string
-  author_id: number
+  author_en: string
+  author_ar: string
   author_name_en: string
+  total_hadiths: number
   total_hadith: number
   total_books: number
+  gap?: boolean
+  gap_note?: string
   description_en?: string
 }
 
 interface BookData {
   id: number
+  collection: string
   collection_id: number
   number: number
+  cdn_book_num?: number
   name_ar: string
   name_en: string
   slug: string
+  file?: string
   hadith_count: number
 }
 
@@ -36,7 +43,7 @@ interface HadithData {
   chapter_ar?: string
 }
 
-const collections: CollectionData[] = collectionsData as CollectionData[]
+const collections: CollectionData[] = collectionsData as unknown as CollectionData[]
 const books: BookData[] = booksData as BookData[]
 
 export function getCollections(): CollectionData[] {

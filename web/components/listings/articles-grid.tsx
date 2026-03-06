@@ -43,7 +43,7 @@ export function ArticlesGrid({ articles }: { articles: ArticleItem[] }) {
       renderItem={(article) => (
         <Link
           href={`/articles/${article.slug}`}
-          className="card group block h-full"
+          className="card group h-full"
         >
           <span className="badge bg-iw-accent/10 text-iw-accent mb-2">{article.category}</span>
           <h2 className="font-semibold text-iw-text group-hover:text-white">
@@ -52,6 +52,7 @@ export function ArticlesGrid({ articles }: { articles: ArticleItem[] }) {
           {article.excerpt && (
             <p className="mt-2 line-clamp-3 text-sm text-iw-text-secondary">{article.excerpt}</p>
           )}
+          <span className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent group-hover:text-iw-accent-light">Read more →</span>
         </Link>
       )}
       emptyMessage="No articles found matching your search."

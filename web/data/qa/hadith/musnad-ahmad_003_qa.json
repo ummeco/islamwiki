@@ -1,0 +1,64 @@
+{
+  "collection": "musnad-ahmad",
+  "book": "003",
+  "total": 8,
+  "verified": 0,
+  "flags": [
+    {
+      "cn": 391,
+      "n": 1,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 392,
+      "n": 2,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 393,
+      "n": 3,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 394,
+      "n": 4,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 395,
+      "n": 5,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 396,
+      "n": 6,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 397,
+      "n": 7,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 398,
+      "n": 8,
+      "flags": [
+        "INVALID_GRADE_"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "collection": "tirmidhi",
+  "book": "018",
+  "total": 29,
+  "verified": 1474,
+  "flags": [
+    {
+      "cn": 1473,
+      "n": 2,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1479,
+      "n": 8,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1485,
+      "n": 14,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1488,
+      "n": 17,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1492,
+      "n": 21,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1499,
+      "n": 28,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1500,
+      "n": 29,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

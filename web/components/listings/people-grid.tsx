@@ -2,13 +2,16 @@
 
 import Link from 'next/link'
 import { PaginatedGrid } from '@/components/ui/paginated-grid'
+import { formatIslamicYear } from '@/lib/dates/hijri'
 
 interface PersonItem {
   id: number
   slug: string
   name_en: string
   name_ar?: string
+  birth_year_ah?: number
   birth_year_ce?: number
+  death_year_ah?: number
   death_year_ce?: number
   era: string
   category: string
@@ -42,7 +45,7 @@ export function PeopleGrid({ people, eras }: { people: PersonItem[]; eras: EraIn
       renderItem={(person) => (
         <Link
           href={`/people/${person.slug}`}
-          className="card group block h-full"
+          className="card group h-full"
         >
           <h3 className="font-semibold text-iw-text group-hover:text-white">
             {person.name_en}
@@ -53,15 +56,19 @@ export function PeopleGrid({ people, eras }: { people: PersonItem[]; eras: EraIn
             </p>
           )}
           <p className="mt-1 text-xs text-iw-text-secondary">
-            {person.birth_year_ce && `b. ${person.birth_year_ce}`}
-            {person.birth_year_ce && person.death_year_ce && ' \u2014 '}
-            {person.death_year_ce && `d. ${person.death_year_ce}`}
+            {(person.birth_year_ah || person.birth_year_ce) &&
+              `b. ${formatIslamicYear(person.birth_year_ah, person.birth_year_ce)}`}
+            {(person.birth_year_ah || person.birth_year_ce) &&
+              (person.death_year_ah || person.death_year_ce) && ' \u2014 '}
+            {(person.death_year_ah || person.death_year_ce) &&
+              `d. ${formatIslamicYear(person.death_year_ah, person.death_year_ce)}`}
           </p>
           {person.bio_short_en && (
             <p className="mt-2 line-clamp-2 text-xs text-iw-text-secondary/70">
               {person.bio_short_en}
             </p>
           )}
+          <span className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent group-hover:text-iw-accent-light">View →</span>
         </Link>
       )}
       emptyMessage="No scholars found matching your search."

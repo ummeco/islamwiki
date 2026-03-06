@@ -1,0 +1,88 @@
+{
+  "collection": "musnad-ahmad",
+  "book": "047",
+  "total": 600,
+  "verified": 0,
+  "flags": [
+    {
+      "cn": 24839,
+      "n": 1,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24840,
+      "n": 2,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24841,
+      "n": 3,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24842,
+      "n": 4,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24843,
+      "n": 5,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24844,
+      "n": 6,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24845,
+      "n": 7,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24846,
+      "n": 8,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24847,
+      "n": 9,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    },
+    {
+      "cn": 24848,
+      "n": 10,
+      "flags": [
+        "MISSING_IWH_EN",
+        "INVALID_GRADE_"
+      ]
+    }
+  ]
+}

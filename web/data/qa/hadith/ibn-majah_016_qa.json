@@ -1,0 +1,16 @@
+{
+  "collection": "ibn-majah",
+  "book": "016",
+  "total": 53,
+  "verified": 2488,
+  "flags": [
+    {
+      "cn": 2490,
+      "n": 2490,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

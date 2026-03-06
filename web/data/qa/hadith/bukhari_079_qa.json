@@ -1,0 +1,24 @@
+{
+  "collection": "bukhari",
+  "book": "079",
+  "total": 250,
+  "verified": 6291,
+  "flags": [
+    {
+      "cn": 6156,
+      "n": 103,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 6252,
+      "n": 199,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

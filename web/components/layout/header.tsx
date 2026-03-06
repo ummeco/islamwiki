@@ -11,6 +11,7 @@ const navItems = [
   { label: 'Quran', href: '/quran' },
   { label: 'Hadith', href: '/hadith' },
   { label: 'Seerah', href: '/seerah' },
+  { label: 'History', href: '/history' },
   { label: 'People', href: '/people' },
   { label: 'Books', href: '/books' },
   { label: 'Articles', href: '/articles' },
@@ -24,9 +25,9 @@ export function Header() {
 
   return (
     <header className="fixed top-0 right-0 left-0 z-50 border-b border-iw-border bg-iw-bg/90 backdrop-blur-xl">
-      <nav className="section-container flex h-14 items-center justify-between">
+      <nav className="section-container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/icon.png" alt="Islam.wiki" width={28} height={28} className="rounded" />
+          <Image src="/icon.png" alt="Islam.wiki" width={72} height={72} className="rounded" priority />
           <span className="text-lg font-bold">
             <span className="text-white">Islam</span>
             <span className="text-iw-text-muted">.</span>

@@ -7,6 +7,7 @@ import {
   getChaptersByBook,
   getBooksByAuthor,
 } from '@/lib/data/books'
+import { formatIslamicYear } from '@/lib/dates/hijri'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -65,9 +66,9 @@ export default async function BookPage({ params }: Props) {
                 {book.author_name_en}
               </Link>
             </span>
-            {book.year_written_ce && (
+            {(book.year_written_ah || book.year_written_ce) && (
               <span className="before:mr-3 before:content-['\u00B7']">
-                {book.year_written_ce} CE
+                {formatIslamicYear(book.year_written_ah, book.year_written_ce)}
               </span>
             )}
             {book.volumes && (
@@ -139,10 +140,12 @@ export default async function BookPage({ params }: Props) {
                   {book.available_languages.join(', ')}
                 </dd>
               </div>
-              {book.year_written_ah && (
+              {(book.year_written_ah || book.year_written_ce) && (
                 <div>
-                  <dt className="text-iw-text-muted">Written (AH)</dt>
-                  <dd className="text-iw-text">{book.year_written_ah} AH</dd>
+                  <dt className="text-iw-text-muted">Written</dt>
+                  <dd className="text-iw-text">
+                    {formatIslamicYear(book.year_written_ah, book.year_written_ce)}
+                  </dd>
                 </div>
               )}
             </dl>

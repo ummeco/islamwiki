@@ -1,0 +1,29 @@
+{
+  "surah": 94,
+  "total_ayahs": 8,
+  "verified": 5,
+  "flagged": 3,
+  "flags": [
+    {
+      "ayah_cn": 6092,
+      "n": 2,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 6093,
+      "n": 3,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    },
+    {
+      "ayah_cn": 6094,
+      "n": 4,
+      "flags": [
+        "VERBATIM_SAHIH_INT"
+      ]
+    }
+  ]
+}

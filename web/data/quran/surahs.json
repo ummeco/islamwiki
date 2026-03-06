@@ -9,7 +9,10 @@
     "verses_count": 7,
     "juz_start": 1,
     "page_start": 1,
-    "description_en": "The opening chapter of the Quran, recited in every unit of the Muslim prayer. It is a supplication for guidance and a summary of the entire Quran."
+    "description_en": "The opening chapter of the Quran, recited in every unit of the Muslim prayer. It is a supplication for guidance and a summary of the entire Quran.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 29
   },
   {
     "number": 2,
@@ -21,7 +24,10 @@
     "verses_count": 286,
     "juz_start": 1,
     "page_start": 2,
-    "description_en": "The longest surah in the Quran, covering legislation, stories of past prophets, and foundational principles of Islamic law including fasting, pilgrimage, and financial transactions."
+    "description_en": "The longest surah in the Quran, covering legislation, stories of past prophets, and foundational principles of Islamic law including fasting, pilgrimage, and financial transactions.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 6116
   },
   {
     "number": 3,
@@ -33,7 +39,10 @@
     "verses_count": 200,
     "juz_start": 3,
     "page_start": 50,
-    "description_en": "Named after the family of Imran (father of Maryam), it discusses the birth of Isa (Jesus), the Battle of Uhud, and theological dialogue with the People of the Book."
+    "description_en": "Named after the family of Imran (father of Maryam), it discusses the birth of Isa (Jesus), the Battle of Uhud, and theological dialogue with the People of the Book.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 3481
   },
   {
     "number": 4,
@@ -45,7 +54,10 @@
     "verses_count": 176,
     "juz_start": 4,
     "page_start": 77,
-    "description_en": "Addresses women's rights, inheritance laws, marriage regulations, and justice in the community. It also discusses relations with the People of the Book."
+    "description_en": "Addresses women's rights, inheritance laws, marriage regulations, and justice in the community. It also discusses relations with the People of the Book.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 3747
   },
   {
     "number": 5,
@@ -57,7 +69,10 @@
     "verses_count": 120,
     "juz_start": 6,
     "page_start": 106,
-    "description_en": "One of the last surahs revealed, it covers dietary laws (halal and haram), criminal justice, and the completion of the religion of Islam."
+    "description_en": "One of the last surahs revealed, it covers dietary laws (halal and haram), criminal justice, and the completion of the religion of Islam.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 2804
   },
   {
     "number": 6,
@@ -69,7 +84,10 @@
     "verses_count": 165,
     "juz_start": 7,
     "page_start": 128,
-    "description_en": "Addresses the fundamentals of faith: monotheism (tawhid), prophethood, and the Hereafter. It refutes polytheism and superstitious practices regarding cattle."
+    "description_en": "Addresses the fundamentals of faith: monotheism (tawhid), prophethood, and the Hereafter. It refutes polytheism and superstitious practices regarding cattle.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 3050
   },
   {
     "number": 7,
@@ -81,7 +99,10 @@
     "verses_count": 206,
     "juz_start": 8,
     "page_start": 151,
-    "description_en": "Named after the elevated barrier between Paradise and Hell, it recounts the stories of Adam, Nuh, Hud, Salih, Lut, Shu'ayb, and Musa in detail."
+    "description_en": "Named after the elevated barrier between Paradise and Hell, it recounts the stories of Adam, Nuh, Hud, Salih, Lut, Shu'ayb, and Musa in detail.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 3320
   },
   {
     "number": 8,
@@ -93,7 +114,10 @@
     "verses_count": 75,
     "juz_start": 9,
     "page_start": 177,
-    "description_en": "Revealed after the Battle of Badr, it addresses the distribution of war spoils, the ethics of warfare, and trust in Allah during conflict."
+    "description_en": "Revealed after the Battle of Badr, it addresses the distribution of war spoils, the ethics of warfare, and trust in Allah during conflict.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1233
   },
   {
     "number": 9,
@@ -105,7 +129,10 @@
     "verses_count": 129,
     "juz_start": 10,
     "page_start": 187,
-    "description_en": "The only surah that does not begin with Bismillah. It addresses treaty obligations, exposes hypocrites, and calls for sincere repentance and jihad in the cause of Allah."
+    "description_en": "The only surah that does not begin with Bismillah. It addresses treaty obligations, exposes hypocrites, and calls for sincere repentance and jihad in the cause of Allah.",
+    "has_bismillah": false,
+    "section_count": null,
+    "word_count": 2498
   },
   {
     "number": 10,
@@ -117,7 +144,10 @@
     "verses_count": 109,
     "juz_start": 11,
     "page_start": 208,
-    "description_en": "Named after the Prophet Yunus (Jonah), it focuses on the Quran as divine revelation, stories of earlier prophets, and the consequences of rejecting truth."
+    "description_en": "Named after the Prophet Yunus (Jonah), it focuses on the Quran as divine revelation, stories of earlier prophets, and the consequences of rejecting truth.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1833
   },
   {
     "number": 11,
@@ -129,7 +159,10 @@
     "verses_count": 123,
     "juz_start": 11,
     "page_start": 221,
-    "description_en": "Named after the Prophet Hud, sent to the people of 'Ad. It recounts the stories of Nuh, Hud, Salih, Ibrahim, Lut, Shu'ayb, and Musa."
+    "description_en": "Named after the Prophet Hud, sent to the people of 'Ad. It recounts the stories of Nuh, Hud, Salih, Ibrahim, Lut, Shu'ayb, and Musa.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1917
   },
   {
     "number": 12,
@@ -141,7 +174,10 @@
     "verses_count": 111,
     "juz_start": 12,
     "page_start": 235,
-    "description_en": "Tells the complete story of the Prophet Yusuf (Joseph) in a single, continuous narrative. Called the 'best of stories' in the Quran itself."
+    "description_en": "Tells the complete story of the Prophet Yusuf (Joseph) in a single, continuous narrative. Called the 'best of stories' in the Quran itself.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1777
   },
   {
     "number": 13,
@@ -153,7 +189,10 @@
     "verses_count": 43,
     "juz_start": 13,
     "page_start": 249,
-    "description_en": "Named after the thunder that glorifies Allah, it discusses the signs of Allah in nature, the truth of revelation, and the fate of believers and disbelievers."
+    "description_en": "Named after the thunder that glorifies Allah, it discusses the signs of Allah in nature, the truth of revelation, and the fate of believers and disbelievers.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 853
   },
   {
     "number": 14,
@@ -165,7 +204,10 @@
     "verses_count": 52,
     "juz_start": 13,
     "page_start": 255,
-    "description_en": "Named after the Prophet Ibrahim (Abraham), it discusses gratitude for divine blessings and includes Ibrahim's prayer for Makkah and his descendants."
+    "description_en": "Named after the Prophet Ibrahim (Abraham), it discusses gratitude for divine blessings and includes Ibrahim's prayer for Makkah and his descendants.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 830
   },
   {
     "number": 15,
@@ -177,7 +219,10 @@
     "verses_count": 99,
     "juz_start": 14,
     "page_start": 262,
-    "description_en": "Named after the rocky tract where the people of Thamud lived. It addresses the preservation of the Quran and recounts the story of Iblis's refusal to prostrate."
+    "description_en": "Named after the rocky tract where the people of Thamud lived. It addresses the preservation of the Quran and recounts the story of Iblis's refusal to prostrate.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 655
   },
   {
     "number": 16,
@@ -189,7 +234,10 @@
     "verses_count": 128,
     "juz_start": 14,
     "page_start": 267,
-    "description_en": "Named after the bee, whose honey is described as a healing for people. It catalogs the countless blessings of Allah in creation and calls for gratitude."
+    "description_en": "Named after the bee, whose honey is described as a healing for people. It catalogs the countless blessings of Allah in creation and calls for gratitude.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1844
   },
   {
     "number": 17,
@@ -201,7 +249,10 @@
     "verses_count": 111,
     "juz_start": 15,
     "page_start": 282,
-    "description_en": "Opens with the miraculous night journey of the Prophet from Makkah to Jerusalem. It also contains a code of conduct with ethical commandments."
+    "description_en": "Opens with the miraculous night journey of the Prophet from Makkah to Jerusalem. It also contains a code of conduct with ethical commandments.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1556
   },
   {
     "number": 18,
@@ -213,7 +264,10 @@
     "verses_count": 110,
     "juz_start": 15,
     "page_start": 293,
-    "description_en": "Contains four major stories: the People of the Cave, the owner of two gardens, Musa and Al-Khidr, and Dhul-Qarnayn. Widely recited on Fridays."
+    "description_en": "Contains four major stories: the People of the Cave, the owner of two gardens, Musa and Al-Khidr, and Dhul-Qarnayn. Widely recited on Fridays.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1579
   },
   {
     "number": 19,
@@ -225,7 +279,10 @@
     "verses_count": 98,
     "juz_start": 16,
     "page_start": 305,
-    "description_en": "Named after Maryam (Mary), mother of Isa (Jesus). It recounts the births of Yahya (John) and Isa, and stories of Ibrahim, Musa, Isma'il, and Idris."
+    "description_en": "Named after Maryam (Mary), mother of Isa (Jesus). It recounts the births of Yahya (John) and Isa, and stories of Ibrahim, Musa, Isma'il, and Idris.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 961
   },
   {
     "number": 20,
@@ -237,7 +294,10 @@
     "verses_count": 135,
     "juz_start": 16,
     "page_start": 312,
-    "description_en": "Opens with disconnected letters (Ta-Ha) and focuses on the story of Musa from his early life through his mission to Pharaoh and the incident of the golden calf."
+    "description_en": "Opens with disconnected letters (Ta-Ha) and focuses on the story of Musa from his early life through his mission to Pharaoh and the incident of the golden calf.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1335
   },
   {
     "number": 21,
@@ -249,7 +309,10 @@
     "verses_count": 112,
     "juz_start": 17,
     "page_start": 322,
-    "description_en": "Recounts the stories of numerous prophets including Ibrahim, Lut, Nuh, Dawud, Sulayman, Ayyub, Isma'il, Idris, Dhul-Kifl, Yunus, Zakariya, and Maryam."
+    "description_en": "Recounts the stories of numerous prophets including Ibrahim, Lut, Nuh, Dawud, Sulayman, Ayyub, Isma'il, Idris, Dhul-Kifl, Yunus, Zakariya, and Maryam.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1169
   },
   {
     "number": 22,
@@ -261,7 +324,10 @@
     "verses_count": 78,
     "juz_start": 17,
     "page_start": 332,
-    "description_en": "Named after the Hajj pilgrimage to Makkah. It addresses the rituals of Hajj, the Day of Judgment, and permission to fight in self-defense."
+    "description_en": "Named after the Hajj pilgrimage to Makkah. It addresses the rituals of Hajj, the Day of Judgment, and permission to fight in self-defense.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1274
   },
   {
     "number": 23,
@@ -273,7 +339,10 @@
     "verses_count": 118,
     "juz_start": 18,
     "page_start": 342,
-    "description_en": "Opens by describing the qualities of successful believers, then recounts stories of past prophets and warns of the consequences of disbelief."
+    "description_en": "Opens by describing the qualities of successful believers, then recounts stories of past prophets and warns of the consequences of disbelief.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1050
   },
   {
     "number": 24,
@@ -285,7 +354,10 @@
     "verses_count": 64,
     "juz_start": 18,
     "page_start": 350,
-    "description_en": "Contains laws on modesty, the famous 'Verse of Light' (Ayat an-Nur), rules against slander, and guidelines for social conduct and privacy."
+    "description_en": "Contains laws on modesty, the famous 'Verse of Light' (Ayat an-Nur), rules against slander, and guidelines for social conduct and privacy.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1316
   },
   {
     "number": 25,
@@ -297,7 +369,10 @@
     "verses_count": 77,
     "juz_start": 18,
     "page_start": 359,
-    "description_en": "Named 'The Criterion' (between truth and falsehood), it defends the Prophet against accusations and closes with the qualities of the 'Servants of the Most Merciful.'"
+    "description_en": "Named 'The Criterion' (between truth and falsehood), it defends the Prophet against accusations and closes with the qualities of the 'Servants of the Most Merciful.'",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 893
   },
   {
     "number": 26,
@@ -309,7 +384,10 @@
     "verses_count": 227,
     "juz_start": 19,
     "page_start": 367,
-    "description_en": "Recounts the stories of Musa, Ibrahim, Nuh, Hud, Salih, Lut, and Shu'ayb. Named after the poets mentioned at the end, distinguishing them from the Prophet."
+    "description_en": "Recounts the stories of Musa, Ibrahim, Nuh, Hud, Salih, Lut, and Shu'ayb. Named after the poets mentioned at the end, distinguishing them from the Prophet.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1318
   },
   {
     "number": 27,
@@ -321,7 +399,10 @@
     "verses_count": 93,
     "juz_start": 19,
     "page_start": 377,
-    "description_en": "Named after the ants in the story of Prophet Sulayman. It also recounts the stories of Musa, Sulayman and the Queen of Sheba, and Salih."
+    "description_en": "Named after the ants in the story of Prophet Sulayman. It also recounts the stories of Musa, Sulayman and the Queen of Sheba, and Salih.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1151
   },
   {
     "number": 28,
@@ -333,7 +414,10 @@
     "verses_count": 88,
     "juz_start": 20,
     "page_start": 385,
-    "description_en": "Provides a detailed account of the story of Musa from birth to prophethood, including the story of Qarun (Korah) and his destruction due to arrogance."
+    "description_en": "Provides a detailed account of the story of Musa from birth to prophethood, including the story of Qarun (Korah) and his destruction due to arrogance.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1430
   },
   {
     "number": 29,
@@ -345,7 +429,10 @@
     "verses_count": 69,
     "juz_start": 20,
     "page_start": 396,
-    "description_en": "Compares false deities to a spider's web in fragility. It discusses the trials believers face and recounts the stories of Nuh, Ibrahim, Lut, Shu'ayb, and Musa."
+    "description_en": "Compares false deities to a spider's web in fragility. It discusses the trials believers face and recounts the stories of Nuh, Ibrahim, Lut, Shu'ayb, and Musa.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 976
   },
   {
     "number": 30,
@@ -357,7 +444,10 @@
     "verses_count": 60,
     "juz_start": 21,
     "page_start": 404,
-    "description_en": "Opens with a prophecy about the Roman Empire's defeat and future victory, which came true within a decade. It reflects on signs of Allah in creation."
+    "description_en": "Opens with a prophecy about the Roman Empire's defeat and future victory, which came true within a decade. It reflects on signs of Allah in creation.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 817
   },
   {
     "number": 31,
@@ -369,7 +459,10 @@
     "verses_count": 34,
     "juz_start": 21,
     "page_start": 411,
-    "description_en": "Named after the wise Luqman, whose advice to his son includes monotheism, good character, humility, and establishing prayer."
+    "description_en": "Named after the wise Luqman, whose advice to his son includes monotheism, good character, humility, and establishing prayer.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 546
   },
   {
     "number": 32,
@@ -381,7 +474,10 @@
     "verses_count": 30,
     "juz_start": 21,
     "page_start": 415,
-    "description_en": "Discusses the creation of the heavens and earth, the stages of human creation, and the Day of Judgment. The Prophet used to recite it in the Fajr prayer on Fridays."
+    "description_en": "Discusses the creation of the heavens and earth, the stages of human creation, and the Day of Judgment. The Prophet used to recite it in the Fajr prayer on Fridays.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 372
   },
   {
     "number": 33,
@@ -393,7 +489,10 @@
     "verses_count": 73,
     "juz_start": 21,
     "page_start": 418,
-    "description_en": "Addresses the Battle of the Trench (Khandaq), rules for the Prophet's household, the hijab verse, and social reforms in the Muslim community."
+    "description_en": "Addresses the Battle of the Trench (Khandaq), rules for the Prophet's household, the hijab verse, and social reforms in the Muslim community.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1287
   },
   {
     "number": 34,
@@ -405,7 +504,10 @@
     "verses_count": 54,
     "juz_start": 22,
     "page_start": 428,
-    "description_en": "Named after the kingdom of Sheba (Saba) in Yemen. It discusses the blessings given to Dawud and Sulayman, and the destruction of Saba due to ingratitude."
+    "description_en": "Named after the kingdom of Sheba (Saba) in Yemen. It discusses the blessings given to Dawud and Sulayman, and the destruction of Saba due to ingratitude.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 883
   },
   {
     "number": 35,
@@ -417,7 +519,10 @@
     "verses_count": 45,
     "juz_start": 22,
     "page_start": 434,
-    "description_en": "Praises Allah as the Originator of creation. It contrasts the blind and the seeing, darkness and light, and the living and the dead."
+    "description_en": "Praises Allah as the Originator of creation. It contrasts the blind and the seeing, darkness and light, and the living and the dead.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 775
   },
   {
     "number": 36,
@@ -429,7 +534,10 @@
     "verses_count": 83,
     "juz_start": 22,
     "page_start": 440,
-    "description_en": "Often called 'the heart of the Quran.' It emphasizes the truth of resurrection, tells the parable of the people of the town, and presents signs of Allah in nature."
+    "description_en": "Often called 'the heart of the Quran.' It emphasizes the truth of resurrection, tells the parable of the people of the town, and presents signs of Allah in nature.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 725
   },
   {
     "number": 37,
@@ -441,7 +549,10 @@
     "verses_count": 182,
     "juz_start": 23,
     "page_start": 446,
-    "description_en": "Opens with angels ranged in rows. It recounts stories of Nuh, Ibrahim (and the sacrifice of his son), Musa, Harun, Ilyas, Lut, and Yunus."
+    "description_en": "Opens with angels ranged in rows. It recounts stories of Nuh, Ibrahim (and the sacrifice of his son), Musa, Harun, Ilyas, Lut, and Yunus.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 860
   },
   {
     "number": 38,
@@ -453,7 +564,10 @@
     "verses_count": 88,
     "juz_start": 23,
     "page_start": 453,
-    "description_en": "Opens with the letter Sad and addresses the Quran as a reminder. It includes the stories of Dawud, Sulayman, Ayyub, and the creation of Adam and the fall of Iblis."
+    "description_en": "Opens with the letter Sad and addresses the Quran as a reminder. It includes the stories of Dawud, Sulayman, Ayyub, and the creation of Adam and the fall of Iblis.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 733
   },
   {
     "number": 39,
@@ -465,7 +579,10 @@
     "verses_count": 75,
     "juz_start": 23,
     "page_start": 458,
-    "description_en": "Named after the groups of people driven to Paradise and Hell on the Day of Judgment. It emphasizes sincerity in worship and the vastness of Allah's mercy."
+    "description_en": "Named after the groups of people driven to Paradise and Hell on the Day of Judgment. It emphasizes sincerity in worship and the vastness of Allah's mercy.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1172
   },
   {
     "number": 40,
@@ -477,7 +594,10 @@
     "verses_count": 85,
     "juz_start": 24,
     "page_start": 467,
-    "description_en": "Also known as Al-Mu'min (The Believer), named after the believing man from Pharaoh's family who secretly supported Musa. It warns against arrogance and denial."
+    "description_en": "Also known as Al-Mu'min (The Believer), named after the believing man from Pharaoh's family who secretly supported Musa. It warns against arrogance and denial.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 1219
   },
   {
     "number": 41,
@@ -489,7 +609,10 @@
     "verses_count": 54,
     "juz_start": 24,
     "page_start": 477,
-    "description_en": "Describes the Quran as a book whose verses are explained in detail. It discusses the creation of the heavens and earth and the testimony of human senses on Judgment Day."
+    "description_en": "Describes the Quran as a book whose verses are explained in detail. It discusses the creation of the heavens and earth and the testimony of human senses on Judgment Day.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 794
   },
   {
     "number": 42,
@@ -501,7 +624,10 @@
     "verses_count": 53,
     "juz_start": 25,
     "page_start": 483,
-    "description_en": "Named after the principle of mutual consultation (shura), it emphasizes unity among believers, the nature of divine revelation, and Allah's sovereignty."
+    "description_en": "Named after the principle of mutual consultation (shura), it emphasizes unity among believers, the nature of divine revelation, and Allah's sovereignty.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 860
   },
   {
     "number": 43,
@@ -513,7 +639,10 @@
     "verses_count": 89,
     "juz_start": 25,
     "page_start": 489,
-    "description_en": "Warns against being deceived by worldly adornment and gold. It discusses the nature of the Quran, the stories of Ibrahim and Musa, and refutes claims about Isa."
+    "description_en": "Warns against being deceived by worldly adornment and gold. It discusses the nature of the Quran, the stories of Ibrahim and Musa, and refutes claims about Isa.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 830
   },
   {
     "number": 44,
@@ -525,7 +654,10 @@
     "verses_count": 59,
     "juz_start": 25,
     "page_start": 496,
-    "description_en": "Named after the smoke that will appear as a sign before the Day of Judgment. It recounts the story of Pharaoh and the Israelites."
+    "description_en": "Named after the smoke that will appear as a sign before the Day of Judgment. It recounts the story of Pharaoh and the Israelites.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 346
   },
   {
     "number": 45,
@@ -537,7 +669,10 @@
     "verses_count": 37,
     "juz_start": 25,
     "page_start": 499,
-    "description_en": "Named after the scene of every nation kneeling before Allah on the Day of Judgment. It presents signs of Allah in creation and warns against following desires."
+    "description_en": "Named after the scene of every nation kneeling before Allah on the Day of Judgment. It presents signs of Allah in creation and warns against following desires.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 488
   },
   {
     "number": 46,
@@ -549,7 +684,10 @@
     "verses_count": 35,
     "juz_start": 26,
     "page_start": 502,
-    "description_en": "Named after the sand-dunes where the people of 'Ad lived. It emphasizes kindness to parents and recounts how a group of jinn listened to the Quran and believed."
+    "description_en": "Named after the sand-dunes where the people of 'Ad lived. It emphasizes kindness to parents and recounts how a group of jinn listened to the Quran and believed.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 643
   },
   {
     "number": 47,
@@ -561,7 +699,10 @@
     "verses_count": 38,
     "juz_start": 26,
     "page_start": 507,
-    "description_en": "Named after the Prophet Muhammad. It addresses the conduct of war, treatment of prisoners, and encourages believers to support the cause of Islam."
+    "description_en": "Named after the Prophet Muhammad. It addresses the conduct of war, treatment of prisoners, and encourages believers to support the cause of Islam.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 539
   },
   {
     "number": 48,
@@ -573,7 +714,10 @@
     "verses_count": 29,
     "juz_start": 26,
     "page_start": 511,
-    "description_en": "Revealed after the Treaty of Hudaybiyyah, which the Quran describes as a clear victory. It prophesied the conquest of Makkah and the spread of Islam."
+    "description_en": "Revealed after the Treaty of Hudaybiyyah, which the Quran describes as a clear victory. It prophesied the conquest of Makkah and the spread of Islam.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 560
   },
   {
     "number": 49,
@@ -585,7 +729,10 @@
     "verses_count": 18,
     "juz_start": 26,
     "page_start": 515,
-    "description_en": "Establishes etiquette with the Prophet and among believers: avoid backbiting, mockery, suspicion, and spying. Declares that the most honored are the most righteous."
+    "description_en": "Establishes etiquette with the Prophet and among believers: avoid backbiting, mockery, suspicion, and spying. Declares that the most honored are the most righteous.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 347
   },
   {
     "number": 50,
@@ -597,7 +744,10 @@
     "verses_count": 45,
     "juz_start": 26,
     "page_start": 518,
-    "description_en": "Opens with the letter Qaf and discusses resurrection, the recording angels, death, and the Day of Judgment. The Prophet used to recite it in the Eid prayer."
+    "description_en": "Opens with the letter Qaf and discusses resurrection, the recording angels, death, and the Day of Judgment. The Prophet used to recite it in the Eid prayer.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 373
   },
   {
     "number": 51,
@@ -609,7 +759,10 @@
     "verses_count": 60,
     "juz_start": 26,
     "page_start": 520,
-    "description_en": "Opens with oaths by the scattering winds. It affirms the truth of the Day of Judgment, recounts stories of Ibrahim's guests and the destruction of past nations."
+    "description_en": "Opens with oaths by the scattering winds. It affirms the truth of the Day of Judgment, recounts stories of Ibrahim's guests and the destruction of past nations.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 360
   },
   {
     "number": 52,
@@ -621,7 +774,10 @@
     "verses_count": 49,
     "juz_start": 27,
     "page_start": 523,
-    "description_en": "Named after Mount Sinai (At-Tur), where Musa received revelation. It warns of the punishment awaiting disbelievers and describes the bliss of Paradise."
+    "description_en": "Named after Mount Sinai (At-Tur), where Musa received revelation. It warns of the punishment awaiting disbelievers and describes the bliss of Paradise.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 312
   },
   {
     "number": 53,
@@ -633,7 +789,10 @@
     "verses_count": 62,
     "juz_start": 27,
     "page_start": 526,
-    "description_en": "Opens with an oath by the star and describes the Prophet's ascension (Mi'raj) and his encounter with Jibril. It also refutes idol worship."
+    "description_en": "Opens with an oath by the star and describes the Prophet's ascension (Mi'raj) and his encounter with Jibril. It also refutes idol worship.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 360
   },
   {
     "number": 54,
@@ -645,7 +804,10 @@
     "verses_count": 55,
     "juz_start": 27,
     "page_start": 528,
-    "description_en": "Opens with the splitting of the moon as a sign. It recounts the destructions of the peoples of Nuh, 'Ad, Thamud, Lut, and Pharaoh, repeating: 'We have made the Quran easy to remember.'"
+    "description_en": "Opens with the splitting of the moon as a sign. It recounts the destructions of the peoples of Nuh, 'Ad, Thamud, Lut, and Pharaoh, repeating: 'We have made the Quran easy to remember.'",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 342
   },
   {
     "number": 55,
@@ -657,7 +819,10 @@
     "verses_count": 78,
     "juz_start": 27,
     "page_start": 531,
-    "description_en": "Known as 'the Bride of the Quran.' It lists the countless blessings of Allah, repeatedly asking: 'Which of the favors of your Lord will you deny?'"
+    "description_en": "Known as 'the Bride of the Quran.' It lists the countless blessings of Allah, repeatedly asking: 'Which of the favors of your Lord will you deny?'",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 351
   },
   {
     "number": 56,
@@ -669,7 +834,10 @@
     "verses_count": 96,
     "juz_start": 27,
     "page_start": 534,
-    "description_en": "Describes the Day of Judgment as an inevitable event. It divides humanity into three groups: the foremost (nearest to Allah), the people of the right, and the people of the left."
+    "description_en": "Describes the Day of Judgment as an inevitable event. It divides humanity into three groups: the foremost (nearest to Allah), the people of the right, and the people of the left.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 379
   },
   {
     "number": 57,
@@ -681,7 +849,10 @@
     "verses_count": 29,
     "juz_start": 27,
     "page_start": 537,
-    "description_en": "Named after iron, which Allah 'sent down' with great strength and many benefits. It calls for spending in the cause of Allah and warns against worldly deception."
+    "description_en": "Named after iron, which Allah 'sent down' with great strength and many benefits. It calls for spending in the cause of Allah and warns against worldly deception.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 574
   },
   {
     "number": 58,
@@ -693,7 +864,10 @@
     "verses_count": 22,
     "juz_start": 28,
     "page_start": 542,
-    "description_en": "Opens with the case of a woman who pleaded to the Prophet about her husband's oath of zihar. It addresses social conduct and warns against secret conspiracies."
+    "description_en": "Opens with the case of a woman who pleaded to the Prophet about her husband's oath of zihar. It addresses social conduct and warns against secret conspiracies.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 472
   },
   {
     "number": 59,
@@ -705,7 +879,10 @@
     "verses_count": 24,
     "juz_start": 28,
     "page_start": 545,
-    "description_en": "Addresses the exile of the Banu Nadir tribe and the distribution of their wealth. It closes with beautiful Names of Allah affirming His majesty."
+    "description_en": "Addresses the exile of the Banu Nadir tribe and the distribution of their wealth. It closes with beautiful Names of Allah affirming His majesty.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 445
   },
   {
     "number": 60,
@@ -717,7 +894,10 @@
     "verses_count": 13,
     "juz_start": 28,
     "page_start": 549,
-    "description_en": "Addresses relations between Muslims and non-Muslims, forbids alliance with enemies of Islam, and establishes the test for emigrating women."
+    "description_en": "Addresses relations between Muslims and non-Muslims, forbids alliance with enemies of Islam, and establishes the test for emigrating women.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 348
   },
   {
     "number": 61,
@@ -729,7 +909,10 @@
     "verses_count": 14,
     "juz_start": 28,
     "page_start": 551,
-    "description_en": "Encourages fighting in the cause of Allah in solid ranks. It mentions Musa's people and Isa's prophecy of a messenger named Ahmad (Muhammad)."
+    "description_en": "Encourages fighting in the cause of Allah in solid ranks. It mentions Musa's people and Isa's prophecy of a messenger named Ahmad (Muhammad).",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 221
   },
   {
     "number": 62,
@@ -741,7 +924,10 @@
     "verses_count": 11,
     "juz_start": 28,
     "page_start": 553,
-    "description_en": "Establishes the Friday congregational prayer as an obligation. It also discusses the mission of the Prophet and criticizes those who abandoned him during a sermon for trade."
+    "description_en": "Establishes the Friday congregational prayer as an obligation. It also discusses the mission of the Prophet and criticizes those who abandoned him during a sermon for trade.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 175
   },
   {
     "number": 63,
@@ -753,7 +939,10 @@
     "verses_count": 11,
     "juz_start": 28,
     "page_start": 554,
-    "description_en": "Exposes the characteristics of the hypocrites in Madinah and warns believers against being distracted by wealth and children from the remembrance of Allah."
+    "description_en": "Exposes the characteristics of the hypocrites in Madinah and warns believers against being distracted by wealth and children from the remembrance of Allah.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 180
   },
   {
     "number": 64,
@@ -765,7 +954,10 @@
     "verses_count": 18,
     "juz_start": 28,
     "page_start": 556,
-    "description_en": "Named after the Day of Judgment, described as the Day of Mutual Loss and Gain. It calls for obedience to Allah, spending in charity, and patience with family."
+    "description_en": "Named after the Day of Judgment, described as the Day of Mutual Loss and Gain. It calls for obedience to Allah, spending in charity, and patience with family.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 241
   },
   {
     "number": 65,
@@ -777,7 +969,10 @@
     "verses_count": 12,
     "juz_start": 28,
     "page_start": 558,
-    "description_en": "Provides detailed rulings on divorce procedures, waiting periods (iddah), housing, and maintenance for divorced women, emphasizing fairness and piety."
+    "description_en": "Provides detailed rulings on divorce procedures, waiting periods (iddah), housing, and maintenance for divorced women, emphasizing fairness and piety.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 287
   },
   {
     "number": 66,
@@ -789,7 +984,10 @@
     "verses_count": 12,
     "juz_start": 28,
     "page_start": 560,
-    "description_en": "Addresses an incident in the Prophet's household and calls believers to protect themselves and their families from the Fire. It gives examples of righteous and unrighteous women."
+    "description_en": "Addresses an incident in the Prophet's household and calls believers to protect themselves and their families from the Fire. It gives examples of righteous and unrighteous women.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 249
   },
   {
     "number": 67,
@@ -801,7 +999,10 @@
     "verses_count": 30,
     "juz_start": 29,
     "page_start": 562,
-    "description_en": "Also known as 'the Protector from the grave's punishment.' It reflects on Allah's creation of the heavens, the purpose of life and death, and the powerlessness of disbelievers."
+    "description_en": "Also known as 'the Protector from the grave's punishment.' It reflects on Allah's creation of the heavens, the purpose of life and death, and the powerlessness of disbelievers.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 333
   },
   {
     "number": 68,
@@ -813,7 +1014,10 @@
     "verses_count": 52,
     "juz_start": 29,
     "page_start": 564,
-    "description_en": "Opens with an oath by the pen and what it writes. It defends the Prophet's character, tells the parable of the garden owners, and warns against stubbornness."
+    "description_en": "Opens with an oath by the pen and what it writes. It defends the Prophet's character, tells the parable of the garden owners, and warns against stubbornness.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 300
   },
   {
     "number": 69,
@@ -825,7 +1029,10 @@
     "verses_count": 52,
     "juz_start": 29,
     "page_start": 566,
-    "description_en": "Opens by asking about 'The Inevitable Reality' (the Day of Judgment). It recounts the destruction of Thamud, 'Ad, and Pharaoh, and describes the scenes of that Day."
+    "description_en": "Opens by asking about 'The Inevitable Reality' (the Day of Judgment). It recounts the destruction of Thamud, 'Ad, and Pharaoh, and describes the scenes of that Day.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 258
   },
   {
     "number": 70,
@@ -837,7 +1044,10 @@
     "verses_count": 44,
     "juz_start": 29,
     "page_start": 568,
-    "description_en": "Describes Allah as the Lord of the ascending stairways. It discusses human impatience, the horrors of the Day of Judgment, and qualities of the devout."
+    "description_en": "Describes Allah as the Lord of the ascending stairways. It discusses human impatience, the horrors of the Day of Judgment, and qualities of the devout.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 217
   },
   {
     "number": 71,
@@ -849,7 +1059,10 @@
     "verses_count": 28,
     "juz_start": 29,
     "page_start": 570,
-    "description_en": "Entirely devoted to the story of Prophet Nuh (Noah), his long dawah to his people spanning 950 years, their rejection, and the great flood."
+    "description_en": "Entirely devoted to the story of Prophet Nuh (Noah), his long dawah to his people spanning 950 years, their rejection, and the great flood.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 226
   },
   {
     "number": 72,
@@ -861,7 +1074,10 @@
     "verses_count": 28,
     "juz_start": 29,
     "page_start": 572,
-    "description_en": "Recounts how a group of jinn listened to the Quran and believed. It discusses the nature of the jinn, their diversity in faith, and the unseen knowledge belonging to Allah alone."
+    "description_en": "Recounts how a group of jinn listened to the Quran and believed. It discusses the nature of the jinn, their diversity in faith, and the unseen knowledge belonging to Allah alone.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 285
   },
   {
     "number": 73,
@@ -873,7 +1089,10 @@
     "verses_count": 20,
     "juz_start": 29,
     "page_start": 574,
-    "description_en": "Addresses the Prophet as 'the one wrapped in garments,' commanding him to stand in night prayer (tahajjud) and recite the Quran with measured recitation."
+    "description_en": "Addresses the Prophet as 'the one wrapped in garments,' commanding him to stand in night prayer (tahajjud) and recite the Quran with measured recitation.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 199
   },
   {
     "number": 74,
@@ -885,7 +1104,10 @@
     "verses_count": 56,
     "juz_start": 29,
     "page_start": 575,
-    "description_en": "Addresses the Prophet as 'the one cloaked in garments,' commanding him to rise and warn. It describes the punishment of those who reject the truth."
+    "description_en": "Addresses the Prophet as 'the one cloaked in garments,' commanding him to rise and warn. It describes the punishment of those who reject the truth.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 255
   },
   {
     "number": 75,
@@ -897,7 +1119,10 @@
     "verses_count": 40,
     "juz_start": 29,
     "page_start": 577,
-    "description_en": "Describes the Day of Resurrection in vivid detail, the self-reproaching soul, and the moment of death. It affirms Allah's power to reassemble human bones."
+    "description_en": "Describes the Day of Resurrection in vivid detail, the self-reproaching soul, and the moment of death. It affirms Allah's power to reassemble human bones.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 164
   },
   {
     "number": 76,
@@ -909,7 +1134,10 @@
     "verses_count": 31,
     "juz_start": 29,
     "page_start": 578,
-    "description_en": "Also known as Ad-Dahr (Time). It describes the creation of man, the choice between gratitude and ingratitude, and the rewards of the righteous in Paradise."
+    "description_en": "Also known as Ad-Dahr (Time). It describes the creation of man, the choice between gratitude and ingratitude, and the rewards of the righteous in Paradise.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 243
   },
   {
     "number": 77,
@@ -921,7 +1149,10 @@
     "verses_count": 50,
     "juz_start": 29,
     "page_start": 580,
-    "description_en": "Opens with oaths by the winds sent forth. It repeatedly warns: 'Woe that Day to the deniers!' and describes scenes of the Day of Judgment."
+    "description_en": "Opens with oaths by the winds sent forth. It repeatedly warns: 'Woe that Day to the deniers!' and describes scenes of the Day of Judgment.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 181
   },
   {
     "number": 78,
@@ -933,7 +1164,10 @@
     "verses_count": 40,
     "juz_start": 30,
     "page_start": 582,
-    "description_en": "Opens the 30th Juz. It asks about 'the Great News' (the Day of Judgment), presents signs of Allah's creative power, and describes the rewards and punishments of the Hereafter."
+    "description_en": "Opens the 30th Juz. It asks about 'the Great News' (the Day of Judgment), presents signs of Allah's creative power, and describes the rewards and punishments of the Hereafter.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 173
   },
   {
     "number": 79,
@@ -945,7 +1179,10 @@
     "verses_count": 46,
     "juz_start": 30,
     "page_start": 583,
-    "description_en": "Opens with oaths by the angels who pull out souls. It recounts the story of Musa and Pharaoh, and describes the overwhelming event of the Day of Judgment."
+    "description_en": "Opens with oaths by the angels who pull out souls. It recounts the story of Musa and Pharaoh, and describes the overwhelming event of the Day of Judgment.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 179
   },
   {
     "number": 80,
@@ -957,7 +1194,10 @@
     "verses_count": 42,
     "juz_start": 30,
     "page_start": 585,
-    "description_en": "Revealed when the Prophet frowned at a blind man (Abdullah ibn Umm Maktum) while speaking with Quraysh leaders. It teaches that sincerity outweighs worldly status."
+    "description_en": "Revealed when the Prophet frowned at a blind man (Abdullah ibn Umm Maktum) while speaking with Quraysh leaders. It teaches that sincerity outweighs worldly status.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 133
   },
   {
     "number": 81,
@@ -969,7 +1209,10 @@
     "verses_count": 29,
     "juz_start": 30,
     "page_start": 586,
-    "description_en": "Describes the cosmic events of the Day of Judgment: the sun folded up, stars scattered, mountains moved. It affirms the Quran as the word of a noble messenger (Jibril)."
+    "description_en": "Describes the cosmic events of the Day of Judgment: the sun folded up, stars scattered, mountains moved. It affirms the Quran as the word of a noble messenger (Jibril).",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 104
   },
   {
     "number": 82,
@@ -981,7 +1224,10 @@
     "verses_count": 19,
     "juz_start": 30,
     "page_start": 587,
-    "description_en": "Describes the sky splitting apart and the seas bursting forth on the Day of Judgment. It reminds humans of the recording angels and warns of that Day."
+    "description_en": "Describes the sky splitting apart and the seas bursting forth on the Day of Judgment. It reminds humans of the recording angels and warns of that Day.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 80
   },
   {
     "number": 83,
@@ -993,7 +1239,10 @@
     "verses_count": 36,
     "juz_start": 30,
     "page_start": 587,
-    "description_en": "Warns those who cheat in weights and measures. It contrasts the record books of the wicked (Sijjin) with those of the righteous (Illiyyun)."
+    "description_en": "Warns those who cheat in weights and measures. It contrasts the record books of the wicked (Sijjin) with those of the righteous (Illiyyun).",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 169
   },
   {
     "number": 84,
@@ -1005,7 +1254,10 @@
     "verses_count": 25,
     "juz_start": 30,
     "page_start": 589,
-    "description_en": "Describes the sky splitting open on the Day of Judgment. It distinguishes between those given their record in the right hand and those given it behind their back."
+    "description_en": "Describes the sky splitting open on the Day of Judgment. It distinguishes between those given their record in the right hand and those given it behind their back.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 107
   },
   {
     "number": 85,
@@ -1017,7 +1269,10 @@
     "verses_count": 22,
     "juz_start": 30,
     "page_start": 590,
-    "description_en": "Recounts the story of the People of the Trench (Ashab al-Ukhdud) who burned believers alive. It affirms Allah's encompassing power and the Preserved Tablet."
+    "description_en": "Recounts the story of the People of the Trench (Ashab al-Ukhdud) who burned believers alive. It affirms Allah's encompassing power and the Preserved Tablet.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 109
   },
   {
     "number": 86,
@@ -1029,7 +1284,10 @@
     "verses_count": 17,
     "juz_start": 30,
     "page_start": 591,
-    "description_en": "Opens with an oath by the night-comer (a piercing star). It reflects on human creation from fluid, affirms the Quran as a decisive word, and warns of Allah's plan."
+    "description_en": "Opens with an oath by the night-comer (a piercing star). It reflects on human creation from fluid, affirms the Quran as a decisive word, and warns of Allah's plan.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 61
   },
   {
     "number": 87,
@@ -1041,7 +1299,10 @@
     "verses_count": 19,
     "juz_start": 30,
     "page_start": 591,
-    "description_en": "Glorifies the name of the Most High Lord. It discusses the Quran's revelation, the preference for the Hereafter, and references the scriptures of Ibrahim and Musa."
+    "description_en": "Glorifies the name of the Most High Lord. It discusses the Quran's revelation, the preference for the Hereafter, and references the scriptures of Ibrahim and Musa.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 72
   },
   {
     "number": 88,
@@ -1053,7 +1314,10 @@
     "verses_count": 26,
     "juz_start": 30,
     "page_start": 592,
-    "description_en": "Asks about the Overwhelming Event (the Day of Judgment), then contrasts the humiliated faces of the wicked with the joyful faces of the righteous."
+    "description_en": "Asks about the Overwhelming Event (the Day of Judgment), then contrasts the humiliated faces of the wicked with the joyful faces of the righteous.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 92
   },
   {
     "number": 89,
@@ -1065,7 +1329,10 @@
     "verses_count": 30,
     "juz_start": 30,
     "page_start": 593,
-    "description_en": "Opens with an oath by the dawn. It recounts the destruction of 'Ad, Thamud, and Pharaoh, criticizes love of wealth, and closes with the soul at peace entering Paradise."
+    "description_en": "Opens with an oath by the dawn. It recounts the destruction of 'Ad, Thamud, and Pharaoh, criticizes love of wealth, and closes with the soul at peace entering Paradise.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 137
   },
   {
     "number": 90,
@@ -1077,7 +1344,10 @@
     "verses_count": 20,
     "juz_start": 30,
     "page_start": 594,
-    "description_en": "Swears by the city of Makkah. It discusses the struggle of human life, the steep path of righteousness (freeing slaves, feeding the hungry), and the companions of the right and left."
+    "description_en": "Swears by the city of Makkah. It discusses the struggle of human life, the steep path of righteousness (freeing slaves, feeding the hungry), and the companions of the right and left.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 82
   },
   {
     "number": 91,
@@ -1089,7 +1359,10 @@
     "verses_count": 15,
     "juz_start": 30,
     "page_start": 595,
-    "description_en": "Opens with a series of oaths by the sun, moon, day, night, heaven, and earth. It contrasts the one who purifies the soul with the one who corrupts it, citing the people of Thamud."
+    "description_en": "Opens with a series of oaths by the sun, moon, day, night, heaven, and earth. It contrasts the one who purifies the soul with the one who corrupts it, citing the people of Thamud.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 54
   },
   {
     "number": 92,
@@ -1101,7 +1374,10 @@
     "verses_count": 21,
     "juz_start": 30,
     "page_start": 595,
-    "description_en": "Swears by the night and the day. It contrasts two types of people: the generous believer whose path is eased, and the stingy denier whose path is made difficult."
+    "description_en": "Swears by the night and the day. It contrasts two types of people: the generous believer whose path is eased, and the stingy denier whose path is made difficult.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 71
   },
   {
     "number": 93,
@@ -1113,7 +1389,10 @@
     "verses_count": 11,
     "juz_start": 30,
     "page_start": 596,
-    "description_en": "Revealed to comfort the Prophet during a pause in revelation. It reminds him of Allah's blessings: shelter as an orphan, guidance, and provision."
+    "description_en": "Revealed to comfort the Prophet during a pause in revelation. It reminds him of Allah's blessings: shelter as an orphan, guidance, and provision.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 40
   },
   {
     "number": 94,
@@ -1125,7 +1404,10 @@
     "verses_count": 8,
     "juz_start": 30,
     "page_start": 596,
-    "description_en": "Consoles the Prophet by reminding him that Allah expanded his chest, removed his burden, and raised his reputation. It promises that with hardship comes ease."
+    "description_en": "Consoles the Prophet by reminding him that Allah expanded his chest, removed his burden, and raised his reputation. It promises that with hardship comes ease.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 27
   },
   {
     "number": 95,
@@ -1137,7 +1419,10 @@
     "verses_count": 8,
     "juz_start": 30,
     "page_start": 597,
-    "description_en": "Swears by the fig, the olive, Mount Sinai, and Makkah. It declares that Allah created humans in the best form, then reduced those who disbelieve to the lowest of the low."
+    "description_en": "Swears by the fig, the olive, Mount Sinai, and Makkah. It declares that Allah created humans in the best form, then reduced those who disbelieve to the lowest of the low.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 34
   },
   {
     "number": 96,
@@ -1149,7 +1434,10 @@
     "verses_count": 19,
     "juz_start": 30,
     "page_start": 597,
-    "description_en": "Contains the first five verses revealed to the Prophet: 'Read in the name of your Lord who created.' It emphasizes knowledge and warns against human transgression."
+    "description_en": "Contains the first five verses revealed to the Prophet: 'Read in the name of your Lord who created.' It emphasizes knowledge and warns against human transgression.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 72
   },
   {
     "number": 97,
@@ -1161,7 +1449,10 @@
     "verses_count": 5,
     "juz_start": 30,
     "page_start": 598,
-    "description_en": "Describes Laylat al-Qadr (the Night of Power) in Ramadan, when the Quran was first revealed. It declares this night better than a thousand months."
+    "description_en": "Describes Laylat al-Qadr (the Night of Power) in Ramadan, when the Quran was first revealed. It declares this night better than a thousand months.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 30
   },
   {
     "number": 98,
@@ -1173,7 +1464,10 @@
     "verses_count": 8,
     "juz_start": 30,
     "page_start": 598,
-    "description_en": "Addresses the People of the Book and polytheists, stating that clear evidence (the Prophet) has come to them. It defines the best and worst of creation."
+    "description_en": "Addresses the People of the Book and polytheists, stating that clear evidence (the Prophet) has come to them. It defines the best and worst of creation.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 94
   },
   {
     "number": 99,
@@ -1185,7 +1479,10 @@
     "verses_count": 8,
     "juz_start": 30,
     "page_start": 599,
-    "description_en": "Describes the great earthquake of the Day of Judgment, when the earth will reveal all that happened on it. Whoever does an atom's weight of good or evil will see it."
+    "description_en": "Describes the great earthquake of the Day of Judgment, when the earth will reveal all that happened on it. Whoever does an atom's weight of good or evil will see it.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 36
   },
   {
     "number": 100,
@@ -1197,7 +1494,10 @@
     "verses_count": 11,
     "juz_start": 30,
     "page_start": 599,
-    "description_en": "Opens with oaths by charging war horses. It criticizes human ingratitude toward the Lord and warns that the contents of graves will be scattered and hearts exposed."
+    "description_en": "Opens with oaths by charging war horses. It criticizes human ingratitude toward the Lord and warns that the contents of graves will be scattered and hearts exposed.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 40
   },
   {
     "number": 101,
@@ -1209,7 +1509,10 @@
     "verses_count": 11,
     "juz_start": 30,
     "page_start": 600,
-    "description_en": "Asks about 'The Striking Calamity' (the Day of Judgment), when people will be like scattered moths and mountains like carded wool. Deeds will be weighed on a scale."
+    "description_en": "Asks about 'The Striking Calamity' (the Day of Judgment), when people will be like scattered moths and mountains like carded wool. Deeds will be weighed on a scale.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 36
   },
   {
     "number": 102,
@@ -1221,7 +1524,10 @@
     "verses_count": 8,
     "juz_start": 30,
     "page_start": 600,
-    "description_en": "Warns that competition for worldly gain distracts people until they visit the graves. It warns that they will surely be asked about the blessings they enjoyed."
+    "description_en": "Warns that competition for worldly gain distracts people until they visit the graves. It warns that they will surely be asked about the blessings they enjoyed.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 28
   },
   {
     "number": 103,
@@ -1233,7 +1539,10 @@
     "verses_count": 3,
     "juz_start": 30,
     "page_start": 601,
-    "description_en": "One of the shortest surahs. Imam Ash-Shafi'i said if only this surah were revealed, it would suffice as guidance: believe, do good, enjoin truth, and enjoin patience."
+    "description_en": "One of the shortest surahs. Imam Ash-Shafi'i said if only this surah were revealed, it would suffice as guidance: believe, do good, enjoin truth, and enjoin patience.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 14
   },
   {
     "number": 104,
@@ -1245,7 +1554,10 @@
     "verses_count": 9,
     "juz_start": 30,
     "page_start": 601,
-    "description_en": "Warns every backbiter and slanderer who amasses wealth thinking it will make them immortal. They will be thrown into Al-Hutamah, the crushing Fire."
+    "description_en": "Warns every backbiter and slanderer who amasses wealth thinking it will make them immortal. They will be thrown into Al-Hutamah, the crushing Fire.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 33
   },
   {
     "number": 105,
@@ -1257,7 +1569,10 @@
     "verses_count": 5,
     "juz_start": 30,
     "page_start": 601,
-    "description_en": "Recounts how Allah destroyed Abraha's army of elephants that marched to destroy the Ka'bah, sending birds that pelted them with stones of baked clay."
+    "description_en": "Recounts how Allah destroyed Abraha's army of elephants that marched to destroy the Ka'bah, sending birds that pelted them with stones of baked clay.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 23
   },
   {
     "number": 106,
@@ -1269,7 +1584,10 @@
     "verses_count": 4,
     "juz_start": 30,
     "page_start": 602,
-    "description_en": "Reminds the Quraysh tribe of Allah's blessings: their safe trade caravans in winter and summer, and calls them to worship the Lord of the Ka'bah."
+    "description_en": "Reminds the Quraysh tribe of Allah's blessings: their safe trade caravans in winter and summer, and calls them to worship the Lord of the Ka'bah.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 17
   },
   {
     "number": 107,
@@ -1281,7 +1599,10 @@
     "verses_count": 7,
     "juz_start": 30,
     "page_start": 602,
-    "description_en": "Criticizes those who deny the Day of Judgment: they push away the orphan, do not encourage feeding the poor, are heedless in prayer, and refuse small acts of kindness."
+    "description_en": "Criticizes those who deny the Day of Judgment: they push away the orphan, do not encourage feeding the poor, are heedless in prayer, and refuse small acts of kindness.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 25
   },
   {
     "number": 108,
@@ -1293,7 +1614,10 @@
     "verses_count": 3,
     "juz_start": 30,
     "page_start": 602,
-    "description_en": "The shortest surah in the Quran (by word count). Allah grants the Prophet Al-Kawthar (a river in Paradise), commands him to pray and sacrifice, and declares his enemies cut off."
+    "description_en": "The shortest surah in the Quran (by word count). Allah grants the Prophet Al-Kawthar (a river in Paradise), commands him to pray and sacrifice, and declares his enemies cut off.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 10
   },
   {
     "number": 109,
@@ -1305,7 +1629,10 @@
     "verses_count": 6,
     "juz_start": 30,
     "page_start": 603,
-    "description_en": "A declaration of religious distinction: 'I do not worship what you worship, nor do you worship what I worship.' It concludes: 'To you your religion, and to me mine.'"
+    "description_en": "A declaration of religious distinction: 'I do not worship what you worship, nor do you worship what I worship.' It concludes: 'To you your religion, and to me mine.'",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 26
   },
   {
     "number": 110,
@@ -1317,7 +1644,10 @@
     "verses_count": 3,
     "juz_start": 30,
     "page_start": 603,
-    "description_en": "The last complete surah revealed. It announces the coming victory (conquest of Makkah) and commands the Prophet to glorify Allah and seek His forgiveness."
+    "description_en": "The last complete surah revealed. It announces the coming victory (conquest of Makkah) and commands the Prophet to glorify Allah and seek His forgiveness.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 19
   },
   {
     "number": 111,
@@ -1329,7 +1659,10 @@
     "verses_count": 5,
     "juz_start": 30,
     "page_start": 603,
-    "description_en": "Condemns Abu Lahab (the Prophet's uncle) and his wife for their fierce hostility to Islam. It declares that his wealth and deeds will not save him from the Fire."
+    "description_en": "Condemns Abu Lahab (the Prophet's uncle) and his wife for their fierce hostility to Islam. It declares that his wealth and deeds will not save him from the Fire.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 23
   },
   {
     "number": 112,
@@ -1341,7 +1674,10 @@
     "verses_count": 4,
     "juz_start": 30,
     "page_start": 604,
-    "description_en": "A concise declaration of pure monotheism (tawhid): Allah is One, Eternal, neither begets nor is begotten, and nothing is comparable to Him. Equal to one-third of the Quran in reward."
+    "description_en": "A concise declaration of pure monotheism (tawhid): Allah is One, Eternal, neither begets nor is begotten, and nothing is comparable to Him. Equal to one-third of the Quran in reward.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 15
   },
   {
     "number": 113,
@@ -1353,7 +1689,10 @@
     "verses_count": 5,
     "juz_start": 30,
     "page_start": 604,
-    "description_en": "One of the two protective surahs (Al-Mu'awwidhatayn). It seeks refuge in the Lord of the daybreak from the evil of creation, darkness, sorcery, and the envious."
+    "description_en": "One of the two protective surahs (Al-Mu'awwidhatayn). It seeks refuge in the Lord of the daybreak from the evil of creation, darkness, sorcery, and the envious.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 23
   },
   {
     "number": 114,
@@ -1365,6 +1704,9 @@
     "verses_count": 6,
     "juz_start": 30,
     "page_start": 604,
-    "description_en": "The final surah of the Quran and one of the two protective surahs. It seeks refuge in the Lord, King, and God of mankind from the whisperer (Shaytan) who whispers into hearts."
+    "description_en": "The final surah of the Quran and one of the two protective surahs. It seeks refuge in the Lord, King, and God of mankind from the whisperer (Shaytan) who whispers into hearts.",
+    "has_bismillah": true,
+    "section_count": null,
+    "word_count": 20
   }
 ]

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getSeerahEventBySlug, getSeerahEvents } from '@/lib/data/seerah'
+import { getSeerahContent } from '@/lib/data/seerah-content'
+import { formatIslamicDate } from '@/lib/dates/hijri'
 
 interface Props {
   params: Promise<{ event: string }>
@@ -15,9 +17,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { event: slug } = await params
   const event = getSeerahEventBySlug(slug)
   if (!event) return {}
+  const { primary, secondary } = formatIslamicDate(event)
+  const dateLabel = secondary ? `${primary} (${secondary})` : primary
   return {
     title: event.title_en,
-    description: `${event.title_en}${event.date_ce ? ` (${event.date_ce})` : ''}. ${event.description_en.slice(0, 160)}`,
+    description: `${event.title_en}${dateLabel ? ` — ${dateLabel}` : ''}. ${event.description_en.slice(0, 160)}`,
   }
 }
 
@@ -25,6 +29,9 @@ export default async function SeerahEventPage({ params }: Props) {
   const { event: slug } = await params
   const event = getSeerahEventBySlug(slug)
   if (!event) notFound()
+
+  // Load full markdown content if a content file exists
+  const fullContent = getSeerahContent(slug)
 
   // Get sorted events for prev/next
   const allEvents = getSeerahEvents()
@@ -101,11 +108,19 @@ export default async function SeerahEventPage({ params }: Props) {
       <div className="mx-auto max-w-3xl">
         <div className="mb-8">
           <div className="mb-2 flex items-center gap-3">
-            {(event.date_ce || event.date_ah) && (
-              <span className="text-sm font-medium text-iw-accent">
-                {event.date_ce || event.date_ah}
-              </span>
-            )}
+            {(() => {
+              const { primary, secondary } = formatIslamicDate(event)
+              return primary ? (
+                <span className="text-sm font-medium text-iw-accent">
+                  {primary}
+                  {secondary && (
+                    <span className="ml-1 font-normal text-iw-text-muted/70">
+                      ({secondary})
+                    </span>
+                  )}
+                </span>
+              ) : null
+            })()}
             <span
               className={`badge ${
                 event.significance === 'major'
@@ -152,9 +167,63 @@ export default async function SeerahEventPage({ params }: Props) {
           </div>
         )}
 
-        <div className="prose prose-invert max-w-none text-iw-text-secondary leading-relaxed">
-          <p>{event.description_en}</p>
-        </div>
+        {/* Content: full markdown (SC-1 through SC-15) or description_en fallback */}
+        {fullContent ? (
+          <div className="prose prose-invert max-w-none text-iw-text-secondary leading-relaxed">
+            {(() => {
+              const lines = fullContent.split('\n')
+              const nodes: React.ReactNode[] = []
+              let i = 0
+              while (i < lines.length) {
+                const line = lines[i]
+                if (line.startsWith('## ')) {
+                  nodes.push(
+                    <h2 key={i} className="mt-8 text-xl font-bold text-white">
+                      {line.slice(3)}
+                    </h2>
+                  )
+                  i++
+                } else if (line.startsWith('### ')) {
+                  nodes.push(
+                    <h3 key={i} className="mt-6 text-base font-semibold text-white/90">
+                      {line.slice(4)}
+                    </h3>
+                  )
+                  i++
+                } else if (line.startsWith('- ')) {
+                  const start = i
+                  const texts: string[] = []
+                  while (i < lines.length && lines[i].startsWith('- ')) {
+                    texts.push(lines[i].slice(2))
+                    i++
+                  }
+                  nodes.push(
+                    <ul key={start} className="ml-4 list-disc space-y-1 text-iw-text-secondary">
+                      {texts.map((t, j) => (
+                        <li key={j}>{t}</li>
+                      ))}
+                    </ul>
+                  )
+                } else if (line.trim() === '') {
+                  nodes.push(<br key={i} />)
+                  i++
+                } else {
+                  nodes.push(
+                    <p key={i} className="leading-relaxed text-iw-text-secondary">
+                      {line}
+                    </p>
+                  )
+                  i++
+                }
+              }
+              return nodes
+            })()}
+          </div>
+        ) : (
+          <div className="prose prose-invert max-w-none text-iw-text-secondary leading-relaxed">
+            <p>{event.description_en}</p>
+          </div>
+        )}
 
         {/* Sources */}
         {event.sources && event.sources.length > 0 && (
@@ -179,11 +248,12 @@ export default async function SeerahEventPage({ params }: Props) {
               <p className="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
                 {prevEvent.title_en}
               </p>
-              {prevEvent.date_ce && (
-                <p className="mt-0.5 text-xs text-iw-text-muted">
-                  {prevEvent.date_ce}
-                </p>
-              )}
+              {(() => {
+                const { primary } = formatIslamicDate(prevEvent)
+                return primary ? (
+                  <p className="mt-0.5 text-xs text-iw-text-muted">{primary}</p>
+                ) : null
+              })()}
             </Link>
           ) : (
             <div />
@@ -197,11 +267,12 @@ export default async function SeerahEventPage({ params }: Props) {
               <p className="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
                 {nextEvent.title_en}
               </p>
-              {nextEvent.date_ce && (
-                <p className="mt-0.5 text-xs text-iw-text-muted">
-                  {nextEvent.date_ce}
-                </p>
-              )}
+              {(() => {
+                const { primary } = formatIslamicDate(nextEvent)
+                return primary ? (
+                  <p className="mt-0.5 text-xs text-iw-text-muted">{primary}</p>
+                ) : null
+              })()}
             </Link>
           ) : (
             <div />

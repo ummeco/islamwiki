@@ -11,6 +11,7 @@ import { getBooksByAuthor } from '@/lib/data/books'
 import { WikiLayout } from '@/components/wiki/wiki-layout'
 import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
+import { formatIslamicYear } from '@/lib/dates/hijri'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -25,8 +26,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const person = getPersonBySlug(slug)
   if (!person) return {}
   const dates = [
-    person.birth_year_ce ? `b. ${person.birth_year_ce}` : '',
-    person.death_year_ce ? `d. ${person.death_year_ce}` : '',
+    person.birth_year_ah || person.birth_year_ce
+      ? `b. ${formatIslamicYear(person.birth_year_ah, person.birth_year_ce)}`
+      : '',
+    person.death_year_ah || person.death_year_ce
+      ? `d. ${formatIslamicYear(person.death_year_ah, person.death_year_ce)}`
+      : '',
   ]
     .filter(Boolean)
     .join(' — ')
@@ -81,18 +86,32 @@ export default async function PersonPage({ params }: Props) {
             <EditButton editHref={`/people/${slug}/edit`} />
           </div>
 
-          {/* Dates */}
+          {/* Dates — Hijri primary, CE secondary */}
           <div className="mt-4 flex flex-wrap gap-4 text-sm text-iw-text-secondary">
-            {person.birth_year_ce && (
+            {(person.birth_year_ah || person.birth_year_ce) && (
               <span>
-                Born: {person.birth_year_ce} CE
-                {person.birth_year_ah && ` (${person.birth_year_ah} AH)`}
+                Born:{' '}
+                <span className="text-iw-text">
+                  {formatIslamicYear(person.birth_year_ah, person.birth_year_ce, false)}
+                </span>
+                {person.birth_year_ce && person.birth_year_ah && (
+                  <span className="ml-1 text-iw-text-muted/70">
+                    ({person.birth_year_ce} CE)
+                  </span>
+                )}
               </span>
             )}
-            {person.death_year_ce && (
+            {(person.death_year_ah || person.death_year_ce) && (
               <span>
-                Died: {person.death_year_ce} CE
-                {person.death_year_ah && ` (${person.death_year_ah} AH)`}
+                Died:{' '}
+                <span className="text-iw-text">
+                  {formatIslamicYear(person.death_year_ah, person.death_year_ce, false)}
+                </span>
+                {person.death_year_ce && person.death_year_ah && (
+                  <span className="ml-1 text-iw-text-muted/70">
+                    ({person.death_year_ce} CE)
+                  </span>
+                )}
               </span>
             )}
           </div>

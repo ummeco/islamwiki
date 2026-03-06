@@ -1,0 +1,16 @@
+{
+  "collection": "abu-dawud",
+  "book": "038",
+  "total": 12,
+  "verified": 4288,
+  "flags": [
+    {
+      "cn": 4290,
+      "n": 12,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

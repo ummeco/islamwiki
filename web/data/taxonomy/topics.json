@@ -1,0 +1,722 @@
+[
+  {
+    "id": "tawhid",
+    "name_en": "Tawhid",
+    "category_id": 1
+  },
+  {
+    "id": "shirk",
+    "name_en": "Shirk",
+    "category_id": 1
+  },
+  {
+    "id": "bidah",
+    "name_en": "Bidah",
+    "category_id": 1
+  },
+  {
+    "id": "iman",
+    "name_en": "Iman (Faith)",
+    "category_id": 1
+  },
+  {
+    "id": "islam",
+    "name_en": "Islam (Submission)",
+    "category_id": 1
+  },
+  {
+    "id": "ihsan",
+    "name_en": "Ihsan (Excellence)",
+    "category_id": 1
+  },
+  {
+    "id": "taqwa",
+    "name_en": "Taqwa (God-consciousness)",
+    "category_id": 1
+  },
+  {
+    "id": "allahss-names",
+    "name_en": "Names of Allah",
+    "category_id": 1
+  },
+  {
+    "id": "allahss-attributes",
+    "name_en": "Attributes of Allah",
+    "category_id": 1
+  },
+  {
+    "id": "qadar",
+    "name_en": "Qadar (Divine Decree)",
+    "category_id": 1
+  },
+  {
+    "id": "angels",
+    "name_en": "Angels",
+    "category_id": 1
+  },
+  {
+    "id": "jinn",
+    "name_en": "Jinn",
+    "category_id": 15
+  },
+  {
+    "id": "magic-and-evil-eye",
+    "name_en": "Magic and Evil Eye",
+    "category_id": 15
+  },
+  {
+    "id": "salah",
+    "name_en": "Salah (Prayer)",
+    "category_id": 2
+  },
+  {
+    "id": "zakat",
+    "name_en": "Zakat",
+    "category_id": 2
+  },
+  {
+    "id": "sawm",
+    "name_en": "Sawm (Fasting)",
+    "category_id": 2
+  },
+  {
+    "id": "hajj",
+    "name_en": "Hajj",
+    "category_id": 2
+  },
+  {
+    "id": "umrah",
+    "name_en": "Umrah",
+    "category_id": 2
+  },
+  {
+    "id": "tahajjud",
+    "name_en": "Tahajjud",
+    "category_id": 2
+  },
+  {
+    "id": "witr",
+    "name_en": "Witr Prayer",
+    "category_id": 2
+  },
+  {
+    "id": "wudu",
+    "name_en": "Wudu",
+    "category_id": 2
+  },
+  {
+    "id": "ghusl",
+    "name_en": "Ghusl",
+    "category_id": 2
+  },
+  {
+    "id": "adhan",
+    "name_en": "Adhan",
+    "category_id": 2
+  },
+  {
+    "id": "qiblah",
+    "name_en": "Qiblah",
+    "category_id": 2
+  },
+  {
+    "id": "ramadan",
+    "name_en": "Ramadan",
+    "category_id": 2
+  },
+  {
+    "id": "eid",
+    "name_en": "Eid",
+    "category_id": 2
+  },
+  {
+    "id": "friday-prayer",
+    "name_en": "Friday Prayer",
+    "category_id": 2
+  },
+  {
+    "id": "dhikr",
+    "name_en": "Dhikr",
+    "category_id": 2
+  },
+  {
+    "id": "dua",
+    "name_en": "Dua (Supplication)",
+    "category_id": 20
+  },
+  {
+    "id": "quran-recitation",
+    "name_en": "Quran Recitation",
+    "category_id": 2
+  },
+  {
+    "id": "niyyah",
+    "name_en": "Niyyah (Intention)",
+    "category_id": 3
+  },
+  {
+    "id": "honesty",
+    "name_en": "Honesty and Truthfulness",
+    "category_id": 3
+  },
+  {
+    "id": "patience",
+    "name_en": "Patience (Sabr)",
+    "category_id": 3
+  },
+  {
+    "id": "gratitude",
+    "name_en": "Gratitude (Shukr)",
+    "category_id": 3
+  },
+  {
+    "id": "humility",
+    "name_en": "Humility (Tawadu)",
+    "category_id": 3
+  },
+  {
+    "id": "generosity",
+    "name_en": "Generosity",
+    "category_id": 3
+  },
+  {
+    "id": "anger",
+    "name_en": "Anger Management",
+    "category_id": 3
+  },
+  {
+    "id": "backbiting",
+    "name_en": "Backbiting and Slander",
+    "category_id": 12
+  },
+  {
+    "id": "lying",
+    "name_en": "Lying",
+    "category_id": 12
+  },
+  {
+    "id": "jealousy",
+    "name_en": "Jealousy and Envy",
+    "category_id": 12
+  },
+  {
+    "id": "repentance",
+    "name_en": "Repentance (Tawbah)",
+    "category_id": 3
+  },
+  {
+    "id": "ikhlas",
+    "name_en": "Sincerity (Ikhlas)",
+    "category_id": 13
+  },
+  {
+    "id": "tawakkul",
+    "name_en": "Tawakkul (Reliance on Allah)",
+    "category_id": 13
+  },
+  {
+    "id": "zuhd",
+    "name_en": "Zuhd (Asceticism)",
+    "category_id": 13
+  },
+  {
+    "id": "knowledge",
+    "name_en": "Islamic Knowledge",
+    "category_id": 4
+  },
+  {
+    "id": "scholars",
+    "name_en": "Scholars and Teachers",
+    "category_id": 4
+  },
+  {
+    "id": "quran-sciences",
+    "name_en": "Quran Sciences",
+    "category_id": 4
+  },
+  {
+    "id": "hadith-sciences",
+    "name_en": "Hadith Sciences",
+    "category_id": 4
+  },
+  {
+    "id": "marriage",
+    "name_en": "Marriage",
+    "category_id": 5
+  },
+  {
+    "id": "divorce",
+    "name_en": "Divorce",
+    "category_id": 5
+  },
+  {
+    "id": "parenting",
+    "name_en": "Parenting",
+    "category_id": 5
+  },
+  {
+    "id": "parents-rights",
+    "name_en": "Rights of Parents",
+    "category_id": 5
+  },
+  {
+    "id": "women",
+    "name_en": "Women in Islam",
+    "category_id": 5
+  },
+  {
+    "id": "orphans",
+    "name_en": "Orphans",
+    "category_id": 5
+  },
+  {
+    "id": "brotherhood",
+    "name_en": "Brotherhood",
+    "category_id": 5
+  },
+  {
+    "id": "trade",
+    "name_en": "Trade and Commerce",
+    "category_id": 6
+  },
+  {
+    "id": "riba",
+    "name_en": "Riba (Usury)",
+    "category_id": 6
+  },
+  {
+    "id": "charity",
+    "name_en": "Sadaqah (Charity)",
+    "category_id": 6
+  },
+  {
+    "id": "waqf",
+    "name_en": "Waqf (Endowment)",
+    "category_id": 6
+  },
+  {
+    "id": "inheritance",
+    "name_en": "Inheritance",
+    "category_id": 6
+  },
+  {
+    "id": "halal-food",
+    "name_en": "Halal Food",
+    "category_id": 7
+  },
+  {
+    "id": "haram-food",
+    "name_en": "Haram Food",
+    "category_id": 7
+  },
+  {
+    "id": "slaughter",
+    "name_en": "Islamic Slaughter",
+    "category_id": 7
+  },
+  {
+    "id": "alcohol",
+    "name_en": "Alcohol and Intoxicants",
+    "category_id": 12
+  },
+  {
+    "id": "death",
+    "name_en": "Death",
+    "category_id": 8
+  },
+  {
+    "id": "funeral",
+    "name_en": "Funeral Rites",
+    "category_id": 8
+  },
+  {
+    "id": "grave",
+    "name_en": "The Grave",
+    "category_id": 8
+  },
+  {
+    "id": "barzakh",
+    "name_en": "Barzakh",
+    "category_id": 8
+  },
+  {
+    "id": "resurrection",
+    "name_en": "Resurrection",
+    "category_id": 8
+  },
+  {
+    "id": "day-of-judgment",
+    "name_en": "Day of Judgment",
+    "category_id": 8
+  },
+  {
+    "id": "paradise",
+    "name_en": "Paradise (Jannah)",
+    "category_id": 8
+  },
+  {
+    "id": "hellfire",
+    "name_en": "Hellfire (Jahannam)",
+    "category_id": 8
+  },
+  {
+    "id": "intercession",
+    "name_en": "Intercession (Shafaah)",
+    "category_id": 8
+  },
+  {
+    "id": "signs-of-qiyamah",
+    "name_en": "Signs of the Last Hour",
+    "category_id": 8
+  },
+  {
+    "id": "prophet-muhammad",
+    "name_en": "Prophet Muhammad ☪",
+    "category_id": 9
+  },
+  {
+    "id": "prophet-ibrahim",
+    "name_en": "Prophet Ibrahim",
+    "category_id": 9
+  },
+  {
+    "id": "prophet-musa",
+    "name_en": "Prophet Musa",
+    "category_id": 9
+  },
+  {
+    "id": "prophet-isa",
+    "name_en": "Prophet Isa",
+    "category_id": 9
+  },
+  {
+    "id": "prophets-stories",
+    "name_en": "Stories of Prophets",
+    "category_id": 9
+  },
+  {
+    "id": "seerah",
+    "name_en": "Seerah (Prophetic Biography)",
+    "category_id": 10
+  },
+  {
+    "id": "companions",
+    "name_en": "Companions (Sahabah)",
+    "category_id": 10
+  },
+  {
+    "id": "hijrah",
+    "name_en": "Hijrah",
+    "category_id": 10
+  },
+  {
+    "id": "battles",
+    "name_en": "Battles and Expeditions",
+    "category_id": 10
+  },
+  {
+    "id": "caliphs",
+    "name_en": "The Rightly-Guided Caliphs",
+    "category_id": 10
+  },
+  {
+    "id": "family-of-prophet",
+    "name_en": "Family of the Prophet",
+    "category_id": 10
+  },
+  {
+    "id": "prophetic-medicine",
+    "name_en": "Prophetic Medicine",
+    "category_id": 11
+  },
+  {
+    "id": "ruqyah",
+    "name_en": "Ruqyah",
+    "category_id": 11
+  },
+  {
+    "id": "major-sins",
+    "name_en": "Major Sins",
+    "category_id": 12
+  },
+  {
+    "id": "hypocrisy",
+    "name_en": "Hypocrisy (Nifaq)",
+    "category_id": 12
+  },
+  {
+    "id": "leadership",
+    "name_en": "Leadership and Governance",
+    "category_id": 14
+  },
+  {
+    "id": "justice",
+    "name_en": "Justice",
+    "category_id": 14
+  },
+  {
+    "id": "quran",
+    "name_en": "Quran",
+    "category_id": 4
+  },
+  {
+    "id": "tafsir",
+    "name_en": "Tafsir",
+    "category_id": 4
+  },
+  {
+    "id": "asbab-nuzul",
+    "name_en": "Asbab al-Nuzul",
+    "category_id": 4
+  },
+  {
+    "id": "time-management",
+    "name_en": "Time and Its Blessings",
+    "category_id": 3
+  },
+  {
+    "id": "environment",
+    "name_en": "Environment and Stewardship",
+    "category_id": 16
+  },
+  {
+    "id": "animals",
+    "name_en": "Animals",
+    "category_id": 16
+  },
+  {
+    "id": "dawah",
+    "name_en": "Dawah",
+    "category_id": 19
+  },
+  {
+    "id": "unity-of-ummah",
+    "name_en": "Unity of the Ummah",
+    "category_id": 14
+  },
+  {
+    "id": "dreams",
+    "name_en": "Dreams",
+    "category_id": 15
+  },
+  {
+    "id": "ar-rahman",
+    "name_en": "Al-Rahman (Most Merciful)",
+    "category_id": 1
+  },
+  {
+    "id": "bismallah",
+    "name_en": "Bismillah",
+    "category_id": 2
+  },
+  {
+    "id": "basmalah",
+    "name_en": "Basmalah",
+    "category_id": 2
+  },
+  {
+    "id": "seerah-mecca",
+    "name_en": "Seerah: Meccan Period",
+    "category_id": 10
+  },
+  {
+    "id": "seerah-medina",
+    "name_en": "Seerah: Medinan Period",
+    "category_id": 10
+  },
+  {
+    "id": "tawbah",
+    "name_en": "Tawbah (Repentance)",
+    "category_id": 3
+  },
+  {
+    "id": "istighfar",
+    "name_en": "Istighfar",
+    "category_id": 3
+  },
+  {
+    "id": "love-of-prophet",
+    "name_en": "Love of the Prophet",
+    "category_id": 9
+  },
+  {
+    "id": "following-sunnah",
+    "name_en": "Following the Sunnah",
+    "category_id": 17
+  },
+  {
+    "id": "five-pillars",
+    "name_en": "Five Pillars of Islam",
+    "category_id": 17
+  },
+  {
+    "id": "six-pillars-iman",
+    "name_en": "Six Pillars of Iman",
+    "category_id": 1
+  },
+  {
+    "id": "shirk-lesser",
+    "name_en": "Lesser Shirk",
+    "category_id": 12
+  },
+  {
+    "id": "innovations",
+    "name_en": "Religious Innovations",
+    "category_id": 1
+  },
+  {
+    "id": "dreams-prophetic",
+    "name_en": "Prophetic Dreams",
+    "category_id": 15
+  },
+  {
+    "id": "evil-eye",
+    "name_en": "Evil Eye (Ayn)",
+    "category_id": 15
+  },
+  {
+    "id": "envy",
+    "name_en": "Envy (Hasad)",
+    "category_id": 12
+  },
+  {
+    "id": "sadaqah-jariyah",
+    "name_en": "Sadaqah Jariyah",
+    "category_id": 6
+  },
+  {
+    "id": "neighbors",
+    "name_en": "Neighbors and Community",
+    "category_id": 5
+  },
+  {
+    "id": "modesty",
+    "name_en": "Modesty and Hayaa",
+    "category_id": 3
+  },
+  {
+    "id": "dress-code",
+    "name_en": "Islamic Dress Code",
+    "category_id": 18
+  },
+  {
+    "id": "night-prayer",
+    "name_en": "Night Prayer (Qiyam al-Layl)",
+    "category_id": 2
+  },
+  {
+    "id": "fasting-ramadan",
+    "name_en": "Fasting in Ramadan",
+    "category_id": 2
+  },
+  {
+    "id": "laylat-al-qadr",
+    "name_en": "Laylat al-Qadr",
+    "category_id": 2
+  },
+  {
+    "id": "itikaf",
+    "name_en": "Itikaf",
+    "category_id": 2
+  },
+  {
+    "id": "prayer-times",
+    "name_en": "Prayer Times",
+    "category_id": 2
+  },
+  {
+    "id": "congregational-prayer",
+    "name_en": "Congregational Prayer",
+    "category_id": 2
+  },
+  {
+    "id": "mosque",
+    "name_en": "Mosque (Masjid)",
+    "category_id": 2
+  },
+  {
+    "id": "purification-water",
+    "name_en": "Purification with Water",
+    "category_id": 2
+  },
+  {
+    "id": "hajj-manasik",
+    "name_en": "Hajj Rituals (Manasik)",
+    "category_id": 2
+  },
+  {
+    "id": "zakah-al-fitr",
+    "name_en": "Zakat al-Fitr",
+    "category_id": 2
+  },
+  {
+    "id": "sacrifice-udhiyah",
+    "name_en": "Sacrifice (Udhiyah)",
+    "category_id": 2
+  },
+  {
+    "id": "aqiqah",
+    "name_en": "Aqiqah",
+    "category_id": 5
+  },
+  {
+    "id": "circumcision",
+    "name_en": "Circumcision (Khitan)",
+    "category_id": 5
+  },
+  {
+    "id": "visiting-sick",
+    "name_en": "Visiting the Sick",
+    "category_id": 5
+  },
+  {
+    "id": "rights-of-muslims",
+    "name_en": "Rights of Muslims",
+    "category_id": 5
+  },
+  {
+    "id": "greeting-salam",
+    "name_en": "Islamic Greeting (Salam)",
+    "category_id": 3
+  },
+  {
+    "id": "shaking-hands",
+    "name_en": "Shaking Hands",
+    "category_id": 3
+  },
+  {
+    "id": "supplication-etiquette",
+    "name_en": "Supplication Etiquette",
+    "category_id": 20
+  },
+  {
+    "id": "morning-adhkar",
+    "name_en": "Morning Adhkar",
+    "category_id": 20
+  },
+  {
+    "id": "evening-adhkar",
+    "name_en": "Evening Adhkar",
+    "category_id": 20
+  },
+  {
+    "id": "travel-dua",
+    "name_en": "Travel Supplication",
+    "category_id": 20
+  },
+  {
+    "id": "eating-dua",
+    "name_en": "Dua Before/After Eating",
+    "category_id": 20
+  },
+  {
+    "id": "sleeping-dua",
+    "name_en": "Dua Before Sleeping",
+    "category_id": 20
+  },
+  {
+    "id": "entering-home-dua",
+    "name_en": "Dua When Entering Home",
+    "category_id": 20
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "collection": "ibn-majah",
+  "book": "009",
+  "total": 171,
+  "verified": 2012,
+  "flags": [
+    {
+      "cn": 1928,
+      "n": 1928,
+      "flags": [
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1929,
+      "n": 1929,
+      "flags": [
+        "MISSING_MATN_AR"
+      ]
+    },
+    {
+      "cn": 1955,
+      "n": 1955,
+      "flags": [
+        "MISSING_IWH_EN",
+        "MISSING_MATN_AR"
+      ]
+    }
+  ]
+}

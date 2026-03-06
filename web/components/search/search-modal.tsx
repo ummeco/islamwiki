@@ -1,10 +1,13 @@
 'use client'
 
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState, useSyncExternalStore } from 'react'
+import { createPortal } from 'react-dom'
 import { SearchInput } from './search-input'
 
 export function SearchModal() {
   const [open, setOpen] = useState(false)
+  // SSR-safe mount detection — avoids setState-in-effect antipattern
+  const mounted = useSyncExternalStore(() => () => {}, () => true, () => false)
 
   const handleOpen = useCallback(() => setOpen(true), [])
   const handleClose = useCallback(() => setOpen(false), [])
@@ -24,13 +27,38 @@ export function SearchModal() {
 
   // Lock body scroll when open
   useEffect(() => {
-    if (open) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = ''
-    }
+    document.body.style.overflow = open ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
   }, [open])
+
+  const overlay = open ? (
+    <div
+      className="fixed inset-0 z-[9999] animate-fade-in bg-black/95 backdrop-blur-sm"
+      onClick={(e) => { if (e.target === e.currentTarget) handleClose() }}
+    >
+      {/* ESC hint */}
+      <div className="absolute top-4 right-4">
+        <kbd className="rounded border border-white/20 bg-white/10 px-2 py-0.5 font-mono text-xs text-white/50">
+          ESC
+        </kbd>
+      </div>
+
+      {/* Search panel */}
+      <div className="absolute inset-x-0 top-[15vh] mx-auto w-full max-w-2xl px-4">
+        <p className="mb-3 text-center text-xs font-medium tracking-widest text-white/30 uppercase">
+          Islam.wiki Search
+        </p>
+        <SearchInput
+          placeholder="Search Quran, Hadith, scholars, topics..."
+          autoFocus
+          onNavigate={handleClose}
+        />
+        <p className="mt-3 text-center text-xs text-white/25">
+          Press <kbd className="rounded border border-white/20 bg-white/10 px-1.5 py-0.5 font-mono text-[10px]">ESC</kbd> or click outside to close
+        </p>
+      </div>
+    </div>
+  ) : null
 
   return (
     <>
@@ -50,27 +78,8 @@ export function SearchModal() {
         </kbd>
       </button>
 
-      {/* Modal overlay */}
-      {open && (
-        <div
-          className="fixed inset-0 z-[200] bg-black/80 backdrop-blur-md"
-          onClick={(e) => { if (e.target === e.currentTarget) handleClose() }}
-        >
-          {/* Close hint */}
-          <div className="absolute top-4 right-4">
-            <kbd className="rounded border border-white/20 bg-white/10 px-2 py-0.5 font-mono text-xs text-white/50">
-              ESC
-            </kbd>
-          </div>
-          <div className="mx-auto w-full max-w-2xl px-4 pt-[12vh]">
-            <SearchInput
-              placeholder="Search Quran, Hadith, scholars, topics..."
-              autoFocus
-              onNavigate={handleClose}
-            />
-          </div>
-        </div>
-      )}
+      {/* Portal — renders at document.body, escapes header stacking context */}
+      {mounted && createPortal(overlay, document.body)}
     </>
   )
 }

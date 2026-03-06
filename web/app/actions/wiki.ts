@@ -15,7 +15,7 @@ export async function submitEdit(
 ) {
   const session = await getSession()
   if (!session.isLoggedIn) {
-    redirect('/signin')
+    redirect('/account')
   }
 
   const contentType = formData.get('content_type') as string
