@@ -2301,7 +2301,9 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "sin"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -2405,7 +2407,11 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting",
+      "funeral",
+      "prophet-muhammad"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -2562,7 +2568,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

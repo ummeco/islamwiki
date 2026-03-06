@@ -1000,7 +1000,9 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "wealth"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -1481,7 +1483,12 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "hajj",
+      "prophet",
+      "wealth",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -2645,7 +2652,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -4299,7 +4309,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "health"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -7825,7 +7838,9 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "seerah"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -9529,7 +9544,11 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "manners",
+      "prophet",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

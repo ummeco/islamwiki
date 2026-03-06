@@ -1,0 +1,31 @@
+# The Siege of Taif
+
+## The Unconquered City
+
+After the Battle of Hunayn routed the Hawazin and Thaqif confederacy, the Thaqif — who had been the dominant force at Taif, one of the most prosperous and defensible cities in the Hijaz — retreated inside their fortified city and closed the gates. Taif was unusual in the Arabian landscape: a mountain city at altitude, with thick walls, abundant water and agriculture, and a population that had strong weapons and the will to use them. The Thaqif had been among the most implacable opponents of Islam; it was in Taif that the Prophet ﷺ had been pelted with stones and blood had flowed to his ankles — the most physically painful rejection of his prophetic career, years earlier.
+
+The Prophet ﷺ marched the Muslim army to Taif in Shawwal 8 AH and laid siege. The city's defenses proved formidable. The Thaqif used catapults and fired arrows and molten iron from the walls. Several companions were killed. The Muslim army attempted to advance under hide-covered shields (the dabbabah, a protective structure used for advancing under fire), but the Thaqif dropped fire from the walls that destroyed the structure and forced a retreat. The Prophet ﷺ had the orchards and vineyards surrounding Taif cut down — a pressure tactic intended to threaten the city's economic base and force a surrender.
+
+## The Companions' Initiative
+
+During the siege, some companions proposed that the Prophet ﷺ invoke a curse against the Thaqif — the same way he had invoked the curse against the confederate forces in earlier battles. The Prophet ﷺ declined. He instead made du'a: "O Allah, guide the Thaqif and bring them to us." He knew that the Thaqif were a people of standing and capability, and that their Islam would be a benefit to the community. He prayed for their guidance rather than their destruction, even as they were shooting his companions from the walls.
+
+The Prophet ﷺ also offered freedom to any slave of the Thaqif who came down from the walls and joined the Muslim community. Several enslaved people descended and were freed, providing the Muslim army with intelligence about the condition inside the city. The siege tactic that could not be achieved militarily — the complete encirclement and starvation of Taif — was beyond the capabilities of an army that needed to return to Medina within a practical timeframe.
+
+## The Withdrawal and Its Aftermath
+
+After approximately fifteen to twenty-five days (the narrations vary), the Prophet ﷺ withdrew the siege. The companions were surprised. Umar ibn al-Khattab asked whether they were leaving without conquering Taif. The Prophet ﷺ said: "Then engage it in battle tomorrow." The companions prepared, and the Prophet ﷺ told them they would advance in the morning. Then he saw their resolve wavering slightly, and said that they would depart. He announced the departure, and the companions — who had been hoping for the continuation of the siege — immediately began to move. The Prophet ﷺ smiled at how quickly they had accepted the order they had resisted a moment before.
+
+The withdrawal from Taif was not a defeat — it was a strategic reading. The Thaqif were contained. Their allies, the Hawazin, had been utterly routed at Hunayn. The surrounding territory was Muslim. Taif could not trade, could not expand, could not receive reinforcements. The Prophet ﷺ understood that time was on the Muslim community's side.
+
+His reading was correct. Within months, a delegation from the Thaqif arrived in Medina. They were among the last major tribal delegations of the Year of Delegations (9 AH), and they arrived to negotiate terms. The negotiation itself is instructive: the Thaqif tried to secure exemptions from various Islamic obligations — they asked to keep their idol al-Lat for three more years, then two, then one, then one month. Each request was refused. They asked to be exempted from the prayer; the Prophet ﷺ refused, saying: "There is no good in a religion without prayer." Eventually they accepted Islam without conditions — all of them, the entire city — and the Prophet ﷺ sent Abu Sufyan and Mughirah ibn Shu'ba to destroy al-Lat. The idol the Prophet ﷺ had been pelted for condemning in Taif years earlier was demolished by Taifi hands in full public view.
+
+## What the Siege Teaches
+
+The Siege of Taif contains one of the more counterintuitive decisions in the seerah's military history: a siege withdrawn before it succeeded, against a city that had thrown stones at the Prophet ﷺ himself, followed by a patient wait that ended in the complete and voluntary submission of the city without further violence. The Prophet's ﷺ prayer during the siege — "guide the Thaqif and bring them to us" — was answered not in the weeks of the siege but in the months after the withdrawal. The patience of the Prophet ﷺ in not forcing the issue, in not invoking a curse, in reading the strategic moment correctly, resulted in a better outcome than any military success at the walls would have produced.
+
+## The Strategic Context in the Seerah
+
+The Siege of Taif sits between the Battle of Hunayn and the Year of Delegations in the seerah's narrative arc. The three events form a connected sequence: Hunayn broke the last confederacy that could challenge the Muslim community militarily; Taif's resistance was contained without destruction; and the Year of Delegations brought the unconquered holding — and dozens of other tribes — voluntarily into Islam. The Prophet's ﷺ decision at Taif to withdraw and wait rather than press a costly and uncertain siege was the link that made the Year of Delegations possible. A Taif destroyed by siege would have been a lesson in Muslim military power. A Taif that submitted voluntarily, after watching its strategic options narrow, was a lesson in something more powerful: the correctness of the Prophet's ﷺ judgment and the wisdom of accepting Islam on its own terms rather than waiting until there was no choice. That is the lesson the Year of Delegations carried across Arabia, and it began with the Prophet's ﷺ prayer from outside the walls of Taif.
+
+**Sources:** Sahih al-Bukhari (Kitab al-Maghazi); Sahih Muslim; Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Kathir, *al-Bidayah wan-Nihayah*; Ibn Sa'd, *al-Tabaqat al-Kubra*

@@ -1,0 +1,33 @@
+# The Expedition of Usamah ibn Zayd
+
+## The Youngest Commander
+
+In Safar 11 AH — the final month of the Prophet's ﷺ life — he gave his last military command: an expedition to the Syrian frontier under the command of Usamah ibn Zayd ibn Haritha. Usamah was approximately seventeen to twenty years old at the time of the appointment (the narrations vary on his exact age). He was the son of Zayd ibn Haritha — the Prophet's ﷺ beloved freed slave and adopted son who had been killed at the Battle of Mutah — and of Umm Ayman, the Abyssinian woman who had nursed the Prophet ﷺ and whom he described as "the remaining one of my family." Usamah had grown up in the Prophet's ﷺ household and was among the most beloved young men in the Muslim community.
+
+The expedition was aimed at the Byzantine-allied region of Ubna in southern Syria — near Mu'tah, the site of his father's martyrdom. The Prophet ﷺ said that Usamah's appointment was in honor of Zayd and to avenge the companions who had fallen at Mutah. The army assembled included many of the senior companions: Abu Bakr, Umar, Abu Ubayda ibn al-Jarrah, and others of the generation who had fought at Badr and Uhud. Some companions murmured about the youth of the commander, questioning whether a man of Usamah's age was appropriate to lead those of Abu Bakr's and Umar's standing.
+
+## The Prophet's Defense of Usamah
+
+The Prophet ﷺ addressed the murmuring directly and forcefully. He came out in his final illness with a cloth wrapped around his head and said: "O people, complete the dispatch of Usamah's army. If you criticize his leadership, you criticized the leadership of his father before him. By Allah, he was worthy of leadership, and by Allah, his son is worthy of leadership after him." He insisted that the army march and repeated it on subsequent days, even as his illness worsened. The army assembled at al-Jurf, outside Medina, and waited.
+
+The Prophet's ﷺ illness deteriorated rapidly in those days. The army at al-Jurf remained camped, with Usamah's commanders returning to Medina to check on the Prophet's ﷺ condition. Some companions felt it was wrong to march when the Prophet ﷺ was gravely ill. Others understood that the Prophet ﷺ had commanded the march and it should proceed. The deliberation was not resolved before the Prophet ﷺ died.
+
+## The Expedition Under Abu Bakr
+
+When Abu Bakr became caliph after the Prophet's ﷺ death, the Arabian Peninsula was in crisis: tribes were leaving Islam in the Ridda (apostasy) movements, false prophets had appeared, and the political cohesion of the Muslim community was threatened from multiple directions. Advisors told Abu Bakr to recall Usamah's expedition and use the army to deal with the apostasy crisis — that sending a major military force to Syria when Arabia itself was in turmoil was an error of priorities.
+
+Abu Bakr refused. He said: "By Allah, I will not untie what the Prophet of Allah tied." The expedition that the Prophet ﷺ had commanded would march, regardless of the internal crisis. He sent the army off — with some modifications allowing certain key companions to remain for the defense of Medina — and Usamah's force marched north, executed its mission in the Syrian region, and returned to Medina without significant loss approximately forty days after departure.
+
+The expedition's success had two effects: it delivered the military strike the Prophet ﷺ had ordered, and it sent an unmistakable signal to the tribal leaders watching the new Muslim state. The Ridda tribal leaders had calculated that the Muslim community, convulsed by the Prophet's ﷺ death and facing internal apostasy, would be unable to project force externally. When Usamah's army marched despite everything, those calculations were disrupted. The tribes reportedly said to one another: "If the Muslims had not been strong, they would not have sent such an army while they are in the situation they are in." Abu Bakr's insistence on completing the Prophet's ﷺ last order was itself a political act that strengthened the Muslim community's position at its most vulnerable moment.
+
+## The Principle of Command
+
+The expedition of Usamah is studied in Islamic political theory as an example of the obligation to fulfill prophetic commands regardless of subsequent circumstances. Abu Bakr's refusal to countermand the Prophet's ﷺ appointment — even at a moment of genuine crisis, even when senior companions argued for reconsideration — established that the Prophet's ﷺ command carried authority that outlasted the political convenience of the moment. The principle that commands issued by the Prophet ﷺ were not subject to revocation on grounds of changed circumstances was a foundational stance of Abu Bakr's caliphate and shaped early Islamic jurisprudence on the binding nature of the Sunnah.
+
+Usamah ibn Zayd lived until approximately 54 AH, spending much of his later life in Medina, known as a narrator of hadith and a man of the Prophet's ﷺ household. His expedition — the youngest commander of the Prophet's ﷺ career, executing the Prophet's ﷺ last military order — closed the seerah's military history in a way that was entirely characteristic of the Prophet ﷺ: honoring the son of a martyred companion, keeping faith with the Syrian frontier that Mutah had opened, and leaving a command whose execution would strengthen the community even after his death.
+
+## Usamah's Command and Meritocracy
+
+The appointment of the seventeen-to-twenty-year-old Usamah to command an army that included Abu Bakr and Umar was not accidental — it was consistent with how the Prophet ﷺ made appointments throughout his career. He had previously appointed twenty-one-year-old Attab ibn Asid as governor of Mecca after the Conquest. He had appointed Muadh ibn Jabal and Abu Musa al-Ash'ari — both relatively young — as governors of Yemen. He had defended his appointment of Usamah's father Zayd as commander at Mutah when others questioned it. The Prophet's ﷺ principle of appointment was competence and character, not age or tribal seniority — a principle that the companions understood intellectually but sometimes found difficult to accept in practice when the appointment directly challenged their own seniority. The defense of Usamah's command, made from a sickbed in the final days of the Prophet's ﷺ life, was the last public teaching of the principle he had applied consistently across twenty-three years of leadership.
+
+**Sources:** Sahih al-Bukhari (Kitab al-Maghazi, Kitab al-Jana'iz); Sahih Muslim; Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Kathir, *al-Bidayah wan-Nihayah*; Ibn Sa'd, *al-Tabaqat al-Kubra*

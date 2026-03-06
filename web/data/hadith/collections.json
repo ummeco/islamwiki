@@ -6,7 +6,10 @@
     "name_ar": "صحيح البخاري",
     "author_en": "Imam al-Bukhari",
     "author_ar": "الإمام البخاري",
-    "total_hadiths": 7589
+    "total_hadiths": 7589,
+    "author_name_en": "Imam al-Bukhari",
+    "total_hadith": 7589,
+    "total_books": 98
   },
   {
     "id": 2,
@@ -15,7 +18,10 @@
     "name_ar": "صحيح مسلم",
     "author_en": "Imam Muslim",
     "author_ar": "الإمام مسلم",
-    "total_hadiths": 7563
+    "total_hadiths": 7563,
+    "author_name_en": "Imam Muslim",
+    "total_hadith": 7563,
+    "total_books": 57
   },
   {
     "id": 3,
@@ -24,7 +30,10 @@
     "name_ar": "سنن أبي داود",
     "author_en": "Abu Dawud al-Sijistani",
     "author_ar": "أبو داود السجستاني",
-    "total_hadiths": 5274
+    "total_hadiths": 5274,
+    "author_name_en": "Abu Dawud al-Sijistani",
+    "total_hadith": 5274,
+    "total_books": 43
   },
   {
     "id": 4,
@@ -33,7 +42,10 @@
     "name_ar": "جامع الترمذي",
     "author_en": "Imam al-Tirmidhi",
     "author_ar": "الإمام الترمذي",
-    "total_hadiths": 3998
+    "total_hadiths": 3998,
+    "author_name_en": "Imam al-Tirmidhi",
+    "total_hadith": 3998,
+    "total_books": 49
   },
   {
     "id": 5,
@@ -42,7 +54,10 @@
     "name_ar": "سنن النسائي",
     "author_en": "Imam al-Nasa'i",
     "author_ar": "الإمام النسائي",
-    "total_hadiths": 5765
+    "total_hadiths": 5765,
+    "author_name_en": "Imam al-Nasa'i",
+    "total_hadith": 5765,
+    "total_books": 52
   },
   {
     "id": 6,
@@ -51,7 +66,10 @@
     "name_ar": "سنن ابن ماجه",
     "author_en": "Ibn Majah al-Qazwini",
     "author_ar": "ابن ماجه القزويني",
-    "total_hadiths": 4343
+    "total_hadiths": 4343,
+    "author_name_en": "Ibn Majah al-Qazwini",
+    "total_hadith": 4343,
+    "total_books": 37
   },
   {
     "id": 7,
@@ -60,7 +78,10 @@
     "name_ar": "موطأ الإمام مالك",
     "author_en": "Imam Malik ibn Anas",
     "author_ar": "الإمام مالك بن أنس",
-    "total_hadiths": 1858
+    "total_hadiths": 1858,
+    "author_name_en": "Imam Malik ibn Anas",
+    "total_hadith": 1858,
+    "total_books": 61
   },
   {
     "id": 8,
@@ -69,7 +90,10 @@
     "name_ar": "مسند أحمد",
     "author_en": "Imam Ahmad ibn Hanbal",
     "author_ar": "الإمام أحمد بن حنبل",
-    "total_hadiths": 26363
+    "total_hadiths": 26363,
+    "author_name_en": "Imam Ahmad ibn Hanbal",
+    "total_hadith": 26363,
+    "total_books": 49
   },
   {
     "id": 9,
@@ -80,7 +104,10 @@
     "author_ar": "الإمام الدارمي",
     "total_hadiths": 0,
     "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry"
+    "gap_note": "Not available on CDN — Phase 11 retry",
+    "author_name_en": "Imam al-Darimi",
+    "total_hadith": 0,
+    "total_books": 23
   },
   {
     "id": 10,
@@ -91,7 +118,10 @@
     "author_ar": "الإمام النووي",
     "total_hadiths": 0,
     "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry"
+    "gap_note": "Not available on CDN — Phase 11 retry",
+    "author_name_en": "Imam al-Nawawi",
+    "total_hadith": 0,
+    "total_books": 19
   },
   {
     "id": 11,
@@ -102,7 +132,10 @@
     "author_ar": "ابن حجر العسقلاني",
     "total_hadiths": 0,
     "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry"
+    "gap_note": "Not available on CDN — Phase 11 retry",
+    "author_name_en": "Ibn Hajar al-Asqalani",
+    "total_hadith": 0,
+    "total_books": 16
   },
   {
     "id": 12,
@@ -113,6 +146,9 @@
     "author_ar": "الإمام الترمذي",
     "total_hadiths": 0,
     "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry"
+    "gap_note": "Not available on CDN — Phase 11 retry",
+    "author_name_en": "Imam al-Tirmidhi",
+    "total_hadith": 0,
+    "total_books": 56
   }
 ]

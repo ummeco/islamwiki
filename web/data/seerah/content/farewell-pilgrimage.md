@@ -1,0 +1,35 @@
+# The Farewell Pilgrimage (Hajjat al-Wada')
+
+## The Only Hajj of the Prophet
+
+The Prophet ﷺ performed Hajj only once — in Dhul-Hijjah 10 AH, the year before his death. He had performed Umrah several times during the Medinan period but had not performed Hajj since the Hijra, as Mecca had been under Qurayshi control until 8 AH and the Treaty of Hudaybiyyah had not included access for Hajj. When the announcement of the Hajj went out in Dhul-Qa'dah 10 AH, the Muslim community gathered in numbers that the narrations describe as extraordinary: estimates in the sources range from 90,000 to 124,000 — essentially the entire Muslim community of Arabia, gathered to perform Hajj for the first time under Muslim governance and to accompany the Prophet ﷺ.
+
+The Prophet ﷺ left Medina for Mecca with this enormous company, performing every rite of Hajj in the manner that became the permanent model: the ihram donned at the miqat, the talbiyah recited throughout, the Kaaba circumambulated (tawaf), the walking between Safa and Marwah (sa'y), the standing at Arafat, the night at Muzdalifah, the stoning at Mina, the sacrifice, the shaving. At each stage the Prophet ﷺ announced: "Take your Hajj rites from me — perhaps I will not meet you after this year." The companions understood that this was a farewell.
+
+## The Day of Arafat
+
+The standing at Arafat on the ninth of Dhul-Hijjah is the heart of the Hajj — the day when the Prophet ﷺ delivered the Farewell Sermon (covered in a separate entry). It was at Arafat that the final verse of Quranic legislation was revealed: "Today I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion." (Surah al-Ma'idah 5:3) When Abu Bakr heard this verse, he wept — understanding that the perfection of the religion implied the completion of the Prophet's ﷺ mission and, with it, the nearness of his death.
+
+The scene at Arafat that year — over 100,000 Muslims gathered on the plain, the Prophet ﷺ on his she-camel al-Qaswa, the sun setting over the plain while the revelation of Quranic completion descended — is one of the most described scenes in Islamic history. It is the visual climax of the seerah: twenty-three years of revelation, from the first verse in the cave of Hira, arriving at its completion on the plain of Arafat, announced to the largest gathering in the Prophet's ﷺ lifetime.
+
+## The Rites as Model
+
+Every Muslim who performs Hajj traces their actions to the specific model the Prophet ﷺ established and demonstrated at this single Hajj. The Prophet ﷺ did not merely explain the Hajj rites theoretically — he performed each one, and his companions observed and narrated every step. When they asked about specific rites, he told them to follow his example. The jurisprudential basis of the entire Islamic institution of Hajj — its timing, sequence, the specific actions at each location, the supplications recited, the number of times each action is performed — traces directly to the narrations about what the Prophet ﷺ did on the Day of Arafat, at Muzdalifah, at Mina, and during the tawaf of the ninth and tenth of Dhul-Hijjah 10 AH.
+
+The Farewell Pilgrimage is therefore simultaneously a historical event and a living institution: every Muslim who performs Hajj today is walking the same route, performing the same actions, in the same sequence, as the Prophet ﷺ and his 100,000+ companions did in 10 AH. The pilgrim at Arafat on the ninth of Dhul-Hijjah, standing in the place where the Prophet ﷺ stood, is present at one of the most continuous acts of collective religious memory in human history.
+
+## The Journey from Medina
+
+The Prophet ﷺ departed from Medina on the twenty-fifth of Dhul-Qa'dah 10 AH, donning ihram at Dhul-Hulayfah — the miqat for the people of Medina, which remains the miqat today. The size of the gathering that had assembled around Medina was itself extraordinary: companions, their families, people who had traveled from across Arabia to perform Hajj with the Prophet ﷺ, tribes newly entered into Islam, and long-standing companions who had waited years for this opportunity. The road from Medina to Mecca, which had once been the dangerous route of the Hijra in the other direction, was now a procession of 100,000 pilgrims in a state of ihram.
+
+The Hajj rites performed at this pilgrimage were accompanied by constant instruction. At every point, the Prophet ﷺ demonstrated the action and explained it. When he performed the tawaf of arrival (tawaf al-qudum), the companions followed. When he ran between Safa and Marwah, the companions watched and asked questions about each step. When he entered the ihram, the type of Hajj he was performing became itself a matter of instruction: he had combined Umrah and Hajj in the tamattu' or qiran format — the narrations differ slightly — and his guidance about the permissibility of combining the two resolved a question that had been a matter of uncertainty in pre-Islamic practice. The Prophet's ﷺ continuous narration of what he was doing and why was the living transmission of the Hajj institution.
+
+## The Completion of the Mission
+
+The phrase in Surah al-Ma'idah 5:3 — "today I have perfected for you your religion" — carries enormous theological weight in Islamic tradition. The scholars of tafsir note that this verse was revealed on a Friday, the day of Arafah, a day doubly sacred. The revelation was not announcing a new commandment but a completion: the religion, meaning the body of revelation and the prophetic teaching, was now whole. Nothing remained to be revealed; nothing would be added after the Prophet ﷺ. Abu Bakr's weeping upon hearing the verse was, according to the narrations, because he understood its implication — that the completion of the mission meant the Prophet's ﷺ appointed time was near. The Farewell Pilgrimage is therefore the seerah's penultimate chapter: the mission completed, the community gathered in its fullest form, and the Prophet ﷺ himself providing the confirmation that it was finished.
+
+## A Living Connection to the Seerah
+
+The Farewell Pilgrimage is unique among the events of the seerah in that it is directly reproduced — not remembered, but reproduced — every year by millions of Muslims. The rituals of Hajj are not symbolic reenactments; they are the same actions performed in the same places. The standing at Arafat on the ninth of Dhul-Hijjah is the same standing the Prophet ﷺ and 100,000 companions performed in 10 AH. The stones cast at Mina are thrown in the same valley. The circling of the Kaaba follows the same path. This is the most direct form of seerah transmission available to Muslims: not reading about the Farewell Pilgrimage, but doing what the Prophet ﷺ did, in the same place, following the model he established and announced at every step. The Farewell Pilgrimage is the institutional legacy of the seerah made permanent in the bodies of those who perform it.
+
+**Sources:** Sahih al-Bukhari (Kitab al-Hajj, Kitab al-Maghazi); Sahih Muslim (Kitab al-Hajj); Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Kathir, *al-Bidayah wan-Nihayah*; Surah al-Ma'idah (5:3)

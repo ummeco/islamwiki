@@ -582,7 +582,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "cleanliness",
+      "sin"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -2944,7 +2948,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -2992,7 +2999,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -3040,7 +3050,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -4587,7 +4600,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -4997,7 +5014,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -5661,7 +5680,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "sin"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -6125,7 +6146,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "quran-recitation"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -6483,7 +6506,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "cleanliness",
+      "ethics"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -6581,7 +6608,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "cleanliness"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -7455,7 +7484,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -8745,7 +8776,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah"
+    ],
     "tags": [
       "bulugh-maram"
     ],

@@ -520,7 +520,13 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "tawbah",
+      "food-and-drink",
+      "prophet",
+      "wealth",
+      "sin"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah"
@@ -1934,7 +1940,11 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah"
@@ -4649,7 +4659,9 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "daif",
       "kutub-sittah"
@@ -4883,7 +4895,9 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah"

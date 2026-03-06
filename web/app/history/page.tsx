@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { getHistoryEvents } from '@/lib/data/seerah'
 import { formatIslamicDate } from '@/lib/dates/hijri'
 
@@ -19,9 +20,9 @@ export default function HistoryPage() {
           Major events in Islamic history from the era of the Rightly-Guided Caliphs onward —
           conquests, dynasties, scholars, battles, and the modern Muslim world.
           For the life of the Prophet ﷺ, see{' '}
-          <a href="/seerah" className="text-iw-accent hover:text-iw-accent-light transition-colors">
+          <Link href="/seerah" className="text-iw-accent hover:text-iw-accent-light transition-colors">
             Seerah
-          </a>
+          </Link>
           .
         </p>
       </div>

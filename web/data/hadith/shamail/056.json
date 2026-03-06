@@ -333,7 +333,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "jinn",
+      "food-and-drink",
+      "prophet"
+    ],
     "tags": [
       "shamail"
     ],
@@ -483,7 +487,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "shamail"
     ],
@@ -531,7 +537,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "shamail"
     ],

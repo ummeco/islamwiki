@@ -3979,7 +3979,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -9210,7 +9213,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

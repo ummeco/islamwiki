@@ -12615,7 +12615,11 @@
     "isnad_confidence": "medium",
     "iwh_en": "Abū al-Qāsim ibn Abī al-Zinād said, from al-Zanjī, he said: I saw al-Zuhrī dyeing his head black.",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "islam",
+      "family",
+      "prophet"
+    ],
     "tags": [
       "musnad"
     ],

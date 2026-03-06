@@ -2053,7 +2053,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "food-and-drink",
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],

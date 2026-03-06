@@ -10574,7 +10574,12 @@
     "isnad_confidence": "low",
     "iwh_en": "Abd al-Razzaq and Ibn Bakr narrated to us, they said: Ibn Jurayj informed us, Abu al-Zubayr informed me that he heard Jabir ibn Abdullah (رضي الله عنه) say: Ibn Rawahah estimated the dates at forty thousand wasq, and when the Jews of Khaybar chose to take the dates, they took twenty thousand wasq.",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "food-and-drink",
+      "prophet",
+      "companions",
+      "sin"
+    ],
     "tags": [
       "musnad"
     ],

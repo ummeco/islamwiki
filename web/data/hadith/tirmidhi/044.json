@@ -459,7 +459,15 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "islam",
+      "salah",
+      "zakat",
+      "sawm",
+      "dhikr",
+      "family",
+      "food-and-drink"
+    ],
     "tags": [
       "hasan",
       "kutub-sittah"
@@ -852,7 +860,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet",
+      "sin"
+    ],
     "tags": [
       "kutub-sittah"
     ],

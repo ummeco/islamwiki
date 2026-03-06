@@ -1,14 +1,13 @@
 'use client'
 
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState, useSyncExternalStore } from 'react'
 import { createPortal } from 'react-dom'
 import { SearchInput } from './search-input'
 
 export function SearchModal() {
   const [open, setOpen] = useState(false)
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => { setMounted(true) }, [])
+  // SSR-safe mount detection — avoids setState-in-effect antipattern
+  const mounted = useSyncExternalStore(() => () => {}, () => true, () => false)
 
   const handleOpen = useCallback(() => setOpen(true), [])
   const handleClose = useCallback(() => setOpen(false), [])

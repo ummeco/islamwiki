@@ -245,7 +245,15 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "marriage",
+      "family",
+      "death",
+      "prophet",
+      "companions",
+      "health",
+      "ethics"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

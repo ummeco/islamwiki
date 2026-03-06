@@ -3817,7 +3817,12 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "quran",
+      "marriage",
+      "family",
+      "death"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah"
@@ -6785,7 +6790,11 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "companions",
+      "leadership"
+    ],
     "tags": [
       "daif",
       "kutub-sittah"
@@ -9050,7 +9059,11 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "family",
+      "prophet",
+      "sin"
+    ],
     "tags": [
       "hasan",
       "kutub-sittah"

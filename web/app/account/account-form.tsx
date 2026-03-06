@@ -66,11 +66,11 @@ export function AccountForm() {
   useEffect(() => {
     try {
       const last = localStorage.getItem('iw_last_path')
-      if (last && last !== '/account') setBackHref(last)
+      if (last && last !== '/account') startTransition(() => setBackHref(last))
     } catch {
       // localStorage unavailable
     }
-  }, [])
+  }, [startTransition])
 
   function switchMode(m: Mode) {
     setMode(m)

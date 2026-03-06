@@ -2892,7 +2892,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "kutub-sittah"
     ],

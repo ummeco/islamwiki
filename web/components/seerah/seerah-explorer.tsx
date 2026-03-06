@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback, startTransition } from 'react'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import type { SeerahMapEvent } from './seerah-map'
@@ -85,7 +85,7 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
 
   // Reset to first event + refocus when filter changes
   useEffect(() => {
-    setActiveIndex(0)
+    startTransition(() => setActiveIndex(0))
     listRef.current?.focus({ preventScroll: true })
   }, [filter])
 
@@ -205,7 +205,6 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
           <div className="mt-1.5 h-0.5 w-full overflow-hidden rounded-full bg-iw-border">
             <div
               className="h-full rounded-full bg-iw-accent transition-all duration-300"
-              // eslint-disable-next-line react/forbid-component-props
               style={{ width: `${((activeIndex + 1) / filteredEvents.length) * 100}%` }}
             />
           </div>
@@ -313,14 +312,14 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
                               {event.title_ar}
                             </p>
                           )}
-                          {event.description_en && (
+                          {(event.summary_en ?? event.description_en) && (
                             <p
                               className={[
                                 'text-[12px] leading-relaxed text-iw-text-secondary',
                                 isActive ? 'line-clamp-5' : 'line-clamp-4',
                               ].join(' ')}
                             >
-                              {event.description_en}
+                              {event.summary_en ?? event.description_en}
                             </p>
                           )}
                           <div className="flex items-center justify-between pb-0.5">

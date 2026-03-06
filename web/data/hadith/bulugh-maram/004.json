@@ -612,7 +612,15 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "zakat",
+      "family",
+      "food-and-drink",
+      "trade",
+      "prophet",
+      "wealth",
+      "leadership"
+    ],
     "tags": [
       "bulugh-maram"
     ],

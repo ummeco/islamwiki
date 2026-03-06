@@ -2261,7 +2261,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "islam",
+      "companions",
+      "leadership"
+    ],
     "tags": [
       "bulugh-maram"
     ],

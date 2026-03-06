@@ -8,6 +8,7 @@ interface SeerahEventData {
   date_ah?: string
   date_ce?: string
   year_ah?: number
+  summary_en?: string
   description_en: string
   place_id?: number
   place_name?: string
@@ -16,6 +17,7 @@ interface SeerahEventData {
   significance: 'major' | 'moderate' | 'minor'
   sources?: string[]
   order: number
+  content_file?: boolean
 }
 
 const events: SeerahEventData[] = eventsData as SeerahEventData[]

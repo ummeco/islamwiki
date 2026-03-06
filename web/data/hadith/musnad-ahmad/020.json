@@ -10007,7 +10007,13 @@
     "isnad_confidence": "medium",
     "iwh_en": "Yahya ibn Ghaylan narrated to us, he said al-Mufaddal narrated to us, he said Ubaydullah ibn Zahr narrated to me, that Abu Hurayrah (رضي الله عنه) said: 'O people, indeed Allah is Pure and He only accepts what is pure.'",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "family",
+      "knowledge",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "musnad"
     ],
@@ -19535,7 +19541,9 @@
     "isnad_confidence": "low",
     "iwh_en": "He (may Allah be pleased with him) reported that 'Caesar will perish, and there will be no Caesar after him. Kisra (Chosroes) will perish, and there will be no Kisra after him.'",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "musnad"
     ],
@@ -20548,7 +20556,11 @@
     "isnad_confidence": "low",
     "iwh_en": "And he ﷺ said: 'The Hour will not be established until a man from Qahtan comes out, driving the people with his staff.'",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "hajj",
+      "prophet",
+      "sin"
+    ],
     "tags": [
       "musnad"
     ],
@@ -20795,7 +20807,9 @@
     "isnad_confidence": "low",
     "iwh_en": "He (may Allah be pleased with him) reported that and Allah (عز وجل) said: 'When My servant loves to meet Me, I love to meet him. And when he hates to meet Me, I hate to meet him.'",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "musnad"
     ],

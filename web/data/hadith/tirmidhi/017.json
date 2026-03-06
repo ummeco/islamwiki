@@ -1017,7 +1017,12 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "marriage",
+      "knowledge",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "kutub-sittah"
     ],
@@ -1065,7 +1070,12 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "marriage",
+      "knowledge",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "kutub-sittah"
     ],
@@ -2561,7 +2571,11 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "marriage",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "hasan",
       "kutub-sittah"

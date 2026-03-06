@@ -4819,7 +4819,13 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "islam",
+      "hajj",
+      "food-and-drink",
+      "prophet",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -4869,7 +4875,13 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "islam",
+      "hajj",
+      "food-and-drink",
+      "prophet",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -5349,7 +5361,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "hajj",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

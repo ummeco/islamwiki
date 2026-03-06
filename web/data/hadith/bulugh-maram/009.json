@@ -1229,7 +1229,13 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "islam",
+      "food-and-drink",
+      "prophet",
+      "companions",
+      "sin"
+    ],
     "tags": [
       "bulugh-maram"
     ],

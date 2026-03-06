@@ -21679,7 +21679,12 @@
     "isnad_confidence": "medium",
     "iwh_en": "Muḥammad ibn Muqātil narrated to us, Ibn al-Mubārak narrated to us, Misʿar informed us, from Ḥammād, who said: 'Urine, according to us, is like blood — as long as it is not the size of a dirham, there is no harm in it.'",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "food-and-drink",
+      "knowledge",
+      "prophet",
+      "ethics"
+    ],
     "tags": [
       "musnad"
     ],

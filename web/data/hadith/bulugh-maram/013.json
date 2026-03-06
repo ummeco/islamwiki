@@ -587,7 +587,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "bulugh-maram"
     ],

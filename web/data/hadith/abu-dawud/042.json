@@ -1786,7 +1786,9 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah"
@@ -3102,7 +3104,13 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "islam",
+      "quran",
+      "family",
+      "knowledge",
+      "prophet"
+    ],
     "tags": [
       "daif",
       "kutub-sittah"
@@ -3510,7 +3518,9 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "daif",
       "kutub-sittah"
@@ -5708,7 +5718,9 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "prophet"
+    ],
     "tags": [
       "daif",
       "kutub-sittah"
@@ -10576,7 +10588,11 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "companions",
+      "ethics"
+    ],
     "tags": [
       "daif",
       "kutub-sittah"
@@ -10650,7 +10666,11 @@
         "note": ""
       }
     ],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "companions",
+      "ethics"
+    ],
     "tags": [
       "daif",
       "kutub-sittah"

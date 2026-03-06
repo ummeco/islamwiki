@@ -3923,7 +3923,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet"
+    ],
     "tags": [
       "kutub-sittah"
     ],
@@ -4219,7 +4221,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "kutub-sittah"
     ],

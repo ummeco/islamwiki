@@ -2930,7 +2930,14 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah",
+      "hajj",
+      "quran",
+      "divorce",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

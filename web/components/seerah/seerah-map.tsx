@@ -13,6 +13,7 @@ export interface SeerahMapEvent {
   date_ce?: string | null   // CE string: "13 March 624 CE"
   year_ah?: number | null   // Numeric: -53 (BH) or 2 (AH)
   year_ce?: number | null   // Numeric CE year
+  summary_en?: string
   description_en?: string
   place_name?: string | null
   place_lat?: number | null

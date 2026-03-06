@@ -2243,7 +2243,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "trade"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -3899,7 +3901,12 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "trade",
+      "jihad",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -4716,7 +4723,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -5644,7 +5653,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "jihad",
+      "prophet",
+      "companions"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -6103,7 +6116,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet",
+      "wealth"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -7286,7 +7302,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "hajj",
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -9616,7 +9635,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -10789,7 +10810,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -11567,7 +11590,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "virtues-of-companions"
+    ],
     "tags": [
       "bulugh-maram"
     ],
