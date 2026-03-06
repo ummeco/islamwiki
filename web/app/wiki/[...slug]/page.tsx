@@ -95,7 +95,7 @@ export default async function WikiPage({ params, searchParams }: Props) {
   if (mode === 'edit') {
     const user = await getSessionUser()
     if (!user) {
-      redirect(`/signin?redirect=/wiki/${pageSlug}/edit`)
+      redirect(`/account?redirect=/wiki/${pageSlug}/edit`)
     }
 
     return (

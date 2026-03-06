@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "۞ سَبِّحِ ٱسۡمَ رَبِّكَ ٱلۡأَعۡلَى",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
-    "transliteration": "",
+    "transliteration": "sabbiḥi is'ma rabbika l-aʿlā",
     "t": {
       "sahih-int": "Exalt the name of your Lord, the Most High",
       "asad": "EXTOL the limitless glory of thy Sustainer's name: [the glory of] the Al-Highest",
@@ -83,7 +83,7 @@
     "section_id": null,
     "ar": "ٱلَّذِی خَلَقَ فَسَوَّىٰ",
     "ar_simple": "الَّذِي خَلَقَ فَسَوَّىٰ",
-    "transliteration": "",
+    "transliteration": "alladhī khalaqa fasawwā",
     "t": {
       "sahih-int": "Who created and proportioned",
       "asad": "who creates [every thing], and thereupon forms it in accordance with what it is meant to be",
@@ -156,7 +156,7 @@
     "section_id": null,
     "ar": "وَٱلَّذِی قَدَّرَ فَهَدَىٰ",
     "ar_simple": "وَالَّذِي قَدَّرَ فَهَدَىٰ",
-    "transliteration": "",
+    "transliteration": "wa-alladhī qaddara fahadā",
     "t": {
       "sahih-int": "And who destined and [then] guided",
       "asad": "and who determines the nature [of all that exists], and thereupon guides it [towards its fulfilment]",
@@ -226,7 +226,7 @@
     "section_id": null,
     "ar": "وَٱلَّذِیۤ أَخۡرَجَ ٱلۡمَرۡعَىٰ",
     "ar_simple": "وَالَّذِي أَخْرَجَ الْمَرْعَىٰ",
-    "transliteration": "",
+    "transliteration": "wa-alladhī akhraja l-marʿā",
     "t": {
       "sahih-int": "And who brings out the pasture",
       "asad": "and who brings forth herbage",
@@ -296,7 +296,7 @@
     "section_id": null,
     "ar": "فَجَعَلَهُۥ غُثَاۤءً أَحۡوَىٰ",
     "ar_simple": "فَجَعَلَهُ غُثَاءً أَحْوَىٰ",
-    "transliteration": "",
+    "transliteration": "fajaʿalahu ghuthāan aḥwā",
     "t": {
       "sahih-int": "And [then] makes it black stubble",
       "asad": "and thereupon causes it to decay into rust-brown stubble",
@@ -366,7 +366,7 @@
     "section_id": null,
     "ar": "سَنُقۡرِئُكَ فَلَا تَنسَىٰۤ",
     "ar_simple": "سَنُقْرِئُكَ فَلَا تَنْسَىٰ",
-    "transliteration": "",
+    "transliteration": "sanuq'ri-uka falā tansā",
     "t": {
       "sahih-int": "We will make you recite, [O Muhammad], and you will not forget",
       "asad": "WE SHALL teach thee, and thou wilt not forget [aught of what thou art taught]",
@@ -439,7 +439,7 @@
     "section_id": null,
     "ar": "إِلَّا مَا شَاۤءَ ٱللَّهُۚ إِنَّهُۥ یَعۡلَمُ ٱلۡجَهۡرَ وَمَا یَخۡفَىٰ",
     "ar_simple": "إِلَّا مَا شَاءَ اللَّهُ ۚ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَىٰ",
-    "transliteration": "",
+    "transliteration": "illā mā shāa l-lahu innahu yaʿlamu l-jahra wamā yakhfā",
     "t": {
       "sahih-int": "Except what Allah should will. Indeed, He knows what is declared and what is hidden",
       "asad": "save what God may will [thee to forget] - for, verily, He [alone] knows all that is open to [man's] perception as well as all that is hidden [from it]",
@@ -480,7 +480,9 @@
       "sadi-ar": "{ إِلَّا مَا شَاءَ اللَّهُ }  مما اقتضت حكمته أن ينسيكه لمصلحة بالغة،  { إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَى }  ومن ذلك أنه يعلم ما يصلح عباده أي: فلذلك يشرع ما أراد، ويحكم بما يريد  .",
       "zilal-en": ""
     },
-    "topics": [],
+    "topics": [
+      "allahss-attributes"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -510,7 +512,7 @@
     "section_id": null,
     "ar": "وَنُیَسِّرُكَ لِلۡیُسۡرَىٰ",
     "ar_simple": "وَنُيَسِّرُكَ لِلْيُسْرَىٰ",
-    "transliteration": "",
+    "transliteration": "wanuyassiruka lil'yus'rā",
     "t": {
       "sahih-int": "And We will ease you toward ease",
       "asad": "and [thus] shall We make easy for thee the path towards [ultimate] ease",
@@ -583,7 +585,7 @@
     "section_id": null,
     "ar": "فَذَكِّرۡ إِن نَّفَعَتِ ٱلذِّكۡرَىٰ",
     "ar_simple": "فَذَكِّرْ إِنْ نَفَعَتِ الذِّكْرَىٰ",
-    "transliteration": "",
+    "transliteration": "fadhakkir in nafaʿati l-dhik'rā",
     "t": {
       "sahih-int": "So remind, if the reminder should benefit",
       "asad": "REMIND, THEN, [others of the truth, regardless of] whether this reminding [would seem to] be of use [or not]",
@@ -654,7 +656,7 @@
     "section_id": null,
     "ar": "سَیَذَّكَّرُ مَن یَخۡشَىٰ",
     "ar_simple": "سَيَذَّكَّرُ مَنْ يَخْشَىٰ",
-    "transliteration": "",
+    "transliteration": "sayadhakkaru man yakhshā",
     "t": {
       "sahih-int": "He who fears [Allah] will be reminded",
       "asad": "in mind will keep it he who stands in awe [of God]",
@@ -695,7 +697,9 @@
       "sadi-ar": "فأما المنتفعون،  فقد ذكرهم بقوله:   { سَيَذَّكَّرُ مَنْ يَخْشَى }  الله تعالى، فإن خشية الله تعالى، وعلمه بأن سيجازيه على أعماله  ، توجب للعبد الانكفاف عن المعاصي  والسعي في الخيرات.",
       "zilal-en": "سیذکر ................................ فصلی  آپ یاد دہانی کرائیں اور اس یاد دہانی سے استفادہ وہی شخص کرے گا جو ڈرتا ہو۔  من یخشیٰ (10:87) جس کے دل میں خدا کا خوف ہو ، اور جو خدا کے غضب اور خدا کے عذاب سے ڈرتا ہے ، اور وہی شخص ڈرتا ہے اور محتاط رہتا ہے جو زندہ ہو۔ اور یہ شخص جانتا ہو کہ اس کائنات کا ایک خالق ہے ، جس نے اس جہاں کو پیدا کرکے اسے نہایت متوازن بنایا ہے ، تقدیر مقرر کی اور لوگوں کو راہ راست کی ہدایت کی۔ اس نے لوگوں کو ویسا ہی شتر بےمہار بناکر نہیں چھوڑ دیا اور نہ مہمل پیدا کیا ہے۔ لہٰذا خیروشر کے سلسلے میں اللہ حساب لینے والا ہے اور عدل و انصاف کے ساتھ فیصلہ کرنے والا ہے۔ تو ایسا شخص اللہ سے ڈرتا ہے اور جب اسے نصیحت کی جاتی ہے تو وہ نصیحت لیتا ہے ، اسے بصیرت دی جاتی ہے تو قبول کرتا ہے اور جب اسے نصیحت کی جاتی ہے تو وہ عبرت حاصل کرتا ہے۔"
     },
-    "topics": [],
+    "topics": [
+      "taqwa"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -725,7 +729,7 @@
     "section_id": null,
     "ar": "وَیَتَجَنَّبُهَا ٱلۡأَشۡقَى",
     "ar_simple": "وَيَتَجَنَّبُهَا الْأَشْقَى",
-    "transliteration": "",
+    "transliteration": "wayatajannabuhā l-ashqā",
     "t": {
       "sahih-int": "But the wretched one will avoid it",
       "asad": "but aloof from it will remain that most hapless wretch –",
@@ -787,7 +791,7 @@
     "section_id": null,
     "ar": "ٱلَّذِی یَصۡلَى ٱلنَّارَ ٱلۡكُبۡرَىٰ",
     "ar_simple": "الَّذِي يَصْلَى النَّارَ الْكُبْرَىٰ",
-    "transliteration": "",
+    "transliteration": "alladhī yaṣlā l-nāra l-kub'rā",
     "t": {
       "sahih-int": "[He] who will [enter and] burn in the greatest Fire",
       "asad": "he who [in the life to come] shall have to endure the great fire",
@@ -851,7 +855,7 @@
     "section_id": null,
     "ar": "ثُمَّ لَا یَمُوتُ فِیهَا وَلَا یَحۡیَىٰ",
     "ar_simple": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَىٰ",
-    "transliteration": "",
+    "transliteration": "thumma lā yamūtu fīhā walā yaḥyā",
     "t": {
       "sahih-int": "Neither dying therein nor living",
       "asad": "wherein he will neither die nor remain alive",
@@ -882,7 +886,9 @@
       "siraj-ar": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحۡيَىٰ",
       "jalalayn-id": "(Kemudian dia tidak mati di dalamnya) hingga ia dapat beristirahat (dan tidak pula hidup) dengan kehidupan yang menyenangkan"
     },
-    "topics": [],
+    "topics": [
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -912,7 +918,7 @@
     "section_id": null,
     "ar": "قَدۡ أَفۡلَحَ مَن تَزَكَّىٰ",
     "ar_simple": "قَدْ أَفْلَحَ مَنْ تَزَكَّىٰ",
-    "transliteration": "",
+    "transliteration": "qad aflaḥa man tazakkā",
     "t": {
       "sahih-int": "He has certainly succeeded who purifies himself",
       "asad": "To happiness [in the life to come] will indeed attain he who attains to purity [in this world]",
@@ -974,7 +980,7 @@
     "section_id": null,
     "ar": "وَذَكَرَ ٱسۡمَ رَبِّهِۦ فَصَلَّىٰ",
     "ar_simple": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّىٰ",
-    "transliteration": "",
+    "transliteration": "wadhakara is'ma rabbihi faṣallā",
     "t": {
       "sahih-int": "And mentions the name of his Lord and prays",
       "asad": "and remembers his Sustainer's name, and prays [unto Him]",
@@ -1035,7 +1041,7 @@
     "section_id": null,
     "ar": "بَلۡ تُؤۡثِرُونَ ٱلۡحَیَوٰةَ ٱلدُّنۡیَا",
     "ar_simple": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا",
-    "transliteration": "",
+    "transliteration": "bal tu'thirūna l-ḥayata l-dun'yā",
     "t": {
       "sahih-int": "But you prefer the worldly life",
       "asad": "But nay, [O men,] you prefer the life of this world",
@@ -1096,7 +1102,7 @@
     "section_id": null,
     "ar": "وَٱلۡءَاخِرَةُ خَیۡرࣱ وَأَبۡقَىٰۤ",
     "ar_simple": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰ",
-    "transliteration": "",
+    "transliteration": "wal-ākhiratu khayrun wa-abqā",
     "t": {
       "sahih-int": "While the Hereafter is better and more enduring",
       "asad": "although the life to come is better and more enduring",
@@ -1159,7 +1165,7 @@
     "section_id": null,
     "ar": "إِنَّ هَـٰذَا لَفِی ٱلصُّحُفِ ٱلۡأُولَىٰ",
     "ar_simple": "إِنَّ هَٰذَا لَفِي الصُّحُفِ الْأُولَىٰ",
-    "transliteration": "",
+    "transliteration": "inna hādhā lafī l-ṣuḥufi l-ūlā",
     "t": {
       "sahih-int": "Indeed, this is in the former scriptures",
       "asad": "Verily, [all] this has indeed been [said] in the earlier revelations –",
@@ -1220,7 +1226,7 @@
     "section_id": null,
     "ar": "صُحُفِ إِبۡرَ ٰهِیمَ وَمُوسَىٰ",
     "ar_simple": "صُحُفِ إِبْرَاهِيمَ وَمُوسَىٰ",
-    "transliteration": "",
+    "transliteration": "ṣuḥufi ib'rāhīma wamūsā",
     "t": {
       "sahih-int": "The scriptures of Abraham and Moses",
       "asad": "the revelations of Abraham and Moses",
@@ -1251,7 +1257,10 @@
       "siraj-ar": "صُحُفِ إِبۡرَٰهِيمَ وَمُوسَىٰ",
       "jalalayn-id": "(Yaitu Kitab-kitab Ibrahim dan Musa) sepuluh shuhuf bagi Nabi Ibrahim, dan satu shuhuf bagi Nabi Musa, yaitu kitab Taurat"
     },
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim",
+      "prophet-musa"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],

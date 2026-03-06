@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "وَٱلۡفَجۡرِ",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَالْفَجْرِ",
-    "transliteration": "",
+    "transliteration": "wal-fajri",
     "t": {
       "sahih-int": "By the dawn",
       "asad": "CONSIDER the daybreak",
@@ -83,7 +83,7 @@
     "section_id": null,
     "ar": "وَلَیَالٍ عَشۡرࣲ",
     "ar_simple": "وَلَيَالٍ عَشْرٍ",
-    "transliteration": "",
+    "transliteration": "walayālin ʿashrin",
     "t": {
       "sahih-int": "And [by] ten nights",
       "asad": "and the ten nights",
@@ -153,7 +153,7 @@
     "section_id": null,
     "ar": "وَٱلشَّفۡعِ وَٱلۡوَتۡرِ",
     "ar_simple": "وَالشَّفْعِ وَالْوَتْرِ",
-    "transliteration": "",
+    "transliteration": "wal-shafʿi wal-watri",
     "t": {
       "sahih-int": "And [by] the even [number] and the odd",
       "asad": "Consider the multiple and the One",
@@ -221,7 +221,7 @@
     "section_id": null,
     "ar": "وَٱلَّیۡلِ إِذَا یَسۡرِ",
     "ar_simple": "وَاللَّيْلِ إِذَا يَسْرِ",
-    "transliteration": "",
+    "transliteration": "wa-al-layli idhā yasri",
     "t": {
       "sahih-int": "And [by] the night when it passes",
       "asad": "Consider the night as it runs its course",
@@ -291,7 +291,7 @@
     "section_id": null,
     "ar": "هَلۡ فِی ذَ ٰلِكَ قَسَمࣱ لِّذِی حِجۡرٍ",
     "ar_simple": "هَلْ فِي ذَٰلِكَ قَسَمٌ لِذِي حِجْرٍ",
-    "transliteration": "",
+    "transliteration": "hal fī dhālika qasamun lidhī ḥij'rin",
     "t": {
       "sahih-int": "Is there [not] in [all] that an oath [sufficient] for one of perception",
       "asad": "Considering all this - could there be, to anyone endowed with reason, a [more] solemn evidence of the truth",
@@ -361,7 +361,7 @@
     "section_id": null,
     "ar": "أَلَمۡ تَرَ كَیۡفَ فَعَلَ رَبُّكَ بِعَادٍ",
     "ar_simple": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
-    "transliteration": "",
+    "transliteration": "alam tara kayfa faʿala rabbuka biʿādin",
     "t": {
       "sahih-int": "Have you not considered how your Lord dealt with 'Aad",
       "asad": "ART THOU NOT aware of how thy Sustainer has dealt with [the tribe of] ‘Ad",
@@ -432,7 +432,7 @@
     "section_id": null,
     "ar": "إِرَمَ ذَاتِ ٱلۡعِمَادِ",
     "ar_simple": "إِرَمَ ذَاتِ الْعِمَادِ",
-    "transliteration": "",
+    "transliteration": "irama dhāti l-ʿimādi",
     "t": {
       "sahih-int": "[With] Iram - who had lofty pillars",
       "asad": "[the people of] Iram the many-pillared",
@@ -502,7 +502,7 @@
     "section_id": null,
     "ar": "ٱلَّتِی لَمۡ یُخۡلَقۡ مِثۡلُهَا فِی ٱلۡبِلَـٰدِ",
     "ar_simple": "الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ",
-    "transliteration": "",
+    "transliteration": "allatī lam yukh'laq mith'luhā fī l-bilādi",
     "t": {
       "sahih-int": "The likes of whom had never been created in the land",
       "asad": "the like of whom has never been reared in all the land? –",
@@ -574,7 +574,7 @@
     "section_id": null,
     "ar": "وَثَمُودَ ٱلَّذِینَ جَابُوا۟ ٱلصَّخۡرَ بِٱلۡوَادِ",
     "ar_simple": "وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ",
-    "transliteration": "",
+    "transliteration": "wathamūda alladhīna jābū l-ṣakhra bil-wādi",
     "t": {
       "sahih-int": "And [with] Thamud, who carved out the rocks in the valley",
       "asad": "and with [the tribe of] Thamud, who hollowed out rocks in the valley? –",
@@ -645,7 +645,7 @@
     "section_id": null,
     "ar": "وَفِرۡعَوۡنَ ذِی ٱلۡأَوۡتَادِ",
     "ar_simple": "وَفِرْعَوْنَ ذِي الْأَوْتَادِ",
-    "transliteration": "",
+    "transliteration": "wafir'ʿawna dhī l-awtādi",
     "t": {
       "sahih-int": "And [with] Pharaoh, owner of the stakes",
       "asad": "and with Pharaoh of the [many] tent-poles",
@@ -686,7 +686,10 @@
       "sadi-ar": "{ وَفِرْعَوْنَ ذِي الْأَوْتَاد }  أي:  [ذي]  الجنود الذين ثبتوا ملكه، كما تثبت الأوتاد ما يراد إمساكه بها.",
       "zilal-en": ""
     },
-    "topics": [],
+    "topics": [
+      "prophets-stories",
+      "prophet-musa"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -716,7 +719,7 @@
     "section_id": null,
     "ar": "ٱلَّذِینَ طَغَوۡا۟ فِی ٱلۡبِلَـٰدِ",
     "ar_simple": "الَّذِينَ طَغَوْا فِي الْبِلَادِ",
-    "transliteration": "",
+    "transliteration": "alladhīna ṭaghaw fī l-bilādi",
     "t": {
       "sahih-int": "[All of] whom oppressed within the lands",
       "asad": "[It was they] who transgressed all bounds of equity all over their lands",
@@ -780,7 +783,7 @@
     "section_id": null,
     "ar": "فَأَكۡثَرُوا۟ فِیهَا ٱلۡفَسَادَ",
     "ar_simple": "فَأَكْثَرُوا فِيهَا الْفَسَادَ",
-    "transliteration": "",
+    "transliteration": "fa-aktharū fīhā l-fasāda",
     "t": {
       "sahih-int": "And increased therein the corruption",
       "asad": "and brought about great corruption therein",
@@ -841,7 +844,7 @@
     "section_id": null,
     "ar": "فَصَبَّ عَلَیۡهِمۡ رَبُّكَ سَوۡطَ عَذَابٍ",
     "ar_simple": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
-    "transliteration": "",
+    "transliteration": "faṣabba ʿalayhim rabbuka sawṭa ʿadhābin",
     "t": {
       "sahih-int": "So your Lord poured upon them a scourge of punishment",
       "asad": "and therefore thy Sustainer let loose upon them a scourge of suffering",
@@ -904,7 +907,7 @@
     "section_id": null,
     "ar": "إِنَّ رَبَّكَ لَبِٱلۡمِرۡصَادِ",
     "ar_simple": "إِنَّ رَبَّكَ لَبِالْمِرْصَادِ",
-    "transliteration": "",
+    "transliteration": "inna rabbaka labil-mir'ṣādi",
     "t": {
       "sahih-int": "Indeed, your Lord is in observation",
       "asad": "for, verily, thy Sustainer is ever on the watch",
@@ -965,7 +968,7 @@
     "section_id": null,
     "ar": "فَأَمَّا ٱلۡإِنسَـٰنُ إِذَا مَا ٱبۡتَلَىٰهُ رَبُّهُۥ فَأَكۡرَمَهُۥ وَنَعَّمَهُۥ فَیَقُولُ رَبِّیۤ أَكۡرَمَنِ",
     "ar_simple": "فَأَمَّا الْإِنْسَانُ إِذَا مَا ابْتَلَاهُ رَبُّهُ فَأَكْرَمَهُ وَنَعَّمَهُ فَيَقُولُ رَبِّي أَكْرَمَنِ",
-    "transliteration": "",
+    "transliteration": "fa-ammā l-insānu idhā mā ib'talāhu rabbuhu fa-akramahu wanaʿʿamahu fayaqūlu rabbī akramani",
     "t": {
       "sahih-int": "And as for man, when his Lord tries him and [thus] is generous to him and favors him, he says, \"My Lord has honored me",
       "asad": "BUT AS FOR man, whenever his Sustainer tries him by His generosity and by letting him enjoy a life of ease, he says, \"My Sustainer has been [justly] generous towards me",
@@ -997,7 +1000,9 @@
       "siraj-ar": "فَأَمَّا ٱلۡإِنسَٰنُ إِذَا مَا ٱبۡتَلَىٰهُ رَبُّهُۥ فَأَكۡرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّيٓ أَكۡرَمَنِ (ابْتَلَاهُ: اخْتَبَرَهُ بِالنِّعْمَةِ)",
       "jalalayn-id": "(Adapun manusia) yakni orang kafir (apabila dia diuji) dikenakan ujian (oleh Rabbnya lalu dimuliakan-Nya) dengan harta benda dan lain-lainnya (dan diberi-Nya kesenangan, maka dia berkata, \"Rabbku telah memuliakanku)"
     },
-    "topics": [],
+    "topics": [
+      "generosity"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -1027,7 +1032,7 @@
     "section_id": null,
     "ar": "وَأَمَّاۤ إِذَا مَا ٱبۡتَلَىٰهُ فَقَدَرَ عَلَیۡهِ رِزۡقَهُۥ فَیَقُولُ رَبِّیۤ أَهَـٰنَنِ",
     "ar_simple": "وَأَمَّا إِذَا مَا ابْتَلَاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّي أَهَانَنِ",
-    "transliteration": "",
+    "transliteration": "wa-ammā idhā mā ib'talāhu faqadara ʿalayhi riz'qahu fayaqūlu rabbī ahānani",
     "t": {
       "sahih-int": "But when He tries him and restricts his provision, he says, \"My Lord has humiliated me",
       "asad": "whereas, whenever He tries him by straitening his means of livelihood, he says, \"My Sustainer has disgraced me",
@@ -1089,7 +1094,7 @@
     "section_id": null,
     "ar": "كَلَّاۖ بَل لَّا تُكۡرِمُونَ ٱلۡیَتِیمَ",
     "ar_simple": "كَلَّا ۖ بَلْ لَا تُكْرِمُونَ الْيَتِيمَ",
-    "transliteration": "",
+    "transliteration": "kallā bal lā tuk'rimūna l-yatīma",
     "t": {
       "sahih-int": "No! But you do not honor the orphan",
       "asad": "But nay, nay, [O men, consider all that you do and fail to do:] you are not generous towards the orphan",
@@ -1153,7 +1158,7 @@
     "section_id": null,
     "ar": "وَلَا تَحَـٰۤضُّونَ عَلَىٰ طَعَامِ ٱلۡمِسۡكِینِ",
     "ar_simple": "وَلَا تَحَاضُّونَ عَلَىٰ طَعَامِ الْمِسْكِينِ",
-    "transliteration": "",
+    "transliteration": "walā taḥāḍḍūna ʿalā ṭaʿāmi l-mis'kīni",
     "t": {
       "sahih-int": "And you do not encourage one another to feed the poor",
       "asad": "and you do not urge one another to feed the needy",
@@ -1217,7 +1222,7 @@
     "section_id": null,
     "ar": "وَتَأۡكُلُونَ ٱلتُّرَاثَ أَكۡلࣰا لَّمࣰّا",
     "ar_simple": "وَتَأْكُلُونَ التُّرَاثَ أَكْلًا لَمًّا",
-    "transliteration": "",
+    "transliteration": "watakulūna l-turātha aklan lamman",
     "t": {
       "sahih-int": "And you consume inheritance, devouring [it] altogether",
       "asad": "and you devour the inheritance [of others] with devouring greed",
@@ -1278,7 +1283,7 @@
     "section_id": null,
     "ar": "وَتُحِبُّونَ ٱلۡمَالَ حُبࣰّا جَمࣰّا",
     "ar_simple": "وَتُحِبُّونَ الْمَالَ حُبًّا جَمًّا",
-    "transliteration": "",
+    "transliteration": "watuḥibbūna l-māla ḥubban jamman",
     "t": {
       "sahih-int": "And you love wealth with immense love",
       "asad": "and you love wealth with boundless love",
@@ -1341,7 +1346,7 @@
     "section_id": null,
     "ar": "كَلَّاۤۖ إِذَا دُكَّتِ ٱلۡأَرۡضُ دَكࣰّا دَكࣰّا",
     "ar_simple": "كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا",
-    "transliteration": "",
+    "transliteration": "kallā idhā dukkati l-arḍu dakkan dakkan",
     "t": {
       "sahih-int": "No! When the earth has been leveled - pounded and crushed",
       "asad": "Nay, but [how will you fare on Judgment Day,] when the earth is crushed with crushing upon crushing",
@@ -1403,7 +1408,7 @@
     "section_id": null,
     "ar": "وَجَاۤءَ رَبُّكَ وَٱلۡمَلَكُ صَفࣰّا صَفࣰّا",
     "ar_simple": "وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا",
-    "transliteration": "",
+    "transliteration": "wajāa rabbuka wal-malaku ṣaffan ṣaffan",
     "t": {
       "sahih-int": "And your Lord has come and the angels, rank upon rank",
       "asad": "and [the majesty of] thy Sustainer stands revealed, as well as [the true nature of] the angels; rank upon rank",
@@ -1466,7 +1471,7 @@
     "section_id": null,
     "ar": "وَجِا۟یۤءَ یَوۡمَئِذِۭ بِجَهَنَّمَۚ یَوۡمَئِذࣲ یَتَذَكَّرُ ٱلۡإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكۡرَىٰ",
     "ar_simple": "وَجِيءَ يَوْمَئِذٍ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ الْإِنْسَانُ وَأَنَّىٰ لَهُ الذِّكْرَىٰ",
-    "transliteration": "",
+    "transliteration": "wajīa yawma-idhin bijahannama yawma-idhin yatadhakkaru l-insānu wa-annā lahu l-dhik'rā",
     "t": {
       "sahih-int": "And brought [within view], that Day, is Hell - that Day, man will remember, but what good to him will be the remembrance",
       "asad": "And on that Day hell will be brought [within sight]; on that Day man will remember [all that he did and failed to do]: but what will that remembrance avail him",
@@ -1529,7 +1534,7 @@
     "section_id": null,
     "ar": "یَقُولُ یَـٰلَیۡتَنِی قَدَّمۡتُ لِحَیَاتِی",
     "ar_simple": "يَقُولُ يَا لَيْتَنِي قَدَّمْتُ لِحَيَاتِي",
-    "transliteration": "",
+    "transliteration": "yaqūlu yālaytanī qaddamtu liḥayātī",
     "t": {
       "sahih-int": "He will say, \"Oh, I wish I had sent ahead [some good] for my life",
       "asad": "He will say, \"Oh, would that I had. provided beforehand for my life [to come]",
@@ -1590,7 +1595,7 @@
     "section_id": null,
     "ar": "فَیَوۡمَئِذࣲ لَّا یُعَذِّبُ عَذَابَهُۥۤ أَحَدࣱ",
     "ar_simple": "فَيَوْمَئِذٍ لَا يُعَذِّبُ عَذَابَهُ أَحَدٌ",
-    "transliteration": "",
+    "transliteration": "fayawma-idhin lā yuʿadhibu ʿadhābahu aḥadun",
     "t": {
       "sahih-int": "So on that Day, none will punish [as severely] as His punishment",
       "asad": "For, none can make suffer as He will make suffer [the sinners] on that Day",
@@ -1653,7 +1658,7 @@
     "section_id": null,
     "ar": "وَلَا یُوثِقُ وَثَاقَهُۥۤ أَحَدࣱ",
     "ar_simple": "وَلَا يُوثِقُ وَثَاقَهُ أَحَدٌ",
-    "transliteration": "",
+    "transliteration": "walā yūthiqu wathāqahu aḥadun",
     "t": {
       "sahih-int": "And none will bind [as severely] as His binding [of the evildoers]",
       "asad": "and none can bind with bonds like His",
@@ -1714,7 +1719,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَئِنَّةُ",
     "ar_simple": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
-    "transliteration": "",
+    "transliteration": "yāayyatuhā l-nafsu l-muṭ'ma-inatu",
     "t": {
       "sahih-int": "[To the righteous it will be said], \"O reassured soul",
       "asad": "[But unto the righteous God will say,] \"O thou human being that hast attained to inner peace",
@@ -1777,7 +1782,7 @@
     "section_id": null,
     "ar": "ٱرۡجِعِیۤ إِلَىٰ رَبِّكِ رَاضِیَةࣰ مَّرۡضِیَّةࣰ",
     "ar_simple": "ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَرْضِيَّةً",
-    "transliteration": "",
+    "transliteration": "ir'jiʿī ilā rabbiki rāḍiyatan marḍiyyatan",
     "t": {
       "sahih-int": "Return to your Lord, well-pleased and pleasing [to Him]",
       "asad": "Return thou unto thy Sustainer, well-pleased [and] pleasing [Him]",
@@ -1840,7 +1845,7 @@
     "section_id": null,
     "ar": "فَٱدۡخُلِی فِی عِبَـٰدِی",
     "ar_simple": "فَادْخُلِي فِي عِبَادِي",
-    "transliteration": "",
+    "transliteration": "fa-ud'khulī fī ʿibādī",
     "t": {
       "sahih-int": "And enter among My [righteous] servants",
       "asad": "enter, then, together with My [other true] servants –",
@@ -1903,7 +1908,7 @@
     "section_id": null,
     "ar": "وَٱدۡخُلِی جَنَّتِی",
     "ar_simple": "وَادْخُلِي جَنَّتِي",
-    "transliteration": "",
+    "transliteration": "wa-ud'khulī jannatī",
     "t": {
       "sahih-int": "And enter My Paradise",
       "asad": "yea, enter thou My paradise",

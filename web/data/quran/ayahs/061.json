@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "سَبَّحَ لِلَّهِ مَا فِی ٱلسَّمَـٰوَ ٰتِ وَمَا فِی ٱلۡأَرۡضِۖ وَهُوَ ٱلۡعَزِیزُ ٱلۡحَكِیمُ",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۖ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
-    "transliteration": "",
+    "transliteration": "sabbaḥa lillahi mā fī l-samāwāti wamā fī l-arḍi wahuwa l-ʿazīzu l-ḥakīmu",
     "t": {
       "sahih-int": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise",
       "asad": "ALL THAT IS in the heavens and all that is on earth extols God's limitless glory: for He alone is almighty, truly wise",
@@ -53,7 +53,9 @@
       "sadi-ar": "وهذا بيان لعظمته تعالى وقهره، وذل جميع الخلق  له تبارك وتعالى، وأن جميع من في السماوات والأرض يسبحون بحمد الله ويعبدونه ويسألونه حوائجهم،  { وَهُوَ الْعَزِيزُ }  الذي قهر الأشياء بعزته وسلطانه،  { الْحَكِيمُ }  في خلقه وأمره.",
       "zilal-en": "اللہ عزیز و حکیم کی تسبیح پوری کائنات کررہی ہے۔ سورت کے آغاز میں یہ بات لاکر اہل ایمان کو یہ تاثر دیا جاتا ہے کہ تمہارا دین اس پوری کائنات کا دین ہے۔ اور یہ دین توحید ہے۔ اور تم اس کے امین ہو۔ اور کافرین اور مشرکین کا موقف غلط ہے اور وہ اس دین کی روشنی کو بجھانا چاہتے ہیں۔ اللہ تمہیں دعوت دے رہا ہے کہ اس دین اور اس رسول کی نصرت کرو اور اللہ نے اس دین کا غلبہ مقرر کر رکھا ہے۔ اگرچہ کافر اور مشرک تو اس کو ختم کرنا چاہتے ہیں ، لیکن اللہ نے فیصلہ کردیا ہے کہ ان کے علی الرغم اسے غالب کرنا چاہتا ہے۔ اس آغاز کا مفہوم یہ ہے کہ یہ پوری کائنات کا دین ہے اور پوری کائنات کی امانت ہے۔ اور جس نظریہ کے لئے تم نے جہاد کرنا ہے وہ پوری کائنات کا نظریہ ہے اور اس دین کا ظہور اور غلبہ دراصل ایک قدرتی امر ہے ، اور اللہ عزیز و حکیم کی منشا اور تقدیر ہے۔  اس کے بعد بعض مومنین کی جانب سے کمزوری کے اظہار پر عتاب کیا جاتا ہے ، کہ دین کے معاملے میں جہاد سے جو شخص منہ موڑے گا ، اسے اللہ بہت ہی ناپسند کرتا ہے اور اسے قابل شرم قرار دیتا ہے ، خصوصاً ان لوگوں کی جانب سے جو ایمان لائے ہیں جب کہ اللہ کی راہ میں جہاد کرنے والوں کو اللہ بہت پسند کرتا ہے۔"
     },
-    "topics": [],
+    "topics": [
+      "allahss-attributes"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -83,7 +85,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لِمَ تَقُولُونَ مَا لَا تَفۡعَلُونَ",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū lima taqūlūna mā lā tafʿalūna",
     "t": {
       "sahih-int": "O you who have believed, why do you say what you do not do",
       "asad": "O YOU who have attained to faith! Why do you say one thing and do another",
@@ -156,7 +158,7 @@
     "section_id": null,
     "ar": "كَبُرَ مَقۡتًا عِندَ ٱللَّهِ أَن تَقُولُوا۟ مَا لَا تَفۡعَلُونَ",
     "ar_simple": "كَبُرَ مَقْتًا عِنْدَ اللَّهِ أَنْ تَقُولُوا مَا لَا تَفْعَلُونَ",
-    "transliteration": "",
+    "transliteration": "kabura maqtan ʿinda l-lahi an taqūlū mā lā tafʿalūna",
     "t": {
       "sahih-int": "Great is hatred in the sight of Allah that you say what you do not do",
       "asad": "Most loathsome is it in the sight of God that you say what you do not do",
@@ -229,7 +231,7 @@
     "section_id": null,
     "ar": "إِنَّ ٱللَّهَ یُحِبُّ ٱلَّذِینَ یُقَـٰتِلُونَ فِی سَبِیلِهِۦ صَفࣰّا كَأَنَّهُم بُنۡیَـٰنࣱ مَّرۡصُوصࣱ",
     "ar_simple": "إِنَّ اللَّهَ يُحِبُّ الَّذِينَ يُقَاتِلُونَ فِي سَبِيلِهِ صَفًّا كَأَنَّهُمْ بُنْيَانٌ مَرْصُوصٌ",
-    "transliteration": "",
+    "transliteration": "inna l-laha yuḥibbu alladhīna yuqātilūna fī sabīlihi ṣaffan ka-annahum bun'yānun marṣūṣun",
     "t": {
       "sahih-int": "Indeed, Allah loves those who fight in His cause in a row as though they are a [single] structure joined firmly",
       "asad": "Verily, God loves [only] those who fight in His cause in [solid] ranks, as though they were a building firm and compact",
@@ -302,7 +304,7 @@
     "section_id": null,
     "ar": "وَإِذۡ قَالَ مُوسَىٰ لِقَوۡمِهِۦ یَـٰقَوۡمِ لِمَ تُؤۡذُونَنِی وَقَد تَّعۡلَمُونَ أَنِّی رَسُولُ ٱللَّهِ إِلَیۡكُمۡۖ فَلَمَّا زَاغُوۤا۟ أَزَاغَ ٱللَّهُ قُلُوبَهُمۡۚ وَٱللَّهُ لَا یَهۡدِی ٱلۡقَوۡمَ ٱلۡفَـٰسِقِینَ",
     "ar_simple": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ يَا قَوْمِ لِمَ تُؤْذُونَنِي وَقَدْ تَعْلَمُونَ أَنِّي رَسُولُ اللَّهِ إِلَيْكُمْ ۖ فَلَمَّا زَاغُوا أَزَاغَ اللَّهُ قُلُوبَهُمْ ۚ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الْفَاسِقِينَ",
-    "transliteration": "",
+    "transliteration": "wa-idh qāla mūsā liqawmihi yāqawmi lima tu'dhūnanī waqad taʿlamūna annī rasūlu l-lahi ilaykum falammā zāghū azāgha l-lahu qulūbahum wal-lahu lā yahdī l-qawma l-fāsiqīna",
     "t": {
       "sahih-int": "And [mention, O Muhammad], when Moses said to his people, \"O my people, why do you harm me while you certainly know that I am the messenger of Allah to you?\" And when they deviated, Allah caused their hearts to deviate. And Allah does not guide the defiantly disobedient people",
       "asad": "Now when Moses spoke to his people, [it was this same truth that he had in mind:] \"O my people! Why do you cause me grief, the while you know that I am an apostle of God sent unto you?\" And so, when they swerved from the right way, God let their hearts swerve from the truth: for God does not bestow His guidance upon iniquitous folk",
@@ -376,7 +378,7 @@
     "section_id": null,
     "ar": "وَإِذۡ قَالَ عِیسَى ٱبۡنُ مَرۡیَمَ یَـٰبَنِیۤ إِسۡرَ ٰۤءِیلَ إِنِّی رَسُولُ ٱللَّهِ إِلَیۡكُم مُّصَدِّقࣰا لِّمَا بَیۡنَ یَدَیَّ مِنَ ٱلتَّوۡرَىٰةِ وَمُبَشِّرَۢا بِرَسُولࣲ یَأۡتِی مِنۢ بَعۡدِی ٱسۡمُهُۥۤ أَحۡمَدُۖ فَلَمَّا جَاۤءَهُم بِٱلۡبَیِّنَـٰتِ قَالُوا۟ هَـٰذَا سِحۡرࣱ مُّبِینࣱ",
     "ar_simple": "وَإِذْ قَالَ عِيسَى ابْنُ مَرْيَمَ يَا بَنِي إِسْرَائِيلَ إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ مُصَدِّقًا لِمَا بَيْنَ يَدَيَّ مِنَ التَّوْرَاةِ وَمُبَشِّرًا بِرَسُولٍ يَأْتِي مِنْ بَعْدِي اسْمُهُ أَحْمَدُ ۖ فَلَمَّا جَاءَهُمْ بِالْبَيِّنَاتِ قَالُوا هَٰذَا سِحْرٌ مُبِينٌ",
-    "transliteration": "",
+    "transliteration": "wa-idh qāla ʿīsā ub'nu maryama yābanī is'rāīla innī rasūlu l-lahi ilaykum muṣaddiqan limā bayna yadayya mina l-tawrāti wamubashiran birasūlin yatī min baʿdī us'muhu aḥmadu falammā jāahum bil-bayināti qālū hādhā siḥ'run mubīnun",
     "t": {
       "sahih-int": "And [mention] when Jesus, the son of Mary, said, \"O children of Israel, indeed I am the messenger of Allah to you confirming what came before me of the Torah and bringing good tidings of a messenger to come after me, whose name is Ahmad.\" But when he came to them with clear evidences, they said, \"This is obvious magic",
       "asad": "And [this happened, too,] when Jesus, the son of Mary, said: \"O children of Israel! Behold, I am an apostle of God unto you, [sent] to confirm the truth of whatever there still remains of the Torah, and to give [you] the glad tiding of an apostle who shall come after me, whose name shall be Ahmad.\" But when he [whose coming Jesus had foretold] came unto them with all evidence of the truth, they said: \"This [alleged message of his] is [nothing but] spellbinding eloquence",
@@ -451,7 +453,7 @@
     "section_id": null,
     "ar": "وَمَنۡ أَظۡلَمُ مِمَّنِ ٱفۡتَرَىٰ عَلَى ٱللَّهِ ٱلۡكَذِبَ وَهُوَ یُدۡعَىٰۤ إِلَى ٱلۡإِسۡلَـٰمِۚ وَٱللَّهُ لَا یَهۡدِی ٱلۡقَوۡمَ ٱلظَّـٰلِمِینَ",
     "ar_simple": "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ الْكَذِبَ وَهُوَ يُدْعَىٰ إِلَى الْإِسْلَامِ ۚ وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
-    "transliteration": "",
+    "transliteration": "waman aẓlamu mimmani if'tarā ʿalā l-lahi l-kadhiba wahuwa yud'ʿā ilā l-is'lāmi wal-lahu lā yahdī l-qawma l-ẓālimīna",
     "t": {
       "sahih-int": "And who is more unjust than one who invents about Allah untruth while he is being invited to Islam. And Allah does not guide the wrongdoing people",
       "asad": "And who could be more wicked than one who invents [such] a lie about [a message from] God, seeing that he is [but] being called to self-surrender unto Him? But God does not bestow His guidance upon evil-doing folk",
@@ -524,7 +526,7 @@
     "section_id": null,
     "ar": "یُرِیدُونَ لِیُطۡفِءُوا۟ نُورَ ٱللَّهِ بِأَفۡوَ ٰهِهِمۡ وَٱللَّهُ مُتِمُّ نُورِهِۦ وَلَوۡ كَرِهَ ٱلۡكَـٰفِرُونَ",
     "ar_simple": "يُرِيدُونَ لِيُطْفِئُوا نُورَ اللَّهِ بِأَفْوَاهِهِمْ وَاللَّهُ مُتِمُّ نُورِهِ وَلَوْ كَرِهَ الْكَافِرُونَ",
-    "transliteration": "",
+    "transliteration": "yurīdūna liyuṭ'fiū nūra l-lahi bi-afwāhihim wal-lahu mutimmu nūrihi walaw kariha l-kāfirūna",
     "t": {
       "sahih-int": "They want to extinguish the light of Allah with their mouths, but Allah will perfect His light, although the disbelievers dislike it",
       "asad": "They aim to extinguish God's light with their utterances: but God has willed to spread His light in all its fullness, however hateful this may be to all who deny the truth",
@@ -597,7 +599,7 @@
     "section_id": null,
     "ar": "هُوَ ٱلَّذِیۤ أَرۡسَلَ رَسُولَهُۥ بِٱلۡهُدَىٰ وَدِینِ ٱلۡحَقِّ لِیُظۡهِرَهُۥ عَلَى ٱلدِّینِ كُلِّهِۦ وَلَوۡ كَرِهَ ٱلۡمُشۡرِكُونَ",
     "ar_simple": "هُوَ الَّذِي أَرْسَلَ رَسُولَهُ بِالْهُدَىٰ وَدِينِ الْحَقِّ لِيُظْهِرَهُ عَلَى الدِّينِ كُلِّهِ وَلَوْ كَرِهَ الْمُشْرِكُونَ",
-    "transliteration": "",
+    "transliteration": "huwa alladhī arsala rasūlahu bil-hudā wadīni l-ḥaqi liyuẓ'hirahu ʿalā l-dīni kullihi walaw kariha l-mush'rikūna",
     "t": {
       "sahih-int": "It is He who sent His Messenger with guidance and the religion of truth to manifest it over all religion, although those who associate others with Allah dislike it",
       "asad": "He it is who has sent forth His Apostle with [the task of] spreading guidance and the religion of truth, to the end that He make it prevail over all [false] religion, however hateful this may be to those who ascribe divinity to aught but God",
@@ -670,7 +672,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ هَلۡ أَدُلُّكُمۡ عَلَىٰ تِجَـٰرَةࣲ تُنجِیكُم مِّنۡ عَذَابٍ أَلِیمࣲ",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا هَلْ أَدُلُّكُمْ عَلَىٰ تِجَارَةٍ تُنْجِيكُمْ مِنْ عَذَابٍ أَلِيمٍ",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū hal adullukum ʿalā tijāratin tunjīkum min ʿadhābin alīmin",
     "t": {
       "sahih-int": "O you who have believed, shall I guide you to a transaction that will save you from a painful punishment",
       "asad": "O YOU who have attained to faith! Shall I point out to you a bargain that will save you from grievous suffering [in this world and in the life to come]",
@@ -745,7 +747,7 @@
     "section_id": null,
     "ar": "تُؤۡمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ وَتُجَـٰهِدُونَ فِی سَبِیلِ ٱللَّهِ بِأَمۡوَ ٰلِكُمۡ وَأَنفُسِكُمۡۚ ذَ ٰلِكُمۡ خَیۡرࣱ لَّكُمۡ إِن كُنتُمۡ تَعۡلَمُونَ",
     "ar_simple": "تُؤْمِنُونَ بِاللَّهِ وَرَسُولِهِ وَتُجَاهِدُونَ فِي سَبِيلِ اللَّهِ بِأَمْوَالِكُمْ وَأَنْفُسِكُمْ ۚ ذَٰلِكُمْ خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ",
-    "transliteration": "",
+    "transliteration": "tu'minūna bil-lahi warasūlihi watujāhidūna fī sabīli l-lahi bi-amwālikum wa-anfusikum dhālikum khayrun lakum in kuntum taʿlamūna",
     "t": {
       "sahih-int": "[It is that] you believe in Allah and His Messenger and strive in the cause of Allah with your wealth and your lives. That is best for you, if you should know",
       "asad": "You are to believe in God and His Apostle, and to strive hard in God's cause with your possessions and your lives: this is for your own good - if you but knew it",
@@ -811,7 +813,7 @@
     "section_id": null,
     "ar": "یَغۡفِرۡ لَكُمۡ ذُنُوبَكُمۡ وَیُدۡخِلۡكُمۡ جَنَّـٰتࣲ تَجۡرِی مِن تَحۡتِهَا ٱلۡأَنۡهَـٰرُ وَمَسَـٰكِنَ طَیِّبَةࣰ فِی جَنَّـٰتِ عَدۡنࣲۚ ذَ ٰلِكَ ٱلۡفَوۡزُ ٱلۡعَظِیمُ",
     "ar_simple": "يَغْفِرْ لَكُمْ ذُنُوبَكُمْ وَيُدْخِلْكُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ وَمَسَاكِنَ طَيِّبَةً فِي جَنَّاتِ عَدْنٍ ۚ ذَٰلِكَ الْفَوْزُ الْعَظِيمُ",
-    "transliteration": "",
+    "transliteration": "yaghfir lakum dhunūbakum wayud'khil'kum jannātin tajrī min taḥtihā l-anhāru wamasākina ṭayyibatan fī jannāti ʿadnin dhālika l-fawzu l-ʿaẓīmu",
     "t": {
       "sahih-int": "He will forgive for you your sins and admit you to gardens beneath which rivers flow and pleasant dwellings in gardens of perpetual residence. That is the great attainment",
       "asad": "[If you do so,] He will forgive you your sins, and [in the life to come] will admit you into gardens through which running waters flow, and into goodly mansions in [those] gardens of perpetual bliss: that [will be] the triumph supreme",
@@ -876,7 +878,7 @@
     "section_id": null,
     "ar": "وَأُخۡرَىٰ تُحِبُّونَهَاۖ نَصۡرࣱ مِّنَ ٱللَّهِ وَفَتۡحࣱ قَرِیبࣱۗ وَبَشِّرِ ٱلۡمُؤۡمِنِینَ",
     "ar_simple": "وَأُخْرَىٰ تُحِبُّونَهَا ۖ نَصْرٌ مِنَ اللَّهِ وَفَتْحٌ قَرِيبٌ ۗ وَبَشِّرِ الْمُؤْمِنِينَ",
-    "transliteration": "",
+    "transliteration": "wa-ukh'rā tuḥibbūnahā naṣrun mina l-lahi wafatḥun qarībun wabashiri l-mu'minīna",
     "t": {
       "sahih-int": "And [you will obtain] another [favor] that you love - victory from Allah and an imminent conquest; and give good tidings to the believers",
       "asad": "And [withal, He will grant you] yet another thing that you dearly love: succour from God [in this world], and a victory soon to come: and [thereof, O Prophet,] give thou a glad tiding to all who believe",
@@ -939,7 +941,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ كُونُوۤا۟ أَنصَارَ ٱللَّهِ كَمَا قَالَ عِیسَى ٱبۡنُ مَرۡیَمَ لِلۡحَوَارِیِّـۧنَ مَنۡ أَنصَارِیۤ إِلَى ٱللَّهِۖ قَالَ ٱلۡحَوَارِیُّونَ نَحۡنُ أَنصَارُ ٱللَّهِۖ فَءَامَنَت طَّاۤئِفَةࣱ مِّنۢ بَنِیۤ إِسۡرَ ٰۤءِیلَ وَكَفَرَت طَّاۤئِفَةࣱۖ فَأَیَّدۡنَا ٱلَّذِینَ ءَامَنُوا۟ عَلَىٰ عَدُوِّهِمۡ فَأَصۡبَحُوا۟ ظَـٰهِرِینَ",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا أَنْصَارَ اللَّهِ كَمَا قَالَ عِيسَى ابْنُ مَرْيَمَ لِلْحَوَارِيِّينَ مَنْ أَنْصَارِي إِلَى اللَّهِ ۖ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنْصَارُ اللَّهِ ۖ فَآمَنَتْ طَائِفَةٌ مِنْ بَنِي إِسْرَائِيلَ وَكَفَرَتْ طَائِفَةٌ ۖ فَأَيَّدْنَا الَّذِينَ آمَنُوا عَلَىٰ عَدُوِّهِمْ فَأَصْبَحُوا ظَاهِرِينَ",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū kūnū anṣāra l-lahi kamā qāla ʿīsā ub'nu maryama lil'ḥawāriyyīna man anṣārī ilā l-lahi qāla l-ḥawāriyūna naḥnu anṣāru l-lahi faāmanat ṭāifatun min banī is'rāīla wakafarat ṭāifatun fa-ayyadnā alladhīna āmanū ʿalā ʿaduwwihim fa-aṣbaḥū ẓāhirīna",
     "t": {
       "sahih-int": "O you who have believed, be supporters of Allah, as when Jesus, the son of Mary, said to the disciples, \"Who are my supporters for Allah?\" The disciples said, \"We are supporters of Allah.\" And a faction of the Children of Israel believed and a faction disbelieved. So We supported those who believed against their enemy, and they became dominant",
       "asad": "O YOU who have attained to faith! Be helpers [in the cause of God - even as Jesus, the son of Mary, said unto the white-garbed ones, \"Who will be my helpers in God's cause?\" - whereupon the white-garbed [disciples] replied, \"We shall be [thy] helpers [in the cause] of God!\" And so [it happened that] some of the children of Israel came to believe [in the apostleship of Jesus], whereas others denied the truth. But [now] We have given strength against their foes unto those who have [truly] attained to faith: and they have become the ones that shall prevail",

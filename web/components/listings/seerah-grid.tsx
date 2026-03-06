@@ -43,7 +43,7 @@ export function SeerahGrid({ events }: { events: SeerahEvent[] }) {
       renderItem={(event) => (
         <Link
           href={`/seerah/${event.slug}`}
-          className="card group block h-full"
+          className="card group h-full"
         >
           <div className="mb-2 flex items-center gap-2">
             <span className="text-xs font-medium text-iw-accent">
@@ -64,6 +64,7 @@ export function SeerahGrid({ events }: { events: SeerahEvent[] }) {
               {event.place_name}
             </p>
           )}
+          <span className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent group-hover:text-iw-accent-light">Read more →</span>
         </Link>
       )}
       emptyMessage="No events found matching your search."

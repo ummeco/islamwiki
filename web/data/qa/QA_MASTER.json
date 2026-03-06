@@ -1,26 +1,40 @@
 {
-  "version": "1.1",
-  "generated": "2026-03-05T19:56:46.790190+00:00",
-  "crunch_phase": "P11-FINAL",
+  "version": "1.2",
+  "generated": "2026-03-06T00:00:00+00:00",
+  "crunch_phase": "P12-GAP-FIX",
   "quran": {
     "total_ayahs": 6236,
     "missing_ar": 0,
     "missing_ar_simple": 0,
     "missing_iwq_en": 0,
     "missing_iwq_id": 0,
-    "missing_topics": 2352,
+    "missing_transliteration": 0,
+    "missing_topics": 1470,
+    "topics_coverage_pct": 76.4,
     "verified": 4886
   },
   "hadith": {
     "total_hadiths": 70224,
+    "real_hadiths": 69816,
+    "data_gap_flagged": 408,
     "missing_iwh_en": 0,
     "missing_iwh_id": 0,
     "invalid_grade": 0,
     "missing_ar": 0,
-    "data_gap_flagged": 408,
     "prs_shard_ids": 0,
     "duplicate_iw_ids": 0,
     "stub_text": 0,
-    "low_isnad_confidence": 0
-  }
+    "low_isnad_confidence": 0,
+    "missing_topics": 514,
+    "topics_coverage_pct": 99.3,
+    "with_sharh": 20
+  },
+  "sharh": {
+    "framework_built": true,
+    "sources_registered": 8,
+    "entries_created": 20,
+    "collections_covered": ["riyadh-salihin"],
+    "entries_path": "web/data/hadith/sharh/entries/"
+  },
+  "notes": "P12 GAP FIX COMPLETE. Transliteration: 6236/6236 (100%). Topics Quran: 4766/6236 (76.4% — 1470 abstract theological passages resist keyword matching). Topics Hadith: 69302/69816 (99.3% — 514 are 'as above' references or chain-only narrations). Sharh: framework built with 8 source refs and 20 scholarly commentary entries for Riyadh us-Salihin book 1."
 }

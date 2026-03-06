@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "۞ یَـٰۤأَیُّهَا ٱلنَّبِیُّ ٱتَّقِ ٱللَّهَ وَلَا تُطِعِ ٱلۡكَـٰفِرِینَ وَٱلۡمُنَـٰفِقِینَۚ إِنَّ ٱللَّهَ كَانَ عَلِیمًا حَكِیمࣰا",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ يَا أَيُّهَا النَّبِيُّ اتَّقِ اللَّهَ وَلَا تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ ۗ إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā l-nabiyu ittaqi l-laha walā tuṭiʿi l-kāfirīna wal-munāfiqīna inna l-laha kāna ʿalīman ḥakīman",
     "t": {
       "sahih-int": "O Prophet, fear Allah and do not obey the disbelievers and the hypocrites. Indeed, Allah is ever Knowing and Wise",
       "asad": "PROPHET! Remain conscious of God, and defer not to the deniers of the truth and the hypocrites: for God is truly all-knowing, wise",
@@ -86,7 +86,7 @@
     "section_id": null,
     "ar": "وَٱتَّبِعۡ مَا یُوحَىٰۤ إِلَیۡكَ مِن رَّبِّكَۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعۡمَلُونَ خَبِیرࣰا",
     "ar_simple": "وَاتَّبِعْ مَا يُوحَىٰ إِلَيْكَ مِنْ رَبِّكَ ۚ إِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
-    "transliteration": "",
+    "transliteration": "wa-ittabiʿ mā yūḥā ilayka min rabbika inna l-laha kāna bimā taʿmalūna khabīran",
     "t": {
       "sahih-int": "And follow that which is revealed to you from your Lord. Indeed Allah is ever, with what you do, Acquainted",
       "asad": "And follow [but] that which comes unto thee through revelation from thy Sustainer: for God is truly aware of all that you do, [O men]",
@@ -157,7 +157,7 @@
     "section_id": null,
     "ar": "وَتَوَكَّلۡ عَلَى ٱللَّهِۚ وَكَفَىٰ بِٱللَّهِ وَكِیلࣰا",
     "ar_simple": "وَتَوَكَّلْ عَلَى اللَّهِ ۚ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
-    "transliteration": "",
+    "transliteration": "watawakkal ʿalā l-lahi wakafā bil-lahi wakīlan",
     "t": {
       "sahih-int": "And rely upon Allah; and sufficient is Allah as Disposer of affairs",
       "asad": "And place thy trust in God [alone]: for none is as worthy of trust as God",
@@ -198,7 +198,9 @@
       "sadi-ar": "وثق باللّه في حصول ذلك الأمر على أي:  حال كان. { وَكَفَى بِاللَّهِ وَكِيلًا }  توكل إليه الأمور، فيقوم بها، وبما هو أصلح للعبد، وذلك لعلمه بمصالح عبده، من حيث لا يعلم العبد، وقدرته على إيصالها إليه، من حيث لا يقدر عليها العبد، وأنه أرحم بعبده من نفسه، ومن والديه، وأرأف به من كل أحد، خصوصًا خواص عبيده، الذين لم يزل يربيهم ببره، ويُدِرُّ عليهم بركاته الظاهرة والباطنة، خصوصًا وقد أمره بإلقاء أموره إليه، ووعده، فهناك لا تسأل عن كل أمر يتيسر، وصعب يسهل، وخطوب تهون، وكروب تزول، وأحوال وحوائج تقضى، وبركات تنزل، ونقم تدفع، وشرور ترفع.وهناك ترى العبد الضعيف، الذي فوض أمره لسيده، قد قام بأمور لا تقوم بها أمة من الناس، وقد سهل اللّه  [عليه]   ما كان يصعب على فحول الرجال وباللّه المستعان.",
       "zilal-en": ""
     },
-    "topics": [],
+    "topics": [
+      "tawakkul"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -228,7 +230,7 @@
     "section_id": null,
     "ar": "مَّا جَعَلَ ٱللَّهُ لِرَجُلࣲ مِّن قَلۡبَیۡنِ فِی جَوۡفِهِۦۚ وَمَا جَعَلَ أَزۡوَ ٰجَكُمُ ٱلَّـٰۤءِی تُظَـٰهِرُونَ مِنۡهُنَّ أُمَّهَـٰتِكُمۡۚ وَمَا جَعَلَ أَدۡعِیَاۤءَكُمۡ أَبۡنَاۤءَكُمۡۚ ذَ ٰلِكُمۡ قَوۡلُكُم بِأَفۡوَ ٰهِكُمۡۖ وَٱللَّهُ یَقُولُ ٱلۡحَقَّ وَهُوَ یَهۡدِی ٱلسَّبِیلَ",
     "ar_simple": "مَا جَعَلَ اللَّهُ لِرَجُلٍ مِنْ قَلْبَيْنِ فِي جَوْفِهِ ۚ وَمَا جَعَلَ أَزْوَاجَكُمُ اللَّائِي تُظَاهِرُونَ مِنْهُنَّ أُمَّهَاتِكُمْ ۚ وَمَا جَعَلَ أَدْعِيَاءَكُمْ أَبْنَاءَكُمْ ۚ ذَٰلِكُمْ قَوْلُكُمْ بِأَفْوَاهِكُمْ ۖ وَاللَّهُ يَقُولُ الْحَقَّ وَهُوَ يَهْدِي السَّبِيلَ",
-    "transliteration": "",
+    "transliteration": "mā jaʿala l-lahu lirajulin min qalbayni fī jawfihi wamā jaʿala azwājakumu allāī tuẓāhirūna min'hunna ummahātikum wamā jaʿala adʿiyāakum abnāakum dhālikum qawlukum bi-afwāhikum wal-lahu yaqūlu l-ḥaqa wahuwa yahdī l-sabīla",
     "t": {
       "sahih-int": "Allah has not made for a man two hearts in his interior. And He has not made your wives whom you declare unlawful your mothers. And he has not made your adopted sons your [true] sons. That is [merely] your saying by your mouths, but Allah says the truth, and He guides to the [right] way",
       "asad": "NEVER has God endowed any man with two hearts in one body: and [just as] He has never made your wives whom you may have declared to be “as unlawful to you as your mothers’ bodies” [truly] your mothers, so, too, has He never made your adopted sons [truly] your sons: these are but [figures of] speech uttered by your mouths - whereas God speaks the [absolute] truth: and it is He alone who can show [you] the right path",
@@ -301,7 +303,7 @@
     "section_id": null,
     "ar": "ٱدۡعُوهُمۡ لِءَابَاۤئِهِمۡ هُوَ أَقۡسَطُ عِندَ ٱللَّهِۚ فَإِن لَّمۡ تَعۡلَمُوۤا۟ ءَابَاۤءَهُمۡ فَإِخۡوَ ٰنُكُمۡ فِی ٱلدِّینِ وَمَوَ ٰلِیكُمۡۚ وَلَیۡسَ عَلَیۡكُمۡ جُنَاحࣱ فِیمَاۤ أَخۡطَأۡتُم بِهِۦ وَلَـٰكِن مَّا تَعَمَّدَتۡ قُلُوبُكُمۡۚ وَكَانَ ٱللَّهُ غَفُورࣰا رَّحِیمًا",
     "ar_simple": "ادْعُوهُمْ لِآبَائِهِمْ هُوَ أَقْسَطُ عِنْدَ اللَّهِ ۚ فَإِنْ لَمْ تَعْلَمُوا آبَاءَهُمْ فَإِخْوَانُكُمْ فِي الدِّينِ وَمَوَالِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَا أَخْطَأْتُمْ بِهِ وَلَٰكِنْ مَا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
-    "transliteration": "",
+    "transliteration": "id'ʿūhum liābāihim huwa aqsaṭu ʿinda l-lahi fa-in lam taʿlamū ābāahum fa-ikh'wānukum fī l-dīni wamawālīkum walaysa ʿalaykum junāḥun fīmā akhṭatum bihi walākin mā taʿammadat qulūbukum wakāna l-lahu ghafūran raḥīman",
     "t": {
       "sahih-int": "Call them by [the names of] their fathers; it is more just in the sight of Allah. But if you do not know their fathers - then they are [still] your brothers in religion and those entrusted to you. And there is no blame upon you for that in which you have erred but [only for] what your hearts intended. And ever is Allah Forgiving and Merciful",
       "asad": "[As for your adopted children,] call them by their [real] fathers’ names: this is more equitable in the sight of God; and if you know not who their fathers were, [call them] your brethren in faith and your friends. However, you will incur no sin if you err in this respect: [what really matters is] but what your hearts intend - for God is indeed much-forgiving, a dispenser of grace",
@@ -375,7 +377,7 @@
     "section_id": null,
     "ar": "ٱلنَّبِیُّ أَوۡلَىٰ بِٱلۡمُؤۡمِنِینَ مِنۡ أَنفُسِهِمۡۖ وَأَزۡوَ ٰجُهُۥۤ أُمَّهَـٰتُهُمۡۗ وَأُو۟لُوا۟ ٱلۡأَرۡحَامِ بَعۡضُهُمۡ أَوۡلَىٰ بِبَعۡضࣲ فِی كِتَـٰبِ ٱللَّهِ مِنَ ٱلۡمُؤۡمِنِینَ وَٱلۡمُهَـٰجِرِینَ إِلَّاۤ أَن تَفۡعَلُوۤا۟ إِلَىٰۤ أَوۡلِیَاۤئِكُم مَّعۡرُوفࣰاۚ كَانَ ذَ ٰلِكَ فِی ٱلۡكِتَـٰبِ مَسۡطُورࣰا",
     "ar_simple": "النَّبِيُّ أَوْلَىٰ بِالْمُؤْمِنِينَ مِنْ أَنْفُسِهِمْ ۖ وَأَزْوَاجُهُ أُمَّهَاتُهُمْ ۗ وَأُولُو الْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِي كِتَابِ اللَّهِ مِنَ الْمُؤْمِنِينَ وَالْمُهَاجِرِينَ إِلَّا أَنْ تَفْعَلُوا إِلَىٰ أَوْلِيَائِكُمْ مَعْرُوفًا ۚ كَانَ ذَٰلِكَ فِي الْكِتَابِ مَسْطُورًا",
-    "transliteration": "",
+    "transliteration": "al-nabiyu awlā bil-mu'minīna min anfusihim wa-azwājuhu ummahātuhum wa-ulū l-arḥāmi baʿḍuhum awlā bibaʿḍin fī kitābi l-lahi mina l-mu'minīna wal-muhājirīna illā an tafʿalū ilā awliyāikum maʿrūfan kāna dhālika fī l-kitābi masṭūran",
     "t": {
       "sahih-int": "The Prophet is more worthy of the believers than themselves, and his wives are [in the position of] their mothers. And those of [blood] relationship are more entitled [to inheritance] in the decree of Allah than the [other] believers and the emigrants, except that you may do to your close associates a kindness [through bequest]. That was in the Book inscribed",
       "asad": "The Prophet has a higher claim on the believers than [they have on] their own selves, [seeing that he is as a father to them] and his wives are their mothers: and they who are [thus] closely related have, in accordance with God’s decree, a higher claim upon one another than [was even the case between] the believers [of Yathrib] and those who had migrated [there for the sake of God]. None the less, you are to act with utmost goodness towards your [other] close friends as well: this [too] is written down in God’s decree",
@@ -451,7 +453,7 @@
     "section_id": null,
     "ar": "وَإِذۡ أَخَذۡنَا مِنَ ٱلنَّبِیِّـۧنَ مِیثَـٰقَهُمۡ وَمِنكَ وَمِن نُّوحࣲ وَإِبۡرَ ٰهِیمَ وَمُوسَىٰ وَعِیسَى ٱبۡنِ مَرۡیَمَۖ وَأَخَذۡنَا مِنۡهُم مِّیثَـٰقًا غَلِیظࣰا",
     "ar_simple": "وَإِذْ أَخَذْنَا مِنَ النَّبِيِّينَ مِيثَاقَهُمْ وَمِنْكَ وَمِنْ نُوحٍ وَإِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَى ابْنِ مَرْيَمَ ۖ وَأَخَذْنَا مِنْهُمْ مِيثَاقًا غَلِيظًا",
-    "transliteration": "",
+    "transliteration": "wa-idh akhadhnā mina l-nabiyīna mīthāqahum waminka wamin nūḥin wa-ib'rāhīma wamūsā waʿīsā ib'ni maryama wa-akhadhnā min'hum mīthāqan ghalīẓan",
     "t": {
       "sahih-int": "And [mention, O Muhammad], when We took from the prophets their covenant and from you and from Noah and Abraham and Moses and Jesus, the son of Mary; and We took from them a solemn covenant",
       "asad": "AND LO! We did accept a solemn pledge from all the prophets from thee, [O Muhammad,] as well as from Noah, and Abraham, and Moses, and Jesus the son of Mary -: for We accepted a most weighty, solemn pledge from [all of] them",
@@ -524,7 +526,7 @@
     "section_id": null,
     "ar": "لِّیَسۡءَلَ ٱلصَّـٰدِقِینَ عَن صِدۡقِهِمۡۚ وَأَعَدَّ لِلۡكَـٰفِرِینَ عَذَابًا أَلِیمࣰا",
     "ar_simple": "لِيَسْأَلَ الصَّادِقِينَ عَنْ صِدْقِهِمْ ۚ وَأَعَدَّ لِلْكَافِرِينَ عَذَابًا أَلِيمًا",
-    "transliteration": "",
+    "transliteration": "liyasala l-ṣādiqīna ʿan ṣid'qihim wa-aʿadda lil'kāfirīna ʿadhāban alīman",
     "t": {
       "sahih-int": "That He may question the truthful about their truth. And He has prepared for the disbelievers a painful punishment",
       "asad": "so that [at the end of time] He might ask those men of truth as to [what response] their truthfulness [had received on earth]. And grievous suffering has He readied for all who deny the truth",
@@ -598,7 +600,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ ٱذۡكُرُوا۟ نِعۡمَةَ ٱللَّهِ عَلَیۡكُمۡ إِذۡ جَاۤءَتۡكُمۡ جُنُودࣱ فَأَرۡسَلۡنَا عَلَیۡهِمۡ رِیحࣰا وَجُنُودࣰا لَّمۡ تَرَوۡهَاۚ وَكَانَ ٱللَّهُ بِمَا تَعۡمَلُونَ بَصِیرًا",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا نِعْمَةَ اللَّهِ عَلَيْكُمْ إِذْ جَاءَتْكُمْ جُنُودٌ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًا وَجُنُودًا لَمْ تَرَوْهَا ۚ وَكَانَ اللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū udh'kurū niʿ'mata l-lahi ʿalaykum idh jāatkum junūdun fa-arsalnā ʿalayhim rīḥan wajunūdan lam tarawhā wakāna l-lahu bimā taʿmalūna baṣīran",
     "t": {
       "sahih-int": "O you who have believed, remember the favor of Allah upon you when armies came to [attack] you and We sent upon them a wind and armies [of angels] you did not see. And ever is Allah, of what you do, Seeing",
       "asad": "O YOU who have attained to faith! Call to mind the blessings which God bestowed on you (at the time) when [enemy] hosts came down upon you, whereupon We let loose against them a storm wind and [heavenly] hosts that you could not see: yet God saw all that you did",
@@ -672,7 +674,7 @@
     "section_id": null,
     "ar": "إِذۡ جَاۤءُوكُم مِّن فَوۡقِكُمۡ وَمِنۡ أَسۡفَلَ مِنكُمۡ وَإِذۡ زَاغَتِ ٱلۡأَبۡصَـٰرُ وَبَلَغَتِ ٱلۡقُلُوبُ ٱلۡحَنَاجِرَ وَتَظُنُّونَ بِٱللَّهِ ٱلظُّنُونَا۠",
     "ar_simple": "إِذْ جَاءُوكُمْ مِنْ فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنْكُمْ وَإِذْ زَاغَتِ الْأَبْصَارُ وَبَلَغَتِ الْقُلُوبُ الْحَنَاجِرَ وَتَظُنُّونَ بِاللَّهِ الظُّنُونَا",
-    "transliteration": "",
+    "transliteration": "idh jāūkum min fawqikum wamin asfala minkum wa-idh zāghati l-abṣāru wabalaghati l-qulūbu l-ḥanājira wataẓunnūna bil-lahi l-ẓunūnā",
     "t": {
       "sahih-int": "[Remember] when they came at you from above you and from below you, and when eyes shifted [in fear], and hearts reached the throats and you assumed about Allah [various] assumptions",
       "asad": "[Remember what you felt] when they came upon you from above you and from below you, and when [your] eyes became dim and [your] hearts came up to [your] throats, and [when] most conflicting thoughts about God passed through your minds",
@@ -743,7 +745,7 @@
     "section_id": null,
     "ar": "هُنَالِكَ ٱبۡتُلِیَ ٱلۡمُؤۡمِنُونَ وَزُلۡزِلُوا۟ زِلۡزَالࣰا شَدِیدࣰا",
     "ar_simple": "هُنَالِكَ ابْتُلِيَ الْمُؤْمِنُونَ وَزُلْزِلُوا زِلْزَالًا شَدِيدًا",
-    "transliteration": "",
+    "transliteration": "hunālika ub'tuliya l-mu'minūna wazul'zilū zil'zālan shadīdan",
     "t": {
       "sahih-int": "There the believers were tested and shaken with a severe shaking",
       "asad": "[for] there and then were the believers tried, and shaken with a shock severe",
@@ -806,7 +808,7 @@
     "section_id": null,
     "ar": "وَإِذۡ یَقُولُ ٱلۡمُنَـٰفِقُونَ وَٱلَّذِینَ فِی قُلُوبِهِم مَّرَضࣱ مَّا وَعَدَنَا ٱللَّهُ وَرَسُولُهُۥۤ إِلَّا غُرُورࣰا",
     "ar_simple": "وَإِذْ يَقُولُ الْمُنَافِقُونَ وَالَّذِينَ فِي قُلُوبِهِمْ مَرَضٌ مَا وَعَدَنَا اللَّهُ وَرَسُولُهُ إِلَّا غُرُورًا",
-    "transliteration": "",
+    "transliteration": "wa-idh yaqūlu l-munāfiqūna wa-alladhīna fī qulūbihim maraḍun mā waʿadanā l-lahu warasūluhu illā ghurūran",
     "t": {
       "sahih-int": "And [remember] when the hypocrites and those in whose hearts is disease said, \"Allah and His Messenger did not promise us except delusion",
       "asad": "And [remember how it was] when the hypocrites and those with hearts diseased said [to one another], “God and His Apostle have promised us nothing but delusions!”",
@@ -870,7 +872,7 @@
     "section_id": null,
     "ar": "وَإِذۡ قَالَت طَّاۤئِفَةࣱ مِّنۡهُمۡ یَـٰۤأَهۡلَ یَثۡرِبَ لَا مُقَامَ لَكُمۡ فَٱرۡجِعُوا۟ۚ وَیَسۡتَءۡذِنُ فَرِیقࣱ مِّنۡهُمُ ٱلنَّبِیَّ یَقُولُونَ إِنَّ بُیُوتَنَا عَوۡرَةࣱ وَمَا هِیَ بِعَوۡرَةٍۖ إِن یُرِیدُونَ إِلَّا فِرَارࣰا",
     "ar_simple": "وَإِذْ قَالَتْ طَائِفَةٌ مِنْهُمْ يَا أَهْلَ يَثْرِبَ لَا مُقَامَ لَكُمْ فَارْجِعُوا ۚ وَيَسْتَأْذِنُ فَرِيقٌ مِنْهُمُ النَّبِيَّ يَقُولُونَ إِنَّ بُيُوتَنَا عَوْرَةٌ وَمَا هِيَ بِعَوْرَةٍ ۖ إِنْ يُرِيدُونَ إِلَّا فِرَارًا",
-    "transliteration": "",
+    "transliteration": "wa-idh qālat ṭāifatun min'hum yāahla yathriba lā muqāma lakum fa-ir'jiʿū wayastadhinu farīqun min'humu l-nabiya yaqūlūna inna buyūtanā ʿawratun wamā hiya biʿawratin in yurīdūna illā firāran",
     "t": {
       "sahih-int": "And when a faction of them said, \"O people of Yathrib, there is no stability for you [here], so return [home].\" And a party of them asked permission of the Prophet, saying, \"Indeed, our houses are unprotected,\" while they were not exposed. They did not intend except to flee",
       "asad": "and when some of them said, “O you people of Yathrib! You cannot withstand [the enemy] here: hence, go back [to your homes]!” — Whereupon a party from among them asked leave of the Prophet, saying, “Behold, our houses are exposed [to attack]!” — The while they were not [really] exposed: they wanted nothing but to flee",
@@ -933,7 +935,7 @@
     "section_id": null,
     "ar": "وَلَوۡ دُخِلَتۡ عَلَیۡهِم مِّنۡ أَقۡطَارِهَا ثُمَّ سُئِلُوا۟ ٱلۡفِتۡنَةَ لَءَاتَوۡهَا وَمَا تَلَبَّثُوا۟ بِهَاۤ إِلَّا یَسِیرࣰا",
     "ar_simple": "وَلَوْ دُخِلَتْ عَلَيْهِمْ مِنْ أَقْطَارِهَا ثُمَّ سُئِلُوا الْفِتْنَةَ لَآتَوْهَا وَمَا تَلَبَّثُوا بِهَا إِلَّا يَسِيرًا",
-    "transliteration": "",
+    "transliteration": "walaw dukhilat ʿalayhim min aqṭārihā thumma su-ilū l-fit'nata laātawhā wamā talabbathū bihā illā yasīran",
     "t": {
       "sahih-int": "And if they had been entered upon from all its [surrounding] regions and fitnah had been demanded of them, they would have done it and not hesitated over it except briefly",
       "asad": "Now if their town had been stormed, and they had been asked [by the enemy] to commit apostasy, [the hypocrites] would have done so without much delay",
@@ -994,7 +996,7 @@
     "section_id": null,
     "ar": "وَلَقَدۡ كَانُوا۟ عَـٰهَدُوا۟ ٱللَّهَ مِن قَبۡلُ لَا یُوَلُّونَ ٱلۡأَدۡبَـٰرَۚ وَكَانَ عَهۡدُ ٱللَّهِ مَسۡءُولࣰا",
     "ar_simple": "وَلَقَدْ كَانُوا عَاهَدُوا اللَّهَ مِنْ قَبْلُ لَا يُوَلُّونَ الْأَدْبَارَ ۚ وَكَانَ عَهْدُ اللَّهِ مَسْئُولًا",
-    "transliteration": "",
+    "transliteration": "walaqad kānū ʿāhadū l-laha min qablu lā yuwallūna l-adbāra wakāna ʿahdu l-lahi masūlan",
     "t": {
       "sahih-int": "And they had already promised Allah before not to turn their backs and flee. And ever is the promise to Allah [that about which one will be] questioned",
       "asad": "although ere that they had vowed before God that they would never turn their backs [on His message]: and a vow made to God must surely be answered for",
@@ -1055,7 +1057,7 @@
     "section_id": null,
     "ar": "قُل لَّن یَنفَعَكُمُ ٱلۡفِرَارُ إِن فَرَرۡتُم مِّنَ ٱلۡمَوۡتِ أَوِ ٱلۡقَتۡلِ وَإِذࣰا لَّا تُمَتَّعُونَ إِلَّا قَلِیلࣰا",
     "ar_simple": "قُلْ لَنْ يَنْفَعَكُمُ الْفِرَارُ إِنْ فَرَرْتُمْ مِنَ الْمَوْتِ أَوِ الْقَتْلِ وَإِذًا لَا تُمَتَّعُونَ إِلَّا قَلِيلًا",
-    "transliteration": "",
+    "transliteration": "qul lan yanfaʿakumu l-firāru in farartum mina l-mawti awi l-qatli wa-idhan lā tumattaʿūna illā qalīlan",
     "t": {
       "sahih-int": "Say, [O Muhammad], \"Never will fleeing benefit you if you should flee from death or killing; and then [if you did], you would not be given enjoyment [of life] except for a little",
       "asad": "Say: “Whether you flee from [natural] death or from being slain [in battle], flight will not profit you - for, however you fare, you are not [allowed] to enjoy life for more than a little while!”",
@@ -1120,7 +1122,7 @@
     "section_id": null,
     "ar": "قُلۡ مَن ذَا ٱلَّذِی یَعۡصِمُكُم مِّنَ ٱللَّهِ إِنۡ أَرَادَ بِكُمۡ سُوۤءًا أَوۡ أَرَادَ بِكُمۡ رَحۡمَةࣰۚ وَلَا یَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِیࣰّا وَلَا نَصِیرࣰا",
     "ar_simple": "قُلْ مَنْ ذَا الَّذِي يَعْصِمُكُمْ مِنَ اللَّهِ إِنْ أَرَادَ بِكُمْ سُوءًا أَوْ أَرَادَ بِكُمْ رَحْمَةً ۚ وَلَا يَجِدُونَ لَهُمْ مِنْ دُونِ اللَّهِ وَلِيًّا وَلَا نَصِيرًا",
-    "transliteration": "",
+    "transliteration": "qul man dhā alladhī yaʿṣimukum mina l-lahi in arāda bikum sūan aw arāda bikum raḥmatan walā yajidūna lahum min dūni l-lahi waliyyan walā naṣīran",
     "t": {
       "sahih-int": "Say, \"Who is it that can protect you from Allah if He intends for you an ill or intends for you a mercy?\" And they will not find for themselves besides Allah any protector or any helper",
       "asad": "Say: “Who is there that could keep you away from God if it be His will to harm you, or if it be His will to show you mercy?” For, [do they not know that] besides God they can find none to protect them, and none to bring them succour",
@@ -1151,7 +1153,9 @@
       "siraj-ar": "قُلۡ مَن ذَا ٱلَّذِي يَعۡصِمُكُم مِّنَ ٱللَّهِ إِنۡ أَرَادَ بِكُمۡ سُوٓءًا أَوۡ أَرَادَ بِكُمۡ رَحۡمَةٗۚ وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيّٗا وَلَا نَصِيرٗا (يَعْصِمُكُم: يَمْنَعُكُمْ)",
       "jalalayn-id": "(Katakanlah! \"Siapakah yang dapat melindungi kalian) yang dapat menyelamatkan kalian (dari takdir Allah jika Dia menghendaki bencana atas kalian) kebinasaan dan kekalahan (atau) siapakah yang dapat menimpakan keburukan kepada kalian jika (telah menghendaki) Allah (atas diri kalian rahmat) yakni kebaikan. (Dan orang-orang munafik itu tidak memperoleh bagi mereka selain Allah) (pelindung) yang bermanfaat bagi diri mereka (dan tidak pula penolong.\") yang dapat menolak marabahaya dari diri mereka"
     },
-    "topics": [],
+    "topics": [
+      "taqwa"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -1181,7 +1185,7 @@
     "section_id": null,
     "ar": "۞ قَدۡ یَعۡلَمُ ٱللَّهُ ٱلۡمُعَوِّقِینَ مِنكُمۡ وَٱلۡقَاۤئِلِینَ لِإِخۡوَ ٰنِهِمۡ هَلُمَّ إِلَیۡنَاۖ وَلَا یَأۡتُونَ ٱلۡبَأۡسَ إِلَّا قَلِیلًا",
     "ar_simple": "۞ قَدْ يَعْلَمُ اللَّهُ الْمُعَوِّقِينَ مِنْكُمْ وَالْقَائِلِينَ لِإِخْوَانِهِمْ هَلُمَّ إِلَيْنَا ۖ وَلَا يَأْتُونَ الْبَأْسَ إِلَّا قَلِيلًا",
-    "transliteration": "",
+    "transliteration": "qad yaʿlamu l-lahu l-muʿawiqīna minkum wal-qāilīna li-ikh'wānihim halumma ilaynā walā yatūna l-basa illā qalīlan",
     "t": {
       "sahih-int": "Already Allah knows the hinderers among you and those [hypocrites] who say to their brothers, \"Come to us,\" and do not go to battle, except for a few",
       "asad": "God is indeed aware of those of you who would divert others [from fighting in His cause], as well as of those who say to their brethren, “Come hither to us [and face the enemy]!” — The while they [themselves] join battle but seldom",
@@ -1244,7 +1248,7 @@
     "section_id": null,
     "ar": "أَشِحَّةً عَلَیۡكُمۡۖ فَإِذَا جَاۤءَ ٱلۡخَوۡفُ رَأَیۡتَهُمۡ یَنظُرُونَ إِلَیۡكَ تَدُورُ أَعۡیُنُهُمۡ كَٱلَّذِی یُغۡشَىٰ عَلَیۡهِ مِنَ ٱلۡمَوۡتِۖ فَإِذَا ذَهَبَ ٱلۡخَوۡفُ سَلَقُوكُم بِأَلۡسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلۡخَیۡرِۚ أُو۟لَـٰۤئِكَ لَمۡ یُؤۡمِنُوا۟ فَأَحۡبَطَ ٱللَّهُ أَعۡمَـٰلَهُمۡۚ وَكَانَ ذَ ٰلِكَ عَلَى ٱللَّهِ یَسِیرࣰا",
     "ar_simple": "أَشِحَّةً عَلَيْكُمْ ۖ فَإِذَا جَاءَ الْخَوْفُ رَأَيْتَهُمْ يَنْظُرُونَ إِلَيْكَ تَدُورُ أَعْيُنُهُمْ كَالَّذِي يُغْشَىٰ عَلَيْهِ مِنَ الْمَوْتِ ۖ فَإِذَا ذَهَبَ الْخَوْفُ سَلَقُوكُمْ بِأَلْسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى الْخَيْرِ ۚ أُولَٰئِكَ لَمْ يُؤْمِنُوا فَأَحْبَطَ اللَّهُ أَعْمَالَهُمْ ۚ وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
-    "transliteration": "",
+    "transliteration": "ashiḥḥatan ʿalaykum fa-idhā jāa l-khawfu ra-aytahum yanẓurūna ilayka tadūru aʿyunuhum ka-alladhī yugh'shā ʿalayhi mina l-mawti fa-idhā dhahaba l-khawfu salaqūkum bi-alsinatin ḥidādin ashiḥḥatan ʿalā l-khayri ulāika lam yu'minū fa-aḥbaṭa l-lahu aʿmālahum wakāna dhālika ʿalā l-lahi yasīran",
     "t": {
       "sahih-int": "Indisposed toward you. And when fear comes, you see them looking at you, their eyes revolving like one being overcome by death. But when fear departs, they lash you with sharp tongues, indisposed toward [any] good. Those have not believed, so Allah has rendered their deeds worthless, and ever is that, for Allah, easy",
       "asad": "begrudging you all help. But then, when danger threatens, thou canst see them looking to thee [for help, O Prophet], their eyes rolling [in terror] like [the eyes of] one who is overshadowed by death: yet as soon as the danger has passed, they will assail you [believers] with sharp tongues, begrudging you all that is good! [People like] these have never known faith - and therefore God will cause all their works to come to nought: for this is indeed easy for God",
@@ -1310,7 +1314,7 @@
     "section_id": null,
     "ar": "یَحۡسَبُونَ ٱلۡأَحۡزَابَ لَمۡ یَذۡهَبُوا۟ۖ وَإِن یَأۡتِ ٱلۡأَحۡزَابُ یَوَدُّوا۟ لَوۡ أَنَّهُم بَادُونَ فِی ٱلۡأَعۡرَابِ یَسۡءَلُونَ عَنۡ أَنۢبَاۤئِكُمۡۖ وَلَوۡ كَانُوا۟ فِیكُم مَّا قَـٰتَلُوۤا۟ إِلَّا قَلِیلࣰا",
     "ar_simple": "يَحْسَبُونَ الْأَحْزَابَ لَمْ يَذْهَبُوا ۖ وَإِنْ يَأْتِ الْأَحْزَابُ يَوَدُّوا لَوْ أَنَّهُمْ بَادُونَ فِي الْأَعْرَابِ يَسْأَلُونَ عَنْ أَنْبَائِكُمْ ۖ وَلَوْ كَانُوا فِيكُمْ مَا قَاتَلُوا إِلَّا قَلِيلًا",
-    "transliteration": "",
+    "transliteration": "yaḥsabūna l-aḥzāba lam yadhhabū wa-in yati l-aḥzābu yawaddū law annahum bādūna fī l-aʿrābi yasalūna ʿan anbāikum walaw kānū fīkum mā qātalū illā qalīlan",
     "t": {
       "sahih-int": "They think the companies have not [yet] withdrawn. And if the companies should come [again], they would wish they were in the desert among the bedouins, inquiring [from afar] about your news. And if they should be among you, they would not fight except for a little",
       "asad": "They think that the Confederates have not [really] withdrawn; and should the Confederates return, these [hypocrites] would prefer to be in the desert, among the bedouin, asking for news about you, [O believers, from far away;] and even were they to find themselves in your midst, they would but make a pretence at fighting [by your side]",
@@ -1371,7 +1375,7 @@
     "section_id": null,
     "ar": "لَّقَدۡ كَانَ لَكُمۡ فِی رَسُولِ ٱللَّهِ أُسۡوَةٌ حَسَنَةࣱ لِّمَن كَانَ یَرۡجُوا۟ ٱللَّهَ وَٱلۡیَوۡمَ ٱلۡءَاخِرَ وَذَكَرَ ٱللَّهَ كَثِیرࣰا",
     "ar_simple": "لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ لِمَنْ كَانَ يَرْجُو اللَّهَ وَالْيَوْمَ الْآخِرَ وَذَكَرَ اللَّهَ كَثِيرًا",
-    "transliteration": "",
+    "transliteration": "laqad kāna lakum fī rasūli l-lahi us'watun ḥasanatun liman kāna yarjū l-laha wal-yawma l-ākhira wadhakara l-laha kathīran",
     "t": {
       "sahih-int": "There has certainly been for you in the Messenger of Allah an excellent pattern for anyone whose hope is in Allah and the Last Day and [who] remembers Allah often",
       "asad": "VERILY, in the Apostle of God you have a good example for everyone who looks forward [with hope and awe] to God and the Last Day, and remembers God unceasingly",
@@ -1434,7 +1438,7 @@
     "section_id": null,
     "ar": "وَلَمَّا رَءَا ٱلۡمُؤۡمِنُونَ ٱلۡأَحۡزَابَ قَالُوا۟ هَـٰذَا مَا وَعَدَنَا ٱللَّهُ وَرَسُولُهُۥ وَصَدَقَ ٱللَّهُ وَرَسُولُهُۥۚ وَمَا زَادَهُمۡ إِلَّاۤ إِیمَـٰنࣰا وَتَسۡلِیمࣰا",
     "ar_simple": "وَلَمَّا رَأَى الْمُؤْمِنُونَ الْأَحْزَابَ قَالُوا هَٰذَا مَا وَعَدَنَا اللَّهُ وَرَسُولُهُ وَصَدَقَ اللَّهُ وَرَسُولُهُ ۚ وَمَا زَادَهُمْ إِلَّا إِيمَانًا وَتَسْلِيمًا",
-    "transliteration": "",
+    "transliteration": "walammā raā l-mu'minūna l-aḥzāba qālū hādhā mā waʿadanā l-lahu warasūluhu waṣadaqa l-lahu warasūluhu wamā zādahum illā īmānan wataslīman",
     "t": {
       "sahih-int": "And when the believers saw the companies, they said, \"This is what Allah and His Messenger had promised us, and Allah and His Messenger spoke the truth.\" And it increased them only in faith and acceptance",
       "asad": "And [so,] when the believers saw the Confederates [advancing against them], they said, “This is what God and His Apostle have promised us!”- and, “Truly spoke God and His Apostle!” and all this but increased their faith and their readiness to surrender themselves unto God",
@@ -1499,7 +1503,7 @@
     "section_id": null,
     "ar": "مِّنَ ٱلۡمُؤۡمِنِینَ رِجَالࣱ صَدَقُوا۟ مَا عَـٰهَدُوا۟ ٱللَّهَ عَلَیۡهِۖ فَمِنۡهُم مَّن قَضَىٰ نَحۡبَهُۥ وَمِنۡهُم مَّن یَنتَظِرُۖ وَمَا بَدَّلُوا۟ تَبۡدِیلࣰا",
     "ar_simple": "مِنَ الْمُؤْمِنِينَ رِجَالٌ صَدَقُوا مَا عَاهَدُوا اللَّهَ عَلَيْهِ ۖ فَمِنْهُمْ مَنْ قَضَىٰ نَحْبَهُ وَمِنْهُمْ مَنْ يَنْتَظِرُ ۖ وَمَا بَدَّلُوا تَبْدِيلًا",
-    "transliteration": "",
+    "transliteration": "mina l-mu'minīna rijālun ṣadaqū mā ʿāhadū l-laha ʿalayhi famin'hum man qaḍā naḥbahu wamin'hum man yantaẓiru wamā baddalū tabdīlan",
     "t": {
       "sahih-int": "Among the believers are men true to what they promised Allah. Among them is he who has fulfilled his vow [to the death], and among them is he who awaits [his chance]. And they did not alter [the terms of their commitment] by any alteration",
       "asad": "Among the believers are men who have [always] been true to what they have vowed before God; and among them are such as have [already] redeemed their pledge by death, and such as yet await [its fulfillment] without having changed [their resolve] in the least",
@@ -1564,7 +1568,7 @@
     "section_id": null,
     "ar": "لِّیَجۡزِیَ ٱللَّهُ ٱلصَّـٰدِقِینَ بِصِدۡقِهِمۡ وَیُعَذِّبَ ٱلۡمُنَـٰفِقِینَ إِن شَاۤءَ أَوۡ یَتُوبَ عَلَیۡهِمۡۚ إِنَّ ٱللَّهَ كَانَ غَفُورࣰا رَّحِیمࣰا",
     "ar_simple": "لِيَجْزِيَ اللَّهُ الصَّادِقِينَ بِصِدْقِهِمْ وَيُعَذِّبَ الْمُنَافِقِينَ إِنْ شَاءَ أَوْ يَتُوبَ عَلَيْهِمْ ۚ إِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
-    "transliteration": "",
+    "transliteration": "liyajziya l-lahu l-ṣādiqīna biṣid'qihim wayuʿadhiba l-munāfiqīna in shāa aw yatūba ʿalayhim inna l-laha kāna ghafūran raḥīman",
     "t": {
       "sahih-int": "That Allah may reward the truthful for their truth and punish the hypocrites if He wills or accept their repentance. Indeed, Allah is ever Forgiving and Merciful",
       "asad": "[Such trials are imposed upon man] so that God may reward the truthful for having been true to their word, and cause the hypocrites to suffer - if that be His will - or [if they repent,] accept their repentance: for, verily, God is indeed much-forgiving, a dispenser of grace",
@@ -1629,7 +1633,7 @@
     "section_id": null,
     "ar": "وَرَدَّ ٱللَّهُ ٱلَّذِینَ كَفَرُوا۟ بِغَیۡظِهِمۡ لَمۡ یَنَالُوا۟ خَیۡرࣰاۚ وَكَفَى ٱللَّهُ ٱلۡمُؤۡمِنِینَ ٱلۡقِتَالَۚ وَكَانَ ٱللَّهُ قَوِیًّا عَزِیزࣰا",
     "ar_simple": "وَرَدَّ اللَّهُ الَّذِينَ كَفَرُوا بِغَيْظِهِمْ لَمْ يَنَالُوا خَيْرًا ۚ وَكَفَى اللَّهُ الْمُؤْمِنِينَ الْقِتَالَ ۚ وَكَانَ اللَّهُ قَوِيًّا عَزِيزًا",
-    "transliteration": "",
+    "transliteration": "waradda l-lahu alladhīna kafarū bighayẓihim lam yanālū khayran wakafā l-lahu l-mu'minīna l-qitāla wakāna l-lahu qawiyyan ʿazīzan",
     "t": {
       "sahih-int": "And Allah repelled those who disbelieved, in their rage, not having obtained any good. And sufficient was Allah for the believers in battle, and ever is Allah Powerful and Exalted in Might",
       "asad": "Thus, for all their fury, God repulsed those who were bent on denying the truth; no advantage did they gain, since God was enough to [protect] the believers in battle - seeing that God is most powerful, almighty",
@@ -1693,7 +1697,7 @@
     "section_id": null,
     "ar": "وَأَنزَلَ ٱلَّذِینَ ظَـٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَـٰبِ مِن صَیَاصِیهِمۡ وَقَذَفَ فِی قُلُوبِهِمُ ٱلرُّعۡبَ فَرِیقࣰا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِیقࣰا",
     "ar_simple": "وَأَنْزَلَ الَّذِينَ ظَاهَرُوهُمْ مِنْ أَهْلِ الْكِتَابِ مِنْ صَيَاصِيهِمْ وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
-    "transliteration": "",
+    "transliteration": "wa-anzala alladhīna ẓāharūhum min ahli l-kitābi min ṣayāṣīhim waqadhafa fī qulūbihimu l-ruʿ'ba farīqan taqtulūna watasirūna farīqan",
     "t": {
       "sahih-int": "And He brought down those who supported them among the People of the Scripture from their fortresses and cast terror into their hearts [so that] a party you killed, and you took captive a party",
       "asad": "and He brought down from their strongholds those of the followers of earlier revelation who had aided the aggressors, and cast terror into their hearts: some you slew, and some you made captive",
@@ -1724,7 +1728,9 @@
       "siraj-ar": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنۡ أَهۡلِ ٱلۡكِتَٰبِ مِن صَيَاصِيهِمۡ وَقَذَفَ فِي قُلُوبِهِمُ ٱلرُّعۡبَ فَرِيقٗا تَقۡتُلُونَ وَتَأۡسِرُونَ فَرِيقٗا (ظَاهَرُوهُم: عَاوَنُوا الأَحْزَابَ, مِّنْ أَهْلِ الْكِتَابِ: هُمْ: يَهُودُ بَنِي قُرَيْظَةَ, صَيَاصِيهِمْ: حُصُونِهِمْ, الرُّعْبَ: الخَوْفَ الشَدِيدَ)",
       "jalalayn-id": "(Dan Dia menurunkan orang-orang ahli kitab yang membantu golongan-golongan yang bersekutu) yang dimaksud adalah Bani Quraizhah (dari benteng-benteng mereka) lafal shayaashi bentuk jamak dari lafal shaishatun, artinya adalah benteng tempat berlindung (dan Dia memasukkan rasa takut ke dalam hati mereka) yaitu rasa ngeri (sebagian mereka kalian bunuh) sebagian dari mereka terbunuh oleh kalian, yaitu mereka yang berperang (dan sebagian yang lain kalian tawan) yaitu kaum wanita dan anak-anaknya"
     },
-    "topics": [],
+    "topics": [
+      "quran"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -1754,7 +1760,7 @@
     "section_id": null,
     "ar": "وَأَوۡرَثَكُمۡ أَرۡضَهُمۡ وَدِیَـٰرَهُمۡ وَأَمۡوَ ٰلَهُمۡ وَأَرۡضࣰا لَّمۡ تَطَءُوهَاۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَیۡءࣲ قَدِیرࣰا",
     "ar_simple": "وَأَوْرَثَكُمْ أَرْضَهُمْ وَدِيَارَهُمْ وَأَمْوَالَهُمْ وَأَرْضًا لَمْ تَطَئُوهَا ۚ وَكَانَ اللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرًا",
-    "transliteration": "",
+    "transliteration": "wa-awrathakum arḍahum wadiyārahum wa-amwālahum wa-arḍan lam taṭaūhā wakāna l-lahu ʿalā kulli shayin qadīran",
     "t": {
       "sahih-int": "And He caused you to inherit their land and their homes and their properties and a land which you have not trodden. And ever is Allah, over all things, competent",
       "asad": "and He made you heirs to their lands, and their houses, and their goods - and [promised you] lands on which you had never yet set foot: for God has indeed the power to will anything",
@@ -1785,7 +1791,9 @@
       "siraj-ar": "وَأَوۡرَثَكُمۡ أَرۡضَهُمۡ وَدِيَٰرَهُمۡ وَأَمۡوَٰلَهُمۡ وَأَرۡضٗا لَّمۡ تَطَـُٔوهَاۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٗا",
       "jalalayn-id": "(Dan Dia mewariskan kepada kalian tanah-tanah, rumah-rumah dan harta benda mereka dan demikian pula tanah yang belum kalian injak) sebelumnya, yaitu tanah Khaibar, yang direbut sesudah Quraizhah. (Dan adalah Allah Maha Kuasa terhadap segala sesuatu)"
     },
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -1815,7 +1823,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلنَّبِیُّ قُل لِّأَزۡوَ ٰجِكَ إِن كُنتُنَّ تُرِدۡنَ ٱلۡحَیَوٰةَ ٱلدُّنۡیَا وَزِینَتَهَا فَتَعَالَیۡنَ أُمَتِّعۡكُنَّ وَأُسَرِّحۡكُنَّ سَرَاحࣰا جَمِیلࣰا",
     "ar_simple": "يَا أَيُّهَا النَّبِيُّ قُلْ لِأَزْوَاجِكَ إِنْ كُنْتُنَّ تُرِدْنَ الْحَيَاةَ الدُّنْيَا وَزِينَتَهَا فَتَعَالَيْنَ أُمَتِّعْكُنَّ وَأُسَرِّحْكُنَّ سَرَاحًا جَمِيلًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā l-nabiyu qul li-azwājika in kuntunna turid'na l-ḥayata l-dun'yā wazīnatahā fataʿālayna umattiʿ'kunna wa-usarriḥ'kunna sarāḥan jamīlan",
     "t": {
       "sahih-int": "O Prophet, say to your wives, \"If you should desire the worldly life and its adornment, then come, I will provide for you and give you a gracious release",
       "asad": "O PROPHET! Say unto thy wives: “If you desire [but] the life of this world and its charms - well, then, I shall provide for you and release you in a becoming manner",
@@ -1878,7 +1886,7 @@
     "section_id": null,
     "ar": "وَإِن كُنتُنَّ تُرِدۡنَ ٱللَّهَ وَرَسُولَهُۥ وَٱلدَّارَ ٱلۡءَاخِرَةَ فَإِنَّ ٱللَّهَ أَعَدَّ لِلۡمُحۡسِنَـٰتِ مِنكُنَّ أَجۡرًا عَظِیمࣰا",
     "ar_simple": "وَإِنْ كُنْتُنَّ تُرِدْنَ اللَّهَ وَرَسُولَهُ وَالدَّارَ الْآخِرَةَ فَإِنَّ اللَّهَ أَعَدَّ لِلْمُحْسِنَاتِ مِنْكُنَّ أَجْرًا عَظِيمًا",
-    "transliteration": "",
+    "transliteration": "wa-in kuntunna turid'na l-laha warasūlahu wal-dāra l-ākhirata fa-inna l-laha aʿadda lil'muḥ'sināti minkunna ajran ʿaẓīman",
     "t": {
       "sahih-int": "But if you should desire Allah and His Messenger and the home of the Hereafter - then indeed, Allah has prepared for the doers of good among you a great reward",
       "asad": "but if you desire God and His Apostle, and [thus the good of] the life in the hereafter, then [know that], verily, for the doers of good among you God has readied a mighty reward!”",
@@ -1944,7 +1952,7 @@
     "section_id": null,
     "ar": "یَـٰنِسَاۤءَ ٱلنَّبِیِّ مَن یَأۡتِ مِنكُنَّ بِفَـٰحِشَةࣲ مُّبَیِّنَةࣲ یُضَـٰعَفۡ لَهَا ٱلۡعَذَابُ ضِعۡفَیۡنِۚ وَكَانَ ذَ ٰلِكَ عَلَى ٱللَّهِ یَسِیرࣰا",
     "ar_simple": "يَا نِسَاءَ النَّبِيِّ مَنْ يَأْتِ مِنْكُنَّ بِفَاحِشَةٍ مُبَيِّنَةٍ يُضَاعَفْ لَهَا الْعَذَابُ ضِعْفَيْنِ ۚ وَكَانَ ذَٰلِكَ عَلَى اللَّهِ يَسِيرًا",
-    "transliteration": "",
+    "transliteration": "yānisāa l-nabiyi man yati minkunna bifāḥishatin mubayyinatin yuḍāʿaf lahā l-ʿadhābu ḍiʿ'fayni wakāna dhālika ʿalā l-lahi yasīran",
     "t": {
       "sahih-int": "O wives of the Prophet, whoever of you should commit a clear immorality - for her the punishment would be doubled two fold, and ever is that, for Allah, easy",
       "asad": "O wives of the Prophet! If any of you were to become guilty of manifestly immoral conduct, double [that of other sinners] would be her suffering [in the hereafter]: for that is indeed easy for God",
@@ -2009,7 +2017,7 @@
     "section_id": null,
     "ar": "۞ وَمَن یَقۡنُتۡ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ وَتَعۡمَلۡ صَـٰلِحࣰا نُّؤۡتِهَاۤ أَجۡرَهَا مَرَّتَیۡنِ وَأَعۡتَدۡنَا لَهَا رِزۡقࣰا كَرِیمࣰا",
     "ar_simple": "۞ وَمَنْ يَقْنُتْ مِنْكُنَّ لِلَّهِ وَرَسُولِهِ وَتَعْمَلْ صَالِحًا نُؤْتِهَا أَجْرَهَا مَرَّتَيْنِ وَأَعْتَدْنَا لَهَا رِزْقًا كَرِيمًا",
-    "transliteration": "",
+    "transliteration": "waman yaqnut minkunna lillahi warasūlihi wataʿmal ṣāliḥan nu'tihā ajrahā marratayni wa-aʿtadnā lahā riz'qan karīman",
     "t": {
       "sahih-int": "And whoever of you devoutly obeys Allah and His Messenger and does righteousness - We will give her her reward twice; and We have prepared for her a noble provision",
       "asad": "But if any of you devoutly obeys God and His Apostle and does good deeds, on her shall We bestow her reward twice-over: for We shall have readied for her a most excellent sustenance [in the life to come]",
@@ -2074,7 +2082,7 @@
     "section_id": null,
     "ar": "یَـٰنِسَاۤءَ ٱلنَّبِیِّ لَسۡتُنَّ كَأَحَدࣲ مِّنَ ٱلنِّسَاۤءِ إِنِ ٱتَّقَیۡتُنَّۚ فَلَا تَخۡضَعۡنَ بِٱلۡقَوۡلِ فَیَطۡمَعَ ٱلَّذِی فِی قَلۡبِهِۦ مَرَضࣱ وَقُلۡنَ قَوۡلࣰا مَّعۡرُوفࣰا",
     "ar_simple": "يَا نِسَاءَ النَّبِيِّ لَسْتُنَّ كَأَحَدٍ مِنَ النِّسَاءِ ۚ إِنِ اتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِالْقَوْلِ فَيَطْمَعَ الَّذِي فِي قَلْبِهِ مَرَضٌ وَقُلْنَ قَوْلًا مَعْرُوفًا",
-    "transliteration": "",
+    "transliteration": "yānisāa l-nabiyi lastunna ka-aḥadin mina l-nisāi ini ittaqaytunna falā takhḍaʿna bil-qawli fayaṭmaʿa alladhī fī qalbihi maraḍun waqul'na qawlan maʿrūfan",
     "t": {
       "sahih-int": "O wives of the Prophet, you are not like anyone among women. If you fear Allah, then do not be soft in speech [to men], lest he in whose heart is disease should covet, but speak with appropriate speech",
       "asad": "O wives of the Prophet! You are not like any of the [other] women, provided that you remain [truly] conscious of God. Hence, be not over-soft in your speech, lest any whose heart is diseased should be moved to desire [you]: but, withal, speak in a kindly way",
@@ -2138,7 +2146,7 @@
     "section_id": null,
     "ar": "وَقَرۡنَ فِی بُیُوتِكُنَّ وَلَا تَبَرَّجۡنَ تَبَرُّجَ ٱلۡجَـٰهِلِیَّةِ ٱلۡأُولَىٰۖ وَأَقِمۡنَ ٱلصَّلَوٰةَ وَءَاتِینَ ٱلزَّكَوٰةَ وَأَطِعۡنَ ٱللَّهَ وَرَسُولَهُۥۤۚ إِنَّمَا یُرِیدُ ٱللَّهُ لِیُذۡهِبَ عَنكُمُ ٱلرِّجۡسَ أَهۡلَ ٱلۡبَیۡتِ وَیُطَهِّرَكُمۡ تَطۡهِیرࣰا",
     "ar_simple": "وَقَرْنَ فِي بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ الْجَاهِلِيَّةِ الْأُولَىٰ ۖ وَأَقِمْنَ الصَّلَاةَ وَآتِينَ الزَّكَاةَ وَأَطِعْنَ اللَّهَ وَرَسُولَهُ ۚ إِنَّمَا يُرِيدُ اللَّهُ لِيُذْهِبَ عَنْكُمُ الرِّجْسَ أَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا",
-    "transliteration": "",
+    "transliteration": "waqarna fī buyūtikunna walā tabarrajna tabarruja l-jāhiliyati l-ūlā wa-aqim'na l-ṣalata waātīna l-zakata wa-aṭiʿ'na l-laha warasūlahu innamā yurīdu l-lahu liyudh'hiba ʿankumu l-rij'sa ahla l-bayti wayuṭahhirakum taṭhīran",
     "t": {
       "sahih-int": "And abide in your houses and do not display yourselves as [was] the display of the former times of ignorance. And establish prayer and give zakah and obey Allah and His Messenger. Allah intends only to remove from you the impurity [of sin], O people of the [Prophet's] household, and to purify you with [extensive] purification",
       "asad": "And abide quietly in your homes, and do not flaunt your charms as they used to flaunt them in the old days of pagan ignorance; and be constant in prayer, and render the purifying dues, and pay heed unto God and His Apostle: for God only wants to remove from you all that might be loathsome, O you members of the [Prophet’s] household, and to purify you to utmost purity",
@@ -2205,7 +2213,7 @@
     "section_id": null,
     "ar": "وَٱذۡكُرۡنَ مَا یُتۡلَىٰ فِی بُیُوتِكُنَّ مِنۡ ءَایَـٰتِ ٱللَّهِ وَٱلۡحِكۡمَةِۚ إِنَّ ٱللَّهَ كَانَ لَطِیفًا خَبِیرًا",
     "ar_simple": "وَاذْكُرْنَ مَا يُتْلَىٰ فِي بُيُوتِكُنَّ مِنْ آيَاتِ اللَّهِ وَالْحِكْمَةِ ۚ إِنَّ اللَّهَ كَانَ لَطِيفًا خَبِيرًا",
-    "transliteration": "",
+    "transliteration": "wa-udh'kur'na mā yut'lā fī buyūtikunna min āyāti l-lahi wal-ḥik'mati inna l-laha kāna laṭīfan khabīran",
     "t": {
       "sahih-int": "And remember what is recited in your houses of the verses of Allah and wisdom. Indeed, Allah is ever Subtle and Acquainted [with all things]",
       "asad": "And bear in mind all that is recited in your homes of God’s messages and [His] wisdom: for God is unfathomable [in His wisdom], all-aware",
@@ -2269,7 +2277,7 @@
     "section_id": null,
     "ar": "إِنَّ ٱلۡمُسۡلِمِینَ وَٱلۡمُسۡلِمَـٰتِ وَٱلۡمُؤۡمِنِینَ وَٱلۡمُؤۡمِنَـٰتِ وَٱلۡقَـٰنِتِینَ وَٱلۡقَـٰنِتَـٰتِ وَٱلصَّـٰدِقِینَ وَٱلصَّـٰدِقَـٰتِ وَٱلصَّـٰبِرِینَ وَٱلصَّـٰبِرَ ٰتِ وَٱلۡخَـٰشِعِینَ وَٱلۡخَـٰشِعَـٰتِ وَٱلۡمُتَصَدِّقِینَ وَٱلۡمُتَصَدِّقَـٰتِ وَٱلصَّـٰۤئِمِینَ وَٱلصَّـٰۤئِمَـٰتِ وَٱلۡحَـٰفِظِینَ فُرُوجَهُمۡ وَٱلۡحَـٰفِظَـٰتِ وَٱلذَّ ٰكِرِینَ ٱللَّهَ كَثِیرࣰا وَٱلذَّ ٰكِرَ ٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغۡفِرَةࣰ وَأَجۡرًا عَظِیمࣰا",
     "ar_simple": "إِنَّ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ وَالْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ وَالْقَانِتِينَ وَالْقَانِتَاتِ وَالصَّادِقِينَ وَالصَّادِقَاتِ وَالصَّابِرِينَ وَالصَّابِرَاتِ وَالْخَاشِعِينَ وَالْخَاشِعَاتِ وَالْمُتَصَدِّقِينَ وَالْمُتَصَدِّقَاتِ وَالصَّائِمِينَ وَالصَّائِمَاتِ وَالْحَافِظِينَ فُرُوجَهُمْ وَالْحَافِظَاتِ وَالذَّاكِرِينَ اللَّهَ كَثِيرًا وَالذَّاكِرَاتِ أَعَدَّ اللَّهُ لَهُمْ مَغْفِرَةً وَأَجْرًا عَظِيمًا",
-    "transliteration": "",
+    "transliteration": "inna l-mus'limīna wal-mus'limāti wal-mu'minīna wal-mu'mināti wal-qānitīna wal-qānitāti wal-ṣādiqīna wal-ṣādiqāti wal-ṣābirīna wal-ṣābirāti wal-khāshiʿīna wal-khāshiʿāti wal-mutaṣadiqīna wal-mutaṣadiqāti wal-ṣāimīna wal-ṣāimāti wal-ḥāfiẓīna furūjahum wal-ḥāfiẓāti wal-dhākirīna l-laha kathīran wal-dhākirāti aʿadda l-lahu lahum maghfiratan wa-ajran ʿaẓīman",
     "t": {
       "sahih-int": "Indeed, the Muslim men and Muslim women, the believing men and believing women, the obedient men and obedient women, the truthful men and truthful women, the patient men and patient women, the humble men and humble women, the charitable men and charitable women, the fasting men and fasting women, the men who guard their private parts and the women who do so, and the men who remember Allah often and the women who do so - for them Allah has prepared forgiveness and a great reward",
       "asad": "VERILY, for all men and women who have surrendered themselves unto God, and all believing men and believing women, and all truly devout men and truly devout women, and all men and women who are true to their word, and all men and women who are patient in adversity, and all men and women who humble themselves [before God], and all men and women who give in charity, and all self-denying men and self-denying women, and all men and women who are mindful of their chastity, and all men and women who remember God unceasingly: for [all of] them has God readied forgiveness of sins and a mighty reward",
@@ -2336,7 +2344,7 @@
     "section_id": null,
     "ar": "وَمَا كَانَ لِمُؤۡمِنࣲ وَلَا مُؤۡمِنَةٍ إِذَا قَضَى ٱللَّهُ وَرَسُولُهُۥۤ أَمۡرًا أَن یَكُونَ لَهُمُ ٱلۡخِیَرَةُ مِنۡ أَمۡرِهِمۡۗ وَمَن یَعۡصِ ٱللَّهَ وَرَسُولَهُۥ فَقَدۡ ضَلَّ ضَلَـٰلࣰا مُّبِینࣰا",
     "ar_simple": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَنْ يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ ۗ وَمَنْ يَعْصِ اللَّهَ وَرَسُولَهُ فَقَدْ ضَلَّ ضَلَالًا مُبِينًا",
-    "transliteration": "",
+    "transliteration": "wamā kāna limu'minin walā mu'minatin idhā qaḍā l-lahu warasūluhu amran an yakūna lahumu l-khiyaratu min amrihim waman yaʿṣi l-laha warasūlahu faqad ḍalla ḍalālan mubīnan",
     "t": {
       "sahih-int": "It is not for a believing man or a believing woman, when Allah and His Messenger have decided a matter, that they should [thereafter] have any choice about their affair. And whoever disobeys Allah and His Messenger has certainly strayed into clear error",
       "asad": "Now whenever God and His Apostle have decided a matter, it is not for a believing man or a believing woman to claim freedom of choice insofar as they themselves are concerned: for he who [thus] rebels against God and His Apostle has already, most obviously, gone astray",
@@ -2401,7 +2409,7 @@
     "section_id": null,
     "ar": "وَإِذۡ تَقُولُ لِلَّذِیۤ أَنۡعَمَ ٱللَّهُ عَلَیۡهِ وَأَنۡعَمۡتَ عَلَیۡهِ أَمۡسِكۡ عَلَیۡكَ زَوۡجَكَ وَٱتَّقِ ٱللَّهَ وَتُخۡفِی فِی نَفۡسِكَ مَا ٱللَّهُ مُبۡدِیهِ وَتَخۡشَى ٱلنَّاسَ وَٱللَّهُ أَحَقُّ أَن تَخۡشَىٰهُۖ فَلَمَّا قَضَىٰ زَیۡدࣱ مِّنۡهَا وَطَرࣰا زَوَّجۡنَـٰكَهَا لِكَیۡ لَا یَكُونَ عَلَى ٱلۡمُؤۡمِنِینَ حَرَجࣱ فِیۤ أَزۡوَ ٰجِ أَدۡعِیَاۤئِهِمۡ إِذَا قَضَوۡا۟ مِنۡهُنَّ وَطَرࣰاۚ وَكَانَ أَمۡرُ ٱللَّهِ مَفۡعُولࣰا",
     "ar_simple": "وَإِذْ تَقُولُ لِلَّذِي أَنْعَمَ اللَّهُ عَلَيْهِ وَأَنْعَمْتَ عَلَيْهِ أَمْسِكْ عَلَيْكَ زَوْجَكَ وَاتَّقِ اللَّهَ وَتُخْفِي فِي نَفْسِكَ مَا اللَّهُ مُبْدِيهِ وَتَخْشَى النَّاسَ وَاللَّهُ أَحَقُّ أَنْ تَخْشَاهُ ۖ فَلَمَّا قَضَىٰ زَيْدٌ مِنْهَا وَطَرًا زَوَّجْنَاكَهَا لِكَيْ لَا يَكُونَ عَلَى الْمُؤْمِنِينَ حَرَجٌ فِي أَزْوَاجِ أَدْعِيَائِهِمْ إِذَا قَضَوْا مِنْهُنَّ وَطَرًا ۚ وَكَانَ أَمْرُ اللَّهِ مَفْعُولًا",
-    "transliteration": "",
+    "transliteration": "wa-idh taqūlu lilladhī anʿama l-lahu ʿalayhi wa-anʿamta ʿalayhi amsik ʿalayka zawjaka wa-ittaqi l-laha watukh'fī fī nafsika mā l-lahu mub'dīhi watakhshā l-nāsa wal-lahu aḥaqqu an takhshāhu falammā qaḍā zaydun min'hā waṭaran zawwajnākahā likay lā yakūna ʿalā l-mu'minīna ḥarajun fī azwāji adʿiyāihim idhā qaḍaw min'hunna waṭaran wakāna amru l-lahi mafʿūlan",
     "t": {
       "sahih-int": "And [remember, O Muhammad], when you said to the one on whom Allah bestowed favor and you bestowed favor, \"Keep your wife and fear Allah,\" while you concealed within yourself that which Allah is to disclose. And you feared the people, while Allah has more right that you fear Him. So when Zayd had no longer any need for her, We married her to you in order that there not be upon the believers any discomfort concerning the wives of their adopted sons when they no longer have need of them. And ever is the command of Allah accomplished",
       "asad": "AND LO, [O Muhammad,] thou didst say unto the one to whom God had shown favour and to whom thou hadst shown favour, “Hold on to thy wife, and remain conscious of God!” And [thus] wouldst thou hide within thyself something that God was about to bring to light for thou didst stand in awe of [what] people [might think], whereas it was God alone of whom thou shouldst have stood in awe! [But] then, when Zayd had come to the end of his union with her, We gave her to thee in marriage, so that [in future] no blame should attach to the believers for [marrying] the spouses of their adopted children when the latter have come to the end of their union with them. And [thus] God’s will was done",
@@ -2466,7 +2474,7 @@
     "section_id": null,
     "ar": "مَّا كَانَ عَلَى ٱلنَّبِیِّ مِنۡ حَرَجࣲ فِیمَا فَرَضَ ٱللَّهُ لَهُۥۖ سُنَّةَ ٱللَّهِ فِی ٱلَّذِینَ خَلَوۡا۟ مِن قَبۡلُۚ وَكَانَ أَمۡرُ ٱللَّهِ قَدَرࣰا مَّقۡدُورًا",
     "ar_simple": "مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ فِيمَا فَرَضَ اللَّهُ لَهُ ۖ سُنَّةَ اللَّهِ فِي الَّذِينَ خَلَوْا مِنْ قَبْلُ ۚ وَكَانَ أَمْرُ اللَّهِ قَدَرًا مَقْدُورًا",
-    "transliteration": "",
+    "transliteration": "mā kāna ʿalā l-nabiyi min ḥarajin fīmā faraḍa l-lahu lahu sunnata l-lahi fī alladhīna khalaw min qablu wakāna amru l-lahi qadaran maqdūran",
     "t": {
       "sahih-int": "There is not to be upon the Prophet any discomfort concerning that which Allah has imposed upon him. [This is] the established way of Allah with those [prophets] who have passed on before. And ever is the command of Allah a destiny decreed",
       "asad": "[Hence,] no blame whatever attaches to the Prophet for [having done] what God has ordained for him. [Indeed, such was] God’s way with those that have passed away aforetime and [remember that] God’s will is always destiny absolute",
@@ -2530,7 +2538,7 @@
     "section_id": null,
     "ar": "ٱلَّذِینَ یُبَلِّغُونَ رِسَـٰلَـٰتِ ٱللَّهِ وَیَخۡشَوۡنَهُۥ وَلَا یَخۡشَوۡنَ أَحَدًا إِلَّا ٱللَّهَۗ وَكَفَىٰ بِٱللَّهِ حَسِیبࣰا",
     "ar_simple": "الَّذِينَ يُبَلِّغُونَ رِسَالَاتِ اللَّهِ وَيَخْشَوْنَهُ وَلَا يَخْشَوْنَ أَحَدًا إِلَّا اللَّهَ ۗ وَكَفَىٰ بِاللَّهِ حَسِيبًا",
-    "transliteration": "",
+    "transliteration": "alladhīna yuballighūna risālāti l-lahi wayakhshawnahu walā yakhshawna aḥadan illā l-laha wakafā bil-lahi ḥasīban",
     "t": {
       "sahih-int": "[Allah praises] those who convey the messages of Allah and fear Him and do not fear anyone but Allah. And sufficient is Allah as Accountant",
       "asad": "[and such will always be His way with] those who convey God’s messages [to the world], and stand in awe of Him, and hold none but God in awe: for none can take count [of man’s doings] as God does",
@@ -2561,7 +2569,9 @@
       "siraj-ar": "ٱلَّذِينَ يُبَلِّغُونَ رِسَٰلَٰتِ ٱللَّهِ وَيَخۡشَوۡنَهُۥ وَلَا يَخۡشَوۡنَ أَحَدًا إِلَّا ٱللَّهَۗ وَكَفَىٰ بِٱللَّهِ حَسِيبٗا",
       "jalalayn-id": "(Yaitu orang-orang) lafal Al Ladziina menjadi Na'at atau sifat dari lafal Al Ladziina yang sebelumnya (yang menyampaikan risalah-risalah Allah, mereka takut kepada-Nya, dan mereka tiada merasa takut kepada seorang pun selain kepada Allah) mereka tidak takut kepada perkataan manusia dalam hal melaksanakan apa yang telah dihalalkan oleh Allah buat mereka. (Dan cukuplah Allah sebagai pembuat perhitungan) yakni yang memelihara amal-amal makhluk-Nya dan yang menghisab mereka"
     },
-    "topics": [],
+    "topics": [
+      "dhikr"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -2591,7 +2601,7 @@
     "section_id": null,
     "ar": "مَّا كَانَ مُحَمَّدٌ أَبَاۤ أَحَدࣲ مِّن رِّجَالِكُمۡ وَلَـٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِیِّـۧنَۗ وَكَانَ ٱللَّهُ بِكُلِّ شَیۡءٍ عَلِیمࣰا",
     "ar_simple": "مَا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِنْ رِجَالِكُمْ وَلَٰكِنْ رَسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ ۗ وَكَانَ اللَّهُ بِكُلِّ شَيْءٍ عَلِيمًا",
-    "transliteration": "",
+    "transliteration": "mā kāna muḥammadun abā aḥadin min rijālikum walākin rasūla l-lahi wakhātama l-nabiyīna wakāna l-lahu bikulli shayin ʿalīman",
     "t": {
       "sahih-int": "Muhammad is not the father of [any] one of your men, but [he is] the Messenger of Allah and last of the prophets. And ever is Allah, of all things, Knowing",
       "asad": "[And know, O believers, that] Muhammad is not the father of any one of your men, but is God’s Apostle and the Seal of all Prophets. And God has indeed full knowledge of everything",
@@ -2655,7 +2665,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ ٱذۡكُرُوا۟ ٱللَّهَ ذِكۡرࣰا كَثِیرࣰا",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا اذْكُرُوا اللَّهَ ذِكْرًا كَثِيرًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū udh'kurū l-laha dhik'ran kathīran",
     "t": {
       "sahih-int": "O you who have believed, remember Allah with much remembrance",
       "asad": "O YOU who have attained to faith! Remember God with unceasing remembrance",
@@ -2718,7 +2728,7 @@
     "section_id": null,
     "ar": "وَسَبِّحُوهُ بُكۡرَةࣰ وَأَصِیلًا",
     "ar_simple": "وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا",
-    "transliteration": "",
+    "transliteration": "wasabbiḥūhu buk'ratan wa-aṣīlan",
     "t": {
       "sahih-int": "And exalt Him morning and afternoon",
       "asad": "and extol His limitless glory from morn to evening",
@@ -2779,7 +2789,7 @@
     "section_id": null,
     "ar": "هُوَ ٱلَّذِی یُصَلِّی عَلَیۡكُمۡ وَمَلَـٰۤئِكَتُهُۥ لِیُخۡرِجَكُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِۚ وَكَانَ بِٱلۡمُؤۡمِنِینَ رَحِیمࣰا",
     "ar_simple": "هُوَ الَّذِي يُصَلِّي عَلَيْكُمْ وَمَلَائِكَتُهُ لِيُخْرِجَكُمْ مِنَ الظُّلُمَاتِ إِلَى النُّورِ ۚ وَكَانَ بِالْمُؤْمِنِينَ رَحِيمًا",
-    "transliteration": "",
+    "transliteration": "huwa alladhī yuṣallī ʿalaykum wamalāikatuhu liyukh'rijakum mina l-ẓulumāti ilā l-nūri wakāna bil-mu'minīna raḥīman",
     "t": {
       "sahih-int": "It is He who confers blessing upon you, and His angels [ask Him to do so] that He may bring you out from darknesses into the light. And ever is He, to the believers, Merciful",
       "asad": "He it is who bestows His blessings upon you, with His angels [echoing Him], so that He might take you out of the depths of darkness into the light. And, indeed, a dispenser of grace is He unto the believers",
@@ -2844,7 +2854,7 @@
     "section_id": null,
     "ar": "تَحِیَّتُهُمۡ یَوۡمَ یَلۡقَوۡنَهُۥ سَلَـٰمࣱۚ وَأَعَدَّ لَهُمۡ أَجۡرࣰا كَرِیمࣰا",
     "ar_simple": "تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُ سَلَامٌ ۚ وَأَعَدَّ لَهُمْ أَجْرًا كَرِيمًا",
-    "transliteration": "",
+    "transliteration": "taḥiyyatuhum yawma yalqawnahu salāmun wa-aʿadda lahum ajran karīman",
     "t": {
       "sahih-int": "Their greeting the Day they meet Him will be, \"Peace.\" And He has prepared for them a noble reward",
       "asad": "On the Day when they meet Him, they will be welcomed with the greeting, “Peace”; and He will have readied for them a most excellent reward",
@@ -2908,7 +2918,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلنَّبِیُّ إِنَّاۤ أَرۡسَلۡنَـٰكَ شَـٰهِدࣰا وَمُبَشِّرࣰا وَنَذِیرࣰا",
     "ar_simple": "يَا أَيُّهَا النَّبِيُّ إِنَّا أَرْسَلْنَاكَ شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā l-nabiyu innā arsalnāka shāhidan wamubashiran wanadhīran",
     "t": {
       "sahih-int": "O Prophet, indeed We have sent you as a witness and a bringer of good tidings and a warner",
       "asad": "[And as for thee,] O Prophet - behold, We have sent thee as a witness [to the truth], and as a herald of glad tidings and a warner",
@@ -2972,7 +2982,7 @@
     "section_id": null,
     "ar": "وَدَاعِیًا إِلَى ٱللَّهِ بِإِذۡنِهِۦ وَسِرَاجࣰا مُّنِیرࣰا",
     "ar_simple": "وَدَاعِيًا إِلَى اللَّهِ بِإِذْنِهِ وَسِرَاجًا مُنِيرًا",
-    "transliteration": "",
+    "transliteration": "wadāʿiyan ilā l-lahi bi-idh'nihi wasirājan munīran",
     "t": {
       "sahih-int": "And one who invites to Allah, by His permission, and an illuminating lamp",
       "asad": "and as one who summons [all men] to God by His leave, and as a light-giving beacon",
@@ -3035,7 +3045,7 @@
     "section_id": null,
     "ar": "وَبَشِّرِ ٱلۡمُؤۡمِنِینَ بِأَنَّ لَهُم مِّنَ ٱللَّهِ فَضۡلࣰا كَبِیرࣰا",
     "ar_simple": "وَبَشِّرِ الْمُؤْمِنِينَ بِأَنَّ لَهُمْ مِنَ اللَّهِ فَضْلًا كَبِيرًا",
-    "transliteration": "",
+    "transliteration": "wabashiri l-mu'minīna bi-anna lahum mina l-lahi faḍlan kabīran",
     "t": {
       "sahih-int": "And give good tidings to the believers that they will have from Allah great bounty",
       "asad": "And [so,] convey to the believers the glad tiding that a great bounty from God awaits them",
@@ -3099,7 +3109,7 @@
     "section_id": null,
     "ar": "وَلَا تُطِعِ ٱلۡكَـٰفِرِینَ وَٱلۡمُنَـٰفِقِینَ وَدَعۡ أَذَىٰهُمۡ وَتَوَكَّلۡ عَلَى ٱللَّهِۚ وَكَفَىٰ بِٱللَّهِ وَكِیلࣰا",
     "ar_simple": "وَلَا تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ وَدَعْ أَذَاهُمْ وَتَوَكَّلْ عَلَى اللَّهِ ۚ وَكَفَىٰ بِاللَّهِ وَكِيلًا",
-    "transliteration": "",
+    "transliteration": "walā tuṭiʿi l-kāfirīna wal-munāfiqīna wadaʿ adhāhum watawakkal ʿalā l-lahi wakafā bil-lahi wakīlan",
     "t": {
       "sahih-int": "And do not obey the disbelievers and the hypocrites but do not harm them, and rely upon Allah. And sufficient is Allah as Disposer of affairs",
       "asad": "and defer not to [the likes and dislikes of] the deniers of the truth and the hypocrites, and disregard their hurtful talk, and place thy trust in God: for none is as worthy of trust as God",
@@ -3162,7 +3172,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوۤا۟ إِذَا نَكَحۡتُمُ ٱلۡمُؤۡمِنَـٰتِ ثُمَّ طَلَّقۡتُمُوهُنَّ مِن قَبۡلِ أَن تَمَسُّوهُنَّ فَمَا لَكُمۡ عَلَیۡهِنَّ مِنۡ عِدَّةࣲ تَعۡتَدُّونَهَاۖ فَمَتِّعُوهُنَّ وَسَرِّحُوهُنَّ سَرَاحࣰا جَمِیلࣰا",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا نَكَحْتُمُ الْمُؤْمِنَاتِ ثُمَّ طَلَّقْتُمُوهُنَّ مِنْ قَبْلِ أَنْ تَمَسُّوهُنَّ فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّونَهَا ۖ فَمَتِّعُوهُنَّ وَسَرِّحُوهُنَّ سَرَاحًا جَمِيلًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū idhā nakaḥtumu l-mu'mināti thumma ṭallaqtumūhunna min qabli an tamassūhunna famā lakum ʿalayhinna min ʿiddatin taʿtaddūnahā famattiʿūhunna wasarriḥūhunna sarāḥan jamīlan",
     "t": {
       "sahih-int": "O You who have believed, when you marry believing women and then divorce them before you have touched them, then there is not for you any waiting period to count concerning them. So provide for them and give them a gracious release",
       "asad": "O YOU who have attained to faith! If you marry believing women and then divorce them ere you have touched them, you have no reason to expect, and to calculate, any waiting period on their part: hence, make [at once] provision for them, and release them in a becoming manner",
@@ -3226,7 +3236,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلنَّبِیُّ إِنَّاۤ أَحۡلَلۡنَا لَكَ أَزۡوَ ٰجَكَ ٱلَّـٰتِیۤ ءَاتَیۡتَ أُجُورَهُنَّ وَمَا مَلَكَتۡ یَمِینُكَ مِمَّاۤ أَفَاۤءَ ٱللَّهُ عَلَیۡكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّـٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَـٰلَـٰتِكَ ٱلَّـٰتِی هَاجَرۡنَ مَعَكَ وَٱمۡرَأَةࣰ مُّؤۡمِنَةً إِن وَهَبَتۡ نَفۡسَهَا لِلنَّبِیِّ إِنۡ أَرَادَ ٱلنَّبِیُّ أَن یَسۡتَنكِحَهَا خَالِصَةࣰ لَّكَ مِن دُونِ ٱلۡمُؤۡمِنِینَۗ قَدۡ عَلِمۡنَا مَا فَرَضۡنَا عَلَیۡهِمۡ فِیۤ أَزۡوَ ٰجِهِمۡ وَمَا مَلَكَتۡ أَیۡمَـٰنُهُمۡ لِكَیۡلَا یَكُونَ عَلَیۡكَ حَرَجࣱۗ وَكَانَ ٱللَّهُ غَفُورࣰا رَّحِیمࣰا",
     "ar_simple": "يَا أَيُّهَا النَّبِيُّ إِنَّا أَحْلَلْنَا لَكَ أَزْوَاجَكَ اللَّاتِي آتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّا أَفَاءَ اللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّاتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَالَاتِكَ اللَّاتِي هَاجَرْنَ مَعَكَ وَامْرَأَةً مُؤْمِنَةً إِنْ وَهَبَتْ نَفْسَهَا لِلنَّبِيِّ إِنْ أَرَادَ النَّبِيُّ أَنْ يَسْتَنْكِحَهَا خَالِصَةً لَكَ مِنْ دُونِ الْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِي أَزْوَاجِهِمْ وَمَا مَلَكَتْ أَيْمَانُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā l-nabiyu innā aḥlalnā laka azwājaka allātī ātayta ujūrahunna wamā malakat yamīnuka mimmā afāa l-lahu ʿalayka wabanāti ʿammika wabanāti ʿammātika wabanāti khālika wabanāti khālātika allātī hājarna maʿaka wa-im'ra-atan mu'minatan in wahabat nafsahā lilnnabiyyi in arāda l-nabiyu an yastankiḥahā khāliṣatan laka min dūni l-mu'minīna qad ʿalim'nā mā faraḍnā ʿalayhim fī azwājihim wamā malakat aymānuhum likaylā yakūna ʿalayka ḥarajun wakāna l-lahu ghafūran raḥīman",
     "t": {
       "sahih-int": "O Prophet, indeed We have made lawful to you your wives to whom you have given their due compensation and those your right hand possesses from what Allah has returned to you [of captives] and the daughters of your paternal uncles and the daughters of your paternal aunts and the daughters of your maternal uncles and the daughters of your maternal aunts who emigrated with you and a believing woman if she gives herself to the Prophet [and] if the Prophet wishes to marry her, [this is] only for you, excluding the [other] believers. We certainly know what We have made obligatory upon them concerning their wives and those their right hands possess, [but this is for you] in order that there will be upon you no discomfort. And ever is Allah Forgiving and Merciful",
       "asad": "O PROPHET! Behold, We have made lawful to thee thy wives unto whom thou hast paid their dowers, as well as those whom thy right hand has come to possess from among the captives of war whom God has bestowed upon thee. And [We have made lawful to thee] the daughters of thy paternal uncles and aunts, and the daughters of thy maternal uncles and aunts, who have migrated with thee [to Yathrib]; and any believing woman who offers herself freely to the Prophet and whom the Prophet might be willing to wed: [this latter being but] a privilege for thee, and not for other believers - [seeing that] We have already made known what We have enjoined upon them with regard to their wives and those whom their right hands may possess. [And] in order that thou be not burdened with [undue] anxiety - for God is indeed much-forgiving, a dispenser of grace –",
@@ -3290,7 +3300,7 @@
     "section_id": null,
     "ar": "۞ تُرۡجِی مَن تَشَاۤءُ مِنۡهُنَّ وَتُءۡوِیۤ إِلَیۡكَ مَن تَشَاۤءُۖ وَمَنِ ٱبۡتَغَیۡتَ مِمَّنۡ عَزَلۡتَ فَلَا جُنَاحَ عَلَیۡكَۚ ذَ ٰلِكَ أَدۡنَىٰۤ أَن تَقَرَّ أَعۡیُنُهُنَّ وَلَا یَحۡزَنَّ وَیَرۡضَیۡنَ بِمَاۤ ءَاتَیۡتَهُنَّ كُلُّهُنَّۚ وَٱللَّهُ یَعۡلَمُ مَا فِی قُلُوبِكُمۡۚ وَكَانَ ٱللَّهُ عَلِیمًا حَلِیمࣰا",
     "ar_simple": "۞ تُرْجِي مَنْ تَشَاءُ مِنْهُنَّ وَتُؤْوِي إِلَيْكَ مَنْ تَشَاءُ ۖ وَمَنِ ابْتَغَيْتَ مِمَّنْ عَزَلْتَ فَلَا جُنَاحَ عَلَيْكَ ۚ ذَٰلِكَ أَدْنَىٰ أَنْ تَقَرَّ أَعْيُنُهُنَّ وَلَا يَحْزَنَّ وَيَرْضَيْنَ بِمَا آتَيْتَهُنَّ كُلُّهُنَّ ۚ وَاللَّهُ يَعْلَمُ مَا فِي قُلُوبِكُمْ ۚ وَكَانَ اللَّهُ عَلِيمًا حَلِيمًا",
-    "transliteration": "",
+    "transliteration": "tur'jī man tashāu min'hunna watu'wī ilayka man tashāu wamani ib'taghayta mimman ʿazalta falā junāḥa ʿalayka dhālika adnā an taqarra aʿyunuhunna walā yaḥzanna wayarḍayna bimā ātaytahunna kulluhunna wal-lahu yaʿlamu mā fī qulūbikum wakāna l-lahu ʿalīman ḥalīman",
     "t": {
       "sahih-int": "You, [O Muhammad], may put aside whom you will of them or take to yourself whom you will. And any that you desire of those [wives] from whom you had [temporarily] separated - there is no blame upon you [in returning her]. That is more suitable that they should be content and not grieve and that they should be satisfied with what you have given them - all of them. And Allah knows what is in your hearts. And ever is Allah Knowing and Forbearing",
       "asad": "[know that] thou mayest put off for a time whichever of them thou pleasest, and mayest take unto thee whichever thou pleasest; and [that,] if thou seek out any from whom thou hast kept away [for a time], thou wilt incur no sin [thereby]: this will make it more likely that their eyes are gladdened [whenever they see thee], and that they do not grieve [whenever they are overlooked], and that all of them may find contentment in whatever thou hast to give them: for God [alone] knows what is in your hearts - and God is indeed all-knowing, forbearing",
@@ -3353,7 +3363,7 @@
     "section_id": null,
     "ar": "لَّا یَحِلُّ لَكَ ٱلنِّسَاۤءُ مِنۢ بَعۡدُ وَلَاۤ أَن تَبَدَّلَ بِهِنَّ مِنۡ أَزۡوَ ٰجࣲ وَلَوۡ أَعۡجَبَكَ حُسۡنُهُنَّ إِلَّا مَا مَلَكَتۡ یَمِینُكَۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَیۡءࣲ رَّقِیبࣰا",
     "ar_simple": "لَا يَحِلُّ لَكَ النِّسَاءُ مِنْ بَعْدُ وَلَا أَنْ تَبَدَّلَ بِهِنَّ مِنْ أَزْوَاجٍ وَلَوْ أَعْجَبَكَ حُسْنُهُنَّ إِلَّا مَا مَلَكَتْ يَمِينُكَ ۗ وَكَانَ اللَّهُ عَلَىٰ كُلِّ شَيْءٍ رَقِيبًا",
-    "transliteration": "",
+    "transliteration": "lā yaḥillu laka l-nisāu min baʿdu walā an tabaddala bihinna min azwājin walaw aʿjabaka ḥus'nuhunna illā mā malakat yamīnuka wakāna l-lahu ʿalā kulli shayin raqīban",
     "t": {
       "sahih-int": "Not lawful to you, [O Muhammad], are [any additional] women after [this], nor [is it] for you to exchange them for [other] wives, even if their beauty were to please you, except what your right hand possesses. And ever is Allah, over all things, an Observer",
       "asad": "No [other] women shall henceforth be lawful to thee nor art thou [allowed] to supplant [any of] them by other wives, even though their beauty should please thee greatly -: [none shall be lawful to thee] beyond those whom thou [already] hast come to possess. And God keeps watch over everything",
@@ -3416,7 +3426,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تَدۡخُلُوا۟ بُیُوتَ ٱلنَّبِیِّ إِلَّاۤ أَن یُؤۡذَنَ لَكُمۡ إِلَىٰ طَعَامٍ غَیۡرَ نَـٰظِرِینَ إِنَىٰهُ وَلَـٰكِنۡ إِذَا دُعِیتُمۡ فَٱدۡخُلُوا۟ فَإِذَا طَعِمۡتُمۡ فَٱنتَشِرُوا۟ وَلَا مُسۡتَءۡنِسِینَ لِحَدِیثٍۚ إِنَّ ذَ ٰلِكُمۡ كَانَ یُؤۡذِی ٱلنَّبِیَّ فَیَسۡتَحۡیِۦ مِنكُمۡۖ وَٱللَّهُ لَا یَسۡتَحۡیِۦ مِنَ ٱلۡحَقِّۚ وَإِذَا سَأَلۡتُمُوهُنَّ مَتَـٰعࣰا فَسۡءَلُوهُنَّ مِن وَرَاۤءِ حِجَابࣲۚ ذَ ٰلِكُمۡ أَطۡهَرُ لِقُلُوبِكُمۡ وَقُلُوبِهِنَّۚ وَمَا كَانَ لَكُمۡ أَن تُؤۡذُوا۟ رَسُولَ ٱللَّهِ وَلَاۤ أَن تَنكِحُوۤا۟ أَزۡوَ ٰجَهُۥ مِنۢ بَعۡدِهِۦۤ أَبَدًاۚ إِنَّ ذَ ٰلِكُمۡ كَانَ عِندَ ٱللَّهِ عَظِیمًا",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَدْخُلُوا بُيُوتَ النَّبِيِّ إِلَّا أَنْ يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَاظِرِينَ إِنَاهُ وَلَٰكِنْ إِذَا دُعِيتُمْ فَادْخُلُوا فَإِذَا طَعِمْتُمْ فَانْتَشِرُوا وَلَا مُسْتَأْنِسِينَ لِحَدِيثٍ ۚ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِي النَّبِيَّ فَيَسْتَحْيِي مِنْكُمْ ۖ وَاللَّهُ لَا يَسْتَحْيِي مِنَ الْحَقِّ ۚ وَإِذَا سَأَلْتُمُوهُنَّ مَتَاعًا فَاسْأَلُوهُنَّ مِنْ وَرَاءِ حِجَابٍ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ ۚ وَمَا كَانَ لَكُمْ أَنْ تُؤْذُوا رَسُولَ اللَّهِ وَلَا أَنْ تَنْكِحُوا أَزْوَاجَهُ مِنْ بَعْدِهِ أَبَدًا ۚ إِنَّ ذَٰلِكُمْ كَانَ عِنْدَ اللَّهِ عَظِيمًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū lā tadkhulū buyūta l-nabiyi illā an yu'dhana lakum ilā ṭaʿāmin ghayra nāẓirīna ināhu walākin idhā duʿītum fa-ud'khulū fa-idhā ṭaʿim'tum fa-intashirū walā mus'tanisīna liḥadīthin inna dhālikum kāna yu'dhī l-nabiya fayastaḥyī minkum wal-lahu lā yastaḥyī mina l-ḥaqi wa-idhā sa-altumūhunna matāʿan fasalūhunna min warāi ḥijābin dhālikum aṭharu liqulūbikum waqulūbihinna wamā kāna lakum an tu'dhū rasūla l-lahi walā an tankiḥū azwājahu min baʿdihi abadan inna dhālikum kāna ʿinda l-lahi ʿaẓīman",
     "t": {
       "sahih-int": "O you who have believed, do not enter the houses of the Prophet except when you are permitted for a meal, without awaiting its readiness. But when you are invited, then enter; and when you have eaten, disperse without seeking to remain for conversation. Indeed, that [behavior] was troubling the Prophet, and he is shy of [dismissing] you. But Allah is not shy of the truth. And when you ask [his wives] for something, ask them from behind a partition. That is purer for your hearts and their hearts. And it is not [conceivable or lawful] for you to harm the Messenger of Allah or to marry his wives after him, ever. Indeed, that would be in the sight of Allah an enormity",
       "asad": "O YOU who have attained to faith! Do not enter the Prophet’s dwellings unless you are given leave; [and when invited] to a meal, do not come [so early as] to wait for it to be readied: but whenever you are invited, enter [at the proper time]; and when you have partaken of the meal, disperse without lingering for the sake of mere talk: that, behold, might give offence to the Prophet, and yet he might feel shy of [asking] you [to leave]: but God is not shy of [teaching you] what is right. And [as for the Prophet’s wives,] whenever you ask them for anything that you need, ask them from behind a screen: this will but deepen the purity of your hearts and theirs. Moreover, it does not behove you to give offence to God’s Apostle - just as it would not behove you ever to marry his widows after he has passed away: that, verily, would be an enormity in the sight of God",
@@ -3482,7 +3492,7 @@
     "section_id": null,
     "ar": "إِن تُبۡدُوا۟ شَیۡءًا أَوۡ تُخۡفُوهُ فَإِنَّ ٱللَّهَ كَانَ بِكُلِّ شَیۡءٍ عَلِیمࣰا",
     "ar_simple": "إِنْ تُبْدُوا شَيْئًا أَوْ تُخْفُوهُ فَإِنَّ اللَّهَ كَانَ بِكُلِّ شَيْءٍ عَلِيمًا",
-    "transliteration": "",
+    "transliteration": "in tub'dū shayan aw tukh'fūhu fa-inna l-laha kāna bikulli shayin ʿalīman",
     "t": {
       "sahih-int": "Whether you reveal a thing or conceal it, indeed Allah is ever, of all things, Knowing",
       "asad": "Whether you do anything openly or in secret, [remember that,] verily, God has full knowledge of everything",
@@ -3513,7 +3523,9 @@
       "siraj-ar": "إِن تُبۡدُواْ شَيۡـًٔا أَوۡ تُخۡفُوهُ فَإِنَّ ٱللَّهَ كَانَ بِكُلِّ شَيۡءٍ عَلِيمٗا",
       "jalalayn-id": "(Jika kalian melahirkan sesuatu atau menyembunyikannya) keinginan untuk menikahi mereka sesudah Nabi saw. wafat (maka sesungguhnya Allah adalah Maha Mengetahui segala sesuatu) Dia kelak akan membalasnya kepada kalian"
     },
-    "topics": [],
+    "topics": [
+      "allahss-attributes"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -3543,7 +3555,7 @@
     "section_id": null,
     "ar": "لَّا جُنَاحَ عَلَیۡهِنَّ فِیۤ ءَابَاۤئِهِنَّ وَلَاۤ أَبۡنَاۤئِهِنَّ وَلَاۤ إِخۡوَ ٰنِهِنَّ وَلَاۤ أَبۡنَاۤءِ إِخۡوَ ٰنِهِنَّ وَلَاۤ أَبۡنَاۤءِ أَخَوَ ٰتِهِنَّ وَلَا نِسَاۤئِهِنَّ وَلَا مَا مَلَكَتۡ أَیۡمَـٰنُهُنَّۗ وَٱتَّقِینَ ٱللَّهَۚ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَیۡءࣲ شَهِیدًا",
     "ar_simple": "لَا جُنَاحَ عَلَيْهِنَّ فِي آبَائِهِنَّ وَلَا أَبْنَائِهِنَّ وَلَا إِخْوَانِهِنَّ وَلَا أَبْنَاءِ إِخْوَانِهِنَّ وَلَا أَبْنَاءِ أَخَوَاتِهِنَّ وَلَا نِسَائِهِنَّ وَلَا مَا مَلَكَتْ أَيْمَانُهُنَّ ۗ وَاتَّقِينَ اللَّهَ ۚ إِنَّ اللَّهَ كَانَ عَلَىٰ كُلِّ شَيْءٍ شَهِيدًا",
-    "transliteration": "",
+    "transliteration": "lā junāḥa ʿalayhinna fī ābāihinna walā abnāihinna walā ikh'wānihinna walā abnāi ikh'wānihinna walā abnāi akhawātihinna walā nisāihinna walā mā malakat aymānuhunna wa-ittaqīna l-laha inna l-laha kāna ʿalā kulli shayin shahīdan",
     "t": {
       "sahih-int": "There is no blame upon women concerning their fathers or their sons or their brothers or their brothers' sons or their sisters' sons or their women or those their right hands possess. And fear Allah. Indeed Allah is ever, over all things, Witness",
       "asad": "[However,] it is no sin for them [to appear freely] before their fathers, or their sons, or their brothers, or their brothers’ sons, or their sisters’ sons, or their womenfolk, or such [male slaves] as their right hands may possess. But [always, O wives of the Prophet,] remain conscious of God - for, behold, God is witness unto everything",
@@ -3606,7 +3618,7 @@
     "section_id": null,
     "ar": "إِنَّ ٱللَّهَ وَمَلَـٰۤئِكَتَهُۥ یُصَلُّونَ عَلَى ٱلنَّبِیِّۚ یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ صَلُّوا۟ عَلَیۡهِ وَسَلِّمُوا۟ تَسۡلِیمًا",
     "ar_simple": "إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ ۚ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا",
-    "transliteration": "",
+    "transliteration": "inna l-laha wamalāikatahu yuṣallūna ʿalā l-nabiyi yāayyuhā alladhīna āmanū ṣallū ʿalayhi wasallimū taslīman",
     "t": {
       "sahih-int": "Indeed, Allah confers blessing upon the Prophet, and His angels [ask Him to do so]. O you who have believed, ask [Allah to confer] blessing upon him and ask [Allah to grant him] peace",
       "asad": "Verily, God and His angels bless the Prophet: [hence,] O you who have attained to faith, bless him and give yourselves up [to his guidance] in utter self-surrender",
@@ -3672,7 +3684,7 @@
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ یُؤۡذُونَ ٱللَّهَ وَرَسُولَهُۥ لَعَنَهُمُ ٱللَّهُ فِی ٱلدُّنۡیَا وَٱلۡءَاخِرَةِ وَأَعَدَّ لَهُمۡ عَذَابࣰا مُّهِینࣰا",
     "ar_simple": "إِنَّ الَّذِينَ يُؤْذُونَ اللَّهَ وَرَسُولَهُ لَعَنَهُمُ اللَّهُ فِي الدُّنْيَا وَالْآخِرَةِ وَأَعَدَّ لَهُمْ عَذَابًا مُهِينًا",
-    "transliteration": "",
+    "transliteration": "inna alladhīna yu'dhūna l-laha warasūlahu laʿanahumu l-lahu fī l-dun'yā wal-ākhirati wa-aʿadda lahum ʿadhāban muhīnan",
     "t": {
       "sahih-int": "Indeed, those who abuse Allah and His Messenger - Allah has cursed them in this world and the Hereafter and prepared for them a humiliating punishment",
       "asad": "Verily, as for those who [knowingly] affront God and His Apostle - God will reject them in this world and in the life to come; and shameful suffering will He ready for them",
@@ -3737,7 +3749,7 @@
     "section_id": null,
     "ar": "وَٱلَّذِینَ یُؤۡذُونَ ٱلۡمُؤۡمِنِینَ وَٱلۡمُؤۡمِنَـٰتِ بِغَیۡرِ مَا ٱكۡتَسَبُوا۟ فَقَدِ ٱحۡتَمَلُوا۟ بُهۡتَـٰنࣰا وَإِثۡمࣰا مُّبِینࣰا",
     "ar_simple": "وَالَّذِينَ يُؤْذُونَ الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ بِغَيْرِ مَا اكْتَسَبُوا فَقَدِ احْتَمَلُوا بُهْتَانًا وَإِثْمًا مُبِينًا",
-    "transliteration": "",
+    "transliteration": "wa-alladhīna yu'dhūna l-mu'minīna wal-mu'mināti bighayri mā ik'tasabū faqadi iḥ'tamalū buh'tānan wa-ith'man mubīnan",
     "t": {
       "sahih-int": "And those who harm believing men and believing women for [something] other than what they have earned have certainly born upon themselves a slander and manifest sin",
       "asad": "And as for those who malign believing men and believing women without their having done any wrong - they surely burden themselves with the guilt of calumny, and [thus] with a flagrant sin",
@@ -3801,7 +3813,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلنَّبِیُّ قُل لِّأَزۡوَ ٰجِكَ وَبَنَاتِكَ وَنِسَاۤءِ ٱلۡمُؤۡمِنِینَ یُدۡنِینَ عَلَیۡهِنَّ مِن جَلَـٰبِیبِهِنَّۚ ذَ ٰلِكَ أَدۡنَىٰۤ أَن یُعۡرَفۡنَ فَلَا یُؤۡذَیۡنَۗ وَكَانَ ٱللَّهُ غَفُورࣰا رَّحِیمࣰا",
     "ar_simple": "يَا أَيُّهَا النَّبِيُّ قُلْ لِأَزْوَاجِكَ وَبَنَاتِكَ وَنِسَاءِ الْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِنْ جَلَابِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰ أَنْ يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā l-nabiyu qul li-azwājika wabanātika wanisāi l-mu'minīna yud'nīna ʿalayhinna min jalābībihinna dhālika adnā an yuʿ'rafna falā yu'dhayna wakāna l-lahu ghafūran raḥīman",
     "t": {
       "sahih-int": "O Prophet, tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments. That is more suitable that they will be known and not be abused. And ever is Allah Forgiving and Merciful",
       "asad": "O Prophet! Tell thy wives and thy daughters, as well as all [other] believing women, that they should draw over themselves some of their outer garments [when in public]: this will be more conducive to their being recognized [as decent women] and not annoyed. But [withal,] God is indeed much- forgiving, a dispenser of grace",
@@ -3865,7 +3877,7 @@
     "section_id": null,
     "ar": "۞ لَّئِن لَّمۡ یَنتَهِ ٱلۡمُنَـٰفِقُونَ وَٱلَّذِینَ فِی قُلُوبِهِم مَّرَضࣱ وَٱلۡمُرۡجِفُونَ فِی ٱلۡمَدِینَةِ لَنُغۡرِیَنَّكَ بِهِمۡ ثُمَّ لَا یُجَاوِرُونَكَ فِیهَاۤ إِلَّا قَلِیلࣰا",
     "ar_simple": "۞ لَئِنْ لَمْ يَنْتَهِ الْمُنَافِقُونَ وَالَّذِينَ فِي قُلُوبِهِمْ مَرَضٌ وَالْمُرْجِفُونَ فِي الْمَدِينَةِ لَنُغْرِيَنَّكَ بِهِمْ ثُمَّ لَا يُجَاوِرُونَكَ فِيهَا إِلَّا قَلِيلًا",
-    "transliteration": "",
+    "transliteration": "la-in lam yantahi l-munāfiqūna wa-alladhīna fī qulūbihim maraḍun wal-mur'jifūna fī l-madīnati lanugh'riyannaka bihim thumma lā yujāwirūnaka fīhā illā qalīlan",
     "t": {
       "sahih-int": "If the hypocrites and those in whose hearts is disease and those who spread rumors in al-Madinah do not cease, We will surely incite you against them; then they will not remain your neighbors therein except for a little",
       "asad": "THUS IT IS: if the hypocrites, and they in whose hearts is disease, and they who, by spreading false rumours, would cause disturbances in the City [of the Prophet] desist not [from their hostile doings]. We shall indeed give thee mastery over them, [O Muhammad] - and then they will not remain thy neighbours in this [city] for more than a little while",
@@ -3928,7 +3940,7 @@
     "section_id": null,
     "ar": "مَّلۡعُونِینَۖ أَیۡنَمَا ثُقِفُوۤا۟ أُخِذُوا۟ وَقُتِّلُوا۟ تَقۡتِیلࣰا",
     "ar_simple": "مَلْعُونِينَ ۖ أَيْنَمَا ثُقِفُوا أُخِذُوا وَقُتِّلُوا تَقْتِيلًا",
-    "transliteration": "",
+    "transliteration": "malʿūnīna aynamā thuqifū ukhidhū waquttilū taqtīlan",
     "t": {
       "sahih-int": "Accursed wherever they are found, [being] seized and massacred completely",
       "asad": "bereft of God’s grace, they shall be seized wherever they may be found, and slain one and all",
@@ -3989,7 +4001,7 @@
     "section_id": null,
     "ar": "سُنَّةَ ٱللَّهِ فِی ٱلَّذِینَ خَلَوۡا۟ مِن قَبۡلُۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبۡدِیلࣰا",
     "ar_simple": "سُنَّةَ اللَّهِ فِي الَّذِينَ خَلَوْا مِنْ قَبْلُ ۖ وَلَنْ تَجِدَ لِسُنَّةِ اللَّهِ تَبْدِيلًا",
-    "transliteration": "",
+    "transliteration": "sunnata l-lahi fī alladhīna khalaw min qablu walan tajida lisunnati l-lahi tabdīlan",
     "t": {
       "sahih-int": "[This is] the established way of Allah with those who passed on before; and you will not find in the way of Allah any change",
       "asad": "Such has been God’s way with those who [sinned in like manner and] passed away aforetime - and never wilt thou find any change in God’s way",
@@ -4020,7 +4032,9 @@
       "siraj-ar": "سُنَّةَ ٱللَّهِ فِي ٱلَّذِينَ خَلَوۡاْ مِن قَبۡلُۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبۡدِيلٗا (سُنَّةَ اللَّهِ: طَرِيقَتَهُ فيِ المُنَافِقِينَ: القَتْلَ، وَالأَسْرَ, خَلَوْا: مَضَوْا, تَبْدِيلًا: تَحْوِيلًا، وَتَغْيِيرًا)",
       "jalalayn-id": "(Sebagai sunah Allah) yakni Allah telah menetapkan hal tersebut sebagai sunah-Nya (yang berlaku atas orang-orang yang telah terdahulu) atas umat-umat yang dahulu, yaitu atas orang-orang munafik yang selalu menyebarkan rasa takut ke dalam hati orang-orang yang beriman (dan kamu sekali-kali tiada akan mendapati perubahan pada sunah Allah) sebagai pengganti dari-Nya"
     },
-    "topics": [],
+    "topics": [
+      "prophets-stories"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -4050,7 +4064,7 @@
     "section_id": null,
     "ar": "یَسۡءَلُكَ ٱلنَّاسُ عَنِ ٱلسَّاعَةِۖ قُلۡ إِنَّمَا عِلۡمُهَا عِندَ ٱللَّهِۚ وَمَا یُدۡرِیكَ لَعَلَّ ٱلسَّاعَةَ تَكُونُ قَرِیبًا",
     "ar_simple": "يَسْأَلُكَ النَّاسُ عَنِ السَّاعَةِ ۖ قُلْ إِنَّمَا عِلْمُهَا عِنْدَ اللَّهِ ۚ وَمَا يُدْرِيكَ لَعَلَّ السَّاعَةَ تَكُونُ قَرِيبًا",
-    "transliteration": "",
+    "transliteration": "yasaluka l-nāsu ʿani l-sāʿati qul innamā ʿil'muhā ʿinda l-lahi wamā yud'rīka laʿalla l-sāʿata takūnu qarīban",
     "t": {
       "sahih-int": "People ask you concerning the Hour. Say,\" Knowledge of it is only with Allah. And what may make you perceive? Perhaps the Hour is near",
       "asad": "PEOPLE will ask thee about the Last Hour. Say: “Knowledge thereof rests with God alone; yet for all thou knowest, the Last Hour may well be near!”",
@@ -4113,7 +4127,7 @@
     "section_id": null,
     "ar": "إِنَّ ٱللَّهَ لَعَنَ ٱلۡكَـٰفِرِینَ وَأَعَدَّ لَهُمۡ سَعِیرًا",
     "ar_simple": "إِنَّ اللَّهَ لَعَنَ الْكَافِرِينَ وَأَعَدَّ لَهُمْ سَعِيرًا",
-    "transliteration": "",
+    "transliteration": "inna l-laha laʿana l-kāfirīna wa-aʿadda lahum saʿīran",
     "t": {
       "sahih-int": "Indeed, Allah has cursed the disbelievers and prepared for them a Blaze",
       "asad": "Verily, God has rejected the deniers of the truth, and has readied for them a blazing fire",
@@ -4176,7 +4190,7 @@
     "section_id": null,
     "ar": "خَـٰلِدِینَ فِیهَاۤ أَبَدࣰاۖ لَّا یَجِدُونَ وَلِیࣰّا وَلَا نَصِیرࣰا",
     "ar_simple": "خَالِدِينَ فِيهَا أَبَدًا ۖ لَا يَجِدُونَ وَلِيًّا وَلَا نَصِيرًا",
-    "transliteration": "",
+    "transliteration": "khālidīna fīhā abadan lā yajidūna waliyyan walā naṣīran",
     "t": {
       "sahih-int": "Abiding therein forever, they will not find a protector or a helper",
       "asad": "therein to abide beyond the count of time: no protector will they find, and none to bring them succour",
@@ -4237,7 +4251,7 @@
     "section_id": null,
     "ar": "یَوۡمَ تُقَلَّبُ وُجُوهُهُمۡ فِی ٱلنَّارِ یَقُولُونَ یَـٰلَیۡتَنَاۤ أَطَعۡنَا ٱللَّهَ وَأَطَعۡنَا ٱلرَّسُولَا۠",
     "ar_simple": "يَوْمَ تُقَلَّبُ وُجُوهُهُمْ فِي النَّارِ يَقُولُونَ يَا لَيْتَنَا أَطَعْنَا اللَّهَ وَأَطَعْنَا الرَّسُولَا",
-    "transliteration": "",
+    "transliteration": "yawma tuqallabu wujūhuhum fī l-nāri yaqūlūna yālaytanā aṭaʿnā l-laha wa-aṭaʿnā l-rasūlā",
     "t": {
       "sahih-int": "The Day their faces will be turned about in the Fire, they will say, \"How we wish we had obeyed Allah and obeyed the Messenger",
       "asad": "On the Day when their faces shall be tossed about in the fire, they will exclaim, “Oh, would that we had paid heed unto God, and paid heed unto the Apostle!”",
@@ -4300,7 +4314,7 @@
     "section_id": null,
     "ar": "وَقَالُوا۟ رَبَّنَاۤ إِنَّاۤ أَطَعۡنَا سَادَتَنَا وَكُبَرَاۤءَنَا فَأَضَلُّونَا ٱلسَّبِیلَا۠",
     "ar_simple": "وَقَالُوا رَبَّنَا إِنَّا أَطَعْنَا سَادَتَنَا وَكُبَرَاءَنَا فَأَضَلُّونَا السَّبِيلَا",
-    "transliteration": "",
+    "transliteration": "waqālū rabbanā innā aṭaʿnā sādatanā wakubarāanā fa-aḍallūnā l-sabīlā",
     "t": {
       "sahih-int": "And they will say, \"Our Lord, indeed we obeyed our masters and our dignitaries, and they led us astray from the [right] way",
       "asad": "And they will say: “O our Sustainer! Behold, we paid heed unto our leaders and our great men, and it is they who have led us astray from the right path",
@@ -4361,7 +4375,7 @@
     "section_id": null,
     "ar": "رَبَّنَاۤ ءَاتِهِمۡ ضِعۡفَیۡنِ مِنَ ٱلۡعَذَابِ وَٱلۡعَنۡهُمۡ لَعۡنࣰا كَبِیرࣰا",
     "ar_simple": "رَبَّنَا آتِهِمْ ضِعْفَيْنِ مِنَ الْعَذَابِ وَالْعَنْهُمْ لَعْنًا كَبِيرًا",
-    "transliteration": "",
+    "transliteration": "rabbanā ātihim ḍiʿ'fayni mina l-ʿadhābi wal-ʿanhum laʿnan kabīran",
     "t": {
       "sahih-int": "Our Lord, give them double the punishment and curse them with a great curse",
       "asad": "O our Sustainer! Give them double suffering, and banish them utterly from Thy grace!”",
@@ -4425,7 +4439,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ لَا تَكُونُوا۟ كَٱلَّذِینَ ءَاذَوۡا۟ مُوسَىٰ فَبَرَّأَهُ ٱللَّهُ مِمَّا قَالُوا۟ۚ وَكَانَ عِندَ ٱللَّهِ وَجِیهࣰا",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَكُونُوا كَالَّذِينَ آذَوْا مُوسَىٰ فَبَرَّأَهُ اللَّهُ مِمَّا قَالُوا ۚ وَكَانَ عِنْدَ اللَّهِ وَجِيهًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū lā takūnū ka-alladhīna ādhaw mūsā fabarra-ahu l-lahu mimmā qālū wakāna ʿinda l-lahi wajīhan",
     "t": {
       "sahih-int": "O you who have believed, be not like those who abused Moses; then Allah cleared him of what they said. And he, in the sight of Allah, was distinguished",
       "asad": "O YOU who have attained to faith! Be not like those [children of Israel] who gave offence to Moses, and [remember that] God showed him to be innocent of whatever they alleged [against him or demanded of him]: for of great honour was he in the sight of God",
@@ -4488,7 +4502,7 @@
     "section_id": null,
     "ar": "یَـٰۤأَیُّهَا ٱلَّذِینَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَقُولُوا۟ قَوۡلࣰا سَدِیدࣰا",
     "ar_simple": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَقُولُوا قَوْلًا سَدِيدًا",
-    "transliteration": "",
+    "transliteration": "yāayyuhā alladhīna āmanū ittaqū l-laha waqūlū qawlan sadīdan",
     "t": {
       "sahih-int": "O you who have believed, fear Allah and speak words of appropriate justice",
       "asad": "O you who have attained to faith! Remain conscious of God, and [always] speak with a will to bring out [only] what is just and true",
@@ -4551,7 +4565,7 @@
     "section_id": null,
     "ar": "یُصۡلِحۡ لَكُمۡ أَعۡمَـٰلَكُمۡ وَیَغۡفِرۡ لَكُمۡ ذُنُوبَكُمۡۗ وَمَن یُطِعِ ٱللَّهَ وَرَسُولَهُۥ فَقَدۡ فَازَ فَوۡزًا عَظِیمًا",
     "ar_simple": "يُصْلِحْ لَكُمْ أَعْمَالَكُمْ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَمَنْ يُطِعِ اللَّهَ وَرَسُولَهُ فَقَدْ فَازَ فَوْزًا عَظِيمًا",
-    "transliteration": "",
+    "transliteration": "yuṣ'liḥ lakum aʿmālakum wayaghfir lakum dhunūbakum waman yuṭiʿi l-laha warasūlahu faqad fāza fawzan ʿaẓīman",
     "t": {
       "sahih-int": "He will [then] amend for you your deeds and forgive you your sins. And whoever obeys Allah and His Messenger has certainly attained a great attainment",
       "asad": "[whereupon] He will cause your deeds to be virtuous, and will forgive you your sins. And [know that] whoever pays heed unto God and His Apostle has already attained to a mighty triumph",
@@ -4617,7 +4631,7 @@
     "section_id": null,
     "ar": "إِنَّا عَرَضۡنَا ٱلۡأَمَانَةَ عَلَى ٱلسَّمَـٰوَ ٰتِ وَٱلۡأَرۡضِ وَٱلۡجِبَالِ فَأَبَیۡنَ أَن یَحۡمِلۡنَهَا وأَشۡفَقۡنَ مِنۡهَا وَحَمَلَهَا ٱلۡإِنسَـٰنُۖ إِنَّهُۥ كَانَ ظَلُومࣰا جَهُولࣰا",
     "ar_simple": "إِنَّا عَرَضْنَا الْأَمَانَةَ عَلَى السَّمَاوَاتِ وَالْأَرْضِ وَالْجِبَالِ فَأَبَيْنَ أَنْ يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا الْإِنْسَانُ ۖ إِنَّهُ كَانَ ظَلُومًا جَهُولًا",
-    "transliteration": "",
+    "transliteration": "innā ʿaraḍnā l-amānata ʿalā l-samāwāti wal-arḍi wal-jibāli fa-abayna an yaḥmil'nahā wa-ashfaqna min'hā waḥamalahā l-insānu innahu kāna ẓalūman jahūlan",
     "t": {
       "sahih-int": "Indeed, we offered the Trust to the heavens and the earth and the mountains, and they declined to bear it and feared it; but man [undertook to] bear it. Indeed, he was unjust and ignorant",
       "asad": "Verily, We did offer the trust [of reason and volition] to the heavens, and the earth, and the mountains: but they refused to bear it because they were afraid of it. Yet man took it up - for, verily, he has always been prone to be most wicked, most foolish",
@@ -4680,7 +4694,7 @@
     "section_id": null,
     "ar": "لِّیُعَذِّبَ ٱللَّهُ ٱلۡمُنَـٰفِقِینَ وَٱلۡمُنَـٰفِقَـٰتِ وَٱلۡمُشۡرِكِینَ وَٱلۡمُشۡرِكَـٰتِ وَیَتُوبَ ٱللَّهُ عَلَى ٱلۡمُؤۡمِنِینَ وَٱلۡمُؤۡمِنَـٰتِۗ وَكَانَ ٱللَّهُ غَفُورࣰا رَّحِیمَۢا",
     "ar_simple": "لِيُعَذِّبَ اللَّهُ الْمُنَافِقِينَ وَالْمُنَافِقَاتِ وَالْمُشْرِكِينَ وَالْمُشْرِكَاتِ وَيَتُوبَ اللَّهُ عَلَى الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ ۗ وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
-    "transliteration": "",
+    "transliteration": "liyuʿadhiba l-lahu l-munāfiqīna wal-munāfiqāti wal-mush'rikīna wal-mush'rikāti wayatūba l-lahu ʿalā l-mu'minīna wal-mu'mināti wakāna l-lahu ghafūran raḥīman",
     "t": {
       "sahih-int": "[It was] so that Allah may punish the hypocrite men and hypocrite women and the men and women who associate others with Him and that Allah may accept repentance from the believing men and believing women. And ever is Allah Forgiving and Merciful",
       "asad": "[And so it is] that God imposes suffering on the hypocrites, both men and women, as well as on the men and women who ascribe divinity to aught beside Him. And [so, too, it is] that God turns in His mercy unto the believing men and believing women: for God is indeed much-forgiving, a dispenser of grace",

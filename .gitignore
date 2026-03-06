@@ -35,6 +35,9 @@ Thumbs.db
 # Crunch execution prompt (local only)
 PROMPT.md
 
+# Test coverage
+coverage/
+
 # Scraper checkpoints
 scripts/.checkpoints/*.json
 

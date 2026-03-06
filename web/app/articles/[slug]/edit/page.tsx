@@ -32,7 +32,7 @@ export default async function EditArticlePage({ params }: Props) {
 
   const user = await getSessionUser()
   if (!user) {
-    redirect(`/signin?redirect=/articles/${slug}/edit`)
+    redirect(`/account?redirect=/articles/${slug}/edit`)
   }
 
   return (

@@ -2083,7 +2083,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "salah"
+    ],
     "tags": [
       "bulugh-maram"
     ],

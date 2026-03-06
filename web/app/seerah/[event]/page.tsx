@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getSeerahEventBySlug, getSeerahEvents } from '@/lib/data/seerah'
+import { formatIslamicDate } from '@/lib/dates/hijri'
 
 interface Props {
   params: Promise<{ event: string }>
@@ -15,9 +16,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { event: slug } = await params
   const event = getSeerahEventBySlug(slug)
   if (!event) return {}
+  const { primary, secondary } = formatIslamicDate(event)
+  const dateLabel = secondary ? `${primary} (${secondary})` : primary
   return {
     title: event.title_en,
-    description: `${event.title_en}${event.date_ce ? ` (${event.date_ce})` : ''}. ${event.description_en.slice(0, 160)}`,
+    description: `${event.title_en}${dateLabel ? ` — ${dateLabel}` : ''}. ${event.description_en.slice(0, 160)}`,
   }
 }
 
@@ -101,11 +104,19 @@ export default async function SeerahEventPage({ params }: Props) {
       <div className="mx-auto max-w-3xl">
         <div className="mb-8">
           <div className="mb-2 flex items-center gap-3">
-            {(event.date_ce || event.date_ah) && (
-              <span className="text-sm font-medium text-iw-accent">
-                {event.date_ce || event.date_ah}
-              </span>
-            )}
+            {(() => {
+              const { primary, secondary } = formatIslamicDate(event)
+              return primary ? (
+                <span className="text-sm font-medium text-iw-accent">
+                  {primary}
+                  {secondary && (
+                    <span className="ml-1 font-normal text-iw-text-muted/70">
+                      ({secondary})
+                    </span>
+                  )}
+                </span>
+              ) : null
+            })()}
             <span
               className={`badge ${
                 event.significance === 'major'
@@ -179,11 +190,12 @@ export default async function SeerahEventPage({ params }: Props) {
               <p className="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
                 {prevEvent.title_en}
               </p>
-              {prevEvent.date_ce && (
-                <p className="mt-0.5 text-xs text-iw-text-muted">
-                  {prevEvent.date_ce}
-                </p>
-              )}
+              {(() => {
+                const { primary } = formatIslamicDate(prevEvent)
+                return primary ? (
+                  <p className="mt-0.5 text-xs text-iw-text-muted">{primary}</p>
+                ) : null
+              })()}
             </Link>
           ) : (
             <div />
@@ -197,11 +209,12 @@ export default async function SeerahEventPage({ params }: Props) {
               <p className="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
                 {nextEvent.title_en}
               </p>
-              {nextEvent.date_ce && (
-                <p className="mt-0.5 text-xs text-iw-text-muted">
-                  {nextEvent.date_ce}
-                </p>
-              )}
+              {(() => {
+                const { primary } = formatIslamicDate(nextEvent)
+                return primary ? (
+                  <p className="mt-0.5 text-xs text-iw-text-muted">{primary}</p>
+                ) : null
+              })()}
             </Link>
           ) : (
             <div />

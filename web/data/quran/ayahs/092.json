@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "وَٱلَّیۡلِ إِذَا یَغۡشَىٰ",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَاللَّيْلِ إِذَا يَغْشَىٰ",
-    "transliteration": "",
+    "transliteration": "wa-al-layli idhā yaghshā",
     "t": {
       "sahih-int": "By the night when it covers",
       "asad": "CONSIDER the night as it veils [the earth] in darkness",
@@ -83,7 +83,7 @@
     "section_id": null,
     "ar": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
     "ar_simple": "وَالنَّهَارِ إِذَا تَجَلَّىٰ",
-    "transliteration": "",
+    "transliteration": "wal-nahāri idhā tajallā",
     "t": {
       "sahih-int": "And [by] the day when it appears",
       "asad": "and the day as it rises bright",
@@ -153,7 +153,7 @@
     "section_id": null,
     "ar": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلۡأُنثَىٰۤ",
     "ar_simple": "وَمَا خَلَقَ الذَّكَرَ وَالْأُنْثَىٰ",
-    "transliteration": "",
+    "transliteration": "wamā khalaqa l-dhakara wal-unthā",
     "t": {
       "sahih-int": "And [by] He who created the male and female",
       "asad": "Consider the creation of the male and the female",
@@ -225,7 +225,7 @@
     "section_id": null,
     "ar": "إِنَّ سَعۡیَكُمۡ لَشَتَّىٰ",
     "ar_simple": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
-    "transliteration": "",
+    "transliteration": "inna saʿyakum lashattā",
     "t": {
       "sahih-int": "Indeed, your efforts are diverse",
       "asad": "Verily, [O men,] you aim at most divergent ends",
@@ -297,7 +297,7 @@
     "section_id": null,
     "ar": "فَأَمَّا مَنۡ أَعۡطَىٰ وَٱتَّقَىٰ",
     "ar_simple": "فَأَمَّا مَنْ أَعْطَىٰ وَاتَّقَىٰ",
-    "transliteration": "",
+    "transliteration": "fa-ammā man aʿṭā wa-ittaqā",
     "t": {
       "sahih-int": "As for he who gives and fears Allah",
       "asad": "Thus, as for him who gives [to others] and is conscious of God",
@@ -338,7 +338,9 @@
       "sadi-ar": "فصل الله تعالى العاملين، ووصف أعمالهم،  فقال:   { فَأَمَّا مَنْ أَعْطَى }   [أي]  ما أمر به من العبادات المالية، كالزكوات، والكفارات والنفقات، والصدقات، والإنفاق في وجوه الخير، والعبادات البدنية كالصلاة، والصوم ونحوهما. والمركبة منهما، كالحج والعمرة  [ونحوهما]   { وَاتَّقَى }  ما نهي عنه، من المحرمات والمعاصي، على اختلاف أجناسها.",
       "zilal-en": ""
     },
-    "topics": [],
+    "topics": [
+      "taqwa"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -368,7 +370,7 @@
     "section_id": null,
     "ar": "وَصَدَّقَ بِٱلۡحُسۡنَىٰ",
     "ar_simple": "وَصَدَّقَ بِالْحُسْنَىٰ",
-    "transliteration": "",
+    "transliteration": "waṣaddaqa bil-ḥus'nā",
     "t": {
       "sahih-int": "And believes in the best [reward]",
       "asad": "and believes in the truth of the ultimate good",
@@ -442,7 +444,7 @@
     "section_id": null,
     "ar": "فَسَنُیَسِّرُهُۥ لِلۡیُسۡرَىٰ",
     "ar_simple": "فَسَنُيَسِّرُهُ لِلْيُسْرَىٰ",
-    "transliteration": "",
+    "transliteration": "fasanuyassiruhu lil'yus'rā",
     "t": {
       "sahih-int": "We will ease him toward ease",
       "asad": "for him shall We make easy the path towards [ultimate] ease",
@@ -514,7 +516,7 @@
     "section_id": null,
     "ar": "وَأَمَّا مَنۢ بَخِلَ وَٱسۡتَغۡنَىٰ",
     "ar_simple": "وَأَمَّا مَنْ بَخِلَ وَاسْتَغْنَىٰ",
-    "transliteration": "",
+    "transliteration": "wa-ammā man bakhila wa-is'taghnā",
     "t": {
       "sahih-int": "But as for he who withholds and considers himself free of need",
       "asad": "But as for him who is niggardly, and thinks that he is self-sufficient",
@@ -585,7 +587,7 @@
     "section_id": null,
     "ar": "وَكَذَّبَ بِٱلۡحُسۡنَىٰ",
     "ar_simple": "وَكَذَّبَ بِالْحُسْنَىٰ",
-    "transliteration": "",
+    "transliteration": "wakadhaba bil-ḥus'nā",
     "t": {
       "sahih-int": "And denies the best [reward]",
       "asad": "and calls the ultimate good a lie –",
@@ -658,7 +660,7 @@
     "section_id": null,
     "ar": "فَسَنُیَسِّرُهُۥ لِلۡعُسۡرَىٰ",
     "ar_simple": "فَسَنُيَسِّرُهُ لِلْعُسْرَىٰ",
-    "transliteration": "",
+    "transliteration": "fasanuyassiruhu lil'ʿus'rā",
     "t": {
       "sahih-int": "We will ease him toward difficulty",
       "asad": "for him shall We make easy the path towards hardship",
@@ -731,7 +733,7 @@
     "section_id": null,
     "ar": "وَمَا یُغۡنِی عَنۡهُ مَالُهُۥۤ إِذَا تَرَدَّىٰۤ",
     "ar_simple": "وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ",
-    "transliteration": "",
+    "transliteration": "wamā yugh'nī ʿanhu māluhu idhā taraddā",
     "t": {
       "sahih-int": "And what will his wealth avail him when he falls",
       "asad": "and what will his wealth avail him when he goes down [to his grave]",
@@ -795,7 +797,7 @@
     "section_id": null,
     "ar": "إِنَّ عَلَیۡنَا لَلۡهُدَىٰ",
     "ar_simple": "إِنَّ عَلَيْنَا لَلْهُدَىٰ",
-    "transliteration": "",
+    "transliteration": "inna ʿalaynā lalhudā",
     "t": {
       "sahih-int": "Indeed, [incumbent] upon Us is guidance",
       "asad": "BEHOLD, it is indeed for Us to grace [you] with guidance",
@@ -827,7 +829,9 @@
       "siraj-ar": "إِنَّ عَلَيۡنَا لَلۡهُدَىٰ (إِنَّ عَلَيْنَا لَلْهُدَى: عَلَيْنَا أَنْ نُبَيِّنَ طَرِيقَ الهُدَى؛ فَضْلًا مِنَّا وَرَحْمَةً)",
       "jalalayn-id": "(Sesungguhnya kewajiban Kamilah memberi petunjuk) untuk membedakan antara jalan hidayah dan jalan kesesatan; dimaksud supaya ia mengerjakan perintah Kami dengan menempuh jalan yang pertama, dan ia Kami larang dari menempuh jalan yang kedua"
     },
-    "topics": [],
+    "topics": [
+      "iman"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -857,7 +861,7 @@
     "section_id": null,
     "ar": "وَإِنَّ لَنَا لَلۡءَاخِرَةَ وَٱلۡأُولَىٰ",
     "ar_simple": "وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ",
-    "transliteration": "",
+    "transliteration": "wa-inna lanā lalākhirata wal-ūlā",
     "t": {
       "sahih-int": "And indeed, to Us belongs the Hereafter and the first [life]",
       "asad": "and, behold, Ours is [the dominion over] the life to come as well as [over] this earlier part [of your life]",
@@ -920,7 +924,7 @@
     "section_id": null,
     "ar": "فَأَنذَرۡتُكُمۡ نَارࣰا تَلَظَّىٰ",
     "ar_simple": "فَأَنْذَرْتُكُمْ نَارًا تَلَظَّىٰ",
-    "transliteration": "",
+    "transliteration": "fa-andhartukum nāran talaẓẓā",
     "t": {
       "sahih-int": "So I have warned you of a Fire which is blazing",
       "asad": "and so I warn you of the raging fire",
@@ -984,7 +988,7 @@
     "section_id": null,
     "ar": "لَا یَصۡلَىٰهَاۤ إِلَّا ٱلۡأَشۡقَى",
     "ar_simple": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
-    "transliteration": "",
+    "transliteration": "lā yaṣlāhā illā l-ashqā",
     "t": {
       "sahih-int": "None will [enter to] burn therein except the most wretched one",
       "asad": "[the fire] which none shall have to endure but that most hapless wretch",
@@ -1046,7 +1050,7 @@
     "section_id": null,
     "ar": "ٱلَّذِی كَذَّبَ وَتَوَلَّىٰ",
     "ar_simple": "الَّذِي كَذَّبَ وَتَوَلَّىٰ",
-    "transliteration": "",
+    "transliteration": "alladhī kadhaba watawallā",
     "t": {
       "sahih-int": "Who had denied and turned away",
       "asad": "who gives the lie to the truth and turns away [from it]",
@@ -1107,7 +1111,7 @@
     "section_id": null,
     "ar": "وَسَیُجَنَّبُهَا ٱلۡأَتۡقَى",
     "ar_simple": "وَسَيُجَنَّبُهَا الْأَتْقَى",
-    "transliteration": "",
+    "transliteration": "wasayujannabuhā l-atqā",
     "t": {
       "sahih-int": "But the righteous one will avoid it",
       "asad": "For, distant from it shall remain he who is truly conscious of God",
@@ -1170,7 +1174,7 @@
     "section_id": null,
     "ar": "ٱلَّذِی یُؤۡتِی مَالَهُۥ یَتَزَكَّىٰ",
     "ar_simple": "الَّذِي يُؤْتِي مَالَهُ يَتَزَكَّىٰ",
-    "transliteration": "",
+    "transliteration": "alladhī yu'tī mālahu yatazakkā",
     "t": {
       "sahih-int": "[He] who gives [from] his wealth to purify himself",
       "asad": "he that spends his possessions [on others] so that he might grow in purity –",
@@ -1233,7 +1237,7 @@
     "section_id": null,
     "ar": "وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعۡمَةࣲ تُجۡزَىٰۤ",
     "ar_simple": "وَمَا لِأَحَدٍ عِنْدَهُ مِنْ نِعْمَةٍ تُجْزَىٰ",
-    "transliteration": "",
+    "transliteration": "wamā li-aḥadin ʿindahu min niʿ'matin tuj'zā",
     "t": {
       "sahih-int": "And not [giving] for anyone who has [done him] a favor to be rewarded",
       "asad": "not as payment for favours received",
@@ -1296,7 +1300,7 @@
     "section_id": null,
     "ar": "إِلَّا ٱبۡتِغَاۤءَ وَجۡهِ رَبِّهِ ٱلۡأَعۡلَىٰ",
     "ar_simple": "إِلَّا ابْتِغَاءَ وَجْهِ رَبِّهِ الْأَعْلَىٰ",
-    "transliteration": "",
+    "transliteration": "illā ib'tighāa wajhi rabbihi l-aʿlā",
     "t": {
       "sahih-int": "But only seeking the countenance of his Lord, Most High",
       "asad": "but only out of a longing for the countenance of his Sustainer, the All-Highest",
@@ -1357,7 +1361,7 @@
     "section_id": null,
     "ar": "وَلَسَوۡفَ یَرۡضَىٰ",
     "ar_simple": "وَلَسَوْفَ يَرْضَىٰ",
-    "transliteration": "",
+    "transliteration": "walasawfa yarḍā",
     "t": {
       "sahih-int": "And he is going to be satisfied",
       "asad": "and such, indeed, shall in time be well-pleased",

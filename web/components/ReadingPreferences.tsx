@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 export interface ReadingPrefs {
   fontSize: 'sm' | 'md' | 'lg' | 'xl'
@@ -18,14 +18,14 @@ const DEFAULT_PREFS: ReadingPrefs = {
 const STORAGE_KEY = 'iw_reading_prefs'
 
 export function useReadingPrefs() {
-  const [prefs, setPrefs] = useState<ReadingPrefs>(DEFAULT_PREFS)
-
-  useEffect(() => {
+  const [prefs, setPrefs] = useState<ReadingPrefs>(() => {
+    if (typeof window === 'undefined') return DEFAULT_PREFS
     try {
       const stored = localStorage.getItem(STORAGE_KEY)
-      if (stored) setPrefs({ ...DEFAULT_PREFS, ...JSON.parse(stored) })
+      if (stored) return { ...DEFAULT_PREFS, ...JSON.parse(stored) }
     } catch {}
-  }, [])
+    return DEFAULT_PREFS
+  })
 
   const updatePrefs = (updates: Partial<ReadingPrefs>) => {
     const newPrefs = { ...prefs, ...updates }

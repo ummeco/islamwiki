@@ -167,7 +167,7 @@ export function SearchInput({
             <div key={group.type}>
               {/* Group header */}
               <div className="sticky top-0 z-10 border-b border-iw-border/50 bg-[#0a1f10]/95 px-4 py-1.5 backdrop-blur-sm">
-                <span className="text-[10px] font-bold tracking-wider text-iw-accent/70 uppercase">
+                <span className="text-[10px] font-bold tracking-wider text-iw-accent uppercase">
                   {group.label}
                 </span>
                 {group.total > group.results.length && (
@@ -210,7 +210,7 @@ export function SearchInput({
                 <Link
                   href={`/search?q=${encodeURIComponent(query)}&type=${group.type}`}
                   onClick={() => { setIsOpen(false); setQuery(''); onNavigate?.() }}
-                  className="block px-4 py-2 text-xs text-iw-accent/70 transition-colors hover:text-iw-accent"
+                  className="block px-4 py-2 text-xs text-iw-accent transition-colors hover:text-iw-accent-light"
                 >
                   ...{group.total - group.results.length} more {group.label.toLowerCase()} results
                 </Link>

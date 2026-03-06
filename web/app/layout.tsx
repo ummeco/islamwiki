@@ -41,8 +41,13 @@ export const metadata: Metadata = {
     'Islamic encyclopedia',
   ],
   icons: {
-    icon: '/favicon.ico',
-    apple: '/icon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: '64x64 48x48 32x32 16x16', type: 'image/x-icon' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
+    other: [{ rel: 'manifest', url: '/manifest.webmanifest' }],
   },
   openGraph: {
     type: 'website',
@@ -81,7 +86,7 @@ export default function RootLayout({
       >
         <WebsiteJsonLd />
         <Header />
-        <main className="min-h-screen pt-16">{children}</main>
+        <main className="min-h-screen pt-20">{children}</main>
         <Footer />
         <Analytics />
         <SpeedInsights />

@@ -22,7 +22,7 @@ export function EditButton({ editHref }: EditButtonProps) {
       .catch(() => {})
   }, [])
 
-  const href = user ? editHref : `/signin?redirect=${encodeURIComponent(editHref)}`
+  const href = user ? editHref : `/account?redirect=${encodeURIComponent(editHref)}`
   const label = user && user.trustLevel >= 2 ? 'Edit' : 'Suggest edit'
 
   return (

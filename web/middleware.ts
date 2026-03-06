@@ -21,7 +21,7 @@ export async function middleware(request: NextRequest) {
 
   // Already logged in? Redirect away from auth pages
   if (session.isLoggedIn) {
-    if (pathname === '/signin' || pathname === '/signup') {
+    if (pathname === '/account' || pathname === '/signin' || pathname === '/signup') {
       return NextResponse.redirect(new URL('/', request.url))
     }
     if (pathname.startsWith('/auth/') && pathname !== '/auth/change-password') {
@@ -36,12 +36,12 @@ export async function middleware(request: NextRequest) {
   // Protected: must be logged in
   if (!session.isLoggedIn) {
     if (pathname.startsWith('/admin') || pathname.startsWith('/profile')) {
-      const loginUrl = new URL('/signin', request.url)
+      const loginUrl = new URL('/account', request.url)
       loginUrl.searchParams.set('redirect', pathname)
       return NextResponse.redirect(loginUrl)
     }
     if (pathname.includes('/edit')) {
-      const loginUrl = new URL('/signin', request.url)
+      const loginUrl = new URL('/account', request.url)
       loginUrl.searchParams.set('redirect', pathname)
       return NextResponse.redirect(loginUrl)
     }
@@ -76,6 +76,7 @@ export const config = {
     '/admin/:path*',
     '/profile/:path*',
     '/auth/:path*',
+    '/account',
     '/signin',
     '/signup',
     '/(.*)/edit',

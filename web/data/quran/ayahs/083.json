@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "وَیۡلࣱ لِّلۡمُطَفِّفِینَ",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ وَيْلٌ لِلْمُطَفِّفِينَ",
-    "transliteration": "",
+    "transliteration": "waylun lil'muṭaffifīna",
     "t": {
       "sahih-int": "Woe to those who give less [than due]",
       "asad": "WOE UNTO THOSE who give short measure",
@@ -83,7 +83,7 @@
     "section_id": null,
     "ar": "ٱلَّذِینَ إِذَا ٱكۡتَالُوا۟ عَلَى ٱلنَّاسِ یَسۡتَوۡفُونَ",
     "ar_simple": "الَّذِينَ إِذَا اكْتَالُوا عَلَى النَّاسِ يَسْتَوْفُونَ",
-    "transliteration": "",
+    "transliteration": "alladhīna idhā ik'tālū ʿalā l-nāsi yastawfūna",
     "t": {
       "sahih-int": "Who, when they take a measure from people, take in full",
       "asad": "those who, when they are to receive their due from [other] people, demand that it be given in full –",
@@ -154,7 +154,7 @@
     "section_id": null,
     "ar": "وَإِذَا كَالُوهُمۡ أَو وَّزَنُوهُمۡ یُخۡسِرُونَ",
     "ar_simple": "وَإِذَا كَالُوهُمْ أَوْ وَزَنُوهُمْ يُخْسِرُونَ",
-    "transliteration": "",
+    "transliteration": "wa-idhā kālūhum aw wazanūhum yukh'sirūna",
     "t": {
       "sahih-int": "But if they give by measure or by weight to them, they cause loss",
       "asad": "but when they have to measure or weigh whatever they owe to others, give less than what is due",
@@ -194,7 +194,9 @@
       "sadi-ar": "{ وَإِذَا كَالُوهُمْ أَوْ وَزَنُوهُمْ }  أي: إذا أعطوا الناس حقهم، الذي للناس  عليهم بكيل أو وزن،  { يُخْسِرُونَ }  أي: ينقصونهم ذلك، إما بمكيال وميزان ناقصين، أو بعدم ملء المكيال والميزان، أو نحو ذلك. فهذا سرقة  [لأموال]  الناس  ، وعدم إنصاف  [لهم]  منهم.وإذا كان هذا الوعيد  على الذين يبخسون الناس بالمكيال والميزان، فالذي يأخذ أموالهم قهرًا أو سرقة، أولى بهذا الوعيد من المطففين.ودلت الآية الكريمة، على أن الإنسان كما يأخذ من الناس الذي له، يجب عليه أن يعطيهم كل ما لهم من الأموال والمعاملات، بل يدخل في  [عموم هذا]   الحجج والمقالات، فإنه كما أن المتناظرين قد جرت العادة أن كل واحد  [منهما]  يحرص على ماله من الحجج، فيجب عليه أيضًا أن يبين ما لخصمه من الحجج   [التي لا يعلمها] ، وأن ينظر في أدلة خصمه كما ينظر في أدلته هو، وفي هذا الموضع يعرف إنصاف الإنسان من تعصبه واعتسافه، وتواضعه من كبره، وعقله من سفهه، نسأل الله التوفيق لكل خير.",
       "zilal-en": ""
     },
-    "topics": [],
+    "topics": [
+      "generosity"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -224,7 +226,7 @@
     "section_id": null,
     "ar": "أَلَا یَظُنُّ أُو۟لَـٰۤئِكَ أَنَّهُم مَّبۡعُوثُونَ",
     "ar_simple": "أَلَا يَظُنُّ أُولَٰئِكَ أَنَّهُمْ مَبْعُوثُونَ",
-    "transliteration": "",
+    "transliteration": "alā yaẓunnu ulāika annahum mabʿūthūna",
     "t": {
       "sahih-int": "Do they not think that they will be resurrected",
       "asad": "Do they not know that they are bound to be raised from the dead",
@@ -294,7 +296,7 @@
     "section_id": null,
     "ar": "لِیَوۡمٍ عَظِیمࣲ",
     "ar_simple": "لِيَوْمٍ عَظِيمٍ",
-    "transliteration": "",
+    "transliteration": "liyawmin ʿaẓīmin",
     "t": {
       "sahih-int": "For a tremendous Day",
       "asad": "[and called to account] on an awesome Day –",
@@ -365,7 +367,7 @@
     "section_id": null,
     "ar": "یَوۡمَ یَقُومُ ٱلنَّاسُ لِرَبِّ ٱلۡعَـٰلَمِینَ",
     "ar_simple": "يَوْمَ يَقُومُ النَّاسُ لِرَبِّ الْعَالَمِينَ",
-    "transliteration": "",
+    "transliteration": "yawma yaqūmu l-nāsu lirabbi l-ʿālamīna",
     "t": {
       "sahih-int": "The Day when mankind will stand before the Lord of the worlds",
       "asad": "the Day when all men shall stand before the Sustainer of all the worlds",
@@ -436,7 +438,7 @@
     "section_id": null,
     "ar": "كَلَّاۤ إِنَّ كِتَـٰبَ ٱلۡفُجَّارِ لَفِی سِجِّینࣲ",
     "ar_simple": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ",
-    "transliteration": "",
+    "transliteration": "kallā inna kitāba l-fujāri lafī sijjīnin",
     "t": {
       "sahih-int": "No! Indeed, the record of the wicked is in sijjeen",
       "asad": "NAY, VERILY, the record of the wicked is indeed [set down] in a mode inescapable",
@@ -507,7 +509,7 @@
     "section_id": null,
     "ar": "وَمَاۤ أَدۡرَىٰكَ مَا سِجِّینࣱ",
     "ar_simple": "وَمَا أَدْرَاكَ مَا سِجِّينٌ",
-    "transliteration": "",
+    "transliteration": "wamā adrāka mā sijjīnun",
     "t": {
       "sahih-int": "And what can make you know what is sijjeen",
       "asad": "And what could make thee conceive what that that mode inescapable will be",
@@ -577,7 +579,7 @@
     "section_id": null,
     "ar": "كِتَـٰبࣱ مَّرۡقُومࣱ",
     "ar_simple": "كِتَابٌ مَرْقُومٌ",
-    "transliteration": "",
+    "transliteration": "kitābun marqūmun",
     "t": {
       "sahih-int": "It is [their destination recorded in] a register inscribed",
       "asad": "A record [indelibly] inscribed",
@@ -647,7 +649,7 @@
     "section_id": null,
     "ar": "وَیۡلࣱ یَوۡمَئِذࣲ لِّلۡمُكَذِّبِینَ",
     "ar_simple": "وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ",
-    "transliteration": "",
+    "transliteration": "waylun yawma-idhin lil'mukadhibīna",
     "t": {
       "sahih-int": "Woe, that Day, to the deniers",
       "asad": "Woe on that Day unto those who give the lie to the truth –",
@@ -688,7 +690,9 @@
       "sadi-ar": "{ وَيْلٌ يَوْمَئِذٍ لِلْمُكَذِّبِينَ }",
       "zilal-en": "ویل یومئذ للمکذبین (10:83) ” اس دن مکذبین کے لئے بربادی ہے “۔ اور مکذبین کی تعریف بھی کردی جاتی ہے۔"
     },
-    "topics": [],
+    "topics": [
+      "iman"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -718,7 +722,7 @@
     "section_id": null,
     "ar": "ٱلَّذِینَ یُكَذِّبُونَ بِیَوۡمِ ٱلدِّینِ",
     "ar_simple": "الَّذِينَ يُكَذِّبُونَ بِيَوْمِ الدِّينِ",
-    "transliteration": "",
+    "transliteration": "alladhīna yukadhibūna biyawmi l-dīni",
     "t": {
       "sahih-int": "Who deny the Day of Recompense",
       "asad": "those who give the lie to the [coming of] Judgment Day",
@@ -750,7 +754,9 @@
       "siraj-ar": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوۡمِ ٱلدِّينِ",
       "jalalayn-id": "(Yaitu-orang-orang yang mendustakan hari pembalasan) lafal ayat ini berkedudukan sebagai Badal atau Bayan dari lafal Al-Mukadzdzibiin pada ayat sebelumnya"
     },
-    "topics": [],
+    "topics": [
+      "day-of-judgment"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -780,7 +786,7 @@
     "section_id": null,
     "ar": "وَمَا یُكَذِّبُ بِهِۦۤ إِلَّا كُلُّ مُعۡتَدٍ أَثِیمٍ",
     "ar_simple": "وَمَا يُكَذِّبُ بِهِ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ",
-    "transliteration": "",
+    "transliteration": "wamā yukadhibu bihi illā kullu muʿ'tadin athīmin",
     "t": {
       "sahih-int": "And none deny it except every sinful transgressor",
       "asad": "for, none gives the lie to it but such as are wont to transgress against all that is [and are] immersed in sin",
@@ -843,7 +849,7 @@
     "section_id": null,
     "ar": "إِذَا تُتۡلَىٰ عَلَیۡهِ ءَایَـٰتُنَا قَالَ أَسَـٰطِیرُ ٱلۡأَوَّلِینَ",
     "ar_simple": "إِذَا تُتْلَىٰ عَلَيْهِ آيَاتُنَا قَالَ أَسَاطِيرُ الْأَوَّلِينَ",
-    "transliteration": "",
+    "transliteration": "idhā tut'lā ʿalayhi āyātunā qāla asāṭīru l-awalīna",
     "t": {
       "sahih-int": "When Our verses are recited to him, he says, \"Legends of the former peoples",
       "asad": "[and so,] whenever Our messages are conveyed to them, they but say, \"Fables of ancient times",
@@ -906,7 +912,7 @@
     "section_id": null,
     "ar": "كَلَّاۖ بَلۡۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ یَكۡسِبُونَ",
     "ar_simple": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِمْ مَا كَانُوا يَكْسِبُونَ",
-    "transliteration": "",
+    "transliteration": "kallā bal rāna ʿalā qulūbihim mā kānū yaksibūna",
     "t": {
       "sahih-int": "No! Rather, the stain has covered their hearts of that which they were earning",
       "asad": "Nay, but their hearts are corroded by all [the evil] that they were wont to do",
@@ -967,7 +973,7 @@
     "section_id": null,
     "ar": "كَلَّاۤ إِنَّهُمۡ عَن رَّبِّهِمۡ یَوۡمَئِذࣲ لَّمَحۡجُوبُونَ",
     "ar_simple": "كَلَّا إِنَّهُمْ عَنْ رَبِّهِمْ يَوْمَئِذٍ لَمَحْجُوبُونَ",
-    "transliteration": "",
+    "transliteration": "kallā innahum ʿan rabbihim yawma-idhin lamaḥjūbūna",
     "t": {
       "sahih-int": "No! Indeed, from their Lord, that Day, they will be partitioned",
       "asad": "Nay, verily, from [the grace of] their Sustainer shall they on that Day be debarred",
@@ -1028,7 +1034,7 @@
     "section_id": null,
     "ar": "ثُمَّ إِنَّهُمۡ لَصَالُوا۟ ٱلۡجَحِیمِ",
     "ar_simple": "ثُمَّ إِنَّهُمْ لَصَالُو الْجَحِيمِ",
-    "transliteration": "",
+    "transliteration": "thumma innahum laṣālū l-jaḥīmi",
     "t": {
       "sahih-int": "Then indeed, they will [enter and] burn in Hellfire",
       "asad": "and then, behold, they shall enter the blazing fire",
@@ -1091,7 +1097,7 @@
     "section_id": null,
     "ar": "ثُمَّ یُقَالُ هَـٰذَا ٱلَّذِی كُنتُم بِهِۦ تُكَذِّبُونَ",
     "ar_simple": "ثُمَّ يُقَالُ هَٰذَا الَّذِي كُنْتُمْ بِهِ تُكَذِّبُونَ",
-    "transliteration": "",
+    "transliteration": "thumma yuqālu hādhā alladhī kuntum bihi tukadhibūna",
     "t": {
       "sahih-int": "Then it will be said [to them], \"This is what you used to deny",
       "asad": "and be told: \"This is the [very thing] to which you were wont to give the lie",
@@ -1152,7 +1158,7 @@
     "section_id": null,
     "ar": "كَلَّاۤ إِنَّ كِتَـٰبَ ٱلۡأَبۡرَارِ لَفِی عِلِّیِّینَ",
     "ar_simple": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ",
-    "transliteration": "",
+    "transliteration": "kallā inna kitāba l-abrāri lafī ʿilliyyīna",
     "t": {
       "sahih-int": "No! Indeed, the record of the righteous is in 'illiyyun",
       "asad": "NAY, VERILY - the record of the truly virtuous is [set down] in a mode most lofty",
@@ -1216,7 +1222,7 @@
     "section_id": null,
     "ar": "وَمَاۤ أَدۡرَىٰكَ مَا عِلِّیُّونَ",
     "ar_simple": "وَمَا أَدْرَاكَ مَا عِلِّيُّونَ",
-    "transliteration": "",
+    "transliteration": "wamā adrāka mā ʿilliyyūna",
     "t": {
       "sahih-int": "And what can make you know what is 'illiyyun",
       "asad": "And what could make thee conceive what that mode most lofty will be",
@@ -1277,7 +1283,7 @@
     "section_id": null,
     "ar": "كِتَـٰبࣱ مَّرۡقُومࣱ",
     "ar_simple": "كِتَابٌ مَرْقُومٌ",
-    "transliteration": "",
+    "transliteration": "kitābun marqūmun",
     "t": {
       "sahih-int": "It is [their destination recorded in] a register inscribed",
       "asad": "A record [indelibly] inscribed",
@@ -1338,7 +1344,7 @@
     "section_id": null,
     "ar": "یَشۡهَدُهُ ٱلۡمُقَرَّبُونَ",
     "ar_simple": "يَشْهَدُهُ الْمُقَرَّبُونَ",
-    "transliteration": "",
+    "transliteration": "yashhaduhu l-muqarabūna",
     "t": {
       "sahih-int": "Which is witnessed by those brought near [to Allah]",
       "asad": "witnessed~ by all who have [ever] been drawn close unto God",
@@ -1369,7 +1375,9 @@
       "siraj-ar": "يَشۡهَدُهُ ٱلۡمُقَرَّبُونَ",
       "jalalayn-id": "(Yang disaksikan oleh yang didekatkan) yakni malaikat-malaikat yang didekatkan"
     },
-    "topics": [],
+    "topics": [
+      "allahss-attributes"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -1399,7 +1407,7 @@
     "section_id": null,
     "ar": "إِنَّ ٱلۡأَبۡرَارَ لَفِی نَعِیمٍ",
     "ar_simple": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
-    "transliteration": "",
+    "transliteration": "inna l-abrāra lafī naʿīmin",
     "t": {
       "sahih-int": "Indeed, the righteous will be in pleasure",
       "asad": "Behold, [in the life to come] the truly virtuous will indeed be in bliss",
@@ -1463,7 +1471,7 @@
     "section_id": null,
     "ar": "عَلَى ٱلۡأَرَاۤئِكِ یَنظُرُونَ",
     "ar_simple": "عَلَى الْأَرَائِكِ يَنْظُرُونَ",
-    "transliteration": "",
+    "transliteration": "ʿalā l-arāiki yanẓurūna",
     "t": {
       "sahih-int": "On adorned couches, observing",
       "asad": "resting on couches, they will look up [to God]",
@@ -1525,7 +1533,7 @@
     "section_id": null,
     "ar": "تَعۡرِفُ فِی وُجُوهِهِمۡ نَضۡرَةَ ٱلنَّعِیمِ",
     "ar_simple": "تَعْرِفُ فِي وُجُوهِهِمْ نَضْرَةَ النَّعِيمِ",
-    "transliteration": "",
+    "transliteration": "taʿrifu fī wujūhihim naḍrata l-naʿīmi",
     "t": {
       "sahih-int": "You will recognize in their faces the radiance of pleasure",
       "asad": "upon their faces thou wilt see the brightness of bliss",
@@ -1586,7 +1594,7 @@
     "section_id": null,
     "ar": "یُسۡقَوۡنَ مِن رَّحِیقࣲ مَّخۡتُومٍ",
     "ar_simple": "يُسْقَوْنَ مِنْ رَحِيقٍ مَخْتُومٍ",
-    "transliteration": "",
+    "transliteration": "yus'qawna min raḥīqin makhtūmin",
     "t": {
       "sahih-int": "They will be given to drink [pure] wine [which was] sealed",
       "asad": "They will be given a drink of pure wine whereon the seal [of God] will have been set",
@@ -1649,7 +1657,7 @@
     "section_id": null,
     "ar": "خِتَـٰمُهُۥ مِسۡكࣱۚ وَفِی ذَ ٰلِكَ فَلۡیَتَنَافَسِ ٱلۡمُتَنَـٰفِسُونَ",
     "ar_simple": "خِتَامُهُ مِسْكٌ ۚ وَفِي ذَٰلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُونَ",
-    "transliteration": "",
+    "transliteration": "khitāmuhu mis'kun wafī dhālika falyatanāfasi l-mutanāfisūna",
     "t": {
       "sahih-int": "The last of it is musk. So for this let the competitors compete",
       "asad": "pouring forth with a fragrance of musk. To that [wine of paradise], then, let all such aspire as [are willing to] aspire to things of high account",
@@ -1710,7 +1718,7 @@
     "section_id": null,
     "ar": "وَمِزَاجُهُۥ مِن تَسۡنِیمٍ",
     "ar_simple": "وَمِزَاجُهُ مِنْ تَسْنِيمٍ",
-    "transliteration": "",
+    "transliteration": "wamizājuhu min tasnīmin",
     "t": {
       "sahih-int": "And its mixture is of Tasneem",
       "asad": "for it is composed of all that is most exalting",
@@ -1771,7 +1779,7 @@
     "section_id": null,
     "ar": "عَیۡنࣰا یَشۡرَبُ بِهَا ٱلۡمُقَرَّبُونَ",
     "ar_simple": "عَيْنًا يَشْرَبُ بِهَا الْمُقَرَّبُونَ",
-    "transliteration": "",
+    "transliteration": "ʿaynan yashrabu bihā l-muqarabūna",
     "t": {
       "sahih-int": "A spring from which those near [to Allah] drink",
       "asad": "a source [of bliss] whereof those who are drawn close unto God shall drink",
@@ -1834,7 +1842,7 @@
     "section_id": null,
     "ar": "إِنَّ ٱلَّذِینَ أَجۡرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِینَ ءَامَنُوا۟ یَضۡحَكُونَ",
     "ar_simple": "إِنَّ الَّذِينَ أَجْرَمُوا كَانُوا مِنَ الَّذِينَ آمَنُوا يَضْحَكُونَ",
-    "transliteration": "",
+    "transliteration": "inna alladhīna ajramū kānū mina alladhīna āmanū yaḍḥakūna",
     "t": {
       "sahih-int": "Indeed, those who committed crimes used to laugh at those who believed",
       "asad": "BEHOLD, those who have abandoned themselves to sin are wont to laugh at such as have attained to faith",
@@ -1897,7 +1905,7 @@
     "section_id": null,
     "ar": "وَإِذَا مَرُّوا۟ بِهِمۡ یَتَغَامَزُونَ",
     "ar_simple": "وَإِذَا مَرُّوا بِهِمْ يَتَغَامَزُونَ",
-    "transliteration": "",
+    "transliteration": "wa-idhā marrū bihim yataghāmazūna",
     "t": {
       "sahih-int": "And when they passed by them, they would exchange derisive glances",
       "asad": "and whenever they pass by them, they wink at one another [derisively]",
@@ -1958,7 +1966,7 @@
     "section_id": null,
     "ar": "وَإِذَا ٱنقَلَبُوۤا۟ إِلَىٰۤ أَهۡلِهِمُ ٱنقَلَبُوا۟ فَكِهِینَ",
     "ar_simple": "وَإِذَا انْقَلَبُوا إِلَىٰ أَهْلِهِمُ انْقَلَبُوا فَكِهِينَ",
-    "transliteration": "",
+    "transliteration": "wa-idhā inqalabū ilā ahlihimu inqalabū fakihīna",
     "t": {
       "sahih-int": "And when they returned to their people, they would return jesting",
       "asad": "and whenever they return to people of their own kind, they return full of jests",
@@ -2019,7 +2027,7 @@
     "section_id": null,
     "ar": "وَإِذَا رَأَوۡهُمۡ قَالُوۤا۟ إِنَّ هَـٰۤؤُلَاۤءِ لَضَاۤلُّونَ",
     "ar_simple": "وَإِذَا رَأَوْهُمْ قَالُوا إِنَّ هَٰؤُلَاءِ لَضَالُّونَ",
-    "transliteration": "",
+    "transliteration": "wa-idhā ra-awhum qālū inna hāulāi laḍāllūna",
     "t": {
       "sahih-int": "And when they saw them, they would say, \"Indeed, those are truly lost",
       "asad": "and whenever they see those [who believe,] they say, \"Behold, these [people] have indeed gone astray",
@@ -2080,7 +2088,7 @@
     "section_id": null,
     "ar": "وَمَاۤ أُرۡسِلُوا۟ عَلَیۡهِمۡ حَـٰفِظِینَ",
     "ar_simple": "وَمَا أُرْسِلُوا عَلَيْهِمْ حَافِظِينَ",
-    "transliteration": "",
+    "transliteration": "wamā ur'silū ʿalayhim ḥāfiẓīna",
     "t": {
       "sahih-int": "But they had not been sent as guardians over them",
       "asad": "And, withal, they have no call to watch over [the beliefs of] others",
@@ -2141,7 +2149,7 @@
     "section_id": null,
     "ar": "فَٱلۡیَوۡمَ ٱلَّذِینَ ءَامَنُوا۟ مِنَ ٱلۡكُفَّارِ یَضۡحَكُونَ",
     "ar_simple": "فَالْيَوْمَ الَّذِينَ آمَنُوا مِنَ الْكُفَّارِ يَضْحَكُونَ",
-    "transliteration": "",
+    "transliteration": "fal-yawma alladhīna āmanū mina l-kufāri yaḍḥakūna",
     "t": {
       "sahih-int": "So Today those who believed are laughing at the disbelievers",
       "asad": "But on the Day [of Judgment], they who had attained to faith will [be able to] laugh at the [erstwhile] deniers of the truth",
@@ -2204,7 +2212,7 @@
     "section_id": null,
     "ar": "عَلَى ٱلۡأَرَاۤئِكِ یَنظُرُونَ",
     "ar_simple": "عَلَى الْأَرَائِكِ يَنْظُرُونَ",
-    "transliteration": "",
+    "transliteration": "ʿalā l-arāiki yanẓurūna",
     "t": {
       "sahih-int": "On adorned couches, observing",
       "asad": "[for, resting in paradise] on couches, they will look on [and say to themselves]",
@@ -2265,7 +2273,7 @@
     "section_id": null,
     "ar": "هَلۡ ثُوِّبَ ٱلۡكُفَّارُ مَا كَانُوا۟ یَفۡعَلُونَ",
     "ar_simple": "هَلْ ثُوِّبَ الْكُفَّارُ مَا كَانُوا يَفْعَلُونَ",
-    "transliteration": "",
+    "transliteration": "hal thuwwiba l-kufāru mā kānū yafʿalūna",
     "t": {
       "sahih-int": "Have the disbelievers [not] been rewarded [this Day] for what they used to do",
       "asad": "Are these deniers of the truth being [thus] requited for [aught but] what they were wont to do",

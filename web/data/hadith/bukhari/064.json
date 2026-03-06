@@ -5219,7 +5219,9 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-muhammad"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -6260,7 +6262,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "seerah",
+      "companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -8136,7 +8141,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "seerah",
+      "companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -9297,7 +9305,9 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

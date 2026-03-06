@@ -27,7 +27,7 @@ export function VideosGrid({ videos }: { videos: VideoItem[] }) {
       renderItem={(video) => (
         <Link
           href={`/videos/${video.slug}`}
-          className="card group block h-full"
+          className="card group h-full"
         >
           {video.thumbnail_url && (
             <div className="mb-3 aspect-video overflow-hidden rounded-lg bg-iw-elevated">
@@ -48,6 +48,7 @@ export function VideosGrid({ videos }: { videos: VideoItem[] }) {
           {video.duration && (
             <p className="mt-1 text-xs text-iw-text-secondary">{video.duration}</p>
           )}
+          <span className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent group-hover:text-iw-accent-light">Watch →</span>
         </Link>
       )}
       emptyMessage="No video content yet."

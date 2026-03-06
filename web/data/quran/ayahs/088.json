@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "هَلۡ أَتَىٰكَ حَدِیثُ ٱلۡغَـٰشِیَةِ",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ هَلْ أَتَاكَ حَدِيثُ الْغَاشِيَةِ",
-    "transliteration": "",
+    "transliteration": "hal atāka ḥadīthu l-ghāshiyati",
     "t": {
       "sahih-int": "Has there reached you the report of the Overwhelming [event]",
       "asad": "HAS THERE COME unto thee the tiding of the Overshadowing Event",
@@ -83,7 +83,7 @@
     "section_id": null,
     "ar": "وُجُوهࣱ یَوۡمَئِذٍ خَـٰشِعَةٌ",
     "ar_simple": "وُجُوهٌ يَوْمَئِذٍ خَاشِعَةٌ",
-    "transliteration": "",
+    "transliteration": "wujūhun yawma-idhin khāshiʿatun",
     "t": {
       "sahih-int": "[Some] faces, that Day, will be humbled",
       "asad": "Some faces will on that Day be downcast",
@@ -124,7 +124,9 @@
       "sadi-ar": "فأخبر عن وصف كلا الفريقين، فقال في  [وصف]  أهل النار:  { وُجُوهٌ يَوْمَئِذٍ }  أي: يوم القيامة  { خَاشِعَة }  من الذل، والفضيحة والخزي.",
       "zilal-en": "وجوہ یومئذ .................................... من جوع  یہاں نعمتوں کے منظر سے قبل عذاب کا منظر دکھایا گیا کیونکہ سوال قیامت کی ہولناکیوں سے متعلق تھا ، بتایا جاتا ہے کہ لوگ سخت خوف کی حالت میں ہوں گے ، تھکے ہارے اور ڈر سے سہمے ہوں گے ۔ انہوں نے پوری زندگی جدوجہد میں گزاری ، تھک اور ہار گئے لیکن ان کے اعمال کھوٹے نکلے اور کسی نے بھی ان کو قبول نہ کیا ، عاقبت بھی خراب ہوئی اور مصیبت اور خسارے کے سوا کچھ نہ ملا۔ چناچہ ان کی تھکاوٹ اور پریشانی اور درماندگی میں اضافہ ہی ہوا۔"
     },
-    "topics": [],
+    "topics": [
+      "humility"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -154,7 +156,7 @@
     "section_id": null,
     "ar": "عَامِلَةࣱ نَّاصِبَةࣱ",
     "ar_simple": "عَامِلَةٌ نَاصِبَةٌ",
-    "transliteration": "",
+    "transliteration": "ʿāmilatun nāṣibatun",
     "t": {
       "sahih-int": "Working [hard] and exhausted",
       "asad": "toiling [under burdens of sin], worn out [by fear]",
@@ -225,7 +227,7 @@
     "section_id": null,
     "ar": "تَصۡلَىٰ نَارًا حَامِیَةࣰ",
     "ar_simple": "تَصْلَىٰ نَارًا حَامِيَةً",
-    "transliteration": "",
+    "transliteration": "taṣlā nāran ḥāmiyatan",
     "t": {
       "sahih-int": "They will [enter to] burn in an intensely hot Fire",
       "asad": "about to enter a glowing fire",
@@ -295,7 +297,7 @@
     "section_id": null,
     "ar": "تُسۡقَىٰ مِنۡ عَیۡنٍ ءَانِیَةࣲ",
     "ar_simple": "تُسْقَىٰ مِنْ عَيْنٍ آنِيَةٍ",
-    "transliteration": "",
+    "transliteration": "tus'qā min ʿaynin āniyatin",
     "t": {
       "sahih-int": "They will be given drink from a boiling spring",
       "asad": "given to drink from a boiling spring",
@@ -367,7 +369,7 @@
     "section_id": null,
     "ar": "لَّیۡسَ لَهُمۡ طَعَامٌ إِلَّا مِن ضَرِیعࣲ",
     "ar_simple": "لَيْسَ لَهُمْ طَعَامٌ إِلَّا مِنْ ضَرِيعٍ",
-    "transliteration": "",
+    "transliteration": "laysa lahum ṭaʿāmun illā min ḍarīʿin",
     "t": {
       "sahih-int": "For them there will be no food except from a poisonous, thorny plant",
       "asad": "No food for them save the bitterness of dry thorns",
@@ -439,7 +441,7 @@
     "section_id": null,
     "ar": "لَّا یُسۡمِنُ وَلَا یُغۡنِی مِن جُوعࣲ",
     "ar_simple": "لَا يُسْمِنُ وَلَا يُغْنِي مِنْ جُوعٍ",
-    "transliteration": "",
+    "transliteration": "lā yus'minu walā yugh'nī min jūʿin",
     "t": {
       "sahih-int": "Which neither nourishes nor avails against hunger",
       "asad": "which gives no strength and neither stills hunger",
@@ -509,7 +511,7 @@
     "section_id": null,
     "ar": "وُجُوهࣱ یَوۡمَئِذࣲ نَّاعِمَةࣱ",
     "ar_simple": "وُجُوهٌ يَوْمَئِذٍ نَاعِمَةٌ",
-    "transliteration": "",
+    "transliteration": "wujūhun yawma-idhin nāʿimatun",
     "t": {
       "sahih-int": "[Other] faces, that Day, will show pleasure",
       "asad": "[And] some faces will on that Day shine with bliss",
@@ -580,7 +582,7 @@
     "section_id": null,
     "ar": "لِّسَعۡیِهَا رَاضِیَةࣱ",
     "ar_simple": "لِسَعْيِهَا رَاضِيَةٌ",
-    "transliteration": "",
+    "transliteration": "lisaʿyihā rāḍiyatun",
     "t": {
       "sahih-int": "With their effort [they are] satisfied",
       "asad": "well-pleased with [the fruit of] their striving",
@@ -651,7 +653,7 @@
     "section_id": null,
     "ar": "فِی جَنَّةٍ عَالِیَةࣲ",
     "ar_simple": "فِي جَنَّةٍ عَالِيَةٍ",
-    "transliteration": "",
+    "transliteration": "fī jannatin ʿāliyatin",
     "t": {
       "sahih-int": "In an elevated garden",
       "asad": "in a garden sublime",
@@ -721,7 +723,7 @@
     "section_id": null,
     "ar": "لَّا تَسۡمَعُ فِیهَا لَـٰغِیَةࣰ",
     "ar_simple": "لَا تَسْمَعُ فِيهَا لَاغِيَةً",
-    "transliteration": "",
+    "transliteration": "lā tasmaʿu fīhā lāghiyatan",
     "t": {
       "sahih-int": "Wherein they will hear no unsuitable speech",
       "asad": "wherein thou wilt hear no empty talk",
@@ -782,7 +784,7 @@
     "section_id": null,
     "ar": "فِیهَا عَیۡنࣱ جَارِیَةࣱ",
     "ar_simple": "فِيهَا عَيْنٌ جَارِيَةٌ",
-    "transliteration": "",
+    "transliteration": "fīhā ʿaynun jāriyatun",
     "t": {
       "sahih-int": "Within it is a flowing spring",
       "asad": "Countless springs will flow therein",
@@ -843,7 +845,7 @@
     "section_id": null,
     "ar": "فِیهَا سُرُرࣱ مَّرۡفُوعَةࣱ",
     "ar_simple": "فِيهَا سُرُرٌ مَرْفُوعَةٌ",
-    "transliteration": "",
+    "transliteration": "fīhā sururun marfūʿatun",
     "t": {
       "sahih-int": "Within it are couches raised high",
       "asad": "[and] there will be thrones [of happiness] raised high",
@@ -904,7 +906,7 @@
     "section_id": null,
     "ar": "وَأَكۡوَابࣱ مَّوۡضُوعَةࣱ",
     "ar_simple": "وَأَكْوَابٌ مَوْضُوعَةٌ",
-    "transliteration": "",
+    "transliteration": "wa-akwābun mawḍūʿatun",
     "t": {
       "sahih-int": "And cups put in place",
       "asad": "and goblets placed ready",
@@ -965,7 +967,7 @@
     "section_id": null,
     "ar": "وَنَمَارِقُ مَصۡفُوفَةࣱ",
     "ar_simple": "وَنَمَارِقُ مَصْفُوفَةٌ",
-    "transliteration": "",
+    "transliteration": "wanamāriqu maṣfūfatun",
     "t": {
       "sahih-int": "And cushions lined up",
       "asad": "and cushions ranged",
@@ -1026,7 +1028,7 @@
     "section_id": null,
     "ar": "وَزَرَابِیُّ مَبۡثُوثَةٌ",
     "ar_simple": "وَزَرَابِيُّ مَبْثُوثَةٌ",
-    "transliteration": "",
+    "transliteration": "wazarābiyyu mabthūthatun",
     "t": {
       "sahih-int": "And carpets spread around",
       "asad": "and carpets spread out…",
@@ -1087,7 +1089,7 @@
     "section_id": null,
     "ar": "أَفَلَا یَنظُرُونَ إِلَى ٱلۡإِبِلِ كَیۡفَ خُلِقَتۡ",
     "ar_simple": "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ",
-    "transliteration": "",
+    "transliteration": "afalā yanẓurūna ilā l-ibili kayfa khuliqat",
     "t": {
       "sahih-int": "Then do they not look at the camels - how they are created",
       "asad": "DO, THEN, they [who deny resurrection] never gaze at the clouds pregnant with water, [and observe] how they are created",
@@ -1151,7 +1153,7 @@
     "section_id": null,
     "ar": "وَإِلَى ٱلسَّمَاۤءِ كَیۡفَ رُفِعَتۡ",
     "ar_simple": "وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ",
-    "transliteration": "",
+    "transliteration": "wa-ilā l-samāi kayfa rufiʿat",
     "t": {
       "sahih-int": "And at the sky - how it is raised",
       "asad": "And at the sky, how it is raised aloft",
@@ -1212,7 +1214,7 @@
     "section_id": null,
     "ar": "وَإِلَى ٱلۡجِبَالِ كَیۡفَ نُصِبَتۡ",
     "ar_simple": "وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ",
-    "transliteration": "",
+    "transliteration": "wa-ilā l-jibāli kayfa nuṣibat",
     "t": {
       "sahih-int": "And at the mountains - how they are erected",
       "asad": "And at the mountains, how firmly they are reared",
@@ -1273,7 +1275,7 @@
     "section_id": null,
     "ar": "وَإِلَى ٱلۡأَرۡضِ كَیۡفَ سُطِحَتۡ",
     "ar_simple": "وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
-    "transliteration": "",
+    "transliteration": "wa-ilā l-arḍi kayfa suṭiḥat",
     "t": {
       "sahih-int": "And at the earth - how it is spread out",
       "asad": "And at the earth, how it is spread out",
@@ -1304,7 +1306,9 @@
       "siraj-ar": "وَإِلَى ٱلۡأَرۡضِ كَيۡفَ سُطِحَتۡ (سُطِحَتْ: بُسِطَتْ، وَمُهِّدَتْ)",
       "jalalayn-id": "(Dan bumi bagaimana ia dihamparkan?) maksudnya dijadikan sehingga terhampar. Melalui hal-hal tersebutlah mereka mengambil kesimpulan tentang kekuasaan Allah swt. dan keesaan-Nya. Pembahasan ini dimulai dengan menyebut unta, karena unta adalah binatang ternak yang paling mereka kenal daripada yang lain-lainnya. Firman Allah \"Suthihat\" jelas menunjukkan bahwa bumi itu rata bentuknya. Pendapat inilah yang dianut oleh para ulama Syara'. Jadi bentuk bumi bukanlah bulat seperti bola sebagaimana yang dikatakan oleh para ahli ilmu konstruksi. Masalah ini sama sekali tidak ada sangkut-pautnya dengan salah satu rukun syariat"
     },
-    "topics": [],
+    "topics": [
+      "environment"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -1334,7 +1338,7 @@
     "section_id": null,
     "ar": "فَذَكِّرۡ إِنَّمَاۤ أَنتَ مُذَكِّرࣱ",
     "ar_simple": "فَذَكِّرْ إِنَّمَا أَنْتَ مُذَكِّرٌ",
-    "transliteration": "",
+    "transliteration": "fadhakkir innamā anta mudhakkirun",
     "t": {
       "sahih-int": "So remind, [O Muhammad]; you are only a reminder",
       "asad": "And so, [O Prophet,] exhort them; thy task is only to exhort",
@@ -1398,7 +1402,7 @@
     "section_id": null,
     "ar": "لَّسۡتَ عَلَیۡهِم بِمُصَۣیۡطِرٍ",
     "ar_simple": "لَسْتَ عَلَيْهِمْ بِمُصَيْطِرٍ",
-    "transliteration": "",
+    "transliteration": "lasta ʿalayhim bimuṣayṭirin",
     "t": {
       "sahih-int": "You are not over them a controller",
       "asad": "thou canst not compel them [to believe]",
@@ -1459,7 +1463,7 @@
     "section_id": null,
     "ar": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
     "ar_simple": "إِلَّا مَنْ تَوَلَّىٰ وَكَفَرَ",
-    "transliteration": "",
+    "transliteration": "illā man tawallā wakafara",
     "t": {
       "sahih-int": "However, he who turns away and disbelieves",
       "asad": "However, as for him who turns away, being bent on denying the truth",
@@ -1523,7 +1527,7 @@
     "section_id": null,
     "ar": "فَیُعَذِّبُهُ ٱللَّهُ ٱلۡعَذَابَ ٱلۡأَكۡبَرَ",
     "ar_simple": "فَيُعَذِّبُهُ اللَّهُ الْعَذَابَ الْأَكْبَرَ",
-    "transliteration": "",
+    "transliteration": "fayuʿadhibuhu l-lahu l-ʿadhāba l-akbara",
     "t": {
       "sahih-int": "Then Allah will punish him with the greatest punishment",
       "asad": "him will God cause to suffer the greatest suffering [in the life to come]",
@@ -1587,7 +1591,7 @@
     "section_id": null,
     "ar": "إِنَّ إِلَیۡنَاۤ إِیَابَهُمۡ",
     "ar_simple": "إِنَّ إِلَيْنَا إِيَابَهُمْ",
-    "transliteration": "",
+    "transliteration": "inna ilaynā iyābahum",
     "t": {
       "sahih-int": "Indeed, to Us is their return",
       "asad": "for behold, unto Us will be their return",
@@ -1649,7 +1653,7 @@
     "section_id": null,
     "ar": "ثُمَّ إِنَّ عَلَیۡنَا حِسَابَهُم",
     "ar_simple": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ",
-    "transliteration": "",
+    "transliteration": "thumma inna ʿalaynā ḥisābahum",
     "t": {
       "sahih-int": "Then indeed, upon Us is their account",
       "asad": "and verily, It is for Us to call them to account",

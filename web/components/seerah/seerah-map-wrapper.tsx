@@ -20,5 +20,5 @@ interface SeerahMapWrapperProps {
 }
 
 export function SeerahMapWrapper({ events }: SeerahMapWrapperProps) {
-  return <SeerahMap events={events} />
+  return <SeerahMap events={events} activeIndex={0} />
 }

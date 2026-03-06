@@ -34,7 +34,7 @@ export default function AIReviewsPage() {
         </p>
         <p className="mt-2 text-xs text-iw-text-muted">
           This system uses Claude and OpenAI to review wiki edits for theological
-          accuracy and compliance with Ahl us-Sunnah wal-Jama'ah guidelines.
+          accuracy and compliance with Ahl us-Sunnah wal-Jama&apos;ah guidelines.
         </p>
       </div>
 

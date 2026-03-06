@@ -110,7 +110,7 @@ export default function HomePage() {
                 title: 'Who was Muhammad ﷺ?',
                 description: 'The biography of the Prophet — his life, character, and mission over 23 years.',
                 href: '/seerah',
-                label: 'Read the Seerah',
+                label: 'Our Interactive Seerah',
                 external: false,
               },
               {
@@ -127,21 +127,21 @@ export default function HomePage() {
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-xl border border-iw-accent/20 bg-iw-accent/5 p-4 transition-colors hover:border-iw-accent/40 hover:bg-iw-accent/10"
+                  className="flex flex-col rounded-xl border border-iw-accent/20 bg-iw-accent/5 p-4 transition-colors hover:border-iw-accent/40 hover:bg-iw-accent/10"
                 >
                   <h3 className="font-semibold text-white">{item.title}</h3>
                   <p className="mt-1 text-xs text-iw-text-muted">{item.description}</p>
-                  <span className="mt-3 inline-block text-xs font-medium text-iw-accent">{item.label} →</span>
+                  <span className="mt-auto self-end pt-2 text-xs font-medium text-iw-accent">{item.label} →</span>
                 </a>
               ) : (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="rounded-xl border border-iw-accent/20 bg-iw-accent/5 p-4 transition-colors hover:border-iw-accent/40 hover:bg-iw-accent/10"
+                  className="flex flex-col rounded-xl border border-iw-accent/20 bg-iw-accent/5 p-4 transition-colors hover:border-iw-accent/40 hover:bg-iw-accent/10"
                 >
                   <h3 className="font-semibold text-white">{item.title}</h3>
                   <p className="mt-1 text-xs text-iw-text-muted">{item.description}</p>
-                  <span className="mt-3 inline-block text-xs font-medium text-iw-accent">{item.label} →</span>
+                  <span className="mt-auto self-end pt-2 text-xs font-medium text-iw-accent">{item.label} →</span>
                 </Link>
               )
             )}
@@ -159,14 +159,14 @@ export default function HomePage() {
             {collections.map((item) => {
               const IconComponent = iconMap[item.icon]
               return (
-                <Link key={item.href} href={item.href} className="card group">
+                <Link key={item.href} href={item.href} className="card group h-full">
                   {IconComponent && <IconComponent size={28} className="mb-3 text-iw-accent" />}
                   <h3 className="text-lg font-semibold text-iw-text group-hover:text-white">
                     {item.title}
                   </h3>
                   <p className="mt-1 text-sm text-iw-text-muted">{item.description}</p>
-                  <p className="mt-3 text-xs font-medium text-iw-accent">
-                    {item.stat}
+                  <p className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent">
+                    {item.stat} →
                   </p>
                 </Link>
               )
@@ -243,7 +243,7 @@ export default function HomePage() {
                 &ldquo;Verily, in the remembrance of Allah do hearts find rest.&rdquo;
               </p>
               <p className="mt-2 text-xs text-iw-text-muted">Ar-Ra&apos;d 13:28</p>
-              <Link href="/quran/ar-rad" className="mt-4 inline-block text-xs font-medium text-iw-accent hover:underline">
+              <Link href="/quran/ar-rad" className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light">
                 Read in context →
               </Link>
             </div>
@@ -253,7 +253,7 @@ export default function HomePage() {
                 &ldquo;None of you truly believes until he loves for his brother what he loves for himself.&rdquo;
               </p>
               <p className="mt-3 text-xs text-iw-text-muted">Sahih Muslim 2564 · Narrated by Anas ibn Malik · Sahih</p>
-              <Link href="/hadith/muslim" className="mt-4 inline-block text-xs font-medium text-iw-accent hover:underline">
+              <Link href="/hadith/muslim" className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light">
                 Browse Sahih Muslim →
               </Link>
             </div>

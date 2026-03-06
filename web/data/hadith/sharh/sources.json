@@ -1,0 +1,98 @@
+[
+  {
+    "id": "fath-al-bari",
+    "name_en": "Fath al-Bari",
+    "name_ar": "فتح الباري شرح صحيح البخاري",
+    "author": "Ibn Hajar al-Asqalani",
+    "author_ar": "ابن حجر العسقلاني",
+    "died_ah": 852,
+    "collection": "bukhari",
+    "volumes": 13,
+    "language": "ar",
+    "description": "The most authoritative and comprehensive commentary on Sahih al-Bukhari, written by the master hadith scholar Ibn Hajar al-Asqalani. Considered the definitive reference for understanding Bukhari's hadith."
+  },
+  {
+    "id": "sharh-muslim-nawawi",
+    "name_en": "Al-Minhaj fi Sharh Sahih Muslim",
+    "name_ar": "المنهاج في شرح صحيح مسلم",
+    "author": "Imam al-Nawawi",
+    "author_ar": "الإمام النووي",
+    "died_ah": 676,
+    "collection": "muslim",
+    "volumes": 18,
+    "language": "ar",
+    "description": "The principal commentary on Sahih Muslim by Imam Yahya ibn Sharaf al-Nawawi, recognized for clarity, depth, and linguistic precision. Standard reference in Islamic scholarship."
+  },
+  {
+    "id": "tuhfat-al-ahwadhi",
+    "name_en": "Tuhfat al-Ahwadhi",
+    "name_ar": "تحفة الأحوذي",
+    "author": "al-Mubarakpuri",
+    "author_ar": "المباركفوري",
+    "died_ah": 1353,
+    "collection": "tirmidhi",
+    "volumes": 10,
+    "language": "ar",
+    "description": "The standard commentary on Jami al-Tirmidhi, known for its precise analysis of hadith grades and scholarly opinions on fiqh derived from each hadith."
+  },
+  {
+    "id": "awn-al-mabud",
+    "name_en": "Awn al-Mabud",
+    "name_ar": "عون المعبود",
+    "author": "al-Azimabadi",
+    "author_ar": "العظيم آبادي",
+    "died_ah": 1329,
+    "collection": "abu-dawud",
+    "volumes": 14,
+    "language": "ar",
+    "description": "Comprehensive commentary on Sunan Abu Dawud, covering fiqh implications, linguistic analysis, and scholarly positions on each hadith."
+  },
+  {
+    "id": "sharh-riyadh-salihin-ibn-allan",
+    "name_en": "Al-Futuhat al-Rabbaniyyah alal Adab al-Nawawiyyah",
+    "name_ar": "الفتوحات الربانية على الأذكار النووية",
+    "author": "Ibn Allan al-Siddiqi",
+    "author_ar": "ابن علان الصديقي",
+    "died_ah": 1057,
+    "collection": "riyadh-salihin",
+    "volumes": 7,
+    "language": "ar",
+    "description": "The most widely used classical commentary on Riyadh us-Salihin, covering linguistic analysis, fiqh rulings, and spiritual reflections on each hadith."
+  },
+  {
+    "id": "sharh-riyadh-salihin-uthaymin",
+    "name_en": "Sharh Riyadh al-Salihin",
+    "name_ar": "شرح رياض الصالحين",
+    "author": "Ibn Uthaymin",
+    "author_ar": "ابن عثيمين",
+    "died_ah": 1421,
+    "collection": "riyadh-salihin",
+    "volumes": 6,
+    "language": "ar",
+    "description": "Modern scholarly commentary by Sheikh Muhammad ibn Salih al-Uthaymin, noted for its accessibility, contemporary relevance, and Athari methodology. Widely used in Islamic study circles worldwide."
+  },
+  {
+    "id": "sharh-bulugh-maram-ibn-allan",
+    "name_en": "Subul al-Salam",
+    "name_ar": "سبل السلام",
+    "author": "al-Sanani",
+    "author_ar": "الصنعاني",
+    "died_ah": 1182,
+    "collection": "bulugh-maram",
+    "volumes": 4,
+    "language": "ar",
+    "description": "The principal commentary on Bulugh al-Maram, explaining fiqh derivations from each hadith with reference to the four major schools."
+  },
+  {
+    "id": "iw-sharh",
+    "name_en": "IslamWiki Explanation",
+    "name_ar": "شرح إسلام ويكي",
+    "author": "IslamWiki Scholarly Team",
+    "author_ar": "فريق إسلام ويكي العلمي",
+    "died_ah": null,
+    "collection": "all",
+    "volumes": null,
+    "language": "en",
+    "description": "Concise educational explanations synthesized from classical commentary works, designed to make hadith meanings accessible while maintaining scholarly accuracy. Draws primarily from Fath al-Bari, Sharh al-Nawawi, and Ibn Uthaymin's commentaries."
+  }
+]

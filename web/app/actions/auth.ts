@@ -169,7 +169,7 @@ export async function changePassword(
 ) {
   const session = await getSession()
   if (!session.isLoggedIn) {
-    redirect('/signin')
+    redirect('/account')
   }
 
   const currentPassword = formData.get('current_password') as string
@@ -219,4 +219,96 @@ export async function logout() {
   const session = await getSession()
   session.destroy()
   redirect('/')
+}
+
+// ── Register via email only (no OAuth required) ──
+
+export async function registerEmail(
+  _prevState: { error?: string } | undefined,
+  formData: FormData
+) {
+  const displayName = formData.get('display_name') as string
+  const username = formData.get('username') as string
+  const email = formData.get('email') as string
+  const password = formData.get('password') as string
+  const confirmPassword = formData.get('confirm_password') as string
+
+  if (!displayName || !username || !email || !password) {
+    return { error: 'All fields are required.' }
+  }
+
+  if (!validateEmail(email)) {
+    return { error: 'Please enter a valid email address.' }
+  }
+
+  const pwResult = validatePassword(password)
+  if (!pwResult.valid) {
+    return { error: pwResult.errors[0] }
+  }
+
+  if (password !== confirmPassword) {
+    return { error: 'Passwords do not match.' }
+  }
+
+  const usernameResult = validateUsername(username)
+  if (!usernameResult.valid) {
+    return { error: usernameResult.error }
+  }
+
+  if (getUserByEmail(email)) {
+    return { error: 'An account with this email already exists.' }
+  }
+
+  if (getUserByUsername(username)) {
+    return { error: 'This username is already taken.' }
+  }
+
+  const passwordHash = await bcrypt.hash(password, 12)
+  const user = createUser({
+    email,
+    username,
+    display_name: displayName,
+    password_hash: passwordHash,
+    verified: false,
+  })
+
+  const session = await getSession()
+  session.userId = user.id
+  session.username = user.username
+  session.email = user.email
+  session.displayName = user.display_name
+  session.role = user.role
+  session.trustLevel = user.trust_level
+  session.isLoggedIn = true
+  await session.save()
+
+  redirect('/')
+}
+
+// ── Request magic link (stub — requires Hasura Auth when live) ──
+
+export async function requestMagicLink(
+  _prevState: { error?: string; sent?: boolean } | undefined,
+  formData: FormData
+) {
+  const email = formData.get('email') as string
+  if (!email || !validateEmail(email)) {
+    return { error: 'Please enter a valid email address.' }
+  }
+  // Stub: email OTP delivery requires auth.ummat.dev to be deployed
+  return { sent: true }
+}
+
+// ── Request password reset (stub — requires email infrastructure) ──
+
+export async function requestPasswordReset(
+  _prevState: { error?: string; sent?: boolean } | undefined,
+  formData: FormData
+) {
+  const email = formData.get('email') as string
+  if (!email || !validateEmail(email)) {
+    return { error: 'Please enter a valid email address.' }
+  }
+  // Stub: always return success to avoid email enumeration
+  return { sent: true }
 }

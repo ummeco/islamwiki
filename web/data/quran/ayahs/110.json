@@ -12,7 +12,7 @@
     "section_id": null,
     "ar": "إِذَا جَاۤءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ",
     "ar_simple": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
-    "transliteration": "",
+    "transliteration": "idhā jāa naṣru l-lahi wal-fatḥu",
     "t": {
       "sahih-int": "When the victory of Allah has come and the conquest",
       "asad": "WHEN GOD'S SUCCOUR comes, and victory",
@@ -83,7 +83,7 @@
     "section_id": null,
     "ar": "وَرَأَیۡتَ ٱلنَّاسَ یَدۡخُلُونَ فِی دِینِ ٱللَّهِ أَفۡوَاجࣰا",
     "ar_simple": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
-    "transliteration": "",
+    "transliteration": "wara-ayta l-nāsa yadkhulūna fī dīni l-lahi afwājan",
     "t": {
       "sahih-int": "And you see the people entering into the religion of Allah in multitudes",
       "asad": "and thou seest people enter God's religion in hosts",
@@ -124,7 +124,10 @@
       "sadi-ar": "ودخول الناس في دين الله أفواجًا، بحيث يكون كثير منهم من أهله وأنصاره، بعد أن كانوا من أعدائه، وقد وقع هذا المبشر به،",
       "zilal-en": ""
     },
-    "topics": [],
+    "topics": [
+      "tawhid",
+      "iman"
+    ],
     "tags": [],
     "quran_refs": [],
     "hadith_refs": [],
@@ -154,7 +157,7 @@
     "section_id": null,
     "ar": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا",
     "ar_simple": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ ۚ إِنَّهُ كَانَ تَوَّابًا",
-    "transliteration": "",
+    "transliteration": "fasabbiḥ biḥamdi rabbika wa-is'taghfir'hu innahu kāna tawwāban",
     "t": {
       "sahih-int": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance",
       "asad": "extol thy Sustainer's limitless glory, and praise Him, and seek His forgiveness: for, behold, He is ever an acceptor of repentance",

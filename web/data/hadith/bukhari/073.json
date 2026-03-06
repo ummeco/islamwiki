@@ -992,7 +992,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "animals",
+      "leadership"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

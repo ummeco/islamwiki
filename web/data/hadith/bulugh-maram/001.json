@@ -5611,7 +5611,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "sin"
+    ],
     "tags": [
       "bulugh-maram"
     ],
@@ -7501,7 +7503,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "shaking-hands"
+    ],
     "tags": [
       "bulugh-maram"
     ],

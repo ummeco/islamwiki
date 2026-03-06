@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { PaginatedGrid } from '@/components/ui/paginated-grid'
+import { formatIslamicYear } from '@/lib/dates/hijri'
 
 interface BookItem {
   id: number
@@ -9,6 +10,7 @@ interface BookItem {
   title_en: string
   title_ar: string
   author_name_en: string
+  year_written_ah?: number
   year_written_ce?: number
   subject: string
   available_languages: string[]
@@ -45,7 +47,7 @@ export function BooksGrid({ books }: { books: BookItem[] }) {
       renderItem={(book) => (
         <Link
           href={`/books/${book.slug}`}
-          className="card group block h-full"
+          className="card group h-full"
         >
           <h2 className="font-semibold text-iw-text group-hover:text-white">
             {book.title_en}
@@ -56,13 +58,15 @@ export function BooksGrid({ books }: { books: BookItem[] }) {
           <p className="mt-2 text-xs text-iw-text-secondary">
             By{' '}
             <span className="text-iw-accent">{book.author_name_en}</span>
-            {book.year_written_ce && ` \u00B7 ${book.year_written_ce} CE`}
+            {(book.year_written_ah || book.year_written_ce) &&
+              ` \u00B7 ${formatIslamicYear(book.year_written_ah, book.year_written_ce)}`}
           </p>
           <div className="mt-3 flex flex-wrap gap-1.5">
             <span className="badge bg-iw-accent/10 text-iw-accent capitalize">
               {book.subject.replace(/_/g, ' ')}
             </span>
           </div>
+          <span className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent group-hover:text-iw-accent-light">Read →</span>
         </Link>
       )}
       emptyMessage="No books found matching your search."

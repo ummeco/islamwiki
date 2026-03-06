@@ -12082,7 +12082,9 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "shirk"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -15009,7 +15011,14 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "women",
+      "family-of-prophet",
+      "charity",
+      "signs-of-qiyamah",
+      "prophet-muhammad",
+      "unity-of-ummah"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",
@@ -16033,7 +16042,10 @@
     "grade": "sahih-li-dhatihi",
     "grade_display": "Sahih Li Dhatihi",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "dua",
+      "prophet-ibrahim"
+    ],
     "tags": [
       "sahih",
       "kutub-sittah",

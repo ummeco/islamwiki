@@ -1745,7 +1745,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophets-stories",
+      "animals"
+    ],
     "tags": [
       "bulugh-maram"
     ],

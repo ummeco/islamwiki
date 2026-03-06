@@ -22,7 +22,12 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "rights-of-muslims",
+      "prophet-muhammad",
+      "companions",
+      "prophet"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -68,7 +73,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "iman"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -114,7 +121,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "zakat",
+      "parents-rights",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -160,7 +171,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "charity"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -206,7 +219,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "quran-recitation",
+      "knowledge",
+      "quran"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -252,7 +269,14 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "allahss-attributes",
+      "qadar",
+      "dua",
+      "quran",
+      "prophet-muhammad",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -298,7 +322,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "taqwa",
+      "quran",
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -344,7 +372,14 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "iman",
+      "taqwa",
+      "lying",
+      "following-sunnah",
+      "quran",
+      "parenting"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -390,7 +425,14 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "tawhid",
+      "shirk",
+      "iman",
+      "taqwa",
+      "qadar",
+      "following-sunnah"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -436,7 +478,14 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "tawhid",
+      "shirk",
+      "iman",
+      "qadar",
+      "death",
+      "prophet"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -482,7 +531,14 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "taqwa",
+      "allahss-names",
+      "allahss-attributes",
+      "ar-rahman",
+      "bismallah",
+      "ikhlas"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -528,7 +584,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "quran",
+      "parents-rights",
+      "visiting-sick"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -574,7 +634,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting",
+      "parents-rights",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -620,7 +684,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -712,7 +778,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -804,7 +872,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-muhammad"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -850,7 +920,13 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "dua",
+      "parenting",
+      "parents-rights",
+      "prophet-muhammad",
+      "prophet"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -896,7 +972,14 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "hajj",
+      "dua",
+      "marriage",
+      "parenting",
+      "parents-rights",
+      "charity"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -942,7 +1025,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parents-rights"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -988,7 +1073,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "dua",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1034,7 +1122,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "generosity"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1080,7 +1170,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "allahss-names",
+      "ar-rahman",
+      "parenting"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1172,7 +1266,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1218,7 +1314,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1264,7 +1362,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "leadership"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1356,7 +1456,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "orphans",
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1402,7 +1505,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "orphans"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1448,7 +1553,12 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "knowledge",
+      "scholars",
+      "parenting",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1494,7 +1604,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1586,7 +1698,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1632,7 +1746,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parents-rights"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1678,7 +1794,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1724,7 +1842,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1770,7 +1890,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1908,7 +2030,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "trade",
+      "justice"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -1954,7 +2079,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "women",
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2000,7 +2128,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2092,7 +2222,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2184,7 +2316,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2230,7 +2364,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-muhammad",
+      "prophet"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2276,7 +2413,13 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "dua",
+      "charity",
+      "death",
+      "prophet-muhammad",
+      "prophet"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2322,7 +2465,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-muhammad"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2506,7 +2651,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2552,7 +2699,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "women"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2598,7 +2747,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "women"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2644,7 +2795,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2690,7 +2843,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "charity"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2736,7 +2891,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance",
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2782,7 +2940,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2828,7 +2988,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2874,7 +3036,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "marriage",
+      "women"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2920,7 +3085,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -2966,7 +3133,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3058,7 +3227,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophets-stories",
+      "prophet-muhammad"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3196,7 +3368,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "knowledge",
+      "inheritance",
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3242,7 +3418,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3288,7 +3466,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3334,7 +3514,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parents-rights",
+      "death",
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3380,7 +3564,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting",
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3426,7 +3613,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3472,7 +3661,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3518,7 +3709,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3610,7 +3803,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3656,7 +3851,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "day-of-judgment",
+      "hereafter",
+      "leadership"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3748,7 +3947,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "marriage",
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3794,7 +3996,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-muhammad",
+      "prophet"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3840,7 +4045,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "quran",
+      "death",
+      "leadership"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3886,7 +4095,12 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "marriage",
+      "parenting",
+      "parents-rights",
+      "women"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3932,7 +4146,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "quran"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -3978,7 +4194,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "brotherhood"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4024,7 +4242,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "allahss-names",
+      "ar-rahman"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4070,7 +4291,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4162,7 +4385,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "women"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4300,7 +4525,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4392,7 +4619,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "death",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4438,7 +4668,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4530,7 +4762,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting",
+      "women"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4576,7 +4811,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4622,7 +4859,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance",
+      "death",
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4668,7 +4909,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "inheritance"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4760,7 +5003,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4806,7 +5051,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4852,7 +5099,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-muhammad"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4898,7 +5147,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -4944,7 +5195,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5036,7 +5289,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "death",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5082,7 +5338,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting",
+      "death",
+      "prophet-ibrahim"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5174,7 +5434,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5266,7 +5528,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "charity"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5312,7 +5576,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5358,7 +5624,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "allahss-names",
+      "ar-rahman"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5404,7 +5673,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "allahss-names",
+      "ar-rahman"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5450,7 +5722,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "iman",
+      "parents-rights",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5496,7 +5772,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5542,7 +5820,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "prophet-muhammad"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5588,7 +5868,11 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "parenting",
+      "parents-rights",
+      "waqf"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5634,7 +5918,9 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "death"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5726,7 +6012,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "hajj",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
@@ -5772,7 +6061,10 @@
     "grade": "ungraded",
     "grade_display": "Ungraded",
     "grades": [],
-    "topics": [],
+    "topics": [
+      "dua",
+      "companions"
+    ],
     "tags": [],
     "quran_refs": [],
     "iw_category": "hadith-sciences",
