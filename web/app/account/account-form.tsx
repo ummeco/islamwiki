@@ -411,19 +411,35 @@ export function AccountForm() {
                 </div>
               </div>
               <div className="grid grid-cols-4 gap-2">
-                {SOCIAL_PROVIDERS.map(({ id, label, icon }) => (
-                  <button
-                    key={id}
-                    type="button"
-                    disabled
-                    title={`${label} — coming soon`}
-                    aria-label={`${label} — coming soon`}
-                    className="flex flex-col items-center gap-1 rounded-lg border border-iw-border bg-iw-bg px-2 py-2.5 text-iw-text-muted opacity-40 transition-opacity"
-                  >
-                    {icon}
-                    <span className="text-[10px]">{label}</span>
-                  </button>
-                ))}
+                {SOCIAL_PROVIDERS.map(({ id, label, icon }) => {
+                  const isEnabled = id === 'google'
+                  if (isEnabled) {
+                    return (
+                      <a
+                        key={id}
+                        href={`/api/auth/oauth/${id}`}
+                        aria-label={`Sign in with ${label}`}
+                        className="flex flex-col items-center gap-1 rounded-lg border border-iw-border bg-iw-bg px-2 py-2.5 text-iw-text-muted transition-all hover:border-iw-accent/40 hover:text-white"
+                      >
+                        {icon}
+                        <span className="text-[10px]">{label}</span>
+                      </a>
+                    )
+                  }
+                  return (
+                    <button
+                      key={id}
+                      type="button"
+                      disabled
+                      title={`${label} — coming soon`}
+                      aria-label={`${label} — coming soon`}
+                      className="flex flex-col items-center gap-1 rounded-lg border border-iw-border bg-iw-bg px-2 py-2.5 text-iw-text-muted opacity-40 transition-opacity"
+                    >
+                      {icon}
+                      <span className="text-[10px]">{label}</span>
+                    </button>
+                  )
+                })}
               </div>
             </div>
           )}
