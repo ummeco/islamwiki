@@ -3,8 +3,12 @@ import { getSessionUser } from '@/lib/auth'
 import { reviewRevision, getRevisionById } from '@/lib/contributor/revisions'
 import { upsertUserTrust } from '@/lib/contributor/user-trust'
 import { TRUST_DELTAS } from '@/lib/contributor/trust'
+import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
 
 export async function POST(req: NextRequest) {
+  const rl = checkRateLimit(`review:${getClientIp(req.headers)}`, 30, 60_000)
+  if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
+
   const user = await getSessionUser()
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   if (user.trustLevel < 2) {

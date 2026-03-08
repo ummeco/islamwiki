@@ -2,8 +2,11 @@ import { type NextRequest, NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/auth'
 import { getUserTrust, banUser, upsertUserTrust } from '@/lib/contributor/user-trust'
 import { TRUST_DELTAS, canWarnUsers, canBanUsers } from '@/lib/contributor/trust'
+import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
 
 export async function GET(req: NextRequest) {
+  const rl = checkRateLimit(`trust-get:${getClientIp(req.headers)}`, 60, 60_000)
+  if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
   const caller = await getSessionUser()
   if (!caller) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
@@ -20,6 +23,9 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
+  const rl = checkRateLimit(`trust-post:${getClientIp(req.headers)}`, 20, 60_000)
+  if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
+
   const user = await getSessionUser()
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

@@ -49,6 +49,8 @@ export function canAutoApprove(
   if (trustLevel >= 3) return true
   // Level 2+ auto-approve minor edits or small changes (<20%)
   if (trustLevel >= 2 && (isMinor || diffSizePct < 20)) return true
+  // Level 1: minor edits only, no large diffs
+  if (trustLevel >= 1 && isMinor && diffSizePct < 10) return true
   return false
 }
 
