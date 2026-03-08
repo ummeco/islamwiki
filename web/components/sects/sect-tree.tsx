@@ -26,13 +26,13 @@ const STATUS_COLORS: Record<string, string> = {
 
 function SectNode({
   sect,
-  children,
+  subSects,
 }: {
   sect: SectItem
-  children: SectItem[]
+  subSects: SectItem[]
 }) {
   const [open, setOpen] = useState(false)
-  const hasChildren = children.length > 0
+  const hasChildren = subSects.length > 0
 
   return (
     <div>
@@ -79,7 +79,7 @@ function SectNode({
 
       {hasChildren && open && (
         <div className="ml-8 mt-2 space-y-2 border-l border-iw-border pl-4">
-          {children.map((child) => (
+          {subSects.map((child) => (
             <Link
               key={child.id}
               href={`/sects/${child.slug}`}
@@ -111,7 +111,7 @@ export function SectTree({ sects }: { sects: SectItem[] }) {
     <div className="space-y-4">
       {roots.map((sect) => {
         const children = sects.filter((s) => s.parent_sect_id === sect.id)
-        return <SectNode key={sect.id} sect={sect} children={children} />
+        return <SectNode key={sect.id} sect={sect} subSects={children} />
       })}
     </div>
   )

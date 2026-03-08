@@ -13,8 +13,7 @@ const messages: Record<Locale, Messages> = { en, ar, id }
  */
 export function t(locale: Locale, key: string, vars?: Record<string, string | number>): string {
   const parts = key.split('.')
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  let value: any = messages[locale]
+  let value: Record<string, unknown> | string | undefined = messages[locale] as Record<string, unknown>
 
   for (const part of parts) {
     if (value == null) break
@@ -23,8 +22,7 @@ export function t(locale: Locale, key: string, vars?: Record<string, string | nu
 
   // Fallback to English if missing
   if (typeof value !== 'string') {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    let fallback: any = messages.en
+    let fallback: Record<string, unknown> | string | undefined = messages.en as Record<string, unknown>
     for (const part of parts) {
       if (fallback == null) break
       fallback = fallback[part]
