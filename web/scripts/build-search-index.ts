@@ -253,15 +253,63 @@ const INDEX_SETTINGS = {
     'sort',
     'exactness',
   ],
+  // ── Arabic search configuration ──────────────────────────────────────────
+  // Meilisearch uses Unicode segmentation — Arabic is handled automatically.
+  // We configure typo tolerance, stop words, and synonyms for Islamic Arabic.
+  typoTolerance: {
+    enabled: true,
+    minWordSizeForTypos: {
+      oneTypo: 5,    // Arabic roots are typically 3 chars; require longer words for typos
+      twoTypos: 9,
+    },
+    // Disable typos on these exact fields — Arabic script is precise
+    disableOnAttributes: ['title_ar'],
+  },
+  // Arabic stop words — particles and conjunctions that should not affect ranking
+  stopWords: [
+    // Arabic particles
+    'من', 'إلى', 'في', 'على', 'عن', 'مع', 'بـ', 'لـ', 'كـ',
+    'هذا', 'هذه', 'ذلك', 'تلك', 'هو', 'هي', 'هم', 'هن',
+    'التي', 'الذي', 'الذين', 'التي', 'اللاتي', 'اللائي',
+    'كان', 'كانت', 'يكون', 'تكون',
+    'قد', 'لم', 'لن', 'لا', 'ما', 'أن', 'إن',
+    'حتى', 'إذا', 'حين', 'عند', 'بعد', 'قبل',
+    // English stop words for mixed content
+    'the', 'a', 'an', 'and', 'or', 'of', 'to', 'in', 'for', 'on', 'with', 'as', 'by', 'at',
+  ],
+  // Non-separator tokens — Arabic tatweel and special chars that should not split tokens
+  nonSeparatorTokens: ['ـ'], // Tatweel (Arabic kashida)
   synonyms: {
-    // Islamic name variants
-    quran: ['quran', 'koran', 'quraan'],
-    hadith: ['hadith', 'hadeeth', 'narration'],
-    bukhari: ['bukhari', 'bukhaari', 'al-bukhari'],
-    muslim: ['muslim', 'sahih muslim'],
-    prophet: ['prophet', 'nabi', 'rasul', 'messenger'],
-    allah: ['allah', 'god'],
-    seerah: ['seerah', 'sirah', 'biography'],
+    // English transliteration variants for Islamic terms
+    quran: ['quran', 'koran', 'quraan', 'al-quran'],
+    hadith: ['hadith', 'hadeeth', 'hadees', 'narration', 'tradition'],
+    bukhari: ['bukhari', 'bukhaari', 'al-bukhari', 'bukhaaree'],
+    muslim: ['muslim', 'sahih muslim', 'imam muslim'],
+    prophet: ['prophet', 'nabi', 'rasul', 'messenger', 'muhammad', 'mohammed'],
+    allah: ['allah', 'god', 'rabb'],
+    seerah: ['seerah', 'sirah', 'sira', 'biography', 'life of the prophet'],
+    salah: ['salah', 'salat', 'prayer', 'namaz'],
+    zakat: ['zakat', 'zakah', 'almsgiving', 'charity'],
+    hajj: ['hajj', 'pilgrimage', 'mecca pilgrimage'],
+    sawm: ['sawm', 'siyam', 'fasting', 'ramadan fasting'],
+    tawhid: ['tawhid', 'tawheed', 'monotheism', 'oneness of god'],
+    aqeedah: ['aqeedah', 'aqidah', 'creed', 'belief'],
+    fiqh: ['fiqh', 'fikh', 'jurisprudence', 'islamic law'],
+    shariah: ['shariah', 'sharia', 'shari\'ah', 'islamic law'],
+    sunnah: ['sunnah', 'sunna', 'prophetic tradition'],
+    quraysh: ['quraysh', 'quraish', 'qurayshi'],
+    madinah: ['madinah', 'medina', 'madina', 'al-madinah'],
+    makkah: ['makkah', 'mecca', 'makka', 'al-makkah'],
+    sahih: ['sahih', 'saheeh', 'authentic', 'sound'],
+    hasan: ['hasan', 'good', 'acceptable'],
+    daif: ['daif', 'da\'if', 'weak'],
+    // Common Arabic name spelling variants (with/without hamza, etc.)
+    quran_ar: ['قرآن', 'قران'],
+    hadith_ar: ['حديث', 'حدیث'],
+    prophet_ar: ['محمد', 'النبي', 'الرسول'],
+    allah_ar: ['الله', 'اللّٰه'],
+    mecca_ar: ['مكة', 'مكّة', 'مكه'],
+    medina_ar: ['المدينة', 'مدينة', 'المدينه'],
   },
 }
 
