@@ -1,6 +1,10 @@
+import 'server-only'
+import { readFileSync } from 'fs'
+import { join } from 'path'
 import surahsData from '@/data/quran/surahs.json'
+import type { AyahJSON } from '@/types/quran-json'
 
-interface SurahData {
+export interface SurahData {
   number: number
   name_ar: string
   name_en: string
@@ -11,12 +15,28 @@ interface SurahData {
   juz_start: number
   page_start: number
   description_en?: string
+  word_count?: number
+  has_bismillah?: boolean
+  section_count?: number | null
 }
 
-interface AyahData {
-  number_in_surah: number
+export interface AyahData {
+  // n = verse number within the surah (1-indexed, resets per surah)
+  // cn = global/continuous number across all surahs (runs 1–6236)
+  number_in_surah: number   // = a.n
+  global_number: number     // = a.cn
   text_ar: string
-  translation_en?: string
+  ar_simple: string
+  transliteration: string
+  translations: Record<string, string>
+  ruku: number
+  section_id: number | null
+  juz: number
+}
+
+export interface JuzAyahGroup {
+  surah: SurahData
+  ayahs: AyahData[]
 }
 
 const surahs: SurahData[] = surahsData as SurahData[]
@@ -34,15 +54,37 @@ export function getSurahByNumber(number: number): SurahData | undefined {
 }
 
 export function getAyahsBySurah(surahNumber: number): AyahData[] {
-  const surah = getSurahByNumber(surahNumber)
-  if (!surah) return []
-
-  // Generate stub ayahs until full dataset is loaded
-  return Array.from({ length: surah.verses_count }, (_, i) => ({
-    number_in_surah: i + 1,
-    text_ar: `بِسْمِ ٱللَّهِ — آية ${i + 1}`, // Placeholder Arabic
-    translation_en: undefined,
-  }))
+  const pad = String(surahNumber).padStart(3, '0')
+  const filePath = join(process.cwd(), 'data', 'quran', 'ayahs', `${pad}.json`)
+  try {
+    const raw = readFileSync(filePath, 'utf-8')
+    const ayahs: AyahJSON[] = JSON.parse(raw)
+    return ayahs.map((a) => ({
+      number_in_surah: a.n,        // n resets per surah: 1, 2, 3 ... verses_count
+      global_number: a.cn,         // cn is cumulative: 1 ... 6236
+      text_ar: a.ar,
+      ar_simple: a.ar_simple,
+      transliteration: a.transliteration ?? '',
+      translations: a.t ?? {},
+      ruku: a.ruku,
+      section_id: a.section_id,
+      juz: a.juz,
+    }))
+  } catch {
+    const surah = getSurahByNumber(surahNumber)
+    if (!surah) return []
+    return Array.from({ length: surah.verses_count }, (_, i) => ({
+      number_in_surah: i + 1,
+      global_number: 0,
+      text_ar: '',
+      ar_simple: '',
+      transliteration: '',
+      translations: {},
+      ruku: 1,
+      section_id: null,
+      juz: surah.juz_start,
+    }))
+  }
 }
 
 export function getAyah(
@@ -51,11 +93,26 @@ export function getAyah(
 ): (AyahData & { surah_number: number }) | undefined {
   const surah = getSurahByNumber(surahNumber)
   if (!surah || ayahNumber < 1 || ayahNumber > surah.verses_count) return undefined
+  const ayahs = getAyahsBySurah(surahNumber)
+  const ayah = ayahs.find((a) => a.number_in_surah === ayahNumber)
+  if (!ayah) return undefined
+  return { ...ayah, surah_number: surahNumber }
+}
 
-  return {
-    surah_number: surahNumber,
-    number_in_surah: ayahNumber,
-    text_ar: `بِسْمِ ٱللَّهِ — آية ${ayahNumber}`,
-    translation_en: undefined,
+// Returns all ayahs in a juz, grouped by surah, in order.
+// Only loads surah files that could contain ayahs for the requested juz.
+export function getJuzAyahs(juzNumber: number): JuzAyahGroup[] {
+  const groups: JuzAyahGroup[] = []
+  for (let i = 0; i < surahs.length; i++) {
+    const surah = surahs[i]
+    // Skip surahs that start after this juz
+    if (surah.juz_start > juzNumber) break
+    // Skip surahs that definitely ended before this juz started.
+    // A surah ends before juz N if the next surah starts at juz N or later
+    // and this surah starts before juz N-1. (conservative: always load if juz_start >= juzNumber - 1)
+    if (surah.juz_start < juzNumber - 1) continue
+    const ayahs = getAyahsBySurah(surah.number).filter((a) => a.juz === juzNumber)
+    if (ayahs.length > 0) groups.push({ surah, ayahs })
   }
+  return groups
 }

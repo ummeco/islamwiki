@@ -43,7 +43,7 @@ export function Header() {
               href={item.href}
               className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
                 pathname?.startsWith(item.href)
-                  ? 'bg-iw-elevated text-white'
+                  ? 'bg-iw-accent/10 text-iw-accent'
                   : 'text-iw-text-secondary hover:text-iw-text'
               }`}
             >
@@ -99,7 +99,7 @@ export function Header() {
                 href={item.href}
                 className={`block rounded-md px-3 py-2 text-sm font-medium ${
                   pathname?.startsWith(item.href)
-                    ? 'bg-iw-elevated text-white'
+                    ? 'bg-iw-accent/10 text-iw-accent'
                     : 'text-iw-text-secondary hover:text-iw-text'
                 }`}
                 onClick={() => setMobileOpen(false)}

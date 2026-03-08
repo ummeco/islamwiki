@@ -19,7 +19,8 @@
   --color-iw-border-subtle: #1f1f1f;
 
   --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
-  --font-arabic: 'Amiri', 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  --font-arabic: var(--font-amiri), 'Noto Naskh Arabic', 'Traditional Arabic', serif;
+  --font-quran: var(--font-scheherazade), var(--font-noto-arabic), var(--font-amiri), serif;
   --font-mono: 'Geist Mono', ui-monospace, monospace;
 }
 
@@ -59,7 +60,7 @@
   }
 
   .quran-text {
-    font-family: var(--font-arabic);
+    font-family: var(--font-quran);
     direction: rtl;
     text-align: right;
     line-height: 2.4;

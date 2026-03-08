@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useState, useMemo } from 'react'
+import { surahTranslit } from '@/lib/quran-utils'
 
 interface SurahItem {
   number: number
@@ -89,7 +90,7 @@ export function QuranGrid({ surahs }: { surahs: SurahItem[] }) {
         {filtered.map((surah) => (
           <Link
             key={surah.number}
-            href={`/quran/${surah.slug}`}
+            href={`/quran/${surah.number}`}
             className="card flex items-center gap-4"
           >
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-iw-accent/10 text-sm font-bold text-iw-accent">
@@ -98,14 +99,14 @@ export function QuranGrid({ surahs }: { surahs: SurahItem[] }) {
             <div className="min-w-0 flex-1">
               <div className="flex items-center justify-between">
                 <h2 className="truncate font-semibold text-iw-text">
-                  {surah.name_en}
+                  Surat {surahTranslit(surah.name_transliteration)}
                 </h2>
                 <span className="arabic-text shrink-0 text-lg text-white">
                   {surah.name_ar}
                 </span>
               </div>
               <p className="text-xs text-iw-text-secondary">
-                {surah.name_transliteration} \u00B7 {surah.verses_count} verses \u00B7{' '}
+                {surah.name_en} · {surah.verses_count} verses ·{' '}
                 {surah.revelation_type === 'meccan' ? 'Meccan' : 'Medinan'}
               </p>
             </div>

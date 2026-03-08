@@ -1,30 +1,48 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import { getSurahBySlug, getSurahByNumber, getSurahs, getAyahsBySurah } from '@/lib/data/quran'
 import { SurahViewer } from '@/components/quran/SurahViewer'
+import { SurahIntroButton } from '@/components/quran/SurahIntroButton'
+import { surahTitle, surahTranslit } from '@/lib/quran-utils'
 
 interface Props {
   params: Promise<{ surah: string }>
 }
 
+export const dynamicParams = true
+
+// Pre-generate all surahs by number at build time
 export async function generateStaticParams() {
-  return getSurahs().map((s) => ({ surah: s.slug }))
+  return getSurahs().map((s) => ({ surah: String(s.number) }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { surah: slug } = await params
-  const surah = getSurahBySlug(slug)
+  const { surah: surahParam } = await params
+  const asNum = parseInt(surahParam, 10)
+  const surah = !isNaN(asNum) && String(asNum) === surahParam
+    ? getSurahByNumber(asNum)
+    : getSurahBySlug(surahParam)
   if (!surah) return {}
   return {
-    title: `Surah ${surah.name_en} (${surah.name_transliteration})`,
-    description: `Read Surah ${surah.name_en} (${surah.name_ar}) — ${surah.verses_count} verses. Arabic text with English translation and tafsir.`,
+    title: `${surahTitle(surah.name_transliteration, surah.name_en)} — Quran`,
+    description: `Read ${surahTitle(surah.name_transliteration, surah.name_en)} — ${surah.verses_count} verses. Arabic text with English translation, transliteration, and tafsir.`,
   }
 }
 
 export default async function SurahPage({ params }: Props) {
-  const { surah: slug } = await params
-  const surah = getSurahBySlug(slug)
+  const { surah: surahParam } = await params
+
+  const asNum = parseInt(surahParam, 10)
+
+  // Slug URLs → redirect to numeric canonical: /quran/al-baqarah → /quran/2
+  if (isNaN(asNum) || String(asNum) !== surahParam) {
+    const s = getSurahBySlug(surahParam)
+    if (s) redirect(`/quran/${s.number}`)
+    notFound()
+  }
+
+  const surah = getSurahByNumber(asNum)
   if (!surah) notFound()
 
   const ayahs = getAyahsBySurah(surah.number)
@@ -37,66 +55,59 @@ export default async function SurahPage({ params }: Props) {
       <nav className="mb-6 text-sm text-iw-text-secondary">
         <Link href="/quran" className="hover:text-iw-text">Quran</Link>
         <span className="mx-2 text-iw-border">/</span>
-        <span className="text-iw-text">{surah.name_en}</span>
+        <span className="text-iw-text">Surat {surahTranslit(surah.name_transliteration)}</span>
       </nav>
 
       {/* Surah header */}
       <div className="mb-8 text-center">
-        <p className="text-sm text-iw-accent">Surah {surah.number} of 114</p>
-        <h1 className="mt-2 text-3xl font-bold text-white">
-          {surah.name_en}
+        {/* Prev / Counter / Next — one row */}
+        <div className="mx-auto mb-5 flex max-w-2xl items-center justify-between px-2">
+          {prevSurah ? (
+            <Link
+              href={`/quran/${prevSurah.number}`}
+              className="flex items-center gap-2 rounded-lg border border-iw-border px-3 py-1.5 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-iw-accent"
+            >
+              ← Surat {surahTranslit(prevSurah.name_transliteration)}
+            </Link>
+          ) : <div />}
+          <p className="text-sm font-medium text-iw-accent">Surah {surah.number} of 114</p>
+          {nextSurah ? (
+            <Link
+              href={`/quran/${nextSurah.number}`}
+              className="flex items-center gap-2 rounded-lg border border-iw-border px-3 py-1.5 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-iw-accent"
+            >
+              Surat {surahTranslit(nextSurah.name_transliteration)} →
+            </Link>
+          ) : <div />}
+        </div>
+
+        {/* Title */}
+        <h1 className="text-3xl font-bold text-white">
+          {surahTitle(surah.name_transliteration, surah.name_en)}
         </h1>
-        <p className="arabic-text mt-2 text-3xl text-white">
-          {surah.name_ar}
-        </p>
-        <p className="mt-2 text-sm text-iw-text-secondary">
-          {surah.name_transliteration} · {surah.verses_count} verses ·{' '}
-          {surah.revelation_type === 'meccan' ? 'Meccan' : 'Medinan'}
-        </p>
+
+        {/* Surah Intro button — below title */}
+        <div className="mt-4 flex justify-center">
+          <SurahIntroButton
+            surahNumber={surah.number}
+            surahName={surah.name_en}
+            surahNameAr={surah.name_ar}
+            surahTranslitName={surah.name_transliteration}
+            verseCount={surah.verses_count}
+            revelationType={surah.revelation_type}
+            juzStart={surah.juz_start}
+            pageStart={surah.page_start}
+            wordCount={surah.word_count}
+            description={surah.description_en}
+          />
+        </div>
       </div>
 
-      {/* Prev/Next navigation */}
-      <div className="mx-auto mb-8 flex max-w-3xl items-center justify-between">
-        {prevSurah ? (
-          <Link
-            href={`/quran/${prevSurah.slug}`}
-            className="flex items-center gap-2 rounded-lg border border-iw-border px-4 py-2 text-sm text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
-          >
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            {prevSurah.name_en}
-          </Link>
-        ) : (
-          <div />
-        )}
-        {nextSurah ? (
-          <Link
-            href={`/quran/${nextSurah.slug}`}
-            className="flex items-center gap-2 rounded-lg border border-iw-border px-4 py-2 text-sm text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
-          >
-            {nextSurah.name_en}
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
-        ) : (
-          <div />
-        )}
-      </div>
-
-      {/* Bismillah */}
-      {surah.number !== 1 && surah.number !== 9 && (
-        <p className="arabic-text mb-8 text-center text-2xl text-iw-text-secondary">
-          بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
-        </p>
-      )}
-
-      {/* Verses + audio player (client component) */}
+      {/* Verses + audio (client component) — bismillah handled internally */}
       <SurahViewer
         surahNumber={surah.number}
         surahName={surah.name_en}
-        surahSlug={slug}
+        surahNameAr={surah.name_ar}
         totalAyahs={surah.verses_count}
         ayahs={ayahs}
       />
@@ -105,42 +116,31 @@ export default async function SurahPage({ params }: Props) {
       <div className="mx-auto mt-12 flex max-w-3xl items-center justify-between border-t border-iw-border pt-6">
         {prevSurah ? (
           <Link
-            href={`/quran/${prevSurah.slug}`}
+            href={`/quran/${prevSurah.number}`}
             className="flex items-center gap-2 text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
           >
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
+            <span>←</span>
             <div>
               <div className="text-xs text-iw-text-muted">Previous</div>
-              <div className="font-medium">{prevSurah.name_en}</div>
+              <div className="font-medium">Surat {surahTranslit(prevSurah.name_transliteration)}</div>
             </div>
           </Link>
-        ) : (
-          <div />
-        )}
-        <Link
-          href="/quran"
-          className="text-xs text-iw-text-muted transition-colors hover:text-iw-accent"
-        >
+        ) : <div />}
+        <Link href="/quran" className="text-xs text-iw-text-muted transition-colors hover:text-iw-accent">
           All Surahs
         </Link>
         {nextSurah ? (
           <Link
-            href={`/quran/${nextSurah.slug}`}
+            href={`/quran/${nextSurah.number}`}
             className="flex items-center gap-2 text-right text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
           >
             <div>
               <div className="text-xs text-iw-text-muted">Next</div>
-              <div className="font-medium">{nextSurah.name_en}</div>
+              <div className="font-medium">Surat {surahTranslit(nextSurah.name_transliteration)}</div>
             </div>
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
+            <span>→</span>
           </Link>
-        ) : (
-          <div />
-        )}
+        ) : <div />}
       </div>
     </div>
   )

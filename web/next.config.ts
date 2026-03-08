@@ -42,7 +42,15 @@ const nextConfig: NextConfig = {
     ]
   },
   async redirects() {
+    // Slug-based URLs redirect to canonical numeric URLs: /quran/al-baqarah → /quran/2
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const surahs = require('./data/quran/surahs.json') as Array<{ number: number; slug: string }>
+    const slugRedirects = surahs.flatMap((s) => [
+      { source: `/quran/${s.slug}`, destination: `/quran/${s.number}`, permanent: false },
+      { source: `/quran/${s.slug}/:ayah`, destination: `/quran/${s.number}/:ayah`, permanent: false },
+    ])
     return [
+      ...slugRedirects,
       {
         source: '/auth/login',
         destination: '/account',

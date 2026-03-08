@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Geist, Geist_Mono, Amiri, Scheherazade_New, Noto_Naskh_Arabic } from 'next/font/google'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
 import { WebsiteJsonLd } from '@/components/seo/json-ld'
@@ -15,6 +15,28 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
+})
+
+const amiri = Amiri({
+  variable: '--font-amiri',
+  subsets: ['arabic'],
+  weight: ['400', '700'],
+})
+
+// Scheherazade New: specifically designed for Quranic Uthmani script,
+// covers Arabic Extended-A (U+08A0–U+08FF) for diacritics Amiri lacks.
+const scheherazade = Scheherazade_New({
+  variable: '--font-scheherazade',
+  subsets: ['arabic'],
+  weight: ['400', '700'],
+})
+
+// Noto Naskh Arabic: zero-tofu fallback — covers any glyphs Scheherazade
+// subset may miss, including U+08F0–08F2 (Open tanwin marks).
+const notoNaskhArabic = Noto_Naskh_Arabic({
+  variable: '--font-noto-arabic',
+  subsets: ['arabic'],
+  weight: ['400', '700'],
 })
 
 export const metadata: Metadata = {
@@ -82,7 +104,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${amiri.variable} ${scheherazade.variable} ${notoNaskhArabic.variable} font-sans antialiased`}
       >
         <WebsiteJsonLd />
         <Header />
