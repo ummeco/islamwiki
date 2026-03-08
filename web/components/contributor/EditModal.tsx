@@ -1,6 +1,8 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react'
+import { marked } from 'marked'
+import { sanitizeHtml } from '@/lib/sanitize'
 import { DiffViewer } from './DiffViewer'
 
 interface EditModalProps {
@@ -162,7 +164,7 @@ export function EditModal({
               {tab === 'preview' && (
                 <div
                   className="prose prose-invert prose-sm max-w-none min-h-[400px] rounded-lg border border-iw-border bg-iw-surface p-4"
-                  dangerouslySetInnerHTML={{ __html: content.replace(/\n/g, '<br>') }}
+                  dangerouslySetInnerHTML={{ __html: sanitizeHtml(marked.parse(content, { async: false }) as string) }}
                 />
               )}
 

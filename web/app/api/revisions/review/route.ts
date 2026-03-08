@@ -1,6 +1,6 @@
 import { type NextRequest, NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/auth'
-import { reviewRevision } from '@/lib/contributor/revisions'
+import { reviewRevision, getRevisionById } from '@/lib/contributor/revisions'
 import { upsertUserTrust } from '@/lib/contributor/user-trust'
 import { TRUST_DELTAS } from '@/lib/contributor/trust'
 
@@ -14,6 +14,12 @@ export async function POST(req: NextRequest) {
   const { revisionId, action } = await req.json()
   if (!revisionId || !['approved', 'denied'].includes(action)) {
     return NextResponse.json({ error: 'revisionId and action (approved|denied) required' }, { status: 400 })
+  }
+
+  const existing = await getRevisionById(revisionId)
+  if (!existing) return NextResponse.json({ error: 'Revision not found' }, { status: 404 })
+  if (existing.editor_id === user.userId) {
+    return NextResponse.json({ error: 'Cannot review your own edits' }, { status: 403 })
   }
 
   const revision = await reviewRevision(revisionId, user.userId, action)

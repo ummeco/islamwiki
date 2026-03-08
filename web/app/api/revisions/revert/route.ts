@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from 'next/server'
 import { getSessionUser } from '@/lib/auth'
 import { submitRevision, getRevisionById } from '@/lib/contributor/revisions'
-import { upsertUserTrust } from '@/lib/contributor/user-trust'
+import { getUserTrust, upsertUserTrust } from '@/lib/contributor/user-trust'
 import { TRUST_DELTAS, canRevertEdits } from '@/lib/contributor/trust'
 
 export async function POST(req: NextRequest) {
@@ -15,7 +15,10 @@ export async function POST(req: NextRequest) {
   if (!revisionId) return NextResponse.json({ error: 'revisionId required' }, { status: 400 })
   if (!reason) return NextResponse.json({ error: 'reason required for revert' }, { status: 400 })
 
-  const original = await getRevisionById(revisionId)
+  const [original, editorTrust] = await Promise.all([
+    getRevisionById(revisionId),
+    getUserTrust(user.userId),
+  ])
   if (!original) return NextResponse.json({ error: 'Revision not found' }, { status: 404 })
 
   const revert = await submitRevision({
@@ -28,7 +31,7 @@ export async function POST(req: NextRequest) {
     newContent: original.previous_content ?? '',
     changeSummary: `Revert: ${reason}`,
     isMinor: false,
-    editorTrustScore: user.trustLevel * 50,
+    editorTrustScore: editorTrust?.trust_score ?? 0,
   })
 
   await upsertUserTrust(original.editor_id, original.editor_username, TRUST_DELTAS.edit_reverted)
