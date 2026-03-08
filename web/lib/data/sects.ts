@@ -12,8 +12,11 @@ interface SectData {
   founder_id?: number
   founder_name?: string
   description_en: string
-  status: 'mainstream' | 'accepted' | 'deviant' | 'rejected'
+  status: 'mainstream' | 'accepted' | 'deviant' | 'rejected' | 'other' | 'active' | 'orthodox' | 'historical'
   key_beliefs?: string[]
+  scholarly_evaluation?: string
+  key_figures?: string[]
+  sources?: string[]
 }
 
 const sects: SectData[] = sectsData as SectData[]

@@ -12,7 +12,17 @@
     "description_en": "The opening chapter of the Quran, recited in every unit of the Muslim prayer. It is a supplication for guidance and a summary of the entire Quran.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 29
+    "word_count": 29,
+    "themes": [
+      "Opening prayer",
+      "Praise of Allah",
+      "Guidance"
+    ],
+    "key_ayahs": [
+      5,
+      6,
+      7
+    ]
   },
   {
     "number": 2,
@@ -27,7 +37,20 @@
     "description_en": "The longest surah in the Quran, covering legislation, stories of past prophets, and foundational principles of Islamic law including fasting, pilgrimage, and financial transactions.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 6116
+    "word_count": 6116,
+    "themes": [
+      "Law and guidance",
+      "Stories of prophets",
+      "Faith and worship",
+      "Social justice"
+    ],
+    "key_ayahs": [
+      255,
+      256,
+      282,
+      285,
+      286
+    ]
   },
   {
     "number": 3,
@@ -42,7 +65,19 @@
     "description_en": "Named after the family of Imran (father of Maryam), it discusses the birth of Isa (Jesus), the Battle of Uhud, and theological dialogue with the People of the Book.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 3481
+    "word_count": 3481,
+    "themes": [
+      "Ahl al-Kitab",
+      "Battle of Uhud",
+      "Family of Imran"
+    ],
+    "key_ayahs": [
+      26,
+      27,
+      185,
+      190,
+      191
+    ]
   },
   {
     "number": 4,
@@ -57,7 +92,20 @@
     "description_en": "Addresses women's rights, inheritance laws, marriage regulations, and justice in the community. It also discusses relations with the People of the Book.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 3747
+    "word_count": 3747,
+    "themes": [
+      "Women rights",
+      "Inheritance",
+      "Justice",
+      "Family law"
+    ],
+    "key_ayahs": [
+      1,
+      11,
+      12,
+      36,
+      135
+    ]
   },
   {
     "number": 5,
@@ -72,7 +120,18 @@
     "description_en": "One of the last surahs revealed, it covers dietary laws (halal and haram), criminal justice, and the completion of the religion of Islam.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 2804
+    "word_count": 2804,
+    "themes": [
+      "Contracts and obligations",
+      "Dietary laws",
+      "Justice"
+    ],
+    "key_ayahs": [
+      3,
+      32,
+      48,
+      90
+    ]
   },
   {
     "number": 6,
@@ -87,7 +146,18 @@
     "description_en": "Addresses the fundamentals of faith: monotheism (tawhid), prophethood, and the Hereafter. It refutes polytheism and superstitious practices regarding cattle.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 3050
+    "word_count": 3050,
+    "themes": [
+      "Monotheism",
+      "Prophethood",
+      "Creation"
+    ],
+    "key_ayahs": [
+      59,
+      95,
+      162,
+      163
+    ]
   },
   {
     "number": 7,
@@ -102,7 +172,18 @@
     "description_en": "Named after the elevated barrier between Paradise and Hell, it recounts the stories of Adam, Nuh, Hud, Salih, Lut, Shu'ayb, and Musa in detail.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 3320
+    "word_count": 3320,
+    "themes": [
+      "Adam and Satan",
+      "Prophetic narratives",
+      "The Heights"
+    ],
+    "key_ayahs": [
+      11,
+      26,
+      180,
+      206
+    ]
   },
   {
     "number": 8,
@@ -177,7 +258,19 @@
     "description_en": "Tells the complete story of the Prophet Yusuf (Joseph) in a single, continuous narrative. Called the 'best of stories' in the Quran itself.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 1777
+    "word_count": 1777,
+    "themes": [
+      "Story of Yusuf",
+      "Patience",
+      "Trust in Allah",
+      "Dreams"
+    ],
+    "key_ayahs": [
+      3,
+      4,
+      86,
+      111
+    ]
   },
   {
     "number": 13,
@@ -237,7 +330,17 @@
     "description_en": "Named after the bee, whose honey is described as a healing for people. It catalogs the countless blessings of Allah in creation and calls for gratitude.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 1844
+    "word_count": 1844,
+    "themes": [
+      "Blessings of Allah",
+      "Nature as signs",
+      "Justice"
+    ],
+    "key_ayahs": [
+      90,
+      125,
+      128
+    ]
   },
   {
     "number": 17,
@@ -252,7 +355,19 @@
     "description_en": "Opens with the miraculous night journey of the Prophet from Makkah to Jerusalem. It also contains a code of conduct with ethical commandments.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 1556
+    "word_count": 1556,
+    "themes": [
+      "Night Journey (Isra)",
+      "Ten Commandments",
+      "Quran praise"
+    ],
+    "key_ayahs": [
+      1,
+      23,
+      24,
+      78,
+      82
+    ]
   },
   {
     "number": 18,
@@ -267,7 +382,18 @@
     "description_en": "Contains four major stories: the People of the Cave, the owner of two gardens, Musa and Al-Khidr, and Dhul-Qarnayn. Widely recited on Fridays.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 1579
+    "word_count": 1579,
+    "themes": [
+      "People of the Cave",
+      "Dhul Qarnayn",
+      "Trials of faith"
+    ],
+    "key_ayahs": [
+      10,
+      28,
+      46,
+      110
+    ]
   },
   {
     "number": 19,
@@ -282,7 +408,17 @@
     "description_en": "Named after Maryam (Mary), mother of Isa (Jesus). It recounts the births of Yahya (John) and Isa, and stories of Ibrahim, Musa, Isma'il, and Idris.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 961
+    "word_count": 961,
+    "themes": [
+      "Maryam and Isa",
+      "Ibrahim",
+      "Mercy of Allah"
+    ],
+    "key_ayahs": [
+      16,
+      30,
+      96
+    ]
   },
   {
     "number": 20,
@@ -297,7 +433,18 @@
     "description_en": "Opens with disconnected letters (Ta-Ha) and focuses on the story of Musa from his early life through his mission to Pharaoh and the incident of the golden calf.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 1335
+    "word_count": 1335,
+    "themes": [
+      "Musa narrative",
+      "Taha",
+      "Guidance"
+    ],
+    "key_ayahs": [
+      1,
+      14,
+      114,
+      124
+    ]
   },
   {
     "number": 21,
@@ -357,7 +504,18 @@
     "description_en": "Contains laws on modesty, the famous 'Verse of Light' (Ayat an-Nur), rules against slander, and guidelines for social conduct and privacy.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 1316
+    "word_count": 1316,
+    "themes": [
+      "Modesty",
+      "Light of Allah",
+      "Social etiquette"
+    ],
+    "key_ayahs": [
+      30,
+      31,
+      35,
+      36
+    ]
   },
   {
     "number": 25,
@@ -537,7 +695,19 @@
     "description_en": "Often called 'the heart of the Quran.' It emphasizes the truth of resurrection, tells the parable of the people of the town, and presents signs of Allah in nature.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 725
+    "word_count": 725,
+    "themes": [
+      "Resurrection",
+      "Signs in creation",
+      "Yasin"
+    ],
+    "key_ayahs": [
+      1,
+      12,
+      58,
+      82,
+      83
+    ]
   },
   {
     "number": 37,
@@ -822,7 +992,18 @@
     "description_en": "Known as 'the Bride of the Quran.' It lists the countless blessings of Allah, repeatedly asking: 'Which of the favors of your Lord will you deny?'",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 351
+    "word_count": 351,
+    "themes": [
+      "Blessings of Allah",
+      "Paradise descriptions",
+      "Which favor will you deny"
+    ],
+    "key_ayahs": [
+      1,
+      13,
+      26,
+      27
+    ]
   },
   {
     "number": 56,
@@ -837,7 +1018,19 @@
     "description_en": "Describes the Day of Judgment as an inevitable event. It divides humanity into three groups: the foremost (nearest to Allah), the people of the right, and the people of the left.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 379
+    "word_count": 379,
+    "themes": [
+      "Day of Judgment",
+      "Three groups of humanity",
+      "Quran oath"
+    ],
+    "key_ayahs": [
+      1,
+      10,
+      11,
+      77,
+      79
+    ]
   },
   {
     "number": 57,
@@ -1002,7 +1195,18 @@
     "description_en": "Also known as 'the Protector from the grave's punishment.' It reflects on Allah's creation of the heavens, the purpose of life and death, and the powerlessness of disbelievers.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 333
+    "word_count": 333,
+    "themes": [
+      "Sovereignty of Allah",
+      "Testing through life",
+      "Warning"
+    ],
+    "key_ayahs": [
+      1,
+      2,
+      3,
+      15
+    ]
   },
   {
     "number": 68,
@@ -1677,7 +1881,17 @@
     "description_en": "A concise declaration of pure monotheism (tawhid): Allah is One, Eternal, neither begets nor is begotten, and nothing is comparable to Him. Equal to one-third of the Quran in reward.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 15
+    "word_count": 15,
+    "themes": [
+      "Pure monotheism (Tawhid)",
+      "Allah uniqueness"
+    ],
+    "key_ayahs": [
+      1,
+      2,
+      3,
+      4
+    ]
   },
   {
     "number": 113,
@@ -1707,6 +1921,16 @@
     "description_en": "The final surah of the Quran and one of the two protective surahs. It seeks refuge in the Lord, King, and God of mankind from the whisperer (Shaytan) who whispers into hearts.",
     "has_bismillah": true,
     "section_count": null,
-    "word_count": 20
+    "word_count": 20,
+    "themes": [
+      "Seeking refuge",
+      "Protection from evil"
+    ],
+    "key_ayahs": [
+      1,
+      4,
+      5,
+      6
+    ]
   }
 ]

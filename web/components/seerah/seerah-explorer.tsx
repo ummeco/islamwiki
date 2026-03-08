@@ -104,7 +104,7 @@ function renderMarkdown(content: string): React.ReactNode[] {
 }
 
 export function SeerahExplorer({ events, contentMap = {} }: SeerahExplorerProps) {
-  const [filter, setFilter] = useState<Filter>('major')
+  const [filter, setFilter] = useState<Filter>('all')
   const [activeIndex, setActiveIndex] = useState(0)
   const [expandedSlugs, setExpandedSlugs] = useState<Set<string>>(new Set())
   // overlay is a boolean — always shows `active`, so any navigation auto-updates it

@@ -1,4 +1,6 @@
 import peopleData from '@/data/people/scholars.json'
+import relData from '@/data/people/relationships.json'
+import narratorsData from '@/data/people/narrators.json'
 import type { PersonEra } from '@/types/content'
 
 interface PersonData {
@@ -51,13 +53,71 @@ interface EraInfo {
   count: number
 }
 
+interface RawRelation {
+  from_id: number
+  to_id: number
+  type: string
+  note?: string
+}
+
 const people: PersonData[] = peopleData as PersonData[]
+const rawRels: RawRelation[] = relData as RawRelation[]
 
-// Static relationships (will be populated from DB in Phase 2)
+// Build bidirectional relationships from raw data
 const relationships: RelationshipData[] = []
+let relIdCounter = 1
+for (const rel of rawRels) {
+  const fromPerson = people.find((p) => p.id === rel.from_id)
+  const toPerson = people.find((p) => p.id === rel.to_id)
+  if (fromPerson && toPerson) {
+    // Forward: from → to (e.g., teacher → student)
+    relationships.push({
+      id: relIdCounter++,
+      person_id: rel.from_id,
+      related_person_id: rel.to_id,
+      related_person_name_en: toPerson.name_en,
+      related_person_slug: toPerson.slug,
+      relationship_type: rel.type === 'teacher' ? 'teacher_of' : rel.type,
+      notes: rel.note,
+    })
+    // Reverse: to → from (e.g., student → teacher)
+    relationships.push({
+      id: relIdCounter++,
+      person_id: rel.to_id,
+      related_person_id: rel.from_id,
+      related_person_name_en: fromPerson.name_en,
+      related_person_slug: fromPerson.slug,
+      relationship_type: rel.type === 'teacher' ? 'student_of' : rel.type,
+      notes: rel.note,
+    })
+  }
+}
 
-// Static person-place data (will be populated from DB in Phase 2)
+// Build person-place data from birth/death places in scholars.json
 const personPlaces: PersonPlaceData[] = []
+let placeIdCounter = 1
+for (const p of people) {
+  if (p.birth_place_name) {
+    personPlaces.push({
+      id: placeIdCounter++,
+      person_id: p.id,
+      place_id: p.birth_place_id ?? 0,
+      place_name_en: p.birth_place_name,
+      year_start_ah: p.birth_year_ah,
+      role: 'Born',
+    })
+  }
+  if (p.death_place_name && p.death_place_name !== p.birth_place_name) {
+    personPlaces.push({
+      id: placeIdCounter++,
+      person_id: p.id,
+      place_id: p.death_place_id ?? 0,
+      place_name_en: p.death_place_name,
+      year_start_ah: p.death_year_ah,
+      role: 'Died',
+    })
+  }
+}
 
 export function getPeople(): PersonData[] {
   return people
@@ -74,6 +134,32 @@ export function getRelationships(personId: number): RelationshipData[] {
 export function getPersonPlaces(personId: number): PersonPlaceData[] {
   return personPlaces.filter((pp) => pp.person_id === personId)
 }
+
+// ── Narrators ─────────────────────────────────────────────────────────────────
+
+export interface NarratorData {
+  name_en: string
+  slug: string
+  person_slug: string | null
+  hadith_count: number
+  collections: Array<{ collection: string; count: number }>
+}
+
+const narrators: NarratorData[] = narratorsData as NarratorData[]
+
+export function getNarrators(limit?: number): NarratorData[] {
+  return limit ? narrators.slice(0, limit) : narrators
+}
+
+export function getNarratorBySlug(slug: string): NarratorData | undefined {
+  return narrators.find((n) => n.slug === slug || n.person_slug === slug)
+}
+
+export function getTopNarrators(n = 20): NarratorData[] {
+  return narrators.slice(0, n)
+}
+
+// ── Eras ──────────────────────────────────────────────────────────────────────
 
 export function getEras(): EraInfo[] {
   const eraLabels: Record<PersonEra, string> = {

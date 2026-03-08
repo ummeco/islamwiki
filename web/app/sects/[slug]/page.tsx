@@ -32,11 +32,15 @@ export default async function SectPage({ params }: Props) {
     ? allSects.find((s) => s.id === sect.parent_sect_id)
     : null
 
-  const statusColors = {
+  const statusColors: Record<string, string> = {
     mainstream: 'bg-emerald-500/20 text-emerald-300',
     accepted: 'bg-blue-500/20 text-blue-300',
     deviant: 'bg-yellow-500/20 text-yellow-300',
     rejected: 'bg-red-500/20 text-red-300',
+    other: 'bg-gray-500/20 text-gray-300',
+    active: 'bg-purple-500/20 text-purple-300',
+    orthodox: 'bg-emerald-500/20 text-emerald-300',
+    historical: 'bg-gray-500/20 text-gray-300',
   }
 
   return (
@@ -72,6 +76,35 @@ export default async function SectPage({ params }: Props) {
               <ul className="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
                 {sect.key_beliefs.map((belief, i) => (
                   <li key={i}>{belief}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {sect.scholarly_evaluation && (
+            <div className="rounded-xl border border-iw-border bg-iw-surface/50 p-5">
+              <h2 className="mb-3 text-lg font-semibold text-white">Scholarly Evaluation</h2>
+              <p className="text-sm leading-relaxed text-iw-text-secondary">{sect.scholarly_evaluation}</p>
+            </div>
+          )}
+
+          {sect.key_figures && sect.key_figures.length > 0 && (
+            <div>
+              <h2 className="mb-3 text-lg font-semibold text-white">Key Figures</h2>
+              <ul className="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
+                {sect.key_figures.map((figure: string, i: number) => (
+                  <li key={i}>{figure}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {sect.sources && sect.sources.length > 0 && (
+            <div>
+              <h2 className="mb-3 text-lg font-semibold text-white">Sources</h2>
+              <ul className="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
+                {sect.sources.map((src: string, i: number) => (
+                  <li key={i}>{src}</li>
                 ))}
               </ul>
             </div>

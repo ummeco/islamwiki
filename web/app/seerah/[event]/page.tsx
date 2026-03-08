@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import { getSeerahEventBySlug, getSeerahEvents } from '@/lib/data/seerah'
 import { getSeerahContent } from '@/lib/data/seerah-content'
 import { formatIslamicDate } from '@/lib/dates/hijri'
+import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ event: string }>
@@ -90,6 +92,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: event.title_en,
     description: `${event.title_en}${dateLabel ? ` — ${dateLabel}` : ''}. ${event.description_en.slice(0, 160)}`,
+    alternates: { languages: getHreflangAlternates(`/seerah/${slug}`) },
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: event.title_en, section: 'Seerah', arabic: event.title_ar, subtitle: dateLabel }) }],
+    },
   }
 }
 

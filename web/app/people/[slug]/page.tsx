@@ -8,10 +8,13 @@ import {
   getPersonPlaces,
 } from '@/lib/data/people'
 import { getBooksByAuthor } from '@/lib/data/books'
+import { PersonJsonLd, BreadcrumbJsonLd } from '@/components/seo/json-ld'
+import { ogImageUrl } from '@/lib/og'
 import { WikiLayout } from '@/components/wiki/wiki-layout'
 import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
 import { formatIslamicYear } from '@/lib/dates/hijri'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -38,6 +41,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: person.name_en,
     description: `Biography of ${person.name_en}${dates ? ` (${dates})` : ''}. ${person.bio_short_en || 'Islamic scholar and historical figure.'}`,
+    alternates: { languages: getHreflangAlternates(`/people/${slug}`) },
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: person.name_en, section: 'People', arabic: person.name_ar, subtitle: dates || person.era }) }],
+    },
   }
 }
 
@@ -58,6 +65,18 @@ export default async function PersonPage({ params }: Props) {
       ]}
       showToc={false}
     >
+      <PersonJsonLd
+        name={person.name_en}
+        nameAr={person.name_ar}
+        birthYear={person.birth_year_ah ? `${person.birth_year_ah} AH` : undefined}
+        deathYear={person.death_year_ah ? `${person.death_year_ah} AH` : undefined}
+        description={person.bio_short_en || undefined}
+        slug={slug}
+      />
+      <BreadcrumbJsonLd items={[
+        { name: 'People', url: '/people' },
+        { name: person.name_en, url: `/people/${slug}` },
+      ]} />
       <ContentTabs
         basePath={`/people/${slug}`}
         activeTab="read"
@@ -226,8 +245,8 @@ export default async function PersonPage({ params }: Props) {
               <ul className="space-y-2">
                 {relationships.map((rel) => (
                   <li key={rel.id} className="text-sm">
-                    <span className="text-iw-text-muted capitalize">
-                      {rel.relationship_type}:
+                    <span className="text-iw-text-muted">
+                      {rel.relationship_type.replace(/_/g, ' ')}:
                     </span>{' '}
                     <Link
                       href={`/people/${rel.related_person_slug}`}

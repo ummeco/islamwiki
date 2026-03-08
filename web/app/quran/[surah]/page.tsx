@@ -3,8 +3,12 @@ import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import { getSurahBySlug, getSurahByNumber, getSurahs, getAyahsBySurah } from '@/lib/data/quran'
 import { SurahViewer } from '@/components/quran/SurahViewer'
+import { getLocale } from '@/lib/i18n/get-locale'
 import { SurahIntroButton } from '@/components/quran/SurahIntroButton'
 import { surahTitle, surahTranslit } from '@/lib/quran-utils'
+import { QuranChapterJsonLd, BreadcrumbJsonLd } from '@/components/seo/json-ld'
+import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ surah: string }>
@@ -24,9 +28,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? getSurahByNumber(asNum)
     : getSurahBySlug(surahParam)
   if (!surah) return {}
+  const t = surahTitle(surah.name_transliteration, surah.name_en)
   return {
-    title: `${surahTitle(surah.name_transliteration, surah.name_en)} — Quran`,
-    description: `Read ${surahTitle(surah.name_transliteration, surah.name_en)} — ${surah.verses_count} verses. Arabic text with English translation, transliteration, and tafsir.`,
+    title: `${t} — Quran`,
+    description: `Read ${t} — ${surah.verses_count} verses. Arabic text with English translation, transliteration, and tafsir.`,
+    alternates: { languages: getHreflangAlternates(`/quran/${asNum}`) },
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: t, section: 'Quran', arabic: surah.name_ar, subtitle: `${surah.verses_count} verses · ${surah.revelation_type}` }) }],
+    },
   }
 }
 
@@ -45,12 +54,26 @@ export default async function SurahPage({ params }: Props) {
   const surah = getSurahByNumber(asNum)
   if (!surah) notFound()
 
-  const ayahs = getAyahsBySurah(surah.number)
+  const [ayahs, locale] = await Promise.all([
+    Promise.resolve(getAyahsBySurah(surah.number)),
+    getLocale(),
+  ])
   const prevSurah = surah.number > 1 ? getSurahByNumber(surah.number - 1) : null
   const nextSurah = surah.number < 114 ? getSurahByNumber(surah.number + 1) : null
 
   return (
     <div className="section-container py-12">
+      <QuranChapterJsonLd
+        surahNumber={surah.number}
+        nameEn={surahTranslit(surah.name_transliteration)}
+        nameAr={surah.name_ar}
+        versesCount={surah.verses_count}
+        revelationType={surah.revelation_type}
+      />
+      <BreadcrumbJsonLd items={[
+        { name: 'Quran', url: '/quran' },
+        { name: `Surah ${surahTranslit(surah.name_transliteration)}`, url: `/quran/${surah.number}` },
+      ]} />
       {/* Breadcrumb */}
       <nav className="mb-6 text-sm text-iw-text-secondary">
         <Link href="/quran" className="hover:text-iw-text">Quran</Link>
@@ -110,6 +133,7 @@ export default async function SurahPage({ params }: Props) {
         surahNameAr={surah.name_ar}
         totalAyahs={surah.verses_count}
         ayahs={ayahs}
+        locale={locale}
       />
 
       {/* Bottom navigation */}

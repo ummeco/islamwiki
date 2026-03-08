@@ -32,7 +32,7 @@ export default async function BookPage({ params }: Props) {
   const book = getBookBySlug(slug)
   if (!book) notFound()
 
-  const chapters = getChaptersByBook(book.id)
+  const chapters = getChaptersByBook(slug)
   const otherBooksByAuthor = getBooksByAuthor(book.author_slug).filter(
     (b) => b.id !== book.id
   )

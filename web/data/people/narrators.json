@@ -1,1 +1,6486 @@
-[]
+[
+  {
+    "name_en": "Abu Huraira",
+    "slug": "abu-huraira",
+    "person_slug": "abu-huraira",
+    "hadith_count": 1532,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 979
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 280
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 181
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 84
+      },
+      {
+        "collection": "nasai",
+        "count": 6
+      },
+      {
+        "collection": "muslim",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Aisha",
+    "slug": "aisha-bint-abi-bakr",
+    "person_slug": "aisha-bint-abi-bakr",
+    "hadith_count": 969,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 673
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 230
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 58
+      },
+      {
+        "collection": "nasai",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Anas bin Malik",
+    "slug": "anas-ibn-malik",
+    "person_slug": "anas-ibn-malik",
+    "hadith_count": 961,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 695
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 139
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 122
+      },
+      {
+        "collection": "nasai",
+        "count": 3
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Umar",
+    "slug": "ibn-umar",
+    "person_slug": "ibn-umar",
+    "hadith_count": 808,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 509
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 148
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 93
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 54
+      },
+      {
+        "collection": "nasai",
+        "count": 2
+      },
+      {
+        "collection": "muslim",
+        "count": 1
+      },
+      {
+        "collection": "riyadh-salihin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Abbas",
+    "slug": "ibn-abbas",
+    "person_slug": "ibn-abbas",
+    "hadith_count": 808,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 460
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 239
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 104
+      },
+      {
+        "collection": "nasai",
+        "count": 3
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir ibn Abdullah",
+    "slug": "jabir-ibn-abdallah",
+    "person_slug": "jabir-ibn-abdallah",
+    "hadith_count": 442,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 245
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 125
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 69
+      },
+      {
+        "collection": "nasai",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn Masud",
+    "slug": "abdullah-ibn-masud",
+    "person_slug": null,
+    "hadith_count": 315,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 218
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 62
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 33
+      },
+      {
+        "collection": "nasai",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn Amr",
+    "slug": "abdullah-ibn-amr",
+    "person_slug": null,
+    "hadith_count": 158,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 80
+      },
+      {
+        "collection": "bukhari",
+        "count": 57
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 20
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Ali ibn Abi Talib",
+    "slug": "ali-ibn-abi-talib",
+    "person_slug": "ali-ibn-abi-talib",
+    "hadith_count": 148,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 69
+      },
+      {
+        "collection": "bukhari",
+        "count": 54
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 24
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Musa al-Ashari",
+    "slug": "abu-musa-al-ashari",
+    "person_slug": null,
+    "hadith_count": 133,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 112
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 17
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Said al-Khudri",
+    "slug": "abu-said-al-khudri",
+    "person_slug": null,
+    "hadith_count": 123,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 119
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Nafi",
+    "slug": "nafi",
+    "person_slug": null,
+    "hadith_count": 87,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 81
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 5
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Sahl ibn Sad",
+    "slug": "sahl-ibn-sad",
+    "person_slug": null,
+    "hadith_count": 70,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 63
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Bara ibn Azib",
+    "slug": "al-bara-ibn-azib",
+    "person_slug": null,
+    "hadith_count": 70,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 62
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "AbuSa'id al-Khudri",
+    "slug": "abusaid-al-khudri",
+    "person_slug": null,
+    "hadith_count": 47,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 47
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn 'Abbas (RA)",
+    "slug": "ibn-abbas-ra",
+    "person_slug": null,
+    "hadith_count": 45,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 45
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Sa'id",
+    "slug": "abu-said",
+    "person_slug": null,
+    "hadith_count": 44,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 44
+      }
+    ]
+  },
+  {
+    "name_en": "'Urwa",
+    "slug": "urwa",
+    "person_slug": null,
+    "hadith_count": 44,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 44
+      }
+    ]
+  },
+  {
+    "name_en": "'Aishah (RA)",
+    "slug": "aishah-ra",
+    "person_slug": null,
+    "hadith_count": 40,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 40
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Mas'ud",
+    "slug": "abdullah-bin-masud",
+    "person_slug": null,
+    "hadith_count": 39,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 24
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin 'Abbas",
+    "slug": "abdullah-bin-abbas",
+    "person_slug": null,
+    "hadith_count": 39,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 38
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Dharr",
+    "slug": "abu-dharr",
+    "person_slug": null,
+    "hadith_count": 38,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 27
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 7
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Hudhaifa ibn al-Yaman",
+    "slug": "hudhaifa-ibn-al-yaman",
+    "person_slug": null,
+    "hadith_count": 36,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 27
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Um Salama",
+    "slug": "um-salama",
+    "person_slug": null,
+    "hadith_count": 36,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 36
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir (RA)",
+    "slug": "jabir-ra",
+    "person_slug": null,
+    "hadith_count": 33,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 33
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'id bin Jubair",
+    "slug": "said-bin-jubair",
+    "person_slug": null,
+    "hadith_count": 32,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 32
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Bakra",
+    "slug": "abu-bakra",
+    "person_slug": null,
+    "hadith_count": 32,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 32
+      }
+    ]
+  },
+  {
+    "name_en": "Umm Salamah, Ummul Mu'minin",
+    "slug": "umm-salamah-ummul-muminin",
+    "person_slug": null,
+    "hadith_count": 29,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 29
+      }
+    ]
+  },
+  {
+    "name_en": "'Umar bin Al-Khattab",
+    "slug": "umar-bin-al-khattab",
+    "person_slug": null,
+    "hadith_count": 29,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 21
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 7
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Masruq",
+    "slug": "masruq",
+    "person_slug": null,
+    "hadith_count": 29,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 23
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Umar",
+    "slug": "umar",
+    "person_slug": null,
+    "hadith_count": 28,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 22
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'd",
+    "slug": "sad",
+    "person_slug": null,
+    "hadith_count": 28,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 21
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Wail",
+    "slug": "abu-wail",
+    "person_slug": null,
+    "hadith_count": 28,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 28
+      }
+    ]
+  },
+  {
+    "name_en": "Az-Zuhri",
+    "slug": "az-zuhri",
+    "person_slug": null,
+    "hadith_count": 27,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 18
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 6
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Imran bin Husain",
+    "slug": "imran-bin-husain",
+    "person_slug": null,
+    "hadith_count": 27,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 13
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 13
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Qatada",
+    "slug": "abu-qatada",
+    "person_slug": null,
+    "hadith_count": 26,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 26
+      }
+    ]
+  },
+  {
+    "name_en": "Umar ibn al-Khattab",
+    "slug": "umar-ibn-al-khattab",
+    "person_slug": "umar-ibn-al-khattab",
+    "hadith_count": 25,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 24
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Bara' bin 'Azib",
+    "slug": "al-bara-bin-azib",
+    "person_slug": null,
+    "hadith_count": 25,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 19
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Sahl",
+    "slug": "sahl",
+    "person_slug": null,
+    "hadith_count": 25,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 25
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir bin ‘Abdullah",
+    "slug": "jabir-bin-abdullah",
+    "person_slug": null,
+    "hadith_count": 24,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 13
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "'Urwa bin Az-Zubair",
+    "slug": "urwa-bin-az-zubair",
+    "person_slug": null,
+    "hadith_count": 24,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 24
+      }
+    ]
+  },
+  {
+    "name_en": "Anas (RA)",
+    "slug": "anas-ra",
+    "person_slug": null,
+    "hadith_count": 24,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 24
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Bara'",
+    "slug": "al-bara",
+    "person_slug": null,
+    "hadith_count": 23,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Adi bin Hatim",
+    "slug": "adi-bin-hatim",
+    "person_slug": null,
+    "hadith_count": 23,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Muadh ibn Jabal",
+    "slug": "muadh-ibn-jabal",
+    "person_slug": "muadh-ibn-jabal",
+    "hadith_count": 22,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 19
+      },
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Ali bin Abi Talib",
+    "slug": "ali-bin-abi-talib",
+    "person_slug": null,
+    "hadith_count": 22,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 12
+      },
+      {
+        "collection": "bukhari",
+        "count": 8
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Usama bin Zaid",
+    "slug": "usama-bin-zaid",
+    "person_slug": null,
+    "hadith_count": 22,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 22
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Bara' ibn Azib",
+    "slug": "al-bara-ibn-azib",
+    "person_slug": null,
+    "hadith_count": 21,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 21
+      }
+    ]
+  },
+  {
+    "name_en": "Buraydah ibn al-Hasib",
+    "slug": "buraydah-ibn-al-hasib",
+    "person_slug": null,
+    "hadith_count": 21,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 21
+      }
+    ]
+  },
+  {
+    "name_en": "Samurah ibn Jundub",
+    "slug": "samurah-ibn-jundub",
+    "person_slug": null,
+    "hadith_count": 21,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 21
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Mas'ud",
+    "slug": "abu-masud",
+    "person_slug": null,
+    "hadith_count": 21,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 18
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Hisham's father",
+    "slug": "hishams-father",
+    "person_slug": null,
+    "hadith_count": 21,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 21
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr b. Suh'aib",
+    "slug": "amr-b-suhaib",
+    "person_slug": null,
+    "hadith_count": 20,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "name_en": "Mujahid",
+    "slug": "mujahid",
+    "person_slug": null,
+    "hadith_count": 20,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Qatada",
+    "slug": "qatada",
+    "person_slug": null,
+    "hadith_count": 20,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 20
+      }
+    ]
+  },
+  {
+    "name_en": "Jarir",
+    "slug": "jarir",
+    "person_slug": null,
+    "hadith_count": 19,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Qais",
+    "slug": "qais",
+    "person_slug": null,
+    "hadith_count": 19,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 19
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Thabit",
+    "slug": "zaid-bin-thabit",
+    "person_slug": null,
+    "hadith_count": 19,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Sa'eed Al-Khudri",
+    "slug": "abu-saeed-al-khudri",
+    "person_slug": null,
+    "hadith_count": 19,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 19
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Hurayrah",
+    "slug": "abu-hurayrah",
+    "person_slug": null,
+    "hadith_count": 18,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 18
+      }
+    ]
+  },
+  {
+    "name_en": "Umm Salamah",
+    "slug": "umm-salamah",
+    "person_slug": null,
+    "hadith_count": 18,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 14
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Shu'aib",
+    "slug": "amr-bin-shuaib",
+    "person_slug": null,
+    "hadith_count": 18,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 15
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Huraira and Zaid bin Khalid",
+    "slug": "abu-huraira-and-zaid-bin-khalid",
+    "person_slug": null,
+    "hadith_count": 18,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 18
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Burda",
+    "slug": "abu-burda",
+    "person_slug": null,
+    "hadith_count": 18,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 18
+      }
+    ]
+  },
+  {
+    "name_en": "Maimuna",
+    "slug": "maimuna",
+    "person_slug": null,
+    "hadith_count": 18,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 18
+      }
+    ]
+  },
+  {
+    "name_en": "Sahl bin Sa'd As-Sa'idi",
+    "slug": "sahl-bin-sad-as-saidi",
+    "person_slug": null,
+    "hadith_count": 18,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 15
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Salim's father",
+    "slug": "salims-father",
+    "person_slug": null,
+    "hadith_count": 17,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 17
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'd bin Abi Waqqas",
+    "slug": "sad-bin-abi-waqqas",
+    "person_slug": null,
+    "hadith_count": 17,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 12
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Juhaifa",
+    "slug": "abu-juhaifa",
+    "person_slug": null,
+    "hadith_count": 17,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 17
+      }
+    ]
+  },
+  {
+    "name_en": "Salim",
+    "slug": "salim",
+    "person_slug": null,
+    "hadith_count": 17,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 14
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Aswad",
+    "slug": "al-aswad",
+    "person_slug": null,
+    "hadith_count": 17,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "AbuDharr",
+    "slug": "abudharr",
+    "person_slug": null,
+    "hadith_count": 16,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "name_en": "Uqbah ibn Amir",
+    "slug": "uqbah-ibn-amir",
+    "person_slug": null,
+    "hadith_count": 16,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "name_en": "'Ikrima",
+    "slug": "ikrima",
+    "person_slug": null,
+    "hadith_count": 16,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "name_en": "'Ubada bin As-Samit",
+    "slug": "ubada-bin-as-samit",
+    "person_slug": null,
+    "hadith_count": 16,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "name_en": "Jubair bin Mut'im",
+    "slug": "jubair-bin-mutim",
+    "person_slug": null,
+    "hadith_count": 16,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 15
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Thawban",
+    "slug": "thawban",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 12
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Imran ibn Husayn",
+    "slug": "imran-ibn-husayn",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Sa’id Al Khudri",
+    "slug": "abu-sa-id-al-khudri",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 10
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Khabbab",
+    "slug": "khabbab",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 12
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr",
+    "slug": "amr",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Mughira bin Shu'ba",
+    "slug": "al-mughira-bin-shuba",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Salama",
+    "slug": "abu-salama",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name_en": "Rafi' bin Khadij",
+    "slug": "rafi-bin-khadij",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 12
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu 'Is-haq",
+    "slug": "abu-is-haq",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Sa'id al-Khudri (RA)",
+    "slug": "abu-said-al-khudri-ra",
+    "person_slug": null,
+    "hadith_count": 15,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name_en": "Tawus",
+    "slug": "tawus",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Muawiya ibn Abi Sufyan",
+    "slug": "muawiya-ibn-abi-sufyan",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 7
+      },
+      {
+        "collection": "bukhari",
+        "count": 6
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Khalid Al-Juhani",
+    "slug": "zaid-bin-khalid-al-juhani",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Az-Zubair",
+    "slug": "abdullah-bin-az-zubair",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "An-Nu'man bin Bashir",
+    "slug": "an-numan-bin-bashir",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Hazim",
+    "slug": "abu-hazim",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "name_en": "Salama bin Al-Akwa'",
+    "slug": "salama-bin-al-akwa",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Huraira (rad)",
+    "slug": "abu-huraira-rad",
+    "person_slug": null,
+    "hadith_count": 14,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 14
+      }
+    ]
+  },
+  {
+    "name_en": "AbuBakrah",
+    "slug": "abubakrah",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah Ibn Abbas",
+    "slug": "abdullah-ibn-abbas",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Shihab",
+    "slug": "ibn-shihab",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Qatadah",
+    "slug": "qatadah",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 7
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Abu 'Uthman",
+    "slug": "abu-uthman",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "name_en": "Salama",
+    "slug": "salama",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "name_en": "As-Sa'ib bin Yazid",
+    "slug": "as-saib-bin-yazid",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 11
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Um 'Atiyya",
+    "slug": "um-atiyya",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Bara bin 'Azib",
+    "slug": "al-bara-bin-azib",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 10
+      },
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Abi Mulaika",
+    "slug": "ibn-abi-mulaika",
+    "person_slug": null,
+    "hadith_count": 13,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "name_en": "Samurah",
+    "slug": "samurah",
+    "person_slug": null,
+    "hadith_count": 12,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Mas'ud Al-Ansari",
+    "slug": "abu-masud-al-ansari",
+    "person_slug": null,
+    "hadith_count": 12,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Miswar bin Makhrama",
+    "slug": "al-miswar-bin-makhrama",
+    "person_slug": null,
+    "hadith_count": 12,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Arqam",
+    "slug": "zaid-bin-arqam",
+    "person_slug": null,
+    "hadith_count": 12,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'id bin Al-Musaiyab",
+    "slug": "said-bin-al-musaiyab",
+    "person_slug": null,
+    "hadith_count": 12,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Sa'eed",
+    "slug": "abu-saeed",
+    "person_slug": null,
+    "hadith_count": 12,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "name_en": "AbuUmamah",
+    "slug": "abuumamah",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "AbuMusa al-Ash'ari",
+    "slug": "abumusa-al-ashari",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "AbudDarda'",
+    "slug": "abuddarda",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "Asma",
+    "slug": "asma",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Umamah",
+    "slug": "abu-umamah",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 9
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      },
+      {
+        "collection": "riyadh-salihin",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Hasan",
+    "slug": "al-hasan",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Uqbah bin 'Amir",
+    "slug": "uqbah-bin-amir",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 8
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Dinar",
+    "slug": "amr-bin-dinar",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Juraij",
+    "slug": "ibn-juraij",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "'Uqba bin 'Amir",
+    "slug": "uqba-bin-amir",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Bara bin Azib",
+    "slug": "al-bara-bin-azib",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "‘Aisha (rad)",
+    "slug": "aisha-rad",
+    "person_slug": null,
+    "hadith_count": 11,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Mughirah ibn Shu'bah",
+    "slug": "al-mughirah-ibn-shubah",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "An-Nu'man ibn Bashir",
+    "slug": "an-numan-ibn-bashir",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Wa'il ibn Hujr",
+    "slug": "wail-ibn-hujr",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Ka'b bin Malik",
+    "slug": "kab-bin-malik",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Humaid",
+    "slug": "humaid",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Dinar",
+    "slug": "abdullah-bin-dinar",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Sa'id Al-Khudri and Abu Huraira",
+    "slug": "abu-said-al-khudri-and-abu-huraira",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Asma'",
+    "slug": "asma",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Asma' bint Abu Bakr",
+    "slug": "asma-bint-abu-bakr",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Jarir bin 'Abdullah",
+    "slug": "jarir-bin-abdullah",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Abi Qatada",
+    "slug": "abdullah-bin-abi-qatada",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Mughaffal",
+    "slug": "abdullah-bin-mughaffal",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Uqba bin Al-Harith",
+    "slug": "uqba-bin-al-harith",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Masud",
+    "slug": "abdullah-bin-masud",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir bin 'Abdullah (RA)",
+    "slug": "jabir-bin-abdullah-ra",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir bin Samurah",
+    "slug": "jabir-bin-samurah",
+    "person_slug": null,
+    "hadith_count": 10,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 10
+      }
+    ]
+  },
+  {
+    "name_en": "Salman al-Farsi",
+    "slug": "salman-al-farsi",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "bukhari",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Ubadah ibn as-Samit",
+    "slug": "ubadah-ibn-as-samit",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Buraidah",
+    "slug": "buraidah",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 5
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Rafi' ibn Khadij",
+    "slug": "rafi-ibn-khadij",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Samurah bin Jundab",
+    "slug": "samurah-bin-jundab",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 7
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Qilaba",
+    "slug": "abu-qilaba",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Hakim bin Hizam",
+    "slug": "hakim-bin-hizam",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Abu Mulaika",
+    "slug": "ibn-abu-mulaika",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Abi 'Aufa",
+    "slug": "ibn-abi-aufa",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Abi 'Aufa",
+    "slug": "abdullah-bin-abi-aufa",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Mas'ud (RA)",
+    "slug": "ibn-masud-ra",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Anas bin Malik (RA)",
+    "slug": "anas-bin-malik-ra",
+    "person_slug": null,
+    "hadith_count": 9,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 9
+      }
+    ]
+  },
+  {
+    "name_en": "Zayd ibn Arqam",
+    "slug": "zayd-ibn-arqam",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Anas b. Malik",
+    "slug": "anas-b-malik",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Ubayy ibn Ka'b",
+    "slug": "ubayy-ibn-kab",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "'Aishah, wife of Prophet (ﷺ)",
+    "slug": "aishah-wife-of-prophet",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Rafi'",
+    "slug": "abu-rafi",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'd ibn AbuWaqqas",
+    "slug": "sad-ibn-abuwaqqas",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Ibrahim",
+    "slug": "ibrahim",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir b. 'Abd Allah",
+    "slug": "jabir-b-abd-allah",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "'Ikrimah",
+    "slug": "ikrimah",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 6
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Jundub",
+    "slug": "jundub",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "'Amra bint 'Abdur-Rahman",
+    "slug": "amra-bint-abdur-rahman",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Huraira and Zaid bin Khalid Al-Juhani",
+    "slug": "abu-huraira-and-zaid-bin-khalid-al-juhani",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir bin Samura",
+    "slug": "jabir-bin-samura",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Zaid",
+    "slug": "abdullah-bin-zaid",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Khalid",
+    "slug": "zaid-bin-khalid",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Thabit",
+    "slug": "thabit",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Salim bin 'Abdullah",
+    "slug": "salim-bin-abdullah",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Mu'adh bin Jabal",
+    "slug": "muadh-bin-jabal",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Mughira",
+    "slug": "al-mughira",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Qasim bin Muhammad",
+    "slug": "al-qasim-bin-muhammad",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Ka'b",
+    "slug": "abdullah-bin-kab",
+    "person_slug": null,
+    "hadith_count": 8,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name_en": "'Alqamah",
+    "slug": "alqamah",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "nasai",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'id",
+    "slug": "said",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Al-Minhal",
+    "slug": "abu-al-minhal",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah (bin Mas'ud)",
+    "slug": "abdullah-bin-masud",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Jamra",
+    "slug": "abu-jamra",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Ubai bin Ka'b",
+    "slug": "ubai-bin-kab",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Aiyub",
+    "slug": "aiyub",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Al-A'mash",
+    "slug": "al-amash",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir bin 'Abdullah Al-Ansari",
+    "slug": "jabir-bin-abdullah-al-ansari",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdur-Rahman bin Yazid",
+    "slug": "abdur-rahman-bin-yazid",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Usama",
+    "slug": "usama",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Aslam",
+    "slug": "aslam",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Talha",
+    "slug": "abu-talha",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "'Umar (RA)",
+    "slug": "umar-ra",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "'Imran bin Husain (RA)",
+    "slug": "imran-bin-husain-ra",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Ubayy bin Ka'b",
+    "slug": "ubayy-bin-kab",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'eed bin Jubair",
+    "slug": "saeed-bin-jubair",
+    "person_slug": null,
+    "hadith_count": 7,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Ayyub",
+    "slug": "abu-ayyub",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Hudhaifah",
+    "slug": "hudhaifah",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "bukhari",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Burdah",
+    "slug": "abu-burdah",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "AbuQatadah",
+    "slug": "abuqatadah",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "AbuRafi'",
+    "slug": "aburafi",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Ammar ibn Yasir",
+    "slug": "ammar-ibn-yasir",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir ibn Samurah",
+    "slug": "jabir-ibn-samurah",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Zayd ibn Thabit",
+    "slug": "zayd-ibn-thabit",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Ka'b ibn Malik",
+    "slug": "kab-ibn-malik",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "A man",
+    "slug": "a-man",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Ata",
+    "slug": "ata",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Bakr al-Siddiq",
+    "slug": "abu-bakr-al-siddiq",
+    "person_slug": "abu-bakr-al-siddiq",
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Thabit bin Ad-Dahhak",
+    "slug": "thabit-bin-ad-dahhak",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Humaid As-Sa'idi",
+    "slug": "abu-humaid-as-saidi",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Ubaidullah bin 'Abdullah",
+    "slug": "ubaidullah-bin-abdullah",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Miswar bin Makhrama and Marwan",
+    "slug": "al-miswar-bin-makhrama-and-marwan",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Hisham",
+    "slug": "abdullah-bin-hisham",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Marwan and Al-Miswar bin Makhrama",
+    "slug": "marwan-and-al-miswar-bin-makhrama",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Qasim",
+    "slug": "al-qasim",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Buhaina",
+    "slug": "abdullah-bin-buhaina",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Shaqiq bin Salama",
+    "slug": "shaqiq-bin-salama",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Said Al-Khudri",
+    "slug": "abu-said-al-khudri",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Ash-Shu'bi",
+    "slug": "ash-shubi",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Abbad bin Tamim",
+    "slug": "abbad-bin-tamim",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Maimun",
+    "slug": "amr-bin-maimun",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Hisham",
+    "slug": "hisham",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdul 'Aziz",
+    "slug": "abdul-aziz",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Hafsa",
+    "slug": "hafsa",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Asim",
+    "slug": "asim",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Samura bin Jundab",
+    "slug": "samura-bin-jundab",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Ash-Shaibani",
+    "slug": "ash-shaibani",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Alqama",
+    "slug": "alqama",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Alqama",
+    "slug": "alqama",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Usaid",
+    "slug": "abu-usaid",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Zahdam",
+    "slug": "zahdam",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Musaiyab",
+    "slug": "al-musaiyab",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Anas (rad)",
+    "slug": "anas-rad",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'A'ishah (RAA)",
+    "slug": "aishah-raa",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin 'Amr (RA)",
+    "slug": "abdullah-bin-amr-ra",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Umm Salamah (RA)",
+    "slug": "umm-salamah-ra",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Ali (RA)",
+    "slug": "ali-ra",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "'Aishah [may Allah be pleased with her]",
+    "slug": "aishah-may-allah-be-pleased-with-her",
+    "person_slug": null,
+    "hadith_count": 6,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 6
+      }
+    ]
+  },
+  {
+    "name_en": "Hafsah, Ummul Mu'minin",
+    "slug": "hafsah-ummul-muminin",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Umm Habibah",
+    "slug": "umm-habibah",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "A'ishah (May Allah be pleased with her)",
+    "slug": "aishah-may-allah-be-pleased-with-her",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Mu’adh bin Jabal",
+    "slug": "mu-adh-bin-jabal",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Abi Laila",
+    "slug": "ibn-abi-laila",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Malik",
+    "slug": "malik",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Bakrah",
+    "slug": "abu-bakrah",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "'Adi b. Hatim",
+    "slug": "adi-b-hatim",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Abu 'Ubaid",
+    "slug": "abu-ubaid",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'id ibn Zayd",
+    "slug": "said-ibn-zayd",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Umm 'Atiyyah",
+    "slug": "umm-atiyyah",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Hakim b. Hizam",
+    "slug": "hakim-b-hizam",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr b. Shu'aib",
+    "slug": "amr-b-shuaib",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Ash-Sha'bi",
+    "slug": "ash-shabi",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Muhammad",
+    "slug": "muhammad",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Zainab bint Abi Salama",
+    "slug": "zainab-bint-abi-salama",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Isma'il",
+    "slug": "ismail",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Al-Bakhtari",
+    "slug": "abu-al-bakhtari",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Aisha and Ibn 'Abbas",
+    "slug": "aisha-and-ibn-abbas",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Tha'laba Al-Khushani",
+    "slug": "abu-thalaba-al-khushani",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Aiyub Al-Ansari",
+    "slug": "abu-aiyub-al-ansari",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "'Imran",
+    "slug": "imran",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Shaqiq",
+    "slug": "shaqiq",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Mus'ab bin Sa'd",
+    "slug": "musab-bin-sad",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Warrad",
+    "slug": "warrad",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Muhammad bin Seereen",
+    "slug": "muhammad-bin-seereen",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Jundab",
+    "slug": "jundab",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Al-Harith",
+    "slug": "amr-bin-al-harith",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Ata",
+    "slug": "ata",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Muhammad bin Jubair bin Mut'im",
+    "slug": "muhammad-bin-jubair-bin-mutim",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Ad-Darda",
+    "slug": "abu-ad-darda",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdur-Rahman bin Abu Bakr",
+    "slug": "abdur-rahman-bin-abu-bakr",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdur-Rahman bin 'Auf",
+    "slug": "abdur-rahman-bin-auf",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Suwaid bin An-Nu'man",
+    "slug": "suwaid-bin-an-numan",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdur-Rahman bin Abi Laila",
+    "slug": "abdur-rahman-bin-abi-laila",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Masud",
+    "slug": "ibn-masud",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Khalid bin Al-Walid",
+    "slug": "khalid-bin-al-walid",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Tariq bin Shihab",
+    "slug": "tariq-bin-shihab",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Um Habiba",
+    "slug": "um-habiba",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Mas'ud (RA)",
+    "slug": "abdullah-bin-masud-ra",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Salamah",
+    "slug": "abu-salamah",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Buraidah",
+    "slug": "abdullah-bin-buraidah",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Bahz bin Hakim",
+    "slug": "bahz-bin-hakim",
+    "person_slug": null,
+    "hadith_count": 5,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "name_en": "'Abd Allaah b. 'Umar",
+    "slug": "abd-allaah-b-umar",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Amr ibn al-'As",
+    "slug": "amr-ibn-al-as",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn Mughaffal",
+    "slug": "abdullah-ibn-mughaffal",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Zayd ibn Khalid al-Juhani",
+    "slug": "zayd-ibn-khalid-al-juhani",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Wathilah ibn al-Asqa'",
+    "slug": "wathilah-ibn-al-asqa",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Mu'awiyah ibn AbuSufyan",
+    "slug": "muawiyah-ibn-abusufyan",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn Busr",
+    "slug": "abdullah-ibn-busr",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Abd Allah b. 'Abbas",
+    "slug": "abd-allah-b-abbas",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Abd Allah b. 'Umar",
+    "slug": "abd-allah-b-umar",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Ya'la",
+    "slug": "yala",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "bukhari",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Kuraib",
+    "slug": "kuraib",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Umm Hani",
+    "slug": "umm-hani",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "AbuTha'labah al-Khushani",
+    "slug": "abuthalabah-al-khushani",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Rafi' b. Khadij",
+    "slug": "rafi-b-khadij",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Usamah b. Zaid",
+    "slug": "usamah-b-zaid",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Miqdam ibn Ma'dikarib",
+    "slug": "al-miqdam-ibn-madikarib",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Nu'man b. Bashir",
+    "slug": "al-numan-b-bashir",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Mu'adh ibn Anas",
+    "slug": "muadh-ibn-anas",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "AbuRimthah",
+    "slug": "aburimthah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Huraira and Abu Sa'id",
+    "slug": "abu-huraira-and-abu-said",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Aisha and 'Abdullah bin 'Abbas",
+    "slug": "aisha-and-abdullah-bin-abbas",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Ahnaf bin Qais",
+    "slug": "al-ahnaf-bin-qais",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Khalid and Abu Huraira",
+    "slug": "zaid-bin-khalid-and-abu-huraira",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Shu'ba",
+    "slug": "shuba",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Marwan bin Al-Hakam and Al-Miswar bin Makhrama",
+    "slug": "marwan-bin-al-hakam-and-al-miswar-bin-makhrama",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Mujashi",
+    "slug": "mujashi",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Salim Abu An-Nadr",
+    "slug": "salim-abu-an-nadr",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abu 'Uthman An-Nahdi",
+    "slug": "abu-uthman-an-nahdi",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "'Aisha and Ibn 'Abbas",
+    "slug": "aisha-and-ibn-abbas",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Bara' and Ibn Abi 'Aufa",
+    "slug": "al-bara-and-ibn-abi-aufa",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Ubaidullah bin 'Abdullah bin 'Utba",
+    "slug": "ubaidullah-bin-abdullah-bin-utba",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Qais",
+    "slug": "abdullah-bin-qais",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Talha bin 'Ubaidullah",
+    "slug": "talha-bin-ubaidullah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Asma' bint Abi Bakr",
+    "slug": "asma-bint-abi-bakr",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Samura bin Jundub",
+    "slug": "samura-bin-jundub",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Muhammad bin Al-Munkadir",
+    "slug": "muhammad-bin-al-munkadir",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Umar bin Abi Salama",
+    "slug": "umar-bin-abi-salama",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'id bin Al-Harith",
+    "slug": "said-bin-al-harith",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Itban bin Malik",
+    "slug": "itban-bin-malik",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Ka'b",
+    "slug": "kab",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Aun bin Abi Juhaifa",
+    "slug": "aun-bin-abi-juhaifa",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Malik bin Huwairith",
+    "slug": "malik-bin-huwairith",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Anas bin Seereen",
+    "slug": "anas-bin-seereen",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Ma'mar",
+    "slug": "abu-mamar",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Marwan bin Al-Hakam",
+    "slug": "marwan-bin-al-hakam",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Wa'il",
+    "slug": "abu-wail",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "bukhari",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Ata'",
+    "slug": "ata",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "nasai",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Jundab bin 'Abdullah",
+    "slug": "jundab-bin-abdullah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn 'Abbas.",
+    "slug": "ibn-abbas",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Amir bin Sa'd bin Abi Waqqas",
+    "slug": "amir-bin-sad-bin-abi-waqqas",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Al-Aswad",
+    "slug": "abu-al-aswad",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Um Al-Fadl",
+    "slug": "um-al-fadl",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Amra",
+    "slug": "amra",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn 'Umar (ra)",
+    "slug": "ibn-umar-ra",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Ash-Sharid",
+    "slug": "amr-bin-ash-sharid",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Sulaiman bin Surad",
+    "slug": "sulaiman-bin-surad",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Zainab bint Jahsh",
+    "slug": "zainab-bint-jahsh",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Humaid bin 'Abdur-Rahman",
+    "slug": "humaid-bin-abdur-rahman",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Isma'il bin Abi Khalid",
+    "slug": "ismail-bin-abi-khalid",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "bukhari",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Qais bin Ubad",
+    "slug": "qais-bin-ubad",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Um Khalid bint Khalid",
+    "slug": "um-khalid-bint-khalid",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Az-Zubair",
+    "slug": "ibn-az-zubair",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Ka'b bin Ujra",
+    "slug": "kab-bin-ujra",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Adi bin Hatim",
+    "slug": "adi-bin-hatim",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Al-'As",
+    "slug": "amr-bin-al-as",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name_en": "Haritha bin Wahb",
+    "slug": "haritha-bin-wahb",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdur-Rahman bin Samura",
+    "slug": "abdur-rahman-bin-samura",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Anas bin Malik (rad)",
+    "slug": "anas-bin-malik-rad",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Rafi' bin Khadij (RA)",
+    "slug": "rafi-bin-khadij-ra",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Ali bin Abi Talib (RA)",
+    "slug": "ali-bin-abi-talib-ra",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Shu'aib on his father's authority from his grandfather (RA)",
+    "slug": "amr-bin-shuaib-on-his-fathers-authority-from-his-grandfather-ra",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Shu'aib on his father's authority from his grandfather",
+    "slug": "amr-bin-shuaib-on-his-fathers-authority-from-his-grandfather",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "from Abu Hurairah",
+    "slug": "from-abu-hurairah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "nasai",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "It was narrated that Abu Hurairah said",
+    "slug": "it-was-narrated-that-abu-hurairah-said",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "nasai",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn Buraidah",
+    "slug": "ibn-buraidah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Mughirah bin Shu'bah",
+    "slug": "al-mughirah-bin-shubah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Ishaq",
+    "slug": "abu-ishaq",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Shu'bah",
+    "slug": "shubah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Salim and Hamzah, the sons of 'Abdullah bin 'Umar",
+    "slug": "salim-and-hamzah-the-sons-of-abdullah-bin-umar",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Musa bin Talhah",
+    "slug": "musa-bin-talhah",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Hurairah [may Allah be pleased with him]",
+    "slug": "abu-hurairah-may-allah-be-pleased-with-him",
+    "person_slug": null,
+    "hadith_count": 4,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "name_en": "A'ishah",
+    "slug": "aishah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Qatadah",
+    "slug": "abu-qatadah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Khaldah",
+    "slug": "abu-khaldah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Miqdad ibn al-Aswad",
+    "slug": "al-miqdad-ibn-al-aswad",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "AbuAyyub",
+    "slug": "abuayyub",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Uthman ibn Abul'As",
+    "slug": "uthman-ibn-abulas",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ka'b ibn Ujrah",
+    "slug": "kab-ibn-ujrah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn as-Sa'ib",
+    "slug": "abdullah-ibn-as-saib",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "AbuMalik al-Ash'ari",
+    "slug": "abumalik-al-ashari",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Rifa'ah ibn Rafi'",
+    "slug": "rifaah-ibn-rafi",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Uthman ibn Affan",
+    "slug": "uthman-ibn-affan",
+    "person_slug": "uthman-ibn-affan",
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn AbuAwfa",
+    "slug": "abdullah-ibn-abuawfa",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Sahl ibn al-Hanzaliyyah",
+    "slug": "sahl-ibn-al-hanzaliyyah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn az-Zubayr",
+    "slug": "abdullah-ibn-az-zubayr",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ata' ibn Yasar",
+    "slug": "ata-ibn-yasar",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abdullah ibn Ja'far",
+    "slug": "abdullah-ibn-jafar",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abd al-Rahman b. Samurah",
+    "slug": "abd-al-rahman-b-samurah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Mu'adh ibn Anas al-Juhani",
+    "slug": "muadh-ibn-anas-al-juhani",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abd Allah (b. Mas'ud)",
+    "slug": "abd-allah-b-masud",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "AbuAyyub al-Ansari",
+    "slug": "abuayyub-al-ansari",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir ibn Atik",
+    "slug": "jabir-ibn-atik",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Awf ibn Malik",
+    "slug": "awf-ibn-malik",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ya'la ibn Umayyah",
+    "slug": "yala-ibn-umayyah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ikrimah",
+    "slug": "ikrimah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Adi ibn Hatim",
+    "slug": "adi-ibn-hatim",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Umm Kurz",
+    "slug": "umm-kurz",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Jubair b. Mu'tim",
+    "slug": "jubair-b-mutim",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abyad ibn Hammal",
+    "slug": "abyad-ibn-hammal",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "AbuBarzah al-Aslami",
+    "slug": "abubarzah-al-aslami",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Thabit bin Adh-Dahhak",
+    "slug": "thabit-bin-adh-dahhak",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid b. Thabit",
+    "slug": "zaid-b-thabit",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Hakim ibn Hizam",
+    "slug": "hakim-ibn-hizam",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Hudhayfah ibn al-Yaman",
+    "slug": "hudhayfah-ibn-al-yaman",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Qilabah",
+    "slug": "abu-qilabah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Al-Miswar b. Makhramah",
+    "slug": "al-miswar-b-makhramah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Salamah ibn al-Muhabbaq",
+    "slug": "salamah-ibn-al-muhabbaq",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Talhah",
+    "slug": "abu-talhah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "abu-dawud",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "AbuMusa",
+    "slug": "abumusa",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "abu-dawud",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin 'Ubaidullah bin Abi Mulaika",
+    "slug": "abdullah-bin-ubaidullah-bin-abi-mulaika",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdur Rahman bin Abi Laila",
+    "slug": "abdur-rahman-bin-abi-laila",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Muhammad bin Abi Al-Mujalid",
+    "slug": "muhammad-bin-abi-al-mujalid",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Rabi bin Hirash",
+    "slug": "rabi-bin-hirash",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Waqid Al-Laithi",
+    "slug": "abu-waqid-al-laithi",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 1
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 1
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Burda's father",
+    "slug": "abu-burdas-father",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Humran",
+    "slug": "humran",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Um-'Atiya",
+    "slug": "um-atiya",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Yahya",
+    "slug": "amr-bin-yahya",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Um 'Atiya",
+    "slug": "um-atiya",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Ammar",
+    "slug": "ammar",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Al-Harith",
+    "slug": "abdullah-bin-al-harith",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Wahb",
+    "slug": "zaid-bin-wahb",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Bakr As-Siddiq",
+    "slug": "abu-bakr-as-siddiq",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "bukhari",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Uqba",
+    "slug": "uqba",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Yahya bin Sa'id",
+    "slug": "yahya-bin-said",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "As-Saib bin Yazid",
+    "slug": "as-saib-bin-yazid",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Fatima bint Al-Mundhir",
+    "slug": "fatima-bint-al-mundhir",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Amr bin Taghlib",
+    "slug": "amr-bin-taghlib",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'A'isha",
+    "slug": "aisha",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "muslim",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Amir bin Rabi'a",
+    "slug": "amir-bin-rabia",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Kharija bin Zaid bin Thabit",
+    "slug": "kharija-bin-zaid-bin-thabit",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Amir",
+    "slug": "amir",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Musa bin 'Uqba",
+    "slug": "musa-bin-uqba",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Humaid Al-Sa'idi",
+    "slug": "abu-humaid-al-saidi",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ziyad bin Jubair",
+    "slug": "ziyad-bin-jubair",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdur-Rahman bin Al-Qasim",
+    "slug": "abdur-rahman-bin-al-qasim",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Aslam from his father",
+    "slug": "zaid-bin-aslam-from-his-father",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Abu Qatada",
+    "slug": "abdullah-bin-abu-qatada",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Humaid",
+    "slug": "abu-humaid",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Thabit Al-Bunani",
+    "slug": "thabit-al-bunani",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Yahya",
+    "slug": "yahya",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Abu Mulaika",
+    "slug": "abdullah-bin-abu-mulaika",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Abu 'Aufa",
+    "slug": "abdullah-bin-abu-aufa",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Uqba bin Amir",
+    "slug": "uqba-bin-amir",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Anas (ra)",
+    "slug": "anas-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Ka'b bin Malik",
+    "slug": "abdullah-bin-kab-bin-malik",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Sa'id bin Zaid",
+    "slug": "said-bin-zaid",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Samura",
+    "slug": "samura",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Umama",
+    "slug": "abu-umama",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Yali",
+    "slug": "yali",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Sahl bin Abi Hathma",
+    "slug": "sahl-bin-abi-hathma",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Malik bin Sasaa",
+    "slug": "malik-bin-sasaa",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Zam'a",
+    "slug": "abdullah-bin-zama",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin 'Amr bin Al-As",
+    "slug": "abdullah-bin-amr-bin-al-as",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Masud",
+    "slug": "abu-masud",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Hudhaifa bin Al-Yaman",
+    "slug": "hudhaifa-bin-al-yaman",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "bulugh-maram",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Ubaidullah bin 'Adi bin Al-Khiyar",
+    "slug": "ubaidullah-bin-adi-bin-al-khiyar",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Qais bin Abi Hazim",
+    "slug": "qais-bin-abi-hazim",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Usaid bin Hudair",
+    "slug": "usaid-bin-hudair",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Sufyan",
+    "slug": "sufyan",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Ammar bin Yasir",
+    "slug": "ammar-bin-yasir",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "bukhari",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Yazid bin Abi Ubaid",
+    "slug": "yazid-bin-abi-ubaid",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Aslam",
+    "slug": "zaid-bin-aslam",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "bukhari",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Safwan bin Ya'la bin Umaiya",
+    "slug": "safwan-bin-yala-bin-umaiya",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Safwan bin Muhriz",
+    "slug": "safwan-bin-muhriz",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Yusuf bin Mahak",
+    "slug": "yusuf-bin-mahak",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Zirr bin Hubaish",
+    "slug": "zirr-bin-hubaish",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin Ja'far",
+    "slug": "abdullah-bin-jafar",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "Saud",
+    "slug": "saud",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Al-A'raj",
+    "slug": "al-araj",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bukhari",
+        "count": 2
+      },
+      {
+        "collection": "tirmidhi",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "‘Ali (rad)",
+    "slug": "ali-rad",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Sa’id Al-Khudri (rad)",
+    "slug": "abu-sa-id-al-khudri-rad",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ibn 'Abbas (RAA)",
+    "slug": "ibn-abbas-raa",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Jabir bin Samurah (RA)",
+    "slug": "jabir-bin-samurah-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Zaid bin Arqam (RA)",
+    "slug": "zaid-bin-arqam-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Wa'il bin Hujr (RA)",
+    "slug": "wail-bin-hujr-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Hudhaifah (RA)",
+    "slug": "hudhaifah-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Bakra (RA)",
+    "slug": "abu-bakra-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdullah bin 'Umar (RA)",
+    "slug": "abdullah-bin-umar-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Bakrah (RA)",
+    "slug": "abu-bakrah-ra",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "bulugh-maram",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Ma'qil bin Yasar",
+    "slug": "maqil-bin-yasar",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 2
+      },
+      {
+        "collection": "nasai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_en": "'Ubadah bin As-Samit",
+    "slug": "ubadah-bin-as-samit",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Az-Zubair",
+    "slug": "abu-az-zubair",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu 'Abdur-Rahman As-Sulami",
+    "slug": "abu-abdur-rahman-as-sulami",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Abu Tha'labah Al-Khushani",
+    "slug": "abu-thalabah-al-khushani",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Fadalah bin 'Ubaid",
+    "slug": "fadalah-bin-ubaid",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Abdul-Malik bin 'Umair",
+    "slug": "abdul-malik-bin-umair",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "Usamah bin Zaid",
+    "slug": "usamah-bin-zaid",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_en": "'Atiyyah",
+    "slug": "atiyyah",
+    "person_slug": null,
+    "hadith_count": 3,
+    "collections": [
+      {
+        "collection": "tirmidhi",
+        "count": 3
+      }
+    ]
+  }
+]

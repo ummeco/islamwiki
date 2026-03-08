@@ -1,0 +1,42 @@
+name: Build Search Index
+
+on:
+  # Run after Vercel deployment completes
+  workflow_run:
+    workflows: ["Vercel Production Deployment"]
+    types: [completed]
+  # Also allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  build-index:
+    name: Push Meilisearch Index
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: Install dependencies
+        working-directory: web
+        run: pnpm install --frozen-lockfile
+
+      - name: Build search index
+        working-directory: web
+        env:
+          MEILISEARCH_URL: ${{ secrets.MEILISEARCH_URL }}
+          MEILISEARCH_KEY: ${{ secrets.MEILISEARCH_KEY }}
+        run: pnpx tsx scripts/build-search-index.ts

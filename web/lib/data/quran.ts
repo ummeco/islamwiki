@@ -29,6 +29,7 @@ export interface AyahData {
   ar_simple: string
   transliteration: string
   translations: Record<string, string>
+  translations_id: Record<string, string>
   ruku: number
   section_id: number | null
   juz: number
@@ -66,6 +67,7 @@ export function getAyahsBySurah(surahNumber: number): AyahData[] {
       ar_simple: a.ar_simple,
       transliteration: a.transliteration ?? '',
       translations: a.t ?? {},
+      translations_id: a.t_id ?? {},
       ruku: a.ruku,
       section_id: a.section_id,
       juz: a.juz,
@@ -80,6 +82,7 @@ export function getAyahsBySurah(surahNumber: number): AyahData[] {
       ar_simple: '',
       transliteration: '',
       translations: {},
+      translations_id: {},
       ruku: 1,
       section_id: null,
       juz: surah.juz_start,

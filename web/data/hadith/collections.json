@@ -102,11 +102,9 @@
     "name_ar": "سنن الدارمي",
     "author_en": "Imam al-Darimi",
     "author_ar": "الإمام الدارمي",
-    "total_hadiths": 0,
-    "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry",
+    "total_hadiths": 3406,
     "author_name_en": "Imam al-Darimi",
-    "total_hadith": 0,
+    "total_hadith": 3406,
     "total_books": 23
   },
   {
@@ -116,11 +114,9 @@
     "name_ar": "رياض الصالحين",
     "author_en": "Imam al-Nawawi",
     "author_ar": "الإمام النووي",
-    "total_hadiths": 0,
-    "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry",
+    "total_hadiths": 1896,
     "author_name_en": "Imam al-Nawawi",
-    "total_hadith": 0,
+    "total_hadith": 1896,
     "total_books": 19
   },
   {
@@ -130,11 +126,9 @@
     "name_ar": "بلوغ المرام",
     "author_en": "Ibn Hajar al-Asqalani",
     "author_ar": "ابن حجر العسقلاني",
-    "total_hadiths": 0,
-    "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry",
+    "total_hadiths": 1767,
     "author_name_en": "Ibn Hajar al-Asqalani",
-    "total_hadith": 0,
+    "total_hadith": 1767,
     "total_books": 16
   },
   {
@@ -144,11 +138,9 @@
     "name_ar": "الشمائل المحمدية",
     "author_en": "Imam al-Tirmidhi",
     "author_ar": "الإمام الترمذي",
-    "total_hadiths": 0,
-    "gap": true,
-    "gap_note": "Not available on CDN — Phase 11 retry",
+    "total_hadiths": 402,
     "author_name_en": "Imam al-Tirmidhi",
-    "total_hadith": 0,
+    "total_hadith": 402,
     "total_books": 56
   }
 ]

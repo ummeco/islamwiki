@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getMediaBySlug, getMedia } from '@/lib/data/media'
+import { sanitizeHtml, sanitizeEmbed } from '@/lib/sanitize'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -55,7 +56,7 @@ export default async function VideoPage({ params }: Props) {
         {/* Video embed */}
         <div className="mt-6 aspect-video overflow-hidden rounded-xl border border-iw-border bg-iw-surface">
           {video.embed_code ? (
-            <div dangerouslySetInnerHTML={{ __html: video.embed_code }} />
+            <div dangerouslySetInnerHTML={{ __html: sanitizeEmbed(video.embed_code) }} />
           ) : (
             <div className="flex h-full flex-col items-center justify-center gap-3">
               <svg
@@ -115,7 +116,7 @@ export default async function VideoPage({ params }: Props) {
           <h2 className="mb-4 text-lg font-semibold text-white">Transcript</h2>
           {video.transcript ? (
             <div className="prose prose-invert max-w-none rounded-xl border border-iw-border p-6 text-sm text-iw-text-secondary">
-              <div dangerouslySetInnerHTML={{ __html: video.transcript }} />
+              <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(video.transcript) }} />
             </div>
           ) : (
             <p className="text-sm italic text-iw-text-muted">

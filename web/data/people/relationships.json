@@ -1,0 +1,17 @@
+[
+  { "from_id": 112, "to_id": 124, "type": "contemporary", "note": "Abu Hanifa and Malik were contemporaries" },
+  { "from_id": 124, "to_id": 137, "type": "teacher", "note": "Malik was a teacher of al-Shafii" },
+  { "from_id": 137, "to_id": 149, "type": "teacher", "note": "Al-Shafii was a teacher of Ahmad ibn Hanbal" },
+  { "from_id": 149, "to_id": 156, "type": "teacher", "note": "Ahmad ibn Hanbal was a teacher of al-Bukhari" },
+  { "from_id": 156, "to_id": 160, "type": "teacher", "note": "Al-Bukhari was a teacher of Muslim" },
+  { "from_id": 156, "to_id": 161, "type": "teacher", "note": "Al-Bukhari was a teacher of at-Tirmidhi" },
+  { "from_id": 156, "to_id": 158, "type": "contemporary", "note": "Al-Bukhari and Abu Dawud were contemporaries" },
+  { "from_id": 229, "to_id": 233, "type": "teacher", "note": "Ibn Taymiyyah was the teacher of Ibn al-Qayyim" },
+  { "from_id": 229, "to_id": 235, "type": "teacher", "note": "Ibn Taymiyyah was the teacher of Ibn Kathir" },
+  { "from_id": 233, "to_id": 235, "type": "contemporary", "note": "Ibn al-Qayyim and Ibn Kathir were contemporaries and fellow students" },
+  { "from_id": 137, "to_id": 225, "type": "influence", "note": "An-Nawawi was a Shafii scholar influenced by al-Shafii" },
+  { "from_id": 192, "to_id": 225, "type": "influence", "note": "Al-Ghazali influenced an-Nawawi's methodology" },
+  { "from_id": 149, "to_id": 229, "type": "influence", "note": "Ahmad ibn Hanbal's methodology strongly influenced Ibn Taymiyyah" },
+  { "from_id": 246, "to_id": 225, "type": "contemporary", "note": "Ibn Hajar and an-Nawawi were both major Shafii hadith scholars" },
+  { "from_id": 160, "to_id": 225, "type": "influence", "note": "Muslim's Sahih was a primary source for an-Nawawi's Sharh" }
+]

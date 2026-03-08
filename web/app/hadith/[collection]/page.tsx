@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getCollectionBySlug, getCollections, getBooksByCollection } from '@/lib/data/hadith'
+import { HadithCollectionJsonLd, BreadcrumbJsonLd } from '@/components/seo/json-ld'
+import { ogImageUrl } from '@/lib/og'
 
 interface Props {
   params: Promise<{ collection: string }>
@@ -18,6 +20,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: col.name_en,
     description: `Browse ${col.name_en} by ${col.author_name_en}. ${col.total_hadith.toLocaleString()} hadith in ${col.total_books} books. Arabic and English with grading.`,
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: col.name_en, section: 'Hadith', arabic: col.name_ar, subtitle: `By ${col.author_name_en} · ${col.total_hadith.toLocaleString()} hadith` }) }],
+    },
   }
 }
 
@@ -35,6 +40,17 @@ export default async function CollectionPage({ params }: Props) {
 
   return (
     <div className="section-container py-12">
+      <HadithCollectionJsonLd
+        name={col.name_en}
+        nameAr={col.name_ar}
+        author={col.author_name_en}
+        totalHadiths={col.total_hadith}
+        slug={col.slug}
+      />
+      <BreadcrumbJsonLd items={[
+        { name: 'Hadith', url: '/hadith' },
+        { name: col.name_en, url: `/hadith/${col.slug}` },
+      ]} />
       {/* Header */}
       <nav className="mb-4 text-sm text-iw-text-secondary">
         <Link href="/hadith" className="hover:text-iw-text">Hadith</Link>

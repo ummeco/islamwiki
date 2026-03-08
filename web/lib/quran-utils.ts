@@ -26,3 +26,13 @@ export function surahTranslit(nameTranslit: string): string {
 export function surahTitle(nameTranslit: string, nameEn: string): string {
   return `Surat ${surahTranslit(nameTranslit)} (${nameEn})`
 }
+
+const ARABIC_DIGITS = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩']
+
+/**
+ * Convert a number to Eastern Arabic-Indic numerals.
+ * Example: 33 → "٣٣"
+ */
+export function toArabicIndic(n: number): string {
+  return String(n).replace(/[0-9]/g, (d) => ARABIC_DIGITS[parseInt(d, 10)])
+}

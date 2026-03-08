@@ -2,9 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getArticleBySlug, getArticles } from '@/lib/data/articles'
+import { sanitizeHtml } from '@/lib/sanitize'
+import { ogImageUrl } from '@/lib/og'
 import { WikiLayout } from '@/components/wiki/wiki-layout'
 import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
+import { CrossReferences } from '@/components/articles/cross-references'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -23,6 +26,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description:
       article.excerpt ||
       `${article.title} — Islamic encyclopedia article on Islam.wiki.`,
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: article.title, section: 'Articles', subtitle: article.category || '' }) }],
+    },
   }
 }
 
@@ -71,7 +77,7 @@ export default async function ArticlePage({ params }: Props) {
 
         <div className="prose prose-invert max-w-none text-iw-text-secondary">
           {article.content ? (
-            <div dangerouslySetInnerHTML={{ __html: article.content }} />
+            <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(article.content) }} />
           ) : (
             <p className="italic text-iw-text-muted">
               This article is being written.
@@ -92,6 +98,9 @@ export default async function ArticlePage({ params }: Props) {
             ))}
           </div>
         )}
+        {/* Cross-references */}
+        <CrossReferences tags={article.tags} category={article.category} />
+
         {/* Related articles */}
         {relatedArticles.length > 0 && (
           <div className="mt-10 border-t border-iw-border pt-8">

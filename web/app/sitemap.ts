@@ -1,12 +1,13 @@
 import type { MetadataRoute } from 'next'
 import { getSurahs } from '@/lib/data/quran'
-import { getCollections } from '@/lib/data/hadith'
+import { getCollections, getBooksByCollection } from '@/lib/data/hadith'
 import { getPeople } from '@/lib/data/people'
 import { getBooks } from '@/lib/data/books'
 import { getArticles } from '@/lib/data/articles'
 import { getSeerahEvents } from '@/lib/data/seerah'
 import { getMedia } from '@/lib/data/media'
 import { getSects } from '@/lib/data/sects'
+import { getWikiPages } from '@/lib/data/wiki'
 
 const BASE_URL = 'https://islam.wiki'
 
@@ -29,17 +30,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/search`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
   )
 
-  // Quran surahs
+  // Quran surahs (canonical URLs use numbers, not slugs)
   for (const s of getSurahs()) {
     entries.push({
-      url: `${BASE_URL}/quran/${s.slug}`,
+      url: `${BASE_URL}/quran/${s.number}`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.9,
     })
   }
 
-  // Hadith collections
+  // Hadith collections + books
   for (const c of getCollections()) {
     entries.push({
       url: `${BASE_URL}/hadith/${c.slug}`,
@@ -47,6 +48,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     })
+
+    // Books within each collection
+    const books = getBooksByCollection(c.id)
+    for (const b of books) {
+      entries.push({
+        url: `${BASE_URL}/hadith/${c.slug}/${b.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      })
+    }
   }
 
   // People
@@ -89,7 +101,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   }
 
-  // Media
+  // Media (videos + audio)
   for (const m of getMedia()) {
     const path = m.type === 'video' ? 'videos' : 'audio'
     entries.push({
@@ -108,6 +120,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.6,
     })
+  }
+
+  // Wiki pages
+  for (const w of getWikiPages()) {
+    if (w.status === 'published' || w.status === 'stub') {
+      entries.push({
+        url: `${BASE_URL}/wiki/${w.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      })
+    }
   }
 
   return entries

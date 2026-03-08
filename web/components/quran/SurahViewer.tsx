@@ -4,7 +4,7 @@ import { AudioPlayer, type AutoScrollMode } from './AudioPlayer'
 import { PlayAyahButton } from './PlayAyahButton'
 import { TafsirModal } from './TafsirModal'
 import { useAudioPlayer } from '@/hooks/useAudioPlayer'
-import { normalizeArabic } from '@/lib/quran-utils'
+import { normalizeArabic, toArabicIndic } from '@/lib/quran-utils'
 
 // ── Translation metadata ──────────────────────────────────────────────────────
 
@@ -25,8 +25,17 @@ const TRANSLATIONS: Record<string, string> = {
   wahiduddin: 'Wahiduddin Khan',
 }
 
+const TRANSLATIONS_ID: Record<string, string> = {
+  kemenag: 'Kemenag (Indonesian)',
+  sabiq: 'As-Sabiq (Indonesian)',
+}
+
 const FEATURED = ['iwq', 'sahih-int', 'khattab', 'haleem', 'asad', 'yusuf-ali']
+const FEATURED_ID = ['kemenag', 'sabiq']
 const EXTRA = Object.keys(TRANSLATIONS).filter((k) => !FEATURED.includes(k))
+
+/** Returns true if the translation key belongs to the Indonesian set */
+const isIdTranslation = (key: string) => key in TRANSLATIONS_ID
 
 const SHORT_LABELS: Record<string, string> = {
   iwq: 'IWQ ✦',
@@ -45,6 +54,7 @@ interface AyahData {
   ar_simple: string
   transliteration: string
   translations: Record<string, string>
+  translations_id: Record<string, string>
   ruku: number
   section_id: number | null
 }
@@ -57,6 +67,7 @@ interface SurahViewerProps {
   ayahs: AyahData[]
   focusFrom?: number
   focusTo?: number
+  locale?: string
 }
 
 type ReadMode = 'section' | 'verse'
@@ -110,9 +121,14 @@ interface GearPanelProps {
   settings: Settings
   update: (p: Partial<Settings>) => void
   onClose: () => void
+  locale?: string
 }
 
-function GearPanel({ settings, update, onClose }: GearPanelProps) {
+function GearPanel({ settings, update, onClose, locale }: GearPanelProps) {
+  const isId = locale === 'id'
+  const featuredKeys = isId ? FEATURED_ID : FEATURED
+  const extraKeys = isId ? [] : EXTRA
+  const translationLabels = isId ? TRANSLATIONS_ID : TRANSLATIONS
   return (
     <div className="flex h-full w-full flex-col rounded-l-2xl border-y border-l border-iw-border bg-iw-bg shadow-2xl shadow-black/60">
       {/* Header */}
@@ -264,7 +280,7 @@ function GearPanel({ settings, update, onClose }: GearPanelProps) {
               Translation
             </p>
             <div className="flex flex-wrap gap-1">
-              {FEATURED.map((key) => (
+              {featuredKeys.map((key) => (
                 <button
                   key={key}
                   type="button"
@@ -276,19 +292,19 @@ function GearPanel({ settings, update, onClose }: GearPanelProps) {
                       : 'border-iw-border text-iw-text-muted hover:border-iw-text-muted hover:text-white',
                   ].join(' ')}
                 >
-                  {SHORT_LABELS[key] ?? key}
+                  {SHORT_LABELS[key] ?? translationLabels[key] ?? key}
                 </button>
               ))}
             </div>
-            {EXTRA.length > 0 && (
+            {extraKeys.length > 0 && (
               <select
                 aria-label="More translations"
-                value={EXTRA.includes(settings.translation) ? settings.translation : ''}
+                value={extraKeys.includes(settings.translation) ? settings.translation : ''}
                 onChange={(e) => e.target.value && update({ translation: e.target.value })}
                 className="mt-2 w-full rounded-lg border border-iw-border bg-iw-surface px-3 py-1.5 text-[12px] text-iw-text-secondary"
               >
                 <option value="">More translations…</option>
-                {EXTRA.map((key) => (
+                {extraKeys.map((key) => (
                   <option key={key} value={key}>{TRANSLATIONS[key]}</option>
                 ))}
               </select>
@@ -317,13 +333,11 @@ interface VerseRowProps {
 function VerseRow({
   ayah, settings, isFocused, isCurrentAudio, isPlaying, onPlay, onClickVerse, onTafsir, focusRef,
 }: VerseRowProps) {
-  const translationText = ayah.translations?.[settings.translation]
-    ?? ayah.translations?.['iwq']
-    ?? ''
+  const translationText = pickTranslation(ayah, settings.translation)
 
   return (
     <div
-      ref={focusRef}
+      ref={focusRef as React.RefObject<HTMLDivElement | null>}
       id={`v${ayah.number_in_surah}`}
       className={[
         'rounded-xl border p-5 transition-colors',
@@ -345,7 +359,7 @@ function VerseRow({
               isCurrentAudio ? 'bg-iw-accent text-[#0D2F17]' : 'bg-iw-accent/10 text-iw-accent',
             ].join(' ')}
           >
-            {ayah.number_in_surah}
+            {toArabicIndic(ayah.number_in_surah)}
           </button>
           <PlayAyahButton
             ayahNumber={ayah.number_in_surah}
@@ -386,14 +400,20 @@ function VerseRow({
 
 // ── Main component ────────────────────────────────────────────────────────────
 
-const DEFAULT_SETTINGS: Settings = {
-  mode: 'section',
-  showArabic: false,
-  showTranslit: false,
-  showEnglish: true,
-  translation: 'iwq',
-  fontSize: 'md',
-  contentWidth: 'wide',
+function getInitialSettings(locale?: string): Settings {
+  if (locale === 'ar') {
+    return { mode: 'section', showArabic: true, showTranslit: false, showEnglish: false, translation: 'iwq', fontSize: 'md', contentWidth: 'wide' }
+  }
+  if (locale === 'id') {
+    return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'kemenag', fontSize: 'md', contentWidth: 'wide' }
+  }
+  return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'iwq', fontSize: 'md', contentWidth: 'wide' }
+}
+
+/** Pick translation text, using the Indonesian map when the key is an id-locale translation */
+function pickTranslation(ayah: AyahData, key: string): string {
+  if (isIdTranslation(key)) return ayah.translations_id?.[key] ?? ''
+  return ayah.translations?.[key] ?? ayah.translations?.['iwq'] ?? ''
 }
 
 export function SurahViewer({
@@ -404,12 +424,16 @@ export function SurahViewer({
   ayahs,
   focusFrom,
   focusTo,
+  locale,
 }: SurahViewerProps) {
-  const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS)
+  const [settings, setSettings] = useState<Settings>(() => getInitialSettings(locale))
   // 'gear' | 'audio' | null — only one drawer open at a time
   const [activeDrawer, setActiveDrawer] = useState<'gear' | 'audio' | null>(null)
   const [autoScroll, setAutoScroll] = useState<AutoScrollMode>('section')
-  const [showTip, setShowTip] = useState(false)
+  const [showTip, setShowTip] = useState(() => {
+    if (typeof window === 'undefined') return false
+    try { return !localStorage.getItem('iw:quran:gear-seen') } catch { return false }
+  })
   const [tafsirVerse, setTafsirVerse] = useState<{ from: number; to: number } | null>(null)
 
   const focusRef = useRef<HTMLElement | null>(null)
@@ -431,12 +455,7 @@ export function SurahViewer({
     setSettings((s) => ({ ...s, ...partial }))
   }, [])
 
-  // First-visit tip
-  useEffect(() => {
-    try {
-      if (!localStorage.getItem('iw:quran:gear-seen')) setShowTip(true)
-    } catch { /* storage unavailable */ }
-  }, [])
+  // First-visit tip is initialized via useState lazy initializer above
 
   const dismissTip = useCallback(() => {
     setShowTip(false)
@@ -471,6 +490,11 @@ export function SurahViewer({
   const handlePlayAyah = useCallback((n: number) => {
     lastScrolledSectionRef.current = -1
     audio.playAyah(n)
+  }, [audio])
+
+  const handlePlayRange = useCallback((from: number, to: number) => {
+    lastScrolledSectionRef.current = -1
+    audio.playRange(from, to)
   }, [audio])
 
   const handlePlayEntireSurah = useCallback(() => {
@@ -697,7 +721,7 @@ export function SurahViewer({
                       {group.ayahs.map((a) => {
                         const focused = isFocused(a.number_in_surah)
                         const isCurrentVerse = isAudioActive && audio.currentAyah === a.number_in_surah
-                        const text = a.translations?.[settings.translation] ?? a.translations?.['iwq'] ?? ''
+                        const text = pickTranslation(a, settings.translation)
                         return (
                           <span
                             key={a.number_in_surah}
@@ -738,7 +762,7 @@ export function SurahViewer({
                   <div className="mt-3 flex items-center gap-3 border-t border-iw-border/50 pt-3">
                     <button
                       type="button"
-                      onClick={() => handlePlayAyah(group.ayahs[0].number_in_surah)}
+                      onClick={() => handlePlayRange(group.ayahs[0].number_in_surah, group.ayahs[group.ayahs.length - 1].number_in_surah)}
                       className={[
                         'flex items-center gap-2 rounded-md border px-3 py-1.5 text-[12px] transition-colors',
                         isCurrentSection
@@ -842,7 +866,7 @@ export function SurahViewer({
           activeDrawer === 'gear' ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <GearPanel settings={settings} update={update} onClose={() => setActiveDrawer(null)} />
+        <GearPanel settings={settings} update={update} onClose={() => setActiveDrawer(null)} locale={locale} />
       </div>
 
       {/* Audio player (tab + drawer) */}

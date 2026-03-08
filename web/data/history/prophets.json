@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1001,
+    "slug": "prophet-adam",
+    "title_ar": "النبي آدم عليه السلام",
+    "title_en": "Prophet Adam (peace be upon him)",
+    "description_en": "The first human being and first prophet created by Allah from clay. Adam was taught the names of all things and was placed in Paradise with his wife Hawwa (Eve). After eating from the forbidden tree, they were sent to earth. Adam repented and was forgiven by Allah. He is the father of all humanity.",
+    "period": "Pre-Islamic Prophets",
+    "severity": 3,
+    "sources": ["Quran 2:30-39", "Quran 7:11-25", "Quran 20:115-123"]
+  },
+  {
+    "id": 1002,
+    "slug": "prophet-nuh",
+    "title_ar": "النبي نوح عليه السلام",
+    "title_en": "Prophet Nuh (Noah, peace be upon him)",
+    "description_en": "Nuh called his people to monotheism for 950 years. When they persisted in idol worship, Allah commanded him to build an ark. The Great Flood destroyed the disbelievers, and Nuh's followers survived to repopulate the earth. He is known as the second father of humanity.",
+    "period": "Pre-Islamic Prophets",
+    "severity": 3,
+    "sources": ["Quran 71:1-28 (Surah Nuh)", "Quran 11:25-49", "Quran 23:23-30"]
+  },
+  {
+    "id": 1003,
+    "slug": "prophet-ibrahim",
+    "title_ar": "النبي إبراهيم عليه السلام",
+    "title_en": "Prophet Ibrahim (Abraham, peace be upon him)",
+    "description_en": "Ibrahim is the father of the prophets and the friend of Allah (Khalil Allah). He destroyed the idols of his people, was thrown into a fire by Nimrod which Allah made cool and safe, migrated to the Holy Land, and built the Ka'bah in Mecca with his son Ismail. He was tested with the command to sacrifice his son and passed with complete submission.",
+    "period": "Pre-Islamic Prophets",
+    "severity": 3,
+    "place_name": "Mecca / Palestine",
+    "sources": ["Quran 2:124-141", "Quran 14:35-41 (Surah Ibrahim)", "Quran 37:83-113"]
+  },
+  {
+    "id": 1004,
+    "slug": "prophet-musa",
+    "title_ar": "النبي موسى عليه السلام",
+    "title_en": "Prophet Musa (Moses, peace be upon him)",
+    "description_en": "Musa was sent to Pharaoh (Fir'awn) and the Children of Israel. He was given the Torah and performed many miracles including the parting of the sea. He is the most frequently mentioned prophet in the Quran. Musa led the Israelites out of Egypt and received divine revelation on Mount Sinai.",
+    "period": "Pre-Islamic Prophets",
+    "severity": 3,
+    "place_name": "Egypt / Sinai",
+    "sources": ["Quran 20:9-99 (Surah Taha)", "Quran 28:1-46 (Surah al-Qasas)", "Quran 7:103-171"]
+  },
+  {
+    "id": 1005,
+    "slug": "prophet-dawud",
+    "title_ar": "النبي داود عليه السلام",
+    "title_en": "Prophet Dawud (David, peace be upon him)",
+    "description_en": "Dawud was a prophet and king of the Israelites. He slew Jalut (Goliath) and was given the Zabur (Psalms). Allah made iron soft in his hands and taught him the craft of making armor. He was known for his devotion, fasting every other day, and his beautiful voice in praising Allah.",
+    "period": "Pre-Islamic Prophets",
+    "severity": 2,
+    "place_name": "Jerusalem",
+    "sources": ["Quran 2:251", "Quran 21:78-80", "Quran 34:10-11", "Quran 38:17-26"]
+  },
+  {
+    "id": 1006,
+    "slug": "prophet-sulayman",
+    "title_ar": "النبي سليمان عليه السلام",
+    "title_en": "Prophet Sulayman (Solomon, peace be upon him)",
+    "description_en": "Sulayman, son of Dawud, was given a kingdom unmatched by any after him. Allah subjected the wind, jinn, and animals to his command. He understood the speech of birds and ants. He built the great temple in Jerusalem and his kingdom was the pinnacle of Israelite civilization.",
+    "period": "Pre-Islamic Prophets",
+    "severity": 2,
+    "place_name": "Jerusalem",
+    "sources": ["Quran 27:15-44 (Surah an-Naml)", "Quran 34:12-14", "Quran 38:30-40"]
+  },
+  {
+    "id": 1007,
+    "slug": "prophet-isa",
+    "title_ar": "النبي عيسى عليه السلام",
+    "title_en": "Prophet Isa (Jesus, peace be upon him)",
+    "description_en": "Isa ibn Maryam was born miraculously without a father. He was given the Injeel (Gospel) and performed miracles by Allah's permission: healing the blind and lepers, raising the dead, and creating a bird from clay. He was not crucified but was raised to the heavens by Allah. Muslims believe he will return before the Day of Judgment.",
+    "period": "Pre-Islamic Prophets",
+    "severity": 3,
+    "place_name": "Palestine",
+    "sources": ["Quran 3:42-64 (Surah Aal Imran)", "Quran 5:110-120 (Surah al-Ma'idah)", "Quran 19:16-40 (Surah Maryam)"]
+  }
+]

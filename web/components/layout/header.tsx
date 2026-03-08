@@ -6,6 +6,8 @@ import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { AuthButton } from './auth-button'
 import { SearchModal } from '@/components/search/search-modal'
+import { LocaleSwitcher } from '@/components/i18n/locale-switcher'
+import { useLocale } from '@/lib/i18n/use-locale'
 
 const navItems = [
   { label: 'Quran', href: '/quran' },
@@ -22,12 +24,13 @@ const navItems = [
 export function Header() {
   const pathname = usePathname()
   const [mobileOpen, setMobileOpen] = useState(false)
+  const locale = useLocale()
 
   return (
     <header className="fixed top-0 right-0 left-0 z-50 border-b border-iw-border bg-iw-bg/90 backdrop-blur-xl">
       <nav className="section-container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/icon.png" alt="Islam.wiki" width={72} height={72} className="rounded" priority />
+          <Image src="/icon.png" alt="Islam.wiki" width={72} height={72} sizes="72px" className="rounded" priority />
           <span className="text-lg font-bold">
             <span className="text-white">Islam</span>
             <span className="text-iw-text-muted">.</span>
@@ -54,6 +57,7 @@ export function Header() {
 
         <div className="hidden items-center gap-3 md:flex">
           <SearchModal />
+          <LocaleSwitcher currentLocale={locale} />
           <AuthButton />
         </div>
 
@@ -62,7 +66,9 @@ export function Header() {
           type="button"
           className="rounded-md p-2 text-iw-text-secondary md:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
+          aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={mobileOpen ? 'true' : 'false'}
+          aria-controls="mobile-nav"
         >
           <svg
             className="h-5 w-5"
@@ -91,7 +97,7 @@ export function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-iw-border bg-iw-bg/95 backdrop-blur-xl md:hidden">
+        <div id="mobile-nav" className="border-t border-iw-border bg-iw-bg/95 backdrop-blur-xl md:hidden">
           <div className="section-container space-y-0.5 py-3">
             {navItems.map((item) => (
               <Link
@@ -115,7 +121,8 @@ export function Header() {
             >
               Search
             </Link>
-            <div className="px-3 py-2">
+            <div className="flex items-center gap-3 px-3 py-2">
+              <LocaleSwitcher currentLocale={locale} />
               <AuthButton />
             </div>
           </div>

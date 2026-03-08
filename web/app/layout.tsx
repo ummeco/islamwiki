@@ -5,6 +5,7 @@ import { Footer } from '@/components/layout/footer'
 import { WebsiteJsonLd } from '@/components/seo/json-ld'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { getLocale, isRtl } from '@/lib/i18n'
 import './globals.css'
 
 const geistSans = Geist({
@@ -96,19 +97,28 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const locale = await getLocale()
+  const dir = isRtl(locale) ? 'rtl' : 'ltr'
+
   return (
-    <html lang="en">
+    <html lang={locale} dir={dir}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${amiri.variable} ${scheherazade.variable} ${notoNaskhArabic.variable} font-sans antialiased`}
       >
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:rounded-md focus:bg-iw-accent focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-black"
+        >
+          Skip to content
+        </a>
         <WebsiteJsonLd />
         <Header />
-        <main className="min-h-screen pt-20">{children}</main>
+        <main id="main-content" className="min-h-screen pt-20">{children}</main>
         <Footer />
         <Analytics />
         <SpeedInsights />

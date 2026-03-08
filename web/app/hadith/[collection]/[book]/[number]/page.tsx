@@ -6,10 +6,23 @@ import {
   getBookBySlug,
   getHadithByNumber,
   getBooksByCollection,
+  getHadithsByBook,
+  getSharhForHadith,
+  getSharhSources,
 } from '@/lib/data/hadith'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ collection: string; book: string; number: string }>
+}
+
+function gradeColor(grade: string | undefined): string {
+  if (!grade) return 'bg-gray-500/20 text-gray-300'
+  const g = grade.toLowerCase()
+  if (g.includes('sahih')) return 'bg-green-500/20 text-green-300'
+  if (g.includes('hasan')) return 'bg-yellow-500/20 text-yellow-300'
+  if (g.includes('daif') || g.includes("da'if")) return 'bg-red-500/20 text-red-300'
+  return 'bg-gray-500/20 text-gray-300'
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -17,9 +30,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const col = getCollectionBySlug(colSlug)
   const book = col ? getBookBySlug(col.id, bookSlug) : null
   if (!col || !book) return {}
+  const hadith = getHadithByNumber(book.id, parseInt(number, 10))
+  const desc = hadith?.text_en
+    ? hadith.text_en.slice(0, 160)
+    : `${col.name_en}, ${book.name_en}, Hadith ${number}`
   return {
     title: `Hadith #${number} — ${book.name_en} — ${col.name_en}`,
-    description: `${col.name_en}, ${book.name_en}, Hadith ${number}. Full Arabic text, English translation, and grading.`,
+    description: desc,
+    alternates: { languages: getHreflangAlternates(`/hadith/${colSlug}/${bookSlug}/${number}`) },
+    openGraph: {
+      title: `Hadith #${number} — ${col.name_en}`,
+      description: desc,
+      type: 'article',
+      images: [`/api/og/hadith?collection=${colSlug}&book=${bookSlug}&cn=${number}`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Hadith #${number} — ${col.name_en}`,
+      description: desc,
+      images: [`/api/og/hadith?collection=${colSlug}&book=${bookSlug}&cn=${number}`],
+    },
   }
 }
 
@@ -34,196 +64,253 @@ export default async function HadithPage({ params }: Props) {
   const hadith = getHadithByNumber(book.id, num)
   if (!hadith) notFound()
 
-  const prevHadith = num > 1 ? getHadithByNumber(book.id, num - 1) : null
-  const nextHadith =
-    num < book.hadith_count ? getHadithByNumber(book.id, num + 1) : null
+  // Navigation: find actual prev/next from the loaded data
+  const allHadiths = getHadithsByBook(book.id)
+  const currentIdx = allHadiths.findIndex((h) => h.n === num)
+  const prevHadith = currentIdx > 0 ? allHadiths[currentIdx - 1] : null
+  const nextHadith = currentIdx < allHadiths.length - 1 ? allHadiths[currentIdx + 1] : null
 
-  // Get adjacent books for navigation when at first/last hadith
+  // Sharh (commentary) data
+  const sharhEntries = getSharhForHadith(col.slug, book.number, num)
+  const sharhSources = sharhEntries.length > 0 ? getSharhSources() : []
+
   const booksInCollection = getBooksByCollection(col.id)
   const currentBookIdx = booksInCollection.findIndex((b) => b.id === book.id)
-  const prevBook =
-    currentBookIdx > 0 ? booksInCollection[currentBookIdx - 1] : null
-  const nextBook =
-    currentBookIdx < booksInCollection.length - 1
-      ? booksInCollection[currentBookIdx + 1]
-      : null
+  const prevBook = currentBookIdx > 0 ? booksInCollection[currentBookIdx - 1] : null
+  const nextBook = currentBookIdx < booksInCollection.length - 1 ? booksInCollection[currentBookIdx + 1] : null
 
   return (
     <div className="section-container py-12">
-      {/* Breadcrumbs */}
       <nav className="mb-4 text-sm text-iw-text-secondary">
-        <Link href="/hadith" className="hover:text-iw-text">
-          Hadith
-        </Link>
+        <Link href="/hadith" className="hover:text-iw-text">Hadith</Link>
         <span className="mx-2">/</span>
-        <Link href={`/hadith/${colSlug}`} className="hover:text-iw-text">
-          {col.name_en}
-        </Link>
+        <Link href={`/hadith/${colSlug}`} className="hover:text-iw-text">{col.name_en}</Link>
         <span className="mx-2">/</span>
-        <Link
-          href={`/hadith/${colSlug}/${bookSlug}`}
-          className="hover:text-iw-text"
-        >
-          {book.name_en}
-        </Link>
+        <Link href={`/hadith/${colSlug}/${bookSlug}`} className="hover:text-iw-text">{book.name_en}</Link>
         <span className="mx-2">/</span>
         <span className="text-iw-text">#{number}</span>
       </nav>
 
-      {/* Top prev/next navigation */}
+      {/* Top navigation */}
       <div className="mb-6 flex items-center justify-between">
         {prevHadith ? (
           <Link
-            href={`/hadith/${colSlug}/${bookSlug}/${num - 1}`}
+            href={`/hadith/${colSlug}/${bookSlug}/${prevHadith.n}`}
             className="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent"
           >
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            Hadith #{num - 1}
+            Hadith #{prevHadith.n}
           </Link>
         ) : prevBook ? (
-          <Link
-            href={`/hadith/${colSlug}/${prevBook.slug}`}
-            className="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent"
-          >
+          <Link href={`/hadith/${colSlug}/${prevBook.slug}`} className="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent">
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
             {prevBook.name_en}
           </Link>
-        ) : (
-          <div />
-        )}
-
-        <span className="text-xs text-iw-text-muted">
-          {num} of {book.hadith_count}
-        </span>
-
+        ) : <div />}
+        <span className="text-xs text-iw-text-muted">{currentIdx + 1} of {allHadiths.length}</span>
         {nextHadith ? (
           <Link
-            href={`/hadith/${colSlug}/${bookSlug}/${num + 1}`}
+            href={`/hadith/${colSlug}/${bookSlug}/${nextHadith.n}`}
             className="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent"
           >
-            Hadith #{num + 1}
+            Hadith #{nextHadith.n}
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </Link>
         ) : nextBook ? (
-          <Link
-            href={`/hadith/${colSlug}/${nextBook.slug}`}
-            className="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent"
-          >
+          <Link href={`/hadith/${colSlug}/${nextBook.slug}`} className="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent">
             {nextBook.name_en}
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </Link>
-        ) : (
-          <div />
-        )}
+        ) : <div />}
       </div>
 
       <div className="mx-auto max-w-3xl">
+        {/* Header */}
         <div className="mb-6 flex items-center justify-between">
-          <h1 className="text-2xl font-bold text-white">
-            Hadith #{hadith.number_in_book}
-          </h1>
-          <span
-            className={
-              hadith.grade === 'sahih'
-                ? 'badge-sahih'
-                : hadith.grade === 'hasan'
-                  ? 'badge-hasan'
-                  : hadith.grade === 'daif'
-                    ? 'badge-daif'
-                    : 'badge bg-gray-500/20 text-gray-300'
-            }
-          >
-            {hadith.grade}
-            {hadith.graded_by && ` (${hadith.graded_by})`}
+          <h1 className="text-2xl font-bold text-white">Hadith #{hadith.n}</h1>
+          <span className={`rounded-full px-3 py-1 text-xs font-medium ${gradeColor(hadith.grade)}`}>
+            {hadith.grade_display || hadith.grade || 'Ungraded'}
           </span>
         </div>
 
-        {/* Arabic text */}
-        {hadith.text_ar && (
+        {/* Chapter */}
+        {hadith.chapter_en && (
+          <div className="mb-4 rounded-lg border border-iw-border/50 bg-iw-bg/50 px-4 py-2">
+            <p className="text-sm text-iw-text-secondary">
+              <span className="font-medium text-iw-accent">Chapter:</span> {hadith.chapter_en}
+            </p>
+            {hadith.chapter_ar && (
+              <p className="arabic-text mt-0.5 text-sm text-white/60" lang="ar" dir="rtl">{hadith.chapter_ar}</p>
+            )}
+          </div>
+        )}
+
+        {/* Arabic text — with isnad/matn separation if available */}
+        {hadith.ar && (
           <div className="mb-6 rounded-xl border border-iw-border bg-iw-surface p-6">
-            <h2 className="mb-3 text-sm font-medium text-iw-accent">Arabic</h2>
-            <p className="arabic-text text-lg leading-loose">{hadith.text_ar}</p>
+            <h2 className="mb-3 text-sm font-medium text-iw-accent">Arabic Text</h2>
+            {hadith.isnad_ar && hadith.matn_ar ? (
+              <div className="space-y-3">
+                <div>
+                  <span className="mb-1 block text-xs font-medium text-iw-text-muted">Chain of Narration (Isnad)</span>
+                  <p className="quran-text text-base leading-loose text-white/70" lang="ar" dir="rtl">{hadith.isnad_ar}</p>
+                </div>
+                <div className="border-t border-iw-border/50 pt-3">
+                  <span className="mb-1 block text-xs font-medium text-iw-text-muted">Body (Matn)</span>
+                  <p className="quran-text text-lg leading-loose text-white" lang="ar" dir="rtl">{hadith.matn_ar}</p>
+                </div>
+              </div>
+            ) : (
+              <p className="quran-text text-lg leading-loose text-white" lang="ar" dir="rtl">{hadith.ar}</p>
+            )}
           </div>
         )}
 
         {/* English translation */}
         {hadith.text_en && (
           <div className="mb-6 rounded-xl border border-iw-border bg-iw-surface p-6">
-            <h2 className="mb-3 text-sm font-medium text-iw-accent">
-              English Translation
-            </h2>
+            <h2 className="mb-3 text-sm font-medium text-iw-accent">English Translation</h2>
             <p className="leading-relaxed text-iw-text">{hadith.text_en}</p>
           </div>
         )}
 
-        {/* Chapter reference */}
-        {hadith.chapter_en && (
-          <div className="mb-6">
-            <p className="text-sm text-iw-text-secondary">
-              <span className="font-medium text-iw-accent">Chapter:</span>{' '}
-              {hadith.chapter_en}
-            </p>
+        {/* Grade details */}
+        {hadith.grades && hadith.grades.length > 0 && (
+          <div className="mb-6 rounded-xl border border-iw-border bg-iw-surface p-6">
+            <h2 className="mb-3 text-sm font-medium text-iw-accent">Grading</h2>
+            <div className="space-y-2">
+              {hadith.grades.map((g, i) => (
+                <div key={i} className="flex items-center justify-between text-sm">
+                  <span className="text-iw-text-secondary">{g.graded_by}</span>
+                  <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${gradeColor(g.grade)}`}>
+                    {g.grade}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         )}
 
-        {/* Reference */}
+        {/* Topics */}
+        {hadith.topics && hadith.topics.length > 0 && (
+          <div className="mb-6">
+            <h2 className="mb-2 text-sm font-medium text-iw-accent">Topics</h2>
+            <div className="flex flex-wrap gap-2">
+              {hadith.topics.map((topic) => (
+                <span key={topic} className="rounded-full bg-iw-accent/10 px-3 py-1 text-xs text-iw-accent">
+                  {topic}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Quran References */}
+        {hadith.quran_refs && hadith.quran_refs.length > 0 && (
+          <div className="mb-6">
+            <h2 className="mb-2 text-sm font-medium text-iw-accent">Quran References</h2>
+            <div className="flex flex-wrap gap-2">
+              {hadith.quran_refs.map((ref) => {
+                const [surah, ayah] = ref.split(':')
+                return (
+                  <Link
+                    key={ref}
+                    href={`/quran/${surah}${ayah ? `/${ayah}` : ''}`}
+                    className="rounded-full bg-iw-accent/10 px-3 py-1 text-xs text-iw-accent hover:bg-iw-accent/20"
+                  >
+                    {ref}
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Sharh (Commentary) */}
+        {sharhEntries.length > 0 && (
+          <div className="mb-6">
+            <h3 className="mb-3 text-sm font-semibold text-white">Commentary (Sharh)</h3>
+            <div className="space-y-4">
+              {sharhEntries.map((entry) => {
+                const source = sharhSources.find((s) => s.id === entry.source_id)
+                return (
+                  <div key={entry.id} className="rounded-xl border border-iw-border bg-iw-surface/50 p-4">
+                    {source && (
+                      <p className="mb-2 text-xs font-medium text-iw-accent">
+                        {source.name_en} — {source.author}
+                      </p>
+                    )}
+                    <p className="text-sm leading-relaxed text-iw-text-secondary">
+                      {entry.text_en}
+                    </p>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Reference block */}
         <div className="rounded-xl border border-iw-border bg-iw-surface/50 p-4 text-xs text-iw-text-secondary">
           <p>
             <span className="font-medium text-iw-text">Reference:</span>{' '}
-            {col.name_en}, {book.name_en}, Hadith {hadith.number_in_book}
+            {col.name_en}, {book.name_en}, Hadith {hadith.n}
           </p>
-          {hadith.number_global && (
+          {hadith.ref && (
             <p className="mt-1">
-              <span className="font-medium text-iw-text">
-                In-collection number:
-              </span>{' '}
-              {hadith.number_global}
+              <span className="font-medium text-iw-text">Sunnah.com ref:</span> {hadith.ref}
+            </p>
+          )}
+          {hadith.iw_id && (
+            <p className="mt-1">
+              <span className="font-medium text-iw-text">Islam.wiki ID:</span> {hadith.iw_id}
             </p>
           )}
         </div>
 
-        {/* Bottom prev/next navigation */}
+        {/* Copy/Share */}
+        <div className="mt-4 flex gap-3">
+          <button
+            type="button"
+            className="rounded-lg border border-iw-border px-4 py-2 text-xs text-iw-text-secondary transition-colors hover:border-iw-accent/30 hover:text-iw-accent"
+            title="Copy hadith text"
+          >
+            Copy
+          </button>
+          <button
+            type="button"
+            className="rounded-lg border border-iw-border px-4 py-2 text-xs text-iw-text-secondary transition-colors hover:border-iw-accent/30 hover:text-iw-accent"
+            title="Share hadith"
+          >
+            Share
+          </button>
+        </div>
+
+        {/* Bottom navigation */}
         <div className="mt-8 flex items-center justify-between border-t border-iw-border pt-6">
           {prevHadith ? (
-            <Link
-              href={`/hadith/${colSlug}/${bookSlug}/${num - 1}`}
-              className="group flex flex-col items-start"
-            >
+            <Link href={`/hadith/${colSlug}/${bookSlug}/${prevHadith.n}`} className="group flex flex-col items-start">
               <span className="text-xs text-iw-text-muted">Previous</span>
-              <span className="text-sm text-iw-text-secondary group-hover:text-iw-accent">
-                Hadith #{num - 1}
-              </span>
+              <span className="text-sm text-iw-text-secondary group-hover:text-iw-accent">Hadith #{prevHadith.n}</span>
             </Link>
-          ) : (
-            <div />
-          )}
-          <Link
-            href={`/hadith/${colSlug}/${bookSlug}`}
-            className="text-xs text-iw-text-muted hover:text-iw-accent"
-          >
+          ) : <div />}
+          <Link href={`/hadith/${colSlug}/${bookSlug}`} className="text-xs text-iw-text-muted hover:text-iw-accent">
             Back to {book.name_en}
           </Link>
           {nextHadith ? (
-            <Link
-              href={`/hadith/${colSlug}/${bookSlug}/${num + 1}`}
-              className="group flex flex-col items-end"
-            >
+            <Link href={`/hadith/${colSlug}/${bookSlug}/${nextHadith.n}`} className="group flex flex-col items-end">
               <span className="text-xs text-iw-text-muted">Next</span>
-              <span className="text-sm text-iw-text-secondary group-hover:text-iw-accent">
-                Hadith #{num + 1}
-              </span>
+              <span className="text-sm text-iw-text-secondary group-hover:text-iw-accent">Hadith #{nextHadith.n}</span>
             </Link>
-          ) : (
-            <div />
-          )}
+          ) : <div />}
         </div>
       </div>
     </div>

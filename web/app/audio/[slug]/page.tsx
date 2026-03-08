@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getMediaBySlug, getMedia } from '@/lib/data/media'
+import { sanitizeHtml, sanitizeEmbed } from '@/lib/sanitize'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -55,7 +56,7 @@ export default async function AudioPage({ params }: Props) {
         {/* Audio player */}
         <div className="mt-6 rounded-xl border border-iw-border bg-iw-surface p-6">
           {audio.embed_code ? (
-            <div dangerouslySetInnerHTML={{ __html: audio.embed_code }} />
+            <div dangerouslySetInnerHTML={{ __html: sanitizeEmbed(audio.embed_code) }} />
           ) : (
             <div className="flex items-center gap-4">
               <svg
@@ -109,7 +110,7 @@ export default async function AudioPage({ params }: Props) {
           <h2 className="mb-4 text-lg font-semibold text-white">Transcript</h2>
           {audio.transcript ? (
             <div className="prose prose-invert max-w-none rounded-xl border border-iw-border p-6 text-sm text-iw-text-secondary">
-              <div dangerouslySetInnerHTML={{ __html: audio.transcript }} />
+              <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(audio.transcript) }} />
             </div>
           ) : (
             <p className="text-sm italic text-iw-text-muted">

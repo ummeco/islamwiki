@@ -71,6 +71,19 @@ function getEraColor(era: string): string {
 
 // ── Component ──
 
+const CATEGORY_LABELS: Record<string, string> = {
+  sahabi: 'Companions',
+  scholar: 'Scholars',
+  narrator: 'Narrators',
+  jurist: 'Jurists',
+  mufassir: 'Mufassirun',
+  muhaddith: 'Muhaddithun',
+  historian: 'Historians',
+  sufi: 'Sufis',
+  ruler: 'Rulers',
+  other: 'Other',
+}
+
 export function PeopleTimeline({ people }: PeopleTimelineProps) {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [tooltip, setTooltip] = useState<{
@@ -78,9 +91,11 @@ export function PeopleTimeline({ people }: PeopleTimelineProps) {
     x: number
     y: number
   } | null>(null)
+  const [eraFilter, setEraFilter] = useState<string | null>(null)
+  const [categoryFilter, setCategoryFilter] = useState<string | null>(null)
 
-  // Sort by birth year, filter to those with at least one year
-  const sorted = useMemo(() => {
+  // All people with dates, sorted
+  const allWithDates = useMemo(() => {
     return people
       .filter((p) => p.birth_year_ce != null || p.death_year_ce != null)
       .sort((a, b) => {
@@ -90,13 +105,29 @@ export function PeopleTimeline({ people }: PeopleTimelineProps) {
       })
   }, [people])
 
+  // Apply filters
+  const sorted = useMemo(() => {
+    let filtered = allWithDates
+    if (eraFilter) filtered = filtered.filter((p) => p.era === eraFilter)
+    if (categoryFilter) filtered = filtered.filter((p) => p.category === categoryFilter)
+    return filtered
+  }, [allWithDates, eraFilter, categoryFilter])
+
   // Collect active eras for the legend
   const activeEras = useMemo(() => {
     const set = new Set<string>()
-    for (const p of sorted) set.add(p.era)
+    for (const p of allWithDates) set.add(p.era)
     const order = Object.keys(ERA_COLORS)
     return order.filter((e) => set.has(e))
-  }, [sorted])
+  }, [allWithDates])
+
+  // Collect active categories
+  const activeCategories = useMemo(() => {
+    const set = new Set<string>()
+    for (const p of allWithDates) set.add(p.category)
+    const order = Object.keys(CATEGORY_LABELS)
+    return order.filter((c) => set.has(c))
+  }, [allWithDates])
 
   const totalHeight = RULER_HEIGHT + sorted.length * (ROW_HEIGHT + ROW_GAP) + 32
 
@@ -149,6 +180,66 @@ export function PeopleTimeline({ people }: PeopleTimelineProps) {
 
   return (
     <div className="space-y-4">
+      {/* Era filter pills */}
+      <div className="flex flex-wrap gap-2">
+        <button
+          type="button"
+          onClick={() => setEraFilter(null)}
+          className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+            eraFilter === null
+              ? 'bg-iw-accent text-iw-bg'
+              : 'bg-iw-surface text-iw-text-secondary hover:bg-iw-surface-hover'
+          }`}
+        >
+          All Eras
+        </button>
+        {activeEras.map((era) => (
+          <button
+            type="button"
+            key={era}
+            onClick={() => setEraFilter(eraFilter === era ? null : era)}
+            className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+              eraFilter === era
+                ? 'bg-iw-accent text-iw-bg'
+                : 'bg-iw-surface text-iw-text-secondary hover:bg-iw-surface-hover'
+            }`}
+          >
+            {ERA_LABELS[era] ?? era}
+          </button>
+        ))}
+      </div>
+
+      {/* Category filter pills */}
+      {activeCategories.length > 1 && (
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => setCategoryFilter(null)}
+            className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+              categoryFilter === null
+                ? 'bg-iw-accent/20 text-iw-accent'
+                : 'bg-iw-surface text-iw-text-secondary hover:bg-iw-surface-hover'
+            }`}
+          >
+            All Categories
+          </button>
+          {activeCategories.map((cat) => (
+            <button
+              type="button"
+              key={cat}
+              onClick={() => setCategoryFilter(categoryFilter === cat ? null : cat)}
+              className={`rounded-full px-3 py-1 text-xs font-medium transition-colors ${
+                categoryFilter === cat
+                  ? 'bg-iw-accent/20 text-iw-accent'
+                  : 'bg-iw-surface text-iw-text-secondary hover:bg-iw-surface-hover'
+              }`}
+            >
+              {CATEGORY_LABELS[cat] ?? cat}
+            </button>
+          ))}
+        </div>
+      )}
+
       {/* Legend */}
       <div className="flex flex-wrap gap-3">
         {activeEras.map((era) => (

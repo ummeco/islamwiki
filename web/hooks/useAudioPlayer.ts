@@ -33,10 +33,16 @@ export interface UseAudioPlayerOptions {
   onAyahChange?: (ayahNumber: number) => void
 }
 
+// Use CF R2 audio proxy when available, fall back to everyayah.com directly.
+// Set NEXT_PUBLIC_AUDIO_BASE_URL=https://audio.islam.wiki in Vercel env vars.
+const AUDIO_BASE =
+  (typeof process !== 'undefined' && process.env.NEXT_PUBLIC_AUDIO_BASE_URL) ||
+  'https://everyayah.com'
+
 function buildUrl(surah: number, ayah: number, reciter: ReciterKey): string {
   const s = String(surah).padStart(3, '0')
   const a = String(ayah).padStart(3, '0')
-  return `https://everyayah.com/data/${reciter}/${s}${a}.mp3`
+  return `${AUDIO_BASE}/data/${reciter}/${s}${a}.mp3`
 }
 
 export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAudioPlayerOptions) {
@@ -54,6 +60,7 @@ export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAud
   const reciterRef = useRef<ReciterKey>('Alafasy_128kbps')
   const speedRef = useRef(1)
   const onAyahChangeRef = useRef(onAyahChange)
+  const rangeEndRef = useRef<number | null>(null)  // null = play to end of surah
   const loadAyahRef = useRef<(ayah: number) => void>(() => {})
 
   useEffect(() => { totalRef.current = totalAyahs }, [totalAyahs])
@@ -111,7 +118,8 @@ export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAud
     // ── Auto-advance to next verse (gapless using double-buffer) ──────────────
     function advance() {
       const next = ayahRef.current + 1
-      if (next > totalRef.current) {
+      const rangeEnd = rangeEndRef.current
+      if (next > totalRef.current || (rangeEnd !== null && next > rangeEnd)) {
         stopRaf()
         setState('idle')
         ayahRef.current = 1
@@ -235,6 +243,7 @@ export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAud
   const stop = useCallback(() => {
     audiosRef.current?.[0]?.pause()
     audiosRef.current?.[1]?.pause()
+    rangeEndRef.current = null
     setState('idle')
     ayahRef.current = 1
     completedRef.current = 0
@@ -243,7 +252,13 @@ export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAud
   }, [])
 
   const playAyah = useCallback((ayah: number) => {
+    rangeEndRef.current = null
     loadAyahRef.current(ayah)
+  }, [])
+
+  const playRange = useCallback((from: number, to: number) => {
+    rangeEndRef.current = to
+    loadAyahRef.current(from)
   }, [])
 
   const retry = useCallback(() => {
@@ -272,6 +287,6 @@ export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAud
 
   return {
     state, currentAyah, reciter, speed, progress, error,
-    play, pause, stop, playAyah, retry, changeReciter, changeSpeed,
+    play, pause, stop, playAyah, playRange, retry, changeReciter, changeSpeed,
   }
 }

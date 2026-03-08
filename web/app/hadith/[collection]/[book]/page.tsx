@@ -1,10 +1,23 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { getCollectionBySlug, getBookBySlug, getHadithsByBook } from '@/lib/data/hadith'
+import { getCollections, getCollectionBySlug, getBooksByCollection, getBookBySlug, getHadithsByBook } from '@/lib/data/hadith'
+import { PaginatedHadithList } from '@/components/hadith/PaginatedHadithList'
 
 interface Props {
   params: Promise<{ collection: string; book: string }>
+}
+
+export async function generateStaticParams() {
+  const collections = getCollections()
+  const params: Array<{ collection: string; book: string }> = []
+  for (const col of collections) {
+    const books = getBooksByCollection(col.id)
+    for (const book of books) {
+      params.push({ collection: col.slug, book: book.slug })
+    }
+  }
+  return params
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -39,40 +52,27 @@ export default async function BookPage({ params }: Props) {
 
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-white">{book.name_en}</h1>
-        <p className="arabic-text mt-1 text-lg text-white/80">{book.name_ar}</p>
-        <p className="mt-2 text-sm text-iw-text-secondary">{book.hadith_count} hadith</p>
+        {book.name_ar && (
+          <p className="arabic-text mt-1 text-lg text-white/80" lang="ar" dir="rtl">{book.name_ar}</p>
+        )}
+        <p className="mt-2 text-sm text-iw-text-secondary">
+          {hadiths.length} hadith{hadiths.length !== 1 ? 's' : ''}
+        </p>
       </div>
 
-      <div className="mx-auto max-w-3xl space-y-4">
-        {hadiths.map((h) => (
-          <Link
-            key={h.id}
-            href={`/hadith/${colSlug}/${bookSlug}/${h.number_in_book}`}
-            className="block rounded-xl border border-iw-border p-6 transition-colors hover:border-iw-border"
-          >
-            <div className="mb-3 flex items-center justify-between">
-              <span className="text-sm font-medium text-iw-accent">
-                Hadith #{h.number_in_book}
-              </span>
-              <span
-                className={
-                  h.grade === 'sahih'
-                    ? 'badge-sahih'
-                    : h.grade === 'hasan'
-                      ? 'badge-hasan'
-                      : h.grade === 'daif'
-                        ? 'badge-daif'
-                        : 'badge bg-gray-500/20 text-gray-300'
-                }
-              >
-                {h.grade}
-              </span>
-            </div>
-            <p className="line-clamp-3 text-sm text-iw-text-secondary">
-              {h.text_en || ''}
-            </p>
-          </Link>
-        ))}
+      <div className="mx-auto max-w-3xl">
+        <PaginatedHadithList
+          hadiths={hadiths.map(h => ({
+            n: h.n,
+            ar: h.ar,
+            text_en: h.text_en,
+            grade: h.grade,
+            chapter_en: h.chapter_en,
+            chapter_ar: h.chapter_ar,
+          }))}
+          colSlug={colSlug}
+          bookSlug={bookSlug}
+        />
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
 import { getSurahs } from './data/quran'
-import { getCollections } from './data/hadith'
+import { getCollections, getBooksByCollection } from './data/hadith'
 import { getPeople } from './data/people'
 import { getBooks } from './data/books'
 import { getArticles } from './data/articles'
@@ -119,7 +119,7 @@ export function searchGrouped(query: string, previewLimit = 3): GroupedResults {
     }
   }
 
-  // Hadith
+  // Hadith — collections and books
   for (const c of getCollections()) {
     if (matchesAny(c.name_en, queries) || c.name_ar.includes(q) || matchesAny(c.author_name_en, queries)) {
       buckets.get('hadith')!.push({
@@ -129,6 +129,19 @@ export function searchGrouped(query: string, previewLimit = 3): GroupedResults {
         url: `/hadith/${c.slug}`,
         meta: 'Collection',
       })
+    }
+    // Search book names within each collection
+    const books = getBooksByCollection(c.id)
+    for (const b of books) {
+      if (matchesAny(b.name_en, queries) || (b.name_ar && b.name_ar.includes(q))) {
+        buckets.get('hadith')!.push({
+          type: 'hadith',
+          title: `${b.name_en} — ${c.name_en}`,
+          snippet: `${b.hadith_count} hadith in this book.`,
+          url: `/hadith/${c.slug}/${b.slug}`,
+          meta: 'Book',
+        })
+      }
     }
   }
 

@@ -21,6 +21,15 @@ function cleanExpired() {
   }
 }
 
+/**
+ * Extract client IP from request headers for rate limiting.
+ */
+export function getClientIp(headers: Headers): string {
+  return headers.get('x-forwarded-for')?.split(',')[0]?.trim()
+    || headers.get('x-real-ip')
+    || 'unknown'
+}
+
 export function checkRateLimit(
   key: string,
   maxAttempts = 5,

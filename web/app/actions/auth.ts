@@ -65,7 +65,11 @@ export async function login(
     redirect('/auth/change-password')
   }
 
-  redirect(redirectTo || '/')
+  // Validate redirect target is a same-origin path (prevent open redirect)
+  const safeRedirect = redirectTo && redirectTo.startsWith('/') && !redirectTo.startsWith('//')
+    ? redirectTo
+    : '/'
+  redirect(safeRedirect)
 }
 
 // ── Register (multi-step wizard) ──

@@ -1,3 +1,5 @@
+import fs from 'fs'
+import path from 'path'
 import booksData from '@/data/books/classical.json'
 
 interface BookData {
@@ -18,7 +20,7 @@ interface BookData {
   available_languages: string[]
 }
 
-interface ChapterData {
+export interface ChapterData {
   id: number
   book_id: number
   book_slug: string
@@ -29,7 +31,17 @@ interface ChapterData {
   content_ar?: string
 }
 
+interface ChapterMeta {
+  number: number
+  title_en: string
+  title_ar?: string
+}
+
 const books: BookData[] = booksData as BookData[]
+const CHAPTERS_DIR = path.join(process.cwd(), 'data', 'books')
+
+// Cache chapter lists per book slug
+const chapterCache = new Map<string, ChapterData[]>()
 
 export function getBooks(): BookData[] {
   return books
@@ -43,24 +55,50 @@ export function getBooksByAuthor(authorSlug: string): BookData[] {
   return books.filter((b) => b.author_slug === authorSlug)
 }
 
-export function getChaptersByBook(bookId: number): ChapterData[] {
-  // Chapters will be populated when full text is available
-  return []
+/**
+ * Scans data/books/{slug}/ for chapter JSON files.
+ * Each chapter file: {slug}/001.json, 002.json, etc.
+ * Format: { number, title_en, title_ar?, content_en?, content_ar? }
+ */
+export function getChaptersByBook(bookSlug: string): ChapterData[] {
+  if (chapterCache.has(bookSlug)) return chapterCache.get(bookSlug)!
+
+  const book = books.find((b) => b.slug === bookSlug)
+  if (!book) return []
+
+  const bookDir = path.join(CHAPTERS_DIR, bookSlug)
+  let chapters: ChapterData[] = []
+
+  try {
+    const files = fs.readdirSync(bookDir)
+      .filter((f) => f.endsWith('.json') && f !== 'meta.json')
+      .sort()
+
+    chapters = files.map((file) => {
+      const raw = JSON.parse(fs.readFileSync(path.join(bookDir, file), 'utf-8')) as ChapterMeta & { content_en?: string; content_ar?: string }
+      return {
+        id: book.id * 1000 + raw.number,
+        book_id: book.id,
+        book_slug: bookSlug,
+        number: raw.number,
+        title_en: raw.title_en,
+        title_ar: raw.title_ar,
+        content_en: raw.content_en,
+        content_ar: raw.content_ar,
+      }
+    })
+  } catch {
+    // No chapter directory yet — return empty
+    chapters = []
+  }
+
+  chapterCache.set(bookSlug, chapters)
+  return chapters
 }
 
 export function getChapter(
-  bookId: number,
+  bookSlug: string,
   chapterNumber: number
 ): ChapterData | undefined {
-  // Stub chapter
-  const book = books.find((b) => b.id === bookId)
-  if (!book) return undefined
-  return {
-    id: bookId * 1000 + chapterNumber,
-    book_id: bookId,
-    book_slug: book.slug,
-    number: chapterNumber,
-    title_en: `Chapter ${chapterNumber}`,
-    content_en: undefined,
-  }
+  return getChaptersByBook(bookSlug).find((c) => c.number === chapterNumber)
 }

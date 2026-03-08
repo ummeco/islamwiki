@@ -11,7 +11,7 @@ const securityHeaders = [
       "default-src 'self'",
       "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
       "style-src 'self' 'unsafe-inline'",
-      "img-src 'self' * data: blob:",
+      "img-src 'self' https://api.islam.wiki https://islam.wiki data: blob:",
       "media-src https://everyayah.com https://mp3quran.net",
       "font-src 'self' data:",
       "connect-src 'self' https://api.islam.wiki https://everyayah.com",
@@ -43,11 +43,10 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     // Slug-based URLs redirect to canonical numeric URLs: /quran/al-baqarah → /quran/2
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
     const surahs = require('./data/quran/surahs.json') as Array<{ number: number; slug: string }>
     const slugRedirects = surahs.flatMap((s) => [
-      { source: `/quran/${s.slug}`, destination: `/quran/${s.number}`, permanent: false },
-      { source: `/quran/${s.slug}/:ayah`, destination: `/quran/${s.number}/:ayah`, permanent: false },
+      { source: `/quran/${s.slug}`, destination: `/quran/${s.number}`, permanent: true },
+      { source: `/quran/${s.slug}/:ayah`, destination: `/quran/${s.number}/:ayah`, permanent: true },
     ])
     return [
       ...slugRedirects,

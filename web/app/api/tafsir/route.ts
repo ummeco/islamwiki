@@ -3,8 +3,19 @@ import Anthropic from '@anthropic-ai/sdk'
 import { join } from 'path'
 import { readFileSync } from 'fs'
 import type { AyahJSON } from '@/types/quran-json'
+import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
 
 export async function GET(req: NextRequest) {
+  // Rate limit: 10 AI tafsir requests per 15 minutes per IP
+  const ip = getClientIp(req.headers)
+  const rl = checkRateLimit(`tafsir:${ip}`, 10, 15 * 60 * 1000)
+  if (!rl.allowed) {
+    return new Response('Too many requests. Please try again later.', {
+      status: 429,
+      headers: { 'Retry-After': String(Math.ceil(rl.resetIn / 1000)) },
+    })
+  }
+
   const { searchParams } = new URL(req.url)
   const surah = parseInt(searchParams.get('surah') ?? '1', 10)
   const from = parseInt(searchParams.get('from') ?? '1', 10)
@@ -50,7 +61,7 @@ export async function GET(req: NextRequest) {
   const client = new Anthropic({ apiKey })
 
   const stream = client.messages.stream({
-    model: 'claude-sonnet-4-6',
+    model: 'claude-sonnet-4-5-20250514',
     max_tokens: 1024,
     messages: [
       {

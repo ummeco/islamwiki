@@ -3,6 +3,7 @@
 import { useActionState, useState } from 'react'
 import { submitEdit } from '@/app/actions/wiki'
 import { marked } from 'marked'
+import { sanitizeHtml } from '@/lib/sanitize'
 
 interface MarkdownEditorProps {
   contentType: string
@@ -21,7 +22,7 @@ export function MarkdownEditor({
   const [content, setContent] = useState(currentContent)
   const [previewMode, setPreviewMode] = useState(false)
 
-  const preview = marked.parse(content, { async: false }) as string
+  const preview = sanitizeHtml(marked.parse(content, { async: false }) as string)
 
   function insertMarkdown(prefix: string, suffix: string = '') {
     const textarea = document.getElementById(

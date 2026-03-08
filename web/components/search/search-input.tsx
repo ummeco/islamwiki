@@ -67,7 +67,7 @@ export function SearchInput({
       return
     }
     try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=3`)
+      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=5`)
       const data: SearchResponse = await res.json()
       setResults(data)
       setIsOpen(data.total > 0)

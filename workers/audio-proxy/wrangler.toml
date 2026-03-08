@@ -1,0 +1,19 @@
+name = "islamwiki-audio-proxy"
+main = "worker.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[r2_buckets]]
+binding = "AUDIO_BUCKET"
+bucket_name = "islamwiki-audio"
+
+[routes]
+# Bind to audio.islam.wiki subdomain
+# Add this CNAME in Cloudflare DNS: audio.islam.wiki → islamwiki-audio-proxy.workers.dev
+pattern = "audio.islam.wiki/*"
+zone_name = "islam.wiki"
+
+# Deploy:
+#   1. Create R2 bucket: wrangler r2 bucket create islamwiki-audio
+#   2. Add CNAME in Cloudflare DNS: audio CNAME → islamwiki-audio-proxy.workers.dev (proxied)
+#   3. wrangler deploy

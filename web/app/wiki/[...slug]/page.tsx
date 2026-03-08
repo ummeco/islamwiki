@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound, redirect } from 'next/navigation'
 import { getWikiPageBySlug, getWikiPages } from '@/lib/data/wiki'
 import { getSessionUser } from '@/lib/auth'
+import { sanitizeHtml } from '@/lib/sanitize'
 import { getRevisions } from '@/lib/data/revisions'
 import { WikiLayout } from '@/components/wiki/wiki-layout'
 import { ContentTabs } from '@/components/wiki/content-tabs'
@@ -252,7 +253,7 @@ export default async function WikiPage({ params, searchParams }: Props) {
 
         <div className="prose prose-invert max-w-none text-iw-text-secondary">
           {page.content ? (
-            <div dangerouslySetInnerHTML={{ __html: page.content }} />
+            <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(page.content) }} />
           ) : (
             <p className="italic text-iw-text-muted">
               This page is being written. Want to contribute?{' '}
