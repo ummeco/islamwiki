@@ -2,16 +2,17 @@ import { test, expect } from '@playwright/test'
 
 test.describe('Multilingual / i18n', () => {
   test('default locale (en) loads without prefix', async ({ page }) => {
-    await page.goto('/quran/al-fatiha')
-    await expect(page).toHaveURL('/quran/al-fatiha')
-    // Should not redirect to /en/quran/al-fatiha
+    // Use numeric canonical URL (slug /quran/al-fatiha redirects to /quran/1)
+    await page.goto('/quran/1')
+    await expect(page).toHaveURL('/quran/1')
+    // Should not redirect to /en/quran/1
     await expect(page).not.toHaveURL(/\/en\/quran/)
   })
 
   test('/en/ prefix redirects to unprefixed URL', async ({ page }) => {
-    await page.goto('/en/quran/al-fatiha')
+    await page.goto('/en/quran/1')
     // Middleware should redirect /en/ to /
-    await expect(page).toHaveURL('/quran/al-fatiha', { timeout: 5000 })
+    await expect(page).toHaveURL('/quran/1', { timeout: 5000 })
   })
 
   test('Arabic locale route /ar/quran/1 rewrites to Quran page', async ({ page }) => {
@@ -35,7 +36,8 @@ test.describe('Multilingual / i18n', () => {
   })
 
   test('RTL layout applied for Arabic locale', async ({ page }) => {
-    await page.goto('/ar/quran/al-fatiha')
+    // Use numeric canonical URL (slug URLs redirect to numbers)
+    await page.goto('/ar/quran/1')
     await page.waitForLoadState('networkidle')
     const htmlDir = await page.locator('html').getAttribute('dir')
     expect(htmlDir).toBe('rtl')
@@ -49,7 +51,7 @@ test.describe('Multilingual / i18n', () => {
   })
 
   test('HTML lang attribute is en by default', async ({ page }) => {
-    await page.goto('/quran/al-fatiha')
+    await page.goto('/quran/1')
     await page.waitForLoadState('networkidle')
     const lang = await page.locator('html').getAttribute('lang')
     expect(lang).toBe('en')
@@ -64,7 +66,8 @@ test.describe('Multilingual / i18n', () => {
   })
 
   test('hreflang tags present on People pages', async ({ page }) => {
-    await page.goto('/people/abu-huraira')
+    // Use correct slug from people data (abu-hurairah not abu-huraira)
+    await page.goto('/people/abu-hurairah')
     const hreflang = page.locator('link[hreflang]')
     await expect(hreflang.first()).toBeAttached({ timeout: 5000 })
   })

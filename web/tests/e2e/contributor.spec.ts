@@ -26,7 +26,8 @@ test.describe('Contributor System', () => {
 
     test('profile shows recent contributions section', async ({ page }) => {
       await page.goto('/profile/testuser')
-      await expect(page.getByText(/Recent Contributions|No contributions yet/)).toBeVisible()
+      // Use heading role to avoid matching both the h2 and the empty-state paragraph
+      await expect(page.getByRole('heading', { name: 'Recent Contributions' })).toBeVisible()
     })
   })
 
