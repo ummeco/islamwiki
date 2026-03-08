@@ -13,6 +13,8 @@ test.describe('Contributor System', () => {
   test.describe('Profile page', () => {
     test('renders profile page for any username', async ({ page }) => {
       await page.goto('/profile/testuser')
+      // Profile is public — should NOT redirect to /account
+      await expect(page).not.toHaveURL(/\/account/)
       // Should show username
       await expect(page.locator('h1')).toContainText('@testuser')
     })
