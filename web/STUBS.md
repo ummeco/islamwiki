@@ -19,11 +19,15 @@ Current state of every section, component, and dataset. Updated 2026-03-08.
 
 | Route | Status | Notes |
 | --- | --- | --- |
-| `/quran` | [F] | 114 surahs, search, grid layout |
+| `/quran` | [F] | 114 surahs, search, grid layout, links to juz/page/bookmarks/stats |
 | `/quran/[surah]` | [F][I] | Real Arabic + 14 translations, section/verse mode, audio player, transliteration |
 | `/quran/[surah]/[ayah]` | [F] | Ayah detail with tafsir (AI-powered via Claude API) |
+| `/quran/juz/[1-30]` | [F] | 30 SSG Juz pages, grouped by surah, prev/next nav |
+| `/quran/page/[1-604]` | [F][I] | 604 SSG Mushaf pages, Mushaf mode (RTL continuous) + Study mode |
+| `/quran/bookmarks` | [F][I] | localStorage bookmarks (500-cap), hydration-safe, confirm-clear |
+| `/quran/stats` | [F] | Stats: 6 cards, Meccan/Medinan breakdown, juz table, top-10 surahs, all-surahs table |
 
-**Done:** Arabic text, translations, transliteration, audio (everyayah.com), section play with range, Arabic-Indic numerals, OG images, JSON-LD.
+**Done:** Arabic text, translations, transliteration, audio (everyayah.com), section play with range, Arabic-Indic numerals, OG images, JSON-LD, Mushaf page reader, bookmarks, stats.
 **Remaining:** IWT (Islam.wiki Translation) generation, CF R2 audio proxy, surah themes data.
 
 ### Hadith (`/hadith`)
@@ -53,9 +57,10 @@ Current state of every section, component, and dataset. Updated 2026-03-08.
 | Route | Status | Notes |
 | --- | --- | --- |
 | `/history` | [F][I] | Timeline with period filter (10 eras), severity filter, grouped display |
+| `/history/[event]` | [F] | Detail with markdown content, TOC, cross-ref to seerah, prev/next |
 
-**Done:** Data layer with period inference and severity classification.
-**Remaining:** Dedicated events.json, detail pages, pre-Islamic prophets section.
+**Done:** Data layer, 205 events (7 prophets + 198 post-prophetic), markdown content, detail pages, SSG.
+**Remaining:** Additional event content.
 
 ### People (`/people`)
 
@@ -152,10 +157,10 @@ Current state of every section, component, and dataset. Updated 2026-03-08.
 
 ## Infrastructure Done
 
-- DOMPurify sanitization on all HTML output
+- DOMPurify sanitization on all HTML output (including EditModal preview)
 - JSON-LD structured data (Quran, Hadith, Person, Breadcrumb)
 - OG image generation (edge runtime)
-- Rate limiting on API routes
+- Rate limiting on all API routes (tafsir, search, ai/review, revisions, trust, content-lock)
 - Sitemap with all sections
 - CSP headers
 - generateStaticParams on all content pages
@@ -163,3 +168,7 @@ Current state of every section, component, and dataset. Updated 2026-03-08.
 - Contributor system: revision submission, trust scoring, auto-approve thresholds, diff viewer
 - Admin edit queue: pending/approved/denied revisions, diff view, approve/deny actions
 - Wiki edit flow: MarkdownEditor → Server Action → Hasura revision → admin review queue
+- Self-review bypass protection in review endpoint
+- Trust scores fetched from DB (not stale session) in revert endpoint
+- Shared hasuraAdmin helper (lib/hasura-admin.ts) — no duplication
+- Auth guard on GET /api/trust (self or moderator 3+ only)
