@@ -24,7 +24,9 @@ const securityHeaders = [
   },
 ]
 
-const nextConfig: NextConfig = {
+// outputFileTracingExcludes is supported at runtime but not yet in the public TS type
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const nextConfig: any = {
   // All content pages are statically generated — exclude large data directories
   // from serverless function bundles (they're only needed at build time)
   experimental: {
