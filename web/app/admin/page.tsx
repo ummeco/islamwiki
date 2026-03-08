@@ -78,7 +78,7 @@ export default async function AdminPage() {
           <dl className="space-y-2.5 text-sm">
             {[
               { label: 'Quran Surahs', count: 114 },
-              { label: 'Hadith Collections', count: 8 },
+              { label: 'Hadith Collections', count: 12 },
               { label: 'People', count: people.length },
               { label: 'Books', count: books.length },
               { label: 'Articles', count: articles.length },

@@ -53,7 +53,7 @@ export async function GET(req: NextRequest) {
 
   const rangeLabel = from === to ? `verse ${from}` : `verses ${from}–${to}`
 
-  const apiKey = process.env.ANTHROPIC_API_KEY
+  const apiKey = process.env.ANTHROPIC_API_KEY_1 ?? process.env.ANTHROPIC_API_KEY
   if (!apiKey) {
     return new Response('Tafsir service not configured', { status: 503 })
   }

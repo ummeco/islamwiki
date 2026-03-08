@@ -33,18 +33,21 @@ const COOLDOWN_MS = 5 * 60 * 1000 // 5 min cooldown on error
 function buildProviders(): Provider[] {
   const providers: Provider[] = []
 
-  // Anthropic keys
+  // Anthropic keys — supports both numbered (multi-key rotation) and single key
   const anthropicKeys = [
     process.env.ANTHROPIC_API_KEY_1,
     process.env.ANTHROPIC_API_KEY_2,
     process.env.ANTHROPIC_API_KEY_3,
+    process.env.ANTHROPIC_API_KEY,
   ].filter(Boolean) as string[]
+  // Deduplicate in case ANTHROPIC_API_KEY === ANTHROPIC_API_KEY_1
+  const uniqueAnthropicKeys = [...new Set(anthropicKeys)]
 
-  for (let i = 0; i < anthropicKeys.length; i++) {
+  for (let i = 0; i < uniqueAnthropicKeys.length; i++) {
     providers.push({
       id: `anthropic-${i + 1}`,
       type: 'anthropic',
-      client: new Anthropic({ apiKey: anthropicKeys[i] }),
+      client: new Anthropic({ apiKey: uniqueAnthropicKeys[i] }),
       model: 'claude-sonnet-4-20250514',
       available: true,
       unavailableUntil: 0,
