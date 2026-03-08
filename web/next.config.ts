@@ -25,6 +25,26 @@ const securityHeaders = [
 ]
 
 const nextConfig: NextConfig = {
+  // All content pages are statically generated — exclude large data directories
+  // from serverless function bundles (they're only needed at build time)
+  experimental: {
+    outputFileTracingExcludes: {
+      '*': [
+        './data/hadith/**',
+        './data/quran/**',
+        './data/relations/**',
+        './data/qa/**',
+        './data/seerah/**',
+        './data/people/**',
+        './data/articles/**',
+        './data/books/**',
+        './data/wiki/**',
+        './data/media/**',
+        './data/taxonomy/**',
+        './data/sects/**',
+      ],
+    },
+  },
   images: {
     remotePatterns: [
       {
