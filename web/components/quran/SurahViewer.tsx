@@ -694,7 +694,7 @@ export function SurahViewer({
                                 isCurrentVerse ? 'text-iw-accent' : 'text-iw-accent/60 hover:text-iw-accent',
                               ].join(' ')}
                             >
-                              ﴿{a.number_in_surah}﴾
+                              ﴿{toArabicIndic(a.number_in_surah)}﴾
                             </button>
                             {' '}
                           </span>
@@ -743,7 +743,7 @@ export function SurahViewer({
                               className="mr-1 cursor-pointer text-sm text-iw-accent hover:text-iw-accent/70"
                               title={`Verse ${a.number_in_surah}`}
                             >
-                              ﴾{a.number_in_surah}﴿{' '}
+                              ﴾{toArabicIndic(a.number_in_surah)}﴿{' '}
                             </button>
                             {text}{' '}
                           </span>
