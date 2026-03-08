@@ -32,6 +32,28 @@ export default function QuranIndexPage() {
         </Link>
       </div>
 
+      {/* Quick links row */}
+      <div className="mb-6 flex flex-wrap gap-3">
+        <Link
+          href="/quran/page/1"
+          className="inline-flex items-center gap-1.5 rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+        >
+          Mushaf Pages
+        </Link>
+        <Link
+          href="/quran/bookmarks"
+          className="inline-flex items-center gap-1.5 rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+        >
+          My Bookmarks
+        </Link>
+        <Link
+          href="/quran/stats"
+          className="inline-flex items-center gap-1.5 rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+        >
+          Statistics
+        </Link>
+      </div>
+
       {/* Juz quick links */}
       <div className="mb-8 rounded-xl border border-iw-border bg-iw-surface p-4">
         <p className="mb-3 text-[11px] font-semibold uppercase tracking-wider text-iw-text-muted">
