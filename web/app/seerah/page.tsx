@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { getSeerahEvents } from '@/lib/data/seerah'
+import { getSeerahContent } from '@/lib/data/seerah-content'
 import { SeerahExplorer } from '@/components/seerah/seerah-explorer'
 
 export const metadata: Metadata = {
@@ -11,10 +12,17 @@ export const metadata: Metadata = {
 export default function SeerahIndexPage() {
   const events = getSeerahEvents()
 
+  // Load all markdown content files at build time so the client overlay can render them
+  const contentMap: Record<string, string> = {}
+  for (const event of events) {
+    const content = getSeerahContent(event.slug)
+    if (content) contentMap[event.slug] = content
+  }
+
   return (
     // Full-viewport below the fixed header (h-20 = 5rem)
     <div className="h-[calc(100vh-5rem)] overflow-hidden">
-      <SeerahExplorer events={events} />
+      <SeerahExplorer events={events} contentMap={contentMap} />
     </div>
   )
 }

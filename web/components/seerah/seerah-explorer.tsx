@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef, useCallback, startTransition } from 'react'
+import React, { useState, useEffect, useRef, useCallback, startTransition } from 'react'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import type { SeerahMapEvent } from './seerah-map'
@@ -22,6 +22,7 @@ const SeerahMap = dynamic(
 
 interface SeerahExplorerProps {
   events: SeerahMapEvent[]
+  contentMap?: Record<string, string>
 }
 
 type Filter = 'all' | 'major'
@@ -53,10 +54,62 @@ const SIG_DOT: Record<SeerahMapEvent['significance'], string> = {
 
 // ── Component ────────────────────────────────────────────────────────────────
 
-export function SeerahExplorer({ events }: SeerahExplorerProps) {
-  const [filter, setFilter] = useState<Filter>('all')
+// ── Markdown renderer — mirrors the full event page ──────────────────────────
+
+function renderMarkdown(content: string): React.ReactNode[] {
+  const lines = content.split('\n')
+  const nodes: React.ReactNode[] = []
+  let i = 0
+  while (i < lines.length) {
+    const line = lines[i]
+    if (line.startsWith('## ')) {
+      nodes.push(
+        <h2 key={i} className="mt-8 text-xl font-bold text-white">
+          {line.slice(3)}
+        </h2>
+      )
+      i++
+    } else if (line.startsWith('### ')) {
+      nodes.push(
+        <h3 key={i} className="mt-6 text-base font-semibold text-white/90">
+          {line.slice(4)}
+        </h3>
+      )
+      i++
+    } else if (line.startsWith('- ')) {
+      const start = i
+      const texts: string[] = []
+      while (i < lines.length && lines[i].startsWith('- ')) {
+        texts.push(lines[i].slice(2))
+        i++
+      }
+      nodes.push(
+        <ul key={start} className="ml-4 list-disc space-y-1 text-iw-text-secondary">
+          {texts.map((t, j) => <li key={j}>{t}</li>)}
+        </ul>
+      )
+    } else if (line.trim() === '') {
+      nodes.push(<br key={i} />)
+      i++
+    } else {
+      nodes.push(
+        <p key={i} className="leading-relaxed text-iw-text-secondary">
+          {line}
+        </p>
+      )
+      i++
+    }
+  }
+  return nodes
+}
+
+export function SeerahExplorer({ events, contentMap = {} }: SeerahExplorerProps) {
+  const [filter, setFilter] = useState<Filter>('major')
   const [activeIndex, setActiveIndex] = useState(0)
   const [expandedSlugs, setExpandedSlugs] = useState<Set<string>>(new Set())
+  // overlay is a boolean — always shows `active`, so any navigation auto-updates it
+  const [overlayOpen, setOverlayOpen] = useState(false)
+  const [showIntro, setShowIntro] = useState(false)
   const activeRowRef = useRef<HTMLDivElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
   const explorerRef = useRef<HTMLDivElement>(null)
@@ -83,6 +136,27 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
     })
   }, [])
 
+  const dismissIntro = useCallback(() => {
+    startTransition(() => setShowIntro(false))
+    try { localStorage.setItem('iw_seerah_intro_seen', '1') } catch { /* noop */ }
+  }, [])
+
+  // Show intro bubble on first visit
+  useEffect(() => {
+    try {
+      if (!localStorage.getItem('iw_seerah_intro_seen')) {
+        startTransition(() => setShowIntro(true))
+      }
+    } catch { /* localStorage unavailable */ }
+  }, [])
+
+  // Auto-dismiss intro after 9s
+  useEffect(() => {
+    if (!showIntro) return
+    const id = setTimeout(dismissIntro, 9000)
+    return () => clearTimeout(id)
+  }, [showIntro, dismissIntro])
+
   // Reset to first event + refocus when filter changes
   useEffect(() => {
     startTransition(() => setActiveIndex(0))
@@ -108,10 +182,15 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
     return () => clearInterval(id)
   }, [])
 
-  // Keyboard navigation — window listener fires regardless of focused element
+  // Keyboard navigation + ESC to close overlay
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return
+      if (e.key === 'Escape') {
+        if (overlayOpen) { setOverlayOpen(false); return }
+        if (showIntro) { dismissIntro(); return }
+      }
+      if (showIntro) { dismissIntro(); return }
       if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') {
         e.preventDefault()
         setActiveIndex((i) => Math.max(0, i - 1))
@@ -122,14 +201,14 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
-  }, [filteredEvents.length])
+  }, [filteredEvents.length, overlayOpen, showIntro, dismissIntro])
 
   const active = filteredEvents[activeIndex]
 
   return (
     <div ref={explorerRef} className="flex h-full w-full overflow-hidden">
       {/* ── LEFT PANEL: Playlist ── */}
-      <div className="flex w-80 flex-shrink-0 flex-col border-r border-iw-border bg-iw-bg lg:w-[360px]">
+      <div className="flex min-h-0 w-80 flex-shrink-0 flex-col overflow-hidden border-r border-iw-border bg-iw-bg lg:w-[360px]">
 
         {/* Panel header */}
         <div className="flex-shrink-0 border-b border-iw-border bg-iw-bg px-4 pb-3 pt-3.5">
@@ -323,19 +402,19 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
                             </p>
                           )}
                           <div className="flex items-center justify-between pb-0.5">
-                            <Link
-                              href={`/seerah/${event.slug}`}
-                              className="inline-flex items-center gap-1 text-[11px] font-medium text-iw-accent transition-colors hover:text-white"
-                              onClick={(e) => e.stopPropagation()}
-                            >
-                              Full page →
-                            </Link>
                             <span className="flex items-center gap-1 text-[10px] text-iw-text-muted">
                               <span
                                 className={`inline-block h-1.5 w-1.5 rounded-full ${SIG_DOT[event.significance]}`}
                               />
                               {event.significance}
                             </span>
+                            <button
+                              type="button"
+                              className="inline-flex items-center gap-1 text-[11px] font-medium text-iw-accent transition-colors hover:text-white"
+                              onClick={(e) => { e.stopPropagation(); goTo(i); setOverlayOpen(true) }}
+                            >
+                              Expand →
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -353,8 +432,11 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
             )
           })}
 
-          {/* /history CTA — always at the bottom */}
-          <div className="border-t border-iw-border/60 p-3">
+        </div>
+
+        {/* /history CTA — only shown when on the last event (burial) */}
+        {activeIndex === filteredEvents.length - 1 && (
+          <div className="flex-shrink-0 border-t border-iw-border/60 p-3">
             <div className="rounded-xl border border-iw-accent/15 bg-iw-surface/40 p-3">
               <p className="text-[11px] font-semibold text-white">The story continues…</p>
               <p className="mt-1 text-[10px] leading-relaxed text-iw-text-secondary">
@@ -368,7 +450,7 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
               </Link>
             </div>
           </div>
-        </div>
+        )}
       </div>
 
       {/* ── RIGHT PANEL: Map ── */}
@@ -382,7 +464,7 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
         )}
 
         {/* Floating event badge */}
-        {active && (
+        {active && !overlayOpen && (
           <div className="pointer-events-none absolute left-3 top-3 z-[800]">
             <div className="rounded-xl border border-iw-border/60 bg-[rgba(13,47,23,0.88)] px-3 py-2 shadow-lg backdrop-blur-sm">
               <p className="text-[12px] font-bold text-white">{active.title_en}</p>
@@ -401,31 +483,164 @@ export function SeerahExplorer({ events }: SeerahExplorerProps) {
         )}
 
         {/* Route legend */}
-        <div className="pointer-events-none absolute bottom-6 right-3 z-[800] space-y-1">
-          <div className="rounded-lg border border-iw-border/40 bg-[rgba(13,47,23,0.75)] px-2.5 py-2 backdrop-blur-sm">
-            <p className="mb-1.5 text-[9px] font-bold uppercase tracking-widest text-iw-text-muted/70">
-              Routes
-            </p>
-            <div className="space-y-1">
-              <div className="flex items-center gap-1.5">
-                <div className="h-px w-5 bg-iw-accent" />
-                <span className="text-[10px] text-iw-text-muted/70">Prophet&apos;s journey</span>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <div className="h-px w-5 bg-[#f5c842] opacity-80" />
-                <span className="text-[10px] text-iw-text-muted/70">People to the Prophet</span>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <div className="h-px w-5 bg-[#7aeaff] opacity-75" />
-                <span className="text-[10px] text-iw-text-muted/70">Sea route</span>
-              </div>
-              <div className="flex items-center gap-1.5">
-                <div className="h-px w-5 bg-[#d4d4ff] opacity-70" />
-                <span className="text-[10px] text-iw-text-muted/70">Night Journey ✦</span>
+        {!overlayOpen && (
+          <div className="pointer-events-none absolute bottom-6 right-3 z-[800] space-y-1">
+            <div className="rounded-lg border border-iw-border/40 bg-[rgba(13,47,23,0.75)] px-2.5 py-2 backdrop-blur-sm">
+              <p className="mb-1.5 text-[9px] font-bold uppercase tracking-widest text-iw-text-muted/70">
+                Routes
+              </p>
+              <div className="space-y-1">
+                <div className="flex items-center gap-1.5">
+                  <div className="h-px w-5 bg-iw-accent" />
+                  <span className="text-[10px] text-iw-text-muted/70">Prophet&apos;s journey</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-px w-5 bg-[#f5c842] opacity-80" />
+                  <span className="text-[10px] text-iw-text-muted/70">People to the Prophet</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-px w-5 bg-[#7aeaff] opacity-75" />
+                  <span className="text-[10px] text-iw-text-muted/70">Sea route</span>
+                </div>
+                <div className="flex items-center gap-1.5">
+                  <div className="h-px w-5 bg-[#d4d4ff] opacity-70" />
+                  <span className="text-[10px] text-iw-text-muted/70">Night Journey ✦</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
+
+        {/* ── Intro bubble — shown once on first visit ── */}
+        {showIntro && (
+          <div
+            className="absolute inset-x-4 bottom-16 z-[850] mx-auto max-w-sm cursor-pointer"
+            onClick={dismissIntro}
+          >
+            <div className="rounded-2xl border border-iw-accent/30 bg-[rgba(13,47,23,0.96)] px-5 py-4 shadow-xl backdrop-blur-sm">
+              <p className="mb-2 text-[11px] font-bold uppercase tracking-widest text-iw-accent">
+                Seerah Explorer
+              </p>
+              <p className="text-[13px] leading-relaxed text-white/90">
+                Follow the life of Prophet Muhammad ﷺ through 100+ chronological events mapped across the Arabian peninsula. Select any event to read the full account, or click <span className="text-iw-accent">Expand →</span> for in-depth detail.
+              </p>
+              <div className="mt-3 flex items-center gap-3 border-t border-iw-accent/20 pt-3">
+                <div className="flex items-center gap-1.5 text-[11px] text-iw-text-muted">
+                  <kbd className="rounded border border-iw-border bg-iw-surface px-1.5 py-0.5 font-mono text-[10px] text-iw-accent">←</kbd>
+                  <kbd className="rounded border border-iw-border bg-iw-surface px-1.5 py-0.5 font-mono text-[10px] text-iw-accent">↑</kbd>
+                  <span>Previous</span>
+                </div>
+                <div className="flex items-center gap-1.5 text-[11px] text-iw-text-muted">
+                  <kbd className="rounded border border-iw-border bg-iw-surface px-1.5 py-0.5 font-mono text-[10px] text-iw-accent">→</kbd>
+                  <kbd className="rounded border border-iw-border bg-iw-surface px-1.5 py-0.5 font-mono text-[10px] text-iw-accent">↓</kbd>
+                  <span>Next</span>
+                </div>
+                <span className="ml-auto text-[10px] text-iw-text-muted/50">click or press any key to dismiss</span>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ── Expand overlay — replaces map, always shows current `active` event ── */}
+        {overlayOpen && active && (
+          <div className="absolute inset-0 z-[900] overflow-y-auto bg-iw-bg">
+            {/* Close button — green, with ESC label */}
+            <div className="sticky top-3 z-10 float-right mr-3 flex items-center gap-1.5">
+              <kbd className="rounded border border-iw-accent/40 bg-iw-surface px-1.5 py-0.5 font-mono text-[10px] text-iw-accent/70">ESC</kbd>
+              <button
+                type="button"
+                aria-label="Close"
+                onClick={() => setOverlayOpen(false)}
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-iw-accent/40 bg-iw-accent/10 text-iw-accent transition-colors hover:bg-iw-accent hover:text-[#0D2F17]"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="px-6 py-6">
+              {/* Date + significance */}
+              <div className="mb-3 flex items-center gap-3">
+                {(() => {
+                  const { primary, ce } = formatDate(active)
+                  return primary ? (
+                    <span className="text-sm font-medium text-iw-accent">
+                      {primary}
+                      {ce && (
+                        <span className="ml-1 font-normal text-iw-text-muted/70">({ce})</span>
+                      )}
+                    </span>
+                  ) : null
+                })()}
+                <span
+                  className={[
+                    'rounded px-2 py-0.5 text-[11px] font-medium',
+                    active.significance === 'major'
+                      ? 'bg-amber-500/15 text-amber-400'
+                      : active.significance === 'moderate'
+                        ? 'bg-iw-accent/10 text-iw-accent'
+                        : 'bg-iw-surface text-iw-text-secondary',
+                  ].join(' ')}
+                >
+                  {active.significance}
+                </span>
+              </div>
+
+              {/* Title */}
+              <h2 className="text-2xl font-bold leading-snug text-white">
+                {active.title_en}
+              </h2>
+              {active.title_ar && (
+                <p
+                  className="mt-2 font-[Amiri,serif] text-xl leading-relaxed text-white/80"
+                  dir="rtl"
+                >
+                  {active.title_ar}
+                </p>
+              )}
+
+              {/* Place */}
+              {active.place_name && (
+                <div className="mt-4 flex items-center gap-1.5 text-sm text-iw-text-secondary">
+                  <svg className="h-4 w-4 flex-shrink-0 text-iw-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  {active.place_name}
+                </div>
+              )}
+
+              {/* Content — full markdown if available, else description_en */}
+              <div className="prose prose-invert mt-6 max-w-none text-sm leading-relaxed text-iw-text-secondary">
+                {contentMap[active.slug]
+                  ? renderMarkdown(contentMap[active.slug])
+                  : <p className="leading-relaxed text-iw-text-secondary">{active.description_en}</p>
+                }
+              </div>
+
+              {/* Sources */}
+              {active.sources && active.sources.length > 0 && (
+                <div className="mt-8 rounded-xl border border-iw-border bg-iw-surface/50 p-5">
+                  <h2 className="mb-3 text-sm font-semibold text-white">Sources</h2>
+                  <ul className="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
+                    {active.sources.map((src, idx) => (
+                      <li key={idx}>{src}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Footer: Full page link */}
+              <div className="mt-8 border-t border-iw-border pt-5">
+                <Link
+                  href={`/seerah/${active.slug}`}
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-iw-accent transition-colors hover:text-white"
+                >
+                  Full page →
+                </Link>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

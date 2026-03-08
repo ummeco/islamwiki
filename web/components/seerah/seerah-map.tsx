@@ -19,6 +19,7 @@ export interface SeerahMapEvent {
   place_lat?: number | null
   place_lng?: number | null
   significance: 'major' | 'moderate' | 'minor'
+  sources?: string[]
 }
 
 interface SeerahMapProps {
@@ -271,13 +272,17 @@ const HISTORICAL_ROUTES: Partial<Record<string, RouteData>> = {
   },
 
   // Night Journey & Ascension — drawn specially in silver
+  // Route stays on land through the Hejaz interior northward to Jerusalem
   'isra-and-miraj': {
     style: 'miraculous',
     waypoints: [
       [21.4225, 39.826],  // Masjid al-Haram, Mecca
-      [24.0,   37.5],
-      [27.0,   35.5],
-      [29.5,   35.0],
+      [23.7,   39.5],     // North through Hejaz interior (inland — coast is ~38.3°E here)
+      [25.7,   38.9],     // Khaybar / northern Hejaz (coast is ~37.2°E here)
+      [27.4,   37.5],     // Northern Hejaz plateau (coast is ~36.0°E here)
+      [28.5,   37.0],     // Tabuk region
+      [30.0,   36.5],     // Northern Arabia / south Jordan
+      [31.0,   36.1],     // Jordan plateau
       [31.7766, 35.2357], // Al-Aqsa Mosque, Jerusalem
     ],
   },
@@ -291,11 +296,11 @@ const HISTORICAL_ROUTES: Partial<Record<string, RouteData>> = {
       [21.4225, 39.826],  // Mecca
       [21.338,  39.832],  // Cave of Thawr (south of Mecca, 3 days)
       [21.25,   39.55],   // West toward coast
-      [21.15,   39.25],   // Near Red Sea
-      [21.45,   39.0],    // Coastal road north
-      [22.0,    38.88],   // Rabigh area coast
+      [21.15,   39.3],    // Near Red Sea coast (east of shoreline)
+      [21.5,    39.18],   // Near Jeddah — coastal road north
+      [22.0,    39.08],   // Rabigh area — on land
       [22.36,   39.13],   // Qudayd
-      [22.79,   39.04],   // Rabigh
+      [22.79,   39.1],    // Rabigh
       [23.15,   39.22],   // Al-Abwa
       [23.65,   39.45],   // Heading northeast
       [24.0,    39.55],   // Approaching
@@ -333,8 +338,8 @@ const HISTORICAL_ROUTES: Partial<Record<string, RouteData>> = {
       [24.4686, 39.6142],
       [23.8,    39.3],
       [23.0,    39.1],
-      [22.4,    39.05],
-      [22.1,    38.85],  // Al-Muraysi' (coastal Hejaz)
+      [22.4,    39.1],
+      [22.1,    39.05],  // Al-Muraysi' (coastal Hejaz)
     ],
   },
 
