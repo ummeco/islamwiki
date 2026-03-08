@@ -127,8 +127,9 @@ Current state of every section, component, and dataset. Updated 2026-03-08.
 | Route | Status | Notes |
 | --- | --- | --- |
 | `/account` | [F] | Login/register with iron-session |
-| `/profile/[username]` | [P] | Layout exists, needs contributor system |
-| `/admin` | [P] | Dashboard layout, needs auth guard + contributor system |
+| `/profile/[username]` | [F] | Trust badge, progress bar, edit history, stat cards (Hasura-backed) |
+| `/admin` | [F] | Dashboard with pending/recent edit counts, auth guard, Hasura-backed |
+| `/admin/edits` | [F] | Pending edit queue with diff viewer, approve/deny actions |
 
 ---
 
@@ -159,3 +160,6 @@ Current state of every section, component, and dataset. Updated 2026-03-08.
 - CSP headers
 - generateStaticParams on all content pages
 - Permanent (301) redirects for slug variants
+- Contributor system: revision submission, trust scoring, auto-approve thresholds, diff viewer
+- Admin edit queue: pending/approved/denied revisions, diff view, approve/deny actions
+- Wiki edit flow: MarkdownEditor → Server Action → Hasura revision → admin review queue

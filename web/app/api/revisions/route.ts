@@ -52,6 +52,10 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'type and slug required' }, { status: 400 })
   }
 
-  const revisions = await getRevisionsByContent(contentType, contentSlug)
-  return NextResponse.json({ revisions })
+  try {
+    const revisions = await getRevisionsByContent(contentType, contentSlug)
+    return NextResponse.json({ revisions })
+  } catch {
+    return NextResponse.json({ revisions: [] }, { status: 500 })
+  }
 }

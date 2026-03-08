@@ -69,6 +69,7 @@ export function MarkdownEditor({
         <input type="hidden" name="content_type" value={contentType} />
         <input type="hidden" name="content_slug" value={contentSlug} />
         <input type="hidden" name="content_title" value={contentTitle} />
+        <input type="hidden" name="previous_content" value={currentContent} />
 
         {/* Toolbar */}
         <div className="mb-2 flex items-center gap-1 rounded-t-xl border border-b-0 border-iw-border bg-iw-bg/60 px-2 py-1.5">

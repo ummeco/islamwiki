@@ -53,7 +53,6 @@ export async function middleware(request: NextRequest) {
   // --- Auth middleware (on matching paths only) ---
   const needsAuth =
     checkPath.startsWith('/admin') ||
-    checkPath.startsWith('/profile') ||
     checkPath.startsWith('/auth/') ||
     checkPath === '/account' ||
     checkPath === '/signin' ||
@@ -83,7 +82,7 @@ export async function middleware(request: NextRequest) {
 
   // Protected: must be logged in
   if (!session.isLoggedIn) {
-    if (checkPath.startsWith('/admin') || checkPath.startsWith('/profile')) {
+    if (checkPath.startsWith('/admin')) {
       const loginUrl = new URL('/account', request.url)
       loginUrl.searchParams.set('redirect', pathname)
       return NextResponse.redirect(loginUrl)
@@ -125,7 +124,6 @@ export const config = {
     '/(ar|id)/:path*',
     // Auth-protected routes
     '/admin/:path*',
-    '/profile/:path*',
     '/auth/:path*',
     '/account',
     '/signin',

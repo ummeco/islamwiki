@@ -4,7 +4,7 @@ import { notFound, redirect } from 'next/navigation'
 import { getWikiPageBySlug, getWikiPages } from '@/lib/data/wiki'
 import { getSessionUser } from '@/lib/auth'
 import { sanitizeHtml } from '@/lib/sanitize'
-import { getRevisions } from '@/lib/data/revisions'
+import { getRevisionsByContent } from '@/lib/contributor/revisions'
 import { WikiLayout } from '@/components/wiki/wiki-layout'
 import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
@@ -132,7 +132,7 @@ export default async function WikiPage({ params, searchParams }: Props) {
 
   // ── History Mode ──
   if (mode === 'history') {
-    const revisions = getRevisions('wiki', pageSlug)
+    const revisions = await getRevisionsByContent('wiki', pageSlug).catch(() => [])
 
     return (
       <WikiLayout breadcrumbs={breadcrumbs} showToc={false}>
@@ -160,10 +160,10 @@ export default async function WikiPage({ params, searchParams }: Props) {
                       <span className={`inline-block rounded px-1.5 py-0.5 text-xs font-medium ${rev.status === 'approved' ? 'bg-emerald-500/15 text-emerald-400' : rev.status === 'pending' ? 'bg-amber-500/15 text-amber-400' : 'bg-red-500/15 text-red-400'}`}>
                         {rev.status}
                       </span>
-                      <span className="text-sm text-iw-text">{rev.edit_summary}</span>
+                      <span className="text-sm text-iw-text">{rev.change_summary}</span>
                     </div>
                     <div className="mt-1 flex items-center gap-3 text-xs text-iw-text-secondary/70">
-                      <span>{rev.editor_name}</span>
+                      <span>{rev.editor_username}</span>
                       <span>{new Date(rev.created_at).toLocaleString()}</span>
                     </div>
                   </div>
@@ -184,7 +184,7 @@ export default async function WikiPage({ params, searchParams }: Props) {
   // ── Diff Mode ──
   if (mode === 'diff') {
     const { old: oldId, new: newId } = await searchParams
-    const revisions = getRevisions('wiki', pageSlug)
+    const revisions = await getRevisionsByContent('wiki', pageSlug).catch(() => [])
     const oldRev = revisions.find((r) => r.id === oldId)
     const newRev = revisions.find((r) => r.id === newId)
 
@@ -210,25 +210,25 @@ export default async function WikiPage({ params, searchParams }: Props) {
         <div className="max-w-4xl">
           <h1 className="mb-2 text-2xl font-bold text-white">Comparing revisions: {page.title}</h1>
           <p className="mb-6 text-sm text-iw-text-secondary/70">
-            Changes between {oldRev.editor_name} ({oldDate}) and {newRev.editor_name} ({newDate})
+            Changes between {oldRev.editor_username} ({oldDate}) and {newRev.editor_username} ({newDate})
           </p>
           <div className="mb-4 grid grid-cols-2 gap-4">
             <div className="rounded-lg border border-iw-border bg-iw-surface/40 px-3 py-2">
               <div className="text-xs font-medium text-iw-text-secondary/70">Old revision</div>
-              <div className="mt-0.5 text-sm text-iw-text">{oldRev.edit_summary}</div>
-              <div className="mt-1 text-xs text-iw-text-secondary/50">{oldRev.editor_name} &middot; {oldDate}</div>
+              <div className="mt-0.5 text-sm text-iw-text">{oldRev.change_summary}</div>
+              <div className="mt-1 text-xs text-iw-text-secondary/50">{oldRev.editor_username} &middot; {oldDate}</div>
             </div>
             <div className="rounded-lg border border-iw-border bg-iw-surface/40 px-3 py-2">
               <div className="text-xs font-medium text-iw-text-secondary/70">New revision</div>
-              <div className="mt-0.5 text-sm text-iw-text">{newRev.edit_summary}</div>
-              <div className="mt-1 text-xs text-iw-text-secondary/50">{newRev.editor_name} &middot; {newDate}</div>
+              <div className="mt-0.5 text-sm text-iw-text">{newRev.change_summary}</div>
+              <div className="mt-1 text-xs text-iw-text-secondary/50">{newRev.editor_username} &middot; {newDate}</div>
             </div>
           </div>
           <RevisionDiff
-            oldContent={oldRev.content}
-            newContent={newRev.content}
-            oldLabel={`${oldRev.editor_name} (${oldDate})`}
-            newLabel={`${newRev.editor_name} (${newDate})`}
+            oldContent={oldRev.previous_content ?? ''}
+            newContent={newRev.new_content}
+            oldLabel={`${oldRev.editor_username} (${oldDate})`}
+            newLabel={`${newRev.editor_username} (${newDate})`}
           />
           <div className="mt-4">
             <Link href={`/wiki/${pageSlug}/history`} className="text-sm text-iw-accent hover:text-white">
