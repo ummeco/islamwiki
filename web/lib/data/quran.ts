@@ -33,6 +33,8 @@ export interface AyahData {
   ruku: number
   section_id: number | null
   juz: number
+  page: number
+  hizb: number
 }
 
 export interface JuzAyahGroup {
@@ -71,6 +73,8 @@ export function getAyahsBySurah(surahNumber: number): AyahData[] {
       ruku: a.ruku,
       section_id: a.section_id,
       juz: a.juz,
+      page: a.page,
+      hizb: a.hizb,
     }))
   } catch {
     const surah = getSurahByNumber(surahNumber)
@@ -86,6 +90,8 @@ export function getAyahsBySurah(surahNumber: number): AyahData[] {
       ruku: 1,
       section_id: null,
       juz: surah.juz_start,
+      page: surah.page_start,
+      hizb: 1,
     }))
   }
 }
@@ -115,6 +121,22 @@ export function getJuzAyahs(juzNumber: number): JuzAyahGroup[] {
     // and this surah starts before juz N-1. (conservative: always load if juz_start >= juzNumber - 1)
     if (surah.juz_start < juzNumber - 1) continue
     const ayahs = getAyahsBySurah(surah.number).filter((a) => a.juz === juzNumber)
+    if (ayahs.length > 0) groups.push({ surah, ayahs })
+  }
+  return groups
+}
+
+// Returns all ayahs on a given Mushaf page (1–604), grouped by surah.
+// Uses page_start to identify candidate surahs without loading all 114 files.
+export function getAyahsByPage(pageNumber: number): JuzAyahGroup[] {
+  const groups: JuzAyahGroup[] = []
+  for (let i = 0; i < surahs.length; i++) {
+    const surah = surahs[i]
+    if (surah.page_start > pageNumber) break
+    const nextPageStart = i + 1 < surahs.length ? surahs[i + 1].page_start : 605
+    // Skip surahs that end before this page (next surah started before or on this page, and this surah started before this page)
+    if (nextPageStart <= pageNumber && surah.page_start < pageNumber) continue
+    const ayahs = getAyahsBySurah(surah.number).filter((a) => a.page === pageNumber)
     if (ayahs.length > 0) groups.push({ surah, ayahs })
   }
   return groups
