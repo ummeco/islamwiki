@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { getUsers } from '@/lib/data/users'
-import { getPendingRevisions, getRecentRevisions } from '@/lib/data/revisions'
+import { getPendingRevisions, getRecentReviewedRevisions } from '@/lib/contributor/revisions'
 import { getArticles } from '@/lib/data/articles'
 import { getWikiPages } from '@/lib/data/wiki'
 import { getPeople } from '@/lib/data/people'
@@ -13,22 +12,17 @@ export const metadata: Metadata = {
   description: 'Islam.wiki administration panel.',
 }
 
-export default function AdminPage() {
-  const users = getUsers()
-  const pendingEdits = getPendingRevisions()
-  const recentEdits = getRecentRevisions(10)
+export default async function AdminPage() {
+  const [pending, recentEdits] = await Promise.all([
+    getPendingRevisions(10).catch(() => []),
+    getRecentReviewedRevisions(10).catch(() => []),
+  ])
+  const pendingEdits = pending
   const articles = getArticles()
   const wikiPages = getWikiPages()
   const people = getPeople()
   const books = getBooks()
   const seerahEvents = getSeerahEvents()
-
-  const trustCounts = [0, 0, 0, 0, 0, 0]
-  for (const u of users) {
-    if (u.trust_level >= 0 && u.trust_level <= 5) {
-      trustCounts[u.trust_level]++
-    }
-  }
 
   return (
     <div className="section-container py-12">
@@ -54,7 +48,7 @@ export default function AdminPage() {
           href="/admin/users"
           className="rounded-xl border border-iw-border bg-iw-surface p-4 transition-colors hover:border-iw-border"
         >
-          <p className="text-2xl font-bold text-white">{users.length}</p>
+          <p className="text-2xl font-bold text-white">—</p>
           <p className="text-sm text-iw-text-secondary">Users</p>
         </Link>
         <Link
@@ -99,26 +93,31 @@ export default function AdminPage() {
           </dl>
         </div>
 
-        {/* Trust Levels */}
+        {/* Moderation Links */}
         <div className="rounded-xl border border-iw-border bg-iw-surface p-5">
           <h2 className="mb-4 text-lg font-semibold text-white">
-            User Trust Levels
+            Moderation
           </h2>
-          <dl className="space-y-2.5 text-sm">
+          <nav className="space-y-2">
             {[
-              { label: 'Level 5 (Owner)', count: trustCounts[5] },
-              { label: 'Level 4 (Admin)', count: trustCounts[4] },
-              { label: 'Level 3 (Moderator)', count: trustCounts[3] },
-              { label: 'Level 2 (Editor)', count: trustCounts[2] },
-              { label: 'Level 1 (Trusted)', count: trustCounts[1] },
-              { label: 'Level 0 (New)', count: trustCounts[0] },
-            ].map((row) => (
-              <div key={row.label} className="flex justify-between">
-                <dt className="text-iw-text-secondary">{row.label}</dt>
-                <dd className="font-medium text-iw-text">{row.count}</dd>
-              </div>
+              { href: '/admin/edits', label: 'Review Pending Edits', count: pendingEdits.length },
+              { href: '/admin/users', label: 'Manage Users', count: null },
+              { href: '/admin/ai-reviews', label: 'AI Review Queue', count: 0 },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="flex items-center justify-between rounded-lg border border-iw-border px-3 py-2 text-sm text-iw-text-secondary transition-colors hover:border-iw-accent/30 hover:bg-iw-surface hover:text-white"
+              >
+                <span>{link.label}</span>
+                {link.count !== null && (
+                  <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${link.count > 0 ? 'bg-amber-500/20 text-amber-400' : 'bg-iw-surface text-iw-text-muted'}`}>
+                    {link.count}
+                  </span>
+                )}
+              </Link>
             ))}
-          </dl>
+          </nav>
         </div>
       </div>
 
@@ -145,10 +144,10 @@ export default function AdminPage() {
                 >
                   {rev.status}
                 </span>
-                <span className="text-iw-text">{rev.content_title}</span>
+                <span className="text-iw-text">{rev.content_type}/{rev.content_slug}</span>
                 <span className="text-iw-text-secondary/50">&middot;</span>
                 <span className="text-xs text-iw-text-secondary/70">
-                  {rev.editor_name}
+                  {rev.editor_username}
                 </span>
                 <span className="text-xs text-iw-text-secondary/50">
                   {new Date(rev.created_at).toLocaleDateString()}

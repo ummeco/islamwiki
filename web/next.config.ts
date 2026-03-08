@@ -24,28 +24,26 @@ const securityHeaders = [
   },
 ]
 
-// outputFileTracingExcludes is supported at runtime but not yet in the public TS type
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// outputFileTracingExcludes is at root level (not experimental) in Next.js 16
+// Cast to any since it's not yet in the public NextConfig type definition
 const nextConfig: any = {
   // All content pages are statically generated — exclude large data directories
   // from serverless function bundles (they're only needed at build time)
-  experimental: {
-    outputFileTracingExcludes: {
-      '*': [
-        './data/hadith/**',
-        './data/quran/**',
-        './data/relations/**',
-        './data/qa/**',
-        './data/seerah/**',
-        './data/people/**',
-        './data/articles/**',
-        './data/books/**',
-        './data/wiki/**',
-        './data/media/**',
-        './data/taxonomy/**',
-        './data/sects/**',
-      ],
-    },
+  outputFileTracingExcludes: {
+    '*': [
+      './data/hadith/**',
+      './data/quran/**',
+      './data/relations/**',
+      './data/qa/**',
+      './data/seerah/**',
+      './data/people/**',
+      './data/articles/**',
+      './data/books/**',
+      './data/wiki/**',
+      './data/media/**',
+      './data/taxonomy/**',
+      './data/sects/**',
+    ],
   },
   images: {
     remotePatterns: [
