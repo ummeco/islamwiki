@@ -1,0 +1,79 @@
+{
+  "_note": "Hard overrides applied AFTER all batch consolidation. Fixes wrong IDs from early batches.",
+
+  "al-mudawwanah": {
+    "source_url": "https://al-maktaba.org/book/4414",
+    "source_type": "html",
+    "notes": "Alias of al-mudawwanah-al-kubra. batch1 wrongly assigned book/587 (al-Kashshaf)"
+  },
+  "al-mabsut": {
+    "source_url": "https://al-maktaba.org/book/1514",
+    "source_type": "html",
+    "notes": "Alias of al-mabsut-sarakhsi. batch2 wrongly assigned book/6164 (al-Milal wan-Nihal)"
+  },
+  "hashiyat-ibn-abidin": {
+    "source_url": "https://al-maktaba.org/book/7124",
+    "source_type": "html",
+    "notes": "Alias of radd-al-muhtar-ibn-abidin. batch1 wrongly assigned book/21613 (al-Khasais)"
+  },
+  "siyar-alam-an-nubala": {
+    "source_url": "https://al-maktaba.org/book/1584",
+    "source_type": "html",
+    "notes": "Alias of siyar-alam-an-nubala-dhahabi. batch1 assigned book/10906 (unclear). Correct ID confirmed by batches 3+4"
+  },
+  "al-milal-wan-nihal": {
+    "source_url": "https://al-maktaba.org/book/11812",
+    "source_type": "html",
+    "notes": "batch2 wrongly assigned book/6164 (al-Mabsut). batch8 correct ID book/11812 was blocked by same-score tie"
+  },
+  "hayat-as-sahabah": {
+    "source_url": "https://archive.org/details/hayatus-sahaba-english",
+    "source_type": "pdf",
+    "notes": "batch1 wrongly assigned book/8528 (Minhaj al-Abidin). alias of hayat-as-sahaba-kandhalwi"
+  },
+  "zad-al-masir": {
+    "source_url": "https://shamela.ws/book/10657",
+    "source_type": "html",
+    "notes": "VERIFY: batch1 assigned book/23619 which collides with anwar-at-tanzil. Shamela fallback used. Zad al-Masir = Ibn al-Jawzi tafsir"
+  },
+  "anwar-at-tanzil": {
+    "source_url": "https://al-maktaba.org/book/23588",
+    "source_type": "html",
+    "notes": "Corrected: batch8 confirmed book/23588 for Baydawi tafsir. batch2 had book/23619 which collided with zad-al-masir"
+  },
+  "madarik-at-tanzil": {
+    "source_url": "https://al-maktaba.org/book/1394",
+    "source_type": "html",
+    "notes": "Corrected: batch8 confirmed book/1394 for Nasafi tafsir. batch2 had book/23635 which collided with tafsir-ar-razi"
+  },
+  "tafsir-ar-razi": {
+    "source_url": "https://al-maktaba.org/book/22638",
+    "source_type": "html",
+    "notes": "VERIFY: batch1 assigned book/23635 which collided with madarik-at-tanzil. Mafatih al-Ghayb ID needs confirmation"
+  },
+  "al-aqeedah-al-wasitiyyah": {
+    "source_url": "https://al-maktaba.org/book/31610",
+    "source_type": "html",
+    "notes": "VERIFY: batch1 ID. al-Wasitiyyah by Ibn Taymiyyah. Confirm not same as al-Tahawiyyah (book/31610 may be wrong)"
+  },
+  "tarikh-at-tabari": {
+    "source_url": "https://al-maktaba.org/book/9783",
+    "source_type": "html",
+    "notes": "VERIFY: batch1 ID collided with muqaddimah-ibn-khaldun in raw agent data but final JSON shows khaldun has shamela/12320 — may be fine"
+  },
+  "towards-just-monetary-system": {
+    "source_url": "https://archive.org/details/towards-a-just-monetary-system",
+    "source_type": "pdf",
+    "notes": "Shares archive URL with islamic-finance-quranic-basis. May be same book or different editions"
+  },
+  "getting-the-best-of-hajj": {
+    "source_url": "https://archive.org/details/islamicbooksfromkalamullahcollection/Fiqh%20of%20Hajj.pdf",
+    "source_type": "pdf",
+    "notes": "Shares Kalamullah PDF with hajj-and-umrah. Verify if same book"
+  },
+  "al-qawanin-al-fiqhiyyah": {
+    "source_url": "https://al-maktaba.org/book/4427",
+    "source_type": "html",
+    "notes": "Was MISSING in consolidation. Same book as al-qawanin-al-fiqhiyyah-ibn-juzayy"
+  }
+}

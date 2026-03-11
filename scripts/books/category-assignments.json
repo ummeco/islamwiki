@@ -1,0 +1,3014 @@
+{
+  "sahih-al-bukhari": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sahih-muslim": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sunan-abu-dawud": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "jami-at-tirmidhi": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-ibn-kathir": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-al-jalalayn": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ar-raheeq-al-makhtum": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "riyadh-us-saliheen": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-aqeedah-al-wasitiyyah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-arbaeen-an-nawawiyyah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "zad-al-maad": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-bidayah-wan-nihayah": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fiqh-us-sunnah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ihya-ulum-ad-din": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muwafaqat": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fath-al-bari": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-an-nawawi-ala-sahih-muslim": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-minhaj-sharh-sahih-muslim-nawawi"
+  },
+  "kitab-at-tawhid": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mugni": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-mughni-ala-mukhtasar-al-khiraqi"
+  },
+  "siyar-alam-an-nubala": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "siyar-alam-an-nubala-dhahabi"
+  },
+  "sunan-an-nasai": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sunan-ibn-majah": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "muwatta-malik": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "musnad-ahmad": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sunan-ad-darimi": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "musannaf-ibn-abi-shaybah": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "musannaf-abdur-razzaq": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-adab-al-mufrad": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "bulugh-al-maram": {
+    "primary": "hadith-sciences",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mishkat-al-masabih": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "umdat-al-ahkam": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "at-targhib-wat-tarhib": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sahih-ibn-hibban": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mustadrak": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-mustadrak-ala-as-sahihayn"
+  },
+  "silsilah-sahihah": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-at-tabari": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-al-qurtubi": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-ar-razi": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-al-baghawi": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-as-sadi": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "zad-al-masir": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "adwa-al-bayan": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ad-durr-al-manthur": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-ath-thalabi": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-ibn-al-arabi": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-umm": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-umm-imam-ash-shafii"
+  },
+  "al-mudawwanah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-mudawwanah-al-kubra"
+  },
+  "al-hidayah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "bidayat-al-mujtahid": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": "bidayat-al-mujtahid"
+  },
+  "zad-al-mustaqni": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "zad-al-mustaqni-fi-ikhtisar-al-muqni"
+  },
+  "al-kafi-fi-fiqh": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": "al-kafi-fi-fiqh"
+  },
+  "minhaj-at-talibin": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-majmu-sharh-al-muhadhdhab": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "al-majmu-sharh-muhadhdhab-nawawi"
+  },
+  "al-ikhtiyar": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hashiyat-ibn-abidin": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "radd-al-muhtar-ibn-abidin"
+  },
+  "al-muqaddimah-al-hadramiyyah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-muqaddimah-al-hadramiyyah-fiqh"
+  },
+  "sharh-mukhtasar-khalil": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-insaf": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "al-insaf-fi-marifat-ar-rajih-mardawi"
+  },
+  "i-lam-al-muwaqqi-in": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ashbah-wan-nazair-suyuti": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-aqeedah-at-tahawiyyah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-al-aqeedah-at-tahawiyyah": {
+    "primary": "sharh",
+    "secondary": "aqeedah",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "lumat-al-itiqad": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ibanah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-aqeedah-al-hamawiyyah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "dar-taarud-al-aql-wan-naql": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "minhaj-as-sunnah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "minhaj-as-sunnah-nabawiyyah-ibn-taymiyyah"
+  },
+  "kitab-at-tawhid-ibn-khuzaymah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-usul-itiqad-ahlus-sunnah": {
+    "primary": "sharh",
+    "secondary": "aqeedah",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-wajiz-fi-aqeedah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sirat-ibn-hisham": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tabaqat-ibn-sad": {
+    "primary": "biography",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tarikh-at-tabari": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-kamil-fit-tarikh": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": "al-kamil-fit-tarikh"
+  },
+  "hayat-as-sahabah": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-isabah-fi-tamyiz-as-sahabah": {
+    "primary": "biography",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muqaddimah-ibn-khaldun": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "muqaddimah-ibn-khaldun"
+  },
+  "ash-shifa-bi-tarif-huquq-al-mustafa": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-fusul-fi-sirat-ar-rasul": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "wafayat-al-ayan": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "wafayat-al-ayan-ibn-khallikan"
+  },
+  "madarij-as-salikin": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-wabil-as-sayyib": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mukhtasar-minhaj-al-qasidin": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "jami-al-ulum-wal-hikam": {
+    "primary": "sharh",
+    "secondary": "ethics-spirituality",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-jawab-al-kafi": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-fawaid": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tazkiyat-an-nafs": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "risalat-al-mustarshidin": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-adab-ash-shariyyah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ad-daa-wad-dawaa": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ajrumiyyah": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "alfiyyat-ibn-malik": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "lisan-al-arab": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "qatr-an-nada": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-balaghah-al-wadihah": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ar-risalah": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-waraqat": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rawdat-an-nadhir": {
+    "primary": "sharh",
+    "secondary": "usul-al-fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "irshad-al-fuhul": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "irshad-al-fuhul-shawkani-usul"
+  },
+  "al-mustasfa": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-milal-wan-nihal": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-fisal": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kitab-al-kharaj": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "muqaddimah-ibn-khaldun": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tahdhib-al-kamal": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "nukhbat-al-fikar": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tadrib-ar-rawi": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-itqan-fi-ulum-al-quran": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-itqan-fi-ulum-al-quran-suyuti"
+  },
+  "al-burhan-fi-ulum-al-quran": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-burhan-fi-ulum-al-quran-zarkashi"
+  },
+  "al-mabsut": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-mabsut-sarakhsi"
+  },
+  "al-minhaj-sharh-sahih-muslim": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-minhaj-sharh-sahih-muslim-nawawi"
+  },
+  "al-isabah": {
+    "primary": "biography",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-isabah-fi-tamyiz-as-sahabah"
+  },
+  "miftah-dar-as-saadah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ighathat-al-lahfan": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "talbis-iblis": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sifat-as-safwah": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ash-shifa": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ash-shamail-al-muhammadiyyah": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-rahiq-al-makhtum-mubarakpuri": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "ar-raheeq-al-makhtum"
+  },
+  "al-wajiz-fi-fiqh": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-qawaid-al-fiqhiyyah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tahafut-al-falasifah": {
+    "primary": "aqeedah",
+    "secondary": "philosophy",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-munqidh-min-ad-dalal": {
+    "primary": "aqeedah",
+    "secondary": "philosophy",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hujjat-allah-al-balighah": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "maarij-al-quds": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "majmu-al-fatawa": {
+    "primary": "general",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "iqtida-as-sirat-al-mustaqim": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kashf-ash-shubuhat": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "usul-ath-thalathah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-tibyan-fi-adab-hamalat-al-quran": {
+    "primary": "quran-sciences",
+    "secondary": "ethics-spirituality",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rawdat-at-talibin": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "rawdat-al-talibin-nawawi"
+  },
+  "tuhfat-al-muhtaj": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "tuhfat-al-muhtaj-sharh-minhaj-haytami"
+  },
+  "al-bahr-ar-raiq": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "al-bahr-ar-raiq-sharh-kanz-daqaiq"
+  },
+  "badai-as-sanai": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "badai-al-sanai-kasani"
+  },
+  "al-muhalla": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "nayl-al-awtar": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "nayl-al-awtar-shawkani"
+  },
+  "nur-al-idah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "maraqi-al-falah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kanz-ad-daqaiq": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hashiyat-ad-dasuqi": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "hashiyat-ad-dusuqi-ala-sharh-kabir"
+  },
+  "anwar-at-tanzil": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "madarik-at-tanzil": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "irshad-al-aql-as-salim": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ruh-al-maani": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-as-sunnah-baghawi": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "sharh-as-sunnah-al-baghawi"
+  },
+  "al-mujam-al-kabir": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "shuab-al-iman": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "as-sunan-al-kubra-bayhaqi": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kitab-az-zuhd-ahmad": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": "kitab-az-zuhd-ahmad"
+  },
+  "umm-al-barahin": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-iqtisad-fi-al-itiqad": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-irshad-juwayni": {
+    "primary": "sharh",
+    "secondary": "aqeedah",
+    "canonical": false,
+    "canonical_slug": "al-irshad-ila-qawati-al-adillah-juwayni"
+  },
+  "al-risalah-al-qushayriyyah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "ar-risalah-al-qushayriyyah"
+  },
+  "qut-al-qulub": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-hikam-al-ataiyyah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kashf-al-mahjub": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "minhaj-al-abidin": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kitab-ar-riayah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "adab-ad-dunya-wad-din": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rawdat-al-uqala": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-ibn-aqil": {
+    "primary": "sharh",
+    "secondary": "arabic-language",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-khasais": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "dalail-al-ijaz": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "asrar-al-balaghah": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mahsul": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ihkam-amidi": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ihkam-ibn-hazm": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-furuq": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-furuq-al-qarafi"
+  },
+  "marifat-ulum-al-hadith": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-kifayah-khatib": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-jami-li-akhlaq-ar-rawi": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "as-sirah-an-nabawiyyah-ibn-kathir": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "subul-al-huda-war-rashad": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "futuh-al-buldan": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": "futuh-al-buldan"
+  },
+  "muruj-adh-dhahab": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ahkam-as-sultaniyyah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tabsirat-al-hukkam": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muwafaqat-shatibi": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muqaddimah-ibn-as-salah": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fath-al-qadir": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ashbah-wan-nazair-ibn-nujaym": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-wajiz-fi-fiqh-as-sunnah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-iqna-fi-hall-alfaz-abi-shuja": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mughni-al-muhtaj": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "mughni-al-muhtaj-khatib-ash-shirbini"
+  },
+  "nihayat-al-muhtaj": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "nihayat-al-muhtaj-sharh-minhaj-ramli"
+  },
+  "al-iklil-fi-istinbat-at-tanzil": {
+    "primary": "quran-sciences",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "at-tamhid": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-tamhid-ibn-abd-al-barr"
+  },
+  "al-istidhkar": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-istidhkar-ibn-abd-al-barr"
+  },
+  "tahdhib-at-tahdhib": {
+    "primary": "hadith-sciences",
+    "secondary": "biography",
+    "canonical": false,
+    "canonical_slug": "tahdhib-al-tahdhib-ibn-hajar"
+  },
+  "taqrib-at-tahdhib": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "taqrib-al-tahdhib-ibn-hajar"
+  },
+  "tarikh-baghdad": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ansab-al-ashraf": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-bidayah-fi-al-fiqh": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-majmu-fatawa-ibn-taymiyyah": {
+    "primary": "general",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "majmu-al-fatawa"
+  },
+  "sharh-al-maqasid": {
+    "primary": "sharh",
+    "secondary": "aqeedah",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-al-aqaid-an-nasafiyyah": {
+    "primary": "sharh",
+    "secondary": "aqeedah",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tabaqat-ash-shafiyyah-al-kubra": {
+    "primary": "biography",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "tabaqat-ash-shafiyyah-al-kubra-subki"
+  },
+  "al-jawahir-al-mudiyyah": {
+    "primary": "biography",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ad-dibaj-al-mudhahhab": {
+    "primary": "biography",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-madhab-al-hanbali": {
+    "primary": "biography",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-risalah-fi-usul-al-fiqh": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ghayat-al-maram": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-luma-shirazi": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muhadhdhab": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "manazil-as-sairin": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ghayat-al-taqrib": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muqni-ibn-qudamah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-uddah-sharh-al-umdah": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-manthur-fi-al-qawaid": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-burhan-fi-usul-al-fiqh": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tanbih-al-ghafilin": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-kabair-dhahabi": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-al-kashshaf": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-al-khazin": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-abu-bakr-al-jazairi": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "maarif-al-quran": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-adhkar-nawawi": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-athkar-an-nawawi"
+  },
+  "hisn-al-muslim": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hayat-as-sahaba-kandhalwi": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muqaddimah-ibn-rushd": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "muqaddimat-ibn-rushd-al-jadd"
+  },
+  "al-hawi-al-kabir": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-sahih-al-bukhari-ibn-battal": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "umdat-al-qari": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ikmal-al-mu-lim": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "ikmal-al-mualim-qadi-iyad"
+  },
+  "miftah-al-ulum": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "talkhis-al-miftah": {
+    "primary": "sharh",
+    "secondary": "arabic-language",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharhush-shudur": {
+    "primary": "sharh",
+    "secondary": "arabic-language",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mughni-al-labib": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kitab-al-umm-hadith": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-umm-imam-ash-shafii"
+  },
+  "al-istighna-ibn-abd-al-barr": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "usd-al-ghabah": {
+    "primary": "biography",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "usud-al-ghabah-ibn-athir"
+  },
+  "hilyat-al-awliya": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-fikr-as-sami": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ayyuha-al-walad": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kimiya-yi-saadat": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ilam-al-muwaqqiin-summary": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "at-turuq-al-hukmiyyah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "shifaa-al-alil": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tibb-an-nabawi": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-bayaan-wat-tabyeen": {
+    "primary": "arabic-language",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ar-rawd-al-unuf": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mawahib-al-ladunniyyah": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kashf-az-zunun": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-fiqh-al-islami-wa-adillatuh": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muwatta-imam-muhammad": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "muwatta-riwayat-ash-shaybani"
+  },
+  "al-jawab-as-sahih": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "izhar-al-haqq": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "maqasid-ash-shariah-ibn-ashur": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tafsir-at-tahrir-wat-tanwir": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fi-zilal-al-quran": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "minhaj-talibin-nawawi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tabyin-al-haqaiq": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-futuhat-al-ilahiyyah": {
+    "primary": "sharh",
+    "secondary": "tafsir",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "iqna-hall-alfaz-abi-shuja": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mughni-ala-mukhtasar-al-khiraqi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rawdat-al-talibin-nawawi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "nihayat-al-muhtaj-ramli": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "nihayat-al-muhtaj-sharh-minhaj-ramli"
+  },
+  "tuhfat-al-muhtaj-haytami": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "tuhfat-al-muhtaj-sharh-minhaj-haytami"
+  },
+  "al-muhadhdhab-shirazi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-wajiz-fi-fiqh-ghazali": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-al-kabir-dardiri": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "ash-sharh-al-kabir-dardir"
+  },
+  "hashiyat-al-dasuqi": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "hashiyat-ad-dusuqi-ala-sharh-kabir"
+  },
+  "al-mudawwanah-al-kubra": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "bidayat-al-mubtadi-marginani": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fath-al-qadir-kamal-ibn-humam": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "radd-al-muhtar-ibn-abidin": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-insaf-mardawi": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "al-insaf-fi-marifat-ar-rajih-mardawi"
+  },
+  "al-iqna-hajjawi": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kashshaf-al-qina-buhuti": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-furoo-ibn-muflih": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-muntaha-al-iradat-buhuti": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "muqaddimat-ibn-rushd-al-jadd": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-bayan-wal-tahsil-ibn-rushd": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-dhakhirah-qarafi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mabsut-sarakhsi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "badai-al-sanai-kasani": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muhalla-ibn-hazm": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-tamhid-ibn-abd-al-barr": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-istidhkar-ibn-abd-al-barr": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "umdatul-qari-ayni": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "irshad-al-sari-qastallani": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ikmal-al-mualim-qadi-iyad": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-minhaj-sharh-sahih-muslim-nawawi": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tuhfat-al-ahwadhi-mubarakpuri": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "tuhfat-al-ahwadhi-mubarakfuri"
+  },
+  "awn-al-mabud-azimabadi": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-sunan-al-nasai-suyuti": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-sunan-ibn-majah-suyuti": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-talkhis-al-habir-ibn-hajar": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "nasb-al-rayah-zaylai": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tahdhib-al-kamal-mizzi": {
+    "primary": "hadith-sciences",
+    "secondary": "biography",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tahdhib-al-tahdhib-ibn-hajar": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "taqrib-al-tahdhib-ibn-hajar": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "lisan-al-mizan-ibn-hajar": {
+    "primary": "hadith-sciences",
+    "secondary": "biography",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-isabah-fi-tamyiz-al-sahabah": {
+    "primary": "biography",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-isabah-fi-tamyiz-as-sahabah"
+  },
+  "usud-al-ghabah-ibn-athir": {
+    "primary": "biography",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "siyar-alam-al-nubala-dhahabi": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "siyar-alam-an-nubala-dhahabi"
+  },
+  "wafayat-al-ayan-ibn-khallikan": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-bidayah-wal-nihayah-ibn-kathir-history": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "muruj-al-dhahab-masudi": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "muruj-adh-dhahab"
+  },
+  "kitab-al-ibar-ibn-khaldun": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muwafaqat-fi-usul-ash-shariah": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-itqan-fi-ulum-al-quran-suyuti": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-burhan-fi-ulum-al-quran-zarkashi": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mustadrak-ala-as-sahihayn": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sunan-ad-daraqutni": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mujam-al-kabir-tabarani": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mujam-al-awsat-tabarani": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sahih-ibn-khuzaymah": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sahih-ibn-hibban-at-taqasim": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ilal-ad-daraqutni": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-kamil-fi-duafa-ar-rijal": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-jarh-wat-tadil-ibn-abi-hatim": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tadhkirat-al-huffaz-dhahabi": {
+    "primary": "hadith-sciences",
+    "secondary": "biography",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mizan-al-itidal-fi-naqd-ar-rijal": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "lisan-al-mizan": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "lisan-al-mizan-ibn-hajar"
+  },
+  "al-mabsut-li-as-sarakhsi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-mabsut-sarakhsi"
+  },
+  "badai-as-sanai-fi-tartib-ash-sharai": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "badai-al-sanai-kasani"
+  },
+  "al-hidayah-sharh-bidayat-mubtadi": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "al-hidayah"
+  },
+  "al-bahr-ar-raiq-sharh-kanz-daqaiq": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "radd-al-muhtar-ala-ad-durr-al-mukhtar": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": false,
+    "canonical_slug": "radd-al-muhtar-ibn-abidin"
+  },
+  "ash-sharh-al-kabir-dardir": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hashiyat-ad-dusuqi-ala-sharh-kabir": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "nihayat-al-muhtaj-sharh-minhaj-ramli": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tuhfat-al-muhtaj-sharh-minhaj-haytami": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-insaf-fi-marifat-ar-rajih-mardawi": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mugni-an-haml-al-asfar": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ashbah-wan-nazair-suyuti-shafii": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ashbah-wan-nazair-hanafi-ibn-nujaym": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-al-qawaid-al-fiqhiyyah-zarqa": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "muqaddimat-ibn-khaldun-tarikh": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "muqaddimah-ibn-khaldun"
+  },
+  "al-bidayah-wan-nihayah-ibn-kathir": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tarikh-ar-rusul-wal-muluk-tabari": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-kamil-fit-tarikh-ibn-al-athir": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-milal-wan-nihal-shahrastani": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ar-risalah-al-qushayriyyah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "qut-al-qulub-abu-talib-al-makki": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-hikam-al-ataiyyah-ibn-ataillah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tabaqat-ash-shafiyyah-al-kubra-subki": {
+    "primary": "biography",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "wafayat-al-ayan-wa-anba-abna-az-zaman": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "wafayat-al-ayan-ibn-khallikan"
+  },
+  "al-ibanah-an-usul-ad-diyanah-ashari": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "at-tamhid-al-baqillani": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-irshad-ila-qawati-al-adillah-juwayni": {
+    "primary": "sharh",
+    "secondary": "aqeedah",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-aqidah-tahawiyyah-ibn-abil-izz": {
+    "primary": "sharh",
+    "secondary": "aqeedah",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-iqtisad-fil-itiqad-ghazali": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "minhaj-as-sunnah-nabawiyyah-ibn-taymiyyah": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tabsirat-al-adillah-abu-muin-nasafi": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kitab-at-tawhid-al-maturidi": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-wajiz-fi-usul-fiqh-zuhayli": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mustasfa-min-ilm-usul-ghazali": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mahsul-fi-usul-fiqh-razi": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ihkam-fi-usul-al-ahkam-amidi": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "jam-al-jawami-subki-usul": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "usul-as-sarakhsi": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kashf-al-asrar-bazdawi-usul": {
+    "primary": "sharh",
+    "secondary": "usul-al-fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muharrar-fil-fiqh-hanbali": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-furu-ibn-muflih-hanbali": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "zad-al-mustaqni-fi-ikhtisar-al-muqni": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "dalil-at-talib-li-nayl-al-matalib": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "manar-as-sabil-sharh-ad-dalil": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muqni-fi-fiqh-ahmad-ibn-qudamah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-muqni-ibn-qudamah"
+  },
+  "al-muqaddimah-al-hadramiyyah-fiqh": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fath-al-muin-sharh-qurrat-al-ayn": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ianat-at-talibin-dimyati": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mughni-al-muhtaj-khatib-ash-shirbini": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-mudawwanah-al-kubra-sahnun": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "al-mudawwanah-al-kubra"
+  },
+  "at-tahdhib-fi-fiqh-maliki-baradii": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ar-risalah-ibn-abi-zayd-maliki": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-kafi-fi-fiqh-ahl-al-madinah-maliki": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": "al-kafi-fi-fiqh-ahl-al-madinah-maliki"
+  },
+  "al-qawanin-al-fiqhiyyah-ibn-juzayy": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-dhakhirah-al-qaraffi-maliki": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-furuq-al-qarafi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muhalla-bil-athar-ibn-hazm": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-umm-imam-ash-shafii": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-as-sunnah-al-baghawi": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "masabih-as-sunnah-al-baghawi": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mishkat-al-masabih-tibrizi": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-adab-al-mufrad-imam-bukhari": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "an-nasihah-al-kafiyah-kawthari": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tabyin-kadhib-al-muftari-ibn-asakir": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "tarikh-dimashq-ibn-asakir": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "siyar-alam-an-nubala-dhahabi": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-isabah-fi-tamyiz-as-sahabah-ibn-hajar": {
+    "primary": "biography",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-isabah-fi-tamyiz-as-sahabah"
+  },
+  "usd-al-ghabah-fi-marifat-as-sahabah": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hilyat-al-awliya-abu-nuaym": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "mukhtasar-minhaj-al-qasidin-ibn-qudamah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-wabil-as-sayyib-ibn-al-qayyim": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rawdat-at-talibin-nawawi-fiqh": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": false,
+    "canonical_slug": "rawdat-al-talibin-nawawi"
+  },
+  "al-majmu-sharh-muhadhdhab-nawawi": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-athkar-an-nawawi": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sharh-sahih-muslim-an-nawawi": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": false,
+    "canonical_slug": "al-minhaj-sharh-sahih-muslim-nawawi"
+  },
+  "irshad-al-fuhul-shawkani-usul": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "nayl-al-awtar-shawkani": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "subul-as-salam-sanani": {
+    "primary": "sharh",
+    "secondary": "fiqh",
+    "canonical": true,
+    "canonical_slug": "subul-as-salam-sanani"
+  },
+  "tuhfat-al-ahwadhi-mubarakfuri": {
+    "primary": "sharh",
+    "secondary": "hadith-sciences",
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "muwatta-riwayat-ash-shaybani": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "musnad-imam-ash-shafii": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "kitab-al-kharaj-abu-yusuf": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-ahkam-as-sultaniyyah-mawardi": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "as-siyasah-ash-shariyyah-ibn-taymiyyah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "al-muqaddimah-al-qayrawaniyyah-ibn-abi-zayd": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fundamentals-of-tawhid": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "purpose-of-creation": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "critical-analysis-of-shirk": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "salvation-through-repentance": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-three-fundamental-principles-explained": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "enjoining-right-forbidding-wrong": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "diseases-of-hearts-cures": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "relief-from-distress": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "world-of-the-angels": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "world-of-the-jinn": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-minor-resurrection": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-major-resurrection": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-garden-and-the-fire": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "messengers-and-messages": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "allahs-qadar": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "summary-of-islamic-jurisprudence": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "evolution-of-fiqh": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "prophets-prayer-described": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "natural-blood-of-women": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "fiqh-made-easy": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "principles-of-islamic-jurisprudence-kamali": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islamic-jurisprudence-abu-zahrah": {
+    "primary": "usul-al-fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "authority-of-sunnah": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "jinn-and-human-sickness": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "introduction-to-hadith-sciences": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hadith-its-relevance": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sunnah-source-of-civilization": {
+    "primary": "hadith-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "introduction-to-tafsir": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "approach-to-quranic-sciences": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "causes-of-revelation": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "in-the-shade-of-the-quran": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "introduction-sciences-of-quran": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "when-the-moon-split": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "muhammad-man-and-prophet": {
+    "primary": "seerah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-abu-bakr-siddiq": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-umar-ibn-khattab": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-uthman-ibn-affan": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-ali-ibn-abi-talib": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "great-women-of-islam": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "women-around-the-messenger": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "history-of-islam-najeebabadi": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "lost-islamic-history": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "lives-of-the-sahabah": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ideal-muslim": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ideal-muslimah": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "purification-of-the-soul": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sincerity-in-worship": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-friday-prayer": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islamic-ruling-on-music": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "polygamy-in-islam": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islam-and-science": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "introduction-to-islamic-finance": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "introduction-to-islamic-economics": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "sword-against-black-magic": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "towards-just-monetary-system": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-imam-ahmad": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-imam-bukhari": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-imam-nawawi": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-ibn-taymiyyah": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-ibn-al-qayyim": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "you-can-be-the-happiest-woman": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "dont-be-sad": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "enjoy-your-life": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "reclaim-your-heart": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-men-around-the-messenger": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "memorize-the-quran": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "virtues-of-the-quran": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "quran-made-easy": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "similarities-between-islam-and-christianity": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "what-the-bible-says-about-muhammad": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "was-jesus-crucified": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "is-the-bible-gods-word": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islam-the-misunderstood-religion": {
+    "primary": "comparative-religion",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "marriage-in-islam": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-muslim-home": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "bringing-up-children": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "getting-the-best-of-hajj": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "hajj-and-umrah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islamic-will-and-inheritance": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "the-jinn": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islamic-finance-quranic-basis": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rights-of-neighbors": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islamic-etiquette": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "life-after-death": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "interpretation-of-dreams": {
+    "primary": "general",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "making-dua": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "virtues-of-sending-blessings": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "beautiful-patience-surah-yusuf": {
+    "primary": "tafsir",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biographies-companions-of-prophet": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-hasan-ibn-ali": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "biography-ibn-umar": {
+    "primary": "biography",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "congregational-prayer": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "description-wudhu-prophet": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "etiquette-with-the-quran": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "excellent-qualities-of-the-quran": {
+    "primary": "quran-sciences",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "guarding-the-tongue": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "ibn-taymiyyah-letters-from-prison": {
+    "primary": "aqeedah",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "islamic-funeral-rites": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "patience-and-gratitude": {
+    "primary": "ethics-spirituality",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rulings-on-itikaf": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "rulings-on-udhiyah": {
+    "primary": "fiqh",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  },
+  "salahuddin-al-ayyubi": {
+    "primary": "history",
+    "secondary": null,
+    "canonical": true,
+    "canonical_slug": null
+  }
+}

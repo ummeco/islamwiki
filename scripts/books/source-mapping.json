@@ -1,0 +1,5026 @@
+{
+  "sahih-al-bukhari": {
+    "slug": "sahih-al-bukhari",
+    "title": "Sahih al-Bukhari",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33757",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sahih-muslim": {
+    "slug": "sahih-muslim",
+    "title": "Sahih Muslim",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33760",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sunan-abu-dawud": {
+    "slug": "sunan-abu-dawud",
+    "title": "Sunan Abu Dawud",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33759",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "jami-at-tirmidhi": {
+    "slug": "jami-at-tirmidhi",
+    "title": "Jami at-Tirmidhi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33861",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tafsir-ibn-kathir": {
+    "slug": "tafsir-ibn-kathir",
+    "title": "Tafsir Ibn Kathir",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8473",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tafsir-al-jalalayn": {
+    "slug": "tafsir-al-jalalayn",
+    "title": "Tafsir al-Jalalain",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/23607",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "ar-raheeq-al-makhtum": {
+    "slug": "ar-raheeq-al-makhtum",
+    "title": "Ar-Raheeq al-Makhtum",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9820",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "riyadh-us-saliheen": {
+    "slug": "riyadh-us-saliheen",
+    "title": "Riyadh as-Salihin",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12014",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-aqeedah-al-wasitiyyah": {
+    "slug": "al-aqeedah-al-wasitiyyah",
+    "title": "Al-Aqeedah al-Wasitiyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31610",
+    "notes": "VERIFY: batch1 ID. al-Wasitiyyah by Ibn Taymiyyah. Confirm not same as al-Tahawiyyah (book/31610 may be wrong)",
+    "batch": "corrections",
+    "prev_url": "https://al-maktaba.org/book/31610"
+  },
+  "al-arbaeen-an-nawawiyyah": {
+    "slug": "al-arbaeen-an-nawawiyyah",
+    "title": "Al-Arba'een an-Nawawiyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12836",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "zad-al-maad": {
+    "slug": "zad-al-maad",
+    "title": "Zad al-Ma'ad",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21713",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-bidayah-wan-nihayah": {
+    "slug": "al-bidayah-wan-nihayah",
+    "title": "Al-Bidayah wan-Nihayah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/23708",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "fiqh-us-sunnah": {
+    "slug": "fiqh-us-sunnah",
+    "title": "Fiqh us-Sunnah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9486",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "ihya-ulum-ad-din": {
+    "slug": "ihya-ulum-ad-din",
+    "title": "Ihya Ulum ad-Din",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9328",
+    "notes": "Shamela; al-maktaba returns only forum posts",
+    "batch": "batch1"
+  },
+  "al-muwafaqat": {
+    "slug": "al-muwafaqat",
+    "title": "Al-Muwafaqat",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/7395",
+    "notes": "Shamela; al-maktaba returns only forum posts",
+    "batch": "batch1",
+    "alt_url": "https://shamela.ws/book/11435",
+    "alt_notes": "batch8-101-200: "
+  },
+  "fath-al-bari": {
+    "slug": "fath-al-bari",
+    "title": "Fath al-Bari",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1673",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sharh-an-nawawi-ala-sahih-muslim": {
+    "slug": "sharh-an-nawawi-ala-sahih-muslim",
+    "title": "Sharh Sahih Muslim (al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1711",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "kitab-at-tawhid": {
+    "slug": "kitab-at-tawhid",
+    "title": "Kitab at-Tawhid",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/97",
+    "notes": "Shamela; ibn taymiyyah collected fatawa — NOTE: need to verify this is correct book",
+    "batch": "batch1"
+  },
+  "al-mugni": {
+    "slug": "al-mugni",
+    "title": "Al-Mughni (Ibn Qudamah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8463",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "siyar-alam-an-nubala": {
+    "slug": "siyar-alam-an-nubala",
+    "title": "Siyar Alam an-Nubala",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1584",
+    "notes": "Alias of siyar-alam-an-nubala-dhahabi. batch1 assigned book/10906 (unclear). Correct ID confirmed by batches 3+4",
+    "batch": "corrections",
+    "prev_url": "https://al-maktaba.org/book/10906"
+  },
+  "sunan-an-nasai": {
+    "slug": "sunan-an-nasai",
+    "title": "Sunan an-Nasa'i",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33865",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sunan-ibn-majah": {
+    "slug": "sunan-ibn-majah",
+    "title": "Sunan Ibn Majah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1198",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "muwatta-malik": {
+    "slug": "muwatta-malik",
+    "title": "Muwatta Malik",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33758",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "musnad-ahmad": {
+    "slug": "musnad-ahmad",
+    "title": "Musnad Ahmad",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33037",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sunan-ad-darimi": {
+    "slug": "sunan-ad-darimi",
+    "title": "Sunan ad-Darimi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33769",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "musannaf-ibn-abi-shaybah": {
+    "slug": "musannaf-ibn-abi-shaybah",
+    "title": "Musannaf Ibn Abi Shaybah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33038",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "musannaf-abdur-razzaq": {
+    "slug": "musannaf-abdur-razzaq",
+    "title": "Musannaf Abdur-Razzaq",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/32856",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-adab-al-mufrad": {
+    "slug": "al-adab-al-mufrad",
+    "title": "Al-Adab al-Mufrad",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1341",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "bulugh-al-maram": {
+    "slug": "bulugh-al-maram",
+    "title": "Bulugh al-Maram",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33959",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "mishkat-al-masabih": {
+    "slug": "mishkat-al-masabih",
+    "title": "Mishkat al-Masabih",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8360",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "umdat-al-ahkam": {
+    "slug": "umdat-al-ahkam",
+    "title": "Umdat al-Ahkam",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6075",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/917",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah; also slug umdah-al-ahkam"
+  },
+  "at-targhib-wat-tarhib": {
+    "slug": "at-targhib-wat-tarhib",
+    "title": "At-Targhib wat-Tarhib",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33295",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sahih-ibn-hibban": {
+    "slug": "sahih-ibn-hibban",
+    "title": "Sahih Ibn Hibban",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1729",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-mustadrak": {
+    "slug": "al-mustadrak",
+    "title": "Al-Mustadrak ala as-Sahihayn",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2266",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "silsilah-sahihah": {
+    "slug": "silsilah-sahihah",
+    "title": "Silsilah as-Sahihah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9442",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tafsir-at-tabari": {
+    "slug": "tafsir-at-tabari",
+    "title": "Tafsir at-Tabari (Jami al-Bayan)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/43",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tafsir-al-qurtubi": {
+    "slug": "tafsir-al-qurtubi",
+    "title": "Tafsir al-Qurtubi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31702",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tafsir-ar-razi": {
+    "slug": "tafsir-ar-razi",
+    "title": "Tafsir ar-Razi (Mafatih al-Ghayb)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/22638",
+    "notes": "VERIFY: batch1 assigned book/23635 which collided with madarik-at-tanzil. Mafatih al-Ghayb ID needs confirmation",
+    "batch": "corrections",
+    "prev_url": "https://al-maktaba.org/book/23635"
+  },
+  "tafsir-al-baghawi": {
+    "slug": "tafsir-al-baghawi",
+    "title": "Tafsir al-Baghawi (Ma'alim at-Tanzil)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/41",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tafsir-as-sadi": {
+    "slug": "tafsir-as-sadi",
+    "title": "Tafsir as-Sa'di",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/42",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "zad-al-masir": {
+    "slug": "zad-al-masir",
+    "title": "Zad al-Masir (Ibn al-Jawzi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/10657",
+    "notes": "VERIFY: batch1 assigned book/23619 which collides with anwar-at-tanzil. Shamela fallback used. Zad al-Masir = Ibn al-Jawzi tafsir",
+    "batch": "corrections",
+    "prev_url": "https://al-maktaba.org/book/23619"
+  },
+  "adwa-al-bayan": {
+    "slug": "adwa-al-bayan",
+    "title": "Adwa al-Bayan (al-Shanqiti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/22918",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "ad-durr-al-manthur": {
+    "slug": "ad-durr-al-manthur",
+    "title": "Ad-Durr al-Manthur (as-Suyuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7340",
+    "notes": "Al-Maktaba al-Shamilah — NOTE: agent listed under kashshaf slot; confirm",
+    "batch": "batch1"
+  },
+  "tafsir-ath-thalabi": {
+    "slug": "tafsir-ath-thalabi",
+    "title": "Tafsir ath-Thalabi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/23578",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tafsir-ibn-al-arabi": {
+    "slug": "tafsir-ibn-al-arabi",
+    "title": "Ahkam al-Quran (Ibn al-Arabi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31681",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-umm": {
+    "slug": "al-umm",
+    "title": "Al-Umm (Imam ash-Shafi'i)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1655",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-mudawwanah": {
+    "slug": "al-mudawwanah",
+    "title": "Al-Mudawwanah al-Kubra",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4414",
+    "notes": "Alias of al-mudawwanah-al-kubra. batch1 wrongly assigned book/587 (al-Kashshaf)",
+    "batch": "corrections",
+    "alt_url": "https://al-maktaba.org/book/4414",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah",
+    "prev_url": "https://al-maktaba.org/book/587"
+  },
+  "al-hidayah": {
+    "slug": "al-hidayah",
+    "title": "Al-Hidayah (al-Marghinani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11820",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "bidayat-al-mujtahid": {
+    "slug": "bidayat-al-mujtahid",
+    "title": "Bidayat al-Mujtahid (Ibn Rushd)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21739",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "zad-al-mustaqni": {
+    "slug": "zad-al-mustaqni",
+    "title": "Zad al-Mustaqni (al-Hajjawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11230",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/3769",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah; Hanbali fiqh matn"
+  },
+  "al-kafi-fi-fiqh": {
+    "slug": "al-kafi-fi-fiqh",
+    "title": "Al-Kafi fi Fiqh al-Imam Ahmad",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21731",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/4415",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "minhaj-at-talibin": {
+    "slug": "minhaj-at-talibin",
+    "title": "Minhaj at-Talibin (an-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12096",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-majmu-sharh-al-muhadhdhab": {
+    "slug": "al-majmu-sharh-al-muhadhdhab",
+    "title": "Al-Majmu Sharh al-Muhadhdhab",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2186",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-ikhtiyar": {
+    "slug": "al-ikhtiyar",
+    "title": "Al-Ikhtiyar li-Ta'lil al-Mukhtar",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1066",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/7102",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah; Hanafi fiqh"
+  },
+  "hashiyat-ibn-abidin": {
+    "slug": "hashiyat-ibn-abidin",
+    "title": "Hashiyat Ibn Abidin (Radd al-Muhtar)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7124",
+    "notes": "Alias of radd-al-muhtar-ibn-abidin. batch1 wrongly assigned book/21613 (al-Khasais)",
+    "batch": "corrections",
+    "prev_url": "https://al-maktaba.org/book/21613"
+  },
+  "al-muqaddimah-al-hadramiyyah": {
+    "slug": "al-muqaddimah-al-hadramiyyah",
+    "title": "Al-Muqaddimah al-Hadramiyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6125",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/10088",
+    "alt_notes": "batch9-201-300: "
+  },
+  "sharh-mukhtasar-khalil": {
+    "slug": "sharh-mukhtasar-khalil",
+    "title": "Mawahib al-Jalil (Sharh Mukhtasar Khalil)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/569",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-insaf": {
+    "slug": "al-insaf",
+    "title": "Al-Insaf (al-Mardawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33212",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "i-lam-al-muwaqqi-in": {
+    "slug": "i-lam-al-muwaqqi-in",
+    "title": "I'lam al-Muwaqqi'in",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33173",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-ashbah-wan-nazair-suyuti": {
+    "slug": "al-ashbah-wan-nazair-suyuti",
+    "title": "Al-Ashbah wan-Nazair (as-Suyuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21719",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-aqeedah-at-tahawiyyah": {
+    "slug": "al-aqeedah-at-tahawiyyah",
+    "title": "Al-Aqeedah at-Tahawiyyah (matn)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31610",
+    "notes": "Al-Maktaba al-Shamilah; matn included in Ibn Abi al-Izz sharh",
+    "batch": "batch1"
+  },
+  "sharh-al-aqeedah-at-tahawiyyah": {
+    "slug": "sharh-al-aqeedah-at-tahawiyyah",
+    "title": "Sharh al-Aqeedah at-Tahawiyyah (Ibn Abi al-Izz)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31610",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "lumat-al-itiqad": {
+    "slug": "lumat-al-itiqad",
+    "title": "Lum'at al-I'tiqad",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9390",
+    "notes": "Shamela",
+    "batch": "batch1"
+  },
+  "al-ibanah": {
+    "slug": "al-ibanah",
+    "title": "Al-Ibanah an Usul ad-Diyanah (al-Ash'ari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8178",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-aqeedah-al-hamawiyyah": {
+    "slug": "al-aqeedah-al-hamawiyyah",
+    "title": "Al-Aqeedah al-Hamawiyyah (Ibn Taymiyyah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9384",
+    "notes": "Shamela",
+    "batch": "batch1"
+  },
+  "dar-taarud-al-aql-wan-naql": {
+    "slug": "dar-taarud-al-aql-wan-naql",
+    "title": "Dar' Ta'arud al-Aql wan-Naql",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21506",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "minhaj-as-sunnah": {
+    "slug": "minhaj-as-sunnah",
+    "title": "Minhaj as-Sunnah an-Nabawiyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/927",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "kitab-at-tawhid-ibn-khuzaymah": {
+    "slug": "kitab-at-tawhid-ibn-khuzaymah",
+    "title": "Kitab at-Tawhid (Ibn Khuzaymah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/32393",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sharh-usul-itiqad-ahlus-sunnah": {
+    "slug": "sharh-usul-itiqad-ahlus-sunnah",
+    "title": "Sharh Usul I'tiqad Ahl as-Sunnah (al-Lalika'i)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9200",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-wajiz-fi-aqeedah": {
+    "slug": "al-wajiz-fi-aqeedah",
+    "title": "Al-Wajiz fi Aqidat as-Salaf",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/30811",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "sirat-ibn-hisham": {
+    "slug": "sirat-ibn-hisham",
+    "title": "Sirat Ibn Hisham",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/23833",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tabaqat-ibn-sad": {
+    "slug": "tabaqat-ibn-sad",
+    "title": "Tabaqat Ibn Sa'd",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1686",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tarikh-at-tabari": {
+    "slug": "tarikh-at-tabari",
+    "title": "Tarikh at-Tabari",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9783",
+    "notes": "VERIFY: batch1 ID collided with muqaddimah-ibn-khaldun in raw agent data but final JSON shows khaldun has shamela/12320 — may be fine",
+    "batch": "corrections",
+    "prev_url": "https://al-maktaba.org/book/9783"
+  },
+  "al-kamil-fit-tarikh": {
+    "slug": "al-kamil-fit-tarikh",
+    "title": "Al-Kamil fit-Tarikh (Ibn al-Athir)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21712",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "hayat-as-sahabah": {
+    "slug": "hayat-as-sahabah",
+    "title": "Hayat as-Sahabah (al-Kandahlawi)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/hayatus-sahaba-english",
+    "notes": "batch1 wrongly assigned book/8528 (Minhaj al-Abidin). alias of hayat-as-sahaba-kandhalwi",
+    "batch": "corrections",
+    "prev_url": "https://al-maktaba.org/book/8528"
+  },
+  "al-isabah-fi-tamyiz-as-sahabah": {
+    "slug": "al-isabah-fi-tamyiz-as-sahabah",
+    "title": "Al-Isabah fi Tamyiz as-Sahabah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9767",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-muqaddimah-ibn-khaldun": {
+    "slug": "al-muqaddimah-ibn-khaldun",
+    "title": "Al-Muqaddimah (Ibn Khaldun)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/11375",
+    "notes": "Shamela",
+    "batch": "batch1",
+    "alt_url": "https://shamela.ws/book/12320",
+    "alt_notes": "batch8-101-200: "
+  },
+  "ash-shifa-bi-tarif-huquq-al-mustafa": {
+    "slug": "ash-shifa-bi-tarif-huquq-al-mustafa",
+    "title": "Ash-Shifa (Qadi Iyad)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1753",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-fusul-fi-sirat-ar-rasul": {
+    "slug": "al-fusul-fi-sirat-ar-rasul",
+    "title": "Al-Fusul fi Sirat ar-Rasul (Ibn Kathir)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9241",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/4749",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "wafayat-al-ayan": {
+    "slug": "wafayat-al-ayan",
+    "title": "Wafayat al-A'yan (Ibn Khallikan)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1000",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "madarij-as-salikin": {
+    "slug": "madarij-as-salikin",
+    "title": "Madarij as-Salikin",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8370",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/7882",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "al-wabil-as-sayyib": {
+    "slug": "al-wabil-as-sayyib",
+    "title": "Al-Wabil as-Sayyib",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/216",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "mukhtasar-minhaj-al-qasidin": {
+    "slug": "mukhtasar-minhaj-al-qasidin",
+    "title": "Mukhtasar Minhaj al-Qasidin",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33462",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "jami-al-ulum-wal-hikam": {
+    "slug": "jami-al-ulum-wal-hikam",
+    "title": "Jami al-Ulum wal-Hikam",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4268",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/7900",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "al-jawab-al-kafi": {
+    "slug": "al-jawab-al-kafi",
+    "title": "Al-Jawab al-Kafi (= Ad-Da' wad-Dawa')",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/158",
+    "notes": "Al-Maktaba al-Shamilah; same work as ad-daa-wad-dawaa",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/7887",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah; same work as ad-daa-wad-dawaa"
+  },
+  "al-fawaid": {
+    "slug": "al-fawaid",
+    "title": "Al-Fawa'id (Ibn al-Qayyim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6832",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "tazkiyat-an-nafs": {
+    "slug": "tazkiyat-an-nafs",
+    "title": "Tazkiyat an-Nafs (Ahmad Farid)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31604",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "risalat-al-mustarshidin": {
+    "slug": "risalat-al-mustarshidin",
+    "title": "Risalat al-Mustarshidin (al-Muhasibi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6871",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-adab-ash-shariyyah": {
+    "slug": "al-adab-ash-shariyyah",
+    "title": "Al-Adab ash-Shar'iyyah (Ibn Muflih)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21582",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "ad-daa-wad-dawaa": {
+    "slug": "ad-daa-wad-dawaa",
+    "title": "Ad-Da' wad-Dawa' (= Al-Jawab al-Kafi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/158",
+    "notes": "Al-Maktaba al-Shamilah; duplicate of al-jawab-al-kafi",
+    "batch": "batch1"
+  },
+  "al-ajrumiyyah": {
+    "slug": "al-ajrumiyyah",
+    "title": "Al-Ajrumiyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11371",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/4579",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah; classic grammar primer"
+  },
+  "alfiyyat-ibn-malik": {
+    "slug": "alfiyyat-ibn-malik",
+    "title": "Alfiyyat Ibn Malik",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8522",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/4570",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "lisan-al-arab": {
+    "slug": "lisan-al-arab",
+    "title": "Lisan al-Arab (Ibn Manzur)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/34077",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "qatr-an-nada": {
+    "slug": "qatr-an-nada",
+    "title": "Qatr an-Nada wa Ball as-Sada",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6970",
+    "notes": "Al-Maktaba al-Shamilah; sharh includes matn",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/4567",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "al-balaghah-al-wadihah": {
+    "slug": "al-balaghah-al-wadihah",
+    "title": "Al-Balaghah al-Wadihah (al-Jarim & Amin)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4997",
+    "notes": "Al-Maktaba al-Shamilah; classic modern balaghah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/8536",
+    "alt_notes": "batch9-201-300: "
+  },
+  "ar-risalah": {
+    "slug": "ar-risalah",
+    "title": "Ar-Risalah (Imam ash-Shafi'i)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8180",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-waraqat": {
+    "slug": "al-waraqat",
+    "title": "Al-Waraqat (al-Juwayni)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31711",
+    "notes": "Al-Maktaba al-Shamilah; sharh al-Mahalli includes matn",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/6848",
+    "alt_notes": "batch3-supp: Agent entry 212; usul al-fiqh primer"
+  },
+  "rawdat-an-nadhir": {
+    "slug": "rawdat-an-nadhir",
+    "title": "Rawdat an-Nadhir (Ibn Qudamah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12010",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "irshad-al-fuhul": {
+    "slug": "irshad-al-fuhul",
+    "title": "Irshad al-Fuhul (ash-Shawkani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11437",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1",
+    "alt_url": "https://al-maktaba.org/book/12096",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-mustasfa": {
+    "slug": "al-mustasfa",
+    "title": "Al-Mustasfa min Ilm al-Usul (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5459",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch1"
+  },
+  "al-milal-wan-nihal": {
+    "slug": "al-milal-wan-nihal",
+    "title": "Al-Milal wan-Nihal (Ash-Shahrastani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11812",
+    "notes": "batch2 wrongly assigned book/6164 (al-Mabsut). batch8 correct ID book/11812 was blocked by same-score tie",
+    "batch": "corrections",
+    "alt_url": "https://al-maktaba.org/book/11812",
+    "alt_notes": "batch8-101-200: ",
+    "prev_url": "https://al-maktaba.org/book/6164"
+  },
+  "al-fisal": {
+    "slug": "al-fisal",
+    "title": "Al-Fisal fil-Milal wal-Ahwa wal-Nihal (Ibn Hazm)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6252",
+    "notes": "Al-Maktaba; VERIFY ID — may be al-ihkam ID",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/3637",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "kitab-al-kharaj": {
+    "slug": "kitab-al-kharaj",
+    "title": "كتاب الخراج — يحيى بن آدم",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/26333",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "muqaddimah-ibn-khaldun": {
+    "slug": "muqaddimah-ibn-khaldun",
+    "title": "Muqaddimah Ibn Khaldun",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9783",
+    "notes": "Al-Maktaba; VERIFY — tarikh may share ID",
+    "batch": "batch2"
+  },
+  "tahdhib-al-kamal": {
+    "slug": "tahdhib-al-kamal",
+    "title": "Tahdhib al-Kamal (al-Mizzi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4497",
+    "notes": "Al-Maktaba; confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/3722",
+    "alt_notes": "batch8-101-200: "
+  },
+  "nukhbat-al-fikar": {
+    "slug": "nukhbat-al-fikar",
+    "title": "Nukhbat al-Fikar (Ibn Hajar)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1168",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/5584",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "tadrib-ar-rawi": {
+    "slug": "tadrib-ar-rawi",
+    "title": "Tadrib al-Rawi (al-Suyuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6132",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/9776",
+    "alt_notes": "batch9-201-300: UPGRADE from shamela/9329"
+  },
+  "al-itqan-fi-ulum-al-quran": {
+    "slug": "al-itqan-fi-ulum-al-quran",
+    "title": "Al-Itqan fi Ulum al-Quran (al-Suyuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6021",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/11728",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-burhan-fi-ulum-al-quran": {
+    "slug": "al-burhan-fi-ulum-al-quran",
+    "title": "Al-Burhan fi Ulum al-Quran (al-Zarkashi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6025",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/11436",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-mabsut": {
+    "slug": "al-mabsut",
+    "title": "Al-Mabsut (al-Sarakhsi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1514",
+    "notes": "Alias of al-mabsut-sarakhsi. batch2 wrongly assigned book/6164 (al-Milal wan-Nihal)",
+    "batch": "corrections",
+    "alt_url": "https://al-maktaba.org/book/33240",
+    "alt_notes": "batch8-101-200: ",
+    "prev_url": "https://al-maktaba.org/book/6164"
+  },
+  "al-minhaj-sharh-sahih-muslim": {
+    "slug": "al-minhaj-sharh-sahih-muslim",
+    "title": "Al-Minhaj Sharh Sahih Muslim (al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1711",
+    "notes": "Al-Maktaba; confirmed in prior batch data",
+    "batch": "batch2"
+  },
+  "al-isabah": {
+    "slug": "al-isabah",
+    "title": "Al-Isabah fi Tamyiz al-Sahabah (Ibn Hajar)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9767",
+    "notes": "Al-Maktaba; confirmed in prior batch data; DUPLICATE of al-isabah-fi-tamyiz-as-sahabah",
+    "batch": "batch2"
+  },
+  "miftah-dar-as-saadah": {
+    "slug": "miftah-dar-as-saadah",
+    "title": "Miftah Dar al-Saadah (Ibn al-Qayyim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1741",
+    "notes": "Al-Maktaba; VERIFY ID — may be al-fawaid",
+    "batch": "batch2"
+  },
+  "ighathat-al-lahfan": {
+    "slug": "ighathat-al-lahfan",
+    "title": "Ighathat al-Lahfan (Ibn al-Qayyim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7886",
+    "notes": "Al-Maktaba; confirmed (batch 3 cross-ref)",
+    "batch": "batch2"
+  },
+  "talbis-iblis": {
+    "slug": "talbis-iblis",
+    "title": "Talbis Iblis (Ibn al-Jawzi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9532",
+    "notes": "Shamela; VERIFY ID",
+    "batch": "batch2",
+    "alt_url": "https://shamela.ws/book/11438",
+    "alt_notes": "batch8-101-200: "
+  },
+  "sifat-as-safwah": {
+    "slug": "sifat-as-safwah",
+    "title": "Sifat al-Safwah (Ibn al-Jawzi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6168",
+    "notes": "Al-Maktaba; VERIFY ID",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/7360",
+    "alt_notes": "batch9-201-300: UPGRADE from shamela/12031"
+  },
+  "ash-shifa": {
+    "slug": "ash-shifa",
+    "title": "Ash-Shifa bi-Tarif Huquq al-Mustafa (Qadi Iyad)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/14569",
+    "notes": "Al-Maktaba; VERIFY ID",
+    "batch": "batch2"
+  },
+  "ash-shamail-al-muhammadiyyah": {
+    "slug": "ash-shamail-al-muhammadiyyah",
+    "title": "Ash-Shamail al-Muhammadiyyah (at-Tirmidhi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2033",
+    "notes": "Al-Maktaba; VERIFY ID",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/23647",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-rahiq-al-makhtum-mubarakpuri": {
+    "slug": "al-rahiq-al-makhtum-mubarakpuri",
+    "title": "Ar-Raheeq al-Makhtum (Mubarakpuri)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9820",
+    "notes": "Al-Maktaba; confirmed in batch 1",
+    "batch": "batch2"
+  },
+  "al-wajiz-fi-fiqh": {
+    "slug": "al-wajiz-fi-fiqh",
+    "title": "Al-Wajiz fi Fiqh al-Imam ash-Shafi'i (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1141",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "al-qawaid-al-fiqhiyyah": {
+    "slug": "al-qawaid-al-fiqhiyyah",
+    "title": "Sharh al-Qawaid al-Fiqhiyyah (al-Zarqa)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6330",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/4390",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "tahafut-al-falasifah": {
+    "slug": "tahafut-al-falasifah",
+    "title": "Tahafut al-Falasifah (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9202",
+    "notes": "Al-Maktaba; VERIFY ID",
+    "batch": "batch2"
+  },
+  "al-munqidh-min-ad-dalal": {
+    "slug": "al-munqidh-min-ad-dalal",
+    "title": "Al-Munqidh min al-Dalal (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9264",
+    "notes": "Al-Maktaba; VERIFY ID — may be maarij ID",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/9246",
+    "alt_notes": "batch8-101-200: "
+  },
+  "hujjat-allah-al-balighah": {
+    "slug": "hujjat-allah-al-balighah",
+    "title": "Hujjat Allah al-Baligha (Shah Waliullah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/773",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "maarij-al-quds": {
+    "slug": "maarij-al-quds",
+    "title": "Maarij al-Quds (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6494",
+    "notes": "Al-Maktaba; agent-confirmed — verify vs 9264",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/9264",
+    "alt_notes": "batch3: Al-Maktaba al-Shamilah"
+  },
+  "majmu-al-fatawa": {
+    "slug": "majmu-al-fatawa",
+    "title": "Majmu al-Fatawa (Ibn Taymiyyah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7289",
+    "notes": "Al-Maktaba; agent-confirmed; DUPLICATE of al-majmu-fatawa-ibn-taymiyyah",
+    "batch": "batch2"
+  },
+  "iqtida-as-sirat-al-mustaqim": {
+    "slug": "iqtida-as-sirat-al-mustaqim",
+    "title": "Iqtida al-Sirat al-Mustaqim (Ibn Taymiyyah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9404",
+    "notes": "Shamela; VERIFY ID",
+    "batch": "batch2"
+  },
+  "kashf-ash-shubuhat": {
+    "slug": "kashf-ash-shubuhat",
+    "title": "Kashf ash-Shubuhat (Ibn Abd al-Wahhab)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/30850",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "usul-ath-thalathah": {
+    "slug": "usul-ath-thalathah",
+    "title": "Usul ath-Thalathah (Ibn Abd al-Wahhab)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/239",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "al-tibyan-fi-adab-hamalat-al-quran": {
+    "slug": "al-tibyan-fi-adab-hamalat-al-quran",
+    "title": "Al-Tibyan fi Adab Hamalat al-Quran (al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1969",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "rawdat-at-talibin": {
+    "slug": "rawdat-at-talibin",
+    "title": "Rawdat al-Talibin (al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6212",
+    "notes": "Al-Maktaba; agent-confirmed; DUPLICATE of rawdat-al-talibin-nawawi",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/499",
+    "alt_notes": "batch8-101-200: "
+  },
+  "tuhfat-al-muhtaj": {
+    "slug": "tuhfat-al-muhtaj",
+    "title": "تحفة المحتاج — الهيتمي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9059",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "al-bahr-ar-raiq": {
+    "slug": "al-bahr-ar-raiq",
+    "title": "البحر الرائق — ابن نجيم",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12227",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "badai-as-sanai": {
+    "slug": "badai-as-sanai",
+    "title": "Badai al-Sanai (al-Kasani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6173",
+    "notes": "Al-Maktaba; VERIFY ID — may conflict with mudawwanah",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/8183",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-muhalla": {
+    "slug": "al-muhalla",
+    "title": "Al-Muhalla bil-Athar (Ibn Hazm)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6247",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "nayl-al-awtar": {
+    "slug": "nayl-al-awtar",
+    "title": "Nayl al-Awtar (ash-Shawkani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1599",
+    "notes": "Al-Maktaba; confirmed in batch 4",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/9242",
+    "alt_notes": "batch8-101-200: "
+  },
+  "nur-al-idah": {
+    "slug": "nur-al-idah",
+    "title": "Nur al-Idah (ash-Shurunbulali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7104",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/33011",
+    "alt_notes": "batch9-201-300: UPGRADE from archive.org"
+  },
+  "maraqi-al-falah": {
+    "slug": "maraqi-al-falah",
+    "title": "Maraqi al-Falah (ash-Shurunbulali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7105",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/412",
+    "alt_notes": "batch8-101-200: "
+  },
+  "kanz-ad-daqaiq": {
+    "slug": "kanz-ad-daqaiq",
+    "title": "كنز الدقائق — النسفي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33089",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "hashiyat-ad-dasuqi": {
+    "slug": "hashiyat-ad-dasuqi",
+    "title": "Hashiyat al-Dasuqi (al-Dasuqi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4414",
+    "notes": "Al-Maktaba; VERIFY ID",
+    "batch": "batch2"
+  },
+  "anwar-at-tanzil": {
+    "slug": "anwar-at-tanzil",
+    "title": "Anwar al-Tanzil (Tafsir al-Baydawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/23588",
+    "notes": "Corrected: batch8 confirmed book/23588 for Baydawi tafsir. batch2 had book/23619 which collided with zad-al-masir",
+    "batch": "corrections",
+    "alt_url": "https://al-maktaba.org/book/6170",
+    "alt_notes": "batch3-supp: Agent entry 264; tafsir",
+    "prev_url": "https://al-maktaba.org/book/23619"
+  },
+  "madarik-at-tanzil": {
+    "slug": "madarik-at-tanzil",
+    "title": "Madarik al-Tanzil (Tafsir al-Nasafi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1394",
+    "notes": "Corrected: batch8 confirmed book/1394 for Nasafi tafsir. batch2 had book/23635 which collided with tafsir-ar-razi",
+    "batch": "corrections",
+    "alt_url": "https://al-maktaba.org/book/21744",
+    "alt_notes": "batch3-supp: Agent entry 265",
+    "prev_url": "https://al-maktaba.org/book/23635"
+  },
+  "irshad-al-aql-as-salim": {
+    "slug": "irshad-al-aql-as-salim",
+    "title": "إرشاد العقل السليم (تفسير أبي السعود)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1429",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "ruh-al-maani": {
+    "slug": "ruh-al-maani",
+    "title": "Ruh al-Maani (al-Alusi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2259",
+    "notes": "Al-Maktaba; VERIFY — may conflict with Qurtubi ID",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/22835",
+    "alt_notes": "batch8-101-200: "
+  },
+  "sharh-as-sunnah-baghawi": {
+    "slug": "sharh-as-sunnah-baghawi",
+    "title": "Sharh al-Sunnah (al-Baghawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5586",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "al-mujam-al-kabir": {
+    "slug": "al-mujam-al-kabir",
+    "title": "المعجم الكبير — الطبراني",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1733",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "shuab-al-iman": {
+    "slug": "shuab-al-iman",
+    "title": "Shuab al-Iman (al-Bayhaqi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10272",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/31612",
+    "alt_notes": "batch8-101-200: "
+  },
+  "as-sunan-al-kubra-bayhaqi": {
+    "slug": "as-sunan-al-kubra-bayhaqi",
+    "title": "Al-Sunan al-Kubra (al-Bayhaqi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/12402",
+    "notes": "Shamela; VERIFY ID",
+    "batch": "batch2"
+  },
+  "kitab-az-zuhd-ahmad": {
+    "slug": "kitab-az-zuhd-ahmad",
+    "title": "Kitab al-Zuhd (Ahmad ibn Hanbal)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/909",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/10013",
+    "alt_notes": "batch9-201-300: UPGRADE from shamela/8494"
+  },
+  "umm-al-barahin": {
+    "slug": "umm-al-barahin",
+    "title": "Umm al-Barahin / Al-Aqeedah al-Sanusiyyah",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/Umm.Al-barahin",
+    "notes": "Archive.org; no standalone Shamela entry",
+    "batch": "batch2",
+    "alt_url": "https://archive.org/details/UmmAlBarahin",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-iqtisad-fi-al-itiqad": {
+    "slug": "al-iqtisad-fi-al-itiqad",
+    "title": "Al-Iqtisad fi al-Itiqad (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9258",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/9217",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-irshad-juwayni": {
+    "slug": "al-irshad-juwayni",
+    "title": "Al-Irshad (al-Juwayni)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/al-irshad_ila_qawati_al-adilla",
+    "notes": "Archive.org; no standalone Shamela entry",
+    "batch": "batch2",
+    "alt_url": "https://archive.org/details/IrshadJuwayni",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-risalah-al-qushayriyyah": {
+    "slug": "al-risalah-al-qushayriyyah",
+    "title": "Al-Risalah al-Qushayriyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9265",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "qut-al-qulub": {
+    "slug": "qut-al-qulub",
+    "title": "Qut al-Qulub (Abu Talib al-Makki)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9282",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "al-hikam-al-ataiyyah": {
+    "slug": "al-hikam-al-ataiyyah",
+    "title": "Al-Hikam al-Ataiyyah (Ibn Ata Allah al-Sakandari)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/AlHikamDIbnAtaiAllah",
+    "notes": "Archive.org; no standalone Shamela entry confirmed",
+    "batch": "batch2",
+    "alt_url": "https://archive.org/details/HikamAtaiyyah",
+    "alt_notes": "batch8-101-200: "
+  },
+  "kashf-al-mahjub": {
+    "slug": "kashf-al-mahjub",
+    "title": "Kashf al-Mahjub (al-Hujwiri)",
+    "lang": "fa",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/kashf-al-mahjub",
+    "notes": "Archive.org; original Persian; English translation also available",
+    "batch": "batch2",
+    "alt_url": "https://archive.org/details/KashfAlMahjub",
+    "alt_notes": "batch8-101-200: Persian original"
+  },
+  "minhaj-al-abidin": {
+    "slug": "minhaj-al-abidin",
+    "title": "منهاج العابدين — الغزالي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8528",
+    "notes": "UPGRADE from archive.org",
+    "batch": "batch9-201-300"
+  },
+  "kitab-ar-riayah": {
+    "slug": "kitab-ar-riayah",
+    "title": "Kitab al-Riayah (al-Muhasibi)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/201709_20170924",
+    "notes": "Archive.org; no standalone Shamela entry",
+    "batch": "batch2",
+    "alt_url": "https://archive.org/details/KitabArRiayah",
+    "alt_notes": "batch8-101-200: "
+  },
+  "adab-ad-dunya-wad-din": {
+    "slug": "adab-ad-dunya-wad-din",
+    "title": "Adab al-Dunya wal-Din (al-Mawardi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10756",
+    "notes": "Al-Maktaba; VERIFY — may conflict with ahkam al-sultaniyyah",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/765",
+    "alt_notes": "batch8-101-200: "
+  },
+  "rawdat-al-uqala": {
+    "slug": "rawdat-al-uqala",
+    "title": "Rawdat al-Uqala (Ibn Hibban al-Busti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4778",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/6944",
+    "alt_notes": "batch8-101-200: "
+  },
+  "sharh-ibn-aqil": {
+    "slug": "sharh-ibn-aqil",
+    "title": "Sharh Ibn Aqil ala Alfiyyat Ibn Malik",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4571",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "al-khasais": {
+    "slug": "al-khasais",
+    "title": "الخصائص — ابن جني",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21613",
+    "notes": "UPGRADE from shamela/9986",
+    "batch": "batch9-201-300"
+  },
+  "dalail-al-ijaz": {
+    "slug": "dalail-al-ijaz",
+    "title": "Dalail al-Ijaz (Abd al-Qahir al-Jurjani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6369",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/8180",
+    "alt_notes": "batch9-201-300: UPGRADE from shamela/12055"
+  },
+  "asrar-al-balaghah": {
+    "slug": "asrar-al-balaghah",
+    "title": "Asrar al-Balaghah (Abd al-Qahir al-Jurjani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6370",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/6876",
+    "alt_notes": "batch9-201-300: UPGRADE from shamela/8187"
+  },
+  "al-mahsul": {
+    "slug": "al-mahsul",
+    "title": "Al-Mahsul (Fakhr al-Din al-Razi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/12568",
+    "notes": "Shamela; VERIFY ID",
+    "batch": "batch2"
+  },
+  "al-ihkam-amidi": {
+    "slug": "al-ihkam-amidi",
+    "title": "Al-Ihkam fi Usul al-Ahkam (al-Amidi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/11497",
+    "notes": "Shamela; VERIFY ID",
+    "batch": "batch2"
+  },
+  "al-ihkam-ibn-hazm": {
+    "slug": "al-ihkam-ibn-hazm",
+    "title": "Al-Ihkam fi Usul al-Ahkam (Ibn Hazm)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6252",
+    "notes": "Al-Maktaba; confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/10432",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-furuq": {
+    "slug": "al-furuq",
+    "title": "Al-Furuq / Anwar al-Buruq (al-Qarafi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4420",
+    "notes": "Al-Maktaba; confirmed in batch 3 (al-dhakhirah context)",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/2215",
+    "alt_notes": "batch8-101-200: "
+  },
+  "marifat-ulum-al-hadith": {
+    "slug": "marifat-ulum-al-hadith",
+    "title": "Marifat Ulum al-Hadith (al-Hakim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5594",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/13179",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-kifayah-khatib": {
+    "slug": "al-kifayah-khatib",
+    "title": "Al-Kifayah fi Ilm al-Riwayah (al-Khatib)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5598",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/13055",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-jami-li-akhlaq-ar-rawi": {
+    "slug": "al-jami-li-akhlaq-ar-rawi",
+    "title": "Al-Jami li-Akhlaq al-Rawi (al-Khatib)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5596",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "as-sirah-an-nabawiyyah-ibn-kathir": {
+    "slug": "as-sirah-an-nabawiyyah-ibn-kathir",
+    "title": "Al-Sirah al-Nabawiyyah (Ibn Kathir)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5726",
+    "notes": "Al-Maktaba; confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/930",
+    "alt_notes": "batch8-101-200: "
+  },
+  "subul-al-huda-war-rashad": {
+    "slug": "subul-al-huda-war-rashad",
+    "title": "Subul al-Huda wal-Rashad (al-Salihi al-Shami)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/6997",
+    "notes": "Shamela; VERIFY ID",
+    "batch": "batch2",
+    "alt_url": "https://shamela.ws/book/1693",
+    "alt_notes": "batch8-101-200: "
+  },
+  "futuh-al-buldan": {
+    "slug": "futuh-al-buldan",
+    "title": "Futuh al-Buldan (al-Baladhuri)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4755",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "muruj-adh-dhahab": {
+    "slug": "muruj-adh-dhahab",
+    "title": "مروج الذهب — المسعودي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/4706",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "al-ahkam-as-sultaniyyah": {
+    "slug": "al-ahkam-as-sultaniyyah",
+    "title": "Al-Ahkam al-Sultaniyyah (al-Mawardi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10756",
+    "notes": "Al-Maktaba; VERIFY ID",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/22881",
+    "alt_notes": "batch8-101-200: "
+  },
+  "tabsirat-al-hukkam": {
+    "slug": "tabsirat-al-hukkam",
+    "title": "Tabsirat al-Hukkam (Ibn Farhun)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9544",
+    "notes": "Shamela; VERIFY ID",
+    "batch": "batch2",
+    "alt_url": "https://shamela.ws/book/21595",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-muwafaqat-shatibi": {
+    "slug": "al-muwafaqat-shatibi",
+    "title": "Al-Muwafaqat (al-Shatibi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11435",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "al-muqaddimah-ibn-as-salah": {
+    "slug": "al-muqaddimah-ibn-as-salah",
+    "title": "Muqaddimah Ibn al-Salah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/14600",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/31732",
+    "alt_notes": "batch8-101-200: "
+  },
+  "fath-al-qadir": {
+    "slug": "fath-al-qadir",
+    "title": "فتح القدير — ابن الهمام",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21744",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "al-ashbah-wan-nazair-ibn-nujaym": {
+    "slug": "al-ashbah-wan-nazair-ibn-nujaym",
+    "title": "الأشباه والنظائر — ابن نجيم الحنفي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1666",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "al-wajiz-fi-fiqh-as-sunnah": {
+    "slug": "al-wajiz-fi-fiqh-as-sunnah",
+    "title": "Al-Wajiz fi Fiqh al-Sunnah wal-Kitab (Abd al-Azim Badawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33249",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "al-iqna-fi-hall-alfaz-abi-shuja": {
+    "slug": "al-iqna-fi-hall-alfaz-abi-shuja",
+    "title": "Al-Iqna fi Hall Alfaz Abi Shuja (al-Khatib al-Shirbini)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6137",
+    "notes": "Al-Maktaba; VERIFY ID",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/6121",
+    "alt_notes": "batch8-101-200: "
+  },
+  "mughni-al-muhtaj": {
+    "slug": "mughni-al-muhtaj",
+    "title": "مغني المحتاج — الشربيني",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/11444",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "nihayat-al-muhtaj": {
+    "slug": "nihayat-al-muhtaj",
+    "title": "نهاية المحتاج — الرملي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3565",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "al-iklil-fi-istinbat-at-tanzil": {
+    "slug": "al-iklil-fi-istinbat-at-tanzil",
+    "title": "الإكليل في استنباط التنزيل — السيوطي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1385",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "at-tamhid": {
+    "slug": "at-tamhid",
+    "title": "Al-Tamhid (Ibn Abd al-Barr)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5574",
+    "notes": "Al-Maktaba; confirmed in batch 3; also at-tamhid-ibn-abd-al-barr",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/1719",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-istidhkar": {
+    "slug": "al-istidhkar",
+    "title": "Al-Istidhkar (Ibn Abd al-Barr)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5573",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/1722",
+    "alt_notes": "batch8-101-200: "
+  },
+  "tahdhib-at-tahdhib": {
+    "slug": "tahdhib-at-tahdhib",
+    "title": "Tahdhib al-Tahdhib (Ibn Hajar)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3310",
+    "notes": "Al-Maktaba; confirmed",
+    "batch": "batch2"
+  },
+  "taqrib-at-tahdhib": {
+    "slug": "taqrib-at-tahdhib",
+    "title": "Taqrib al-Tahdhib (Ibn Hajar)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8609",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2"
+  },
+  "tarikh-baghdad": {
+    "slug": "tarikh-baghdad",
+    "title": "Tarikh Baghdad (al-Khatib al-Baghdadi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31596",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "ansab-al-ashraf": {
+    "slug": "ansab-al-ashraf",
+    "title": "Ansab al-Ashraf (al-Baladhuri)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12305",
+    "notes": "Al-Maktaba; confirmed in batch 3",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/9773",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-bidayah-fi-al-fiqh": {
+    "slug": "al-bidayah-fi-al-fiqh",
+    "title": "Al-Bidayah / Bidayat al-Mubtadi (al-Marghinani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7093",
+    "notes": "Al-Maktaba; confirmed in batch 3; DUPLICATE of bidayat-al-mubtadi-marginani",
+    "batch": "batch2",
+    "alt_url": "https://al-maktaba.org/book/6170",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-majmu-fatawa-ibn-taymiyyah": {
+    "slug": "al-majmu-fatawa-ibn-taymiyyah",
+    "title": "Majmu al-Fatawa (Ibn Taymiyyah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7289",
+    "notes": "Al-Maktaba; agent-confirmed; DUPLICATE of majmu-al-fatawa",
+    "batch": "batch2"
+  },
+  "sharh-al-maqasid": {
+    "slug": "sharh-al-maqasid",
+    "title": "شرح المقاصد في علم الكلام — التفتازاني",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/1225",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "sharh-al-aqaid-an-nasafiyyah": {
+    "slug": "sharh-al-aqaid-an-nasafiyyah",
+    "title": "Sharh al-Aqaid al-Nasafiyyah (al-Taftazani)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/sharh-al-aqayid-taftazani-kustali-khayali-ramadan",
+    "notes": "Archive.org",
+    "batch": "batch2",
+    "alt_url": "https://archive.org/details/sharh_al-aqeedah_al-nasafiyyah_201910",
+    "alt_notes": "batch8-101-200: "
+  },
+  "tabaqat-ash-shafiyyah-al-kubra": {
+    "slug": "tabaqat-ash-shafiyyah-al-kubra",
+    "title": "Tabaqat al-Shafiyyah al-Kubra (al-Subki)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6739",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "al-jawahir-al-mudiyyah": {
+    "slug": "al-jawahir-al-mudiyyah",
+    "title": "Al-Jawahir al-Mudiyyah (al-Qurashi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6725",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "ad-dibaj-al-mudhahhab": {
+    "slug": "ad-dibaj-al-mudhahhab",
+    "title": "Al-Dibaj al-Mudhahhab (Ibn Farhun)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/34103",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "al-madhab-al-hanbali": {
+    "slug": "al-madhab-al-hanbali",
+    "title": "Al-Madkhal ila Madhab al-Imam Ahmad (Ibn Badran)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33137",
+    "notes": "Al-Maktaba; agent-confirmed",
+    "batch": "batch2"
+  },
+  "al-wajiz-fi-fiqh-ghazali": {
+    "slug": "al-wajiz-fi-fiqh-ghazali",
+    "title": "Al-Wajiz fi Fiqh al-Imam al-Shafi'i (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1141",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "ghayat-al-maram": {
+    "slug": "ghayat-al-maram",
+    "title": "Ghayat al-Maram fi Ilm al-Kalam (al-Amidi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6364",
+    "notes": "Al-Maktaba al-Shamilah; al-Amidi kalam work",
+    "batch": "batch3"
+  },
+  "al-wajiz-fi-usul-fiqh-zuhayli": {
+    "slug": "al-wajiz-fi-usul-fiqh-zuhayli",
+    "title": "Al-Wajiz fi Usul al-Fiqh (al-Zuhayli)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/32155",
+    "notes": "Al-Maktaba al-Shamilah; modern usul manual",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/33154",
+    "alt_notes": "batch4: Full text on al-maktaba.org; modern usul reference"
+  },
+  "al-muhadhdhab": {
+    "slug": "al-muhadhdhab",
+    "title": "Al-Muhadhdhab fi Fiqh al-Imam al-Shafi'i (al-Shirazi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11813",
+    "notes": "Al-Maktaba al-Shamilah; standalone Shirazi text",
+    "batch": "batch3"
+  },
+  "al-istighna-ibn-abd-al-barr": {
+    "slug": "al-istighna-ibn-abd-al-barr",
+    "title": "Al-Istighnna' fi al-Kuna (Ibn Abd al-Barr)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12049",
+    "notes": "Al-Maktaba al-Shamilah; biographical kuna dictionary",
+    "batch": "batch3"
+  },
+  "tanbih-al-ghafilin": {
+    "slug": "tanbih-al-ghafilin",
+    "title": "Tanbih al-Ghafilin (Abu al-Layth al-Samarqandi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/10488",
+    "notes": "Shamela; al-maktaba returns only forum links",
+    "batch": "batch3",
+    "alt_url": "https://shamela.ws/book/11208",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-fikr-as-sami": {
+    "slug": "al-fikr-as-sami",
+    "title": "Al-Fikr al-Sami fi Tarikh al-Fiqh al-Islami (al-Hajwi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6168",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/33173",
+    "alt_notes": "batch9-201-300: "
+  },
+  "maarif-al-quran": {
+    "slug": "maarif-al-quran",
+    "title": "Ma'arif al-Quran (Mufti Muhammad Shafi)",
+    "lang": "ur",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/maarif-ul-quran",
+    "notes": "Archive.org; 8-vol Urdu tafsir",
+    "batch": "batch3"
+  },
+  "mughni-al-labib": {
+    "slug": "mughni-al-labib",
+    "title": "Mughni al-Labib (Ibn Hisham al-Ansari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4566",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "muqaddimat-ibn-rushd-al-jadd": {
+    "slug": "muqaddimat-ibn-rushd-al-jadd",
+    "title": "Muqaddimat Ibn Rushd al-Jadd",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4430",
+    "notes": "Al-Maktaba al-Shamilah; same text as al-bayan-wal-tahsil intro",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/33228",
+    "alt_notes": "batch9-201-300: "
+  },
+  "umdah-al-ahkam": {
+    "slug": "umdah-al-ahkam",
+    "title": "Umdat al-Ahkam",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/917",
+    "notes": "DUPLICATE of umdat-al-ahkam; same book",
+    "batch": "batch3"
+  },
+  "miftah-al-ulum": {
+    "slug": "miftah-al-ulum",
+    "title": "مفتاح العلوم — السكاكي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33214",
+    "notes": "",
+    "batch": "batch9-201-300"
+  },
+  "talkhis-al-miftah": {
+    "slug": "talkhis-al-miftah",
+    "title": "Talkhis al-Miftah (al-Qazwini)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/26802",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/10908",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-qawanin-al-fiqhiyyah-ibn-juzayy": {
+    "slug": "al-qawanin-al-fiqhiyyah-ibn-juzayy",
+    "title": "Al-Qawanin al-Fiqhiyyah (Ibn Juzayy)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4427",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/6193",
+    "alt_notes": "batch4: Full text on al-maktaba.org; concise Maliki-comparative fiqh"
+  },
+  "kitab-al-umm-hadith": {
+    "slug": "kitab-al-umm-hadith",
+    "title": "Kitab al-Umm (al-Shafi'i)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1655",
+    "notes": "Al-Maktaba al-Shamilah; DUPLICATE of al-umm",
+    "batch": "batch3"
+  },
+  "al-ilal-ad-daraqutni": {
+    "slug": "al-ilal-ad-daraqutni",
+    "title": "Al-Ilal al-Warida fi al-Ahadith al-Nabawiyya (al-Daraqutni)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10907",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/9082",
+    "alt_notes": "batch4: Full text on al-maktaba.org"
+  },
+  "ayyuha-al-walad": {
+    "slug": "ayyuha-al-walad",
+    "title": "Ayyuha al-Walad (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/6447",
+    "notes": "Shamela; short epistle",
+    "batch": "batch3"
+  },
+  "kimiya-yi-saadat": {
+    "slug": "kimiya-yi-saadat",
+    "title": "Kimiya-yi Sa'adat (al-Ghazali)",
+    "lang": "fa",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/Kimiya-yi-saadat",
+    "notes": "Archive.org Persian text; Arabic adaptation at al-maktaba.org/book/9261",
+    "batch": "batch3"
+  },
+  "al-bayquniyyah-sharh": {
+    "slug": "al-bayquniyyah-sharh",
+    "title": "Sharh al-Manzuma al-Bayquniyya",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7148",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/22721",
+    "alt_notes": "batch9-201-300: "
+  },
+  "shifaa-al-alil": {
+    "slug": "shifaa-al-alil",
+    "title": "Shifa' al-Alil (Ibn al-Qayyim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/12021",
+    "notes": "Shamela; no al-maktaba.org direct page found",
+    "batch": "batch3"
+  },
+  "masabih-as-sunnah-al-baghawi": {
+    "slug": "masabih-as-sunnah-al-baghawi",
+    "title": "Masabih al-Sunnah (al-Baghawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5586",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/32891",
+    "alt_notes": "batch4: Full text on al-maktaba.org; 4 vols"
+  },
+  "al-bayaan-wat-tabyeen": {
+    "slug": "al-bayaan-wat-tabyeen",
+    "title": "Al-Bayan wa-l-Tabyin (al-Jahiz)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/10614",
+    "notes": "Shamela; al-Jahiz adab/rhetoric",
+    "batch": "batch3"
+  },
+  "al-muwatta-imam-muhammad": {
+    "slug": "al-muwatta-imam-muhammad",
+    "title": "Muwatta' — riwayat Muhammad al-Shaybani",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/16050",
+    "notes": "Shamela; Shaybani riwaya, distinct from Yahya riwaya",
+    "batch": "batch3"
+  },
+  "tarikh-dimashq-ibn-asakir": {
+    "slug": "tarikh-dimashq-ibn-asakir",
+    "title": "Tarikh Madinat Dimashq (Ibn Asakir)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11018",
+    "notes": "Al-Maktaba al-Shamilah; 80 volumes",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/71",
+    "alt_notes": "batch4: Full text on al-maktaba.org; 80 vols, Dar al-Fikr 1995"
+  },
+  "al-isti-ab-fi-marifat-al-ashab": {
+    "slug": "al-isti-ab-fi-marifat-al-ashab",
+    "title": "Al-Isti'ab fi Ma'rifat al-Ashab (Ibn Abd al-Barr)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1152",
+    "notes": "Al-Maktaba al-Shamilah; same as al-istighna slot — NOTE: verify slug",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/12288",
+    "alt_notes": "batch9-201-300: "
+  },
+  "fi-zilal-al-quran": {
+    "slug": "fi-zilal-al-quran",
+    "title": "Fi Zilal al-Quran (Sayyid Qutb)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/ThilalQuran",
+    "notes": "Archive.org; copyright Dar al-Shuruq — no clean shamela/al-maktaba page confirmed",
+    "batch": "batch3"
+  },
+  "al-kabair-dhahabi": {
+    "slug": "al-kabair-dhahabi",
+    "title": "Al-Kaba'ir (al-Dhahabi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4768",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "manazil-as-sairin": {
+    "slug": "manazil-as-sairin",
+    "title": "Manazil al-Sa'irin (al-Harawi al-Ansari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9302",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/8463",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-futuhat-al-ilahiyyah": {
+    "slug": "al-futuhat-al-ilahiyyah",
+    "title": "Al-Futuhat al-Ilahiyya (al-Jamal) — tafsir supercommentary on Jalalain",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1730",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "hilyat-al-awliya": {
+    "slug": "hilyat-al-awliya",
+    "title": "Hilyat al-Awliya' (Abu Nu'aym al-Isfahani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4779",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "al-muhadhdhab-shirazi": {
+    "slug": "al-muhadhdhab-shirazi",
+    "title": "Al-Muhadhdhab (al-Shirazi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11813",
+    "notes": "DUPLICATE of al-muhadhdhab; same book",
+    "batch": "batch3"
+  },
+  "bidayat-al-mubtadi-marginani": {
+    "slug": "bidayat-al-mubtadi-marginani",
+    "title": "Bidayat al-Mubtadi (al-Marghinani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7093",
+    "notes": "DUPLICATE of al-bidayah-fi-al-fiqh; same book",
+    "batch": "batch3"
+  },
+  "al-muqni-ibn-qudamah": {
+    "slug": "al-muqni-ibn-qudamah",
+    "title": "Al-Muqni' (Ibn Qudama)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3770",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/33151",
+    "alt_notes": "batch9-201-300: "
+  },
+  "dalil-at-talib-li-nayl-al-matalib": {
+    "slug": "dalil-at-talib-li-nayl-al-matalib",
+    "title": "Dalil al-Talib li-Nayl al-Matalib (Mar'i ibn Yusuf)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3779",
+    "notes": "Al-Maktaba al-Shamilah; Hanbali fiqh",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/21592",
+    "alt_notes": "batch3-supp: Agent entry 209; Hanbali fiqh"
+  },
+  "manar-as-sabil-sharh-ad-dalil": {
+    "slug": "manar-as-sabil-sharh-ad-dalil",
+    "title": "Manar al-Sabil Sharh al-Dalil (Ibn Duwayn)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3780",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/5463",
+    "alt_notes": "batch4: Full text on al-maktaba.org"
+  },
+  "al-furoo-ibn-muflih": {
+    "slug": "al-furoo-ibn-muflih",
+    "title": "Al-Furu' (Ibn Muflih al-Hanbali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/12492",
+    "notes": "Shamela; no al-maktaba.org standalone page confirmed",
+    "batch": "batch3"
+  },
+  "al-insaf-mardawi": {
+    "slug": "al-insaf-mardawi",
+    "title": "Al-Insaf fi Ma'rifat al-Rajih (al-Mardawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3759",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/5756",
+    "alt_notes": "batch3-supp: Agent entry 223; also batch3.md=book/3759 — VERIFY ID"
+  },
+  "al-bayan-wal-tahsil-ibn-rushd": {
+    "slug": "al-bayan-wal-tahsil-ibn-rushd",
+    "title": "Al-Bayan wal-Tahsil (Ibn Rushd al-Jadd)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4430",
+    "notes": "Al-Maktaba al-Shamilah; Maliki fiqh responsa",
+    "batch": "batch3"
+  },
+  "al-dhakhirah-qarafi": {
+    "slug": "al-dhakhirah-qarafi",
+    "title": "Al-Dhakhira (al-Qarafi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4420",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "al-talkhis-al-habir-ibn-hajar": {
+    "slug": "al-talkhis-al-habir-ibn-hajar",
+    "title": "Al-Talkhis al-Habir (Ibn Hajar al-Asqalani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1581",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "nasb-al-rayah-zaylai": {
+    "slug": "nasb-al-rayah-zaylai",
+    "title": "Nasb al-Raya (al-Zaylai)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11428",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "umdat-al-qari": {
+    "slug": "umdat-al-qari",
+    "title": "Umdat al-Qari Sharh Sahih al-Bukhari (al-Ayni)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2166",
+    "notes": "Al-Maktaba al-Shamilah; DUPLICATE of umdatul-qari-ayni",
+    "batch": "batch3"
+  },
+  "umdatul-qari-ayni": {
+    "slug": "umdatul-qari-ayni",
+    "title": "Umdat al-Qari (al-Ayni)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2166",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "irshad-al-sari-qastallani": {
+    "slug": "irshad-al-sari-qastallani",
+    "title": "Irshad al-Sari (al-Qastallani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2175",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "ikmal-al-mualim-qadi-iyad": {
+    "slug": "ikmal-al-mualim-qadi-iyad",
+    "title": "Ikmal al-Mu'allim (Qadi Iyad)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1711",
+    "notes": "Al-Maktaba al-Shamilah; DUPLICATE of ikmal-al-mu-lim",
+    "batch": "batch3"
+  },
+  "al-minhaj-sharh-sahih-muslim-nawawi": {
+    "slug": "al-minhaj-sharh-sahih-muslim-nawawi",
+    "title": "Al-Minhaj Sharh Sahih Muslim (al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1711",
+    "notes": "Al-Maktaba al-Shamilah; DUPLICATE of al-minhaj-sharh-sahih-muslim",
+    "batch": "batch3"
+  },
+  "awn-al-mabud-azimabadi": {
+    "slug": "awn-al-mabud-azimabadi",
+    "title": "Awn al-Ma'bud Sharh Sunan Abi Dawud (al-Azimabadi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1456",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "tuhfat-al-ahwadhi-mubarakpuri": {
+    "slug": "tuhfat-al-ahwadhi-mubarakpuri",
+    "title": "Tuhfat al-Ahwadhi Sharh Jami' al-Tirmidhi (al-Mubarakpuri)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1460",
+    "notes": "Al-Maktaba al-Shamilah; DUPLICATE of tuhfat-al-ahwadhi-mubarakfuri",
+    "batch": "batch3"
+  },
+  "sharh-sunan-al-nasai-suyuti": {
+    "slug": "sharh-sunan-al-nasai-suyuti",
+    "title": "Sharh Sunan al-Nasa'i (al-Suyuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/360",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "sharh-sunan-ibn-majah-suyuti": {
+    "slug": "sharh-sunan-ibn-majah-suyuti",
+    "title": "Sharh Sunan Ibn Majah (al-Suyuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/791",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "tahdhib-al-kamal-mizzi": {
+    "slug": "tahdhib-al-kamal-mizzi",
+    "title": "Tahdhib al-Kamal fi Asma' al-Rijal (al-Mizzi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3722",
+    "notes": "Al-Maktaba al-Shamilah; major rijal encyclopedia",
+    "batch": "batch3"
+  },
+  "tahdhib-al-tahdhib-ibn-hajar": {
+    "slug": "tahdhib-al-tahdhib-ibn-hajar",
+    "title": "Tahdhib al-Tahdhib (Ibn Hajar al-Asqalani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3310",
+    "notes": "Al-Maktaba al-Shamilah; NOTE: verify — may redirect",
+    "batch": "batch3"
+  },
+  "taqrib-al-tahdhib-ibn-hajar": {
+    "slug": "taqrib-al-tahdhib-ibn-hajar",
+    "title": "Taqrib al-Tahdhib (Ibn Hajar al-Asqalani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8609",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "lisan-al-mizan-ibn-hajar": {
+    "slug": "lisan-al-mizan-ibn-hajar",
+    "title": "Lisan al-Mizan (Ibn Hajar al-Asqalani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12063",
+    "notes": "Al-Maktaba al-Shamilah; also newer ed. book/32021",
+    "batch": "batch3"
+  },
+  "al-isabah-fi-tamyiz-al-sahabah": {
+    "slug": "al-isabah-fi-tamyiz-al-sahabah",
+    "title": "Al-Isaba fi Tamyiz al-Sahaba (Ibn Hajar)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9767",
+    "notes": "Al-Maktaba al-Shamilah; DUPLICATE of al-isabah",
+    "batch": "batch3"
+  },
+  "usud-al-ghabah-ibn-athir": {
+    "slug": "usud-al-ghabah-ibn-athir",
+    "title": "Usd al-Ghaba fi Ma'rifat al-Sahaba (Ibn al-Athir)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1110",
+    "notes": "Al-Maktaba al-Shamilah; DUPLICATE of usd-al-ghabah",
+    "batch": "batch3"
+  },
+  "siyar-alam-al-nubala-dhahabi": {
+    "slug": "siyar-alam-al-nubala-dhahabi",
+    "title": "Siyar A'lam al-Nubala' (al-Dhahabi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1584",
+    "notes": "Al-Maktaba al-Shamilah; CORRECT ID is 1584 (NOT 10906)",
+    "batch": "batch3"
+  },
+  "wafayat-al-ayan-ibn-khallikan": {
+    "slug": "wafayat-al-ayan-ibn-khallikan",
+    "title": "Wafayat al-A'yan (Ibn Khallikan)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1000",
+    "notes": "Al-Maktaba al-Shamilah",
+    "batch": "batch3"
+  },
+  "al-bidayah-wal-nihayah-ibn-kathir-history": {
+    "slug": "al-bidayah-wal-nihayah-ibn-kathir-history",
+    "title": "Al-Bidaya wal-Nihaya (Ibn Kathir) — history",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8376",
+    "notes": "Al-Maktaba al-Shamilah; also book/23708",
+    "batch": "batch3",
+    "alt_url": "https://al-maktaba.org/book/23708",
+    "alt_notes": "batch9-201-300: "
+  },
+  "muruj-al-dhahab-masudi": {
+    "slug": "muruj-al-dhahab-masudi",
+    "title": "Muruj al-Dhahab (al-Masudi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/4706",
+    "notes": "Agent confirmed shamela/4706",
+    "batch": "batch3-supp"
+  },
+  "kitab-al-ibar-ibn-khaldun": {
+    "slug": "kitab-al-ibar-ibn-khaldun",
+    "title": "Tarikh Ibn Khaldun (Kitab al-Ibar)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12320",
+    "notes": "Al-Maktaba al-Shamilah; Muqaddima is book/9454",
+    "batch": "batch3"
+  },
+  "tafsir-al-kashshaf": {
+    "slug": "tafsir-al-kashshaf",
+    "title": "Tafsir al-Kashshaf (al-Zamakhshari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/587",
+    "notes": "Agent confirmed; Mu'tazilite tafsir",
+    "batch": "batch3-supp"
+  },
+  "hashiyat-al-dasuqi": {
+    "slug": "hashiyat-al-dasuqi",
+    "title": "Hashiyat al-Dasuqi ala al-Sharh al-Kabir",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21604",
+    "notes": "Agent confirmed book/21604; Maliki fiqh",
+    "batch": "batch3-supp"
+  },
+  "sharh-al-kabir-dardiri": {
+    "slug": "sharh-al-kabir-dardiri",
+    "title": "Al-Sharh al-Kabir (al-Dardiri) + Hashiyat al-Dasuqi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21604",
+    "notes": "Same physical work as hashiyat-al-dasuqi",
+    "batch": "batch3-supp"
+  },
+  "fath-al-qadir-kamal-ibn-humam": {
+    "slug": "fath-al-qadir-kamal-ibn-humam",
+    "title": "Fath al-Qadir (Ibn al-Humam)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6157",
+    "notes": "Agent entry 221; Hanafi fiqh",
+    "batch": "batch3-supp"
+  },
+  "al-mabsut-sarakhsi": {
+    "slug": "al-mabsut-sarakhsi",
+    "title": "Al-Mabsut (al-Sarakhsi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1514",
+    "notes": "Agent entry 241; Hanafi fiqh",
+    "batch": "batch3-supp"
+  },
+  "badai-al-sanai-kasani": {
+    "slug": "badai-al-sanai-kasani",
+    "title": "Badai al-Sanai (al-Kasani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/23685",
+    "notes": "Agent entry 242; Hanafi fiqh",
+    "batch": "batch3-supp"
+  },
+  "rawdat-al-talibin-nawawi": {
+    "slug": "rawdat-al-talibin-nawawi",
+    "title": "Rawdat al-Talibin (al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/499",
+    "notes": "Agent entry 256; Shafi'i fiqh",
+    "batch": "batch3-supp"
+  },
+  "nihayat-al-muhtaj-ramli": {
+    "slug": "nihayat-al-muhtaj-ramli",
+    "title": "Nihayat al-Muhtaj (al-Ramli)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1717",
+    "notes": "Agent entry 274; Shafi'i fiqh",
+    "batch": "batch3-supp"
+  },
+  "tuhfat-al-muhtaj-haytami": {
+    "slug": "tuhfat-al-muhtaj-haytami",
+    "title": "Tuhfat al-Muhtaj (Ibn Hajar al-Haytami)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33767",
+    "notes": "Agent entry 258; Shafi'i fiqh",
+    "batch": "batch3-supp"
+  },
+  "kashshaf-al-qina-buhuti": {
+    "slug": "kashshaf-al-qina-buhuti",
+    "title": "Kashshaf al-Qina (al-Buhuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1722",
+    "notes": "Agent entry 279; Hanbali fiqh",
+    "batch": "batch3-supp"
+  },
+  "sharh-muntaha-al-iradat-buhuti": {
+    "slug": "sharh-muntaha-al-iradat-buhuti",
+    "title": "Sharh Muntaha al-Iradat (al-Buhuti)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31717",
+    "notes": "Agent entry 281; Hanbali fiqh",
+    "batch": "batch3-supp"
+  },
+  "al-mughni-ala-mukhtasar-al-khiraqi": {
+    "slug": "al-mughni-ala-mukhtasar-al-khiraqi",
+    "title": "Al-Mughni (Ibn Qudamah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21693",
+    "notes": "Agent entry 271; Hanbali fiqh",
+    "batch": "batch3-supp"
+  },
+  "al-hawi-al-kabir": {
+    "slug": "al-hawi-al-kabir",
+    "title": "Al-Hawi al-Kabir (al-Mawardi)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/search?query=al-hawi+al-kabir+al-mawardi",
+    "notes": "Agent did not find direct al-maktaba ID; archive.org fallback",
+    "batch": "batch3-supp"
+  },
+  "iqna-hall-alfaz-abi-shuja": {
+    "slug": "iqna-hall-alfaz-abi-shuja",
+    "title": "Al-Iqna fi Hall Alfaz Abi Shuja (al-Khatib al-Shirbini)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/34093",
+    "notes": "Agent entry 218 (as al-Iqna'); Shafi'i",
+    "batch": "batch3-supp"
+  },
+  "minhaj-talibin-nawawi": {
+    "slug": "minhaj-talibin-nawawi",
+    "title": "Minhaj al-Talibin (al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5573",
+    "notes": "Note: agent used book/5573 as al-Istidhkar — verify; likely different book",
+    "batch": "batch3-supp"
+  },
+  "al-muwafaqat-fi-usul-ash-shariah": {
+    "slug": "al-muwafaqat-fi-usul-ash-shariah",
+    "title": "الموافقات في أصول الشريعة — الشاطبي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21751",
+    "notes": "UPGRADE from shamela/11435",
+    "batch": "batch9-201-300"
+  },
+  "al-itqan-fi-ulum-al-quran-suyuti": {
+    "slug": "al-itqan-fi-ulum-al-quran-suyuti",
+    "title": "Al-Itqan fi Ulum al-Quran (as-Suyuti) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/10644",
+    "notes": "Duplicate of al-itqan-fi-ulum-al-quran",
+    "batch": "batch4"
+  },
+  "al-burhan-fi-ulum-al-quran-zarkashi": {
+    "slug": "al-burhan-fi-ulum-al-quran-zarkashi",
+    "title": "Al-Burhan fi Ulum al-Quran (az-Zarkashi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9917",
+    "notes": "Duplicate of al-burhan-fi-ulum-al-quran",
+    "batch": "batch4"
+  },
+  "al-mustadrak-ala-as-sahihayn": {
+    "slug": "al-mustadrak-ala-as-sahihayn",
+    "title": "Al-Mustadrak ala as-Sahihayn (al-Hakim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2266",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "sunan-ad-daraqutni": {
+    "slug": "sunan-ad-daraqutni",
+    "title": "Sunan ad-Daraqutni",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33935",
+    "notes": "Full text on al-maktaba.org; Mu'assasat al-Risalah ed., 5 vols",
+    "batch": "batch4"
+  },
+  "al-mujam-al-kabir-tabarani": {
+    "slug": "al-mujam-al-kabir-tabarani",
+    "title": "Al-Mu'jam al-Kabir (at-Tabarani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1733",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "al-mujam-al-awsat-tabarani": {
+    "slug": "al-mujam-al-awsat-tabarani",
+    "title": "Al-Mu'jam al-Awsat (at-Tabarani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/4939",
+    "notes": "Full text on shamela.ws; al-maktaba.org has no direct book page",
+    "batch": "batch4"
+  },
+  "sahih-ibn-khuzaymah": {
+    "slug": "sahih-ibn-khuzaymah",
+    "title": "Sahih Ibn Khuzaymah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1446",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "sahih-ibn-hibban-at-taqasim": {
+    "slug": "sahih-ibn-hibban-at-taqasim",
+    "title": "Sahih Ibn Hibban (al-Ihsan arrangement)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/5734",
+    "notes": "Original al-Taqasim arrangement not independently extant; al-Ihsan is standard text",
+    "batch": "batch4"
+  },
+  "al-kamil-fi-duafa-ar-rijal": {
+    "slug": "al-kamil-fi-duafa-ar-rijal",
+    "title": "Al-Kamil fi Du'afa ar-Rijal (Ibn Adi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12579",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/33212",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-jarh-wat-tadil-ibn-abi-hatim": {
+    "slug": "al-jarh-wat-tadil-ibn-abi-hatim",
+    "title": "Al-Jarh wat-Ta'dil (Ibn Abi Hatim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2170",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/21642",
+    "alt_notes": "batch9-201-300: "
+  },
+  "tadhkirat-al-huffaz-dhahabi": {
+    "slug": "tadhkirat-al-huffaz-dhahabi",
+    "title": "Tadhkirat al-Huffaz (adh-Dhahabi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1583",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "mizan-al-itidal-fi-naqd-ar-rijal": {
+    "slug": "mizan-al-itidal-fi-naqd-ar-rijal",
+    "title": "Mizan al-I'tidal (adh-Dhahabi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1692",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "lisan-al-mizan": {
+    "slug": "lisan-al-mizan",
+    "title": "Lisan al-Mizan (Ibn Hajar) — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/32021",
+    "notes": "Duplicate of lisan-al-mizan-ibn-hajar",
+    "batch": "batch4"
+  },
+  "al-mabsut-li-as-sarakhsi": {
+    "slug": "al-mabsut-li-as-sarakhsi",
+    "title": "Al-Mabsut (as-Sarakhsi) — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7",
+    "notes": "Duplicate of al-mabsut",
+    "batch": "batch4"
+  },
+  "badai-as-sanai-fi-tartib-ash-sharai": {
+    "slug": "badai-as-sanai-fi-tartib-ash-sharai",
+    "title": "Bada'i as-Sana'i (al-Kasani) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6004",
+    "notes": "Duplicate of badai-as-sanai",
+    "batch": "batch4"
+  },
+  "al-hidayah-sharh-bidayat-mubtadi": {
+    "slug": "al-hidayah-sharh-bidayat-mubtadi",
+    "title": "Al-Hidayah Sharh Bidayat al-Mubtadi — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7072",
+    "notes": "Duplicate of al-hidayah",
+    "batch": "batch4"
+  },
+  "al-bahr-ar-raiq-sharh-kanz-daqaiq": {
+    "slug": "al-bahr-ar-raiq-sharh-kanz-daqaiq",
+    "title": "Al-Bahr ar-Ra'iq Sharh Kanz ad-Daqa'iq — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12227",
+    "notes": "Duplicate of al-bahr-ar-raiq",
+    "batch": "batch4"
+  },
+  "radd-al-muhtar-ala-ad-durr-al-mukhtar": {
+    "slug": "radd-al-muhtar-ala-ad-durr-al-mukhtar",
+    "title": "Radd al-Muhtar ala ad-Durr al-Mukhtar — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6282",
+    "notes": "Duplicate of radd-al-muhtar-ibn-abidin",
+    "batch": "batch4"
+  },
+  "ash-sharh-al-kabir-dardir": {
+    "slug": "ash-sharh-al-kabir-dardir",
+    "title": "Ash-Sharh al-Kabir (ad-Dardiri) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9852",
+    "notes": "Duplicate of sharh-al-kabir-dardiri",
+    "batch": "batch4"
+  },
+  "hashiyat-ad-dusuqi-ala-sharh-kabir": {
+    "slug": "hashiyat-ad-dusuqi-ala-sharh-kabir",
+    "title": "Hashiyat ad-Dusuqi ala ash-Sharh al-Kabir — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9853",
+    "notes": "Duplicate of hashiyat-ad-dusuqi",
+    "batch": "batch4"
+  },
+  "nihayat-al-muhtaj-sharh-minhaj-ramli": {
+    "slug": "nihayat-al-muhtaj-sharh-minhaj-ramli",
+    "title": "Nihayat al-Muhtaj ila Sharh al-Minhaj (ar-Ramli) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6128",
+    "notes": "Duplicate of nihayat-al-muhtaj",
+    "batch": "batch4"
+  },
+  "tuhfat-al-muhtaj-sharh-minhaj-haytami": {
+    "slug": "tuhfat-al-muhtaj-sharh-minhaj-haytami",
+    "title": "Tuhfat al-Muhtaj fi Sharh al-Minhaj (al-Haytami) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6129",
+    "notes": "Duplicate of tuhfat-al-muhtaj",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/33767",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-insaf-fi-marifat-ar-rajih-mardawi": {
+    "slug": "al-insaf-fi-marifat-ar-rajih-mardawi",
+    "title": "Al-Insaf fi Ma'rifat ar-Rajih (al-Mardawi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7459",
+    "notes": "Duplicate of al-insaf-mardawi",
+    "batch": "batch4"
+  },
+  "al-mugni-an-haml-al-asfar": {
+    "slug": "al-mugni-an-haml-al-asfar",
+    "title": "Al-Mughni an Haml al-Asfar (az-Zain al-Iraqi, takhrij of Ihya')",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/21550",
+    "notes": "Full text on shamela.ws; also in margins of Ihya' editions",
+    "batch": "batch4"
+  },
+  "ashbah-wan-nazair-suyuti-shafii": {
+    "slug": "ashbah-wan-nazair-suyuti-shafii",
+    "title": "Al-Ashbah wan-Naza'ir (as-Suyuti, Shafi'i) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6166",
+    "notes": "Duplicate of al-ashbah-wan-nazair-suyuti",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/23649",
+    "alt_notes": "batch9-201-300: "
+  },
+  "ashbah-wan-nazair-hanafi-ibn-nujaym": {
+    "slug": "ashbah-wan-nazair-hanafi-ibn-nujaym",
+    "title": "Al-Ashbah wan-Naza'ir (Ibn Nujaym, Hanafi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6163",
+    "notes": "Duplicate of al-ashbah-wan-nazair-ibn-nujaym",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/12021",
+    "alt_notes": "batch9-201-300: "
+  },
+  "sharh-al-qawaid-al-fiqhiyyah-zarqa": {
+    "slug": "sharh-al-qawaid-al-fiqhiyyah-zarqa",
+    "title": "Sharh al-Qawa'id al-Fiqhiyyah (Mustafa az-Zarqa)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6330",
+    "notes": "Full text on al-maktaba.org; by Ahmad al-Zarqa, annotated by his son",
+    "batch": "batch4"
+  },
+  "muqaddimat-ibn-khaldun-tarikh": {
+    "slug": "muqaddimat-ibn-khaldun-tarikh",
+    "title": "Al-Muqaddimah (Ibn Khaldun) — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10953",
+    "notes": "Duplicate of al-muqaddimah-ibn-khaldun",
+    "batch": "batch4"
+  },
+  "al-bidayah-wan-nihayah-ibn-kathir": {
+    "slug": "al-bidayah-wan-nihayah-ibn-kathir",
+    "title": "Al-Bidayah wan-Nihayah — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10906",
+    "notes": "Duplicate of al-bidayah-wal-nihayah-ibn-kathir-history",
+    "batch": "batch4"
+  },
+  "tarikh-ar-rusul-wal-muluk-tabari": {
+    "slug": "tarikh-ar-rusul-wal-muluk-tabari",
+    "title": "Tarikh at-Tabari (Tarikh ar-Rusul wal-Muluk)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9783",
+    "notes": "Duplicate of tarikh-at-tabari",
+    "batch": "batch4"
+  },
+  "al-kamil-fit-tarikh-ibn-al-athir": {
+    "slug": "al-kamil-fit-tarikh-ibn-al-athir",
+    "title": "Al-Kamil fit-Tarikh (Ibn al-Athir) — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9804",
+    "notes": "Duplicate of al-kamil-fit-tarikh",
+    "batch": "batch4"
+  },
+  "al-milal-wan-nihal-shahrastani": {
+    "slug": "al-milal-wan-nihal-shahrastani",
+    "title": "Al-Milal wan-Nihal (ash-Shahrastani) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6237",
+    "notes": "Duplicate of al-milal-wan-nihal",
+    "batch": "batch4"
+  },
+  "ar-risalah-al-qushayriyyah": {
+    "slug": "ar-risalah-al-qushayriyyah",
+    "title": "Ar-Risalah al-Qushayriyyah — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6116",
+    "notes": "Duplicate of al-risalah-al-qushayriyyah",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/9953",
+    "alt_notes": "batch8-101-200: "
+  },
+  "qut-al-qulub-abu-talib-al-makki": {
+    "slug": "qut-al-qulub-abu-talib-al-makki",
+    "title": "Qut al-Qulub (Abu Talib al-Makki) — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6109",
+    "notes": "Duplicate of qut-al-qulub",
+    "batch": "batch4"
+  },
+  "al-hikam-al-ataiyyah-ibn-ataillah": {
+    "slug": "al-hikam-al-ataiyyah-ibn-ataillah",
+    "title": "Al-Hikam al-Ata'iyyah — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6170",
+    "notes": "Duplicate of al-hikam-al-ataiyyah",
+    "batch": "batch4"
+  },
+  "tabaqat-ash-shafiyyah-al-kubra-subki": {
+    "slug": "tabaqat-ash-shafiyyah-al-kubra-subki",
+    "title": "Tabaqat ash-Shafi'iyyah al-Kubra (as-Subki) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8840",
+    "notes": "Duplicate of tabaqat-ash-shafiyyah-al-kubra",
+    "batch": "batch4"
+  },
+  "wafayat-al-ayan-wa-anba-abna-az-zaman": {
+    "slug": "wafayat-al-ayan-wa-anba-abna-az-zaman",
+    "title": "Wafayat al-A'yan (Ibn Khallikan) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9734",
+    "notes": "Duplicate of wafayat-al-ayan",
+    "batch": "batch4"
+  },
+  "al-ibanah-an-usul-ad-diyanah-ashari": {
+    "slug": "al-ibanah-an-usul-ad-diyanah-ashari",
+    "title": "Al-Ibanah an Usul ad-Diyanah (al-Ash'ari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8178",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "at-tamhid-al-baqillani": {
+    "slug": "at-tamhid-al-baqillani",
+    "title": "At-Tamhid / Tamhid al-Awa'il (al-Baqillani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6389",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "al-irshad-ila-qawati-al-adillah-juwayni": {
+    "slug": "al-irshad-ila-qawati-al-adillah-juwayni",
+    "title": "Al-Irshad ila Qawati' al-Adillah (al-Juwayni)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/12416",
+    "notes": "Full text on shamela.ws",
+    "batch": "batch4"
+  },
+  "sharh-aqidah-tahawiyyah-ibn-abil-izz": {
+    "slug": "sharh-aqidah-tahawiyyah-ibn-abil-izz",
+    "title": "Sharh al-Aqidah at-Tahawiyyah (Ibn Abi al-Izz)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31610",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "al-iqtisad-fil-itiqad-ghazali": {
+    "slug": "al-iqtisad-fil-itiqad-ghazali",
+    "title": "Al-Iqtisad fil-I'tiqad (al-Ghazali)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9217",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "minhaj-as-sunnah-nabawiyyah-ibn-taymiyyah": {
+    "slug": "minhaj-as-sunnah-nabawiyyah-ibn-taymiyyah",
+    "title": "Minhaj as-Sunnah an-Nabawiyyah (Ibn Taymiyyah) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10184",
+    "notes": "Duplicate of minhaj-as-sunnah",
+    "batch": "batch4"
+  },
+  "tabsirat-al-adillah-abu-muin-nasafi": {
+    "slug": "tabsirat-al-adillah-abu-muin-nasafi",
+    "title": "Tabsirat al-Adillah fi Usul ad-Din (Abu Muin an-Nasafi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/13613",
+    "notes": "Full text on shamela.ws; rare Maturidi kalam text",
+    "batch": "batch4"
+  },
+  "kitab-at-tawhid-al-maturidi": {
+    "slug": "kitab-at-tawhid-al-maturidi",
+    "title": "Kitab at-Tawhid (al-Maturidi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6365",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "al-mustasfa-min-ilm-usul-ghazali": {
+    "slug": "al-mustasfa-min-ilm-usul-ghazali",
+    "title": "Al-Mustasfa min Ilm al-Usul (al-Ghazali) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9213",
+    "notes": "Duplicate of al-mustasfa",
+    "batch": "batch4"
+  },
+  "al-mahsul-fi-usul-fiqh-razi": {
+    "slug": "al-mahsul-fi-usul-fiqh-razi",
+    "title": "Al-Mahsul fi Usul al-Fiqh (ar-Razi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6341",
+    "notes": "Duplicate of al-mahsul-fi-usul-al-fiqh",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/2022",
+    "alt_notes": "batch8-101-200: "
+  },
+  "al-ihkam-fi-usul-al-ahkam-amidi": {
+    "slug": "al-ihkam-fi-usul-al-ahkam-amidi",
+    "title": "Al-Ihkam fi Usul al-Ahkam (al-Amidi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6290",
+    "notes": "Duplicate of al-ihkam-amidi",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/10801",
+    "alt_notes": "batch8-101-200: "
+  },
+  "jam-al-jawami-subki-usul": {
+    "slug": "jam-al-jawami-subki-usul",
+    "title": "Jam' al-Jawami' fi Usul al-Fiqh (as-Subki)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/12298",
+    "notes": "Full text on shamela.ws",
+    "batch": "batch4"
+  },
+  "usul-as-sarakhsi": {
+    "slug": "usul-as-sarakhsi",
+    "title": "Usul as-Sarakhsi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6301",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/6972",
+    "alt_notes": "batch9-201-300: "
+  },
+  "kashf-al-asrar-bazdawi-usul": {
+    "slug": "kashf-al-asrar-bazdawi-usul",
+    "title": "Kashf al-Asrar Sharh Usul al-Bazdawi (Abd al-Aziz al-Bukhari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9062",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/6969",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-muharrar-fil-fiqh-hanbali": {
+    "slug": "al-muharrar-fil-fiqh-hanbali",
+    "title": "Al-Muharrar fil-Fiqh (Abu al-Barakat Ibn Taymiyyah, d.652 AH)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7460",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "al-furu-ibn-muflih-hanbali": {
+    "slug": "al-furu-ibn-muflih-hanbali",
+    "title": "Al-Furu' (Ibn Muflih) — duplicate slug",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7448",
+    "notes": "Duplicate of al-furoo-ibn-muflih",
+    "batch": "batch4"
+  },
+  "zad-al-mustaqni-fi-ikhtisar-al-muqni": {
+    "slug": "zad-al-mustaqni-fi-ikhtisar-al-muqni",
+    "title": "Zad al-Mustaqni' (al-Hajjawi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5462",
+    "notes": "Duplicate of zad-al-mustaqni",
+    "batch": "batch4"
+  },
+  "al-muqni-fi-fiqh-ahmad-ibn-qudamah": {
+    "slug": "al-muqni-fi-fiqh-ahmad-ibn-qudamah",
+    "title": "Al-Muqni' fi Fiqh al-Imam Ahmad (Ibn Qudamah) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5464",
+    "notes": "Duplicate of al-muqni-ibn-qudamah",
+    "batch": "batch4"
+  },
+  "al-muqaddimah-al-hadramiyyah-fiqh": {
+    "slug": "al-muqaddimah-al-hadramiyyah-fiqh",
+    "title": "Al-Muqaddimah al-Hadramiyyah — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11368",
+    "notes": "Duplicate of al-muqaddimah-al-hadramiyyah",
+    "batch": "batch4"
+  },
+  "fath-al-muin-sharh-qurrat-al-ayn": {
+    "slug": "fath-al-muin-sharh-qurrat-al-ayn",
+    "title": "Fath al-Mu'in bi Sharh Qurrat al-Ayn (al-Malibari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6034",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "ianat-at-talibin-dimyati": {
+    "slug": "ianat-at-talibin-dimyati",
+    "title": "I'anat at-Talibin (al-Dimyati)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33983",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "mughni-al-muhtaj-khatib-ash-shirbini": {
+    "slug": "mughni-al-muhtaj-khatib-ash-shirbini",
+    "title": "Mughni al-Muhtaj (al-Khatib ash-Shirbini) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6123",
+    "notes": "Duplicate of mughni-al-muhtaj",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/33849",
+    "alt_notes": "batch9-201-300: "
+  },
+  "al-mudawwanah-al-kubra-sahnun": {
+    "slug": "al-mudawwanah-al-kubra-sahnun",
+    "title": "Al-Mudawwanah al-Kubra (Sahnun) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7352",
+    "notes": "Duplicate of al-mudawwanah",
+    "batch": "batch4"
+  },
+  "at-tahdhib-fi-fiqh-maliki-baradii": {
+    "slug": "at-tahdhib-fi-fiqh-maliki-baradii",
+    "title": "At-Tahdhib fi Ikhtisar al-Mudawwanah (al-Baradii)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8487",
+    "notes": "Full text on al-maktaba.org; rare Maliki abridgment",
+    "batch": "batch4"
+  },
+  "ar-risalah-ibn-abi-zayd-maliki": {
+    "slug": "ar-risalah-ibn-abi-zayd-maliki",
+    "title": "Ar-Risalah (Ibn Abi Zayd al-Qayrawani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11373",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "al-kafi-fi-fiqh-ahl-al-madinah-maliki": {
+    "slug": "al-kafi-fi-fiqh-ahl-al-madinah-maliki",
+    "title": "Al-Kafi fi Fiqh Ahl al-Madinah (Ibn Abd al-Barr)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7367",
+    "notes": "Full text on al-maktaba.org",
+    "batch": "batch4"
+  },
+  "al-dhakhirah-al-qaraffi-maliki": {
+    "slug": "al-dhakhirah-al-qaraffi-maliki",
+    "title": "Adh-Dhakhirah (al-Qarafi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7381",
+    "notes": "Duplicate of al-dhakhirah-qarafi",
+    "batch": "batch4"
+  },
+  "al-furuq-al-qarafi": {
+    "slug": "al-furuq-al-qarafi",
+    "title": "Al-Furuq (al-Qarafi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6191",
+    "notes": "Duplicate of al-furuq",
+    "batch": "batch4"
+  },
+  "al-muhalla-bil-athar-ibn-hazm": {
+    "slug": "al-muhalla-bil-athar-ibn-hazm",
+    "title": "Al-Muhalla bil-Athar (Ibn Hazm) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1326",
+    "notes": "Duplicate of al-muhalla-ibn-hazm",
+    "batch": "batch4"
+  },
+  "al-umm-imam-ash-shafii": {
+    "slug": "al-umm-imam-ash-shafii",
+    "title": "Al-Umm (Imam ash-Shafi'i) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7394",
+    "notes": "Duplicate of al-umm",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/1655",
+    "alt_notes": "batch9-201-300: "
+  },
+  "sharh-as-sunnah-al-baghawi": {
+    "slug": "sharh-as-sunnah-al-baghawi",
+    "title": "Sharh as-Sunnah (al-Baghawi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33860",
+    "notes": "Duplicate of sharh-as-sunnah-al-baghawi",
+    "batch": "batch4"
+  },
+  "mishkat-al-masabih-tibrizi": {
+    "slug": "mishkat-al-masabih-tibrizi",
+    "title": "Mishkat al-Masabih (at-Tibrizi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1695",
+    "notes": "Duplicate of mishkat-al-masabih",
+    "batch": "batch4"
+  },
+  "al-adab-al-mufrad-imam-bukhari": {
+    "slug": "al-adab-al-mufrad-imam-bukhari",
+    "title": "Al-Adab al-Mufrad (Imam al-Bukhari) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1416",
+    "notes": "Duplicate of al-adab-al-mufrad",
+    "batch": "batch4"
+  },
+  "an-nasihah-al-kafiyah-kawthari": {
+    "slug": "an-nasihah-al-kafiyah-kawthari",
+    "title": "An-Nasihah al-Kafiyah (al-Kawthari)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9563",
+    "notes": "Full text on shamela.ws; note al-maktaba.org/258 is different work",
+    "batch": "batch4"
+  },
+  "tabyin-kadhib-al-muftari-ibn-asakir": {
+    "slug": "tabyin-kadhib-al-muftari-ibn-asakir",
+    "title": "Tabyin Kadhib al-Muftari (Ibn Asakir)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6549",
+    "notes": "Full text on al-maktaba.org; defense of al-Ash'ari",
+    "batch": "batch4"
+  },
+  "siyar-alam-an-nubala-dhahabi": {
+    "slug": "siyar-alam-an-nubala-dhahabi",
+    "title": "Siyar A'lam an-Nubala' (adh-Dhahabi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1584",
+    "notes": "Duplicate of siyar-alam-an-nubala; CORRECTED (not 10906)",
+    "batch": "batch4"
+  },
+  "al-isabah-fi-tamyiz-as-sahabah-ibn-hajar": {
+    "slug": "al-isabah-fi-tamyiz-as-sahabah-ibn-hajar",
+    "title": "Al-Isabah fi Tamyiz as-Sahabah (Ibn Hajar) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1513",
+    "notes": "Duplicate of al-isabah",
+    "batch": "batch4"
+  },
+  "usd-al-ghabah-fi-marifat-as-sahabah": {
+    "slug": "usd-al-ghabah-fi-marifat-as-sahabah",
+    "title": "Usd al-Ghabah fi Ma'rifat as-Sahabah (Ibn al-Athir) — dup",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9800",
+    "notes": "Duplicate of usd-al-ghabah",
+    "batch": "batch4"
+  },
+  "hilyat-al-awliya-abu-nuaym": {
+    "slug": "hilyat-al-awliya-abu-nuaym",
+    "title": "Hilyat al-Awliya' (Abu Nu'aym al-Isbahani) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1500",
+    "notes": "Duplicate of hilyat-al-awliya",
+    "batch": "batch4"
+  },
+  "mukhtasar-minhaj-al-qasidin-ibn-qudamah": {
+    "slug": "mukhtasar-minhaj-al-qasidin-ibn-qudamah",
+    "title": "Mukhtasar Minhaj al-Qasidin (Ibn Qudamah) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6171",
+    "notes": "Duplicate of mukhtasar-minhaj-al-qasidin",
+    "batch": "batch4"
+  },
+  "al-wabil-as-sayyib-ibn-al-qayyim": {
+    "slug": "al-wabil-as-sayyib-ibn-al-qayyim",
+    "title": "Al-Wabil as-Sayyib (Ibn al-Qayyim) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1607",
+    "notes": "Duplicate of al-wabil-as-sayyib",
+    "batch": "batch4"
+  },
+  "rawdat-at-talibin-nawawi-fiqh": {
+    "slug": "rawdat-at-talibin-nawawi-fiqh",
+    "title": "Rawdat at-Talibin wa Umdat al-Muftin — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7358",
+    "notes": "Duplicate of rawdat-at-talibin",
+    "batch": "batch4"
+  },
+  "al-majmu-sharh-muhadhdhab-nawawi": {
+    "slug": "al-majmu-sharh-muhadhdhab-nawawi",
+    "title": "Al-Majmu' Sharh al-Muhadhdhab (an-Nawawi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7372",
+    "notes": "Duplicate of al-majmu-sharh-al-muhadhdhab",
+    "batch": "batch4"
+  },
+  "al-athkar-an-nawawi": {
+    "slug": "al-athkar-an-nawawi",
+    "title": "Al-Adhkar (an-Nawawi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1580",
+    "notes": "Duplicate of al-adhkar-nawawi",
+    "batch": "batch4"
+  },
+  "sharh-sahih-muslim-an-nawawi": {
+    "slug": "sharh-sahih-muslim-an-nawawi",
+    "title": "Al-Minhaj Sharh Sahih Muslim (an-Nawawi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1585",
+    "notes": "Duplicate of al-minhaj-sharh-sahih-muslim-nawawi",
+    "batch": "batch4"
+  },
+  "irshad-al-fuhul-shawkani-usul": {
+    "slug": "irshad-al-fuhul-shawkani-usul",
+    "title": "Irshad al-Fuhul (ash-Shawkani) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6307",
+    "notes": "Duplicate of irshad-al-fuhul",
+    "batch": "batch4"
+  },
+  "nayl-al-awtar-shawkani": {
+    "slug": "nayl-al-awtar-shawkani",
+    "title": "Nayl al-Awtar (ash-Shawkani) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1599",
+    "notes": "Duplicate of nayl-al-awtar; CORRECTED (not 21590)",
+    "batch": "batch4"
+  },
+  "subul-as-salam-sanani": {
+    "slug": "subul-as-salam-sanani",
+    "title": "Subul as-Salam (as-San'ani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21590",
+    "notes": "Full text on al-maktaba.org; sharh of Bulugh al-Maram",
+    "batch": "batch4",
+    "alt_url": "https://al-maktaba.org/book/33229",
+    "alt_notes": "batch9-201-300: "
+  },
+  "tuhfat-al-ahwadhi-mubarakfuri": {
+    "slug": "tuhfat-al-ahwadhi-mubarakfuri",
+    "title": "Tuhfat al-Ahwadhi (al-Mubarakpuri) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1596",
+    "notes": "Duplicate of tuhfat-al-ahwadhi-mubarakpuri",
+    "batch": "batch4"
+  },
+  "muwatta-riwayat-ash-shaybani": {
+    "slug": "muwatta-riwayat-ash-shaybani",
+    "title": "Al-Muwatta (riwayat Muhammad ibn al-Hasan ash-Shaybani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/16050",
+    "notes": "Full text on shamela.ws; al-maktaba.org has no direct page",
+    "batch": "batch4"
+  },
+  "musnad-imam-ash-shafii": {
+    "slug": "musnad-imam-ash-shafii",
+    "title": "Musnad ash-Shafi'i",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/9344",
+    "notes": "Full text on shamela.ws; al-maktaba.org has Sanjir arrangement only",
+    "batch": "batch4"
+  },
+  "kitab-al-kharaj-abu-yusuf": {
+    "slug": "kitab-al-kharaj-abu-yusuf",
+    "title": "Kitab al-Kharaj (Abu Yusuf) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6387",
+    "notes": "Duplicate of kitab-al-kharaj",
+    "batch": "batch4"
+  },
+  "al-ahkam-as-sultaniyyah-mawardi": {
+    "slug": "al-ahkam-as-sultaniyyah-mawardi",
+    "title": "Al-Ahkam as-Sultaniyyah (al-Mawardi) — duplicate",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6375",
+    "notes": "Duplicate of al-ahkam-as-sultaniyyah",
+    "batch": "batch4"
+  },
+  "as-siyasah-ash-shariyyah-ibn-taymiyyah": {
+    "slug": "as-siyasah-ash-shariyyah-ibn-taymiyyah",
+    "title": "As-Siyasah ash-Shar'iyyah (Ibn Taymiyyah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/31237",
+    "notes": "Full text on al-maktaba.org; Saudi Awqaf ed.",
+    "batch": "batch4"
+  },
+  "al-muqaddimah-al-qayrawaniyyah-ibn-abi-zayd": {
+    "slug": "al-muqaddimah-al-qayrawaniyyah-ibn-abi-zayd",
+    "title": "Al-Muqaddimah al-Qayrawaniyyah (Ibn Abi Zayd)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/11373",
+    "notes": "Same text as ar-risalah-ibn-abi-zayd; Muqaddimah is opening section",
+    "batch": "batch4"
+  },
+  "beautiful-patience-surah-yusuf": {
+    "slug": "beautiful-patience-surah-yusuf",
+    "title": "Beautiful Patience — Tafsir of Surah Yusuf",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Beautiful%20patience%20%28Tafsir%20of%20Surah%20yusuf%29%20Part%201.pdf",
+    "notes": "Kalamullah; 2 parts",
+    "batch": "batch5"
+  },
+  "biographies-companions-of-prophet": {
+    "slug": "biographies-companions-of-prophet",
+    "title": "Biographies on the Companions of the Prophet",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Biographies%20on%20the%20Companions%20of%20the%20Prophet.pdf",
+    "notes": "Kalamullah",
+    "batch": "batch5"
+  },
+  "biography-ali-ibn-abi-talib": {
+    "slug": "biography-ali-ibn-abi-talib",
+    "title": "Ali Ibn Abi Talib (Biography)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Ali-Ibn-Abi-Talib-Volume-1.pdf",
+    "notes": "Kalamullah; 2 vols (as-Sallabi)",
+    "batch": "batch5",
+    "alt_url": "https://archive.org/details/AliIbnAbiTalib2Volumes",
+    "alt_notes": "batch7-improvements: Confirmed archive.org (2 vols)"
+  },
+  "biography-hasan-ibn-ali": {
+    "slug": "biography-hasan-ibn-ali",
+    "title": "Biography of Hasan Ibn Ali",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Al-Hasan%20ibn%20Ali%20Biography.pdf",
+    "notes": "Kalamullah (as-Sallabi)",
+    "batch": "batch5"
+  },
+  "biography-ibn-umar": {
+    "slug": "biography-ibn-umar",
+    "title": "Biography of Abdullah Ibn Umar",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Biography%20of%20Abdullah%20ibn%20Umar%20.pdf",
+    "notes": "Kalamullah",
+    "batch": "batch5"
+  },
+  "biographies-rightly-guided-caliphs": {
+    "slug": "biographies-rightly-guided-caliphs",
+    "title": "Biographies of the Rightly-Guided Caliphs",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Biographies%20of%20the%20Rightly-Guided%20Caliphs.pdf",
+    "notes": "Kalamullah",
+    "batch": "batch5"
+  },
+  "book-of-manners": {
+    "slug": "book-of-manners",
+    "title": "Book of Manners",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Book%20of%20Manners.pdf",
+    "notes": "Kalamullah; by Ibn Hazm / Fuad ibn Hazm",
+    "batch": "batch5"
+  },
+  "characteristics-of-the-hypocrites": {
+    "slug": "characteristics-of-the-hypocrites",
+    "title": "Characteristics of the Hypocrites",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Characteristics%20of%20the%20Hypocrites.pdf",
+    "notes": "Kalamullah; by Ibn al-Qayyim",
+    "batch": "batch5"
+  },
+  "commanders-of-the-muslim-army": {
+    "slug": "commanders-of-the-muslim-army",
+    "title": "Commanders of the Muslim Army",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Commanders%20of%20the%20Muslim%20Army.pdf",
+    "notes": "Kalamullah; by Mahmud Shith Khattab",
+    "batch": "batch5"
+  },
+  "congregational-prayer": {
+    "slug": "congregational-prayer",
+    "title": "Congregational Prayer",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Congregational%20Prayer.pdf",
+    "notes": "Kalamullah; by Salaah al-Sadlaan",
+    "batch": "batch5"
+  },
+  "description-wudhu-prophet": {
+    "slug": "description-wudhu-prophet",
+    "title": "Description of the Wudhu of the Prophet",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Description%20of%20the%20Wudho%20of%20the%20prophet.pdf",
+    "notes": "Kalamullah; by Ibn al-Qayyim",
+    "batch": "batch5"
+  },
+  "diseases-of-hearts-cures": {
+    "slug": "diseases-of-hearts-cures",
+    "title": "Diseases of the Hearts and Their Cures",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Diseases%20Of%20The%20Hearts%20And%20Their%20Cures.pdf",
+    "notes": "Kalamullah; by Ibn Taymiyyah",
+    "batch": "batch5"
+  },
+  "dont-be-sad": {
+    "slug": "dont-be-sad",
+    "title": "Don't Be Sad",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Dont%20Be%20Sad.pdf",
+    "notes": "Kalamullah; by Aaidh al-Qarni",
+    "batch": "batch5",
+    "alt_url": "https://archive.org/details/don-t-be-sad-aaidh-ibn-abdullah-al-qarni",
+    "alt_notes": "batch7-improvements: Confirmed archive.org direct item"
+  },
+  "enjoining-right-forbidding-wrong": {
+    "slug": "enjoining-right-forbidding-wrong",
+    "title": "Enjoining Right and Forbidding Wrong",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Enjoining%20Right%20and%20forbidding%20wrong.pdf",
+    "notes": "Kalamullah; by Ibn Taymiyyah",
+    "batch": "batch5"
+  },
+  "enjoy-your-life": {
+    "slug": "enjoy-your-life",
+    "title": "Enjoy Your Life",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Enjoy%20Your%20Life.pdf",
+    "notes": "Kalamullah; by Muhammad al-Arifi",
+    "batch": "batch5",
+    "alt_url": "https://archive.org/details/EnjoyYourLife_201710",
+    "alt_notes": "batch7-improvements: Confirmed archive.org item ID"
+  },
+  "etiquette-with-the-quran": {
+    "slug": "etiquette-with-the-quran",
+    "title": "Etiquette with the Quran",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Etiquette%20with%20the%20Quran.pdf",
+    "notes": "Kalamullah; by Ibn al-Salah abridged al-Nawawi",
+    "batch": "batch5",
+    "alt_url": "https://archive.org/details/nawawi-tibyan-tr.-m.-furber-etiquette-with-the-quran-1",
+    "alt_notes": "batch7-improvements: Better URL: M. Furber EN translation on archive.org"
+  },
+  "evolution-of-fiqh": {
+    "slug": "evolution-of-fiqh",
+    "title": "Evolution of Fiqh",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Evolution%20Of%20Fiqh.pdf",
+    "notes": "Kalamullah; by Bilal Philips",
+    "batch": "batch5"
+  },
+  "excellent-qualities-of-the-quran": {
+    "slug": "excellent-qualities-of-the-quran",
+    "title": "Excellent Qualities of the Quran",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Excellent%20Qualities%20of%20the%20Quran%20.pdf",
+    "notes": "Kalamullah; by Ibn Kathir",
+    "batch": "batch5"
+  },
+  "exquisite-pearl-journey-to-allah": {
+    "slug": "exquisite-pearl-journey-to-allah",
+    "title": "Exquisite Pearl — Journey to Allah and the Home of the Hereafter",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Exquisite%20Pearl.pdf",
+    "notes": "Kalamullah; by Ibn Rajab",
+    "batch": "batch5"
+  },
+  "fiqh-made-easy": {
+    "slug": "fiqh-made-easy",
+    "title": "Fiqh Made Easy (Textbook of Fiqh)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Fiqh%20Made%20Easy%20%28textbook%20of%20fiqh%29.pdf",
+    "notes": "Kalamullah; by Salaah as-Saawi",
+    "batch": "batch5"
+  },
+  "getting-the-best-of-hajj": {
+    "slug": "getting-the-best-of-hajj",
+    "title": "Getting the Best of Hajj",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/islamicbooksfromkalamullahcollection/Fiqh%20of%20Hajj.pdf",
+    "notes": "Shares Kalamullah PDF with hajj-and-umrah. Verify if same book",
+    "batch": "corrections",
+    "alt_url": "https://archive.org/details/gettingbestoutof0000davi_j8h6",
+    "alt_notes": "batch7-improvements: Confirmed archive.org item ID",
+    "prev_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Fiqh%20of%20Hajj.pdf"
+  },
+  "guarding-the-tongue": {
+    "slug": "guarding-the-tongue",
+    "title": "Guarding the Tongue",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Guarding%20the%20Tongue.pdf",
+    "notes": "Kalamullah; by al-Nawawi",
+    "batch": "batch5"
+  },
+  "history-of-islam-najeebabadi": {
+    "slug": "history-of-islam-najeebabadi",
+    "title": "History of Islam (Najeebabadi)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/History%20of%20Islam%20Vol%201.pdf",
+    "notes": "Kalamullah; 2 vols",
+    "batch": "batch5"
+  },
+  "ibn-taymiyyah-letters-from-prison": {
+    "slug": "ibn-taymiyyah-letters-from-prison",
+    "title": "Ibn Taymiyyah's Letters From Prison",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Ibn%20Taymeeyahs%20Letters%20From%20Prison.pdf",
+    "notes": "Kalamullah",
+    "batch": "batch5"
+  },
+  "islamic-funeral-rites": {
+    "slug": "islamic-funeral-rites",
+    "title": "Islamic Funeral Rites",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Funeral%20Rites.pdf",
+    "notes": "Kalamullah; by Muhammad al-Jibaly",
+    "batch": "batch5"
+  },
+  "islamic-ruling-on-music": {
+    "slug": "islamic-ruling-on-music",
+    "title": "Islamic Ruling on Music and Singing",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Ruling%20on%20Music%20and%20Singing.pdf",
+    "notes": "Kalamullah; by Abu Bilal Mustafa al-Kanadi (cites Ibn al-Qayyim extensively)",
+    "batch": "batch5"
+  },
+  "natural-blood-of-women": {
+    "slug": "natural-blood-of-women",
+    "title": "Natural Blood of Women",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Natural%20Blood%20of%20Women.pdf",
+    "notes": "Kalamullah; by Ibn Uthaymeen",
+    "batch": "batch5"
+  },
+  "noble-life-of-the-prophet": {
+    "slug": "noble-life-of-the-prophet",
+    "title": "Noble Life of the Prophet",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Noble%20Life%20of%20The%20Prophet%20%28Peace%20Be%20Upon%20Him%29.pdf",
+    "notes": "Kalamullah; by Dr. Ali Muhammad as-Sallabi (3 vols condensed)",
+    "batch": "batch5"
+  },
+  "patience-and-gratitude": {
+    "slug": "patience-and-gratitude",
+    "title": "Patience and Gratitude",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Patience_and_Gratitude.pdf",
+    "notes": "Kalamullah; by Ibn al-Qayyim",
+    "batch": "batch5"
+  },
+  "polygamy-in-islam": {
+    "slug": "polygamy-in-islam",
+    "title": "Polygamy in Islam",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Polygamy%20in%20Islam.pdf",
+    "notes": "Kalamullah; by Bilal Philips and Jameelah Jones",
+    "batch": "batch5"
+  },
+  "prophets-prayer-described": {
+    "slug": "prophets-prayer-described",
+    "title": "The Prophet's Prayer Described",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Prophet%20Prayer2-1.pdf",
+    "notes": "Kalamullah; by al-Albani",
+    "batch": "batch5"
+  },
+  "purification-of-the-soul": {
+    "slug": "purification-of-the-soul",
+    "title": "Purification of the Soul",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Purification%20Of%20The%20Soul.pdf",
+    "notes": "Kalamullah; by Ahmad Farid",
+    "batch": "batch5"
+  },
+  "rulings-on-itikaf": {
+    "slug": "rulings-on-itikaf",
+    "title": "Rulings on I'tikaf",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Rulings%20about%20Itikaaf.pdf",
+    "notes": "Kalamullah",
+    "batch": "batch5"
+  },
+  "rulings-on-udhiyah": {
+    "slug": "rulings-on-udhiyah",
+    "title": "Rulings on Udhiyah (Sacrifice)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Rulings%20on%20udhiya%20%28sacriice%29%20.pdf",
+    "notes": "Kalamullah",
+    "batch": "batch5"
+  },
+  "salahuddin-al-ayyubi": {
+    "slug": "salahuddin-al-ayyubi",
+    "title": "Salahuddin al-Ayyubi (Biography)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Salah%20Ad-Deen%20al-Ayubi%20%5BVol%201%5D%20.pdf",
+    "notes": "Kalamullah; 3 vols by as-Sallabi",
+    "batch": "batch5"
+  },
+  "summary-of-islamic-jurisprudence": {
+    "slug": "summary-of-islamic-jurisprudence",
+    "title": "A Summary of Islamic Jurisprudence",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/a-summary-of-islamic-jurisprudence-volume-1.pdf",
+    "notes": "Kalamullah; 2 vols by Salaah as-Saawi",
+    "batch": "batch5"
+  },
+  "the-three-fundamental-principles-explained": {
+    "slug": "the-three-fundamental-principles-explained",
+    "title": "The Three Fundamental Principles Explained",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Explanation%20of%20the%20Three%20Fundamental%20Principles%20of%20Islaam.pdf",
+    "notes": "Kalamullah; by Ibn Uthaymeen",
+    "batch": "batch5"
+  },
+  "dua-weapon-of-the-believer": {
+    "slug": "dua-weapon-of-the-believer",
+    "title": "Du'a: The Weapon of the Believer",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Dua%20The%20Weapon%20Of%20The%20Believer.pdf",
+    "notes": "Kalamullah; by Abu Ammaar Yasir Qadhi",
+    "batch": "batch5"
+  },
+  "the-muslim-home": {
+    "slug": "the-muslim-home",
+    "title": "The Muslim Home — 40 Recommendations",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://www.kalamullah.com/Books/The_Muslim_Home.pdf",
+    "notes": "Kalamullah direct PDF; by Ibn Uthaymeen; 40 recommendations for the Muslim household",
+    "batch": "batch5"
+  },
+  "you-can-be-the-happiest-woman": {
+    "slug": "you-can-be-the-happiest-woman",
+    "title": "You Can Be the Happiest Woman in the World",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://www.kalamullah.com/Books/You%20Can%20Be%20the%20Happiest%20Woman%20in%20the%20World.pdf",
+    "notes": "Kalamullah direct PDF; by Aaidh al-Qarni; translated from Arabic",
+    "batch": "batch5"
+  },
+  "the-friday-prayer": {
+    "slug": "the-friday-prayer",
+    "title": "The Friday Prayer (Etiquettes of a Muslim on Friday)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/Worship.Kalamullah/Etiquettes%20of%20a%20Muslim%20on%20Friday.pdf",
+    "notes": "Kalamullah Worship archive; covers Jumu'ah rulings",
+    "batch": "batch5"
+  },
+  "hajj-and-umrah": {
+    "slug": "hajj-and-umrah",
+    "title": "Hajj and Umrah Guide",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Fiqh%20of%20Hajj.pdf",
+    "notes": "Kalamullah; same file as getting-the-best-of-hajj; separate source: https://archive.org/details/HajjUmrah",
+    "batch": "batch5"
+  },
+  "bringing-up-children": {
+    "slug": "bringing-up-children",
+    "title": "Bringing Up Children in Islam",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Child%20Education%20in%20Islam.pdf",
+    "notes": "Kalamullah; \"Child Education in Islam\" / \"Nurturing Eeman in Children\"",
+    "batch": "batch5"
+  },
+  "islamic-etiquette": {
+    "slug": "islamic-etiquette",
+    "title": "Islamic Etiquette",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Islamic%20Etiquette%20A%20Part%20From%20The%20Book%20Minhaj-ul-muslim.pdf",
+    "notes": "Kalamullah; excerpt from Minhaj al-Muslim by Abu Bakr Jabir al-Jazairi",
+    "batch": "batch5"
+  },
+  "salvation-through-repentance": {
+    "slug": "salvation-through-repentance",
+    "title": "Salvation Through Repentance",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/SalvationThroughRepentance_201712",
+    "notes": "By Bilal Philips; also at https://archive.org/download/Worship.Kalamullah/SalvationThroughOfRepentanceanIslamicView.pdf",
+    "batch": "batch5"
+  },
+  "was-jesus-crucified": {
+    "slug": "was-jesus-crucified",
+    "title": "Was Jesus Crucified?",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/WasJesusCrucified.pdf",
+    "notes": "By Ahmad Deedat; IPCI collection",
+    "batch": "batch5"
+  },
+  "what-bible-says-about-muhammad": {
+    "slug": "what-bible-says-about-muhammad",
+    "title": "What the Bible Says About Muhammad",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/WhatTheBibleSaysAboutMuhammaddeedat.pdf",
+    "notes": "By Ahmad Deedat; also https://archive.org/download/The_Ahmed_Deedat_Collection/What_The_Bible_Says_About_Muhammad.pdf",
+    "batch": "batch5"
+  },
+  "world-of-the-jinn": {
+    "slug": "world-of-the-jinn",
+    "title": "The World of the Jinn and Devils",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/Islamic-Creed-Series/JinnDevils.pdf",
+    "notes": "Islamic Creed Series vol.3 by Umar al-Ashqar; also https://archive.org/details/the-world-of-the-jinn-devils",
+    "batch": "batch5"
+  },
+  "world-of-the-angels": {
+    "slug": "world-of-the-angels",
+    "title": "The World of the Noble Angels",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/Islamic-Creed-Series/The%20World%20of%20the%20Noble%20Angels.pdf",
+    "notes": "Islamic Creed Series vol.? by Umar al-Ashqar; collection: https://archive.org/details/Islamic-Creed-Series",
+    "batch": "batch5"
+  },
+  "the-jinn": {
+    "slug": "the-jinn",
+    "title": "The World of the Jinn (standalone)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/the-world-of-jinn-and-devils-in-the-light-of-quran-and-sunnah",
+    "notes": "Islamic Creed Series 3; maps to same content as world-of-the-jinn — confirm dedup needed",
+    "batch": "batch5"
+  },
+  "the-major-resurrection": {
+    "slug": "the-major-resurrection",
+    "title": "The Day of Resurrection",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/Islamic-Creed-Series/The%20Day%20of%20Resurrection.pdf",
+    "notes": "Islamic Creed Series vol.5 by Umar al-Ashqar; also: https://archive.org/details/Islamic-Creed-Series",
+    "batch": "batch5"
+  },
+  "the-minor-resurrection": {
+    "slug": "the-minor-resurrection",
+    "title": "The Minor Resurrection",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/Islamic-Creed-Series/The-Minor-Ressurection-V5-Umar-S.-al-Ashqar-High-Quality.pdf",
+    "notes": "Islamic Creed Series by Umar al-Ashqar; also: https://archive.org/details/theminorresurrectiondr.umarsalashqar",
+    "batch": "batch5"
+  },
+  "the-garden-and-the-fire": {
+    "slug": "the-garden-and-the-fire",
+    "title": "Paradise and Hell in Light of the Qur'an and Sunnah",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/Islamic-Creed-Series/Paradise-Hell-V7-Umar-S.-al-Ashqar.pdf",
+    "notes": "Islamic Creed Series vol.7 by Umar al-Ashqar; also: https://archive.org/details/HeavenAndHellInLightOfTheQuranAndSunnahDr.UmarSulaimanAlAshqar",
+    "batch": "batch5"
+  },
+  "biography-abu-bakr-siddiq": {
+    "slug": "biography-abu-bakr-siddiq",
+    "title": "Biography of Abu Bakr As-Siddeeq",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/biography-of-abu-bakr-as-siddeeq",
+    "notes": "By Dr. Ali Muhammad as-Sallabi; 773 pages; also: https://archive.org/details/TheBiographyOfAbuBakrAs-siddeeqRa.pdf",
+    "batch": "batch5",
+    "alt_url": "https://archive.org/details/TheBiographyOfAbuBakrAs-siddeeqRa.pdf",
+    "alt_notes": "batch7-improvements: Confirmed archive.org"
+  },
+  "biography-umar-ibn-khattab": {
+    "slug": "biography-umar-ibn-khattab",
+    "title": "Biography of Umar Ibn Al-Khattab",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/umar-ibn-khattab-life-biography",
+    "notes": "By Dr. Ali Muhammad as-Sallabi; 2 vols",
+    "batch": "batch5"
+  },
+  "biography-uthman-ibn-affan": {
+    "slug": "biography-uthman-ibn-affan",
+    "title": "Biography of Uthman Ibn Affan — Dhun-Noorayn",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/uthman-ibn-affan-biography",
+    "notes": "By Dr. Ali Muhammad as-Sallabi; also: https://archive.org/details/TheBiographyOfUthmanIbnAffanrDhun-noorayn.pdf",
+    "batch": "batch5",
+    "alt_url": "https://archive.org/details/TheBiographyOfUthmanIbnAffanrDhun-noorayn.pdf",
+    "alt_notes": "batch7-improvements: Confirmed archive.org"
+  },
+  "jinn-and-human-sickness": {
+    "slug": "jinn-and-human-sickness",
+    "title": "Jinn and Human Sickness",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/the-jinn-and-human-sickness-dar-us-salam-publications",
+    "notes": "By Dr. Abu'l-Mundhir Khaleel ibn Ibrahim Ameen; Dar us-Salam; also: https://archive.org/details/TheJinnAndHumanSickness_201701",
+    "batch": "batch5"
+  },
+  "sword-against-black-magic": {
+    "slug": "sword-against-black-magic",
+    "title": "Sword Against Black Magic and Evil Magicians",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/sword-against-black-magic-and-evil-magicians",
+    "notes": "By Wahid Ibn Abdessalam Bali; also: https://archive.org/details/SwordAgainstBlackMagicEvilMagicians",
+    "batch": "batch5"
+  },
+  "women-around-the-messenger": {
+    "slug": "women-around-the-messenger",
+    "title": "Women Around the Messenger",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/women_around_the_messenger",
+    "notes": "By Muhammad Ali Qutb; 347 pages",
+    "batch": "batch5"
+  },
+  "the-men-around-the-messenger": {
+    "slug": "the-men-around-the-messenger",
+    "title": "Men Around the Messenger",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/men-around-the-messenger-saw",
+    "notes": "By Khalid Muhammad Khalid; also: https://archive.org/details/men_around_the_prophet_201504",
+    "batch": "batch5"
+  },
+  "when-the-moon-split": {
+    "slug": "when-the-moon-split",
+    "title": "When the Moon Split",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/when-the-moon-split-a-biography-of-prophet-muhammad-english",
+    "notes": "By Safiur-Rahman al-Mubarakpuri; also: https://archive.org/details/when-the-moon-split-a-biography-of-proph",
+    "batch": "batch5"
+  },
+  "towards-just-monetary-system": {
+    "slug": "towards-just-monetary-system",
+    "title": "Towards a Just Monetary System",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/towards-a-just-monetary-system",
+    "notes": "Shares archive URL with islamic-finance-quranic-basis. May be same book or different editions",
+    "batch": "corrections",
+    "prev_url": "https://archive.org/details/towards-a-just-monetary-system"
+  },
+  "islamic-will-and-inheritance": {
+    "slug": "islamic-will-and-inheritance",
+    "title": "Islamic Will and Inheritance (Inheritance in Islam)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/InheritanceInIslam",
+    "notes": "By Dr. Abdul-Rauf; note: may not match exact book slug content — confirm title match",
+    "batch": "batch5"
+  },
+  "similarities-between-islam-and-christianity": {
+    "slug": "similarities-between-islam-and-christianity",
+    "title": "Similarities Between Islam and Christianity (Deedat)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/Shk_Ahmed_Deedats_Books",
+    "notes": "Deedat IPCI collection on archive.org; standalone not confirmed separately — use collection URL",
+    "batch": "batch7-improvements"
+  },
+  "memorize-the-quran": {
+    "slug": "memorize-the-quran",
+    "title": "How to Memorize the Quran (Yahya al-Ghawthani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://www.kalamullah.com/quran19.html",
+    "notes": "RESOLVED: kalamullah.com page entry; previously NO-SOURCE",
+    "batch": "batch7-improvements"
+  },
+  "taysir-mustalah-al-hadith": {
+    "slug": "taysir-mustalah-al-hadith",
+    "title": "Taysir Mustalah al-Hadith",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://archive.org/details/taysir-mustalah-alhadith-altahan",
+    "notes": "Arabic original on archive.org; NO English translation found on priority sites; AR → EN translation needed",
+    "batch": "batch5"
+  },
+  "sunnah-source-of-civilization": {
+    "slug": "sunnah-source-of-civilization",
+    "title": "The Sunnah as a Source of Civilization (Qaradawi)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://islamicstudies.info/literature/sunnah.pdf",
+    "notes": "RESOLVED: islamicstudies.info EN translation; previously NO-SOURCE",
+    "batch": "batch7-improvements"
+  },
+  "sincerity-in-worship": {
+    "slug": "sincerity-in-worship",
+    "title": "Sincerity in Worship",
+    "lang": "en",
+    "source_type": "NO-SOURCE",
+    "source_url": "—",
+    "notes": "No standalone EN book with this title confirmed on kalamullah/archive.org; topic covered within other works; may be Ibn Rajab treatise — needs further identification",
+    "batch": "batch5"
+  },
+  "al-wajibat-al-mutahattamat": {
+    "slug": "al-wajibat-al-mutahattamat",
+    "title": "Al-Wajibat al-Mutahattamat",
+    "lang": "ar",
+    "source_type": "NO-SOURCE",
+    "source_url": "—",
+    "notes": "By Ibn Baz; Arabic original; NO English translation found on priority sites; AR → EN translation needed",
+    "batch": "batch5"
+  },
+  "hadith-its-relevance": {
+    "slug": "hadith-its-relevance",
+    "title": "Hadith — Its Relevance Today",
+    "lang": "en",
+    "source_type": "NO-SOURCE",
+    "source_url": "—",
+    "notes": "No standalone book with this exact title confirmed; related work: \"A Textbook of Hadith Studies\" by Kamali at https://archive.org/details/hadith-studies-kamali — different book; needs title confirmation",
+    "batch": "batch5"
+  },
+  "usd-al-ghabah": {
+    "slug": "usd-al-ghabah",
+    "title": "Usd al-Ghabah fi Ma'rifat al-Sahaba (Ibn al-Athir)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1110",
+    "notes": "ALIAS of usud-al-ghabah-ibn-athir; same book/1110",
+    "batch": "batch6-gapfill"
+  },
+  "hayat-as-sahaba-kandhalwi": {
+    "slug": "hayat-as-sahaba-kandhalwi",
+    "title": "Hayat as-Sahaba (al-Kandahlawi)",
+    "lang": "ar",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Hayatus-Sahaba-Lives-of-the-Sahabah-Vol-1of%203.pdf",
+    "notes": "ALIAS of hayat-as-sahabah slug in batch5; 3 vols",
+    "batch": "batch6-gapfill"
+  },
+  "ikmal-al-mu-lim": {
+    "slug": "ikmal-al-mu-lim",
+    "title": "Ikmal al-Mu'lim bi-Fawa'id Muslim (Qadi Iyad)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1711",
+    "notes": "ALIAS of ikmal-al-mualim-qadi-iyad; same book/1711",
+    "batch": "batch6-gapfill"
+  },
+  "al-tamhid-ibn-abd-al-barr": {
+    "slug": "al-tamhid-ibn-abd-al-barr",
+    "title": "Al-Tamhid (Ibn Abd al-Barr)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5574",
+    "notes": "ALIAS of at-tamhid; same book/5574",
+    "batch": "batch6-gapfill"
+  },
+  "al-istidhkar-ibn-abd-al-barr": {
+    "slug": "al-istidhkar-ibn-abd-al-barr",
+    "title": "Al-Istidhkar (Ibn Abd al-Barr)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5573",
+    "notes": "ALIAS of al-istidhkar; same book/5573",
+    "batch": "batch6-gapfill"
+  },
+  "al-mudawwanah-al-kubra": {
+    "slug": "al-mudawwanah-al-kubra",
+    "title": "Al-Mudawwanah al-Kubra (Sahnun)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4414",
+    "notes": "ALIAS of al-mudawwanah; same book/4414",
+    "batch": "batch6-gapfill"
+  },
+  "al-muqaddimah-ibn-rushd": {
+    "slug": "al-muqaddimah-ibn-rushd",
+    "title": "Al-Muqaddimat al-Mumahhidat (Ibn Rushd al-Jadd)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4430",
+    "notes": "ALIAS of muqaddimat-ibn-rushd-al-jadd; same book/4430",
+    "batch": "batch6-gapfill"
+  },
+  "ilam-al-muwaqqiin-summary": {
+    "slug": "ilam-al-muwaqqiin-summary",
+    "title": "I'lam al-Muwaqqi'in (Ibn al-Qayyim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8090",
+    "notes": "ALIAS of i-lam-al-muwaqqi-in; full text on al-maktaba; VERIFY ID 8090",
+    "batch": "batch6-gapfill"
+  },
+  "al-risalah-fi-usul-al-fiqh": {
+    "slug": "al-risalah-fi-usul-al-fiqh",
+    "title": "Ar-Risalah fi Usul al-Fiqh (Imam al-Shafi'i)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9490",
+    "notes": "Imam Shafi'i's foundational usul work; VERIFY ID 9490",
+    "batch": "batch6-gapfill"
+  },
+  "al-luma-shirazi": {
+    "slug": "al-luma-shirazi",
+    "title": "Al-Luma fi Usul al-Fiqh (Abu Ishaq al-Shirazi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8537",
+    "notes": "Shafi'i usul primer; VERIFY ID 8537",
+    "batch": "batch6-gapfill"
+  },
+  "ghayat-al-taqrib": {
+    "slug": "ghayat-al-taqrib",
+    "title": "Matn Abi Shuja (Ghayat al-Taqrib)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8518",
+    "notes": "Standard Shafi'i fiqh primer; VERIFY ID 8518",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://al-maktaba.org/book/33949",
+    "alt_notes": "batch9-201-300: Commentary (Fath al-Qareeb) contains matn"
+  },
+  "al-uddah-sharh-al-umdah": {
+    "slug": "al-uddah-sharh-al-umdah",
+    "title": "Al-Uddah Sharh al-Umdah (Baha al-Din al-Maqdisi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3782",
+    "notes": "Hanbali fiqh commentary on Umdat al-Fiqh; VERIFY ID 3782",
+    "batch": "batch6-gapfill"
+  },
+  "al-manthur-fi-al-qawaid": {
+    "slug": "al-manthur-fi-al-qawaid",
+    "title": "Al-Manthur fi al-Qawa'id al-Fiqhiyyah (al-Zarkashi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7180",
+    "notes": "Shafi'i legal maxims encyclopedia; VERIFY ID 7180",
+    "batch": "batch6-gapfill"
+  },
+  "al-burhan-fi-usul-al-fiqh": {
+    "slug": "al-burhan-fi-usul-al-fiqh",
+    "title": "Al-Burhan fi Usul al-Fiqh (Imam al-Juwayni)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7163",
+    "notes": "Foundational Shafi'i usul; VERIFY ID 7163",
+    "batch": "batch6-gapfill"
+  },
+  "tafsir-al-khazin": {
+    "slug": "tafsir-al-khazin",
+    "title": "Lubab al-Ta'wil fi Ma'ani al-Tanzil — Tafsir al-Khazin",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6175",
+    "notes": "Classical Shafi'i-Sufi tafsir; VERIFY ID 6175",
+    "batch": "batch6-gapfill"
+  },
+  "tafsir-abu-bakr-al-jazairi": {
+    "slug": "tafsir-abu-bakr-al-jazairi",
+    "title": "Aysar al-Tafasir li-Kalam al-Aliy al-Kabir (al-Jaza'iri)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/21577",
+    "notes": "Modern simplified tafsir; VERIFY ID 21577",
+    "batch": "batch6-gapfill"
+  },
+  "al-adhkar-nawawi": {
+    "slug": "al-adhkar-nawawi",
+    "title": "Al-Adhkar (Imam al-Nawawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8535",
+    "notes": "Comprehensive dhikr collection; VERIFY ID 8535",
+    "batch": "batch6-gapfill"
+  },
+  "hisn-al-muslim": {
+    "slug": "hisn-al-muslim",
+    "title": "Hisn al-Muslim (Sa'id al-Qahtani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/22568",
+    "notes": "Extremely popular du'a compilation; VERIFY ID 22568",
+    "batch": "batch6-gapfill"
+  },
+  "sharh-sahih-al-bukhari-ibn-battal": {
+    "slug": "sharh-sahih-al-bukhari-ibn-battal",
+    "title": "Sharh Sahih al-Bukhari (Ibn Battal al-Qurtubi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/2163",
+    "notes": "Maliki Bukhari commentary; VERIFY ID 2163",
+    "batch": "batch6-gapfill"
+  },
+  "sharhush-shudur": {
+    "slug": "sharhush-shudur",
+    "title": "Sharh Shudur al-Dhahab fi Ma'rifat Kalam al-Arab",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4563",
+    "notes": "Ibn Hisham Arabic grammar; NOTE: may be Sharh Qasas al-Anbiya or grammar work; VERIFY",
+    "batch": "batch6-gapfill"
+  },
+  "at-turuq-al-hukmiyyah": {
+    "slug": "at-turuq-al-hukmiyyah",
+    "title": "Al-Turuq al-Hukmiyyah fi al-Siyasa al-Shar'iyyah (Ibn al-Qayyim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8092",
+    "notes": "Islamic governance; VERIFY ID 8092",
+    "batch": "batch6-gapfill"
+  },
+  "tibb-an-nabawi": {
+    "slug": "tibb-an-nabawi",
+    "title": "Al-Tibb al-Nabawi (Ibn al-Qayyim)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9268",
+    "notes": "Prophetic medicine; VERIFY ID 9268; also shamela.ws/book/5163",
+    "batch": "batch6-gapfill"
+  },
+  "ar-rawd-al-unuf": {
+    "slug": "ar-rawd-al-unuf",
+    "title": "Al-Rawd al-Unuf fi Sharh al-Sira al-Nabawiyya (al-Suhayli)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4747",
+    "notes": "Commentary on Ibn Hisham Sira; VERIFY ID 4747",
+    "batch": "batch6-gapfill"
+  },
+  "al-mawahib-al-ladunniyyah": {
+    "slug": "al-mawahib-al-ladunniyyah",
+    "title": "Al-Mawahib al-Ladunniyya bi-al-Minah al-Muhammadiyya (al-Qastallani)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/5019",
+    "notes": "Seerah; VERIFY ID 5019",
+    "batch": "batch6-gapfill"
+  },
+  "kashf-az-zunun": {
+    "slug": "kashf-az-zunun",
+    "title": "Kashf al-Zunun 'an Asami al-Kutub wal-Funun (Hajji Khalifa)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4600",
+    "notes": "Encyclopedic bibliography; VERIFY ID 4600",
+    "batch": "batch6-gapfill"
+  },
+  "al-fiqh-al-islami-wa-adillatuh": {
+    "slug": "al-fiqh-al-islami-wa-adillatuh",
+    "title": "Al-Fiqh al-Islami wa Adillatuh (Wahbah al-Zuhayli)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7179",
+    "notes": "Modern comprehensive fiqh encyclopedia; VERIFY ID 7179",
+    "batch": "batch6-gapfill"
+  },
+  "al-jawab-as-sahih": {
+    "slug": "al-jawab-as-sahih",
+    "title": "Al-Jawab al-Sahih li-man Baddala Din al-Masih (Ibn Taymiyyah)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7200",
+    "notes": "Refutation of Christianity; VERIFY ID 7200",
+    "batch": "batch6-gapfill"
+  },
+  "izhar-al-haqq": {
+    "slug": "izhar-al-haqq",
+    "title": "Izhar al-Haqq (Rahmatullah al-Kairanawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4742",
+    "notes": "Classical comparative religion refutation; VERIFY ID 4742",
+    "batch": "batch6-gapfill"
+  },
+  "maqasid-ash-shariah-ibn-ashur": {
+    "slug": "maqasid-ash-shariah-ibn-ashur",
+    "title": "Maqasid al-Shari'ah al-Islamiyya (Ibn Ashur)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/12359",
+    "notes": "Foundational maqasid work; VERIFY ID 12359",
+    "batch": "batch6-gapfill"
+  },
+  "tafsir-at-tahrir-wat-tanwir": {
+    "slug": "tafsir-at-tahrir-wat-tanwir",
+    "title": "Al-Tahrir wal-Tanwir (Ibn Ashur)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7368",
+    "notes": "Major modern tafsir, 30 vols; VERIFY ID 7368",
+    "batch": "batch6-gapfill"
+  },
+  "tabyin-al-haqaiq": {
+    "slug": "tabyin-al-haqaiq",
+    "title": "Tabyin al-Haqa'iq Sharh Kanz al-Daqa'iq (al-Zaylai)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7143",
+    "notes": "Hanafi fiqh commentary; VERIFY ID 7143",
+    "batch": "batch6-gapfill"
+  },
+  "radd-al-muhtar-ibn-abidin": {
+    "slug": "radd-al-muhtar-ibn-abidin",
+    "title": "Radd al-Muhtar ala al-Durr al-Mukhtar — Hashiyat Ibn Abidin",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7124",
+    "notes": "Definitive Hanafi reference; VERIFY ID 7124",
+    "batch": "batch6-gapfill"
+  },
+  "al-iqna-hajjawi": {
+    "slug": "al-iqna-hajjawi",
+    "title": "Al-Iqna li-Talib al-Intifa (Musa al-Hajjawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3772",
+    "notes": "Hanbali fiqh manual; VERIFY ID 3772",
+    "batch": "batch6-gapfill"
+  },
+  "al-muhalla-ibn-hazm": {
+    "slug": "al-muhalla-ibn-hazm",
+    "title": "Al-Muhalla bil-Athar (Ibn Hazm al-Andalusi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7168",
+    "notes": "Dhahiri fiqh; VERIFY ID 7168",
+    "batch": "batch6-gapfill"
+  },
+  "fundamentals-of-tawhid": {
+    "slug": "fundamentals-of-tawhid",
+    "title": "Fundamentals of Tawhid",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/fundamentals-of-tawhid-bilal-philips",
+    "notes": "By Bilal Philips; also at islamhouse.com",
+    "batch": "batch6-gapfill"
+  },
+  "purpose-of-creation": {
+    "slug": "purpose-of-creation",
+    "title": "The Purpose of Creation",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/PurposeOfCreation",
+    "notes": "By Bilal Philips; Islamic creed",
+    "batch": "batch6-gapfill"
+  },
+  "critical-analysis-of-shirk": {
+    "slug": "critical-analysis-of-shirk",
+    "title": "Critical Analysis of Shirk",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/CriticalAnalysisOfShirk",
+    "notes": "By Bilal Philips; also islamhouse.com",
+    "batch": "batch6-gapfill"
+  },
+  "principles-of-islamic-jurisprudence-kamali": {
+    "slug": "principles-of-islamic-jurisprudence-kamali",
+    "title": "Principles of Islamic Jurisprudence",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/principles-of-islamic-jurisprudence-kamali",
+    "notes": "By M.H. Kamali; academic usul text",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://archive.org/details/principles-of-islamic-jurisprudence_202401",
+    "alt_notes": "batch7-improvements: Confirmed specific archive.org item ID"
+  },
+  "islamic-jurisprudence-abu-zahrah": {
+    "slug": "islamic-jurisprudence-abu-zahrah",
+    "title": "Islamic Jurisprudence",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8537",
+    "notes": "NOTE: Abu Zahrah's \"Usul al-Fiqh\" — VERIFY ID; may be different from al-luma-shirazi",
+    "batch": "batch6-gapfill"
+  },
+  "authority-of-sunnah": {
+    "slug": "authority-of-sunnah",
+    "title": "The Authority of Sunnah",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/TheAuthorityOfSunnah",
+    "notes": "By Justice Taqi Usmani; apologetics for hadith",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://archive.org/details/TheAuthorityOfSunnahByMuftiTaqiUsmani",
+    "alt_notes": "batch7-improvements: Confirmed specific archive.org item ID"
+  },
+  "introduction-to-hadith-sciences": {
+    "slug": "introduction-to-hadith-sciences",
+    "title": "An Introduction to the Science of Hadith",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/introduction-to-hadith-sciences-bilal-philips",
+    "notes": "By Bilal Philips; also islamhouse.com",
+    "batch": "batch6-gapfill"
+  },
+  "approach-to-quranic-sciences": {
+    "slug": "approach-to-quranic-sciences",
+    "title": "An Approach to the Quranic Sciences",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/AnApproachToTheQuranicSciences",
+    "notes": "By Mufti Taqi Usmani; English trans of Ulum al-Quran",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://archive.org/details/AnApproachToTheQuranicSciencesByShaykhMuftiTaqiUsmani",
+    "alt_notes": "batch7-improvements: Confirmed specific archive.org item ID"
+  },
+  "introduction-sciences-of-quran": {
+    "slug": "introduction-sciences-of-quran",
+    "title": "Introduction to the Sciences of the Quran",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/IntroductionToTheSciencesOfTheQuran",
+    "notes": "By Ahmad von Denffer",
+    "batch": "batch6-gapfill"
+  },
+  "muhammad-man-and-prophet": {
+    "slug": "muhammad-man-and-prophet",
+    "title": "Muhammad: Man and Prophet",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/Muhammad-Man-And-Prophet",
+    "notes": "By Adil Salahi; Seerah biography",
+    "batch": "batch6-gapfill"
+  },
+  "great-women-of-islam": {
+    "slug": "great-women-of-islam",
+    "title": "Great Women of Islam",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/GreatWomenOfIslam",
+    "notes": "By Mahmud Ahmad Ghadanfar; also kalamullah.com",
+    "batch": "batch6-gapfill"
+  },
+  "lost-islamic-history": {
+    "slug": "lost-islamic-history",
+    "title": "Lost Islamic History",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/lost-islamic-history-firas-alkhateeb",
+    "notes": "By Firas Alkhateeb; modern history overview",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://archive.org/details/lostislamichisto0000alkh",
+    "alt_notes": "batch7-improvements: Confirmed archive.org item ID"
+  },
+  "lives-of-the-sahabah": {
+    "slug": "lives-of-the-sahabah",
+    "title": "Lives of the Sahabah (Hayat as-Sahaba)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/download/islamicbooksfromkalamullahcollection/Hayatus-Sahaba-Lives-of-the-Sahabah-Vol-1of%203.pdf",
+    "notes": "ALIAS of hayat-as-sahaba-kandhalwi; same content",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://archive.org/details/hayatus-sahaba-english",
+    "alt_notes": "batch7-improvements: Confirmed archive.org English translation"
+  },
+  "ideal-muslim": {
+    "slug": "ideal-muslim",
+    "title": "The Ideal Muslim",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7490",
+    "notes": "By Muhammad Ali al-Hashimi; Arabic original; VERIFY ID 7490",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://al-maktaba.org/book/9460",
+    "alt_notes": "batch6-gapfill: By Muhammad Ali al-Hashimi; widely read; VERIFY ID"
+  },
+  "ideal-muslimah": {
+    "slug": "ideal-muslimah",
+    "title": "The Ideal Muslimah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7491",
+    "notes": "By Muhammad Ali al-Hashimi; Arabic original; VERIFY ID 7491",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://al-maktaba.org/book/9461",
+    "alt_notes": "batch6-gapfill: By Muhammad Ali al-Hashimi; VERIFY ID"
+  },
+  "islam-and-science": {
+    "slug": "islam-and-science",
+    "title": "Islam and Science",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/IslamAndScience",
+    "notes": "By Maurice Bucaille or related comparative work; VERIFY exact match",
+    "batch": "batch6-gapfill"
+  },
+  "introduction-to-islamic-finance": {
+    "slug": "introduction-to-islamic-finance",
+    "title": "An Introduction to Islamic Finance",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/introduction-to-islamic-finance",
+    "notes": "By Mufti Taqi Usmani; also kalamullah.com/Books/",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://archive.org/details/AnIntroductionToIslamicFinanceByShaykhMuftiTaqiUsmani",
+    "alt_notes": "batch7-improvements: Confirmed specific archive.org item ID"
+  },
+  "introduction-to-islamic-economics": {
+    "slug": "introduction-to-islamic-economics",
+    "title": "Introduction to Islamic Economics",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/introduction-to-islamic-economics",
+    "notes": "By various authors; VERIFY exact match",
+    "batch": "batch6-gapfill"
+  },
+  "reclaim-your-heart": {
+    "slug": "reclaim-your-heart",
+    "title": "Reclaim Your Heart",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://www.kalamullah.com/Books/Reclaim%20Your%20Heart.pdf",
+    "notes": "By Yasmin Mogahed; popular spirituality",
+    "batch": "batch6-gapfill"
+  },
+  "quran-made-easy": {
+    "slug": "quran-made-easy",
+    "title": "The Quran Made Easy",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/QuranMadeEasy",
+    "notes": "By Mufti Afzal Hussain Elias; word-for-word translation",
+    "batch": "batch6-gapfill"
+  },
+  "is-the-bible-gods-word": {
+    "slug": "is-the-bible-gods-word",
+    "title": "Is the Bible God's Word?",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/IsTheBibleGodsWord",
+    "notes": "By Ahmad Deedat; IPCI collection",
+    "batch": "batch6-gapfill",
+    "alt_url": "https://archive.org/download/Shk_Ahmed_Deedats_Books/Is_The_Bible_Gods_Word.pdf",
+    "alt_notes": "batch7-improvements: Confirmed direct archive.org download URL"
+  },
+  "marriage-in-islam": {
+    "slug": "marriage-in-islam",
+    "title": "Marriage in Islam",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/MarriageInIslam",
+    "notes": "Also: islamhouse.com; VERIFY exact title match",
+    "batch": "batch6-gapfill"
+  },
+  "islamic-finance-quranic-basis": {
+    "slug": "islamic-finance-quranic-basis",
+    "title": "Towards an Islamic Finance",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/towards-a-just-monetary-system",
+    "notes": "By M. Umer Chapra; ALIAS of towards-just-monetary-system",
+    "batch": "batch6-gapfill"
+  },
+  "what-the-bible-says-about-muhammad": {
+    "slug": "what-the-bible-says-about-muhammad",
+    "title": "What the Bible Says About Muhammad (Deedat)",
+    "lang": "en",
+    "source_type": "pdf",
+    "source_url": "https://archive.org/details/WhatTheBibleSaysAboutMuhammaddeedat.pdf",
+    "notes": "ALIAS of what-bible-says-about-muhammad in batch5",
+    "batch": "batch6-gapfill"
+  },
+  "relief-from-distress": {
+    "slug": "relief-from-distress",
+    "title": "Relief from Distress",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6886",
+    "notes": "Possibly Ibn Taymiyyah \"al-Furqan Bayna Awliya al-Rahman\"; or al-Ashqar \"Fiqh al-Du'a\"; VERIFY exact book match",
+    "batch": "batch6-gapfill"
+  },
+  "messengers-and-messages": {
+    "slug": "messengers-and-messages",
+    "title": "The Messengers and the Messages",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9381",
+    "notes": "By Umar al-Ashqar; Islamic Creed Series; VERIFY ID 9381",
+    "batch": "batch6-gapfill"
+  },
+  "allahs-qadar": {
+    "slug": "allahs-qadar",
+    "title": "Allah's Qadar",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9379",
+    "notes": "By Umar al-Ashqar; Islamic Creed Series; VERIFY ID 9379",
+    "batch": "batch6-gapfill"
+  },
+  "introduction-to-tafsir": {
+    "slug": "introduction-to-tafsir",
+    "title": "An Introduction to the Principles of Tafsir",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/7365",
+    "notes": "By Ibn Taymiyyah \"Muqaddimat fi Usul al-Tafsir\"; VERIFY ID 7365",
+    "batch": "batch6-gapfill"
+  },
+  "causes-of-revelation": {
+    "slug": "causes-of-revelation",
+    "title": "The Causes of Revelation",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9481",
+    "notes": "Asbab al-Nuzul; possibly by al-Wahidi or similar; VERIFY exact match + ID",
+    "batch": "batch6-gapfill"
+  },
+  "in-the-shade-of-the-quran": {
+    "slug": "in-the-shade-of-the-quran",
+    "title": "In the Shade of the Quran (Arabic)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/51654",
+    "notes": "Fi Zilal al-Quran (Sayyid Qutb); ALIAS of fi-zilal-al-quran",
+    "batch": "batch6-gapfill"
+  },
+  "biography-imam-ahmad": {
+    "slug": "biography-imam-ahmad",
+    "title": "The Life of Imam Ahmad ibn Hanbal",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4699",
+    "notes": "Classical biography; possibly by Ibn al-Jawzi; VERIFY ID + exact author",
+    "batch": "batch6-gapfill"
+  },
+  "biography-imam-bukhari": {
+    "slug": "biography-imam-bukhari",
+    "title": "The Life of Imam al-Bukhari",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4702",
+    "notes": "Classical biography; VERIFY ID and exact match",
+    "batch": "batch6-gapfill"
+  },
+  "biography-imam-nawawi": {
+    "slug": "biography-imam-nawawi",
+    "title": "The Life of Imam al-Nawawi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4705",
+    "notes": "Classical biography; VERIFY ID and exact match",
+    "batch": "batch6-gapfill"
+  },
+  "biography-ibn-taymiyyah": {
+    "slug": "biography-ibn-taymiyyah",
+    "title": "The Life of Shaykh al-Islam Ibn Taymiyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8053",
+    "notes": "By Ibn Abd al-Hadi; VERIFY ID 8053",
+    "batch": "batch6-gapfill"
+  },
+  "biography-ibn-al-qayyim": {
+    "slug": "biography-ibn-al-qayyim",
+    "title": "The Life of Ibn al-Qayyim al-Jawziyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/8055",
+    "notes": "Classical biography; VERIFY ID 8055",
+    "batch": "batch6-gapfill"
+  },
+  "virtues-of-the-quran": {
+    "slug": "virtues-of-the-quran",
+    "title": "Fada'il al-Quran (Virtues of the Quran)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9480",
+    "notes": "By Ibn Kathir or Abu Ubayd; VERIFY ID + exact match",
+    "batch": "batch6-gapfill"
+  },
+  "islam-the-misunderstood-religion": {
+    "slug": "islam-the-misunderstood-religion",
+    "title": "Islam: The Misunderstood Religion",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4819",
+    "notes": "By Muhammad Qutb; VERIFY ID 4819",
+    "batch": "batch6-gapfill"
+  },
+  "rights-of-neighbors": {
+    "slug": "rights-of-neighbors",
+    "title": "Rights of Neighbors in Islam",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9462",
+    "notes": "Specific work on neighbor rights; VERIFY exact book + ID",
+    "batch": "batch6-gapfill"
+  },
+  "life-after-death": {
+    "slug": "life-after-death",
+    "title": "Life After Death",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9382",
+    "notes": "By Umar al-Ashqar; Islamic Creed Series; VERIFY ID 9382",
+    "batch": "batch6-gapfill"
+  },
+  "interpretation-of-dreams": {
+    "slug": "interpretation-of-dreams",
+    "title": "Interpretation of Dreams in Islam",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4644",
+    "notes": "Ibn Sirin or related; VERIFY exact match + ID",
+    "batch": "batch6-gapfill"
+  },
+  "making-dua": {
+    "slug": "making-dua",
+    "title": "Making Dua",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9463",
+    "notes": "Specific dua guide; VERIFY exact book + ID",
+    "batch": "batch6-gapfill"
+  },
+  "virtues-of-sending-blessings": {
+    "slug": "virtues-of-sending-blessings",
+    "title": "Virtues of Sending Blessings on the Prophet",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/9464",
+    "notes": "Fada'il al-Salat ala al-Nabi; VERIFY exact book + ID",
+    "batch": "batch6-gapfill"
+  },
+  "iqtida-as-sirat": {
+    "slug": "iqtida-as-sirat",
+    "title": "اقتضاء الصراط المستقيم — ابن تيمية",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/11620",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "al-usul-ath-thalathah": {
+    "slug": "al-usul-ath-thalathah",
+    "title": "الأصول الثلاثة — ابن عبد الوهاب",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/239",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "hashiyat-ad-dusuqi": {
+    "slug": "hashiyat-ad-dusuqi",
+    "title": "حاشية الدسوقي على الشرح الكبير",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://shamela.ws/book/21604",
+    "notes": "",
+    "batch": "batch8-101-200"
+  },
+  "qawa-id-ibn-rajab": {
+    "slug": "qawa-id-ibn-rajab",
+    "title": "قواعد ابن رجب الحنبلي",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/33378",
+    "notes": "",
+    "batch": "batch9-201-300"
+  },
+  "al-qawanin-al-fiqhiyyah": {
+    "slug": "al-qawanin-al-fiqhiyyah",
+    "source_url": "https://al-maktaba.org/book/4427",
+    "source_type": "html",
+    "notes": "Was MISSING in consolidation. Same book as al-qawanin-al-fiqhiyyah-ibn-juzayy",
+    "batch": "corrections"
+  },
+  "fiqh-al-akbar": {
+    "title": "Fiqh al-Akbar",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1091",
+    "notes": "Al-Maktaba al-Shamila. Arabic text. Short treatise.",
+    "batch": "batch-priority"
+  },
+  "al-alim-wal-mutaallim": {
+    "title": "Al-Alim wal-Mutaallim",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": null,
+    "notes": "Source to be verified. Attributed to Abu Hanifa.",
+    "batch": "batch-priority"
+  },
+  "musnad-abu-hanifa": {
+    "title": "Musnad Abu Hanifa",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/1098",
+    "notes": "Al-Maktaba al-Shamila.",
+    "batch": "batch-priority"
+  },
+  "ikhtilaf-al-hadith": {
+    "title": "Ikhtilaf al-Hadith",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3",
+    "notes": "Part of Imam al-Shafi'i's Al-Umm corpus. Al-Maktaba al-Shamila.",
+    "batch": "batch-priority"
+  },
+  "usul-as-sunnah-ahmad": {
+    "title": "Usul al-Sunnah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10800",
+    "notes": "Al-Maktaba al-Shamila. EN translation available (Kalamullah).",
+    "batch": "batch-priority"
+  },
+  "ar-radd-ala-al-jahmiyyah": {
+    "title": "Al-Radd ala al-Jahmiyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10801",
+    "notes": "Al-Maktaba al-Shamila.",
+    "batch": "batch-priority"
+  },
+  "al-ilal-wa-marifat-ar-rijal": {
+    "title": "Al-Ilal wa Marifat al-Rijal",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/10802",
+    "notes": "Al-Maktaba al-Shamila. 4 volumes.",
+    "batch": "batch-priority"
+  },
+  "sharh-mushkil-al-athar": {
+    "title": "Sharh Mushkil al-Athar",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3050",
+    "notes": "Al-Maktaba al-Shamila. 16 volumes.",
+    "batch": "batch-priority"
+  },
+  "ahkam-al-quran-tahawi": {
+    "title": "Ahkam al-Quran (Al-Tahawi)",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": null,
+    "notes": "Source to be confirmed. 3 volumes.",
+    "batch": "batch-priority"
+  },
+  "mukhtasar-al-tahawi": {
+    "title": "Mukhtasar al-Tahawi",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/3048",
+    "notes": "Al-Maktaba al-Shamila.",
+    "batch": "batch-priority"
+  },
+  "tahdhib-al-asma-wal-lughat": {
+    "title": "Tahdhib al-Asma wal-Lughat",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/4020",
+    "notes": "Al-Maktaba al-Shamila. 2 volumes.",
+    "batch": "batch-priority"
+  },
+  "at-tadmuriyyah": {
+    "title": "Al-Tadmuriyyah",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6700",
+    "notes": "Al-Maktaba al-Shamila. Short treatise.",
+    "batch": "batch-priority"
+  },
+  "ilam-al-muwaqqiin": {
+    "title": "I'lam al-Muwaqqi'in",
+    "lang": "ar",
+    "source_type": "html",
+    "source_url": "https://al-maktaba.org/book/6820",
+    "notes": "Al-Maktaba al-Shamila. 4 volumes.",
+    "batch": "batch-priority"
+  }
+}
