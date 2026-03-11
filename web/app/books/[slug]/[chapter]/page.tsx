@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getBooks, getBookBySlug, getChaptersByBook, getChapter } from '@/lib/data/books'
-import { sanitizeHtml } from '@/lib/sanitize'
+import { ChapterLangTabs } from '@/components/books/ChapterLangTabs'
+import { ChapterTaxonomy } from '@/components/books/ChapterTaxonomy'
 
 interface Props {
   params: Promise<{ slug: string; chapter: string }>
@@ -89,31 +90,28 @@ export default async function ChapterPage({ params }: Props) {
             </p>
             <h1 className="mt-1 text-2xl font-bold text-white">{ch.title_en}</h1>
             {ch.title_ar && (
-              <p className="arabic-text mt-2 text-lg text-white/80">{ch.title_ar}</p>
+              <p className="arabic-text mt-2 text-lg text-white/80" dir="rtl" lang="ar">
+                {ch.title_ar}
+              </p>
             )}
           </header>
 
-          {/* Arabic content */}
-          {ch.content_ar && (
-            <div className="mb-8 rounded-xl border border-iw-border bg-iw-surface/50 p-6">
-              <div
-                className="arabic-text text-lg leading-loose text-white/90"
-                dir="rtl"
-                dangerouslySetInnerHTML={{ __html: sanitizeHtml(ch.content_ar) }}
-              />
-            </div>
-          )}
+          {/* Language tabs: EN / AR / ID */}
+          <ChapterLangTabs
+            contentEn={ch.content_en}
+            contentAr={ch.content_ar}
+            contentId={ch.content_id}
+          />
 
-          {/* English content */}
-          <div className="prose prose-invert max-w-none text-iw-text-secondary">
-            {ch.content_en ? (
-              <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(ch.content_en) }} />
-            ) : (
-              <p className="italic text-iw-text-muted">
-                Chapter content is being prepared. Check back soon.
-              </p>
-            )}
-          </div>
+          {/* Taxonomy: tags, refs (hidden if empty) */}
+          <ChapterTaxonomy
+            subjectTags={ch.subject_tags}
+            topicTags={ch.topic_tags}
+            keywords={ch.keywords}
+            peopleRefs={ch.people_refs}
+            ayahRefs={ch.ayah_refs}
+            hadithRefs={ch.hadith_refs}
+          />
 
           {/* Prev/next */}
           <div className="mt-10 grid grid-cols-2 gap-4 border-t border-iw-border pt-6">

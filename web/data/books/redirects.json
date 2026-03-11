@@ -1,0 +1,332 @@
+[
+  {
+    "from": "/books/sharh-an-nawawi-ala-sahih-muslim",
+    "to": "/books/al-minhaj-sharh-sahih-muslim-nawawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-mugni",
+    "to": "/books/al-mughni-ala-mukhtasar-al-khiraqi",
+    "permanent": true
+  },
+  {
+    "from": "/books/siyar-alam-an-nubala",
+    "to": "/books/siyar-alam-an-nubala-dhahabi",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-mustadrak",
+    "to": "/books/al-mustadrak-ala-as-sahihayn",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-umm",
+    "to": "/books/al-umm-imam-ash-shafii",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-mudawwanah",
+    "to": "/books/al-mudawwanah-al-kubra",
+    "permanent": true
+  },
+  {
+    "from": "/books/zad-al-mustaqni",
+    "to": "/books/zad-al-mustaqni-fi-ikhtisar-al-muqni",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-majmu-sharh-al-muhadhdhab",
+    "to": "/books/al-majmu-sharh-muhadhdhab-nawawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/hashiyat-ibn-abidin",
+    "to": "/books/radd-al-muhtar-ibn-abidin",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-muqaddimah-al-hadramiyyah",
+    "to": "/books/al-muqaddimah-al-hadramiyyah-fiqh",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-insaf",
+    "to": "/books/al-insaf-fi-marifat-ar-rajih-mardawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/minhaj-as-sunnah",
+    "to": "/books/minhaj-as-sunnah-nabawiyyah-ibn-taymiyyah",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-muqaddimah-ibn-khaldun",
+    "to": "/books/muqaddimah-ibn-khaldun",
+    "permanent": true
+  },
+  {
+    "from": "/books/wafayat-al-ayan",
+    "to": "/books/wafayat-al-ayan-ibn-khallikan",
+    "permanent": true
+  },
+  {
+    "from": "/books/irshad-al-fuhul",
+    "to": "/books/irshad-al-fuhul-shawkani-usul",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-itqan-fi-ulum-al-quran",
+    "to": "/books/al-itqan-fi-ulum-al-quran-suyuti",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-burhan-fi-ulum-al-quran",
+    "to": "/books/al-burhan-fi-ulum-al-quran-zarkashi",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-mabsut",
+    "to": "/books/al-mabsut-sarakhsi",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-minhaj-sharh-sahih-muslim",
+    "to": "/books/al-minhaj-sharh-sahih-muslim-nawawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-isabah",
+    "to": "/books/al-isabah-fi-tamyiz-as-sahabah",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-rahiq-al-makhtum-mubarakpuri",
+    "to": "/books/ar-raheeq-al-makhtum",
+    "permanent": true
+  },
+  {
+    "from": "/books/rawdat-at-talibin",
+    "to": "/books/rawdat-al-talibin-nawawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/tuhfat-al-muhtaj",
+    "to": "/books/tuhfat-al-muhtaj-sharh-minhaj-haytami",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-bahr-ar-raiq",
+    "to": "/books/al-bahr-ar-raiq-sharh-kanz-daqaiq",
+    "permanent": true
+  },
+  {
+    "from": "/books/badai-as-sanai",
+    "to": "/books/badai-al-sanai-kasani",
+    "permanent": true
+  },
+  {
+    "from": "/books/nayl-al-awtar",
+    "to": "/books/nayl-al-awtar-shawkani",
+    "permanent": true
+  },
+  {
+    "from": "/books/hashiyat-ad-dasuqi",
+    "to": "/books/hashiyat-ad-dusuqi-ala-sharh-kabir",
+    "permanent": true
+  },
+  {
+    "from": "/books/sharh-as-sunnah-baghawi",
+    "to": "/books/sharh-as-sunnah-al-baghawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-irshad-juwayni",
+    "to": "/books/al-irshad-ila-qawati-al-adillah-juwayni",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-risalah-al-qushayriyyah",
+    "to": "/books/ar-risalah-al-qushayriyyah",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-furuq",
+    "to": "/books/al-furuq-al-qarafi",
+    "permanent": true
+  },
+  {
+    "from": "/books/mughni-al-muhtaj",
+    "to": "/books/mughni-al-muhtaj-khatib-ash-shirbini",
+    "permanent": true
+  },
+  {
+    "from": "/books/nihayat-al-muhtaj",
+    "to": "/books/nihayat-al-muhtaj-sharh-minhaj-ramli",
+    "permanent": true
+  },
+  {
+    "from": "/books/at-tamhid",
+    "to": "/books/al-tamhid-ibn-abd-al-barr",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-istidhkar",
+    "to": "/books/al-istidhkar-ibn-abd-al-barr",
+    "permanent": true
+  },
+  {
+    "from": "/books/tahdhib-at-tahdhib",
+    "to": "/books/tahdhib-al-tahdhib-ibn-hajar",
+    "permanent": true
+  },
+  {
+    "from": "/books/taqrib-at-tahdhib",
+    "to": "/books/taqrib-al-tahdhib-ibn-hajar",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-majmu-fatawa-ibn-taymiyyah",
+    "to": "/books/majmu-al-fatawa",
+    "permanent": true
+  },
+  {
+    "from": "/books/tabaqat-ash-shafiyyah-al-kubra",
+    "to": "/books/tabaqat-ash-shafiyyah-al-kubra-subki",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-adhkar-nawawi",
+    "to": "/books/al-athkar-an-nawawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-muqaddimah-ibn-rushd",
+    "to": "/books/muqaddimat-ibn-rushd-al-jadd",
+    "permanent": true
+  },
+  {
+    "from": "/books/ikmal-al-mu-lim",
+    "to": "/books/ikmal-al-mualim-qadi-iyad",
+    "permanent": true
+  },
+  {
+    "from": "/books/kitab-al-umm-hadith",
+    "to": "/books/al-umm-imam-ash-shafii",
+    "permanent": true
+  },
+  {
+    "from": "/books/usd-al-ghabah",
+    "to": "/books/usud-al-ghabah-ibn-athir",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-muwatta-imam-muhammad",
+    "to": "/books/muwatta-riwayat-ash-shaybani",
+    "permanent": true
+  },
+  {
+    "from": "/books/nihayat-al-muhtaj-ramli",
+    "to": "/books/nihayat-al-muhtaj-sharh-minhaj-ramli",
+    "permanent": true
+  },
+  {
+    "from": "/books/tuhfat-al-muhtaj-haytami",
+    "to": "/books/tuhfat-al-muhtaj-sharh-minhaj-haytami",
+    "permanent": true
+  },
+  {
+    "from": "/books/sharh-al-kabir-dardiri",
+    "to": "/books/ash-sharh-al-kabir-dardir",
+    "permanent": true
+  },
+  {
+    "from": "/books/hashiyat-al-dasuqi",
+    "to": "/books/hashiyat-ad-dusuqi-ala-sharh-kabir",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-insaf-mardawi",
+    "to": "/books/al-insaf-fi-marifat-ar-rajih-mardawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/tuhfat-al-ahwadhi-mubarakpuri",
+    "to": "/books/tuhfat-al-ahwadhi-mubarakfuri",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-isabah-fi-tamyiz-al-sahabah",
+    "to": "/books/al-isabah-fi-tamyiz-as-sahabah",
+    "permanent": true
+  },
+  {
+    "from": "/books/siyar-alam-al-nubala-dhahabi",
+    "to": "/books/siyar-alam-an-nubala-dhahabi",
+    "permanent": true
+  },
+  {
+    "from": "/books/muruj-al-dhahab-masudi",
+    "to": "/books/muruj-adh-dhahab",
+    "permanent": true
+  },
+  {
+    "from": "/books/lisan-al-mizan",
+    "to": "/books/lisan-al-mizan-ibn-hajar",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-mabsut-li-as-sarakhsi",
+    "to": "/books/al-mabsut-sarakhsi",
+    "permanent": true
+  },
+  {
+    "from": "/books/badai-as-sanai-fi-tartib-ash-sharai",
+    "to": "/books/badai-al-sanai-kasani",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-hidayah-sharh-bidayat-mubtadi",
+    "to": "/books/al-hidayah",
+    "permanent": true
+  },
+  {
+    "from": "/books/radd-al-muhtar-ala-ad-durr-al-mukhtar",
+    "to": "/books/radd-al-muhtar-ibn-abidin",
+    "permanent": true
+  },
+  {
+    "from": "/books/muqaddimat-ibn-khaldun-tarikh",
+    "to": "/books/muqaddimah-ibn-khaldun",
+    "permanent": true
+  },
+  {
+    "from": "/books/wafayat-al-ayan-wa-anba-abna-az-zaman",
+    "to": "/books/wafayat-al-ayan-ibn-khallikan",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-muqni-fi-fiqh-ahmad-ibn-qudamah",
+    "to": "/books/al-muqni-ibn-qudamah",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-mudawwanah-al-kubra-sahnun",
+    "to": "/books/al-mudawwanah-al-kubra",
+    "permanent": true
+  },
+  {
+    "from": "/books/al-isabah-fi-tamyiz-as-sahabah-ibn-hajar",
+    "to": "/books/al-isabah-fi-tamyiz-as-sahabah",
+    "permanent": true
+  },
+  {
+    "from": "/books/rawdat-at-talibin-nawawi-fiqh",
+    "to": "/books/rawdat-al-talibin-nawawi",
+    "permanent": true
+  },
+  {
+    "from": "/books/sharh-sahih-muslim-an-nawawi",
+    "to": "/books/al-minhaj-sharh-sahih-muslim-nawawi",
+    "permanent": true
+  }
+]

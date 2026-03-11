@@ -1,0 +1,70 @@
+{
+  "_comment": "Islam.wiki Books Taxonomy — controlled vocabulary for chapter tags. All agents must use these exact values when tagging chapters.",
+
+  "subject_tags": [
+    "quran", "hadith", "fiqh", "aqeedah", "seerah", "history", "biography",
+    "tafsir", "usul-al-fiqh", "arabic-language", "ethics", "spirituality",
+    "comparative-religion", "philosophy", "hadith-sciences", "general"
+  ],
+
+  "fiqh_topic_tags": [
+    "tahara", "salah", "janazah", "zakah", "sawm", "hajj", "umrah",
+    "marriage", "divorce", "child-custody", "inheritance", "wills",
+    "commerce", "contracts", "sales", "riba", "partnerships",
+    "food-and-drink", "clothing-and-adornment", "oaths", "vows",
+    "jihad", "governance", "judiciary", "witnesses", "blood-money",
+    "hudud", "qisas", "transactions", "loans", "gifts", "endowments-waqf",
+    "hunting", "slaughter", "sacrifices", "i-tikaf", "udhiyah",
+    "medical-fiqh", "contemporary-fiqh"
+  ],
+
+  "aqeedah_topic_tags": [
+    "tawhid", "shirk", "prophethood", "angels", "divine-books",
+    "day-of-judgment", "paradise", "hellfire", "qadar", "iman",
+    "kufr", "nifaq", "companions", "imamate", "names-and-attributes",
+    "quran-uncreated", "ahl-us-sunnah", "innovations-in-religion",
+    "intercession", "signs-of-hour", "life-in-grave"
+  ],
+
+  "hadith_topic_tags": [
+    "narrators", "isnad", "chain-of-transmission", "hadith-grading",
+    "sahih", "hasan", "daif", "mawdu", "hadith-terminology",
+    "hadith-collections", "musnad", "musannaf", "sunan", "sahih-collections"
+  ],
+
+  "quran_topic_tags": [
+    "tafsir", "recitation", "memorization", "sciences-of-quran",
+    "revelation", "abrogation", "meccan-medinan", "reasons-for-revelation",
+    "inimitability-ijaz", "qiraat", "translation", "word-analysis"
+  ],
+
+  "spirituality_topic_tags": [
+    "tawbah", "tawakkul", "sabr", "shukr", "zuhd", "wara",
+    "ihsan", "taziyat-al-nafs", "dhikr", "muraqabah", "contemplation",
+    "sincerity-ikhlas", "love-of-allah", "fear-and-hope", "gratitude"
+  ],
+
+  "era_tags": [
+    "sahaba", "tabi-in", "tabi-tabi-in", "second-century-ah",
+    "third-century-ah", "fourth-century-ah", "fifth-century-ah",
+    "sixth-century-ah", "seventh-century-ah", "eighth-century-ah",
+    "classical", "medieval", "ottoman-era", "modern"
+  ],
+
+  "madhab_tags": [
+    "hanafi", "maliki", "shafii", "hanbali", "dhahiri",
+    "multi-madhab", "comparative-fiqh", "no-madhab"
+  ],
+
+  "region_tags": [
+    "hijaz", "iraq", "sham", "egypt", "khorasan", "andalusia",
+    "central-asia", "india", "north-africa", "east-africa", "southeast-asia"
+  ],
+
+  "content_type_tags": [
+    "ruling", "fatwa", "narration", "explanation", "biography-content",
+    "historical-event", "debate", "refutation", "commentary", "summary"
+  ],
+
+  "language_tags": ["arabic-original", "english-original", "translated-en", "translated-id", "ai-translated"]
+}

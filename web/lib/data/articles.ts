@@ -4,8 +4,11 @@ interface ArticleData {
   id: number
   slug: string
   title: string
+  title_id?: string
   excerpt?: string
+  excerpt_id?: string
   content?: string
+  content_id?: string
   category: string
   tags: string[]
   language: string

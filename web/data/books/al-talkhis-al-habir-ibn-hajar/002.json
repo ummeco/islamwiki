@@ -1,0 +1,36 @@
+{
+  "number": 2,
+  "title_en": "Methodology of Takhrij and Hadith Grading",
+  "title_ar": "منهج التخريج وتقييم الأحاديث",
+  "title_id": "Metodologi Takhrij dan Penilaian Hadis",
+  "content_en": "<p>Ibn Hajar's methodology in al-Talkhis al-Habir represents the high point of the takhrij tradition in Islamic scholarship. His approach combines the full resources of the hadith corpus — the canonical collections, the mu'jams, the musnads, the sunan, the masanid, and the collections of individual scholars — with the critical apparatus of narrator biography and chain analysis.</p>\n<p>For each hadith cited by al-Rafi'i, Ibn Hajar follows a consistent procedure. He first identifies where the hadith appears in the primary sources, citing the collection, the book, and in some cases the specific location within it. This identification alone is enormously useful, as it allows readers to consult the original text and chain directly rather than relying on al-Rafi'i's citation alone.</p>\n<p>Next, Ibn Hajar assesses the chain or chains by which the hadith is transmitted. He identifies any problematic narrators and cites the relevant biographical judgments — typically drawing on al-Mizzi's Tahdhib al-Kamal and his own Tahdhib al-Tahdhib and Lisan al-Mizan. Where a narrator has been criticized, he explains the nature of the criticism and its implications for the reliability of the chain.</p>\n<p>Based on this analysis, Ibn Hajar provides his overall assessment of the hadith: sahih, hasan, da'if, munkar, or mawdu'. He frequently notes where earlier scholars reached different conclusions, explaining his reasons for agreeing or disagreeing. His judgments are notable for their precision: he distinguishes a hadith that is da'if because of a single weak narrator from one that is da'if because of multiple problems, and he notes whether supporting narrations exist that might strengthen a weak hadith.</p>\n<p>Ibn Hajar also pays attention to the precise wording of the hadiths. Legal scholars sometimes cited hadiths in slightly different words from what appears in the sources, and Ibn Hajar flags these variations, noting whether they represent different narrations, scribal errors, or paraphrases. This textual precision is characteristic of the highest level of hadith scholarship and ensures that legal arguments built on specific wording are appropriately evaluated.</p>",
+  "content_id": "Metodologi Ibn Hajar dalam Al-Talkhis al-Habir mewakili puncak tradisi takhrij dalam keilmuan Islam. Pendekatannya menggabungkan sumber daya penuh korpus hadis — koleksi-koleksi kanonik, mu'jam-mu'jam, musnad-musnad, sunan-sunan, masanid, dan koleksi-koleksi ulama individual — dengan perangkat kritis biografi perawi dan analisis sanad.\n\nUntuk setiap hadis yang dikutip al-Rafi'i, Ibn Hajar mengikuti prosedur yang konsisten. Ia pertama-tama mengidentifikasi di mana hadis muncul dalam sumber-sumber primer, mengutip koleksi, kitab, dan dalam beberapa kasus lokasi spesifik di dalamnya. Identifikasi ini saja sudah sangat berguna, karena memungkinkan pembaca untuk mengonsultasikan teks dan sanad asli secara langsung daripada hanya mengandalkan kutipan al-Rafi'i.\n\nSelanjutnya, Ibn Hajar menilai sanad atau sanad-sanad melalui mana hadis ditransmisikan. Ia mengidentifikasi perawi-perawi yang bermasalah dan mengutip penilaian-penilaian biografi yang relevan — biasanya mengandalkan Tahdhib al-Kamal karya al-Mizzi dan Tahdhib al-Tahdhib serta Lisan al-Mizan miliknya sendiri. Di mana seorang perawi telah dikritik, ia menjelaskan sifat kritik tersebut dan implikasinya bagi keandalan sanad.\n\nBerdasarkan analisis ini, Ibn Hajar memberikan asesmen keseluruhannya tentang hadis: sahih, hasan, da'if, munkar, atau mawdu'. Ia sering mencatat di mana para ulama terdahulu mencapai kesimpulan yang berbeda, menjelaskan alasan-alasannya untuk setuju atau tidak setuju. Penilaian-penilaiannya terkenal karena ketepatannya: ia membedakan hadis yang da'if karena seorang perawi yang lemah dari yang da'if karena berbagai masalah, dan ia mencatat apakah riwayat-riwayat pendukung ada yang mungkin memperkuat hadis yang lemah.\n\nIbn Hajar juga menaruh perhatian pada redaksi tepat hadis-hadis. Para ahli hukum kadang-kadang mengutip hadis dalam kata-kata yang sedikit berbeda dari apa yang muncul dalam sumber-sumber, dan Ibn Hajar menandai variasi-variasi ini, mencatat apakah mereka mewakili riwayat-riwayat yang berbeda, kesalahan penyalin, atau parafrase. Ketepatan tekstual ini adalah ciri khas tingkat tertinggi keilmuan hadis dan memastikan bahwa argumen-argumen hukum yang dibangun atas redaksi tertentu dievaluasi secara tepat.",
+  "subject_tags": [
+    "hadith",
+    "hadith-sciences"
+  ],
+  "topic_tags": [
+    "hadith-grading",
+    "isnad",
+    "chain-of-transmission",
+    "hadith-collections"
+  ],
+  "era_tags": [
+    "ninth-century-ah"
+  ],
+  "madhab_tags": [
+    "shafii"
+  ],
+  "content_type_tags": [
+    "analysis",
+    "commentary"
+  ],
+  "keywords": [
+    "talkhis al-habir",
+    "ibn hajar",
+    "hadith criticism",
+    "hadith grading"
+  ],
+  "qa_passed": true,
+  "qa_errors": []
+}

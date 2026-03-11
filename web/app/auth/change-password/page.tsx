@@ -10,11 +10,9 @@ export default function ChangePasswordPage() {
     <div className="flex min-h-[80vh] items-center justify-center">
       <div className="w-full max-w-md p-6">
         <div className="mb-8 text-center">
-          <h1 className="text-2xl font-bold text-white">
-            Change Your Password
-          </h1>
+          <h1 className="text-2xl font-bold text-white">Set New Password</h1>
           <p className="mt-2 text-sm text-iw-text-secondary">
-            Please update your password to continue.
+            Choose a strong password for your account.
           </p>
         </div>
 
@@ -25,21 +23,6 @@ export default function ChangePasswordPage() {
             </div>
           )}
 
-          <div>
-            <label
-              htmlFor="current_password"
-              className="mb-1 block text-sm font-medium text-iw-text-secondary"
-            >
-              Current Password
-            </label>
-            <input
-              id="current_password"
-              name="current_password"
-              type="password"
-              required
-              className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-3 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none"
-            />
-          </div>
           <div>
             <label
               htmlFor="new_password"
@@ -54,6 +37,7 @@ export default function ChangePasswordPage() {
               required
               minLength={8}
               placeholder="At least 8 characters"
+              autoFocus
               className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-3 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none"
             />
           </div>

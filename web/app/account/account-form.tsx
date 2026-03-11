@@ -5,6 +5,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { login, registerEmail, requestMagicLink, requestPasswordReset } from '@/app/actions/auth'
 
+const AUTH_URL = process.env.NEXT_PUBLIC_AUTH_URL ?? 'https://auth.ummat.dev'
+const GOOGLE_OAUTH_URL = `${AUTH_URL}/signin/provider/google?redirectTo=${encodeURIComponent('https://islam.wiki/api/auth/oauth/callback')}`
+
 type Mode = 'magic-link' | 'password' | 'register' | 'forgot-password' | 'link-sent' | 'reset-sent'
 
 const SOCIAL_PROVIDERS = [
@@ -417,7 +420,7 @@ export function AccountForm() {
                     return (
                       <a
                         key={id}
-                        href={`/api/auth/oauth/${id}`}
+                        href={GOOGLE_OAUTH_URL}
                         aria-label={`Sign in with ${label}`}
                         className="flex flex-col items-center gap-1 rounded-lg border border-iw-border bg-iw-bg px-2 py-2.5 text-iw-text-muted transition-all hover:border-iw-accent/40 hover:text-white"
                       >

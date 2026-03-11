@@ -41,6 +41,11 @@ coverage/
 # Scraper checkpoints
 scripts/.checkpoints/*.json
 
+# Script cache (PDFs, downloaded files)
+scripts/books/.cache/
+scripts/**/.cache/
+*.pdf
+
 # Other AI editors
 .codex/
 .cursor/

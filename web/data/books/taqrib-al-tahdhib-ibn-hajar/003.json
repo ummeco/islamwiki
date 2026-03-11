@@ -1,0 +1,35 @@
+{
+  "number": 3,
+  "title_en": "Using Taqrib al-Tahdhib in Hadith Research",
+  "title_ar": "توظيف التقريب في البحث الحديثي",
+  "title_id": "Menggunakan Taqrib al-Tahdhib dalam Penelitian Hadis",
+  "content_en": "<p>Taqrib al-Tahdhib is used daily by students and scholars of hadith as the primary quick-reference tool for narrator reliability. Learning to use it effectively is one of the most practically important skills a student of the hadith sciences can acquire, and understanding its strengths and limitations is equally important.</p>\n<p>The basic research procedure using Taqrib al-Tahdhib begins with identifying the narrators in a chain (isnad) that needs to be assessed. Each narrator's name is looked up alphabetically in the work, their entry is read, and the one-phrase assessment is noted. If all narrators in the chain are found to be thiqah (trustworthy), the chain is potentially sahih, pending verification of the transmission links and the absence of hidden defects (illal).</p>\n<p>When a narrator receives an intermediate assessment in Taqrib — such as suduq or la ba's bihi — the researcher should consult Tahdhib al-Tahdhib for more detail before drawing firm conclusions. The detailed entry may reveal that the narrator's weakness is specific to certain teachers or to certain types of narration, which may not affect the hadith under investigation. Alternatively, it may confirm that the weakness is general and affects the current chain.</p>\n<p>When a narrator is not found in Taqrib al-Tahdhib, this means the narrator does not appear in any of the six canonical collections. The researcher must then consult other biographical sources: Mizan al-I'tidal and Lisan al-Mizan for weakened narrators, the Thiqat of Ibn Hibban, or the broader biographical literature. This situation — a narrator outside the canonical six — is relatively common in secondary collections and specialized works.</p>\n<p>Taqrib al-Tahdhib should not be used as the sole reference for important research. It provides a starting point and quick orientation, but significant legal or doctrinal conclusions should always be verified against Tahdhib al-Tahdhib or the original sources. Ibn Hajar himself, whose authority is high, could have erred in specific assessments, and subsequent scholarship has occasionally identified cases where his summary judgments warrant revision.</p>",
+  "content_id": "Taqrib al-Tahdhib digunakan setiap hari oleh para pelajar dan ulama hadis sebagai alat referensi cepat utama untuk menilai keandalan perawi. Belajar menggunakannya secara efektif adalah salah satu keterampilan yang paling praktis penting yang dapat diperoleh seorang pelajar ilmu hadis, dan memahami kekuatan serta keterbatasannya sama pentingnya.\n\nProsedur penelitian dasar menggunakan Taqrib al-Tahdhib dimulai dengan mengidentifikasi para perawi dalam sebuah sanad yang perlu dinilai. Nama setiap perawi dicari secara alfabetis dalam kitab tersebut, entri mereka dibaca, dan penilaian satu frasa dicatat. Jika semua perawi dalam sanad ditemukan berstatus thiqah (terpercaya), sanad tersebut berpotensi sahih, dengan syarat telah diverifikasi ketersambungan transmisinya dan tidak terdapat cacat tersembunyi (illal).\n\nKetika seorang perawi mendapat penilaian menengah dalam Taqrib — seperti saduq atau la ba'sa bihi — peneliti hendaknya merujuk Tahdhib al-Tahdhib untuk keterangan lebih lanjut sebelum menarik kesimpulan yang pasti. Entri yang lebih terperinci mungkin mengungkapkan bahwa kelemahan perawi tersebut bersifat spesifik terhadap guru-guru tertentu atau jenis-jenis riwayat tertentu, yang mungkin tidak memengaruhi hadis yang sedang diteliti. Di sisi lain, bisa juga dikonfirmasi bahwa kelemahannya bersifat umum dan memengaruhi sanad yang sedang dikaji.\n\nKetika seorang perawi tidak ditemukan dalam Taqrib al-Tahdhib, ini berarti perawi tersebut tidak muncul dalam satu pun dari enam koleksi kanonikal. Peneliti kemudian harus merujuk sumber-sumber biografi lain: Mizan al-I'tidal dan Lisan al-Mizan untuk perawi yang dilemahkan, Kitab al-Thiqat karya Ibn Hibban, atau literatur biografi yang lebih luas. Situasi ini — perawi yang berada di luar enam koleksi kanonikal — cukup umum dalam koleksi-koleksi sekunder dan karya-karya khusus.\n\nTaqrib al-Tahdhib tidak boleh dijadikan satu-satunya referensi untuk penelitian penting. Kitab ini memberikan titik awal dan orientasi cepat, tetapi kesimpulan-kesimpulan hukum atau akidah yang signifikan harus selalu diverifikasi terhadap Tahdhib al-Tahdhib atau sumber-sumber aslinya. Ibn Hajar sendiri, yang otoritasnya sangat tinggi, bisa saja keliru dalam penilaian-penilaian tertentu, dan penelitian selanjutnya kadang-kadang mengidentifikasi kasus-kasus di mana keputusan ringkasnya memerlukan revisi.",
+  "subject_tags": [
+    "hadith-sciences",
+    "biography"
+  ],
+  "topic_tags": [
+    "narrator-biography",
+    "rijal",
+    "hadith-grading"
+  ],
+  "era_tags": [
+    "ninth-century-ah"
+  ],
+  "madhab_tags": [
+    "no-madhab"
+  ],
+  "content_type_tags": [
+    "biography-content",
+    "analysis"
+  ],
+  "keywords": [
+    "taqrib al-tahdhib",
+    "ibn hajar",
+    "rijal",
+    "narrator summary"
+  ],
+  "qa_passed": true,
+  "qa_errors": []
+}

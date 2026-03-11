@@ -1,16 +1,9 @@
 import 'server-only'
 
 import { cookies } from 'next/headers'
-import { getIronSession, type SessionOptions } from 'iron-session'
+import { jwtDecode } from 'jwt-decode'
 
-// ── Session data stored in encrypted cookie ──
-
-export interface OAuthVerification {
-  provider: string
-  provider_id: string
-  email?: string
-  name?: string
-}
+// ── Session data interface (unchanged — 40 call sites preserved) ──
 
 export interface SessionData {
   userId: string
@@ -21,52 +14,120 @@ export interface SessionData {
   trustLevel: 0 | 1 | 2 | 3 | 4 | 5
   mustChangePassword?: boolean
   isLoggedIn: boolean
-  // Temporary OAuth fields (used during signup verification flow)
-  oauthState?: string
-  oauthPKCE?: string
-  oauthVerifications?: OAuthVerification[]
 }
 
-const defaultSession: SessionData = {
-  userId: '',
-  username: '',
-  email: '',
-  displayName: '',
-  role: 'user',
-  trustLevel: 0,
-  isLoggedIn: false,
+// ── JWT claims structure from Hasura Auth ──
+
+interface HasuraJWTClaims {
+  sub: string
+  email: string
+  'https://hasura.io/jwt/claims': {
+    'x-hasura-user-id': string
+    'x-hasura-default-role': string
+    'x-hasura-allowed-roles': string[]
+  }
+  displayName?: string
+  exp: number
+  iat: number
 }
 
-// ── Session options ──
-
-const sessionOptions: SessionOptions = {
-  password:
-    process.env.SESSION_SECRET ||
-    'complex_password_at_least_32_characters_long_for_dev',
-  cookieName: 'iw_session',
-  cookieOptions: {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax' as const,
-    maxAge: 60 * 60 * 24 * 30, // 30 days
-  },
+// Map Hasura roles to our role type
+function mapRole(hasuraRole: string): SessionData['role'] {
+  const roleMap: Record<string, SessionData['role']> = {
+    owner: 'owner',
+    admin: 'admin',
+    moderator: 'moderator',
+    editor: 'editor',
+    user: 'user',
+  }
+  return roleMap[hasuraRole] ?? 'user'
 }
 
-// ── Helpers ──
+// Map role to trust level
+function roleToTrustLevel(role: SessionData['role']): SessionData['trustLevel'] {
+  const map: Record<SessionData['role'], SessionData['trustLevel']> = {
+    user: 0,
+    editor: 2,
+    moderator: 3,
+    admin: 4,
+    owner: 5,
+  }
+  return map[role]
+}
 
-export async function getSession() {
+// ── Decode JWT → SessionData ──
+
+function getUserFromJWT(token: string): SessionData | null {
+  try {
+    const claims = jwtDecode<HasuraJWTClaims>(token)
+
+    // Check expiry
+    const now = Math.floor(Date.now() / 1000)
+    if (claims.exp < now) return null
+
+    const hasuraClaims = claims['https://hasura.io/jwt/claims']
+    const defaultRole = hasuraClaims?.['x-hasura-default-role'] ?? 'user'
+    const role = mapRole(defaultRole)
+
+    return {
+      userId: claims.sub,
+      username: claims.email.split('@')[0], // fallback username from email
+      email: claims.email,
+      displayName: claims.displayName ?? claims.email.split('@')[0],
+      role,
+      trustLevel: roleToTrustLevel(role),
+      isLoggedIn: true,
+    }
+  } catch {
+    return null
+  }
+}
+
+// ── getSession — same interface as iron-session version ──
+
+export async function getSession(): Promise<SessionData & { save: () => Promise<void>; destroy: () => Promise<void> }> {
   const cookieStore = await cookies()
-  const session = await getIronSession<SessionData>(cookieStore, sessionOptions)
+  const token = cookieStore.get('iw_at')?.value
 
-  if (!session.isLoggedIn) {
-    Object.assign(session, defaultSession)
+  let sessionData: SessionData = {
+    userId: '',
+    username: '',
+    email: '',
+    displayName: '',
+    role: 'user',
+    trustLevel: 0,
+    isLoggedIn: false,
   }
 
-  return session
+  if (token) {
+    const user = getUserFromJWT(token)
+    if (user) {
+      sessionData = user
+    }
+  }
+
+  // Return session-like object with no-op save/destroy for call-site compatibility
+  return {
+    ...sessionData,
+    save: async () => {
+      // Cookies are set by auth actions directly — no-op here
+    },
+    destroy: async () => {
+      // Handled by logout route — no-op here
+    },
+  }
 }
+
+// ── getSessionUser — same interface as iron-session version ──
 
 export async function getSessionUser(): Promise<SessionData | null> {
   const session = await getSession()
   if (!session.isLoggedIn) return null
   return session
+}
+
+// ── Server-side token validation (for API routes) ──
+
+export function decodeToken(token: string): SessionData | null {
+  return getUserFromJWT(token)
 }

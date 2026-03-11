@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { getSurahs } from '@/lib/data/quran'
 import { getCollections, getBooksByCollection } from '@/lib/data/hadith'
 import { getPeople } from '@/lib/data/people'
-import { getBooks } from '@/lib/data/books'
+import { getBooks, getChaptersByBook } from '@/lib/data/books'
 import { getArticles } from '@/lib/data/articles'
 import { getSeerahEvents } from '@/lib/data/seerah'
 import { getMedia } from '@/lib/data/media'
@@ -28,7 +28,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/audio`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE_URL}/sects`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE_URL}/search`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE_URL}/quran/bookmarks`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
+    { url: `${BASE_URL}/quran/stats`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
   )
+
+  // Mushaf pages 1–604
+  for (let page = 1; page <= 604; page++) {
+    entries.push({
+      url: `${BASE_URL}/quran/page/${page}`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })
+  }
 
   // Quran surahs (canonical URLs use numbers, not slugs)
   for (const s of getSurahs()) {
@@ -71,14 +83,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   }
 
-  // Books
-  for (const b of getBooks()) {
+  // Books — canonical only (aliases 301-redirect, skip them)
+  for (const b of getBooks().filter((b) => b.canonical !== false)) {
     entries.push({
       url: `${BASE_URL}/books/${b.slug}`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
     })
+    // Chapter URLs
+    for (const ch of getChaptersByBook(b.slug)) {
+      entries.push({
+        url: `${BASE_URL}/books/${b.slug}/${ch.number}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      })
+    }
   }
 
   // Articles

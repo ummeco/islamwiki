@@ -1,0 +1,33 @@
+{
+  "number": 2,
+  "title_en": "Methodology, Standards, and Controversy",
+  "title_ar": "المنهج والمعايير والجدل النقدي",
+  "title_id": "Metodologi, Standar, dan Kontroversi",
+  "content_en": "<p>Al-Mustadrak is one of the most discussed and debated works in the hadith sciences, primarily because later scholars found that al-Hakim's claims about meeting the standards of Bukhari and Muslim were often overstated. Understanding the controversy requires understanding both what al-Hakim was trying to do and where his methodology fell short.</p>\n<p>Al-Hakim's stated criterion was that a hadith met the standard of Bukhari or Muslim if it was transmitted through narrators whom those scholars had accepted in their Sahih collections. This criterion — called the shart al-Bukhari or shart Muslim (Al-Al-Al-Al-Bukhari's condition or Muslim's condition) — is theoretically sound: if Bukhari accepted narrator X in his Sahih and narrator Y in his Sahih, then a chain consisting entirely of such accepted narrators should arguably meet his standard.</p>\n<p>The problem, as later critics identified, is that Bukhari and Muslim did not accept narrators uniformly across all their transmissions. Accepting a narrator in one chain does not mean accepting every hadith that narrator transmitted in every chain. A narrator might be reliable in general but have specific weaknesses in transmission from certain teachers or in certain categories of hadith. Al-Hakim's somewhat mechanical application of the criterion did not account for these nuances.</p>\n<p>Adh-Dhahabi's Talkhis al-Mustadrak, printed alongside the Mustadrak, explicitly identifies hadiths in al-Hakim's collection that adh-Dhahabi considered weak or even fabricated. Adh-Dhahabi found numerous cases where al-Hakim had accepted narrators who were actually criticized or where the chain had hidden defects that al-Hakim overlooked. These identifications are valuable because they alert the reader to hadiths requiring additional scrutiny.</p>\n<p>The scholarly consensus on al-Mustadrak is nuanced: the collection contains a core of genuinely strong hadiths that are valuable supplements to the canonical collections, alongside a significant number of hadiths that do not meet the standard al-Hakim claimed for them. Later researchers including al-Albani have re-evaluated many of the collection's narrations with updated methodology, producing more systematic assessments. Using the Mustadrak requires knowing this background and consulting adh-Dhahabi's Talkhis alongside the original.</p>",
+  "content_id": "Al-Mustadrak adalah salah satu karya yang paling banyak didiskusikan dan diperdebatkan dalam ilmu-ilmu hadis, terutama karena para ulama kemudian mendapati bahwa klaim-klaim al-Hakim tentang memenuhi standar al-Bukhari dan Muslim sering kali berlebihan. Memahami kontroversi ini memerlukan pemahaman tentang apa yang al-Hakim coba lakukan dan di mana metodologinya kurang memadai.\n\nKriteria yang dinyatakan al-Hakim adalah bahwa sebuah hadis memenuhi standar al-Bukhari atau Muslim jika ditransmisikan melalui perawi-perawi yang telah diterima oleh para ulama tersebut dalam koleksi Shahih mereka. Kriteria ini — disebut syarat al-Bukhari atau syarat Muslim (syarat al-Bukhari atau syarat Muslim) — secara teoretis masuk akal: jika al-Bukhari menerima perawi X dalam Shahihnya dan perawi Y dalam Shahihnya, maka sanad yang seluruhnya terdiri dari perawi-perawi yang diterima tersebut seharusnya memenuhi standarnya.\n\nMasalahnya, sebagaimana diidentifikasi oleh para kritikus kemudian, adalah bahwa al-Bukhari dan Muslim tidak menerima perawi-perawi secara seragam di seluruh transmisi mereka. Menerima seorang perawi dalam satu sanad tidak berarti menerima setiap hadis yang perawi tersebut riwayatkan dalam setiap sanad. Seorang perawi mungkin dapat dipercaya secara umum namun memiliki kelemahan-kelemahan spesifik dalam transmisi dari guru-guru tertentu atau dalam kategori-kategori hadis tertentu. Penerapan kriteria yang agak mekanis oleh al-Hakim tidak memperhitungkan nuansa-nuansa ini.\n\nTalkhis al-Mustadrak karya al-Dzahabi, yang dicetak bersama al-Mustadrak, secara eksplisit mengidentifikasi hadis-hadis dalam koleksi al-Hakim yang al-Dzahabi anggap lemah atau bahkan maudhu'. Al-Dzahabi menemukan banyak kasus di mana al-Hakim menerima perawi-perawi yang sebenarnya dikritik atau di mana sanad memiliki cacat tersembunyi yang al-Hakim abaikan. Identifikasi-identifikasi ini sangat berharga karena mengingatkan pembaca pada hadis-hadis yang memerlukan pengkajian tambahan.\n\nKonsensus keilmuan tentang al-Mustadrak bersifat bernuansa: koleksi ini memuat inti hadis-hadis yang benar-benar kuat yang merupakan suplemen berharga bagi koleksi-koleksi kanonik, di samping sejumlah hadis yang signifikan yang tidak memenuhi standar yang al-Hakim klaim bagi mereka. Para peneliti kemudian termasuk al-Albani telah mengevaluasi kembali banyak narasi koleksi ini dengan metodologi yang diperbarui, menghasilkan penilaian-penilaian yang lebih sistematis. Menggunakan al-Mustadrak memerlukan pengetahuan tentang latar belakang ini dan pengonsultasian Talkhis al-Dzahabi bersama teks aslinya.",
+  "subject_tags": [
+    "hadith"
+  ],
+  "topic_tags": [
+    "hadith-collections",
+    "sahih-collections",
+    "fiqh-general"
+  ],
+  "era_tags": [
+    "fifth-century-ah"
+  ],
+  "madhab_tags": [
+    "shafii"
+  ],
+  "content_type_tags": [
+    "hadith-text"
+  ],
+  "keywords": [
+    "al-mustadrak",
+    "al-hakim",
+    "sahih conditions",
+    "bukhari muslim conditions"
+  ],
+  "qa_passed": true,
+  "qa_errors": []
+}

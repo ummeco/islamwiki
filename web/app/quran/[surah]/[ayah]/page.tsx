@@ -4,6 +4,7 @@ import { notFound, redirect } from 'next/navigation'
 import { getSurahBySlug, getSurahByNumber, getSurahs, getAyahsBySurah } from '@/lib/data/quran'
 import { SurahViewer } from '@/components/quran/SurahViewer'
 import { SurahIntroButton } from '@/components/quran/SurahIntroButton'
+import { AyahBookmarkButton } from '@/components/quran/AyahBookmarkButton'
 import { surahTitle, surahTranslit } from '@/lib/quran-utils'
 
 interface Props {
@@ -80,8 +81,16 @@ export default async function AyahPage({ params }: Props) {
           Surat {surahTranslit(surah.name_transliteration)}
         </Link>
         <span className="mx-2 text-iw-border">/</span>
-        <span className="text-iw-text">
+        <span className="inline-flex items-center gap-2 text-iw-text">
           {focusFrom === focusTo ? `Verse ${focusFrom}` : `Verses ${focusFrom}–${focusTo}`}
+          {focusFrom === focusTo && (
+            <AyahBookmarkButton
+              surahNumber={surah.number}
+              ayahNumber={focusFrom}
+              surahNameEn={surah.name_en}
+              surahNameAr={surah.name_ar}
+            />
+          )}
         </span>
       </nav>
 

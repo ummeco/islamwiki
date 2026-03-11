@@ -1,0 +1,36 @@
+{
+  "number": 2,
+  "title_en": "The Sixty-Five Types: Structure of the Muqaddimah",
+  "title_ar": "الأنواع الخمسة والستون: بنية المقدمة",
+  "content_en": "<p>The Muqaddimah is organized around sixty-five types of hadith sciences — a comprehensive enumeration that covered the entire field as it stood in the thirteenth century. Understanding the organization of these types and the logic behind their sequencing illuminates both the structure of hadith sciences as a discipline and Ibn as-Salah's pedagogical judgment about how its components should be ordered.</p>\n<p>The opening types address the most fundamental classifications: the sahih (sound) hadith, the hasan (good) hadith, and the da'if (weak) hadith. These three categories — the broad framework within which all other classifications fall — are presented first because they provide the basic vocabulary within which the subsequent types make sense. A student who does not understand what makes a hadith sound, good, or weak cannot meaningfully understand the more specific classifications that follow.</p>\n<p>From these basic classifications, the Muqaddimah moves to types that specify particular properties of chains and texts. The musnad (elevated) hadith, the muttasil (continuous) hadith, the marfu' (attributed to the Prophet) hadith, and their contraries — the mursal (broken at the Companion level), the munqati' (broken in the middle), the mu'dal (broken with multiple gaps) — are addressed in the early types. These chain-structure classifications are fundamental for evaluating any specific hadith.</p>\n<p>The middle types address more specific phenomena: the mudallas (concealed defect) hadith, the mashhur (well-known) hadith, the aziz (rare) hadith, the gharib (strange) hadith. These types classify hadith by the number or character of their narrators at specific levels of the chain and have implications for both reliability assessment and for understanding how specific hadiths entered and spread through the transmission network.</p>\n<p>The later types address increasingly specialized topics: the conditions on the Companions as narrators, the rules governing narration from one's contemporaries, the conditions for accepting the narration of a mudallis (one who practices concealment), the evaluation of narrators who narrate from their fathers who narrate from the Prophet, and the complex questions surrounding the status of hadith preserved in written form from the earliest period.</p>\n<p>The final types address practical scholarly topics: how to write hadith, the etiquette of transmitting, the conditions for valid ijazah, and the principles governing what a scholar should say when they are uncertain about a hadith's reliability. This practical orientation at the end of the text reflected Ibn as-Salah's understanding that the ultimate purpose of hadith sciences was to enable correct practice in the transmission and evaluation of the Prophet's legacy.</p>",
+  "title_id": "Enam Puluh Lima Jenis: Struktur Muqaddimah",
+  "content_id": "Muqaddimah disusun di sekitar enam puluh lima jenis ilmu hadis — suatu penghitungan komprehensif yang mencakup seluruh bidang sebagaimana keadaannya pada abad ke-13. Memahami pengorganisasian jenis-jenis ini dan logika di balik urutannya menerangi sekaligus struktur ilmu hadis sebagai suatu disiplin ilmu maupun penilaian pedagogis Ibn as-Salah tentang bagaimana komponen-komponennya seharusnya diurutkan.\n\nJenis-jenis pembuka membahas klasifikasi yang paling mendasar: hadis sahih, hadis hasan, dan hadis da'if. Ketiga kategori ini — kerangka luas di mana semua klasifikasi lainnya masuk — disajikan pertama kali karena menyediakan kosakata dasar yang membuat jenis-jenis berikutnya dapat dimengerti. Seorang pelajar yang tidak memahami apa yang membuat sebuah hadis sahih, hasan, atau da'if tidak dapat memahami dengan bermakna klasifikasi-klasifikasi yang lebih spesifik berikutnya.\n\nDari klasifikasi dasar ini, Muqaddimah beralih ke jenis-jenis yang menetapkan sifat-sifat tertentu dari sanad dan matan. Hadis musnad, hadis muttasil, hadis marfu', beserta lawannya — hadis mursal, hadis munqati', dan hadis mu'dal — dibahas dalam jenis-jenis awal. Klasifikasi struktur sanad ini sangat mendasar untuk mengevaluasi hadis apa pun yang spesifik.\n\nJenis-jenis tengah membahas fenomena yang lebih spesifik: hadis mudallas, hadis masyhur, hadis aziz, dan hadis gharib. Jenis-jenis ini mengklasifikasikan hadis berdasarkan jumlah atau karakter para perawinya pada tingkat-tingkat tertentu dalam sanad dan memiliki implikasi baik terhadap penilaian keandalan maupun pemahaman tentang bagaimana hadis-hadis tertentu masuk dan menyebar dalam jaringan transmisi.\n\nJenis-jenis selanjutnya membahas topik-topik yang semakin khusus: syarat-syarat para Sahabat sebagai perawi, aturan yang mengatur periwayatan dari sesama sezaman, syarat-syarat untuk menerima riwayat seorang mudallis, evaluasi perawi yang meriwayatkan dari ayah mereka yang meriwayatkan dari Nabi, serta pertanyaan-pertanyaan kompleks seputar status hadis yang tersimpan dalam bentuk tulisan sejak masa awal.\n\nJenis-jenis terakhir membahas topik-topik keilmuan yang praktis: cara menulis hadis, adab menyampaikan, syarat-syarat ijazah yang valid, dan prinsip-prinsip yang mengatur apa yang harus dikatakan seorang ulama ketika mereka tidak yakin tentang keandalan sebuah hadis. Orientasi praktis di akhir teks ini mencerminkan pemahaman Ibn as-Salah bahwa tujuan akhir ilmu hadis adalah memungkinkan praktik yang benar dalam penyampaian dan evaluasi warisan Nabi.",
+  "subject_tags": [
+    "hadith-sciences"
+  ],
+  "topic_tags": [
+    "hadith-terminology",
+    "hadith-grading",
+    "isnad",
+    "narrators"
+  ],
+  "era_tags": [
+    "seventh-century-ah"
+  ],
+  "madhab_tags": [
+    "shafii"
+  ],
+  "content_type_tags": [
+    "explanation"
+  ],
+  "keywords": [
+    "muqaddimah ibn al-salah",
+    "ibn al-salah",
+    "hadith sciences",
+    "mustalah al-hadith",
+    "hadith classification",
+    "uloom al-hadith"
+  ],
+  "qa_passed": true,
+  "qa_errors": []
+}

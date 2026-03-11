@@ -1,8 +1,18 @@
-import { redirect } from 'next/navigation'
-import { getSession } from '@/lib/auth'
+import { NextResponse } from 'next/server'
+import { cookies } from 'next/headers'
+import { signOut } from '@/lib/auth-client'
 
 export async function POST() {
-  const session = await getSession()
-  session.destroy()
-  redirect('/')
+  const cookieStore = await cookies()
+  const refreshToken = cookieStore.get('iw_rt')?.value
+
+  if (refreshToken) {
+    // Best-effort: invalidate refresh token server-side
+    await signOut(refreshToken).catch(() => undefined)
+  }
+
+  cookieStore.delete('iw_at')
+  cookieStore.delete('iw_rt')
+
+  return NextResponse.json({ ok: true })
 }

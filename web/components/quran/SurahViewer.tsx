@@ -76,6 +76,8 @@ type FontSize = 'sm' | 'md' | 'lg' | 'xl'
 
 type ContentWidth = 'wide' | 'narrow'
 
+type ReadingLang = 'en' | 'ar' | 'id'
+
 interface Settings {
   mode: ReadMode
   showArabic: boolean
@@ -84,6 +86,7 @@ interface Settings {
   translation: string
   fontSize: FontSize
   contentWidth: ContentWidth
+  reading_lang: ReadingLang
 }
 
 // leading-[2] on all sizes: line gap = (2em - 1em) = 1em, half = 0.5em each side.
@@ -174,6 +177,40 @@ function GearPanel({ settings, update, onClose, locale }: GearPanelProps) {
             </div>
           </div>
 
+          {/* Reading Language — pill group (IW-QN.4) */}
+          <div>
+            <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-iw-text-muted">
+              Reading Language
+            </p>
+            <div className="grid grid-cols-3 gap-1">
+              {([
+                { id: 'en' as ReadingLang, label: 'English' },
+                { id: 'ar' as ReadingLang, label: 'Arabic' },
+                { id: 'id' as ReadingLang, label: 'Indonesian' },
+              ]).map(({ id, label }) => (
+                <button
+                  key={id}
+                  type="button"
+                  onClick={() => {
+                    const next: Partial<Settings> = { reading_lang: id }
+                    if (id === 'ar') { next.showArabic = true; next.showEnglish = false; next.showTranslit = false }
+                    else if (id === 'id') { next.showArabic = false; next.showEnglish = true; next.translation = settings.translation in TRANSLATIONS_ID ? settings.translation : 'kemenag' }
+                    else { next.showEnglish = true }
+                    update(next)
+                  }}
+                  className={[
+                    'rounded-lg border py-2 text-[11px] font-medium transition-colors',
+                    settings.reading_lang === id
+                      ? 'border-iw-accent bg-iw-accent/10 text-iw-accent'
+                      : 'border-iw-border text-iw-text-muted hover:border-iw-text-muted hover:text-white',
+                  ].join(' ')}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+          </div>
+
           {/* Display toggles */}
           <div>
             <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-iw-text-muted">
@@ -183,7 +220,7 @@ function GearPanel({ settings, update, onClose, locale }: GearPanelProps) {
               {[
                 { key: 'showArabic', label: 'Arabic text', emoji: 'ع' },
                 { key: 'showTranslit', label: 'Transliteration', emoji: 'a' },
-                { key: 'showEnglish', label: 'English translation', emoji: 'En' },
+                { key: 'showEnglish', label: 'Translation', emoji: 'En' },
               ].map(({ key, label, emoji }) => {
                 const isOn = settings[key as keyof Settings] === true
                 return (
@@ -400,14 +437,28 @@ function VerseRow({
 
 // ── Main component ────────────────────────────────────────────────────────────
 
+function getStoredReadingLang(): ReadingLang | null {
+  if (typeof window === 'undefined') return null
+  try {
+    const v = localStorage.getItem('iw_reading_lang')
+    if (v === 'en' || v === 'ar' || v === 'id') return v
+  } catch { /* ignore */ }
+  return null
+}
+
 function getInitialSettings(locale?: string): Settings {
-  if (locale === 'ar') {
-    return { mode: 'section', showArabic: true, showTranslit: false, showEnglish: false, translation: 'iwq', fontSize: 'md', contentWidth: 'wide' }
+  // Locale-derived reading_lang (IW-QN.3): locale prop takes priority over stored pref on first load
+  const localeLang: ReadingLang | null =
+    locale === 'ar' ? 'ar' : locale === 'id' ? 'id' : null
+  const reading_lang: ReadingLang = localeLang ?? getStoredReadingLang() ?? 'en'
+
+  if (reading_lang === 'ar') {
+    return { mode: 'section', showArabic: true, showTranslit: false, showEnglish: false, translation: 'iwq', fontSize: 'md', contentWidth: 'wide', reading_lang: 'ar' }
   }
-  if (locale === 'id') {
-    return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'kemenag', fontSize: 'md', contentWidth: 'wide' }
+  if (reading_lang === 'id') {
+    return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'kemenag', fontSize: 'md', contentWidth: 'wide', reading_lang: 'id' }
   }
-  return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'iwq', fontSize: 'md', contentWidth: 'wide' }
+  return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'iwq', fontSize: 'md', contentWidth: 'wide', reading_lang: 'en' }
 }
 
 /** Pick translation text, using the Indonesian map when the key is an id-locale translation */
@@ -453,6 +504,10 @@ export function SurahViewer({
 
   const update = useCallback((partial: Partial<Settings>) => {
     setSettings((s) => ({ ...s, ...partial }))
+    // Persist reading_lang to localStorage (IW-QN.1)
+    if (partial.reading_lang !== undefined) {
+      try { localStorage.setItem('iw_reading_lang', partial.reading_lang) } catch { /* ignore */ }
+    }
   }, [])
 
   // First-visit tip is initialized via useState lazy initializer above
@@ -595,9 +650,11 @@ export function SurahViewer({
   const showBismillah =
     surahNumber !== 1 && surahNumber !== 9 && (ayahs[0]?.number_in_surah ?? 1) === 1
 
+  const isArabicMode = settings.reading_lang === 'ar'
+
   return (
     <>
-      <div className="relative">
+      <div className="relative" dir={isArabicMode ? 'rtl' : undefined}>
         {/* Arabic surah name (when Arabic mode is on) */}
         {surahNameAr && settings.showArabic && (
           <p className="arabic-text mb-4 text-center text-2xl text-white/80">{surahNameAr}</p>
@@ -622,10 +679,12 @@ export function SurahViewer({
                 : 'border-iw-border text-iw-text-secondary hover:border-iw-accent hover:text-white',
             ].join(' ')}
           >
-            <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+            <svg className={`h-4 w-4 ${isArabicMode ? 'scale-x-[-1]' : ''}`} viewBox="0 0 24 24" fill="currentColor">
               <path d="M8 5v14l11-7L8 5z" />
             </svg>
-            {isAudioActive ? 'Now playing' : 'Play Entire Surah'}
+            {isAudioActive
+              ? (isArabicMode ? 'يُشغَّل الآن' : 'Now playing')
+              : (isArabicMode ? 'تشغيل السورة كاملةً' : 'Play Entire Surah')}
           </button>
         </div>
 
@@ -654,10 +713,10 @@ export function SurahViewer({
                       'text-[10px] font-bold uppercase tracking-widest',
                       isCurrentSection ? 'text-iw-accent' : 'text-iw-text-muted',
                     ].join(' ')}>
-                      Section {gi + 1} · Verses {group.ayahs[0].number_in_surah}
-                      {group.ayahs.length > 1
-                        ? `–${group.ayahs[group.ayahs.length - 1].number_in_surah}`
-                        : ''}
+                      {isArabicMode
+                        ? `المقطع ${toArabicIndic(gi + 1)} · الآيات ${toArabicIndic(group.ayahs[0].number_in_surah)}${group.ayahs.length > 1 ? `–${toArabicIndic(group.ayahs[group.ayahs.length - 1].number_in_surah)}` : ''}`
+                        : `Section ${gi + 1} · Verses ${group.ayahs[0].number_in_surah}${group.ayahs.length > 1 ? `–${group.ayahs[group.ayahs.length - 1].number_in_surah}` : ''}`
+                      }
                     </span>
                     <div className="h-px flex-1 bg-iw-border/50" />
                   </div>
@@ -708,7 +767,7 @@ export function SurahViewer({
                     <div className="mb-4 space-y-0.5">
                       {group.ayahs.map((a) => (
                         <p key={a.number_in_surah} className="text-xs italic leading-relaxed text-iw-text-muted">
-                          <span className="mr-1.5 not-italic text-iw-accent/50">{a.number_in_surah}.</span>
+                          <span className="mr-1.5 not-italic text-iw-accent/50">{isArabicMode ? toArabicIndic(a.number_in_surah) : a.number_in_surah}.</span>
                           {a.transliteration}
                         </p>
                       ))}
@@ -754,7 +813,9 @@ export function SurahViewer({
 
                   {!settings.showArabic && !settings.showTranslit && !settings.showEnglish && (
                     <p className="text-sm text-iw-text-muted">
-                      Enable Arabic, Transliteration, or English in Options →
+                      {isArabicMode
+                        ? 'فعِّل العربية أو التلاوة أو الترجمة من الخيارات'
+                        : 'Enable Arabic, Transliteration, or English in Options →'}
                     </p>
                   )}
 
@@ -773,10 +834,10 @@ export function SurahViewer({
                       <svg className="h-3 w-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M8 5v14l11-7L8 5z" />
                       </svg>
-                      Play {surahNumber}:{group.ayahs[0].number_in_surah}
-                      {group.ayahs.length > 1
-                        ? `–${group.ayahs[group.ayahs.length - 1].number_in_surah}`
-                        : ''}
+                      {isArabicMode
+                        ? `تشغيل ${toArabicIndic(surahNumber)}:${toArabicIndic(group.ayahs[0].number_in_surah)}${group.ayahs.length > 1 ? `–${toArabicIndic(group.ayahs[group.ayahs.length - 1].number_in_surah)}` : ''}`
+                        : `Play ${surahNumber}:${group.ayahs[0].number_in_surah}${group.ayahs.length > 1 ? `–${group.ayahs[group.ayahs.length - 1].number_in_surah}` : ''}`
+                      }
                     </button>
                     <button
                       type="button"
@@ -788,7 +849,7 @@ export function SurahViewer({
                       }
                       className="ml-auto flex items-center gap-1.5 text-[11px] text-iw-text-muted transition-colors hover:text-iw-accent"
                     >
-                      Tafsir
+                      {isArabicMode ? 'تفسير' : 'Tafsir'}
                       <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>

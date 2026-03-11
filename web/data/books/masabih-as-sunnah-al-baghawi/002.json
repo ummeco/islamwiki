@@ -1,0 +1,32 @@
+{
+  "number": 2,
+  "title_en": "The Sihah-Hisan Classification System",
+  "title_ar": "نظام تصنيف الصحاح والحسان",
+  "title_id": "Sistem Klasifikasi Sihah-Hisan",
+  "content_id": "Sistem klasifikasi dua tingkat yang dikembangkan al-Baghawi untuk Masabih al-Sunnah bersifat inovatif dan berpengaruh, memberikan kepada para pelajar kerangka yang mudah diakses untuk memahami keshahihan hadis sambil tetap menjaga karya ini bersifat praktis dan ringkas.\n\nTingkat pertama, hadis-hadis yang diklasifikasikan sebagai sihah (shahih), diambil secara eksklusif dari Shahih al-Bukhari dan Shahih Muslim, dua koleksi yang paling ketat dalam hal autentikasi. Dengan membatasi tingkat ini pada dua Shahih, al-Baghawi memberi pembaca jaminan implisit: hadis-hadis dalam seksi sihah telah melewati standar autentikasi paling ketat yang tersedia dalam tradisi keilmuan Islam. Para pelajar dapat mempelajari dan menerapkan hadis-hadis ini dengan keyakinan penuh terhadap keandalannya.\n\nTingkat kedua, hadis-hadis yang diklasifikasikan sebagai hisan (hasan), diambil dari empat koleksi Sunan dan karya-karya hadis lain yang diakui. Hadis-hadis ini umumnya dapat diandalkan namun belum tentu telah diautentikasi secara independen hingga ke tingkat dua Shahih. Sebagian berasal dari bagian-bagian paling shahih dari koleksi Sunan, sementara sebagian lain merupakan hadis-hadis yang dinilai al-Baghawi shahih atau dapat diterima berdasarkan penilaiannya terhadap sanad-sanadnya.\n\nPenilaian kritis atas klasifikasi al-Baghawi telah bervariasi. Para ulama hadis berikutnya menemukan bahwa tidak semua hadis sihah-nya berasal secara eksklusif dari dua Shahih, beberapa berasal dari sumber-sumber lain, dan bahwa sebagian hadis hisan-nya lebih lemah dari yang disarankan oleh klasifikasinya. Revisi al-Khatib al-Tibrizi atas karya ini dalam Misykat al-Mashabih mengatasi beberapa masalah ini dengan menambahkan atribusi sumber dan tingkat ketiga untuk hadis-hadis tambahan.\n\nTerlepas dari keterbatasan-keterbatasan ini, sistem klasifikasi tersebut memenuhi tujuan pedagogis yang penting. Karya ini memperkenalkan kepada para pelajar konsep tentang berbagai tingkat keshahihan hadis dalam konteks praktis, bukan hanya teoritis semata, sehingga membiasakan mereka untuk tidak hanya bertanya apa yang dikatakan sebuah hadis tetapi juga seberapa andal hadis tersebut terautentikasi. Kebiasaan berpikir seperti ini, memperlakukan keshahihan sebagai variabel kontinum bukan biner, merupakan dasar dari kajian hadis yang matang.\n\nKlasifikasi ini juga memberi para guru alat praktis untuk mengorganisasikan pengajaran: memulai dengan hadis-hadis sihah dalam setiap topik, kemudian beralih ke hadis-hadis hisan, memberi para pelajar pendekatan terstruktur untuk membangun pengetahuan mereka tentang tradisi kenabian dari inti yang paling andal ke arah yang lebih luas.",
+  "content_en": "<p>The two-tier classification system that al-Baghawi developed for Masabih as-Sunnah was innovative and influential, providing students with an accessible framework for thinking about hadith authenticity while keeping the work practical and compact.</p>\n<p>The first tier — hadiths classified as sihah (sound) — drew exclusively from Sahih al-Bukhari and Sahih Muslim, the two most rigorously authenticated collections. By limiting this tier to the two Sahihs, al-Baghawi gave readers an implicit assurance: hadiths in the sihah section had passed the strictest authentication standards available in the Islamic scholarly tradition. Students could study and apply these hadiths with full confidence in their reliability.</p>\n<p>The second tier — hadiths classified as hisan (good) — drew from the four Sunan collections and other recognized hadith works. These hadiths were generally reliable but had not necessarily been independently authenticated to the level of the Sahihayn. Some were from the most authentic portions of the Sunan collections, while others represented hadiths that al-Baghawi considered sound or acceptable based on his assessment of their chains.</p>\n<p>The critical assessment of al-Baghawi's classification has been mixed. Later hadith scholars found that not all his sihah hadiths were exclusively from the Sahihayn — some were from other sources — and that some of his hisan hadiths were weaker than his classification suggested. Al-Khatib at-Tibrizi's revision of the work in Mishkat al-Masabih addressed some of these issues by adding source attributions and a third tier for additional hadiths.</p>\n<p>Despite these limitations, the classification system served an important pedagogical purpose. It introduced students to the concept of varying levels of hadith authenticity in a practical rather than purely theoretical context, habituating them to ask not just what a hadith says but how reliably it is authenticated. This habit of mind — treating authenticity as a continuous variable rather than a binary — is fundamental to mature hadith study.</p>\n<p>The classification also provided teachers with a practical tool for organizing instruction: beginning with the sihah hadiths in each topic, then moving to the hisan, giving students a structured approach to building their knowledge of the prophetic tradition from the most reliable core outward.</p>",
+  "subject_tags": [
+    "hadith"
+  ],
+  "topic_tags": [
+    "hadith-collections",
+    "fiqh-general"
+  ],
+  "era_tags": [
+    "sixth-century-ah"
+  ],
+  "madhab_tags": [
+    "shafii"
+  ],
+  "content_type_tags": [
+    "hadith-text"
+  ],
+  "keywords": [
+    "masabih al-sunnah",
+    "al-baghawi",
+    "hadith collection",
+    "fiqh hadith anthology"
+  ],
+  "qa_passed": true,
+  "qa_errors": []
+}

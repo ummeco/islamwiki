@@ -1,16 +1,35 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import {
-  getBookBySlug,
+  getCanonicalBook,
   getBooks,
   getChaptersByBook,
   getBooksByAuthor,
+  getBookBySlug,
+  getBookIndex,
 } from '@/lib/data/books'
 import { formatIslamicYear } from '@/lib/dates/hijri'
 
 interface Props {
   params: Promise<{ slug: string }>
+}
+
+const CATEGORY_LABELS: Record<string, string> = {
+  fiqh: 'Fiqh',
+  sharh: 'Sharh',
+  'ethics-spirituality': 'Ethics & Spirituality',
+  'hadith-sciences': 'Hadith Sciences',
+  aqeedah: 'Aqeedah',
+  biography: 'Biography',
+  'usul-al-fiqh': 'Usul al-Fiqh',
+  tafsir: 'Tafsir',
+  history: 'History',
+  seerah: 'Seerah',
+  'quran-sciences': 'Quran Sciences',
+  general: 'General',
+  'arabic-language': 'Arabic Language',
+  'comparative-religion': 'Comparative Religion',
 }
 
 export async function generateStaticParams() {
@@ -19,8 +38,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
-  const book = getBookBySlug(slug)
-  if (!book) return {}
+  const result = getCanonicalBook(slug)
+  if (!result) return {}
+  const { book } = result
   return {
     title: book.title_en,
     description: `Read ${book.title_en} by ${book.author_name_en}. ${book.description_en || 'Classical Islamic text available online.'}`,
@@ -29,13 +49,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BookPage({ params }: Props) {
   const { slug } = await params
-  const book = getBookBySlug(slug)
-  if (!book) notFound()
+  const result = getCanonicalBook(slug)
+  if (!result) notFound()
+
+  // 301 redirect for non-canonical alias slugs
+  if (result.redirectTo) redirect(result.redirectTo)
+
+  const { book } = result
 
   const chapters = getChaptersByBook(slug)
-  const otherBooksByAuthor = getBooksByAuthor(book.author_slug).filter(
+  const otherBooksByAuthor = getBooksByAuthor(book.author_slug ?? '').filter(
     (b) => b.id !== book.id
   )
+  const relatedBooks = (book.related_slugs ?? [])
+    .map((s) => getBookBySlug(s))
+    .filter(Boolean)
+  const hasIndex = getBookIndex(slug) !== null
 
   return (
     <div className="section-container py-12">
@@ -122,6 +151,30 @@ export default async function BookPage({ params }: Props) {
           <div className="card">
             <h3 className="mb-3 text-sm font-semibold text-white">Details</h3>
             <dl className="space-y-2 text-sm">
+              {book.category_primary && (
+                <div>
+                  <dt className="text-iw-text-muted">Category</dt>
+                  <dd className="text-iw-text">
+                    {CATEGORY_LABELS[book.category_primary] ?? book.category_primary}
+                    {book.category_secondary && (
+                      <span className="text-iw-text-muted">
+                        {' / '}
+                        {CATEGORY_LABELS[book.category_secondary] ?? book.category_secondary}
+                      </span>
+                    )}
+                  </dd>
+                </div>
+              )}
+              {book.madhab && (
+                <div>
+                  <dt className="text-iw-text-muted">Madhab</dt>
+                  <dd>
+                    <span className="inline-block rounded-full bg-iw-accent/10 px-2 py-0.5 text-xs font-medium capitalize text-iw-accent">
+                      {book.madhab}
+                    </span>
+                  </dd>
+                </div>
+              )}
               <div>
                 <dt className="text-iw-text-muted">Subject</dt>
                 <dd className="text-iw-text capitalize">
@@ -136,8 +189,15 @@ export default async function BookPage({ params }: Props) {
               </div>
               <div>
                 <dt className="text-iw-text-muted">Available In</dt>
-                <dd className="text-iw-text uppercase">
-                  {book.available_languages.join(', ')}
+                <dd className="flex flex-wrap gap-1 pt-0.5">
+                  {book.available_languages.map((lang) => (
+                    <span
+                      key={lang}
+                      className="rounded bg-iw-surface px-1.5 py-0.5 text-[11px] uppercase text-iw-text-muted"
+                    >
+                      {lang}
+                    </span>
+                  ))}
                 </dd>
               </div>
               {(book.year_written_ah || book.year_written_ce) && (
@@ -148,8 +208,80 @@ export default async function BookPage({ params }: Props) {
                   </dd>
                 </div>
               )}
+              {book.died_ah && (
+                <div>
+                  <dt className="text-iw-text-muted">Author Died</dt>
+                  <dd className="text-iw-text">AH {book.died_ah}</dd>
+                </div>
+              )}
+              {book.volumes && (
+                <div>
+                  <dt className="text-iw-text-muted">Volumes</dt>
+                  <dd className="text-iw-text">{book.volumes}</dd>
+                </div>
+              )}
             </dl>
           </div>
+
+          {/* External source link */}
+          {book.source_url_primary && (
+            <div className="card">
+              <h3 className="mb-3 text-sm font-semibold text-white">
+                Original Text
+              </h3>
+              <a
+                href={book.source_url_primary}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-iw-accent hover:text-iw-accent-light"
+              >
+                Read on{' '}
+                {book.source_url_primary.includes('al-maktaba.org')
+                  ? 'Al-Maktaba Al-Shamela'
+                  : book.source_url_primary.includes('shamela.ws')
+                    ? 'Shamela'
+                    : book.source_url_primary.includes('archive.org')
+                      ? 'Archive.org'
+                      : 'External source'}{' '}
+                ↗
+              </a>
+              <p className="mt-1 text-xs text-iw-text-muted capitalize">
+                {book.source_type === 'html' ? 'HTML (readable online)' : 'PDF'}
+              </p>
+            </div>
+          )}
+
+          {/* Book index link */}
+          {hasIndex && (
+            <div className="card">
+              <h3 className="mb-3 text-sm font-semibold text-white">Index</h3>
+              <Link
+                href={`/books/${slug}/index`}
+                className="text-sm text-iw-accent hover:text-white"
+              >
+                Browse subject index →
+              </Link>
+            </div>
+          )}
+
+          {/* See also: related books */}
+          {relatedBooks.length > 0 && (
+            <div className="card">
+              <h3 className="mb-3 text-sm font-semibold text-white">See Also</h3>
+              <ul className="space-y-2">
+                {relatedBooks.map((b) => b && (
+                  <li key={b.id}>
+                    <Link
+                      href={`/books/${b.slug}`}
+                      className="text-sm text-iw-text-secondary hover:text-iw-accent"
+                    >
+                      {b.title_en}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Other books by this author */}
           {otherBooksByAuthor.length > 0 && (

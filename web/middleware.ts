@@ -1,26 +1,50 @@
 import { NextResponse, type NextRequest } from 'next/server'
-import { getIronSession } from 'iron-session'
-import type { SessionData } from '@/lib/auth'
+import { jwtDecode } from 'jwt-decode'
 
 const LOCALES = ['en', 'ar', 'id'] as const
 const DEFAULT_LOCALE = 'en'
 
-const sessionOptions = {
-  password:
-    process.env.SESSION_SECRET ||
-    'complex_password_at_least_32_characters_long_for_dev',
-  cookieName: 'iw_session',
+interface JWTPayload {
+  sub: string
+  exp: number
+  'https://hasura.io/jwt/claims'?: {
+    'x-hasura-default-role'?: string
+    'x-hasura-allowed-roles'?: string[]
+  }
+  displayName?: string
+  email?: string
 }
 
 function extractLocale(pathname: string): { locale: string; strippedPath: string } {
   const segments = pathname.split('/')
-  // segments[0] is '' (before leading /), segments[1] might be locale
   const maybeLocale = segments[1]
   if (maybeLocale && LOCALES.includes(maybeLocale as typeof LOCALES[number]) && maybeLocale !== DEFAULT_LOCALE) {
     const strippedPath = '/' + segments.slice(2).join('/') || '/'
     return { locale: maybeLocale, strippedPath }
   }
   return { locale: DEFAULT_LOCALE, strippedPath: pathname }
+}
+
+function decodeJWT(token: string): JWTPayload | null {
+  try {
+    const payload = jwtDecode<JWTPayload>(token)
+    const now = Math.floor(Date.now() / 1000)
+    if (payload.exp < now) return null
+    return payload
+  } catch {
+    return null
+  }
+}
+
+function getTrustLevelFromRole(role: string | undefined): number {
+  const map: Record<string, number> = {
+    owner: 5,
+    admin: 4,
+    moderator: 3,
+    editor: 2,
+    user: 0,
+  }
+  return map[role ?? 'user'] ?? 0
 }
 
 export async function middleware(request: NextRequest) {
@@ -61,27 +85,26 @@ export async function middleware(request: NextRequest) {
 
   if (!needsAuth) return response
 
-  const session = await getIronSession<SessionData>(
-    request,
-    response,
-    sessionOptions
-  )
+  // Decode JWT from iw_at cookie (edge-compatible — no external calls)
+  const token = request.cookies.get('iw_at')?.value
+  const jwtPayload = token ? decodeJWT(token) : null
+  const isLoggedIn = jwtPayload !== null
+
+  const role = jwtPayload?.['https://hasura.io/jwt/claims']?.['x-hasura-default-role']
+  const trustLevel = getTrustLevelFromRole(role)
 
   // Already logged in? Redirect away from auth pages
-  if (session.isLoggedIn) {
+  if (isLoggedIn) {
     if (checkPath === '/account' || checkPath === '/signin' || checkPath === '/signup') {
       return NextResponse.redirect(new URL('/', request.url))
     }
     if (checkPath.startsWith('/auth/') && checkPath !== '/auth/change-password') {
       return NextResponse.redirect(new URL('/', request.url))
     }
-    if (checkPath === '/auth/change-password' && !session.mustChangePassword) {
-      return NextResponse.redirect(new URL('/', request.url))
-    }
   }
 
   // Protected: must be logged in
-  if (!session.isLoggedIn) {
+  if (!isLoggedIn) {
     if (checkPath.startsWith('/admin')) {
       const loginUrl = new URL('/account', request.url)
       loginUrl.searchParams.set('redirect', pathname)
@@ -95,24 +118,8 @@ export async function middleware(request: NextRequest) {
   }
 
   // Admin routes: must have trust_level >= 4
-  if (
-    session.isLoggedIn &&
-    checkPath.startsWith('/admin') &&
-    session.trustLevel < 4
-  ) {
+  if (isLoggedIn && checkPath.startsWith('/admin') && trustLevel < 4) {
     return NextResponse.redirect(new URL('/', request.url))
-  }
-
-  // Force password change if flagged
-  if (
-    session.isLoggedIn &&
-    session.mustChangePassword &&
-    !checkPath.startsWith('/auth/change-password') &&
-    !checkPath.startsWith('/api/')
-  ) {
-    return NextResponse.redirect(
-      new URL('/auth/change-password', request.url)
-    )
   }
 
   return response
