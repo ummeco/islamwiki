@@ -20,7 +20,14 @@
       "seal_of_prophets"
     ],
     "birth_place_name": "Mecca",
-    "death_place_name": "Medina"
+    "death_place_name": "Medina",
+    "name_en_alt": [
+      "Muhammad",
+      "Mohammed",
+      "Mohammad",
+      "Mohamed",
+      "Muhammed"
+    ]
   },
   {
     "id": 2,
@@ -39,13 +46,17 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Adam",
+      "Adm"
     ]
   },
   {
     "id": 3,
     "slug": "prophet-idris",
     "name_ar": "إدريس",
-    "name_en": "Prophet Idris",
+    "name_en": "Prophet Idris (Enoch)",
     "name_full_en": "Idris (Enoch)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -58,13 +69,18 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Enoch",
+      "Idrees",
+      "Idris"
     ]
   },
   {
     "id": 4,
     "slug": "prophet-nuh",
     "name_ar": "نوح",
-    "name_en": "Prophet Nuh",
+    "name_en": "Prophet Nuh (Noah)",
     "name_full_en": "Nuh (Noah)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -78,6 +94,11 @@
     "tags": [
       "ulu_al_azm",
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Noah",
+      "Nuh",
+      "Nooh"
     ]
   },
   {
@@ -97,6 +118,11 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Hud",
+      "Hood",
+      "Eber"
     ]
   },
   {
@@ -116,13 +142,18 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Saleh",
+      "Salih",
+      "Saleh ibn Aad"
     ]
   },
   {
     "id": 7,
     "slug": "prophet-ibrahim",
     "name_ar": "إبراهيم",
-    "name_en": "Prophet Ibrahim",
+    "name_en": "Prophet Ibrahim (Abraham)",
     "name_full_en": "Ibrahim (Abraham)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -136,13 +167,19 @@
     "tags": [
       "ulu_al_azm",
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Abraham",
+      "Ibrahim",
+      "Ibraheem",
+      "Abram"
     ]
   },
   {
     "id": 8,
     "slug": "prophet-lut",
     "name_ar": "لوط",
-    "name_en": "Prophet Lut",
+    "name_en": "Prophet Lut (Lot)",
     "name_full_en": "Lut (Lot)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -155,13 +192,18 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Lot",
+      "Lut",
+      "Loot"
     ]
   },
   {
     "id": 9,
     "slug": "prophet-ismail",
     "name_ar": "إسماعيل",
-    "name_en": "Prophet Ismail",
+    "name_en": "Prophet Ismail (Ishmael)",
     "name_full_en": "Ismail (Ishmael)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -174,13 +216,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Ishmael",
+      "Ismail",
+      "Ismael",
+      "Ismaeel"
     ]
   },
   {
     "id": 10,
     "slug": "prophet-ishaq",
     "name_ar": "إسحاق",
-    "name_en": "Prophet Ishaq",
+    "name_en": "Prophet Ishaq (Isaac)",
     "name_full_en": "Ishaq (Isaac)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -193,13 +241,18 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Isaac",
+      "Ishaq",
+      "Issac"
     ]
   },
   {
     "id": 11,
     "slug": "prophet-yaqub",
     "name_ar": "يعقوب",
-    "name_en": "Prophet Yaqub",
+    "name_en": "Prophet Yaqub (Jacob)",
     "name_full_en": "Yaqub (Jacob)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -212,13 +265,20 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Jacob",
+      "Yaqub",
+      "Yaqoob",
+      "Israel",
+      "Yaakub"
     ]
   },
   {
     "id": 12,
     "slug": "prophet-yusuf",
     "name_ar": "يوسف",
-    "name_en": "Prophet Yusuf",
+    "name_en": "Prophet Yusuf (Joseph)",
     "name_full_en": "Yusuf (Joseph)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -231,13 +291,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Joseph",
+      "Yusuf",
+      "Yousuf",
+      "Yusof"
     ]
   },
   {
     "id": 13,
     "slug": "prophet-ayyub",
     "name_ar": "أيوب",
-    "name_en": "Prophet Ayyub",
+    "name_en": "Prophet Ayyub (Job)",
     "name_full_en": "Ayyub (Job)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -250,13 +316,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Job",
+      "Ayyub",
+      "Ayoob",
+      "Ayub"
     ]
   },
   {
     "id": 14,
     "slug": "prophet-shuayb",
     "name_ar": "شعيب",
-    "name_en": "Prophet Shuayb",
+    "name_en": "Prophet Shuayb (Jethro)",
     "name_full_en": "Shuayb (Jethro)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -269,13 +341,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Jethro",
+      "Shuayb",
+      "Shuaib",
+      "Shoaib"
     ]
   },
   {
     "id": 15,
     "slug": "prophet-musa",
     "name_ar": "موسى",
-    "name_en": "Prophet Musa",
+    "name_en": "Prophet Musa (Moses)",
     "name_full_en": "Musa (Moses)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -289,13 +367,19 @@
     "tags": [
       "ulu_al_azm",
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Moses",
+      "Musa",
+      "Moosa",
+      "Moussa"
     ]
   },
   {
     "id": 16,
     "slug": "prophet-harun",
     "name_ar": "هارون",
-    "name_en": "Prophet Harun",
+    "name_en": "Prophet Harun (Aaron)",
     "name_full_en": "Harun (Aaron)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -308,13 +392,18 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Aaron",
+      "Harun",
+      "Haroon"
     ]
   },
   {
     "id": 17,
     "slug": "prophet-dhul-kifl",
     "name_ar": "ذو الكفل",
-    "name_en": "Prophet Dhul-Kifl",
+    "name_en": "Prophet Dhul-Kifl (Ezekiel?)",
     "name_full_en": "Dhul-Kifl",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -327,13 +416,20 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Dhul Kifl",
+      "Dhulkifl",
+      "Ezekiel",
+      "Zulkifl",
+      "Bishr"
     ]
   },
   {
     "id": 18,
     "slug": "prophet-dawud",
     "name_ar": "داود",
-    "name_en": "Prophet Dawud",
+    "name_en": "Prophet Dawud (David)",
     "name_full_en": "Dawud (David)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -346,13 +442,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "David",
+      "Dawud",
+      "Dawood",
+      "Daud"
     ]
   },
   {
     "id": 19,
     "slug": "prophet-sulayman",
     "name_ar": "سليمان",
-    "name_en": "Prophet Sulayman",
+    "name_en": "Prophet Sulayman (Solomon)",
     "name_full_en": "Sulayman (Solomon)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -365,13 +467,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Solomon",
+      "Sulayman",
+      "Sulaiman",
+      "Suleiman"
     ]
   },
   {
     "id": 20,
     "slug": "prophet-ilyas",
     "name_ar": "إلياس",
-    "name_en": "Prophet Ilyas",
+    "name_en": "Prophet Ilyas (Elijah)",
     "name_full_en": "Ilyas (Elijah)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -384,13 +492,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Elijah",
+      "Ilyas",
+      "Elias",
+      "Eliyahu"
     ]
   },
   {
     "id": 21,
     "slug": "prophet-al-yasa",
     "name_ar": "اليسع",
-    "name_en": "Prophet al-Yasa",
+    "name_en": "Prophet al-Yasa (Elisha)",
     "name_full_en": "al-Yasa (Elisha)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -403,13 +517,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Elisha",
+      "al-Yasa",
+      "Alyasa",
+      "Eliseo"
     ]
   },
   {
     "id": 22,
     "slug": "prophet-yunus",
     "name_ar": "يونس",
-    "name_en": "Prophet Yunus",
+    "name_en": "Prophet Yunus (Jonah)",
     "name_full_en": "Yunus (Jonah)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -422,13 +542,20 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Jonah",
+      "Yunus",
+      "Younus",
+      "Dhul-Nun",
+      "Jonas"
     ]
   },
   {
     "id": 23,
     "slug": "prophet-zakariya",
     "name_ar": "زكريا",
-    "name_en": "Prophet Zakariya",
+    "name_en": "Prophet Zakariya (Zechariah)",
     "name_full_en": "Zakariya (Zechariah)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -441,13 +568,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Zechariah",
+      "Zakariya",
+      "Zakariyya",
+      "Zacharias"
     ]
   },
   {
     "id": 24,
     "slug": "prophet-yahya",
     "name_ar": "يحيى",
-    "name_en": "Prophet Yahya",
+    "name_en": "Prophet Yahya (John)",
     "name_full_en": "Yahya (John)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -460,13 +593,19 @@
     "category": "prophet",
     "tags": [
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "John the Baptist",
+      "Yahya",
+      "Yahia",
+      "John Baptist"
     ]
   },
   {
     "id": 25,
     "slug": "prophet-isa",
     "name_ar": "عيسى",
-    "name_en": "Prophet Isa",
+    "name_en": "Prophet Isa (Jesus)",
     "name_full_en": "Isa ibn Maryam (Jesus)",
     "title": "Prophet",
     "birth_year_ce": null,
@@ -480,6 +619,15 @@
     "tags": [
       "ulu_al_azm",
       "quran_mentioned"
+    ],
+    "name_en_alt": [
+      "Jesus",
+      "Isa",
+      "Christ",
+      "Jesus Christ",
+      "Yeshua",
+      "Messiah",
+      "al-Masih"
     ]
   },
   {
@@ -10758,13 +10906,18 @@
       "adam",
       "first-woman",
       "mother-of-humanity"
+    ],
+    "name_en_alt": [
+      "Eve",
+      "Hawwa",
+      "Hawa"
     ]
   },
   {
     "id": 478,
     "slug": "iblis",
     "name_ar": "إبليس",
-    "name_en": "Iblis",
+    "name_en": "Iblis (Satan)",
     "name_full_en": "Iblis (Shaytan)",
     "title": "al-Shaytan, al-Rajim",
     "birth_year_ce": null,
@@ -10782,6 +10935,13 @@
       "arrogance",
       "enemy-of-adam",
       "quran"
+    ],
+    "name_en_alt": [
+      "Satan",
+      "Iblis",
+      "Lucifer",
+      "Shaytan",
+      "Devil"
     ]
   },
   {
@@ -10805,6 +10965,10 @@
       "adam",
       "first-martyr",
       "quran"
+    ],
+    "name_en_alt": [
+      "Abel",
+      "Habil"
     ]
   },
   {
@@ -10828,6 +10992,10 @@
       "adam",
       "first-murder",
       "quran"
+    ],
+    "name_en_alt": [
+      "Cain",
+      "Qabil"
     ]
   },
   {
@@ -10852,13 +11020,18 @@
       "ibrahim",
       "tyrant",
       "quran"
+    ],
+    "name_en_alt": [
+      "Nimrod",
+      "Namrud",
+      "Namrood"
     ]
   },
   {
     "id": 482,
     "slug": "sarah-wife-of-ibrahim",
     "name_ar": "سارة",
-    "name_en": "Sarah",
+    "name_en": "Sarah (wife of Ibrahim)",
     "name_full_en": "Sarah bint Haran (wife of Ibrahim)",
     "title": "",
     "birth_year_ce": null,
@@ -10875,13 +11048,18 @@
       "ibrahim",
       "mother-of-ishaq",
       "wife-of-ibrahim"
+    ],
+    "name_en_alt": [
+      "Sarah",
+      "Sara",
+      "Sarai"
     ]
   },
   {
     "id": 483,
     "slug": "azar",
     "name_ar": "آزر",
-    "name_en": "Azar",
+    "name_en": "Azar (Terah)",
     "name_full_en": "Azar (father of Ibrahim)",
     "title": "",
     "birth_year_ce": null,
@@ -10898,13 +11076,18 @@
       "idol-worshipper",
       "babylon",
       "quran"
+    ],
+    "name_en_alt": [
+      "Azar",
+      "Terah",
+      "Tarih"
     ]
   },
   {
     "id": 484,
     "slug": "firawn-of-musa",
     "name_ar": "فرعون موسى",
-    "name_en": "Firawn (Pharaoh of Musa)",
+    "name_en": "Firawn, Pharaoh of Musa",
     "name_full_en": "Firawn — the Pharaoh who opposed Musa AS",
     "title": "",
     "birth_year_ce": null,
@@ -10922,6 +11105,12 @@
       "musa",
       "tyrant",
       "quran"
+    ],
+    "name_en_alt": [
+      "Pharaoh",
+      "Firawn",
+      "Firaun",
+      "Ramesses"
     ]
   },
   {
@@ -10947,6 +11136,12 @@
       "martyr",
       "believer",
       "quran"
+    ],
+    "name_en_alt": [
+      "Asiya",
+      "Asiyah",
+      "Aasiya",
+      "wife of Pharaoh"
     ]
   },
   {
@@ -10972,6 +11167,11 @@
       "arrogance",
       "quran",
       "swallowed-by-earth"
+    ],
+    "name_en_alt": [
+      "Korah",
+      "Qarun",
+      "Qaaroon"
     ]
   },
   {
@@ -10996,6 +11196,11 @@
       "musa",
       "successor-of-musa",
       "holy-land"
+    ],
+    "name_en_alt": [
+      "Joshua",
+      "Yusha",
+      "Yeshua bin Nun"
     ]
   },
   {
@@ -11020,13 +11225,20 @@
       "al-kahf",
       "quran",
       "mysterious"
+    ],
+    "name_en_alt": [
+      "Khidr",
+      "al-Khidr",
+      "Khizr",
+      "Khidar",
+      "the Green Man"
     ]
   },
   {
     "id": 489,
     "slug": "al-samiri",
     "name_ar": "السامري",
-    "name_en": "al-Samiri",
+    "name_en": "al-Samiri (the Samaritan)",
     "name_full_en": "al-Samiri (the Samaritan)",
     "title": "",
     "birth_year_ce": null,
@@ -11044,6 +11256,12 @@
       "golden-calf",
       "quran",
       "ta-ha"
+    ],
+    "name_en_alt": [
+      "Samiri",
+      "al-Samiri",
+      "Samaritan",
+      "golden calf maker"
     ]
   },
   {
@@ -11067,13 +11285,19 @@
       "yusuf",
       "surah-yusuf",
       "quran"
+    ],
+    "name_en_alt": [
+      "Zulaikha",
+      "Zulaykha",
+      "Potiphar wife",
+      "Zuleikha"
     ]
   },
   {
     "id": 491,
     "slug": "maryam-bint-imran",
     "name_ar": "مريم بنت عمران",
-    "name_en": "Maryam bint Imran",
+    "name_en": "Maryam (Mary)",
     "name_full_en": "Maryam bint Imran al-Isa'iyyah",
     "title": "One of the four greatest women",
     "birth_year_ce": null,
@@ -11092,13 +11316,20 @@
       "surah-maryam",
       "virgin-birth",
       "temple"
+    ],
+    "name_en_alt": [
+      "Mary",
+      "Maryam",
+      "Virgin Mary",
+      "Mariam",
+      "Miriam mother of Jesus"
     ]
   },
   {
     "id": 492,
     "slug": "bilqis-queen-of-sheba",
     "name_ar": "بلقيس ملكة سبأ",
-    "name_en": "Bilqis (Queen of Sheba)",
+    "name_en": "Bilqis, Queen of Sheba",
     "name_full_en": "Bilqis, Queen of Saba (Sheba)",
     "title": "",
     "birth_year_ce": null,
@@ -11117,6 +11348,12 @@
       "quran",
       "surah-al-naml",
       "convert"
+    ],
+    "name_en_alt": [
+      "Queen of Sheba",
+      "Bilqis",
+      "Sheba",
+      "Balkis"
     ]
   },
   {
@@ -11141,6 +11378,10 @@
       "quran",
       "al-baqarah",
       "giant"
+    ],
+    "name_en_alt": [
+      "Goliath",
+      "Jalut"
     ]
   },
   {
@@ -11166,13 +11407,18 @@
       "quran",
       "al-baqarah",
       "king"
+    ],
+    "name_en_alt": [
+      "Saul",
+      "Talut",
+      "Taloot"
     ]
   },
   {
     "id": 495,
     "slug": "canaan-ibn-nuh",
     "name_ar": "كنعان ابن نوح",
-    "name_en": "Canaan (son of Nuh)",
+    "name_en": "Canaan, son of Nuh",
     "name_full_en": "Kan'an ibn Nuh",
     "title": "",
     "birth_year_ce": null,
@@ -11190,6 +11436,11 @@
       "quran",
       "surah-hud",
       "disbeliever"
+    ],
+    "name_en_alt": [
+      "Canaan",
+      "Yam",
+      "Ham son of Noah"
     ]
   },
   {
@@ -11214,6 +11465,11 @@
       "quran",
       "surah-al-tahrim",
       "betrayal"
+    ],
+    "name_en_alt": [
+      "wife of Lot",
+      "Lot wife",
+      "Edith"
     ]
   },
   {
@@ -11238,6 +11494,11 @@
       "israelite",
       "ali-imran",
       "quran"
+    ],
+    "name_en_alt": [
+      "Joachim",
+      "Imran",
+      "Amram father of Mary"
     ]
   },
   {
@@ -11263,6 +11524,12 @@
       "quran",
       "ali-imran",
       "mother-of-maryam"
+    ],
+    "name_en_alt": [
+      "Anne",
+      "Hannah",
+      "Anna mother of Mary",
+      "Saint Anne"
     ]
   },
   {
@@ -11287,6 +11554,407 @@
       "quran",
       "surah-al-naml",
       "greatest-name-of-allah"
+    ],
+    "name_en_alt": [
+      "Asaf",
+      "Asif",
+      "Asaph",
+      "minister of Solomon"
+    ]
+  },
+  {
+    "id": 500,
+    "slug": "wife-of-nuh",
+    "name_ar": "امرأة نوح",
+    "name_en": "Wife of Nuh (Noah's wife)",
+    "name_full_en": "The wife of Prophet Nuh AS",
+    "name_en_alt": [
+      "Noah's wife",
+      "wife of Noah",
+      "Waghila"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The wife of Prophet Nuh AS who disbelieved and was destroyed in the flood, a Quranic example of how proximity to a prophet does not guarantee salvation.",
+    "bio_en": "The wife of Prophet Nuh AS is mentioned in the Quran (Surah al-Tahrim 66:10) as one of two examples of women whose disbelief was not removed by marriage to a prophet: 'Allah presents an example of those who disbelieved: the wife of Nuh and the wife of Lut. They were under two of Our righteous servants but betrayed them, so those prophets did not avail them from Allah at all, and it was said: Enter the Fire with those who enter.' Islamic tradition names her al-Waghila (some sources say Namwa or Wayla). Her betrayal was not personal but theological — she publicly disagreed with her husband's mission and sided with the disbelievers, mocking and undermining his call. Nuh AS preached for 950 years (Surah al-Ankabut 29:14), and throughout this enormously long mission, his wife remained opposed to his message. When the flood came and Nuh called even his son to board the ark (Surah Hud 11:42-43), his wife was among those who drowned. The Quran uses her story, paired with that of the wife of Lut, to make a profound theological point: family bond with a prophet conveys no automatic protection. Every soul stands alone before Allah. The corollary case is Asiyah, the believing wife of Firawn — faith in the household of the greatest tyrant sufficed. The point is not about gender but about the primacy of individual faith.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "nuh",
+      "flood",
+      "quran",
+      "disbeliever",
+      "surah-al-tahrim"
+    ]
+  },
+  {
+    "id": 501,
+    "slug": "sam-son-of-nuh",
+    "name_ar": "سام بن نوح",
+    "name_en": "Sam ibn Nuh (Shem)",
+    "name_full_en": "Sam ibn Nuh ibn Lamk",
+    "name_en_alt": [
+      "Shem",
+      "Sam son of Noah",
+      "Shem son of Noah"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "Son of Nuh AS who boarded the ark; considered in Islamic and Biblical tradition the ancestor of the Semitic peoples including the Arabs and Israelites.",
+    "bio_en": "Sam (Shem) was a son of Prophet Nuh AS and one of those who boarded the ark along with his father and the small group of believers. He is not mentioned by name in the Quran but is well-established in Islamic tradition through hadith and the writings of classical scholars including Ibn Kathir in al-Bidaya wal-Nihaya. He is identified as a righteous man who believed in his father's message and survived the flood. Islamic tradition holds that Sam is the ancestor of the Semitic peoples — the Arabs, the Israelites, and other related nations. The Prophet Muhammad ﷺ is reported in some narrations to have said that the Arabs are from the progeny of Sam. Ibn Kathir and other historians trace the genealogy of the Prophet ﷺ back through Adnan to Sam ibn Nuh. This makes Sam a direct ancestral figure of the Arabian peninsula's people and ultimately the chain of Abrahamic prophecy. The division of humanity after the flood into three broad family groups — the descendants of Sam, Ham, and Yafith — is a framework shared between Islamic tradition and the Biblical genealogies of Genesis. Sam is consistently presented in the Islamic tradition as the most blessed of Nuh's sons, the one who carried forward the line of monotheism and prophecy.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "nuh",
+      "ark",
+      "semitic-ancestry",
+      "flood",
+      "believer"
+    ]
+  },
+  {
+    "id": 502,
+    "slug": "ham-son-of-nuh",
+    "name_ar": "حام بن نوح",
+    "name_en": "Ham ibn Nuh",
+    "name_full_en": "Ham ibn Nuh ibn Lamk",
+    "name_en_alt": [
+      "Ham son of Noah",
+      "Ham"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "Son of Nuh AS who boarded the ark; considered in Islamic and Biblical tradition as the ancestor of the African and Hamitic peoples.",
+    "bio_en": "Ham was a son of Prophet Nuh AS who boarded the ark with his father during the flood. Like his brother Sam (Shem), he is not mentioned by name in the Quran but appears in Islamic historical tradition through the writings of classical scholars. Islamic scholarship following the tradition of the People of the Book (which Islam accepts with appropriate caution) identifies Ham as an ancestor of the African peoples and others in the southwestern regions of the ancient world. Ibn Kathir records genealogical traditions placing various peoples of Africa, Egypt, and surrounding regions as descendants of Ham. The sons of Ham mentioned in classical Islamic and Biblical genealogies include Kush, Misraim (associated with Egypt/Misr), Phut, and Canaan. Importantly, while the Biblical account contains a 'curse of Ham' narrative, Islamic tradition does not endorse racial hierarchy or the theological use of genealogy to justify subjugation. Islam holds that no person bears the burden of their ancestors' deeds, and all people are equal before Allah except in taqwa (piety). Ham's significance in Islamic historiography is primarily genealogical — part of understanding how the post-flood world was repopulated from the three sons of Nuh.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "nuh",
+      "ark",
+      "flood",
+      "believer"
+    ]
+  },
+  {
+    "id": 503,
+    "slug": "yafith-son-of-nuh",
+    "name_ar": "يافث بن نوح",
+    "name_en": "Yafith ibn Nuh (Japheth)",
+    "name_full_en": "Yafith ibn Nuh ibn Lamk",
+    "name_en_alt": [
+      "Japheth",
+      "Japheth son of Noah",
+      "Yafith"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "Son of Nuh AS who boarded the ark; considered in Islamic and Biblical tradition as the ancestor of the Turkic, European, and northern peoples.",
+    "bio_en": "Yafith (Japheth) was a son of Prophet Nuh AS who boarded the ark with his father and survived the flood. He is part of the classical Islamic genealogical tradition documented by scholars including Ibn Kathir, al-Tabari, and others drawing on the history of the nations. Like his brothers, he is not named in the Quran but is established in Islamic historical literature as one of the three progenitors of post-flood humanity. Islamic scholarly tradition — drawing in part from the Torah-based genealogies that Muslims accept with appropriate scholarly scrutiny — identifies Yafith as an ancestor of peoples to the north and east of the Arabian peninsula, including the Turks (identified with Yafith's descendant Yafur or Gomer), the Slavic peoples, the Greeks (Yavan), and other northern nations. Ibn Kathir writes that the majority of the people of the east and north come from his line. Some traditions also connect the Gog and Magog (Ya'juj and Ma'juj) to this lineage, though these are peoples whose detailed story is reserved for their own entries. Yafith is presented in Islamic tradition as a believer who honored his father and survived the flood, carrying forward his portion of humanity's post-flood renewal.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "nuh",
+      "ark",
+      "flood",
+      "believer",
+      "progenitor"
+    ]
+  },
+  {
+    "id": 504,
+    "slug": "umm-musa",
+    "name_ar": "أم موسى",
+    "name_en": "Umm Musa (mother of Musa)",
+    "name_full_en": "Yukabid bint Azar, mother of Musa AS",
+    "name_en_alt": [
+      "mother of Moses",
+      "Jochebed",
+      "Yokheved",
+      "Yocheved",
+      "mother of Musa"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The mother of Prophet Musa AS who received divine revelation to place him in the river, and was reunited with him as his own wet nurse.",
+    "bio_en": "The mother of Musa AS — referred to in Islamic tradition as Yukabid or simply Umm Musa — is one of the most remarkable women in the Quran. She received what Islamic scholars describe as a form of divine inspiration (ilham or wahy-like communication): 'And We inspired the mother of Musa: Suckle him; and when you fear for him, cast him into the river and do not fear and do not grieve. Indeed, We will return him to you and will make him one of the messengers' (Surah al-Qasas 28:7). This communication carried four commands (suckle, cast into river, do not fear, do not grieve) and two promises (We will return him, We will make him a messenger). When Firawn's soldiers began killing Israelite newborn sons, she nursed the infant Musa secretly for months. When she could no longer hide him, she obeyed the divine inspiration and placed him in a waterproofed basket in the Nile, sending her daughter to follow it discreetly. The basket was found by the family of Firawn and brought to Asiyah, who pleaded for the child's life. By divine arrangement, every wet nurse brought to the infant Musa was refused — until Musa's own sister stepped forward and offered to find a suitable woman. She brought their mother, and Allah fulfilled His promise: Musa was returned to his own mother to be nursed in the royal palace, with payment. The Quran says her heart became calm when she saw this: 'that she might not grieve and that she might know that the promise of Allah is true' (Surah al-Qasas 28:13). Her story is a model of trusting in divine promise even when every appearance suggests catastrophe.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "musa",
+      "egypt",
+      "mother-of-musa",
+      "quran",
+      "surah-al-qasas",
+      "israelite"
+    ]
+  },
+  {
+    "id": 505,
+    "slug": "sister-of-musa",
+    "name_ar": "أخت موسى مريم",
+    "name_en": "Maryam, sister of Musa (Miriam)",
+    "name_full_en": "Maryam bint Imran, sister of Musa and Harun",
+    "name_en_alt": [
+      "Miriam sister of Moses",
+      "Miriam",
+      "sister of Moses",
+      "Maryam sister of Musa"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The sister of Musa AS who followed his basket on the Nile and orchestrated his return to their mother.",
+    "bio_en": "The sister of Musa AS — named Maryam in Islamic tradition and identified with Miriam in the Biblical account — is mentioned in the Quran (Surah al-Qasas 28:11-12) as playing a crucial role in the survival of her infant brother. When their mother placed the basket carrying baby Musa into the Nile, she told his sister to follow it along the riverbank. When the basket was found by the household of Firawn, the sister of Musa watched from a distance as the palace servants tried unsuccessfully to find a wet nurse the infant would accept. At the right moment, she stepped forward with a calm and apparently casual suggestion: 'Shall I direct you to a household who will nurse him for you and will be devoted to him?' (Surah al-Qasas 28:12). This single act of quick thinking, delivered with perfect composure under extraordinary pressure, led directly to Musa being nursed by his own mother in the royal palace. She is not mentioned by name in the Quran itself — the Quran simply calls her 'his sister' — but Islamic tradition identifies her as Maryam, a name that holds great significance in the prophetic family. She should not be confused with Maryam bint Imran, the mother of Isa AS, who lived centuries later. The sister of Musa is one of the unnamed heroes of the Quranic narrative whose courage and quick action, small as it seemed, preserved the life of one of the five greatest messengers.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "musa",
+      "egypt",
+      "israelite",
+      "quran",
+      "surah-al-qasas",
+      "sister-of-musa"
+    ]
+  },
+  {
+    "id": 506,
+    "slug": "safura-wife-of-musa",
+    "name_ar": "صفورة زوجة موسى",
+    "name_en": "Safura (wife of Musa)",
+    "name_full_en": "Safura bint Shuayb, wife of Musa AS",
+    "name_en_alt": [
+      "Zipporah",
+      "Saffura",
+      "wife of Moses",
+      "Safura daughter of Jethro"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "Daughter of Prophet Shuayb and wife of Prophet Musa AS, whose family sheltered Musa when he fled Egypt.",
+    "bio_en": "Safura was the daughter of Prophet Shuayb AS (identified in Islamic tradition with Jethro of the Biblical account) and became the wife of Prophet Musa AS. Their story is narrated in Surah al-Qasas (28:22-28). Musa AS had fled Egypt after accidentally killing an Egyptian man while defending an Israelite. He traveled alone to Madyan, arriving exhausted and penniless. At the well of Madyan, he helped two young women who were waiting for the crowd to disperse before drawing water for their flock — demonstrating his chivalry even in his lowest moment. Those two women were the daughters of a righteous old man, Prophet Shuayb AS. After reporting Musa's kindness to their father, one of the daughters — described in the Quran as walking with modesty — came back to invite Musa to meet her father. Shuayb AS heard Musa's story and reassured him: 'Fear not. You have escaped from the wrongdoing people.' One of his daughters then made a direct and dignified recommendation to her father: 'O my father, hire him. Indeed, the best one you can hire is the strong and the trustworthy' (Surah al-Qasas 28:26). Shuayb offered Musa a marriage contract: he would give one of his daughters in marriage in exchange for Musa working for him for eight to ten years. Musa accepted. Safura is identified in Islamic tradition as the daughter Musa married. She accompanied Musa when he later departed for Egypt to fulfill his prophetic mission, and the Quran narrates a difficult night journey during which she was with him when the fire appeared on the mountain — the moment of Musa's first revelation.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "musa",
+      "shuayb",
+      "madyan",
+      "wife-of-musa",
+      "quran",
+      "surah-al-qasas"
+    ]
+  },
+  {
+    "id": 507,
+    "slug": "binyamin",
+    "name_ar": "بنيامين",
+    "name_en": "Binyamin (Benjamin)",
+    "name_full_en": "Binyamin ibn Yaqub, full brother of Yusuf",
+    "name_en_alt": [
+      "Benjamin",
+      "Binyamin",
+      "Ben-jamin"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The full brother of Prophet Yusuf AS, son of Yaqub and Rachel, who was kept by Yusuf in Egypt as part of the plan to reunite their father's family.",
+    "bio_en": "Binyamin (Benjamin) was the youngest son of Prophet Yaqub AS and the full brother of Prophet Yusuf AS — both sons of the same mother, Rachel. His story is part of the great narrative of Surah Yusuf (Chapter 12) and reaches its climax in the later portion of the surah. After Yusuf AS rose to power as the treasurer of Egypt, a severe famine struck the region and Yaqub's sons came to Egypt seeking grain. Yusuf recognized his brothers but did not reveal himself. He gave them their provisions and privately urged them to bring their youngest brother (Binyamin) on their next visit, promising to honor and protect him. After much persuasion of their father Yaqub — who was reluctant to send another beloved son away after the loss of Yusuf — Binyamin came to Egypt with his brothers. Yusuf took Binyamin aside privately and revealed his identity to him alone. Then, as part of a divine plan to keep Binyamin in Egypt and create the conditions for the family reunion, a royal measuring cup was placed in Binyamin's bag. When the brothers departed and were recalled, the cup was found in Binyamin's baggage. By the law they had themselves agreed to, Binyamin had to remain in Egypt. His brothers argued passionately for his release, but to no avail. This was the second great trial of Yaqub — losing Binyamin after Yusuf. Eventually, when Yusuf finally revealed himself to all his brothers and invited his entire family to Egypt, Binyamin was joyfully reunited with his father and the family was whole again. His story illustrates Yusuf's wisdom in orchestrating the reunion in a way that honored all parties.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "pre-islamic",
+      "yusuf",
+      "yaqub",
+      "israelite",
+      "quran",
+      "surah-yusuf"
+    ]
+  },
+  {
+    "id": 508,
+    "slug": "shamwil-samuel",
+    "name_ar": "شمويل",
+    "name_en": "Shamwil (Samuel)",
+    "name_full_en": "Shamwil — the prophet of the Israelites who appointed Talut",
+    "name_en_alt": [
+      "Samuel",
+      "Shamwil",
+      "Shmuel",
+      "Samuel the Prophet"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The Israelite prophet who appointed Talut (Saul) as king at the request of the Israelites, as narrated in Surah al-Baqarah.",
+    "bio_en": "Shamwil (Samuel) is the prophet of the Israelites who appears in the Quran (Surah al-Baqarah 2:246-248) as 'their prophet' — the Quran does not name him, but Islamic scholarly tradition consistently identifies him as Shamwil, corresponding to Samuel in the Biblical account. After a long period of degradation following the era of Musa and Yusuf, the Israelites came to their prophet and demanded a king to lead them in battle against their enemies. The prophet warned them: 'What if you were prescribed fighting and you did not fight?' They insisted. The divine appointment came: Talut (Saul) was chosen as their king. The Israelites objected, noting Talut's lack of royal lineage and wealth. Their prophet delivered the famous Quranic verdict on what qualifies a leader: Allah has chosen him above you and has increased him in knowledge and physical stature. Leadership is not inherited by bloodline or purchased by wealth — it is given by Allah based on capability and fitness. The sign confirming Talut's appointment was the miraculous return of the Ark of the Covenant (the Tabut) — carried by angels — to the Israelites. Shamwil is significant as the last judge-prophet of Israel before the era of kings, the prophet who bridged the gap between the post-Musa judges and the reign of Dawud AS. He is considered a prophet in Islamic tradition.",
+    "era": "Pre-Islamic",
+    "category": "prophet",
+    "tags": [
+      "pre-islamic",
+      "israelite",
+      "prophet",
+      "talut",
+      "dawud",
+      "quran",
+      "al-baqarah"
+    ]
+  },
+  {
+    "id": 509,
+    "slug": "jibril",
+    "name_ar": "جبريل",
+    "name_en": "Jibril (Gabriel)",
+    "name_full_en": "Jibril — the Angel of Revelation",
+    "name_en_alt": [
+      "Gabriel",
+      "Jibril",
+      "Jibreel",
+      "Angel Gabriel",
+      "Holy Spirit in Islam"
+    ],
+    "title": "Ruh al-Qudus, al-Amin",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The greatest of the angels, the Angel of Revelation who brought the Quran to the Prophet ﷺ and was the messenger between Allah and all the prophets.",
+    "bio_en": "Jibril (Gabriel) is the greatest of the angels and the one responsible for carrying divine revelation from Allah to the prophets. He is mentioned by name in the Quran in Surah al-Baqarah (2:97-98) and Surah al-Tahrim (66:4), and is referred to elsewhere as Ruh al-Qudus (the Holy Spirit), Ruh al-Amin (the Trustworthy Spirit), and al-Namus al-Akbar (the Greatest Secret). He is described in Surah al-Najm (53:5-10) as having taught the Prophet ﷺ and as appearing in his true form — with 600 wings, so enormous that they covered the horizon. His role spans the entire history of prophethood: he brought revelation to Ibrahim, to Musa, to Isa, and ultimately delivered the entire Quran to Muhammad ﷺ over 23 years. The Prophet ﷺ said Jibril used to come to him every night in Ramadan to review the Quran. Jibril appeared to the Prophet ﷺ in human form on multiple occasions — most notably as the stranger who came to teach the companions about Islam, Iman, and Ihsan in the famous hadith of Umar ibn al-Khattab. He accompanied the Prophet ﷺ on the Night Journey (al-Isra wal-Miraj). He was present at key moments of Islamic history — the Battle of Badr, the Hijra. In the story of Isa AS, he is the angel who appeared to Maryam to announce the birth of Isa and through whose breath (by Allah's command) Isa was conceived. In Islam, Jibril is not divine and is not worshipped — he is a creation of Allah who serves as the supreme channel of divine communication to humanity.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "angel",
+      "jibril",
+      "revelation",
+      "quran",
+      "prophets",
+      "night-journey",
+      "maryam",
+      "isa"
+    ]
+  },
+  {
+    "id": 510,
+    "slug": "mikail",
+    "name_ar": "ميكائيل",
+    "name_en": "Mikail (Michael)",
+    "name_full_en": "Mikail — the Angel of Provision",
+    "name_en_alt": [
+      "Michael",
+      "Mikail",
+      "Mikael",
+      "Angel Michael"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "One of the four archangels in Islamic tradition, named explicitly in the Quran alongside Jibril, responsible for rain and provision.",
+    "bio_en": "Mikail (Michael) is one of the four archangels in Islamic tradition and the only angel other than Jibril explicitly named in the Quran. He is mentioned in Surah al-Baqarah (2:98): 'Whoever is an enemy to Allah, His angels, His messengers, Jibril, and Mikail — then indeed Allah is an enemy to the disbelievers.' This verse was revealed in response to Jewish claims that Jibril was their enemy because he brought revelations that contradicted their desires. Allah declared that enmity to any of His angels — including Mikail — is enmity to Allah. In Islamic tradition, Mikail is associated with rain, provision, and the sustenance of the world. He is responsible for distributing the rain that causes crops to grow and sustains all living things, by Allah's permission. He is also described as weeping constantly out of awe and fear of Allah. Classical scholars including Ibn Kathir note that Mikail was present at significant events in prophetic history. He is one of the angels who participated in the cleansing of the Prophet's chest (shaqq al-sadr) before the Night Journey. The Quran and Sunnah establish that belief in the angels — including Mikail by name — is one of the pillars of Islamic faith (iman bil-mala'ikah). He will be present at the Day of Judgment alongside the other great angels.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "angel",
+      "mikail",
+      "quran",
+      "al-baqarah",
+      "archangel",
+      "provision",
+      "rain"
+    ]
+  },
+  {
+    "id": 511,
+    "slug": "israfil",
+    "name_ar": "إسرافيل",
+    "name_en": "Israfil",
+    "name_full_en": "Israfil — the Angel of the Trumpet",
+    "name_en_alt": [
+      "Raphael",
+      "Israfil",
+      "Israphel",
+      "angel of trumpet",
+      "angel of resurrection"
+    ],
+    "title": "",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The angel tasked with blowing the trumpet at the end of time — first to end the world, then to resurrect all of creation.",
+    "bio_en": "Israfil is the angel assigned with the most momentous task in all of creation: blowing the Trumpet (al-Sur) at the end of time. He is not mentioned by name in the Quran but is firmly established in authentic hadith. The Prophet Muhammad ﷺ made frequent reference to Israfil, saying that he has been carrying the trumpet to his lips since creation, waiting for the command of Allah. The Prophet ﷺ said: 'How can I enjoy life when the angel of the trumpet has already put it to his lips, bent his forehead, and is waiting to hear when he will be commanded to blow?' This hadith had a profound effect on the companions, who asked what they should say in this state, and the Prophet taught them the supplication: 'Sufficient for us is Allah, and He is the best of guardians.' Israfil will blow the trumpet twice. The first blow (al-nafkha al-ula) will cause all creation to faint and die — the end of this world. Then Allah will ask: 'Whose is the dominion today?' — and there will be no one to answer. The second blow (al-nafkha al-thaniya) will resurrect all of creation for the Day of Judgment. The Prophet ﷺ used to begin his night prayer with the supplication: 'O Allah, Lord of Jibril, Mikail, and Israfil...' — pairing Israfil with the two Quranically-named archangels. He is identified by some scholars with the Raphael of Biblical tradition.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "angel",
+      "israfil",
+      "trumpet",
+      "day-of-judgment",
+      "resurrection",
+      "end-of-times"
+    ]
+  },
+  {
+    "id": 512,
+    "slug": "izra-il-angel-of-death",
+    "name_ar": "ملك الموت عزرائيل",
+    "name_en": "Angel of Death (Izra'il)",
+    "name_full_en": "Malak al-Mawt — the Angel of Death",
+    "name_en_alt": [
+      "Azrael",
+      "Izrail",
+      "Angel of Death",
+      "Malak al-Mawt",
+      "Azreal"
+    ],
+    "title": "Malak al-Mawt",
+    "birth_year_ce": null,
+    "death_year_ce": null,
+    "birth_year_ah": null,
+    "death_year_ah": null,
+    "bio_short_en": "The angel responsible for taking the souls of all creatures at death, mentioned in the Quran as 'Malak al-Mawt' (the Angel of Death).",
+    "bio_en": "Malak al-Mawt (the Angel of Death) is mentioned in the Quran in Surah al-Sajdah (32:11): 'Say: The angel of death will take you who has been entrusted with you. Then to your Lord you will be returned.' He is responsible for taking the souls of all creatures at the moment of death, by the command of Allah. The name Izra'il (Azrael) for this angel appears in some Islamic scholarly works and is widely known in popular tradition, though it does not appear in the Quran or the most authentic hadith — the Quran uses the title Malak al-Mawt. He has assistants (the angels of death) who help with the actual process of the soul's departure from the body, but he is the chief overseer of this task. One of the most significant encounters with the Angel of Death in Islamic history is narrated in hadith about Musa AS: when the Angel of Death came to take Musa's soul, Musa struck him and knocked out his eye. The Angel of Death reported this to Allah, who gave him back his eye and sent him again to Musa, asking him whether he wished to live. Musa asked how long, was told one year for every hair he could hold in his hand, and declined — asking instead to be brought near the Holy Land, which was granted. The Prophet ﷺ said: 'Were it permissible to report any grave, I would show you the grave of Musa beside the red sand dune.' The Malak al-Mawt appears in Islamic eschatology at every death and is a constant reminder of the temporary nature of worldly life.",
+    "era": "Pre-Islamic",
+    "category": "other",
+    "tags": [
+      "angel",
+      "angel-of-death",
+      "izra-il",
+      "quran",
+      "musa",
+      "death",
+      "eschatology"
     ]
   }
 ]

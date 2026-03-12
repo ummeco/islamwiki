@@ -150,13 +150,14 @@ async function indexPeople() {
   try {
     const scholars = readJson(join(DATA_DIR, 'people/scholars.json'))
     for (const p of scholars) {
+      const altNames = Array.isArray(p.name_en_alt) ? p.name_en_alt.join(' ') : ''
       docs.push({
         id: `person-${p.slug}`,
         type: 'person',
         title: p.name_en ?? p.name,
         snippet: p.bio_short_en ?? `${p.died_ah ? `d. ${p.died_ah} AH` : ''}`.trim(),
         url: `/people/${p.slug}`,
-        meta: p.era ?? undefined,
+        meta: [p.era, altNames].filter(Boolean).join(' ') || undefined,
       })
     }
   } catch { /* no scholars.json */ }
