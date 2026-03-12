@@ -15313,5 +15313,427 @@
       "quraysh",
       "pre-islamic poet"
     ]
+  },
+  {
+    "id": 647,
+    "slug": "hashim-ibn-utbah",
+    "name": "هاشم بن عتبة",
+    "name_ar": "هاشم بن عتبة بن أبي وقاص الزهري",
+    "name_en": "Hashim ibn Utbah al-Zuhri",
+    "name_en_alt": [
+      "Hashim ibn Utba",
+      "Mirqal"
+    ],
+    "bio_short_en": "A companion known as 'Mirqal' for his bravery, nephew of Sa'd ibn Abi Waqqas. He commanded the Muslim forces at the decisive Battle of Jalula (16 AH) after Qadisiyyah, completing the conquest of Iraq. He later fought on Ali ibn Abi Talib's side at Siffin, where he was martyred in 37 AH.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 37,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "jalula",
+      "iraq",
+      "siffin",
+      "martyr",
+      "quraysh",
+      "companion general"
+    ]
+  },
+  {
+    "id": 648,
+    "slug": "samura-ibn-jundab",
+    "name": "سمرة بن جندب",
+    "name_ar": "سمرة بن جندب الفزاري",
+    "name_en": "Samura ibn Jundab",
+    "name_en_alt": [
+      "Samurah ibn Jundab"
+    ],
+    "bio_short_en": "A companion who was one of the youngest to accompany the Prophet ﷺ and the only young companion whose narration the Prophet ﷺ upheld against Rafi ibn Khadij's in a legal case. He served as governor of Basra. Known for his strict hadith narrations, particularly the famous one establishing proof for prayer times and celestial phenomena.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 59,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "basra",
+      "governor",
+      "hadith",
+      "young companion",
+      "fazari"
+    ]
+  },
+  {
+    "id": 649,
+    "slug": "ziyad-ibn-abih",
+    "name": "زياد بن أبيه",
+    "name_ar": "زياد بن أبيه الثقفي",
+    "name_en": "Ziyad ibn Abih",
+    "name_en_alt": [
+      "Ziyad ibn Abi Sufyan",
+      "Ziyad ibn Ubayd"
+    ],
+    "bio_short_en": "A highly capable administrator who served both Ali ibn Abi Talib and later Muawiyah ibn Abi Sufyan. He was 'claimed' as half-brother by Muawiyah and appointed governor of Basra and Kufa, effectively ruling all of the eastern caliphate. Highly controversial — efficient administrator but known for severity. Died 53 AH.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 53,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "basra",
+      "kufa",
+      "governor",
+      "administrator",
+      "controversial"
+    ]
+  },
+  {
+    "id": 650,
+    "slug": "ubaydullah-ibn-ziyad",
+    "name": "عبيدالله بن زياد",
+    "name_ar": "عبيدالله بن زياد بن أبيه",
+    "name_en": "Ubaydullah ibn Ziyad",
+    "name_en_alt": [
+      "Obaidullah ibn Ziyad",
+      "Ibn Ziyad"
+    ],
+    "bio_short_en": "Son of Ziyad ibn Abih and Umayyad governor of Basra and Kufa (d. 67 AH). He bears heavy responsibility in Islamic history for the killing of Husayn ibn Ali and his companions at Karbala in 61 AH, refusing to allow their passage and dispatching the army of Yazid that confronted them. He was later killed at the Battle of Khazir.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 67,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "karbala",
+      "kufa",
+      "governor",
+      "husayn"
+    ]
+  },
+  {
+    "id": 651,
+    "slug": "muhammad-ibn-qasim-al-thaqafi",
+    "name": "محمد بن القاسم الثقفي",
+    "name_ar": "محمد بن القاسم بن محمد الثقفي",
+    "name_en": "Muhammad ibn Qasim al-Thaqafi",
+    "name_en_alt": [
+      "Muhammad ibn al-Qasim",
+      "Imad ad-Din Muhammad ibn Qasim"
+    ],
+    "bio_short_en": "The Umayyad general who conquered Sind and southern Punjab at the age of 17-20 (92-96 AH / 711-715 CE), bringing Islam to the Indian subcontinent. He defeated Raja Dahir of Sindh and established Muslim rule across the Indus Valley. He was later executed on orders of Caliph Sulayman ibn Abd al-Malik.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 72,
+    "died_ah": 96,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "sind",
+      "india",
+      "umayyad",
+      "general",
+      "conquest",
+      "hajjaj nephew"
+    ]
+  },
+  {
+    "id": 652,
+    "slug": "maslamah-ibn-abd-al-malik",
+    "name": "مسلمة بن عبد الملك",
+    "name_ar": "مسلمة بن عبد الملك الأموي",
+    "name_en": "Maslamah ibn Abd al-Malik",
+    "name_en_alt": [
+      "Maslama ibn Abd al-Malik"
+    ],
+    "bio_short_en": "Son of Caliph Abd al-Malik and one of the greatest Umayyad military commanders. He led the famous siege of Constantinople in 98-99 AH (717-718 CE), the most ambitious Muslim military operation against Byzantium. He also campaigned extensively in the Caucasus and Central Asia. A model commander known for discipline and piety.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 121,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "byzantine",
+      "constantinople",
+      "siege",
+      "caucasus",
+      "general"
+    ]
+  },
+  {
+    "id": 653,
+    "slug": "abd-al-rahman-al-ghafiqi",
+    "name": "عبدالرحمن الغافقي",
+    "name_ar": "عبد الرحمن بن عبدالله الغافقي",
+    "name_en": "Abd al-Rahman al-Ghafiqi",
+    "name_en_alt": [
+      "Abd ar-Rahman al-Ghafiqi",
+      "Governor of al-Andalus"
+    ],
+    "bio_short_en": "The Umayyad governor of al-Andalus (Islamic Spain) who led the famous invasion of Francia (114 AH / 732 CE), which reached as far as the city of Tours. He was defeated and killed at the Battle of Tours (Poitiers) by Charles Martel, a battle considered by Western historians as one of the most decisive in stopping Muslim expansion into Europe.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 114,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "al-andalus",
+      "spain",
+      "france",
+      "tours",
+      "poitiers",
+      "umayyad",
+      "general"
+    ]
+  },
+  {
+    "id": 654,
+    "slug": "al-walid-ibn-abd-al-malik",
+    "name": "الوليد بن عبد الملك",
+    "name_ar": "الوليد بن عبد الملك الأموي",
+    "name_en": "al-Walid ibn Abd al-Malik",
+    "name_en_alt": [
+      "al-Walid I",
+      "Caliph al-Walid"
+    ],
+    "bio_short_en": "The sixth Umayyad caliph (r. 86-96 AH / 705-715 CE), considered the pinnacle of Umayyad power. His reign saw the construction of the Great Mosque of Damascus (the Umayyad Mosque), expansion of the Prophet's Mosque in Madinah, the conquest of al-Andalus (Spain) by Tariq ibn Ziyad and Musa ibn Nusayr, and the conquest of Sind by Muhammad ibn Qasim.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 50,
+    "died_ah": 96,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "caliph",
+      "umayyad mosque",
+      "andalus",
+      "sind",
+      "peak umayyad"
+    ]
+  },
+  {
+    "id": 656,
+    "slug": "amr-ibn-dinar",
+    "name": "عمرو بن دينار",
+    "name_ar": "عمرو بن دينار المكي",
+    "name_en": "Amr ibn Dinar al-Makki",
+    "name_en_alt": [
+      "Amr ibn Dinar"
+    ],
+    "bio_short_en": "A major Meccan Tabieen scholar who was a student of Ibn Abbas and Ibn Umar. He was a leading authority in hadith in Makkah and one of the foremost Meccan jurists of his generation. Imam al-Shafi'i and others transmitted from him. He died in Makkah in 126 AH.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 126,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "makkah",
+      "tabieen",
+      "hadith",
+      "ibn abbas",
+      "student"
+    ]
+  },
+  {
+    "id": 657,
+    "slug": "yahya-ibn-said-al-ansari",
+    "name": "يحيى بن سعيد الأنصاري",
+    "name_ar": "يحيى بن سعيد الأنصاري المدني",
+    "name_en": "Yahya ibn Said al-Ansari",
+    "name_en_alt": [
+      "Yahya ibn Sa'id al-Ansari"
+    ],
+    "bio_short_en": "A major Madinan Tabieen scholar and judge of Madinah. He was a leading hadith authority in his generation and the teacher of Malik ibn Anas, who highly valued his narrations. He served as qadi of Madinah and his hadith are included prominently in all major collections.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 143,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "madinah",
+      "tabieen",
+      "judge",
+      "malik",
+      "hadith",
+      "ansari"
+    ]
+  },
+  {
+    "id": 658,
+    "slug": "hisham-ibn-urwa",
+    "name": "هشام بن عروة",
+    "name_ar": "هشام بن عروة بن الزبير",
+    "name_en": "Hisham ibn Urwa",
+    "name_en_alt": [
+      "Hisham ibn 'Urwa ibn al-Zubayr"
+    ],
+    "bio_short_en": "Son of Urwah ibn al-Zubayr and a major Tabi Tabieen scholar of Madinah. A prolific hadith narrator who is counted among the most reliable transmitters. He transmitted from his father and other Tabieen, and his narrations form a significant portion of Sahih Bukhari and Sahih Muslim.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 61,
+    "died_ah": 146,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "madinah",
+      "hadith",
+      "tabi tabieen",
+      "bukhari",
+      "zubayr family"
+    ]
+  },
+  {
+    "id": 659,
+    "slug": "abu-al-zubayr-al-makki",
+    "name": "أبو الزبير المكي",
+    "name_ar": "محمد بن مسلم بن تدرس المكي",
+    "name_en": "Abu al-Zubayr al-Makki",
+    "name_en_alt": [
+      "Muhammad ibn Muslim ibn Tadrus"
+    ],
+    "bio_short_en": "A Meccan Tabieen scholar and one of the most important hadith transmitters from Jabir ibn Abd Allah al-Ansari. His chain 'Abu al-Zubayr from Jabir' is one of the most common chains in Sahih Muslim. He died in Makkah around 128 AH.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 128,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "makkah",
+      "tabieen",
+      "jabir",
+      "hadith",
+      "muslim"
+    ]
+  },
+  {
+    "id": 661,
+    "slug": "yazid-ibn-muawiyah",
+    "name": "يزيد بن معاوية",
+    "name_ar": "يزيد بن معاوية بن أبي سفيان",
+    "name_en": "Yazid ibn Muawiyah",
+    "name_en_alt": [
+      "Yazid I",
+      "Caliph Yazid"
+    ],
+    "bio_short_en": "The second Umayyad caliph (r. 60-64 AH / 680-683 CE), son of Muawiyah ibn Abi Sufyan. His caliphate was marked by profound crises: the Battle of Karbala in 61 AH where Husayn ibn Ali and his companions were killed, the Battle of al-Harrah where Madinan resistance was crushed, and the siege of Makkah. He is a deeply controversial figure in Islamic history.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 25,
+    "died_ah": 64,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "caliph",
+      "karbala",
+      "al-harrah",
+      "controversial"
+    ]
+  },
+  {
+    "id": 662,
+    "slug": "marwan-ibn-al-hakam",
+    "name": "مروان بن الحكم",
+    "name_ar": "مروان بن الحكم بن أبي العاص",
+    "name_en": "Marwan ibn al-Hakam",
+    "name_en_alt": [
+      "Marwan I",
+      "Caliph Marwan"
+    ],
+    "bio_short_en": "The fourth Umayyad caliph (r. 64-65 AH), founder of the Marwanid branch of the Umayyads. Secretary to Uthman ibn Affan, he was a companion by proximity but controversial. He consolidated Umayyad rule after the Second Fitna and defeated the Companions' forces at the Battle of Marj Rahit. His son Abd al-Malik succeeded him.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 2,
+    "died_ah": 65,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "caliph",
+      "second fitna",
+      "marwanid",
+      "uthman secretary"
+    ]
+  },
+  {
+    "id": 663,
+    "slug": "al-mukhtar-al-thaqafi",
+    "name": "المختار الثقفي",
+    "name_ar": "المختار بن أبي عبيد الثقفي",
+    "name_en": "al-Mukhtar al-Thaqafi",
+    "name_en_alt": [
+      "al-Mukhtar ibn Abi Ubayd",
+      "al-Mukhtar ibn Abi Ubayd al-Thaqafi"
+    ],
+    "bio_short_en": "Son of Abu Ubayd ibn Masud who was killed at the Battle of the Bridge. He led the uprising of the 'Penitents' (Tawwabun) to avenge Husayn ibn Ali's death, seizing control of Kufa in 66 AH. He claimed to act on behalf of Muhammad ibn al-Hanafiyyah (son of Ali). Ubaydullah ibn Ziyad and many involved in Karbala were killed by his forces. He was eventually killed by Mus'ab ibn al-Zubayr in 67 AH.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 67,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "kufa",
+      "tawwabun",
+      "karbala revenge",
+      "second fitna",
+      "thaqif"
+    ]
   }
 ]
