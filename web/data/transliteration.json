@@ -1,156 +1,986 @@
 {
   "_description": "Islamic term transliteration variants for search normalization. Primary term (left) is the canonical spelling. Variants (right) are alternative romanizations users might type.",
   "terms": {
-    "Wudhu": ["wudu", "wuzu", "wuzhu", "wudoo", "wudhoo", "vudu", "vuzu", "woodoo"],
-    "Salah": ["salat", "salaah", "salaat", "namaz", "namaaz", "solat", "solah", "sholat"],
-    "Sujood": ["sujud", "sajda", "sajdah", "sejdah", "sujda"],
-    "Ruku": ["rukoo", "ruku'", "rukuh"],
-    "Tahajjud": ["tahajud", "tehajjud", "tehajud", "qiyam al-layl", "qiyamullayl"],
-    "Witr": ["vitr", "witir", "witer"],
-    "Jumuah": ["jumu'ah", "jumah", "jummah", "jumma", "juma"],
-    "Eid": ["eed", "'eid"],
-    "Zakat": ["zakaat", "zakaah", "zakah", "zekaat", "zekat"],
-    "Sadaqah": ["sadaqa", "sadaka", "sadakah", "sodaqah", "sedekah"],
-    "Sawm": ["saum", "siyam", "siam", "fasting", "roza", "rozah", "puasa"],
-    "Iftar": ["iftaar", "ifthaar", "ifthar", "buka puasa"],
-    "Suhoor": ["suhur", "sahur", "sehri", "sahoor", "sahri"],
-    "Hajj": ["haj", "hadj", "hadjdj", "haji"],
-    "Umrah": ["umra", "omra", "omrah", "'umrah"],
-    "Tawaf": ["tawaaf", "tawwaf", "towaf"],
-    "Sa'i": ["sa'ee", "saee", "sai", "sa'y", "say"],
-    "Ihram": ["ehraam", "ihraam"],
-    "Arafah": ["arafat", "arafa", "'arafah"],
-    "Quran": ["qur'an", "quran", "koran", "kuran", "quraan", "coran", "al-quran"],
-    "Surah": ["sura", "soorah", "soorat", "sourate"],
-    "Ayah": ["aya", "ayat", "aayah", "aayat", "verse"],
-    "Juz": ["juzz", "jus", "para", "siparah"],
-    "Hifz": ["hifdh", "hifzh", "hafiz", "hafidh"],
-    "Tajweed": ["tajwid", "tajwied", "tajveed", "tajvid"],
-    "Qira'at": ["qiraat", "qiraa'at", "qiraah"],
-    "Hadith": ["hadeeth", "hadis", "hadees", "ahadith", "ahaadith"],
-    "Sahih": ["saheeh", "shahih"],
-    "Hasan": ["hasen"],
-    "Daeef": ["da'if", "da'eef", "daif", "dhaif", "dha'if", "weak"],
-    "Isnad": ["isnaad", "sanad", "chain"],
-    "Matn": ["matan", "text"],
-    "Mawdu": ["mawdoo", "mawdoo'", "fabricated", "maudu"],
-    "Bukhari": ["bukhaaree", "bukhaari", "al-bukhari"],
-    "Muslim": ["sahih muslim"],
-    "Tirmidhi": ["tirmizi", "tirmidhee", "tirmithi"],
-    "Abu Dawud": ["abu dawood", "abu dawoud", "abu daud"],
-    "Nasai": ["nasa'i", "nasaa'i", "an-nasai", "nisai"],
-    "Ibn Majah": ["ibn maajah", "ibnu majah", "ibn maja"],
-    "Tawheed": ["tawhid", "tauheed", "tauhid", "toheed", "tohid", "monotheism"],
-    "Shirk": ["sherk", "syirik", "polytheism"],
-    "Bidah": ["bid'ah", "bidaa", "bid'a", "innovation"],
-    "Sunnah": ["sunna", "sunnaat", "sunnat"],
-    "Fiqh": ["fikh", "feqh", "jurisprudence"],
-    "Fatwa": ["fatwah", "fetwa", "fatwaa"],
-    "Halal": ["halaal", "helal"],
-    "Haram": ["haraam", "harom"],
-    "Makruh": ["makrooh", "makroo"],
-    "Mustahabb": ["mustahab", "mandoob", "mandub", "recommended"],
-    "Wajib": ["waajib", "fard", "fardh", "obligatory"],
-    "Hanafi": ["hanafee", "hanafiyah"],
-    "Maliki": ["maalikee", "malikiyah"],
-    "Shafii": ["shaafi'ee", "shafi'i", "syafii", "shafiyah"],
-    "Hanbali": ["hanbalee", "hanbaliyah"],
-    "Ijtihad": ["ijtihaad"],
-    "Ijma": ["ijmaa", "ijma'", "consensus"],
-    "Qiyas": ["qiyaas", "analogy"],
-    "Aqeedah": ["aqidah", "aqeeda", "aqida", "creed", "belief"],
-    "Iman": ["eemaan", "imaan", "faith"],
-    "Ihsan": ["ehsaan", "ihsaan", "excellence"],
-    "Tawakkul": ["tawakkal", "tavakkul", "reliance"],
-    "Taqwa": ["taqwaa", "takwa", "piety", "god-consciousness"],
-    "Tawbah": ["tawba", "taubah", "tauba", "repentance"],
-    "Istighfar": ["istighfaar", "astaghfirullah"],
-    "Dhikr": ["zikr", "thikr", "zikir", "dzikir", "remembrance"],
-    "Dua": ["du'a", "du'aa", "duaa", "supplication"],
-    "Ruqyah": ["ruqya", "roqya", "rukya"],
-    "Khushu": ["khushoo", "khusyu", "humility"],
-    "Niyyah": ["niyyat", "niyah", "niat", "intention"],
-    "Jannah": ["jannaa", "jannat", "paradise", "heaven"],
-    "Jahannam": ["jahannum", "jahhannam", "hellfire", "hell"],
-    "Barzakh": ["barzach"],
-    "Qiyamah": ["qiyaama", "qiyaamat", "kiamat", "judgment day", "day of judgment"],
-    "Sirat": ["siraat", "bridge"],
-    "Mizan": ["meezaan", "scale", "balance"],
-    "Shafaah": ["shafa'a", "shafa'ah", "intercession"],
-    "Prophet": ["nabi", "nabee", "rasul", "rasool", "messenger"],
-    "Muhammad": ["mohammad", "mohammed", "muhammed", "mohamed"],
-    "Seerah": ["sirah", "sira", "seera", "biography"],
-    "Hijrah": ["hijra", "hejra", "hegira", "migration"],
-    "Sahabah": ["sahaba", "sahaabah", "companions"],
-    "Tabieen": ["tabi'in", "tabi'een", "successors"],
-    "Khalifah": ["khalifa", "caliph", "caliphate"],
-    "Ummah": ["umma", "ummat", "ummat", "community"],
-    "Masjid": ["masjed", "mosque", "musjid", "mesjid"],
-    "Mihrab": ["mehrab", "prayer niche"],
-    "Minbar": ["mimbar", "pulpit"],
-    "Adhan": ["azan", "azaan", "athaan", "athan", "ezan"],
-    "Iqamah": ["iqaama", "ikamah", "iqaamat"],
-    "Imam": ["imaam"],
-    "Muezzin": ["muazzin", "muadhin", "muadhdhin", "mu'adhin"],
-    "Khutbah": ["khutba", "hutbah", "sermon"],
-    "Nikah": ["nikah", "nikaah", "marriage", "wedding"],
-    "Talaq": ["talaaq", "divorce"],
-    "Mahr": ["mahar", "mehr", "dowry"],
-    "Walimah": ["waleemah", "walima", "wedding feast"],
-    "Mahram": ["mehram"],
-    "Hijab": ["hijaab", "hejab"],
-    "Niqab": ["niqaab", "nikab"],
-    "Jilbab": ["jilbaab", "gilbab"],
-    "Khimar": ["khimaar"],
-    "Ghusl": ["ghusul", "ghusel", "mandi wajib"],
-    "Tayammum": ["tayamum", "dry ablution"],
-    "Janabah": ["janaaba", "junub", "state of impurity"],
-    "Miswak": ["siwak", "siwaak", "meswak"],
-    "Fitrah": ["fitra", "natural disposition"],
-    "Riba": ["ribaa", "usury", "interest"],
-    "Muamalat": ["mu'amalat", "muaamalat", "transactions"],
-    "Waqf": ["wakaf", "endowment"],
-    "Barakah": ["baraka", "barakaat", "blessing"],
-    "Bismillah": ["bismillaah", "basmalah", "basmala"],
-    "Alhamdulillah": ["alhamdulillaah", "hamdalah"],
-    "SubhanAllah": ["subhaanallah", "tasbeeh", "tasbih"],
-    "Allahu Akbar": ["allaahu akbar", "takbir", "takbeer"],
-    "Astaghfirullah": ["astaghfirullaah"],
-    "InshaAllah": ["insha'allah", "inshallah", "insyaallah", "god willing"],
-    "MashaAllah": ["masha'allah", "mashallah", "masya allah"],
-    "JazakAllah": ["jazaakallah", "jazakallahu khairan", "jazaakallahu khayran"],
-    "Assalamu Alaikum": ["assalaamu alaikum", "salam", "salaam", "as-salamu alaykum"],
-    "Sharia": ["shariah", "shari'a", "shari'ah", "syariah", "islamic law"],
-    "Qadi": ["qaadi", "qadhi", "judge"],
-    "Mufti": ["muftee"],
-    "Alim": ["'aalim", "aalim", "scholar"],
-    "Ulama": ["ulamaa", "'ulama", "scholars"],
-    "Mujahid": ["mujaahid", "mujaheddin", "mujahideen"],
-    "Shahid": ["shaheed", "martyr"],
-    "Dawah": ["da'wah", "da'wa", "dakwah", "calling", "invitation"],
-    "Tabligh": ["tableegh", "tablig"],
-    "Ilm": ["'ilm", "knowledge"],
-    "Hikmah": ["hikma", "wisdom"],
-    "Amanah": ["amana", "trust"],
-    "Sabr": ["sabar", "patience"],
-    "Shukr": ["sukr", "sukur", "syukur", "gratitude"],
-    "Ikhlas": ["ikhlaas", "ikhlash", "sincerity"],
-    "Tafakkur": ["tafakur", "contemplation", "reflection"],
-    "Tadabbur": ["tadabur", "pondering"],
-    "Tafsir": ["tafseer", "tafser", "exegesis", "commentary"],
-    "Usul al-Fiqh": ["usool al-fiqh", "principles of jurisprudence"],
-    "Maqasid": ["maqaasid", "objectives"],
-    "Naskh": ["nasakh", "abrogation"],
-    "Asbab al-Nuzul": ["asbaab al-nuzul", "asbab an-nuzul", "reasons of revelation"],
-    "Ijazah": ["ijaaza", "ijaazah", "certification"],
-    "Kufr": ["kufur", "disbelief"],
-    "Nifaq": ["nifaaq", "hypocrisy"],
-    "Fisq": ["fusuq", "transgression"],
-    "Zulm": ["dhulm", "dhulam", "oppression", "injustice"],
-    "Hasad": ["hasd", "envy"],
-    "Kibr": ["takabbur", "arrogance", "pride"],
-    "Riya": ["riyaa", "showing off"],
-    "Ghiba": ["gheebah", "ghibah", "backbiting"],
-    "Namima": ["nameemah", "gossip", "tale-bearing"]
+    "Wudhu": [
+      "wudu",
+      "wuzu",
+      "wuzhu",
+      "wudoo",
+      "wudhoo",
+      "vudu",
+      "vuzu",
+      "woodoo"
+    ],
+    "Salah": [
+      "salat",
+      "salaah",
+      "salaat",
+      "namaz",
+      "namaaz",
+      "solat",
+      "solah",
+      "sholat"
+    ],
+    "Sujood": [
+      "sujud",
+      "sajda",
+      "sajdah",
+      "sejdah",
+      "sujda"
+    ],
+    "Ruku": [
+      "rukoo",
+      "ruku'",
+      "rukuh"
+    ],
+    "Tahajjud": [
+      "tahajud",
+      "tehajjud",
+      "tehajud",
+      "qiyam al-layl",
+      "qiyamullayl"
+    ],
+    "Witr": [
+      "vitr",
+      "witir",
+      "witer"
+    ],
+    "Jumuah": [
+      "jumu'ah",
+      "jumah",
+      "jummah",
+      "jumma",
+      "juma"
+    ],
+    "Eid": [
+      "eed",
+      "'eid"
+    ],
+    "Zakat": [
+      "zakaat",
+      "zakaah",
+      "zakah",
+      "zekaat",
+      "zekat"
+    ],
+    "Sadaqah": [
+      "sadaqa",
+      "sadaka",
+      "sadakah",
+      "sodaqah",
+      "sedekah"
+    ],
+    "Sawm": [
+      "saum",
+      "siyam",
+      "siam",
+      "fasting",
+      "roza",
+      "rozah",
+      "puasa"
+    ],
+    "Iftar": [
+      "iftaar",
+      "ifthaar",
+      "ifthar",
+      "buka puasa"
+    ],
+    "Suhoor": [
+      "suhur",
+      "sahur",
+      "sehri",
+      "sahoor",
+      "sahri"
+    ],
+    "Hajj": [
+      "haj",
+      "hadj",
+      "hadjdj",
+      "haji"
+    ],
+    "Umrah": [
+      "umra",
+      "omra",
+      "omrah",
+      "'umrah"
+    ],
+    "Tawaf": [
+      "tawaaf",
+      "tawwaf",
+      "towaf"
+    ],
+    "Sa'i": [
+      "sa'ee",
+      "saee",
+      "sai",
+      "sa'y",
+      "say"
+    ],
+    "Ihram": [
+      "ehraam",
+      "ihraam"
+    ],
+    "Arafah": [
+      "arafat",
+      "arafa",
+      "'arafah"
+    ],
+    "Quran": [
+      "qur'an",
+      "quran",
+      "koran",
+      "kuran",
+      "quraan",
+      "coran",
+      "al-quran"
+    ],
+    "Surah": [
+      "sura",
+      "soorah",
+      "soorat",
+      "sourate"
+    ],
+    "Ayah": [
+      "aya",
+      "ayat",
+      "aayah",
+      "aayat",
+      "verse"
+    ],
+    "Juz": [
+      "juzz",
+      "jus",
+      "para",
+      "siparah"
+    ],
+    "Hifz": [
+      "hifdh",
+      "hifzh",
+      "hafiz",
+      "hafidh"
+    ],
+    "Tajweed": [
+      "tajwid",
+      "tajwied",
+      "tajveed",
+      "tajvid"
+    ],
+    "Qira'at": [
+      "qiraat",
+      "qiraa'at",
+      "qiraah"
+    ],
+    "Hadith": [
+      "hadeeth",
+      "hadis",
+      "hadees",
+      "ahadith",
+      "ahaadith"
+    ],
+    "Sahih": [
+      "saheeh",
+      "shahih"
+    ],
+    "Hasan": [
+      "hasen"
+    ],
+    "Daeef": [
+      "da'if",
+      "da'eef",
+      "daif",
+      "dhaif",
+      "dha'if",
+      "weak"
+    ],
+    "Isnad": [
+      "isnaad",
+      "sanad",
+      "chain"
+    ],
+    "Matn": [
+      "matan",
+      "text"
+    ],
+    "Mawdu": [
+      "mawdoo",
+      "mawdoo'",
+      "fabricated",
+      "maudu"
+    ],
+    "Bukhari": [
+      "bukhaaree",
+      "bukhaari",
+      "al-bukhari"
+    ],
+    "Muslim": [
+      "sahih muslim"
+    ],
+    "Tirmidhi": [
+      "tirmizi",
+      "tirmidhee",
+      "tirmithi"
+    ],
+    "Abu Dawud": [
+      "abu dawood",
+      "abu dawoud",
+      "abu daud"
+    ],
+    "Nasai": [
+      "nasa'i",
+      "nasaa'i",
+      "an-nasai",
+      "nisai"
+    ],
+    "Ibn Majah": [
+      "ibn maajah",
+      "ibnu majah",
+      "ibn maja"
+    ],
+    "Tawheed": [
+      "tawhid",
+      "tauheed",
+      "tauhid",
+      "toheed",
+      "tohid",
+      "monotheism"
+    ],
+    "Shirk": [
+      "sherk",
+      "syirik",
+      "polytheism"
+    ],
+    "Bidah": [
+      "bid'ah",
+      "bidaa",
+      "bid'a",
+      "innovation"
+    ],
+    "Sunnah": [
+      "sunna",
+      "sunnaat",
+      "sunnat"
+    ],
+    "Fiqh": [
+      "fikh",
+      "feqh",
+      "jurisprudence"
+    ],
+    "Fatwa": [
+      "fatwah",
+      "fetwa",
+      "fatwaa"
+    ],
+    "Halal": [
+      "halaal",
+      "helal"
+    ],
+    "Haram": [
+      "haraam",
+      "harom"
+    ],
+    "Makruh": [
+      "makrooh",
+      "makroo"
+    ],
+    "Mustahabb": [
+      "mustahab",
+      "mandoob",
+      "mandub",
+      "recommended"
+    ],
+    "Wajib": [
+      "waajib",
+      "fard",
+      "fardh",
+      "obligatory"
+    ],
+    "Hanafi": [
+      "hanafee",
+      "hanafiyah"
+    ],
+    "Maliki": [
+      "maalikee",
+      "malikiyah"
+    ],
+    "Shafii": [
+      "shaafi'ee",
+      "shafi'i",
+      "syafii",
+      "shafiyah"
+    ],
+    "Hanbali": [
+      "hanbalee",
+      "hanbaliyah"
+    ],
+    "Ijtihad": [
+      "ijtihaad"
+    ],
+    "Ijma": [
+      "ijmaa",
+      "ijma'",
+      "consensus"
+    ],
+    "Qiyas": [
+      "qiyaas",
+      "analogy"
+    ],
+    "Aqeedah": [
+      "aqidah",
+      "aqeeda",
+      "aqida",
+      "creed",
+      "belief"
+    ],
+    "Iman": [
+      "eemaan",
+      "imaan",
+      "faith"
+    ],
+    "Ihsan": [
+      "ehsaan",
+      "ihsaan",
+      "excellence"
+    ],
+    "Tawakkul": [
+      "tawakkal",
+      "tavakkul",
+      "reliance"
+    ],
+    "Taqwa": [
+      "taqwaa",
+      "takwa",
+      "piety",
+      "god-consciousness"
+    ],
+    "Tawbah": [
+      "tawba",
+      "taubah",
+      "tauba",
+      "repentance"
+    ],
+    "Istighfar": [
+      "istighfaar",
+      "astaghfirullah"
+    ],
+    "Dhikr": [
+      "zikr",
+      "thikr",
+      "zikir",
+      "dzikir",
+      "remembrance"
+    ],
+    "Dua": [
+      "du'a",
+      "du'aa",
+      "duaa",
+      "supplication"
+    ],
+    "Ruqyah": [
+      "ruqya",
+      "roqya",
+      "rukya"
+    ],
+    "Khushu": [
+      "khushoo",
+      "khusyu",
+      "humility"
+    ],
+    "Niyyah": [
+      "niyyat",
+      "niyah",
+      "niat",
+      "intention"
+    ],
+    "Jannah": [
+      "jannaa",
+      "jannat",
+      "paradise",
+      "heaven"
+    ],
+    "Jahannam": [
+      "jahannum",
+      "jahhannam",
+      "hellfire",
+      "hell"
+    ],
+    "Barzakh": [
+      "barzach"
+    ],
+    "Qiyamah": [
+      "qiyaama",
+      "qiyaamat",
+      "kiamat",
+      "judgment day",
+      "day of judgment"
+    ],
+    "Sirat": [
+      "siraat",
+      "bridge"
+    ],
+    "Mizan": [
+      "meezaan",
+      "scale",
+      "balance"
+    ],
+    "Shafaah": [
+      "shafa'a",
+      "shafa'ah",
+      "intercession"
+    ],
+    "Prophet": [
+      "nabi",
+      "nabee",
+      "rasul",
+      "rasool",
+      "messenger"
+    ],
+    "Muhammad": [
+      "mohammad",
+      "mohammed",
+      "muhammed",
+      "mohamed"
+    ],
+    "Seerah": [
+      "sirah",
+      "sira",
+      "seera",
+      "biography"
+    ],
+    "Hijrah": [
+      "hijra",
+      "hejra",
+      "hegira",
+      "migration"
+    ],
+    "Sahabah": [
+      "sahaba",
+      "sahaabah",
+      "companions"
+    ],
+    "Tabieen": [
+      "tabi'in",
+      "tabi'een",
+      "successors"
+    ],
+    "Khalifah": [
+      "khalifa",
+      "caliph",
+      "caliphate"
+    ],
+    "Ummah": [
+      "umma",
+      "ummat",
+      "ummat",
+      "community"
+    ],
+    "Masjid": [
+      "masjed",
+      "mosque",
+      "musjid",
+      "mesjid"
+    ],
+    "Mihrab": [
+      "mehrab",
+      "prayer niche"
+    ],
+    "Minbar": [
+      "mimbar",
+      "pulpit"
+    ],
+    "Adhan": [
+      "azan",
+      "azaan",
+      "athaan",
+      "athan",
+      "ezan"
+    ],
+    "Iqamah": [
+      "iqaama",
+      "ikamah",
+      "iqaamat"
+    ],
+    "Imam": [
+      "imaam"
+    ],
+    "Muezzin": [
+      "muazzin",
+      "muadhin",
+      "muadhdhin",
+      "mu'adhin"
+    ],
+    "Khutbah": [
+      "khutba",
+      "hutbah",
+      "sermon"
+    ],
+    "Nikah": [
+      "nikah",
+      "nikaah",
+      "marriage",
+      "wedding"
+    ],
+    "Talaq": [
+      "talaaq",
+      "divorce"
+    ],
+    "Mahr": [
+      "mahar",
+      "mehr",
+      "dowry"
+    ],
+    "Walimah": [
+      "waleemah",
+      "walima",
+      "wedding feast"
+    ],
+    "Mahram": [
+      "mehram"
+    ],
+    "Hijab": [
+      "hijaab",
+      "hejab"
+    ],
+    "Niqab": [
+      "niqaab",
+      "nikab"
+    ],
+    "Jilbab": [
+      "jilbaab",
+      "gilbab"
+    ],
+    "Khimar": [
+      "khimaar"
+    ],
+    "Ghusl": [
+      "ghusul",
+      "ghusel",
+      "mandi wajib"
+    ],
+    "Tayammum": [
+      "tayamum",
+      "dry ablution"
+    ],
+    "Janabah": [
+      "janaaba",
+      "junub",
+      "state of impurity"
+    ],
+    "Miswak": [
+      "siwak",
+      "siwaak",
+      "meswak"
+    ],
+    "Fitrah": [
+      "fitra",
+      "natural disposition"
+    ],
+    "Riba": [
+      "ribaa",
+      "usury",
+      "interest"
+    ],
+    "Muamalat": [
+      "mu'amalat",
+      "muaamalat",
+      "transactions"
+    ],
+    "Waqf": [
+      "wakaf",
+      "endowment"
+    ],
+    "Barakah": [
+      "baraka",
+      "barakaat",
+      "blessing"
+    ],
+    "Bismillah": [
+      "bismillaah",
+      "basmalah",
+      "basmala"
+    ],
+    "Alhamdulillah": [
+      "alhamdulillaah",
+      "hamdalah"
+    ],
+    "SubhanAllah": [
+      "subhaanallah",
+      "tasbeeh",
+      "tasbih"
+    ],
+    "Allahu Akbar": [
+      "allaahu akbar",
+      "takbir",
+      "takbeer"
+    ],
+    "Astaghfirullah": [
+      "astaghfirullaah"
+    ],
+    "InshaAllah": [
+      "insha'allah",
+      "inshallah",
+      "insyaallah",
+      "god willing"
+    ],
+    "MashaAllah": [
+      "masha'allah",
+      "mashallah",
+      "masya allah"
+    ],
+    "JazakAllah": [
+      "jazaakallah",
+      "jazakallahu khairan",
+      "jazaakallahu khayran"
+    ],
+    "Assalamu Alaikum": [
+      "assalaamu alaikum",
+      "salam",
+      "salaam",
+      "as-salamu alaykum"
+    ],
+    "Sharia": [
+      "shariah",
+      "shari'a",
+      "shari'ah",
+      "syariah",
+      "islamic law"
+    ],
+    "Qadi": [
+      "qaadi",
+      "qadhi",
+      "judge"
+    ],
+    "Mufti": [
+      "muftee"
+    ],
+    "Alim": [
+      "'aalim",
+      "aalim",
+      "scholar"
+    ],
+    "Ulama": [
+      "ulamaa",
+      "'ulama",
+      "scholars"
+    ],
+    "Mujahid": [
+      "mujaahid",
+      "mujaheddin",
+      "mujahideen"
+    ],
+    "Shahid": [
+      "shaheed",
+      "martyr"
+    ],
+    "Dawah": [
+      "da'wah",
+      "da'wa",
+      "dakwah",
+      "calling",
+      "invitation"
+    ],
+    "Tabligh": [
+      "tableegh",
+      "tablig"
+    ],
+    "Ilm": [
+      "'ilm",
+      "knowledge"
+    ],
+    "Hikmah": [
+      "hikma",
+      "wisdom"
+    ],
+    "Amanah": [
+      "amana",
+      "trust"
+    ],
+    "Sabr": [
+      "sabar",
+      "patience"
+    ],
+    "Shukr": [
+      "sukr",
+      "sukur",
+      "syukur",
+      "gratitude"
+    ],
+    "Ikhlas": [
+      "ikhlaas",
+      "ikhlash",
+      "sincerity"
+    ],
+    "Tafakkur": [
+      "tafakur",
+      "contemplation",
+      "reflection"
+    ],
+    "Tadabbur": [
+      "tadabur",
+      "pondering"
+    ],
+    "Tafsir": [
+      "tafseer",
+      "tafser",
+      "exegesis",
+      "commentary"
+    ],
+    "Usul al-Fiqh": [
+      "usool al-fiqh",
+      "principles of jurisprudence"
+    ],
+    "Maqasid": [
+      "maqaasid",
+      "objectives"
+    ],
+    "Naskh": [
+      "nasakh",
+      "abrogation"
+    ],
+    "Asbab al-Nuzul": [
+      "asbaab al-nuzul",
+      "asbab an-nuzul",
+      "reasons of revelation"
+    ],
+    "Ijazah": [
+      "ijaaza",
+      "ijaazah",
+      "certification"
+    ],
+    "Kufr": [
+      "kufur",
+      "disbelief"
+    ],
+    "Nifaq": [
+      "nifaaq",
+      "hypocrisy"
+    ],
+    "Fisq": [
+      "fusuq",
+      "transgression"
+    ],
+    "Zulm": [
+      "dhulm",
+      "dhulam",
+      "oppression",
+      "injustice"
+    ],
+    "Hasad": [
+      "hasd",
+      "envy"
+    ],
+    "Kibr": [
+      "takabbur",
+      "arrogance",
+      "pride"
+    ],
+    "Riya": [
+      "riyaa",
+      "showing off"
+    ],
+    "Ghiba": [
+      "gheebah",
+      "ghibah",
+      "backbiting"
+    ],
+    "Namima": [
+      "nameemah",
+      "gossip",
+      "tale-bearing"
+    ],
+    "Musa": [
+      "Moses",
+      "musa",
+      "moosa",
+      "moosaa",
+      "mousa",
+      "muusa"
+    ],
+    "Isa": [
+      "Jesus",
+      "isa",
+      "eesa",
+      "essa",
+      "yeshua",
+      "yasu"
+    ],
+    "Ibrahim": [
+      "Abraham",
+      "ibrahim",
+      "ibraheem",
+      "ibrahimm",
+      "avraham"
+    ],
+    "Nuh": [
+      "Noah",
+      "nuh",
+      "nooh",
+      "noo7",
+      "nuuh"
+    ],
+    "Lut": [
+      "Lot",
+      "lut",
+      "loot",
+      "luut"
+    ],
+    "Ilyas": [
+      "Elijah",
+      "ilyas",
+      "ilyaas",
+      "elias",
+      "elyas"
+    ],
+    "al-Yasa": [
+      "Elisha",
+      "al-yasa",
+      "alyasa",
+      "yasa",
+      "al yasa"
+    ],
+    "Idris": [
+      "Enoch",
+      "idris",
+      "idrees",
+      "idriss",
+      "enoch"
+    ],
+    "Yunus": [
+      "Jonah",
+      "yunus",
+      "younus",
+      "younes",
+      "yoonus",
+      "yunos"
+    ],
+    "Sulayman": [
+      "Solomon",
+      "sulayman",
+      "suleiman",
+      "suleyman",
+      "sulaimaan",
+      "soloman"
+    ],
+    "Yusuf": [
+      "Joseph",
+      "yusuf",
+      "yoosuf",
+      "yousuf",
+      "yousef",
+      "yusoof"
+    ],
+    "Yahya": [
+      "John the Baptist",
+      "yahya",
+      "yahyaa",
+      "john baptist"
+    ],
+    "Maryam": [
+      "Mary",
+      "maryam",
+      "maryem",
+      "mariam",
+      "miriam"
+    ],
+    "Jibril": [
+      "Gabriel",
+      "jibril",
+      "jibreel",
+      "jibrail",
+      "jabra'il"
+    ],
+    "Mikail": [
+      "Michael",
+      "mikail",
+      "mika'il",
+      "mikael"
+    ],
+    "Dawud": [
+      "David",
+      "dawud",
+      "dawood",
+      "da'ud",
+      "daud",
+      "davud"
+    ],
+    "Harun": [
+      "Aaron",
+      "harun",
+      "haarun",
+      "haroon",
+      "haroun"
+    ],
+    "Zakariyya": [
+      "Zechariah",
+      "zakariyya",
+      "zakariya",
+      "zechariah",
+      "zakaria"
+    ],
+    "Ayyub": [
+      "Job",
+      "ayyub",
+      "ayoub",
+      "ayub",
+      "eyyub"
+    ],
+    "Yaqub": [
+      "Jacob",
+      "yaqub",
+      "yaqoob",
+      "yaqob",
+      "ya'qub"
+    ],
+    "Ishaq": [
+      "Isaac",
+      "ishaq",
+      "is-haq",
+      "ishaaq",
+      "is7aq"
+    ],
+    "Ismail": [
+      "Ishmael",
+      "ismail",
+      "ismael",
+      "isma'il",
+      "ismaa'eel"
+    ],
+    "Shuayb": [
+      "Jethro",
+      "shuayb",
+      "shu'ayb",
+      "shoaib",
+      "shoayb"
+    ],
+    "Dhul-Kifl": [
+      "Ezekiel",
+      "dhul-kifl",
+      "dhulkifl",
+      "dhul kifl"
+    ],
+    "Uzayr": [
+      "Ezra",
+      "uzayr",
+      "uzair",
+      "uzeir"
+    ],
+    "Bilqis": [
+      "Queen of Sheba",
+      "bilqis",
+      "bilquees",
+      "balkis",
+      "queen sheba"
+    ],
+    "Jalut": [
+      "Goliath",
+      "jalut",
+      "jaloot",
+      "goliath"
+    ],
+    "Talut": [
+      "Saul",
+      "talut",
+      "taloot",
+      "saul"
+    ]
   }
 }

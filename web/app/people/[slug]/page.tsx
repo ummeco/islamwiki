@@ -220,7 +220,7 @@ export default async function PersonPage({ params }: Props) {
               </div>
               <div>
                 <dt className="text-iw-text-muted">Category</dt>
-                <dd className="text-iw-text capitalize">{person.category}</dd>
+                <dd className="text-iw-text capitalize">{person.category.replace(/_/g, ' ')}</dd>
               </div>
               {person.birth_place_name && (
                 <div>
