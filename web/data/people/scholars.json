@@ -13044,5 +13044,51 @@
     "madhab": null,
     "is_prophet": false,
     "is_companion": false
+  },
+  {
+    "id": 551,
+    "slug": "abdullah-ibn-muhammad-prophet-son",
+    "name_ar": "عبد الله بن محمد",
+    "name": "Abdullah ibn Muhammad",
+    "name_en": "Abdullah (al-Tayyib/al-Tahir), son of the Prophet",
+    "name_en_alt": [
+      "Abdullah ibn Muhammad",
+      "al-Tayyib",
+      "al-Tahir",
+      "Prophet's son Abdullah"
+    ],
+    "born_ah": -3,
+    "died_ah": -2,
+    "era": "pre_hijri",
+    "category": "prophet_family",
+    "gender": "male",
+    "nationality": "Arab",
+    "bio_short_en": "The second son of Prophet Muhammad and Khadijah, known by the kunyahs al-Tayyib (the Pure) and al-Tahir (the Purified). He died in infancy in Makkah before the hijra.",
+    "bio_en": "Abdullah ibn Muhammad was the second son of Prophet Muhammad and Khadijah bint Khuwaylid. He was given two honorary names: al-Tayyib (the Pure One) and al-Tahir (the Purified), both of which are sometimes treated as separate children in older accounts, though the majority of scholars hold they refer to the same person. He was born in Makkah before the hijra and died in infancy, like his elder brother al-Qasim. The deaths of the Prophet's sons caused his enemies — particularly al-As ibn Wa'il — to taunt him as 'abtar' (cut off, without male legacy). This mockery was addressed directly by Allah in Surah al-Kawthar (108): 'Indeed, your enemy is the one who is cut off.' The Prophet ﷺ is the father of the entire ummah, and it is his detractors whose names have faded while his name is proclaimed in every corner of the earth. Abdullah is buried in Makkah.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": false
+  },
+  {
+    "id": 552,
+    "slug": "miqdad-ibn-amr",
+    "name_ar": "المقداد بن عمرو",
+    "name": "al-Miqdad ibn Amr",
+    "name_en": "al-Miqdad ibn Amr al-Bahrani",
+    "name_en_alt": [
+      "Miqdad ibn Amr",
+      "al-Miqdad",
+      "Miqdad ibn al-Aswad"
+    ],
+    "died_ah": 33,
+    "era": "sahabi",
+    "category": "companions",
+    "gender": "male",
+    "nationality": "Arab",
+    "bio_short_en": "One of the earliest Muslims and among the Seven Pioneers who publicly declared Islam. He was the first Muslim horseman to fight in the way of Allah, and at Badr he gave one of the most courageous speeches of loyalty to the Prophet.",
+    "bio_en": "Al-Miqdad ibn Amr, known as al-Miqdad ibn al-Aswad (through his adoptive relationship), was one of the earliest converts to Islam and one of the Seven Pioneers — the first Muslims to publicly declare their faith at Makkah despite the hostility of Quraysh. He emigrated to Abyssinia in the first hijra and later to Madinah. He holds the distinction of being the first Muslim to fight on horseback in the path of Allah — all other companions fought on foot in the early battles. At the Battle of Badr, when the Prophet consulted the companions about whether to engage the Quraysh force (which was far larger than expected), al-Miqdad spoke with famous courage: 'O Messenger of Allah, proceed to what Allah has commanded you. We will not say to you as Banu Isra'il said to Musa — 'Go you and your Lord and fight, while we sit here' — rather, we will fight at your right and your left, before you and behind you.' This declaration, reportedly bringing tears to the Prophet's eyes, preceded the Ansar's equally moving pledge. Al-Miqdad was known for his asceticism, his deep faith, and his sharp tongue against hypocrisy. He died in 33 AH near Madinah.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": true
   }
 ]
