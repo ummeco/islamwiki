@@ -12884,5 +12884,165 @@
       "surah-ali-imran",
       "table-spread"
     ]
+  },
+  {
+    "id": 544,
+    "slug": "zaynab-bint-muhammad",
+    "name_ar": "زينب بنت محمد",
+    "name": "Zaynab bint Muhammad",
+    "name_en": "Zaynab, daughter of the Prophet",
+    "name_en_alt": [
+      "Zaynab bint Muhammad",
+      "Prophet's daughter Zaynab"
+    ],
+    "born_ah": -13,
+    "died_ah": 8,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "bio_short_en": "Eldest daughter of Prophet Muhammad and Khadijah. Married Abu al-As ibn al-Rabi before Islam; he later embraced Islam and they were reunited in Madinah. Died 8 AH.",
+    "bio_en": "Zaynab bint Muhammad was the eldest daughter of Prophet Muhammad and Khadijah bint Khuwaylid, born approximately 13 years before the hijra. She was the first of the Prophet's children. She married Abu al-As ibn al-Rabi, a respected Meccan merchant and nephew of Khadijah, before the revelation of Islam. When the Prophet received revelation and Khadijah embraced Islam, Zaynab followed in faith. Abu al-As did not initially accept Islam, creating a painful separation. After the Battle of Badr, Abu al-As was captured by the Muslims. Zaynab sent her necklace — a gift from her mother Khadijah — as ransom. The Prophet was visibly moved and requested the companions to release Abu al-As without ransom, on the condition that he return Zaynab to Madinah. Abu al-As fulfilled this promise, and Zaynab emigrated to Madinah. Years later, Abu al-As embraced Islam sincerely, and the Prophet reunited them. Zaynab died in 8 AH, leaving behind a daughter Umamah bint Abi al-As, who was beloved by the Prophet — he is reported to have carried her on his shoulder during prayers when she was young.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": true
+  },
+  {
+    "id": 545,
+    "slug": "ruqayyah-bint-muhammad",
+    "name_ar": "رقية بنت محمد",
+    "name": "Ruqayyah bint Muhammad",
+    "name_en": "Ruqayyah, daughter of the Prophet",
+    "name_en_alt": [
+      "Ruqayyah bint Muhammad",
+      "Prophet's daughter Ruqayyah"
+    ],
+    "born_ah": -10,
+    "died_ah": 2,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "bio_short_en": "Second daughter of Prophet Muhammad and Khadijah. Married Uthman ibn Affan and emigrated with him to Abyssinia, then Madinah. Died 2 AH while the Prophet was at Badr.",
+    "bio_en": "Ruqayyah bint Muhammad was the second daughter of Prophet Muhammad and Khadijah bint Khuwaylid. She was initially betrothed to Utbah ibn Abi Lahab before the Prophet's mission. When Surah al-Masad (111) was revealed, Abu Lahab ordered his son to divorce her. This freed her to marry Uthman ibn Affan, who would later become the third caliph. Ruqayyah and Uthman were among the earliest Muslims and were among the first to emigrate to Abyssinia (Habasha) in the first hijra, seeking refuge from Meccan persecution under the Christian king Najashi. They later returned to Makkah and then emigrated to Madinah. Ruqayyah fell ill during the period of the Battle of Badr, and Uthman stayed behind to care for her at the Prophet's instruction. She died while the Muslims were still at Badr, and the Prophet received the news of victory alongside the news of his daughter's death. She was buried in al-Baqi cemetery in Madinah.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": true
+  },
+  {
+    "id": 546,
+    "slug": "umm-kulthum-bint-muhammad",
+    "name_ar": "أم كلثوم بنت محمد",
+    "name": "Umm Kulthum bint Muhammad",
+    "name_en": "Umm Kulthum, daughter of the Prophet",
+    "name_en_alt": [
+      "Umm Kulthum bint Muhammad",
+      "Prophet's daughter Umm Kulthum"
+    ],
+    "born_ah": -7,
+    "died_ah": 9,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "bio_short_en": "Third daughter of Prophet Muhammad and Khadijah. After sister Ruqayyah died, she married Uthman ibn Affan, earning him the epithet Dhul-Nurayn (Possessor of Two Lights) for marrying two daughters of the Prophet.",
+    "bio_en": "Umm Kulthum bint Muhammad was the third daughter of Prophet Muhammad and Khadijah bint Khuwaylid. Like her sister Ruqayyah, she was initially betrothed to one of Abu Lahab's sons (Utaybah) before Islam. When Surah al-Masad was revealed, Abu Lahab ordered the betrothals dissolved. Umm Kulthum embraced Islam with her family and emigrated to Madinah. After her sister Ruqayyah died in 2 AH while married to Uthman ibn Affan, the Prophet offered Umm Kulthum in marriage to Uthman. This marriage gave Uthman his famous epithet 'Dhul-Nurayn' — possessor of two lights — for having the honor of marrying two daughters of the Prophet consecutively. Umm Kulthum lived with Uthman until her death in 9 AH without leaving surviving children. The Prophet personally participated in preparing her body for burial. She was buried in al-Baqi cemetery in Madinah.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": true
+  },
+  {
+    "id": 547,
+    "slug": "qasim-ibn-muhammad",
+    "name_ar": "القاسم بن محمد",
+    "name": "al-Qasim ibn Muhammad",
+    "name_en": "al-Qasim, son of the Prophet",
+    "name_en_alt": [
+      "Qasim ibn Muhammad",
+      "al-Qasim ibn Muhammad",
+      "Prophet's son Qasim"
+    ],
+    "born_ah": -13,
+    "died_ah": -12,
+    "era": "pre_hijri",
+    "category": "prophet_family",
+    "gender": "male",
+    "nationality": "Arab",
+    "bio_short_en": "The first son of Prophet Muhammad and Khadijah, who died in infancy. The Prophet was given his kunya Abu al-Qasim because of him. Enemies who mocked the Prophet as 'abtar' (without legacy) after his sons' deaths were answered by Surah al-Kawthar.",
+    "bio_en": "Al-Qasim ibn Muhammad was the firstborn son of Prophet Muhammad and Khadijah bint Khuwaylid, born before the revelation of Islam in Makkah. He is the reason the Prophet carried the kunya 'Abu al-Qasim' — Father of Qasim. Al-Qasim died in infancy before he could walk or speak, according to the most accepted reports. His death was a source of grief for both the Prophet and Khadijah. The Arabs of the time called a man whose sons died in infancy 'abtar' (cut off without legacy), and it was partly in response to taunts from the Prophet's enemies after the deaths of his sons that Surah al-Kawthar (108) was revealed: 'Indeed, your enemy is the one who is cut off.' The Prophet's true legacy was the entire Muslim ummah. Al-Qasim was the eldest of the Prophet's children and the first to precede him in death. He was buried in Makkah.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": false
+  },
+  {
+    "id": 548,
+    "slug": "ibrahim-ibn-muhammad",
+    "name_ar": "إبراهيم بن محمد",
+    "name": "Ibrahim ibn Muhammad",
+    "name_en": "Ibrahim, son of the Prophet",
+    "name_en_alt": [
+      "Ibrahim ibn Muhammad",
+      "Prophet's son Ibrahim",
+      "Ibrahim ibn Rasulillah"
+    ],
+    "born_ah": 8,
+    "died_ah": 10,
+    "era": "sahabi",
+    "category": "prophet_family",
+    "gender": "male",
+    "nationality": "Arab",
+    "bio_short_en": "The last child of Prophet Muhammad, born to Maria al-Qibtiyyah in 8 AH. Died as an infant at 18 months. On the day of his death a solar eclipse occurred; the Prophet clarified it was a sign of Allah's majesty, not connected to Ibrahim's death.",
+    "bio_en": "Ibrahim ibn Muhammad was the youngest child and last son of Prophet Muhammad, born to Maria al-Qibtiyyah — the Coptic concubine gifted to the Prophet by the ruler of Egypt — in 8 AH in Madinah. His birth brought immense joy to the Prophet, who named him Ibrahim after the great patriarch. Ibrahim was nursed by a woman named Umm Sayf (wife of Abu Sayf, a blacksmith of Madinah) as well as by Maria. The Prophet visited him regularly and was deeply attached to this son. Ibrahim died in infancy at approximately 16-18 months in 10 AH. On the day of his death, a solar eclipse occurred. Some companions thought the eclipse was a sign of mourning for the Prophet's son. The Prophet addressed this directly in a sermon: 'The sun and the moon are two of Allah's signs. They do not eclipse because of the death or life of anyone. When you see them, supplicate to Allah and pray.' Upon visiting his dying son, the Prophet's eyes filled with tears and he said: 'The eyes shed tears and the heart grieves, but we say only what pleases our Lord. O Ibrahim, we are grieved by your parting.' Ibrahim's death meant the Prophet left this world with no surviving male descendants — fulfilling Surah al-Kawthar's promise that it is his enemy who is truly cut off. He was buried in al-Baqi cemetery.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": false
+  },
+  {
+    "id": 549,
+    "slug": "thuwayba-al-aslamiyyah",
+    "name_ar": "ثويبة الأسلمية",
+    "name": "Thuwayba al-Aslamiyyah",
+    "name_en": "Thuwayba, first wet nurse of the Prophet",
+    "name_en_alt": [
+      "Thuwayba",
+      "Suwaybah",
+      "Thuwaybah",
+      "Thuwaiba"
+    ],
+    "died_ah": 7,
+    "era": "sahabi",
+    "category": "prophet_family",
+    "gender": "female",
+    "nationality": "Arab",
+    "bio_short_en": "The first wet nurse of Prophet Muhammad, a slave of Abu Lahab who nursed him for several days before Halimah al-Sa'diyyah took over. Abu Lahab freed her upon hearing the news of the Prophet's birth. Also nursed Hamza ibn Abd al-Muttalib, making him the Prophet's milk-brother.",
+    "bio_en": "Thuwayba al-Aslamiyyah was a slave-woman belonging to Abu Lahab, the Prophet's uncle. She was the first woman to nurse the infant Muhammad after his mother Aminah bint Wahb, nursing him for several days in the earliest period of his life. According to the biographical sources, when Abu Lahab heard the news of his nephew Muhammad's birth through his slave Thuwayba, he was so pleased that he freed her on the spot. This act of joy would have consequences: it is reported that after Abu Lahab's death, he was seen in a dream in a pitiful state. When asked if he had any relief from punishment, he replied that he sucked water from his finger — the finger with which he had pointed to free Thuwayba. This narration, mentioned in Sahih al-Bukhari in a chapter on wet-nursing, is cited as evidence that even a disbeliever's joy at the Prophet's birth brought some diminishment of punishment. Thuwayba also nursed Hamza ibn Abd al-Muttalib, the Prophet's uncle, making Hamza and Muhammad milk-brothers — a bond the Prophet acknowledged throughout his life. She had a son named Masruh who died before her. After Thuwayba, Halimah al-Sa'diyyah took over as the Prophet's primary wet nurse and raised him in the desert. Thuwayba is thought to have embraced Islam and died around 7 AH. The Prophet showed her kindness throughout his life, sending her gifts from Madinah, and continued to care for her memory after her death.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": true
+  },
+  {
+    "id": 550,
+    "slug": "liya-bint-laban",
+    "name_ar": "ليا بنت لابان",
+    "name": "Liya bint Laban",
+    "name_en": "Leah (wife of Prophet Yaqub)",
+    "name_en_alt": [
+      "Leah",
+      "Liya",
+      "Lea",
+      "Lia",
+      "wife of Jacob",
+      "wife of Yaqub",
+      "Liya wife of Jacob"
+    ],
+    "era": "pre_islamic",
+    "category": "prophet_family",
+    "gender": "female",
+    "nationality": "Unknown",
+    "bio_short_en": "The elder daughter of Laban and first wife of Prophet Yaqub AS (Jacob), mother of Lawi (Levi) and Yahudha (Judah). Ancestor of Musa AS through Lawi and of Dawud AS through Yahudha.",
+    "bio_en": "Liya bint Laban (known in the Bible as Leah) was the elder daughter of Laban, the uncle of Prophet Yaqub AS (Jacob), and became his first wife. In Islamic tradition, Yaqub AS had two wives who were sisters: Liya (Leah) and Rahil (Rachel). The Quran does not narrate Yaqub's marriage directly, but Islamic scholars have preserved the story through the Isra'iliyyat — reports from Jewish and Christian sources considered permissible to narrate when they do not contradict Islamic theology. According to this account, Yaqub traveled to his maternal uncle Laban after leaving his home. He fell in love with Rahil and agreed to work seven years for her hand. When the time came, Laban substituted Liya as the bride instead, and Yaqub had to work another seven years for Rahil. Liya was the mother of several of Yaqub's sons: Lawi (Levi), Yahudha (Judah), Rubil (Reuben), Shamun (Simeon), Yassakhar (Issachar), and Zabulun (Zebulun), among others. These sons became the patriarchs of tribes that formed Banu Isra'il (the Children of Israel). Lawi was an ancestor of Musa AS and Harun AS, and Yahudha was an ancestor of Dawud AS and the Jewish royal line. In Islamic theology, all the wives and families of the Prophets are respected as essential to the chain through which prophethood was transmitted.",
+    "madhab": null,
+    "is_prophet": false,
+    "is_companion": false
   }
 ]
