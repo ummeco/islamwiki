@@ -70,6 +70,8 @@ Rumi died in Konya on 5 Jumada al-Thani 672 AH (December 17, 1273 CE). According
 
 He was buried in Konya, where his tomb (the Yeşil Türbe, Green Tomb) became one of the most visited pilgrimage sites in the Islamic world. Ibn Battuta visited the tomb on his travels and noted the reverence in which Rumi was held. The site is today a museum open to all, the Mevlana Museum, one of the most visited sites in Turkey.
 
+From the Athari perspective, traveling specifically to a grave as a site of pilgrimage (*ziyara* for *tawassul* purposes) is problematic regardless of whose grave it is — the Prophet ﷺ warned against taking graves as places of worship and against making his own grave a festival site (*'id*). Visiting graves with the intention of remembering death and making du'a for the deceased is permitted and encouraged; transforming a grave into a devotional pilgrimage destination is the innovation that classical Hanbali scholars, including Ibn Taymiyyah (who addressed Rumi's tradition explicitly), warned against.
+
 Rumi should be read as what he was: a Muslim scholar and poet of extraordinary gifts, whose works reflect both the heights of Islamic spiritual insight and the complexities of Sufi theological development. Neither uncritical hagiography nor dismissive rejection does justice to his legacy.
 
 **Sources:**

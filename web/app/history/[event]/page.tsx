@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { getHistoryEventBySlug, getHistoryEvents } from '@/lib/data/history'
+import { getHistoryEventBySlug, getAllHistoryEvents } from '@/lib/data/history'
 import { getSeerahContent } from '@/lib/data/seerah-content'
 import { formatIslamicDate } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
@@ -82,7 +82,7 @@ function renderContent(content: string) {
 }
 
 export async function generateStaticParams() {
-  return getHistoryEvents().map((e) => ({ event: e.slug }))
+  return getAllHistoryEvents().map((e) => ({ event: e.slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -109,7 +109,7 @@ export default async function HistoryEventPage({ params }: Props) {
   const fullContent = getSeerahContent(slug)
   const headings = fullContent ? extractHeadings(fullContent) : []
 
-  const allEvents = getHistoryEvents()
+  const allEvents = getAllHistoryEvents()
   const idx = allEvents.findIndex((e) => e.slug === slug)
   const prevEvent = idx > 0 ? allEvents[idx - 1] : null
   const nextEvent = idx < allEvents.length - 1 ? allEvents[idx + 1] : null
@@ -193,15 +193,17 @@ export default async function HistoryEventPage({ params }: Props) {
             }
           </div>
 
-          {/* Cross-ref to seerah */}
-          <div className="mt-8 rounded-xl border border-iw-border bg-iw-surface/50 p-4">
-            <p className="text-sm text-iw-text-secondary">
-              This event is also referenced in the{' '}
-              <Link href={`/seerah/${event.slug}`} className="text-iw-accent hover:text-iw-accent-light transition-colors">
-                Seerah timeline
-              </Link>.
-            </p>
-          </div>
+          {/* Cross-ref to seerah — only for islamic-history / modern events that share slugs */}
+          {(event.section === 'islamic-history' || event.section === 'modern') && (
+            <div className="mt-8 rounded-xl border border-iw-border bg-iw-surface/50 p-4">
+              <p className="text-sm text-iw-text-secondary">
+                For the Prophetic era, see the{' '}
+                <Link href="/seerah" className="text-iw-accent hover:text-iw-accent-light transition-colors">
+                  Seerah timeline
+                </Link>.
+              </p>
+            </div>
+          )}
 
           {/* Bottom prev/next */}
           <div className="mt-10 grid grid-cols-2 gap-4 border-t border-iw-border pt-6">

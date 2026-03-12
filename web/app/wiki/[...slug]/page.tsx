@@ -266,7 +266,7 @@ export default async function WikiPage({ params, searchParams }: Props) {
         </div>
 
         <div className="mt-8 border-t border-iw-border pt-4 text-xs text-iw-text-muted">
-          Last updated: {new Date(page.updated_at).toLocaleDateString()}
+          {page.updated_at && <>Last updated: {new Date(page.updated_at).toLocaleDateString()}</>}
         </div>
       </article>
     </WikiLayout>

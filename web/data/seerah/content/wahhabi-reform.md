@@ -14,7 +14,7 @@ He also traveled to Basra, in Ottoman Iraq, where he studied and reportedly came
 
 ## The Core Theological Message
 
-The theological program of Muhammad ibn Abd al-Wahhab can be summarized around his understanding of tawhid (the oneness of God) and his critique of what he regarded as shirk (associating partners with God) in contemporary Muslim practice.
+The theological program of Muhammad ibn Abd al-Wahhab is best understood as a revival of the Hanbali and Athari theological tradition — the tradition of Ibn Taymiyyah and Ibn al-Qayyim — applied to the specific conditions of eighteenth-century Arabia. He did not claim to introduce a new school or sect; his explicit aim was to restore the understanding of tawhid he believed the early generations (the Salaf) had held, and to remove practices that had accumulated over centuries which he regarded as violations of pure monotheism. His program can be summarized around his understanding of tawhid (the oneness of God) and his critique of what he regarded as shirk (associating partners with God) in contemporary Muslim practice.
 
 He distinguished several aspects of tawhid: tawhid al-rububiyya (acknowledging Allah as the sole Creator and Sustainer), tawhid al-uluhiyya (directing all worship exclusively to Allah), and tawhid al-asma' wal-sifat (affirming Allah's names and attributes without distortion). While he argued that most Muslims acknowledged the first category, many were failing in the second — by directing acts of worship, supplication, vows, and seeking of intercession to beings other than Allah.
 
@@ -66,4 +66,4 @@ The movement initiated by Muhammad ibn Abd al-Wahhab in eighteenth-century Najd 
 
 Evaluating this legacy requires distinguishing between the original scholarly work of Ibn Abd al-Wahhab — which must be assessed on its merits as Islamic theology — and the political and financial mechanisms through which certain positions associated with his movement have been spread. These are related but separate questions.
 
-**Sources:** Michael Cook, *Muhammad ibn Abd al-Wahhab*; Esposito, *The Oxford History of Islam*; Natana DeLong-Bas, *Wahhabi Islam: From Revival and Reform to Global Jihad*; David Commins, *The Wahhabi Mission and Saudi Arabia*; Ibn Abd al-Wahhab, *Kitab al-Tawhid* (trans. various); Hamid Algar, *Wahhabism: A Critical Essay*; Khaled Abou El Fadl, *The Great Theft: Wrestling Islam from the Extremists*
+**Sources:** Ibn Abd al-Wahhab, Muhammad. *Kitab al-Tawhid* (trans. various); Ibn Abd al-Wahhab, Muhammad. *Kashf al-Shubuhat*; Ibn Taymiyyah, Ahmad. *Majmu al-Fatawa* (background tradition); Michael Cook, *Muhammad ibn Abd al-Wahhab* (Cambridge University Press, 2018); Natana DeLong-Bas, *Wahhabi Islam: From Revival and Reform to Global Jihad* (Oxford University Press, 2004); David Commins, *The Wahhabi Mission and Saudi Arabia* (I.B. Tauris, 2006); Esposito, John L. *The Oxford History of Islam* (Oxford University Press, 1999)

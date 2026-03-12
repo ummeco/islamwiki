@@ -9,10 +9,14 @@ interface TimelineEvent {
   title_ar: string
   description_en: string
   period: string
+  section?: string
   severity: 1 | 2 | 3
   place_name?: string
   datePrimary: string
   dateSecondary?: string
+  outcome?: 'muslim_victory' | 'muslim_defeat' | 'inconclusive'
+  muslim_commander?: string
+  opponent?: string
 }
 
 const SEVERITY_LABELS: Record<number, string> = {
@@ -33,12 +37,25 @@ const SEVERITY_DOT: Record<number, string> = {
   1: 'bg-iw-text-muted/50',
 }
 
+const OUTCOME_STYLE: Record<string, string> = {
+  muslim_victory: 'bg-emerald-500/15 text-emerald-400',
+  muslim_defeat: 'bg-red-500/15 text-red-400',
+  inconclusive: 'bg-amber-500/15 text-amber-400',
+}
+const OUTCOME_LABEL: Record<string, string> = {
+  muslim_victory: 'Victory',
+  muslim_defeat: 'Defeat',
+  inconclusive: 'Inconclusive',
+}
+
 export function HistoryTimeline({
   events,
   periods,
+  showOutcome = false,
 }: {
   events: TimelineEvent[]
   periods: string[]
+  showOutcome?: boolean
 }) {
   const [activePeriod, setActivePeriod] = useState<string>('all')
   const [minSeverity, setMinSeverity] = useState<number>(1)
@@ -166,14 +183,28 @@ export function HistoryTimeline({
                         {event.place_name && (
                           <p className="mt-0.5 text-xs text-iw-text-muted">{event.place_name}</p>
                         )}
+                        {showOutcome && event.opponent && (
+                          <p className="mt-0.5 text-xs text-iw-text-muted">
+                            vs {event.opponent}
+                            {event.muslim_commander && ` — cmd: ${event.muslim_commander}`}
+                          </p>
+                        )}
                         <p className="mt-1 line-clamp-2 text-sm text-iw-text-secondary">
                           {event.description_en}
                         </p>
                       </div>
 
-                      <span className="flex-shrink-0 rounded-full bg-iw-surface px-2 py-0.5 text-[10px] text-iw-text-muted">
-                        {SEVERITY_LABELS[event.severity]}
-                      </span>
+                      <div className="flex flex-shrink-0 flex-col items-end gap-1">
+                        {showOutcome && event.outcome ? (
+                          <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${OUTCOME_STYLE[event.outcome]}`}>
+                            {OUTCOME_LABEL[event.outcome]}
+                          </span>
+                        ) : (
+                          <span className="rounded-full bg-iw-surface px-2 py-0.5 text-[10px] text-iw-text-muted">
+                            {SEVERITY_LABELS[event.severity]}
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </div>
                 ))}

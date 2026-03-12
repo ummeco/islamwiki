@@ -18,7 +18,7 @@ Ali became the fourth Caliph in 35 AH, following the assassination of Uthman ibn
 
 ### The Battle of Jamal (36 AH)
 
-A group of prominent Companions — Talhah ibn Ubaydullah (may Allah be pleased with him), Zubayr ibn al-Awwam (may Allah be pleased with him), and the Prophet's ﷺ wife Aisha (may Allah be pleased with her) — raised their concern that the killers of Uthman had not been brought to justice and that Ali was moving too slowly on the matter. They gathered in Basra, not with the intention of waging war against Ali, but to press their case. The situation deteriorated and battle broke out at al-Jamal (35 AH / 656 CE).
+A group of prominent Companions — Talhah ibn Ubaydullah (may Allah be pleased with him), Zubayr ibn al-Awwam (may Allah be pleased with him), and the Prophet's ﷺ wife Aisha (may Allah be pleased with her) — raised their concern that the killers of Uthman had not been brought to justice and that Ali was moving too slowly on the matter. They gathered in Basra, not with the intention of waging war against Ali, but to press their case. The situation deteriorated and battle broke out at al-Jamal (36 AH / 656 CE).
 
 Both Talhah and Zubayr died in the fighting — Zubayr was killed after he had already begun to withdraw from the battle, reportedly convinced by Ali himself that fighting was wrong. Aisha (may Allah be pleased with her), who had been present in a litter on a camel and whose camel became a focal point of the fighting, was unharmed. Ali treated her with the utmost respect, providing her with an escort and sending her back to Medina with honor. The Battle of Jamal ended in Ali's favor militarily, but it left deep wounds in the Muslim community.
 
