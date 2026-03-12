@@ -143,6 +143,8 @@ export interface NarratorData {
   person_slug: string | null
   hadith_count: number
   collections: Array<{ collection: string; count: number }>
+  bio_short_en?: string
+  bio_en?: string
 }
 
 const narrators: NarratorData[] = narratorsData as NarratorData[]
