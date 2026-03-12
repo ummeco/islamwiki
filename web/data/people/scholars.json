@@ -14564,5 +14564,754 @@
       "tawbah",
       "aws"
     ]
+  },
+  {
+    "id": 618,
+    "slug": "abu-salama-ibn-abd-al-asad",
+    "name": "أبو سلمة عبدالله بن عبد الأسد",
+    "name_ar": "أبو سلمة عبدالله بن عبد الأسد المخزومي",
+    "name_en": "Abu Salamah ibn Abd al-Asad",
+    "name_en_alt": [
+      "Abu Salama",
+      "Abdullah ibn Abd al-Asad"
+    ],
+    "bio_short_en": "One of the earliest converts to Islam and the first Muslim to emigrate to Madinah (before the Hijrah). He was a foster brother of the Prophet ﷺ and the first husband of Umm Salamah (who later married the Prophet ﷺ after Abu Salamah's death). He died from wounds received at the Battle of Uhud.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 4,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "early convert",
+      "first emigrant",
+      "uhud",
+      "makhzum",
+      "quraysh"
+    ]
+  },
+  {
+    "id": 619,
+    "slug": "uthman-ibn-mazun",
+    "name": "عثمان بن مظعون",
+    "name_ar": "عثمان بن مظعون الجمحي",
+    "name_en": "Uthman ibn Mazun",
+    "name_en_alt": [
+      "Uthman ibn Maz'un"
+    ],
+    "bio_short_en": "One of the earliest converts to Islam and a prominent companion known for his extreme asceticism. He was the first Muslim to die in Madinah (before the Battle of Badr) and the first Muslim buried in al-Baqi' cemetery. The Prophet ﷺ wept over him and kissed his forehead after his death.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 2,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "early convert",
+      "first buried in baqi",
+      "abyssinia",
+      "ascetic",
+      "quraysh"
+    ]
+  },
+  {
+    "id": 620,
+    "slug": "abd-allah-ibn-jahsh",
+    "name": "عبدالله بن جحش",
+    "name_ar": "عبدالله بن جحش الأسدي",
+    "name_en": "Abd Allah ibn Jahsh",
+    "name_en_alt": [
+      "Abdullah ibn Jahsh",
+      "Ibn Jahsh"
+    ],
+    "bio_short_en": "A companion and cousin of the Prophet ﷺ who led the first military expedition in Islam — the raid at Nakhla (2 AH) which captured a Qurayshi caravan. He was martyred at the Battle of Uhud in 3 AH. His body was mutilated along with Hamza ibn Abd al-Muttalib's by the Quraysh.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 3,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "nakhla expedition",
+      "uhud",
+      "martyr",
+      "asad tribe",
+      "first expedition"
+    ]
+  },
+  {
+    "id": 621,
+    "slug": "rafia-ibn-khadij",
+    "name": "رافع بن خديج",
+    "name_ar": "رافع بن خديج الأنصاري",
+    "name_en": "Rafi ibn Khadij",
+    "name_en_alt": [
+      "Rafa'a ibn Khadij",
+      "Rafi' ibn Khadij al-Ansari"
+    ],
+    "bio_short_en": "An Ansari companion of the Banu Harithah who participated in the Battle of Badr and many subsequent battles. He is one of the companions who is reported to have asked the Prophet ﷺ about muzara'ah (crop-sharing contracts) and related agricultural matters, making him an important source for fiqh on land use.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 74,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "aws",
+      "badr",
+      "hadith",
+      "agriculture",
+      "madinah"
+    ]
+  },
+  {
+    "id": 622,
+    "slug": "abu-kabsha-al-ansari",
+    "name": "أبو كبشة الأنصاري",
+    "name_ar": "أبو كبشة عمر بن سعد الأنصاري",
+    "name_en": "Abu Kabshah al-Ansari",
+    "name_en_alt": [
+      "Abu Kabsha al-Anmari"
+    ],
+    "bio_short_en": "An Ansari companion who participated in the expeditions with the Prophet ﷺ. Notable for narrating the famous hadith about the Prophet weeping over the world as one who is a stranger — a key hadith on zuhd (asceticism) and the fleeting nature of the dunya.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "zuhd",
+      "hadith",
+      "madinah"
+    ]
+  },
+  {
+    "id": 623,
+    "slug": "wahb-ibn-munabbih",
+    "name": "وهب بن منبه",
+    "name_ar": "وهب بن منبه الأبنائي",
+    "name_en": "Wahb ibn Munabbih",
+    "name_en_alt": [
+      "Wahb ibn Munabbih al-Yamani"
+    ],
+    "bio_short_en": "A Tabieen scholar of Yemen known for his extensive knowledge of the People of the Book (Jewish and Christian scriptures) and Isra'iliyyat (biblical stories). He was a major transmitter of stories about prophets and ancient history, though scholars are cautious about his narrations due to possible biblical interpolations.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Yemeni",
+    "born_ah": 34,
+    "died_ah": 114,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "yemen",
+      "isra'iliyyat",
+      "people of the book",
+      "tabieen",
+      "historian"
+    ]
+  },
+  {
+    "id": 624,
+    "slug": "abu-al-aswad-al-duali",
+    "name": "أبو الأسود الدؤلي",
+    "name_ar": "ظالم بن عمرو الدؤلي",
+    "name_en": "Abu al-Aswad al-Du'ali",
+    "name_en_alt": [
+      "Abu al-Aswad al-Duali",
+      "Abu al-Aswad al-Du'ali"
+    ],
+    "bio_short_en": "A Tabieen scholar of Basra credited with developing Arabic grammatical analysis (nahw) under the guidance of Ali ibn Abi Talib. He created the first systematic rules for Arabic grammar, which became the foundation of Arabic linguistics. He also introduced diacritical marks (tashkeel) to help non-Arabs read the Quran correctly.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 69,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "arabic grammar",
+      "basra",
+      "ali ibn abi talib",
+      "linguistics",
+      "quran diacritics"
+    ]
+  },
+  {
+    "id": 625,
+    "slug": "abd-al-malik-ibn-marwan",
+    "name": "عبدالملك بن مروان",
+    "name_ar": "عبد الملك بن مروان الأموي",
+    "name_en": "Abd al-Malik ibn Marwan",
+    "name_en_alt": [
+      "Abdulmalik ibn Marwan",
+      "Caliph Abd al-Malik"
+    ],
+    "bio_short_en": "The fifth Umayyad caliph (r. 65-86 AH / 685-705 CE), often called the 'father of Arab caliphate.' He unified the Umayyad state after the Second Fitna, standardized Arabic as the administrative language, minted the first Islamic coins (replacing Byzantine/Sassanid designs), and built the Dome of the Rock in Jerusalem.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "scholar",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 26,
+    "died_ah": 86,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "caliph",
+      "dome of the rock",
+      "arabic coinage",
+      "second fitna"
+    ]
+  },
+  {
+    "id": 626,
+    "slug": "al-hajjaj-ibn-yusuf",
+    "name": "الحجاج بن يوسف",
+    "name_ar": "الحجاج بن يوسف الثقفي",
+    "name_en": "al-Hajjaj ibn Yusuf al-Thaqafi",
+    "name_en_alt": [
+      "Hajjaj ibn Yusuf",
+      "al-Hajjaj al-Thaqafi"
+    ],
+    "bio_short_en": "The powerful governor of Iraq and the East under the Umayyad caliphs Abd al-Malik and al-Walid (d. 95 AH / 714 CE). Known for his iron-fisted administration, brutal suppression of revolts, and standardizing the written Quran (adding diacritical marks). A deeply controversial figure — feared for his severity but credited with consolidating Umayyad power and overseeing significant conquests into Central Asia.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 41,
+    "died_ah": 95,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "iraq",
+      "governor",
+      "quran diacritics",
+      "controversial"
+    ]
+  },
+  {
+    "id": 627,
+    "slug": "hisham-ibn-al-as",
+    "name": "هشام بن العاص",
+    "name_ar": "هشام بن العاص الأموي",
+    "name_en": "Hisham ibn al-As",
+    "name_en_alt": [
+      "Hisham ibn al-As al-Amawi"
+    ],
+    "bio_short_en": "A companion who was the brother of Amr ibn al-As. One of the early converts in Makkah, he and his brother were separated — Amr emigrated to Abyssinia but Hisham was prevented by his tribe. He later emigrated to Madinah and was martyred at the Battle of Ajnadayn in Syria in 13 AH.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 13,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "early convert",
+      "ajnadayn",
+      "martyr",
+      "quraysh",
+      "amr ibn al-as"
+    ]
+  },
+  {
+    "id": 628,
+    "slug": "abu-sufyan-ibn-al-harith",
+    "name": "أبو سفيان بن الحارث",
+    "name_ar": "أبو سفيان بن الحارث بن عبدالمطلب",
+    "name_en": "Abu Sufyan ibn al-Harith",
+    "name_en_alt": [
+      "Abu Sufyan al-Hashimi",
+      "Mughirah ibn al-Harith"
+    ],
+    "bio_short_en": "A cousin and former adversary of the Prophet ﷺ who was one of the last to accept Islam before the Conquest of Makkah. He had previously been the most eloquent enemy poet against the Prophet ﷺ but upon accepting Islam became devoted and is noted for weeping during battle at Hunayn from his fervor.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 20,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "quraysh",
+      "hashim",
+      "late convert",
+      "makkah conquest",
+      "hunayn",
+      "poet"
+    ]
+  },
+  {
+    "id": 629,
+    "slug": "al-walid-ibn-uqbah",
+    "name": "الوليد بن عقبة",
+    "name_ar": "الوليد بن عقبة بن أبي معيط",
+    "name_en": "al-Walid ibn Uqbah",
+    "name_en_alt": [
+      "al-Walid ibn Uqba"
+    ],
+    "bio_short_en": "A companion and half-brother of Uthman ibn Affan. He served as governor of Kufa under Uthman. Known as the subject of Surah al-Hujurat (49:6) — 'O you who believe! If a fasiq comes to you with news, verify it.' He was eventually removed from governorship after accusations of misconduct.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 61,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "umayyad",
+      "kufa",
+      "governor",
+      "quran reference",
+      "uthman"
+    ]
+  },
+  {
+    "id": 630,
+    "slug": "abu-al-darda-al-ansari",
+    "name": "أبو الدرداء الأنصاري",
+    "name_ar": "عويمر بن زيد الأنصاري",
+    "name_en": "Abu al-Darda al-Ansari",
+    "name_en_alt": [
+      "Uwaymir ibn Zayd al-Ansari",
+      "Abu Darda"
+    ],
+    "bio_short_en": "A companion of the Ansar and a judge appointed by Umar ibn al-Khattab to Damascus. Known for his wisdom, piety, and asceticism. He was one of the four companions who compiled the Quran during the time of the Prophet ﷺ. His narrations and aphorisms on wisdom and zuhd are widely cited.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 32,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "khazraj",
+      "damascus",
+      "judge",
+      "quran",
+      "wisdom"
+    ]
+  },
+  {
+    "id": 631,
+    "slug": "muadh-ibn-amr-al-ansari",
+    "name": "معاذ بن عمرو الأنصاري",
+    "name_ar": "معاذ بن عمرو بن الجموح الأنصاري",
+    "name_en": "Muadh ibn Amr al-Ansari",
+    "name_en_alt": [
+      "Muadh ibn Amr ibn al-Jamuh"
+    ],
+    "bio_short_en": "An Ansari companion who struck the killing blow against Abu Jahl at the Battle of Badr. He and Muawwidh ibn Afra are credited with mortally wounding Abu Jahl. He was a young companion — reportedly a teenager — at the time of Badr, demonstrating his bravery.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "khazraj",
+      "badr",
+      "abu jahl",
+      "warrior"
+    ]
+  },
+  {
+    "id": 632,
+    "slug": "muawwidh-ibn-afra",
+    "name": "معوذ بن عفراء",
+    "name_ar": "معوذ بن الحارث الأنصاري",
+    "name_en": "Muawwidh ibn Afra",
+    "name_en_alt": [
+      "Muawwadh ibn Afra",
+      "Muawidh ibn Afra"
+    ],
+    "bio_short_en": "An Ansari companion of the Banu Salimah who, along with his brother Muadh ibn Amr, struck Abu Jahl at the Battle of Badr. He was martyred at Badr itself, making him one of the first martyrs of that battle. His mother Afra is one of the few women whose two sons were both martyred at Badr.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 2,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "khazraj",
+      "badr",
+      "martyr",
+      "abu jahl"
+    ]
+  },
+  {
+    "id": 633,
+    "slug": "umm-waraqah-bint-nofal",
+    "name": "أم ورقة بنت نوفل",
+    "name_ar": "أم ورقة بنت عبدالله بن الحارث",
+    "name_en": "Umm Waraqah bint Nofal",
+    "name_en_alt": [
+      "Umm Waraqah al-Ansariyyah"
+    ],
+    "bio_short_en": "An Ansari companion whom the Prophet ﷺ permitted to lead the prayer in her own household — a fact cited in discussions of women's prayer leadership. She collected and memorized the Quran. She was later martyred by her servants, fulfilling a prophecy the Prophet ﷺ had made about her martyrdom.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "quran",
+      "prayer leadership",
+      "martyr",
+      "female"
+    ]
+  },
+  {
+    "id": 634,
+    "slug": "abu-usayd-al-ansari",
+    "name": "أبو أسيد الأنصاري",
+    "name_ar": "أبو أسيد مالك بن ربيعة الأنصاري",
+    "name_en": "Abu Usayd al-Ansari",
+    "name_en_alt": [
+      "Abu Usaid al-Ansari",
+      "Malik ibn Rabi'ah"
+    ],
+    "bio_short_en": "An Ansari companion who fought at Badr and all subsequent battles. He was among the last surviving companions of Badr, dying around 60 AH. He is known for the hadith about doing good to one's parents even after they die, narrated when his mother died and he asked the Prophet ﷺ if he could still honor her.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 60,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "khazraj",
+      "badr",
+      "last companions of badr"
+    ]
+  },
+  {
+    "id": 636,
+    "slug": "umayr-ibn-wahb",
+    "name": "عمير بن وهب",
+    "name_ar": "عمير بن وهب الجمحي",
+    "name_en": "Umayr ibn Wahb al-Jumahi",
+    "name_en_alt": [
+      "Umayr ibn Wahb"
+    ],
+    "bio_short_en": "A Qurayshi who came to Madinah after Badr with the intent to assassinate the Prophet ﷺ. When he confessed his plan to the Prophet, he was so astounded by the revelation that he converted to Islam. He became a devoted companion and returned to Makkah as a caller to Islam, converting many secretly.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "quraysh",
+      "conversion story",
+      "after badr",
+      "makkah",
+      "dai"
+    ]
+  },
+  {
+    "id": 637,
+    "slug": "abu-hudhayfah-ibn-utbah",
+    "name": "أبو حذيفة بن عتبة",
+    "name_ar": "أبو حذيفة بن عتبة بن ربيعة",
+    "name_en": "Abu Hudhayfah ibn Utbah",
+    "name_en_alt": [
+      "Abu Hudhayfa ibn Utba"
+    ],
+    "bio_short_en": "An early companion from Quraysh and son of Utbah ibn Rabi'ah (the Qurayshi leader killed at Badr). He was among the first Muslims and emigrated to both Abyssinia and Madinah. He was martyred at the Battle of Yamama fighting Musaylima, where he died alongside Salim mawla Abi Hudhayfah.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 12,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "quraysh",
+      "early muslim",
+      "yamama",
+      "abyssinia",
+      "martyr"
+    ]
+  },
+  {
+    "id": 638,
+    "slug": "salim-mawla-abi-hudhayfah",
+    "name": "سالم مولى أبي حذيفة",
+    "name_ar": "سالم مولى أبي حذيفة الأنصاري",
+    "name_en": "Salim mawla Abi Hudhayfah",
+    "name_en_alt": [
+      "Salim ibn Abi Hudhayfah",
+      "Salim the freed slave"
+    ],
+    "bio_short_en": "A freed slave and companion who carried the banner of the Muhajirun at the Battle of Yamama. The Prophet ﷺ ordered that the Quran be learned from four people, and Salim was one of them. He was martyred at Yamama in 12 AH. He held the banner until both his hands were cut off and died with it pressed to his chest.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Other",
+    "born_ah": null,
+    "died_ah": 12,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "freed slave",
+      "yamama",
+      "martyr",
+      "quran recitation",
+      "banner bearer"
+    ]
+  },
+  {
+    "id": 639,
+    "slug": "abu-rafi-al-qibti",
+    "name": "أبو رافع القبطي",
+    "name_ar": "أسلم أبو رافع مولى رسول الله",
+    "name_en": "Abu Rafi al-Qibti",
+    "name_en_alt": [
+      "Abu Rafi the servant of the Prophet",
+      "Aslam Abu Rafi"
+    ],
+    "bio_short_en": "A freed slave and servant of the Prophet ﷺ originally from the Coptic people. He was gifted to the Prophet ﷺ by his uncle al-Abbas and served the Prophet ﷺ faithfully. He was present at major events and served as a personal servant in the Prophet's household.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Other",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "coptic",
+      "freed slave",
+      "servant",
+      "prophet household"
+    ]
+  },
+  {
+    "id": 640,
+    "slug": "nusaybah-bint-kaab-al-maziniyyah",
+    "name": "نسيبة بنت كعب المازنية",
+    "name_ar": "نسيبة بنت كعب المازنية",
+    "name_en": "Nusaybah bint Ka'b al-Maziniyyah",
+    "name_en_alt": [
+      "Umm Umarah",
+      "Nusayba bint Kaab"
+    ],
+    "bio_short_en": "An Ansari companion known for her extraordinary courage at the Battle of Uhud, where she fought to protect the Prophet ﷺ with a sword and bow after the archers abandoned their posts. The Prophet ﷺ said he looked left and right during the battle and always saw her fighting by his side. She also fought at Yamama.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "warrior",
+      "uhud",
+      "yamama",
+      "female",
+      "protection of prophet"
+    ]
+  },
+  {
+    "id": 641,
+    "slug": "fatimah-bint-asad",
+    "name": "فاطمة بنت أسد",
+    "name_ar": "فاطمة بنت أسد الهاشمية",
+    "name_en": "Fatimah bint Asad",
+    "name_en_alt": [
+      "Fatima bint Asad al-Hashimiyya"
+    ],
+    "bio_short_en": "Mother of Ali ibn Abi Talib and a very early companion who raised the Prophet ﷺ as if her own son after the death of his mother Aminah. She accepted Islam early and emigrated to Madinah. The Prophet ﷺ buried her in his own shirt and performed her janazah prayer personally, weeping.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 4,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "hashim",
+      "mother of ali",
+      "early muslim",
+      "female",
+      "prophet's caretaker"
+    ]
+  },
+  {
+    "id": 642,
+    "slug": "umm-aiman-barakah",
+    "name": "أم أيمن بركة",
+    "name_ar": "أم أيمن بركة بنت ثعلبة",
+    "name_en": "Umm Ayman (Barakah)",
+    "name_en_alt": [
+      "Umm Ayman",
+      "Barakah bint Tha'labah",
+      "Baraka"
+    ],
+    "bio_short_en": "The Ethiopian servant of the Prophet's ﷺ father Abdullah and one of the first people to care for the Prophet ﷺ as an infant and child. She was freed and married Zayd ibn Haritha after his emancipation, becoming the mother of Usama ibn Zayd. The Prophet ﷺ called her 'my mother after my mother.'",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "African",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ethiopian",
+      "freed slave",
+      "prophet caretaker",
+      "mother of usama",
+      "female"
+    ]
+  },
+  {
+    "id": 643,
+    "slug": "zaynab-bint-ali",
+    "name": "زينب بنت علي",
+    "name_ar": "زينب بنت علي بن أبي طالب",
+    "name_en": "Zaynab bint Ali",
+    "name_en_alt": [
+      "Zaynab al-Kubra",
+      "Sayyidah Zaynab"
+    ],
+    "bio_short_en": "Daughter of Ali ibn Abi Talib and Fatimah al-Zahra, and granddaughter of the Prophet ﷺ. She survived the Battle of Karbala (61 AH) and delivered a historic speech before Yazid ibn Muawiyah in Damascus, boldly condemning his actions. She is venerated for her courage and eloquence in preserving the account of Karbala.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "female",
+    "nationality": "Arab",
+    "born_ah": 6,
+    "died_ah": 62,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ahl al-bayt",
+      "karbala",
+      "fatimah daughter",
+      "ali daughter",
+      "female",
+      "damascus"
+    ]
+  },
+  {
+    "id": 645,
+    "slug": "muawiyah-ibn-hudayj",
+    "name": "معاوية بن حديج",
+    "name_ar": "معاوية بن حديج الكندي",
+    "name_en": "Muawiyah ibn Hudayj",
+    "name_en_alt": [
+      "Muawiyah ibn Hudaij al-Kindi"
+    ],
+    "bio_short_en": "An Egyptian companion and a major general of the Umayyad caliphate. He participated in the conquest of North Africa under Abd Allah ibn Abi Sarh and led several campaigns into the Maghreb (Tunisia, Algeria). He is credited with the initial conquest of Ifriqiyya under Muawiyah ibn Abi Sufyan.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 52,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "egypt",
+      "north africa",
+      "ifriqiyya",
+      "general",
+      "kinid",
+      "umayyad"
+    ]
+  },
+  {
+    "id": 646,
+    "slug": "ka-b-ibn-zuhayr",
+    "name": "كعب بن زهير",
+    "name_ar": "كعب بن زهير بن أبي سلمى",
+    "name_en": "Ka'b ibn Zuhayr",
+    "name_en_alt": [
+      "Kaab ibn Zuhayr",
+      "Suad (poem author)"
+    ],
+    "bio_short_en": "Son of the pre-Islamic poet Zuhayr ibn Abi Sulma. He initially lampooned the Prophet ﷺ with poetry but later came to Madinah, accepted Islam, and presented his famous ode 'Banat Su'ad' (Su'ad has departed) praising the Prophet ﷺ. In gratitude, the Prophet ﷺ gave Ka'b his mantle (burdah), which became a famous relic.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "poet",
+      "burdah",
+      "mantle",
+      "quraysh",
+      "pre-islamic poet"
+    ]
   }
 ]
