@@ -10369,10 +10369,10 @@
     "birth_year_ah": null,
     "death_year_ce": 635,
     "death_year_ah": 14,
-    "bio_short_en": "Wife of Abu Sufyan who fiercely opposed the Prophet ﷺ before the Conquest of Mecca, later accepted Islam and is counted among the Companions.",
+    "bio_short_en": "Wife of Abu Sufyan who fiercely opposed Islam before the Conquest of Makkah, later accepted Islam and became a companion. She is known for her role at the Battle of Uhud. Mother of Muawiyah ibn Abi Sufyan and Yazid ibn Abi Sufyan.",
     "bio_en": "Hind bint Utbah ibn Rabiah was the wife of Abu Sufyan ibn Harb and one of the most formidable and complex figures of the early Islamic period. Her story spans fierce enmity to Islam and eventual acceptance of the faith — a transformation that demands both honesty about the past and respect for her Islam.\n\nHind was deeply hostile to Islam from its earliest days, in large part because the Battle of Badr claimed the lives of her father Utbah ibn Rabiah, her brother al-Walid ibn Utbah, and her uncle Shaybah ibn Rabiah — all killed fighting the Muslims. Her grief turned into fierce determination for revenge. She reportedly funded warriors going to Uhud and incited the Qurayshi army to fight with poems and chants. After the Battle of Uhud in 3 AH, when Hamza ibn Abdul-Muttalib — the Prophet's uncle — was killed, Hind mutilated his body, cutting open his chest and chewing his liver. This act is recorded in classical seerah with historical seriousness. Classical scholars note this was a terrible act done in a state of consuming grief and tribal rage.\n\nAt the Conquest of Mecca in 8 AH (630 CE), Hind came among the women of Mecca to accept Islam before the Prophet ﷺ. The famous pledge of the women was taken, and when the conditions were recited — not to associate partners with Allah, not to steal, not to commit fornication, not to kill their children, and not to disobey the Prophet in what is right — Hind made pointed interjections that are recorded with dry humor in the classical sources. The Prophet ﷺ accepted her Islam.\n\nAfter her conversion, Hind became a Muslim woman and is counted among the Companions of the Prophet ﷺ (Sahabiyyat). She reportedly expressed deep regret for the actions of her pre-Islamic life. In Islamic ethics, the Companions are held in honor, and one of the established principles of Ahl us-Sunnah wal-Jama'ah is that we do not speak ill of any Companion after their Islam. Her pre-Islamic actions are recorded as history — described as they were, without softening — while her Islam is acknowledged and her status as a Companion is respected.\n\nShe passed away during the caliphate of Umar ibn al-Khattab, around 14 AH (635 CE). She was the mother of Muawiya ibn Abi Sufyan, who became a Companion of the Prophet ﷺ and later the founder of the Umayyad Caliphate.",
-    "era": "jahiliyyah",
-    "category": "enemy",
+    "era": "sahabi",
+    "category": "female_companions",
     "tags": [
       "quraysh",
       "mecca",
@@ -10381,7 +10381,8 @@
       "uhud",
       "umayyad",
       "mother_of_muawiya"
-    ]
+    ],
+    "is_companion": true
   },
   {
     "id": 457,
@@ -13522,5 +13523,1046 @@
     "nationality": "Arab",
     "bio_short_en": "One of the most famous warriors of Arabia, known as the 'hero of heroes' (batal al-abtal). He initially apostatized during the Riddah, then returned to Islam. Fought in the conquest of Persia with Sa'd ibn Abi Waqqas and was martyred at the Battle of Nihawand.",
     "bio_en": "Amr ibn Ma'dikarib al-Zubaidi was the most celebrated warrior-hero of Yemen and one of the most famous fighters in pre-Islamic and early Islamic Arabia. He was known for his extraordinary physical strength, skilled swordsmanship, and poetic ability. He was also one of the Riddah (apostasy) participants — after the Prophet's death, he joined the apostates of his tribe briefly before genuinely returning to Islam. Under Abu Bakr's caliphate, he was pardoned and became a devoted Muslim fighter. He joined Sa'd ibn Abi Waqqas's army for the conquest of Iraq and Persia. His sword, al-Samsama, was one of the most famous weapons in Arabia — a poetic composition of his was essentially an ode to this sword. He participated in the great battles of the Persian conquest. He was martyred at the Battle of Nihawand in 21 AH, the battle that ended Sassanid military resistance and was later called the 'Conquest of Conquests' (Fath al-Futuh). He was approximately 80-90 years old at the time of his death, illustrating the extraordinary vitality of some of these ancient warriors."
+  },
+  {
+    "id": 577,
+    "slug": "hassan-ibn-thabit",
+    "name": "حسان بن ثابت",
+    "name_ar": "حسان بن ثابت الأنصاري",
+    "name_en": "Hassan ibn Thabit",
+    "name_en_alt": [
+      "Hasan ibn Thabit",
+      "Hassan ibn Thabit al-Ansari",
+      "Poet of the Prophet"
+    ],
+    "bio_short_en": "The Prophet's ﷺ poet, an Ansari companion known as 'Poet of the Prophet.' He composed verses in defense of Islam and the Prophet ﷺ. He lived to approximately 120 years, spanning pre-Islamic and Islamic eras.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 54,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "poet",
+      "ansari",
+      "medina"
+    ]
+  },
+  {
+    "id": 578,
+    "slug": "kab-ibn-malik",
+    "name": "كعب بن مالك",
+    "name_ar": "كعب بن مالك الأنصاري",
+    "name_en": "Ka'b ibn Malik",
+    "name_en_alt": [
+      "Kaab ibn Malik",
+      "Ka'b ibn Malik al-Ansari"
+    ],
+    "bio_short_en": "An Ansari companion and one of the three Sahabah who stayed behind from the Battle of Tabuk. He was a poet who composed verses defending Islam. His repentance and forgiveness are mentioned in Surah al-Tawbah.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 50,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "poet",
+      "ansari",
+      "tabuk",
+      "medina"
+    ]
+  },
+  {
+    "id": 579,
+    "slug": "mughirah-ibn-shubah",
+    "name": "المغيرة بن شعبة",
+    "name_ar": "المغيرة بن شعبة الثقفي",
+    "name_en": "al-Mughirah ibn Shu'bah",
+    "name_en_alt": [
+      "Mughirah ibn Shuba",
+      "al-Mughira ibn Shu'ba"
+    ],
+    "bio_short_en": "A prominent companion known for his intelligence and diplomatic skill. He served as governor of Basra and Kufa under Umar and Muawiyah. He participated in the early conquests and was famous for his strategic thinking.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 50,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "governor",
+      "diplomat",
+      "thaqif",
+      "kufa",
+      "basra"
+    ]
+  },
+  {
+    "id": 580,
+    "slug": "ikrimah-ibn-abi-jahl",
+    "name": "عكرمة بن أبي جهل",
+    "name_ar": "عكرمة بن أبو جهل القرشي",
+    "name_en": "Ikrimah ibn Abi Jahl",
+    "name_en_alt": [
+      "Ikrima ibn Abi Jahl",
+      "Ikrimah son of Abu Jahl"
+    ],
+    "bio_short_en": "Son of Abu Jahl, initially a fierce enemy of Islam. He embraced Islam at the Conquest of Makkah and became a gallant warrior. He was martyred at the Battle of Ajnadayn in 13 AH during the conquest of Syria.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 13,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "quraysh",
+      "warrior",
+      "ajnadayn",
+      "makkah conquest"
+    ]
+  },
+  {
+    "id": 582,
+    "slug": "safwan-ibn-umayyah",
+    "name": "صفوان بن أمية",
+    "name_ar": "صفوان بن أمية الجمحي",
+    "name_en": "Safwan ibn Umayyah",
+    "name_en_alt": [
+      "Safwan ibn Umayya"
+    ],
+    "bio_short_en": "A leading Qurayshi nobleman and son of Umayyah ibn Khalaf. Initially opposed to Islam, he accepted Islam after the Conquest of Makkah after the Prophet ﷺ gave him time to consider and loaned him armour for the Battle of Hunayn.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 42,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "quraysh",
+      "makkah conquest",
+      "hunayn"
+    ]
+  },
+  {
+    "id": 583,
+    "slug": "umm-sulaym-bint-milhan",
+    "name": "أم سليم بنت ملحان",
+    "name_ar": "أم سليم بنت ملحان الأنصارية",
+    "name_en": "Umm Sulaym bint Milhan",
+    "name_en_alt": [
+      "Umm Sulaym al-Ansariyyah",
+      "Rumaythah bint Milhan"
+    ],
+    "bio_short_en": "Mother of Anas ibn Malik and a devoted Ansari companion. She was known for her deep faith, wisdom, and courage. She participated in battles, tending the wounded and supplying water. Her sister was Umm Haram bint Milhan.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "medina",
+      "mother of anas",
+      "female"
+    ]
+  },
+  {
+    "id": 584,
+    "slug": "umm-haram-bint-milhan",
+    "name": "أم حرام بنت ملحان",
+    "name_ar": "أم حرام بنت ملحان الأنصارية",
+    "name_en": "Umm Haram bint Milhan",
+    "name_en_alt": [
+      "Umm Haram al-Ansariyyah"
+    ],
+    "bio_short_en": "An Ansari companion who participated in the first Muslim naval expedition to Cyprus in 28 AH. She died there after falling from her horse, becoming the first woman to die in a naval jihad. The Prophet ﷺ had foretold her martyrdom.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 28,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "naval",
+      "cyprus",
+      "martyrdom",
+      "female"
+    ]
+  },
+  {
+    "id": 585,
+    "slug": "thabit-ibn-qays",
+    "name": "ثابت بن قيس",
+    "name_ar": "ثابت بن قيس بن شماس الأنصاري",
+    "name_en": "Thabit ibn Qays",
+    "name_en_alt": [
+      "Thabit ibn Qays al-Ansari",
+      "Orator of the Prophet"
+    ],
+    "bio_short_en": "An Ansari companion known as the 'orator of the Prophet ﷺ' (khatib al-nabi). He was famous for his eloquent speech and played an important role in delegations. He was martyred at the Battle of Yamama in 12 AH fighting Musaylima.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 12,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "orator",
+      "yamama",
+      "martyrdom"
+    ]
+  },
+  {
+    "id": 586,
+    "slug": "ibn-umm-maktum",
+    "name": "ابن أم مكتوم",
+    "name_ar": "عبدالله بن أم مكتوم القرشي",
+    "name_en": "Abd Allah ibn Umm Maktum",
+    "name_en_alt": [
+      "Ibn Umm Maktum",
+      "Amr ibn Umm Maktum",
+      "Abdullah ibn Umm Maktum"
+    ],
+    "bio_short_en": "A blind companion of Quraysh who was an early Muslim and substitute muadhdhin in Madinah alongside Bilal. He is referenced in Surah Abasa (80:1-10). The Prophet ﷺ appointed him as stand-in governor of Madinah during military expeditions.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 15,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "quraysh",
+      "blind",
+      "muadhdhin",
+      "abasa",
+      "medina"
+    ]
+  },
+  {
+    "id": 587,
+    "slug": "khuzaymah-ibn-thabit",
+    "name": "خزيمة بن ثابت",
+    "name_ar": "خزيمة بن ثابت الأنصاري",
+    "name_en": "Khuzaymah ibn Thabit",
+    "name_en_alt": [
+      "Khuzayma ibn Thabit",
+      "Dhu al-Shahadatayn"
+    ],
+    "bio_short_en": "An Ansari companion known as Dhu al-Shahadatayn ('the one with two testimonies') because the Prophet ﷺ declared his single testimony to be equivalent to that of two witnesses. He refused to fight at Siffin until Uthman's killer was identified, then was martyred there.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 37,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "dhu al-shahadatayn",
+      "siffin",
+      "martyrdom"
+    ]
+  },
+  {
+    "id": 588,
+    "slug": "qays-ibn-sad-ibn-ubadah",
+    "name": "قيس بن سعد بن عبادة",
+    "name_ar": "قيس بن سعد بن عبادة الأنصاري",
+    "name_en": "Qays ibn Sa'd ibn Ubadah",
+    "name_en_alt": [
+      "Qays ibn Saad"
+    ],
+    "bio_short_en": "Son of Sa'd ibn Ubadah, the Ansari chief. He was one of the most intelligent and strategically gifted companions, serving as head of Ali ibn Abi Talib's police force and governor of Egypt. Known for extraordinary generosity.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 60,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "governor",
+      "egypt",
+      "ali",
+      "khazraj"
+    ]
+  },
+  {
+    "id": 589,
+    "slug": "abu-al-haytham-ibn-al-tayyihan",
+    "name": "أبو الهيثم بن التيهان",
+    "name_ar": "أبو الهيثم مالك بن التيهان الأنصاري",
+    "name_en": "Abu al-Haytham ibn al-Tayyihan",
+    "name_en_alt": [
+      "Abu al-Haytham al-Ansari",
+      "Malik ibn al-Tayyihan"
+    ],
+    "bio_short_en": "One of the twelve Ansari leaders (nuqaba) at the First and Second Pledges of Aqabah. He was among the earliest Ansari Muslims, fought at Badr, and was present at all major battles with the Prophet ﷺ.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 37,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "aqabah",
+      "badr",
+      "naqib",
+      "aws"
+    ]
+  },
+  {
+    "id": 592,
+    "slug": "dirar-ibn-al-azwar",
+    "name": "ضرار بن الأزور",
+    "name_ar": "ضرار بن الأزور الأسدي",
+    "name_en": "Dirar ibn al-Azwar",
+    "name_en_alt": [
+      "Dhirar ibn al-Azwar"
+    ],
+    "bio_short_en": "A renowned companion and warrior of the Ridda Wars and early Islamic conquests. Known for extraordinary bravery in combat, he participated in the battles against Musaylima and the conquest of Iraq and Syria under Khalid ibn al-Walid.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 14,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "warrior",
+      "ridda wars",
+      "iraq",
+      "syria",
+      "khalid"
+    ]
+  },
+  {
+    "id": 593,
+    "slug": "al-qaqa-ibn-amr",
+    "name": "القعقاع بن عمرو",
+    "name_ar": "القعقاع بن عمرو التميمي",
+    "name_en": "al-Qa'qa' ibn Amr al-Tamimi",
+    "name_en_alt": [
+      "al-Qa'qa ibn Amr",
+      "Qaqa ibn Amr"
+    ],
+    "bio_short_en": "One of the most brilliant military commanders of early Islamic history. He played a decisive role in the Battle of Qadisiyyah, where his tactical reinforcements turned the tide of battle. Sa'd ibn Abi Waqqas said his arrival was worth a thousand warriors. He continued in the conquests of Persia.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "qadisiyyah",
+      "persia",
+      "general",
+      "tamim",
+      "warrior"
+    ]
+  },
+  {
+    "id": 594,
+    "slug": "al-muthanna-ibn-haritha",
+    "name": "المثنى بن حارثة",
+    "name_ar": "المثنى بن حارثة الشيباني",
+    "name_en": "al-Muthanna ibn Haritha",
+    "name_en_alt": [
+      "al-Muthanna ibn Haritha al-Shaybani"
+    ],
+    "bio_short_en": "The pioneering hero of the early Iraq conquest. He was the first to begin raiding Persian territories and brought reports to Abu Bakr that initiated the Iraq campaign. He fought alongside Khalid ibn al-Walid and continued after Khalid's transfer to Syria, though was later wounded and died from his wounds.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 13,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "iraq",
+      "persia",
+      "general",
+      "shaybani",
+      "khalid"
+    ]
+  },
+  {
+    "id": 595,
+    "slug": "al-numan-ibn-muqarrin",
+    "name": "النعمان بن مقرن",
+    "name_ar": "النعمان بن مقرن المزني",
+    "name_en": "al-Nu'man ibn Muqarrin",
+    "name_en_alt": [
+      "al-Numan ibn Muqarrin",
+      "Numan ibn Muqarrin"
+    ],
+    "bio_short_en": "A senior companion who served as governor and military commander. Umar ibn al-Khattab appointed him to lead the decisive Battle of Nihawand (21 AH), the final major battle that broke Persian resistance. He was martyred in the battle, which was called Fath al-Futuh (the Conquest of Conquests).",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 21,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "nihawand",
+      "persia",
+      "general",
+      "martyrdom",
+      "muzaynah"
+    ]
+  },
+  {
+    "id": 596,
+    "slug": "khalid-ibn-said-ibn-al-as",
+    "name": "خالد بن سعيد بن العاص",
+    "name_ar": "خالد بن سعيد بن العاص الأموي",
+    "name_en": "Khalid ibn Sa'id ibn al-As",
+    "name_en_alt": [
+      "Khalid ibn Said ibn al-As"
+    ],
+    "bio_short_en": "One of the earliest converts to Islam, among the first ten to embrace the faith. He and his brother Amr ibn Sa'id served the Prophet ﷺ as secretaries. He participated in both Hijrahs to Abyssinia and later served as governor of Yemen and a commander in the Syria campaigns.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 14,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "early convert",
+      "umayyad",
+      "secretary",
+      "abyssinia",
+      "syria"
+    ]
+  },
+  {
+    "id": 597,
+    "slug": "hurmuz-ibn-hurmuz",
+    "name": "هرمز بن هرمز",
+    "name_ar": "هرمز الفارسي",
+    "name_en": "Hurmuz ibn Hurmuz",
+    "name_en_alt": [
+      "Hormuz the Persian",
+      "Hurmuz the satrap"
+    ],
+    "bio_short_en": "The Persian satrap (governor) of the Ubulla region in southern Iraq. He was the first major Persian commander encountered by the Muslim forces. Khalid ibn al-Walid defeated and killed him at the Battle of Dhat al-Salasil (Battle of the Chains) in 12 AH, which opened the conquest of Iraq.",
+    "bio_en": null,
+    "era": "contemporary",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Persian",
+    "born_ah": null,
+    "died_ah": 12,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "persian",
+      "satrap",
+      "iraq",
+      "ubulla",
+      "khalid",
+      "battle of chains"
+    ]
+  },
+  {
+    "id": 598,
+    "slug": "bahman-jadhuyih",
+    "name": "بهمن جاذويه",
+    "name_ar": "بهمن جاذويه القائد الفارسي",
+    "name_en": "Bahman Jadhuyih",
+    "name_en_alt": [
+      "Dhul Hajib",
+      "Bahman Jadhuya"
+    ],
+    "bio_short_en": "A senior Persian general who commanded at the Battle of the Bridge (13 AH), inflicting the worst defeat on the Muslim forces during the Iraq conquest. Later he negotiated surrender terms at the Battle of Buwayb. He was eventually killed during the later phases of the Iraq conquest.",
+    "bio_en": null,
+    "era": "contemporary",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Persian",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "persian",
+      "general",
+      "battle of the bridge",
+      "iraq"
+    ]
+  },
+  {
+    "id": 599,
+    "slug": "ali-ibn-al-husayn-zayn-al-abidin",
+    "name": "علي بن الحسين زين العابدين",
+    "name_ar": "علي بن الحسين بن علي بن أبي طالب",
+    "name_en": "Ali ibn al-Husayn (Zayn al-Abidin)",
+    "name_en_alt": [
+      "Zayn al-Abidin",
+      "Ali ibn Husayn",
+      "al-Sajjad"
+    ],
+    "bio_short_en": "The son of Husayn ibn Ali and grandson of Ali ibn Abi Talib. He survived the tragedy of Karbala as a child. Known for his profound piety, extensive worship, and the Sahifah al-Sajjadiyyah — a collection of his supplications. He is a major figure in Tabieen scholarship.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 38,
+    "died_ah": 95,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "ahl al-bayt",
+      "karbala",
+      "dua",
+      "sahifah",
+      "tabieen"
+    ]
+  },
+  {
+    "id": 600,
+    "slug": "masruq-ibn-al-ajda",
+    "name": "مسروق بن الأجدع",
+    "name_ar": "مسروق بن الأجدع الهمداني",
+    "name_en": "Masruq ibn al-Ajda",
+    "name_en_alt": [
+      "Masruq al-Hamdani"
+    ],
+    "bio_short_en": "A major Tabieen scholar of Kufah and one of the foremost students of Abdullah ibn Masud. He was a leading authority in fiqh and hadith and was known for his asceticism. His narrations from Ibn Masud are among the most reliable in the hadith corpus.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 63,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "kufa",
+      "ibn masud",
+      "tabieen",
+      "fiqh",
+      "hamdani"
+    ]
+  },
+  {
+    "id": 601,
+    "slug": "alqamah-ibn-qays",
+    "name": "علقمة بن قيس",
+    "name_ar": "علقمة بن قيس النخعي",
+    "name_en": "Alqamah ibn Qays al-Nakhai",
+    "name_en_alt": [
+      "Alqama ibn Qays",
+      "Alqamah al-Nakhai"
+    ],
+    "bio_short_en": "A leading Kufi Tabieen scholar and student of Abd Allah ibn Masud. He was a foremost authority in fiqh in Kufah and one of the primary links in the Hanafi chain of transmission. His jurisprudence greatly influenced Ibrahim al-Nakhai and later Abu Hanifah.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 62,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "kufa",
+      "tabieen",
+      "hanafi",
+      "fiqh",
+      "nakhai"
+    ]
+  },
+  {
+    "id": 602,
+    "slug": "abd-al-rahman-ibn-abi-layla",
+    "name": "عبد الرحمن بن أبي ليلى",
+    "name_ar": "عبد الرحمن بن أبي ليلى الأنصاري",
+    "name_en": "Abd al-Rahman ibn Abi Layla",
+    "name_en_alt": [
+      "Ibn Abi Layla",
+      "Abdurrahman ibn Abi Layla"
+    ],
+    "bio_short_en": "A prominent Tabieen scholar who served as judge (qadi) of Kufah. Son of an Ansari companion, he was a student of Ali ibn Abi Talib and narrated from many companions. He is known as one of the foremost jurists of his generation in Iraq.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 83,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "kufa",
+      "tabieen",
+      "qadi",
+      "ansari",
+      "fiqh"
+    ]
+  },
+  {
+    "id": 603,
+    "slug": "makhul-al-shami",
+    "name": "مكحول الشامي",
+    "name_ar": "مكحول بن أبي مسلم الشامي",
+    "name_en": "Makhul al-Shami",
+    "name_en_alt": [
+      "Makhul al-Azdi"
+    ],
+    "bio_short_en": "A major Tabieen imam of Syria (al-Sham). Born a slave of Nubian or Greek origin, he was freed and became a leading scholar of Damascus. He was the foremost authority in fiqh and hadith in Syria in his era, and his school heavily influenced Syrian jurisprudence.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "tabi",
+    "gender": "male",
+    "nationality": "Other",
+    "born_ah": null,
+    "died_ah": 118,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "syria",
+      "damascus",
+      "tabieen",
+      "fiqh",
+      "slave"
+    ]
+  },
+  {
+    "id": 604,
+    "slug": "muhammad-al-baqir",
+    "name": "محمد الباقر",
+    "name_ar": "محمد بن علي بن الحسين الباقر",
+    "name_en": "Muhammad al-Baqir",
+    "name_en_alt": [
+      "al-Baqir",
+      "Muhammad ibn Ali al-Baqir",
+      "Muhammad ibn Zayn al-Abidin"
+    ],
+    "bio_short_en": "Son of Ali ibn al-Husayn (Zayn al-Abidin) and grandson of Husayn ibn Ali. Known as 'al-Baqir' (the one who splits knowledge open), he was a major Tabi Tabieen scholar in Madinah, preserving and transmitting a large body of Islamic knowledge. He is revered as the 5th Imam by Twelver Shia.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "scholar",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 57,
+    "died_ah": 114,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "ahl al-bayt",
+      "medina",
+      "tabi tabieen",
+      "scholarship"
+    ]
+  },
+  {
+    "id": 605,
+    "slug": "zayd-ibn-ali",
+    "name": "زيد بن علي",
+    "name_ar": "زيد بن علي بن الحسين",
+    "name_en": "Zayd ibn Ali",
+    "name_en_alt": [
+      "Zayd ibn Ali ibn al-Husayn"
+    ],
+    "bio_short_en": "Son of Zayn al-Abidin and brother of Muhammad al-Baqir. A major scholar of hadith and fiqh, he led an uprising against the Umayyad caliph Hisham ibn Abd al-Malik and was martyred in Kufah in 122 AH. He is considered the founder of the Zaydi school of jurisprudence.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "scholar",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 75,
+    "died_ah": 122,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "ahl al-bayt",
+      "zaydi",
+      "martyrdom",
+      "kufa",
+      "jurisprudence"
+    ]
+  },
+  {
+    "id": 606,
+    "slug": "jafar-al-sadiq",
+    "name": "جعفر الصادق",
+    "name_ar": "جعفر بن محمد الصادق",
+    "name_en": "Jafar al-Sadiq",
+    "name_en_alt": [
+      "Jafar ibn Muhammad al-Sadiq",
+      "al-Sadiq"
+    ],
+    "bio_short_en": "Son of Muhammad al-Baqir and a major scholar of the Tabi Tabieen generation. He taught both Abu Hanifah and Malik ibn Anas among others. He is revered as the 6th Imam by Twelver Shia and the founder of the Ja'fari school. Known for his vast knowledge across many disciplines.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "scholar",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 83,
+    "died_ah": 148,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "ahl al-bayt",
+      "medina",
+      "tabi tabieen",
+      "abu hanifah",
+      "malik"
+    ]
+  },
+  {
+    "id": 607,
+    "slug": "sahl-ibn-sad-al-ansari",
+    "name": "سهل بن سعد الأنصاري",
+    "name_ar": "سهل بن سعد الساعدي الأنصاري",
+    "name_en": "Sahl ibn Sa'd al-Ansari",
+    "name_en_alt": [
+      "Sahl ibn Sa'd al-Sa'idi"
+    ],
+    "bio_short_en": "An Ansari companion from the Banu Sa'idah tribe who is considered the last surviving companion in Madinah, dying around 88 AH at age 91 or 100. He narrated many hadith and was a respected authority in Madinah well into the Umayyad period.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 88,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "madinah",
+      "khazraj",
+      "long-lived companion"
+    ]
+  },
+  {
+    "id": 608,
+    "slug": "uqbah-ibn-amir-al-juhani",
+    "name": "عقبة بن عامر الجهني",
+    "name_ar": "عقبة بن عامر الجهني",
+    "name_en": "Uqbah ibn Amir al-Juhani",
+    "name_en_alt": [
+      "Uqba ibn Amir"
+    ],
+    "bio_short_en": "A companion known for his extensive knowledge of Quran and hadith, and an accomplished horseman. He served as governor of Egypt under Muawiyah ibn Abi Sufyan. He transmitted many hadith and is considered a major authority from Egypt among the companions.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 58,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "egypt",
+      "governor",
+      "juhaynih",
+      "quran",
+      "horseman"
+    ]
+  },
+  {
+    "id": 609,
+    "slug": "imran-ibn-husayn",
+    "name": "عمران بن حصين",
+    "name_ar": "عمران بن حصين الخزاعي",
+    "name_en": "Imran ibn Husayn",
+    "name_en_alt": [
+      "Imran ibn Hussain"
+    ],
+    "bio_short_en": "A companion of the Prophet ﷺ and a major hadith narrator, known for his piety and asceticism. He settled in Basra, where he became a leading authority. He was reported to have heard the angels speak and greet him throughout his life.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 52,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "basra",
+      "khuza'ah",
+      "hadith",
+      "angels",
+      "ascetic"
+    ]
+  },
+  {
+    "id": 610,
+    "slug": "tamim-al-dari",
+    "name": "تميم الداري",
+    "name_ar": "تميم بن أوس الداري",
+    "name_en": "Tamim al-Dari",
+    "name_en_alt": [
+      "Tamim ibn Aws al-Dari"
+    ],
+    "bio_short_en": "A companion who converted from Christianity and was the first non-Arab to narrate directly from the Prophet ﷺ. He was a Palestinian from the Banu Lakhm tribe and was known for his intense worship, particularly praying the entire Quran in a single rak'ah. He narrated the famous hadith of the Dajjal.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 40,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "christian convert",
+      "palestine",
+      "dajjal",
+      "quran recitation",
+      "non-arab"
+    ]
+  },
+  {
+    "id": 611,
+    "slug": "al-arqam-ibn-abi-al-arqam",
+    "name": "الأرقم بن أبي الأرقم",
+    "name_ar": "الأرقم بن أبي الأرقم المخزومي",
+    "name_en": "al-Arqam ibn Abi al-Arqam",
+    "name_en_alt": [
+      "Arqam ibn Abi al-Arqam",
+      "Abu Abdullah al-Arqam"
+    ],
+    "bio_short_en": "An early companion who provided his house in Makkah as the first meeting place for Muslims, known as 'Dar al-Arqam' (House of al-Arqam). The Prophet ﷺ and the early companions would gather there secretly during the persecution. Umar ibn al-Khattab accepted Islam in this house.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 55,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "dar al-arqam",
+      "early muslim",
+      "makkah",
+      "quraysh",
+      "makhzum"
+    ]
+  },
+  {
+    "id": 612,
+    "slug": "abd-allah-ibn-abi-sarh",
+    "name": "عبدالله بن أبي السرح",
+    "name_ar": "عبدالله بن سعد بن أبي السرح العامري",
+    "name_en": "Abd Allah ibn Abi Sarh",
+    "name_en_alt": [
+      "Abdullah ibn Abi Sarh",
+      "Ibn Abi Sarh"
+    ],
+    "bio_short_en": "A companion who served as a scribe for the Prophet ﷺ, then apostatized and fled to Makkah. He was one of those the Prophet ﷺ ordered to be killed at the Conquest of Makkah, but was spared through the intercession of Uthman ibn Affan, his foster brother. He later served as a commander in the conquest of North Africa and became governor of Egypt.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 37,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "egypt",
+      "governor",
+      "north africa",
+      "naval",
+      "quraysh",
+      "uthman"
+    ]
+  },
+  {
+    "id": 613,
+    "slug": "iyad-ibn-ghanm",
+    "name": "عياض بن غنم",
+    "name_ar": "عياض بن غنم الفهري",
+    "name_en": "Iyad ibn Ghanm",
+    "name_en_alt": [
+      "Iyadh ibn Ghanm"
+    ],
+    "bio_short_en": "A companion who served as a senior commander in the conquest of the Jazira (upper Mesopotamia) region. He participated in the conquest of Syria under Abu Ubayda and later became governor of the Jazira and Mosul area. Known for his gentleness and diplomatic approach to conquests.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 20,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "jazira",
+      "mosul",
+      "syria",
+      "commander",
+      "qurashi",
+      "fihri"
+    ]
+  },
+  {
+    "id": 614,
+    "slug": "said-ibn-al-as",
+    "name": "سعيد بن العاص",
+    "name_ar": "سعيد بن العاص الأموي",
+    "name_en": "Sa'id ibn al-As",
+    "name_en_alt": [
+      "Said ibn al-As"
+    ],
+    "bio_short_en": "A companion and prominent Umayyad leader who served as governor of Kufa under Uthman ibn Affan. Known for his eloquence, generosity, and noble character — the Prophet ﷺ said he resembled him most in physical appearance. He participated in various expeditions including the conquest of Tabaristan.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 59,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "umayyad",
+      "kufa",
+      "governor",
+      "eloquence",
+      "quraysh"
+    ]
+  },
+  {
+    "id": 615,
+    "slug": "umayr-ibn-al-humam",
+    "name": "عمير بن الحمام",
+    "name_ar": "عمير بن الحمام الأنصاري",
+    "name_en": "Umayr ibn al-Humam",
+    "name_en_alt": [
+      "Umayr ibn Humam"
+    ],
+    "bio_short_en": "An Ansari companion who was the first Muslim warrior to be martyred in battle at the Battle of Badr in 2 AH. When the Prophet ﷺ described Paradise awaiting the martyrs, Umayr threw away the dates he was eating and rushed into battle, being killed immediately.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 2,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "badr",
+      "first martyr",
+      "paradise",
+      "khazraj"
+    ]
+  },
+  {
+    "id": 616,
+    "slug": "nuaym-ibn-masud",
+    "name": "نعيم بن مسعود",
+    "name_ar": "نعيم بن مسعود الأشجعي",
+    "name_en": "Nuaym ibn Masud",
+    "name_en_alt": [
+      "Nuaym ibn Masood al-Ashjai"
+    ],
+    "bio_short_en": "A companion who played a pivotal intelligence role during the Battle of the Trench (Khandaq). He secretly defected from the Confederate forces and, with the Prophet's ﷺ permission, used deception to sow discord among the Quraysh, Banu Nadir, and Ghatafan, causing the alliance to break apart.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "trench",
+      "khandaq",
+      "intelligence",
+      "ashja",
+      "ghatafan"
+    ]
+  },
+  {
+    "id": 617,
+    "slug": "abu-lubabah-al-ansari",
+    "name": "أبو لبابة الأنصاري",
+    "name_ar": "أبو لبابة بشير بن عبد المنذر الأنصاري",
+    "name_en": "Abu Lubabah al-Ansari",
+    "name_en_alt": [
+      "Abu Lubabah ibn Abd al-Mundhir"
+    ],
+    "bio_short_en": "An Ansari companion known for his famous act of repentance. During the siege of Banu Qurayza, he disclosed a secret signal to the tribe, then bound himself to a mosque pillar in repentance until Allah accepted his tawbah and verse was revealed. He participated in most battles with the Prophet ﷺ.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "banu qurayza",
+      "repentance",
+      "tawbah",
+      "aws"
+    ]
   }
 ]

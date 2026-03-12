@@ -15,7 +15,13 @@
     "opponent": "Quraysh of Mecca",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Badr was the first major armed engagement between the nascent Muslim community of Medina and the Quraysh of Mecca. On 17 Ramadan, 2 AH, approximately 313 Muslims faced a Qurayshi force of around 950. The Muslims had originally set out to intercept a Qurayshi trade caravan, but the caravan escaped and a Qurayshi army marched to confront them. Despite being outnumbered nearly three to one, the Muslim force achieved a decisive victory. Allah sent angels to aid the believers, as mentioned in Surah Al-Anfal. Seventy prominent Qurayshi leaders were killed, including Abu Jahl, and seventy more were taken prisoner. Only fourteen Muslims were martyred. The victory established the political credibility of the Muslim state in Medina, demonstrated that the Qurayshi military machine was not invincible, and provided the early Muslim community with vital resources and confidence. The Quran devotes a full surah — Al-Anfal — to the lessons of this battle, emphasising that the victory came from Allah alone.",
-    "sources": ["Quran 8:1-19", "Sahih Bukhari 3958-3992", "Sahih Muslim 1763", "Ibn Hisham Seerah vol. 2", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 3"]
+    "sources": [
+      "Quran 8:1-19",
+      "Sahih Bukhari 3958-3992",
+      "Sahih Muslim 1763",
+      "Ibn Hisham Seerah vol. 2",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 3"
+    ]
   },
   {
     "id": 2002,
@@ -33,7 +39,13 @@
     "opponent": "Quraysh of Mecca",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Uhud was fought one year after Badr when the Quraysh, smarting from their defeat, returned with an army of approximately 3,000 to confront the Muslim force of around 700. The Muslims initially gained the upper hand, but a group of archers stationed on a hillside abandoned their post in pursuit of spoils, violating the Prophet's ﷺ explicit orders. Khalid ibn al-Walid, then fighting for the Quraysh, exploited the gap to flank the Muslim force. The resulting chaos led to the deaths of around 70 Muslim martyrs, most prominently Hamza ibn Abd al-Muttalib, the Prophet's uncle. The Prophet ﷺ himself was wounded. The Quran addressed the defeat in Surah Al-Imran, explaining it as a test and a lesson: victory comes with obedience to Allah and His Messenger. The battle is a profound reminder in Islamic tradition that disobedience to command brings consequences even upon the righteous, and that hardship is part of Allah's wisdom for the believers.",
-    "sources": ["Quran 3:121-180", "Sahih Bukhari 4043-4075", "Sahih Muslim 1789", "Ibn Hisham Seerah vol. 2", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"]
+    "sources": [
+      "Quran 3:121-180",
+      "Sahih Bukhari 4043-4075",
+      "Sahih Muslim 1789",
+      "Ibn Hisham Seerah vol. 2",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"
+    ]
   },
   {
     "id": 2003,
@@ -51,7 +63,13 @@
     "opponent": "Quraysh, Ghatafan, and allied tribes (Ahzab)",
     "outcome": "muslim_victory",
     "description_en": "The Battle of the Trench, also called al-Ahzab (the Confederates), saw an unprecedented coalition of Quraysh, Ghatafan, and various Arab and Jewish tribes besiege Medina with a combined force estimated between 10,000 and 24,000 fighters. On the suggestion of Salman al-Farisi, the Muslims dug a trench along the northern exposed approach to Medina — a tactic previously unknown to the Arabs. The siege lasted approximately 25 days. The confederate coalition was unable to breach the trench and was weakened by internal divisions engineered by the Muslim diplomat Nu'aym ibn Mas'ud. Allah sent a severe windstorm that disrupted the confederate camp and broke their resolve, as mentioned in Surah Al-Ahzab. The coalition withdrew without achieving their objective. The successful defence of Medina against this massive alliance marked the high-water mark of Qurayshi military power and effectively ended the existential threat to the Muslim state. The Quran praised the believers' steadfastness and condemned the hypocrites who had counselled surrender.",
-    "sources": ["Quran 33:9-27", "Sahih Bukhari 4101-4116", "Sahih Muslim 1803", "Ibn Hisham Seerah vol. 3", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"]
+    "sources": [
+      "Quran 33:9-27",
+      "Sahih Bukhari 4101-4116",
+      "Sahih Muslim 1803",
+      "Ibn Hisham Seerah vol. 3",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"
+    ]
   },
   {
     "id": 2004,
@@ -63,13 +81,18 @@
     "date_display": "Muharram, 7 AH / May 628 CE",
     "period": "Prophetic Era",
     "location": "Khaybar, Hejaz",
-    "location_lat": 25.70,
+    "location_lat": 25.7,
     "location_lng": 39.29,
     "muslim_commander": "Prophet Muhammad ﷺ",
     "opponent": "Jewish tribes of Khaybar",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Khaybar was fought against a fortified Jewish settlement in the Hejaz, whose inhabitants had conspired with the Quraysh and other enemies against the Muslims. The Prophet ﷺ led approximately 1,400 to 1,600 Muslims against a series of heavily fortified forts. The most celebrated episode was when the Prophet ﷺ gave the standard to Ali ibn Abi Talib, saying he would give it to a man whom Allah loves and who loves Allah. Ali led the assault on the main fortress and conquered it. The Jewish population that remained was permitted to continue farming their lands under an arrangement whereby they surrendered half the produce to the Muslims — an arrangement that continued until the caliphate of Umar ibn al-Khattab. The conquest secured the northern flank of Medina, eliminated a major base of opposition, and provided significant material resources to the Muslim community. Several companions, including Ja'far ibn Abi Talib who had returned from Abyssinia, joined the Muslims just after the victory.",
-    "sources": ["Sahih Bukhari 4196-4240", "Sahih Muslim 1807-1812", "Ibn Hisham Seerah vol. 3", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"]
+    "sources": [
+      "Sahih Bukhari 4196-4240",
+      "Sahih Muslim 1807-1812",
+      "Ibn Hisham Seerah vol. 3",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"
+    ]
   },
   {
     "id": 2005,
@@ -87,7 +110,12 @@
     "opponent": "Byzantine Empire and Ghassanid allies",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Mu'tah was the first major Muslim engagement against the Byzantine Empire, fought in what is today southern Jordan. The Prophet ﷺ dispatched approximately 3,000 men under Zayd ibn Haritha to avenge the killing of his ambassador by the Ghassanid ruler. They faced a Byzantine and allied force reportedly numbering in the tens of thousands. The three commanders appointed in succession by the Prophet ﷺ — Zayd ibn Haritha, Ja'far ibn Abi Talib, and Abdullah ibn Rawaha — all fell as martyrs in battle. Command passed to Khalid ibn al-Walid, who had only recently embraced Islam. Through brilliant tactical manoeuvring, Khalid managed an orderly withdrawal, saving the Muslim force from annihilation and earning the title Sayf Allah (Sword of Allah) from the Prophet ﷺ. Though militarily inconclusive, the battle demonstrated Muslim willingness to confront the most powerful empire of the age and established Khalid's extraordinary military gifts.",
-    "sources": ["Sahih Bukhari 4261-4265", "Sahih Muslim 1798", "Ibn Hisham Seerah vol. 3", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"]
+    "sources": [
+      "Sahih Bukhari 4261-4265",
+      "Sahih Muslim 1798",
+      "Ibn Hisham Seerah vol. 3",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"
+    ]
   },
   {
     "id": 2006,
@@ -105,7 +133,13 @@
     "opponent": "Quraysh of Mecca",
     "outcome": "muslim_victory",
     "description_en": "The Conquest of Mecca stands as one of the most remarkable events in Islamic history — a near-bloodless recapture of the sacred city by the same community that had been expelled from it years earlier. After the Quraysh violated the Treaty of Hudaybiyyah by attacking a tribe allied with the Muslims, the Prophet ﷺ mobilised an army of approximately 10,000 and marched on Mecca. The Quraysh, overawed by the size of the force, offered little resistance. Abu Sufyan ibn Harb embraced Islam and was instrumental in persuading the Meccans to surrender. The Prophet ﷺ entered Mecca with his head bowed in humility, not in triumph. He declared a general amnesty for the population, famously asking what they expected him to do before saying: 'Go, you are free.' The idols in and around the Ka'bah were destroyed and the sanctuary purified. The Conquest represented the culmination of the Prophetic mission and opened the door to mass acceptance of Islam across the Arabian Peninsula.",
-    "sources": ["Quran 48:1-3", "Sahih Bukhari 4279-4280", "Sahih Muslim 1780", "Ibn Hisham Seerah vol. 4", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"]
+    "sources": [
+      "Quran 48:1-3",
+      "Sahih Bukhari 4279-4280",
+      "Sahih Muslim 1780",
+      "Ibn Hisham Seerah vol. 4",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"
+    ]
   },
   {
     "id": 2007,
@@ -123,7 +157,13 @@
     "opponent": "Hawazin and Thaqif tribes",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Hunayn took place shortly after the Conquest of Mecca when the Hawazin and Thaqif tribal confederacy mobilised to confront the Muslim army before it could consolidate control of the Hejaz. Despite the Muslims now numbering approximately 12,000 — the largest Muslim force yet assembled — they suffered a serious initial setback. The Hawazin ambushed them in the narrow valley, and many of the recently converted Meccans and some veterans fled in panic. Only the Prophet ﷺ with a small core of steadfast companions stood firm. His composure and the rallying cry of the Ansar turned the tide, and the Muslim force ultimately routed the Hawazin, capturing enormous spoils including 6,000 prisoners and vast livestock. The Quran directly referenced this battle in Surah at-Tawbah, reminding the believers that their large numbers had availed them nothing and that victory came from Allah alone. The battle was a correction of any pride that may have followed the bloodless conquest of Mecca days earlier.",
-    "sources": ["Quran 9:25-27", "Sahih Bukhari 4317-4323", "Sahih Muslim 1775", "Ibn Hisham Seerah vol. 4", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"]
+    "sources": [
+      "Quran 9:25-27",
+      "Sahih Bukhari 4317-4323",
+      "Sahih Muslim 1775",
+      "Ibn Hisham Seerah vol. 4",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"
+    ]
   },
   {
     "id": 2008,
@@ -141,7 +181,13 @@
     "opponent": "Byzantine Empire (no engagement)",
     "outcome": "inconclusive",
     "description_en": "The Expedition of Tabuk was the largest military mobilisation during the Prophet's ﷺ lifetime, involving approximately 30,000 soldiers who marched to the northern frontier to confront a reported Byzantine build-up. The march took place in extreme heat during harvest season, making it a severe test of faith and commitment. Many hypocrites and waverers stayed behind, and the Quran devotes extensive passages in Surah at-Tawbah to criticising their excuses and honouring the sincere believers who participated despite hardship. The famous 'three who were left behind' — Ka'b ibn Malik, Murarah ibn Rabi'ah, and Hilal ibn Umayyah — who stayed behind without valid excuse were boycotted until Allah revealed their repentance after fifty days. The Byzantine force did not engage; several border chieftains made treaties with the Muslims. Though no battle occurred, Tabuk demonstrated Muslim capacity to project force at long range and established the northern frontier of the nascent Islamic state.",
-    "sources": ["Quran 9:38-129", "Sahih Bukhari 4418-4425", "Sahih Muslim", "Ibn Hisham Seerah vol. 4", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 5"]
+    "sources": [
+      "Quran 9:38-129",
+      "Sahih Bukhari 4418-4425",
+      "Sahih Muslim",
+      "Ibn Hisham Seerah vol. 4",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 5"
+    ]
   },
   {
     "id": 2009,
@@ -153,13 +199,18 @@
     "date_display": "11 AH / 632 CE",
     "period": "Rashidun Caliphate",
     "location": "Buzakha, Najd",
-    "location_lat": 26.50,
-    "location_lng": 43.50,
+    "location_lat": 26.5,
+    "location_lng": 43.5,
     "muslim_commander": "Khalid ibn al-Walid",
     "opponent": "Tulayha ibn Khuwaylid (false prophet) and Asad tribe",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Buzakha was one of the major engagements of the Ridda Wars — the campaigns waged by Abu Bakr al-Siddiq to reunify the Arabian Peninsula after the Prophet's ﷺ death. When news of the Prophet's ﷺ death spread, several false prophets emerged and many tribes apostasised or refused to pay zakat. Among the most significant was Tulayha ibn Khuwaylid of the Asad tribe, who claimed prophethood and gathered a substantial following. Khalid ibn al-Walid, dispatched by Abu Bakr, confronted Tulayha at Buzakha. Despite initial resistance, the Muslim force prevailed decisively. Remarkably, Tulayha himself later embraced Islam sincerely and went on to become a respected warrior in the subsequent conquests of Iraq and Persia. The victory at Buzakha broke the back of the Asad tribe's rebellion and allowed Khalid to advance further into Najd, systematically restoring Muslim authority across the peninsula.",
-    "sources": ["Al-Tabari Tarikh vol. 3", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6", "Al-Baladhuri Futuh al-Buldan", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 3",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"
+    ]
   },
   {
     "id": 2010,
@@ -177,7 +228,12 @@
     "opponent": "Musaylima al-Kadhdhab (false prophet) and Banu Hanifa",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Yamama was the most costly and significant engagement of the Ridda Wars. Musaylima ibn Habib, mockingly called al-Kadhdhab (the Liar) by Muslims, had claimed prophethood in the Yamama region and commanded a large and well-organised following from the powerful Banu Hanifa tribe. The Muslim force under Khalid ibn al-Walid initially struggled against the determined resistance; the battle fluctuated severely, with the Muslim right and left wings temporarily pushed back. Wahshi ibn Harb, who had killed Hamza at Uhud and later embraced Islam, slew Musaylima, fulfilling his vow to use his skill only for Islam after his conversion. The death of Musaylima broke the resistance, though the victory came at immense cost: approximately 1,200 Muslims were martyred, including around 360-700 companions who had memorised the Quran. This catastrophic loss of Quran memorisers prompted Abu Bakr to commission the first written compilation of the Quran.",
-    "sources": ["Sahih Bukhari 4902", "Al-Tabari Tarikh vol. 3", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"]
+    "sources": [
+      "Sahih Bukhari 4902",
+      "Al-Tabari Tarikh vol. 3",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"
+    ]
   },
   {
     "id": 2011,
@@ -189,13 +245,18 @@
     "date_display": "12 AH / May 633 CE",
     "period": "Rashidun Caliphate",
     "location": "Ullais, Iraq",
-    "location_lat": 31.20,
-    "location_lng": 47.10,
+    "location_lat": 31.2,
+    "location_lng": 47.1,
     "muslim_commander": "Khalid ibn al-Walid",
     "opponent": "Sasanid Persian forces and Arab Christian allies",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Ullais, sometimes called the 'River of Blood,' was one of the early engagements in the Muslim conquest of Iraq against the Sasanid Persian Empire. Khalid ibn al-Walid's force of approximately 18,000 faced a combined Persian and Arab Christian force along the Euphrates. The battle was fierce, with the Persian and allied forces attempting to use the river as a defensive barrier. The Muslim cavalry outmanoeuvred the enemy, cutting off their retreat. The victory opened the lower Euphrates region to Muslim control and was part of the rapid series of victories through which Khalid demonstrated the vulnerability of the Sasanid frontier forces, which had been exhausted by decades of war with Byzantium. The engagement demonstrated the extraordinary offensive capability of the Muslim armies against professional forces of much larger empires.",
-    "sources": ["Al-Tabari Tarikh vol. 3", "Al-Baladhuri Futuh al-Buldan", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 3",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"
+    ]
   },
   {
     "id": 2012,
@@ -213,7 +274,12 @@
     "opponent": "Sasanid Persian Empire under Rustam Farrukhzad",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Al-Qadisiyyah was among the most consequential engagements in world history, effectively ending Sasanid Persian dominance in Mesopotamia. Sa'd ibn Abi Waqqas commanded a Muslim force of approximately 30,000 against the main Sasanid army of similar size, which included war elephants and was commanded by the capable general Rustam Farrukhzad. The battle lasted three days, with the Persians enjoying initial advantages due to their elephants. On the third day, Muslim cavalry neutralised the elephants by targeting their trunks, causing them to trample their own troops. Rustam was killed and the Sasanid army collapsed. The victory opened the road to the Sasanid capital Ctesiphon (Al-Mada'in) and effectively dismantled Persian imperial power in Iraq. Sa'd ibn Abi Waqqas, a maternal uncle of the Prophet ﷺ and one of the ten promised Paradise, directed the battle from a position due to illness, praying throughout the engagement.",
-    "sources": ["Al-Tabari Tarikh vol. 3-4", "Al-Baladhuri Futuh al-Buldan", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 3-4",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"
+    ]
   },
   {
     "id": 2013,
@@ -231,7 +297,12 @@
     "opponent": "Byzantine Empire under Vahan",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Yarmouk was one of the most decisive military engagements in medieval history, ending Byzantine control of the Levant. The Byzantine Emperor Heraclius assembled a massive force, variously estimated at 80,000 to 150,000, to dislodge the Muslim armies that had been spreading through Syria. The Muslim force numbered approximately 25,000 to 40,000 and was commanded overall by Khalid ibn al-Walid, who had been redeployed from Iraq at great speed. Over six days of intense fighting in the Yarmouk valley, Khalid's tactical brilliance repeatedly outmanoeuvred the larger Byzantine army. A dust storm on the final day aided the Muslim advance. The Byzantine force was routed, with enormous casualties. Emperor Heraclius reportedly lamented from afar: 'Farewell, O Syria, and what an excellent country this is for the enemy.' The defeat effectively ended Byzantine rule over Greater Syria and opened the way for the Muslim conquest of Palestine, Jordan, and Lebanon.",
-    "sources": ["Al-Tabari Tarikh vol. 4", "Al-Baladhuri Futuh al-Buldan", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 4",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"
+    ]
   },
   {
     "id": 2014,
@@ -249,7 +320,12 @@
     "opponent": "Byzantine garrison under Patriarch Sophronius",
     "outcome": "muslim_victory",
     "description_en": "The peaceful surrender of Jerusalem to the Muslims stands as one of the most remarkable episodes of religious tolerance in the history of warfare. Following the victory at Yarmouk, Muslim forces under Abu Ubayda ibn al-Jarrah besieged the city. The Patriarch Sophronius insisted that he would only surrender the keys to the Caliph himself, so Umar ibn al-Khattab travelled from Medina to accept the surrender in person. Umar's famous entry into Jerusalem — dressed modestly, riding a camel, alternating with his servant — stood in sharp contrast to the behaviour of Roman and later Crusader conquerors. He toured the city, prayed at Christian holy sites without claiming them for Islam, and issued the Covenant of Umar guaranteeing the safety of the inhabitants, their lives, property, and churches. No churches were seized, no civilians harmed. The city's Jewish community, expelled by Byzantine rule, was permitted to return. The conquest established a model of governance of sacred space that would be frequently contrasted with the massacres of the Crusader conquest in 1099.",
-    "sources": ["Al-Tabari Tarikh vol. 4", "Al-Baladhuri Futuh al-Buldan", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 4",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"
+    ]
   },
   {
     "id": 2015,
@@ -261,13 +337,18 @@
     "date_display": "21 AH / 642 CE",
     "period": "Rashidun Caliphate",
     "location": "Nahavand, Persia (modern Iran)",
-    "location_lat": 34.20,
+    "location_lat": 34.2,
     "location_lng": 48.38,
     "muslim_commander": "Nu'man ibn Muqarrin",
     "opponent": "Sasanid Persian Empire",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Nahavand, known in Arabic sources as 'Fath al-Futuh' (Conquest of Conquests), was the decisive final engagement that broke the last organised Sasanid resistance in Persia. The Sasanid Emperor Yazdegerd III assembled a large force, reportedly 100,000 to 150,000, in a last-ditch attempt to repel the Muslim advance. The Muslim army of approximately 30,000 under Nu'man ibn Muqarrin was initially engaged at a disadvantage by the Persian defensive formations and elephant corps. Nu'man ibn Muqarrin was martyred in the fighting but his deputy, Hudhayfah ibn al-Yaman, took command and completed the victory. The Persian force was shattered. Yazdegerd III fled eastward and was eventually assassinated by one of his own subjects in Merv in 651 CE, ending the Sasanid dynasty. The battle opened the Persian heartland to Muslim settlement and the subsequent peaceful spread of Islam among the Persian population over the following generations.",
-    "sources": ["Al-Tabari Tarikh vol. 4", "Al-Baladhuri Futuh al-Buldan", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 4",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2"
+    ]
   },
   {
     "id": 2016,
@@ -279,13 +360,18 @@
     "date_display": "21 AH / 641 CE",
     "period": "Rashidun Caliphate",
     "location": "Alexandria, Egypt",
-    "location_lat": 31.20,
+    "location_lat": 31.2,
     "location_lng": 29.92,
     "muslim_commander": "Amr ibn al-As",
     "opponent": "Byzantine Empire",
     "outcome": "muslim_victory",
     "description_en": "The conquest of Alexandria completed the Muslim takeover of Egypt, one of the wealthiest provinces of the Byzantine Empire and the breadbasket of the ancient world. Amr ibn al-As had entered Egypt in 639 CE with a relatively small force, winning a series of engagements culminating in the Battle of Heliopolis in 640 CE. After capturing Babylon Fortress (near modern Cairo), Muslim forces advanced on Alexandria, the imperial capital of Egypt. A fourteen-month siege ended when the Byzantine garrison negotiated a surrender and withdrew by sea. Amr entered the city peacefully and wrote to Caliph Umar ibn al-Khattab describing its vastness: 'I have taken a city of which I can only say that it contains 4,000 palaces, 4,000 baths, 400 theatres, 1,200 greengrocers and 40,000 tributary Jews.' The city's Christian Coptic population, long oppressed by Byzantine religious authorities, largely welcomed the change. Egypt's agricultural output then helped sustain the early Islamic state.",
-    "sources": ["Al-Tabari Tarikh vol. 4", "Al-Baladhuri Futuh al-Buldan", "Ibn Abd al-Hakam Futuh Misr", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 4",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Abd al-Hakam Futuh Misr",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7"
+    ]
   },
   {
     "id": 2017,
@@ -303,7 +389,12 @@
     "opponent": "Aisha, Talha ibn Ubaydullah, and Zubayr ibn al-Awwam",
     "outcome": "inconclusive",
     "description_en": "The Battle of the Camel was the first major armed conflict between Muslims, occurring during the First Fitna (civil strife) following the assassination of Uthman ibn Affan. A coalition led by Aisha (the Mother of the Believers), Talha ibn Ubaydullah, and Zubayr ibn al-Awwam — all senior companions — demanded that Ali ibn Abi Talib pursue the killers of Uthman before they would recognise his caliphate. The battle gets its name from the camel upon which Aisha was carried in a litter, which became the focal point of fighting. Zubayr withdrew before the main battle after Ali reminded him of a hadith, and was later killed. Talha was wounded and died shortly after. Aisha's forces were defeated, and she was escorted with full honours back to Medina. Approximately 10,000 Muslims died on both sides. Ahl us-Sunnah scholars maintain silence about the conflict, acknowledging that all parties were sincere believers who made ijtihad, erred in some cases, and that we hope for Allah's mercy on them all.",
-    "sources": ["Al-Tabari Tarikh vol. 5", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 3", "Ibn Hajar al-Asqalani Al-Isaba"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 5",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 3",
+      "Ibn Hajar al-Asqalani Al-Isaba"
+    ]
   },
   {
     "id": 2018,
@@ -321,7 +412,12 @@
     "opponent": "Muawiyah ibn Abi Sufyan",
     "outcome": "inconclusive",
     "description_en": "The Battle of Siffin was the largest engagement of the First Fitna, fought between the forces of the Caliph Ali ibn Abi Talib and the Syrian governor Muawiyah ibn Abi Sufyan, who refused to give allegiance until Uthman's killers were brought to justice. The two armies faced each other for months on the banks of the Euphrates before serious fighting erupted. After prolonged battles in which thousands were killed on both sides, Muawiyah's forces attached pages of the Quran to their spears, calling for arbitration by the Book of Allah. Ali's army, particularly the Kharijite faction within it, insisted on accepting this call, although Ali himself was reportedly reluctant. The arbitration at Adhruh ended inconclusively and satisfied no one. The episode led to the emergence of the Kharijites who considered both Ali and Muawiyah to have erred, and Ali was later assassinated by a Kharijite. Ahl us-Sunnah regards all parties as sincere Muslims in error on a political question, and refrains from cursing any companion.",
-    "sources": ["Al-Tabari Tarikh vol. 5", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7-8", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 3", "Nasr ibn Muzahim Waq'at Siffin"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 5",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7-8",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 3",
+      "Nasr ibn Muzahim Waq'at Siffin"
+    ]
   },
   {
     "id": 2019,
@@ -339,7 +435,12 @@
     "opponent": "Umayyad forces under Umar ibn Sa'd, ordered by Ubaydullah ibn Ziyad",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Karbala is one of the most tragic events in Islamic history. Husayn ibn Ali, the grandson of the Prophet ﷺ and son of Ali ibn Abi Talib, refused to give allegiance to Yazid ibn Muawiyah, whose public conduct he considered unbecoming of a Muslim ruler. After receiving tens of thousands of pledges of support from the people of Kufa, Husayn travelled toward Iraq with a small group of family and companions, around 72 fighters. The Kufan support evaporated under Umayyad pressure. Husayn's group was intercepted at Karbala by a large Umayyad force and denied water from the Euphrates. On the Day of Ashura, the 10th of Muharram, Husayn and almost all the men with him were killed. The women and children, including his son Ali ibn Husayn (Zayn al-Abidin), were taken captive to Kufa and then Damascus. Ahl us-Sunnah regard Husayn as a martyr, mourn his killing as a great wrong, and fast on Ashura as the Prophet ﷺ prescribed. They do not hold theatrical mourning rituals, which are later innovations.",
-    "sources": ["Al-Tabari Tarikh vol. 5", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 8", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 4", "Al-Dhahabi Siyar A'lam al-Nubala vol. 3"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 5",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 8",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 4",
+      "Al-Dhahabi Siyar A'lam al-Nubala vol. 3"
+    ]
   },
   {
     "id": 2020,
@@ -357,7 +458,12 @@
     "opponent": "Raja Dahir of Sindh",
     "outcome": "muslim_victory",
     "description_en": "The conquest of Sindh under the young Umayyad general Muhammad ibn Qasim, just seventeen years old at the time, brought the Indus Valley into the Muslim world. The campaign was triggered by attacks on Muslim merchant ships by pirates under Sindhi jurisdiction. Governor Al-Hajjaj ibn Yusuf of Iraq dispatched Muhammad ibn Qasim with a professional army of approximately 6,000 cavalry and 6,000 infantry. The decisive engagement was the Battle of Aror (Rohri) in 712 CE, where Raja Dahir was killed. Muhammad ibn Qasim's administration was notable for its pragmatism: Hindus and Buddhists were treated as dhimmis — protected peoples — allowed to continue their religious practices and maintain their temples. This policy laid the foundations for centuries of Muslim rule in the subcontinent. The conquest opened the doorway to Islam's spread across South Asia. Tragically, Muhammad ibn Qasim was later executed on the orders of a new Umayyad governor.",
-    "sources": ["Al-Baladhuri Futuh al-Buldan", "Al-Tabari Tarikh vol. 6", "Chachnama (Arabic: Fath al-Bilad)", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 4"]
+    "sources": [
+      "Al-Baladhuri Futuh al-Buldan",
+      "Al-Tabari Tarikh vol. 6",
+      "Chachnama (Arabic: Fath al-Bilad)",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 4"
+    ]
   },
   {
     "id": 2021,
@@ -375,7 +481,12 @@
     "opponent": "Visigothic Kingdom under King Roderic (Rodrigo)",
     "outcome": "muslim_victory",
     "description_en": "The conquest of Al-Andalus was one of the most rapid territorial acquisitions in Islamic history. Tariq ibn Ziyad, a freed slave who had risen to command in North Africa, crossed the Strait of Gibraltar with approximately 7,000 Berber and Arab troops. At the Battle of Guadalete (Wadi Laka) in July 711, the Visigothic army of King Roderic was decisively defeated; Roderic himself died in the battle. With Visigothic power broken in a single engagement, Tariq advanced rapidly through the peninsula. His superior, Musa ibn Nusayr, crossed with a larger force to consolidate and extend the conquest. Within three years, Muslim forces controlled most of the Iberian Peninsula. The famous speech attributed to Tariq — burning the boats and telling his men 'The sea is behind you and the enemy before you' — captures the spirit of the enterprise. Al-Andalus went on to become one of the great civilisations of the medieval world, with Córdoba as its jewel.",
-    "sources": ["Al-Tabari Tarikh vol. 6", "Al-Baladhuri Futuh al-Buldan", "Ibn Abd al-Hakam Futuh Ifriqiya wal-Andalus", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 4"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 6",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Abd al-Hakam Futuh Ifriqiya wal-Andalus",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 4"
+    ]
   },
   {
     "id": 2022,
@@ -387,13 +498,18 @@
     "date_display": "114 AH / October 732 CE",
     "period": "Umayyad Dynasty",
     "location": "Between Tours and Poitiers, France",
-    "location_lat": 46.70,
+    "location_lat": 46.7,
     "location_lng": 0.35,
     "muslim_commander": "Abd al-Rahman al-Ghafiqi",
     "opponent": "Franks under Charles Martel",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Poitiers, known in Arabic as Balat al-Shuhada (Plain of the Martyrs), halted the northward expansion of Muslim forces into the Frankish heartland. Abd al-Rahman al-Ghafiqi, the governor of Al-Andalus, led a large raiding expedition deep into Francia, sacking cities including Bordeaux. Near Poitiers, the Muslim cavalry force met the Frankish infantry army of Charles Martel after seven days of skirmishing. The Muslim cavalry failed to break the Frankish shield wall, and when a feint or genuine retreat began toward their camp to protect captured goods, much of the army disengaged. Abd al-Rahman al-Ghafiqi was killed in the fighting. Muslim forces withdrew overnight and returned to Al-Andalus. The battle is often cited in Western historiography as having 'saved Christendom,' though historians debate the extent of what was intended — whether a conquest or an extended raid. Muslim power in the Iberian Peninsula remained intact and continued to flourish for centuries.",
-    "sources": ["Al-Tabari Tarikh vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 5", "Chronicle of 754", "Al-Maqqari Nafh al-Tib"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 5",
+      "Chronicle of 754",
+      "Al-Maqqari Nafh al-Tib"
+    ]
   },
   {
     "id": 2023,
@@ -411,7 +527,12 @@
     "opponent": "Tang Chinese Empire under Gao Xianzhi",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Talas was a rare direct military clash between the expanding Islamic world and the Tang Chinese Empire at the far reaches of Central Asia. The battle arose from a dispute over control of the Fergana Valley when the ruler of Tashkent appealed to the Arabs after being attacked by a Tang Chinese force under the Korean general Gao Xianzhi. The Abbasid force, recently victorious in overthrowing the Umayyads, met the Tang army at the Talas River. The defection of the Karluk Turk allies from the Chinese force proved decisive; attacked on multiple flanks, the Tang army was routed and Gao Xianzhi barely escaped. The battle is considered a significant turning point in history: it halted Chinese westward expansion and secured Central Asia for Islam, which continues to this day. A historically significant side effect was that Chinese paper-making artisans captured during the battle transmitted that technology to the Muslim world and eventually Europe, accelerating the production of books and knowledge.",
-    "sources": ["Al-Tabari Tarikh vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 5", "Zizhi Tongjian (Chinese chronicle)", "Barthold Turkestan Down to the Mongol Invasion"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 5",
+      "Zizhi Tongjian (Chinese chronicle)",
+      "Barthold Turkestan Down to the Mongol Invasion"
+    ]
   },
   {
     "id": 2024,
@@ -423,13 +544,17 @@
     "date_display": "Jumada al-Awwal, 132 AH / January 750 CE",
     "period": "Abbasid Dynasty",
     "location": "Greater Zab River, Iraq",
-    "location_lat": 36.10,
-    "location_lng": 43.40,
+    "location_lat": 36.1,
+    "location_lng": 43.4,
     "muslim_commander": "Abdullah ibn Ali (Abbasid)",
     "opponent": "Umayyad Caliph Marwan II",
     "outcome": "muslim_victory",
     "description_en": "The Battle of the Great Zab was the decisive engagement that ended Umayyad rule and established the Abbasid Caliphate. The Abbasid revolution had originated in Khurasan, exploiting widespread discontent with Umayyad governance, particularly the marginalisation of non-Arab Muslims. The last Umayyad caliph, Marwan II — a capable military commander — gathered his forces for a final stand at the Greater Zab River in Iraq. The Abbasid force under Abdullah ibn Ali, uncle of the first Abbasid caliph, decisively defeated the Umayyad army. Marwan II fled westward through Palestine and Egypt, where he was eventually killed in a church in Egypt. The Abbasids then hunted down and killed members of the Umayyad family, with the exception of Abd al-Rahman, who escaped to Al-Andalus and established an independent Umayyad emirate there. The battle shifted the political centre of the Muslim world eastward, with the new capital Baghdad replacing Damascus.",
-    "sources": ["Al-Tabari Tarikh vol. 7", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 5", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 10"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 7",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 5",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 10"
+    ]
   },
   {
     "id": 2025,
@@ -447,7 +572,12 @@
     "opponent": "First Crusade (Frankish forces)",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Dorylaeum was an early engagement of the First Crusade in which Seljuk Sultan Kilij Arslan I attempted to destroy the crusading army before it could cross Anatolia. Kilij Arslan had underestimated the crusaders, having already annihilated the poorly equipped 'People's Crusade' earlier. His force initially fell upon the advance column of Bohemond of Taranto and inflicted serious damage, surrounding it and causing heavy casualties. However, the arrival of the main crusading army under Godfrey of Bouillon and Raymond of Toulouse reversed the situation, and the Seljuk cavalry, unable to withstand the combined pressure, withdrew. Kilij Arslan abandoned his baggage train and treasury. The defeat opened Anatolia to crusader passage, allowing them to proceed toward Syria. The fragmented state of the Muslim world — with Seljuks, Fatimids, and local emirs in competition — meant there was no unified response to the crusading invasion.",
-    "sources": ["Ibn al-Qalanisi Dhail Tarikh Dimashq", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10", "Gesta Francorum", "Steven Runciman History of the Crusades vol. 1"]
+    "sources": [
+      "Ibn al-Qalanisi Dhail Tarikh Dimashq",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10",
+      "Gesta Francorum",
+      "Steven Runciman History of the Crusades vol. 1"
+    ]
   },
   {
     "id": 2026,
@@ -459,13 +589,18 @@
     "date_display": "491 AH / June 1098 CE",
     "period": "Crusades Era",
     "location": "Antioch, Syria (modern Antakya, Turkey)",
-    "location_lat": 36.20,
+    "location_lat": 36.2,
     "location_lng": 36.16,
     "muslim_commander": "Yaghi-Siyan (garrison commander)",
     "opponent": "First Crusade",
     "outcome": "muslim_defeat",
     "description_en": "The Siege of Antioch during the First Crusade lasted seven and a half months, from October 1097 to June 1098, and was one of the longest and most brutal episodes of the crusading era. The city, defended by the Seljuk governor Yaghi-Siyan, withstood crusader investment through the winter despite famine and cold devastating both sides. The city finally fell through betrayal when an Armenian guard opened one of the towers to Bohemond's men. The crusaders massacred much of the Muslim and some of the Christian population. In an ironic reversal, the very next day a large relief army under Kerbogha of Mosul arrived too late to prevent the city's fall and then besieged the crusaders inside it. The crusaders, now themselves besieged and starving, sortied out and defeated Kerbogha's force, largely due to the reluctance of rival Muslim emirs to cooperate. The fall of Antioch was a significant blow that opened the road to Jerusalem.",
-    "sources": ["Ibn al-Qalanisi Dhail Tarikh Dimashq", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10", "Gesta Francorum", "Steven Runciman History of the Crusades vol. 1"]
+    "sources": [
+      "Ibn al-Qalanisi Dhail Tarikh Dimashq",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10",
+      "Gesta Francorum",
+      "Steven Runciman History of the Crusades vol. 1"
+    ]
   },
   {
     "id": 2027,
@@ -483,7 +618,12 @@
     "opponent": "First Crusade",
     "outcome": "muslim_defeat",
     "description_en": "The fall of Jerusalem to the First Crusade on 15 July 1099 was accompanied by one of the most savage massacres of the medieval period. The Fatimid garrison under Iftikhar al-Dawla had expelled the Christian and Jewish populations before the siege and defended the city for five weeks. When the crusaders breached the walls, the massacre that followed shocked even some contemporaries. The Jewish community who had taken refuge in a synagogue were burnt alive. The Muslim population who had not been allowed to surrender was killed en masse. Medieval Muslim chroniclers expressed horror and grief at the event. Ibn al-Athir wrote that more than 70,000 were killed in the al-Aqsa mosque area alone. The city remained under Crusader control for 88 years until Saladin's reconquest in 1187. The contrast between the Crusader conquest and the earlier Muslim conquest under Umar ibn al-Khattab — which was entirely peaceful — became a powerful reference point in Islamic historical memory.",
-    "sources": ["Ibn al-Qalanisi Dhail Tarikh Dimashq", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10", "Gesta Francorum", "Fulcher of Chartres Historia Hierosolymitana"]
+    "sources": [
+      "Ibn al-Qalanisi Dhail Tarikh Dimashq",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10",
+      "Gesta Francorum",
+      "Fulcher of Chartres Historia Hierosolymitana"
+    ]
   },
   {
     "id": 2028,
@@ -501,7 +641,11 @@
     "opponent": "Principality of Antioch under Roger of Salerno",
     "outcome": "muslim_victory",
     "description_en": "The Battle of the Field of Blood was a decisive Muslim victory over the Crusader Principality of Antioch. Roger of Salerno, regent of Antioch, chose to engage the Artuqid army of Il-Ghazi despite the advice of his vassals to wait for reinforcements. Il-Ghazi had assembled a large Turkoman army and lured the Antiochene force into difficult terrain. The crusader army was ambushed in a narrow valley, surrounded, and systematically destroyed. Roger of Salerno was killed in the fighting along with virtually his entire army — approximately 700 knights and thousands of infantry. The scale of the defeat sent shockwaves through the crusader states. The victory temporarily crippled Antioch and demonstrated that Muslim commanders had learnt how to defeat crusader heavy cavalry by denying them the space to charge effectively. However, Il-Ghazi failed to follow up the victory by besieging Antioch, and the Frankish states recovered.",
-    "sources": ["Ibn al-Qalanisi Dhail Tarikh Dimashq", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10", "Walter the Chancellor Bella Antiochena"]
+    "sources": [
+      "Ibn al-Qalanisi Dhail Tarikh Dimashq",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10",
+      "Walter the Chancellor Bella Antiochena"
+    ]
   },
   {
     "id": 2029,
@@ -513,13 +657,18 @@
     "date_display": "24 Rabi al-Thani, 583 AH / July 4, 1187 CE",
     "period": "Crusades Era",
     "location": "Horns of Hattin, Galilee",
-    "location_lat": 32.80,
+    "location_lat": 32.8,
     "location_lng": 35.49,
     "muslim_commander": "Saladin (Salah al-Din al-Ayyubi)",
     "opponent": "Kingdom of Jerusalem under Guy of Lusignan",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Hattin was one of the most consequential military engagements of the medieval period, setting the stage for Saladin's reconquest of Jerusalem. Saladin, who had spent years patiently unifying the Muslim states of Syria and Egypt, lured the crusader army out of its fortresses in the height of summer by threatening Tiberias. The crusader army marched across waterless terrain to relieve Tiberias and was surrounded at the Horns of Hattin, a twin-peaked hill near the Sea of Galilee. Denied access to water, harassed by fire and arrows, the crusader army disintegrated. King Guy of Lusignan was captured, along with the True Cross, which the crusaders had brought as a holy relic. Raynald of Châtillon, who had repeatedly violated truces including attacking a Mecca-bound caravan, was personally executed by Saladin. Around 200 Knights Templar and Hospitaller were executed. The Crusader military power in the Levant was effectively broken in a single day, and Jerusalem fell three months later.",
-    "sources": ["Ibn al-Athir Al-Kamil fit-Tarikh vol. 11", "Baha al-Din ibn Shaddad Sirat Salah al-Din", "Imad al-Din al-Isfahani Al-Fath al-Qussi", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 12"]
+    "sources": [
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 11",
+      "Baha al-Din ibn Shaddad Sirat Salah al-Din",
+      "Imad al-Din al-Isfahani Al-Fath al-Qussi",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 12"
+    ]
   },
   {
     "id": 2030,
@@ -537,7 +686,12 @@
     "opponent": "Crusader garrison under Balian of Ibelin",
     "outcome": "muslim_victory",
     "description_en": "Saladin's reconquest of Jerusalem on 27 Rajab 583 AH — the anniversary of the Isra' wal-Mi'raj — was a moment of profound spiritual and historical significance. After the decisive victory at Hattin, Saladin systematically recaptured the crusader fortresses of the Levant. The garrison of Jerusalem under Balian of Ibelin initially threatened to destroy the city and kill its Muslim population if not given terms. Saladin negotiated a surrender: Christians could ransom themselves and leave; those who could not pay were to become slaves. Saladin then personally and quietly paid the ransoms of many poor crusaders, and his brother was criticised for releasing 1,000 captives without ransom. The contrast with the 1099 Crusader massacre was immediate and widely noted. Saladin entered the city and restored it to Muslim administration. The gold cross was removed from the Dome of the Rock, and the al-Aqsa mosque was cleansed and restored to worship after 88 years. Saladin's chivalrous conduct became legendary even in Western tradition.",
-    "sources": ["Ibn al-Athir Al-Kamil fit-Tarikh vol. 11", "Baha al-Din ibn Shaddad Sirat Salah al-Din", "Imad al-Din al-Isfahani", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 12"]
+    "sources": [
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 11",
+      "Baha al-Din ibn Shaddad Sirat Salah al-Din",
+      "Imad al-Din al-Isfahani",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 12"
+    ]
   },
   {
     "id": 2031,
@@ -555,7 +709,11 @@
     "opponent": "Third Crusade under Richard I of England (Richard Lionheart)",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Arsuf was fought during the Third Crusade, when Richard I of England marched his army from Acre south along the coast toward Jaffa. Saladin's forces harassed the crusader column continuously, attempting to break the discipline of the march. Richard's forces maintained their formation with remarkable discipline under constant archery and cavalry harassment. Near Arsuf, Hospitaller knights at the rear of the column broke ranks in a charge, forcing Richard to commit his whole force. Despite some disorder, the crusader cavalry charge drove Saladin's forces from the field. Saladin suffered his first significant battlefield defeat by crusaders and lost prestige. However, Saladin's army remained intact, and Richard was unable to exploit the victory decisively. He captured Jaffa but ultimately could not reconquer Jerusalem. The Third Crusade ended with the Treaty of Jaffa in 1192, which left Jerusalem in Muslim hands but allowed Christian pilgrims access to the holy sites.",
-    "sources": ["Ibn al-Athir Al-Kamil fit-Tarikh vol. 11", "Baha al-Din ibn Shaddad Sirat Salah al-Din", "Itinerarium Peregrinorum et Gesta Regis Ricardi"]
+    "sources": [
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 11",
+      "Baha al-Din ibn Shaddad Sirat Salah al-Din",
+      "Itinerarium Peregrinorum et Gesta Regis Ricardi"
+    ]
   },
   {
     "id": 2032,
@@ -573,7 +731,11 @@
     "opponent": "Crusader coalition and Syrian Ayyubid allies",
     "outcome": "muslim_victory",
     "description_en": "The Battle of La Forbie was one of the worst military disasters suffered by the Crusader states, comparable in scale to Hattin. The Ayyubid sultan of Egypt, al-Salih Ayyub, had allied with displaced Khwarazmian Turks who had been expelled from their homeland by the Mongols. This combined force recaptured Jerusalem in 1244 — the city had briefly been returned to Crusader control by diplomatic treaty — and then faced a large coalition of Crusaders and Syrian Ayyubid princes who opposed Egyptian dominance. The battle near Gaza was a comprehensive Muslim victory: the Crusader force of approximately 1,000 knights and thousands of infantry was nearly annihilated. Only 33 Knights Templar and 26 Hospitallers escaped. The Syrian Ayyubid princes who had allied with the Crusaders were also routed. Jerusalem would remain under Muslim control, never again returning to Crusader hands. The catastrophic defeat prompted Louis IX of France to organise the Seventh Crusade.",
-    "sources": ["Ibn al-Athir Al-Kamil fit-Tarikh vol. 12", "Abu Shama Kitab al-Rawdatayn", "Matthew Paris Chronica Majora"]
+    "sources": [
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 12",
+      "Abu Shama Kitab al-Rawdatayn",
+      "Matthew Paris Chronica Majora"
+    ]
   },
   {
     "id": 2033,
@@ -591,7 +753,12 @@
     "opponent": "Crusader garrison of Acre",
     "outcome": "muslim_victory",
     "description_en": "The Fall of Acre in May 1291 marked the end of the Crusader presence in the Holy Land after nearly two centuries. Acre, the last major Crusader stronghold, was defended by a garrison of Knights Templar, Hospitaller, Teutonic Knights, and Venetian and Genoese troops. The Mamluk Sultan al-Ashraf Khalil assembled a massive siege train, reportedly including over 100 catapults. After approximately six weeks of bombardment and assault, the outer walls were breached. The fighting was intense, and the Knights Templar held out in their great tower until it collapsed. Much of the civilian Christian population escaped by sea. The fall ended the Crusader political project in Palestine and Syria definitively. The Mamluks systematically demolished the city to prevent any future use as a crusader beachhead. The event was mourned deeply in Europe and prompted calls for further crusading, though no effective response ever materialised. The Holy Land remained under Muslim governance.",
-    "sources": ["Al-Maqrizi Al-Suluk", "Ibn al-Furat Tarikh al-Duwal wal-Muluk", "Marino Sanudo Torsello Secreta Fidelium Crucis", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13"]
+    "sources": [
+      "Al-Maqrizi Al-Suluk",
+      "Ibn al-Furat Tarikh al-Duwal wal-Muluk",
+      "Marino Sanudo Torsello Secreta Fidelium Crucis",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13"
+    ]
   },
   {
     "id": 2034,
@@ -609,7 +776,12 @@
     "opponent": "Genghis Khan (Mongol Empire)",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of the Indus was the final stand of Jalal al-Din Mangburni, the last Khwarazmian sultan, against the Mongol horde of Genghis Khan. The Mongol invasion of Khwarezm (1219-1221) had been triggered by the killing of Mongol merchants and ambassadors by the Khwarazmian Shah — an act that unleashed one of the most devastating military campaigns in history. City after city was razed: Samarkand, Bukhara, Merv, Nishapur — all centres of Islamic civilisation were destroyed with enormous civilian casualties. Jalal al-Din gathered a remnant force and actually defeated a Mongol force at Parwan, but was then personally pursued by Genghis Khan to the banks of the Indus. Surrounded, Jalal al-Din's army fought heroically but was overwhelmed. With the Mongols closing in from three sides, Jalal al-Din spurred his horse off a cliff into the river and swam to safety in India — an act Genghis Khan reportedly watched with admiration. The Khwarazmian state ceased to exist.",
-    "sources": ["Al-Nasawi Sirat al-Sultan Jalal al-Din Mankubirti", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 12", "Juzjani Tabaqat-i-Nasiri", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13"]
+    "sources": [
+      "Al-Nasawi Sirat al-Sultan Jalal al-Din Mankubirti",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 12",
+      "Juzjani Tabaqat-i-Nasiri",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13"
+    ]
   },
   {
     "id": 2035,
@@ -622,12 +794,17 @@
     "period": "Mongol Invasions",
     "location": "Baghdad, Iraq",
     "location_lat": 33.34,
-    "location_lng": 44.40,
+    "location_lng": 44.4,
     "muslim_commander": "Caliph Al-Musta'sim Billah (Abbasid)",
     "opponent": "Mongol Empire under Hulagu Khan",
     "outcome": "muslim_defeat",
     "description_en": "The Mongol sack of Baghdad in February 1258 was among the most catastrophic events in Islamic history, bringing to an end the Abbasid Caliphate which had been the symbolic centre of Sunni Islam for five centuries. Hulagu Khan's force of approximately 150,000 invested Baghdad, and despite the vast city's resources, the Caliph al-Musta'sim failed to mount an adequate defence or send for aid. After thirteen days of bombardment, Baghdad fell. The city was subjected to a week of massacre and burning; modern estimates of casualties range from 200,000 to 800,000 dead. The Caliph was executed — the Mongols were reportedly reluctant to spill royal blood, so he was wrapped in felt and trampled by horses. The House of Wisdom, with its irreplaceable libraries, was destroyed, with books thrown into the Tigris until the river reportedly ran black with ink. The catastrophe was so severe that contemporaries believed it was the end of Islam itself. Ibn al-Athir wept as he wrote: 'I wish I had not been born to witness this.'",
-    "sources": ["Ibn al-Athir Al-Kamil fit-Tarikh vol. 12", "Al-Maqrizi Al-Suluk", "Rashid al-Din Jami al-Tawarikh", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13"]
+    "sources": [
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 12",
+      "Al-Maqrizi Al-Suluk",
+      "Rashid al-Din Jami al-Tawarikh",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13"
+    ]
   },
   {
     "id": 2036,
@@ -645,7 +822,12 @@
     "opponent": "Mongol Ilkhanate under Kitbuqa",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Ain Jalut was a turning point in world history — the first significant defeat of a Mongol army in open battle, ending the seemingly unstoppable momentum of Mongol expansion. The Mongols had sacked Baghdad (1258), Damascus (1260), and were poised to sweep through Palestine and Egypt. The Mamluk Sultan Qutuz, who had taken power specifically to organise resistance, forged an alliance with the Crusader remnants who allowed safe passage but did not participate. At the Spring of Goliath in the Jezreel Valley, the Mamluk army under the brilliant general Baybars employed a feigned retreat to draw out and then encircle the Mongol force under Kitbuqa. The Mongol commander was captured and executed. The battle demonstrated that the Mongols were not invincible and that disciplined Muslim cavalry could defeat them. Baybars subsequently assassinated Qutuz and became sultan, going on to expel the remaining Crusaders and consolidate Mamluk power over Egypt and Syria.",
-    "sources": ["Al-Maqrizi Al-Suluk", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13", "Al-'Aini 'Iqd al-Juman", "Ibn Shaddad Tarikh al-Malik al-Zahir"]
+    "sources": [
+      "Al-Maqrizi Al-Suluk",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13",
+      "Al-'Aini 'Iqd al-Juman",
+      "Ibn Shaddad Tarikh al-Malik al-Zahir"
+    ]
   },
   {
     "id": 2037,
@@ -663,7 +845,12 @@
     "opponent": "Serbian and Balkan coalition under Prince Lazar",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Kosovo was the pivotal engagement that established Ottoman dominance in the Balkans. Sultan Murad I led an Ottoman army — with significant contingents of Anatolian Turks, Serbian and Bulgarian vassals — against a Christian coalition under the Serbian Prince Lazar Hrebeljanović. The battle was hard-fought, and the Ottoman victory was bittersweet: Sultan Murad I was assassinated after the battle by a Serbian nobleman Miloš Obilić who had feigned surrender. Despite this, the Ottomans prevailed militarily. Prince Lazar was also captured and executed. The battle broke Serbian military power and established Ottoman suzerainty over Serbia. It became deeply embedded in Serbian national memory as a defining moment of sacrifice. The battle opened the way for deeper Ottoman penetration into southeastern Europe over the following decades, eventually leading to the conquest of Constantinople in 1453.",
-    "sources": ["Ibn Taghriberdi Al-Nujum al-Zahira", "Al-Maqrizi Al-Suluk", "Ashikpashazade Ottoman Chronicles", "Donald Nicol The Last Centuries of Byzantium"]
+    "sources": [
+      "Ibn Taghriberdi Al-Nujum al-Zahira",
+      "Al-Maqrizi Al-Suluk",
+      "Ashikpashazade Ottoman Chronicles",
+      "Donald Nicol The Last Centuries of Byzantium"
+    ]
   },
   {
     "id": 2038,
@@ -676,12 +863,17 @@
     "period": "Ottoman Empire",
     "location": "Nicopolis, Bulgaria (modern Nikopol)",
     "location_lat": 43.71,
-    "location_lng": 24.90,
+    "location_lng": 24.9,
     "muslim_commander": "Sultan Bayezid I (Ottoman)",
     "opponent": "Crusader coalition (Burgundian, French, Hungarian, Venetian forces) under Sigismund of Hungary",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Nicopolis decisively defeated the last major multinational crusade organised against Ottoman power in Europe. Pope Boniface IX had called for a crusade following Ottoman advances in the Balkans, and a large coalition assembled under the Hungarian King Sigismund. The crusading force was notable for its overconfidence — the French knights reportedly boasted they would go all the way to Jerusalem. The battle began with an ill-disciplined charge by the French heavy cavalry, which broke through the first Ottoman line but then encountered Sultan Bayezid's reserve and elite Janissary forces in prepared defensive positions. The French charge was shattered, and Sigismund's Hungarian forces, seeing this collapse, fled. Approximately 10,000 crusaders were captured; most were executed the following day on Bayezid's order after news arrived of crusader atrocities against Ottoman prisoners. The defeat ended Western European hopes of rolling back Ottoman power in the Balkans and secured Ottoman control from Anatolia to the Danube.",
-    "sources": ["Ibn Taghriberdi Al-Nujum al-Zahira", "Ashikpashazade Ottoman Chronicles", "Froissart Chronicles", "Aziz S. Atiya The Crusade of Nicopolis"]
+    "sources": [
+      "Ibn Taghriberdi Al-Nujum al-Zahira",
+      "Ashikpashazade Ottoman Chronicles",
+      "Froissart Chronicles",
+      "Aziz S. Atiya The Crusade of Nicopolis"
+    ]
   },
   {
     "id": 2039,
@@ -699,7 +891,12 @@
     "opponent": "Sultan Bayezid I (Ottoman)",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Ankara was a catastrophic Ottoman defeat at the hands of the Timurid conqueror Timur (Tamerlane), temporarily derailing Ottoman expansion. Timur had been building his own empire in Central Asia and Persia, and had clashed with Bayezid over control of Anatolian territory. He marched on Anatolia with a massive army and faced Bayezid near Ankara. Bayezid's position was undermined when a substantial portion of his Anatolian forces defected to Timur during the battle — many were troops from the very principalities Bayezid had absorbed and whose former rulers now fought with Timur. The Ottoman army was broken, and Bayezid himself was captured. He died in captivity months later. Timur then ravaged much of Anatolia and looted Smyrna. The battle plunged the Ottoman state into a decade of civil war among Bayezid's sons. However, the Ottoman state survived, recovered, and within fifty years achieved its greatest triumph with the conquest of Constantinople.",
-    "sources": ["Ibn Arabshah Tamerlane or Timur the Great Amir", "Sharaf al-Din Ali Yazdi Zafarnama", "Al-Maqrizi Al-Suluk", "Ducas Byzantine History"]
+    "sources": [
+      "Ibn Arabshah Tamerlane or Timur the Great Amir",
+      "Sharaf al-Din Ali Yazdi Zafarnama",
+      "Al-Maqrizi Al-Suluk",
+      "Ducas Byzantine History"
+    ]
   },
   {
     "id": 2040,
@@ -717,7 +914,13 @@
     "opponent": "Byzantine Empire under Emperor Constantine XI Palaiologos",
     "outcome": "muslim_victory",
     "description_en": "The conquest of Constantinople by the Ottoman Sultan Mehmed II was one of the most momentous events of the 15th century and the realisation of a promise attributed to the Prophet Muhammad ﷺ. The Prophet ﷺ is reported to have said: 'Constantinople will certainly be conquered. How excellent the commander who will conquer it, and how excellent his army!' (Ahmad). Mehmed II, aged 21, assembled the largest cannon and naval force the Ottomans had ever fielded. He had massive bombards cast that could fire stone balls weighing hundreds of kilograms. The Byzantine garrison of approximately 7,000, including Genoese and Venetian auxiliaries, defended the Theodosian Walls against an Ottoman army of 60,000 to 80,000. After 53 days of siege and bombardment, the walls were breached. Emperor Constantine XI died fighting. Mehmed entered the city and converted the Hagia Sophia — then a church — into a mosque. His conquest ended the Byzantine Empire after over a millennium, shifting the centre of power and marking, for many historians, the transition from medieval to early modern history.",
-    "sources": ["Tursun Beg Tarikh-i Ebu'l-Feth", "Ashikpashazade Ottoman Chronicles", "Doukas Byzantine History", "Kritoboulos History of Mehmed the Conqueror", "Ahmad ibn Hanbal Musnad 18957"]
+    "sources": [
+      "Tursun Beg Tarikh-i Ebu'l-Feth",
+      "Ashikpashazade Ottoman Chronicles",
+      "Doukas Byzantine History",
+      "Kritoboulos History of Mehmed the Conqueror",
+      "Ahmad ibn Hanbal Musnad 18957"
+    ]
   },
   {
     "id": 2041,
@@ -729,13 +932,18 @@
     "date_display": "920 AH / August 23, 1514 CE",
     "period": "Ottoman Empire",
     "location": "Chaldiran Plain, northwestern Iran",
-    "location_lat": 39.00,
+    "location_lat": 39.0,
     "location_lng": 44.42,
     "muslim_commander": "Sultan Selim I (Ottoman)",
     "opponent": "Shah Ismail I (Safavid Empire)",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Chaldiran was the decisive confrontation between the Ottoman Empire and the newly established Safavid dynasty of Persia, with profound consequences for the Islamic world's religious and political geography that persist to this day. Shah Ismail I had rapidly conquered Persia and Iraq while promoting Twelver Shia Islam as the state religion, forcibly converting a predominantly Sunni population and executing those who refused. Sultan Selim I, deeply concerned about both religious and strategic implications, invaded with a large Ottoman army equipped with artillery and firearms. The Safavid cavalry, despite its exceptional bravery, could not overcome Ottoman cannon and arquebuses. Ismail was wounded and narrowly escaped. The Ottomans occupied Tabriz, though they withdrew due to overextension. Chaldiran established the rough boundaries between Ottoman (Sunni) and Safavid (Shia) spheres that shaped the political map of the Middle East. It also ended Shah Ismail's belief in his own divine invincibility.",
-    "sources": ["Ibn Tulun Mufakahat al-Khillan", "Idris Bitlisi Hasht Bihisht", "Khwandamir Habib al-Siyar", "Colin Imber The Ottoman Empire"]
+    "sources": [
+      "Ibn Tulun Mufakahat al-Khillan",
+      "Idris Bitlisi Hasht Bihisht",
+      "Khwandamir Habib al-Siyar",
+      "Colin Imber The Ottoman Empire"
+    ]
   },
   {
     "id": 2042,
@@ -753,7 +961,11 @@
     "opponent": "Mamluk Sultanate under Sultan Qansuh al-Ghawri",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Marj Dabiq was a brief but momentous engagement that ended the Mamluk Sultanate's control of Syria, Palestine, and ultimately Egypt. Sultan Selim I, fresh from his victory at Chaldiran against the Safavids, turned his attention southward. The Mamluk Sultan Qansuh al-Ghawri marched north to confront the Ottomans with a large cavalry force, but was at a severe disadvantage against Ottoman firepower. The Mamluk cavalry, though individually superb warriors, were equipped and trained for a medieval style of warfare that Ottoman gunpowder weapons had rendered obsolete. The battle was decided quickly: the Mamluk right wing defected to the Ottomans, the centre was raked by cannon fire, and Qansuh al-Ghawri died in the fighting — reportedly of a stroke induced by the shock of the artillery. Syrian cities fell rapidly, and within a year Selim I had also conquered Egypt, ending the Mamluk sultanate. The Ottomans assumed the role of guardians of the Two Holy Mosques and the prestige of the caliphate.",
-    "sources": ["Ibn Iyas Bada'i al-Zuhur fi Waqa'i al-Duhur", "Ibn Tulun Mufakahat al-Khillan", "Colin Imber The Ottoman Empire"]
+    "sources": [
+      "Ibn Iyas Bada'i al-Zuhur fi Waqa'i al-Duhur",
+      "Ibn Tulun Mufakahat al-Khillan",
+      "Colin Imber The Ottoman Empire"
+    ]
   },
   {
     "id": 2043,
@@ -771,7 +983,12 @@
     "opponent": "Holy League (Holy Roman Empire, Polish-Lithuanian Commonwealth, Venice) under Jan III Sobieski",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Vienna in 1683 was the decisive defeat that ended Ottoman expansion into Central Europe and marked the beginning of the long Ottoman strategic retreat from Europe. Grand Vizier Kara Mustafa Pasha led a massive Ottoman force of approximately 140,000 men and besieged Vienna for two months, constructing an elaborate network of trenches and tunnels to undermine the city walls. The city's garrison of approximately 15,000, though suffering greatly, held out. Polish King Jan III Sobieski led a relief army of approximately 80,000 through the Vienna Woods and launched a massive cavalry charge — including the famous Polish Winged Hussars — against the Ottoman rear. The charge broke the Ottoman lines. Kara Mustafa was executed in Belgrade on the orders of Sultan Mehmed IV for the failure. The defeat was followed by a series of reversals in subsequent years, including the loss of Hungary. The Treaty of Karlowitz (1699) formalised Ottoman territorial losses and established the precedent of Ottoman retreat before European power.",
-    "sources": ["Silahdar Findiklili Mehmed Agha Nusretname", "Ottoman court chronicles", "John Stoye The Siege of Vienna", "Thomas Barker Double Eagle and Crescent"]
+    "sources": [
+      "Silahdar Findiklili Mehmed Agha Nusretname",
+      "Ottoman court chronicles",
+      "John Stoye The Siege of Vienna",
+      "Thomas Barker Double Eagle and Crescent"
+    ]
   },
   {
     "id": 2044,
@@ -789,7 +1006,12 @@
     "opponent": "Quraysh (pursuing force)",
     "outcome": "muslim_victory",
     "description_en": "The expedition to Hamra al-Asad took place the day after the Battle of Uhud, when the Prophet ﷺ ordered the same wounded companions who had fought the previous day to march out and pursue the Qurayshi army. This bold move, taken despite the wounds and exhaustion of the Muslim force, was intended to demonstrate that the setback at Uhud had not crippled Muslim military capacity and to deter any Qurayshi decision to return and attack Medina. The Prophet ﷺ marched 8 miles south of Medina where he lit campfires at night to signal a large force. When news reached Abu Sufyan that the Muslims had mobilised again so quickly, he abandoned any idea of returning. Some Qurayshi stragglers were captured. The expedition is remarkable as an example of strategic resolve — the Muslims, despite being wounded and grieving their dead, immediately reasserted their military initiative. The Quran mentioned those who answered this call as among those whom Allah praised: 'Those who responded to Allah and the Messenger after the injury had struck them.'",
-    "sources": ["Quran 3:172-174", "Sahih Bukhari 4077", "Ibn Hisham Seerah vol. 3", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"]
+    "sources": [
+      "Quran 3:172-174",
+      "Sahih Bukhari 4077",
+      "Ibn Hisham Seerah vol. 3",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4"
+    ]
   },
   {
     "id": 2045,
@@ -807,7 +1029,12 @@
     "opponent": "Quraysh under Abu Sufyan (no engagement)",
     "outcome": "inconclusive",
     "description_en": "The Second Badr expedition arose from Abu Sufyan's promise, made after Uhud, to return the following year to settle the conflict definitively at Badr. The Prophet ﷺ prepared and marched to Badr with 1,500 fighters, and they waited for eight days at the market of Badr — trading profitably with local merchants. Abu Sufyan had marched out from Mecca but turned back after two days, claiming the drought made further advance impractical. His men sarcastically called the expedition 'the army of sawiq (porridge)' — supplies they had brought but turned back with. While no battle took place, the encounter was a propaganda victory for the Muslims: the Quraysh who had promised to come back had retreated without engaging. The Quran noted those believers who responded without complaint. The episode demonstrated Muslim willingness to face the Quraysh again despite the wounds of Uhud.",
-    "sources": ["Al-Tabari Tarikh vol. 3", "Ibn Hisham Seerah vol. 3", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4", "Ibn Sa'd Al-Tabaqat al-Kubra"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 3",
+      "Ibn Hisham Seerah vol. 3",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 4",
+      "Ibn Sa'd Al-Tabaqat al-Kubra"
+    ]
   },
   {
     "id": 2046,
@@ -819,13 +1046,18 @@
     "date_display": "13 AH / 634 CE",
     "period": "Rashidun Caliphate",
     "location": "Buwayb, near the Euphrates, Iraq",
-    "location_lat": 31.50,
-    "location_lng": 45.80,
+    "location_lat": 31.5,
+    "location_lng": 45.8,
     "muslim_commander": "Al-Muthanna ibn Haritha",
     "opponent": "Sasanid Persian forces under Mihran",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Buwayb was a significant Muslim victory in Iraq during the early conquest period, avenging an earlier defeat at the Battle of the Bridge. The Battle of the Bridge (Jisr) in 634 CE had been a serious Muslim setback: Khalid's successor Abu Ubayd al-Thaqafi had been killed, and the Muslim army had suffered heavy losses crossing the Euphrates against Sasanid forces equipped with war elephants. Al-Muthanna ibn Haritha, the Arab tribal commander who had joined the early conquests, reorganised the survivors and awaited reinforcement. At Buwayb, a large Sasanid force under Mihran crossed the Euphrates intending to destroy the Muslim remnants. Al-Muthanna allowed them to cross fully before attacking, catching the Persians in a vulnerable transitional formation. The Sasanid force was routed with heavy casualties. The victory restored Muslim morale and prestige in Iraq before the definitive victory at Qadisiyyah two years later.",
-    "sources": ["Al-Tabari Tarikh vol. 3", "Al-Baladhuri Futuh al-Buldan", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 3",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6"
+    ]
   },
   {
     "id": 2047,
@@ -843,7 +1075,12 @@
     "opponent": "Byzantine Empire under Artabanus",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Ajnadayn was the first major Muslim engagement against a large Byzantine army in Palestine and opened the way for the subsequent conquest of the Levant. It took place during the caliphate of Abu Bakr al-Siddiq, who died just before news of the victory reached him. The Byzantine commander Artabanus assembled a substantial force to push back the Muslim armies that had been probing Palestine. Khalid ibn al-Walid, after his extraordinary march across the Syrian desert, joined the Muslim forces in Palestine in time for the battle. The combined Muslim force under his tactical command engaged and defeated the Byzantine army decisively. The victory opened Palestine to Muslim advance, led to the fall of Caesarea and other coastal cities, and set the conditions for the definitive Battle of Yarmouk two years later. Companions who died in this battle included Dhiraar ibn al-Azwar's sister Khawla bint al-Azwar, one of several Muslim women fighters recorded in early Islamic history.",
-    "sources": ["Al-Tabari Tarikh vol. 3", "Al-Baladhuri Futuh al-Buldan", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 3",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 6"
+    ]
   },
   {
     "id": 2048,
@@ -861,7 +1098,12 @@
     "opponent": "Byzantine garrison under Thomas (son-in-law of Emperor Heraclius)",
     "outcome": "muslim_victory",
     "description_en": "The conquest of Damascus, one of the oldest continuously inhabited cities in the world and a major Byzantine administrative centre, marked a turning point in the Muslim conquest of Syria. Following the victory at Ajnadayn, Muslim forces moved northward. Damascus was besieged from multiple sides, with Khalid ibn al-Walid and Abu Ubayda ibn al-Jarrah commanding different sectors. After several months of siege, the city fell in September 635 CE — though accounts differ on whether one sector surrendered by negotiation while another was taken by storm simultaneously. The different terms agreed upon on different sides of the city led to some confusion in the sources. The population was offered the same terms as other conquered cities: security of life, property, and places of worship in exchange for the jizya. Damascus became the operational base for subsequent campaigns northward and remained the capital of the Umayyad Caliphate for nearly a century.",
-    "sources": ["Al-Tabari Tarikh vol. 3-4", "Al-Baladhuri Futuh al-Buldan", "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 3-4",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 2",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7"
+    ]
   },
   {
     "id": 2049,
@@ -879,7 +1121,12 @@
     "opponent": "Byzantine forces under Theodore",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Heliopolis was the decisive engagement that broke Byzantine power in Egypt and opened the way to Alexandria and full Muslim control of the country. Amr ibn al-As had entered Egypt in 639 CE with Caliph Umar's reluctant permission, his original force of only about 4,000 later reinforced by Zubayr ibn al-Awwam and others. After an initial victory at Pelusium and a prolonged siege of Babylon fortress, the main Byzantine field army under Theodore met the Muslims at Heliopolis — ancient 'City of the Sun' near modern Cairo. The Byzantine force was routed. The fall of Heliopolis was followed by the surrender of Babylon fortress in April 641. Amr then advanced on Alexandria. The Coptic Christian population, deeply resentful of Byzantine religious persecution, provided intelligence and sometimes assistance to the Muslim forces. The conquest of Egypt gave the emerging Muslim state control of the wealthiest grain-producing province of the ancient Mediterranean world.",
-    "sources": ["Al-Tabari Tarikh vol. 4", "Al-Baladhuri Futuh al-Buldan", "Ibn Abd al-Hakam Futuh Misr", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7"]
+    "sources": [
+      "Al-Tabari Tarikh vol. 4",
+      "Al-Baladhuri Futuh al-Buldan",
+      "Ibn Abd al-Hakam Futuh Misr",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 7"
+    ]
   },
   {
     "id": 2050,
@@ -897,7 +1144,12 @@
     "opponent": "Byzantine Empire under Emperor Romanos IV Diogenes",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Manzikert was one of the most decisive battles of medieval history, permanently altering the demographic and political map of Anatolia. The Seljuk Sultan Alp Arslan faced the Byzantine Emperor Romanos IV Diogenes, who had personally led an army of approximately 100,000 — including Norman, Cuman, and Frankish mercenaries — to drive the Seljuks from Anatolia. Alp Arslan's force of approximately 40,000 Turkoman cavalry employed classic steppe tactics: feigned retreat and encirclement. As the Byzantine mercenary wings deserted during the retreat phase, the Byzantine centre was enveloped. Romanos IV was captured — an unprecedented humiliation for the Byzantine state. Alp Arslan treated the captured emperor generously and released him for a ransom and territorial concessions. However, Romanos was deposed on returning to Constantinople and blinded. The battle opened Anatolia to Turkic settlement and eventual Islamisation, transforming what had been a core Byzantine territory into the heartland of what would become the Ottoman Empire.",
-    "sources": ["Ibn al-Athir Al-Kamil fit-Tarikh vol. 10", "Al-Bundari Zubdat al-Nusra", "Michael Attaleiates History", "John Skylitzes Synopsis Historion"]
+    "sources": [
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 10",
+      "Al-Bundari Zubdat al-Nusra",
+      "Michael Attaleiates History",
+      "John Skylitzes Synopsis Historion"
+    ]
   },
   {
     "id": 2051,
@@ -915,7 +1167,11 @@
     "opponent": "Kingdom of Jerusalem under Baldwin IV (the Leper King)",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Montgisard was one of the most famous defeats in Saladin's career, inflicted by the young leper King Baldwin IV of Jerusalem. Saladin had invaded the Kingdom of Jerusalem with a large force and had spread his army out for foraging operations when Baldwin IV, accompanied by only a few hundred knights including the Knights Templar, launched a surprise attack on Saladin's divided and unprepared forces near Ramla. The surprise was total: Saladin's army had not formed for battle when the crusader cavalry struck. The rout was severe; Saladin himself barely escaped. The defeat demonstrated that Saladin was not yet the invincible commander he would later become, and it gave the Kingdom of Jerusalem a remarkable though ultimately temporary reprieve. Saladin is reported to have prayed intensely after the battle and redoubled his religious devotion. He rebuilt his forces and eventually triumphed at Hattin a decade later.",
-    "sources": ["Ibn al-Athir Al-Kamil fit-Tarikh vol. 11", "Baha al-Din ibn Shaddad Sirat Salah al-Din", "William of Tyre Historia Rerum in Partibus Transmarinis Gestarum"]
+    "sources": [
+      "Ibn al-Athir Al-Kamil fit-Tarikh vol. 11",
+      "Baha al-Din ibn Shaddad Sirat Salah al-Din",
+      "William of Tyre Historia Rerum in Partibus Transmarinis Gestarum"
+    ]
   },
   {
     "id": 2052,
@@ -933,7 +1189,12 @@
     "opponent": "Castile, Aragon, Navarre, and Crusader volunteers",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Las Navas de Tolosa, known in Arabic as Ma'rakat al-'Iqab (Battle of the Pass), was a decisive defeat for the Almohad Caliphate that permanently shifted the balance of power in the Iberian Peninsula in favour of the Christian kingdoms. The Almohads under Caliph al-Nasir had recovered much of Andalusia after their victory at Alarcos in 1195, but a coalition of the three major Iberian Christian kingdoms, reinforced by crusader volunteers from across Europe, assembled in response to a papal call. The battle took place in a mountain pass. The crusader forces broke through the Almohad defences and routed the army. Caliph al-Nasir barely escaped. The defeat fatally weakened the Almohad state, leading to its fragmentation and the rapid Christian conquest of major Andalusian cities over the following decades: Córdoba (1236), Valencia (1238), and Seville (1248). It marked the beginning of the irreversible decline of Muslim power in Iberia.",
-    "sources": ["Ibn Khaldun Al-Muqaddima", "Ibn Abi Zar Rawdh al-Qirtas", "Al-Maqqari Nafh al-Tib", "Rodrigo of Toledo De Rebus Hispaniae"]
+    "sources": [
+      "Ibn Khaldun Al-Muqaddima",
+      "Ibn Abi Zar Rawdh al-Qirtas",
+      "Al-Maqqari Nafh al-Tib",
+      "Rodrigo of Toledo De Rebus Hispaniae"
+    ]
   },
   {
     "id": 2053,
@@ -951,7 +1212,12 @@
     "opponent": "Mongol Ilkhanate",
     "outcome": "muslim_victory",
     "description_en": "Following the landmark victory at Ain Jalut, the Mamluk Sultan Baybars continued his campaign to push Mongol forces out of Syria. The engagement near Ain Tab was part of a series of battles in which Baybars methodically dismantled Mongol control of northern Syria. Baybars proved to be an exceptionally able military administrator as well as a field commander, rebuilding fortifications, reorganising the postal relay system (barid) to enable rapid communication across the sultanate, and striking repeatedly at Mongol positions before they could consolidate. The campaigns of 1261 to 1263 effectively ended Mongol control of Syria. Baybars also dealt with the Crusader states, capturing several important fortresses. His policies of aggressive territorial consolidation established the Mamluk state as the dominant power of the eastern Mediterranean and the defender of Sunni Islam in its darkest hour.",
-    "sources": ["Al-Maqrizi Al-Suluk", "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13", "Ibn al-Furat Tarikh", "Ibn Shaddad Tarikh al-Malik al-Zahir"]
+    "sources": [
+      "Al-Maqrizi Al-Suluk",
+      "Ibn Kathir Al-Bidaya wan-Nihaya vol. 13",
+      "Ibn al-Furat Tarikh",
+      "Ibn Shaddad Tarikh al-Malik al-Zahir"
+    ]
   },
   {
     "id": 2054,
@@ -969,7 +1235,11 @@
     "opponent": "Serbian principalities under Prince Lazar",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Plocnik was a significant Serbian victory over an Ottoman raiding force in 1386, representing one of the few setbacks in Ottoman expansion in the Balkans during this period. The Ottoman forces, consisting of a large raiding party sent to extend pressure on the Serbian principalities, were ambushed by Serbian forces under Prince Lazar in the Toplica region. The Ottomans suffered considerable losses and were forced to withdraw. The victory temporarily boosted Serbian morale and resistance but did not alter the strategic situation significantly. Three years later, at the Battle of Kosovo in 1389, the Ottomans inflicted a decisive defeat on the same Serbian coalition under Prince Lazar. The battle illustrates that Ottoman expansion was not unbroken — there were setbacks and reversals — but that the overall strategic momentum was consistently in the Ottoman direction during this period.",
-    "sources": ["Ottoman chronicles", "Serbian medieval chronicles", "John Fine The Late Medieval Balkans"]
+    "sources": [
+      "Ottoman chronicles",
+      "Serbian medieval chronicles",
+      "John Fine The Late Medieval Balkans"
+    ]
   },
   {
     "id": 2055,
@@ -982,12 +1252,17 @@
     "period": "Ottoman Empire",
     "location": "Granada, Andalusia, Spain",
     "location_lat": 37.18,
-    "location_lng": -3.60,
+    "location_lng": -3.6,
     "muslim_commander": "Sultan Muhammad XII (Boabdil)",
     "opponent": "Ferdinand II of Aragon and Isabella I of Castile",
     "outcome": "muslim_defeat",
     "description_en": "The Fall of Granada marked the end of nearly eight centuries of Muslim presence in the Iberian Peninsula. The Nasrid Emirate of Granada had survived for over 250 years as the last Muslim polity in Iberia, sustained partly by internal Castilian conflicts and partly by tributes and diplomacy. Sultan Muhammad XII (known to Spaniards as Boabdil) faced the combined might of Ferdinand and Isabella — the 'Catholic Monarchs' — who had united their kingdoms and were determined to complete the Reconquista. Granada was besieged, and after resisting for about a year, Muhammad XII surrendered the keys to the Alhambra on January 2, 1492. He reportedly wept as he left, and the pass where he turned to look back at Granada became known as 'The Pass of the Moor's Sigh.' The terms of surrender guaranteed religious freedom for the Muslim population, but these guarantees were broken within a decade. By 1502, Muslims were given the choice between conversion and expulsion. The same year Granada fell, Columbus sailed westward under Spanish patronage.",
-    "sources": ["Al-Maqqari Nafh al-Tib", "Ibn Iyas Bada'i al-Zuhur", "Ibn Khaldun Al-Muqaddima", "L.P. Harvey Islamic Spain 1250 to 1500"]
+    "sources": [
+      "Al-Maqqari Nafh al-Tib",
+      "Ibn Iyas Bada'i al-Zuhur",
+      "Ibn Khaldun Al-Muqaddima",
+      "L.P. Harvey Islamic Spain 1250 to 1500"
+    ]
   },
   {
     "id": 2056,
@@ -1005,7 +1280,12 @@
     "opponent": "Knights Hospitaller under Grand Master Villiers de L'Isle-Adam",
     "outcome": "muslim_victory",
     "description_en": "The Siege of Rhodes in 1522 was Suleiman the Magnificent's first major military campaign after becoming sultan, and it ended the Knights Hospitaller's use of Rhodes as a base for piracy against Muslim shipping and pilgrims. The Knights Hospitaller had held Rhodes since 1309, and their previous resistance to a Mehmed II siege in 1480 had become legendary. Suleiman assembled an enormous force and a massive artillery train. After six months of brutal siege warfare, including extensive tunnelling and counter-tunnelling, the defenders — reduced by casualties to a fraction of their original strength — negotiated a surrender. Suleiman granted remarkably generous terms: the knights and any civilians who wished to leave could do so with honour, taking their weapons, valuables, and sacred objects. The knights relocated eventually to Malta, from where they continued their activities. The fall of Rhodes secured Ottoman naval dominance of the eastern Mediterranean.",
-    "sources": ["Suleiman's campaign diary", "Ottoman chronicles", "Roger Crowley Empires of the Sea", "John Taaffe History of the Knights Hospitaller vol. 2"]
+    "sources": [
+      "Suleiman's campaign diary",
+      "Ottoman chronicles",
+      "Roger Crowley Empires of the Sea",
+      "John Taaffe History of the Knights Hospitaller vol. 2"
+    ]
   },
   {
     "id": 2057,
@@ -1023,7 +1303,12 @@
     "opponent": "Kingdom of Hungary under King Louis II",
     "outcome": "muslim_victory",
     "description_en": "The Battle of Mohács was one of the most decisive Ottoman victories in Europe, lasting barely two hours yet ending the medieval Kingdom of Hungary. Suleiman the Magnificent led a well-disciplined Ottoman army of approximately 60,000 against a Hungarian force of around 25,000 under the young King Louis II. The Hungarians, unwilling to wait for allied reinforcements, attacked the Ottoman centre directly. The Ottoman artillery and infantry absorbed the Hungarian charge, then the cavalry encircled the attackers. The Hungarian force was annihilated; King Louis II drowned in a stream while fleeing. The battle opened Hungary to Ottoman occupation, and Buda fell shortly after. Hungary remained substantially under Ottoman control for 150 years, until the Battle of Vienna and subsequent reconquest. The battle is remembered as a national tragedy in Hungary — the Hungarian expression 'More was lost at Mohács' (Több is veszett Mohácsnál) reflects its enduring weight in Hungarian cultural memory.",
-    "sources": ["Ottoman court chronicles", "Suleiman the Magnificent's diary", "Pál Tomori's letters", "Roger Crowley Empires of the Sea"]
+    "sources": [
+      "Ottoman court chronicles",
+      "Suleiman the Magnificent's diary",
+      "Pál Tomori's letters",
+      "Roger Crowley Empires of the Sea"
+    ]
   },
   {
     "id": 2058,
@@ -1041,7 +1326,12 @@
     "opponent": "Holy League (Spain, Venice, Papacy) under Don John of Austria",
     "outcome": "muslim_defeat",
     "description_en": "The Battle of Lepanto was the largest naval engagement of the 16th century and the most significant Ottoman naval defeat, ending Ottoman expansion in the western Mediterranean. The Holy League assembled a fleet of approximately 200 galleys against the Ottoman fleet of similar size under Ali Pasha. The battle took place in the Gulf of Patras off western Greece. The Holy League's galleys, reinforced with a new type of oar-powered warship (galleass) carrying heavy forward-firing artillery, devastated the Ottoman fleet. Ali Pasha was killed and the Ottoman fleet was destroyed, with over 100 ships captured or sunk. However, the strategic consequences were limited: the Ottoman fleet was rebuilt within a year. Cyprus, which the Ottomans had captured before Lepanto, remained Ottoman. The real significance of Lepanto was psychological — it demonstrated that the Ottomans were not invincible at sea and halted their expansion toward the western Mediterranean.",
-    "sources": ["Ottoman chronicles", "Fernand Braudel The Mediterranean and the Mediterranean World", "Roger Crowley Empires of the Sea", "Andrew Hess The Battle of Lepanto and Its Place in Mediterranean History"]
+    "sources": [
+      "Ottoman chronicles",
+      "Fernand Braudel The Mediterranean and the Mediterranean World",
+      "Roger Crowley Empires of the Sea",
+      "Andrew Hess The Battle of Lepanto and Its Place in Mediterranean History"
+    ]
   },
   {
     "id": 2059,
@@ -1059,7 +1349,12 @@
     "opponent": "Ibrahim Lodi (Delhi Sultanate)",
     "outcome": "muslim_victory",
     "description_en": "The First Battle of Panipat established the Mughal Empire in the Indian subcontinent. Babur, a prince of Timurid-Chagatai descent who had lost his ancestral homeland of Fergana and Samarkand, had carved out a base in Kabul and made multiple raids into India. His decisive opportunity came when the Afghan nobles of the Delhi Sultanate, dissatisfied with the despotic Ibrahim Lodi, invited Babur to challenge him. Babur's force of approximately 12,000 faced Ibrahim Lodi's army of around 100,000 including war elephants. Babur's masterstroke was deploying firearms — matchlock muskets and artillery — against an army that had never encountered them in battle formation. He also employed the tulughma manoeuvre: fixed flanking wings that curved around the enemy. Ibrahim Lodi died fighting. The battle lasted only a few hours. Babur's victory inaugurated the Mughal Empire, which at its height under Aurangzeb ruled over the largest economy in the world and presided over the largest Muslim population of any polity in history.",
-    "sources": ["Baburnama (Babur's memoirs)", "Nizam al-Din Ahmad Tabaqat-i-Akbari", "Abul Fazl Akbarnama", "Al-Badauni Muntakhab al-Tawarikh"]
+    "sources": [
+      "Baburnama (Babur's memoirs)",
+      "Nizam al-Din Ahmad Tabaqat-i-Akbari",
+      "Abul Fazl Akbarnama",
+      "Al-Badauni Muntakhab al-Tawarikh"
+    ]
   },
   {
     "id": 2060,
@@ -1077,6 +1372,238 @@
     "opponent": "Prithviraj Chauhan (Rajput confederation)",
     "outcome": "muslim_defeat",
     "description_en": "The First Battle of Tarain was a significant defeat for Muhammad of Ghor in his attempt to extend Ghurid power into the Indian interior beyond the Punjab. Muhammad of Ghor had already captured Lahore and was advancing when he met the Rajput confederation led by Prithviraj Chauhan, the Chahamana king of Ajmer and Delhi. Prithviraj assembled a large force including war elephants and cavalry. In the battle, Muhammad of Ghor was personally wounded by a Chahamana noble and only survived because a young soldier held him on his horse until he could be evacuated. The Ghurid army fell back. However, Muhammad of Ghor demonstrated the same strategic persistence that characterised great commanders: he returned the very next year, 1192, for the Second Battle of Tarain. This time he made thorough preparations, including training his cavalry to avoid the Rajput elephants. At the Second Battle of Tarain in 1192, he achieved a decisive victory that opened the Gangetic plain to Muslim rule and led eventually to the establishment of the Delhi Sultanate.",
-    "sources": ["Minhaj-i-Siraj Juzjani Tabaqat-i-Nasiri", "Fakhr-i-Mudabbir Adab al-Harb", "Hasan Nizami Taj al-Maasir"]
+    "sources": [
+      "Minhaj-i-Siraj Juzjani Tabaqat-i-Nasiri",
+      "Fakhr-i-Mudabbir Adab al-Harb",
+      "Hasan Nizami Taj al-Maasir"
+    ]
+  },
+  {
+    "id": 2061,
+    "slug": "battle-of-dhat-al-salasil",
+    "title_en": "Battle of Dhat al-Salasil (Chains)",
+    "title_ar": "معركة ذات السلاسل",
+    "date_ah": 12,
+    "date_ce": 633,
+    "date_display": "12 AH / 633 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Ubulla, southern Iraq",
+    "location_lat": 30.52,
+    "location_lng": 47.86,
+    "muslim_commander": "Khalid ibn al-Walid",
+    "opponent": "Hurmuz ibn Hurmuz (Persian satrap)",
+    "outcome": "muslim_victory",
+    "significance": "major",
+    "description_en": "The Battle of Dhat al-Salasil (Battle of the Chains) was the opening engagement of the Muslim conquest of Iraq in 12 AH / 633 CE, commanded by Khalid ibn al-Walid. The battle is named after the Persian practice of chaining their soldiers together to prevent retreat, demonstrating their determination to hold the line. The Persian satrap Hurmuz ibn Hurmuz assembled a large force at Ubulla (modern Basra area) to repel the Muslim advance. Khalid engaged the Persian forces and killed Hurmuz in personal combat. The Persian army, despite being chained together, was routed. This victory opened the door to southern Iraq and gave the Muslims control of the vital port of Ubulla on the Persian Gulf. Khalid sent Abu Bakr the one-fifth share (khums) of the spoils, and the Persian chain armour was displayed in Madinah. This was the first battle of the Iraq conquests and demonstrated that the Sassanid Empire, weakened by decades of war with Byzantium, could be defeated.",
+    "sources": [
+      "al-Tabari History vol. 3",
+      "al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir al-Bidaya vol. 6"
+    ]
+  },
+  {
+    "id": 2062,
+    "slug": "battle-of-walaja",
+    "title_en": "Battle of Walaja",
+    "title_ar": "معركة الولجة",
+    "date_ah": 12,
+    "date_ce": 633,
+    "date_display": "12 AH / 633 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Walaja, southern Iraq",
+    "location_lat": 30.7,
+    "location_lng": 47.5,
+    "muslim_commander": "Khalid ibn al-Walid",
+    "opponent": "Persian forces (Andarzaghar and Bahman)",
+    "outcome": "muslim_victory",
+    "significance": "major",
+    "description_en": "The Battle of Walaja was fought in 12 AH / 633 CE as part of Khalid ibn al-Walid's campaign through southern Iraq. The Persians assembled a large force at Walaja, supplemented by Arab Christian tribal allies. Khalid executed a brilliant double envelopment (similar to the Battle of Cannae), splitting his force to encircle the enemy completely. The Persian force was annihilated, with the Arab Christian allies suffering heavy losses as well. This was one of Khalid's tactical masterpieces and demonstrated his genius for mobile warfare. The victory secured the Sawad (fertile crescent of Iraq) from further Persian counter-attacks from the south.",
+    "sources": [
+      "al-Tabari History vol. 3",
+      "al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir al-Bidaya vol. 6"
+    ]
+  },
+  {
+    "id": 2063,
+    "slug": "battle-of-ullais",
+    "title_en": "Battle of Ullais",
+    "title_ar": "معركة أليس",
+    "date_ah": 12,
+    "date_ce": 633,
+    "date_display": "12 AH / 633 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Ullais, Iraq",
+    "location_lat": 31.0,
+    "location_lng": 47.4,
+    "muslim_commander": "Khalid ibn al-Walid",
+    "opponent": "Persian forces and Arab Christian allies",
+    "outcome": "muslim_victory",
+    "significance": "major",
+    "description_en": "The Battle of Ullais was fought in 12 AH during Khalid ibn al-Walid's Iraq campaign. Facing a large combined Persian and Arab Christian force, Khalid won a decisive victory. The battle is notable for its ferocity — Khalid vowed that if victorious, the Euphrates River would run red with enemy blood. The subsequent execution of prisoners made this one of the bloodiest engagements of the Iraq conquest. The battle effectively broke the back of Persian resistance in southern Iraq and opened the way northward toward al-Hira, the capital of the Arab Lakhmid kingdom which had been a Persian client state.",
+    "sources": [
+      "al-Tabari History vol. 3",
+      "al-Baladhuri Futuh al-Buldan"
+    ]
+  },
+  {
+    "id": 2064,
+    "slug": "battle-of-the-bridge",
+    "title_en": "Battle of the Bridge",
+    "title_ar": "معركة الجسر",
+    "date_ah": 13,
+    "date_ce": 634,
+    "date_display": "13 AH / 634 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Euphrates River, Iraq",
+    "location_lat": 31.8,
+    "location_lng": 44.9,
+    "muslim_commander": "Abu Ubayd ibn Masud al-Thaqafi",
+    "opponent": "Bahman Jadhuyih (Persian general)",
+    "outcome": "muslim_defeat",
+    "significance": "major",
+    "description_en": "The Battle of the Bridge was one of the few Muslim military defeats during the early conquests, fought in 13 AH / 634 CE. Following the transfer of Khalid ibn al-Walid to Syria, the Muslims sent Abu Ubayd ibn Masud al-Thaqafi to command in Iraq. The Persians, emboldened by Khalid's departure, launched a major counter-offensive under Bahman Jadhuyih. The two armies met at the Euphrates River, and against the advice of his officers, Abu Ubayd ordered a bridge of boats to be constructed so the Muslims could cross to the Persian side of the river, ceding the strategic advantage. The Persians deployed war elephants which terrified the Muslim cavalry horses. Abu Ubayd himself seized a sword and attacked an elephant, but was trampled and killed. The bridge was partially destroyed, trapping many Muslims on the Persian side. Around 4,000 Muslims were killed, including Abu Ubayd and many commanders. The defeat halted the Muslim advance into Iraq for a time. Abu Bakr had already died by this point, and Umar ibn al-Khattab had to rebuild morale and reorganize the Iraq campaign.",
+    "sources": [
+      "al-Tabari History vol. 3",
+      "al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir al-Bidaya vol. 6"
+    ]
+  },
+  {
+    "id": 2065,
+    "slug": "battle-of-marj-al-saffar",
+    "title_en": "Battle of Marj al-Saffar",
+    "title_ar": "معركة مرج الصفر",
+    "date_ah": 13,
+    "date_ce": 634,
+    "date_display": "13 AH / 634 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Marj al-Saffar, south of Damascus, Syria",
+    "location_lat": 33.2,
+    "location_lng": 36.35,
+    "muslim_commander": "Khalid ibn al-Walid / Shurahbil ibn Hasanah",
+    "opponent": "Byzantine forces",
+    "outcome": "muslim_victory",
+    "significance": "major",
+    "description_en": "The Battle of Marj al-Saffar was fought in 13 AH / 634 CE near Damascus as part of the early Syria campaign. After the Muslim victory at Ajnadayn, the remaining Byzantine forces regrouped at Marj al-Saffar (the Meadow of the Safflower). The Muslims, commanded by Khalid ibn al-Walid, engaged and defeated the Byzantines again. The battle was significant in sealing the fate of Byzantine southern Syria, coming shortly before the decisive Battle of Yarmouk. This victory helped consolidate Muslim control over the Palestinian and southern Syrian regions and left the way open for the siege of Damascus.",
+    "sources": [
+      "al-Tabari History vol. 3",
+      "al-Baladhuri Futuh al-Buldan"
+    ]
+  },
+  {
+    "id": 2066,
+    "slug": "battle-of-fahl",
+    "title_en": "Battle of Fahl (Pella)",
+    "title_ar": "معركة فحل",
+    "date_ah": 13,
+    "date_ce": 635,
+    "date_display": "13 AH / 635 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Fahl (Pella), Jordan Valley",
+    "location_lat": 32.45,
+    "location_lng": 35.61,
+    "muslim_commander": "Abu Ubayda ibn al-Jarrah / Shurahbil ibn Hasanah",
+    "opponent": "Byzantine forces",
+    "outcome": "muslim_victory",
+    "significance": "moderate",
+    "description_en": "The Battle of Fahl (ancient Pella) was fought in the Jordan Valley in 13 AH after the fall of Damascus. Byzantine forces flooded the plain to hinder the Muslim cavalry, but Abu Ubayda's forces waded through the marshes and defeated them. This battle effectively ended Byzantine military resistance in northern Palestine and Transjordan. The victory at Fahl, combined with the fall of Damascus and the earlier Battle of Yarmouk, gave Muslims control of the entire Levant region south of the Taurus Mountains.",
+    "sources": [
+      "al-Tabari History vol. 3",
+      "al-Baladhuri Futuh al-Buldan",
+      "Ibn Abd al-Hakam Futuh Misr"
+    ]
+  },
+  {
+    "id": 2067,
+    "slug": "battle-of-jalula",
+    "title_en": "Battle of Jalula",
+    "title_ar": "معركة جلولاء",
+    "date_ah": 16,
+    "date_ce": 637,
+    "date_display": "16 AH / 637 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Jalula, Iraq (modern Diyala province)",
+    "location_lat": 34.28,
+    "location_lng": 45.16,
+    "muslim_commander": "Hashim ibn Utbah al-Zuhri",
+    "opponent": "Mihran and Persian forces",
+    "outcome": "muslim_victory",
+    "significance": "major",
+    "description_en": "The Battle of Jalula was fought in 16 AH / 637 CE, shortly after the decisive Battle of al-Qadisiyyah and the fall of Ctesiphon. The retreating Persian forces regrouped at Jalula (meaning 'the dyed/colored'), a strategic position on the road to Media and the Iranian plateau. Sa'd ibn Abi Waqqas dispatched Hashim ibn Utbah with 12,000 troops. After a prolonged siege of the Persian fortifications lasting several months, the Muslims broke through and inflicted a crushing defeat, killing the Persian commander Mihran. The Persian royal family and treasures fled northward. The Battle of Jalula opened the door to the conquest of Media and the Iranian highlands, making it one of the most consequential victories of the Rashidun era.",
+    "sources": [
+      "al-Tabari History vol. 4",
+      "al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir al-Bidaya vol. 7"
+    ]
+  },
+  {
+    "id": 2068,
+    "slug": "conquest-of-ctesiphon",
+    "title_en": "Conquest of Ctesiphon (al-Mada'in)",
+    "title_ar": "فتح المدائن (طيسفون)",
+    "date_ah": 16,
+    "date_ce": 637,
+    "date_display": "16 AH / 637 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Ctesiphon (al-Mada'in), Iraq",
+    "location_lat": 33.09,
+    "location_lng": 44.58,
+    "muslim_commander": "Sa'd ibn Abi Waqqas",
+    "opponent": "Yazdegerd III (Sassanid Emperor)",
+    "outcome": "muslim_victory",
+    "significance": "major",
+    "description_en": "The Conquest of Ctesiphon (al-Mada'in, 'the Cities') in 16 AH was the most symbolic victory of the early Islamic conquests — the fall of the capital of the Sassanid Persian Empire. After the decisive Battle of al-Qadisiyyah, Sa'd ibn Abi Waqqas advanced toward the Persian capital, a complex of seven cities on the Tigris. Emperor Yazdegerd III fled northward with the imperial treasury. The Muslims crossed the Tigris River on horseback — a miraculous crossing according to Islamic tradition — and entered the city without significant resistance. In the throne room of Khosrow (the White Palace), Sa'd offered the prayer of thanks to Allah. The vast imperial treasury was distributed as spoils of war. The conquest marked the effective end of the Sassanid Empire as a political entity, though resistance continued in Iran for another decade.",
+    "sources": [
+      "al-Tabari History vol. 4",
+      "al-Baladhuri Futuh al-Buldan",
+      "Ibn Kathir al-Bidaya vol. 7",
+      "Sahih Bukhari 3032"
+    ]
+  },
+  {
+    "id": 2069,
+    "slug": "battle-of-bab-al-abwab",
+    "title_en": "Battle of Bab al-Abwab (Derbent)",
+    "title_ar": "معركة باب الأبواب (دربند)",
+    "date_ah": 22,
+    "date_ce": 643,
+    "date_display": "22 AH / 643 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Derbent (Bab al-Abwab), modern Dagestan, Russia",
+    "location_lat": 42.06,
+    "location_lng": 48.29,
+    "muslim_commander": "Suraqah ibn Amr / Abd al-Rahman ibn Rabia",
+    "opponent": "Khazar Kingdom",
+    "outcome": "muslim_victory",
+    "significance": "moderate",
+    "description_en": "The Battle of Bab al-Abwab (Gate of Gates, modern Derbent) in 22 AH / 643 CE was the northernmost Muslim military expedition of the Rashidun era, pushing into the Caucasus mountain passes. Umar ibn al-Khattab commissioned Suraqah ibn Amr to lead a campaign through Azerbaijan and into the Caucasus. The Muslims captured the ancient fortress city of Derbent on the Caspian coast, which controlled the narrow pass between the Caucasus mountains and the Caspian Sea — the main invasion route between the steppe and the Middle East. The Khazar Kingdom north of the Caucasus became a long-term adversary of the expanding caliphate, eventually defeating the Muslims in later campaigns. The capture of Derbent marked the furthest Muslim advance into the Eurasian steppe during the Rashidun period.",
+    "sources": [
+      "al-Tabari History vol. 4",
+      "al-Baladhuri Futuh al-Buldan"
+    ]
+  },
+  {
+    "id": 2070,
+    "slug": "battle-of-the-masts",
+    "title_en": "Battle of the Masts (Dhat al-Sawari)",
+    "title_ar": "معركة ذات الصواري",
+    "date_ah": 34,
+    "date_ce": 655,
+    "date_display": "34 AH / 655 CE",
+    "period": "Rashidun Caliphate",
+    "location": "Mediterranean Sea, off the coast of Lycia (modern Turkey)",
+    "location_lat": 36.5,
+    "location_lng": 29.5,
+    "muslim_commander": "Abd Allah ibn Abi Sarh",
+    "opponent": "Emperor Constans II (Byzantine)",
+    "outcome": "muslim_victory",
+    "significance": "major",
+    "description_en": "The Battle of the Masts (Dhat al-Sawari, 'Battle of the Masts') in 34 AH / 655 CE was the first major Muslim naval victory in the Mediterranean, effectively destroying Byzantine naval supremacy. The Muslim fleet, commanded by Abd Allah ibn Abi Sarh, encountered the massive Byzantine fleet personally led by Emperor Constans II. The Muslims were outnumbered but chained their ships together with the Byzantine vessels and fought a boarding action as if on land. The result was a crushing Byzantine defeat — the Emperor himself had to disguise himself to escape. Byzantine naval power in the eastern Mediterranean was crippled, opening the sea to Muslim expansion. This battle is considered one of the most consequential naval battles in history, shifting the balance of Mediterranean power toward the emerging Islamic civilization.",
+    "sources": [
+      "al-Tabari History vol. 4",
+      "al-Baladhuri Futuh al-Buldan",
+      "Theophanes Chronicle"
+    ]
   }
 ]
