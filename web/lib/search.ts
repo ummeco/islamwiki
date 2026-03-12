@@ -4,6 +4,7 @@ import { getPeople } from './data/people'
 import { getBooks } from './data/books'
 import { getArticles } from './data/articles'
 import { getSeerahEvents } from './data/seerah'
+import { getAllHistoryEvents } from './data/history'
 import { getMedia } from './data/media'
 import { getSects } from './data/sects'
 import { getWikiPages } from './data/wiki'
@@ -83,11 +84,12 @@ function extractSnippet(text: string, queries: string[], maxLen = 160): string {
   return snippet
 }
 
-const GROUP_ORDER = ['quran', 'hadith', 'seerah', 'person', 'book', 'article', 'video', 'audio', 'wiki', 'sect']
+const GROUP_ORDER = ['quran', 'hadith', 'seerah', 'history', 'person', 'book', 'article', 'video', 'audio', 'wiki', 'sect']
 const GROUP_LABELS: Record<string, string> = {
   quran: 'Quran',
   hadith: 'Hadith',
   seerah: 'Seerah',
+  history: 'History',
   person: 'People',
   book: 'Books',
   article: 'Articles',
@@ -154,6 +156,26 @@ export function searchGrouped(query: string, previewLimit = 3): GroupedResults {
         snippet: extractSnippet(e.description_en, queries),
         url: `/seerah/${e.slug}`,
         meta: e.date_ah || '',
+      })
+    }
+  }
+
+  // History (prophets, battles, post-Jesus)
+  for (const e of getAllHistoryEvents()) {
+    if (
+      matchesAny(e.title_en, queries) ||
+      e.title_ar.includes(q) ||
+      matchesAny(e.description_en, queries) ||
+      (e.muslim_commander && matchesAny(e.muslim_commander, queries)) ||
+      (e.opponent && matchesAny(e.opponent, queries))
+    ) {
+      const sectionLabel = e.section === 'battles' ? 'Battle' : e.section === 'prophets' ? 'Prophet' : 'History'
+      buckets.get('history')!.push({
+        type: 'history',
+        title: e.title_en,
+        snippet: extractSnippet(e.description_en, queries),
+        url: `/history/${e.slug}`,
+        meta: `${sectionLabel} · ${e.period}`,
       })
     }
   }

@@ -11,6 +11,7 @@ const GROUP_LABELS: Record<string, string> = {
   quran: 'Quran',
   hadith: 'Hadith',
   seerah: 'Seerah',
+  history: 'History',
   person: 'People',
   book: 'Books',
   article: 'Articles',

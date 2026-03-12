@@ -248,6 +248,60 @@ async function indexQuran() {
   if (docs.length > 0) await addDocuments(docs)
 }
 
+async function indexHistory() {
+  const docs: SearchDoc[] = []
+  const histDir = join(DATA_DIR, 'history')
+
+  // Prophets
+  try {
+    const prophets = readJson(join(histDir, 'prophets.json'))
+    for (const p of prophets) {
+      docs.push({
+        id: `history-prophet-${p.slug}`,
+        type: 'history',
+        title: p.title_en,
+        snippet: p.description_en ? snippet(p.description_en) : '',
+        url: `/history/${p.slug}`,
+        meta: `Prophet · ${p.period ?? ''}`,
+      })
+    }
+  } catch { /* no prophets.json */ }
+
+  // Post-Jesus era
+  try {
+    const pj = readJson(join(histDir, 'post-jesus.json'))
+    for (const e of pj) {
+      docs.push({
+        id: `history-postjesus-${e.slug}`,
+        type: 'history',
+        title: e.title_en,
+        snippet: e.description_en ? snippet(e.description_en) : '',
+        url: `/history/${e.slug}`,
+        meta: `History · ${e.period ?? ''}`,
+      })
+    }
+  } catch { /* no post-jesus.json */ }
+
+  // Battles
+  try {
+    const battles = readJson(join(histDir, 'battles.json'))
+    for (const b of battles) {
+      const slug = b.slug.startsWith('battle-') ? b.slug : `battle-${b.slug}`
+      docs.push({
+        id: `history-battle-${slug}`,
+        type: 'history',
+        title: b.title_en,
+        snippet: b.description_en ? snippet(b.description_en) : '',
+        url: `/history/${slug}`,
+        meta: `Battle · ${b.period ?? ''}${b.outcome ? ` · ${b.outcome}` : ''}`,
+      })
+    }
+  } catch { /* no battles.json */ }
+
+  console.log(`\nIndexing ${docs.length} history docs...`)
+  if (docs.length > 0) await addDocuments(docs)
+}
+
 async function main() {
   if (!MEILISEARCH_KEY) {
     console.error('MEILISEARCH_KEY env var required')
@@ -278,6 +332,7 @@ async function main() {
   await indexBooks()
   await indexArticles()
   await indexPeople()
+  await indexHistory()
   await indexWiki()
   await indexSects()
   await indexQuran()
