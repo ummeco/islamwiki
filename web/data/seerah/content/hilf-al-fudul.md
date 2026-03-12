@@ -40,4 +40,6 @@ When the Quran later commanded: "And cooperate in righteousness and piety, but d
 
 Scholars of Islamic ethics point to this event as illustrating that Islam did not emerge into a moral vacuum — that even in the age of ignorance, among polytheists, the human conscience sometimes produced genuinely righteous institutions. The Prophet's ﷺ endorsement of the Hilf al-Fudul affirms that Islam came to confirm, fulfill, and elevate the best of what humanity had developed, rather than to discard all of what came before it.
 
+The Hilf al-Fudul is also notable for what it reveals about the Prophet ﷺ before prophethood: his instinctive alignment with justice, his participation in an alliance that crossed clan boundaries, and his willingness as a young man to commit himself to a principle rather than merely to a tribal loyalty. When the revelation later commanded him to stand for justice even against those closest to him — "O you who believe, be persistently standing firm in justice, witnesses for Allah, even if it be against yourselves or parents and relatives" (Surah al-Nisa, 4:135) — he had already lived that principle in the house of Abdullah ibn Jud'an.
+
 **Sources:** Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Kathir, *al-Bidayah wan-Nihayah*; al-Bayhaqi, *Dala'il al-Nubuwwa*; Ibn Abd al-Barr, *al-Isti'ab fi Ma'rifat al-Ashab*; Surah al-Ma'idah (5:2)

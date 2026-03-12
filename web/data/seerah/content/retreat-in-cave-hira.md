@@ -32,4 +32,16 @@ The Cave of Hira holds a permanent place in Islamic piety and memory as the plac
 
 Later Islamic scholars, reflecting on the practice of tahannuth, have noted that the Prophet's ﷺ years of seclusion in the cave represent a template: that spiritual purification and solitary devotion have a role in preparing the heart for divine knowledge. The Sufi tradition drew extensively on this model. More broadly, the retreat period affirms that divine missions do not begin without preparation — that before the word came, the heart was ready.
 
+## Mountains in the Prophetic Tradition
+
+The Quran and hadith literature consistently associate mountains with moments of divine communication. Musa عليه السلام received the Torah on Mount Sinai (Jabal al-Tur). The Prophet ﷺ gave his Farewell Sermon at Mount Arafat. The Cave of Thawr (Jabal Thawr) sheltered the Prophet ﷺ and Abu Bakr during the Hijrah. Mountains, in the Quranic worldview, are created entities that glorify Allah — "And there is not a thing except that it glorifies His praise, but you do not understand their glorification" (Surah al-Isra, 17:44) — and they are described in Surah al-Ahzab (33:72) as among the creation that was offered the trust (amana) and declined it.
+
+Jabal al-Nur — the Mountain of Light — rises approximately 634 meters above sea level near Mecca. The name "al-Nur" (the Light) is a post-prophetic designation, given in recognition of the revelation that descended there. Before the revelation, it was simply a mountain. After it, the name honored what had happened at its peak. Today, hundreds of thousands of pilgrims and visitors make the steep forty-minute climb each year to stand at the narrow entrance to the cave and reflect on what occurred within.
+
+## The Tahannuth Practice in Context
+
+The practice of tahannuth — religious seclusion and devotion — that the Prophet ﷺ observed in Cave Hira was not unique to him among the Arabs of his era. There was an awareness among some in Arabia, especially among the hanifs (those who had turned away from polytheism toward monotheism without having received a prophet), that worship required solitude and directed attention toward the one God. What was unique about the Prophet's tahannuth was its regularity, its intensity, and the direction in which it led: straight to the first revelation.
+
+Scholars have noted that the choice of Ramadan — the same month in which the Quran was eventually fully revealed to the Prophet ﷺ, the same month in which fasting would be prescribed — for this annual retreat is itself significant. The sacred month was already being observed in some fashion in the Arab tradition, and the Prophet ﷺ chose it as the time of his deepest seclusion.
+
 **Sources:** al-Bukhari, *Sahih al-Bukhari* (Kitab Bad al-Wahy, Hadith 1); Muslim, *Sahih Muslim* (Kitab al-Iman); Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Kathir, *al-Bidayah wan-Nihayah*; al-Bayhaqi, *Dala'il al-Nubuwwa*

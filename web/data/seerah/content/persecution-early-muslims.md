@@ -28,4 +28,12 @@ The Prophet's ﷺ instruction to his companions during this period of persecutio
 
 The Quranic accounts of previous prophets and their persecuted followers — Nuh, Ibrahim, Musa, and 'Isa — were revealed in this period as both comfort and precedent: persecution of those who brought the truth was the historical norm, and Allah's promise of vindication was equally historical. Every prophet had been opposed; every prophet had ultimately prevailed.
 
+## Those with Partial Protection
+
+Not all of the early Muslims faced the worst forms of physical torture. Those from more powerful clans or with family connections that complicated direct attack faced subtler forms of persecution: social ostracism, economic pressure, and family conflict. Uthman ibn Affan — from the powerful Banu Umayyah — was tied up and beaten by his own uncle but could not be killed outright. Abd al-Rahman ibn Awf, Sa'd ibn Abi Waqqas, and al-Zubayr ibn al-Awwam all faced family pressure and social consequences but were protected from the most extreme abuse by their clan standing.
+
+Among the most poignant accounts is that of Sa'd ibn Abi Waqqas, whose mother swore she would not eat or drink until he renounced Islam — hoping her suffering would compel him. Sa'd refused, and the Quran addressed this very scenario: "We have enjoined upon man care for his parents. His mother carried him in weakness upon weakness... But if they strive to make you associate with Me that of which you have no knowledge, do not obey them. Yet accompany them in this world with appropriate kindness." (Surah Luqman, 31:14-15) The verse honored filial love while establishing that obedience to Allah transcended parental authority in matters of faith.
+
+This spectrum of persecution — from the brutal torture of Bilal to the social pressure on Sa'd — illustrates that the Qurayshi response was not random cruelty but a systematic campaign to reverse the conversions of anyone who had accepted Islam, through whatever means were available given the target's social position.
+
 **Sources:** Ibn Hisham, *al-Sira al-Nabawiyya*; al-Bukhari, *Sahih al-Bukhari* (Kitab al-Manaqib wa-Fadail al-Ashab); Ibn Sa'd, *al-Tabaqat al-Kubra*; Surah al-Nahl (16:106); Ibn Kathir, *al-Bidayah wan-Nihayah*

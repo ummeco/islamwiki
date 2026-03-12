@@ -38,4 +38,6 @@ The Quran's literary power was a direct instrument of dawah: a trained poet hear
 
 Al-Tufayl later fought in the battles of the prophetic era and was martyred in 633 CE at the Battle of Yamama — one of the battles of the Ridda (apostasy) wars during the caliphate of Abu Bakr, a final act of devotion from the poet-warrior who had first heard the Quran despite the cotton in his ears.
 
+The chain of consequence from al-Tufayl's conversion is worth tracing to its end. Al-Tufayl heard the Quran. He accepted Islam. He returned to his tribe. He guided Abu Hurayrah رضي الله عنه to Medina. Abu Hurayrah spent three or four years in the Prophet's company ﷺ, memorizing everything he could. He later narrated approximately 5,374 hadiths — more than any other companion — most of which pass through chains that eventually lead back to him. Every time a Muslim hears a hadith "on the authority of Abu Hurayrah," the chain reaches back through him to al-Tufayl ibn Amr al-Dawsi and the day a poet removed cotton from his ears to hear something he had been warned was dangerous.
+
 **Sources:** Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Kathir, *al-Bidayah wan-Nihayah*; Abu Dawud, *Sunan Abu Dawud* (with variants); al-Bayhaqi, *Dala'il al-Nubuwwa*; Ibn Abd al-Barr, *al-Isti'ab fi Ma'rifat al-Ashab*
