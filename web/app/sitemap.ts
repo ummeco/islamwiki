@@ -5,6 +5,7 @@ import { getPeople } from '@/lib/data/people'
 import { getBooks, getChaptersByBook } from '@/lib/data/books'
 import { getArticles } from '@/lib/data/articles'
 import { getSeerahEvents } from '@/lib/data/seerah'
+import { getAllHistoryEvents } from '@/lib/data/history'
 import { getMedia } from '@/lib/data/media'
 import { getSects } from '@/lib/data/sects'
 import { getWikiPages } from '@/lib/data/wiki'
@@ -21,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/quran`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${BASE_URL}/hadith`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
     { url: `${BASE_URL}/seerah`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE_URL}/history`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/people`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/books`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/articles`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
@@ -116,6 +118,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const e of getSeerahEvents()) {
     entries.push({
       url: `${BASE_URL}/seerah/${e.slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    })
+  }
+
+  // History (prophets, battles, post-Jesus)
+  for (const e of getAllHistoryEvents()) {
+    entries.push({
+      url: `${BASE_URL}/history/${e.slug}`,
       lastModified: now,
       changeFrequency: 'monthly',
       priority: 0.7,
