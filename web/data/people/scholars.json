@@ -1115,7 +1115,7 @@
   },
   {
     "id": 49,
-    "slug": "said-ibn-zayd",
+    "slug": "said-ibn-zayd-alt",
     "name_ar": "سعيد بن زيد",
     "name_en": "Said ibn Zayd",
     "name_full_en": "Said ibn Zayd ibn Amr ibn Nufayl",
@@ -10697,7 +10697,7 @@
   },
   {
     "id": 469,
-    "slug": "husayn-ibn-ali",
+    "slug": "husayn-ibn-ali-alt",
     "name_ar": "الحسين بن علي",
     "name_en": "Husayn ibn Ali",
     "name_full_en": "Husayn ibn Ali ibn Abi Talib al-Hashimi",
@@ -15734,6 +15734,1187 @@
       "karbala revenge",
       "second fitna",
       "thaqif"
+    ]
+  },
+  {
+    "id": 664,
+    "slug": "umayr-ibn-sad-al-ansari",
+    "name": "عمير بن سعد الأنصاري",
+    "name_ar": "عمير بن سعد الأنصاري",
+    "name_en": "Umayr ibn Sa'd al-Ansari",
+    "name_en_alt": [
+      "Umayr ibn Sa'd"
+    ],
+    "bio_short_en": "An Ansari companion appointed by Umar ibn al-Khattab as governor of Hims (Emesa) in Syria. He was renowned for his extreme piety and refusal to accumulate wealth, returning from his governorship with almost nothing — a striking display of asceticism in a position of power.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 20,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "hims",
+      "governor",
+      "umar era",
+      "asceticism"
+    ]
+  },
+  {
+    "id": 665,
+    "slug": "abu-jandal-ibn-suhayl",
+    "name": "أبو جندل بن سهيل",
+    "name_ar": "أبو جندل بن سهيل بن عمرو",
+    "name_en": "Abu Jandal ibn Suhayl",
+    "name_en_alt": [
+      "Abu Jandal ibn Suhayl ibn Amr"
+    ],
+    "bio_short_en": "Son of Suhayl ibn Amr and one of the most poignant figures of the Hudaybiyyah Treaty. He escaped his Meccan captors to reach the Prophet but was handed back under the treaty terms, causing grief among the Muslims. He later escaped again and formed a guerrilla band at the coast alongside Abu Basir.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 18,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "sahabi",
+      "hudaybiyyah",
+      "quraysh",
+      "makkah",
+      "suhayl family"
+    ]
+  },
+  {
+    "id": 666,
+    "slug": "abu-basir-utba-ibn-asid",
+    "name": "أبو بصير عتبة بن أسيد",
+    "name_ar": "أبو بصير عتبة بن أسيد الثقفي",
+    "name_en": "Abu Basir (Utbah ibn Asid)",
+    "name_en_alt": [
+      "Abu Basir al-Thaqafi",
+      "Utbah ibn Usayd"
+    ],
+    "bio_short_en": "A Qurayshi Muslim who was handed back to Mecca under the Hudaybiyyah Treaty but escaped, establishing a Muslim guerrilla force on the Red Sea coast that raided Qurayshi trade caravans. His group's disruption of Meccan commerce eventually led Quraysh to request modification of the Hudaybiyyah treaty terms.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "sahabi",
+      "hudaybiyyah",
+      "quraysh",
+      "thaqif",
+      "guerrilla",
+      "red sea"
+    ]
+  },
+  {
+    "id": 667,
+    "slug": "rayhana-bint-zayd",
+    "name": "ريحانة بنت زيد",
+    "name_ar": "ريحانة بنت زيد بن عمرو النضرية",
+    "name_en": "Rayhana bint Zayd",
+    "name_en_alt": [
+      "Rayhana al-Quraziyya"
+    ],
+    "bio_short_en": "A Jewish woman from Banu Nadir captured after the Battle of Banu Qurayza. Islamic sources differ on whether she became a wife or concubine of the Prophet. She accepted Islam and died before him. Her story is part of the historical record of the Prophet's household and the aftermath of Banu Qurayza.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "female_companions",
+    "gender": "female",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 10,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "female companion",
+      "banu nadir",
+      "banu qurayza",
+      "prophet household"
+    ]
+  },
+  {
+    "id": 668,
+    "slug": "jabir-ibn-atik",
+    "name": "جابر بن عتيك",
+    "name_ar": "جابر بن عتيك بن قيس الأنصاري",
+    "name_en": "Jabir ibn Atik al-Ansari",
+    "name_en_alt": [
+      "Jabir ibn 'Atik"
+    ],
+    "bio_short_en": "An Ansari companion who fought at Badr and subsequent battles. He is particularly known for narrating the hadith in which the Prophet listed seven types of martyrdom besides being killed in battle, including death by plague, a hadith of major importance in Islamic jurisprudence.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 61,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "badr",
+      "martyrdom hadith",
+      "plague"
+    ]
+  },
+  {
+    "id": 669,
+    "slug": "rifa-ibn-rafi-al-ansari",
+    "name": "رفاعة بن رافع الأنصاري",
+    "name_ar": "رفاعة بن رافع بن مالك الأنصاري الزرقي",
+    "name_en": "Rifa'ah ibn Rafi al-Ansari",
+    "name_en_alt": [
+      "Rifaa ibn Rafi",
+      "Rifa'ah ibn Rafi al-Zurqi"
+    ],
+    "bio_short_en": "An Ansari companion of the Banu Zuraq clan who was among the 70 who pledged allegiance at Aqabah. He participated in the Battle of Badr and all subsequent campaigns with the Prophet. He was a hafidh of hadith and settled in Madinah, narrating numerous traditions including one on the correct form of prayer.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 41,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "badr",
+      "aqabah",
+      "hadith",
+      "madinah"
+    ]
+  },
+  {
+    "id": 670,
+    "slug": "utba-ibn-masud",
+    "name": "عتبة بن مسعود",
+    "name_ar": "عتبة بن مسعود الهذلي",
+    "name_en": "Utbah ibn Masud",
+    "name_en_alt": [
+      "Utba ibn Mas'ud al-Hudhali"
+    ],
+    "bio_short_en": "A companion and younger brother of Abd Allah ibn Masud. An early convert from Makkah and a skilled Quran reciter who migrated to Abyssinia. He was captured at Badr initially on the Qurayshi side before his conversion, then ransomed and accepted Islam, becoming a reliable hadith narrator.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "sahabi",
+      "ibn masud family",
+      "makkah",
+      "abyssinia",
+      "quran reciter",
+      "badr"
+    ]
+  },
+  {
+    "id": 671,
+    "slug": "al-bara-ibn-malak",
+    "name": "البراء بن مالك الأنصاري",
+    "name_ar": "البراء بن مالك بن النضر الأنصاري",
+    "name_en": "al-Bara ibn Malik al-Ansari",
+    "name_en_alt": [
+      "al-Bara' ibn Malik",
+      "Bara ibn Malik"
+    ],
+    "bio_short_en": "Brother of Anas ibn Malik and one of the greatest warriors of early Islam. The Prophet is reported to have said there are disheveled, dusty men whose oath Allah would fulfill if they swore by Him, and al-Bara was among them. He fought in the Ridda Wars and was martyred at the conquest of Tustar in 20 AH.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 20,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "warrior",
+      "anas ibn malik family",
+      "tustar",
+      "ridda wars",
+      "martyrdom"
+    ]
+  },
+  {
+    "id": 672,
+    "slug": "amr-ibn-al-jamuh",
+    "name": "عمرو بن الجموح",
+    "name_ar": "عمرو بن الجموح الأنصاري السلمي",
+    "name_en": "Amr ibn al-Jamuh al-Ansari",
+    "name_en_alt": [
+      "Amru ibn al-Jamuh",
+      "'Amr ibn al-Jamuh"
+    ],
+    "bio_short_en": "An Ansari elder of the Banu Salimah clan who was lame but insisted on fighting at Uhud despite the Prophet's offer to excuse him, declaring he wished to walk with his lame foot in Paradise. He was martyred at Uhud alongside his son. The Prophet said he and Abd Allah ibn Amr were buried together as two friends.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 3,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "uhud",
+      "banu salimah",
+      "martyrdom",
+      "disabled companion"
+    ]
+  },
+  {
+    "id": 673,
+    "slug": "khubayb-ibn-adi",
+    "name": "خبيب بن عدي",
+    "name_ar": "خبيب بن عدي الأنصاري",
+    "name_en": "Khubayb ibn Adi al-Ansari",
+    "name_en_alt": [
+      "Khubaib ibn 'Adi"
+    ],
+    "bio_short_en": "An Ansari companion and martyr of Bi'r Ma'unah (4 AH). Captured by the Quraysh and crucified near Makkah, his serenity in the face of death, his two-rakat prayer before execution, and his final words became legendary. He is regarded as a model of steadfastness in the face of martyrdom.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 4,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "bir maunah",
+      "martyrdom",
+      "quraysh",
+      "crucifixion"
+    ]
+  },
+  {
+    "id": 674,
+    "slug": "zayd-ibn-dathinna",
+    "name": "زيد بن دثنة",
+    "name_ar": "زيد بن دثنة الأنصاري البياضي",
+    "name_en": "Zayd ibn Dathinna al-Ansari",
+    "name_en_alt": [
+      "Zayd ibn Dathinna al-Bayadhi"
+    ],
+    "bio_short_en": "An Ansari companion and martyr of Bi'r Ma'unah (4 AH). When Abu Sufyan asked if he would prefer to have Muhammad in his place while he returned safely to his family, Zayd famously replied he would not want even a thorn to harm the Prophet. His answer became a celebrated expression of the companions' love for the Prophet.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 4,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "bir maunah",
+      "martyrdom",
+      "loyalty to prophet"
+    ]
+  },
+  {
+    "id": 675,
+    "slug": "asim-ibn-thabit",
+    "name": "عاصم بن ثابت",
+    "name_ar": "عاصم بن ثابت بن أبي الأقلح الأنصاري",
+    "name_en": "Asim ibn Thabit al-Ansari",
+    "name_en_alt": [
+      "'Asim ibn Thabit",
+      "Asim ibn Abi al-Aqlah"
+    ],
+    "bio_short_en": "An Ansari companion and Badr veteran, father-in-law of Umar ibn al-Khattab's son. He was martyred at Bi'r Ma'unah (4 AH). After his death, Allah sent swarms of hornets to protect his body from enemies who sought to desecrate it — a miracle that became well-known among the companions.",
+    "bio_en": null,
+    "era": "sahabi",
+    "category": "companion",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 4,
+    "is_prophet": false,
+    "is_companion": true,
+    "tags": [
+      "ansari",
+      "sahabi",
+      "badr",
+      "bir maunah",
+      "martyrdom",
+      "miracle",
+      "umar family"
+    ]
+  },
+  {
+    "id": 676,
+    "slug": "abu-qilaba-al-jarmi",
+    "name": "أبو قلابة الجرمي",
+    "name_ar": "عبد الله بن زيد الجرمي البصري",
+    "name_en": "Abu Qilabah al-Jarmi",
+    "name_en_alt": [
+      "Abd Allah ibn Zayd al-Jarmi",
+      "Abu Qilaba"
+    ],
+    "bio_short_en": "A Basran-Syrian Tabieen scholar from the Jarmi tribe and one of the major narrators from Anas ibn Malik. Known for his asceticism, he eventually settled in Syria. He is cited in Sahih Bukhari and Muslim and was a trusted authority in both Basra and Syria during the early Umayyad period.",
+    "bio_en": null,
+    "era": "tabii",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 104,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "tabieen",
+      "basra",
+      "syria",
+      "hadith",
+      "anas ibn malik",
+      "asceticism"
+    ]
+  },
+  {
+    "id": 677,
+    "slug": "sulayman-ibn-mahran",
+    "name": "سليمان بن مهران الأعمش",
+    "name_ar": "سليمان بن مهران الكاهلي الأسدي الكوفي",
+    "name_en": "al-A'mash (Sulayman ibn Mahran)",
+    "name_en_alt": [
+      "al-Amash",
+      "Sulayman al-Amash",
+      "A'mash al-Kufi"
+    ],
+    "bio_short_en": "Known as al-A'mash (the bleary-eyed), a towering Kufi Tabi Tabieen hadith scholar whose chain through Ibrahim al-Nakhai and Alqamah is foundational to Hanafi transmission. A prolific narrator in Sahih Bukhari, he was known for sharp precision, deep Quran knowledge, and pithy statements on knowledge and worship.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 61,
+    "died_ah": 148,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "tabi tabieen",
+      "kufa",
+      "hadith",
+      "hanafi",
+      "bukhari",
+      "quran",
+      "ibrahim al-nakhai"
+    ]
+  },
+  {
+    "id": 678,
+    "slug": "abd-al-malik-ibn-abd-al-aziz-ibn-jurayj",
+    "name": "ابن جريج",
+    "name_ar": "عبد الملك بن عبد العزيز بن جريج المكي",
+    "name_en": "Ibn Jurayj",
+    "name_en_alt": [
+      "Abd al-Malik ibn Jurayj",
+      "Ibn Juraij"
+    ],
+    "bio_short_en": "The first scholar to compile hadith in organized book form in Makkah, predating the major canonical collections. A major Tabi Tabieen authority and student of Ata ibn Abi Rabah, his written hadith compilations represent the earliest systematic effort to preserve prophetic traditions in literary form. He died in 150 AH.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 80,
+    "died_ah": 150,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "tabi tabieen",
+      "makkah",
+      "hadith",
+      "first compilation",
+      "ata ibn abi rabah",
+      "musannaf"
+    ]
+  },
+  {
+    "id": 679,
+    "slug": "yahya-ibn-muin",
+    "name": "يحيى بن معين",
+    "name_ar": "يحيى بن معين البغدادي",
+    "name_en": "Yahya ibn Muin",
+    "name_en_alt": [
+      "Yahya ibn Ma'in",
+      "Ibn Muin al-Baghdadi"
+    ],
+    "bio_short_en": "One of the founding masters of hadith criticism (al-jarh wa al-ta'dil) alongside Ahmad ibn Hanbal, who was his close companion and fellow student. He devoted his life entirely to evaluating the reliability of hadith narrators, and his verdicts carry immense weight across all six canonical hadith collections.",
+    "bio_en": null,
+    "era": "classical",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 158,
+    "died_ah": 233,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "hadith criticism",
+      "jarh wa tadil",
+      "baghdad",
+      "rijal",
+      "classical period",
+      "ahmad ibn hanbal"
+    ]
+  },
+  {
+    "id": 680,
+    "slug": "al-daraqutni",
+    "name": "الدارقطني",
+    "name_ar": "علي بن عمر الدارقطني البغدادي",
+    "name_en": "al-Daraqutni",
+    "name_en_alt": [
+      "Ali ibn Umar al-Daraqutni",
+      "al-Daruqutni"
+    ],
+    "bio_short_en": "A master hadith critic and jurist of Baghdad (306-385 AH) and author of Sunan al-Daraqutni, an indispensable reference for hadith used by jurists in legal rulings. He was unrivalled in his era for knowledge of variant hadith chains (ilal) and narrator criticism, ranking among the greatest hadith scholars of the 4th century AH.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 306,
+    "died_ah": 385,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "hadith",
+      "sunan",
+      "baghdad",
+      "jarh wa tadil",
+      "ilal",
+      "4th century ah",
+      "rijal"
+    ]
+  },
+  {
+    "id": 681,
+    "slug": "ibn-al-salah",
+    "name": "ابن الصلاح",
+    "name_ar": "عثمان بن عبد الرحمن الشهرزوري",
+    "name_en": "Ibn al-Salah",
+    "name_en_alt": [
+      "Uthman ibn Abd al-Rahman al-Shahrazuri",
+      "Ibn al-Salah al-Shahrazuri"
+    ],
+    "bio_short_en": "The preeminent hadith scholar of the 7th century AH, author of the Muqaddimah Ibn al-Salah — the foundational text that systematized all hadith sciences terminology and methodology. His work became the canonical reference point for every subsequent scholar writing on the science of hadith.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 577,
+    "died_ah": 643,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "hadith sciences",
+      "muqaddimah",
+      "shafii",
+      "damascus",
+      "7th century ah",
+      "mustalah al-hadith"
+    ]
+  },
+  {
+    "id": 682,
+    "slug": "shams-al-din-al-dhahabi",
+    "name": "الذهبي",
+    "name_ar": "شمس الدين محمد بن أحمد الذهبي الدمشقي",
+    "name_en": "al-Dhahabi",
+    "name_en_alt": [
+      "Shams al-Din al-Dhahabi",
+      "Muhammad ibn Ahmad al-Dhahabi"
+    ],
+    "bio_short_en": "The greatest hadith critic and historian of the 8th century AH (673-748 AH), student of Ibn Taymiyyah. His monumental works — Siyar A'lam al-Nubala, Mizan al-I'tidal, Tadhkirat al-Huffaz, and Tarikh al-Islam — remain the essential biographical references for Islamic scholarship, covering tens of thousands of narrators and scholars.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 673,
+    "died_ah": 748,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "hadith",
+      "biography",
+      "history",
+      "siyar alam",
+      "mizan al-itidal",
+      "damascus",
+      "shafii",
+      "ibn taymiyyah student"
+    ]
+  },
+  {
+    "id": 683,
+    "slug": "al-nawawi",
+    "name": "النووي",
+    "name_ar": "يحيى بن شرف النووي الدمشقي",
+    "name_en": "al-Nawawi",
+    "name_en_alt": [
+      "Imam al-Nawawi",
+      "Yahya ibn Sharaf al-Nawawi",
+      "Muhyi al-Din al-Nawawi"
+    ],
+    "bio_short_en": "The towering Shafi'i scholar and hadith master of Damascus (631-676 AH), whose works — Sharh Sahih Muslim, Riyadh al-Salihin, al-Adhkar, al-Minhaj, and the 40 Hadith collection — remain among the most widely read and taught books in Islamic scholarship worldwide. A paragon of piety and encyclopedic knowledge.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "faqih",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 631,
+    "died_ah": 676,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "shafii",
+      "hadith",
+      "fiqh",
+      "damascus",
+      "riyadh al-salihin",
+      "40 hadith",
+      "sharh muslim",
+      "7th century ah"
+    ]
+  },
+  {
+    "id": 684,
+    "slug": "al-izz-ibn-abd-al-salam",
+    "name": "العز بن عبد السلام",
+    "name_ar": "عز الدين عبد العزيز بن عبد السلام السلمي الدمشقي",
+    "name_en": "al-Izz ibn Abd al-Salam",
+    "name_en_alt": [
+      "Izz al-Din ibn Abd al-Salam",
+      "Sultan al-Ulama"
+    ],
+    "bio_short_en": "Known as Sultan al-Ulama (King of the Scholars), a great Shafi'i jurist and Ash'ari theologian of Damascus (577-660 AH). He famously defied the Ayyubid ruler and later sold Mamluk amirs at auction to fund the Muslim army. His Qawa'id al-Ahkam is a foundational work in Islamic legal theory and the doctrine of public interest (maqasid).",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "faqih",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 577,
+    "died_ah": 660,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "shafii",
+      "ashari",
+      "fiqh",
+      "maqasid",
+      "damascus",
+      "crusades",
+      "mamluks",
+      "sultan al-ulama",
+      "7th century ah"
+    ]
+  },
+  {
+    "id": 685,
+    "slug": "fakhr-al-din-al-razi",
+    "name": "فخر الدين الرازي",
+    "name_ar": "محمد بن عمر فخر الدين الرازي",
+    "name_en": "Fakhr al-Din al-Razi",
+    "name_en_alt": [
+      "Fakhruddin al-Razi",
+      "Ibn al-Khatib al-Razi"
+    ],
+    "bio_short_en": "One of the greatest Islamic encyclopedists (544-606 AH), whose Mafatih al-Ghayb (al-Tafsir al-Kabir) is the most comprehensive rationalist tafsir in Islamic history, engaging philosophy, theology, science, and law. A master of kalam (Ash'ari school), his approach was influential but also criticized by Hanbali scholars including Ibn Taymiyyah.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "mufassir",
+    "gender": "male",
+    "nationality": "Iranian",
+    "born_ah": 544,
+    "died_ah": 606,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "shafii",
+      "ashari",
+      "tafsir",
+      "philosophy",
+      "kalam",
+      "mafatih al-ghayb",
+      "6th century ah",
+      "ray",
+      "herat"
+    ]
+  },
+  {
+    "id": 686,
+    "slug": "al-suyuti",
+    "name": "السيوطي",
+    "name_ar": "جلال الدين عبد الرحمن السيوطي المصري",
+    "name_en": "al-Suyuti",
+    "name_en_alt": [
+      "Jalal al-Din al-Suyuti",
+      "Abd al-Rahman al-Suyuti"
+    ],
+    "bio_short_en": "The most prolific scholar in Islamic history (849-911 AH), authoring over 500 works across virtually every Islamic discipline. His tafsir al-Jalalayn (co-authored with al-Mahalli), al-Itqan fi Ulum al-Quran, al-Jami al-Saghir, and Tadrib al-Rawi remain standard textbooks in traditional Islamic education worldwide.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "muhaddith",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 849,
+    "died_ah": 911,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "shafii",
+      "hadith",
+      "tafsir",
+      "egypt",
+      "jalalayn",
+      "itqan",
+      "prolific",
+      "9th century ah",
+      "mujaddid"
+    ]
+  },
+  {
+    "id": 687,
+    "slug": "abd-al-aziz-ibn-marwan",
+    "name": "عبد العزيز بن مروان",
+    "name_ar": "عبد العزيز بن مروان بن الحكم",
+    "name_en": "Abd al-Aziz ibn Marwan",
+    "name_en_alt": [
+      "Abd al-Aziz ibn Marwan al-Umawi"
+    ],
+    "bio_short_en": "Umayyad governor of Egypt for approximately 20 years (65-86 AH) under his brother Abd al-Malik ibn Marwan. He administered Egypt with noted stability and was the father of Umar ibn Abd al-Aziz, the revered reformer caliph. His long governorship was one of the most stable periods in early Islamic Egypt.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 86,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "egypt",
+      "governor",
+      "marwanid",
+      "umar ibn abd al-aziz father"
+    ]
+  },
+  {
+    "id": 688,
+    "slug": "amr-ibn-said-al-ashdaq",
+    "name": "عمرو بن سعيد الأشدق",
+    "name_ar": "عمرو بن سعيد بن العاص الأموي",
+    "name_en": "Amr ibn Said al-Ashdaq",
+    "name_en_alt": [
+      "Amr ibn Sa'id al-Ashdak",
+      "al-Ashdaq"
+    ],
+    "bio_short_en": "An Umayyad prince known as al-Ashdaq (the prominent-jawed), a serious rival to Abd al-Malik ibn Marwan for the caliphate during the Second Fitna. He controlled Damascus briefly before being captured and killed by Abd al-Malik in 70 AH, eliminating the last major internal Umayyad challenger to Marwanid rule.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 70,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "second fitna",
+      "damascus",
+      "abd al-malik rival",
+      "marwanid era"
+    ]
+  },
+  {
+    "id": 689,
+    "slug": "umar-ibn-hubayrah",
+    "name": "عمر بن هبيرة الفزاري",
+    "name_ar": "عمر بن هبيرة الفزاري الأموي",
+    "name_en": "Umar ibn Hubayrah al-Fazari",
+    "name_en_alt": [
+      "Ibn Hubayra al-Fazari"
+    ],
+    "bio_short_en": "Umayyad governor of Iraq under caliphs Yazid II and Hisham ibn Abd al-Malik (d. 105 AH). He is remembered in Islamic ethical tradition for his exchange with Abu Hanifah, whom he pressured to authenticate political documents. Abu Hanifah's principled refusal at personal risk is cited as a landmark example of scholarly independence from political authority.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 105,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "iraq",
+      "governor",
+      "abu hanifah",
+      "scholarly independence",
+      "yazid ii era"
+    ]
+  },
+  {
+    "id": 690,
+    "slug": "qutayba-ibn-muslim",
+    "name": "قتيبة بن مسلم الباهلي",
+    "name_ar": "قتيبة بن مسلم بن عمرو الباهلي",
+    "name_en": "Qutayba ibn Muslim al-Bahili",
+    "name_en_alt": [
+      "Qutaybah ibn Muslim",
+      "Kutayba ibn Muslim"
+    ],
+    "bio_short_en": "The great Umayyad commander of Central Asian conquests (d. 96 AH), operating under Hajjaj ibn Yusuf. He conquered Transoxiana including Bukhara, Samarqand, and Khwarazm, bringing Islam deep into Central Asia. His campaigns fundamentally shaped the Islamization of modern Uzbekistan and Tajikistan before he was killed in a military mutiny.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 96,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "central asia",
+      "transoxiana",
+      "bukhara",
+      "samarqand",
+      "conquests",
+      "hajjaj ibn yusuf"
+    ]
+  },
+  {
+    "id": 691,
+    "slug": "al-jarrah-ibn-abd-allah-al-hakami",
+    "name": "الجراح بن عبد الله الحكمي",
+    "name_ar": "الجراح بن عبد الله الحكمي",
+    "name_en": "al-Jarrah ibn Abd Allah al-Hakami",
+    "name_en_alt": [
+      "al-Jarrah al-Hakami"
+    ],
+    "bio_short_en": "Umayyad governor of Khurasan and military commander who launched campaigns against the Khazars in the Caucasus. He was killed along with much of his army by the Khazars at the Battle of Marj Ardabil (112 AH), one of the most devastating defeats of the Umayyad period, temporarily halting Muslim expansion northward into the Caucasus.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 112,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "umayyad",
+      "khurasan",
+      "caucasus",
+      "khazars",
+      "marj ardabil",
+      "governor",
+      "defeat"
+    ]
+  },
+  {
+    "id": 692,
+    "slug": "ibrahim-ibn-adham",
+    "name": "إبراهيم بن أدهم",
+    "name_ar": "إبراهيم بن أدهم البلخي",
+    "name_en": "Ibrahim ibn Adham",
+    "name_en_alt": [
+      "Ibrahim ibn Adham al-Balkhi"
+    ],
+    "bio_short_en": "A prince of Balkh (Khorasan) who renounced his throne and wealth to pursue asceticism and knowledge. A Tabi Tabieen scholar and student of Sufyan al-Thawri's circle, he settled in Syria and is regarded as one of the earliest and most authentic models of Islamic renunciation (zuhd). His sayings on sincerity and detachment from the world are widely quoted.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Iranian",
+    "born_ah": null,
+    "died_ah": 161,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "zuhd",
+      "asceticism",
+      "balkh",
+      "khurasan",
+      "syria",
+      "tabi tabieen",
+      "renunciation"
+    ]
+  },
+  {
+    "id": 693,
+    "slug": "al-fudays-ibn-iyad",
+    "name": "الفضيل بن عياض",
+    "name_ar": "الفضيل بن عياض التميمي الخراساني",
+    "name_en": "al-Fudayl ibn Iyad",
+    "name_en_alt": [
+      "Fudayl ibn Iyad",
+      "al-Fudail ibn Iyad",
+      "al-Fudayl al-Tamimi"
+    ],
+    "bio_short_en": "A former highway robber who repented upon hearing a Quranic verse recited at night and became one of the greatest ascetics of early Islam. A Makkah-based scholar and teacher of Ibn al-Mubarak, his statements on sincerity (ikhlas), fear of Allah, and the corruption of scholars rank among the most quoted in Islamic spiritual literature.",
+    "bio_en": null,
+    "era": "tabi_tabii",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Iranian",
+    "born_ah": null,
+    "died_ah": 187,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "zuhd",
+      "asceticism",
+      "makkah",
+      "repentance",
+      "ikhlas",
+      "ibn al-mubarak teacher",
+      "8th century ah"
+    ]
+  },
+  {
+    "id": 694,
+    "slug": "bishr-al-hafi",
+    "name": "بشر الحافي",
+    "name_ar": "بشر بن الحارث الحافي البغدادي",
+    "name_en": "Bishr al-Hafi",
+    "name_en_alt": [
+      "Bishr ibn al-Harith al-Hafi",
+      "Bishr al-Hafi al-Baghdadi"
+    ],
+    "bio_short_en": "A Baghdad-based ascetic scholar (d. 227 AH) known as al-Hafi (the barefoot one) because he refused to wear sandals out of humility before Allah. Renowned for extreme scrupulousness in halal earnings and profound statements on piety, he was held in the highest regard by Ahmad ibn Hanbal and the entire classical Hanbali tradition.",
+    "bio_en": null,
+    "era": "classical",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Iranian",
+    "born_ah": 150,
+    "died_ah": 227,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "zuhd",
+      "baghdad",
+      "asceticism",
+      "ahmad ibn hanbal",
+      "scrupulousness",
+      "hanbali circle"
+    ]
+  },
+  {
+    "id": 695,
+    "slug": "sari-al-saqati",
+    "name": "سري السقطي",
+    "name_ar": "سري بن المغلس السقطي البغدادي",
+    "name_en": "Sari al-Saqati",
+    "name_en_alt": [
+      "Sari ibn al-Mughlis al-Saqati"
+    ],
+    "bio_short_en": "A Baghdad scholar and ascetic (d. 253 AH) who studied under Maruf al-Karkhi and was the maternal uncle and primary teacher of al-Junayd al-Baghdadi. One of the founding figures of the Baghdad school of spiritual discipline and asceticism, his sayings on tawhid and the integration of outward sharia with inward states were foundational to that tradition.",
+    "bio_en": null,
+    "era": "classical",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": null,
+    "died_ah": 253,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "zuhd",
+      "baghdad",
+      "maruf al-karkhi student",
+      "junayd teacher",
+      "9th century ah",
+      "asceticism"
+    ]
+  },
+  {
+    "id": 696,
+    "slug": "al-junayd-al-baghdadi",
+    "name": "الجنيد البغدادي",
+    "name_ar": "أبو القاسم الجنيد بن محمد البغدادي",
+    "name_en": "al-Junayd al-Baghdadi",
+    "name_en_alt": [
+      "Junayd al-Baghdadi",
+      "al-Junayd ibn Muhammad"
+    ],
+    "bio_short_en": "The most prominent figure of the sober Baghdad school of Islamic spiritual discipline (d. 297 AH), student of Sari al-Saqati and al-Harith al-Muhasibi. His approach emphasized strict adherence to Quran and Sunnah, sobriety (sahw), and sharia-grounded spirituality. He was also a Shafi'i jurist and his letters and sayings remain foundational in classical Islamic literature.",
+    "bio_en": null,
+    "era": "classical",
+    "category": "faqih",
+    "gender": "male",
+    "nationality": "Iranian",
+    "born_ah": 220,
+    "died_ah": 297,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "baghdad",
+      "zuhd",
+      "shafii",
+      "sari al-saqati student",
+      "sober school",
+      "9th century ah",
+      "letters"
+    ]
+  },
+  {
+    "id": 697,
+    "slug": "ibn-ata-allah-al-iskandari",
+    "name": "ابن عطاء الله الإسكندري",
+    "name_ar": "أحمد بن محمد ابن عطاء الله الإسكندري",
+    "name_en": "Ibn Ata Allah al-Iskandari",
+    "name_en_alt": [
+      "Ibn Ata'illah al-Iskandari",
+      "Ahmad ibn Ata Allah"
+    ],
+    "bio_short_en": "An Egyptian Maliki scholar (d. 709 AH) whose Kitab al-Hikam (Book of Wisdoms) became one of the most widely read works of Islamic spirituality. Associated with the Shadhili order, he debated Ibn Taymiyyah publicly in Cairo on issues of tasawwuf. His works are used in traditional Islamic education today, though his spiritual framework is contested by Athari scholars.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 658,
+    "died_ah": 709,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "maliki",
+      "egypt",
+      "alexandria",
+      "al-hikam",
+      "shadhili",
+      "ibn taymiyyah debate",
+      "7th century ah",
+      "controversial"
+    ]
+  },
+  {
+    "id": 698,
+    "slug": "muhyi-al-din-ibn-arabi",
+    "name": "ابن عربي",
+    "name_ar": "محيي الدين محمد بن علي ابن عربي الأندلسي",
+    "name_en": "Ibn Arabi",
+    "name_en_alt": [
+      "Muhyi al-Din ibn Arabi",
+      "Ibn al-Arabi al-Andulusi",
+      "al-Shaykh al-Akbar"
+    ],
+    "bio_short_en": "Called al-Shaykh al-Akbar (the Greatest Master), an Andalusian scholar settled in Damascus (560-638 AH) and the most controversial figure in Islamic intellectual history. His Fusus al-Hikam and al-Futuhat al-Makkiyya contain the concept of wahdat al-wujud (unity of being), condemned as pantheism by Ibn Taymiyyah and many scholars. Revered by some as a saint, rejected by others as a heretic.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 560,
+    "died_ah": 638,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "andalusia",
+      "damascus",
+      "wahdat al-wujud",
+      "fusus al-hikam",
+      "futuhat",
+      "controversial",
+      "6th century ah"
+    ]
+  },
+  {
+    "id": 699,
+    "slug": "ibn-batuta",
+    "name": "ابن بطوطة",
+    "name_ar": "محمد بن عبد الله بن بطوطة التنجي المغربي",
+    "name_en": "Ibn Battuta",
+    "name_en_alt": [
+      "Ibn Batutah",
+      "Abu Abd Allah ibn Battuta"
+    ],
+    "bio_short_en": "The greatest Muslim traveler in history (703-770 AH), who over 30 years traveled approximately 75,000 miles through the Islamic world and beyond — from Morocco to Mali, Anatolia to India, and China. His Rihla (Travels), dictated to Ibn Juzayy, remains an unparalleled primary source for 14th-century political, social, and religious history across three continents.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "other",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 703,
+    "died_ah": 770,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "traveler",
+      "morocco",
+      "rihla",
+      "geography",
+      "maliki",
+      "8th century ah",
+      "africa",
+      "india",
+      "china"
+    ]
+  },
+  {
+    "id": 700,
+    "slug": "ibn-uthaymin",
+    "name": "ابن عثيمين",
+    "name_ar": "محمد بن صالح العثيمين النجدي",
+    "name_en": "Ibn Uthaymin",
+    "name_en_alt": [
+      "Muhammad ibn Salih al-Uthaymin",
+      "Ibn Uthaymeen",
+      "al-Uthaymeen"
+    ],
+    "bio_short_en": "One of the most influential Hanbali-Salafi scholars of the 20th century (1347-1421 AH), whose multi-volume Tafsir al-Quran al-Karim, Sharh al-Mumti in fiqh, and hundreds of audio fatawa made him one of the most prolific and accessible scholars of his generation. A student of Abd al-Rahman al-Saadi, he taught at the Grand Mosque of Unayzah for decades.",
+    "bio_en": null,
+    "era": "contemporary",
+    "category": "faqih",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 1347,
+    "died_ah": 1421,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "hanbali",
+      "salafi",
+      "saudi arabia",
+      "najd",
+      "tafsir",
+      "fatawa",
+      "contemporary",
+      "20th century"
+    ]
+  },
+  {
+    "id": 701,
+    "slug": "salih-al-fawzan",
+    "name": "صالح الفوزان",
+    "name_ar": "صالح بن فوزان بن عبد الله الفوزان",
+    "name_en": "Salih al-Fawzan",
+    "name_en_alt": [
+      "Salih ibn Fawzan al-Fawzan",
+      "al-Fawzan"
+    ],
+    "bio_short_en": "A leading contemporary Hanbali scholar and member of Saudi Arabia's Council of Senior Scholars (born 1354 AH). A prolific author and fatawa issuer, his works in aqeedah (including commentary on Kitab al-Tawhid), fiqh, and hadith are widely used in Salafi educational institutions globally.",
+    "bio_en": null,
+    "era": "contemporary",
+    "category": "faqih",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 1354,
+    "died_ah": null,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "hanbali",
+      "salafi",
+      "saudi arabia",
+      "council of senior scholars",
+      "aqeedah",
+      "fiqh",
+      "contemporary"
+    ]
+  },
+  {
+    "id": 702,
+    "slug": "mahmud-al-alusi",
+    "name": "الآلوسي",
+    "name_ar": "محمود بن عبد الله الآلوسي البغدادي",
+    "name_en": "Mahmud al-Alusi",
+    "name_en_alt": [
+      "al-Alusi al-Baghdadi",
+      "Shihab al-Din al-Alusi"
+    ],
+    "bio_short_en": "A 19th-century Iraqi scholar and mufti of Baghdad (1217-1270 AH), author of the encyclopedic tafsir Ruh al-Ma'ani — one of the most comprehensive Quranic commentaries of the late classical period, spanning 30 volumes and drawing on all classical exegetical traditions. A Hanafi jurist with Salafi-influenced aqeedah positions.",
+    "bio_en": null,
+    "era": "medieval",
+    "category": "mufassir",
+    "gender": "male",
+    "nationality": "Arab",
+    "born_ah": 1217,
+    "died_ah": 1270,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "hanafi",
+      "tafsir",
+      "ruh al-maani",
+      "baghdad",
+      "iraq",
+      "19th century",
+      "ottoman era"
+    ]
+  },
+  {
+    "id": 703,
+    "slug": "muhammad-al-amin-al-shinqiti",
+    "name": "محمد الأمين الشنقيطي",
+    "name_ar": "محمد الأمين بن محمد المختار الشنقيطي الجكني",
+    "name_en": "Muhammad al-Amin al-Shinqiti",
+    "name_en_alt": [
+      "al-Shinqiti",
+      "Muhammad Amin al-Shinqiti",
+      "Shaykh al-Shinqiti"
+    ],
+    "bio_short_en": "A Mauritanian scholar (1325-1393 AH) who became one of the founding teachers of the Islamic University of Madinah after migrating from West Africa. His multi-volume Adwa al-Bayan fi Tafsir al-Quran bi al-Quran is one of the most important modern tafsir works, using Quran to explain Quran in a systematic methodology that influenced the Salafi scholarly tradition.",
+    "bio_en": null,
+    "era": "contemporary",
+    "category": "mufassir",
+    "gender": "male",
+    "nationality": "African",
+    "born_ah": 1325,
+    "died_ah": 1393,
+    "is_prophet": false,
+    "is_companion": false,
+    "tags": [
+      "maliki",
+      "madinah university",
+      "west africa",
+      "mauritania",
+      "tafsir",
+      "adwa al-bayan",
+      "20th century",
+      "quran methodology"
     ]
   }
 ]
