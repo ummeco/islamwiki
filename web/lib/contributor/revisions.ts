@@ -177,6 +177,30 @@ export async function getRecentReviewedRevisions(limit = 50): Promise<Revision[]
   return data.iw_wiki_revisions
 }
 
+export async function saveAIReviewResult(
+  revisionId: string,
+  score: number,
+  summary: string,
+  autoReject: boolean
+): Promise<void> {
+  const mutation = `
+    mutation SaveAIReview($id: bigint!, $set: iw_wiki_revisions_set_input!) {
+      update_iw_wiki_revisions_by_pk(pk_columns: { id: $id }, _set: $set) {
+        id status
+      }
+    }
+  `
+  await hasuraAdmin(mutation, {
+    id: revisionId,
+    set: {
+      ai_review_score: score,
+      ai_review_summary: summary,
+      ...(autoReject ? { status: 'denied' } : {}),
+      updated_at: new Date().toISOString(),
+    },
+  })
+}
+
 export async function getRevisionById(id: string): Promise<Revision | null> {
   const query = `
     query GetRevision($id: bigint!) {

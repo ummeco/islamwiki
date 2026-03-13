@@ -26,12 +26,21 @@ export function sanitizeHtml(dirty: string): string {
   })
 }
 
+// Allowlisted embed origins — iframes with any other src are stripped
+const ALLOWED_EMBED_ORIGINS = [
+  'https://www.youtube.com/embed/',
+  'https://youtube.com/embed/',
+  'https://www.youtube-nocookie.com/embed/',
+  'https://player.vimeo.com/video/',
+  'https://w.soundcloud.com/player/',
+]
+
 /**
  * Sanitize HTML for embed codes (iframes allowed for video embeds).
- * More permissive — use only for trusted embed sources.
+ * Enforces src allowlist post-purify — only known video platforms permitted.
  */
 export function sanitizeEmbed(dirty: string): string {
-  return DOMPurify.sanitize(dirty, {
+  const purified = DOMPurify.sanitize(dirty, {
     ADD_TAGS: ['iframe'],
     ADD_ATTR: ['allow', 'allowfullscreen', 'frameborder', 'scrolling'],
     ALLOWED_TAGS: [
@@ -45,5 +54,12 @@ export function sanitizeEmbed(dirty: string): string {
       'target', 'rel',
     ],
     ALLOW_DATA_ATTR: false,
+  })
+  // Post-process: strip any iframes with non-allowlisted src
+  return purified.replace(/<iframe\b[^>]*>[\s\S]*?<\/iframe>/gi, (match) => {
+    const srcMatch = /\bsrc=["']([^"']*?)["']/i.exec(match)
+    if (!srcMatch) return ''
+    const src = srcMatch[1]
+    return ALLOWED_EMBED_ORIGINS.some((origin) => src.startsWith(origin)) ? match : ''
   })
 }

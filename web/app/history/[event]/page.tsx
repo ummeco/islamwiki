@@ -5,6 +5,7 @@ import { getHistoryEventBySlug, getAllHistoryEvents } from '@/lib/data/history'
 import { getSeerahContent } from '@/lib/data/seerah-content'
 import { formatIslamicDate } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
+import { renderContent, extractHeadings, type Heading } from '@/lib/render-content'
 
 interface Props {
   params: Promise<{ event: string }>
@@ -15,70 +16,6 @@ const SEVERITY_STYLE: Record<number, string> = {
   1: 'bg-iw-surface text-iw-text-secondary',
   2: 'bg-iw-accent/10 text-iw-accent',
   3: 'bg-amber-500/15 text-amber-400',
-}
-
-function slugify(text: string): string {
-  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-}
-
-interface Heading { id: string; level: 2 | 3; text: string }
-
-function extractHeadings(content: string): Heading[] {
-  const out: Heading[] = []
-  for (const line of content.split('\n')) {
-    if (line.startsWith('## ')) out.push({ id: slugify(line.slice(3)), level: 2, text: line.slice(3) })
-    else if (line.startsWith('### ')) out.push({ id: slugify(line.slice(4)), level: 3, text: line.slice(4) })
-  }
-  return out
-}
-
-function renderContent(content: string) {
-  const lines = content.split('\n')
-  const nodes: React.ReactNode[] = []
-  let i = 0
-  while (i < lines.length) {
-    const line = lines[i]
-    if (line.startsWith('## ')) {
-      const text = line.slice(3)
-      nodes.push(
-        <h2 key={i} id={slugify(text)} className="mt-8 scroll-mt-28 text-xl font-bold text-white">
-          {text}
-        </h2>
-      )
-      i++
-    } else if (line.startsWith('### ')) {
-      const text = line.slice(4)
-      nodes.push(
-        <h3 key={i} id={slugify(text)} className="mt-6 scroll-mt-28 text-base font-semibold text-white/90">
-          {text}
-        </h3>
-      )
-      i++
-    } else if (line.startsWith('- ')) {
-      const start = i
-      const texts: string[] = []
-      while (i < lines.length && lines[i].startsWith('- ')) {
-        texts.push(lines[i].slice(2))
-        i++
-      }
-      nodes.push(
-        <ul key={start} className="ml-4 list-disc space-y-1 text-iw-text-secondary">
-          {texts.map((t, j) => <li key={j}>{t}</li>)}
-        </ul>
-      )
-    } else if (line.trim() === '') {
-      nodes.push(<br key={i} />)
-      i++
-    } else {
-      nodes.push(
-        <p key={i} className="leading-relaxed text-iw-text-secondary">
-          {line}
-        </p>
-      )
-      i++
-    }
-  }
-  return nodes
 }
 
 export async function generateStaticParams() {
@@ -110,9 +47,10 @@ export default async function HistoryEventPage({ params }: Props) {
   const headings = fullContent ? extractHeadings(fullContent) : []
 
   const allEvents = getAllHistoryEvents()
-  const idx = allEvents.findIndex((e) => e.slug === slug)
-  const prevEvent = idx > 0 ? allEvents[idx - 1] : null
-  const nextEvent = idx < allEvents.length - 1 ? allEvents[idx + 1] : null
+  const sectionEvents = allEvents.filter((e) => e.section === event.section)
+  const idx = sectionEvents.findIndex((e) => e.slug === slug)
+  const prevEvent = idx > 0 ? sectionEvents[idx - 1] : null
+  const nextEvent = idx < sectionEvents.length - 1 ? sectionEvents[idx + 1] : null
 
   const { primary, secondary } = formatIslamicDate(event)
 
@@ -137,7 +75,7 @@ export default async function HistoryEventPage({ params }: Props) {
             <span className="max-w-[200px] truncate">{prevEvent.title_en}</span>
           </Link>
         ) : <div />}
-        <span className="text-xs text-iw-text-muted">Event {idx + 1} of {allEvents.length}</span>
+        <span className="text-xs text-iw-text-muted">Event {idx + 1} of {sectionEvents.length}</span>
         {nextEvent ? (
           <Link href={`/history/${nextEvent.slug}`} className="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent">
             <span className="max-w-[200px] truncate">{nextEvent.title_en}</span>
@@ -182,6 +120,21 @@ export default async function HistoryEventPage({ params }: Props) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
               {event.place_name}
+            </div>
+          )}
+
+          {/* People cross-link */}
+          {event.people_slug && (
+            <div className="mb-6">
+              <Link
+                href={`/people/${event.people_slug}`}
+                className="inline-flex items-center gap-2 rounded-lg border border-iw-border bg-iw-surface px-3 py-2 text-sm text-iw-text-secondary transition-colors hover:border-iw-accent/40 hover:text-iw-accent"
+              >
+                <svg className="h-4 w-4 text-iw-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                View biography →
+              </Link>
             </div>
           )}
 

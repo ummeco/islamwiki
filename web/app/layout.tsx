@@ -75,7 +75,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://islam.wiki',
+    url: process.env.NEXT_PUBLIC_BASE_URL ?? 'https://islam.wiki',
     siteName: 'Islam.wiki',
     title: 'Islam.wiki — The Islamic Reference',
     description:

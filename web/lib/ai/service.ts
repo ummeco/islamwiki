@@ -48,7 +48,7 @@ function buildProviders(): Provider[] {
       id: `anthropic-${i + 1}`,
       type: 'anthropic',
       client: new Anthropic({ apiKey: uniqueAnthropicKeys[i] }),
-      model: 'claude-sonnet-4-20250514',
+      model: process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-4-6',
       available: true,
       unavailableUntil: 0,
     })

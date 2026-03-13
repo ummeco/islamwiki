@@ -16,7 +16,6 @@ export async function GET(request: NextRequest) {
     const { data } = await refreshAccessToken(refreshToken)
     if (data) {
       const isProd = process.env.NODE_ENV === 'production'
-      const response = NextResponse.next()
 
       // Set new access token cookie
       cookieStore.set('iw_at', data.accessToken, {

@@ -273,16 +273,10 @@ export default function HomePage() {
             </div>
             <div className="flex shrink-0 gap-3">
               <Link
-                href="/api-docs"
-                className="rounded-lg border border-iw-border px-4 py-2 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-white"
-              >
-                API Docs
-              </Link>
-              <Link
-                href="/widgets"
+                href="/search"
                 className="rounded-lg bg-iw-accent px-4 py-2 text-sm font-medium text-iw-bg transition-colors hover:bg-iw-accent/80"
               >
-                Get Widget
+                Explore Content
               </Link>
             </div>
           </div>

@@ -128,7 +128,7 @@ export async function requestMagicLink(email: string) {
     method: 'POST',
     body: JSON.stringify({
       email,
-      options: { redirectTo: 'https://islam.wiki/api/auth/magic-link' },
+      options: { redirectTo: `${process.env.NEXT_PUBLIC_BASE_URL ?? 'https://islam.wiki'}/api/auth/magic-link` },
     }),
   })
 }
@@ -140,7 +140,7 @@ export async function requestPasswordReset(email: string) {
     method: 'POST',
     body: JSON.stringify({
       email,
-      options: { redirectTo: 'https://islam.wiki/api/auth/reset-password' },
+      options: { redirectTo: `${process.env.NEXT_PUBLIC_BASE_URL ?? 'https://islam.wiki'}/api/auth/reset-password` },
     }),
   })
 }
@@ -158,7 +158,7 @@ export async function changePassword(accessToken: string, newPassword: string) {
 // ── Google OAuth URL ──
 
 export function googleOAuthUrl(): string {
-  const redirectTo = encodeURIComponent('https://islam.wiki/api/auth/oauth/callback')
+  const redirectTo = encodeURIComponent(`${process.env.NEXT_PUBLIC_BASE_URL ?? 'https://islam.wiki'}/api/auth/oauth/callback`)
   return `${AUTH_URL}/signin/provider/google?redirectTo=${redirectTo}`
 }
 

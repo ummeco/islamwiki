@@ -70,7 +70,7 @@ export default async function HistoryPage({ searchParams }: Props) {
   const periods = getHistoryPeriods()
   const counts = getSectionCounts()
 
-  const sectionEvents = (activeTab === 'all' || activeTab === 'rashidun')
+  const sectionEvents = activeTab === 'rashidun'
     ? allEvents
     : allEvents.filter((e) => e.section === activeTab)
 
@@ -114,7 +114,7 @@ export default async function HistoryPage({ searchParams }: Props) {
                     className={[
                       'flex items-center gap-1.5 border-b-2 px-3 py-2.5 text-sm font-medium transition-colors whitespace-nowrap',
                       isActive
-                        ? 'border-[#D4AF37] text-[#D4AF37]'
+                        ? 'border-iw-accent text-iw-accent'
                         : 'border-transparent text-iw-text-secondary hover:text-white hover:border-iw-border',
                     ].join(' ')}
                   >

@@ -11,6 +11,7 @@ import {
   getSharhSources,
 } from '@/lib/data/hadith'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { HadithActions } from '@/components/hadith/HadithActions'
 
 interface Props {
   params: Promise<{ collection: string; book: string; number: string }>
@@ -277,22 +278,12 @@ export default async function HadithPage({ params }: Props) {
         </div>
 
         {/* Copy/Share */}
-        <div className="mt-4 flex gap-3">
-          <button
-            type="button"
-            className="rounded-lg border border-iw-border px-4 py-2 text-xs text-iw-text-secondary transition-colors hover:border-iw-accent/30 hover:text-iw-accent"
-            title="Copy hadith text"
-          >
-            Copy
-          </button>
-          <button
-            type="button"
-            className="rounded-lg border border-iw-border px-4 py-2 text-xs text-iw-text-secondary transition-colors hover:border-iw-accent/30 hover:text-iw-accent"
-            title="Share hadith"
-          >
-            Share
-          </button>
-        </div>
+        <HadithActions
+          textEn={hadith.text_en ?? ''}
+          textAr={hadith.ar}
+          reference={`${col.name_en} ${hadith.n}`}
+          shareUrl={`https://islam.wiki/hadith/${colSlug}/${bookSlug}/${num}`}
+        />
 
         {/* Bottom navigation */}
         <div className="mt-8 flex items-center justify-between border-t border-iw-border pt-6">

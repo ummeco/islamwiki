@@ -111,9 +111,8 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ groups: [], total: 0, source: 'empty' })
   }
 
-  // Analytics: log query aggregate (no PII — query text only, no IP/user)
-  // Log format: structured JSON for easy parsing by log aggregators
-  console.log(JSON.stringify({ event: 'search', q: q.slice(0, 100), filter: filter ?? null, t: Date.now() }))
+  // Analytics: log query length only — no raw query text in logs (privacy)
+  console.log(JSON.stringify({ event: 'search', q_len: q.length, filter: filter ?? null, t: Date.now() }))
 
   // Try Meilisearch first (requires MEILISEARCH_URL + MEILISEARCH_KEY env vars)
   if (MEILISEARCH_URL && MEILISEARCH_KEY) {

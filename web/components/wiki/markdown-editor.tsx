@@ -1,6 +1,6 @@
 'use client'
 
-import { useActionState, useState } from 'react'
+import { useActionState, useRef, useState } from 'react'
 import { submitEdit } from '@/app/actions/wiki'
 import { marked } from 'marked'
 import { sanitizeHtml } from '@/lib/sanitize'
@@ -21,13 +21,12 @@ export function MarkdownEditor({
   const [state, formAction, pending] = useActionState(submitEdit, undefined)
   const [content, setContent] = useState(currentContent)
   const [previewMode, setPreviewMode] = useState(false)
+  const textareaRef = useRef<HTMLTextAreaElement>(null)
 
-  const preview = sanitizeHtml(marked.parse(content, { async: false }) as string)
+  const preview = sanitizeHtml(marked.parse(content) as string)
 
   function insertMarkdown(prefix: string, suffix: string = '') {
-    const textarea = document.getElementById(
-      'content-editor'
-    ) as HTMLTextAreaElement
+    const textarea = textareaRef.current
     if (!textarea) return
 
     const start = textarea.selectionStart
@@ -145,6 +144,7 @@ export function MarkdownEditor({
           </div>
         ) : (
           <textarea
+            ref={textareaRef}
             id="content-editor"
             name="content"
             value={content}

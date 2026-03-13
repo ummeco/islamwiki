@@ -3,6 +3,7 @@ import { useState, useCallback, useEffect, useRef, useMemo } from 'react'
 import { AudioPlayer, type AutoScrollMode } from './AudioPlayer'
 import { PlayAyahButton } from './PlayAyahButton'
 import { TafsirModal } from './TafsirModal'
+import { AyahBookmarkButton } from './AyahBookmarkButton'
 import { useAudioPlayer } from '@/hooks/useAudioPlayer'
 import { normalizeArabic, toArabicIndic } from '@/lib/quran-utils'
 
@@ -365,10 +366,14 @@ interface VerseRowProps {
   onClickVerse: (n: number) => void
   onTafsir: (n: number) => void
   focusRef?: React.RefObject<HTMLElement | null>
+  surahNumber: number
+  surahName: string
+  surahNameAr: string
 }
 
 function VerseRow({
   ayah, settings, isFocused, isCurrentAudio, isPlaying, onPlay, onClickVerse, onTafsir, focusRef,
+  surahNumber, surahName, surahNameAr,
 }: VerseRowProps) {
   const translationText = pickTranslation(ayah, settings.translation)
 
@@ -405,13 +410,21 @@ function VerseRow({
             onPlay={onPlay}
           />
         </div>
-        <button
-          type="button"
-          onClick={() => onTafsir(ayah.number_in_surah)}
-          className="rounded-md border border-iw-border px-2 py-0.5 text-[11px] text-iw-text-muted transition-colors hover:border-iw-accent/40 hover:text-iw-accent"
-        >
-          Tafsir
-        </button>
+        <div className="flex items-center gap-1">
+          <button
+            type="button"
+            onClick={() => onTafsir(ayah.number_in_surah)}
+            className="rounded-md border border-iw-border px-2 py-0.5 text-[11px] text-iw-text-muted transition-colors hover:border-iw-accent/40 hover:text-iw-accent"
+          >
+            Tafsir
+          </button>
+          <AyahBookmarkButton
+            surahNumber={surahNumber}
+            ayahNumber={ayah.number_in_surah}
+            surahNameEn={surahName}
+            surahNameAr={surahNameAr}
+          />
+        </div>
       </div>
 
       {settings.showArabic && (
@@ -875,6 +888,9 @@ export function SurahViewer({
                 onPlay={handlePlayAyah}
                 onClickVerse={handleClickVerse}
                 onTafsir={(n) => setTafsirVerse({ from: n, to: n })}
+                surahNumber={surahNumber}
+                surahName={surahName}
+                surahNameAr={surahNameAr ?? ''}
                 focusRef={
                   isFocused(ayah.number_in_surah) && ayah.number_in_surah === focusFrom
                     ? focusRef

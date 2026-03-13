@@ -215,7 +215,7 @@ export default async function PersonPage({ params }: Props) {
               <div>
                 <dt className="text-iw-text-muted">Era</dt>
                 <dd className="text-iw-text capitalize">
-                  {person.era.replace('_', ' ')}
+                  {person.era.replaceAll('_', ' ')}
                 </dd>
               </div>
               <div>

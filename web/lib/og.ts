@@ -1,4 +1,4 @@
-const BASE = 'https://islam.wiki'
+const BASE = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://islam.wiki'
 
 /**
  * Build OG image URL for dynamic pages.

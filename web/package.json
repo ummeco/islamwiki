@@ -19,6 +19,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "diff": "^8.0.3",
     "isomorphic-dompurify": "^3.0.0",
+    "jose": "^6.2.1",
     "jwt-decode": "^4.0.0",
     "leaflet": "^1.9.4",
     "marked": "^17.0.3",

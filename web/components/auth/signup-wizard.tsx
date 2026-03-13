@@ -164,7 +164,7 @@ export function SignupWizard() {
     registerAction(formData)
   }
 
-  const canCreateAccount = wizard.verifiedProviders.length >= 2
+  const canCreateAccount = wizard.verifiedProviders.length >= 1
 
   // Show server action errors
   const displayError = error || registerState?.error || ''
@@ -331,11 +331,10 @@ export function SignupWizard() {
           </div>
 
           <div className="text-center text-xs text-iw-text-muted">
-            {wizard.verifiedProviders.length === 0 && 'Connect at least 2 accounts to continue'}
-            {wizard.verifiedProviders.length === 1 && '1 connected. Connect 1 more to continue.'}
-            {wizard.verifiedProviders.length >= 2 && (
+            {wizard.verifiedProviders.length === 0 && 'Connect at least 1 account to continue'}
+            {wizard.verifiedProviders.length >= 1 && (
               <span className="text-iw-accent">
-                {wizard.verifiedProviders.length} accounts connected. Ready to create your account.
+                {wizard.verifiedProviders.length} account{wizard.verifiedProviders.length > 1 ? 's' : ''} connected. Ready to create your account.
               </span>
             )}
           </div>

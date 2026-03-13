@@ -56,13 +56,16 @@ export function getSurahByNumber(number: number): SurahData | undefined {
   return surahs.find((s) => s.number === number)
 }
 
+const ayahCache = new Map<number, AyahData[]>()
+
 export function getAyahsBySurah(surahNumber: number): AyahData[] {
+  if (ayahCache.has(surahNumber)) return ayahCache.get(surahNumber)!
   const pad = String(surahNumber).padStart(3, '0')
   const filePath = join(process.cwd(), 'data', 'quran', 'ayahs', `${pad}.json`)
   try {
     const raw = readFileSync(filePath, 'utf-8')
     const ayahs: AyahJSON[] = JSON.parse(raw)
-    return ayahs.map((a) => ({
+    const result = ayahs.map((a) => ({
       number_in_surah: a.n,        // n resets per surah: 1, 2, 3 ... verses_count
       global_number: a.cn,         // cn is cumulative: 1 ... 6236
       text_ar: a.ar,
@@ -76,6 +79,8 @@ export function getAyahsBySurah(surahNumber: number): AyahData[] {
       page: a.page,
       hizb: a.hizb,
     }))
+    ayahCache.set(surahNumber, result)
+    return result
   } catch {
     const surah = getSurahByNumber(surahNumber)
     if (!surah) return []

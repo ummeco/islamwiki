@@ -58,9 +58,9 @@ export default async function BookPage({ params }: Props) {
   const { book } = result
 
   const chapters = getChaptersByBook(slug)
-  const otherBooksByAuthor = getBooksByAuthor(book.author_slug ?? '').filter(
-    (b) => b.id !== book.id
-  )
+  const otherBooksByAuthor = book.author_slug
+    ? getBooksByAuthor(book.author_slug).filter((b) => b.id !== book.id)
+    : []
   const relatedBooks = (book.related_slugs ?? [])
     .map((s) => getBookBySlug(s))
     .filter(Boolean)

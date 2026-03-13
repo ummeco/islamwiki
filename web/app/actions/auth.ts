@@ -135,6 +135,7 @@ export async function changePassword(
     redirect('/account')
   }
 
+  const redirectTo = formData.get('redirect_to') as string | null
   const newPassword = formData.get('new_password') as string
   const confirmPassword = formData.get('confirm_password') as string
 
@@ -152,7 +153,11 @@ export async function changePassword(
     return { error: error.message ?? 'Failed to change password.' }
   }
 
-  redirect('/')
+  const safeRedirect =
+    redirectTo && redirectTo.startsWith('/') && !redirectTo.startsWith('//')
+      ? redirectTo
+      : '/account'
+  redirect(safeRedirect)
 }
 
 // ── Logout ──

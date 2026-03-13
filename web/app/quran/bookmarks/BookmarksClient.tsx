@@ -96,7 +96,7 @@ export function BookmarksClient() {
             {bookmarks.map((bm) => (
               <Link
                 key={`${bm.surahNumber}:${bm.ayahNumber}`}
-                href={`/quran/${bm.surahNumber}#ayah-${bm.ayahNumber}`}
+                href={`/quran/${bm.surahNumber}#v${bm.ayahNumber}`}
                 className="flex items-center justify-between rounded-xl border border-iw-border bg-iw-surface px-5 py-4 transition-colors hover:border-iw-text-muted"
               >
                 <div>

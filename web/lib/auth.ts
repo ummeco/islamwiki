@@ -1,7 +1,7 @@
 import 'server-only'
 
 import { cookies } from 'next/headers'
-import { jwtDecode } from 'jwt-decode'
+import { createRemoteJWKSet, jwtVerify } from 'jose'
 
 // ── Session data interface (unchanged — 40 call sites preserved) ──
 
@@ -31,6 +31,10 @@ interface HasuraJWTClaims {
   iat: number
 }
 
+// Lazy JWKS set — fetched and cached on first use
+const AUTH_URL = process.env.NEXT_PUBLIC_AUTH_URL ?? 'https://auth.ummat.dev'
+const JWKS = createRemoteJWKSet(new URL(`${AUTH_URL}/.well-known/jwks.json`))
+
 // Map Hasura roles to our role type
 function mapRole(hasuraRole: string): SessionData['role'] {
   const roleMap: Record<string, SessionData['role']> = {
@@ -55,23 +59,25 @@ function roleToTrustLevel(role: SessionData['role']): SessionData['trustLevel'] 
   return map[role]
 }
 
-// ── Decode JWT → SessionData ──
+// ── Decode + verify JWT → SessionData ──
 
-function getUserFromJWT(token: string): SessionData | null {
+async function getUserFromJWT(token: string): Promise<SessionData | null> {
   try {
-    const claims = jwtDecode<HasuraJWTClaims>(token)
-
-    // Check expiry
-    const now = Math.floor(Date.now() / 1000)
-    if (claims.exp < now) return null
+    // jwtVerify: cryptographic signature verification + expiry check via JWKS
+    const { payload } = await jwtVerify(token, JWKS)
+    const claims = payload as unknown as HasuraJWTClaims
 
     const hasuraClaims = claims['https://hasura.io/jwt/claims']
     const defaultRole = hasuraClaims?.['x-hasura-default-role'] ?? 'user'
     const role = mapRole(defaultRole)
 
+    // Use displayName as username — avoids email-prefix collisions across providers
+    // TODO SF-CRIT.2: fetch canonical username from iw_user_profiles for full fix
+    const usernameFromToken = claims.displayName ?? claims.email.split('@')[0]
+
     return {
       userId: claims.sub,
-      username: claims.email.split('@')[0], // fallback username from email
+      username: usernameFromToken,
       email: claims.email,
       displayName: claims.displayName ?? claims.email.split('@')[0],
       role,
@@ -100,7 +106,7 @@ export async function getSession(): Promise<SessionData & { save: () => Promise<
   }
 
   if (token) {
-    const user = getUserFromJWT(token)
+    const user = await getUserFromJWT(token)
     if (user) {
       sessionData = user
     }
@@ -128,6 +134,6 @@ export async function getSessionUser(): Promise<SessionData | null> {
 
 // ── Server-side token validation (for API routes) ──
 
-export function decodeToken(token: string): SessionData | null {
+export function decodeToken(token: string): Promise<SessionData | null> {
   return getUserFromJWT(token)
 }

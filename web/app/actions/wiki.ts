@@ -3,7 +3,7 @@
 import { redirect } from 'next/navigation'
 import { revalidatePath } from 'next/cache'
 import { getSession } from '@/lib/auth'
-import { submitRevision, reviewRevision } from '@/lib/contributor/revisions'
+import { submitRevision, reviewRevision, saveAIReviewResult } from '@/lib/contributor/revisions'
 import { reviewContent } from '@/lib/ai/review'
 import { getAvailableProviderCount } from '@/lib/ai/service'
 
@@ -42,7 +42,7 @@ export async function submitEdit(
       previousContent: previousContent ?? null,
       newContent,
       changeSummary: editSummary.trim(),
-      editorTrustScore: 0, // Will be fetched from iw_user_trust when needed
+      editorTrustScore: ({ 0: 0, 1: 10, 2: 50, 3: 150, 4: 500, 5: 500 } as Record<number, number>)[session.trustLevel] ?? 0,
     })
 
     // Trigger AI review for trust level 0–1 edits if providers are available
@@ -65,7 +65,7 @@ export async function submitEdit(
   }
 }
 
-// Fire-and-forget AI review
+// Fire-and-forget AI review — saves result to DB, auto-rejects on 'reject' verdict
 async function triggerAIReview(
   revisionId: string,
   contentTitle: string,
@@ -73,9 +73,8 @@ async function triggerAIReview(
   contentType: string
 ): Promise<void> {
   const result = await reviewContent(contentTitle, content, contentType)
-  // Best-effort: ignore errors — AI review enriches but doesn't block
-  void revisionId
-  void result
+  const score = Math.round(result.confidence * 100)
+  await saveAIReviewResult(revisionId, score, result.summary, result.verdict === 'reject')
 }
 
 // ── Approve Edit ──

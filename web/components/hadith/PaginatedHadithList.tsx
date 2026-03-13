@@ -1,7 +1,8 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import Link from 'next/link'
+import { useRouter, useSearchParams } from 'next/navigation'
 
 interface HadithItem {
   n: number
@@ -43,8 +44,24 @@ export function PaginatedHadithList({
   colSlug: string
   bookSlug: string
 }) {
-  const [page, setPage] = useState(0)
+  const router = useRouter()
+  const searchParams = useSearchParams()
+  const initialPage = Math.max(0, parseInt(searchParams.get('page') ?? '1', 10) - 1)
+  const [page, setPage] = useState(initialPage)
   const totalPages = Math.ceil(hadiths.length / PAGE_SIZE)
+
+  const goToPage = useCallback((newPage: number) => {
+    setPage(newPage)
+    const params = new URLSearchParams(searchParams.toString())
+    if (newPage === 0) {
+      params.delete('page')
+    } else {
+      params.set('page', String(newPage + 1))
+    }
+    const qs = params.toString()
+    router.replace(`/hadith/${colSlug}/${bookSlug}${qs ? `?${qs}` : ''}`, { scroll: false })
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }, [router, searchParams, colSlug, bookSlug])
   const slice = hadiths.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE)
 
   let currentChapter = ''
@@ -68,7 +85,8 @@ export function PaginatedHadithList({
           </span>
           <div className="flex items-center gap-2">
             <button
-              onClick={() => { setPage(p => Math.max(0, p - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+              type="button"
+              onClick={() => goToPage(Math.max(0, page - 1))}
               disabled={page === 0}
               className="rounded-lg border border-iw-border px-3 py-1.5 text-sm transition-colors hover:border-iw-accent/30 disabled:opacity-30"
             >
@@ -78,7 +96,8 @@ export function PaginatedHadithList({
               {page + 1} / {totalPages}
             </span>
             <button
-              onClick={() => { setPage(p => Math.min(totalPages - 1, p + 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+              type="button"
+              onClick={() => goToPage(Math.min(totalPages - 1, page + 1))}
               disabled={page === totalPages - 1}
               className="rounded-lg border border-iw-border px-3 py-1.5 text-sm transition-colors hover:border-iw-accent/30 disabled:opacity-30"
             >
@@ -90,10 +109,18 @@ export function PaginatedHadithList({
 
       {/* Hadith cards */}
       <div className="space-y-4">
-        {slice.map((h) => {
-          const chapterHeader = h.chapter_en && h.chapter_en !== currentChapter
-            ? (() => { currentChapter = h.chapter_en!; return true })()
-            : false
+        {(() => {
+          // Pre-compute chapter headers before rendering to avoid mutation during .map()
+          const chapterHeaders = new Map<number, string>()
+          let trackedChapter = currentChapter
+          for (const h of slice) {
+            if (h.chapter_en && h.chapter_en !== trackedChapter) {
+              chapterHeaders.set(h.n, h.chapter_en)
+              trackedChapter = h.chapter_en
+            }
+          }
+          return slice.map((h) => {
+          const chapterHeader = chapterHeaders.get(h.n)
 
           return (
             <div key={h.n}>
@@ -138,14 +165,16 @@ export function PaginatedHadithList({
               </Link>
             </div>
           )
-        })}
+        })
+        })()}
       </div>
 
       {/* Bottom pagination */}
       {totalPages > 1 && (
         <div className="mt-6 flex items-center justify-center gap-2">
           <button
-            onClick={() => { setPage(p => Math.max(0, p - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+            type="button"
+            onClick={() => goToPage(Math.max(0, page - 1))}
             disabled={page === 0}
             className="rounded-lg border border-iw-border px-4 py-2 text-sm transition-colors hover:border-iw-accent/30 disabled:opacity-30"
           >
@@ -155,7 +184,8 @@ export function PaginatedHadithList({
             Page {page + 1} of {totalPages}
           </span>
           <button
-            onClick={() => { setPage(p => Math.min(totalPages - 1, p + 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+            type="button"
+            onClick={() => goToPage(Math.min(totalPages - 1, page + 1))}
             disabled={page === totalPages - 1}
             className="rounded-lg border border-iw-border px-4 py-2 text-sm transition-colors hover:border-iw-accent/30 disabled:opacity-30"
           >

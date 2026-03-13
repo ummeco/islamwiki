@@ -1,6 +1,13 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { searchGrouped, type GroupedResults } from '@/lib/search'
 import { SearchInput } from '@/components/search/search-input'
+
+export const metadata: Metadata = {
+  title: 'Search — Islam.wiki',
+  description: 'Search the Quran, Hadith, scholars, books, articles, and all Islamic content on Islam.wiki.',
+  robots: { index: false, follow: true },
+}
 
 const TYPE_ICONS: Record<string, string> = {
   quran: '/quran',
