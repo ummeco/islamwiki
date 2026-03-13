@@ -14,7 +14,7 @@ import rashidunEventsRaw from '@/data/history/rashidun-events.json'
 import type { RashidunMapEvent } from '@/components/history/rashidun-map'
 
 const RashidunExplorer = dynamic(
-  () => import('@/components/history/rashidun-explorer').then((m) => ({ default: m.RashidunExplorer })),
+  () => import('@/components/history/rashidun-explorer'),
   {
     ssr: false,
     loading: () => (

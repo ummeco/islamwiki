@@ -109,6 +109,8 @@ function getOutcomeStyle(outcome: string | null | undefined): string {
 
 // ── Component ─────────────────────────────────────────────────────────────────
 
+export { RashidunExplorer as default }
+
 export function RashidunExplorer({ events }: RashidunExplorerProps) {
   const [caliphateFilter, setCaliphateFilter] = useState<CaliphateFilter>('all')
   const [sectionFilter, setSectionFilter] = useState<SectionFilter>('all')
