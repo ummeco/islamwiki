@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { getSurahs } from '@/lib/data/quran'
 import { getCollections, getBooksByCollection } from '@/lib/data/hadith'
-import { getPeople } from '@/lib/data/people'
+import { getAllPeople } from '@/lib/data/people'
 import { getBooks, getChaptersByBook } from '@/lib/data/books'
 import { getArticles } from '@/lib/data/articles'
 import { getSeerahEvents } from '@/lib/data/seerah'
@@ -79,7 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // People
-  for (const p of getPeople()) {
+  for (const p of getAllPeople()) {
     entries.push({
       url: `${BASE_URL}/people/${p.slug}`,
       lastModified: now,

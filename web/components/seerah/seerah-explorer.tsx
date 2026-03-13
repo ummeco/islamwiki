@@ -22,7 +22,6 @@ const SeerahMap = dynamic(
 
 interface SeerahExplorerProps {
   events: SeerahMapEvent[]
-  contentMap?: Record<string, string>
 }
 
 type Filter = 'all' | 'major'
@@ -103,13 +102,15 @@ function renderMarkdown(content: string): React.ReactNode[] {
   return nodes
 }
 
-export function SeerahExplorer({ events, contentMap = {} }: SeerahExplorerProps) {
+export function SeerahExplorer({ events }: SeerahExplorerProps) {
   const [filter, setFilter] = useState<Filter>('all')
   const [activeIndex, setActiveIndex] = useState(0)
   const [expandedSlugs, setExpandedSlugs] = useState<Set<string>>(new Set())
   // overlay is a boolean — always shows `active`, so any navigation auto-updates it
   const [overlayOpen, setOverlayOpen] = useState(false)
   const [showIntro, setShowIntro] = useState(false)
+  const [contentMap, setContentMap] = useState<Record<string, string | null>>({})
+  const fetchingRef = useRef<Set<string>>(new Set())
   const activeRowRef = useRef<HTMLDivElement>(null)
   const listRef = useRef<HTMLDivElement>(null)
   const explorerRef = useRef<HTMLDivElement>(null)
@@ -204,6 +205,25 @@ export function SeerahExplorer({ events, contentMap = {} }: SeerahExplorerProps)
   }, [filteredEvents.length, overlayOpen, showIntro, dismissIntro])
 
   const active = filteredEvents[activeIndex]
+
+  // Fetch content on demand when active event changes
+  useEffect(() => {
+    if (!active) return
+    const { slug } = active
+    if (contentMap[slug] !== undefined || fetchingRef.current.has(slug)) return
+    fetchingRef.current.add(slug)
+    fetch(`/api/seerah/${slug}/content`)
+      .then((r) => r.json())
+      .then((data: { content: string | null }) => {
+        setContentMap((prev) => ({ ...prev, [slug]: data.content }))
+      })
+      .catch(() => {
+        setContentMap((prev) => ({ ...prev, [slug]: null }))
+      })
+      .finally(() => {
+        fetchingRef.current.delete(slug)
+      })
+  }, [active, contentMap])
 
   return (
     <div ref={explorerRef} className="flex h-full w-full overflow-hidden">
@@ -609,11 +629,13 @@ export function SeerahExplorer({ events, contentMap = {} }: SeerahExplorerProps)
                 </div>
               )}
 
-              {/* Content — full markdown if available, else description_en */}
+              {/* Content — fetched on demand; fall back to description_en */}
               <div className="prose prose-invert mt-6 max-w-none text-sm leading-relaxed text-iw-text-secondary">
-                {contentMap[active.slug]
-                  ? renderMarkdown(contentMap[active.slug])
-                  : <p className="leading-relaxed text-iw-text-secondary">{active.description_en}</p>
+                {contentMap[active.slug] === undefined
+                  ? <p className="text-iw-text-muted/60 text-xs">Loading…</p>
+                  : contentMap[active.slug]
+                    ? renderMarkdown(contentMap[active.slug]!)
+                    : <p className="leading-relaxed text-iw-text-secondary">{active.description_en}</p>
                 }
               </div>
 

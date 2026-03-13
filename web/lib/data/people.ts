@@ -149,12 +149,46 @@ export interface NarratorData {
 
 const narrators: NarratorData[] = narratorsData as NarratorData[]
 
+// Narrators that are NOT already in scholars.json (avoid duplicating entries)
+const scholarSlugs = new Set(people.map((p) => p.slug))
+export const standaloneNarrators = narrators.filter(
+  (n) => !scholarSlugs.has(n.slug) && (!n.person_slug || !scholarSlugs.has(n.person_slug))
+)
+
+/** Converts a NarratorData to the minimal PersonData shape for /people/[slug] */
+function narratorAsPerson(n: NarratorData): PersonData {
+  return {
+    id: -(narrators.indexOf(n) + 1), // negative IDs to avoid collisions
+    slug: n.slug,
+    name_ar: '',
+    name_en: n.name_en,
+    era: 'classical' as PersonEra,
+    category: 'narrator',
+    bio_short_en: n.bio_short_en,
+    bio_en: n.bio_en,
+  }
+}
+
 export function getNarrators(limit?: number): NarratorData[] {
   return limit ? narrators.slice(0, limit) : narrators
 }
 
 export function getNarratorBySlug(slug: string): NarratorData | undefined {
   return narrators.find((n) => n.slug === slug || n.person_slug === slug)
+}
+
+/** Returns all scholars + standalone narrators for /people index and sitemap */
+export function getAllPeople(): PersonData[] {
+  return [...people, ...standaloneNarrators.map(narratorAsPerson)]
+}
+
+/** Looks up by slug in scholars first, then narrators */
+export function getPersonOrNarratorBySlug(slug: string): PersonData | undefined {
+  const scholar = people.find((p) => p.slug === slug)
+  if (scholar) return scholar
+  const narrator = narrators.find((n) => n.slug === slug)
+  if (narrator) return narratorAsPerson(narrator)
+  return undefined
 }
 
 export function getTopNarrators(n = 20): NarratorData[] {

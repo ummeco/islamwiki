@@ -3,7 +3,8 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import {
   getPersonBySlug,
-  getPeople,
+  getPersonOrNarratorBySlug,
+  getAllPeople,
   getRelationships,
   getPersonPlaces,
 } from '@/lib/data/people'
@@ -21,12 +22,12 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getPeople().map((p) => ({ slug: p.slug }))
+  return getAllPeople().map((p) => ({ slug: p.slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
-  const person = getPersonBySlug(slug)
+  const person = getPersonOrNarratorBySlug(slug)
   if (!person) return {}
   const dates = [
     person.birth_year_ah || person.birth_year_ce
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PersonPage({ params }: Props) {
   const { slug } = await params
-  const person = getPersonBySlug(slug)
+  const person = getPersonOrNarratorBySlug(slug)
   if (!person) notFound()
 
   const relationships = getRelationships(person.id)
