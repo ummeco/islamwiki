@@ -67,7 +67,7 @@ export function Header() {
           className="rounded-md p-2 text-iw-text-secondary md:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
-          aria-expanded={mobileOpen ? 'true' : 'false'}
+          aria-expanded={mobileOpen}
           aria-controls="mobile-nav"
         >
           <svg

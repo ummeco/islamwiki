@@ -5,12 +5,11 @@
 
 import { getHistoryEvents as getSeerahHistoryEvents } from './seerah'
 import prophetsData from '@/data/history/prophets.json'
+import postJesusRaw from '@/data/history/post-jesus.json'
+import battlesRaw from '@/data/history/battles.json'
 
-// Optional data files — loaded only when present
-let postJesusData: PostJesusEntry[] | null = null
-let battlesData: BattleEntry[] | null = null
-try { postJesusData = require('@/data/history/post-jesus.json') } catch { /* not yet created */ }
-try { battlesData = require('@/data/history/battles.json') } catch { /* not yet created */ }
+const postJesusData: PostJesusEntry[] = postJesusRaw as PostJesusEntry[]
+const battlesData: BattleEntry[] = battlesRaw as BattleEntry[]
 
 export type HistorySection = 'prophets' | 'post-jesus' | 'islamic-history' | 'modern' | 'battles'
 
@@ -162,7 +161,7 @@ export function getAllHistoryEvents(): HistoryEvent[] {
   }))
 
   // 2. Between Isa and Muhammad ﷺ
-  const postJesus: HistoryEvent[] = (postJesusData ?? []).map((e, i) => ({
+  const postJesus: HistoryEvent[] = postJesusData.map((e, i) => ({
     id: 1000 + i,
     slug: e.slug,
     title_en: e.title_en,
@@ -175,7 +174,7 @@ export function getAllHistoryEvents(): HistoryEvent[] {
   }))
 
   // 3. Battles throughout Islamic history
-  const battles: HistoryEvent[] = (battlesData ?? []).map((b, i) => {
+  const battles: HistoryEvent[] = battlesData.map((b, i) => {
     const slug = b.slug.startsWith('battle-') ? b.slug : `battle-${b.slug}`
     return {
       id: 2000 + i,

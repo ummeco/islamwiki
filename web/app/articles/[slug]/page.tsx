@@ -70,7 +70,7 @@ export default async function ArticlePage({ params }: Props) {
           <div className="mt-3 flex items-center gap-4 text-sm text-iw-text-secondary">
             {article.author_name && <span>By {article.author_name}</span>}
             <span>
-              {new Date(article.updated_at).toLocaleDateString()}
+              {new Date(article.updated_at).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
             </span>
           </div>
         </header>
