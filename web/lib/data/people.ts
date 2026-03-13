@@ -21,7 +21,7 @@ interface PersonData {
   death_place_id?: number
   death_place_name?: string
   bio_short_en?: string
-  bio_full_en?: string
+  bio_en?: string
   era: PersonEra
   category: string
   tags?: string[]

@@ -144,12 +144,12 @@ export default async function PersonPage({ params }: Props) {
               Biography
             </h2>
             <div className="prose prose-invert max-w-none text-iw-text-secondary">
-              {person.bio_full_en ? (
-                <p>{person.bio_full_en}</p>
+              {person.bio_en ? (
+                <p>{person.bio_en}</p>
+              ) : person.bio_short_en ? (
+                <p className="italic text-iw-text-muted">{person.bio_short_en}</p>
               ) : (
-                <p className="italic text-iw-text-muted">
-                  {person.bio_short_en || 'Biography not yet available.'}
-                </p>
+                <p className="italic text-iw-text-muted">Biography not yet available.</p>
               )}
             </div>
           </div>
