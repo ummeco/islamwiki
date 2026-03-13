@@ -14,5 +14,7 @@ export async function POST() {
   cookieStore.delete('iw_at')
   cookieStore.delete('iw_rt')
 
-  return NextResponse.json({ ok: true })
+  return NextResponse.json({ ok: true }, {
+    headers: { 'Cache-Control': 'no-store, no-cache, must-revalidate' },
+  })
 }

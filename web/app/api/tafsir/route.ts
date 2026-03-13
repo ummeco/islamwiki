@@ -53,15 +53,22 @@ export async function GET(req: NextRequest) {
 
   const rangeLabel = from === to ? `verse ${from}` : `verses ${from}–${to}`
 
-  const apiKey = process.env.ANTHROPIC_API_KEY_1 ?? process.env.ANTHROPIC_API_KEY
+  const keys = [
+    process.env.ANTHROPIC_API_KEY_1,
+    process.env.ANTHROPIC_API_KEY_2,
+    process.env.ANTHROPIC_API_KEY_3,
+    process.env.ANTHROPIC_API_KEY,
+  ].filter(Boolean) as string[]
+  const apiKey = [...new Set(keys)][0]
   if (!apiKey) {
     return new Response('Tafsir service not configured', { status: 503 })
   }
 
   const client = new Anthropic({ apiKey })
+  const model = process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-4-6'
 
   const stream = client.messages.stream({
-    model: 'claude-sonnet-4-5-20250514',
+    model,
     max_tokens: 1024,
     messages: [
       {

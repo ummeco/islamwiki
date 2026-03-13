@@ -38,8 +38,10 @@ export async function GET(request: NextRequest) {
     }
   }
 
+  const noCache = { 'Cache-Control': 'no-store, no-cache, must-revalidate' }
+
   if (!user) {
-    return NextResponse.json({ user: null })
+    return NextResponse.json({ user: null }, { headers: noCache })
   }
 
   return NextResponse.json({
@@ -51,5 +53,5 @@ export async function GET(request: NextRequest) {
       role: user.role,
       trustLevel: user.trustLevel,
     },
-  })
+  }, { headers: noCache })
 }

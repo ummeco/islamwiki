@@ -99,8 +99,16 @@ const GROUP_LABELS: Record<string, string> = {
   sect: 'Sects',
 }
 
+// 30s TTL cache for the client-side fallback search (avoids re-scanning all JSON on every keystroke)
+const _fallbackCache = new Map<string, { result: GroupedResults; ts: number }>()
+const CACHE_TTL = 30_000
+
 export function searchGrouped(query: string, previewLimit = 3): GroupedResults {
   if (!query.trim()) return { groups: [], total: 0 }
+  const cacheKey = `${query.trim().toLowerCase()}|${previewLimit}`
+  const cached = _fallbackCache.get(cacheKey)
+  if (cached && Date.now() - cached.ts < CACHE_TTL) return cached.result
+
   const q = query.toLowerCase().trim()
   const queries = expandQuery(query)
   const buckets = new Map<string, SearchResult[]>()
@@ -292,7 +300,9 @@ export function searchGrouped(query: string, previewLimit = 3): GroupedResults {
       }
     })
 
-  return { groups, total }
+  const result: GroupedResults = { groups, total }
+  _fallbackCache.set(cacheKey, { result, ts: Date.now() })
+  return result
 }
 
 /** Flat search for backwards compat */

@@ -58,7 +58,8 @@ export default async function EditArticlePage({ params }: Props) {
         <div className="mb-4 rounded-lg border border-iw-border/50 bg-iw-bg/40 px-4 py-3 text-xs text-iw-text-secondary">
           <p>
             You are editing this article. Use{' '}
-            <Link href="https://www.markdownguide.org/basic-syntax/" className="text-iw-accent hover:text-white" target="_blank">
+            <Link href="https://www.markdownguide.org/basic-syntax/" className="text-iw-accent hover:text-white" target="_blank"
+              rel="noopener noreferrer">
               Markdown syntax
             </Link>{' '}
             for formatting. Please provide an edit summary describing your changes.

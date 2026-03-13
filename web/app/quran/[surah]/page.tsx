@@ -75,10 +75,15 @@ export default async function SurahPage({ params }: Props) {
         { name: `Surah ${surahTranslit(surah.name_transliteration)}`, url: `/quran/${surah.number}` },
       ]} />
       {/* Breadcrumb */}
-      <nav className="mb-6 text-sm text-iw-text-secondary">
-        <Link href="/quran" className="hover:text-iw-text">Quran</Link>
-        <span className="mx-2 text-iw-border">/</span>
-        <span className="text-iw-text">Surat {surahTranslit(surah.name_transliteration)}</span>
+      <nav className="mb-6 flex items-center justify-between text-sm text-iw-text-secondary">
+        <div>
+          <Link href="/quran" className="hover:text-iw-text">Quran</Link>
+          <span className="mx-2 text-iw-border">/</span>
+          <span className="text-iw-text">Surat {surahTranslit(surah.name_transliteration)}</span>
+        </div>
+        <Link href="/quran/stats" className="text-xs text-iw-text-muted hover:text-iw-accent">
+          Quran statistics →
+        </Link>
       </nav>
 
       {/* Surah header */}

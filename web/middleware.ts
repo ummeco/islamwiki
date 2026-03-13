@@ -47,8 +47,26 @@ function getTrustLevelFromRole(role: string | undefined): number {
   return map[role ?? 'user'] ?? 0
 }
 
+function buildCsp(nonce: string): string {
+  return [
+    "default-src 'self'",
+    // nonce allows Next.js runtime + Vercel analytics scripts; no unsafe-eval
+    `script-src 'self' 'nonce-${nonce}' https://va.vercel-scripts.com`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' https://api.islam.wiki https://islam.wiki data: blob:",
+    "media-src https://everyayah.com https://mp3quran.net",
+    "font-src 'self' data:",
+    "connect-src 'self' https://api.islam.wiki https://everyayah.com https://auth.ummat.dev https://vitals.vercel-insights.com",
+    "frame-ancestors 'none'",
+  ].join('; ')
+}
+
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
+
+  // --- CSP nonce ---
+  const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
+  const csp = buildCsp(nonce)
 
   // --- Locale detection ---
   const { locale, strippedPath } = extractLocale(pathname)
@@ -59,16 +77,22 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(cleanPath, request.url), 301)
   }
 
+  // Forward x-nonce to RSCs via request headers
+  const requestHeaders = new Headers(request.headers)
+  requestHeaders.set('x-nonce', nonce)
+
   // For non-default locales, rewrite to actual path and set locale header
   let response: NextResponse
   if (locale !== DEFAULT_LOCALE) {
     const rewriteUrl = new URL(strippedPath, request.url)
-    response = NextResponse.rewrite(rewriteUrl)
+    response = NextResponse.rewrite(rewriteUrl, { request: { headers: requestHeaders } })
   } else {
-    response = NextResponse.next()
+    response = NextResponse.next({ request: { headers: requestHeaders } })
   }
 
-  // Set locale header for pages to read
+  // Set security headers on response
+  response.headers.set('Content-Security-Policy', csp)
+  response.headers.set('x-nonce', nonce)
   response.headers.set('x-locale', locale)
 
   // Use the stripped path for auth checks
@@ -127,18 +151,7 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Locale prefixed routes (ar, id)
-    '/(ar|id)/:path*',
-    // Auth-protected routes
-    '/admin/:path*',
-    '/auth/:path*',
-    '/account',
-    '/signin',
-    '/signup',
-    '/(.*)/edit',
-    '/(.*)/edit/:path*',
-    // Redirect /en/ to unprefixed
-    '/en/:path*',
-    '/en',
+    // All routes except Next.js internals and static files
+    '/((?!_next/static|_next/image|favicon\\.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|woff2?)$).*)',
   ],
 }

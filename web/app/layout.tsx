@@ -22,6 +22,8 @@ const amiri = Amiri({
   variable: '--font-amiri',
   subsets: ['arabic'],
   weight: ['400', '700'],
+  display: 'swap',
+  preload: false, // Arabic font — not needed on non-Arabic pages
 })
 
 // Scheherazade New: specifically designed for Quranic Uthmani script,
@@ -30,6 +32,8 @@ const scheherazade = Scheherazade_New({
   variable: '--font-scheherazade',
   subsets: ['arabic'],
   weight: ['400', '700'],
+  display: 'swap',
+  preload: false, // Arabic font — not needed on non-Arabic pages
 })
 
 // Noto Naskh Arabic: zero-tofu fallback — covers any glyphs Scheherazade
@@ -38,6 +42,8 @@ const notoNaskhArabic = Noto_Naskh_Arabic({
   variable: '--font-noto-arabic',
   subsets: ['arabic'],
   weight: ['400', '700'],
+  display: 'swap',
+  preload: false, // Arabic font — not needed on non-Arabic pages
 })
 
 export const metadata: Metadata = {

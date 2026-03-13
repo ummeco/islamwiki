@@ -93,12 +93,17 @@ function selectProvider(): Provider | null {
     }
   }
 
-  const available = pool.filter((p) => p.available)
-  if (available.length === 0) return null
-
-  const provider = available[nextIndex % available.length]
-  nextIndex = (nextIndex + 1) % available.length
-  return provider
+  // Iterate from nextIndex through the full pool to find the next available provider.
+  // This avoids the bug where modulo-ing nextIndex against available.length
+  // (which changes as providers go on cooldown) causes skips or double-picks.
+  for (let i = 0; i < pool.length; i++) {
+    const idx = (nextIndex + i) % pool.length
+    if (pool[idx].available) {
+      nextIndex = (idx + 1) % pool.length
+      return pool[idx]
+    }
+  }
+  return null
 }
 
 function markUnavailable(provider: Provider): void {

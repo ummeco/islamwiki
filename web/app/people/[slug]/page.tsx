@@ -16,6 +16,7 @@ import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
 import { formatIslamicYear } from '@/lib/dates/hijri'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { renderContent } from '@/lib/render-content'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -144,9 +145,9 @@ export default async function PersonPage({ params }: Props) {
             >
               Biography
             </h2>
-            <div className="prose prose-invert max-w-none text-iw-text-secondary">
+            <div className="prose prose-invert max-w-none text-iw-text-secondary space-y-2">
               {person.bio_en ? (
-                <p>{person.bio_en}</p>
+                renderContent(person.bio_en)
               ) : person.bio_short_en ? (
                 <p className="italic text-iw-text-muted">{person.bio_short_en}</p>
               ) : (

@@ -3,9 +3,16 @@ import { getSessionUser } from '@/lib/auth'
 import { submitRevision, getRevisionsByContent } from '@/lib/contributor/revisions'
 import { getUserTrust } from '@/lib/contributor/user-trust'
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
+import { isIpBlocked } from '@/lib/contributor/ip-block'
 
 export async function POST(req: NextRequest) {
   const ip = getClientIp(req.headers)
+
+  const ipBlock = isIpBlocked(ip)
+  if (ipBlock) {
+    return NextResponse.json({ error: 'Your IP has been blocked from editing.' }, { status: 403 })
+  }
+
   const rl = checkRateLimit(`revisions:${ip}`, 10, 60_000)
   if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
 
@@ -25,6 +32,18 @@ export async function POST(req: NextRequest) {
   const trust = await getUserTrust(user.userId)
   if (trust?.is_banned) {
     return NextResponse.json({ error: 'Account suspended' }, { status: 403 })
+  }
+
+  // Trust Level 0: max 5 edits per 24 hours
+  const trustLevel = trust?.trust_level ?? 0
+  if (trustLevel === 0) {
+    const newUserRl = checkRateLimit(`new-user-edits:${user.userId}`, 5, 24 * 60 * 60_000)
+    if (!newUserRl.allowed) {
+      return NextResponse.json(
+        { error: 'New accounts are limited to 5 edits per day. Your limit will reset in 24 hours.' },
+        { status: 429 }
+      )
+    }
   }
 
   const revision = await submitRevision({

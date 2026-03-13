@@ -33,6 +33,16 @@ function gradeLabel(grade: string | undefined): string {
   return grade.charAt(0).toUpperCase() + grade.slice(1)
 }
 
+function gradeDescription(grade: string | undefined): string {
+  if (!grade) return 'Grade: Ungraded'
+  const g = grade.toLowerCase()
+  if (g.includes('sahih')) return 'Grade: Sahih — authentic hadith'
+  if (g.includes('hasan sahih')) return 'Grade: Hasan Sahih — good and authentic'
+  if (g.includes('hasan')) return 'Grade: Hasan — good hadith'
+  if (g.includes('daif') || g.includes("da'if")) return "Grade: Da\u02bfif — weak hadith"
+  return `Grade: ${grade}`
+}
+
 const PAGE_SIZE = 50
 
 export function PaginatedHadithList({
@@ -140,7 +150,11 @@ export function PaginatedHadithList({
                   <span className="text-sm font-medium text-iw-accent">
                     Hadith #{h.n}
                   </span>
-                  <span className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${gradeColor(h.grade)}`}>
+                  <span
+                    className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${gradeColor(h.grade)}`}
+                    title={gradeDescription(h.grade)}
+                    aria-label={gradeDescription(h.grade)}
+                  >
                     {gradeLabel(h.grade)}
                   </span>
                 </div>

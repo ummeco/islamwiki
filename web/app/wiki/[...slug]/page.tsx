@@ -113,6 +113,7 @@ export default async function WikiPage({ params, searchParams }: Props) {
                 href="https://www.markdownguide.org/basic-syntax/"
                 className="text-iw-accent hover:text-white"
                 target="_blank"
+              rel="noopener noreferrer"
               >
                 Markdown syntax
               </Link>{' '}

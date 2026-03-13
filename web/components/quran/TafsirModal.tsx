@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
+import { renderContent } from '@/lib/render-content'
 
 interface TafsirModalProps {
   surahNumber: number
@@ -29,6 +30,11 @@ export function TafsirModal({ surahNumber, surahName, from, to, onClose }: Tafsi
           `/api/tafsir?surah=${surahNumber}&from=${from}&to=${to}`,
           { signal: abortRef.current?.signal }
         )
+        if (res.status === 429) {
+          setError('You have reached the tafsir limit (10 per 15 minutes). Please try again shortly.')
+          setLoading(false)
+          return
+        }
         if (res.status === 503) {
           setError('Tafsir service is not configured. Add ANTHROPIC_API_KEY to .env.local.')
           setLoading(false)
@@ -75,7 +81,7 @@ export function TafsirModal({ surahNumber, surahName, from, to, onClose }: Tafsi
         <div className="flex flex-shrink-0 items-center justify-between border-b border-iw-border px-5 py-4">
           <div>
             <h2 className="text-base font-bold text-white">{surahName} {label}</h2>
-            <p className="text-[12px] text-iw-text-muted">Scholarly Commentary (Tafsir)</p>
+            <p className="text-[12px] text-iw-text-muted">Scholarly Commentary (Tafsir) · Up to 10 per 15 minutes</p>
           </div>
           <button
             type="button"
@@ -104,9 +110,11 @@ export function TafsirModal({ surahNumber, surahName, from, to, onClose }: Tafsi
 
           {content && (
             <div className="space-y-4 text-[14px] leading-[1.85] text-iw-text-secondary">
-              {content.split('\n\n').filter(Boolean).map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
+              {loading
+                ? content.split('\n\n').filter(Boolean).map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))
+                : renderContent(content)}
               {loading && (
                 <span className="inline-block h-4 w-0.5 animate-pulse bg-iw-accent" />
               )}

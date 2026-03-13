@@ -26,6 +26,16 @@ function gradeColor(grade: string | undefined): string {
   return 'bg-gray-500/20 text-gray-300'
 }
 
+function gradeDescription(grade: string | undefined): string {
+  if (!grade) return 'Grade: Ungraded'
+  const g = grade.toLowerCase()
+  if (g.includes('sahih')) return 'Grade: Sahih — authentic hadith'
+  if (g.includes('hasan sahih')) return 'Grade: Hasan Sahih — good and authentic'
+  if (g.includes('hasan')) return 'Grade: Hasan — good hadith'
+  if (g.includes('daif') || g.includes("da'if")) return "Grade: Da\u02bfif — weak hadith"
+  return `Grade: ${grade}`
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { collection: colSlug, book: bookSlug, number } = await params
   const col = getCollectionBySlug(colSlug)
@@ -137,7 +147,11 @@ export default async function HadithPage({ params }: Props) {
         {/* Header */}
         <div className="mb-6 flex items-center justify-between">
           <h1 className="text-2xl font-bold text-white">Hadith #{hadith.n}</h1>
-          <span className={`rounded-full px-3 py-1 text-xs font-medium ${gradeColor(hadith.grade)}`}>
+          <span
+            className={`rounded-full px-3 py-1 text-xs font-medium ${gradeColor(hadith.grade)}`}
+            title={gradeDescription(hadith.grade)}
+            aria-label={gradeDescription(hadith.grade)}
+          >
             {hadith.grade_display || hadith.grade || 'Ungraded'}
           </span>
         </div>
@@ -206,9 +220,13 @@ export default async function HadithPage({ params }: Props) {
             <h2 className="mb-2 text-sm font-medium text-iw-accent">Topics</h2>
             <div className="flex flex-wrap gap-2">
               {hadith.topics.map((topic) => (
-                <span key={topic} className="rounded-full bg-iw-accent/10 px-3 py-1 text-xs text-iw-accent">
+                <Link
+                  key={topic}
+                  href={`/search?q=${encodeURIComponent(topic)}`}
+                  className="rounded-full bg-iw-accent/10 px-3 py-1 text-xs text-iw-accent transition-colors hover:bg-iw-accent/20"
+                >
                   {topic}
-                </span>
+                </Link>
               ))}
             </div>
           </div>

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { SearchInput } from '@/components/search/search-input'
 import { iconMap } from '@/components/ui/icons'
+import { getDailyVerse, getDailyHadith } from '@/lib/data/daily'
 
 const collections = [
   {
@@ -61,7 +62,10 @@ const collections = [
   },
 ]
 
-export default function HomePage() {
+export default async function HomePage() {
+  const verse = getDailyVerse()
+  const hadith = getDailyHadith()
+
   return (
     <div>
       {/* Search */}
@@ -234,27 +238,37 @@ export default function HomePage() {
       <section className="py-12">
         <div className="section-container">
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="card p-6">
+            <div className="card flex flex-col p-6">
               <p className="mb-4 text-xs font-semibold uppercase tracking-wider text-iw-accent">Verse of the Day</p>
               <p className="font-arabic text-right text-2xl leading-loose text-white" dir="rtl" lang="ar">
-                أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ
+                {verse.textAr}
               </p>
               <p className="mt-3 text-sm text-iw-text-secondary">
-                &ldquo;Verily, in the remembrance of Allah do hearts find rest.&rdquo;
+                &ldquo;{verse.textEn}&rdquo;
               </p>
-              <p className="mt-2 text-xs text-iw-text-muted">Ar-Ra&apos;d 13:28</p>
-              <Link href="/quran/ar-rad" className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light">
+              <p className="mt-2 text-xs text-iw-text-muted">
+                {verse.surahNameEn} {verse.surah}:{verse.ayah}
+              </p>
+              <Link
+                href={`/quran/${verse.surahSlug}/${verse.ayah}`}
+                className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light"
+              >
                 Read in context →
               </Link>
             </div>
-            <div className="card p-6">
+            <div className="card flex flex-col p-6">
               <p className="mb-4 text-xs font-semibold uppercase tracking-wider text-iw-accent">Hadith of the Day</p>
               <p className="text-sm leading-relaxed text-white">
-                &ldquo;None of you truly believes until he loves for his brother what he loves for himself.&rdquo;
+                &ldquo;{hadith.textEn}&rdquo;
               </p>
-              <p className="mt-3 text-xs text-iw-text-muted">Sahih Muslim 2564 · Narrated by Anas ibn Malik · Sahih</p>
-              <Link href="/hadith/muslim" className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light">
-                Browse Sahih Muslim →
+              <p className="mt-3 text-xs text-iw-text-muted">
+                {hadith.collectionName} {hadith.number} · Narrated by {hadith.narrator} · {hadith.grade}
+              </p>
+              <Link
+                href={`/hadith/${hadith.collection}`}
+                className="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light"
+              >
+                Browse {hadith.collectionName} →
               </Link>
             </div>
           </div>

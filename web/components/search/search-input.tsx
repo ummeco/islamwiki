@@ -53,6 +53,7 @@ export function SearchInput({
   const [results, setResults] = useState<SearchResponse | null>(null)
   const [isOpen, setIsOpen] = useState(false)
   const [activeIdx, setActiveIdx] = useState(-1)
+  const [rateLimited, setRateLimited] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
   const debounceRef = useRef<ReturnType<typeof setTimeout>>(null)
@@ -64,10 +65,17 @@ export function SearchInput({
     if (!q.trim()) {
       setResults(null)
       setIsOpen(false)
+      setRateLimited(false)
       return
     }
     try {
       const res = await fetch(`/api/search?q=${encodeURIComponent(q)}&limit=5`)
+      if (res.status === 429) {
+        setRateLimited(true)
+        setIsOpen(true)
+        return
+      }
+      setRateLimited(false)
       const data: SearchResponse = await res.json()
       setResults(data)
       setIsOpen(data.total > 0)
@@ -160,8 +168,15 @@ export function SearchInput({
         )}
       </div>
 
+      {/* Rate limit message */}
+      {rateLimited && (
+        <div className="absolute top-full right-0 left-0 z-50 mt-0 rounded-b-xl border border-t-0 border-iw-border bg-[#0a1f10] px-4 py-3 shadow-2xl">
+          <p className="text-sm text-amber-400">Search limit reached. Please wait a moment before searching again.</p>
+        </div>
+      )}
+
       {/* Dropdown preview */}
-      {isOpen && results && results.groups.length > 0 && (
+      {!rateLimited && isOpen && results && results.groups.length > 0 && (
         <div className="absolute top-full right-0 left-0 z-50 mt-0 min-h-[50vh] max-h-[70vh] overflow-y-auto rounded-b-xl border border-t-0 border-iw-border bg-[#0a1f10] shadow-2xl">
           {results.groups.map((group) => (
             <div key={group.type}>
