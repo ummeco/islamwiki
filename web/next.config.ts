@@ -26,7 +26,6 @@ const nextConfig: any = {
       './data/seerah/**',
       './data/people/**',
       './data/articles/**',
-      './data/books/**',
       './data/wiki/**',
       './data/media/**',
       './data/taxonomy/**',
