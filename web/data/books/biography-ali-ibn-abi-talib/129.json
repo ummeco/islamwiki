@@ -30,6 +30,8 @@
     "fourth caliph",
     "companion biography"
   ],
-  "qa_passed": true,
-  "qa_errors": []
+  "qa_passed": false,
+  "qa_errors": [
+    "content_en too short: 30 words (min 300)"
+  ]
 }

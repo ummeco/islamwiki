@@ -37,6 +37,8 @@ CLASSICAL_JSON = BOOKS_DIR / "classical.json"
 
 # ERROR: must fix (clear wrong spelling)
 TERM_ERRORS: list[tuple[str, str]] = [
+    # AI pipeline artifact — repeated al- prefix (e.g. al-Al-Al-Bukhari → al-Bukhari)
+    (r"(?:al-Al-)+", "al-"),
     # Quran-related
     (r"\bQur'an\b", "Quran"),
     (r"\bQur'ān\b", "Quran"),

@@ -102,4 +102,126 @@
   .badge-daif {
     @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium bg-red-500/20 text-red-300;
   }
+
+  /* Book / chapter prose typography — used by ChapterLangTabs for content_en and content_id */
+  .book-prose {
+    max-width: none;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: var(--color-iw-text-secondary);
+  }
+
+  .book-prose > p:first-child {
+    font-size: 1.05rem;
+    color: var(--color-iw-text);
+  }
+
+  .book-prose p {
+    margin-bottom: 1.25rem;
+  }
+
+  .book-prose h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-iw-border);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: -0.01em;
+  }
+
+  .book-prose h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-iw-text);
+  }
+
+  .book-prose h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-iw-text);
+  }
+
+  .book-prose strong,
+  .book-prose b {
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .book-prose em,
+  .book-prose i {
+    font-style: italic;
+    color: var(--color-iw-text);
+  }
+
+  .book-prose blockquote {
+    margin: 1.75rem 0;
+    padding: 0.75rem 0 0.75rem 1.25rem;
+    border-left: 3px solid rgba(121, 194, 76, 0.4);
+    color: var(--color-iw-text-muted);
+    font-style: italic;
+  }
+
+  .book-prose blockquote p {
+    margin-bottom: 0;
+  }
+
+  .book-prose ul {
+    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+    list-style-type: disc;
+    space-y: 0.5rem;
+  }
+
+  .book-prose ol {
+    margin-bottom: 1.25rem;
+    margin-left: 1.5rem;
+    list-style-type: decimal;
+  }
+
+  .book-prose li {
+    margin-bottom: 0.4rem;
+    color: var(--color-iw-text-secondary);
+  }
+
+  .book-prose a {
+    color: var(--color-iw-accent);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .book-prose a:hover {
+    color: var(--color-iw-accent-light);
+  }
+
+  .book-prose hr {
+    margin: 2.5rem 0;
+    border-color: var(--color-iw-border);
+  }
+
+  .book-prose code {
+    background-color: var(--color-iw-surface);
+    font-family: var(--font-mono);
+    font-size: 0.875em;
+    border-radius: 3px;
+    padding: 0.1em 0.35em;
+  }
+
+  .book-prose pre {
+    background-color: var(--color-iw-surface);
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1.25rem;
+  }
+
+  .book-prose pre code {
+    background: none;
+    padding: 0;
+  }
 }

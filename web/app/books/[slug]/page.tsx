@@ -129,10 +129,14 @@ export default async function BookPage({ params }: Props) {
                   <Link
                     key={ch.id}
                     href={`/books/${slug}/${ch.number}`}
-                    className="flex items-center gap-3 rounded-lg border border-iw-border p-3 transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface"
+                    className={`flex items-center gap-3 rounded-lg border p-3 transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface ${
+                      ch.number === 0
+                        ? 'border-iw-accent/20 bg-iw-accent/5'
+                        : 'border-iw-border'
+                    }`}
                   >
-                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded bg-iw-accent/10 text-xs font-bold text-iw-accent">
-                      {ch.number}
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded bg-iw-accent/10 text-[10px] font-bold text-iw-accent">
+                      {ch.number === 0 ? 'INTRO' : ch.number}
                     </span>
                     <span className="text-sm text-iw-text">{ch.title_en}</span>
                   </Link>
@@ -222,34 +226,6 @@ export default async function BookPage({ params }: Props) {
               )}
             </dl>
           </div>
-
-          {/* External source link */}
-          {book.source_url_primary && (
-            <div className="card">
-              <h3 className="mb-3 text-sm font-semibold text-white">
-                Original Text
-              </h3>
-              <a
-                href={book.source_url_primary}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-iw-accent hover:text-iw-accent-light"
-              >
-                Read on{' '}
-                {book.source_url_primary.includes('al-maktaba.org')
-                  ? 'Al-Maktaba Al-Shamela'
-                  : book.source_url_primary.includes('shamela.ws')
-                    ? 'Shamela'
-                    : book.source_url_primary.includes('archive.org')
-                      ? 'Archive.org'
-                      : 'External source'}{' '}
-                ↗
-              </a>
-              <p className="mt-1 text-xs text-iw-text-muted capitalize">
-                {book.source_type === 'html' ? 'HTML (readable online)' : 'PDF'}
-              </p>
-            </div>
-          )}
 
           {/* Book index link */}
           {hasIndex && (

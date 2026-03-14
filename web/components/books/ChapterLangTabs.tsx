@@ -72,7 +72,7 @@ export function ChapterLangTabs({ contentEn, contentAr, contentId }: ChapterLang
 
       {activeLang === 'en' && contentEn && (
         <div
-          className="prose prose-invert max-w-none text-iw-text-secondary"
+          className="book-prose"
           dangerouslySetInnerHTML={{ __html: sanitizeHtml(contentEn) }}
         />
       )}
@@ -88,7 +88,7 @@ export function ChapterLangTabs({ contentEn, contentAr, contentId }: ChapterLang
 
       {activeLang === 'id' && contentId && (
         <div
-          className="prose prose-invert max-w-none text-iw-text-secondary"
+          className="book-prose"
           dangerouslySetInnerHTML={{ __html: sanitizeHtml(contentId) }}
         />
       )}

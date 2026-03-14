@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ch = getChapter(slug, parseInt(chNum, 10))
   return {
     title: ch ? `${ch.title_en} — ${book.title_en}` : book.title_en,
-    description: `Chapter ${chNum} of ${book.title_en} by ${book.author_name_en}.`,
+    description: `${parseInt(chNum, 10) === 0 ? `Introduction to` : `Chapter ${chNum} of`} ${book.title_en} by ${book.author_name_en}.`,
   }
 }
 
@@ -44,6 +44,20 @@ export default async function ChapterPage({ params }: Props) {
   const idx = allChapters.findIndex((c) => c.number === chapterNumber)
   const prevChapter = idx > 0 ? allChapters[idx - 1] : null
   const nextChapter = idx < allChapters.length - 1 ? allChapters[idx + 1] : null
+  const isIntro = chapterNumber === 0
+  const nonIntroCount = allChapters.filter((c) => c.number !== 0).length
+
+  function chapterLabel(num: number, title: string) {
+    return num === 0 ? title : `${num}. ${title}`
+  }
+
+  function estimateReadingTime(html: string | undefined): number {
+    if (!html) return 0
+    const text = html.replace(/<[^>]+>/g, ' ')
+    const words = text.trim().split(/\s+/).filter(Boolean).length
+    return Math.max(1, Math.ceil(words / 220))
+  }
+  const readMinutes = estimateReadingTime(ch.content_en)
 
   return (
     <div className="section-container py-12">
@@ -52,7 +66,7 @@ export default async function ChapterPage({ params }: Props) {
         <span className="mx-2">/</span>
         <Link href={`/books/${slug}`} className="hover:text-iw-text">{book.title_en}</Link>
         <span className="mx-2">/</span>
-        <span className="text-iw-text">Ch. {chapterNumber}</span>
+        <span className="text-iw-text">{isIntro ? 'Introduction' : `Ch. ${chapterNumber}`}</span>
       </nav>
 
       <div className="flex gap-10 xl:gap-16">
@@ -74,7 +88,7 @@ export default async function ChapterPage({ params }: Props) {
                         : 'text-iw-text-muted hover:text-iw-accent'
                     }`}
                   >
-                    {c.number}. {c.title_en}
+                    {chapterLabel(c.number, c.title_en)}
                   </Link>
                 ))}
               </nav>
@@ -86,7 +100,12 @@ export default async function ChapterPage({ params }: Props) {
         <div className="min-w-0 flex-1">
           <header className="mb-8">
             <p className="text-sm text-iw-text-muted">
-              Chapter {chapterNumber}{allChapters.length > 0 ? ` of ${allChapters.length}` : ''}
+              {isIntro
+                ? 'Editorial Introduction'
+                : `Chapter ${chapterNumber} of ${nonIntroCount}`}
+              {readMinutes > 0 && (
+                <span className="before:mx-2 before:content-['·']">{readMinutes} min read</span>
+              )}
             </p>
             <h1 className="mt-1 text-2xl font-bold text-white">{ch.title_en}</h1>
             {ch.title_ar && (
@@ -122,7 +141,7 @@ export default async function ChapterPage({ params }: Props) {
               >
                 <span className="text-xs text-iw-text-muted">Previous</span>
                 <p className="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
-                  {prevChapter.number}. {prevChapter.title_en}
+                  {chapterLabel(prevChapter.number, prevChapter.title_en)}
                 </p>
               </Link>
             ) : <div />}
@@ -133,7 +152,7 @@ export default async function ChapterPage({ params }: Props) {
               >
                 <span className="text-xs text-iw-text-muted">Next</span>
                 <p className="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
-                  {nextChapter.number}. {nextChapter.title_en}
+                  {chapterLabel(nextChapter.number, nextChapter.title_en)}
                 </p>
               </Link>
             ) : <div />}
