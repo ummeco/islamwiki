@@ -16,8 +16,5 @@
   "en_processed_from_source": true,
   "is_editorial": false,
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bsalat\\b' → 'salah'",
-    "'\\bAt-Tirmidhi\\b' → 'Al-Tirmidhi'"
-  ]
+  "qa_errors": []
 }

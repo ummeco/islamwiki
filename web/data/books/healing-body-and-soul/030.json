@@ -17,7 +17,6 @@
   "is_editorial": false,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 113 words (min 300)",
-    "'\\bQur'an\\b' → 'Quran'"
+    "content_en too short: 113 words (min 300)"
   ]
 }

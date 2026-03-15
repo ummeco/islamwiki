@@ -16,14 +16,5 @@
   "en_processed_from_source": true,
   "is_editorial": false,
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bQur'an\\b' → 'Quran'",
-    "'\\bhadeeth\\b' → 'hadith'",
-    "'\\bsalat\\b' → 'salah'",
-    "'\\btawheed\\b' → 'tawhid'",
-    "'\\bShari'ah\\b' → 'Shariah'",
-    "'(?<!Al-)(?<!al-)\\bBukhari\\b(?!\\s+|$)' → 'Al-Bukhari'",
-    "'\\bda'wah\\b' → 'dawah'",
-    "'\\bdhulm\\b' → 'zulm'"
-  ]
+  "qa_errors": []
 }

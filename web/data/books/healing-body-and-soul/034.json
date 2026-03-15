@@ -17,7 +17,6 @@
   "is_editorial": false,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 291 words (min 300)",
-    "'(?<!Al-)(?<!al-)\\bBukhari\\b(?!\\s+|$)' → 'Al-Bukhari'"
+    "content_en too short: 291 words (min 300)"
   ]
 }

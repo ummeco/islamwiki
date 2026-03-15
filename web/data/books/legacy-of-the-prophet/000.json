@@ -17,7 +17,6 @@
   "is_editorial": true,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 166 words (min 300)",
-    "'\\bIbn Qayyim al-Jawziyyah\\b' → 'Ibn al-Qayyim'"
+    "content_en too short: 165 words (min 300)"
   ]
 }

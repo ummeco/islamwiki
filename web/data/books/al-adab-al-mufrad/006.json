@@ -17,7 +17,5 @@
   "en_processed_from_source": true,
   "is_editorial": false,
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bzakat\\b' → 'zakah'"
-  ]
+  "qa_errors": []
 }

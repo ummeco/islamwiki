@@ -17,7 +17,6 @@
   "is_editorial": false,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 262 words (min 300)",
-    "'\\bhadeeth\\b' → 'hadith'"
+    "content_en too short: 262 words (min 300)"
   ]
 }

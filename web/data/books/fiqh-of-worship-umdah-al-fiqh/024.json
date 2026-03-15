@@ -17,8 +17,6 @@
   "is_editorial": false,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 254 words (min 300)",
-    "'\\bsalat\\b' → 'salah'",
-    "'\\bmadhhab\\b' → 'madhab'"
+    "content_en too short: 254 words (min 300)"
   ]
 }

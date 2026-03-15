@@ -17,7 +17,6 @@
   "is_editorial": true,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 156 words (min 300)",
-    "'\\bda'wah\\b' → 'dawah'"
+    "content_en too short: 156 words (min 300)"
   ]
 }

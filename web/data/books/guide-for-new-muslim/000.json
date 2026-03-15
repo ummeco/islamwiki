@@ -17,7 +17,6 @@
   "is_editorial": true,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 164 words (min 300)",
-    "'\\bzakat\\b' → 'zakah'"
+    "content_en too short: 164 words (min 300)"
   ]
 }

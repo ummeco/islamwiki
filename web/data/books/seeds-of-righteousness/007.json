@@ -17,8 +17,6 @@
   "is_editorial": false,
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 238 words (min 300)",
-    "'\\bAt-Tirmidhi\\b' → 'Al-Tirmidhi'",
-    "'\\bIbn Taimiyyah\\b' → 'Ibn Taymiyyah'"
+    "content_en too short: 238 words (min 300)"
   ]
 }
