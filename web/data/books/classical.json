@@ -453,7 +453,7 @@
     "canonical": false,
     "canonical_slug": "al-bidayah-wan-nihayah-ibn-kathir",
     "died_ah": 774,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -1029,7 +1029,7 @@
     "canonical_slug": null,
     "died_ah": 151,
     "madhab": "general",
-    "has_text_en": false,
+    "has_text_en": true,
     "has_text_ar": false,
     "has_text_id": true,
     "introduction_written": true,
@@ -1861,7 +1861,7 @@
     "canonical_slug": "minhaj-talibin-nawawi",
     "died_ah": 676,
     "madhab": "shafii",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -2080,7 +2080,7 @@
     "canonical_slug": "ilam-al-muwaqqiin",
     "died_ah": 751,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -2787,7 +2787,7 @@
     "canonical": false,
     "canonical_slug": "ash-shifa",
     "madhab": "maliki",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -5424,7 +5424,7 @@
     "canonical_slug": "al-iqtisad-fil-itiqad-ghazali",
     "died_ah": 505,
     "madhab": "shafii",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -5894,7 +5894,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "al-ihkam-fi-usul-al-ahkam-amidi",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -7722,7 +7722,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "hayat-as-sahabah",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -8961,7 +8961,7 @@
     "canonical": false,
     "canonical_slug": "al-iqna-fi-hall-alfaz-abi-shuja",
     "madhab": "shafii",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -9129,7 +9129,7 @@
     "canonical": false,
     "canonical_slug": "al-muhadhdhab",
     "madhab": "shafii",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -9334,7 +9334,7 @@
     "canonical_slug": "fath-al-qadir",
     "died_ah": 861,
     "madhab": "hanafi",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -9515,7 +9515,7 @@
     "canonical_slug": "al-furu-ibn-muflih-hanbali",
     "died_ah": 763,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -9667,7 +9667,7 @@
     "canonical": false,
     "canonical_slug": "al-dhakhirah-al-qaraffi-maliki",
     "madhab": "maliki",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -9782,7 +9782,7 @@
     "canonical_slug": "al-muhalla",
     "died_ah": 456,
     "madhab": "dhahiri",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -9897,7 +9897,7 @@
     "category_secondary": "hadith-sciences",
     "canonical": false,
     "canonical_slug": "umdat-al-qari",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "madhab": "hanafi",
@@ -10269,7 +10269,7 @@
     "canonical": false,
     "canonical_slug": "tahdhib-al-kamal",
     "madhab": "general",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -10552,7 +10552,7 @@
     "canonical": false,
     "canonical_slug": "al-bidayah-wan-nihayah-ibn-kathir",
     "died_ah": 774,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -10654,7 +10654,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "al-muwafaqat-shatibi",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -10843,7 +10843,7 @@
     "canonical": false,
     "canonical_slug": "al-mujam-al-kabir",
     "died_ah": 360,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -10957,7 +10957,7 @@
     "canonical": false,
     "canonical_slug": "sahih-ibn-hibban",
     "died_ah": 354,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -11836,7 +11836,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "al-milal-wan-nihal",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -11874,7 +11874,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "al-hikam-al-ataiyyah",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -11977,7 +11977,7 @@
     "canonical": false,
     "canonical_slug": "al-ibanah",
     "died_ah": 324,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -12092,7 +12092,7 @@
     "category_secondary": "aqeedah",
     "canonical": false,
     "canonical_slug": "sharh-al-aqeedah-at-tahawiyyah",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -12321,7 +12321,7 @@
     "canonical_slug": "al-mustasfa",
     "died_ah": 505,
     "madhab": "shafii",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -13164,7 +13164,7 @@
     "canonical_slug": "al-muhalla",
     "died_ah": 456,
     "madhab": "dhahiri",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -13318,7 +13318,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "mishkat-al-masabih",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -13358,7 +13358,7 @@
     "canonical_slug": "al-adab-al-mufrad",
     "died_ah": 256,
     "madhab": "general",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -13533,7 +13533,7 @@
     "canonical": false,
     "canonical_slug": "usud-al-ghabah-ibn-athir",
     "died_ah": 630,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -13607,7 +13607,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "mukhtasar-minhaj-al-qasidin",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -13646,7 +13646,7 @@
     "canonical": false,
     "canonical_slug": "al-wabil-as-sayyib",
     "died_ah": 751,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -14042,7 +14042,7 @@
     "canonical_slug": "kitab-al-kharaj",
     "died_ah": 182,
     "madhab": "hanafi",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -14082,7 +14082,7 @@
     "canonical_slug": "al-ahkam-as-sultaniyyah",
     "died_ah": 450,
     "madhab": "shafii",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -14417,7 +14417,7 @@
     "author_slug": "ibn-taymiyyah",
     "died_ah": 728,
     "madhab": "hanbali",
-    "has_text_en": false,
+    "has_text_en": true,
     "has_text_ar": false,
     "has_text_id": true,
     "introduction_written": true,
@@ -14743,7 +14743,7 @@
     "canonical": true,
     "canonical_slug": null,
     "author_slug": "al-fawzan",
-    "has_text_en": false,
+    "has_text_en": true,
     "has_text_ar": false,
     "has_text_id": true,
     "introduction_written": true,
@@ -14852,7 +14852,7 @@
     "canonical": true,
     "canonical_slug": null,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": true,
     "introduction_written": true,
@@ -14887,7 +14887,7 @@
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
-    "has_text_en": false,
+    "has_text_en": true,
     "has_text_ar": false,
     "has_text_id": true,
     "madhab": "general",
@@ -15684,7 +15684,7 @@
     "category_secondary": null,
     "canonical": false,
     "canonical_slug": "hayat-as-sahabah",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "madhab": "general",
@@ -16556,7 +16556,7 @@
     "canonical_slug": "excellent-qualities-of-the-quran",
     "author_slug": "ibn-kathir",
     "died_ah": 774,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -17435,7 +17435,7 @@
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": true,
     "madhab": "multi",
@@ -17549,7 +17549,7 @@
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": true,
     "madhab": "multi",
@@ -18363,7 +18363,7 @@
     "canonical_slug": null,
     "died_ah": 1447,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -18399,7 +18399,7 @@
     "canonical_slug": null,
     "died_ah": 1447,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -18434,7 +18434,7 @@
     "canonical_slug": null,
     "died_ah": 1447,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -18469,7 +18469,7 @@
     "canonical_slug": null,
     "died_ah": 1447,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -18504,7 +18504,7 @@
     "canonical_slug": null,
     "died_ah": 1447,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -18539,7 +18539,7 @@
     "canonical_slug": null,
     "died_ah": 1447,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -18575,7 +18575,7 @@
     "canonical_slug": null,
     "died_ah": 1447,
     "madhab": "hanbali",
-    "has_text_en": true,
+    "has_text_en": false,
     "has_text_ar": false,
     "has_text_id": false,
     "introduction_written": true,
@@ -18583,5 +18583,2878 @@
       "the-process-of-islamization",
       "islam-and-democracy-jafar-idris"
     ]
+  },
+  {
+    "slug": "biographies-rightly-guided-caliphs",
+    "title_en": "Biographies of the Rightly-Guided Caliphs",
+    "title_ar": "سير الخلفاء الراشدين",
+    "title_transliteration": "",
+    "author_slug": "ibn-kathir",
+    "died_ah": 774,
+    "category": "biography",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "seerah",
+      "companions",
+      "khulafa-rashidun"
+    ],
+    "topic_tags": [
+      "Abu Bakr",
+      "Umar ibn al-Khattab",
+      "Uthman ibn Affan",
+      "Ali ibn Abi Talib",
+      "biography",
+      "caliphate"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Biographies%20of%20the%20Rightly-Guided%20Caliphs.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "book-of-manners",
+    "title_en": "The Book of Manners",
+    "title_ar": "كتاب الآداب",
+    "title_transliteration": "",
+    "author_slug": "fu-ad-ibn-abd-al-aziz-al-shalhub",
+    "died_ah": null,
+    "category": "ethics",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "adab",
+      "ethics",
+      "character"
+    ],
+    "topic_tags": [
+      "manners",
+      "Islamic etiquette",
+      "character",
+      "adab"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Book%20of%20Manners.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "characteristics-of-the-hypocrites",
+    "title_en": "Characteristics of the Hypocrites",
+    "title_ar": "صفات المنافقين",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-qayyim",
+    "died_ah": 751,
+    "category": "aqeedah",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "aqeedah",
+      "hypocrisy",
+      "spiritual-diseases"
+    ],
+    "topic_tags": [
+      "nifaq",
+      "hypocrisy",
+      "characteristics",
+      "spiritual purification"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Characteristics%20of%20the%20Hypocrites.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "commanders-of-the-muslim-army",
+    "title_en": "Commanders of the Muslim Army",
+    "title_ar": "قادة الجيوش الإسلامية",
+    "title_transliteration": "",
+    "author_slug": "mahmud-shalabi",
+    "died_ah": null,
+    "category": "history",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "history",
+      "military",
+      "companions"
+    ],
+    "topic_tags": [
+      "military commanders",
+      "Islamic conquests",
+      "companions",
+      "generals"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Commanders%20of%20the%20Muslim%20Army.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "dua-weapon-of-the-believer",
+    "title_en": "Du'a: The Weapon of the Believer",
+    "title_ar": "الدعاء سلاح المؤمن",
+    "title_transliteration": "",
+    "author_slug": "yasir-qadhi",
+    "died_ah": null,
+    "category": "worship",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "dua",
+      "worship",
+      "prayer"
+    ],
+    "topic_tags": [
+      "supplication",
+      "du'a",
+      "weapon of the believer",
+      "tawassul"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Dua%20The%20Weapon%20Of%20The%20Believer.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "exquisite-pearl-journey-to-allah",
+    "title_en": "The Exquisite Pearl: The Journey to Allah and the Home of the Hereafter",
+    "title_ar": "الجوهرة الفريدة",
+    "title_transliteration": "",
+    "author_slug": "ibn-rajab-al-hanbali",
+    "died_ah": 795,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "akhirah",
+      "spirituality",
+      "hereafter"
+    ],
+    "topic_tags": [
+      "journey to Allah",
+      "hereafter",
+      "death",
+      "paradise",
+      "hellfire"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Exquisite%20Pearl%28the%20journey%20to%20allah%20and%20the%20home%20of%20the%20hereafter%20%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "noble-life-of-the-prophet",
+    "title_en": "The Noble Life of the Prophet",
+    "title_ar": "الرحيق المختوم",
+    "title_transliteration": "",
+    "author_slug": "ali-al-sallabi",
+    "died_ah": null,
+    "category": "seerah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "seerah",
+      "prophet-muhammad",
+      "biography"
+    ],
+    "topic_tags": [
+      "Prophet Muhammad",
+      "Seerah",
+      "life of the Prophet",
+      "noble biography"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Noble%20Life%20of%20The%20Prophet%20%28Peace%20Be%20Upon%20Him%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "al-fawaid-ibn-al-qayyim",
+    "title_en": "Al-Fawa'id: A Collection of Wise Sayings",
+    "title_ar": "الفوائد",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-qayyim",
+    "died_ah": 751,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "spirituality",
+      "wisdom",
+      "heart",
+      "tawbah"
+    ],
+    "topic_tags": [
+      "wisdom",
+      "heart",
+      "tawbah",
+      "remembrance of Allah",
+      "Quran",
+      "reflection"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Al-FAWAID-%20Acollection%20of%20Wise%20sayings%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "al-wala-wal-bara",
+    "title_en": "Al-Wala' wal-Bara': Loyalty and Disavowal in Islam",
+    "title_ar": "الولاء والبراء",
+    "title_transliteration": "",
+    "author_slug": "muhammad-ibn-said-al-qahtani",
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "wala-bara",
+      "tawhid"
+    ],
+    "topic_tags": [
+      "loyalty",
+      "disavowal",
+      "al-wala wal-bara",
+      "Quran",
+      "Sunnah",
+      "faith"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Al%20Wala%20Wal%20Bara%20Part%201.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "dajjal-false-messiah",
+    "title_en": "The Dajjal: The False Messiah",
+    "title_ar": "مسيح الدجال",
+    "title_transliteration": "",
+    "author_slug": "ibn-kathir",
+    "died_ah": 774,
+    "category": "aqeedah",
+    "era": "classical",
+    "madhab": "shafi",
+    "subject_tags": [
+      "aqeedah",
+      "eschatology",
+      "end-times"
+    ],
+    "topic_tags": [
+      "Dajjal",
+      "false messiah",
+      "end times",
+      "signs of hour",
+      "eschatology"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "shafi"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Dajjal-the-False-Messiah-by-Imam-Ibn-Kathir.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "divine-will-predestination",
+    "title_en": "Divine Will and Predestination",
+    "title_ar": "القضاء والقدر",
+    "title_transliteration": "",
+    "author_slug": "umar-al-ashqar",
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "qadar",
+      "tawhid"
+    ],
+    "topic_tags": [
+      "divine will",
+      "predestination",
+      "qadar",
+      "qada",
+      "decree of Allah"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Divine%20Will%20and%20Predestination.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "al-jannah-wal-naar",
+    "title_en": "The Paradise and the Hellfire",
+    "title_ar": "الجنة والنار",
+    "title_transliteration": "",
+    "author_slug": "umar-al-ashqar",
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "paradise",
+      "hellfire",
+      "akhirah"
+    ],
+    "topic_tags": [
+      "paradise",
+      "hellfire",
+      "Jannah",
+      "Naar",
+      "hereafter",
+      "resurrection"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Al%20Jannah%20Wa%20Naar%20Dr%20Umar%20Sulaiman%20Al%20Ashqar.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "fiqh-of-marriage",
+    "title_en": "The Fiqh of Marriage",
+    "title_ar": "فقه النكاح",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "fiqh",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "fiqh",
+      "marriage",
+      "family"
+    ],
+    "topic_tags": [
+      "nikah",
+      "marriage",
+      "wedding",
+      "Islamic law",
+      "family"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Fiqh%20of%20Marriage.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "fiqh-of-worship-umdah-al-fiqh",
+    "title_en": "Fiqh of Worship: Umdah al-Fiqh",
+    "title_ar": "عمدة الفقه",
+    "title_transliteration": "",
+    "author_slug": "ibn-qudamah",
+    "died_ah": 620,
+    "category": "fiqh",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "fiqh",
+      "worship",
+      "purification",
+      "prayer",
+      "fasting"
+    ],
+    "topic_tags": [
+      "umdah al-fiqh",
+      "worship",
+      "purification",
+      "prayer",
+      "fasting",
+      "Hajj",
+      "Ibn Qudamah"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Fiqh%20of%20Worship%20%28umdah-al-fiqh%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "fortress-of-the-muslim",
+    "title_en": "Fortress of the Muslim: Supplications from the Quran and Sunnah",
+    "title_ar": "حصن المسلم",
+    "title_transliteration": "",
+    "author_slug": "said-ibn-wahf-al-qahtani",
+    "died_ah": null,
+    "category": "worship",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "dua",
+      "dhikr",
+      "worship",
+      "supplication"
+    ],
+    "topic_tags": [
+      "Hisnul Muslim",
+      "supplications",
+      "dhikr",
+      "morning evening adhkar",
+      "du'a"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/fortress_of_the_muslim.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "healing-with-medicine-of-prophet",
+    "title_en": "Healing with the Medicine of the Prophet",
+    "title_ar": "الطب النبوي",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-qayyim",
+    "died_ah": 751,
+    "category": "prophetic-medicine",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "prophetic-medicine",
+      "sunnah",
+      "health"
+    ],
+    "topic_tags": [
+      "prophetic medicine",
+      "al-tibb al-nabawi",
+      "health",
+      "cure",
+      "Ibn al-Qayyim"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Healing%20with%20the%20Medicine%20of%20the%20prophet.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "kitab-al-iman-ibn-taymiyyah",
+    "title_en": "Kitab al-Iman: Book of Faith",
+    "title_ar": "كتاب الإيمان",
+    "title_transliteration": "",
+    "author_slug": "ibn-taymiyyah",
+    "died_ah": 728,
+    "category": "aqeedah",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "aqeedah",
+      "iman",
+      "faith",
+      "tawhid"
+    ],
+    "topic_tags": [
+      "iman",
+      "faith",
+      "pillars of faith",
+      "belief",
+      "Ibn Taymiyyah"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Kitab%20Al-Iman%20%28book%20of%20faith%29%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "ranks-of-the-fearful",
+    "title_en": "The Ranks of the Fearful",
+    "title_ar": "مدارج السالكين",
+    "title_transliteration": "",
+    "author_slug": "ibn-qudamah",
+    "died_ah": 620,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "spirituality",
+      "fear-of-allah",
+      "taqwa",
+      "tazkiyah"
+    ],
+    "topic_tags": [
+      "khashyah",
+      "fear of Allah",
+      "ranks",
+      "spiritual stations",
+      "Ibn Qudamah"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Ranks%20Of%20the%20Fearful%20by%20Ibn%20Qudamah%20Al%20Maqdisi%20Al%20Hanbali.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "book-of-the-end-ibn-kathir",
+    "title_en": "The Book of the End: Great Trials and Tribulations",
+    "title_ar": "النهاية في الفتن والملاحم",
+    "title_transliteration": "",
+    "author_slug": "ibn-kathir",
+    "died_ah": 774,
+    "category": "aqeedah",
+    "era": "classical",
+    "madhab": "shafi",
+    "subject_tags": [
+      "aqeedah",
+      "eschatology",
+      "end-times",
+      "fitan"
+    ],
+    "topic_tags": [
+      "end times",
+      "fitan",
+      "tribulations",
+      "Dajjal",
+      "Day of Judgment",
+      "eschatology"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "shafi"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Book%20Of%20The%20End.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "major-sins",
+    "title_en": "The Major Sins",
+    "title_ar": "الكبائر",
+    "title_transliteration": "",
+    "author_slug": "al-dhahabi",
+    "died_ah": 748,
+    "category": "ethics",
+    "era": "classical",
+    "madhab": "shafi",
+    "subject_tags": [
+      "ethics",
+      "major-sins",
+      "jurisprudence"
+    ],
+    "topic_tags": [
+      "major sins",
+      "kabair",
+      "al-Dhahabi",
+      "forbidden acts",
+      "repentance"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "shafi"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/major%20sins.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "men-women-around-messenger",
+    "title_en": "Men and Women Around the Messenger",
+    "title_ar": "رجال ونساء حول الرسول",
+    "title_transliteration": "",
+    "author_slug": "khalid-muhammad-khalid",
+    "died_ah": null,
+    "category": "biography",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "companions",
+      "biography",
+      "seerah"
+    ],
+    "topic_tags": [
+      "companions",
+      "Sahabah",
+      "women companions",
+      "biography",
+      "Prophet Muhammad"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Men%20And%20Women%20Around%20the%20Messenger.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "muhammad-as-if-you-can-see-him",
+    "title_en": "Muhammad: As If You Can See Him",
+    "title_ar": "محمد كأنك تراه",
+    "title_transliteration": "",
+    "author_slug": "aid-al-qarni",
+    "died_ah": null,
+    "category": "seerah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "seerah",
+      "prophet-muhammad",
+      "character"
+    ],
+    "topic_tags": [
+      "Prophet Muhammad",
+      "character",
+      "personality",
+      "seerah",
+      "descriptions"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Muhammad%20As%20If%20You%20Can%20See%20Him.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "seeds-of-admonishment",
+    "title_en": "Seeds of Admonishment and Reform",
+    "title_ar": "بستان الواعظين",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-jawzi",
+    "died_ah": 597,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "spirituality",
+      "admonishment",
+      "tawbah",
+      "heart"
+    ],
+    "topic_tags": [
+      "admonishment",
+      "reform",
+      "tawbah",
+      "heart",
+      "Ibn al-Jawzi"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Seeds%20of%20Admonishment%20and%20Reform.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "atlas-of-the-quran",
+    "title_en": "Atlas of the Quran: Places, Nations, Landmarks",
+    "title_ar": "الأطلس القرآني",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "quran",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "quran",
+      "geography",
+      "history",
+      "atlas"
+    ],
+    "topic_tags": [
+      "Quran",
+      "atlas",
+      "places",
+      "nations",
+      "landmarks",
+      "geography",
+      "Islamic history"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Atlas%20of%20The%20Quran_%20Places%2C%20Nations%2C%20Landmarks%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "100-fabricated-hadith",
+    "title_en": "100 Fabricated Hadith",
+    "title_ar": "مئة حديث موضوع",
+    "title_transliteration": "",
+    "author_slug": "zubayr-ali-zai",
+    "died_ah": null,
+    "category": "hadith",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "hadith",
+      "fabricated-hadith",
+      "hadith-sciences"
+    ],
+    "topic_tags": [
+      "fabricated hadith",
+      "mawdu",
+      "weak hadith",
+      "hadith criticism",
+      "authentication"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/100%20Fabricated%20Hadith.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "early-days-ibn-kathir",
+    "title_en": "The Early Days: Stories from the Beginning of Creation to Prophet Yunus",
+    "title_ar": "البداية والنهاية",
+    "title_transliteration": "",
+    "author_slug": "ibn-kathir",
+    "died_ah": 774,
+    "category": "history",
+    "era": "classical",
+    "madhab": "shafi",
+    "subject_tags": [
+      "history",
+      "prophets",
+      "creation",
+      "quran-stories"
+    ],
+    "topic_tags": [
+      "creation",
+      "Adam",
+      "prophets",
+      "Quran stories",
+      "early history",
+      "Ibn Kathir"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "shafi"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Early%20days%28%28Stories%20of%20the%20beginning%20of%20creation%20to%20Prophlet%20from%20Adam%20to%20Yunus%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "life-in-al-barzakh",
+    "title_en": "Life in Al-Barzakh: From Death Until Resurrection",
+    "title_ar": "حياة البرزخ",
+    "title_transliteration": "",
+    "author_slug": "umar-al-ashqar",
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "barzakh",
+      "death",
+      "akhirah"
+    ],
+    "topic_tags": [
+      "barzakh",
+      "death",
+      "grave",
+      "resurrection",
+      "hereafter",
+      "soul"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Life%20in%20al-Barzakh%20%28From%20death%20untill%20resurrection%29%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "description-of-paradise",
+    "title_en": "Description of Paradise",
+    "title_ar": "صفة الجنة",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "paradise",
+      "akhirah"
+    ],
+    "topic_tags": [
+      "paradise",
+      "Jannah",
+      "description",
+      "pleasures",
+      "rivers",
+      "houris"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Description%20Of%20Paradise.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "30-lessons-for-those-who-fast",
+    "title_en": "30 Lessons for Those Who Fast",
+    "title_ar": "ثلاثون درساً للصائمين",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "fiqh",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "fiqh",
+      "fasting",
+      "ramadan"
+    ],
+    "topic_tags": [
+      "fasting",
+      "Ramadan",
+      "sawm",
+      "lessons",
+      "Tarawih"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/30%20Lessons%20For%20Those%20Who%20Fast.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "33-lessons-every-muslim",
+    "title_en": "33 Lessons for Every Muslim",
+    "title_ar": "ثلاثة وثلاثون درساً",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "education",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "education",
+      "basics",
+      "aqeedah",
+      "worship"
+    ],
+    "topic_tags": [
+      "lessons",
+      "Muslim basics",
+      "faith",
+      "practice",
+      "Islam fundamentals"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/33%20lessons%20for%20every%20muslim.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "more-than-1000-sunnan",
+    "title_en": "More than 1000 Sunnan Every Day and Night",
+    "title_ar": "أكثر من ألف سنة",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "worship",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "sunnah",
+      "worship",
+      "dhikr",
+      "daily-practice"
+    ],
+    "topic_tags": [
+      "sunnah",
+      "daily sunnan",
+      "adhkar",
+      "Prophet's practice",
+      "habits"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/More%20than%201000%20Sunnan%20for%20Day%20and%20Night.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "explanation-nullifiers-of-islam",
+    "title_en": "Explanation of the Nullifiers of Islam",
+    "title_ar": "نواقض الإسلام",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-uthaymin",
+    "died_ah": 1421,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "aqeedah",
+      "tawhid",
+      "nullifiers",
+      "shirk"
+    ],
+    "topic_tags": [
+      "nullifiers of Islam",
+      "nawaqid al-Islam",
+      "shirk",
+      "apostasy",
+      "Ibn Uthaymin"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Explanation%20of%20the%20Nullifiers%20of%20Islam.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "beautiful-names-of-allah",
+    "title_en": "Explanation of the Beautiful and Perfect Names of Allah",
+    "title_ar": "شرح أسماء الله الحسنى",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "names-of-allah",
+      "tawhid"
+    ],
+    "topic_tags": [
+      "names of Allah",
+      "asma ul husna",
+      "attributes",
+      "tawhid al-asma was-sifat"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Explanation%20to%20the%20Beautiful%20and%20Perfect%20Names%20of%20Allah.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "guide-to-sound-creed",
+    "title_en": "A Guide to Sound Creed",
+    "title_ar": "دليل العقيدة الصحيحة",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "tawhid",
+      "faith"
+    ],
+    "topic_tags": [
+      "creed",
+      "aqeedah",
+      "tawhid",
+      "pillars of faith",
+      "sound belief"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Guide-to-Sound-Creed-A-Book-on-Muslim-Creed-and-Faith.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "four-foundations-of-shirk",
+    "title_en": "The Four Foundations of Shirk",
+    "title_ar": "القواعد الأربعة",
+    "title_transliteration": "",
+    "author_slug": "muhammad-ibn-abd-al-wahhab",
+    "died_ah": 1206,
+    "category": "aqeedah",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "aqeedah",
+      "tawhid",
+      "shirk"
+    ],
+    "topic_tags": [
+      "shirk",
+      "four foundations",
+      "polytheism",
+      "tawhid",
+      "Muhammad ibn Abd al-Wahhab"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Four%20Foundations%20Of%20Shirk%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "obligation-of-adhering-to-sunnah",
+    "title_en": "The Obligation of Adhering to the Sunnah and Caution Against Innovation",
+    "title_ar": "الإلزام باتباع السنة",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "hadith-sciences",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "sunnah",
+      "bidah",
+      "hadith-sciences"
+    ],
+    "topic_tags": [
+      "Sunnah",
+      "bid'ah",
+      "innovation",
+      "obligation",
+      "hadith"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Obligation%20of%20Adhering%20to%20the%20Sunnah%20and%20caution%20against%20innovation.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "differences-of-opinion-among-scholars",
+    "title_en": "Differences of Opinion Among the Scholars: Their Causes and Our Attitude",
+    "title_ar": "أسباب اختلاف العلماء",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "usul-al-fiqh",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "usul-al-fiqh",
+      "ikhtilaf",
+      "scholarly-differences"
+    ],
+    "topic_tags": [
+      "ikhtilaf",
+      "scholarly differences",
+      "methodology",
+      "fiqh",
+      "fatwa"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Differences%20of%20Opinion%20Amongst%20the%20Scholars%20%5Btheir%20Cases%20and%20our%20position%20towards%20them%20%5D.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "humility-in-prayer",
+    "title_en": "Humility in Prayer",
+    "title_ar": "الخشوع في الصلاة",
+    "title_transliteration": "",
+    "author_slug": "ibn-rajab-al-hanbali",
+    "died_ah": 795,
+    "category": "worship",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "prayer",
+      "khushu",
+      "worship",
+      "spirituality"
+    ],
+    "topic_tags": [
+      "khushu",
+      "humility",
+      "prayer",
+      "salah",
+      "concentration",
+      "Ibn Rajab"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Humulity%20in%20prayer.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "inner-dimensions-of-prayer",
+    "title_en": "The Inner Dimensions of Islamic Prayer",
+    "title_ar": "أسرار الصلاة",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "worship",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "prayer",
+      "spirituality",
+      "worship"
+    ],
+    "topic_tags": [
+      "prayer",
+      "salah",
+      "inner dimensions",
+      "spirituality",
+      "khushu",
+      "Islamic prayer"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Inner%20dimensions%20of%20the%20prayer.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "be-patient-paradise-is-yours",
+    "title_en": "Be Patient: Paradise Will Be Yours",
+    "title_ar": "اصبر فإن الجنة لك",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "spirituality",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "patience",
+      "spirituality",
+      "paradise"
+    ],
+    "topic_tags": [
+      "patience",
+      "sabr",
+      "paradise",
+      "trials",
+      "hardship",
+      "perseverance"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Be%20Patient%20_%20Paradise%20Will%20Be%20Yours.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "a-day-in-house-of-messenger",
+    "title_en": "A Day in the House of the Messenger of Allah",
+    "title_ar": "يوم في بيت رسول الله",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "seerah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "seerah",
+      "prophet-muhammad",
+      "daily-life"
+    ],
+    "topic_tags": [
+      "Prophet Muhammad",
+      "daily life",
+      "household",
+      "seerah",
+      "family"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/A%20Day%20in%20the%20House%20of%20the%20Messenger%20of%20Allaah.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "magic-and-envy",
+    "title_en": "Magic and Envy",
+    "title_ar": "السحر والحسد",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "sihr",
+      "hasad",
+      "ruqyah"
+    ],
+    "topic_tags": [
+      "magic",
+      "sihr",
+      "envy",
+      "hasad",
+      "evil eye",
+      "ruqyah",
+      "protection"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/magic%20and%20envy.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "protection-from-jinn-and-shaytan",
+    "title_en": "How to Protect Yourself from Jinn and Shaytan",
+    "title_ar": "كيف تحمي نفسك من الجن والشيطان",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "jinn",
+      "shaytan",
+      "ruqyah"
+    ],
+    "topic_tags": [
+      "jinn",
+      "Shaytan",
+      "protection",
+      "ruqyah",
+      "evil eye",
+      "possession",
+      "Islamic medicine"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/How%20to%20Protect%20Yourself%20From%20Jinn%20And%20Shaytaan.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "exposing-shaytan",
+    "title_en": "Exposing Shaytan: Wiles Used to Mislead Mankind",
+    "title_ar": "تلبيس إبليس",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-jawzi",
+    "died_ah": 597,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "spirituality",
+      "shaytan",
+      "spiritual-diseases"
+    ],
+    "topic_tags": [
+      "Shaytan",
+      "deceptions",
+      "waswas",
+      "whispers",
+      "protection from Shaytan"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Exposing%20Shaytan.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "heartfelt-advice-to-a-friend",
+    "title_en": "Heartfelt Advice to a Friend",
+    "title_ar": "الرسالة التبوكية",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-qayyim",
+    "died_ah": 751,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "spirituality",
+      "advice",
+      "heart",
+      "tawbah"
+    ],
+    "topic_tags": [
+      "advice",
+      "nasiha",
+      "heart",
+      "friend",
+      "Ibn al-Qayyim",
+      "Tabuk letter"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Heartfelt%20Advice%20to%20a%20Friend%20by%20ibn%20Qayyim.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "in-pursuit-of-allahs-pleasure",
+    "title_en": "In Pursuit of Allah's Pleasure",
+    "title_ar": "في طريق الله",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "spirituality",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "spirituality",
+      "dawah",
+      "worship",
+      "taqwa"
+    ],
+    "topic_tags": [
+      "pursuing Allah's pleasure",
+      "da'wah",
+      "worship",
+      "taqwa",
+      "motivation"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/In%20Pursuit%20of%20Allahs%20Pleasure.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "legacy-of-the-prophet",
+    "title_en": "The Legacy of the Prophet",
+    "title_ar": "وصية النبي",
+    "title_transliteration": "",
+    "author_slug": "ibn-rajab-al-hanbali",
+    "died_ah": 795,
+    "category": "seerah",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "seerah",
+      "hadith",
+      "character",
+      "prophet-muhammad"
+    ],
+    "topic_tags": [
+      "legacy",
+      "Prophet Muhammad",
+      "hadith",
+      "advice",
+      "seerah",
+      "Ibn Rajab"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/LegacyofTheProphet.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "do-not-be-sad",
+    "title_en": "Don't Be Sad",
+    "title_ar": "لا تحزن",
+    "title_transliteration": "",
+    "author_slug": "aid-al-qarni",
+    "died_ah": null,
+    "category": "spirituality",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "spirituality",
+      "happiness",
+      "grief",
+      "mental-health"
+    ],
+    "topic_tags": [
+      "sadness",
+      "grief",
+      "happiness",
+      "optimism",
+      "contentment",
+      "tawakkul"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Dont%20Be%20Sad.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "do-not-become-angry",
+    "title_en": "Do Not Become Angry",
+    "title_ar": "لا تغضب",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "ethics",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "ethics",
+      "anger",
+      "character"
+    ],
+    "topic_tags": [
+      "anger",
+      "ghadab",
+      "patience",
+      "character",
+      "controlling anger"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Do%20Not%20Become%20Angry.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "dutifulness-to-parents",
+    "title_en": "Dutifulness to Parents",
+    "title_ar": "بر الوالدين",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "ethics",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "ethics",
+      "parents",
+      "family",
+      "character"
+    ],
+    "topic_tags": [
+      "parents",
+      "birr al-walidayn",
+      "family",
+      "dutifulness",
+      "rights of parents"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Dutifulness%20to%20Parents.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "guide-for-new-muslim",
+    "title_en": "A Guide for the New Muslim",
+    "title_ar": "دليل المسلم الجديد",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "education",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "education",
+      "new-muslim",
+      "basics",
+      "dawah"
+    ],
+    "topic_tags": [
+      "new Muslim",
+      "revert",
+      "guide",
+      "Islam basics",
+      "shahadah",
+      "prayer",
+      "fasting"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/A%20guide%20for%20the%20new%20Muslim.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "nurturing-eeman-in-children",
+    "title_en": "Nurturing Eeman in Children",
+    "title_ar": "تربية الأبناء على الإيمان",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "education",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "education",
+      "children",
+      "iman",
+      "parenting"
+    ],
+    "topic_tags": [
+      "children",
+      "eeman",
+      "parenting",
+      "tarbiyah",
+      "Islamic education",
+      "faith"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Nurturing%20Eeman%20In%20Children.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "seeds-of-righteousness",
+    "title_en": "Seeds of Righteousness",
+    "title_ar": "بذور الصلاح",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "spirituality",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "spirituality",
+      "dawah",
+      "women",
+      "character"
+    ],
+    "topic_tags": [
+      "righteousness",
+      "seeds",
+      "women",
+      "da'wah",
+      "faith",
+      "good deeds"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Seeds%20of%20Righteousness%20%28Tools%20for%20Muslim%20women%20to%20spread%20islam%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "quest-for-love-and-mercy",
+    "title_en": "Quest for Love and Mercy: Regulations for Marriage and Wedding in Islam",
+    "title_ar": "طلب المحبة والرحمة",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "fiqh",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "fiqh",
+      "marriage",
+      "family",
+      "nikah"
+    ],
+    "topic_tags": [
+      "marriage",
+      "wedding",
+      "nikah",
+      "regulations",
+      "mahr",
+      "wali",
+      "love",
+      "mercy"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Quest%20for%20Love%20and%20Mercy%20%28%20regulations%20for%20marriage%20and%20wedding%20in%20islam%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "ingredients-for-a-happy-marriage",
+    "title_en": "Ingredients for a Happy Marriage",
+    "title_ar": "مقومات الزواج السعيد",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "family",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "family",
+      "marriage",
+      "character",
+      "ethics"
+    ],
+    "topic_tags": [
+      "marriage",
+      "happiness",
+      "spouse",
+      "rights",
+      "duties",
+      "family"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Ingredients%20For%20A%20Happy%20Marriage.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "fatwas-of-muslim-women",
+    "title_en": "Fatwas of Muslim Women",
+    "title_ar": "فتاوى المرأة المسلمة",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-uthaymin",
+    "died_ah": 1421,
+    "category": "fiqh",
+    "era": "contemporary",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "fiqh",
+      "women",
+      "fatwa"
+    ],
+    "topic_tags": [
+      "fatwa",
+      "women",
+      "fiqh",
+      "purification",
+      "prayer",
+      "fasting",
+      "marriage",
+      "Ibn Uthaymin"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Fatwas%20of%20Muslim%20Women.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "islamic-verdicts-on-pillars-vol1",
+    "title_en": "Islamic Verdicts on the Pillars of Islam, Volume 1",
+    "title_ar": "فتاوى أركان الإسلام ج1",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-uthaymin",
+    "died_ah": 1421,
+    "category": "fiqh",
+    "era": "contemporary",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "fiqh",
+      "pillars-of-islam",
+      "fatwa"
+    ],
+    "topic_tags": [
+      "pillars of Islam",
+      "shahadah",
+      "prayer",
+      "zakat",
+      "fasting",
+      "Hajj",
+      "fatwa",
+      "Ibn Uthaymin"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Islamic%20Verdicts%20on%20the%20pillars%20of%20islam%20Vol%201.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "islamic-verdicts-on-pillars-vol2",
+    "title_en": "Islamic Verdicts on the Pillars of Islam, Volume 2",
+    "title_ar": "فتاوى أركان الإسلام ج2",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-uthaymin",
+    "died_ah": 1421,
+    "category": "fiqh",
+    "era": "contemporary",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "fiqh",
+      "pillars-of-islam",
+      "fatwa"
+    ],
+    "topic_tags": [
+      "pillars of Islam",
+      "prayer",
+      "zakat",
+      "fasting",
+      "Hajj",
+      "fatwa",
+      "Ibn Uthaymin"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Islamic%20Verdicts%20on%20the%20pillars%20of%20islam%20Vol%202.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "psychology-from-islamic-perspective",
+    "title_en": "Psychology from the Islamic Perspective",
+    "title_ar": "علم النفس الإسلامي",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "psychology",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "psychology",
+      "mental-health",
+      "islamicscience"
+    ],
+    "topic_tags": [
+      "psychology",
+      "Islamic perspective",
+      "mental health",
+      "emotions",
+      "soul",
+      "nafs"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Psychology%20from%20the%20Islamic%20Perspective.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "o-my-son-advice-of-luqman",
+    "title_en": "O My Son: The Advice of Luqman",
+    "title_ar": "يا بني: وصايا لقمان",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "education",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "education",
+      "parenting",
+      "quran",
+      "character"
+    ],
+    "topic_tags": [
+      "Luqman",
+      "advice",
+      "children",
+      "Quran",
+      "wisdom",
+      "tarbiyah",
+      "parenting"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/O%20My%20Son%20-%20The%20Advice%20of%20Luqmaan.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "sacred-knowledge",
+    "title_en": "Sacred Knowledge",
+    "title_ar": "العلم الشرعي",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "education",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "knowledge",
+      "education",
+      "ilm"
+    ],
+    "topic_tags": [
+      "sacred knowledge",
+      "ilm",
+      "Islamic education",
+      "seeking knowledge",
+      "scholars"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Sacred%20Knowledge.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "excellence-of-knowledge",
+    "title_en": "The Excellence of Knowledge",
+    "title_ar": "فضل العلم",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "education",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "knowledge",
+      "education",
+      "ilm",
+      "scholars"
+    ],
+    "topic_tags": [
+      "excellence of knowledge",
+      "ilm",
+      "scholars",
+      "seeking knowledge",
+      "virtue"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Excellence%20Of%20Knowledge.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "from-characteristics-of-salaf",
+    "title_en": "From the Characteristics of the Salaf",
+    "title_ar": "من أخلاق السلف",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "biography",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "salaf",
+      "character",
+      "biography",
+      "history"
+    ],
+    "topic_tags": [
+      "Salaf",
+      "characteristics",
+      "piety",
+      "scholars",
+      "early Muslims"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/From%20The%20Characteristics%20of%20The%20Salaf.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "benefiting-from-knowledge",
+    "title_en": "Benefiting from Knowledge",
+    "title_ar": "الاستفادة من العلم",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "education",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "knowledge",
+      "education",
+      "practice"
+    ],
+    "topic_tags": [
+      "knowledge",
+      "benefit",
+      "practice",
+      "acting upon knowledge",
+      "ilm"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Benefiting%20From%20Knowledge.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "love-of-allah",
+    "title_en": "The Love of Allah",
+    "title_ar": "محبة الله",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "spirituality",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "spirituality",
+      "love-of-allah",
+      "worship",
+      "tawhid"
+    ],
+    "topic_tags": [
+      "love of Allah",
+      "mahabba",
+      "worship",
+      "heart",
+      "tawhid",
+      "devotion"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Love%20of%20Allah.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "atlas-of-islamic-conquests",
+    "title_en": "Atlas of Islamic Conquests: From the Caliphate of Abu Bakr to the Height of the Ottoman Caliphate",
+    "title_ar": "أطلس الفتوحات الإسلامية",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "history",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "history",
+      "conquests",
+      "atlas",
+      "caliphate"
+    ],
+    "topic_tags": [
+      "Islamic conquests",
+      "atlas",
+      "caliphate",
+      "Abu Bakr",
+      "Umayyad",
+      "Abbasid",
+      "Ottoman",
+      "maps"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Atlas%20of%20the%20islamic%20Conquests%20From%20the%20caliphate%20of%20Abu%20Bakr%20to%20the%20height%20of%20the%20Ottoman%20caliphate.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "rulings-on-traveler",
+    "title_en": "The Rulings of the Traveler",
+    "title_ar": "أحكام المسافر",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "fiqh",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "fiqh",
+      "travel",
+      "prayer",
+      "fasting"
+    ],
+    "topic_tags": [
+      "traveler",
+      "travel",
+      "prayer shortening",
+      "combining prayers",
+      "fasting",
+      "qiblah"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/The%20Rulings%20of%20the%20traveler.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "causes-increase-decrease-eeman",
+    "title_en": "Causes Behind the Increase and Decrease of Eemaan",
+    "title_ar": "أسباب زيادة الإيمان ونقصانه",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "iman",
+      "faith",
+      "spiritual-development"
+    ],
+    "topic_tags": [
+      "eeman",
+      "faith",
+      "increase",
+      "decrease",
+      "causes",
+      "worship",
+      "spiritual growth"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Causes%20Behind%20the%20Increase%20and%20Decrease%20of%20Eemaan.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "disciplining-the-soul",
+    "title_en": "Disciplining the Soul",
+    "title_ar": "ذم الهوى",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-jawzi",
+    "died_ah": 597,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "spirituality",
+      "nafs",
+      "character",
+      "tazkiyah"
+    ],
+    "topic_tags": [
+      "nafs",
+      "soul",
+      "discipline",
+      "desires",
+      "Ibn al-Jawzi",
+      "tazkiyah"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Disciplining%20The%20Soul.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "refuting-shia-beliefs",
+    "title_en": "Refuting the Fundamental Shiite Beliefs",
+    "title_ar": "الرد على المعتقدات الشيعية",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "comparative-religion",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "comparative-religion",
+      "shia",
+      "aqeedah",
+      "polemics"
+    ],
+    "topic_tags": [
+      "Shia",
+      "Shiite",
+      "refutation",
+      "beliefs",
+      "Sunni",
+      "imamah",
+      "Mahdi"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Refuting%20the%20%20fundamental%20Shiite%20Beliefs%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "muslim-international-law",
+    "title_en": "Muslim International Law: Kitab al-Siyar al-Saghir",
+    "title_ar": "كتاب السير الصغير",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "islamic-law",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "islamic-law",
+      "siyar",
+      "international-law"
+    ],
+    "topic_tags": [
+      "siyar",
+      "Islamic international law",
+      "jihad",
+      "non-Muslims",
+      "dhimmi",
+      "treaties"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Muslim%20International%20Law%20%28Kitab%20al-Siyar%20as-Saghir%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "concerning-mawlid",
+    "title_en": "Concerning the Celebration of the Mawlid",
+    "title_ar": "حكم الاحتفال بالمولد النبوي",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "jurisprudence",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "mawlid",
+      "bidah",
+      "scholarly-differences"
+    ],
+    "topic_tags": [
+      "mawlid",
+      "Prophet's birthday",
+      "celebration",
+      "bid'ah",
+      "scholarly opinion"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Concerning%20celebration%20of%20mawlid%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "bidah-innovation-in-islam",
+    "title_en": "Bid'ah: Innovation in Islam",
+    "title_ar": "البدعة في الإسلام",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "aqeedah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "aqeedah",
+      "bidah",
+      "sunnah",
+      "methodology"
+    ],
+    "topic_tags": [
+      "bid'ah",
+      "innovation",
+      "Sunnah",
+      "prohibition",
+      "types of bid'ah"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Bidah%20%28Innovation%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "brief-illustrated-guide-to-islam",
+    "title_en": "A Brief Illustrated Guide to Understanding Islam",
+    "title_ar": "دليل المبتدئ المصور إلى الإسلام",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "dawah",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "dawah",
+      "basics",
+      "new-muslim",
+      "education"
+    ],
+    "topic_tags": [
+      "Islam",
+      "introduction",
+      "non-Muslim",
+      "guide",
+      "illustrated",
+      "basics"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/A%20brief%20illustratd%20guide%20to%20understanding%20islam.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "paragons-of-the-quran",
+    "title_en": "Paragons of the Quran",
+    "title_ar": "أمثال القرآن",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-qayyim",
+    "died_ah": 751,
+    "category": "quran",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "quran",
+      "parables",
+      "tafsir"
+    ],
+    "topic_tags": [
+      "Quran",
+      "parables",
+      "amthal",
+      "examples",
+      "Ibn al-Qayyim",
+      "tafsir"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/PARAGONS%20OF%20THE%20QURAN.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "knowledge-mandates-action",
+    "title_en": "Knowledge Mandates Action: Iqtida' al-Ilm al-'Amal",
+    "title_ar": "اقتضاء العلم العمل",
+    "title_transliteration": "",
+    "author_slug": "al-khatib-al-baghdadi",
+    "died_ah": 463,
+    "category": "education",
+    "era": "classical",
+    "madhab": "shafi",
+    "subject_tags": [
+      "knowledge",
+      "practice",
+      "ilm",
+      "adab"
+    ],
+    "topic_tags": [
+      "knowledge",
+      "action",
+      "ilm al-amal",
+      "practicing what you know",
+      "al-Khatib"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "shafi"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Knowledge%20mandates%20action%20%28Iqtidaa%20ul%20Ilm%20al%20Amal%29.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "men-and-the-universe",
+    "title_en": "Men and the Universe: Reflections of Ibn al-Qayyim",
+    "title_ar": "الإنسان والكون",
+    "title_transliteration": "",
+    "author_slug": "ibn-al-qayyim",
+    "died_ah": 751,
+    "category": "spirituality",
+    "era": "classical",
+    "madhab": "hanbali",
+    "subject_tags": [
+      "spirituality",
+      "creation",
+      "tawhid",
+      "reflection"
+    ],
+    "topic_tags": [
+      "universe",
+      "creation",
+      "signs of Allah",
+      "reflection",
+      "tawhid",
+      "Ibn al-Qayyim"
+    ],
+    "era_tags": [],
+    "madhab_tags": [
+      "hanbali"
+    ],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": false,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Men%20and%20the%20Universe%20.pdf",
+    "source_url_secondary": ""
+  },
+  {
+    "slug": "healing-body-and-soul",
+    "title_en": "Healing Body and Soul",
+    "title_ar": "شفاء الروح والجسد",
+    "title_transliteration": "",
+    "author_slug": null,
+    "died_ah": null,
+    "category": "prophetic-medicine",
+    "era": "contemporary",
+    "madhab": null,
+    "subject_tags": [
+      "prophetic-medicine",
+      "health",
+      "spirituality"
+    ],
+    "topic_tags": [
+      "healing",
+      "body",
+      "soul",
+      "Islamic medicine",
+      "wellbeing",
+      "holistic health"
+    ],
+    "era_tags": [],
+    "madhab_tags": [],
+    "content_type_tags": [
+      "source-text"
+    ],
+    "has_text_en": true,
+    "has_text_ar": false,
+    "has_text_id": false,
+    "canonical": true,
+    "source_type": "pdf",
+    "source_url_primary": "https://archive.org/download/islamicbooksfromkalamullahcollection/Healing%20Body%20And%20Soul%20Your%20guide%20to%20holistic%20wellbeing%20following%20islamic%20teachings.pdf",
+    "source_url_secondary": ""
   }
 ]

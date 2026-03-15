@@ -1,0 +1,23 @@
+{
+  "number": 19,
+  "title_en": "1. Write a detailed description of the prayer from takbeer",
+  "title_ar": "",
+  "content_en": "<p>until rukoo' (bowing). Place a check mark for correct answers and an 'X' for wrong answers: 1. The ma'moom (the one led in prayer) is prohibited to recite even al-fatihah as long as the Imam is reciting. ( ) 2. It is recommended to raise one's hands up to ears when falling down in prostration. ( ) 3. According to shafi`ee school, tawarruk position is prescribed in all final tashahhuds (whether of two-unit prayer or more). ( ) 4. If one cannot say takbir for prayer in Arabic, he can do it in English. ( ) 5. Reciting al-fatihah in prayer cannot be replaced by any other dhikr (remembrance) for those who cannot learn this surah. ( ) 6. It is not prohibited to hold a copy of the Quran while performing a supererogatory prayer even if one can recite al-fatihah by heart. ( ) 7. The two Tasleems (for the termination of prayer) are among the pillars of prayer. ( ) 166 International University in Latin America</p>",
+  "subject_tags": [],
+  "topic_tags": [],
+  "era_tags": [],
+  "madhab_tags": [],
+  "content_type_tags": [
+    "prose"
+  ],
+  "keywords": [],
+  "source_lang": "en",
+  "source_type": "pdf",
+  "en_processed_from_source": true,
+  "is_editorial": false,
+  "qa_passed": false,
+  "qa_errors": [
+    "content_en too short: 168 words (min 300)",
+    "'\\bQur'an\\b' → 'Quran'"
+  ]
+}
