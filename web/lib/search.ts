@@ -56,7 +56,8 @@ export interface GroupedResults {
   total: number
 }
 
-function matchesAny(text: string, queries: string[]): boolean {
+function matchesAny(text: string | undefined | null, queries: string[]): boolean {
+  if (!text) return false
   const lower = text.toLowerCase()
   return queries.some((q) => lower.includes(q))
 }
@@ -212,16 +213,16 @@ export function searchGrouped(query: string, previewLimit = 3): GroupedResults {
     const desc = b.description_en || ''
     if (
       matchesAny(b.title_en, queries) ||
-      b.title_ar.includes(q) ||
-      matchesAny(b.author_name_en, queries) ||
+      (b.title_ar && b.title_ar.includes(q)) ||
+      (b.author_name_en && matchesAny(b.author_name_en, queries)) ||
       (desc && matchesAny(desc, queries))
     ) {
       buckets.get('book')!.push({
         type: 'book',
         title: b.title_en,
-        snippet: desc ? extractSnippet(`By ${b.author_name_en}. ${desc}`, queries) : `By ${b.author_name_en}`,
+        snippet: desc ? extractSnippet(`By ${b.author_name_en ?? ''}. ${desc}`, queries) : `By ${b.author_name_en ?? ''}`,
         url: `/books/${b.slug}`,
-        meta: b.author_name_en,
+        meta: b.author_name_en ?? '',
       })
     }
   }
