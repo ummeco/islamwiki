@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to More than 1000 Sunan Every Day and Night",
-  "title_ar": "مقدمة أكثر من ألف سنة في اليوم والليلة",
-  "content_en": "<p>More than 1000 Sunan Every Day and Night is a work by Khalid Hussaynan covering important aspects of Islamic sunnah. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: More Than 1000 Sunan Every Day and Night",
+  "title_ar": "مقدمة: أكثر من 1000 سنة في اليوم والليلة",
+  "content_en": "<p>More Than 1000 Sunan Every Day and Night is an extraordinary practical guide by Shaykh Khalid al-Hussaynan that identifies and explains the comprehensive Sunnah practices that a committed Muslim can incorporate into every part of their day — from waking up in the morning to going to sleep at night. The total count of documented prophetic practices that fit into a single day, when every context is considered, exceeds one thousand — a remarkable testimony to the comprehensiveness of the prophetic model.</p>\n\n<p>The Sunnah of the Prophet ﷺ is not merely the prescribed prayers and major religious obligations. It encompasses every aspect of a Muslim's life: how to wake up and what to say; how to begin eating and what to recite; how to enter and leave the home; how to perform wudu'; how to behave in the masjid; how to pray each of the five prayers with all their Sunnah elements; what to say after prayer; how to interact with one's family; how to conduct transactions; what to recite when it rains or when thunder is heard; how to care for one's body; how to sleep and what to recite before sleeping. The Prophet ﷺ said: \"I have left you upon a white plain — its night is like its day; no one deviates from it after me except one who is destroyed.\" (Ibn Majah).</p>\n\n<p>This book transforms the abstract ideal of \"following the Sunnah\" into a concrete, itemized guide that any Muslim can begin implementing immediately. The Sunnah practices are organized chronologically through the day, with the specific hadith evidence for each practice clearly cited. The result is a comprehensive manual for prophetic living that covers more than most people would have imagined was documented, confirmed, and attainable.</p>\n\n<p>Reviving the Sunnah is one of the most beloved deeds to Allah, particularly in times of widespread neglect. The Prophet ﷺ said: \"Whoever revives a Sunnah of mine that dies after me will have a reward equivalent to all those who act upon it, without diminishing their reward in the slightest.\" (Ibn Majah).</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 41 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

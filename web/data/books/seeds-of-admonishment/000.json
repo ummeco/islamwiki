@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Seeds of Admonishment and Reform",
-  "title_ar": "مقدمة بذور الموعظة والإصلاح",
-  "content_en": "<p>Seeds of Admonishment and Reform is a work by Ibn Al Jawzi covering important aspects of Islamic spirituality. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Seeds of Admonishment and Reform",
+  "title_ar": "مقدمة: بذور الموعظة والإصلاح",
+  "content_en": "<p>Seeds of Admonishment and Reform — Buthur al-Mawa'iz wal-Islah — is a work by the prolific Hanbali scholar and preacher Ibn al-Jawzi (d. 597 AH / 1200 CE), one of the most extraordinary figures of medieval Islamic scholarship. Ibn al-Jawzi was renowned not only for his vast learning across dozens of Islamic disciplines but for his incomparable gift as a preacher: his sessions of admonishment (mawa'iz) drew enormous crowds in Baghdad, and his words moved people to tears and to repentance with a power that was widely remarked upon by his contemporaries.</p>\n\n<p>The book collects gems of admonishment — reflections, exhortations, spiritual observations — gathered from the wellsprings of Quran, Sunnah, and the wisdom of the righteous predecessors. Seeds of admonishment are precisely what the title suggests: not fully developed lectures but seeds — brief, potent passages that, when planted in a receptive heart through reflection, grow into a profound orientation toward Allah and the hereafter.</p>\n\n<p>The themes range across the full landscape of spiritual concern: the transience of this world and the permanence of the next; the diseases of the heart (arrogance, envy, attachment, heedlessness); the purifying disciplines of worship; the dangers of sin and the open doors of repentance; the reality of death and what lies beyond it; the beauty of sincere reliance on Allah; and the power of gratitude as a spiritual station.</p>\n\n<p>Ibn al-Jawzi's writing has a quality that has made his works beloved across centuries: he combines scholarly rigor with extraordinary accessibility. He does not write in abstract theological language but in vivid, concrete language that speaks directly to the human experience of trying to be a good Muslim while living in a distracting world. This book is a treasury of that wisdom.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 39 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

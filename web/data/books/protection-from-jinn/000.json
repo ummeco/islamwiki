@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Protection from Jinn and Evil Eye",
-  "title_ar": "مقدمة الوقاية من الجن والعين",
-  "content_en": "<p>Protection from Jinn and Evil Eye is a work by Wahid Abdussalam Bali covering important aspects of Islamic aqeedah. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Protection from Jinn and the Evil Eye",
+  "title_ar": "مقدمة: الوقاية من الجن والعين",
+  "content_en": "<p>Protection from Jinn and the Evil Eye is a comprehensive and rigorously sourced guide by Shaykh Wahid 'Abd al-Salam Bali, one of the leading contemporary scholars specializing in Islamic ruqyah (Quranic healing) and the field of spiritual protection. The book addresses realities that the Quran and Sunnah affirm clearly but that are surrounded in many Muslim communities by either excessive superstition on one hand or modern skeptical denial on the other.</p>\n\n<p>The existence of jinn is established by the Quran beyond any ambiguity — an entire surah (Al-Jinn, 72) is devoted to the account of jinn who heard the Quran and accepted Islam. The Quran also describes Iblis as \"from the jinn\" (Al-Kahf 18:50) and establishes that Shaytan is a sworn enemy of humanity who seeks to lead people astray. Similarly, the evil eye ('ayn) is confirmed by the Prophet ﷺ: \"The evil eye is real; if anything were to overtake the divine decree, it would be the evil eye.\" (Muslim).</p>\n\n<p>Shaykh Bali's approach is grounded in sound methodology: he establishes the theological foundations from Quran and authentic hadith, explains the permissible and forbidden methods of diagnosis and treatment, provides the specific adhkar and du'as prescribed by the Prophet ﷺ for protection and cure, and distinguishes carefully between legitimate Islamic ruqyah and the forbidden practices of magic and charlatanry that masquerade under religious labels.</p>\n\n<p>The book is comprehensive in its coverage: jinn possession and its signs; the evil eye, its causes and treatment; sihr (magic) and its categories; the best means of prevention; and the complete ruqyah treatment drawn from the Quran and Sunnah. It is both a reference for scholars and a practical guide for ordinary Muslims who encounter these realities and need Islamically grounded guidance on how to respond to them.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 40 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

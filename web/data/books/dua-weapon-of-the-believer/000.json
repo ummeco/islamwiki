@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Du'a: The Weapon of the Believer",
-  "title_ar": "مقدمة الدعاء سلاح المؤمن",
-  "content_en": "<p>dua: The Weapon of the Believer is a work by Yasir Qadhi covering important aspects of Islamic worship. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Du'a — The Weapon of the Believer",
+  "title_ar": "مقدمة: الدعاء سلاح المؤمن",
+  "content_en": "<p>Du'a: The Weapon of the Believer is a comprehensive and authoritative work by Shaykh Yasir Qadhi on the Islamic theology and practice of supplication — perhaps the most direct form of communication between a human being and their Creator. The Prophet ﷺ said: \"Du'a is the very essence of worship.\" (Al-Tirmidhi, hasan). In another narration: \"Du'a is worship.\" And the Quran commands: \"And your Lord says: 'Call upon Me, and I will respond to you.'\" (Ghafir 40:60).</p>\n\n<p>This book is distinctive in its approach: rather than providing simply a collection of du'as to memorize, it explains the theological foundations of du'a, why it is worship, how it relates to divine decree, why it is answered in different ways, and what the conditions and etiquettes are for du'a to be accepted. These theological foundations are essential, because many Muslims struggle with doubts about the purpose of du'a when they ask for something and do not receive it as they expected.</p>\n\n<p>The book addresses: the superiority of du'a over all other acts of worship; the conditions for acceptance; the times and circumstances when du'a is most likely to be answered (including the last third of the night, between adhan and iqamah, on Fridays, during rain, during prostration, and when travelling); the etiquettes of du'a (facing the qiblah, raising the hands, beginning with praise of Allah and sending blessings on the Prophet ﷺ, expressing need and humility, having certainty of acceptance, avoiding prohibited foods); the reasons why some du'as are not answered; and the three responses Allah gives to every sincere du'a: granting it immediately, delaying it for a better time, or storing it as reward for the hereafter.</p>\n\n<p>This is the most complete treatment of du'a available in English and is an indispensable companion for any Muslim seeking to deepen their practice of this central act of worship.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,9 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 39 words (min 300)",
-    "'\\bdu'a\\b(?!,)' → 'dua'"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

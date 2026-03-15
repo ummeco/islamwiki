@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Nurturing Eeman in Children",
-  "title_ar": "مقدمة تنشئة الأبناء على الإيمان",
-  "content_en": "<p>Nurturing Eeman in Children is a work by Unknown covering important aspects of Islamic education. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Nurturing Eeman in Children",
+  "title_ar": "مقدمة: تنشئة الأبناء على الإيمان",
+  "content_en": "<p>Nurturing Eeman in Children is a comprehensive and practical guide to Islamic parenting — specifically to the profound responsibility that parents bear for cultivating genuine faith (iman) in their children's hearts. The Prophet ﷺ said: \"Every child is born in a state of fitrah (innate disposition toward Allah); then his parents make him a Jew, a Christian, or a Zoroastrian.\" (Al-Bukhari). This hadith establishes a central principle: the child comes with the capacity for iman, and it is the parents who either cultivate or suppress it.</p>\n\n<p>The book addresses the full range of what nurturing iman in children requires: beginning before birth with the importance of two righteous parents; establishing the child's earliest memories as ones saturated with the name of Allah and the adhan; teaching the kalimah, the names of Allah, and the love of the Prophet ﷺ as early as the child can speak; introducing prayer, Quran, and Islamic stories at developmentally appropriate ages; providing an environment at home that reflects Islamic values; dealing wisely with peer pressure and the challenges of living in non-Muslim or secular environments; and maintaining a balance between firmness in Islamic identity and wisdom in how that identity is expressed.</p>\n\n<p>Particularly valuable are the chapters on how parents can model iman rather than merely command it. Children learn more from what they observe their parents doing — how they pray, how they speak about Allah, how they treat others, how they respond to difficulty — than from formal instruction. The author provides guidance on how parents can make their home a place where iman is lived, not just talked about.</p>\n\n<p>The Quran's prayer — \"Our Lord, grant us from among our wives and offspring comfort to our eyes\" (Al-Furqan 25:74) — reflects the deep connection between righteous children and the peace of a believer's heart. This book helps parents work toward that prayer's fulfillment.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 36 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

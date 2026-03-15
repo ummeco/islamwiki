@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to The Sacred Knowledge",
-  "title_ar": "مقدمة العلم الشرعي",
-  "content_en": "<p>The Sacred Knowledge is a work by Nuh Ali Salman covering important aspects of Islamic education. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: The Sacred Knowledge",
+  "title_ar": "مقدمة: العلم الشرعي",
+  "content_en": "<p>The Sacred Knowledge is a foundational work on Islamic epistemology — on what constitutes authentic Islamic knowledge, how it is acquired, how it is distinguished from mere opinion or cultural tradition, and why its proper transmission matters profoundly for the health of the Muslim community. The author presents a comprehensive framework for understanding 'ilm al-shar'i — the sacred science — that encompasses its sources, its methodology, and its proper application in the life of an individual Muslim and in the broader Islamic intellectual tradition.</p>\n\n<p>The Quran and Sunnah constitute the twin foundations of all Islamic knowledge. Everything else — the scholarly tradition, the schools of jurisprudence, the works of theology and spirituality — derives its authority from how faithfully it reflects and applies these two sources. The work explains how the Companions received and transmitted knowledge directly from the Prophet ﷺ; how the scholars of the following generations preserved, verified, and applied that knowledge; and how the science of hadith criticism developed as the mechanism for ensuring that what was attributed to the Prophet ﷺ was actually from him.</p>\n\n<p>The book also addresses the practical question of how an ordinary Muslim should relate to the scholarly tradition: what it means to follow a school of jurisprudence (madhab); the obligation of referencing scholars for matters beyond one's own knowledge; the difference between ijtihad (independent legal reasoning) and taqlid (following established scholarly opinion); and the danger of following desires or cultural norms in the name of religion when these contradict established Islamic guidance.</p>\n\n<p>In an age of information overload and competing claims to religious authority — including from voices with no traditional training — this work provides essential grounding in what counts as authoritative Islamic knowledge and why the preservation of the scholarly tradition is a matter of religious survival for the community.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 37 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

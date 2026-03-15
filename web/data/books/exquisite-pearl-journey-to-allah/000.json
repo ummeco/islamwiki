@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to The Exquisite Pearl: The Journey to Allah",
-  "title_ar": "مقدمة الدرة الفاخرة في رحلة الآخرة",
-  "content_en": "<p>The Exquisite Pearl: The Journey to Allah is a work by Ibn Rajab Al Hanbali covering important aspects of Islamic aqeedah. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: The Exquisite Pearl — The Journey to Allah and the Abode of the Hereafter",
+  "title_ar": "مقدمة: الدرة الفاخرة في رحلة الآخرة",
+  "content_en": "<p>The Exquisite Pearl: The Journey to Allah and the Abode of the Hereafter is a profound eschatological work by the great Hanbali scholar Ibn Rajab al-Hanbali (d. 795 AH / 1393 CE). Ibn Rajab occupies a special place in the Islamic scholarly tradition as a master of hadith, biography, and spiritual wisdom — a scholar who combined rigorous legal precision with deep concern for the state of the heart.</p>\n\n<p>The book describes the stages of the journey that every soul must take: from this world through death, the grave, the resurrection, the gathering, the weighing of deeds, the crossing of the bridge, and finally to either Paradise or Hell. It draws on Quran and authentic hadith to paint a vivid picture of what awaits every human being after death, and uses this vision to motivate sincere preparation in this life.</p>\n\n<p>Ibn Rajab's approach is distinctive: he does not treat these realities as mere theological abstractions but as living truths that should reshape a believer's priorities, relationships, and daily conduct. Every hadith about the grave is an occasion to reflect on one's own readiness for death. Every description of Judgment Day is an occasion to ask: what will my scale look like? Every account of Paradise is an occasion to intensify one's longing for it and one's effort toward it.</p>\n\n<p>The title — The Exquisite Pearl — reflects the rare beauty of a work that manages to be both doctrinally precise and spiritually moving. Ibn Rajab does not sensationalize the descriptions of punishment or paradise; instead, he situates them within the framework of Allah's infinite justice and mercy, so that the believer emerges from reading with both a healthy fear of falling short and a grounded hope in Allah's generosity.</p>\n\n<p>This text is essential reading for anyone seeking to strengthen their connection to the unseen realities that Islam presents as the ultimate context for all human action in this world.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 42 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Commanders of the Muslim Army",
-  "title_ar": "مقدمة قادة جيش الإسلام",
-  "content_en": "<p>Commanders of the Muslim Army is a work by Mahmoud Shith Khattab covering important aspects of Islamic history. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Commanders of the Muslim Army",
+  "title_ar": "مقدمة: قادة جيش الإسلام",
+  "content_en": "<p>Commanders of the Muslim Army is a rich and authoritative biographical-military history by Mahmoud Shith Khattab, tracing the lives and campaigns of the greatest military leaders in Islamic history — from the Companions of the Prophet ﷺ through the Umayyad and Abbasid periods and beyond. The book is both a work of Islamic history and an exercise in understanding what made these commanders exceptional: what qualities of character, faith, and leadership enabled them to carry the message of Islam across vast territories in such a short time.</p>\n\n<p>The early Muslim commanders — Khalid ibn al-Walid, 'Amr ibn al-'As, Sa'd ibn Abi Waqqas, Abu 'Ubaydah ibn al-Jarrah, and others — represent one of the most remarkable military phenomena in human history. Within a generation of the Prophet's death, the Muslim armies had defeated the two superpowers of the ancient world — the Byzantine Empire and the Sassanid Persian Empire — and established Islamic governance from Spain to Central Asia. This was not accomplished by numbers or superior technology but by the extraordinary quality of the men who led these armies: their tawakkul (reliance on Allah), their strategic brilliance, their care for the soldiers under their command, and their personal example of courage and sacrifice.</p>\n\n<p>The book profiles each commander in depth: their early life and conversion to Islam (where applicable); their relationship with the Prophet ﷺ and the Companions; their most significant campaigns and the strategies they employed; their personal qualities and the stories that illustrate their character; and the legacy they left for the Muslim world. The narrations are drawn from the classical sources of Islamic history — Ibn Hisham, al-Tabari, Ibn al-Athir, Ibn Kathir — giving the work scholarly credibility alongside its accessibility.</p>\n\n<p>This is essential reading for anyone seeking to understand the early Islamic conquests and the character of the men Allah chose to carry His message across the world.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 39 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

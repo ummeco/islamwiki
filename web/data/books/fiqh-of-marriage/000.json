@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to The Fiqh of Marriage in the Light of the Quran and Sunnah",
-  "title_ar": "مقدمة فقه الزواج",
-  "content_en": "<p>The Fiqh of Marriage in the Light of the Quran and Sunnah is a work by Unknown covering important aspects of Islamic fiqh. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: The Fiqh of Marriage in the Light of the Quran and Sunnah",
+  "title_ar": "مقدمة: فقه الزواج",
+  "content_en": "<p>The Fiqh of Marriage in the Light of the Quran and Sunnah is a systematic and comprehensive treatment of the Islamic legal rulings governing the most significant human relationship — the marriage bond. The book approaches marriage from the perspective of fiqh (jurisprudence) while grounding every ruling in its Quranic and prophetic evidential basis, giving readers not just the legal ruling but the understanding of where it comes from and why it exists.</p>\n\n<p>The Prophet ﷺ called marriage \"half of the religion\" (narrated with various chains), reflecting the central role that the marital relationship plays in completing a Muslim's character: it is where patience, generosity, forgiveness, communication, and care for the other are most intensively practiced. The Quran describes the marital relationship as a \"solemn covenant\" (mithaqan ghalidan — Al-Nisa' 4:21) — the same term used for the covenant between Allah and the Prophets — indicating the gravity with which Islam regards this commitment.</p>\n\n<p>The book covers the complete sequence of the Islamic marriage: the wisdom behind marriage and its spiritual and social purposes; the qualities to look for in a spouse; the procedures of khitbah (proposal); the conditions for a valid nikah; the wali (guardian) and witnesses; the mahr (dowry) — its nature, amount, and payment; the marriage contract; the walimah; the marital rights of husband and wife; the proper conduct of married life; and the various paths of dissolution if the marriage breaks down — divorce (talaq), delegated divorce (tafwid), and the wife's right to khul' (dissolution in exchange for returning the mahr).</p>\n\n<p>This book serves as both a pre-marriage guide for those preparing to marry and a reference for those already married who wish to understand the full Islamic framework within which their relationship exists.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 44 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

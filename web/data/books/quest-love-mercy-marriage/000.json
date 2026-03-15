@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to A Quest for Love and Mercy: Regulations on Marriage in Islam",
-  "title_ar": "مقدمة في طلب المحبة والرحمة",
-  "content_en": "<p>A Quest for Love and Mercy: Regulations on Marriage in Islam is a work by Abu Bilal Mustafa covering important aspects of Islamic fiqh. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: A Quest for Love and Mercy — Regulations for Marriage in Islam",
+  "title_ar": "مقدمة: في طلب المحبة والرحمة",
+  "content_en": "<p>A Quest for Love and Mercy: Regulations for Marriage in Islam is a comprehensive and authoritative guide to the Islamic rulings and etiquettes surrounding marriage — one of the most important institutions in Islam and the foundation of the Muslim family. The title captures the Quranic description of the marital relationship: \"And He placed between you affection (mawaddah) and mercy (rahmah).\" (Al-Rum 30:21). Love and mercy are not merely the hoped-for outcomes of a successful marriage; they are the divinely intended qualities that Allah builds into the very structure of the marital bond.</p>\n\n<p>The book covers the full span of the marriage process from an Islamic legal and ethical perspective: the prerequisites and conditions for a valid marriage; the rulings on the marriage guardian (wali); the mahr (dowry) and its requirements; the marriage contract and its conditions; the walimah (marriage feast) and its Sunnah; the rights and responsibilities of husband and wife; the permitted and prohibited forms of intimacy; the Islamic rulings on divorce, khul', and separation; and the procedures for 'iddah (waiting period) after the end of a marriage.</p>\n\n<p>Throughout, the author draws on the four major schools of Islamic jurisprudence (Hanafi, Maliki, Shafi'i, Hanbali) to present the range of scholarly opinion on contested questions, while identifying the stronger positions based on the evidence. This approach is particularly valuable for Muslims in diverse contexts who encounter different scholarly opinions and need to understand the evidential basis for the rulings they follow.</p>\n\n<p>The Prophet ﷺ said: \"Marriage is from my Sunnah; whoever turns away from my Sunnah is not from me.\" (Ibn Majah). This book helps Muslims fulfill this Sunnah in a manner that is both legally correct and spiritually meaningful.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 45 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

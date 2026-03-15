@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Ingredients for a Happy Marriage",
-  "title_ar": "مقدمة مقومات السعادة الزوجية",
-  "content_en": "<p>Ingredients for a Happy Marriage is a work by Unknown covering important aspects of Islamic lifestyle. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Ingredients for a Happy Marriage",
+  "title_ar": "مقدمة: مقومات السعادة الزوجية",
+  "content_en": "<p>Ingredients for a Happy Marriage is a practical and spiritually grounded guide to building a successful Islamic marriage. Marriage in Islam is described by the Quran as one of the greatest signs (ayat) of Allah: \"And of His signs is that He created for you from yourselves mates that you may find tranquility in them; and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.\" (Al-Rum 30:21). The three qualities mentioned — tranquility (sakinah), affection (mawaddah), and mercy (rahmah) — are the pillars that this book sets out to help Muslims build in their marriages.</p>\n\n<p>The book addresses the most common challenges in marital life through the lens of Islamic guidance: communication and conflict resolution; the rights and responsibilities of husband and wife; maintaining love and intimacy across the years; managing differences in personality and background; dealing with extended family; raising children together; the spiritual dimensions of the marital relationship; and practical strategies for maintaining patience and good character when marriage is difficult.</p>\n\n<p>Throughout, the author draws on the Quran, the Sunnah of the Prophet ﷺ, and the lived example of the Companions — including the Prophet's own marriages, which provide the most complete model of Islamic marital conduct. The Prophet ﷺ said: \"The best of you are those who are best to their wives\" (Al-Tirmidhi), and his conduct toward his wives — his gentleness, his humor, his patience, his affection — is the standard this book holds up as the aspiration for Muslim husbands.</p>\n\n<p>Marriage is described as \"half of the religion\" in some narrations, reflecting the central role it plays in a Muslim's spiritual life, social stability, and character development. This book is a valuable resource for Muslims at every stage of the marital journey — whether preparing for marriage, newly married, or seeking to strengthen a long-standing relationship.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 37 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

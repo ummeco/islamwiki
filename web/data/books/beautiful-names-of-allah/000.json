@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to The Beautiful Names of Allah",
-  "title_ar": "مقدمة أسماء الله الحسنى",
-  "content_en": "<p>The Beautiful Names of Allah is a work by Said Qahtan covering important aspects of Islamic aqeedah. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: The Beautiful Names of Allah",
+  "title_ar": "مقدمة: أسماء الله الحسنى",
+  "content_en": "<p>The Beautiful Names of Allah is a scholarly exposition of the divine names (asma' al-husna) that Allah has revealed in the Quran and Sunnah, exploring their meanings, their implications for theology, and — most importantly — their practical significance for the Muslim's relationship with Allah and for the conduct of life. The Prophet ﷺ said: \"Allah has ninety-nine names — one hundred minus one — and whoever preserves them will enter paradise.\" (Agreed upon).</p>\n\n<p>Knowing Allah through His names and attributes is the foundation of Islamic theology (aqeedah). The Quran repeatedly calls Muslims to reflect on who Allah is: \"He is Allah, other than Whom there is no deity — Knower of the unseen and the witnessed. He is the Most Compassionate, the Most Merciful.\" (Al-Hashr 59:22-24). Each name reveals a dimension of Allah's reality: Al-Rahman (the Most Compassionate), Al-'Aziz (the Exalted in Might), Al-Hakim (the Perfectly Wise), Al-Wadud (the Loving), Al-Qadir (the All-Powerful), Al-Latif (the Subtly Kind). Together, they form the most complete picture of the divine that human knowledge can receive.</p>\n\n<p>The book follows the methodology of Ahl al-Sunnah wal-Jama'ah in discussing the divine names and attributes: affirming what Allah has affirmed of Himself without distortion (tahrif), denial (ta'til), specification of modality (takyif), or comparison to creation (tamthil). The divine names are real — they describe the real Allah — but they apply to Him in a manner befitting His majesty and unlike anything in the created order.</p>\n\n<p>Beyond theology, the book explores how each divine name is a resource for the believer. Knowing that Allah is Al-Sami' (the All-Hearing) transforms how one makes du'a. Knowing He is Al-Tawwab (the Ever-Accepting of Repentance) transforms how one approaches their mistakes. Knowing He is Al-Razzaq (the Provider) transforms how one relates to material concern. This is the living dimension of the divine names — their power to reshape the Muslim's inner life.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 38 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

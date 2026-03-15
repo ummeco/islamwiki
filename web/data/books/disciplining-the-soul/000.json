@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Disciplining the Soul",
-  "title_ar": "مقدمة مختصر منهاج القاصدين",
-  "content_en": "<p>Disciplining the Soul is a work by Ibn Al Jawzi covering important aspects of Islamic spirituality. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Disciplining the Soul",
+  "title_ar": "مقدمة: مختصر منهاج القاصدين",
+  "content_en": "<p>Disciplining the Soul is an abridgment by Ibn al-Jawzi (d. 597 AH / 1200 CE) of the celebrated work Minhaj al-Qasidin (The Path of Those Who Seek) by Ahmad ibn Qudamah al-Maqdisi, which was itself a summary of al-Ghazali's Ihya' 'Ulum al-Din purified of weak and fabricated narrations. This layered intellectual history is significant: it represents the sustained effort of Hanbali scholars to preserve the genuine wisdom of Islamic spiritual development while removing the unsupported material that had entered through the Sufi transmission.</p>\n\n<p>The central theme is the disciplining of the nafs — the lower self or ego — and its education toward the qualities of the truly Muslim character: sincerity, patience, gratitude, generosity, humility, trust in Allah, contentment, love of Allah, and firm reliance on Him. The book operates on the premise that the human being has two parts: the outward (the body, the actions) and the inward (the heart, the character, the intentions), and that true Islamic cultivation requires developing both in accordance with the Quran and Sunnah.</p>\n\n<p>Ibn al-Jawzi's abridgment is particularly valuable for its balance of depth and accessibility. The full Ihya' runs to forty books across four volumes; this work distills its essential spiritual and ethical teachings into a format that can be read and applied by any committed Muslim. It covers the diseases of the heart (riya', kibr, hasad, hubb al-mal) and their cures; the stations of the spiritual path from tawbah through tawakkul to rida; and the etiquettes of worship, companionship, and daily conduct.</p>\n\n<p>The work has been read by Muslims seeking spiritual development for eight centuries and remains a foundational text of Islamic ethical and spiritual literature, especially valuable as a distillation of al-Ghazali's monumental work in an accessible and reliable form.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 37 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

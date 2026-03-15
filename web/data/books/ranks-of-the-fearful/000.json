@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to The Ranks of Those who are Fearful",
-  "title_ar": "مقدمة درجات الخائفين",
-  "content_en": "<p>The Ranks of Those who are Fearful is a work by Ibn Al Qayyim covering important aspects of Islamic spirituality. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: The Ranks of Those Who Are Fearful",
+  "title_ar": "مقدمة: درجات الخائفين",
+  "content_en": "<p>The Ranks of Those Who Are Fearful is a work by Ibn al-Qayyim al-Jawziyyah (d. 751 AH) exploring the spiritual station of khawf — fear of Allah — as one of the most essential qualities of the believer's heart. Fear of Allah is not the fearful anxiety of a slave before a tyrant; in its Islamic meaning, it is the reverential awe of a created being before its infinite, all-knowing, perfectly just Creator — a fear that is inseparable from love and hope, and that produces not paralysis but rectitude, diligence, and closeness to Allah.</p>\n\n<p>The Quran speaks repeatedly of the ranks of those who fear Allah: \"Indeed, those who fear their Lord unseen will have forgiveness and great reward.\" (Al-Mulk 67:12). \"The gardens of pleasure await those who fear their Lord.\" (Al-Ma'arij 70:38). \"That is for whoever has feared the standing before his Lord and restrained himself from desires.\" (Al-Nazi'at 79:40-41). These verses establish fear of Allah as both a spiritual station and the motivation for the disciplined conduct that leads to paradise.</p>\n\n<p>Ibn al-Qayyim's approach — as in all his spiritual works — is psychological as well as theological. He analyzes the different ranks (darajat) of fear: from the fear that merely prevents major sins, to the fear that prevents minor sins and doubtful matters, to the exalted fear of those whose hearts are so saturated with consciousness of Allah that every breath is taken in His name. He also explains the relationship between fear and love: that true fear of Allah comes from knowing Him, and that knowing Him — His attributes of power, knowledge, justice, and wisdom — naturally produces love as well as awe.</p>\n\n<p>This is one of a number of works in which Ibn al-Qayyim maps the interior landscape of the believer's relationship with Allah with extraordinary precision and depth, making it a valuable resource for anyone seeking to understand and cultivate the inner life of faith.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 41 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

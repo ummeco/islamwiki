@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to Do Not Become Angry",
-  "title_ar": "مقدمة لا تغضب",
-  "content_en": "<p>Do Not Become Angry is a work by Ibn Al Uthaymeen covering important aspects of Islamic spirituality. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: Do Not Become Angry",
+  "title_ar": "مقدمة: لا تغضب",
+  "content_en": "<p>Do Not Become Angry is a compact but practically rich work by Shaykh Muhammad ibn Salih al-'Uthaymeen (d. 1421 AH / 2001 CE), one of the most respected and prolific Islamic scholars of the twentieth century. The title is taken directly from the famous hadith of the Prophet ﷺ: a man came to the Prophet and asked for advice, and the Prophet ﷺ said, \"Do not become angry.\" The man repeated his question, and the Prophet ﷺ said again, \"Do not become angry.\" (Al-Bukhari).</p>\n\n<p>That the Prophet ﷺ repeated this single instruction three times tells us something about its importance. Anger — when uncontrolled — is among the most destructive forces in a person's life: it damages relationships, leads to words and actions that one later regrets, and can in severe cases cause irreparable harm. The Prophet ﷺ described the truly strong person not as one who physically overpowers others, but as \"the one who controls himself when he is angry.\" (Agreed upon).</p>\n\n<p>Shaykh Ibn 'Uthaymeen's treatment of this theme is characteristically grounded and practical. He explains the nature of anger from both a spiritual and psychological perspective: what triggers it, what it does to the heart and body, how it relates to arrogance and ego, and — most importantly — the Islamic prescriptions for managing and overcoming it. These include the prophetic advice to seek refuge in Allah from Shaytan, to change one's physical position (sitting if standing, lying down if sitting), to perform ablution, to remain silent, and to remind oneself of the rewards for restraining anger that Allah has promised.</p>\n\n<p>The work is a model of accessible Islamic self-help: grounded in Quran and Sunnah, practically oriented, and addressed to the ordinary Muslim who struggles with this deeply human challenge. It is especially relevant in an age when the pace of life, social media, and ideological polarization have made anger more prevalent and more easily triggered than ever before.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 38 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }

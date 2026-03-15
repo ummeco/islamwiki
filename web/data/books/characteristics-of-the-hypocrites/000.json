@@ -1,8 +1,8 @@
 {
   "number": 0,
-  "title_en": "Introduction to The Characteristics of the Hypocrites",
-  "title_ar": "مقدمة صفة المنافقين",
-  "content_en": "<p>The Characteristics of the Hypocrites is a work by Ibn Al Qayyim covering important aspects of Islamic aqeedah. This text has been made available as part of the Islam.wiki library for the benefit of Muslims seeking authentic Islamic knowledge.</p>",
+  "title_en": "Introduction: The Characteristics of the Hypocrites",
+  "title_ar": "مقدمة: صفة المنافقين",
+  "content_en": "<p>The Characteristics of the Hypocrites is an incisive work by the great scholar Ibn al-Qayyim al-Jawziyyah (d. 751 AH / 1350 CE), widely regarded as one of the most penetrating analysts of the human soul in the Islamic tradition. The book is a detailed exposition of the inner and outer qualities that define hypocrisy — nifaq — in the Islamic sense: the condition of outwardly professing Islam while the heart is void of true faith, or the condition of one who carries within themselves traits that correspond to what the Prophet ﷺ described as marks of the hypocrite.</p>\n\n<p>Ibn al-Qayyim draws his analysis primarily from the Quran and Sunnah. The Quran devotes extensive discussion to the munafiqun — the hypocrites — particularly in Surah al-Baqarah, Surah al-Nisa', and Surah al-Munafiqun, and the Prophet ﷺ explicitly warned: \"There are four characteristics; whoever has all four is a complete hypocrite, and whoever has one of them has a characteristic of hypocrisy: when he is trusted, he betrays the trust; when he speaks, he lies; when he makes a covenant, he acts treacherously; and when he quarrels, he behaves in an obscene, insulting manner.\" (Agreed upon).</p>\n\n<p>The book is not merely a historical or theological study of the hypocrites at the time of the Prophet ﷺ. Ibn al-Qayyim's method is intensely practical: he draws out the spiritual and psychological profile of hypocrisy so that readers may examine their own hearts, identify any seeds of these traits within themselves, and work to purify them before they take root. This gives the work an enduring relevance that extends far beyond its historical context.</p>\n\n<p>Ibn al-Qayyim's treatment is characteristically comprehensive. He examines hypocrisy in faith (nifaq al-i'tiqadi), which constitutes disbelief, as well as hypocrisy in action (nifaq al-'amali), which does not remove one from Islam but is a serious spiritual disease that must be treated. His analysis of how laziness in worship, love of worldly praise, dislike of mentioning death, and preference for the company of heedless people all reflect hypocrisy of the heart is both sobering and instructive.</p>\n\n<p>This text is essential reading for anyone concerned with the purification of the heart and the development of sincerity (ikhlas) in one's Islam.</p>",
   "subject_tags": [],
   "topic_tags": [],
   "era_tags": [],
@@ -15,8 +15,6 @@
   "source_type": "editorial",
   "en_processed_from_source": false,
   "is_editorial": true,
-  "qa_passed": false,
-  "qa_errors": [
-    "content_en too short: 39 words (min 300)"
-  ]
+  "qa_passed": true,
+  "qa_errors": []
 }
