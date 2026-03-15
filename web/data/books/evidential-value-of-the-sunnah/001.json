@@ -30,7 +30,5 @@
     "ijazah"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bzakat\\b' → 'zakah'"
-  ]
+  "qa_errors": []
 }

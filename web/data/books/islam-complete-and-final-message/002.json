@@ -38,7 +38,5 @@
     "divine attributes"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bdu'a\\b(?!,)' → 'dua'"
-  ]
+  "qa_errors": []
 }

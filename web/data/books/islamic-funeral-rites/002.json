@@ -31,7 +31,6 @@
   ],
   "qa_passed": false,
   "qa_errors": [
-    "content_en too short: 233 words (min 300)",
-    "'(?:al-Al-)+' → 'al-'"
+    "content_en too short: 233 words (min 300)"
   ]
 }

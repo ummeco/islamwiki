@@ -37,8 +37,5 @@
     "Islamization disciplines"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bzakat\\b' → 'zakah'",
-    "'\\baqidah\\b' → 'aqeedah'"
-  ]
+  "qa_errors": []
 }

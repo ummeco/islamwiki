@@ -30,7 +30,5 @@
     "womens purification"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'(?:al-Al-)+' → 'al-'"
-  ]
+  "qa_errors": []
 }

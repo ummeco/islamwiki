@@ -37,7 +37,5 @@
     "final message"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bSharia\\b(?!h)' → 'Shariah'"
-  ]
+  "qa_errors": []
 }

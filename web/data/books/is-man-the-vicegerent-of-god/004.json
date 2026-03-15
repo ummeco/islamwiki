@@ -36,8 +36,5 @@
     "stewardship"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bShari'ah\\b' → 'Shariah'",
-    "'\\bdhulm\\b' → 'zulm'"
-  ]
+  "qa_errors": []
 }

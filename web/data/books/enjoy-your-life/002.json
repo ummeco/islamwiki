@@ -30,8 +30,5 @@
     "social skills prophet"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bQur'an\\b' → 'Quran'",
-    "'\\bda'wah\\b' → 'dawah'"
-  ]
+  "qa_errors": []
 }

@@ -34,7 +34,5 @@
     "maslaha"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bdhulm\\b' → 'zulm'"
-  ]
+  "qa_errors": []
 }

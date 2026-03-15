@@ -32,8 +32,5 @@
     "intellectual colonization"
   ],
   "qa_passed": true,
-  "qa_errors": [
-    "'\\bzakat\\b' → 'zakah'",
-    "'\\bSharia\\b(?!h)' → 'Shariah'"
-  ]
+  "qa_errors": []
 }
