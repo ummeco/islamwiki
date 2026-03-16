@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getCollections, getCollectionBySlug, getBooksByCollection, getBookBySlug, getHadithsByBook } from '@/lib/data/hadith'
 import { PaginatedHadithList } from '@/components/hadith/PaginatedHadithList'
+import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ collection: string; book: string }>
@@ -28,6 +30,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${book.name_en} — ${col.name_en}`,
     description: `${book.name_en} from ${col.name_en}. ${book.hadith_count} hadith with Arabic, English translation, and grading.`,
+    alternates: { languages: getHreflangAlternates(`/hadith/${colSlug}/${bookSlug}`) },
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: book.name_en, section: 'Hadith', subtitle: col.name_en }), width: 1200, height: 630 }],
+    },
   }
 }
 

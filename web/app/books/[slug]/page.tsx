@@ -10,6 +10,8 @@ import {
   getBookIndex,
 } from '@/lib/data/books'
 import { formatIslamicYear } from '@/lib/dates/hijri'
+import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -44,6 +46,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: book.title_en,
     description: `Read ${book.title_en} by ${book.author_name_en}. ${book.description_en || 'Classical Islamic text available online.'}`,
+    alternates: { languages: getHreflangAlternates(`/books/${slug}`) },
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: book.title_en, section: 'Books', subtitle: book.author_name_en }), width: 1200, height: 630 }],
+    },
   }
 }
 

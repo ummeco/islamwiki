@@ -10,6 +10,8 @@ import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
 import { MarkdownEditor } from '@/components/wiki/markdown-editor'
 import { RevisionDiff } from '@/components/wiki/revision-diff'
+import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ slug: string[] }>
@@ -63,6 +65,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${prefix}${page.title}`,
     description: `${page.title} — Islam.wiki encyclopedia article.`,
+    alternates: mode === 'read' ? { languages: getHreflangAlternates(`/wiki/${pageSlug}`) } : undefined,
+    openGraph: mode === 'read' ? {
+      images: [{ url: ogImageUrl({ title: page.title, section: 'Wiki' }), width: 1200, height: 630 }],
+    } : undefined,
   }
 }
 

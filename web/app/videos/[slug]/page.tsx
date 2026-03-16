@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getMediaBySlug, getMedia } from '@/lib/data/media'
 import { sanitizeHtml, sanitizeEmbed } from '@/lib/sanitize'
+import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -19,6 +21,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: video.title,
     description: `Watch ${video.title}${video.speaker ? ` by ${video.speaker}` : ''}. Full transcript available.`,
+    alternates: { languages: getHreflangAlternates(`/videos/${slug}`) },
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: video.title, section: 'Video', subtitle: video.speaker || '' }), width: 1200, height: 630 }],
+    },
   }
 }
 

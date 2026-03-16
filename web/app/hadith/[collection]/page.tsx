@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { getCollectionBySlug, getCollections, getBooksByCollection } from '@/lib/data/hadith'
 import { HadithCollectionJsonLd, BreadcrumbJsonLd } from '@/components/seo/json-ld'
 import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ collection: string }>
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: col.name_en,
     description: `Browse ${col.name_en} by ${col.author_name_en}. ${col.total_hadith.toLocaleString()} hadith in ${col.total_books} books. Arabic and English with grading.`,
+    alternates: { languages: getHreflangAlternates(`/hadith/${slug}`) },
     openGraph: {
       images: [{ url: ogImageUrl({ title: col.name_en, section: 'Hadith', arabic: col.name_ar, subtitle: `By ${col.author_name_en} · ${col.total_hadith.toLocaleString()} hadith` }) }],
     },

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { getBooks, getBookBySlug, getChaptersByBook, getChapter } from '@/lib/data/books'
 import { ChapterLangTabs } from '@/components/books/ChapterLangTabs'
 import { ChapterTaxonomy } from '@/components/books/ChapterTaxonomy'
+import { ogImageUrl } from '@/lib/og'
 
 interface Props {
   params: Promise<{ slug: string; chapter: string }>
@@ -28,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: ch ? `${ch.title_en} — ${book.title_en}` : book.title_en,
     description: `${parseInt(chNum, 10) === 0 ? `Introduction to` : `Chapter ${chNum} of`} ${book.title_en} by ${book.author_name_en}.`,
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: ch ? ch.title_en : book.title_en, section: 'Books', subtitle: book.title_en }), width: 1200, height: 630 }],
+    },
   }
 }
 

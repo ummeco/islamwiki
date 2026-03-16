@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getSectBySlug, getSects } from '@/lib/data/sects'
+import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -18,6 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${sect.name_en} — Islamic Groups`,
     description: sect.description_en.slice(0, 160),
+    alternates: { languages: getHreflangAlternates(`/sects/${slug}`) },
+    openGraph: {
+      images: [{ url: ogImageUrl({ title: sect.name_en, section: 'Sects', subtitle: 'Islamic Groups & Movements' }), width: 1200, height: 630 }],
+    },
   }
 }
 

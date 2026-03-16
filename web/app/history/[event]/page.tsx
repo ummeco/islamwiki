@@ -5,6 +5,7 @@ import { getHistoryEventBySlug, getAllHistoryEvents } from '@/lib/data/history'
 import { getSeerahContent } from '@/lib/data/seerah-content'
 import { formatIslamicDate } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { renderContent, extractHeadings, type Heading } from '@/lib/render-content'
 
 interface Props {
@@ -31,6 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${event.title_en} — Islamic History`,
     description: `${event.title_en}${dateLabel ? ` — ${dateLabel}` : ''}. ${event.description_en.slice(0, 160)}`,
+    alternates: { languages: getHreflangAlternates(`/history/${slug}`) },
     openGraph: {
       images: [{ url: ogImageUrl({ title: event.title_en, section: 'History', arabic: event.title_ar, subtitle: `${event.period} — ${dateLabel}` }) }],
     },

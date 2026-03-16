@@ -8,6 +8,8 @@ import { WikiLayout } from '@/components/wiki/wiki-layout'
 import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
 import { CrossReferences } from '@/components/articles/cross-references'
+import { ArticleJsonLd } from '@/components/seo/json-ld'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -26,6 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description:
       article.excerpt ||
       `${article.title} — Islamic encyclopedia article on Islam.wiki.`,
+    alternates: { languages: getHreflangAlternates(`/articles/${slug}`) },
     openGraph: {
       images: [{ url: ogImageUrl({ title: article.title, section: 'Articles', subtitle: article.category || '' }) }],
     },
@@ -48,6 +51,13 @@ export default async function ArticlePage({ params }: Props) {
         { label: article.title },
       ]}
     >
+      <ArticleJsonLd
+        title={article.title}
+        description={article.excerpt || `${article.title} — Islamic encyclopedia article on Islam.wiki.`}
+        url={`/articles/${slug}`}
+        datePublished={article.created_at || article.updated_at}
+        dateModified={article.updated_at}
+      />
       <ContentTabs
         basePath={`/articles/${slug}`}
         activeTab="read"
