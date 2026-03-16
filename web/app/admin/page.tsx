@@ -10,6 +10,7 @@ import { getSeerahEvents } from '@/lib/data/seerah'
 export const metadata: Metadata = {
   title: 'Admin Dashboard',
   description: 'Islam.wiki administration panel.',
+  robots: { index: false },
 }
 
 export default async function AdminPage() {
