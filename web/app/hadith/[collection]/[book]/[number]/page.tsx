@@ -1,3 +1,6 @@
+// ISR: cache individual hadith pages for 7 days, avoid building all ~70k at once
+export const revalidate = 604800
+
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
