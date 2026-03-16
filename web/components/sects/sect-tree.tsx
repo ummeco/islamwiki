@@ -10,18 +10,21 @@ interface SectItem {
   name_en: string
   parent_sect_id?: number
   description_en: string
-  status: string
+  status: 'mainstream' | 'accepted' | 'deviant' | 'rejected'
 }
 
-const STATUS_COLORS: Record<string, string> = {
+const STATUS_COLORS: Record<SectItem['status'], string> = {
   mainstream: 'bg-emerald-500/20 text-emerald-300',
   accepted: 'bg-blue-500/20 text-blue-300',
-  deviant: 'bg-yellow-500/20 text-yellow-300',
+  deviant: 'bg-amber-500/20 text-amber-300',
   rejected: 'bg-red-500/20 text-red-300',
-  other: 'bg-gray-500/20 text-gray-300',
-  active: 'bg-purple-500/20 text-purple-300',
-  orthodox: 'bg-emerald-500/20 text-emerald-300',
-  historical: 'bg-gray-500/20 text-gray-300',
+}
+
+const STATUS_LABELS: Record<SectItem['status'], string> = {
+  mainstream: 'Mainstream',
+  accepted: 'Accepted',
+  deviant: 'Deviant',
+  rejected: 'Outside the Fold',
 }
 
 function SectNode({
@@ -56,24 +59,17 @@ function SectNode({
         )}
         {!hasChildren && <div className="w-6 flex-shrink-0" />}
 
-        <Link
-          href={`/sects/${sect.slug}`}
-          className="flex-1"
-        >
+        <Link href={`/sects/${sect.slug}`} className="flex-1">
           <div className="flex items-center gap-2">
-            <h2 className="font-semibold text-iw-text group-hover:text-white">
-              {sect.name_en}
-            </h2>
+            <h2 className="font-semibold text-iw-text group-hover:text-white">{sect.name_en}</h2>
             <span className={`badge ${STATUS_COLORS[sect.status]}`}>
-              {sect.status}
+              {STATUS_LABELS[sect.status]}
             </span>
           </div>
           {sect.name_ar && (
             <p className="arabic-text text-sm text-white/70">{sect.name_ar}</p>
           )}
-          <p className="mt-1 line-clamp-2 text-sm text-iw-text-secondary">
-            {sect.description_en}
-          </p>
+          <p className="mt-1 line-clamp-2 text-sm text-iw-text-secondary">{sect.description_en}</p>
         </Link>
       </div>
 
@@ -86,11 +82,9 @@ function SectNode({
               className="block rounded-lg border border-iw-border p-3 transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface"
             >
               <div className="flex items-center gap-2">
-                <span className="text-sm font-medium text-iw-text">
-                  {child.name_en}
-                </span>
+                <span className="text-sm font-medium text-iw-text">{child.name_en}</span>
                 <span className={`badge text-xs ${STATUS_COLORS[child.status]}`}>
-                  {child.status}
+                  {STATUS_LABELS[child.status]}
                 </span>
               </div>
               {child.name_ar && (

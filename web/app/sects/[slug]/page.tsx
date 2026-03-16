@@ -41,12 +41,15 @@ export default async function SectPage({ params }: Props) {
   const statusColors: Record<string, string> = {
     mainstream: 'bg-emerald-500/20 text-emerald-300',
     accepted: 'bg-blue-500/20 text-blue-300',
-    deviant: 'bg-yellow-500/20 text-yellow-300',
+    deviant: 'bg-amber-500/20 text-amber-300',
     rejected: 'bg-red-500/20 text-red-300',
-    other: 'bg-gray-500/20 text-gray-300',
-    active: 'bg-purple-500/20 text-purple-300',
-    orthodox: 'bg-emerald-500/20 text-emerald-300',
-    historical: 'bg-gray-500/20 text-gray-300',
+  }
+
+  const statusLabels: Record<string, string> = {
+    mainstream: 'Mainstream',
+    accepted: 'Accepted',
+    deviant: 'Deviant',
+    rejected: 'Outside the Fold',
   }
 
   return (
@@ -61,8 +64,8 @@ export default async function SectPage({ params }: Props) {
         <div className="mb-8">
           <div className="flex items-center gap-3">
             <h1 className="text-3xl font-bold text-white">{sect.name_en}</h1>
-            <span className={`badge ${statusColors[sect.status]}`}>
-              {sect.status}
+            <span className={`badge ${statusColors[sect.status] ?? 'bg-gray-500/20 text-gray-300'}`}>
+              {statusLabels[sect.status] ?? sect.status}
             </span>
           </div>
           {sect.name_ar && (
@@ -156,8 +159,8 @@ export default async function SectPage({ params }: Props) {
                     className="flex items-center gap-2 rounded-lg border border-iw-border p-3 text-sm transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface"
                   >
                     <span className="text-iw-text">{child.name_en}</span>
-                    <span className={`badge text-xs ${statusColors[child.status]}`}>
-                      {child.status}
+                    <span className={`badge text-xs ${statusColors[child.status] ?? 'bg-gray-500/20 text-gray-300'}`}>
+                      {statusLabels[child.status] ?? child.status}
                     </span>
                   </Link>
                 ))}

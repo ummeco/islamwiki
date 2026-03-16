@@ -4,26 +4,29 @@
     "slug": "ahl-us-sunnah",
     "name_ar": "أهل السنة والجماعة",
     "name_en": "Ahl us-Sunnah wal-Jama'ah",
-    "description_en": "The mainstream body of Muslims who follow the Quran, the Sunnah of the Prophet ﷺ, and the understanding of the Companions. Encompasses the four schools of fiqh (Hanafi, Maliki, Shafi'i, Hanbali) and the three schools of aqeedah (Athari, Ash'ari, Maturidi).",
+    "category": "ahlussunnah",
+    "description_en": "The mainstream body of Muslims who follow the Quran, the Sunnah of the Prophet ﷺ, and the understanding of the Companions. Identified by the Prophet ﷺ as the saved sect (al-firqah an-najiyah) in the hadith of the 73 sects. Encompasses the four schools of fiqh (Hanafi, Maliki, Shafi'i, Hanbali) and the accepted aqeedah schools (Athari, Ash'ari, Maturidi).",
     "status": "mainstream",
     "key_beliefs": [
-      "Following Quran and Sunnah",
-      "Accepting the authority of the Companions",
-      "Four schools of fiqh",
-      "Affirming Allah's attributes as revealed"
+      "Following Quran and Sunnah upon the understanding of the Companions (Salaf)",
+      "Accepting the legitimacy of all four Rightly Guided Caliphs",
+      "Four major schools of jurisprudence (Hanafi, Maliki, Shafi'i, Hanbali)",
+      "Affirming Allah's attributes as revealed without distortion or denial",
+      "Belief in predestination (qadr) including its good and evil"
     ],
-    "scholarly_evaluation": "The saved sect (al-firqah an-najiyah) mentioned in the hadith of the 73 sects. Represents the majority of Muslims throughout history.",
+    "scholarly_evaluation": "The saved sect (al-firqah an-najiyah) mentioned in the hadith of the 73 sects (Sunan al-Tirmidhi, 2641). Represents the majority of Muslims throughout Islamic history. Defined not merely by label but by adherence to the Quran, Sunnah, and methodology of the Companions.",
     "key_figures": [
-      "The Four Rightly Guided Caliphs",
-      "Imam Abu Hanifa",
-      "Imam Malik",
-      "Imam al-Shafii",
-      "Imam Ahmad ibn Hanbal"
+      "The Four Rightly Guided Caliphs (Abu Bakr, Umar, Uthman, Ali)",
+      "Imam Abu Hanifa (699–767 CE)",
+      "Imam Malik (711–795 CE)",
+      "Imam al-Shafi'i (767–820 CE)",
+      "Imam Ahmad ibn Hanbal (780–855 CE)"
     ],
     "sources": [
+      "Sunan al-Tirmidhi 2641 (73 sects hadith)",
       "Sharh Usul Itiqad Ahl al-Sunnah (al-Lalikai)",
       "Al-Sunnah (Ibn Abi Asim)",
-      "Al-Ibanah (Abu al-Hasan al-Ashari)"
+      "Al-Ibanah (Abu al-Hasan al-Ash'ari)"
     ]
   },
   {
@@ -33,26 +36,27 @@
     "name_en": "Athari (Textualist)",
     "parent_sect_id": 1,
     "parent_sect_slug": "ahl-us-sunnah",
-    "description_en": "The creed of accepting the apparent meaning of Quran and Sunnah regarding divine attributes without ta'wil (metaphorical interpretation), takyeef (asking how), or tamtheel (comparison). Also known as the creed of the Salaf. Championed by Imam Ahmad ibn Hanbal and later by Ibn Taymiyyah.",
+    "category": "ahlussunnah",
+    "description_en": "The creed of accepting the apparent meaning of Quran and Sunnah regarding divine attributes without ta'wil (metaphorical interpretation), takyeef (asking how), or tamtheel (comparison to creation). The methodology of the Salaf al-Salih (pious predecessors). Also called the creed of the Ahl al-Hadith. Championed by Imam Ahmad ibn Hanbal and later by Ibn Taymiyyah and Ibn al-Qayyim.",
     "status": "mainstream",
     "key_beliefs": [
-      "Affirming attributes as they appear in text",
-      "Following the methodology of the Salaf",
-      "Rejecting kalam (speculative theology)",
-      "Quran is the uncreated speech of Allah"
+      "Affirming all of Allah's attributes as they appear in text without interpretation",
+      "Tafwid al-Kayfiyyah — entrusting the 'how' to Allah without asking 'how'",
+      "Strict adherence to the methodology of the Companions and Tabi'un",
+      "Rejecting kalam (speculative theology) as a methodology for aqeedah"
     ],
-    "scholarly_evaluation": "The methodology of affirming Allahs names and attributes as they appear in the Quran and Sunnah without ta'wil (metaphorical interpretation), takyif (asking how), or tamthil (likening to creation).",
+    "scholarly_evaluation": "The primary aqeedah position of Ahl us-Sunnah. The methodology of the early Muslim community (Salaf). Championed by Imam Ahmad ibn Hanbal in his refutation of the Mu'tazilah during the Mihna (833 CE). Later systematized by Ibn Taymiyyah (d. 728 AH) in his works al-Aqeedah al-Wasitiyyah, al-Aqeedah al-Hamawiyyah, and Minhaj al-Sunnah.",
     "key_figures": [
-      "Imam Ahmad ibn Hanbal",
-      "Ibn Taymiyyah",
-      "Ibn al-Qayyim",
-      "Ibn Qudamah",
-      "al-Barbahari"
+      "Imam Ahmad ibn Hanbal (780–855 CE)",
+      "Ibn Taymiyyah (1263–1328 CE)",
+      "Ibn al-Qayyim al-Jawziyyah (1292–1350 CE)",
+      "Al-Dhahabi (1274–1348 CE)"
     ],
     "sources": [
-      "Al-Aqidah al-Wasitiyyah (Ibn Taymiyyah)",
-      "Lum'at al-I'tiqad (Ibn Qudamah)",
-      "Kitab al-Tawhid (Ibn Khuzaymah)"
+      "Al-Aqeedah al-Wasitiyyah (Ibn Taymiyyah)",
+      "Al-Aqeedah al-Hamawiyyah (Ibn Taymiyyah)",
+      "Ijtima al-Juyush al-Islamiyyah (Ibn al-Qayyim)",
+      "Sharh Usul Itiqad Ahl al-Sunnah (al-Lalikai)"
     ]
   },
   {
@@ -62,29 +66,29 @@
     "name_en": "Ash'ari",
     "parent_sect_id": 1,
     "parent_sect_slug": "ahl-us-sunnah",
-    "founder_name": "Abul Hasan al-Ash'ari",
-    "founded_year_ce": 935,
-    "description_en": "A school of theology founded by Abu al-Hasan al-Ash'ari (d. 935 CE), himself a former Mu'tazili who returned to traditional positions. Uses rational theology to defend Sunni beliefs while affirming the seven essential attributes of Allah. The majority of scholars historically followed this creed.",
+    "category": "ahlussunnah",
+    "description_en": "A school of Islamic theology founded by Abu al-Hasan al-Ash'ari (d. 935 CE) that uses limited rational argumentation to defend the creed of Ahl us-Sunnah against Mu'tazilah rationalism. Accepts Allah's attributes but differs from the Athari position in its use of ta'wil (metaphorical interpretation) for some attributes. Predominant among Shafi'i and Maliki scholars historically.",
     "status": "accepted",
+    "founded_year_ce": 874,
+    "founder_name": "Abu al-Hasan al-Ash'ari",
     "key_beliefs": [
-      "Seven essential divine attributes",
-      "The Quran is Allah's eternal speech",
-      "Rational theology (kalam) is permissible for defense of faith",
-      "Ta'wil of certain attributes when necessary"
+      "Allah's existence and attributes proven through rational argument",
+      "Limited ta'wil of ambiguous Quranic verses regarding divine attributes",
+      "Seven essential attributes: Life, Knowledge, Power, Will, Hearing, Sight, Speech",
+      "Rejecting the Mu'tazilah position that the Quran is created"
     ],
-    "scholarly_evaluation": "Considered within Ahl us-Sunnah by scholarly consensus. Founded to defend Sunni theology against Mutazilite rationalism using kalam methodology.",
+    "scholarly_evaluation": "Accepted within Ahl us-Sunnah wal-Jama'ah by majority scholarly consensus, despite methodological differences with the Athari school on certain matters. Al-Ash'ari himself was a student of al-Jubbai (Mu'tazilah) before his return to the creed of Imam Ahmad ibn Hanbal, which he documented in Al-Ibanah. Historically represented by major scholars including al-Bayhaqi, al-Nawawi, Ibn Hajar al-Asqalani, and al-Suyuti.",
     "key_figures": [
-      "Abu al-Hasan al-Ashari",
-      "al-Baqillani",
-      "al-Juwayni",
-      "al-Ghazali",
-      "Fakhr al-Din al-Razi",
-      "al-Nawawi"
+      "Abu al-Hasan al-Ash'ari (d. 935 CE)",
+      "Al-Bayhaqi (994–1066 CE)",
+      "Al-Ghazali (1058–1111 CE)",
+      "Al-Nawawi (1233–1277 CE)",
+      "Ibn Hajar al-Asqalani (1372–1449 CE)"
     ],
     "sources": [
-      "Al-Ibanah (al-Ashari)",
-      "Al-Tamhid (al-Baqillani)",
-      "Al-Irshad (al-Juwayni)"
+      "Al-Ibanah an Usul al-Diyanah (al-Ash'ari)",
+      "Al-Luma' fi al-Radd ala Ahl al-Zaigh (al-Ash'ari)",
+      "Ihya Ulum al-Din (al-Ghazali)"
     ]
   },
   {
@@ -94,48 +98,445 @@
     "name_en": "Maturidi",
     "parent_sect_id": 1,
     "parent_sect_slug": "ahl-us-sunnah",
-    "founder_name": "Abu Mansur al-Maturidi",
-    "founded_year_ce": 944,
-    "description_en": "A school of theology founded by Abu Mansur al-Maturidi (d. 944 CE) of Samarkand. Very close to the Ash'ari school with minor differences. Predominant among Hanafi scholars, especially in Central Asia, Turkey, and the Indian subcontinent.",
+    "category": "ahlussunnah",
+    "description_en": "A school of Islamic theology founded by Abu Mansur al-Maturidi (d. 944 CE) in Samarkand. Similar to the Ash'ari school in defending Ahl us-Sunnah creed through rational argument, with some distinct positions — most notably on the attributes of Allah and on human agency. Predominant in Central Asia and historically the dominant aqeedah school among Hanafi scholars.",
     "status": "accepted",
+    "founded_year_ce": 900,
+    "founder_name": "Abu Mansur al-Maturidi",
     "key_beliefs": [
-      "Eight essential divine attributes",
-      "Reason and revelation complement each other",
-      "Faith is in the heart (differs slightly from Ash'aris)",
-      "Widely followed among Hanafis"
+      "Allah's existence and attributes provable through reason",
+      "Affirming all of Allah's essential attributes",
+      "Human beings have kasb (acquisition) of their actions while Allah is the creator of all acts",
+      "Faith (iman) is affirming with the heart — verbal statement is a condition, not part of iman itself"
     ],
-    "scholarly_evaluation": "Considered within Ahl us-Sunnah. Dominant theological school among Hanafi Muslims, particularly in Central Asia, Turkey, and the Indian subcontinent.",
+    "scholarly_evaluation": "Accepted within Ahl us-Sunnah wal-Jama'ah alongside the Ash'ari school. Historically the dominant aqeedah school among Hanafi scholars in Central Asia, the Indian subcontinent, and the Ottoman world. Minor differences from Ash'ari and Athari on specific theological points do not place it outside Ahl us-Sunnah.",
     "key_figures": [
-      "Abu Mansur al-Maturidi",
-      "al-Nasafi",
-      "al-Taftazani",
-      "Ali al-Qari"
+      "Abu Mansur al-Maturidi (d. 944 CE)",
+      "Abu al-Yusr al-Bazdawi (d. 1099 CE)",
+      "Al-Nasafi (d. 1310 CE)"
     ],
     "sources": [
       "Kitab al-Tawhid (al-Maturidi)",
-      "Al-Aqaid al-Nasafiyyah (al-Nasafi)",
-      "Sharh al-Aqaid al-Nasafiyyah (al-Taftazani)"
+      "Ta'wilat Ahl al-Sunnah (al-Maturidi)",
+      "Al-Aqida al-Nasafiyyah (al-Nasafi)"
+    ]
+  },
+  {
+    "id": 27,
+    "slug": "hanafi",
+    "name_ar": "الحنفية",
+    "name_en": "Hanafi School",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "madhab",
+    "founded_year_ce": 699,
+    "founder_name": "Imam Abu Hanifa al-Nu'man ibn Thabit",
+    "description_en": "One of the four major Sunni schools of Islamic jurisprudence (fiqh), founded by Imam Abu Hanifa (699–767 CE) in Kufa, Iraq. Known for its extensive use of qiyas (analogical reasoning) and istihsan (juristic preference). Predominant in Turkey, Central Asia, South Asia, the Balkans, and historically in the Ottoman Caliphate.",
+    "status": "mainstream",
+    "key_beliefs": [
+      "Following Quran, Sunnah, Ijma (scholarly consensus), and Qiyas (analogical reasoning)",
+      "Broad use of Istihsan (juristic preference) where strict analogy produces hardship",
+      "Consideration of local custom ('urf) in legal rulings",
+      "Known for flexibility in removing undue hardship (rafah) from religious obligations"
+    ],
+    "scholarly_evaluation": "One of the four accepted madhabs of Ahl us-Sunnah. Fully within the saved sect. Founded by Imam Abu Hanifa, one of the greatest jurists in Islamic history, known as 'al-Imam al-A'zam' (the Great Imam). Following any of the four madhabs is valid and praiseworthy.",
+    "key_figures": [
+      "Imam Abu Hanifa (699–767 CE)",
+      "Imam Abu Yusuf (731–798 CE)",
+      "Imam Muhammad al-Shaybani (749–805 CE)"
+    ],
+    "sources": [
+      "Al-Mabsut (al-Sarakhsi)",
+      "Hidayah (al-Marghinani)",
+      "Fath al-Qadir (Ibn al-Humam)"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "maliki",
+    "name_ar": "المالكية",
+    "name_en": "Maliki School",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "madhab",
+    "founded_year_ce": 711,
+    "founder_name": "Imam Malik ibn Anas",
+    "description_en": "One of the four major Sunni schools of jurisprudence founded by Imam Malik ibn Anas (711–795 CE) in Medina. Distinctive for its use of the practice of the people of Medina (amal ahl al-Madinah) as a legal source, given that Medina was the city of the Prophet ﷺ and the Companions. Predominant in North Africa, West Africa, Andalusia (historically), and parts of the Gulf.",
+    "status": "mainstream",
+    "key_beliefs": [
+      "Following Quran, Sunnah, Ijma, and the practice of the people of Medina",
+      "The 'amal (practice) of the Madinans is a primary legal source",
+      "Maslahah mursalah (public interest) used in legislation",
+      "Strong emphasis on Hadith of the people of Madinah"
+    ],
+    "scholarly_evaluation": "One of the four accepted madhabs of Ahl us-Sunnah. Imam Malik's al-Muwatta is considered one of the earliest and most authoritative hadith collections. Imam al-Shafi'i famously studied under Imam Malik and described him as a proof of Allah on His creation.",
+    "key_figures": [
+      "Imam Malik ibn Anas (711–795 CE)",
+      "Ibn al-Qasim (745–806 CE)",
+      "Al-Qurtubi (1214–1273 CE)",
+      "Ibn Rushd (al-Grandfather) (d. 1126 CE)"
+    ],
+    "sources": [
+      "Al-Muwatta (Imam Malik)",
+      "Al-Mudawwanah (Sahnun)",
+      "Bidayat al-Mujtahid (Ibn Rushd)"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "shafii",
+    "name_ar": "الشافعية",
+    "name_en": "Shafi'i School",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "madhab",
+    "founded_year_ce": 767,
+    "founder_name": "Imam Muhammad ibn Idris al-Shafi'i",
+    "description_en": "One of the four major Sunni schools of jurisprudence founded by Imam al-Shafi'i (767–820 CE). Imam al-Shafi'i is widely regarded as the founder of Islamic legal theory (usul al-fiqh), having systematized the sources of Islamic law in his landmark work al-Risalah. Predominant in East Africa, Southeast Asia, Egypt, the Levant, and parts of the Arabian Peninsula.",
+    "status": "mainstream",
+    "key_beliefs": [
+      "Following Quran, Sunnah, Ijma, and Qiyas — the four sources of al-Shafi'i's legal theory",
+      "The Sunnah must be authenticated before use as a legal source",
+      "Strict criteria for the use of Qiyas compared to the Hanafi school",
+      "Systematized distinction between Makki and Madani jurisprudence"
+    ],
+    "scholarly_evaluation": "One of the four accepted madhabs of Ahl us-Sunnah. Imam al-Shafi'i's al-Risalah (c. 820 CE) is the foundational text of Islamic legal theory. He studied under Imam Malik and was himself a teacher of Imam Ahmad ibn Hanbal.",
+    "key_figures": [
+      "Imam al-Shafi'i (767–820 CE)",
+      "Al-Muzani (791–878 CE)",
+      "Al-Nawawi (1233–1277 CE)",
+      "Ibn Hajar al-Asqalani (1372–1449 CE)"
+    ],
+    "sources": [
+      "Al-Risalah (al-Shafi'i)",
+      "Al-Umm (al-Shafi'i)",
+      "Al-Majmu' Sharh al-Muhadhdhab (al-Nawawi)"
+    ]
+  },
+  {
+    "id": 30,
+    "slug": "hanbali",
+    "name_ar": "الحنبلية",
+    "name_en": "Hanbali School",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "madhab",
+    "founded_year_ce": 780,
+    "founder_name": "Imam Ahmad ibn Hanbal",
+    "description_en": "One of the four major Sunni schools of jurisprudence, founded by Imam Ahmad ibn Hanbal (780–855 CE). Known for strict adherence to Hadith and the narrations of the Companions in legal matters, using qiyas only when necessary. Imam Ahmad's famous stand against the Mu'tazilah in the Mihna crisis (833 CE) cemented his status as a defender of Ahl us-Sunnah. Predominant in Saudi Arabia and parts of the Gulf.",
+    "status": "mainstream",
+    "key_beliefs": [
+      "Strict prioritization of Hadith and athar (narrations of Companions) in legal derivation",
+      "Preference for weak hadith over pure qiyas in the absence of stronger evidence",
+      "Strong emphasis on the creed of the Salaf and rejection of speculative kalam",
+      "Imam Ahmad's creed (Usul al-Sunnah) is the reference for Athari aqeedah"
+    ],
+    "scholarly_evaluation": "One of the four accepted madhabs of Ahl us-Sunnah. Imam Ahmad is considered one of the foremost defenders of Sunni Islam. His refusal to affirm the Mu'tazili doctrine that the Quran was created — even under torture during the Mihna — made him a symbol of steadfastness for Ahl us-Sunnah throughout history.",
+    "key_figures": [
+      "Imam Ahmad ibn Hanbal (780–855 CE)",
+      "Ibn Qudamah (1147–1223 CE)",
+      "Ibn Taymiyyah (1263–1328 CE)",
+      "Ibn al-Qayyim (1292–1350 CE)"
+    ],
+    "sources": [
+      "Al-Musnad (Imam Ahmad ibn Hanbal)",
+      "Al-Mughni (Ibn Qudamah)",
+      "Majmu' al-Fatawa (Ibn Taymiyyah)"
+    ]
+  },
+  {
+    "id": 31,
+    "slug": "zahiri",
+    "name_ar": "الظاهرية",
+    "name_en": "Zahiri School",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "madhab",
+    "founded_year_ce": 815,
+    "founder_name": "Dawud ibn Khalaf al-Zahiri",
+    "description_en": "A historical school of Islamic jurisprudence founded by Dawud ibn Khalaf al-Zahiri (815–883 CE), later championed by Ibn Hazm of Andalusia (994–1064 CE). Takes only the literal (zahir) meaning of the Quran and Sunnah, rejecting qiyas (analogical reasoning) and ra'y (personal opinion) as legal sources. No longer has institutionalized following today but its methodology continues to influence Islamic scholarship.",
+    "status": "mainstream",
+    "key_beliefs": [
+      "Strict literalism — only the apparent (zahir) meaning of Quran and Sunnah is binding",
+      "Complete rejection of qiyas (analogical reasoning) as a legal source",
+      "Ijma (consensus) limited to the consensus of the Companions only",
+      "Every act is permissible unless explicitly prohibited by a text"
+    ],
+    "scholarly_evaluation": "A legitimate historical school within Ahl us-Sunnah. While not followed today as an organized madhab, Ibn Hazm's encyclopedic works (especially Al-Muhalla) are standard references for comparative fiqh. His rejection of qiyas was a minority position but not outside the pale of Ahl us-Sunnah.",
+    "key_figures": [
+      "Dawud ibn Khalaf al-Zahiri (815–883 CE)",
+      "Ibn Hazm (994–1064 CE)"
+    ],
+    "sources": [
+      "Al-Muhalla bil-Athar (Ibn Hazm)",
+      "Al-Ihkam fi Usul al-Ahkam (Ibn Hazm)"
+    ]
+  },
+  {
+    "id": 32,
+    "slug": "jariri",
+    "name_ar": "الجريرية",
+    "name_en": "Jariri School",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "madhab",
+    "founded_year_ce": 839,
+    "founder_name": "Ibn Jarir al-Tabari",
+    "description_en": "A historical school of Islamic jurisprudence founded by the great scholar and historian Ibn Jarir al-Tabari (839–923 CE). Ibn al-Tabari was an independent mujtahid who founded his own school, though it did not survive long after his death due to lack of students to carry it forward. He is primarily remembered today for his monumental Tafsir (Jami al-Bayan) and his world history (Tarikh al-Rusul wal-Muluk).",
+    "status": "mainstream",
+    "key_beliefs": [
+      "Independent ijtihad from Quran and Sunnah with no strict affiliation to earlier schools",
+      "Strong emphasis on hadith and athar in legal derivation",
+      "Acceptance of some forms of qiyas where necessary"
+    ],
+    "scholarly_evaluation": "A legitimate historical school within Ahl us-Sunnah. The school did not outlive its founder institutionally, but Ibn al-Tabari's jurisprudential and tafsir works remain authoritative references.",
+    "key_figures": [
+      "Ibn Jarir al-Tabari (839–923 CE)"
+    ],
+    "sources": [
+      "Jami al-Bayan fi Ta'wil Ay al-Quran (al-Tabari)",
+      "Ikhtilaf al-Fuqaha (al-Tabari)"
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "khawarij",
+    "name_ar": "الخوارج",
+    "name_en": "Khawarij (Kharijites)",
+    "category": "classical-deviant",
+    "founded_year_ce": 657,
+    "founded_year_ah": 37,
+    "description_en": "The first major deviant sect in Islamic history, emerging in 657 CE (37 AH) after the Battle of Siffin. They rejected the arbitration between Ali ibn Abi Talib and Muawiyah, declaring that judgment belongs to Allah alone (la hukma illa lillah). They held that Muslims who commit major sins become kafir and are to be killed, and they rebelled against the Muslim rulers of their time. The Prophet ﷺ described them as 'dogs of the Fire' who would recite the Quran without it passing their throats.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Takfir of Muslims who commit major sins — declaring them disbelievers",
+      "Armed rebellion against Muslim rulers is obligatory when they sin",
+      "Rejection of the legitimacy of both Ali and Muawiyah after the arbitration",
+      "Extreme literalism without understanding the broader principles of the Sunnah"
+    ],
+    "scholarly_evaluation": "Universally condemned by Ahl us-Sunnah as a deviant sect. The Prophet ﷺ described them in multiple authentic hadiths as 'dogs of the Fire' (Sunan Ibn Majah, 173) and 'the worst of creation' (Sahih Muslim, 1066). Their most distinctive characteristic — takfir of Muslims and killing them — is identified as their primary error by Ahl us-Sunnah. Modern groups that apply this methodology (declaring Muslim rulers or ordinary Muslims kafir for their actions and taking up arms) are considered neo-Khawarij.",
+    "key_figures": [
+      "Abdullah ibn Wahhab al-Rasibi (first Kharijite leader)",
+      "Dhul-Khuwaysira al-Tamimi (earliest Kharijite tendency, rebuked by the Prophet ﷺ)"
+    ],
+    "sources": [
+      "Sahih Muslim 1066 (Khawarij description)",
+      "Sunan Ibn Majah 173",
+      "Al-Farq bayn al-Firaq (al-Baghdadi)",
+      "Majmu' al-Fatawa (Ibn Taymiyyah)"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "qadariyyah",
+    "name_ar": "القدرية",
+    "name_en": "Qadariyyah",
+    "category": "classical-deviant",
+    "founded_year_ce": 680,
+    "founded_year_ah": 61,
+    "description_en": "An early deviant sect that denied Allah's predestination (qadar), holding that human beings create their own actions independently of Allah's will and foreknowledge. Emerged in Basra around 680 CE. Ibn Umar reportedly called them 'Majus of this Ummah' because, like the Zoroastrians who posited two creators (good and evil), the Qadariyyah in effect posited that humans create their own actions independently of Allah.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Denial of Allah's predestination of human actions",
+      "Human beings create their own actions independently",
+      "Allah has no foreknowledge of human sins (extreme position)"
+    ],
+    "scholarly_evaluation": "Condemned by the Companions and the Tabi'un. Abdullah ibn Umar reportedly refused to pray over them or greet them with salam when they abandoned belief in qadar (Sahih Muslim, introduction). The Prophet ﷺ said: 'The Qadariyyah are the Majus of this Ummah' (Sunan Abu Dawud, 4691). Their view contradicts the explicit Quranic affirmation of qadar (al-Qamar 54:49, al-Hadid 57:22). The Mu'tazilah later inherited and systematized elements of this position.",
+    "key_figures": [
+      "Ma'bad al-Juhani (d. 699 CE) — early Qadariyyah leader, killed in battle",
+      "Ghaylan al-Dimashqi (d. 743 CE)"
+    ],
+    "sources": [
+      "Sunan Abu Dawud 4691",
+      "Al-Luma' (al-Ash'ari)",
+      "Al-Farq bayn al-Firaq (al-Baghdadi)"
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "murjiah",
+    "name_ar": "المرجئة",
+    "name_en": "Murji'ah",
+    "category": "classical-deviant",
+    "founded_year_ce": 700,
+    "founded_year_ah": 81,
+    "description_en": "An early theological school that emerged in the late 7th century as a reaction to the Khawarij extremism on faith and sin. They held that actions are not part of faith (iman), and that as long as one holds belief in the heart, sins do not harm one's faith or status as a Muslim. The name derives from irja' (postponement) — they 'postponed' judgment on Muslim sinners to Allah alone.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Faith (iman) consists only of heart belief — actions are not part of faith",
+      "No Muslim who holds correct belief in the heart can be harmed by sin",
+      "Judgment on sinners is deferred entirely to Allah — no distinction between levels of faith"
+    ],
+    "scholarly_evaluation": "Condemned by Imam Ahmad ibn Hanbal and Ahl us-Sunnah scholars as a deviant position on faith. While they erred on the relationship between faith and actions, they did not typically reach the level of outside-the-fold as they did not deny any fundamentals of the deen. Ahl us-Sunnah holds that faith increases and decreases, and that actions are part of faith. Note: Some Murji'ah positions influenced later Hanafi discussions on the definition of iman — but classical Hanafis are not Murji'ah; they have distinct nuances.",
+    "key_figures": [
+      "Hasan ibn Muhammad ibn al-Hanafiyyah (attributed early sympathy)",
+      "Abu al-Husayn al-Salihi"
+    ],
+    "sources": [
+      "Kitab al-Iman (Ibn Mandah)",
+      "Al-Sunnah (Ibn Abi Asim)",
+      "Majmu' al-Fatawa (Ibn Taymiyyah) — on iman and its components"
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "jahmiyyah",
+    "name_ar": "الجهمية",
+    "name_en": "Jahmiyyah",
+    "category": "classical-deviant",
+    "founded_year_ce": 745,
+    "founded_year_ah": 127,
+    "founder_name": "Jahm ibn Safwan",
+    "description_en": "A deviant theological sect founded by Jahm ibn Safwan (d. 745 CE), who was executed for his heterodox positions. Held that Allah has no attributes whatsoever (ta'til — complete negation of attributes), that the Quran is created, and that faith is only knowledge in the heart without affirmation or action. Jahm was influenced by Indian and Greek philosophical ideas. Imam Ahmad ibn Hanbal wrote extensively against the Jahmiyyah.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Complete negation of all divine attributes (ta'til)",
+      "The Quran is created — Allah's speech is created (the position that triggered the Mihna)",
+      "Faith is knowledge in the heart alone — verbal affirmation not required",
+      "Paradise and Hell are not eternal — they will eventually cease"
+    ],
+    "scholarly_evaluation": "Harshly condemned by Ahl us-Sunnah. Imam Ahmad ibn Hanbal's primary battle during the Mihna (833 CE) was against the Mu'tazilah and Jahmiyyah doctrine that the Quran was created. Ibn Taymiyyah wrote al-Radd 'ala al-Jahmiyyah (Refutation of the Jahmiyyah). Jahm ibn Safwan was killed by Salm ibn Ahwaz al-Mazini for his deviance. The Ash'ari and Maturidi schools both developed partly in response to Jahmiyyah excess.",
+    "key_figures": [
+      "Jahm ibn Safwan (d. 745 CE)"
+    ],
+    "sources": [
+      "Al-Radd ala al-Jahmiyyah wal-Zanadiqa (Imam Ahmad ibn Hanbal)",
+      "Al-Radd ala al-Jahmiyyah (Ibn Taymiyyah)",
+      "Khalq Af'al al-Ibad (al-Bukhari)"
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "mutazilah",
+    "name_ar": "المعتزلة",
+    "name_en": "Mu'tazilah",
+    "category": "classical-deviant",
+    "founded_year_ce": 750,
+    "founded_year_ah": 132,
+    "founder_name": "Wasil ibn Ata",
+    "description_en": "A rationalist theological school that emerged in Basra around 750 CE under Wasil ibn Ata after he parted from the circle of al-Hasan al-Basri. Prioritized rational philosophy (kalam) over transmitted text (naql) in matters of theology. Most notably held that the Quran was created, denied seven of Allah's attributes (claiming affirming them creates partners), and held that human beings create their own actions (free will over divine predestination). The 'Abbasid Caliph al-Ma'mun imposed their doctrine as state creed in the Mihna (833 CE), under which Imam Ahmad was tortured.",
+    "status": "deviant",
+    "key_beliefs": [
+      "The Quran is created (not the eternal speech of Allah)",
+      "Denial of most divine attributes to avoid perceived tashbih (likening to creation)",
+      "Human beings create their own actions — divine justice requires human free will",
+      "The rational mind can independently determine good and evil (husn wa qubh 'aqli)",
+      "Sinners in the 'intermediate position' — neither believer nor disbeliever"
+    ],
+    "scholarly_evaluation": "Condemned by Ahl us-Sunnah. Their political power ended after Caliph al-Mutawakkil abolished the Mihna in 848 CE and restored Sunni creed as state doctrine. The Ash'ari and Maturidi schools developed in part as a rational counter-argument to Mu'tazilah using their own philosophical tools. Despite this, some Mu'tazilah scholars contributed greatly to Arabic grammar, literary criticism, and Islamic jurisprudence — their theological positions, however, are rejected.",
+    "key_figures": [
+      "Wasil ibn Ata (700–748 CE)",
+      "Abu al-Hudhayl al-Allaf (d. 840 CE)",
+      "Al-Zamakhshari (1074–1143 CE) — Mu'tazilah tafsir scholar"
+    ],
+    "sources": [
+      "Maqalat al-Islamiyyin (al-Ash'ari)",
+      "Al-Farq bayn al-Firaq (al-Baghdadi)",
+      "Al-Radd ala al-Jahmiyyah (Ibn Taymiyyah)"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "ibadi",
+    "name_ar": "الإباضية",
+    "name_en": "Ibadi Islam",
+    "category": "classical-deviant",
+    "founded_year_ce": 684,
+    "founded_year_ah": 65,
+    "founder_name": "Abdullah ibn Ibad al-Murri al-Tamimi",
+    "description_en": "A moderate offshoot from the early Khawarij movement, founded by Abdullah ibn Ibad in 684 CE. Unlike the Khawarij, the Ibadis do not consider ordinary Muslim sinners to be kafir — they consider them 'ungrateful disbelievers' (kuffar ni'mah) rather than polytheists. They reject armed rebellion and accept peaceful coexistence. Concentrated today primarily in Oman, Zanzibar, and parts of Libya and Algeria. The Ibadi community in Oman is the world's most significant.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Derived from Khawarij but without the extreme takfir of ordinary Muslim sinners",
+      "Leaders (Imams) must be elected on merit, not dynastic succession",
+      "The Quran is created (adopting Mu'tazilah-adjacent position on this point)",
+      "Walayah (loyalty) to those who follow their positions; bara'ah (disassociation) from those who oppose"
+    ],
+    "scholarly_evaluation": "Classified as deviant by Ahl us-Sunnah due to its Kharijite origins and retained heterodox positions. However, the Ibadis' moderation relative to classical Khawarij — rejecting takfir and armed rebellion — means most Ahl us-Sunnah scholars do not consider them fully outside the fold. Their position on the Quran being created, however, is a serious error shared with the Mu'tazilah.",
+    "key_figures": [
+      "Abdullah ibn Ibad al-Murri al-Tamimi (d. circa 708 CE)",
+      "Jabir ibn Zayd (d. 711 CE)"
+    ],
+    "sources": [
+      "Al-Farq bayn al-Firaq (al-Baghdadi)",
+      "Maqalat al-Islamiyyin (al-Ash'ari)"
+    ]
+  },
+  {
+    "id": 25,
+    "slug": "quranists",
+    "name_ar": "القرآنيون",
+    "name_en": "Quranists (Quran-Only)",
+    "category": "classical-deviant",
+    "founded_year_ce": 1900,
+    "description_en": "A modern movement rejecting the authority of the Hadith and Sunnah of the Prophet ﷺ, claiming the Quran alone is sufficient. Known by various names including Ahl al-Quran, Quraniyoon, and Submitters. Despite modern framing, this is a revival of the classical heresy of rejecting the Sunnah, which was addressed by Imam al-Shafi'i in his al-Risalah (c. 820 CE). Emerged in South Asian reformist movements in the late 19th century and has spread through the internet in the 20th–21st centuries.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Rejection of the Hadith and Sunnah as a source of Islamic law",
+      "The Quran alone is the complete and sufficient guide",
+      "Salah, Zakat, Hajj methods not derived from Hadith but from 'Quranic principles'",
+      "Many Quranic commands (like the details of prayer) reinterpreted entirely"
+    ],
+    "scholarly_evaluation": "Condemned unanimously by Ahl us-Sunnah. Allah commands obedience to the Messenger ﷺ alongside obedience to Himself in more than 30 Quranic verses (e.g., al-Nisa 4:59, al-Hashr 59:7). The Hadith are the primary explanation of the Quran. Rejection of the Sunnah destroys the foundations of Islamic practice — prayer timings, rak'ahs, zakat thresholds, and hajj rites are not detailed in the Quran but in the Sunnah. Imam al-Shafi'i's al-Risalah explicitly refutes this position in the 9th century.",
+    "key_figures": [
+      "Ghulam Ahmad Pervez (1903–1985 CE) — prominent South Asian Quranist",
+      "Rashad Khalifa (1935–1990 CE) — founded the 'Submitters' movement"
+    ],
+    "sources": [
+      "Al-Risalah (al-Shafi'i) — refutation of rejecting the Sunnah",
+      "Al-Quran 4:59, 59:7 — commands to obey the Messenger"
     ]
   },
   {
     "id": 5,
     "slug": "shia",
-    "name_ar": "شيعة",
+    "name_ar": "الشيعة",
     "name_en": "Shia Islam",
-    "description_en": "Groups that believe Ali ibn Abi Talib should have been the immediate successor of Prophet Muhammad ﷺ and that leadership (imamah) should have remained in the Prophet's family. Various sub-sects differ significantly in their beliefs and practices.",
+    "category": "shia",
+    "founded_year_ce": 661,
+    "founded_year_ah": 40,
+    "description_en": "Shia Islam is a broad umbrella encompassing various groups that arose following the assassination of Ali ibn Abi Talib (661 CE / 40 AH) and hold that the Imamate should have passed through the lineage of Ali and Fatimah. Theological and political positions range widely — from the relatively moderate Zaydis to the extreme Rafidah. Ahl us-Sunnah scholarship distinguishes carefully between ordinary Shia laymen (potentially within the fold) and groups with specific doctrinal positions that place them outside it.",
     "status": "deviant",
     "key_beliefs": [
-      "Ali was the rightful first caliph",
-      "Imamah (divine leadership) is a pillar of faith",
-      "Various views on the Companions"
+      "The Imamate belongs exclusively to the lineage of Ali ibn Abi Talib",
+      "The legitimacy of Abu Bakr, Umar, and Uthman's caliphates is rejected",
+      "The Imam has special religious authority over the community"
     ],
-    "scholarly_evaluation": "Deviant according to Ahl us-Sunnah scholars due to rejection of the caliphate of Abu Bakr, Umar, and Uthman, accusations against companions, and doctrines absent from the Quran and Sunnah.",
+    "scholarly_evaluation": "Ahl us-Sunnah scholars have nuanced positions on Shia Muslims. The broad Shia category includes groups ranging from deviant (Zaydi, mainstream Twelver) to those outside the fold entirely (Rafidah, Ismaili). The key distinctions are: (1) Does the person curse the Companions? (2) Do they invoke dead Imams in du'a? (3) Do they hold the Quran was corrupted? Ordinary Shia laymen who simply believe Ali had a stronger right to caliphate but do not curse companions are not declared kafir by most Ahl us-Sunnah scholars.",
     "key_figures": [
-      "Abdullah ibn Saba (attributed founder)",
-      "Ja'far al-Sadiq (6th Imam, respected by Sunnis as a scholar)"
+      "Ali ibn Abi Talib (4th Caliph, 1st Shia Imam in Shia framework)",
+      "Al-Husayn ibn Ali (3rd Imam, d. 680 CE/61 AH at Karbala)"
     ],
     "sources": [
-      "Al-Farq Bayn al-Firaq (al-Baghdadi)",
+      "Minhaj al-Sunnah al-Nabawiyyah (Ibn Taymiyyah)",
+      "Al-Farq bayn al-Firaq (al-Baghdadi)"
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "zaydi",
+    "name_ar": "الزيدية",
+    "name_en": "Zaydi Shia",
+    "parent_sect_id": 5,
+    "parent_sect_slug": "shia",
+    "category": "shia",
+    "founded_year_ce": 740,
+    "founded_year_ah": 122,
+    "founder_name": "Zayd ibn Ali (great-grandson of Ali)",
+    "description_en": "The Zaydi branch of Shia Islam, named after Zayd ibn Ali ibn al-Husayn, who revolted against the Umayyad Caliph Hisham ibn Abd al-Malik in 740 CE. Of all the Shia groups, the Zaydis are closest to Ahl us-Sunnah in theology and jurisprudence. They do not believe in the infallibility (ismah) of Imams, do not invoke dead Imams, and accept the first three caliphs as legitimate (if not the most excellent). They believe Ali was more deserving but do not curse Abu Bakr or Umar. Concentrated today primarily in Yemen.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Ali was the most deserving of the caliphate but Abu Bakr and Umar's rule is considered valid",
+      "Imams are not infallible — they can sin and err",
+      "The Imam must be from the Prophet's family (Ahl al-Bayt) and must rise in revolt",
+      "Jurisprudence close to Hanafi and Mu'tazilah in some rulings"
+    ],
+    "scholarly_evaluation": "The closest Shia group to Ahl us-Sunnah. Many Ahl us-Sunnah scholars have noted that Zaydis who do not curse the Companions and do not invoke dead Imams may be within the fold of Islam despite their deviation on the Imamate question. Ibn Taymiyyah and others acknowledged this distinction. Their proximity to Ahl us-Sunnah is why some classical scholars treated them differently from the Rafidah.",
+    "key_figures": [
+      "Zayd ibn Ali (695–740 CE)",
+      "Yahya ibn Zayd (d. 743 CE)"
+    ],
+    "sources": [
       "Minhaj al-Sunnah al-Nabawiyyah (Ibn Taymiyyah)",
       "Al-Milal wal-Nihal (al-Shahrastani)"
     ]
@@ -143,244 +544,94 @@
   {
     "id": 6,
     "slug": "shia-twelver",
-    "name_ar": "شيعة اثنا عشرية",
+    "name_ar": "الشيعة الاثنا عشرية",
     "name_en": "Twelver Shia (Ithna Ashari)",
     "parent_sect_id": 5,
     "parent_sect_slug": "shia",
-    "description_en": "The largest Shia sect, believing in twelve divinely appointed Imams from the Prophet's family, the last of whom (Muhammad al-Mahdi) is believed to be in occultation since 874 CE. Predominant in Iran, Iraq, Lebanon, and Bahrain.",
+    "category": "shia",
+    "founded_year_ce": 874,
+    "founded_year_ah": 260,
+    "description_en": "The largest Shia group, following twelve Imams from Ali ibn Abi Talib to Muhammad al-Mahdi, the twelfth Imam who is believed to have entered occultation in 874 CE (260 AH) and will return at the End of Times. Predominant in Iran, Iraq, Lebanon, Bahrain, and parts of Pakistan. The mainstream Twelver doctrine — as found in the primary religious texts (al-Kafi) — includes beliefs that Ahl us-Sunnah scholars consider shirk, particularly invoking the Imams in du'a after their deaths.",
     "status": "deviant",
     "key_beliefs": [
-      "Twelve infallible Imams",
-      "Occultation of the 12th Imam",
-      "Intercession through Imams",
-      "Different hadith collections than Sunnis"
+      "Twelve Infallible Imams from the lineage of Ali and Fatimah",
+      "The twelfth Imam (al-Mahdi) is in occultation and will return",
+      "The Imams have knowledge of the unseen (a divine-like attribute)",
+      "Wilayah (devotion) to the Imams is a pillar of faith",
+      "Intercession (tawassul) through the Imams after their deaths"
+    ],
+    "scholarly_evaluation": "The mainstream Twelver doctrinal positions — particularly invoking dead Imams in du'a and attributing knowledge of the unseen to them — are considered shirk by Athari and majority Ahl us-Sunnah scholars. This places the doctrinal Twelver position in serious territory. However, a distinction is drawn between (1) ordinary Shia laymen who follow family tradition, love Ahl al-Bayt, and do not knowingly invoke dead Imams in the shirk sense, and (2) those who knowingly hold the full doctrinal positions. Individual takfir of ordinary Shia laymen is not the Ahl us-Sunnah position — the doctrinal group positions are evaluated, not individual hearts. The Rafidah — those who explicitly curse companions and claim Quranic corruption — are a separate, more extreme category (see Rafidah entry).",
+    "key_figures": [
+      "Ali ibn Abi Talib (1st Imam)",
+      "Ja'far al-Sadiq (6th Imam, d. 765 CE) — major source of Shia jurisprudence",
+      "Muhammad al-Mahdi (12th Imam, entered occultation 874 CE)"
+    ],
+    "sources": [
+      "Minhaj al-Sunnah al-Nabawiyyah (Ibn Taymiyyah)",
+      "Al-Kafi (al-Kulayni) — primary Twelver hadith collection",
+      "Al-Farq bayn al-Firaq (al-Baghdadi)"
+    ]
+  },
+  {
+    "id": 61,
+    "slug": "rafidah",
+    "name_ar": "الرافضة",
+    "name_en": "Rafidah (Extreme Rejectors)",
+    "parent_sect_id": 6,
+    "parent_sect_slug": "shia-twelver",
+    "category": "shia",
+    "founded_year_ce": 740,
+    "founded_year_ah": 122,
+    "description_en": "The term applied to extreme Shia who explicitly curse and revile the Companions of the Prophet ﷺ — especially Abu Bakr, Umar, and Uthman — and hold that the Quran was corrupted by the Companions after the Prophet's death. Distinguished from ordinary Shia by three defining positions: cursing the Sahabah, claiming Quranic corruption, and ascribing divine attributes (infallibility, knowledge of the unseen) to the Imams — including invoking them in du'a after death.",
+    "status": "rejected",
+    "key_beliefs": [
+      "Explicit cursing of Abu Bakr, Umar, Uthman, and most Companions",
+      "Claim that the Companions corrupted the Quran after the Prophet's death",
+      "Infallibility and divine knowledge of the twelve Imams",
+      "Invocation of dead Imams in du'a (shirk per Athari aqeedah)",
+      "Wilayah (guardianship/authority) of Imams as a pillar of faith equal to the shahada"
+    ],
+    "scholarly_evaluation": "Outside the fold of Islam according to Ibn Taymiyyah (Minhaj al-Sunnah), Ibn Kathir, al-Dhahabi, and the majority of Ahl us-Sunnah scholars. Three doctrines are specifically cited: (1) The claim that the Companions corrupted the Quran — contradicting Allah's own guarantee in the Quran: 'We have sent down the Dhikr and We will preserve it' (15:9). (2) Explicit cursing of Abu Bakr and Umar, who were praised by the Prophet ﷺ. (3) Invocation of dead Imams — shirk according to Athari aqeedah. Note: Ordinary Shia who believe only in Ali's right to caliphate without these extreme positions are considered deviant Muslims within the fold, not kafirs. The label Rafidah applies specifically to those who hold these three positions.",
+    "key_figures": [
+      "Abdullah ibn Saba (attributed instigator of early Shia fitna)",
+      "Al-Kulayni (d. 941 CE — compiler of al-Kafi, the primary Twelver hadith collection)"
+    ],
+    "sources": [
+      "Minhaj al-Sunnah al-Nabawiyyah (Ibn Taymiyyah)",
+      "Al-Bidayah wal-Nihayah (Ibn Kathir)",
+      "Siyar A'lam al-Nubala (al-Dhahabi)",
+      "Quran 15:9 — preservation of the Quran"
     ]
   },
   {
     "id": 7,
-    "slug": "shia-ismaili",
-    "name_ar": "إسماعيلية",
+    "slug": "ismaili",
+    "name_ar": "الإسماعيلية",
     "name_en": "Ismaili Shia",
     "parent_sect_id": 5,
     "parent_sect_slug": "shia",
-    "description_en": "A branch of Shia Islam that follows a different line of Imams from the Twelvers, diverging at the seventh Imam. Known historically for the Fatimid Caliphate. The Aga Khan leads the largest modern Ismaili community (Nizari).",
-    "status": "deviant",
-    "key_beliefs": [
-      "Seven Imams (or continuing line)",
-      "Esoteric interpretation (batin) of scripture",
-      "Living Imam present in every age"
-    ]
-  },
-  {
-    "id": 8,
-    "slug": "shia-zaydi",
-    "name_ar": "زيدية",
-    "name_en": "Zaydi Shia",
-    "parent_sect_id": 5,
-    "parent_sect_slug": "shia",
-    "description_en": "The Shia sect closest to Sunni Islam. Named after Zayd ibn Ali (grandson of Husayn). Do not believe in the infallibility of Imams or occultation. Accept Abu Bakr and Umar as legitimate caliphs. Predominant in Yemen.",
-    "status": "deviant",
-    "key_beliefs": [
-      "Imamah not restricted to specific line",
-      "No infallible Imams",
-      "Accept Abu Bakr and Umar",
-      "Closest Shia sect to Sunni Islam"
-    ]
-  },
-  {
-    "id": 9,
-    "slug": "khawarij",
-    "name_ar": "خوارج",
-    "name_en": "Khawarij",
-    "description_en": "An early sect that emerged during the caliphate of Ali ibn Abi Talib, rebelling against both Ali and Muawiyah after the Battle of Siffin. Known for extreme positions on takfir (declaring Muslims as disbelievers for sins). Their ideology has influenced modern extremist groups.",
-    "status": "deviant",
-    "founded_year_ce": 657,
-    "key_beliefs": [
-      "Major sins make one a disbeliever",
-      "Rebellion against sinful rulers is obligatory",
-      "Extremely strict interpretation"
-    ],
-    "scholarly_evaluation": "Unanimously condemned by Ahl us-Sunnah. The Prophet warned against them in multiple authentic hadiths, calling them \"the dogs of the Hellfire.\"",
-    "key_figures": [
-      "Dhul-Khuwaysirah (first to object to the Prophet)",
-      "Abdullah ibn Wahb al-Rasibi"
-    ],
-    "sources": [
-      "Sahih al-Bukhari (Kitab al-Manaqib)",
-      "Sahih Muslim (Kitab al-Zakah)",
-      "Al-Farq Bayn al-Firaq (al-Baghdadi)"
-    ]
-  },
-  {
-    "id": 10,
-    "slug": "mutazilah",
-    "name_ar": "معتزلة",
-    "name_en": "Mu'tazilah",
-    "description_en": "A rationalist theological school that flourished from the 8th to 10th centuries. Emphasized reason over revelation in theological matters. Notorious for the Mihna (inquisition) where they persecuted scholars who refused to accept the createdness of the Quran. Imam Ahmad ibn Hanbal famously resisted.",
-    "status": "deviant",
-    "founded_year_ce": 750,
-    "key_beliefs": [
-      "Five principles (unity, justice, promise and threat, intermediate position, commanding good)",
-      "The Quran is created (not eternal)",
-      "Reason takes precedence in understanding attributes",
-      "Free will without divine decree"
-    ],
-    "scholarly_evaluation": "Deviant group that prioritized reason over revelation. Responsible for the mihnah (inquisition) that persecuted Imam Ahmad ibn Hanbal for refusing to affirm the createdness of the Quran.",
-    "key_figures": [
-      "Wasil ibn Ata",
-      "Amr ibn Ubayd",
-      "al-Jahiz",
-      "al-Zamakhshari",
-      "al-Qadi Abd al-Jabbar"
-    ],
-    "sources": [
-      "Al-Radd ala al-Jahmiyyah (Imam Ahmad)",
-      "Al-Milal wal-Nihal (al-Shahrastani)",
-      "Al-Farq Bayn al-Firaq (al-Baghdadi)"
-    ]
-  },
-  {
-    "id": 11,
-    "slug": "qadariyyah",
-    "name_ar": "قدرية",
-    "name_en": "Qadariyyah",
-    "description_en": "An early theological sect that denied divine predestination (qadr), arguing that humans have complete free will independent of Allah's will. Opposed by the majority of scholars. The first to introduce this view was Ma'bad al-Juhani (d. 699 CE).",
-    "status": "deviant",
-    "founded_year_ce": 680,
-    "key_beliefs": [
-      "Denial of divine predestination",
-      "Complete human free will",
-      "Allah does not create human actions"
-    ],
-    "scholarly_evaluation": "Deviant for denying divine predestination (qadar). The Prophet said: \"The Qadariyyah are the Magians of this Ummah.\" (Abu Dawud)",
-    "key_figures": [
-      "Ma'bad al-Juhani",
-      "Ghaylan al-Dimashqi"
-    ],
-    "sources": [
-      "Sunan Abu Dawud",
-      "Al-Sunnah (Ibn Abi Asim)",
-      "Sharh Usul Itiqad Ahl al-Sunnah (al-Lalikai)"
-    ]
-  },
-  {
-    "id": 12,
-    "slug": "jahmiyyah",
-    "name_ar": "جهمية",
-    "name_en": "Jahmiyyah",
-    "description_en": "Founded by Jahm ibn Safwan (d. 746 CE). Denied all divine attributes, claiming Allah has no attributes that can be described. Also promoted extreme fatalism (jabr). Strongly refuted by Imam Ahmad and other scholars of the Salaf.",
-    "status": "deviant",
-    "founded_year_ce": 730,
-    "founder_name": "Jahm ibn Safwan",
-    "key_beliefs": [
-      "Denial of all divine attributes",
-      "Extreme fatalism (jabr)",
-      "The Quran is created",
-      "Faith is only knowledge in the heart"
-    ],
-    "scholarly_evaluation": "Unanimously condemned for denying Allah's names and attributes. Imam Ahmad and other salaf scholars wrote extensively refuting their positions.",
-    "key_figures": [
-      "Jahm ibn Safwan (d. 128 AH)"
-    ],
-    "sources": [
-      "Al-Radd ala al-Jahmiyyah (Imam Ahmad)",
-      "Al-Radd ala al-Jahmiyyah (al-Darimi)",
-      "Khalq Af'al al-Ibad (al-Bukhari)"
-    ]
-  },
-  {
-    "id": 13,
-    "slug": "murjiah",
-    "name_ar": "مرجئة",
-    "name_en": "Murji'ah",
-    "description_en": "A sect that held that faith (iman) consists only of belief in the heart, and that actions have no bearing on one's faith. They 'delayed' (irja') judgment of sinners to Allah. Their position on faith was considered dangerous as it could lead to moral laxity.",
-    "status": "deviant",
-    "key_beliefs": [
-      "Faith is only in the heart",
-      "Actions do not affect faith",
-      "No one can be judged as disbeliever for sins",
-      "Delayed judgment to Allah"
-    ],
-    "scholarly_evaluation": "Deviant for separating deeds from faith, claiming iman is belief alone without action. Opposed by the salaf who held that faith includes belief, speech, and action.",
-    "key_figures": [],
-    "sources": [
-      "Kitab al-Iman (Ibn Taymiyyah)",
-      "Al-Sunnah (Ibn Abi Asim)"
-    ]
-  },
-  {
-    "id": 14,
-    "slug": "ahmadiyya",
-    "name_ar": "أحمدية",
-    "name_en": "Ahmadiyya (Qadiani)",
-    "description_en": "Founded by Mirza Ghulam Ahmad (d. 1908) in British India, who claimed to be a prophet after Muhammad ﷺ. This directly contradicts the Islamic belief in Muhammad ﷺ as the final prophet (Khatam an-Nabiyyin). Considered outside of Islam by consensus of Muslim scholars.",
+    "category": "shia",
+    "founded_year_ce": 765,
+    "founded_year_ah": 148,
+    "founder_name": "Ismail ibn Ja'far (claimed 7th Imam)",
+    "description_en": "A Shia branch that diverged from the mainstream Twelvers by following Ismail ibn Ja'far as the seventh Imam rather than his brother Musa al-Kadhim. Developed highly esoteric (batini) doctrines, holding that all Quranic texts have a hidden inner meaning (batin) that supersedes the literal (zahir) meaning — in practice removing the obligation of the shari'ah from their followers. Includes sub-groups: Nizari Ismaili (largest, the Aga Khan's followers), Bohra, and the Fatimid dynasty historically.",
     "status": "rejected",
-    "founded_year_ce": 1889,
-    "founder_name": "Mirza Ghulam Ahmad",
     "key_beliefs": [
-      "Claimed prophethood after Muhammad ﷺ",
-      "Mirza Ghulam Ahmad as the promised Messiah",
-      "Violates Khatam an-Nubuwwah (finality of prophethood)"
+      "Esoteric (batini) interpretation of Quran and Shari'ah — outer obligations are superseded by inner meanings",
+      "The Imam (currently the Aga Khan IV) has divine authority and near-infallible guidance",
+      "Many Sharia obligations (prayer, fasting, hajj) are allegorized away for the initiated",
+      "Neo-Platonic and Gnostic philosophical framework integrated into their theology"
     ],
-    "scholarly_evaluation": "Unanimously rejected by all Muslim scholars and organizations. Mirza Ghulam Ahmad's claim to prophethood contradicts the fundamental Islamic belief in Muhammad as the final prophet (Khatam al-Nabiyyin).",
+    "scholarly_evaluation": "Declared outside the fold of Islam by Ibn Taymiyyah (Minhaj al-Sunnah), al-Ghazali (Fada'ih al-Batiniyyah — specifically a refutation of the Ismaili Batiniyyah), and majority Ahl us-Sunnah scholars. Al-Ghazali's Fada'ih al-Batiniyyah is a landmark refutation. Their abrogation of the obligatory acts of Islam through esoteric interpretation is a categorical departure from the religion.",
     "key_figures": [
-      "Mirza Ghulam Ahmad (founder, d. 1908)"
+      "Ismail ibn Ja'far (d. circa 755 CE)",
+      "Al-Hasan ibn al-Sabbah (1050–1124 CE) — founded Nizari Assassin sect",
+      "Aga Khan IV (b. 1936) — current Nizari Imam"
     ],
     "sources": [
-      "Fatwa of the Muslim World League (1974)",
-      "Resolution of the Organisation of Islamic Cooperation (1985)",
-      "Quran 33:40"
-    ]
-  },
-  {
-    "id": 15,
-    "slug": "nation-of-islam",
-    "name_ar": "أمة الإسلام",
-    "name_en": "Nation of Islam (NOI)",
-    "description_en": "Founded by Wallace Fard Muhammad in Detroit in 1930. Not an Islamic group despite using Islamic terminology. Teaches racial doctrines (black supremacy), deification of Fard Muhammad, and Elijah Muhammad as a prophet. Completely outside of Islam.",
-    "status": "rejected",
-    "founded_year_ce": 1930,
-    "founder_name": "Wallace Fard Muhammad",
-    "key_beliefs": [
-      "Racial supremacy doctrine",
-      "Deification of founder",
-      "Claimed prophethood",
-      "Contradicts core Islamic monotheism"
-    ],
-    "scholarly_evaluation": "Unanimously rejected. Not considered Islam by any Muslim scholar or organization. Core beliefs (Fard Muhammad as God, Elijah Muhammad as messenger) directly contradict Islamic monotheism.",
-    "key_figures": [
-      "Wallace Fard Muhammad (founder)",
-      "Elijah Muhammad",
-      "Louis Farrakhan"
-    ],
-    "sources": [
-      "Statement of the Islamic Society of North America",
-      "Fatwa of al-Azhar"
-    ]
-  },
-  {
-    "id": 16,
-    "slug": "ibadi",
-    "name_ar": "إباضية",
-    "name_en": "Ibadi Islam",
-    "description_en": "A distinct Islamic sect that is neither Sunni nor Shia, tracing its origins to the early Khawarij but distancing itself from their extremism. The Ibadis consider themselves the original Muslims. They reject the Kharijite practice of declaring other Muslims as disbelievers. Predominant in Oman, where it is the state religion, and found in parts of North and East Africa.",
-    "status": "other",
-    "founded_year_ce": 680,
-    "founder_name": "Abdullah ibn Ibad",
-    "key_beliefs": [
-      "Neither Sunni nor Shia",
-      "Reject declaring Muslims as disbelievers",
-      "Imamate is not restricted to a specific tribe",
-      "Moderate position between Khawarij and Sunnis"
-    ],
-    "scholarly_evaluation": "Distinct from Khawarij despite historical origins. Some Sunni scholars view them as closest to Ahl us-Sunnah among non-Sunni groups. Dominant in Oman.",
-    "key_figures": [
-      "Abdullah ibn Ibad",
-      "Jabir ibn Zayd"
-    ],
-    "sources": [
-      "Al-Milal wal-Nihal (al-Shahrastani)",
-      "Al-Farq Bayn al-Firaq (al-Baghdadi)"
+      "Fada'ih al-Batiniyyah (al-Ghazali)",
+      "Minhaj al-Sunnah al-Nabawiyyah (Ibn Taymiyyah)",
+      "Al-Milal wal-Nihal (al-Shahrastani)"
     ]
   },
   {
@@ -388,339 +639,166 @@
     "slug": "sufi-orders",
     "name_ar": "الطرق الصوفية",
     "name_en": "Sufi Orders (Tariqahs)",
-    "parent_sect_id": 1,
-    "parent_sect_slug": "ahl-us-sunnah",
-    "description_en": "Organized spiritual paths within Sunni Islam focused on the purification of the soul (tazkiyah) and attaining closeness to Allah. Major orders include Qadiriyyah (founded by Abdul Qadir al-Jilani), Naqshbandiyyah, Shadhiliyyah, Chishtiyyah, and Tijaniyyah. Tasawwuf that adheres to the Quran and Sunnah is accepted within Ahl us-Sunnah.",
-    "status": "mainstream",
-    "key_beliefs": [
-      "Spiritual purification (tazkiyah)",
-      "Chain of spiritual authority (silsilah)",
-      "Dhikr and spiritual exercises",
-      "Must conform to Shariah"
-    ]
-  },
-  {
-    "id": 18,
-    "slug": "salafi",
-    "name_ar": "سلفية",
-    "name_en": "Salafi Movement",
-    "parent_sect_id": 1,
-    "parent_sect_slug": "ahl-us-sunnah",
-    "description_en": "A reform movement that calls for returning to the understanding of the first three generations (Salaf) of Muslims. Emphasizes adherence to the Quran and Sunnah, rejection of innovations (bid'ah), and purification of worship from polytheistic practices. Diverse internally, ranging from quietist scholars to activist movements.",
-    "status": "mainstream",
-    "key_beliefs": [
-      "Following the understanding of the Salaf",
-      "Rejection of bid'ah (innovations)",
-      "Athari creed in aqeedah",
-      "Emphasis on evidence-based jurisprudence"
-    ]
-  },
-  {
-    "id": 19,
-    "slug": "deobandi",
-    "name_ar": "ديوبندية",
-    "name_en": "Deobandi",
-    "parent_sect_id": 1,
-    "parent_sect_slug": "ahl-us-sunnah",
-    "description_en": "A Sunni movement originating from the Darul Uloom Deoband seminary in India (founded 1866). Follows the Hanafi madhab in fiqh and Maturidi/Ash'ari creed. Known for its emphasis on hadith study and Islamic scholarship. Influential in South Asia, with institutions worldwide.",
-    "status": "mainstream",
-    "founded_year_ce": 1866,
-    "key_beliefs": [
-      "Hanafi fiqh",
-      "Maturidi creed",
-      "Emphasis on hadith and traditional scholarship",
-      "Opposition to innovations"
-    ]
-  },
-  {
-    "id": 20,
-    "slug": "barelvi",
-    "name_ar": "بريلوية",
-    "name_en": "Barelvi",
-    "parent_sect_id": 1,
-    "parent_sect_slug": "ahl-us-sunnah",
-    "description_en": "A Sunni movement originating from the scholarship of Ahmad Rida Khan of Bareilly, India (d. 1921). Follows the Hanafi madhab and Ash'ari/Maturidi creed. Places emphasis on love of the Prophet (Hubb an-Nabi), celebrates the Mawlid (Prophet's birthday), and supports Sufi practices within Shariah.",
-    "status": "mainstream",
-    "founded_year_ce": 1880,
-    "key_beliefs": [
-      "Hanafi fiqh",
-      "Celebration of Mawlid",
-      "Sufi practices within Shariah",
-      "Strong emphasis on love of the Prophet"
-    ]
-  },
-  {
-    "id": 21,
-    "slug": "tablighi-jamaat",
-    "name_ar": "جماعة التبليغ",
-    "name_en": "Tablighi Jamaat",
-    "parent_sect_id": 1,
-    "parent_sect_slug": "ahl-us-sunnah",
-    "description_en": "A grassroots Islamic movement founded by Muhammad Ilyas al-Kandhlawi in 1926 in India. Focuses on basic Islamic practices and dawah through personal interaction and travel. Follows Hanafi fiqh. One of the largest Islamic movements in the world, with millions of adherents.",
-    "status": "mainstream",
-    "founded_year_ce": 1926,
-    "founder_name": "Muhammad Ilyas al-Kandhlawi",
-    "key_beliefs": [
-      "Six points of dawah",
-      "Personal spiritual reformation",
-      "Non-political approach",
-      "Grassroots dawah through travel"
-    ]
-  },
-  {
-    "id": 22,
-    "slug": "druze",
-    "name_ar": "دروز",
-    "name_en": "Druze",
-    "description_en": "A religious group that originated from the Ismaili Shia sect in the 11th century. Founded by Hamza ibn Ali during the Fatimid Caliph al-Hakim's reign. Believe in the divinity of al-Hakim and reincarnation. Not considered Muslims by Islamic scholarship. Found mainly in Lebanon, Syria, and Israel.",
-    "status": "rejected",
-    "founded_year_ce": 1017,
-    "key_beliefs": [
-      "Divinity of al-Hakim",
-      "Reincarnation",
-      "Closed community (no converts accepted)",
-      "Secret scriptures"
-    ],
-    "scholarly_evaluation": "Unanimously rejected. Beliefs in divine incarnation, reincarnation, and abrogation of Islamic law place the Druze outside the fold of Islam.",
-    "key_figures": [
-      "Hamza ibn Ali ibn Ahmad",
-      "al-Darazi"
-    ],
-    "sources": [
-      "Ibn Taymiyyah's fatawa on the Druze",
-      "Al-Milal wal-Nihal (al-Shahrastani)"
-    ]
-  },
-  {
-    "id": 23,
-    "slug": "alawite",
-    "name_ar": "علوية",
-    "name_en": "Alawites (Nusayriyyah)",
-    "description_en": "An esoteric sect that originated from Shia Islam, founded by Muhammad ibn Nusayr in the 9th century. Their secret doctrines include elements of deification of Ali, reincarnation, and incorporation of Christian and pre-Islamic elements. Prominent in Syria where they form the ruling class.",
-    "status": "rejected",
-    "founded_year_ce": 859,
-    "founder_name": "Muhammad ibn Nusayr",
-    "key_beliefs": [
-      "Esoteric interpretation of Islam",
-      "Deification of Ali",
-      "Belief in reincarnation",
-      "Syncretic elements"
-    ]
-  },
-  {
-    "id": 24,
-    "slug": "bahai",
-    "name_ar": "بهائية",
-    "name_en": "Baha'i Faith",
-    "description_en": "An offshoot of the Babi movement in 19th-century Persia. Founded by Mirza Husayn Ali Nuri (Baha'ullah), who claimed to be a new messenger of God after Muhammad. Rejects the finality of prophethood. Considered a separate religion entirely, not a sect of Islam.",
-    "status": "rejected",
-    "founded_year_ce": 1863,
-    "founder_name": "Baha'ullah",
-    "key_beliefs": [
-      "Claimed new revelation",
-      "Rejects finality of prophethood",
-      "Progressive revelation",
-      "Separate religion from Islam"
-    ]
-  },
-  {
-    "id": 25,
-    "slug": "quranist",
-    "name_ar": "قرآنيون",
-    "name_en": "Quranists (Quran-Only)",
-    "description_en": "A modern movement that rejects the authority of the Hadith and Sunnah, claiming to follow only the Quran. This position is unanimously rejected by Islamic scholars across all madhabs, as the Quran itself commands obedience to the Prophet and the Sunnah is essential for understanding how to practice Islam.",
+    "category": "sufi",
+    "description_en": "Organized spiritual brotherhoods (tariqahs) that emerged in the Islamic world from around the 9th–10th centuries CE. Each order is centered on a founding saint (Shaykh) whose spiritual chain (silsilah) is traced back to the Prophet ﷺ, and involves bay'ah (pledge of allegiance) to a living shaykh, distinctive dhikr formulas, initiation rites, and hierarchical spiritual progression. The institution of organized tariqahs — as distinct from Sufi spirituality in general — is considered bid'ah (innovation) by Ahl us-Sunnah scholars. Some orders have developed practices that cross into shirk, particularly invoking dead saints (istighatha).",
     "status": "deviant",
     "key_beliefs": [
-      "Rejection of hadith as a source of law",
-      "Quran as the only authority",
-      "Rejection of traditional Islamic scholarship",
-      "Considered deviant by scholarly consensus"
+      "Bay'ah (pledge) to a shaykh whose spiritual guidance is considered essential to the path",
+      "Silsilah (spiritual chain) as a transmission of baraka from the Prophet ﷺ through the shaykh",
+      "Specialized dhikr formulas, often kept secret within the order",
+      "Spiritual stations (maqamat) and states (ahwal) as the path to proximity to Allah",
+      "Intercession through saints — in many orders, du'a directed to deceased founders"
     ],
-    "scholarly_evaluation": "Deviant for rejecting the Sunnah. The Quran itself commands obedience to the Prophet, and the Sunnah is the second source of Islamic law by unanimous scholarly consensus.",
-    "key_figures": [],
+    "scholarly_evaluation": "The institution of organized tariqahs is not established by the Quran, Sunnah, or the practice of the Salaf — making it bid'ah. The Prophet ﷺ said: 'Every newly invented thing is an innovation, and every innovation is going astray' (Sahih Muslim 867). The bay'ah given to a shaykh for spiritual purposes has no basis in the Sunnah. Individual practices within orders vary widely — some tariqahs remain within the bounds of the Sunnah in their actual practice, while others have developed shirk-adjacent rites. The key line for individual Muslims is: invoking dead saints (istighatha) is shirk regardless of the tariqah. Ordinary Muslims within tariqahs who avoid these specific practices are not declared kafir.",
+    "key_figures": [
+      "Al-Junayd al-Baghdadi (d. 910 CE) — considered a legitimate early Sufi scholar",
+      "Abd al-Qadir al-Jilani (1077–1166 CE) — founder of the Qadiriyya",
+      "Ibn Arabi (1165–1240 CE) — controversial; his doctrine of wahdat al-wujud (unity of being) is considered kufr by many scholars"
+    ],
     "sources": [
-      "Quran 4:59, 4:80, 59:7",
-      "Al-Risalah (al-Shafii)",
-      "The Authority of the Sunnah (Taqi Usmani)"
-    ]
-  },
-  {
-    "id": 26,
-    "slug": "wahhabism",
-    "name_ar": "الوهابية",
-    "name_en": "Wahhabism",
-    "description_en": "A reform movement founded by Muhammad ibn Abd al-Wahhab (1703-1792) in the Arabian Peninsula. It emphasizes strict monotheism (tawhid), the elimination of what it considers innovations (bid'ah) and polytheistic practices, and a return to the Quran and Sunnah as understood by the earliest generations. Allied with the House of Saud since 1744. The term 'Wahhabi' is often considered pejorative by adherents who prefer 'Salafi' or simply 'Muslim.' Mainstream Sunni scholars have both praised and criticized various aspects of the movement.",
-    "status": "active",
-    "key_beliefs": [
-      "Strict tawhid and rejection of intercession through saints",
-      "Opposition to visiting graves and building structures over them",
-      "Rejection of most Sufi practices",
-      "Adherence to Hanbali fiqh with emphasis on textual literalism",
-      "Classification of many popular Muslim practices as shirk or bid'ah"
-    ]
-  },
-  {
-    "id": 27,
-    "slug": "hanafi-school",
-    "name_ar": "المذهب الحنفي",
-    "name_en": "Hanafi School",
-    "description_en": "The oldest and most widely followed school of Sunni Islamic jurisprudence, founded by Imam Abu Hanifa (699-767 CE) in Kufa, Iraq. It is distinguished by its emphasis on reason (ra'y), analogical deduction (qiyas), and juristic preference (istihsan). The Hanafi school is the dominant madhab in Turkey, the Balkans, Central Asia, South Asia, Iraq, Syria, and parts of Egypt. It was the official legal school of the Ottoman, Mughal, and Abbasid empires.",
-    "status": "orthodox",
-    "key_beliefs": [
-      "Greater use of analogical reasoning (qiyas) and juristic preference (istihsan)",
-      "More systematic categorization of hadith for legal derivation",
-      "Generally more flexible in accommodating local customs (urf)",
-      "Emphasis on the practical application of law",
-      "Distinction between obligatory (fard) and necessary (wajib) acts"
-    ]
-  },
-  {
-    "id": 28,
-    "slug": "maliki-school",
-    "name_ar": "المذهب المالكي",
-    "name_en": "Maliki School",
-    "description_en": "A school of Sunni jurisprudence founded by Imam Malik ibn Anas (711-795 CE) in Madinah. It places special emphasis on the practice of the people of Madinah (amal ahl al-Madinah) as a source of law, reasoning that their continuous practice reflected the Sunnah of the Prophet. The Maliki school is dominant in North Africa, West Africa, parts of the Gulf states, and historically in Al-Andalus. Imam Malik's al-Muwatta is the earliest surviving complete book of Islamic law.",
-    "status": "orthodox",
-    "key_beliefs": [
-      "Practice of the people of Madinah as an authoritative source of law",
-      "Use of istislah (public interest) as a legal principle",
-      "Sadd al-dhara'i (blocking the means to harm) as a juristic tool",
-      "Greater reliance on the living tradition alongside hadith texts",
-      "Balance between textual evidence and communal practice"
-    ]
-  },
-  {
-    "id": 29,
-    "slug": "shafii-school",
-    "name_ar": "المذهب الشافعي",
-    "name_en": "Shafi'i School",
-    "description_en": "A school of Sunni jurisprudence founded by Imam Muhammad ibn Idris al-Shafi'i (767-820 CE). Al-Shafi'i is considered the founder of Islamic legal theory (usul al-fiqh) through his seminal work al-Risalah, which systematized the sources of Islamic law. The Shafi'i school is dominant in East Africa, Southeast Asia, parts of Egypt, Yemen, and the Levant. It occupies a middle position between the Hanafi reliance on reason and the Maliki reliance on Madinan practice.",
-    "status": "orthodox",
-    "key_beliefs": [
-      "Systematic hierarchy of legal sources: Quran, Sunnah, ijma, qiyas",
-      "Strict criteria for accepting hadith as legal evidence",
-      "Rejection of istihsan in favor of strict analogical reasoning",
-      "Detailed categorization of legal maxims and principles",
-      "Emphasis on the methodology of deriving rulings (usul) alongside the rulings themselves"
-    ]
-  },
-  {
-    "id": 30,
-    "slug": "hanbali-school",
-    "name_ar": "المذهب الحنبلي",
-    "name_en": "Hanbali School",
-    "description_en": "The smallest of the four major Sunni schools of jurisprudence, founded by Imam Ahmad ibn Hanbal (780-855 CE). It is distinguished by its strong emphasis on scriptural evidence (Quran and hadith) and its relatively restrictive use of analogical reasoning. The Hanbali school is dominant in Saudi Arabia and Qatar. It produced influential scholars like Ibn Taymiyyah, Ibn al-Qayyim, and Ibn Rajab. Despite its reputation for strictness, later Hanbali jurists developed sophisticated legal theory.",
-    "status": "orthodox",
-    "key_beliefs": [
-      "Primacy of Quran and hadith over analogical reasoning",
-      "Acceptance of weak hadith over personal opinion (ra'y)",
-      "Restrictive use of qiyas compared to other schools",
-      "Emphasis on the positions of the Companions (Sahabah)",
-      "Opposition to speculative theology (kalam) in creedal matters"
-    ]
-  },
-  {
-    "id": 31,
-    "slug": "zahiri-school",
-    "name_ar": "المذهب الظاهري",
-    "name_en": "Zahiri School",
-    "description_en": "A school of Islamic jurisprudence that relies exclusively on the apparent (zahir) meaning of the Quran and hadith, rejecting analogical reasoning (qiyas), juristic preference (istihsan), and other forms of legal reasoning based on opinion. Founded by Dawud al-Zahiri (815-884 CE) and later championed by Ibn Hazm of Cordoba (994-1064 CE). While no longer widely followed as a madhab, Zahiri principles have influenced modern Islamic legal thought and some contemporary scholars draw on Zahiri methodology.",
-    "status": "historical",
-    "key_beliefs": [
-      "Exclusive reliance on the apparent meaning of texts",
-      "Complete rejection of analogical reasoning (qiyas)",
-      "Rejection of taqlid (following scholarly authority without evidence)",
-      "Strict literalism in deriving legal rulings",
-      "Every Muslim capable of reading texts can derive rulings directly"
-    ]
-  },
-  {
-    "id": 32,
-    "slug": "jariri-school",
-    "name_ar": "المذهب الجريري",
-    "name_en": "Jariri School",
-    "description_en": "A now-extinct school of Islamic jurisprudence founded by Imam Abu Ja'far Muhammad ibn Jarir al-Tabari (839-923 CE), the famous historian and Quran commentator. The Jariri school attempted to synthesize the best positions of the existing schools while exercising independent legal reasoning. It was followed for a time in Baghdad and some other regions but gradually lost adherents. Al-Tabari's comprehensive approach to Islamic scholarship is preserved in his surviving works.",
-    "status": "historical",
-    "key_beliefs": [
-      "Synthesis of existing madhab positions",
-      "Independent ijtihad based on direct textual analysis",
-      "Comprehensive consideration of all available evidence",
-      "Balanced approach between textual literalism and rational interpretation"
+      "Sahih Muslim 867 (every innovation is going astray)",
+      "Iqtida al-Sirat al-Mustaqim (Ibn Taymiyyah)",
+      "Al-I'tisam (al-Shatibi)"
     ]
   },
   {
     "id": 33,
     "slug": "qadiriyya",
     "name_ar": "القادرية",
-    "name_en": "Qadiriyya Sufi Order",
-    "description_en": "The oldest and most widespread Sufi order (tariqa), founded by Abdul Qadir al-Jilani (1077-1166 CE) in Baghdad. The Qadiriyya emphasizes the purification of the self through dhikr (remembrance of God), adherence to the Shariah, and spiritual guidance under a shaykh. It spread across the Muslim world from West Africa to Southeast Asia and has millions of adherents today. The order is known for its inclusive approach and its scholars' contributions to both exoteric and esoteric Islamic sciences.",
-    "status": "active",
+    "name_en": "Qadiriyya",
+    "parent_sect_id": 17,
+    "parent_sect_slug": "sufi-orders",
+    "category": "sufi",
+    "founded_year_ce": 1166,
+    "founder_name": "Abd al-Qadir al-Jilani",
+    "description_en": "The oldest and one of the most widespread Sufi orders, named after Abd al-Qadir al-Jilani (1077–1166 CE) of Baghdad. Has tens of millions of followers across Africa, South Asia, and the Middle East. The order emphasizes the practice of dhikr and service to creation as spiritual disciplines. Abd al-Qadir al-Jilani himself is venerated to a degree that has crossed into grave worship in many branches of the order.",
+    "status": "deviant",
     "key_beliefs": [
-      "Purification of the soul through dhikr and spiritual exercises",
-      "Strict adherence to Shariah alongside the spiritual path",
-      "Chain of spiritual authority (silsilah) tracing back to the Prophet",
-      "Importance of a living spiritual guide (shaykh/murshid)",
-      "Service to humanity as an expression of devotion to God"
+      "Silsilah traced to Abd al-Qadir al-Jilani then to the Prophet ﷺ via Ali ibn Abi Talib",
+      "Abd al-Qadir al-Jilani considered a Qutb (Pole) of the universe, with cosmic spiritual authority",
+      "Dhikr sessions as the primary spiritual practice",
+      "Visitation of Abd al-Qadir's tomb and seeking his intercession (widespread in popular practice)"
+    ],
+    "scholarly_evaluation": "The order's bid'ah institution aside, the primary theological concern is the popular veneration of Abd al-Qadir al-Jilani that has evolved in many branches into grave worship and invocation of the dead — both of which are shirk per Ahl us-Sunnah. Abd al-Qadir al-Jilani himself was a Hanbali scholar whose authenticated writings are free of these excesses — they were added by later followers.",
+    "key_figures": [
+      "Abd al-Qadir al-Jilani (1077–1166 CE)"
+    ],
+    "sources": [
+      "Futuh al-Ghayb (Abd al-Qadir al-Jilani — authentic works)",
+      "Iqtida al-Sirat al-Mustaqim (Ibn Taymiyyah)"
     ]
   },
   {
     "id": 34,
     "slug": "naqshbandiyya",
     "name_ar": "النقشبندية",
-    "name_en": "Naqshbandiyya Sufi Order",
-    "description_en": "A major Sufi order tracing its spiritual lineage through Abu Bakr al-Siddiq. Named after Baha al-Din Naqshband (1318-1389 CE) of Bukhara, the order emphasizes silent dhikr (remembrance within the heart), strict adherence to the Sunnah, and active engagement with society rather than withdrawal. The Naqshbandiyya has been particularly influential in Central Asia, the Indian subcontinent, Turkey, the Caucasus, and Southeast Asia. Many of its shaykhs have been politically active.",
-    "status": "active",
+    "name_en": "Naqshbandiyya",
+    "parent_sect_id": 17,
+    "parent_sect_slug": "sufi-orders",
+    "category": "sufi",
+    "founded_year_ce": 1389,
+    "founder_name": "Baha-ud-Din Naqshband Bukhari",
+    "description_en": "A major Sufi order founded by Baha-ud-Din Naqshband Bukhari (1318–1389 CE) in Central Asia. One of the most influential orders globally, with major presence in Central Asia, Turkey, the Indian subcontinent, and the Caucasus. Known for silent dhikr (khafi) rather than audible group dhikr. Has historically been involved in political resistance movements.",
+    "status": "deviant",
     "key_beliefs": [
-      "Silent dhikr (khafi) rather than vocal remembrance",
-      "Strict adherence to the Sunnah and Shariah",
-      "Spiritual lineage through Abu Bakr (unlike most orders through Ali)",
-      "Active social and sometimes political engagement",
-      "Awareness of God's presence in every moment (hush dar dam)"
+      "Silsilah claimed through Abu Bakr al-Siddiq (unique among orders)",
+      "Silent (khafi) dhikr as the primary spiritual practice",
+      "Muraqabah (meditation) as a spiritual station",
+      "Strong emphasis on adherence to the Sunnah outwardly"
+    ],
+    "scholarly_evaluation": "The bid'ah of the organized tariqah institution applies here as with other orders. The Naqshbandiyya's outward emphasis on Sunnah adherence is noted — some sub-branches are closer to orthodox practice than others. The claim of silsilah through Abu Bakr al-Siddiq is contested historically.",
+    "key_figures": [
+      "Baha-ud-Din Naqshband (1318–1389 CE)",
+      "Ahmad Sirhindi (1564–1624 CE) — major reforming figure"
+    ],
+    "sources": [
+      "Al-Maktubat (Ahmad Sirhindi)",
+      "Al-I'tisam (al-Shatibi)"
     ]
   },
   {
     "id": 35,
     "slug": "chishtiyya",
-    "name_ar": "الجشتية",
-    "name_en": "Chishtiyya Sufi Order",
-    "description_en": "A major Sufi order prominent in South Asia, founded by Mu'in al-Din Chishti (1141-1236 CE) who settled in Ajmer, India. The Chishtiyya is known for its emphasis on love, tolerance, openness to all people regardless of religion or social status, and the use of devotional music (sama/qawwali). The order played a crucial role in the spread of Islam in the Indian subcontinent through peaceful persuasion, charitable work, and spiritual charisma rather than political power.",
-    "status": "active",
+    "name_ar": "الچشتية",
+    "name_en": "Chishtiyya",
+    "parent_sect_id": 17,
+    "parent_sect_slug": "sufi-orders",
+    "category": "sufi",
+    "founded_year_ce": 1142,
+    "founder_name": "Moinuddin Chishti",
+    "description_en": "A Sufi order founded in Ajmer, India by Moinuddin Chishti (d. 1236 CE). One of the most popular orders in South Asia, known for the use of qawwali (devotional music) as a spiritual practice, and the veneration of shrines (dargahs) of Sufi saints. The order holds that music and sama' (listening to spiritual music) are legitimate paths to spiritual states.",
+    "status": "deviant",
     "key_beliefs": [
-      "Love and devotion as the primary path to God",
-      "Service to all humanity regardless of faith or status",
-      "Renunciation of worldly wealth and political power",
-      "Use of devotional music (sama) as a spiritual practice",
-      "Generosity and feeding the hungry as acts of worship"
+      "Sama' (listening to spiritual music including qawwali) as a path to spiritual states",
+      "Veneration of the shrines of Sufi saints (dargahs)",
+      "Universal love as the core spiritual value",
+      "Seeking intercession from the saints buried in dargahs"
+    ],
+    "scholarly_evaluation": "The use of music as a spiritual practice and the veneration of saint shrines are both condemned by Ahl us-Sunnah. The Prophet ﷺ forbade musical instruments in numerous hadiths (Sahih al-Bukhari 5590) and forbade building structures over graves (Sahih Muslim 969). Dargah visitation practices — including seeking intercession from the dead — constitute shirk per Athari aqeedah.",
+    "key_figures": [
+      "Moinuddin Chishti (d. 1236 CE)",
+      "Nizamuddin Auliya (1238–1325 CE)"
+    ],
+    "sources": [
+      "Sahih al-Bukhari 5590 (musical instruments)",
+      "Sahih Muslim 969 (graves)",
+      "Iqtida al-Sirat al-Mustaqim (Ibn Taymiyyah)"
     ]
   },
   {
     "id": 36,
     "slug": "tijaniyya",
     "name_ar": "التيجانية",
-    "name_en": "Tijaniyya Sufi Order",
-    "description_en": "A major Sufi order founded by Ahmad al-Tijani (1735-1815 CE) in North Africa. The Tijaniyya became the most widespread Sufi brotherhood in West Africa and has significant followings in North Africa, East Africa, and parts of Southeast Asia. It emphasizes simplicity of practice, devotion to the Prophet Muhammad through specific litanies (awrad), and the accessibility of spiritual progress to ordinary Muslims. Its members historically played important roles in trade, education, and anti-colonial resistance.",
-    "status": "active",
+    "name_en": "Tijaniyya",
+    "parent_sect_id": 17,
+    "parent_sect_slug": "sufi-orders",
+    "category": "sufi",
+    "founded_year_ce": 1781,
+    "founder_name": "Ahmad ibn Muhammad al-Tijani",
+    "description_en": "A Sufi order founded in North Africa by Ahmad al-Tijani (1735–1815 CE). Highly influential in West Africa (Senegal, Mali, Nigeria, Mauritania). Claims that the founder received the Salat al-Fatih directly from the Prophet ﷺ in a waking vision, that this prayer is equivalent to 600,000 recitations of the entire Quran, and that members of the order are guaranteed paradise regardless of their deeds. The order also forbids its members from participating in other Sufi orders.",
+    "status": "deviant",
     "key_beliefs": [
-      "Exclusive membership (members cannot belong to other orders)",
-      "Specific litanies (wird) prescribed by the founder",
-      "Emphasis on love and devotion to the Prophet Muhammad",
-      "Accessibility of spiritual attainment to ordinary believers",
-      "Important role in education and community building"
+      "Ahmad al-Tijani received the Salat al-Fatih directly from the Prophet ﷺ in a waking vision",
+      "The Salat al-Fatih is equivalent to 600,000 recitations of the entire Quran",
+      "Members of the order are guaranteed paradise",
+      "Exclusive membership — joining another tariqah is forbidden",
+      "Ahmad al-Tijani claimed the title of Khatm al-Awliya (Seal of the Awliya)"
+    ],
+    "scholarly_evaluation": "Among the more severely condemned Sufi orders by Ahl us-Sunnah scholars. The claim of receiving revelation or hadith directly from the Prophet ﷺ in a waking vision after the Prophet's death contradicts the closure of prophethood and is itself a deviant innovation. The guarantee of paradise for order members regardless of deeds contradicts numerous Quranic verses and hadiths. Extensively criticized by Mauritanian and Senegalese Salafi scholars.",
+    "key_figures": [
+      "Ahmad ibn Muhammad al-Tijani (1735–1815 CE)"
+    ],
+    "sources": [
+      "Jawahir al-Ma'ani (Ali Harazim — primary Tijaniyya text)",
+      "Al-I'tisam (al-Shatibi)"
     ]
   },
   {
     "id": 37,
     "slug": "shadhiliyya",
     "name_ar": "الشاذلية",
-    "name_en": "Shadhiliyya Sufi Order",
-    "description_en": "A major Sufi order founded by Abu al-Hasan al-Shadhili (1196-1258 CE) in North Africa. The Shadhiliyya emphasizes combining spiritual practice with active worldly engagement, gratitude (shukr), and reliance on God (tawakkul). Unlike some orders, Shadhili practitioners are encouraged to maintain regular employment and family life. The order is widespread in North Africa, Egypt, the Levant, and has branches in East Africa and Southeast Asia. Ibn Ata'illah al-Iskandari, author of al-Hikam, was a prominent Shadhili master.",
-    "status": "active",
+    "name_en": "Shadhiliyya",
+    "parent_sect_id": 17,
+    "parent_sect_slug": "sufi-orders",
+    "category": "sufi",
+    "founded_year_ce": 1258,
+    "founder_name": "Abu al-Hasan al-Shadhili",
+    "description_en": "A Sufi order founded by Abu al-Hasan al-Shadhili (1197–1258 CE) in North Africa. Prominent in Egypt, the Maghreb, and parts of the Levant. Known for its relative emphasis on engaging in the world rather than complete withdrawal, and for famous litanies (awrad) such as the Hizb al-Bahr attributed to al-Shadhili.",
+    "status": "deviant",
     "key_beliefs": [
-      "Spiritual practice integrated with worldly engagement",
-      "Gratitude and contentment as spiritual virtues",
-      "No requirement to wear distinctive clothing or withdraw from society",
-      "Emphasis on inner spiritual states over external practices",
-      "Balance between hope in God's mercy and fear of His justice"
+      "Spiritual path through inner purification (tazkiyah) combined with worldly engagement",
+      "Awrad (litanies) transmitted through the silsilah as a spiritual practice",
+      "Al-Shadhili taught that the external shari'ah must be maintained alongside inner spiritual work",
+      "Hierarchical spiritual stations (maqamat) leading to proximity to Allah"
+    ],
+    "scholarly_evaluation": "The Shadhiliyya is considered one of the more moderate Sufi orders historically, with al-Shadhili himself emphasizing shari'ah adherence. The bid'ah of the organized tariqah institution still applies. Individual practices within branches vary — some have developed grave veneration practices condemned by Ahl us-Sunnah.",
+    "key_figures": [
+      "Abu al-Hasan al-Shadhili (1197–1258 CE)",
+      "Ibn Ata Allah al-Iskandari (d. 1309 CE) — author of al-Hikam al-Ata'iyyah"
+    ],
+    "sources": [
+      "Al-Hikam al-Ata'iyyah (Ibn Ata Allah al-Iskandari)",
+      "Al-I'tisam (al-Shatibi)"
     ]
   },
   {
@@ -728,29 +806,222 @@
     "slug": "mevlevi",
     "name_ar": "المولوية",
     "name_en": "Mevlevi Order (Whirling Dervishes)",
-    "description_en": "A Sufi order founded by the followers of Jalal al-Din al-Rumi (1207-1273 CE) in Konya, Turkey. Famous for the Sema ceremony, a meditative spinning dance that represents the soul's journey toward God. The Mevlevi tradition emphasizes divine love, poetry, music, and the arts as vehicles for spiritual transformation. The order was closely associated with Ottoman court culture and produced many scholars, poets, and musicians. Though officially dissolved with the Turkish Republic's banning of Sufi orders in 1925, the tradition continues.",
-    "status": "active",
+    "parent_sect_id": 17,
+    "parent_sect_slug": "sufi-orders",
+    "category": "sufi",
+    "founded_year_ce": 1273,
+    "founder_name": "Jalal al-Din Rumi",
+    "description_en": "A Sufi order founded in Konya (present-day Turkey) based on the teachings of Jalal al-Din Rumi (1207–1273 CE). Famous for the Sema ceremony — a ritualistic whirling dance performed as a form of dhikr. Rumi's Persian poetry (the Masnavi) is beloved across the Muslim world and beyond, though his works contain philosophical positions that scholars have contested, including elements influenced by Neo-Platonic and pantheistic thought.",
+    "status": "deviant",
     "key_beliefs": [
-      "Divine love as the fundamental spiritual reality",
-      "Sema (whirling ceremony) as a form of moving meditation and dhikr",
-      "Poetry and music as vehicles for spiritual expression",
-      "Universal compassion and tolerance toward all creation",
-      "Knowledge of self as the path to knowledge of God"
+      "Sema (whirling dance) as a form of worship and spiritual practice",
+      "Universal love as the path to Allah — 'Come, come, whoever you are'",
+      "Rumi's Masnavi as a spiritual guide",
+      "The soul's longing for its divine origin as the core spiritual theme"
+    ],
+    "scholarly_evaluation": "The Sema ceremony (ritual whirling as worship) has no basis in the Sunnah and is bid'ah. Rumi's Masnavi contains both genuine spiritual insight and philosophically problematic material — including statements that have been interpreted as wahdat al-wujud (pantheism/union with God), which is considered kufr by many Ahl us-Sunnah scholars. The order is prominent in Turkey today as a cultural institution and UNESCO intangible heritage, which has further secularized it.",
+    "key_figures": [
+      "Jalal al-Din Rumi (1207–1273 CE)",
+      "Sultan Walad (Rumi's son, organized the order)"
+    ],
+    "sources": [
+      "Al-Masnavi (Rumi)",
+      "Iqtida al-Sirat al-Mustaqim (Ibn Taymiyyah)"
     ]
   },
   {
-    "id": 39,
-    "slug": "progressive-islam",
-    "name_ar": "الإسلام التقدمي",
-    "name_en": "Progressive Islam",
-    "description_en": "A contemporary movement within Islam that emphasizes ijtihad (independent reasoning), social justice, gender equality, human rights, and the reinterpretation of Islamic texts in light of modern contexts. Progressive Muslims argue that the Quran's message of justice and equality must be read through its ethical principles rather than only through the lens of 7th-century Arabian social norms. The movement is diverse and includes scholars, activists, and intellectuals primarily in Western countries and some Muslim-majority nations.",
-    "status": "active",
+    "id": 18,
+    "slug": "salafi",
+    "name_ar": "السلفية",
+    "name_en": "Salafi Movement",
+    "category": "contemporary",
+    "founded_year_ce": 1700,
+    "description_en": "A reformist movement within Ahl us-Sunnah calling for a return to the methodology of the Salaf al-Salih (pious predecessors) in all matters of creed, worship, and practice. The Salafi methodology is not a new sect but a call to return to the Athari approach of the early Muslims. Major scholars associated with this methodology include Ibn Taymiyyah (1263–1328 CE), Ibn Abd al-Wahhab (1703–1792 CE), and 20th-century scholars such as Ibn Baz, al-Albani, and Ibn Uthaymin.",
+    "status": "mainstream",
     "key_beliefs": [
-      "Emphasis on the ethical principles of the Quran over literal readings",
-      "Gender equality and women's leadership in religious spaces",
-      "Interfaith dialogue and pluralism",
-      "Human rights as compatible with Islamic principles",
-      "Critical engagement with the Islamic scholarly tradition"
+      "Return to the Quran and Sunnah upon the methodology of the Companions",
+      "Rejection of taqlid (blind following) in favor of following evidence",
+      "Strict Athari aqeedah — affirming Allah's attributes without ta'wil",
+      "Rejection of bid'ah in worship practices",
+      "Varying positions on political engagement — generally quietist (Madkhali) to activist (Muslim Brotherhood-adjacent)"
+    ],
+    "scholarly_evaluation": "The Salafi call — at its core — is identical to the call of Ahl us-Sunnah throughout history. It is a reform movement, not a new sect. However, the label 'Salafi' has been claimed by groups with varying methodologies, including some who have adopted Kharijite-adjacent political positions (takfiri Salafism, Salafi-jihadism) — which are entirely condemned by mainstream Salafi scholars and are not part of the Salafi methodology.",
+    "key_figures": [
+      "Ibn Taymiyyah (1263–1328 CE)",
+      "Muhammad ibn Abd al-Wahhab (1703–1792 CE)",
+      "Shaykh Ibn Baz (1910–1999 CE)",
+      "Shaykh al-Albani (1914–1999 CE)",
+      "Shaykh Ibn Uthaymin (1929–2001 CE)"
+    ],
+    "sources": [
+      "Al-Aqeedah al-Wasitiyyah (Ibn Taymiyyah)",
+      "Kitab al-Tawhid (Muhammad ibn Abd al-Wahhab)",
+      "Silsilah al-Ahadith al-Sahihah (al-Albani)"
+    ]
+  },
+  {
+    "id": 43,
+    "slug": "ahl-e-hadith",
+    "name_ar": "أهل الحديث",
+    "name_en": "Ahl-e-Hadith (South Asian)",
+    "category": "contemporary",
+    "founded_year_ce": 1860,
+    "description_en": "A reformist movement that emerged in 19th-century South Asia, closely paralleling the Salafi movement and sharing its core methodology: return to Quran and Sunnah, rejection of strict madhab taqlid, and Athari aqeedah. Distinguished from the Deobandi and Barelvi movements by its emphasis on following authenticated hadith over traditional madhab positions and its rejection of much of popular South Asian religious practice.",
+    "status": "mainstream",
+    "key_beliefs": [
+      "Following the Quran and Sunnah directly without rigid madhab taqlid",
+      "Athari aqeedah — close alignment with the Hanbali and Salafi positions",
+      "Rejection of Sufi practices, shrine visitation, and mawlid celebrations",
+      "Use of authenticated hadith as the primary criterion in legal disputes"
+    ],
+    "scholarly_evaluation": "Within Ahl us-Sunnah. The Ahl-e-Hadith movement's core call is the same as the Salafi and Hanbali positions on aqeedah and hadith-adherence. The label does not refer to early hadith scholars (Imam Ahmad, al-Bukhari, etc.) but to this specific South Asian reformist movement. Its positions on aqeedah and rejection of bid'ah are in line with mainstream Ahl us-Sunnah.",
+    "key_figures": [
+      "Siddiq Hasan Khan (1832–1890 CE)",
+      "Shams al-Haq Azimabadi (1857–1911 CE)"
+    ],
+    "sources": [
+      "Al-Husn al-Uswah (Siddiq Hasan Khan)",
+      "Awn al-Ma'bud (Shams al-Haq Azimabadi)"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "deobandi",
+    "name_ar": "الديوبندية",
+    "name_en": "Deobandi",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "contemporary",
+    "founded_year_ce": 1867,
+    "founder_name": "Muhammad Qasim Nanautawi and Rashid Ahmad Gangohi",
+    "description_en": "A major Islamic reform movement founded in Deoband, India in 1867 CE, named after the Darul Uloom Deoband seminary. Emerged as a response to British colonial rule and the decline of Muslim political power. Follows the Hanafi madhab in fiqh and is primarily Maturidi in aqeedah, but has strong Deobandi positions on various issues including the prohibition of mawlid celebrations and specific practices it considers bid'ah. Has significant presence in South Asia, the UK, and South Africa.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Strict Hanafi jurisprudence with rejection of practices considered bid'ah",
+      "Maturidi aqeedah with some Athari-adjacent positions",
+      "Strong emphasis on hadith studies through traditional institutions",
+      "Rejection of many popular South Asian religious practices"
+    ],
+    "scholarly_evaluation": "The Deobandi movement is positioned on the border of Ahl us-Sunnah. Its core call to follow the Sunnah and reject clear innovations is sound. However, scholarly concerns relate to: (1) Specific statements in early Deobandi texts (Barahin-e-Qati'ah, Hifzul Iman) that appear to make impermissible comparisons between the Prophet's ﷺ knowledge and others — condemned by many Ahl us-Sunnah scholars including Ahmad Rida Khan. (2) Affiliation with Sufi tariqahs (Chishti, Naqshbandi, etc.) — the same bid'ah applies. (3) Some positions on the permissibility of certain practices remain contested. The movement overall is closer to Ahl us-Sunnah than the Barelvi school but is not free of issues.",
+    "key_figures": [
+      "Muhammad Qasim Nanautawi (1832–1880 CE)",
+      "Rashid Ahmad Gangohi (1829–1905 CE)",
+      "Ashraf Ali Thanvi (1863–1943 CE)"
+    ],
+    "sources": [
+      "Fataawa Rashidiyyah (Rashid Ahmad Gangohi)",
+      "Bahishti Zewar (Ashraf Ali Thanvi)"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "barelvi",
+    "name_ar": "البريلوية",
+    "name_en": "Barelvi",
+    "parent_sect_id": 1,
+    "parent_sect_slug": "ahl-us-sunnah",
+    "category": "contemporary",
+    "founded_year_ce": 1904,
+    "founder_name": "Ahmad Rida Khan Barelvi",
+    "description_en": "A major Islamic movement founded by Ahmad Rida Khan (1856–1921 CE) in Bareilly, India. Characterized by strong veneration of the Prophet ﷺ and Islamic saints, Mawlid celebrations, shrine visitation (urs), and extensive Sufi practices. Dominant in the rural areas of Pakistan, Bangladesh, and parts of the UK. Strongly opposed to the Deobandi and Ahl-e-Hadith movements, issuing takfir against early Deobandi scholars.",
+    "status": "deviant",
+    "key_beliefs": [
+      "The Prophet ﷺ has knowledge of the unseen (ilm al-ghayb) — a divine-like attribute",
+      "Istighatha — seeking help from deceased saints in du'a (invoking the dead)",
+      "Mawlid celebrations as obligatory religious observance",
+      "Shrine visitation (urs) as a pious act",
+      "The Prophet ﷺ is present at gatherings where salawat is recited (hadir wa nazir)"
+    ],
+    "scholarly_evaluation": "Classified as deviant by Ahl us-Sunnah scholars due to specific theological positions. The core concerns are: (1) Istighatha — invoking deceased saints in du'a — is shirk per Athari aqeedah and the clear Quranic prohibition of calling upon other than Allah (al-Ahqaf 46:5). (2) Attributing knowledge of the unseen to the Prophet ﷺ contradicts explicit Quranic verses (al-A'raf 7:188, al-An'am 6:50). (3) The doctrine of hadir wa nazir (omnipresence of the Prophet ﷺ) contradicts Islamic monotheism. Individual Barelvi Muslims who love the Prophet ﷺ sincerely but do not knowingly commit shirk are not individually declared kafir — the doctrinal positions are what are evaluated.",
+    "key_figures": [
+      "Ahmad Rida Khan Barelvi (1856–1921 CE)",
+      "Pir Mehr Ali Shah (1859–1937 CE)"
+    ],
+    "sources": [
+      "Fatawa Afriqa (Ahmad Rida Khan)",
+      "Kitab al-Tawhid (Ibn Abd al-Wahhab) — for refutation of istighatha",
+      "Al-Quran 46:5 — calling upon those who cannot hear"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "tablighi-jamaat",
+    "name_ar": "جماعة التبليغ",
+    "name_en": "Tablighi Jamaat",
+    "parent_sect_id": 19,
+    "parent_sect_slug": "deobandi",
+    "category": "contemporary",
+    "founded_year_ce": 1927,
+    "founder_name": "Muhammad Ilyas Kandhlawi",
+    "description_en": "A grassroots Islamic missionary movement founded in Mewat, India in 1927 CE by Muhammad Ilyas Kandhlawi (1885–1944 CE). Emphasizes personal da'wah and revival through traveling in groups (khuruj) to mosques for three days, 40 days, or four months, calling Muslims back to prayer and basic Islamic practice. One of the largest Islamic movements in the world, with tens of millions of participants globally. Its 'Six Principles' (usul al-sitta) focus on kalima, salah, ilm wa dhikr, ikram al-Muslim, ikhlas al-niyyah, and dawah — largely avoiding political and controversial topics.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Six Principles (usul al-sitta) as the methodology of revival",
+      "Khuruj (going out) for da'wah as a primary worship act",
+      "Avoidance of political, controversial, and scholarly debate topics",
+      "Derived from the Deobandi school in aqeedah and fiqh"
+    ],
+    "scholarly_evaluation": "Classified as deviant primarily due to three concerns: (1) Affiliation with the Deobandi school's issues. (2) Excessive restriction of da'wah topics — the movement avoids teaching aqeedah and condemning shirk, which means participants may remain exposed to deviant beliefs while improving their practice. Major Salafi scholars (Ibn Baz, al-Albani, Ibn Uthaymin) praised the sincerity of the movement but identified the gap in aqeedah education as a serious problem. (3) Some members develop cult-like attachment to the movement. The movement itself contains many sincere Muslims seeking to practice their deen — individual participants are not declared deviant for joining.",
+    "key_figures": [
+      "Muhammad Ilyas Kandhlawi (1885–1944 CE)",
+      "Muhammad Zakariyya Kandhlawi (1898–1982 CE)"
+    ],
+    "sources": [
+      "Fada'il Amal (Muhammad Zakariyya Kandhlawi — primary Tablighi text, critiqued by scholars for weak and fabricated hadiths)",
+      "Cassette lectures of Ibn Baz on Tablighi Jamaat"
+    ]
+  },
+  {
+    "id": 45,
+    "slug": "muslim-brotherhood",
+    "name_ar": "الإخوان المسلمون",
+    "name_en": "Muslim Brotherhood (Ikhwan al-Muslimun)",
+    "category": "contemporary",
+    "founded_year_ce": 1928,
+    "founder_name": "Hasan al-Banna",
+    "description_en": "A pan-Islamist political and social movement founded in Egypt in 1928 CE by Hasan al-Banna (1906–1949 CE). One of the most influential Islamist political organizations in the 20th century. Operates across dozens of countries. Emphasizes political participation to establish Islamic governance, social welfare work, and education. Its methodology and theological foundations have been extensively debated by Ahl us-Sunnah scholars.",
+    "status": "deviant",
+    "key_beliefs": [
+      "'Islam is the solution' — Islamic governance as the primary goal",
+      "Political organization and participation as a religious duty",
+      "Gradual, democratic approach to establishing Islamic law",
+      "Social welfare, education, and charity as tools of influence"
+    ],
+    "scholarly_evaluation": "Ahl us-Sunnah scholars have raised several concerns: (1) Prioritization of political action over aqeedah rectification — al-Banna famously said 'We will not dispute in matters of fiqh' which led to coalition with groups of dubious aqeedah. (2) Hasan al-Banna's methodological principle of broad coalition means the organization has included Ash'ari, Sufi, and theologically deviant individuals without aqeedah correction. (3) The organization's alliance with the Muslim Brotherhood in some countries with groups that perform shirk (Sufi orders, etc.) is criticized. Scholars including al-Albani, Ibn Baz, and Ibn Uthaymin expressed concerns about the methodology while not necessarily declaring individual members deviant.",
+    "key_figures": [
+      "Hasan al-Banna (1906–1949 CE)",
+      "Sayyid Qutb (1906–1966 CE) — later radical phase",
+      "Yusuf al-Qaradawi (1926–2022 CE)"
+    ],
+    "sources": [
+      "Majmuah Rasa'il Hasan al-Banna",
+      "Al-Albani's recorded critiques of the Ikhwan methodology"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "jamaat-e-islami",
+    "name_ar": "جماعة إسلامي",
+    "name_en": "Jamaat-e-Islami",
+    "category": "contemporary",
+    "founded_year_ce": 1941,
+    "founder_name": "Sayyid Abul Ala Mawdudi",
+    "description_en": "A major Islamist political movement founded in British India in 1941 CE by Sayyid Abul Ala Mawdudi (1903–1979 CE). Currently active in Pakistan, Bangladesh, India, and Kashmir. Shares many methodological similarities with the Muslim Brotherhood and has similar scholarly critiques. Mawdudi's interpretations of Islamic governance and his comments on the Companions of the Prophet ﷺ have been specifically criticized by Ahl us-Sunnah scholars.",
+    "status": "deviant",
+    "key_beliefs": [
+      "Islamic state as the primary goal of the Islamic movement",
+      "Sovereignty (hakimiyyah) belongs to Allah — governments not ruling by Shari'ah are illegitimate",
+      "Gradual revolution through da'wah and political work",
+      "Comprehensive interpretation of Islam as a political system"
+    ],
+    "scholarly_evaluation": "Scholarly concerns include: (1) Mawdudi's statements critical of the Companions — including remarks about Uthman ibn Affan's governance — which were condemned by major scholars including Shaykh al-Albani and Mufti Shafi Usmani. (2) His concept of hakimiyyah (divine sovereignty) was critiqued by Ibn Baz and others for its political implications. (3) His tafsir (Tafhim al-Quran) contains positions criticized by classical scholars. His sincere contribution to Islamic scholarship is acknowledged, but specific positions are rejected.",
+    "key_figures": [
+      "Sayyid Abul Ala Mawdudi (1903–1979 CE)"
+    ],
+    "sources": [
+      "Tafhim al-Quran (Mawdudi)",
+      "Al-Albani's critiques of Mawdudi",
+      "Mufti Shafi Usmani's response to Mawdudi on the Companions"
     ]
   },
   {
@@ -758,298 +1029,243 @@
     "slug": "hizb-ut-tahrir",
     "name_ar": "حزب التحرير",
     "name_en": "Hizb ut-Tahrir",
-    "description_en": "An international pan-Islamic political organization founded by Taqi al-Din al-Nabhani (1909-1977) in Jerusalem in 1953. Its primary goal is the re-establishment of the Islamic Caliphate as a unified political entity for the Muslim world. The organization is notable for its intellectual approach, producing detailed constitutional proposals for an Islamic state. It rejects both Western democracy and violent methods, advocating instead for societal transformation through ideological change. It is banned in many countries but operates openly in others.",
-    "status": "active",
+    "category": "contemporary",
+    "founded_year_ce": 1953,
+    "founder_name": "Taqiuddin al-Nabhani",
+    "description_en": "A pan-Islamist political party founded in Jerusalem in 1953 CE by Taqiuddin al-Nabhani (1909–1977 CE). Aims to re-establish the Islamic Caliphate through political work, explicitly rejecting armed jihad as a current methodology. Active in dozens of countries. Banned in many Muslim-majority countries. Known for its distinctive ideological training program.",
+    "status": "deviant",
     "key_beliefs": [
-      "Obligation to re-establish the Caliphate",
-      "Rejection of nation-states as un-Islamic divisions of the Ummah",
-      "Detailed political-economic system based on Islamic sources",
-      "Rejection of both capitalism and socialism",
-      "Change through intellectual and political means, not violence"
-    ]
-  },
-  {
-    "id": 41,
-    "slug": "barelvi-sunni-movement",
-    "name_ar": "البريلوية",
-    "name_en": "Barelvi Movement",
-    "description_en": "A Sunni revivalist movement originating in 19th century British India, founded by Ahmad Raza Khan of Bareilly. It emphasizes love for the Prophet Muhammad, celebration of his birthday (Mawlid), intercession through saints, and Sufi practices within a Hanafi legal framework.",
-    "status": "active",
-    "key_beliefs": [
-      "Love and veneration of the Prophet",
-      "Celebration of Mawlid an-Nabi",
-      "Intercession (tawassul) through saints",
-      "Hanafi jurisprudence",
-      "Sufi spiritual practices"
-    ]
-  },
-  {
-    "id": 42,
-    "slug": "deobandi-movement",
-    "name_ar": "الديوبندية",
-    "name_en": "Deobandi Movement",
-    "description_en": "A Sunni Islamic revivalist movement that originated at the Darul Uloom Deoband seminary in India in 1866. It emphasizes strict adherence to the Hanafi school, hadith-based scholarship, and opposition to religious innovations.",
-    "status": "active",
-    "key_beliefs": [
-      "Strict Hanafi jurisprudence",
-      "Emphasis on hadith studies",
-      "Opposition to bidah",
-      "Maturidi theology",
-      "Moderate Sufism"
-    ]
-  },
-  {
-    "id": 43,
-    "slug": "ahl-e-hadith-south-asia",
-    "name_ar": "أهل الحديث",
-    "name_en": "Ahl-e-Hadith (South Asian)",
-    "description_en": "A Sunni Islamic movement in South Asia that rejects strict adherence to any single madhab, advocating direct reliance on the Quran and authenticated hadith.",
-    "status": "active",
-    "key_beliefs": [
-      "Direct reliance on Quran and Hadith",
-      "Rejection of strict taqlid",
-      "Individual ijtihad",
-      "Opposition to grave veneration",
-      "Salafi-influenced theology"
-    ]
-  },
-  {
-    "id": 44,
-    "slug": "tablighi-jamaat-dawah",
-    "name_ar": "جماعة التبليغ",
-    "name_en": "Tablighi Jamaat",
-    "description_en": "An Islamic missionary and revival movement founded by Muhammad Ilyas al-Kandhlawi in 1926 in India. One of the largest transnational religious movements in the world.",
-    "status": "active",
-    "key_beliefs": [
-      "Six points of tabligh",
-      "Grassroots dawah among Muslims",
-      "Spiritual self-reformation",
-      "Deobandi-influenced practice",
-      "Apolitical stance"
-    ]
-  },
-  {
-    "id": 45,
-    "slug": "muslim-brotherhood",
-    "name_ar": "الإخوان المسلمون",
-    "name_en": "Muslim Brotherhood",
-    "description_en": "A transnational Sunni Islamist organization founded in Egypt in 1928 by Hassan al-Banna. It advocates the implementation of Islamic principles in public life through gradual social and political engagement.",
-    "status": "active",
-    "key_beliefs": [
-      "Comprehensive Islamic governance",
-      "Gradual social reform",
-      "Political engagement",
-      "Islamic education and welfare",
-      "Pan-Islamic unity"
-    ]
-  },
-  {
-    "id": 46,
-    "slug": "jamaat-e-islami",
-    "name_ar": "الجماعة الإسلامية",
-    "name_en": "Jamaat-e-Islami",
-    "description_en": "An Islamist political party and movement founded by Abul Ala Maududi in 1941. It advocates for Islamic state governance by Shariah law.",
-    "status": "active",
-    "key_beliefs": [
-      "Islamic state implementation",
-      "Sovereignty belongs to Allah alone",
-      "Shariah-based governance",
-      "Systematic Islamic education"
-    ]
-  },
-  {
-    "id": 47,
-    "slug": "rifai-sufi-order",
-    "name_ar": "الطريقة الرفاعية",
-    "name_en": "Rifa'i Sufi Order",
-    "description_en": "A Sufi order founded by Ahmad ar-Rifa'i (1118-1182 CE) in southern Iraq. One of the oldest Sufi orders, emphasizing humility and devotion.",
-    "status": "active",
-    "key_beliefs": [
-      "Spiritual humility",
-      "Devotion through dhikr",
-      "Chain of spiritual authority",
-      "Love of the Prophet",
-      "Charitable service"
-    ]
-  },
-  {
-    "id": 48,
-    "slug": "badawiyyah-sufi-order",
-    "name_ar": "الطريقة البدوية",
-    "name_en": "Badawiyyah Sufi Order",
-    "description_en": "A Sufi order founded by Ahmad al-Badawi (1199-1276 CE), centered in Tanta, Egypt. One of the largest Sufi orders in Egypt.",
-    "status": "active",
-    "key_beliefs": [
-      "Spiritual devotion and remembrance",
-      "Communal gatherings",
-      "Charitable works",
-      "Reverence for the awliya"
-    ]
-  },
-  {
-    "id": 49,
-    "slug": "nurcu-movement",
-    "name_ar": "حركة النور",
-    "name_en": "Nurcu Movement",
-    "description_en": "A faith-based movement originating from the teachings of Said Nursi (1877-1960) of Turkey. His Risale-i Nur addresses modern challenges to faith through rational and Quranic arguments.",
-    "status": "active",
-    "key_beliefs": [
-      "Renewal through Quranic reflection",
-      "Rational defense of Islamic belief",
-      "Positive action",
-      "Interfaith dialogue"
-    ]
-  },
-  {
-    "id": 50,
-    "slug": "gulen-hizmet-movement",
-    "name_ar": "حركة غولن",
-    "name_en": "Gulen Movement (Hizmet)",
-    "description_en": "A transnational civil society movement inspired by Fethullah Gulen, emphasizing education, interfaith dialogue, and charitable work. It became controversial after the 2016 attempted coup in Turkey.",
-    "status": "active",
-    "key_beliefs": [
-      "Education as service",
-      "Interfaith dialogue",
-      "Science and religion compatibility",
-      "Voluntary charitable service"
-    ]
-  },
-  {
-    "id": 51,
-    "slug": "nation-of-islam-movement",
-    "name_ar": "أمة الإسلام",
-    "name_en": "Nation of Islam",
-    "description_en": "An African American religious and political movement founded in Detroit in 1930. It combines Islamic terminology with Black nationalism and beliefs not found in mainstream Islam. After Elijah Muhammad's death, most members transitioned to orthodox Sunni Islam.",
-    "status": "active",
-    "key_beliefs": [
-      "Black empowerment",
-      "Racial theology (rejected by mainstream Islam)",
-      "Economic independence",
-      "Distinct from orthodox Islam"
-    ]
-  },
-  {
-    "id": 52,
-    "slug": "druze-community",
-    "name_ar": "الدروز",
-    "name_en": "Druze",
-    "description_en": "An esoteric monotheistic religious community that originated in the 11th century from Ismaili Islam. Found primarily in Lebanon, Syria, Israel, and Jordan. Considered separate from Islam by most scholars.",
-    "status": "active",
-    "key_beliefs": [
-      "Tawhid in unique interpretation",
-      "Reincarnation",
-      "Closed community",
-      "Not considered Islamic by most scholars"
-    ]
-  },
-  {
-    "id": 53,
-    "slug": "alawite-nusayri",
-    "name_ar": "العلويون النصيرية",
-    "name_en": "Alawites (Nusayris)",
-    "description_en": "A syncretic religion rooted in Shia Islam, primarily found in Syria. Incorporates elements from Christianity, Gnosticism, and pre-Islamic religions. Their status as Muslims is debated.",
-    "status": "active",
-    "key_beliefs": [
-      "Deification of Ali",
-      "Esoteric interpretation",
-      "Reincarnation",
-      "Status within Islam debated"
-    ]
-  },
-  {
-    "id": 54,
-    "slug": "alevism-turkey",
-    "name_ar": "العلوية التركية",
-    "name_en": "Alevism",
-    "description_en": "A heterodox Islamic tradition found primarily in Turkey and among Kurdish communities. Alevis venerate Ali but their practices differ significantly from both Sunni and Twelver Shia Islam.",
-    "status": "active",
-    "key_beliefs": [
-      "Veneration of Ali and Ahl al-Bayt",
-      "Cem worship gatherings",
-      "Inner spirituality over outward ritual",
-      "Gender equality in worship"
-    ]
-  },
-  {
-    "id": 55,
-    "slug": "quranist-movement",
-    "name_ar": "القرآنيون",
-    "name_en": "Quranists (Quran Alone)",
-    "description_en": "A group of Muslims who reject the authority of hadith as a source of Islamic law, relying solely on the Quran. This position is rejected by the vast majority of Muslim scholars.",
-    "status": "active",
-    "key_beliefs": [
-      "Quran as sole source",
-      "Rejection of hadith authority",
-      "Individual interpretation",
-      "Considered deviant by mainstream scholars"
-    ]
-  },
-  {
-    "id": 56,
-    "slug": "traditional-islam-movement",
-    "name_ar": "الإسلام التقليدي",
-    "name_en": "Traditional Islam Movement",
-    "description_en": "A contemporary movement advocating revival of traditional Islamic scholarship, including madhab adherence, Ash'ari/Maturidi theology, and Sufi spirituality. Prominent figures include Hamza Yusuf and Abdal Hakim Murad.",
-    "status": "active",
-    "key_beliefs": [
-      "Classical madhab adherence",
-      "Ash'ari or Maturidi theology",
-      "Tasawwuf as integral to Islam",
-      "Isnad-based scholarship"
+      "Re-establishment of the Caliphate as the single obligatory political goal",
+      "Rejection of democracy as a system of governance",
+      "Rejection of nation-states and national borders as un-Islamic",
+      "Political da'wah and party work as the exclusive methodology — armed force explicitly rejected in current phase"
+    ],
+    "scholarly_evaluation": "Classified as deviant due to: (1) Its theological positions — al-Nabhani's writings contain Mu'tazilah-adjacent positions on divine attributes and human reason. (2) Prioritization of political methodology over aqeedah rectification — the same problem as the Muslim Brotherhood. (3) Declaring Muslim rulers kafir or agents of non-Muslims without sound evidence — a Kharijite-adjacent position. Banned as a terrorist organization in Russia, Germany, and multiple Muslim countries.",
+    "key_figures": [
+      "Taqiuddin al-Nabhani (1909–1977 CE)",
+      "Abdul Qadeem Zallum (1924–2003 CE)"
+    ],
+    "sources": [
+      "Al-Shakhsiyyah al-Islamiyyah (al-Nabhani)",
+      "Al-Dawlah al-Islamiyyah (al-Nabhani)"
     ]
   },
   {
     "id": 57,
     "slug": "salafi-jihadism",
-    "name_ar": "السلفية الجهادية",
+    "name_ar": "الجهادية السلفية",
     "name_en": "Salafi-Jihadism",
-    "description_en": "A militant ideology combining Salafi theology with armed struggle. It is condemned by the vast majority of Muslim scholars and organizations and represents a tiny minority among Muslims globally.",
-    "status": "active",
+    "category": "contemporary",
+    "founded_year_ce": 1988,
+    "description_en": "A militant ideology combining Salafi theological language with Qutbist political theory (from Sayyid Qutb's late works Milestones and In the Shade of the Quran) and Abdullah Azzam's globalized jihad methodology. Applied through organizations including al-Qaeda (founded 1988 CE) and later ISIS/Daesh (founded 2013 CE). Represents a Kharijite methodology in modern form — declaring Muslim rulers and ordinary Muslims kafir, considering their blood lawful, and using extreme violence against Muslim civilians.",
+    "status": "deviant",
     "key_beliefs": [
-      "Armed struggle ideology",
-      "Takfir of Muslim rulers",
-      "Condemned by mainstream scholarship"
+      "Takfir of Muslim rulers and governments not ruling by Shari'ah",
+      "Offensive armed jihad against Muslim rulers, their supporters, and 'apostate' states",
+      "Extreme version of hakimiyyah — sovereignty in governance as a pillar of tawhid",
+      "Killing of Muslim civilians permissible as 'collateral damage' in pursuit of Islamic state"
+    ],
+    "scholarly_evaluation": "Condemned unanimously by Ahl us-Sunnah scholars as a modern manifestation of the Kharijite methodology. The Prophet ﷺ described the Khawarij as 'the worst of creation' (Sahih Muslim 1066). The Council of Senior Scholars of Saudi Arabia, al-Azhar, and major Islamic institutions worldwide have issued unanimous condemnations. Scholars note the irony that the movement uses 'Salafi' language while violating the most fundamental Salafi principle — following the path of the Companions, who did not rebel against Muslim rulers.",
+    "key_figures": [
+      "Sayyid Qutb (1906–1966 CE) — ideological foundations",
+      "Abdullah Azzam (1941–1989 CE) — globalized jihad theory",
+      "Osama bin Laden (1957–2011 CE) — al-Qaeda",
+      "Abu Bakr al-Baghdadi (1971–2019 CE) — ISIS/Daesh"
+    ],
+    "sources": [
+      "Sahih Muslim 1066 (Khawarij — worst of creation)",
+      "Council of Senior Scholars of Saudi Arabia — fatwa on terrorism",
+      "Al-Suyuf al-Batira (Ibn Baz — refutation of Kharijite methodology)"
     ]
   },
   {
-    "id": 58,
-    "slug": "madkhali-salafism",
-    "name_ar": "المدخلية",
-    "name_en": "Madkhali Salafism",
-    "description_en": "A strand of Salafism characterized by extreme loyalty to Muslim rulers and opposition to all political activism. Named after Saudi scholar Rabi al-Madkhali.",
-    "status": "active",
+    "id": 39,
+    "slug": "progressive-islam",
+    "name_ar": "الإسلام التقدمي",
+    "name_en": "Progressive Islam",
+    "category": "outside-fold",
+    "founded_year_ce": 1900,
+    "description_en": "A broad movement that seeks to reform or reinterpret Islam in light of modern liberal values, including gender equality in all aspects including prayer leadership and mixed-gender prayer, full acceptance of homosexuality, and rejection of classical scholarly consensus on fiqh and aqeedah. Rejects the authority of classical Islamic scholarship in favor of personal reinterpretation. Not a formal organization but a loose intellectual current with significant presence in Western academic contexts.",
+    "status": "rejected",
     "key_beliefs": [
-      "Absolute obedience to Muslim rulers",
-      "Opposition to political activism",
-      "Anti-revolutionary stance"
+      "Reinterpretation of Quranic verses and hadiths to align with liberal values",
+      "Rejection of the scholarly consensus on gender roles in prayer and Islamic law",
+      "Acceptance of sexual ethics contrary to unanimous Islamic scholarly consensus",
+      "Islamic law (shari'ah) is an ongoing human construction, not divine command"
+    ],
+    "scholarly_evaluation": "Outside the fold of Islam as a doctrinal position. The specific positions — denial of the authority of the Quran's clear rulings, rejection of the Prophet's ﷺ explicit teachings, and declaration that Islamic scholarly consensus is a cultural construct to be overridden — constitute a denial of the fundamental authority of the Quran and Sunnah. This is not a difference of ijtihad (scholarly interpretation) but a rejection of the sources themselves. Note: Ordinary Muslims who may hold confused opinions on some issues are not individually declared kafir — the doctrinal platform as described is what places 'Progressive Islam' as a movement outside the fold.",
+    "key_figures": [
+      "Amina Wadud (b. 1952 CE) — led mixed-gender prayer",
+      "Fazlur Rahman (1919–1988 CE) — Pakistani hermeneutic scholar"
+    ],
+    "sources": [
+      "Al-Quran 2:229, 4:34 — clear Quranic commands",
+      "Sahih al-Bukhari (on established sunnah practices)"
     ]
   },
   {
-    "id": 59,
-    "slug": "sufi-order-darqawiyyah",
-    "name_ar": "الطريقة الدرقاوية",
-    "name_en": "Darqawiyyah Order",
-    "description_en": "A North African Sufi order branch of the Shadhiliyyah, founded by Mulay al-Arabi al-Darqawi (1760-1823). It emphasizes poverty, detachment from the world, and intense spiritual exercises.",
-    "status": "active",
+    "id": 14,
+    "slug": "ahmadiyya",
+    "name_ar": "الأحمدية",
+    "name_en": "Ahmadiyya (Qadiani)",
+    "category": "outside-fold",
+    "founded_year_ce": 1889,
+    "founded_year_ah": 1306,
+    "founder_name": "Mirza Ghulam Ahmad",
+    "description_en": "A religious movement founded in Qadian, Punjab (British India) in 1889 CE by Mirza Ghulam Ahmad (1835–1908 CE), who claimed to be the promised Messiah and Mahdi, and later claimed prophethood. The movement is divided into two factions: Qadiani (claims Mirza Ghulam Ahmad was a full prophet) and Lahori (claims he was a reformer, not a prophet). Ahmadis consider themselves Muslim but are officially declared non-Muslim by Islamic law and the Pakistani constitution.",
+    "status": "rejected",
     "key_beliefs": [
-      "Spiritual poverty (faqr)",
-      "Detachment from worldly pleasures",
-      "Intense dhikr practice",
-      "Shadhili spiritual lineage"
+      "Mirza Ghulam Ahmad was a prophet after Muhammad ﷺ — the Promised Messiah and Mahdi",
+      "Jesus did not ascend to heaven but died in Kashmir",
+      "Rejection of physical jihad",
+      "British colonial rule supported as a legitimate authority for Muslims"
+    ],
+    "scholarly_evaluation": "Outside the fold of Islam by unanimous scholarly consensus across ALL Muslim groups — Sunni, Shia, and Sufi scholars alike. The Quran explicitly states Muhammad ﷺ is Khatam al-Nabiyyin (the Seal of the Prophets) (al-Ahzab 33:40). The Prophet ﷺ explicitly said there is no prophet after him (Sahih al-Bukhari 3455). Claiming prophethood after Muhammad ﷺ is an absolute violation of one of the most fundamental tenets of Islam, on which there is not even a minority scholarly opinion to the contrary. Declared non-Muslim by the Second Islamic Conference in Makkah (1974) and the Pakistani National Assembly (1974). In Pakistan the community is legally prohibited from calling themselves Muslim or performing Islamic practices.",
+    "key_figures": [
+      "Mirza Ghulam Ahmad (1835–1908 CE)"
+    ],
+    "sources": [
+      "Al-Quran 33:40 (Khatam al-Nabiyyin)",
+      "Sahih al-Bukhari 3455 (no prophet after me)",
+      "Resolution of the Second Islamic Conference, Makkah (1974)"
     ]
   },
   {
-    "id": 60,
-    "slug": "sufi-order-sanusiyyah",
-    "name_ar": "الطريقة السنوسية",
-    "name_en": "Sanusiyyah Order",
-    "description_en": "A North African Sufi order founded by Muhammad ibn Ali al-Sanusi (1787-1859). It combined Sufi spirituality with reform, education, and resistance against colonialism, particularly in Libya. The Sanusi order played a key role in Libyan independence.",
-    "status": "active",
+    "id": 15,
+    "slug": "nation-of-islam",
+    "name_ar": "أمة الإسلام",
+    "name_en": "Nation of Islam",
+    "category": "outside-fold",
+    "founded_year_ce": 1930,
+    "founder_name": "Wallace Fard Muhammad",
+    "description_en": "An African-American political and religious organization founded in Detroit, Michigan in 1930 CE by Wallace Fard Muhammad, who claimed to be Allah incarnate. Its theology bears no relationship to Islamic monotheism: it teaches that white people are a race of devils created by a scientist named Yakub, that Wallace Fard is Allah, that Elijah Muhammad is a prophet, and that black people are the original divine race. Malcolm X and Muhammad Ali were both associated with the NOI before leaving it for Ahl us-Sunnah Islam.",
+    "status": "rejected",
     "key_beliefs": [
-      "Sufi spiritual discipline",
-      "Reform and education",
-      "Anti-colonial resistance",
-      "Moderate Sufi practice"
+      "Wallace Fard Muhammad is Allah incarnate",
+      "Elijah Muhammad is a prophet of Allah",
+      "White people are genetically engineered 'blue-eyed devils'",
+      "Black people are the original divine race destined to rule",
+      "Racial separation as a religious imperative"
+    ],
+    "scholarly_evaluation": "Not Islam. The organization uses Islamic terminology but has no connection to Islamic monotheism, the Quran, the Prophet Muhammad ﷺ, or any recognized Muslim tradition. The claim that Wallace Fard is Allah, and that Elijah Muhammad is a prophet, violates both Tawhid (divine unity) and Khatam al-Nubuwwah (seal of prophethood) simultaneously. The racial theology has no basis in Islamic scripture whatsoever. Both Malcolm X (El-Hajj Malik el-Shabazz) and Imam Warith Deen Mohammed (Elijah Muhammad's son) left the NOI for mainstream Sunni Islam.",
+    "key_figures": [
+      "Wallace Fard Muhammad (founded NOI, claimed to be Allah)",
+      "Elijah Muhammad (1897–1975 CE — NOI leader, claimed prophethood)",
+      "Louis Farrakhan (b. 1933 CE — current leader)"
+    ],
+    "sources": [
+      "Sahih al-Bukhari 3455 — no prophet after Muhammad ﷺ",
+      "Al-Quran 49:13 — the nobility is in taqwa, not race",
+      "Malcolm X autobiography — his departure from NOI after Hajj"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "druze",
+    "name_ar": "الدروز",
+    "name_en": "Druze",
+    "category": "outside-fold",
+    "founded_year_ce": 1017,
+    "founded_year_ah": 408,
+    "founder_name": "Hamza ibn Ali ibn Ahmad",
+    "description_en": "A syncretic esoteric religion that emerged from Ismaili Shia Islam in 1017 CE, founded by Hamza ibn Ali and the Fatimid Caliph al-Hakim bi-Amr Allah (who declared himself divine). Incorporates elements of Islam, Neo-Platonism, Gnosticism, and pre-Islamic traditions. The Druze do not accept converts, do not follow the Five Pillars in the conventional sense (most do not pray, fast Ramadan, or perform Hajj), and consider their holy books secret. Concentrated in Lebanon, Syria, and Israel.",
+    "status": "rejected",
+    "key_beliefs": [
+      "Al-Hakim bi-Amr Allah (Fatimid Caliph, d. 1021 CE) is the final manifestation of Allah",
+      "Reincarnation of souls (tanasukh) — denied by all Islamic scholarship",
+      "Secret esoteric texts accessible only to the initiated (uqqal)",
+      "The Five Pillars are allegorized — most Druze do not perform salah, Hajj, or fasting"
+    ],
+    "scholarly_evaluation": "Outside the fold of Islam by scholarly consensus. Declared kafir by Ibn Taymiyyah (Majmu' al-Fatawa 35:161), al-Qurtubi, Ibn Hajar al-Asqalani, and all major Ahl us-Sunnah scholars. Their veneration of al-Hakim as divine, incorporation of reincarnationism, and abandonment of the Five Pillars constitute a departure from Islam that no minority scholarly opinion has ever defended. The Druze themselves do not claim to be Muslim in most contexts.",
+    "key_figures": [
+      "Al-Hakim bi-Amr Allah (985–1021 CE — venerated as divine",
+      "Hamza ibn Ali (founder, d. 1021 CE)"
+    ],
+    "sources": [
+      "Majmu' al-Fatawa 35:161 (Ibn Taymiyyah)",
+      "Al-Farq bayn al-Firaq (al-Baghdadi)",
+      "Al-Milal wal-Nihal (al-Shahrastani)"
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "alawites",
+    "name_ar": "العلويون (النصيرية)",
+    "name_en": "Alawites (Nusayriyyah)",
+    "category": "outside-fold",
+    "founded_year_ce": 859,
+    "founded_year_ah": 245,
+    "founder_name": "Muhammad ibn Nusayr al-Namiri",
+    "description_en": "An esoteric religion founded by Muhammad ibn Nusayr (d. circa 868 CE), a disciple of the 10th Twelver Shia Imam al-Hadi. The Alawites venerate Ali ibn Abi Talib as a divine manifestation, incorporate elements of Christianity (celebration of Christmas and Epiphany), Neo-Platonism, and ancient Syrian religions. Their religious texts are kept secret from outsiders and even from lay Alawites. Concentrated in coastal Syria, where they form a significant minority and the Assad family is Alawi.",
+    "status": "rejected",
+    "key_beliefs": [
+      "Ali ibn Abi Talib is a divine manifestation — the highest expression of the divine",
+      "A divine triad: Muhammad, Ali, and Salman al-Farisi (as three aspects of the divine)",
+      "Celebration of Christian holidays (Christmas, Epiphany, Palm Sunday) and Nowruz",
+      "Secret religious texts accessible only to initiated males",
+      "Transmigration of souls (tanasukh)"
+    ],
+    "scholarly_evaluation": "Outside the fold of Islam by unanimous scholarly consensus. Declared kafir by Ibn Taymiyyah (in a famous fatwa requested by the Egyptian Mamluk Sultan), al-Qurtubi, and all classical Ahl us-Sunnah scholars who examined their beliefs. Their deification of Ali, incorporation of non-Islamic religious elements, and abandonment of the Islamic shari'ah place them categorically outside Islam. The Syrian Alawi community has historically presented itself as Muslim for political protection — a practice (taqiyyah) that itself has no precedent in Sunni Islam.",
+    "key_figures": [
+      "Muhammad ibn Nusayr al-Namiri (d. circa 868 CE)",
+      "Al-Husayn ibn Hamdan al-Khasibi (d. 969 CE — major systematizer)"
+    ],
+    "sources": [
+      "Ibn Taymiyyah's fatwa on the Nusayriyyah (Majmu' al-Fatawa)",
+      "Al-Milal wal-Nihal (al-Shahrastani)",
+      "Al-Farq bayn al-Firaq (al-Baghdadi)"
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "bahai",
+    "name_ar": "البهائية",
+    "name_en": "Baha'i Faith",
+    "category": "outside-fold",
+    "founded_year_ce": 1844,
+    "founded_year_ah": 1260,
+    "founder_name": "Siyyid Ali-Muhammad (the Bab)",
+    "description_en": "A religion that originated in Persia in 1844 CE when Siyyid Ali-Muhammad (the Bab) claimed to be a new prophet. His successor, Baha'u'llah (1817–1892 CE), claimed to be the prophet foretold by the Bab and the fulfillment of the prophecies of all major world religions. The Baha'i Faith is today an independent world religion with its own scriptures, laws, and global administrative structure headquartered in Haifa, Israel. It is explicitly NOT Islam.",
+    "status": "rejected",
+    "key_beliefs": [
+      "Progressive revelation — God sends successive prophets including the Bab and Baha'u'llah after Muhammad ﷺ",
+      "Unity of world religions — all major religions are valid paths",
+      "Equality of men and women in all matters",
+      "World government and universal peace as religious goals"
+    ],
+    "scholarly_evaluation": "Not Islam and never claimed to be a sect of Islam. The Baha'i Faith is a distinct world religion that originated by denying the finality of prophethood in Islam (Khatam al-Nubuwwah). It has its own scriptures, calendar, and laws. Declaring it a 'Muslim sect' would be inaccurate — it is an entirely separate religion that emerged from an Islamic context. Unanimous scholarly consensus across all Muslim groups.",
+    "key_figures": [
+      "Siyyid Ali-Muhammad (the Bab) (1819–1850 CE)",
+      "Baha'u'llah (1817–1892 CE)"
+    ],
+    "sources": [
+      "Al-Quran 33:40 (Khatam al-Nabiyyin)",
+      "Baha'i World Faith (Baha'u'llah — their own scripture explicitly distinguishes from Islam)"
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "alevism",
+    "name_ar": "الألويون (الأناضوليون)",
+    "name_en": "Alevism",
+    "category": "outside-fold",
+    "founded_year_ce": 1300,
+    "description_en": "A syncretic religious tradition originating in Anatolia (Turkey) in the medieval period, combining elements of Islam, Shia veneration of Ali, pre-Islamic Anatolian shamanism, and Central Asian Turkic traditions. Concentrated in Turkey (forming roughly 15–25% of the population). Alevis do not follow the Five Pillars conventionally: they do not typically perform the five daily prayers, do not observe Ramadan fasting, do not attend mosque, and do not perform Hajj. Their central worship form is the Cem ceremony, performed with music (saz) and communal gathering including men and women together.",
+    "status": "rejected",
+    "key_beliefs": [
+      "Veneration of Ali and the Twelve Imams (similar to Shia but more syncretic)",
+      "The Cem ceremony — communal worship with music, poetry, and dance — as the primary religious practice",
+      "The Five Pillars of Islam are allegorized or not performed conventionally",
+      "Absorption of pre-Islamic Anatolian shamanic and Turkic religious elements"
+    ],
+    "scholarly_evaluation": "Outside the fold of Islam per Ahl us-Sunnah scholarly consensus. While Alevis use Islamic terminology and identify culturally as Muslim, their religious practice has departed fundamentally from Islamic worship. The abandonment of the Five Pillars, the incorporation of music and mixed-gender worship not found in any Islamic tradition, and the syncretic absorption of non-Islamic elements place Alevism outside what can be defined as Islam. Many Alevis themselves distinguish their tradition from Sunni Islam and object to being classified under it.",
+    "key_figures": [
+      "Haji Bektash Veli (1209–1271 CE) — major Alevi-Bektashi saint",
+      "Pir Sultan Abdal (16th century CE) — beloved Alevi poet"
+    ],
+    "sources": [
+      "Al-Milal wal-Nihal (al-Shahrastani) — on syncretic groups",
+      "Ahl us-Sunnah scholarly fatwas on Alevism"
     ]
   }
 ]
