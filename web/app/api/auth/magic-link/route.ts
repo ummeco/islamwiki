@@ -3,6 +3,8 @@
  * Hasura Auth sends the user here after they click the email link.
  * URL format: /api/auth/magic-link?ticket=<ticket>
  */
+export const dynamic = 'force-dynamic'
+
 import { NextResponse, type NextRequest } from 'next/server'
 import { cookies } from 'next/headers'
 import { exchangeTicket } from '@/lib/auth-client'

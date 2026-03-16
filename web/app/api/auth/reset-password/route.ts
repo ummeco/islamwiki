@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 /**
  * Password reset callback handler.
  * Hasura Auth sends the user here after they click the reset email link.

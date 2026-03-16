@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 /**
  * Google OAuth callback handler.
  * Hasura Auth redirects here after Google login with session tokens in URL params.
