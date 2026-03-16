@@ -17,6 +17,8 @@ const navItems = [
   { label: 'People', href: '/people' },
   { label: 'Books', href: '/books' },
   { label: 'Articles', href: '/articles' },
+  { label: 'Wiki', href: '/wiki' },
+  { label: 'Sects', href: '/sects' },
   { label: 'Video', href: '/videos' },
   { label: 'Audio', href: '/audio' },
 ]

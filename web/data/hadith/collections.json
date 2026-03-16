@@ -9,7 +9,9 @@
     "total_hadiths": 7589,
     "author_name_en": "Imam al-Bukhari",
     "total_hadith": 7589,
-    "total_books": 98
+    "total_books": 98,
+    "total": 7589,
+    "books": 98
   },
   {
     "id": 2,
@@ -21,7 +23,9 @@
     "total_hadiths": 7563,
     "author_name_en": "Imam Muslim",
     "total_hadith": 7563,
-    "total_books": 57
+    "total_books": 57,
+    "total": 7563,
+    "books": 57
   },
   {
     "id": 3,
@@ -33,7 +37,9 @@
     "total_hadiths": 5274,
     "author_name_en": "Abu Dawud al-Sijistani",
     "total_hadith": 5274,
-    "total_books": 43
+    "total_books": 43,
+    "total": 5274,
+    "books": 43
   },
   {
     "id": 4,
@@ -45,7 +51,9 @@
     "total_hadiths": 3998,
     "author_name_en": "Imam al-Tirmidhi",
     "total_hadith": 3998,
-    "total_books": 49
+    "total_books": 49,
+    "total": 3998,
+    "books": 49
   },
   {
     "id": 5,
@@ -57,7 +65,9 @@
     "total_hadiths": 5765,
     "author_name_en": "Imam al-Nasa'i",
     "total_hadith": 5765,
-    "total_books": 52
+    "total_books": 52,
+    "total": 5765,
+    "books": 52
   },
   {
     "id": 6,
@@ -69,7 +79,9 @@
     "total_hadiths": 4343,
     "author_name_en": "Ibn Majah al-Qazwini",
     "total_hadith": 4343,
-    "total_books": 37
+    "total_books": 37,
+    "total": 4343,
+    "books": 38
   },
   {
     "id": 7,
@@ -81,7 +93,9 @@
     "total_hadiths": 1858,
     "author_name_en": "Imam Malik ibn Anas",
     "total_hadith": 1858,
-    "total_books": 61
+    "total_books": 61,
+    "total": 1858,
+    "books": 62
   },
   {
     "id": 8,
@@ -93,7 +107,9 @@
     "total_hadiths": 26363,
     "author_name_en": "Imam Ahmad ibn Hanbal",
     "total_hadith": 26363,
-    "total_books": 49
+    "total_books": 49,
+    "total": 26363,
+    "books": 49
   },
   {
     "id": 9,
@@ -105,7 +121,9 @@
     "total_hadiths": 3406,
     "author_name_en": "Imam al-Darimi",
     "total_hadith": 3406,
-    "total_books": 23
+    "total_books": 23,
+    "total": 3406,
+    "books": 23
   },
   {
     "id": 10,
@@ -117,7 +135,9 @@
     "total_hadiths": 1896,
     "author_name_en": "Imam al-Nawawi",
     "total_hadith": 1896,
-    "total_books": 19
+    "total_books": 19,
+    "total": 1896,
+    "books": 19
   },
   {
     "id": 11,
@@ -129,7 +149,9 @@
     "total_hadiths": 1767,
     "author_name_en": "Ibn Hajar al-Asqalani",
     "total_hadith": 1767,
-    "total_books": 16
+    "total_books": 16,
+    "total": 1767,
+    "books": 16
   },
   {
     "id": 12,
@@ -141,6 +163,8 @@
     "total_hadiths": 402,
     "author_name_en": "Imam al-Tirmidhi",
     "total_hadith": 402,
-    "total_books": 56
+    "total_books": 56,
+    "total": 402,
+    "books": 56
   }
 ]
