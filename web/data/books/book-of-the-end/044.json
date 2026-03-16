@@ -18,5 +18,7 @@
   "qa_passed": true,
   "qa_errors": [
     "'\\bhadeeth\\b' → 'hadith'"
-  ]
+  ],
+  "title_id": "Bagian 44",
+  "content_id": "Done. The Indonesian translation has been added as `content_id` to `book-of-the-end/044.json`."
 }
