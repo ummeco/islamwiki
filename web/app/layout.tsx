@@ -47,6 +47,7 @@ const notoNaskhArabic = Noto_Naskh_Arabic({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL ?? 'https://islam.wiki'),
   title: {
     default: 'Islam.wiki — The Islamic Reference',
     template: '%s · Islam.wiki',
