@@ -34,8 +34,8 @@ function formatDate(event: SeerahMapEvent): { primary: string; ce?: string } {
     primary = event.date_ah
   } else if (event.year_ah != null) {
     if (event.year_ah < 0) primary = `${Math.abs(event.year_ah)} BH`
-    else if (event.year_ah === 0) primary = 'Year of Hijra (1 AH)'
-    else primary = `${event.year_ah} AH`
+    else if (event.year_ah === 0) primary = 'Year of Hijra (1h)'
+    else primary = `${event.year_ah}h`
   } else {
     primary = event.date_ce ?? ''
   }

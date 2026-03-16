@@ -58,7 +58,7 @@ function SectCard({ sect }: { sect: SectData }) {
       </div>
       {sect.founded_year_ce && (
         <p className="mb-1 text-xs text-iw-text-muted">
-          Est. {sect.founded_year_ce} CE{sect.founded_year_ah ? ` / ${sect.founded_year_ah} AH` : ''}
+          Est. {sect.founded_year_ah ? `${sect.founded_year_ah}h` : `${sect.founded_year_ce} CE`}{sect.founded_year_ah && sect.founded_year_ce ? ` (${sect.founded_year_ce} CE)` : ''}
         </p>
       )}
       <p className="line-clamp-2 text-sm text-iw-text-secondary">{sect.description_en}</p>

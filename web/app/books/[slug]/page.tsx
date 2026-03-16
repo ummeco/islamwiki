@@ -91,7 +91,7 @@ export default async function BookPage({ params }: Props) {
             </p>
           )}
 
-          <div className="mt-4 flex flex-wrap gap-3 text-sm text-iw-text-secondary">
+          <div className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-iw-text-secondary">
             <span>
               By{' '}
               <Link
@@ -102,19 +102,22 @@ export default async function BookPage({ params }: Props) {
               </Link>
             </span>
             {(book.year_written_ah || book.year_written_ce) && (
-              <span className="before:mr-3 before:content-['\u00B7']">
-                {formatIslamicYear(book.year_written_ah, book.year_written_ce)}
-              </span>
+              <>
+                <span aria-hidden="true" className="text-iw-text-muted">·</span>
+                <span>{formatIslamicYear(book.year_written_ah, book.year_written_ce)}</span>
+              </>
             )}
             {book.volumes && (
-              <span className="before:mr-3 before:content-['\u00B7']">
-                {book.volumes} volumes
-              </span>
+              <>
+                <span aria-hidden="true" className="text-iw-text-muted">·</span>
+                <span>{book.volumes} volumes</span>
+              </>
             )}
             {book.pages && (
-              <span className="before:mr-3 before:content-['\u00B7']">
-                {book.pages} pages
-              </span>
+              <>
+                <span aria-hidden="true" className="text-iw-text-muted">·</span>
+                <span>{book.pages} pages</span>
+              </>
             )}
           </div>
 
@@ -221,7 +224,7 @@ export default async function BookPage({ params }: Props) {
               {book.died_ah && (
                 <div>
                   <dt className="text-iw-text-muted">Author Died</dt>
-                  <dd className="text-iw-text">AH {book.died_ah}</dd>
+                  <dd className="text-iw-text">{book.died_ah}h</dd>
                 </div>
               )}
               {book.volumes && (

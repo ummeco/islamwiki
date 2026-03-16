@@ -2,12 +2,12 @@
  * Hijri date formatting utilities for Islam.wiki.
  *
  * Display convention (site-wide):
- *   Primary:   Hijri  (BH / AH, with optional month)
- *   Secondary: CE/AD  (shown in muted text where space allows)
+ *   Primary:   Hijri first — e.g. "345h (956 CE)" or "53 BH (570 CE)"
+ *   Secondary: CE in parentheses where space allows
  *
  * Example outputs:
- *   formatIslamicDate({ year_ah: 2, date_ah: '17 Ramadan, 2 AH', date_ce: '13 March 624 CE' })
- *   → { primary: '17 Ramadan, 2 AH', secondary: '13 March 624 CE' }
+ *   formatIslamicDate({ year_ah: 2, date_ah: '17 Ramadan, 2h', date_ce: '13 March 624 CE' })
+ *   → { primary: '17 Ramadan, 2h', secondary: '13 March 624 CE' }
  *
  *   formatIslamicDate({ year_ah: -53, date_ce: '570 CE' })
  *   → { primary: '53 BH', secondary: '570 CE' }
@@ -45,9 +45,9 @@ export function formatIslamicDate(input: IslamicDateInput): FormattedIslamicDate
     if (year_ah < 0) {
       primary = `${Math.abs(year_ah)} BH`
     } else if (year_ah === 0) {
-      primary = 'Year of Hijra (1 AH)'
+      primary = 'Year of Hijra (1h)'
     } else {
-      primary = `${year_ah} AH`
+      primary = `${year_ah}h`
     }
   } else {
     // No Hijri data — fall back to CE
@@ -71,8 +71,7 @@ export function formatIslamicDateCompact(input: IslamicDateInput): string {
 
 /**
  * Short year-only label, useful for index pages and cards.
- * Strips month names, keeps BH/AH suffix.
- * E.g. "2 AH", "53 BH", "1 AH (622 CE)"
+ * Format: "345h (956 CE)" or "53 BH (570 CE)"
  */
 export function formatIslamicYear(
   year_ah: number | null | undefined,
@@ -87,9 +86,9 @@ export function formatIslamicYear(
   if (year_ah < 0) {
     hijri = `${Math.abs(year_ah)} BH`
   } else if (year_ah === 0) {
-    hijri = '1 AH'
+    hijri = '1h'
   } else {
-    hijri = `${year_ah} AH`
+    hijri = `${year_ah}h`
   }
 
   if (includeCe && year_ce) {

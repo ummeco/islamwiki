@@ -866,7 +866,7 @@ export function SeerahMap({ events, activeIndex, onEventClick }: SeerahMapProps)
       : active.year_ah != null
         ? active.year_ah < 0
           ? `${Math.abs(active.year_ah)} BH`
-          : `${active.year_ah} AH`
+          : `${active.year_ah}h`
         : active.date_ce ?? ''
 
       const popupHtml = `

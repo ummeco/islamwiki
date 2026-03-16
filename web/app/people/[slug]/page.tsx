@@ -70,8 +70,8 @@ export default async function PersonPage({ params }: Props) {
       <PersonJsonLd
         name={person.name_en}
         nameAr={person.name_ar}
-        birthYear={person.birth_year_ah ? `${person.birth_year_ah} AH` : undefined}
-        deathYear={person.death_year_ah ? `${person.death_year_ah} AH` : undefined}
+        birthYear={person.birth_year_ah ? `${person.birth_year_ah}h` : undefined}
+        deathYear={person.death_year_ah ? `${person.death_year_ah}h` : undefined}
         description={person.bio_short_en || undefined}
         slug={slug}
       />
@@ -181,7 +181,7 @@ export default async function PersonPage({ params }: Props) {
                       <p className="text-sm font-medium text-iw-text">{book.title_en}</p>
                       <p className="text-xs text-iw-text-muted capitalize">
                         {book.subject.replace(/_/g, ' ')}
-                        {book.year_written_ce ? ` \u00B7 ${book.year_written_ce} CE` : ''}
+                        {book.year_written_ce ? ` · ${book.year_written_ce} CE` : ''}
                       </p>
                     </div>
                   </Link>

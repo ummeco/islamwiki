@@ -142,8 +142,8 @@ export default async function SectPage({ params }: Props) {
             <div>
               <h2 className="mb-3 text-lg font-semibold text-white">Founded</h2>
               <p className="text-iw-text-secondary">
-                {sect.founded_year_ce} CE
-                {sect.founded_year_ah ? ` (${sect.founded_year_ah} AH)` : ''}
+                {sect.founded_year_ah ? `${sect.founded_year_ah}h` : `${sect.founded_year_ce} CE`}
+                {sect.founded_year_ah && sect.founded_year_ce ? ` (${sect.founded_year_ce} CE)` : ''}
               </p>
             </div>
           )}

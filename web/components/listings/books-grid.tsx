@@ -90,7 +90,7 @@ export function BooksGrid({ books }: { books: BookItem[] }) {
               By{' '}
               <span className="text-iw-accent">{book.author_name_en}</span>
               {(book.year_written_ah || book.year_written_ce) &&
-                ` \u00B7 ${formatIslamicYear(book.year_written_ah, book.year_written_ce)}`}
+                ` · ${formatIslamicYear(book.year_written_ah, book.year_written_ce)}`}
             </p>
             <div className="mt-3 flex flex-wrap gap-1.5">
               <span className="badge bg-iw-accent/10 text-iw-accent capitalize">
