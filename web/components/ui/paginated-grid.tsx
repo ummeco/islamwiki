@@ -130,6 +130,7 @@ export function PaginatedGrid<T>({
             type="button"
             onClick={() => setPage((p) => Math.max(1, p - 1))}
             disabled={page === 1}
+            aria-label="Previous page"
             className="rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text disabled:cursor-not-allowed disabled:opacity-30"
           >
             Previous
@@ -145,6 +146,8 @@ export function PaginatedGrid<T>({
                 key={num}
                 type="button"
                 onClick={() => setPage(num)}
+                aria-label={`Page ${num}`}
+                aria-current={page === num ? 'page' : undefined}
                 className={`min-w-[32px] rounded-lg px-2 py-1.5 text-xs font-medium transition-colors ${
                   page === num
                     ? 'bg-iw-accent/15 text-iw-accent'
@@ -160,6 +163,7 @@ export function PaginatedGrid<T>({
             type="button"
             onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
             disabled={page === totalPages}
+            aria-label="Next page"
             className="rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text disabled:cursor-not-allowed disabled:opacity-30"
           >
             Next

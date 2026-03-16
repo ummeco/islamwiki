@@ -2,13 +2,20 @@
   "name": "Islam.wiki",
   "short_name": "Islam.wiki",
   "description": "The comprehensive Islamic knowledge base — Quran, Hadith, Seerah, People, Books and more.",
-  "start_url": "/",
+  "start_url": "/?source=pwa",
   "display": "standalone",
   "theme_color": "#79C24C",
   "background_color": "#0D2F17",
+  "lang": "en",
+  "categories": ["education", "reference", "religion"],
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
     { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Quran", "short_name": "Quran", "description": "Read the Holy Quran", "url": "/quran" },
+    { "name": "Hadith", "short_name": "Hadith", "description": "Browse authentic Hadith collections", "url": "/hadith" },
+    { "name": "Search", "short_name": "Search", "description": "Search Islamic knowledge", "url": "/search" }
   ]
 }
