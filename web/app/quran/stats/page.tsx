@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Quran Statistics',
   description:
     'Detailed statistics about the Holy Quran — 114 surahs, 6,236 verses, Meccan and Medinan breakdown, juz distribution, and more.',
+  robots: { index: false },
 }
 
 export default function QuranStatsPage() {

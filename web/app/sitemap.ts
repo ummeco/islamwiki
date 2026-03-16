@@ -30,12 +30,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/audio`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE_URL}/sects`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE_URL}/search`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${BASE_URL}/quran/bookmarks`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
-    { url: `${BASE_URL}/quran/stats`, lastModified: now, changeFrequency: 'monthly', priority: 0.4 },
     { url: `${BASE_URL}/recent-changes`, lastModified: now, changeFrequency: 'daily', priority: 0.5 },
     { url: `${BASE_URL}/privacy`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE_URL}/terms`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
   )
+
+  // Quran juz 1–30
+  for (let juz = 1; juz <= 30; juz++) {
+    entries.push({
+      url: `${BASE_URL}/quran/juz/${juz}`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    })
+  }
 
   // Mushaf pages 1–604
   for (let page = 1; page <= 604; page++) {
