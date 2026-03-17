@@ -1,0 +1,19 @@
+name = "islamwiki-audio-proxy"
+main = "index.ts"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[r2_buckets]]
+binding = "AUDIO_BUCKET"
+bucket_name = "islamwiki-audio"
+
+[vars]
+ORIGIN_BASE = "https://everyayah.com"
+
+# Production
+[[env.production.r2_buckets]]
+binding = "AUDIO_BUCKET"
+bucket_name = "islamwiki-audio"
+
+[env.production.vars]
+ORIGIN_BASE = "https://everyayah.com"
