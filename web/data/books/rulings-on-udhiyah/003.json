@@ -1,7 +1,7 @@
 {
   "number": 3,
   "title_en": "2. The hadeeth reported by all the famous muhadditheen apart from al-Bukhaari:",
-  "title_ar": "",
+  "title_ar": "ما يُستحب عند الذبح",
   "title_id": "2. Hadis yang diriwayatkan oleh semua ahli hadis terkenal selain Al-Bukhari:",
   "content_en": "<p>\"Whoever among you wants to offer a sacrifice, let him not take anything from his hair or nails.\" Shaykh Ibn 'Uthaymeen, may Allaah preserve him, said, following his discussion of those who say it is obligatory and those who say it is Sunnah, \"Each point of view has its evidence, but to be on the safe side, the one who is able to offer a sacrifice should not neglect to do so, because of what is involved in this act of reverence towards Allaah, remembering Him, and making sure that one has nothing to be blamed for. Conditions of udhiyah</p>",
   "content_id": "<p>\"Barangsiapa di antara kalian ingin berkurban, janganlah ia memotong rambut atau kukunya.\" Syaikh Ibnu Utsaimin, semoga Allah menjaganya, berkata setelah pembahasan tentang pendapat mereka yang mengatakan hukumnya wajib dan mereka yang mengatakan hukumnya sunnah: \"Setiap sudut pandang memiliki dalilnya, tetapi untuk berhati-hati, orang yang mampu berkurban tidak boleh mengabaikannya, karena dalam ibadah ini terdapat pengagungan kepada Allah, mengingat-Nya, dan memastikan bahwa seseorang tidak memiliki sesuatu yang dapat disalahkan darinya.</p>\n<p>Syarat-syarat udhiyah</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 100 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>يُستحب للمضحي أن يذبح بيده إن قدر على ذلك، وأن يُسمّي الله ويُكبّر عند الذبح قائلاً: «بسم الله والله أكبر، اللهم هذا منك ولك». وإن عجز استناب غيره وحضر الذبح. ويُكره إعطاء الجزار أجرته من الأضحية ذاتها.</p>"
 }

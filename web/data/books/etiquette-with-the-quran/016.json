@@ -1,7 +1,7 @@
 {
   "number": 16,
   "title_en": "CONCLUDING REMARKS",
-  "title_ar": "",
+  "title_ar": "خاتمة",
   "title_id": "PENUTUP",
   "content_en": "<p>I I CONCLUDING REMARKS This is the last of what God has facilitated for me with regard to this book. It is condensed and minute compared to [all that can be said about] the etiquette of reciters of the Quran. However, what I mentioned in the beginning of the book compelled me to make it condensed. I ask God the Magnificent that it be a source of comprehensive benefit for me and my loved ones, for everyone who looks in it, and the rest of the Muslims-in the Two Abodes [this life and the next]. Praise is for God, Lord of the worlds-praise that reaches the measure of His bounties and matching His provision. May His complete prayers and blessings be upon our master Muhammad, his folk, Companions, one and all. All praise is for God, Lord of the worlds. [The author (God grant him mercy) wrote]: I began compiling [this work] on Thursday the 1 2th of Rabi' al-Awwal, [the birth­ day of the Prophet (God bless him and give him peace)]; and I fin­ ished compiling it Thursday morning, the 3rd of Rabi' al-Thani, 666 Al l. 1 3 1</p>",
   "content_id": "<p>Inilah akhir dari apa yang Allah mudahkan bagi saya berkenaan dengan buku ini. Buku ini sangat ringkas dan kecil dibandingkan dengan semua yang dapat dikatakan tentang adab para pembaca Al-Quran. Namun, apa yang saya sebutkan di awal buku ini mendorong saya untuk membuatnya ringkas.</p>\n<p>Saya memohon kepada Allah Yang Maha Agung agar buku ini menjadi sumber manfaat yang menyeluruh bagi saya dan orang-orang yang saya cintai, bagi semua orang yang membacanya, dan bagi seluruh kaum muslimin — di Dua Negeri (dunia dan akhirat).</p>\n<p>Segala puji bagi Allah, Tuhan semesta alam — pujian yang mencapai ukuran karunia-Nya dan setara dengan pemberian-Nya. Semoga shalawat dan salam yang sempurna tercurah kepada tuan kami Muhammad, keluarganya, dan para sahabatnya semuanya. Segala puji bagi Allah, Tuhan semesta alam.</p>\n<p>[Penulis rahimahullah menulis]: Saya mulai menyusun karya ini pada hari Kamis, tanggal 12 Rabi'ul Awwal [hari kelahiran Nabi ﷺ]; dan saya menyelesaikan penyusunannya pada pagi hari Kamis, tanggal 3 Rabi'ul Tsani, tahun 666 H.</p>",
@@ -33,5 +33,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 192 words (min 300)"
-  ]
+  ],
+  "content_ar": "يختم الإمام النووي رحمه الله كتابه بخاتمة جامعة يشكر الله على توفيقه لإتمام هذا المصنف النافع، ويسأله القبول والانتفاع به."
 }

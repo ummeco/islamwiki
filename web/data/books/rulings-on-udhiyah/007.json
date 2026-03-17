@@ -1,7 +1,7 @@
 {
   "number": 7,
   "title_en": "1. It is mustahabb (liked, preferable) for the one who has made a sacrifice to not eat",
-  "title_ar": "",
+  "title_ar": "الفرق بين الأضحية والهدي",
   "title_id": "1. Dianjurkan (mustahabb) bagi orang yang berkurban untuk tidak makan",
   "content_en": "<p>anything on that day before he eats from it, if this is possible, because of the hadith, \"Let every man eat from his sacrifice.\" (Classed as sahih in sahih al-Jaami', 5349). This eating should be after the Eid prayer and khutbah. This is the opinion of the scholars, including 'Ali, Ibn 'Abbaas, Maalik, al-Shaafa'i and others. The evidence for this is the hadith of Buraydah (may Allaah be pleased with him): \"The Prophet (peace and blessings of Allaah be upon him) would not go out on the day of Fitr until he had eaten, and he would not eat on the day of Adhaa until he had slaughtered (his sacrifice).\" (Al-Albaani said: its isnaad is sahih. Al-Mishkaat, 1/452).</p>",
   "content_id": "<p>apapun pada hari itu sebelum ia makan dari kurbannya, jika ini memungkinkan, berdasarkan hadis: \"Hendaklah setiap orang makan dari kurbannya.\" (Diklasifikasikan sebagai sahih dalam Shahih Al-Jami', 5349). Makan ini harus dilakukan setelah shalat Idul Adha dan khutbah. Ini adalah pendapat para ulama, termasuk Ali, Ibnu Abbas, Malik, Asy-Syafi'i, dan lainnya. Dalil untuk ini adalah hadis Buraidah radhiyallahu 'anhu: \"Nabi ﷺ tidak akan keluar pada hari Idul Fitri hingga beliau makan, dan beliau tidak akan makan pada hari Idul Adha hingga beliau menyembelih (kurbannya).\" (Al-Albani berkata: sanadnya sahih. Al-Misykat, 1/452).</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 118 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>الأضحية والهدي كلاهما ذبيحة تُتقرّب بها إلى الله، لكنهما يختلفان: الأضحية تُذبح في البلد في أيام النحر والتشريق شكراً لله على نعمه وإحياءً لسنة إبراهيم عليه السلام. أما الهدي فهو ما يُهدى إلى الحرم المكي من بهيمة الأنعام وهو واجب في بعض الأحوال للمتمتع والقارن في الحج.</p>"
 }

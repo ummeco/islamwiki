@@ -1,7 +1,7 @@
 {
   "number": 17,
   "title_en": "CHAPTER 18",
-  "title_ar": "",
+  "title_ar": "الفصل الثامن عشر",
   "title_id": "Bab 18: Membaca Al-Quran dengan Tartil",
   "content_id": "<p>MEMBACA AL-QURAN YANG MULIA DENGAN TARTIL (CARA YANG JELAS DAN BERBEDA). Abu Hurairah radhiyallahu anhu meriwayatkan bahwa Rasulullah ﷺ bersabda: Allah telah memerintahkan aku untuk membaca Al-Quran dengan cara yang jelas dan berbeda. Dalam versi lain disebutkan: Allah telah memerintahkan Nabi yang bersuara merdu ﷺ untuk membaca Al-Quran dengan cara yang jelas dan berbeda serta dengan suara yang keras. Diriwayatkan oleh Bukhari dan Muslim.</p>\n<p>Abu Lubaba radhiyallahu anhu meriwayatkan bahwa Rasulullah ﷺ bersabda: Tidak termasuk golongan kami orang yang tidak membaca Al-Quran dengan cara yang jelas dan berbeda (tartil). Diriwayatkan oleh Abu Dawud.</p>",
   "content_en": "<p>THE RECITATION OF THE HOLY Quran IN TARTIL (A CLEAR AND DISTINCT MANNER) Abu Huraira (Allah be pleased with him) reported Allah's Messenger (peace and blessings of Allah be upon him) as saying: Allah has asked me to recite the Holy Quran in a clear and distinct manner. In another version it is said: Allah has ordered the sweet-voiced Prophet (peace and blessings of Allah be upon him) to recite the Holy Quran in a clear and distinct manner with a loud voice. Bukhari and Muslim transmitted it.</p>\n<p>Abu Lubaba (Allah be pleased with him) reported Allah's Messenger (peace and blessings of Allah be upon him) as saying: He does not belong to us who does not recite the Holy Quran in a clear and distinct manner. Abu Dawud transmitted it. Taken from www.markazdawa.org</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 134 words (min 300)"
-  ]
+  ],
+  "content_ar": "يتناول الإمام في الفصل الثامن عشر قراءة القرآن الكريم ترتيلًا أي بوضوح وتأنٍّ، ويُخرّج ما روي عن أبي هريرة رضي الله عنه في فضل الترتيل."
 }

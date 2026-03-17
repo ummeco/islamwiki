@@ -1,7 +1,7 @@
 {
   "number": 2,
   "title_en": "CONTENTS",
-  "title_ar": "",
+  "title_ar": "المحتويات",
   "title_id": "DAFTAR ISI",
   "content_en": "<p>CONTENTS FOREWORD XI PREFACE TO THE SECOND EDITION XIII TRANSLATOR'S INTRODUCTION XV BRIEF BIOGRAPHY OF IMAM AL-NAWAWI XX IMAM AL-NAWAWl'S INTRODUCTION I l The Merit of Reciting & Bearing the Quran 2 The Precedence of Recitation & of Reciters 3 Honoring the Folk of the Quran 9 4 The Etiquette of Teachers & Students of the Quran l l 5 The Etiquette of the Bearers of the Quran 6 The Etiquette of Recitation 3 5 7 The Etiquette of All People With the Quran 96 8 Recommended Times & Circumstances for Recitation 9 Writing the Quran & Respecting the Mu$baf l ro ro Imam al-Nawawl's Lexicon 1 19 l l Concluding Remarks l 3 l TRANSLATOR'S NOTES 1 3 2 APPENDIX ONE: SUPPLICATIONS APPENDIX TWO: VERSES OF PROSTRATION APPENDIX THREE: BRIEF BIOGRAPHIES 1 56 BIBLIOGRAPHY DETAILED TAB LE OF CONTENTS 1 94 I NDEX ABOUT THE TRANSLATOR</p>",
   "content_id": "<p>DAFTAR ISI: KATA PENGANTAR — PRAKATA EDISI KEDUA — PENGANTAR PENERJEMAH — BIOGRAFI SINGKAT IMAM AL-NAWAWI — PENDAHULUAN IMAM AL-NAWAWI — 1. Keutamaan Tilawah dan Membawa Al-Quran — 2. Keunggulan Tilawah dan Para Pembaca Al-Quran — 3. Memuliakan Ahli Al-Quran — 4. Adab Guru dan Murid Al-Quran — 5. Adab Para Pengemban Al-Quran — 6. Adab Tilawah — 7. Adab Semua Orang Bersama Al-Quran — 8. Waktu dan Keadaan yang Dianjurkan untuk Tilawah — 9. Penulisan Al-Quran dan Menghormati Mushaf — 10. Leksikon Imam al-Nawawi — 11. Catatan Penutup — CATATAN PENERJEMAH — LAMPIRAN SATU: DOA-DOA — LAMPIRAN DUA: AYAT-AYAT SAJDAH — LAMPIRAN TIGA: BIOGRAFI SINGKAT — DAFTAR PUSTAKA — DAFTAR ISI TERPERINCI — INDEKS — TENTANG PENERJEMAH</p>",
@@ -33,5 +33,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 147 words (min 300)"
-  ]
+  ],
+  "content_ar": "يُدرج هذا الجزء فهرس محتويات الكتاب المشتملة على: المقدمة، ومقدمة الطبعة الثانية، ومقدمة المترجم، وفصول الكتاب المتعددة التي تتناول آداب القرآن الكريم."
 }

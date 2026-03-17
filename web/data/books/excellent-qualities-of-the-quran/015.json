@@ -1,7 +1,7 @@
 {
   "number": 15,
   "title_en": "CHAPTER 16",
-  "title_ar": "",
+  "title_ar": "الفصل السادس عشر",
   "title_id": "Bab 16: Berpisahlah Ketika Timbul Perbedaan Pendapat",
   "content_id": "<p>BERPISAHLAH KETIKA ADA PERBEDAAN PENDAPAT. Jundub radhiyallahu anhu meriwayatkan bahwa Rasulullah ﷺ bersabda: Bacalah Al-Quran selama hati kalian sepakat untuk melakukannya, dan ketika kalian merasakan perbedaan di antara hati dan lisan kalian, maka berdirilah (dan tinggalkan bacaannya untuk sementara waktu). Diriwayatkan oleh Bukhari. Abdullah bin Abbas radhiyallahu anhu berkata: Ketika penyakit Nabi ﷺ semakin parah, beliau bersabda: \"Bawakan kepadaku (alat tulis) kertas dan aku akan menuliskan untuk kalian suatu pernyataan yang setelahnya kalian tidak akan tersesat.\" Tetapi Umar radhiyallahu anhu berkata: \"Nabi ﷺ sedang sakit parah, dan kami telah memiliki Kitab Allah bersama kami dan itu cukup bagi kami.\" Namun para Sahabat Nabi ﷺ berbeda pendapat tentang hal ini dan terjadilah keributan. Atas hal itu Nabi ﷺ berkata kepada mereka: \"Pergilah (dan tinggalkan aku sendiri). Tidak patut kalian bertengkar di hadapanku.\" Diriwayatkan oleh Bukhari dan Muslim. Muslim meriwayatkan atas otoritas Abdullah bin Mas'ud radhiyallahu anhu yang berkata: Mereka membaca Surah Yusuf. Seorang laki-laki berkata mengapa kata-kata ini tidak diwahyukan oleh Allah. Ia menasihatinya dengan berkata: \"Apakah kamu mendustakan Kitab Allah?\"</p>",
   "content_en": "<p>DISPERSE WHEN ANY DIFFERENCE OF OPINION ARISES Jundub (Allah be pleased with him) reported Allah's Messenger (peace and blessings of Allah be upon him) as saying: Recite the Quran as long as your hearts agree to do so, and when you feel variance between them (between your hearts and tongues), then get up^1 (and leave its recital for the time being). Bukhari transmitted it. 'Abdullah Ibn 'Abbas (Allah be pleased with him) said: When the ailment of the Prophet (peace and blessings of Allah be upon him) became worse, he said, \"Bring for me (writing) paper and I will write for you a statement after which you will not go astray.\" But 'Umar (Allah be pleased with him) said, \"The Prophet (peace and blessings of Allah be upon him) is seriously ill, and we have got Allah's Book with us and that is sufficient for us.\" But the Companions of the Prophet (peace and blessings of Allah be upon him) differed about this and there was a hue and cry. On that the Prophet (peace and blessings of Allah be upon him) said to them, \"Go away (and leave me alone). It is not right that you should quarrel in front of me.\" Bukhari and Muslim transmitted it. Muslim transmitted it on the authority of 'Abdullah Ibn Mas'ud (Allah be pleased with him) who said: They recited the surah Yusuf. One man spoke as to why these words were not revealed by Allah. He admonished him saying: \"Do you falsify the Book of Allah.\"</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 254 words (min 300)"
-  ]
+  ],
+  "content_ar": "يتناول الإمام في الفصل السادس عشر مسألة التفرق عند نشوء الخلاف، وما روي عن جندب رضي الله عنه في هذا الباب."
 }

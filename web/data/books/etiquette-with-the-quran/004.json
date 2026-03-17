@@ -1,7 +1,7 @@
 {
   "number": 4,
   "title_en": "PREFACE TO THE SECOND EDITION",
-  "title_ar": "",
+  "title_ar": "مقدمة الطبعة الثانية",
   "title_id": "PRAKATA EDISI KEDUA",
   "content_en": "<p>PREFACE TO THE SECOND EDITION In the Name of God, Most Merciful and Compassionate This edition is Etiquette With the Quran includes the same con­ tents as the first edition published by Starlatch Press in 2003. Due to negligent backups on my part, the text here had to be recov­ ered from a manuscript that was one or two revisions before the final one printed in the first edition. While I have done my best to duplicate Starlatch's masterful editorial work and to enter in all known mistakes to the first edition, no human-save the Prophets (peace and blessings of God be upon them)-is saved from erring, and no book-save the Quran-is free from errors. MUSA FURBER ABU DHABI, UAE 20 RAMADAN 1433 AI-I 8 AUGUST 2012 CE XIII</p>\n<p>-· 1 ñ·r:c '. n'! m \"ht.Ji ..; fr I l i. fht; { H'.- :!i Ȁ Ȍ } - ood w1 !.Jt'O:: IAU ,fiihl!tt H?i:f J If f ( ;.! V. Ml A MJ;Jl t.S -1-> ST ?i 'rU/1 ij</p>",
   "content_id": "<p>Bismillahirrahmanirrahim. Edisi ini, Adab Bersama Al-Quran, mencakup konten yang sama dengan edisi pertama yang diterbitkan oleh Starlatch Press pada tahun 2003. Karena kelalaian saya dalam pencadangan data, teks di sini harus dipulihkan dari naskah yang merupakan satu atau dua revisi sebelum versi final yang dicetak dalam edisi pertama. Meskipun saya telah berusaha semaksimal mungkin untuk menduplikasi pekerjaan editorial Starlatch yang ahli dan memasukkan semua kesalahan yang diketahui dalam edisi pertama, tidak ada manusia — kecuali para Nabi (semoga shalawat dan salam Allah tercurah kepada mereka) — yang terbebas dari kesalahan, dan tidak ada kitab — kecuali Al-Quran — yang bebas dari kekeliruan. MUSA FURBER — ABU DHABI, UEA — 20 Ramadan 1433 H / 8 Agustus 2012 M</p>",
@@ -33,5 +33,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 170 words (min 300)"
-  ]
+  ],
+  "content_ar": "يتضمن هذا الجزء مقدمة الطبعة الثانية التي تبدأ بالبسملة والحمد لله والصلاة على النبي صلى الله عليه وسلم، وتستعرض ما أُجري على هذه الطبعة من تنقيح وتحسين."
 }

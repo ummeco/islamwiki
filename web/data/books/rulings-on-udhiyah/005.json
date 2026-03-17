@@ -1,7 +1,7 @@
 {
   "number": 5,
   "title_en": "3. It is forbidden to sell it. If an animal has been selected for sacrifice, it is not",
-  "title_ar": "",
+  "title_ar": "الإمساك عن الشعر والأظفار لمريد الأضحية",
   "title_id": "3. Dilarang menjualnya. Jika hewan telah dipilih untuk kurban, maka tidak",
   "content_en": "<p>permissible to sell it or give it away, except in exchange for one that is better. If an animal gives birth, its offspring should be sacrificed along with it. It is also permissible to ride it if necessary. The evidence for this is the report narrated by al-Bukhaari and Muslim from Abu Hurayrah (may Allaah be pleased with him), who said that the Messenger of Allaah (peace and blessings of Allaah be upon him) saw a man leading his camel and told him, \"Ride it.\" He said, \"It is for sacrifice.\" He said, \"Ride it\" a second or third time.</p>",
   "content_id": "<p>diperbolehkan untuk menjualnya atau menghadiahkannya, kecuali ditukar dengan yang lebih baik. Jika hewan tersebut melahirkan, anaknya harus disembelih bersamanya. Juga diperbolehkan menungganginya jika diperlukan. Dalil untuk ini adalah riwayat yang diriwayatkan oleh Al-Bukhari dan Muslim dari Abu Hurairah radhiyallahu 'anhu, yang berkata bahwa Rasulullah ﷺ melihat seorang laki-laki menuntun untanya dan bersabda kepadanya: \"Tunggangilah ia.\" Ia berkata: \"Ia untuk kurban.\" Beliau bersabda: \"Tunggangilah ia\" untuk kedua atau ketiga kalinya.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 100 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>من أراد أن يُضحّي وجب عليه الإمساك عن قصّ شعره وأظفاره من دخول شهر ذي الحجة حتى يذبح أضحيته، لحديث: «إذا رأيتم هلال ذي الحجة وأراد أحدكم أن يُضحّي فليمسك عن شعره وأظفاره». وهذا الحكم يخص المضحي لا البهيمة.</p>"
 }

@@ -1,7 +1,7 @@
 {
   "number": 3,
   "title_en": "Part 3",
-  "title_ar": "",
+  "title_ar": "الجزء الثالث",
   "title_id": "Bagian 3",
   "content_en": "<p>This inc  A man who engages in I'tikaaf when his family or parents are In conclusion paaaa Ata Al-Khuraasaani, may Allaah have mercy on him, said: \"A person engaged in I'tikaaf is like a slave who has thrown himself between the hands of the Lord and then he says: 'My Lord I will not leave my place until You forgive me, my Lord I will not leave my place until You have mercy on me!'\"</p>",
   "content_id": "<p>Ini termasuk: seorang laki-laki yang beri'tikaf sementara keluarga atau orang tuanya membutuhkannya.</p>\n<p>Kesimpulannya, 'Atha Al-Khurasani rahimahullah berkata: \"Orang yang beri'tikaf bagaikan seorang hamba yang menjatuhkan dirinya di hadapan Tuhannya, lalu berkata: 'Ya Tuhanku, aku tidak akan meninggalkan tempatku ini hingga Engkau mengampuniku, Ya Tuhanku, aku tidak akan meninggalkan tempatku ini hingga Engkau merahmati aku!'\"</p>",
@@ -30,5 +30,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 75 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>اعتكاف العشر الأواخر من رمضان سنّة عظيمة في طلب ليلة القدر التي هي خير من ألف شهر. ومن أحيا هذه الليلة إيماناً واحتساباً غُفر له ما تقدّم من ذنبه. والحكمة من الاعتكاف: التفرغ للعبادة وانقطاع الصلة بعوامل التشتت لبلوغ أعلى درجات القرب من الله.</p>"
 }
