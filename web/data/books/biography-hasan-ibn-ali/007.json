@@ -1,7 +1,7 @@
 {
   "number": 7,
   "title_en": "Chapter Six",
-  "title_ar": "",
+  "title_ar": "الفصل السادس",
   "content_en": "<p>His characteristics and social life. . . . . . . . . . . . . . . . 213 6.1 His most important characteristics . . . . . . . . . . . . . . . . . . . 213 6.1.1 His knowledge .............................. 213 6.1.2 His worship. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 224 6.1.3 His asceticism and lack of interest in worldly gain. . . 227 6.1.4 His generosity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 229 6.1.5 His forbearance. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 233 6.1.6 His humility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 235 6.1. 7 His leadership . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 236 6.2 His physical characteristics. . . . . . . . . . . . . . . . . . . . . . . . . 238</p>",
   "title_id": "Bab Enam",
   "content_id": "<p>Sifat-sifat dan kehidupan sosial beliau. 6.1 Sifat-sifat terpenting beliau. 6.1.1 Ilmunya. 6.1.2 Ibadahnya. 6.1.3 Kezuhudan dan ketidakterikatannya dengan dunia. 6.1.4 Kedermawanannya. 6.1.5 Kesabarannya. 6.1.6 Kerendahan hatinya. 6.1.7 Kepemimpinannya. 6.2 Sifat-sifat fisiknya.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 269 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>خصائصه وحياته الاجتماعية</p>\n<p>6.1 أبرز خصائصه وصفاته ............... 213</p>\n<p>6.1.1 علمه ..................... 213</p>\n<p>6.1.2 عبادته ................... 224</p>\n<p>6.1.3 جوده وسخاؤه ................. 228</p>\n<p>6.1.4 زهده وورعه ................. 231</p>\n<p>6.1.5 شجاعته ................... 234</p>\n<p>6.1.6 حلمه وأناته ................. 236</p>"
 }

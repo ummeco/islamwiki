@@ -1,7 +1,7 @@
 {
   "number": 10,
   "title_en": "Chapter Nine",
-  "title_ar": "",
+  "title_ar": "الفصل التاسع",
   "content_en": "<p>Prominent figures during his caliphate. . . . . . . . . . 263 9 .1 Qays ibn Sa' d ibn 'Ubadah . . . . . . . . . . . . . . . . . . . . . . . . . 264 9.2 'Ubaydullah ibn 'Abbas ibn 'Abdul-Muttalib al-Hashimi: Abu Muhammad . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 265 9.3 'Abdullah ibn Ja'far ibn Abi Talib al-Hashimi .......... 266</p>",
   "title_id": "Bab Sembilan",
   "content_id": "<p>Tokoh-tokoh terkemuka pada masa kekhalifahan beliau. 9.1 Qays ibn Sa'd ibn Ubadah. 9.2 Ubaidullah ibn Abbas ibn Abdul-Muththalib al-Hasyimi: Abu Muhammad. 9.3 Abdullah ibn Ja'far ibn Abi Thalib al-Hasyimi.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 102 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>أبرز الشخصيات في عهد خلافته</p>\n<p>9.1 قيس بن سعد بن عبادة ............... 264</p>\n<p>9.2 عبيد الله بن عباس بن عبد المطلب الهاشمي: أبو محمد ............ 265</p>\n<p>9.3 عبد الله بن جعفر بن أبي طالب ........... 266</p>"
 }

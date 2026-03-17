@@ -1,7 +1,7 @@
 {
   "number": 9,
   "title_en": "Chapter Eight",
-  "title_ar": "",
+  "title_ar": "الفصل الثامن",
   "content_en": "<p>His words, speeches and exhortations. . . . . . . . . . . 253 8.1 His warning against spiritual diseases ..... '. . . . . . . . . . . . 253 8.2 The concept of contentment as understood by al-l:fasan and Abu Dharr. . . . . . . . . . . . . . . . . . . . . . . . . . . 255 8.3 Sublime character and attitude . . . . . . . . . . . . . . . . . . . . . . 255 8.4 Avoiding conjecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 258 8.5 Consultation and discussion . . . . . . . . . . . . . . . . . . . . . . . . 259 8.6 Important principles enjoined by al-l:fasan. . . . . . . . . . . . . 260</p>",
   "title_id": "Bab Delapan",
   "content_id": "<p>Perkataan, pidato, dan nasihat beliau. 8.1 Peringatan beliau terhadap penyakit-penyakit rohani. 8.2 Konsep qanaah sebagaimana dipahami oleh Al-Hasan dan Abu Dzar. 8.3 Akhlak dan sikap yang luhur. 8.4 Menjauhi prasangka. 8.5 Musyawarah dan diskusi. 8.6 Prinsip-prinsip penting yang diperintahkan Al-Hasan.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 185 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>أقواله وخطبه ومواعظه</p>\n<p>8.1 تحذيره من الأمراض الروحية ............. 253</p>\n<p>8.2 مفهوم الزهد كما فهمه الحسن وأبو ذر ......... 255</p>\n<p>8.3 سموّ الأخلاق والمعالي ............... 257</p>\n<p>8.4 موقفه من الدنيا وزخرفها .............. 259</p>\n<p>8.5 ثمرات التقوى والصلاح ............... 261</p>"
 }
