@@ -62,7 +62,7 @@ def load_narrators():
         name_en = n.get("name_en", "")
         slug = n.get("slug", "")
         if name_ar:
-            normalized = strip_diacritics(name_ar)
+            normalized = normalize_arabic_case(strip_diacritics(name_ar))
             by_name_ar[normalized] = n
         if name_en:
             by_name_en[name_en.lower()] = n
@@ -77,6 +77,23 @@ def strip_diacritics(text):
     for d in diacritics:
         text = text.replace(d, "")
     return text.strip()
+
+
+def normalize_arabic_case(text):
+    """Normalize common Arabic case inflections for better name matching.
+
+    Arabic names change case endings depending on grammatical position:
+    - أبو (nominative) → أبي (genitive after عن) → أبا (accusative)
+    - ابن / بن alternate forms
+    Normalize to a canonical form for matching.
+    """
+    # Normalize أبي/أبا → أبو (most common: Abu prefix)
+    text = re.sub(r'\bأبي\b', 'أبو', text)
+    text = re.sub(r'\bأبا\b', 'أبو', text)
+    # Normalize بن/ابن variants (both mean "son of")
+    text = re.sub(r'\bابن\b', 'بن', text)
+    # Strip ال prefix variants if followed by same word
+    return text
 
 
 def split_on_transmission(isnad_ar):
@@ -139,7 +156,7 @@ def extract_names_from_segment(segment):
 
 def match_narrator(name_ar, by_name_ar, by_name_en):
     """Try to match an Arabic name to a known narrator."""
-    normalized = strip_diacritics(name_ar)
+    normalized = normalize_arabic_case(strip_diacritics(name_ar))
 
     # Direct match
     if normalized in by_name_ar:
