@@ -18237,7 +18237,7 @@
     "source_url_primary": "https://al-maktaba.org/book/1091",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18277,7 +18277,7 @@
     "source_url_primary": null,
     "source_type": "html",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18317,7 +18317,7 @@
     "source_url_primary": "https://al-maktaba.org/book/1098",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "hadith-sciences",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18357,7 +18357,7 @@
     "source_url_primary": "https://al-maktaba.org/book/3",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "hadith-sciences",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18398,7 +18398,7 @@
     "source_url_primary": "https://al-maktaba.org/book/10800",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18438,7 +18438,7 @@
     "source_url_primary": "https://al-maktaba.org/book/10801",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18478,7 +18478,7 @@
     "source_url_primary": "https://al-maktaba.org/book/10802",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "hadith-sciences",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18518,7 +18518,7 @@
     "source_url_primary": "https://al-maktaba.org/book/3050",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "sharh",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18558,7 +18558,7 @@
     "source_url_primary": null,
     "source_type": "html",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18598,7 +18598,7 @@
     "source_url_primary": "https://al-maktaba.org/book/3048",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18638,7 +18638,7 @@
     "source_url_primary": "https://al-maktaba.org/book/4020",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "biography",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18678,7 +18678,7 @@
     "source_url_primary": "https://al-maktaba.org/book/6700",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18718,7 +18718,7 @@
     "source_url_primary": "https://al-maktaba.org/book/6820",
     "source_type": "html",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "usul-al-fiqh",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18759,7 +18759,7 @@
     "source_url_primary": null,
     "source_type": null,
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "hadith-sciences",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18796,7 +18796,7 @@
     "source_url_primary": null,
     "source_type": null,
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18832,7 +18832,7 @@
     "source_url_primary": null,
     "source_type": null,
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "general",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18868,7 +18868,7 @@
     "source_url_primary": null,
     "source_type": null,
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "comparative-religion",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18904,7 +18904,7 @@
     "source_url_primary": null,
     "source_type": null,
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18940,7 +18940,7 @@
     "source_url_primary": null,
     "source_type": null,
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "general",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -18977,7 +18977,7 @@
     "source_url_primary": null,
     "source_type": null,
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "general",
     "category_secondary": null,
     "canonical": true,
     "canonical_slug": null,
@@ -19033,7 +19033,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "biography",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19073,7 +19073,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19115,7 +19115,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19155,7 +19155,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "history",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19195,7 +19195,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19238,7 +19238,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19278,7 +19278,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "confirmed",
-    "category_primary": null,
+    "category_primary": "seerah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19323,7 +19323,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19365,7 +19365,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19408,7 +19408,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19449,7 +19449,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19492,7 +19492,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19533,7 +19533,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19580,7 +19580,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19622,7 +19622,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19665,7 +19665,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "general",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19709,7 +19709,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19753,7 +19753,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19798,7 +19798,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19841,7 +19841,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19882,7 +19882,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "biography",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19923,7 +19923,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "seerah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -19967,7 +19967,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20011,7 +20011,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "quran-sciences",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20052,7 +20052,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "hadith-sciences",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20097,7 +20097,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "history",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20140,7 +20140,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20182,7 +20182,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20223,7 +20223,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20265,7 +20265,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "general",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20307,7 +20307,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20351,7 +20351,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20391,7 +20391,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20432,7 +20432,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20475,7 +20475,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20516,7 +20516,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20557,7 +20557,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "usul-al-fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20602,7 +20602,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20644,7 +20644,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20686,7 +20686,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20727,7 +20727,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "seerah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20771,7 +20771,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20815,7 +20815,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20858,7 +20858,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20903,7 +20903,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20945,7 +20945,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -20990,7 +20990,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21033,7 +21033,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21074,7 +21074,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21116,7 +21116,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21160,7 +21160,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "general",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21203,7 +21203,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21246,7 +21246,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21291,7 +21291,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21334,7 +21334,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21380,7 +21380,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21426,7 +21426,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21471,7 +21471,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21513,7 +21513,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21557,7 +21557,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21598,7 +21598,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21640,7 +21640,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21682,7 +21682,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21723,7 +21723,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21766,7 +21766,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21811,7 +21811,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "history",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21854,7 +21854,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21898,7 +21898,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21943,7 +21943,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -21987,7 +21987,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22029,7 +22029,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "fiqh",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22070,7 +22070,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22112,7 +22112,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "aqeedah",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22155,7 +22155,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "comparative-religion",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22199,7 +22199,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "tafsir",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22243,7 +22243,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22288,7 +22288,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "ethics-spirituality",
     "category_secondary": null,
     "canonical_slug": null
   },
@@ -22330,7 +22330,7 @@
     "language_source": "ar",
     "language_source_note": "chapters-from-english-translation",
     "source_status": "no-source",
-    "category_primary": null,
+    "category_primary": "general",
     "category_secondary": null,
     "canonical_slug": null
   }
