@@ -1,7 +1,7 @@
 {
   "number": 22,
   "title_en": "4. The Announcement of Someone’s Death",
-  "title_ar": "",
+  "title_ar": "الإعلان عن الوفاة",
   "content_en": "<p>42 Sahih al-Bukhari, vol.2, p.215, no.383, Sahih Muslim, vol.1, p.59, nos.186-7, Sunan Abu Dawud vol.2, pp. 891-92 no.3124, Sunan Ibn-i-Majah, vol.2, p.439, no.1586 and Mishkat AlMasabih, vol.1, p.361. 43 The Prophet’s migration to the city of Madeenah. 44 (sahih) Sunan Abu Dawud, vol.2, p.892 no.3125 and Sunan Ibn-i-Majah, vol.2, p.435 no.1579.</p>\n<p>It is forbidden in Islaam to make a big affair about announcing anyone’s death, such as proclaiming it from the minarets of the masjids, announcing it in the market streets etc ; ﺎﻴ ﻨﹶﻌﻜﹸﻭﻥ ﻴﺍ ﺇِﻨﱢﻲ ﺃَﺨﹶﺎﻑﹸ ﺃَﻥﺩﺕﹸ ﻗﹶﺎلَ ﻻﹶ ﺘﹸﺅْﺫِﻨﹸﻭﺍ ﺒِﻪِ ﺃَﺤﻴ ﺍﻟﹾﻤﺎﺕﹶ ﻟﹶﻪﻔﹶﺔﹸ ﺇِﺫﹶﺍ ﻤﺫﹶﻴ ﺤﻜﹶﺎﻥ ﺕﹸﻤِﻌﺇِﻨﱢﻲ ﺴ ﻭلَ ﺍﻟﻠﱠﻪِ ﺴﺭ r ﻲِﻥِ ﺍﻟﻨﱠﻌﻰ ﻋﻨﹾﻬﻥِ ﻴﺎﺘﹶﻴ ﻫ ﺒِﺄُﺫﹸﻨﹶﻲ . If someone died, Huthayfah ibn al-Yamaan used to say, “Do not proclaim his death to anyone, for I fear that it may be a death announcement and I heard Allaah’s Messenger (r) with my own two ears forbid the death announcement.”45 However, a calmly expressed general announcement is allowed َ ﻗﹶﺎلﻨﹾﻪ ﻋﻀِﻲ ﺍﻟﻠﱠﻪﺓﹶ ﺭﺭﻴﺭ ﺃَﺒِﻲ ﻫﻥﻋ : ﻰ ﺍﻟﻨﱠﺒِﻲﻨﹶﻌ r ﻔﱡﻭﺍ  ﻓﹶﺼﻡ ﺘﹶﻘﹶﺩ ﺜﹸﻡﺎﺸِﻲﺎﺒِﻪِ ﺍﻟﻨﱠﺠﺤ ﺇِﻟﹶﻰ ﺃَﺼ ﺎﻌﺒ ﺃَﺭﺭ ﻓﹶﻜﹶﺒﺨﹶﻠﹾﻔﹶﻪ . Aboo Hurayrah reported that Allaah’s Messenger (r) announced the death of the Najaashee to his companions on the very day that he died, then he stepped forward and they lined up behind him and he made [a funeral prayer consisting of] four takbeers.46</p>",
   "title_id": "4. Pengumuman Kematian Seseorang",
   "content_id": "<p>Dilarang dalam Islam untuk membesar-besarkan pengumuman kematian seseorang, seperti memproklamasikannya dari menara masjid, mengumumkannya di jalan-jalan pasar, dan sebagainya. Hudzaifah bin al-Yaman apabila seseorang meninggal, beliau berkata, \"Jangan beritahukan kepada siapa pun, karena aku khawatir itu menjadi pengumuman kematian, dan aku mendengar Rasulullah ﷺ dengan kedua telingaku melarang pengumuman kematian.\" Namun, pengumuman yang tenang dan umum diperbolehkan. Abu Hurairah melaporkan bahwa Rasulullah ﷺ mengumumkan kematian Najasyi kepada para sahabat beliau pada hari yang sama ia meninggal, kemudian beliau maju ke depan, mereka berbaris di belakangnya, dan beliau melakukan (salat jenazah dengan) empat takbir.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 227 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>يُستحب الإعلان عن وفاة الميت لإحضار الصلاة عليه وتجهيزه. وقد كان النبي ﷺ يُعلِن عن وفاة أصحابه ليُصلَّى عليهم. غير أنَّ هذا الإعلان مشروط بألا يكون نداءً للجاهلية أو دعوةً للنياحة بل نداءً للصلاة والتشييع.</p><p><strong>الأصل في الإعلان</strong></p><p>المشروع هو الإعلام البسيط: «مات فلان فاحضروا الصلاة عليه». أما الإعلان المصحوب بالنعي المنظوم أو التكرار بصيغ النياحة فهو ما نهى عنه النبي ﷺ.</p>"
 }

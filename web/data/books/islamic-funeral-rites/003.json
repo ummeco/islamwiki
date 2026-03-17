@@ -1,7 +1,7 @@
 {
   "number": 3,
   "title_en": "3. Soorah Yaaseen",
-  "title_ar": "",
+  "title_ar": "قراءة سورة يس عند المحتضر",
   "title_id": "3. Surah Yasin",
   "content_id": "<p>Praktik khusus membaca surah ke-36 dalam Al-Quran, yaitu Surah Yasin, di hadapan orang yang sekarat tidak memiliki dasar dalam Sunnah yang sahih. Nabi (shallallahu alaihi wa sallam) maupun para sahabat beliau tidak pernah melakukannya atau menganjurkan untuk melakukannya. Akan tetapi, hal ini termasuk dalam kategori umum sebagai ucapan yang baik yang dapat disampaikan di hadapan orang yang sedang sekarat, meskipun tidak memiliki keutamaan khusus. Membaca surah ini sama halnya dengan membaca surah mana pun dalam Al-Quran. Oleh karena itu, seseorang boleh membacakannya untuk orang yang sekarat jika ingin melakukannya, atau jika orang yang sekarat tersebut memintanya karena preferensi pribadi. Namun demikian, menetapkan bahwa Surah Yasin secara khusus harus dibacakan untuk orang yang sekarat dan meyakini bahwa hal tersebut memiliki keutamaan istimewa dianggap sebagai bid'ah, yaitu suatu inovasi yang berdosa dalam agama Islam. Para ulama telah menegaskan bahwa setiap amalan ibadah yang tidak ada dasar sahihnya dari Al-Quran dan Sunnah, lalu dilakukan dengan keyakinan bahwa ia memiliki keutamaan tertentu, maka termasuk dalam kategori bid'ah yang dilarang. Kita hendaknya berpegang teguh pada apa yang telah diajarkan oleh Nabi dalam urusan kematian dan pengurusan jenazah, dan tidak menambahkan amalan-amalan yang tidak berdasar.</p>",
   "content_en": "<p>The practice of specifically reading the 36th chapter of the Qur’aan, surah Yaaseen, in the presence of the dying has no basis in the authentic Sunnah.13 Neither the Prophet (r) nor his companions did it or recommended that it be done. However, it does fall under the general heading of ‘good things’ which could be said in the presence of one who is dying, but it carries with it no special value. Reciting this chapter is like reciting any other chapter in the Qur’aan. Consequently, one may read it for the dying, if one wishes to do so, or if the dying person requests it due to his or her personal preference for it. However, to specify that surah Yaaseen should be read for the dying and to believe that doing so has special value is considered Bid’ah; a sinful innovation in the religion.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 144 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>جرت العادة في كثير من البلاد الإسلامية على قراءة سورة يس بجانب المحتضر، غير أنَّ الحديث المروي في هذا الشأن يُناقِش العلماء في درجته. ولذا ذهب بعضهم إلى استحباب قراءتها اتباعاً لما شاع عملاً، بينما توقَّف آخرون نظراً لضعف الحديث المستند إليه في هذا الباب.</p><p><strong>الموقف الفقهي</strong></p><p>ينبغي الحذر من الجزم بسنية هذه الممارسة دون دليل صحيح صريح. والأصل في أحوال الاحتضار الالتزام بالأذكار والأدعية الثابتة بالصحيح، وما عداها فالأولى التوقف.</p>"
 }

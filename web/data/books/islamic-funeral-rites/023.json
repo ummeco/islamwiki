@@ -1,7 +1,7 @@
 {
   "number": 23,
   "title_en": "5. Gathering to Give Condolences",
-  "title_ar": "",
+  "title_ar": "الاجتماع لتقديم العزاء",
   "content_en": "<p>The practise of organizing gatherings in the home, at the grave or in the masjid to give condolenses to the family of the dead person is against the sunnah of the companions of the Prophet (r). ﺩِ ﺍﻟﻠﱠﺒﻥِ ﻋﺭِﻴﺭٍ ﺒ ﺠﻥﻋ ﻠِﻲ ﻗﹶﺎلَﺠﻪِ ﺍﻟﹾﺒ : ﺎﻡِ ﻤِﻥﺔﹶ ﺍﻟﻁﱠﻌﻨﹾﻌﺼﺕِ ﻭﻴلِ ﺍﻟﹾﻤ ﺇِﻟﹶﻰ ﺃَﻫﺎﻉﺘِﻤﻯ ﺍﹾﻹِﺠﻜﹸﻨﱠﺎ ﻨﹶﺭ ﺔِ ﺎﺤﺍﻟﻨﱢﻴ . 45 Collected by at-Tirmithee and Sunan Ibn-i-Majah vol.2, p.382 no.1476. 46 Collected by al-Bukhaaree and Muslim, Sahih al-Bukhari, vol.2, p.227 no.404, Sahih Muslim vol.2, p.452 no.2077 &2078, Sunan Abu Dawud vol.2, p.911, no.3198 and Mishkat Al-Masabih,, vol.1, p.348.</p>\n<p>Jareer ibn ‘Abdillaah al-Bajalee said, “We used to regard gathering at the home of the deceased’s family and their preparation of food an aspect of wailing.”47 Imaam ash-Shaafi‘ee said, “I dislike gatherings, even if there is no wailing or crying. For it only renews the [family’s feelings of] sorrow and puts burdens on their food supplies.”48 Imaam an-Nawawee related that the leading scholars prohibited organized gatherings based on it being an innovation.49</p>",
   "title_id": "5. Berkumpul untuk Menyampaikan Ta'ziyah",
   "content_id": "<p>Praktik menyelenggarakan perkumpulan di rumah, di kubur, atau di masjid untuk menyampaikan ta'ziyah kepada keluarga orang yang meninggal bertentangan dengan sunnah para sahabat Nabi ﷺ. Jarir bin Abdillah al-Bajali berkata, \"Kami dahulu memandang berkumpul di rumah keluarga jenazah dan penyediaan makanan oleh mereka sebagai bagian dari ratapan.\" Imam asy-Syafi'i berkata, \"Aku tidak menyukai perkumpulan, meskipun tidak ada ratapan maupun tangisan. Karena hal itu hanya memperbarui (perasaan duka keluarga) dan membebani persediaan makanan mereka.\" Imam an-Nawawi menyebutkan bahwa ulama-ulama terkemuka melarang perkumpulan yang terorganisasi karena hal itu merupakan bid'ah.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 167 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>تقديم العزاء لأهل الميت مشروع ومندوب إليه، غير أنَّ الاجتماعات الطويلة في بيت الميت التي تُشبه المأتم وتُلزم الأسرة باستقبال الزوار وإطعامهم ليست من السنة النبوية.</p><p><strong>المشروع والمبتدَع في العزاء</strong></p><p>المشروع هو زيارة أهل الميت بقصد المواساة والدعاء لهم والدعاء للميت ثم الانصراف. وأما الاجتماع الطويل الذي يُضيف عبئاً على المصابين المنهكين فهو مما يُكره بل نهى عنه بعض العلماء. ويروى عن جرير بن عبدالله قوله: «كنا نعدُّ الاجتماع إلى أهل الميت وصنيعة الطعام من النياحة».</p>"
 }

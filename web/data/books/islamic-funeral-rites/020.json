@@ -1,7 +1,7 @@
 {
   "number": 20,
   "title_en": "2. Striking Cheeks and Tearing of Clothes",
-  "title_ar": "",
+  "title_ar": "لطم الخدود وشق الثياب",
   "content_en": "<p>It was the practice in Arabia at the time of the Prophet (r) for women in mourning to slap or scratch the cheeks of their faces and to rip their clothes. These acts were strictly forbidden as well as all similar practices which involved self punishment and the destruction of material wealth. These practices all aim at heightening the pain and sorrow accompanying death while Islaam seeks to minimize it. Ibn Mas‘ood reported that the Prophet (r) said, )) ِﺔﺎﻫِﻠِﻴﻯ ﺍﻟﹾﺠﻭﻋﺎ ﺒِﺩﻋ ﺩ ﺃَﻭﻭﺏﻴ ﺸﹶﻕﱠ ﺍﻟﹾﺠ ﺃَﻭﻭﺩ ﺍﻟﹾﺨﹸﺩﺏﺭ ﻀﻥ ﻤِﻨﱠﺎ ﻤﺱ ﻟﹶﻴ ((. “Whoever slaps his face, tears his clothes or invites (others) to an un-Islamic slogan is not of us.”40</p>",
   "title_id": "2. Menampar Pipi dan Merobek Pakaian",
   "content_id": "<p>Kebiasaan di Arabia pada zaman Nabi ﷺ adalah para wanita yang berkabung menampar atau menggaruk pipi mereka dan merobek pakaian mereka. Tindakan-tindakan ini dilarang keras, demikian pula semua praktik serupa yang melibatkan penyiksaan diri dan perusakan harta benda. Semua praktik ini bertujuan memperparah rasa sakit dan duka yang menyertai kematian, sementara Islam berupaya meminimalkannya. Ibnu Mas'ud melaporkan bahwa Nabi ﷺ bersabda, \"Bukan termasuk golongan kami orang yang menampar wajahnya, merobek pakaiannya, atau menyerukan seruan kebodohan (jahiliah).\"</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 111 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>نهى النبي ﷺ صراحةً عن لطم الخدود وشق الجيوب وقول قول الجاهلية عند المصيبة. وهذه الأفعال كانت شائعةً في الجزيرة العربية قبل الإسلام وجاء الإسلام بنسخها. والأحاديث الصحيحة في هذا الباب متعددة تدل على التحريم القطعي.</p>"
 }

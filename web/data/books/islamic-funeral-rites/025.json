@@ -1,7 +1,7 @@
 {
   "number": 25,
   "title_en": "1. Preparing Food for the Family of the Deceased",
-  "title_ar": "",
+  "title_ar": "إعداد الطعام لأسرة المتوفى",
   "content_en": "<p>It was the practise of the Prophet to have his family prepare food for the relatives of the dead. ﺱٍ ﻗﹶﺎﻟﹶﺕﹾﻴﻤ ﺒِﻨﹾﺕِ ﻋﺎﺀﻤ ﺃَﺴﻥﻋ : ﻭلُ ﺍﻟﻠﱠﻪِ ﺴ ﺭﻊﺠ ﺭﻔﹶﺭﻌ ﺠﺎ ﺃُﺼِﻴﺏﻟﹶﻤ r ﻠِﻪِ ﻓﹶﻘﹶﺎلَ  ﺇِﻟﹶﻰ ﺃَﻫ : )) ﻡﻭﺍ ﻟﹶﻬﻨﹶﻌ ﻓﹶﺎﺼﺘِﻬِﻡﻴ ﺸﹸﻐِﻠﹸﻭﺍ ﺒِﺸﹶﺄْﻥِ ﻤﻔﹶﺭٍ ﻗﹶﺩﻌ ﺁلَ ﺠﺇِﻥ ﺎ ﺎﻤ ﻁﹶﻌ (( ﺍﻟﻠﱠﻪِﺩﺒﻗﹶﺎلَ ﻋ : ﻨﱠﺔﹰ ﺍﻟﹶﺕﹾ ﺴﺎ ﺯﻓﹶﻤ ﺩِﻴﺜﹰﺎ ﻓﹶﺘﹸﺭِﻙ ﺤﺘﱠﻰ ﻜﹶﺎﻥﺤ . Asmaa bint ‘Umays said: When Ja‘far was killed, Allaah’s Messenger returned to his family and said, “Ja‘far’s family is distracted by the affairs of their dead, so prepare some food for them.” ‘Abdullaah53 said: That remained the sunnah until it became an innovation54 and was abandoned.55</p>",
   "title_id": "1. Menyiapkan Makanan untuk Keluarga Almarhum",
   "content_id": "<p>Sudah menjadi kebiasaan Nabi ﷺ untuk memerintahkan keluarganya menyiapkan makanan bagi kerabat orang yang meninggal. Asma binti Umays berkata: Ketika Ja'far gugur, Rasulullah ﷺ kembali ke keluarganya dan bersabda, \"Keluarga Ja'far sedang disibukkan dengan urusan orang yang meninggal di antara mereka, maka siapkanlah makanan untuk mereka.\" Abdullah berkata: Itu tetap menjadi sunnah sampai kemudian menjadi bid'ah yang diada-adakan sehingga ditinggalkan.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 111 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>من السنة النبوية الثابتة أن يُعِدَّ جيران الميت وذووه طعاماً يُرسلونه إلى أسرة المتوفى في أيام الحزن والمصيبة. وقد أمر النبي ﷺ بذلك صراحةً لمَّا استُشهد جعفر بن أبي طالب، وقال لآل بيته: «اصنعوا لآل جعفر طعاماً فقد أتاهم ما يشغلهم».</p>"
 }
