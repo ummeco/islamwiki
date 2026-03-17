@@ -23,6 +23,7 @@ interface PersonData {
   bio_short_en?: string
   bio_en?: string
   bio_id?: string
+  bio_ar?: string
   era: PersonEra
   category: string
   tags?: string[]

@@ -148,7 +148,9 @@ export default async function PersonPage({ params }: Props) {
             </h2>
             <div className="prose prose-invert max-w-none text-iw-text-secondary space-y-2">
               {(() => {
-                const bio = locale === 'id' && person.bio_id ? person.bio_id : person.bio_en
+                const bio = locale === 'id' && person.bio_id ? person.bio_id
+                  : locale === 'ar' && person.bio_ar ? person.bio_ar
+                  : person.bio_en
                 return bio ? renderContent(bio)
                   : person.bio_short_en
                     ? <p className="italic text-iw-text-muted">{person.bio_short_en}</p>
