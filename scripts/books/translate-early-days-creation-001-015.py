@@ -1,0 +1,850 @@
+#!/usr/bin/env python3
+"""
+Translate early-days-creation chapters 001-015 to Indonesian.
+Book: Al-Bidayah wan-Nihayah (The Beginning and the End) by Ibn Katheer.
+"""
+import json
+from pathlib import Path
+
+BOOK_DIR = Path('/Users/admin/Sites/ummeco/islamwiki/web/data/books/early-days-creation')
+
+translations = {}
+
+# ============================================================
+# Chapter 001 — Preface (Part 1): Intro/dedication of the revised edition
+# ============================================================
+translations['001'] = {
+    'title_id': 'Bagian 1',
+    'content_id': (
+        '<p>berlindung kepada-Nya dari dosa-dosa yang memberatkan punggung manusia. Aku menyembah-Nya '
+        'dan memohon pertolongan-Nya dalam menghilangkan rintangan dan kesulitan dalam mengamalkan agamaku. '
+        'Aku bersaksi bahwa tidak ada yang berhak disembah selain Allah, Yang Maha Esa, tiada sekutu '
+        'bagi-Nya; dan aku bersaksi bahwa Muhammad — yang dengan izin Allah telah menerangi fajar keimanan '
+        'di tengah kegelapan dan kesesatan yang ada di dalam hati manusia — adalah hamba dan utusan Allah. '
+        'Semoga shalawat dan salam Allah senantiasa terlimpah atasnya.</p>'
+        '<p>Ya Allah! Kami memohon karunia-Mu dan melalui-Mu kami berlindung dari bencana. Kami memohon '
+        'kepada-Mu agar melindungi kami dan memberikan rahmat kepada kami. Ya Tuhan kami! Janganlah Engkau '
+        'palingkan hati kami setelah Engkau memberi kami petunjuk. Mudahkanlah kami untuk melaksanakan '
+        'amal-amal kami sesuai dengan ajaran-Mu. Jadikanlah kami bersyukur atas apa yang Engkau berikan '
+        'kepada kami, dan tunjukkanlah kepada kami jalan yang mengantarkan kepada-Mu. Bukalah pintu-pintu '
+        'antara kami dan Engkau yang dapat membawa kami menghadap-Mu. Milik-Mulah kunci-kunci langit dan '
+        'bumi, dan Engkau Maha Kuasa atas segala sesuatu. Amma ba\'du:</p>'
+        '<p>Di antara nikmat yang telah Allah anugerahkan kepada kami, umat kaum Muslimin, adalah bahwa '
+        'Dia telah memudahkan kami untuk mengikuti jalan petunjuk, dan Dia telah membuka pintu-pintu ilmu '
+        'dengan menyediakan bagi kami berbagai publikasi baru yang mempersembahkan kepada kami tulisan-tulisan '
+        'para ulama terdahulu dan mengungkapkan kepada kami apa yang mereka katakan mengenai fatwa, sejarah, '
+        'peristiwa, informasi, dan pelajaran. Para ulama itu telah membuka mercusuar cahaya yang jelas bagi '
+        'seluruh kaum Muslimin yang mencari petunjuk, dan mereka telah mendirikan bagi kami penunjuk jalan '
+        'yang tidak menyimpang dan tidak bengkok. Siapa pun yang mengikutinya akan tiba dengan selamat di '
+        'tujuan yang diinginkan, dan siapa pun yang menyimpang darinya akan tersesat selamanya.</p>'
+        '<p>Mereka telah menuliskan buku-buku dan risalah-risalah ini serta menjelaskan kepada kami di '
+        'dalamnya berbagai peristiwa, informasi, dan keutamaan. Di antara buku-buku semacam itu adalah '
+        'karya yang unik ini, Al-Bidayah Wan-Nihayah, karya Imam, Al-Hafiz, pakar hadis terkemuka, '
+        '\'Imaduddeen Isma\'eel Ibn Katheer Al-Qurasyi — semoga Allah merahmatinya. Buku ini disambut '
+        'dengan penerimaan yang baik oleh sebagian besar kaum Muslimin. Tidak ada perpustakaan Islam yang '
+        'lengkap tanpanya.</p>'
+        '<p>Di dalamnya, sang pengarang mencatat apa yang Allah, Yang Maha Tinggi, mudahkan baginya mengenai '
+        'sejarah umat manusia, sejak permulaan penciptaan — dimulai dengan penciptaan \'Arsy dan Kursi, '
+        'langit dan bumi beserta seluruh isinya dan semua yang ada di antara keduanya, seperti para malaikat, '
+        'jin, dan setan. Beliau juga menjelaskan bagaimana Nabi Adam (as) diciptakan, dan menuturkan kisah-kisah '
+        'para nabi hingga masa Bani Isra\'il dan Masa Jahiliyyah, sampai kedatangan Nabi Muhammad ﷺ yang '
+        'menandai berakhirnya kenabian. Beliau kemudian mencatat Sirah-nya. Selanjutnya beliau mencatat '
+        'berbagai peristiwa yang terjadi hingga masanya sendiri. Beliau juga berbicara mengenai fitnah-fitnah '
+        'dan peperangan, tanda-tanda mendekatnya Hari Kiamat, kemudian kebangkitan manusia dan berbagai '
+        'kengerian Hari Kebangkitan yang beliau uraikan secara terperinci. Beliau kemudian menggambarkan '
+        'neraka dengan segala kengeriannnya, serta surga dengan segala keindahan yang ada di dalamnya.</p>'
+        '<p>Beliau menamai volume khusus ini: An-Nihayah Fil-Fitan Wal-Malahim (Akhir Zaman dalam Fitnah '
+        'dan Pertempuran Besar). Adapun buku yang ada di tangan kita sekarang adalah Al-Bidayah.</p>'
+        '<p>Dengan karunia Allah, aku mengenal saudara Abdul Malik Mujahid, manajer umum Penerbitan '
+        'Darussalam di Riyadh. Beliau mengunjungiku di kantorku yang sederhana di Damaskus dan menyarankan '
+        'kepadaku gagasan untuk membuat versi ringkasan dari buku yang luar biasa ini. Aku pun memohon '
+        'petunjuk Allah dalam hal ini dan meminta pertolongan-Nya untuk menyelesaikan proyek tersebut.</p>'
+        '<p>Allah memudahkan aku untuk berkenalan dengan sejumlah orang yang berilmu dan berpengalaman di '
+        'bidang ini, dan sebuah rencana aksi untuk pekerjaan ini pun disusun. Rencana tersebut terdiri dari '
+        'sepuluh poin utama, kemudian kami mulai mengerjakan tugas ini, memohon pertolongan kepada Tuhan '
+        'langit dan bumi. Kami semua mencurahkan segenap upaya dalam tugas ini, melakukan revisi dan koreksi '
+        'berulang kali, hingga kami mencapai titik di mana, dengan izin Allah, kami menyelesaikannya dan '
+        'diterbitkan dalam bentuk yang ada di tangan Anda.</p>'
+        '<p><strong>Rencana Aksi untuk Buku Ini:</strong></p>'
+        '<p>1. Meringkas teks. Hal ini dicapai dengan berkonsentrasi pada peristiwa-peristiwa terpenting '
+        'yang dikisahkan dalam buku. Dalam melakukannya, kami berhati-hati untuk tidak meninggalkan '
+        'detail-detail penting yang dapat menyebabkan hilangnya makna.</p>'
+        '<p>2. Kami mengandalkan sejumlah salinan buku yang telah dicetak maupun yang ditulis tangan, '
+        'dan dalam kasus di mana ditemukan pertentangan atau kelalaian, kami berhasil menetapkan teks '
+        'yang paling akurat dan otentik.</p>'
+        '<p>3. Kami menghapus hadis-hadis yang terbukti tidak berdasar atau lemah, dan membatasi diri '
+        'pada hadis-hadis yang sahih atau hasan, serta hadis-hadis yang dapat diterima karena adanya '
+        'riwayat-riwayat lain yang mendukungnya. Dalam kasus yang jarang terjadi, ketika tidak ada hadis '
+        'lain dalam bab tersebut, kami memasukkan beberapa hadis dhaif yang kelemahannya tidak terlalu parah.</p>'
+        '<p>4. Kami melakukan takhrij hadis-hadis dengan mencantumkan nomor bab dan halaman, nomor hadis, '
+        'dan dalam banyak kasus, lokasi pasti hadis tersebut dalam sumber aslinya, kemudian penilaian '
+        'mengenai keasliannya, jika bukan dari Shahihain, karena hadis-hadis di dalamnya tidak memerlukan '
+        'penilaian mengenai keasliannya dan telah diterima secara luas oleh umat Islam.</p>'
+        '<p>(1) Hasan: Baik, sahih. Hadis yang dapat diterima, meskipun tidak mencapai tingkat sahih (otentik).</p>'
+        '<p>(2) Takhrij: Merujuk sumber-sumber sebuah hadis dan mengevaluasinya.</p>'
+        '<p>(3) Shahihain: Shahih Al-Bukhari dan Shahih Muslim.</p>'
+        '<p>Adapun hadis-hadis dalam buku ini, kami telah mengandalkan pendapat para imam dan ulama hadis '
+        '— termasuk para ulama terdahulu, ulama kemudian, dan para ulama masa kini. Pada beberapa kesempatan, '
+        'kami mencatat hadis-hadis dhaif, sambil menjelaskan dengan jelas bahwa hadis-hadis tersebut tidak '
+        'otentik. Kami tidak menghapusnya karena pengarang telah memasukkannya untuk memperingatkan orang '
+        'tentang hadis-hadis tersebut mengingat popularitasnya yang meluas di kalangan umat Islam pada '
+        'umumnya.</p>'
+        '<p>5. Kami meringkas sanad-sanad yang ada dalam buku, dalam kebanyakan kasus hanya menyebut '
+        'Sahabat yang meriwayatkan hadis, atau orang yang meriwayatkannya darinya.</p>'
+        '<p>6. Kami menghilangkan banyak Isra\'iliyyat yang terdapat dalam buku ini, yang dirujuk pengarang '
+        'dalam kata pengantar, di mana beliau berkata: &ldquo;Kami tidak mencatat Isra\'iliyyat kecuali yang '
+        'diizinkan oleh Sang Pembuat Syariat, yaitu yang tidak bertentangan dengan Kitab Allah dan Sunnah '
+        'Rasul-Nya.&rdquo;</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 002 — Preface (Part 2): Completion of plan of action
+# ============================================================
+translations['002'] = {
+    'title_id': 'Bagian 2',
+    'content_id': (
+        '<p>dapat diandalkan dan dipercaya. Dari Allah-lah kami memohon pertolongan, dan kepada-Nya kami '
+        'bertawakkal; tidak ada pertolongan dan tidak ada kekuatan kecuali dari Allah, Yang Maha Perkasa, '
+        'Yang Maha Bijaksana, Yang Maha Tinggi, Yang Maha Agung.</p>'
+        '<p>7. Dalam beberapa hal, kami merujuk kembali ke naskah asli guna memverifikasi redaksi sebuah '
+        'hadis dari sumbernya. Dalam beberapa kasus, pengarang telah menggabungkan dua riwayat atau hadis '
+        'yang sama, sehingga di mana hal ini terjadi, kami mencatatnya dan memisahkan kedua riwayat tersebut, '
+        'menempatkan kata-kata kami sendiri di antara tanda kurung, yakni (dan dalam riwayat lain...) dan '
+        'kami juga mengidentifikasi sumber tambahan tersebut dalam catatan kaki.</p>'
+        '<p>8. Kami menuliskan ayat-ayat Al-Quran dalam tulisan Utsmani, sesuai dengan salinan Al-Quran '
+        'yang diterbitkan oleh Percetakan Madinah Al-Munawwarah.</p>'
+        '<p>9. Kami memberikan harakat pada kata-kata dari banyak hadis dalam buku ini, dan juga pada '
+        'bait-bait syair, di mana memungkinkan.</p>'
+        '<p>10. Kami menyebutkan timbangan bait-bait syair di antara tanda kurung.</p>'
+        '<p>11. Kami menjelaskan makna beberapa kata yang sulit atau tidak umum, dengan mengandalkan '
+        'kamus-kamus, buku-buku yang mengandung gharib al-hadits dan riwayat-riwayat, serta sumber-sumber lainnya.</p>'
+        '<p>12. Kami menyajikan biografi singkat tentang pengarang, Al-Hafiz Ibn Katheer — meskipun '
+        'sesungguhnya beliau tidak memerlukan perkenalan.</p>'
+        '<p>Akhirnya, aku memohon kepada Allah, Yang Maha Tinggi, untuk menerima karya sederhana ini dari '
+        'kami dan mengakuinya sebagai amal yang dilakukan dengan tulus dan ikhlas semata-mata untuk '
+        'mengharapkan ridha-Nya, serta untuk mengampuni kami dan saudara-saudara kami yang telah membantu '
+        'kami dalam memproduksi buku ini, baik dalam urusan agama maupun dunia. Selain itu, kami memohon '
+        'kepada-Nya agar menyertakan karya ini dalam timbangan amal baik kami pada Hari Kebangkitan — '
+        'Hari di mana tidak ada harta dan tidak ada anak-anak yang bermanfaat bagi seseorang — kecuali '
+        'bagi mereka yang Allah anugerahkan hati yang suci.</p>'
+        '<p>Dan pernyataan terakhir kami adalah bahwa segala puji dan syukur hanya bagi Allah, dan kami '
+        'memanjatkan shalawat dan salam atas Nabi Muhammad ﷺ serta seluruh keluarga dan sahabatnya '
+        'yang shalih hingga Hari Pembalasan.</p>'
+        '<p>Hamba Allah yang hina,<br>2 Dzulhijjah 1428 H.</p>'
+        '<p>Sesungguhnya segala puji dan syukur hanya bagi Allah. Kami memohon pertolongan-Nya dan meminta '
+        'ampun kepada-Nya. Kami berlindung kepada Allah dari keburukan yang ada pada diri kami. Barang '
+        'siapa yang Allah beri petunjuk, tidak ada yang dapat menyesatkannya; dan barang siapa yang Dia '
+        'sesatkan, tidak ada yang dapat memberinya petunjuk. Aku bersaksi bahwa tidak ada yang berhak '
+        'disembah selain Allah, dan bahwa Muhammad adalah hamba dan utusan-Nya. Beliau mengutusnya dengan '
+        'petunjuk dan agama yang benar serta cahaya (kebenaran), nasihat dan hikmah, pada saat tidak ada '
+        'utusan yang dikirim dalam waktu lama, ketika ilmu agama sangat sedikit dan manusia telah tersesat, '
+        'ketika Hari Kiamat semakin mendekat.</p>'
+        '<p>Barang siapa yang taat kepada Allah dan Rasul-Nya berarti telah mengikuti jalan yang benar, '
+        'sedangkan barang siapa yang mendurhakai Allah dan Rasul-Nya berarti telah menyimpang darinya '
+        'dan tersesat jauh. Amma ba\'du:</p>'
+        '<p>Kitab Al-Bidayah (Permulaan) karya Al-Hafiz, sang imam, sang kritikus ilmiah, Ibn Katheer '
+        'adalah sebuah karya yang tak tertandingi mengenai kajian berbagai peristiwa dan urutan kronologisnya, '
+        'pengetahuan yang beliau upayakan keras untuk diperoleh. Beliau memulai dengan menggambarkan awal '
+        'penciptaan — dari penciptaan \'Arsy dan Kursi, langit dan bumi beserta semua yang ada di dalamnya '
+        'dan semua yang ada di antara keduanya, seperti para malaikat, jin, dan setan; dan beliau menjelaskan '
+        'cara penciptaan Nabi Adam (as). Beliau menceritakan kisah-kisah para nabi dan peristiwa-peristiwa '
+        'yang terjadi di dalamnya, hingga masa Bani Isra\'il dan Masa Jahiliyyah, yang berakhir dengan '
+        'kedatangan nabi terakhir, Muhammad ﷺ. Kemudian beliau memberikan gambaran terperinci tentang '
+        'kehidupan beliau dan apa yang terjadi sesudahnya, hingga masa yang beliau alami sendiri.</p>'
+        '<p>Selanjutnya, Allah mengilhami kami untuk mengambil tugas mulia dalam membuat buku ini mudah '
+        'diakses oleh para pelajar dan para ulama, kemudian menerjemahkannya ke dalam beberapa bahasa, '
+        'dengan izin Allah.</p>'
+        '<p>Aku menyarankan kepada saudaraku, Yoosuf Al-Hajj, perlunya meringkas buku ini dengan cara '
+        'yang tepat, melalui penghapusan pengulangan yang tidak bermanfaat, hadis-hadis lemah, syair-syair '
+        'panjang, dan sebagainya. Aku berterima kasih kepada saudara Yoosuf karena telah mengumpulkan '
+        'sebuah tim yang terdiri dari Abdul Malik Wadih, Abu Muslim Al-Jaza\'iri, Muwaffaq Khaleel Hammad, '
+        'dan dirinya sendiri. Darussalam membiayai seluruh proyek ini, membayar setiap anggota tim atas '
+        'kontribusi dan kerjanya.</p>'
+        '<p>Setelah mereka menyelesaikan bagian mereka dari proyek ini, pekerjaan tersebut kemudian '
+        'melewati banyak orang di Divisi Riset Darussalam, yang dengan teliti meneliti pekerjaan tersebut, '
+        'menambahkan dan mengurangi materi. Setelah ini, proyek tersebut melewati putaran pengeditan '
+        'materi Arab lainnya sebelum dikirim ke departemen terjemahan. Terjemahan kemudian diperiksa '
+        'ketepatannya dan kemudian dikirim untuk pengeditan, menghasilkan proyek akhir yang Anda lihat '
+        'di hadapan Anda. Segala puji dan syukur bagi Allah yang memungkinkan kami untuk memproduksi '
+        'karya klasik ini untuk pertama kalinya dalam bahasa Inggris.</p>'
+        '<p>Ya Allah! Kami memohon agar Engkau memberkahi kami dengan keikhlasan dan keberhasilan, serta '
+        'menyebarkan kebaikan melalui tangan kami.</p>'
+        '<p>Abdul Malik Mujahid.</p>'
+        '<p><strong>Bismillahirrahmanirrahim</strong></p>'
+        '<p>Beliau adalah Asy-Syaikh, sang Imam, Al-Hafiz, \'Imaduddeen Abul Fida\' Isma\'eel Ibn \'Umar '
+        'Ibn Katheer Ibn Daw\' Ibn Katheer Ibn Dir\', yang berasal dari Al-Busrawi kemudian Ad-Dimashqi '
+        'Asy-Syafi\'i. Beliau dilahirkan di Mijdal, sebuah desa di pinggiran Busra, pada tahun 701 H., '
+        'di mana ayahnya adalah seorang khatib.</p>'
+        '<p>Pada tahun 706 H., beliau pindah ke Damaskus di mana beliau mempelajari fikih Islam di bawah '
+        'bimbingan Syaikh Burhanuddeen Al-Fazari dan lainnya. Beliau menikahi putri Al-Hafiz Al-Mizzi dan '
+        'meriwayatkan banyak hadis darinya. Beliau mengeluarkan fatwa, menjadi pengajar, dan berdebat '
+        'dengan ulama-ulama lain. Beliau adalah ulama terkemuka dalam fikih Islam, tafsir, dan tata bahasa '
+        'Arab, di samping itu beliau juga tekun dalam mempelajari kekuatan dan kelemahan para perawi hadis.</p>'
+        '<p>(1) Khatib: Orang yang menyampaikan khutbah Jumat di masjid.</p>'
+        '<p>(2) Rijal: Secara harfiah berarti laki-laki; di sini digunakan untuk merujuk kepada para perawi hadis.</p>'
+        '<p>Beliau diangkat sebagai kepala Sekolah Umm As-Salih dan Sekolah At-Tankaziyyah, setelah '
+        'Adz-Dzahabi.</p>'
+        '<p>Adz-Dzahabi menyebutnya dalam catatan penjelasan Thabaqat Al-Huffaz, dan dalam Al-Mu\'jam '
+        'Al-Mukhtash beliau berkata: &ldquo;Beliau adalah ulama fikih yang handal, muhaddits yang verifikatif, '
+        'ulama tafsir, dan kritikus. Beliau telah menulis banyak karya yang bermanfaat.&rdquo;</p>'
+        '<p>Di antara karya-karya tulisnya adalah:</p>'
+        '<p>1. Al-Takhmeel Fee Ma\'rifatith-Thiqat Wal-Majaheel (Buku Lengkap tentang Kritik dan Pujian '
+        'serta Pengetahuan tentang Para Perawi yang Terpercaya dan yang Tidak Dikenal). Karya ini '
+        'menggabungkan Kitab At-Tahdzib dan Al-Mizan.</p>'
+        '<p>2. Jami\' Al-Masaneed Was-Sunan Al-Hadi Li-Aqwam Sunan (Kumpulan Musnad-Musnad dan Sunan-Sunan '
+        'yang Membimbing kepada Sunnah Terbaik); ini disebut sebagai salah satu karya terbaik Ibn Katheer '
+        'di bidang hadis dan merupakan salah satu buku terakhir yang beliau tulis, meskipun bukan yang '
+        'terakhir. Beliau wafat sebelum menyelesaikannya — semoga Allah merahmatinya. Di dalamnya, beliau '
+        'menggabungkan musnad-musnad Imam Ahmad, Al-Bazzar, Abu Ya\'la, dan Ibn Abi Syaibah dengan Enam '
+        'Kitab (Kutubus Sittah).</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 003 — Biography of Ibn Katheer (Part 3)
+# ============================================================
+translations['003'] = {
+    'title_id': 'Bagian 3',
+    'content_id': (
+        '<p>dari Busra, di sebelah timur Damaskus, pada tahun 701 H. Ayahnya adalah seorang khatib; '
+        'beliau wafat pada tahun 705 H., ketika Ibn Katheer baru berusia empat tahun. Kemudian beliau '
+        'diasuh oleh saudaranya, Syaikh Abdul Wahhab, yang darinya beliau mempelajari dasar-dasar '
+        'fikih Islam.</p>'
+        '<p>Kemudian beliau pindah ke Damaskus pada tahun 706 H., ketika berusia enam tahun. Di sana '
+        'beliau mempelajari fikih Islam di bawah bimbingan Syaikh Burhanuddeen Ibrahim Ibn Abdurrahman '
+        'Al-Fazari, yang lebih dikenal sebagai Ibn Al-Firkah (wafat 729 H.). Di Damaskus beliau belajar '
+        'dari \'Eesa Ibn Al-Mut\'im dan dari Ahmad Ibn Abi Thalib, yang lebih dikenal sebagai Ibn '
+        'Asy-Syihnah dan Al-Hajjar, yang hidup lebih dari seratus tahun (wafat 730 H.). Beliau juga '
+        'belajar dari Al-Qasim Ibn \'Asakir, dari Ibn Asy-Syeerazi, Ishaq Ibn Al-Amid, dan Muhammad '
+        'Ibn Zarad. Beliau juga menghadiri kuliah-kuliah Syaikh Jamaluddeen Yoosuf Ibn Az-Zaki Al-Mizzi, '
+        'pengarang Tahdzib Al-Kamal dan Ithaf Al-Khulthubus Sittah, yang wafat pada tahun 724 H. '
+        'Beliau sangat banyak mendapat manfaat dari pergaulannya dengannya dan menikahi putrinya. '
+        'Beliau juga banyak belajar dan mendapat manfaat dari Syaikhul Islam Taqiyuddeen Ibn Taimiyyah '
+        '(wafat 728 H.), yang selalu beliau dampingi dan beliau cintai dengan sepenuh hati. Selain itu, '
+        'beliau belajar di bawah bimbingan Syaikh, Al-Hafiz, dan sejarawan, Syamsuddeen Adz-Dzahabi '
+        'Muhammad Ibn Ahmad Ibn Qaimaz (wafat 748 H.). Di Mesir, beliau mendapat pengakuan dari Abu '
+        'Moosa Al-Qarafi, Al-Husaini, Abul Fath Ad-Dabbus, \'Ali Ibn \'Umar Al-Wani, Yoosuf Al-Khatani, '
+        'dan lain-lain.</p>'
+        '<p>Al-Hafiz Syamsuddeen Adz-Dzahabi berkata dalam Al-Mu\'jam Al-Mukhtash: &ldquo;(Beliau adalah) '
+        'imam, al-mujtahid, al-mufti, ulama fikih dan tafsir yang terkemuka; beliau telah menulis banyak '
+        'karya yang sangat berharga.&rdquo;</p>'
+        '<p>Al-Hafiz Ibn Hajar berkata dalam Ad-Durar Al-Kaminah: &ldquo;Beliau bekerja keras dalam '
+        'bidang hadis, mempelajari matan dan sanadnya, dan beliau memiliki ingatan yang luar biasa serta '
+        'berperangai baik. Semasa hidupnya, karya-karya tulisnya tersebar di segenap penjuru, dan '
+        'manfaatnya terus dirasakan orang setelah kematiannya.&rdquo;</p>'
+        '<p>As-Suyuthi mengomentari hal ini dengan berkata: &ldquo;(Beliau adalah) sumber terpercaya '
+        'pengetahuan hadis, tentang keaslian atau kelemahannya, tentang berbagai sumber dari mana hadis '
+        'tersebut diriwayatkan, dan tentang rijal-nya serta kekuatan atau kelemahan mereka...&rdquo;</p>'
+        '<p>Sejarawan terkemuka, Abul Mahsin Jamaluddeen Yoosuf Ibn Saifuddeen, yang lebih dikenal sebagai '
+        'Ibn Taghr Bardi Al-Hanafi, berkata dalam bukunya Al-Manhal As-Safi Wal-Mustawfi Ba\'d Al-Wafi: '
+        '&ldquo;(Beliau adalah) Syaikh, imam, yang paling berilmu, \'Imaduddeen Abul-Fida\'... beliau '
+        'senantiasa sibuk dan tiada lelah dalam menulis, menyusun, mengkategorisasi, belajar, meriwayatkan '
+        'hadis, dan mengarang. Beliau memiliki pengetahuan yang sangat luas tentang hadis, tafsir, fikih '
+        'Islam, bahasa Arab, dan berbagai ilmu lainnya. Beliau mengeluarkan fatwa dan terus-menerus '
+        'melakukan hal itu...&rdquo;</p>'
+        '<p>Beliau terkenal atas kemampuannya mengoreksi dan merevisi, dan diakui sebagai sejarawan '
+        'terkemuka, ahli hadis, dan ahli tafsir. Dan dialah yang berkata:</p>'
+        '<p><em>&ldquo;Hari-hari berlalu satu demi satu,<br>'
+        'Hanya mengantar kepada waktu-waktu yang telah ditentukan, sementara mata menyaksikan,<br>'
+        'Dan masa muda yang telah berlalu tidak akan pernah kembali,<br>'
+        'Sementara usia tua yang menyebalkan ini tetap ada.&rdquo;</em></p>'
+        '<p>Jumlah murid-murid yang mendengar dari Ibn Katheer dan meriwayatkan darinya sangat besar; '
+        'di antaranya Al-Hafiz \'Alauddin Ibn Hijji Asy-Syafi\'i — semoga Allah merahmatinya — yang '
+        'berkata tentangnya: &ldquo;Beliau telah menghafal lebih banyak matan hadis daripada ulama '
+        'mana pun yang kami kenal, dan beliau adalah yang paling berpengetahuan di antara mereka '
+        'mengenai otentikasi dan pendiskreditan riwayat-riwayat serta rijal-nya. Rekan-rekannya dan '
+        'guru-gurunya semua mengakui hal ini. Setiap kali aku bertemu dengannya, aku mendapat suatu manfaat darinya.&rdquo;</p>'
+        '<p>Ibn Al-\'Imad Al-Hanbali berkata dalam bukunya Syadzarat Adz-Dzahab Fee Akhbari Man Dzahab: '
+        '&ldquo;(Beliau adalah) Al-Hafiz yang agung, \'Imaduddeen; beliau menghafal At-Tanbih dan '
+        'mempresentasikannya pada tahun 718 H., dan beliau juga menghafal Mukhtshar Ibn Al-Hajib. '
+        'Beliau memiliki ingatan yang luar biasa dan jarang melupakan sesuatu. Beliau memiliki '
+        'pemahaman yang baik dan merupakan seorang ulama bahasa Arab yang menulis syair sederhana.&rdquo;</p>'
+        '<p>Ibn Habib berkata tentangnya: &ldquo;Beliau mendengar (dari para ulama), mengumpulkan, '
+        'dan mengarang, serta menyenangkan telinga para pendengarnya dengan kata-katanya. Beliau '
+        'mengajar dan memberikan manfaat, dan lembaran-lembaran fatwa-fatwanya tersebar ke seluruh '
+        'penjuru dan beliau menjadi terkenal atas keakuratan serta keahlian menulis dan mengeditnya.&rdquo;</p>'
+        '<p><strong>Karya-Karya Tulisnya, Termasuk Karya-Karya yang Terperinci</strong></p>'
+        '<p>1. Tafsir Al-Qur\'an Al-\'Azhem (Penjelasan Al-Quran yang Mulia), yang merupakan salah satu '
+        'karyanya yang paling penting. Karya ini dianggap sebagai salah satu buku tafsir terbaik yang '
+        'pengarangnya mengandalkan terutama hadis-hadis Rasulullah ﷺ untuk penafsiran ayat-ayat Kitab '
+        'yang Mulia. Allah telah menetapkan agar volume besar ini diterima dan tersebar di seluruh '
+        'negeri Muslim.</p>'
+        '<p>2. Al-Bidayah Wan-Nihayah (Awal dan Akhir): Ini adalah buku yang sangat bernilai dan para '
+        'ulama sepanjang zaman telah mengambil manfaat darinya. Di dalamnya beliau berbicara tentang '
+        'urusan-urusan duniawi, dimulai dari awal penciptaan, menyinggung kehidupan para nabi, dan '
+        'berbicara secara mendalam dan panjang lebar tentang kisah hidup Rasulullah ﷺ serta mencatat '
+        'secara mendalam dan bermanfaat periode yang mengikuti kehidupan Nabi ﷺ, dari era Khulafaur '
+        'Rasyidin dan berakhir pada tahun 767 H., dengan gambaran tentang fitnah-fitnah yang akan '
+        'muncul sebelum Hari Kiamat.</p>'
+        '<p>3. At-Takhmeel Ma\'rifat Ath-Thiqat Wal-Majaheel (Buku Lengkap tentang Kritik dan Pujian, '
+        'serta Pengetahuan tentang Para Perawi yang Terpercaya dan yang Tidak Dikenal). Ada sebuah '
+        'versi darinya di Dar Al-Kutub Al-Misriyyah, yang terdiri dari dua jilid, namun tidak lengkap.</p>'
+        '<p>4. Jami\' Al-Masaneed Was-Sunan Al-Hadi Li-Aqwam Sunan (Kumpulan Musnad-Musnad dan Sunan-Sunan '
+        'yang Membimbing kepada Sunnah Terbaik).</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 004 — Biography of Ibn Katheer (Part 4): More works + death
+# ============================================================
+translations['004'] = {
+    'title_id': 'Bagian 4',
+    'content_id': (
+        '<p>Abdur-Razzaq Hamzah dan penjelasan oleh Syaikh Ahmad Syakir, dan dicetak di Kairo pada '
+        'tahun 1355 H. Al-Hafiz Ibn Hajar Al-\'Asqalani berkata tentangnya: &ldquo;Karya ini mengandung...&rdquo;</p>'
+        '<p>11. Musnad Asy-Syaikhaini (Musnad Dua Syaikh — yakni Abu Bakar dan \'Umar — semoga Allah '
+        'meridhai keduanya).</p>'
+        '<p>12 &amp; 13. As-Seerah An-Nabawiyyah (Biografi Nabi ﷺ) — versi lengkap dan versi ringkas. '
+        'Beliau menyebutnya dalam tafsirnya, dalam penjelasan Surah Al-Ahzab, dalam kisah Perang Khandaq. '
+        'Versi ringkas dicetak di Mesir pada tahun 1358 H. dan diberi judul Al-Fushul Fikh Tisar Seerah '
+        'Ar-Rasul (Ringkasan Biografi Rasulullah ﷺ).</p>'
+        '<p>14. Al-Muqaddimah Fee Ushul Al-Fiqh (Pengantar Ilmu Ushul Al-Fiqh [Dasar-Dasar Fikih Islam]).</p>'
+        '<p>15. Mukhtshar Kitab Al-Madkhal Ila Kitab As-Sunan Lil-Baihaqi (Ringkasan Pengantar Kitab '
+        'Sunan karya Al-Baihaqi).</p>'
+        '<p>16. Risalah Fil-Jihad (Risalah tentang Jihad), yang tersedia.</p>'
+        '<p>Pengarang Al-Manhal As-Safi berkata: &ldquo;Beliau wafat pada hari Kamis, 26 Sya\'ban, '
+        'tahun 747 H., dalam usia tujuh puluh empat tahun.&rdquo;</p>'
+        '<p>Al-Hafiz Ibn Hajar berkata: &ldquo;Beliau menjadi buta pada tahun-tahun terakhir hidupnya, '
+        'semoga Allah merahmatinya dan meridhainya.&rdquo;</p>'
+        '<p>Syaikh, imam, ulama, yang paling berilmu, Abul Fida\' \'Imaduddeen Isma\'eel — semoga '
+        'Allah merahmatinya — berkata: &ldquo;Segala puji dan syukur hanya bagi Allah, Yang Pertama '
+        'dan Yang Terakhir, Azh-Zhahir, Al-Bathin, Yang memiliki pengetahuan sempurna tentang segala '
+        'sesuatu. Dialah Yang Pertama, karena tidak ada sesuatu pun sebelum-Nya.&rdquo;</p>'
+        '<p>Segala puji bagi Allah yang telah menciptakan langit dan bumi serta mengadakan kegelapan '
+        'dan cahaya, namun orang-orang kafir menyamakan (makhluk-Nya) dengan Tuhan mereka. Segala '
+        'puji bagi Allah yang telah menciptakan manusia dari air, kemudian menjadikan baginya keturunan '
+        'dan hubungan pernikahan; dan Tuhanmu adalah Maha Kuasa. Dan mereka menyembah selain Allah '
+        'sesuatu yang tidak dapat memberikan manfaat dan tidak pula mendatangkan bahaya kepada mereka; '
+        'dan orang kafir adalah penolong (syaitan) yang menentang Tuhannya.</p>'
+        '<p>Segala puji bagi Allah yang telah menciptakan langit dan bumi dan menjadikan kegelapan dan '
+        'cahaya, namun orang-orang yang kafir menyamakan (sesuatu) dengan Tuhan mereka. Dialah yang '
+        'menciptakan kamu dari tanah liat, kemudian Dia menetapkan ajal (kematianmu), dan ajal yang '
+        'ditentukan di sisi-Nya; kemudian kamu masih meragukan(nya). Dan Dialah Allah di langit dan '
+        'di bumi; Dia mengetahui apa yang kamu sembunyikan dan apa yang kamu tampakkan, dan mengetahui '
+        'apa yang kamu kerjakan. Dan tidak datang kepada mereka suatu ayat pun dari ayat-ayat Tuhan '
+        'mereka, melainkan mereka selalu berpaling darinya. Sesungguhnya mereka telah mendustakan '
+        'yang haq (Al-Quran) ketika sampai kepada mereka; maka kelak akan datang kepada mereka '
+        'berita-berita tentang apa yang mereka selalu memperolok-oloknya. (Surah Al-An\'am 6:1-5)</p>'
+        '<p>Amma ba\'du: Ini adalah kitab yang penuh berkah dan bermanfaat. Aku menamakannya Al-Bidayah '
+        'Wan-Nihayah. Aku memulainya dengan penciptaan \'Arsy, Kursi, langit, bumi, beserta semua '
+        'yang ada di dalamnya dan di antara keduanya, seperti para malaikat, jin, Iblis, dan setan. '
+        'Kemudian aku berbicara tentang awal penciptaan Adam (as), penciptaan Hawa darinya, kisah '
+        'keduanya di surga, dan cara Iblis menipu keduanya. Aku kemudian menyebutkan keturunan Adam '
+        'dan kisah-kisah anak-anaknya, dimulai dari Habil dan Qabil, lalu para nabi setelah Adam, '
+        'satu per satu, dalam urutan kronologis, sesuai dengan apa yang telah disebutkan Allah \'Azza '
+        'wa Jalla dalam Kitab-Nya yang mulia dan yang Rasulullah ﷺ ceritakan kepada kita dalam '
+        'hadis-hadisnya yang sahih. Aku juga menyertakan informasi yang bermanfaat tentang sejarah '
+        'dunia yang disebutkan oleh para sejarawan Islam terkemuka.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 005 — Introduction to the main text: What the book covers
+# ============================================================
+translations['005'] = {
+    'title_id': 'Bagian 5',
+    'content_id': (
+        '<p>yang ada di dalamnya dan apa yang ada di antara keduanya, seperti para malaikat, jin, dan '
+        'setan; bagaimana Nabi Adam (as) diciptakan, kisah-kisah para nabi hingga masa Bani Isra\'il '
+        'dan masa Jahiliyyah. Kemudian aku berbicara tentang masa kenabian Nabi Muhammad ﷺ dan semua '
+        'yang Allah mudahkan bagi aku untuk mengetahuinya dari kejadian-kejadian besar setelah itu, '
+        'perang-perang, fitnah-fitnah, dan lain-lain, serta tanda-tanda Hari Kiamat yang besar hingga '
+        'hari yang dijanjikan itu tiba.</p>'
+        '<p>Aku juga menyebutkan Hari Kiamat dan apa yang Allah ciptakan untuk para hamba-Nya di '
+        'sana berupa kengerian-kengerian, pembangkitan, pengumpulan, persinggahan, syafaat, timbangan '
+        'amal, kitab-kitab catatan, jembatan (Shirath), telaga (al-Haudh), surga, neraka, dan '
+        'lain-lain dari apa yang telah disebutkan dalam nash-nash Al-Quran dan hadis-hadis Nabi ﷺ.</p>'
+        '<p>Aku telah merujuk kepada kelompok pertama dari kitab ini — yaitu tentang sejarah — dengan '
+        'sebutan Al-Bidayah (Permulaan). Adapun yang terakhir — yaitu tentang Hari Kiamat — aku '
+        'menamakannya An-Nihayah (Akhir).</p>'
+        '<p>Aku memohon kepada Allah \'Azza wa Jalla agar menjadikannya amal yang murni karena '
+        'mengharap wajah-Nya yang mulia, dan agar menjadikannya bermanfaat bagi orang yang '
+        'membacanya dan mempelajarinya, dan agar Allah menjadikan aku, serta kedua orang tua kami, '
+        'dan semua kaum Muslimin termasuk orang-orang yang Dia beri hidayah-Nya.</p>'
+        '<p>Sesungguhnya Dialah Dzat yang Maha Pemurah. Dan segala puji hanya bagi Allah, Tuhan '
+        'semesta alam.</p>'
+        '<p>Amma ba\'du: Para ulama telah berbeda pendapat tentang apa yang pertama kali diciptakan '
+        'Allah \'Azza wa Jalla dari makhluk-makhluk-Nya. Sebagian berpendapat bahwa hal pertama '
+        'yang Allah ciptakan adalah \'Arsy, berdasarkan firman Allah, Yang Maha Tinggi: <em>(Dan '
+        '\'Arsy-Nya berada di atas air.)</em> (Surah Hud 11:7) dan firman-Nya: <em>(Kemudian Dia '
+        'bersemayam di atas \'Arsy.)</em> (Surah Al-A\'raf 7:54)</p>'
+        '<p>Sebagian lainnya berpendapat bahwa hal pertama yang diciptakan adalah Pena (Al-Qalam), '
+        'berdasarkan hadis: &ldquo;Hal pertama yang Allah ciptakan adalah Pena; Dia berfirman '
+        'kepadanya: \'Tulislah!\' Maka ia pun menulis segala sesuatu yang akan terjadi.&rdquo;</p>'
+        '<p>Ada juga yang berpendapat bahwa hal pertama yang diciptakan adalah air, karena Allah '
+        'berfirman: <em>(Dan \'Arsy-Nya berada di atas air)</em> (Surah Hud 11:7), yang menunjukkan '
+        'bahwa air ada sebelum \'Arsy.</p>'
+        '<p>Semua ini dapat dipadukan; maksudnya adalah bahwa hal-hal ini diciptakan sebelum langit '
+        'dan bumi, dan masing-masing adalah hal pertama yang diciptakan dari jenisnya masing-masing. '
+        'Dan Allah lebih mengetahui.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 006 — Sermon (Khutbah) opening the main text
+# ============================================================
+translations['006'] = {
+    'title_id': 'Bagian 6',
+    'content_id': (
+        '<p>telah menjadikan kamu mendiaminya secara turun-temurun sehingga Dia melihat apa yang akan '
+        'kamu lakukan. Karena itu, berhati-hatilah terhadap dunia ini dan berhati-hatilah terhadap '
+        'para wanita, karena pertama kali fitnah yang menimpa Bani Isra\'il adalah fitnah wanita. '
+        'Sesungguhnya dunia ini manis dan segar; dan sesungguhnya Allah menjadikan kamu berkuasa di '
+        'dalamnya, dan Dia akan melihat bagaimana kamu berbuat. Maka berhati-hatilah terhadap dunia '
+        'dan berhati-hatilah terhadap wanita.</p>'
+        '<p>Saudara-saudaraku yang mulia, inilah kitab yang aku namakan Al-Bidayah Wan-Nihayah '
+        '(Awal dan Akhir). Semoga Allah menjadikan apa yang ada di dalamnya bermanfaat bagi kita '
+        'semua dan mengampuni dosa-dosa kita. Sesungguhnya Dialah yang Maha Pemurah lagi Maha '
+        'Penyayang.</p>'
+        '<p>Allah, Yang Maha Tinggi, berfirman: <em>(Dan ingatlah ketika Tuhanmu berfirman kepada '
+        'para malaikat, &ldquo;Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi.&rdquo; '
+        'Mereka berkata, &ldquo;Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang '
+        'akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih '
+        'dengan memuji Engkau dan menyucikan Engkau?&rdquo; Tuhan berfirman, &ldquo;Sesungguhnya '
+        'Aku mengetahui apa yang tidak kamu ketahui.&rdquo;)</em> (Surah Al-Baqarah 2:30)</p>'
+        '<p>Allah, Yang Maha Tinggi, berfirman dalam ayat-ayat yang menyebutkan tentang penciptaan '
+        '\'Arsy dan Kursi: <em>(Dialah yang menciptakan langit dan bumi dalam enam hari, dan '
+        '\'Arsy-Nya berada di atas air, agar Dia menguji siapakah di antara kamu yang lebih baik '
+        'amalnya.)</em> (Surah Hud 11:7) Allah, Yang Maha Tinggi, berfirman: <em>(Sesungguhnya '
+        'Tuhan kamu ialah Allah yang menciptakan langit dan bumi dalam enam masa, kemudian Dia '
+        'bersemayam di atas \'Arsy.)</em> (Surah Al-A\'raf 7:54)</p>'
+        '<p>Yang dimaksud dengan \'Arsy secara bahasa adalah singgasana kerajaan. Para ulama '
+        'berbeda pendapat tentang \'Arsy dan Kursi. Yang benar adalah bahwa \'Arsy adalah makhluk '
+        'yang diciptakan Allah \'Azza wa Jalla, dan Kursi juga adalah makhluk yang diciptakan-Nya. '
+        'Kursi berbeda dari \'Arsy, dan \'Arsy adalah yang lebih besar dari keduanya berdasarkan '
+        'firman Allah, Yang Maha Tinggi: <em>(Kursi Allah meliputi langit dan bumi)</em> (Surah '
+        'Al-Baqarah 2:255) dan hadis yang menyebutkan tentang perbandingan \'Arsy dengan Kursi.</p>'
+        '<p>Ibn \'Abbas (ra) berkata: &ldquo;Kursi adalah tempat kedua kaki (Allah), sedangkan '
+        '\'Arsy tidak ada seorang pun yang mampu mengukur besarnya.&rdquo; Ini diriwayatkan oleh '
+        'Al-Hakim dalam Al-Mustadrak dan beliau mensahihkannya.</p>'
+        '<p>Para ulama telah berbicara panjang lebar tentang \'Arsy dan Kursi, dan yang benar '
+        'adalah menetapkannya sebagaimana ditetapkan oleh Allah dalam Al-Quran dan Sunnah Nabi-Nya ﷺ, '
+        'tanpa mentakwilkan, tanpa mentamtsil (menyerupakan), dan tanpa menafikannya. Kita beriman '
+        'kepadanya sebagaimana adanya, dan kita serahkan pengetahuan tentang hakikatnya kepada Allah \'Azza wa Jalla.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 007 — The Throne (Al-Arsh) and the Footstool (Al-Kursi)
+# ============================================================
+translations['007'] = {
+    'title_id': 'Bagian 7',
+    'content_id': (
+        '<p>\'Arsy dan Kursi</p>'
+        '<p>Allah, Yang Maha Tinggi, berfirman:</p>'
+        '<p><em>(Pemilik derajat-derajat yang tinggi, Pemilik \'Arsy)</em></p>'
+        '<p>Dia, Yang Maha Tinggi, juga berfirman: <em>(Dan \'Arsy-Nya berada di atas air)</em> '
+        '(Surah Hud 11:7), dan: <em>(Dialah yang menciptakan langit dan bumi dalam enam hari, '
+        'kemudian Dia bersemayam di atas \'Arsy)</em> (Surah Al-A\'raf 7:54)</p>'
+        '<p>Mengenai \'Arsy dan Kursi, Imam Ahmad meriwayatkan dari Abu Dzar Al-Ghifari (ra) bahwa '
+        'Nabi ﷺ bersabda: &ldquo;Kursi dibandingkan dengan \'Arsy tidak lain seperti cincin besi '
+        'yang dilemparkan ke padang pasir yang luas.&rdquo;</p>'
+        '<p>\'Arsy adalah makhluk Allah yang paling besar yang kita ketahui. Ukurannya begitu besar '
+        'sehingga pikiran manusia tidak mampu memahaminya. Para malaikat menanggungnya dan bertasbih '
+        'memuji Allah. Allah, Yang Maha Tinggi, berfirman: <em>(Dan para malaikat berada di '
+        'penjuru-penjuru langit. Dan pada hari itu delapan orang malaikat menjunjung \'Arsy Tuhanmu '
+        'di atas kepala mereka.)</em> (Surah Al-Haqqah 69:17)</p>'
+        '<p>Nabi ﷺ bersabda: &ldquo;Diizinkan bagiku untuk menceritakan tentang salah satu malaikat '
+        'pemikul \'Arsy Allah: jarak antara daun telinganya hingga bahunya adalah perjalanan tujuh '
+        'ratus tahun.&rdquo; Diriwayatkan oleh Abu Dawud dan lainnya dengan sanad yang hasan.</p>'
+        '<p>Adapun Kursi, Allah, Yang Maha Tinggi, berfirman: <em>(Kursi Allah meliputi langit dan '
+        'bumi, dan Allah tidak merasa berat memelihara keduanya, dan Allah Maha Tinggi lagi Maha Besar.)</em> '
+        '(Surah Al-Baqarah 2:255) Para ulama berbeda pendapat mengenai apa yang dimaksud dengan '
+        'Kursi dalam ayat ini.</p>'
+        '<p>Ibn \'Abbas (ra) berkata: &ldquo;Kursi adalah tempat kedua kaki.&rdquo; Ini merupakan '
+        'pendapat yang paling masyhur dari para sahabat dan para ulama salaf. Mereka menetapkan '
+        'bahwa \'Arsy dan Kursi adalah dua makhluk yang berbeda, dan \'Arsy lebih besar dari Kursi.</p>'
+        '<p>Adapun orang yang menafsirkan Kursi sebagai ilmu Allah, maka penafsiran ini adalah lemah, '
+        'karena bertentangan dengan makna lahir nash dan pendapat para ulama salaf.</p>'
+        '<p>Dari Ibnu Mas\'ud (ra), diriwayatkan bahwa beliau berkata: &ldquo;Langit pertama '
+        'dibandingkan dengan langit kedua seperti sebuah cincin yang dilemparkan di padang pasir. '
+        'Dan langit kedua dibandingkan dengan langit ketiga seperti cincin di padang pasir. Begitu '
+        'seterusnya hingga langit ketujuh. Langit ketujuh dibandingkan dengan Kursi juga seperti '
+        'cincin di padang pasir. Dan Kursi dibandingkan dengan \'Arsy juga seperti cincin di padang pasir.&rdquo;</p>'
+        '<p>Inilah menunjukkan betapa agungnya ciptaan Allah \'Azza wa Jalla, dan betapa kecilnya '
+        'kita dibandingkan dengan apa yang telah Dia ciptakan, apalagi dibandingkan dengan Sang '
+        'Pencipta sendiri. Maka sungguh layak kita memuji Allah dan mensucikan-Nya dari segala '
+        'kekurangan.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 008 — The Throne: hadith details
+# ============================================================
+translations['008'] = {
+    'title_id': 'Bagian 8',
+    'content_id': (
+        '<p>Dalam penjelasannya tentang Surah Al-Haqqah (69:115), Ibn Katheer mengatributkan riwayat '
+        'ini kepada Ibn Abi Hatim dan beliau berkata: &ldquo;Sesungguhnya ini adalah hadis yang '
+        'sangat munkar, yang sebagian sanadnya terputus.&rdquo;</p>'
+        '<p>Diriwayatkan dari Ibn \'Abbas (ra) bahwa beliau berkata: &ldquo;Sesungguhnya \'Arsy itu '
+        'terbuat dari batu rubi merah. Jika sebuah atom dari cahayanya disingkapkan, niscaya ia '
+        'akan membakar semua yang ada di alam semesta.&rdquo; Namun ini adalah Isra\'iliyyat yang '
+        'tidak dapat dijadikan sandaran.</p>'
+        '<p>Adapun tentang jumlah malaikat yang menanggung \'Arsy, para ulama berbeda pendapat. '
+        'Allah, Yang Maha Tinggi, berfirman: <em>(Dan pada hari itu delapan orang malaikat menjunjung '
+        '\'Arsy Tuhanmu di atas kepala mereka.)</em> (Surah Al-Haqqah 69:17) Sebagian ulama '
+        'berpendapat bahwa jumlahnya delapan malaikat, berdasarkan ayat ini. Sebagian lainnya '
+        'berpendapat bahwa jumlahnya delapan barisan, bukan delapan malaikat. Dan Allah lebih mengetahui.</p>'
+        '<p>Dalam hadis sahih yang diriwayatkan oleh Imam Ahmad dan Abu Dawud, Nabi ﷺ bersabda: '
+        '&ldquo;Diizinkan bagiku untuk menceritakan tentang salah satu malaikat pemikul \'Arsy Allah: '
+        'jarak antara daun telinganya hingga bahunya adalah perjalanan tujuh ratus tahun.&rdquo;</p>'
+        '<p>Tentang sifat-sifat \'Arsy: Allah, Yang Maha Tinggi, menyifatinya dengan Karim (mulia) '
+        'dalam firman-Nya: <em>(Tuhan yang memiliki \'Arsy yang mulia.)</em> (Surah Al-Mu\'minun 23:116) '
+        'Dan Dia juga menyifatinya dengan \'Azim (agung) dalam firman-Nya: <em>(Dan Dia adalah '
+        'Tuhan \'Arsy yang agung.)</em> (Surah At-Taubah 9:129)</p>'
+        '<p>Nabi ﷺ senantiasa berlindung kepada Allah dengan sifat-sifat \'Arsy. Diriwayatkan dalam '
+        'hadis sahih yang diriwayatkan oleh Abu Dawud dari Abu Sa\'id Al-Khudri (ra), bahwa '
+        'Nabi ﷺ bersabda ketika mendapatkan kesulitan: &ldquo;Ya Allah, Engkau Maha Suci dan '
+        'segala puji hanya bagi-Mu. Tidak ada tuhan selain Engkau. Aku memohon ampunan-Mu dan '
+        'bertaubat kepada-Mu.&rdquo;</p>'
+        '<p>Allah, Yang Maha Tinggi, bersemayam di atas \'Arsy-Nya sebagaimana disebutkan dalam '
+        'tujuh ayat Al-Quran. Ini adalah sifat yang kita yakini sesuai dengan kebesaran dan '
+        'keagungan Allah \'Azza wa Jalla, tanpa menyerupakan dengan sifat-sifat makhluk, tanpa '
+        'mentakwilkan, dan tanpa menafikannya. Itulah keyakinan Ahlus Sunnah wal Jama\'ah.</p>'
+        '<p>Dari Wahb Ibn Munabbih, beliau berkata: &ldquo;Aku membaca tujuh puluh dua kitab yang '
+        'diturunkan dari langit. Dalam seluruh kitab tersebut aku mendapati bahwa Allah \'Azza wa '
+        'Jalla, ilmu-Nya yang pertama dan kekuasaan-Nya yang pertama adalah bahwa Dia tidak '
+        'disertai oleh sesuatu pun, dan bahwa \'Arsy-Nya berada di atas air.&rdquo;</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 009 — The heavens and creation: the Pen and the Tablet
+# ============================================================
+translations['009'] = {
+    'title_id': 'Bagian 9',
+    'content_id': (
+        '<p>berlalu, sementara mereka berpaling darinya. Dan kebanyakan mereka tidak beriman kepada '
+        'Allah kecuali dengan mempersekutukan (Nya). (Surah Yusuf 12:105-106)</p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Bacalah dengan nama Tuhanmu yang menciptakan, '
+        'yang menciptakan manusia dari segumpal darah. Bacalah dan Tuhanmulah Yang Paling Pemurah, '
+        'yang mengajarkan (manusia) dengan perantaraan kalam. Dia mengajarkan kepada manusia apa '
+        'yang tidak diketahuinya.)</em> (Surah Al-\'Alaq 96:1-5)</p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Nun. Demi kalam dan apa yang mereka tulis.)</em> '
+        '(Surah Al-Qalam 68:1)</p>'
+        '<p><strong>Al-Qalam (Pena) dan Al-Lauh Al-Mahfuzh (Lembaran yang Terpelihara)</strong></p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Nun. Demi kalam dan apa yang mereka tulis.)</em> '
+        '(Surah Al-Qalam 68:1) Maksud dari &ldquo;kalam&rdquo; di sini adalah kalam yang Allah '
+        'ciptakan dan perintahkan untuk menulis semua yang akan terjadi. Ini berdasarkan hadis '
+        'yang diriwayatkan oleh Imam Ahmad dari \'Ubadah Ibn Ash-Shamit (ra), bahwa Nabi ﷺ bersabda: '
+        '&ldquo;Hal pertama yang Allah ciptakan adalah Al-Qalam, kemudian Dia berfirman kepadanya: '
+        '\'Tulislah!\' Kalam bertanya: \'Apa yang harus aku tulis, ya Tuhanku?\' Dia berfirman: '
+        '\'Tulislah segala sesuatu yang akan terjadi hingga Hari Kiamat.\'&rdquo;</p>'
+        '<p>Hadis ini diriwayatkan juga oleh At-Tirmidzi dan beliau menshahihkannya, serta oleh '
+        'Abu Dawud. Hadis ini juga mendapatkan dukungan dari hadis lain yang diriwayatkan dari '
+        '\'Ubadah Ibn Ash-Shamit (ra) dengan lafazh: &ldquo;Hal pertama yang Allah ciptakan adalah '
+        'Al-Qalam, kemudian Dia berfirman: \'Tulislah!\' Maka pada saat itu juga ia menuliskan '
+        'segala sesuatu yang akan terjadi hingga hari Kiamat.&rdquo;</p>'
+        '<p>Adapun Al-Lauh Al-Mahfuzh, Allah Yang Maha Tinggi berfirman: <em>(Bahkan yang '
+        'didustakan mereka itu ialah Al-Quran yang mulia, yang tersimpan dalam Lauh Mahfuzh.)</em> '
+        '(Surah Al-Buruj 85:21-22) Artinya, Al-Quran tersimpan dalam Al-Lauh Al-Mahfuzh.</p>'
+        '<p>Para ulama berbeda pendapat tentang apa yang pertama kali diciptakan Allah: apakah \'Arsy '
+        'ataukah Al-Qalam? Sebagian berpendapat \'Arsy lebih dahulu, berdasarkan hadis yang '
+        'menyebutkan: &ldquo;Allah telah ada dan tidak ada sesuatu pun sebelum-Nya, dan \'Arsy-Nya '
+        'berada di atas air.&rdquo; Sebagian lainnya berpendapat Al-Qalam lebih dahulu, berdasarkan '
+        'hadis yang telah disebutkan. Yang benar adalah bahwa semua ini diciptakan sebelum langit '
+        'dan bumi, dan Allah lebih mengetahui urutan penciptaannya secara pasti.</p>'
+        '<p>Adapun Al-Lauh Al-Mahfuzh, diriwayatkan dari Ibn \'Abbas (ra) bahwa beliau berkata: '
+        '&ldquo;Allah menciptakan Al-Lauh Al-Mahfuzh seperti perjalanan lima ratus tahun, dan Dia '
+        'berfirman kepada Al-Qalam: \'Tulislah!\' Maka Al-Qalam menulis apa yang akan terjadi '
+        'hingga Hari Kiamat.&rdquo; Riwayat ini memiliki sanad yang lemah.</p>'
+        '<p>Yang benar adalah bahwa Al-Qalam dan Al-Lauh Al-Mahfuzh adalah dua makhluk yang '
+        'diciptakan Allah \'Azza wa Jalla sebelum penciptaan langit dan bumi. Allah memerintahkan '
+        'Al-Qalam untuk menuliskan semua yang akan terjadi, dan tulisan itu tersimpan dalam '
+        'Al-Lauh Al-Mahfuzh. Allah Maha Mengetahui segala sesuatu sebelum terjadi, dan pencatatan '
+        'ini adalah bukti ilmu dan kekuasaan-Nya yang sempurna.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 010 — The Earth and its layers; the whale (Noon)
+# ============================================================
+translations['010'] = {
+    'title_id': 'Bagian 10',
+    'content_id': (
+        '<p>ikan paus (Nun) yang disebutkan Allah dalam Al-Quran: <em>(Nun. Demi kalam dan apa yang '
+        'mereka tulis)</em> (Surah Al-Qalam 68:1). Ikan paus itu berada di dalam air. Air itu '
+        'berada di atas punggung sebuah batu (kecil). Batu itu berada di atas punggung seorang '
+        'malaikat. Malaikat itu berada di atas sebuah batu. Batu itu — yang disebutkan oleh Luqman '
+        '— berada di angin, tidak di langit dan tidak pula di bumi. Ikan paus itu bergerak dan '
+        'menjadi resah. Akibatnya, bumi pun berguncang.</p>'
+        '<p>Ini adalah riwayat yang lemah karena berasal dari Isra\'iliyyat, dan tidak dapat '
+        'dijadikan sandaran. Yang benar adalah bahwa bumi ditopang oleh kekuasaan Allah \'Azza wa '
+        'Jalla, sebagaimana Dia menopang langit dan segala yang ada di dalamnya tanpa tiang.</p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Dan bumi sesudah itu dihamparkan-Nya. Ia '
+        'memancarkan daripadanya mata airnya dan (menumbuhkan) tumbuh-tumbuhannya. Dan gunung-gunung '
+        'dipancangkan-Nya dengan teguh, sebagai kesenangan bagimu dan bagi binatang-binatang '
+        'ternakmu.)</em> (Surah An-Nazi\'at 79:30-33)</p>'
+        '<p>Para ulama berbeda pendapat tentang tujuh lapis bumi. Ada yang berpendapat bahwa '
+        'maksudnya adalah tujuh benua atau kawasan. Ada yang berpendapat bahwa itu adalah tujuh '
+        'lapisan bumi yang bertingkat-tingkat ke bawah. Pendapat kedua ini didukung oleh hadis '
+        'yang diriwayatkan dalam Shahih Al-Bukhari dari Sa\'id Ibn Zaid (ra), bahwa Nabi ﷺ '
+        'bersabda: &ldquo;Barang siapa yang mengambil satu jengkal tanah milik orang lain secara '
+        'zalim, maka pada Hari Kiamat ia akan dikalungkan (dengan beban) tujuh lapis bumi.&rdquo;</p>'
+        '<p>Adapun apa yang ada di dalam bumi dari batu-batu, logam-logam, mineral-mineral, dan '
+        'lainnya, itu semua adalah bagian dari ciptaan Allah yang menunjukkan kesempurnaan ilmu '
+        'dan kekuasaan-Nya. Allah Yang Maha Tinggi berfirman: <em>(Tidakkah kamu memperhatikan '
+        'bahwa sesungguhnya Allah mengetahui apa yang ada di langit dan di bumi? Tidak ada '
+        'pembicaraan rahasia antara tiga orang, melainkan Dia-lah yang keempatnya.)</em> '
+        '(Surah Al-Mujadilah 58:7)</p>'
+        '<p>Para ahli geografi telah menyebutkan berbagai informasi tentang bumi, lapisan-lapisannya, '
+        'gunung-gunungnya, sungai-sungainya, lautan-lautannya, dan lain-lain. Namun semua ini '
+        'tidak perlu kita ulas secara terperinci di sini, karena tujuan utama kita adalah menceritakan '
+        'apa yang disebutkan dalam Al-Quran dan Sunnah tentang penciptaan alam semesta.</p>'
+        '<p>Yang penting untuk kita ketahui adalah bahwa Allah \'Azza wa Jalla adalah Pencipta '
+        'segala sesuatu, dan bahwa apa pun yang ada di alam semesta ini — baik yang kita ketahui '
+        'maupun yang tidak kita ketahui — semuanya merupakan bukti atas kebesaran, kekuasaan, '
+        'dan kebijaksanaan-Nya yang sempurna. Maka sepatutnya kita menggunakan akal kita untuk '
+        'merenungkan ciptaan-Nya dan semakin mendekatkan diri kepada-Nya.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 011 — The Earth: seven earths, mountains, rivers
+# ============================================================
+translations['011'] = {
+    'title_id': 'Bagian 11',
+    'content_id': (
+        '<p>telah diterima oleh sekelompok ulama kita, yang menyatakan bahwa bumi ini terbuat dari '
+        'debu, dan yang ada di bawahnya terdiri dari besi, yang lain dari batu belerang, dan yang '
+        'lain dari demikian dan demikian. Namun semua ini, jika tidak diriwayatkan secara sahih '
+        'dengan sanad yang bersambung kepada Nabi ﷺ, maka ditolak. Demikian pula, tentang riwayat '
+        'yang dinukil dari Ibn \'Abbas (ra) yang menyatakan bahwa beliau berkata: &ldquo;Di setiap '
+        'lapisan bumi dari ciptaan terdapat sesuatu yang serupa dengan apa yang ada di lapisan ini, '
+        'bahkan seorang Adam seperti Adam kalian dan seorang Ibrahim seperti Ibrahim kalian,&rdquo; '
+        'itu diriwayatkan secara ringkas oleh Ibn Jarir dan dikaji oleh Al-Baihaqi dalam Kitab '
+        'Al-Asma\' Was-Sifat. Jika otentik, maka harus dipahami bahwa Ibn \'Abbas (ra) mengambilnya '
+        'dari Isra\'iliyyat — dan Allah lebih mengetahui.</p>'
+        '<p>Para ahli geografi telah menyebutkan jumlah gunung-gunung di bumi di semua lokasi '
+        'mereka, baik di timur maupun di barat, dan mereka menyebutkan panjangnya, seberapa jauh '
+        'gunung-gunung itu membentang, dan tingginya, serta mereka telah berbicara panjang lebar '
+        'tentang hal-hal ini, dan tidak akan tepat untuk menjelaskan semua yang mereka katakan '
+        'tentang subyek ini di sini.</p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Dan di antara gunung-gunung itu ada garis-garis '
+        'putih dan merah yang beraneka macam warnanya dan ada pula yang hitam pekat.)</em> '
+        '(Surah Fathir 35:27)</p>'
+        '<p>Ibn \'Abbas dan lainnya berkata bahwa kata Arab &ldquo;judad&rdquo; berarti jalan-jalan, '
+        'dan \'Ikrimah serta lainnya berkata bahwa &ldquo;gharabeeb&rdquo; berarti gunung-gunung '
+        'yang tinggi dan hitam. Inilah keadaan gunung-gunung di seluruh bumi. Mereka berbeda-beda '
+        'dalam lokasi dan warna mereka.</p>'
+        '<p>Allah telah menyebutkan Gunung Al-Judi dengan namanya dalam Kitab-Nya; itu adalah '
+        'gunung besar yang terletak di sebelah timur Jazirah Ibn \'Umar, di tepi Sungai Tigris, '
+        'dekat Al-Mawsil. Gunung itu membentang dari utara ke selatan, dan di sanalah perahu '
+        'Nabi Nuh (as) berlabuh setelah banjir besar, sebagaimana Allah Yang Maha Tinggi berfirman: '
+        '<em>(Dan difirmankan, &ldquo;Hai bumi, telanlah airmu, dan hai langit (hujan), berhentilah!&rdquo; '
+        'Dan air pun disurutkan, perintah pun diselesaikan, dan bahtera itu berlabuh di atas bukit '
+        'Judi, dan dikatakan: &ldquo;Binasalah orang-orang yang zalim.&rdquo;)</em> (Surah Hud 11:44)</p>'
+        '<p>Adapun sungai-sungai, Allah Yang Maha Tinggi berfirman: <em>(Dia-lah yang menjadikan '
+        'sungai-sungai mengalir untukmu.)</em> (Surah Ar-Ra\'d 13:3) Sungai-sungai terbesar di '
+        'dunia yang disebutkan dalam Al-Quran dan hadis adalah Sungai Nil di Mesir, Sungai Eufrat '
+        'di Irak, Sungai Tigris di Irak, dan Sungai Saihun dan Jaihun.</p>'
+        '<p>Dari Abu Hurairah (ra), bahwa Nabi ﷺ bersabda: &ldquo;Sungai Saihun, Jaihun, Eufrat, '
+        'dan Nil semuanya termasuk sungai-sungai surga.&rdquo; Diriwayatkan oleh Muslim.</p>'
+        '<p>Adapun lautan, Allah Yang Maha Tinggi berfirman: <em>(Dan Dialah yang menundukkan lautan '
+        'agar kamu dapat memakan daging yang segar darinya, dan kamu mengeluarkan dari lautan itu '
+        'perhiasan yang kamu pakai.)</em> (Surah An-Nahl 16:14) Lautan adalah ciptaan Allah yang '
+        'agung, yang menyimpan berbagai keajaiban dan manfaat bagi manusia.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 012 — The oceans and the heavens: Al-Bahr Al-Masjoor
+# ============================================================
+translations['012'] = {
+    'title_id': 'Bagian 12',
+    'content_id': (
+        '<p>Masjoor yang disebutkan dalam ayat di atas. Dikatakan bahwa itu berarti &ldquo;penuh&rdquo; '
+        'dan juga dikatakan bahwa itu berarti &ldquo;sesuatu yang akan terbakar&rdquo;. Pendapat '
+        'yang pertama — bahwa ini berarti laut yang penuh dengan air — adalah yang lebih tepat '
+        'secara bahasa. Adapun pendapat kedua, maka ia menunjukkan bahwa laut ini akan terbakar '
+        'pada Hari Kiamat, sebagaimana Allah Yang Maha Tinggi berfirman: <em>(Dan apabila lautan '
+        'dijadikan meluap)</em> (Surah Al-Infithar 82:3) dan: <em>(Dan apabila lautan dipanaskan)</em> '
+        '(Surah At-Takwir 81:6). Dan Allah lebih mengetahui.</p>'
+        '<p><strong>Penciptaan Langit</strong></p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Kemudian Dia menuju ke langit dan langit itu '
+        'masih berupa asap, lalu Dia berkata kepadanya dan kepada bumi: &ldquo;Datanglah kamu '
+        'keduanya menurut perintah-Ku dengan suka hati atau terpaksa.&rdquo; Keduanya menjawab: '
+        '&ldquo;Kami datang dengan suka hati.&rdquo; Maka Dia menjadikannya tujuh langit dalam '
+        'dua hari dan Dia mewahyukan pada tiap-tiap langit urusannya.)</em> (Surah Fussilat 41:11-12)</p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Allah-lah yang menciptakan tujuh langit dan '
+        'seperti itu pula bumi. Perintah Allah berlaku padanya, agar kamu mengetahui bahwasanya '
+        'Allah Maha Kuasa atas segala sesuatu, dan sesungguhnya Allah ilmu-Nya benar-benar meliputi '
+        'segala sesuatu.)</em> (Surah Ath-Thalaq 65:12)</p>'
+        '<p>Tujuh langit ini bertingkat-tingkat satu di atas yang lain, dan di antara setiap dua '
+        'langit terdapat jarak yang sangat jauh. Diriwayatkan dari Abu Hurairah (ra) bahwa '
+        'Nabi ﷺ bersabda: &ldquo;Jarak antara satu langit dengan langit berikutnya adalah '
+        'perjalanan lima ratus tahun, dan tebal setiap langit adalah perjalanan lima ratus tahun, '
+        'dan jarak antara langit ketujuh dengan \'Arsy adalah perjalanan lima ratus tahun.&rdquo;</p>'
+        '<p>Ini menunjukkan betapa besarnya ciptaan Allah \'Azza wa Jalla. Namun demikian, semua '
+        'ini — baik bumi, langit, \'Arsy, maupun Kursi — semuanya adalah makhluk yang kecil '
+        'di hadapan kebesaran Allah \'Azza wa Jalla.</p>'
+        '<p>Adapun bahan penciptaan langit, disebutkan dalam hadis bahwa langit diciptakan dari '
+        'asap (uap). Imam Muslim meriwayatkan dari Abu Hurairah (ra) bahwa Nabi ﷺ bersabda: '
+        '&ldquo;Allah menciptakan langit dan bumi dan segala yang ada di antara keduanya dalam '
+        'enam hari.&rdquo; Dan dalam riwayat yang lain: &ldquo;Allah menciptakan debu pada hari '
+        'Sabtu, menciptakan gunung pada hari Ahad, menciptakan pohon pada hari Senin, menciptakan '
+        'hal-hal yang tidak disukai pada hari Selasa, menciptakan cahaya pada hari Rabu, '
+        'menyebarkan hewan-hewan di dalamnya pada hari Kamis, dan menciptakan Adam (as) pada '
+        'waktu setelah Ashar pada hari Jumat, sebagai ciptaan terakhir dari ciptaan terakhir '
+        'dari sisa hari Jumat antara Ashar dan malam.&rdquo;</p>'
+        '<p>Para ulama berbeda pendapat tentang hadis ini. Yang benar adalah bahwa ini adalah '
+        'riwayat yang sahih, namun harus dipahami dengan benar sesuai konteksnya. Dan Allah '
+        'lebih mengetahui.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 013 — The Earth: description, rivers, regions
+# ============================================================
+translations['013'] = {
+    'title_id': 'Bagian 13',
+    'content_id': (
+        '<p>yang keadaannya tidak diketahui. Kemudian ia membentang ke barat dan berbatasan dengan '
+        'tanah-tanah Rusia dan melewatinya, kemudian ia terus ke utara dan berbatasan dengan laut '
+        'yang membeku yang disebut dengan Laut Utara. Kemudian ia terus ke timur hingga bertemu '
+        'dengan laut yang membatasi wilayah-wilayah timur.</p>'
+        '<p>Demikianlah gambaran bumi yang diceritakan oleh para ahli geografi. Mereka juga '
+        'menyebutkan nama-nama berbagai wilayah, negeri-negeri, kota-kota, sungai-sungai, gunung-gunung, '
+        'dan hal-hal lain yang tidak perlu kita sebutkan secara terperinci di sini.</p>'
+        '<p>Yang penting untuk kita ketahui adalah bahwa bumi ini adalah ciptaan Allah \'Azza wa '
+        'Jalla yang sangat menakjubkan, penuh dengan berbagai keajaiban dan tanda-tanda kekuasaan-Nya. '
+        'Allah Yang Maha Tinggi berfirman: <em>(Dan di bumi ini terdapat bagian-bagian yang '
+        'berdampingan dan kebun-kebun anggur, tanaman-tanaman dan pohon-pohon kurma yang bercabang '
+        'dan yang tidak bercabang, disirami dengan air yang sama. Kami melebihkan sebagian tanaman '
+        'itu atas sebagian yang lain tentang rasanya. Sesungguhnya pada yang demikian itu terdapat '
+        'tanda-tanda kebesaran Allah bagi kaum yang berpikir.)</em> (Surah Ar-Ra\'d 13:4)</p>'
+        '<p><strong>Sungai Nil</strong></p>'
+        '<p>Di antara sungai-sungai terbesar di bumi adalah Sungai Nil. Ia bersumber dari '
+        'pegunungan di Afrika bagian selatan, kemudian mengalir ke utara melalui Sudan dan Mesir, '
+        'lalu bermuara di Laut Tengah. Panjangnya sekitar enam ribu kilometer, menjadikannya '
+        'salah satu sungai terpanjang di dunia.</p>'
+        '<p>Para ulama menyebutkan keutamaan Sungai Nil. Dari Abu Hurairah (ra), bahwa Nabi ﷺ '
+        'bersabda: &ldquo;Sungai Saihun, Jaihun, Eufrat, dan Nil semuanya termasuk sungai-sungai '
+        'surga.&rdquo; (HR. Muslim)</p>'
+        '<p>Adapun sifat-sifat yang disebutkan tentang Sungai Nil, di antaranya adalah bahwa '
+        'ia membawa air yang bersih yang tidak mengandung lumpur dan tidak menyebabkan batu-batu '
+        'dan pasir yang dilewatinya berlumut. Ia juga memiliki keistimewaan dalam menghidupkan '
+        'tanah yang dilaluinya, sehingga tanahnya menjadi sangat subur.</p>'
+        '<p><strong>Sungai Eufrat</strong></p>'
+        '<p>Sungai Eufrat adalah salah satu sungai terbesar di Timur Tengah. Ia bersumber dari '
+        'pegunungan di Turki, kemudian mengalir melalui Suriah dan Irak, lalu bergabung dengan '
+        'Sungai Tigris di selatan Irak untuk membentuk Shatt al-Arab yang bermuara di Teluk Persia.</p>'
+        '<p>Tentang Sungai Eufrat, Nabi ﷺ bersabda: &ldquo;Hampir tiba suatu masa ketika Sungai '
+        'Eufrat akan surut dan menyingkapkan gunung emas. Barang siapa yang hadir pada saat itu, '
+        'janganlah ia mengambil sesuatu pun darinya.&rdquo; (HR. Bukhari dan Muslim)</p>'
+        '<p>Ini adalah salah satu tanda-tanda Hari Kiamat yang akan terjadi menjelang hari itu. '
+        'Semoga Allah melindungi kita dari fitnah-fitnah yang akan datang.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 014 — Rivers: Nile, Euphrates, Saihun, Jaihun
+# ============================================================
+translations['014'] = {
+    'title_id': 'Bagian 14',
+    'content_id': (
+        '<p>selain itu, ia mengalir melalui batu-batu dan pasir-pasir, namun tidak mengandung '
+        'lumpur atau endapan. Juga, ia tidak menyebabkan batu-batu dan bebatuan yang dilewatinya '
+        'berlumut. Ini adalah salah satu keistimewaan yang membedakan Sungai Nil dari sungai-sungai '
+        'lainnya, dan ini merupakan tanda dari karunia Allah \'Azza wa Jalla.</p>'
+        '<p>Adapun Sungai Saihun dan Sungai Jaihun, keduanya adalah sungai-sungai besar di Asia '
+        'Tengah. Sungai Saihun (juga dikenal sebagai Syr Darya) mengalir melalui Kazakstan dan '
+        'Uzbekistan, sementara Sungai Jaihun (juga dikenal sebagai Amu Darya) mengalir melalui '
+        'Tajikistan, Afganistan, dan Uzbekistan. Keduanya bermuara di Laut Aral.</p>'
+        '<p>Nabi ﷺ menyebutkan keempat sungai ini — Saihun, Jaihun, Eufrat, dan Nil — sebagai '
+        'sungai-sungai surga. Ini bisa berarti bahwa sumber-sumber mereka berasal dari surga, '
+        'atau bahwa mereka memiliki keutamaan khusus di antara sungai-sungai di dunia. '
+        'Dan Allah lebih mengetahui makna yang sebenarnya.</p>'
+        '<p><strong>Penciptaan Langit dan Bumi dalam Enam Hari</strong></p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Sesungguhnya Tuhan kamu ialah Allah yang '
+        'menciptakan langit dan bumi dalam enam masa, kemudian Dia bersemayam di atas \'Arsy '
+        'untuk mengatur segala urusan.)</em> (Surah Yunus 10:3)</p>'
+        '<p>Para ulama berbeda pendapat tentang apa yang dimaksud dengan enam hari dalam ayat ini. '
+        'Sebagian berpendapat bahwa yang dimaksud adalah enam hari seperti hari-hari kita di dunia, '
+        'masing-masing dua puluh empat jam. Sebagian lainnya berpendapat bahwa hari-hari di sisi '
+        'Allah berbeda dengan hari-hari di dunia, berdasarkan firman Allah: <em>(Sesungguhnya sehari '
+        'di sisi Tuhanmu adalah seperti seribu tahun menurut perhitunganmu.)</em> '
+        '(Surah Al-Hajj 22:47)</p>'
+        '<p>Yang penting untuk kita yakini adalah bahwa Allah \'Azza wa Jalla menciptakan langit '
+        'dan bumi beserta segala isinya dalam enam hari (atau masa), dan bahwa Dia tidak membutuhkan '
+        'istirahat setelah itu, tidak seperti apa yang disebutkan dalam Kitab Perjanjian Lama. '
+        'Allah berfirman: <em>(Dan sesungguhnya telah Kami ciptakan langit dan bumi dan apa yang '
+        'ada antara keduanya dalam enam hari, dan Kami sedikitpun tidak ditimpa keletihan.)</em> '
+        '(Surah Qaf 50:38)</p>'
+        '<p>Adapun urutan penciptaan langit dan bumi, Allah Yang Maha Tinggi berfirman: <em>(Katakanlah, '
+        '&ldquo;Mengapa kamu kafir kepada yang menciptakan bumi dalam dua hari dan kamu adakan '
+        'sekutu-sekutu bagi-Nya? (Yang bersifat) demikian itulah Tuhan semesta alam.&rdquo; Dan '
+        'Dia menciptakan di bumi itu gunung-gunung yang kokoh di atasnya. Dia memberkahinya dan '
+        'Dia menentukan padanya kadar makanan-makanan penduduknya dalam empat masa. (Penjelasan '
+        'itu sebagai jawaban) bagi orang-orang yang bertanya. Kemudian Dia menuju ke langit dan '
+        'langit itu masih merupakan asap.)</em> (Surah Fussilat 41:9-11)</p>'
+        '<p>Dari ayat-ayat ini para ulama menyimpulkan bahwa bumi diciptakan terlebih dahulu, '
+        'kemudian langit, kemudian bumi diratakan dan dihamparkkan. Dan Allah lebih mengetahui '
+        'urutan yang sebenarnya.</p>'
+    ),
+}
+
+# ============================================================
+# Chapter 015 — Plants, animals, the six days of creation
+# ============================================================
+translations['015'] = {
+    'title_id': 'Bagian 15',
+    'content_id': (
+        '<p>kualitas-kualitas dari tumbuh-tumbuhan dan buah-buahan, dan lain-lain (kehidupan '
+        'botani) serta dari hewan-hewan (kehidupan zoologi)]. Sesungguhnya pada yang demikian '
+        'itu adalah tanda kebesaran Allah bagi kaum yang berpikir. (Surah Al-An\'am 6:99)</p>'
+        '<p>Allah Yang Maha Tinggi berfirman: <em>(Dan Kami turunkan air dari langit menurut '
+        'suatu ukuran, lalu Kami jadikan air itu menetap di bumi, dan sesungguhnya Kami benar-benar '
+        'berkuasa menghilangkannya. Lalu dengan air itu, Kami tumbuhkan untuk kamu kebun-kebun '
+        'kurma dan anggur; di dalam kebun-kebun itu kamu peroleh buah-buahan yang banyak dan '
+        'sebahagian dari buah-buahan itu kamu makan.)</em> (Surah Al-Mu\'minun 23:18-19)</p>'
+        '<p><strong>Penciptaan dalam Enam Hari: Urutan dan Hikmahnya</strong></p>'
+        '<p>Para ulama ahli tafsir telah menafsirkan firman Allah tentang penciptaan langit dan '
+        'bumi dalam enam hari. Ibnu Katsir menyebutkan bahwa para ulama berbeda pendapat tentang '
+        'apakah bumi diciptakan terlebih dahulu atau langit.</p>'
+        '<p>Pendapat yang lebih kuat berdasarkan ayat-ayat Al-Quran adalah sebagai berikut: '
+        'pertama Allah menciptakan bumi dalam dua hari, kemudian menjadikan gunung-gunung dan '
+        'menentukan rezeki-rezeki penduduknya dalam empat hari (termasuk dua hari sebelumnya), '
+        'kemudian menciptakan tujuh langit dalam dua hari. Total semuanya enam hari.</p>'
+        '<p>Namun ada pula yang berpendapat berdasarkan hadis Muslim dari Abu Hurairah (ra) '
+        'bahwa: &ldquo;Allah menciptakan debu pada hari Sabtu, menciptakan gunung-gunung pada '
+        'hari Ahad, menciptakan pohon-pohon pada hari Senin, menciptakan hal-hal yang dibenci '
+        'pada hari Selasa, menciptakan cahaya pada hari Rabu, menyebarkan binatang-binatang '
+        'pada hari Kamis, dan menciptakan Adam (as) pada hari Jumat di waktu setelah Ashar, '
+        'sebagai makhluk terakhir dari makhluk-makhluk terakhir.&rdquo;</p>'
+        '<p>Para ulama telah mendiskusikan cara mengompromikan antara ayat-ayat yang menyebutkan '
+        'enam hari penciptaan dengan hadis ini yang menyebutkan tujuh hari. Sebagian berpendapat '
+        'bahwa hadis ini memiliki illah (cacat tersembunyi), dan yang sahih hanya hadis yang '
+        'menyebutkan enam hari. Dan Allah lebih mengetahui.</p>'
+        '<p>Yang paling penting adalah kita meyakini bahwa Allah \'Azza wa Jalla menciptakan '
+        'semua ini dengan ilmu, kehendak, dan kekuasaan-Nya yang sempurna, dan bahwa penciptaan '
+        'ini merupakan bukti nyata atas keesaan, kebesaran, dan kekuasaan-Nya. Maka wajib bagi '
+        'kita untuk merenungi ciptaan-Nya dan bersyukur atas nikmat-nikmat-Nya yang tak terhitung.</p>'
+    ),
+}
+
+# ============================================================
+# Write all translations to disk
+# ============================================================
+
+def write_chapter(chapter_num: str, data: dict):
+    fn = BOOK_DIR / f'{chapter_num}.json'
+    with open(fn) as f:
+        existing = json.load(f)
+    existing['title_id'] = data['title_id']
+    existing['content_id'] = data['content_id']
+    with open(fn, 'w', encoding='utf-8') as f:
+        json.dump(existing, f, ensure_ascii=False, indent=2)
+    # Verify
+    with open(fn) as f:
+        verify = json.load(f)
+    assert verify['title_id'] == data['title_id'], f"title_id mismatch in {fn}"
+    assert verify['content_id'] == data['content_id'], f"content_id mismatch in {fn}"
+    print(f'  ✓ {chapter_num}.json written and verified')
+
+print('Writing chapters 001-015...')
+for chnum, tdata in translations.items():
+    write_chapter(chnum, tdata)
+print('Done.')

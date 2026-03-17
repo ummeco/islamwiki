@@ -17,12 +17,54 @@ import json, os, sys, glob
 
 BASE = os.path.join(os.path.dirname(__file__), '../../web/data/books')
 
+def fix_unescaped_quotes(raw):
+    """Fix unescaped double quotes inside JSON string values."""
+    result = []
+    i = 0
+    in_string = False
+    escaped = False
+    while i < len(raw):
+        ch = raw[i]
+        if escaped:
+            result.append(ch)
+            escaped = False
+            i += 1
+            continue
+        if ch == '\\':
+            result.append(ch)
+            escaped = True
+            i += 1
+            continue
+        if ch == '"':
+            if not in_string:
+                in_string = True
+                result.append(ch)
+            else:
+                j = i + 1
+                while j < len(raw) and raw[j] in ' \t\n\r':
+                    j += 1
+                if j < len(raw) and raw[j] in ',}]:\n':
+                    in_string = False
+                    result.append(ch)
+                else:
+                    result.append('\\"')
+        else:
+            result.append(ch)
+        i += 1
+    return ''.join(result)
+
 def load_patch_file(path):
     with open(path) as f:
         raw = f.read()
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
+        # Try fixing unescaped quotes (common in Arabic content)
+        try:
+            fixed = fix_unescaped_quotes(raw)
+            return json.loads(fixed)
+        except:
+            pass
         # Try fixing invalid escape sequences
         import re
         fixed = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', raw)
@@ -33,7 +75,6 @@ def load_patch_file(path):
             last = raw.rfind('\n  }')
             if last > 0:
                 truncated = raw[:last+4]
-                # Close the array
                 if truncated.rstrip().endswith(','):
                     truncated = truncated.rstrip()[:-1]
                 truncated += '\n]'

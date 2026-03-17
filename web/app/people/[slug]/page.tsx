@@ -17,6 +17,7 @@ import { EditButton } from '@/components/wiki/edit-button'
 import { formatIslamicYear } from '@/lib/dates/hijri'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { renderContent } from '@/lib/render-content'
+import { getLocale } from '@/lib/i18n/get-locale'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -52,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function PersonPage({ params }: Props) {
   const { slug } = await params
-  const person = getPersonOrNarratorBySlug(slug)
+  const [person, locale] = [getPersonOrNarratorBySlug(slug), await getLocale()]
   if (!person) notFound()
 
   const relationships = getRelationships(person.id)
@@ -146,13 +147,13 @@ export default async function PersonPage({ params }: Props) {
               Biography
             </h2>
             <div className="prose prose-invert max-w-none text-iw-text-secondary space-y-2">
-              {person.bio_en ? (
-                renderContent(person.bio_en)
-              ) : person.bio_short_en ? (
-                <p className="italic text-iw-text-muted">{person.bio_short_en}</p>
-              ) : (
-                <p className="italic text-iw-text-muted">Biography not yet available.</p>
-              )}
+              {(() => {
+                const bio = locale === 'id' && person.bio_id ? person.bio_id : person.bio_en
+                return bio ? renderContent(bio)
+                  : person.bio_short_en
+                    ? <p className="italic text-iw-text-muted">{person.bio_short_en}</p>
+                    : <p className="italic text-iw-text-muted">Biography not yet available.</p>
+              })()}
             </div>
           </div>
 
