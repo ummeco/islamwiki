@@ -1,0 +1,33 @@
+# Wafatnya Ibrahim ibn Muhammad
+
+## Putra yang Lahir di Madinah
+
+Ibrahim ibn Muhammad adalah putra Nabi ﷺ dari Mariyah al-Qibthiyyah — wanita Kristen Koptik yang telah dikirimkan kepada Nabi ﷺ sebagai hadiah oleh al-Muqauqis, penguasa Mesir, sebagai tanggapan atas surat Nabi ﷺ yang mengundangnya kepada Islam. Mariyah datang ke Madinah dan menerima Islam. Ia melahirkan kepada Nabi ﷺ seorang putra yang diberi nama Ibrahim — nama yang memiliki makna mendalam: Nabi ﷺ bersabda bahwa beliau menamainya berdasarkan Ibrahim al-Khalil (Ibrahim Kekasih Allah), sang patriark dan bapak dari tradisi monoteistik yang dipahami Islam sebagai penyempurnaannya.
+
+Ibrahim lahir pada bulan Dzulhijjah tahun 8 H — tahun yang sama dengan Penaklukan Mekah. Ia adalah satu-satunya putra Nabi ﷺ yang selamat saat dilahirkan setelah kematian awal ketiga putranya dari Khadijah: Qasim, Abdullah (juga disebut al-Thayyib dan al-Thahir), dan seorang lagi yang namanya masih diperdebatkan dalam sumber-sumber, semuanya meninggal pada masa bayi. Kelahiran Ibrahim membawa kegembiraan besar kepada Nabi ﷺ. Beliau melaksanakan aqiqah — pengurbanan yang berkaitan dengan kelahiran seorang anak — menyembelih dua ekor domba, mencukur kepala Ibrahim, dan memberikan sedekah senilai berat rambutnya dalam perak. Beliau mendistribusikan sedekah dan memberikan nama Ibrahim pada hari ketujuh, mengikuti Sunnah yang beliau sendiri sedang tetapkan.
+
+## Perawatan dan Kegembiraan
+
+Ibrahim disusui oleh seorang wanita dari kaum Ansar dan tinggal di rumah tangganya selama masa bayi, sebagaimana merupakan praktik umum di Arabia. Nabi ﷺ mengunjunginya secara rutin, dan riwayat-riwayat menyimpan detail-detail kecil dari kunjungan-kunjungan ini: Ibrahim akan menjangkau ayahnya, Nabi ﷺ akan memeluknya erat dan menciumnya, mencium aroma sang anak — riwayat-riwayat menggambarkan Nabi ﷺ mencium lehernya. Ini adalah di antara detail-detail pribadi paling intim dalam literatur sirah, tersimpan karena para sahabat yang menyaksikannya memahami bahwa apa yang mereka saksikan adalah Nabi ﷺ sebagai seorang ayah, dan bahwa ini pun adalah bagian dari keteladanan kenabian.
+
+Nabi ﷺ mengungkapkan kegembiraan tentang Ibrahim secara terbuka. Dilaporkan bahwa beliau bersabda bahwa kelahiran Ibrahim berarti makian Quraisy "abtar" (terputus, artinya tanpa putra untuk meneruskan keturunan) tidak lagi berlaku — meskipun Al-Qur'an telah menjawab ini dalam Surah al-Kautsar. Kegembiraan kelahiran Ibrahim, di tahun yang sama dengan Penaklukan Mekah, memberikan periode 8 H suatu kualitas keberlimpahan yang dicatat para sahabat.
+
+## Kematian
+
+Ibrahim wafat pada bulan Rabi' al-Awwal tahun 10 H pada usia sekitar delapan belas bulan. Nabi ﷺ hadir saat kematiannya, atau tiba sesaat sebelumnya. Beliau menggendong Ibrahim saat ia wafat, sambil menangis. Para sahabat di sekitarnya merasa heran melihat Nabi ﷺ menangis — sebagian telah memahami hadits yang melarang meratap dan ekspresi kesedihan yang berlebihan sebagai berarti bahwa semua ekspresi emosional saat kematian tidak dianjurkan. Nabi ﷺ memberikan klarifikasi: "Mata ini menangis dan hati ini bersedih, dan kami hanya mengucapkan apa yang diridhai Tuhan kami. Sesungguhnya kami sangat berduka atas kepergianmu, wahai Ibrahim." Beliau membedakan antara kesedihan alami seorang ayah — air mata, duka di dalam hati — dan praktik-praktik yang dilarang berupa meratap, memukul diri sendiri, dan merobek pakaian. Baik kesedihan maupun batas ekspresinya adalah pengajaran kenabian yang disampaikan pada momen yang paling mahal secara pribadi.
+
+## Gerhana Matahari
+
+Pada hari Ibrahim wafat, terjadi gerhana matahari. Beberapa sahabat berkata: "Matahari telah gerhana karena kematian Ibrahim." Mereka mengaitkan peristiwa kosmis dengan putra Nabi ﷺ. Nabi ﷺ segera dan dengan jelas mengoreksi mereka: "Sesungguhnya matahari dan bulan tidak gerhana karena kematian atau kelahiran seseorang. Apabila kalian melihat gerhana, maka berdoalah dan shalatlah." Koreksi itu dilakukan pada hari yang sama dengan kematian putranya — kesedihan kehilangan Ibrahim tidak menghalangi Nabi ﷺ untuk mengoreksi kesalahan yang, jika tidak ditantang, akan memasukkan suatu bentuk tahayul ke dalam pemahaman komunitas.
+
+Respons terhadap gerhana dipelajari sebagai contoh dari penolakan konsisten Nabi ﷺ untuk membiarkan keadaan pribadinya — bahkan kesedihan — menjadi dasar keyakinan keagamaan yang keliru. Beliau baru saja kehilangan seorang putra; beberapa sahabat menghubungkan peristiwa astronomis alami dengan kehilangan itu; dan Nabi ﷺ mengoreksi mereka pada hari yang sama, dengan tegas dan jelas.
+
+## Kesedihan dalam Konteks
+
+Ibrahim adalah anak terakhir Nabi ﷺ yang wafat sebelum beliau. Dengan kematian Ibrahim, Nabi ﷺ telah menguburkan tiga putra dan tiga putri — semua anak-anaknya kecuali Fatimah — dan Fatimah sendiri akan wafat enam bulan setelah ayahnya. Kehilangan-kehilangan pribadi yang berkelanjutan pada periode Madinah — anak-anak, sahabat-sahabat, keluarga — adalah dimensi sirah yang kadang-kadang kurang ditonjolkan demi narasi militer dan politik. Nabi ﷺ yang menangis di kematian Ibrahim, yang menangis di kuburan Ruqayyah, yang mencium dahi anak-anak Ja'far ibn Abi Thalib setelah Mutah — adalah seorang pria yang berulang kali mengalami kehilangan, yang tidak menekannya atau menganggapnya di bawah martabatnya, dan yang menanganinya setiap kali dengan kombinasi yang sama antara duka yang jujur dan kepercayaan kepada Allah yang telah ia teladankan dan ajarkan sejak wahyu pertama.
+
+## Ibrahim dalam Literatur Hadits
+
+Hadits tentang duka Nabi ﷺ atas kematian Ibrahim — "Mata ini menangis dan hati ini bersedih, dan kami hanya mengucapkan apa yang diridhai Tuhan kami" — adalah salah satu pernyataan yang paling sering dikutip tentang psikologi kesedihan dalam Islam. Ia menetapkan bahwa respons emosional terhadap kehilangan adalah alami dan diizinkan; bahwa yang dilarang adalah ekspresi-ekspresi yang mengimplikasikan penolakan terhadap ketetapan Allah (meratap, mengutuk nasib, ekspresi fisik kesedihan yang berlebihan); dan bahwa kombinasi antara perasaan yang tulus dan penyerahan yang tulus kepada kehendak Allah bukanlah kontradiksi melainkan norma kenabian. Pernyataan itu dibuat sementara Nabi ﷺ sedang menggendong putra bayinya yang telah wafat — konteks yang paling mahal secara pribadi yang bisa dibayangkan — yang memberikannya bobot yang tidak dapat ditandingi oleh pernyataan teoritis apa pun tentang kesedihan.
+
+**Sumber:** Shahih al-Bukhari (Kitab al-Jana'iz, Kitab al-Kusuf, Kitab al-'Aqiqah); Shahih Muslim; Ibn Hisyam, *al-Sira al-Nabawiyya*; Ibn Katsir, *al-Bidayah wan-Nihayah*; Ibn Sa'd, *al-Tabaqat al-Kubra*

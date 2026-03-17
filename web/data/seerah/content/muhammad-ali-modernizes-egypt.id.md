@@ -1,0 +1,61 @@
+# Muhammad Ali Pasha dan Modernisasi Mesir
+
+## Komandan Albania yang Menjadi Penguasa Mesir
+
+Muhammad Ali Pasha (1184-1265 H / 1769-1849 M) adalah salah satu tokoh paling berpengaruh dalam sejarah Arab dan Islam modern — seorang yang, bermula dari asal-usul yang tidak terkemuka sebagai tentara Albania dalam pasukan Ottoman, mentransformasi Mesir dari sebuah provinsi yang terbelakang menjadi kekuatan regional yang sedang memodernisasi diri dan mendirikan sebuah dinasti yang akan memerintah negara tersebut hingga tahun 1952. Metodenya kejam, ambisinya tidak terbatas, dan hasilnya bersifat transformatif dengan cara-cara yang tidak dapat sepenuhnya diantisipasi baik oleh beliau maupun oleh orang-orang sezamannya.
+
+Beliau dilahirkan di Kavala, di wilayah yang kini menjadi Yunani utara, yang ketika itu merupakan provinsi Ottoman dengan populasi Albania yang cukup besar. Masa mudanya tidak bersifat ilmiah — beliau berdagang tembakau kemudian masuk dinas militer. Beliau tiba di Mesir pada tahun 1215 H / 1801 M sebagai bagian dari pasukan ekspedisi Ottoman yang dikirim untuk mengusir Prancis. Dalam kekacauan politik yang mengikuti kepergian Prancis, beliau bermanuver dengan terampil di antara faksi-faksi Ottoman yang bersaing dan rumah tangga-rumah tangga Mamluk, membangun basis kekuasaan pribadi di antara para tentara Albania yang membentuk salah satu elemen dari pasukan pendudukan. Pada tahun 1220 H / 1805 M, beliau telah mengamankan posisi sebagai wakil kekaisaran Ottoman di Mesir — dikukuhkan oleh Sultan Ottoman di bawah tekanan dari penduduk Mesir dan para ulama yang lebih menyukainya dibandingkan alternatif-alternatif yang ada.
+
+## Pembantaian Mamluk tahun 1226 H / 1811 M
+
+Tindakan paling terkenal dari konsolidasi kekuasaan Muhammad Ali adalah pembantaian para pemimpin Mamluk. Kaum Mamluk — kasta militer yang secara efektif telah memerintah Mesir selama berabad-abad sebelum intervensi Prancis dan Ottoman — tetap merupakan ancaman potensial bagi otoritasnya dan pusat kekuasaan saingan yang tidak bisa dibiarkan. Muhammad Ali mengundang para bey Mamluk terkemuka ke sebuah upacara di Benteng Kairo pada Maret 1811 M, secara lahiriah untuk merayakan pengangkatan putranya memimpin kampanye Arabia. Saat mereka melewati lorong sempit Bab al-Azab, pintu-pintu gerbang ditutup dan para tentara Albania serta Ottoman membuka tembakan. Para Mamluk di dalam benteng dibunuh; tindakan-tindakan serentak di seluruh Kairo dan Mesir menargetkan rumah tangga-rumah tangga dan pengikut Mamluk. Dalam beberapa hari, kelas penguasa Mamluk yang telah mendominasi Mesir selama dua abad secara efektif disingkirkan sebagai kekuatan politik.
+
+Pembantaian itu brutal, terencana, dan berhasil. Ia menyingkirkan rintangan internal paling signifikan bagi kendali penuh Muhammad Ali atas Mesir dan membebaskannya untuk mengorganisir ulang administrasi negara tanpa harus merujuk pada pengaturan bagi-kekuasaan yang telah membatasi para gubernur sebelumnya.
+
+## Modernisasi Militer dan Administratif
+
+Wawasan fundamental Muhammad Ali adalah bahwa superioritas militer Eropa yang didemonstrasikan oleh ekspedisi Napoleon dapat direplikasi oleh Mesir jika Mesir mengadopsi pelatihan, senjata, dan metode organisasi Eropa. Beliau mulai membangun pasukan modern pada tahun 1820-an, awalnya menggunakan budak Sudan yang ditangkap selama kampanye-kampanye Sudannya (1235-1236 H / 1820-1821 M), kemudian beralih ke petani Mesir yang direkrut secara paksa (fallaheen) — sebuah perubahan revolusioner, karena petani Mesir sebelumnya tidak pernah bertugas dalam militer dan tidak dianggap bahan militer. Beliau merekrut perwira-perwira Eropa — terutama Prancis — sebagai instruktur dan mendirikan sekolah-sekolah militer.
+
+Sekolah-sekolah militer memerlukan keaksaraan dan pelatihan teknis, yang memerlukan infrastruktur pendidikan yang lebih luas. Muhammad Ali mendirikan jaringan sekolah-sekolah sekuler (di samping namun terpisah dari sistem keagamaan tradisional yang berpusat pada al-Azhar) yang mengajarkan bahasa-bahasa Eropa, teknik, matematika, dan ilmu-ilmu militer. Yang paling signifikan, beliau mengirimkan misi-misi pelajar ke Eropa — terutama Prancis — dengan mengirimkan kelompok-kelompok pelajar Mesir untuk belajar di Paris, Marseille, dan kota-kota lainnya. Misi besar pertama, pada tahun 1241 H / 1826 M, mencakup empat puluh empat pelajar. Misi-misi ini menghasilkan generasi pertama teknokrat Mesir yang berpendidikan Eropa dan akan memiliki konsekuensi jangka panjang bagi kehidupan intelektual Mesir.
+
+Salah satu anggota misi Paris pertama, Rifa'ah al-Tahtawi (1216-1290 H / 1801-1873 M), menulis Takhlis al-Ibriz fi Talkhis Bariz (seorang imam di Paris — kisah tentang tahun-tahunnya di Prancis), salah satu teks fondasi Nahda Arab. Al-Tahtawi terlibat secara serius dengan pemikiran politik Prancis — demokrasi, konstitusionalisme, hak-hak alamiah — dan bertanya bagaimana hal-hal tersebut dapat didamaikan dengan atau diadaptasi untuk pemerintahan Islam. Karyanya menetapkan tradisi keterlibatan intelektual Arab dengan modernitas Barat yang akan menyibukkan para pemikir Arab selama dua abad berikutnya.
+
+## Transformasi Ekonomi dan Ekonomi Kapas Mesir
+
+Muhammad Ali mengorganisir ulang ekonomi Mesir melalui monopoli negara. Beliau menasionalisasi sebagian besar lahan pertanian, memaksa para petani untuk menanam tanaman yang beliau tentukan (awalnya gandum untuk militer, kemudian kapas, nila, dan tebu untuk ekspor) dan menjualnya kepada agen-agen negara dengan harga yang ditetapkan. Beliau mendirikan pabrik-pabrik negara yang memproduksi tekstil, senjata, dan barang-barang lainnya.
+
+Pengenalan kapas berurat panjang Mesir — yang menghasilkan serat-serat berkualitas luar biasa yang cocok untuk pembuatan tekstil halus — mentransformasi posisi Mesir dalam ekonomi global. Ekonomi kapas, bagaimanapun, juga mengikat Mesir lebih erat kepada pasar-pasar keuangan Eropa dan membuatnya rentan terhadap fluktuasi harga komoditas global. Integrasi ke dalam ekonomi dunia yang didominasi Eropa ini, yang Muhammad Ali ciptakan, pada akhirnya akan mengarah pada krisis utang yang memberi Inggris dalih untuk menduduki Mesir pada tahun 1882.
+
+## Kampanye Arabia dan Pemulihan Hejaz
+
+Salah satu kampanye militer awal Muhammad Ali yang paling penting, yang diluncurkan atas permintaan Ottoman, adalah penumpasan negara Saudi-Wahhabi pertama di Arabia, yang telah merebut Hejaz dan mengganggu kontrol Ottoman atas Mekah dan Madinah. Putranya Tusun memimpin kampanye awal sejak tahun 1226 H / 1811 M, dan putranya Ibrahim Pasha menyelesaikannya dengan penghancuran Dir'iyyah pada tahun 1233 H / 1818 M. Pemulihan kontrol Ottoman (dan dengan itu Mesir) atas Dua Masjid Suci memberikan Muhammad Ali prestise yang luar biasa dan mengkonsolidasikan hubungannya dengan sultan Ottoman.
+
+Kampanye-kampanye Sudan (1235-1236 H / 1820-1821 M) memperluas kendali Mesir ke lembah Nil bagian hulu, memberikan akses ke emas, gading, dan orang-orang yang diperbudak. Khartoum didirikan sebagai kota garnisun Mesir. Pemerintahan Mesir atas Sudan yang didirikan Muhammad Ali akan berlangsung — dengan beberapa gangguan — hingga kemerdekaan Sudan pada tahun 1956.
+
+## Hampir Menghancurkan Kekaisaran Ottoman: 1246-1256 H / 1831-1840 M
+
+Episode paling luar biasa dari karier Muhammad Ali adalah hampir penaklukannya terhadap Kekaisaran Ottoman itu sendiri. Didorong oleh keluhan-keluhan atas distribusi imbalan setelah kampanye-kampanye Arabia dan Yunaninya, serta frustrasi atas kegagalan sultan Ottoman memberikan kepadanya gubernuran Suriah yang beliau inginkan, Muhammad Ali mengirimkan putranya Ibrahim Pasha bersama pasukan Mesir ke Suriah Ottoman pada tahun 1246 H / 1831 M. Ibrahim mengalahkan pasukan Ottoman di Pertempuran Homs (1247 H / 1832 M) dan di Pertempuran Konya di Anatolia (1248 H / 1832 M), maju hingga dalam jarak 300 kilometer dari Istanbul. Seandainya Ibrahim melanjutkan, ibu kota Ottoman kemungkinan besar akan jatuh.
+
+Beliau dihentikan bukan oleh perlawanan militer Ottoman tetapi oleh intervensi diplomatik Eropa. Kekuatan-kekuatan Eropa — khususnya Inggris, Austria, dan Rusia — menyadari bahwa runtuhnya Kekaisaran Ottoman akan menciptakan kekosongan yang akan mendestabilisasi Mediterania timur dan memicu konflik di antara mereka sendiri. Di bawah tekanan Eropa yang intens, dan dengan pasukan Rusia yang sebenarnya mendarat di Bosphorus untuk mempertahankan Istanbul, Muhammad Ali dipaksa mundur dengan imbalan gubernuran herediter atas Mesir.
+
+Beliau kembali ke Suriah pada tahun 1255 H / 1839 M ketika pasukan Ottoman menyerangnya, kembali mengalahkan Ottoman, kali ini di Pertempuran Nezib. Sekali lagi kekuatan-kekuatan Eropa melakukan intervensi, kali ini lebih tegas: Konvensi London (1256 H / 1840 M) menuntut penarikannya dari Suriah dan penglepasan wilayah Arabia, Kreta, dan wilayah-wilayah lain, dengan imbalan kekuasaan herediter yang dikukuhkan atas Mesir dan otoritas nominal atas Sudan. Beliau menerima, dan dinasti yang akan memerintah Mesir hingga 1952 pun diamankan.
+
+## Dampak pada Institusi Islam: Al-Azhar
+
+Hubungan Muhammad Ali dengan al-Azhar — institusi terkemuka pembelajaran Islam Sunni di dunia Arab — dipenuhi ketegangan. Para ulama Azhar telah menjadi aktor politik di bawah sistem Ottoman, memediasi antara kelas penguasa Mamluk dan penduduk Mesir, dan kadang-kadang mampu mempengaruhi pemerintahan. Muhammad Ali secara sistematis mengurangi kekuasaan politik dan ekonomi mereka.
+
+Beliau menyita properti-properti waqf (wakaf) yang telah mendanai operasi al-Azhar selama berabad-abad, menggantikan sistem kesarjanaan berbasis endowmen tradisional dengan pendanaan negara — yang memberi negara kendali atas institusi tersebut. Beliau mengecualikan al-Azhar dari sistem pendidikan sekuler baru yang sedang beliau bangun, menciptakan struktur pendidikan dua jalur yang bertahan hingga jauh ke abad kedua puluh: jalur keagamaan tradisional melalui al-Azhar dan jalur sekuler modern melalui sekolah-sekolah negara. Bifurkasi ini memiliki konsekuensi mendalam bagi kehidupan intelektual Mesir, menciptakan dua kelas terpelajar dengan bahasa yang berbeda, titik referensi yang berbeda, dan hubungan yang berbeda dengan tradisi Islam.
+
+## Mesin Cetak dan Ruang Publik
+
+Muhammad Ali mendirikan mesin cetak Bulaq pada tahun 1236 H / 1821 M, mesin cetak Arab pertama di Mesir yang beroperasi dalam skala signifikan. Tujuan awalnya bersifat praktis: mencetak manual militer, teks-teks teknis, dan terjemahan-terjemahan karya Eropa yang diperlukan untuk program modernisasinya. Namun mesin cetak itu juga menerbitkan surat kabar berbahasa Arab, termasuk lembaran resmi pemerintah Al-Waqa'i' al-Mishriyya (Peristiwa-peristiwa Mesir), dan mulai menerbitkan teks-teks Arab klasik — menjadikan warisan sastra dan keilmuan peradaban Islam dapat diakses dalam bentuk cetak di Mesir untuk pertama kalinya.
+
+Mesin cetak dan perluasan keaksaraan Mesir yang terkait menciptakan kondisi bagi Nahda — kebangkitan budaya dan intelektual Arab abad kesembilan belas.
+
+## Signifikansi dan Warisan yang Diperdebatkan
+
+Muhammad Ali disebut "Bapak Mesir Modern" — sebuah gelar yang mengakui perannya dalam menciptakan infrastruktur kelembagaan negara Mesir yang ada sekarang, sambil menghindari pertanyaan tentang apa yang dihancurkan dalam pembentukannya. Program modernisasinya memerlukan pembongkaran kekuasaan institusional Islam tradisional, transformasi paksa kaum tani dari petani subsisten menjadi tentara wajib militer dan produsen tanaman ekspor, serta pembantaian kelas penguasa Mamluk.
+
+Dari perspektif Islam, penilaian terhadap Muhammad Ali bersifat kompleks. Beliau adalah penguasa Muslim yang memperluas jangkauan geografis kekuasaan Muslim, memulihkan kendali Ottoman atas Hejaz, dan menaungi institusi-institusi Islam bahkan saat beliau membatasi kemandirian mereka. Beliau juga adalah penguasa yang memprioritaskan kekuasaan negara atas hukum Islam, yang hubungannya dengan para ulama bersifat instrumental daripada reverent, dan yang warisannya mencakup pola modernisasi negara yang bersifat sekularisasi yang kemudian direplikasi oleh pemerintah-pemerintah Mesir berikutnya.
+
+**Sumber:** Khaled Fahmy, *All the Pasha's Men*; Afaf Lutfi al-Sayyid Marsot, *Egypt in the Reign of Muhammad Ali*; Rifa'ah al-Tahtawi, *An Imam in Paris* (trans. Daniel Newman)

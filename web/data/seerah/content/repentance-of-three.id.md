@@ -1,0 +1,31 @@
+# Taubat Tiga Sahabat
+
+## Para Lelaki yang Tidak Memiliki Alasan
+
+Di antara konsekuensi dari Ekspedisi Tabuk adalah kasus tiga sahabat yang tidak ikut serta tanpa alasan yang sah. Mereka bukanlah orang-orang munafik — mereka tidak mengaku sakit atau tidak mampu bepergian, mereka tidak menyebarkan laporan-laporan palsu tentang ekspedisi, dan mereka tidak menganjurkan orang lain untuk tinggal. Mereka hanya gagal berangkat, dan mereka mengakuinya dengan jujur. Nama-nama mereka adalah Ka'b ibn Malik, Murarah ibn al-Rabi', dan Hilal ibn Umayyah — ketiganya dari kaum Ansar, ketiganya memiliki kedudukan yang mantap dalam komunitas.
+
+Ketika Nabi ﷺ kembali dari Tabuk, para munafik datang kepadanya dengan alasan-alasan dan sumpah-sumpah mereka, dan beliau menerima pernyataan lahiriah mereka sambil menyerahkan keadaan batin mereka kepada Allah. Namun Ka'b, Murarah, dan Hilal berkata benar. Kisah Ka'b yang paling rinci — tersimpan dalam Shahih al-Bukhari dalam salah satu hadits tunggal terpanjang dalam koleksi itu — dan ini termasuk narasi krisis pribadi dan pemulihan spiritual yang paling luar biasa dalam literatur Islam.
+
+Ka'b berkata: "Ketika Nabi ﷺ kembali, aku pergi kepadanya dan mengucapkan salam. Beliau tersenyum, tetapi senyum seseorang yang marah, dan bersabda: 'Kemarilah.' Aku mendekat dan duduk di hadapannya. Beliau bersabda: 'Mengapa engkau tidak ikut? Bukankah engkau telah membeli hewan kendaraanmu?' Aku berkata: 'Demi Allah, wahai Rasulullah, seandainya aku duduk di hadapan seseorang dari dunia ini selain engkau, niscaya aku bisa berbicara dan berargumen untuk keluar dari masalah ini. Namun demi Allah, aku tahu bahwa jika aku mengatakan sesuatu yang bohong untuk menyenangkanmu hari ini, Allah akan membuatmu tidak ridha kepadaku kelak. Dan jika aku berkata benar dan engkau marah kepadaku, aku berharap hasil yang baik dari Allah. Aku tidak memiliki alasan — aku tidak pernah lebih kuat atau lebih mampu daripada ketika aku tidak ikut.' Nabi ﷺ bersabda: 'Adapun lelaki ini, ia telah berkata benar. Pergilah hingga Allah memutuskan perkaramu.'"
+
+## Lima Puluh Hari Pengasingan
+
+Nabi ﷺ melarang seluruh komunitas untuk berbicara dengan ketiga lelaki itu. Pemboikotan itu total: keluarga mereka sendiri diperintahkan untuk tidak berbicara dengan mereka, hanya tinggal bersama di rumah yang sama. Ka'b menggambarkan berjalan di Madinah dan menyapa sahabat-sahabat yang ia kenal, menyaksikan mata mereka menghindari tatapannya tanpa sepatah kata, tanpa mengetahui apakah mereka telah menjawab atau tidak. Ia menggambarkan pergi ke masjid untuk shalat — masjid yang sama — dan mengamati Nabi ﷺ dari sudut matanya tanpa mengetahui apakah Nabi ﷺ telah membalas salamnya atau tidak.
+
+Setelah dua puluh hari, datanglah perintah tambahan: pisahkan diri dari istri-istri kalian. Istri Ka'b pergi tinggal bersama orang tuanya. Istri Murarah datang kepada Nabi ﷺ dan berkata suaminya adalah orang tua yang tidak memiliki pembantu dan memohon izin untuk melayaninya; Nabi ﷺ berkata ia boleh melayaninya tetapi suaminya tidak boleh mendekatinya. Ka'b yang lebih muda langsung menyuruh istrinya ke rumah orang tuanya.
+
+Ka'b menggambarkan pengalaman bumi yang terasa sempit meskipun luasnya — ungkapan Al-Qur'an yang kemudian menggambarkan keadaan spiritualnya secara tepat. Ia naik ke atap rumahnya suatu hari dan memandang lanskap Madinah. Seorang lelaki muncul di cakrawala menyerunya dari arah Gunung Sala': sebuah surat telah tiba dari raja Ghassanid. Surat itu berbunyi: "Kami telah mendengar bahwa temanmu telah memperlakukanmu dengan keras. Datanglah kepada kami dan kami akan memuliakanmu." Ka'b membakar surat itu dalam api: "Ini pun adalah ujian."
+
+Pada hari kelima puluh, ampunan itu datang. Ka'b sedang berada di rumahnya ketika ia mendengar seseorang menyerukan ampunannya — orang-orang berlari untuk memberitahunya, seorang pria berlomba dengan menunggang kuda, yang lain berlari. Di masjid, seorang sahabat melepas jubah luarnya dan menyelimutinya ke Ka'b dengan penuh kegembiraan. Ka'b bersujud kepada Allah dalam syukur. Nabi ﷺ bersabda: "Bergembiralah dengan hari terbaik yang pernah berlalu atasmu sejak ibumu melahirkanmu." Ka'b bertanya: "Apakah ini darimu, wahai Rasulullah, atau dari Allah?" Nabi ﷺ bersabda: "Tidak — dari Allah."
+
+## Catatan Al-Qur'an
+
+Surah al-Taubah (9:118) mencatat ampunan itu dengan ungkapan yang telah dibaca di setiap generasi sejak saat itu: "Dan terhadap tiga orang yang ditinggalkan — sehingga bumi terasa sempit bagi mereka meskipun luasnya, dan jiwa mereka pun terasa sempit bagi mereka sendiri, dan mereka yakin bahwa tidak ada tempat berlindung dari Allah kecuali kepada-Nya. Kemudian Allah menerima taubat mereka agar mereka dapat bertaubat. Sesungguhnya Allah Maha Penerima taubat, Maha Penyayang."
+
+Ayat ini tepat: ia tidak mengatakan "orang-orang berdosa" tetapi menggambarkan pengalaman batin mereka — bumi yang menyempit, jiwa yang menyempit, keyakinan bahwa hanya Allah yang bisa menjadi tempat berlindung. Inilah gambaran Al-Qur'an tentang taubat yang tulus: bukan deklarasi formulaik melainkan penyempitan eksistensial hingga satu-satunya jalan terbuka adalah menuju Allah. Ketiga sahabat yang tidak ikut tanpa alasan, dan yang berkata jujur tentang hal itu, mengalami lima puluh hari isolasi sosial yang paling sempurna yang bisa dibayangkan — dan melewatinya untuk mendapatkan ampunan yang Al-Qur'an abadikan secara permanen.
+
+## Prinsip yang Ditetapkan
+
+Kasus ketiga orang ini dipelajari dalam fikih dan etika Islam untuk beberapa prinsip: kewajiban berkata jujur bahkan ketika hal itu merugikan si pembicara, kebolehan pemboikotan sosial sebagai tindakan disipliner, batas-batas tuntutan taubat (bersabar melewati ujian daripada lari darinya), dan hubungan antara rahmat ilahi dan kejujuran yang membuka pintu menuju rahmat tersebut. Ka'b ibn Malik berkata setelahnya bahwa di antara anugerah terbesar yang Allah berikan kepadanya melalui ujian itu adalah bahwa ia tidak berbohong kepada Nabi ﷺ — dan ia bertekad untuk tidak pernah berkata bohong selama ia hidup. Ia menepati tekad itu.
+
+**Sumber:** Shahih al-Bukhari (Kitab al-Maghazi, Kitab al-Tafsir); Shahih Muslim (Kitab al-Taubah); Ibn Hisyam, *al-Sira al-Nabawiyya*; Ibn Katsir, *al-Bidayah wan-Nihayah*; Surah al-Taubah (9:118)

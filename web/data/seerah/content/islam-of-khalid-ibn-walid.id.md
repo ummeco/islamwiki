@@ -1,0 +1,33 @@
+# Keislaman Khalid ibn al-Walid
+
+## Sosok yang Pernah Mengalahkan Kaum Muslim
+
+Tidak ada satu pun keislaman dalam sirah yang lebih dramatis dalam implikasinya daripada keislaman Khalid ibn al-Walid. Dalam Perang Uhud, kejeniusan taktis Khalid — kemampuannya membaca celah yang terbuka yang ditinggalkan oleh para pemanah — mengubah kemenangan Muslim menjadi hampir-bencana. Ia memimpin pasukan berkuda Quraisy mengelilingi gunung, menyerang garis belakang Muslim, dan memecah formasi yang sedang menang. Tujuh puluh sahabat Muslim gugur di Uhud, dan serangan Khalid adalah peristiwa yang menentukan. Ia kemudian berpartisipasi dalam Perang Khandaq sebagai bagian dari koalisi sekutu yang mengepung Madinah. Ia adalah, dalam setiap ukuran, pikiran militer paling berbahaya yang dihadapi komunitas Muslim di Semenanjung Arabia.
+
+Pada bulan Safar tahun 8 H — hanya beberapa bulan sebelum Penaklukan Mekah — Khalid ibn al-Walid menuju Madinah dan menerima Islam. Ia disambut oleh Nabi ﷺ dengan kehangatan dan pernyataan yang sekaligus merupakan deklarasi keyakinan akan potensinya: "Aku tahu bahwa seseorang cerdas sepertimu tidak akan selamanya tetap dalam kesesatan." Nabi ﷺ juga bersabda: "Khalid adalah pedang dari pedang-pedang Allah."
+
+## Keislaman Seorang Pikiran Strategis
+
+Kisah Khalid sendiri tentang keislamannya, yang tersimpan dalam sumber-sumber sirah, menekankan perjalanan intelektual yang bertahap daripada momen tiba-tiba. Ia menggambarkan menyadari, terutama setelah Hudaybiyyah, bahwa Nabi ﷺ mencapai hasil-hasil strategis yang tidak dapat dijelaskan oleh kekuatan semata. Perjanjian Hudaybiyyah — yang awalnya dilihat oleh banyak orang Quraisy sebagai kekalahan Muslim — ia kenali sebagai manuver politik yang cerdik. Ketika perlawanan Quraisy terhadap Islam tampak semakin sia-sia baginya dan saudaranya Walid telah masuk Islam, pertanyaannya hanya soal waktu dan tujuan.
+
+Ia tidak datang ke Madinah sendirian. Amr ibn al-Ash, salah satu sosok yang paling cerdik secara politik di Arabia awal — yang kemudian akan menaklukkan Mesir — dan Utsman ibn Talhah, penjaga kunci Ka'bah, masuk Islam bersamanya atau dalam urutan yang berdekatan. Ketiganya bersama-sama mewakili transfer bakat dan legitimasi Quraisy yang signifikan kepada komunitas Muslim. Nabi ﷺ menyambut masing-masing dari mereka. Kepada Amr ibn al-Ash beliau bersabda: "Aku tahu bahwa Allah akan membimbingmu." Kepada Utsman ibn Talhah, beliau menghormati kepengurusan Ka'bah — sebuah amanah yang secara resmi dikembalikan oleh Nabi ﷺ kepada keluarga Utsman pada saat Penaklukan Mekah, dan yang dipertahankan oleh keluarga Banu Syaibah hingga hari ini.
+
+## Perang Mutah dan Pedang Allah
+
+Khalid baru beberapa bulan berada dalam Islam ketika ia terpaksa mengambil alih komando. Perang Mutah pada bulan Jumada al-Ula tahun 8 H mengirimkan pasukan 3.000 Muslim melawan pasukan Byzantium dan sekutunya yang mungkin berjumlah puluhan ribu. Tiga komandan gugur berturut-turut: Zaid ibn Haritsah, mantan budak yang dimerdekakan dan anak angkat Nabi ﷺ; Ja'far ibn Abi Thalib, yang gugur dengan kedua tangan terputus saat memegang panji perang; lalu Abdullah ibn Rawahah. Komando jatuh, berdasarkan konsensus informal pasukan, kepada Khalid. Ia baru menjadi Muslim sekitar empat bulan.
+
+Khalid mengorganisasi kembali pasukan di bawah tekanan yang sangat berat. Ia membentuk kembali barisan yang hancur, mengubah posisi unit-unit untuk menciptakan kesan datangnya bala bantuan segar, dan mengelola penarikan dari apa yang bisa saja menjadi kehancuran total menjadi mundur yang teratur. Pasukan Muslim kembali ke Madinah dengan kerugian yang signifikan namun tidak dimusnahkan, tidak menyerah, dan tidak ditawan. Nabi ﷺ menyambut mereka dengan kehormatan, menyebut Khalid "pedang Allah yang dihunuskan melawan orang-orang kafir" — sebuah gelar yang menjadi nama yang ia sandang sepanjang hidupnya: Saifullah.
+
+## Penaklukan Mekah
+
+Ketika Nabi ﷺ berbaris menuju Mekah pada bulan Ramadan tahun 8 H, Khalid memimpin sayap kanan. Penaklukan dirancang tanpa pertumpahan darah, dan Nabi ﷺ memberikan perintah eksplisit bahwa tidak ada seorang pun yang boleh disakiti kecuali jika diserang terlebih dahulu. Sekelompok kecil pejuang Quraisy, di bawah pimpinan Ikrimah ibn Abi Jahl, mencoba melakukan perlawanan terhadap sayap Khalid. Terjadi pertempuran dan korban jiwa di kedua pihak sebelum perlawanan ditumpas. Khalid melaporkan kepada Nabi ﷺ bahwa ia diserang terlebih dahulu. Nabi ﷺ menerimanya dan bersabda: "Inilah yang Allah kehendaki." Penaklukan berlanjut, dan Mekah pun jatuh.
+
+## Simbol Momen Keislaman
+
+Keislaman Khalid ibn al-Walid, Amr ibn al-Ash, dan Utsman ibn Talhah pada awal tahun 8 H menandai salah satu titik balik dalam fase akhir sirah. Para lelaki yang pernah menjadi lawan paling tangguh dari komunitas Muslim — secara taktis, politis, diplomatik — bergabung dengannya. Perlawanan Quraisy tidak hanya kehilangan pertempuran tetapi juga pikiran-pikiran terbaiknya. Sejak saat ini, pertanyaan bagi para anggota Quraisy yang tersisa yang masih bertahan bukan lagi apakah harus melakukan perlawanan tetapi berapa lama perlawanan dapat dipertahankan. Jawabannya, sebagaimana terbukti dari peristiwa-peristiwa berikutnya, adalah sekitar delapan bulan.
+
+## Warisan Sang Panglima
+
+Khalid ibn al-Walid kemudian menjadi komandan militer paling sukses dalam periode ekspansi Islam awal. Setelah wafatnya Nabi ﷺ, ia bertempur dalam Perang Riddah di bawah kekhalifahan Abu Bakr, menumpas gerakan-gerakan murtad yang mengancam menghancurkan persatuan komunitas Muslim. Ia kemudian memimpin penaklukan Irak dan Suriah, memperoleh catatan kemenangan di medan perang yang oleh para sejarawan klasik digambarkan tak pernah terkalahkan. Ia pada akhirnya dicopot dari jabatan komando oleh Umar ibn al-Khattab — dengan alasan-alasan yang masih diperdebatkan para ulama, termasuk kekhawatiran tentang hadiah-hadiah pribadi besar yang diterima Khalid — namun karir militernya berakhir, bukan imannya. Ia meninggal di tempat tidurnya sekitar tahun 21 H, dilaporkan berkata: "Aku telah bertempur dalam begitu banyak pertempuran mencari syahid sehingga tidak ada bagian tubuhku yang tersisa tanpa bekas luka yang dibuat oleh tombak atau pedang. Dan kini aku berbaring, mati di tempat tidurku seperti seekor unta tua mati. Semoga mata para pengecut tidak pernah bisa beristirahat." Orang yang pernah memimpin pasukan berkuda Quraisy melawan Nabi ﷺ meninggal sebagai salah satu tokoh paling dirayakan dalam sejarah militer Islam.
+
+**Sumber:** Shahih al-Bukhari (Kitab al-Maghazi); Ibn Hisyam, *al-Sira al-Nabawiyya*; Ibn Katsir, *al-Bidayah wan-Nihayah*; Ibn Sa'd, *al-Tabaqat al-Kubra*

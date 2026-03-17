@@ -1,0 +1,37 @@
+# Wafatnya Abu Thalib
+
+## Sang Pelindung
+
+Abu Thalib ibn Abd al-Muthalib adalah paman kandung Nabi ﷺ dari pihak ayah dan walinya sejak usia delapan tahun — pria yang mengambil Muhammad ﷺ yang yatim piatu ke dalam rumah tangganya setelah wafatnya Abd al-Muthalib dan melindunginya selama empat puluh tahun berikutnya. Ia bukan, menurut konsensus besar ulama klasik, seorang pria yang memeluk Islam sebelum kematiannya. Namun ia adalah, tanpa diragukan, pelindung non-Muslim paling berpengaruh dalam sejarah Islam awal — pria yang otoritas sukunya, keberanian pribadinya, dan kecintaannya yang dalam kepada keponakannya membuat tiga belas tahun pertama misi kenabian dapat berlangsung di Makkah.
+
+Tanpa Abu Thalib, Nabi ﷺ tidak akan memiliki perlindungan suku dalam masyarakat di mana perlindungan suku adalah perbedaan antara hidup dan mati. Quraisy tidak dapat membunuh Nabi ﷺ selama Abu Thalib masih hidup karena melakukan hal itu akan memicu kewajiban darah antara Bani Hasyim dan klan si pembunuh — sebuah kewajiban yang telah Abu Thalib nyatakan secara eksplisit dalam berbagai kesempatan. Ia telah berjalan masuk ke majelis Quraisy dan memperingatkan mereka secara langsung: jika ada di antara kalian yang menyakiti Muhammad, bersiaplah untuk perang. Dan Quraisy, yang memahami tata bahasa politik suku, mempercayainya.
+
+## Tempat Tidur Kematian
+
+Abu Thalib jatuh sakit parah pada tahun kesepuluh kenabian, sekitar tahun 619 M, tak lama setelah berakhirnya boikot tiga tahun terhadap Bani Hasyim di Syi'b Abi Thalib. Boikot itu telah menuntut bayaran fisik dari seluruh komunitas, dan Abu Thalib — yang sudah lanjut usia — tidak pulih.
+
+Nabi ﷺ duduk di sisi tempat tidur pamannya ketika kematian mendekat dan menyampaikan permintaan terakhirnya kepada pria yang telah melindunginya: "Wahai pamanku, ucapkanlah La ilaha illallah — satu kalimat yang dengannya aku dapat membela engkau di hadapan Allah." Abu Thalib yang sekarat mendengarnya. Ia bisa merasakan kepedihan dalam permintaan itu. Namun pemimpin Quraisy — Abu Jahl dan Abdullah ibn Abi Umayyah — juga hadir, dan mereka berbicara menentangnya: "Apakah kamu akan meninggalkan agama Abd al-Muthalib?"
+
+Kata-kata terakhir Abu Thalib yang tercatat, sebagaimana tersimpan dalam Shahih al-Bukhari dan Shahih Muslim, adalah bahwa ia wafat di atas agama Abd al-Muthalib — kemusyrikan leluhur dari nenek moyangnya. Ia tidak mau mengucapkan syahadat.
+
+Nabi ﷺ menangis. Beliau bersabda: "Aku akan terus memohonkan ampunan untukmu hingga aku dilarang melakukannya." Wahyu yang datang setelah ini — Surah al-Taubah 9:113-114, yang dijelaskan lebih lanjut oleh Surah al-Qashash 28:56 — melarang orang-orang beriman dari memohon ampunan untuk kaum musyrik (mereka yang wafat dalam kemusyrikan), meskipun mereka adalah keluarga. Dan Surah al-Qashash menyapa Nabi ﷺ secara langsung dengan apa yang selalu dipahami sebagai merujuk pada momen ini: "Sungguh, engkau tidak dapat memberi petunjuk kepada orang yang engkau kasihi, tetapi Allah memberi petunjuk kepada siapa yang Dia kehendaki."
+
+## Apa yang Dikatakan Para Ulama tentang Nasibnya
+
+Posisi ulama klasik jelas dan hampir bulat: Abu Thalib wafat di luar Islam dan karena itu tidak mendapatkan pahala penuh orang-orang beriman. Posisi Al-Qur'an tentang hal ini bersifat eksplisit. Sekaligus, sebuah hadits dalam Shahih Muslim mencatat sebuah keringanan yang unik: Nabi ﷺ bersabda bahwa siksa Abu Thalib di akhirat adalah yang paling ringan di antara penghuni Neraka — sepasang sandal api yang membuat otaknya mendidih. Nabi ﷺ menambahkan bahwa tanpa syafaat beliau, Abu Thalib akan berada dalam keadaan siksa yang lebih dalam. Riwayat ini menunjukkan pengakuan ilahi atas pengabdian Abu Thalib sekaligus realitas teologis bahwa pengabdian kepada Nabi ﷺ tanpa keimanan tidak memberikan keselamatan.
+
+Beberapa ulama kemudian, khususnya dalam tradisi Syiah dan sebagian kecil ulama Sunni non-arus utama, berargumen bahwa Abu Thalib memeluk Islam secara diam-diam atau bahwa riwayat-riwayat tertentu mendukung pembacaan yang berbeda dari momen terakhirnya. Posisi Sunni arus utama, berdasarkan riwayat-riwayat Bukhari dan Muslim serta ayat-ayat Qur'ani yang diturunkan setelahnya, tidak mendukung pandangan ini. Penting untuk menyatakan hal ini dengan jelas tanpa rasa permusuhan terhadap kenangan Abu Thalib — ia adalah pria dengan kesetiaan dan keberanian yang luar biasa yang melindungi Nabi ﷺ dengan biaya pribadi yang besar, dan kedudukannya dalam ingatan Islam dihormati sesuai dengannya, sementara realitas teologis akhirnya adalah apa yang dikatakan sumber-sumber itu.
+
+## Dampak Kematiannya
+
+Abu Thalib wafat sekitar tiga hari sebelum atau tak lama setelah wafatnya Khadijah pada tahun kesepuluh kenabian — kronologinya sedikit berbeda di berbagai sumber. Bersama-sama, kematian mereka mendefinisikan apa yang Nabi ﷺ sebut Aam al-Huzn — Tahun Kesedihan. Kematian Abu Thalib menghilangkan hambatan terbesar bagi Quraisy untuk bertindak langsung terhadap Nabi ﷺ. Dalam hitungan hari setelah kematian Abu Thalib, Nabi ﷺ mengalami kekerasan fisik di jalanan Makkah dari anggota Quraisy yang tidak pernah berani menyentuh beliau sebelumnya. Seorang pria melemparkan tanah ke kepalanya. Nabi ﷺ berjalan pulang dan mengibaskan tanah dari kepalanya, dan putrinya (riwayat berbeda-beda — sebagian menyebut Fatimah, sebagian lagi menyebut salah satu putrinya yang lain) membersihkan beliau dan menangis. Nabi ﷺ bersabda: "Jangan menangis, anakku. Allah akan melindungi ayahmu."
+
+Kerentanan itu nyata dan segera. Nabi ﷺ mencari pelindung baru — patron suku yang bisa memberikan perlindungan formal yang telah dicabut oleh kematian Abu Thalib. Beliau pergi ke Thaif, kepada suku Tsaqif, untuk mencari dukungan. Perjalanan ke Thaif dan penolakan yang diterima beliau di sana akan menjadi salah satu episode paling menyakitkan dalam sirah. Beliau akhirnya kembali ke Makkah di bawah perlindungan Mut'im ibn Adi — pria yang sama yang telah membantu mengakhiri boikot — yang memperpanjang perlindungan sukunya hingga Hijrah.
+
+## Abu Thalib dalam Ingatan Islam
+
+Abu Thalib menempati posisi yang kompleks dan penting dalam sejarah Islam dan dalam imajinasi moral komunitas Muslim. Ia bukan seorang Muslim, menurut pandangan ulama klasik — namun tanpa dirinya, tidak akan ada tiga belas tahun kegiatan kenabian di Makkah. Setiap mualaf dari wahyu pertama hingga Hijrah berutang sebagian dari jalan mereka kepada keimanan atas perlindungan yang Abu Thalib berikan, karena tanpa perlindungan itu Nabi ﷺ tidak bisa berdakwah sama sekali.
+
+Ia adalah contoh tentang bagaimana cinta dan kesetiaan bisa hadir bersama ketiadaan keimanan — bagaimana seorang pria bisa berdedikasi kepada orang lain melebihi apa yang dituntut dunia darinya namun tetap gagal membuat satu komitmen yang akan menyelamatkan jiwanya. Kisahnya diceritakan dalam sirah justru karena sifatnya yang instruktif: ia menunjukkan apa yang tidak bisa, pada akhirnya, dicapai oleh kehormatan suku, kesetiaan leluhur, dan kecintaan kepada keluarga — penyeberangan garis menuju penyerahan diri kepada Allah. Garis itu, dalam Islam, adalah satu-satunya garis yang pada akhirnya penting, dan Abu Thalib wafat di sisi yang salah dari garis itu, meskipun menghabiskan seumur hidup mengabdi kepada pria yang membawa pesan terakhir.
+
+**Sumber:** Shahih al-Bukhari (Kitab al-Jana'iz, Kitab al-Manaqib); Shahih Muslim (Kitab al-Iman); Ibn Hisham, *al-Sira al-Nabawiyya*; Ibn Katsir, *al-Bidayah wan-Nihayah*; Ibn Sa'd, *al-Thabaqat al-Kubra*; Surah al-Taubah (9:113-114); Surah al-Qashash (28:56)
