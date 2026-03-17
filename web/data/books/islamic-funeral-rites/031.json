@@ -1,7 +1,7 @@
 {
   "number": 31,
   "title_en": "2. Allaahummagh-fir lihayyinaa wa mayyitinaa wa shaahidinaa wa ghaa’ibinaa",
-  "title_ar": "",
+  "title_ar": "اللهم اغفر لحيِّنا وميِّتنا",
   "content_en": "<p>wa sagheerinaa wa kabeerinaa wa thakarinaa wa un-thaanaa. [Oh Allaah forgive our living and our dead, those of us who are present and those of us who are absent, our young ones and our elder ones, our males and our females.] Allaahumma man ah-yaytahu min-naa fa ah-yihee ‘alal Islaam wa man tawaffayatahu min-naa fa tawaffahu ‘alal Eemaan. [Oh Allaah, whoever from among us that you keep living, keep him living in Islaam and whoever among us that you cause to die, take his life in a state of Eemaan.] Allaahumma laa tahrimnaa ajrahu wa laa tudillanaa ba‘dah. [Oh Allaah do not deprive us of his reward and do not misguide us after him.]65 )) ـ ﺴِﻨﹰﺎ ﺤ ﻤ ﻜﹶﺎﻥﺫﹶﺍﺒِﻪِ، ﺇِﻥ ﻋﻥ ﻋﺃَﻨﹾﺕﹶ ﻏﹶﻨِﻲ ﻭﺘِﻙﻤﺤ ﺇِﻟﹶﻰ ﺭﺘﹶﺎﺝ ﺇَﺤﺘِﻙ ﺃَﻤﻥﺍﺒ ﻭﻙﺩﺒ ﻋﻡ ﺃَﻟﱠﻠﹶﻬ ﻨﹾﻪ ﻋﺯﺎﻭﺌًﺎ ﻓﹶﺘﹶﺠﺴِﻴ ﻤ ﻜﹶﺎﻥ ﺇِﻥﻨﹶﺎﺘِﻪِ ﻭﺴ ﻓِﻲ ﺤﻩﻓﹶﺯِﺩ ((</p>",
   "title_id": "2. Allahummaghfir lihayyina wa mayyitina wa syahidina wa ghaibina",
   "content_id": "<p>wa saghirina wa kabirina wa dzakarina wa untsana (Ya Allah, ampunilah orang-orang yang masih hidup di antara kami dan yang telah meninggal, yang hadir dan yang tidak hadir, yang muda dan yang tua, laki-laki dan perempuan kami.) Allahumma man ahyaytahu minna fa ahyihi 'alal-Islam wa man tawaffaytahu minna fa tawaffahu 'alal-iman (Ya Allah, siapa pun dari kami yang Engkau biarkan hidup, hidupkanlah dia dalam Islam, dan siapa pun dari kami yang Engkau wafatkan, wafatkan dia dalam keadaan beriman.) Allahumma la tahrimna ajrahu wa la tudillana ba'dah (Ya Allah, janganlah Engkau menghalangi kami dari pahalanya dan janganlah Engkau sesatkan kami setelahnya.)</p>\n<p>Doa ketiga: Allahumma 'abduka wabnu ummatik ihtaja ila rahmatik wa anta ghaneeyun an 'adzaabih (Ya Allah, seorang hamba-Mu dan putra umat-Mu membutuhkan rahmat-Mu dan Engkau tidak membutuhkan hukumannya.) In kaana muhsinan fazid-hu fi hasanaatih (Jika dia orang yang baik, tambahkanlah amal baiknya) wa in kaana musii'an fatajaawaz 'anh (dan jika dia bersalah, maafkanlah dia.)</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 141 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>من الأدعية الجامعة في صلاة الجنازة: «اللهم اغفر لحيِّنا وميِّتنا وشاهدنا وغائبنا وصغيرنا وكبيرنا وذكرنا وأنثانا. اللهم من أحييته منا فأحيه على الإسلام ومن توفَّيته منا فتوفَّه على الإيمان». وهذا الدعاء الشامل يُعلِّم المسلمين أنَّ صلاة الجنازة فرصة للدعاء لجميع المسلمين الأحياء والأموات في آنٍ واحد.</p>"
 }
