@@ -1,7 +1,7 @@
 {
   "number": 12,
   "title_en": "4. It was also not the case that the army, especially the learned",
-  "title_ar": "",
+  "title_ar": "صلح الحديبية وفتح مكة",
   "content_en": "<p>people had forced Ali~ to accept the proposal, as is mentioned in general narratives, but contrary to it, the most distinguished persons of his army came to him with swords in their hands and asked his permission to fight. But Ali ~ didn't give them permission. Even Sahl bin Hunaif, the right hand of Ali ~' explained the army that the Book of Allah has been made judge in this matter, so nothing else can be adopted nor any opinion can be considered. He gave the reference of the Hudaibiyah Treaty in this regard. History of Islam</p>",
   "title_id": "Peristiwa Arbitrase: Analisis Lebih Lanjut",
   "content_id": "<p>Tidak benar pula bahwa pasukan, terutama kaum terpelajar, memaksa Ali radhiyallahu 'anhu untuk menerima usulan tersebut, sebagaimana disebutkan dalam narasi-narasi umum. Sebaliknya, orang-orang paling terkemuka di pasukannya datang kepadanya dengan membawa pedang di tangan mereka dan meminta izinnya untuk bertempur. Namun Ali radhiyallahu 'anhu tidak memberikan izin tersebut. Bahkan Sahl bin Hunaif, tangan kanan Ali radhiyallahu 'anhu, menjelaskan kepada pasukan bahwa Kitab Allah telah dijadikan hakim dalam perkara ini, sehingga tidak ada pilihan lain yang dapat diadopsi dan tidak ada pendapat lain yang dapat dipertimbangkan. Beliau menggunakan Perjanjian Hudaibiyah sebagai referensi dalam hal ini.</p>",
@@ -30,5 +30,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 97 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>في السنة السادسة من الهجرة، توجه النبي ﷺ بأصحابه نحو مكة معتمرين لا محاربين، فصدتهم قريش عند الحديبية. وجرت مفاوضات انتهت بمعاهدة الحديبية التي بدت في ظاهرها مُجحفة بحق المسلمين، إلا أن الله وصفها بأنها «فتح مبين». فقد تضمنت هدنة لمدة عشر سنوات، ومنحت المسلمين هامشاً واسعاً للدعوة والانتشار السلمي في أنحاء الجزيرة. وكان من ثمراتها أن دخل في الإسلام خلال السنتين التاليتين عدد يفوق ما أسلم في كل السنوات السابقة.</p>\n<p>ثم جاء فتح مكة في السنة الثامنة من الهجرة حين نقضت قريش المعاهدة بهجومها على حلفاء المسلمين. فسار النبي ﷺ بجيش قوامه عشرة آلاف مقاتل، فدخلت مكة دون قتال يُذكر. وكان موقفه ﷺ من أهل مكة نموذجاً في العفو والرحمة؛ إذ قال لمن اجتمعوا خائفين متوقعين الانتقام: «اذهبوا فأنتم الطلقاء»، ثم أزال الأصنام من الكعبة المشرفة وطهرها لتعود بيتاً لله وحده.</p>"
 }
