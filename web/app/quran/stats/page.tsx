@@ -113,8 +113,8 @@ export default function QuranStatsPage() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-iw-border bg-iw-surface">
-                <th className="px-4 py-3 text-left font-medium text-iw-text-muted">#</th>
-                <th className="px-4 py-3 text-left font-medium text-iw-text-muted">Surah</th>
+                <th className="px-4 py-3 text-start font-medium text-iw-text-muted">#</th>
+                <th className="px-4 py-3 text-start font-medium text-iw-text-muted">Surah</th>
                 <th className="px-4 py-3 text-right font-medium text-iw-text-muted">Verses</th>
                 <th className="hidden px-4 py-3 text-right font-medium text-iw-text-muted sm:table-cell">Words</th>
                 <th className="hidden px-4 py-3 text-center font-medium text-iw-text-muted sm:table-cell">Type</th>
@@ -153,8 +153,8 @@ export default function QuranStatsPage() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-iw-border bg-iw-surface">
-                <th className="px-4 py-3 text-left font-medium text-iw-text-muted">Juz</th>
-                <th className="px-4 py-3 text-left font-medium text-iw-text-muted">Starts in</th>
+                <th className="px-4 py-3 text-start font-medium text-iw-text-muted">Juz</th>
+                <th className="px-4 py-3 text-start font-medium text-iw-text-muted">Starts in</th>
                 <th className="hidden px-4 py-3 text-right font-medium text-iw-text-muted sm:table-cell">Surahs starting here</th>
               </tr>
             </thead>
@@ -190,8 +190,8 @@ export default function QuranStatsPage() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-iw-border bg-iw-surface">
-                <th className="px-4 py-3 text-left font-medium text-iw-text-muted">#</th>
-                <th className="px-4 py-3 text-left font-medium text-iw-text-muted">Name</th>
+                <th className="px-4 py-3 text-start font-medium text-iw-text-muted">#</th>
+                <th className="px-4 py-3 text-start font-medium text-iw-text-muted">Name</th>
                 <th className="px-4 py-3 text-right font-medium text-iw-text-muted">Verses</th>
                 <th className="hidden px-4 py-3 text-right font-medium text-iw-text-muted sm:table-cell">Juz</th>
                 <th className="hidden px-4 py-3 text-right font-medium text-iw-text-muted sm:table-cell">Page</th>

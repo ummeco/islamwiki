@@ -8,25 +8,28 @@ import { AuthButton } from './auth-button'
 import { SearchModal } from '@/components/search/search-modal'
 import { LocaleSwitcher } from '@/components/i18n/locale-switcher'
 import { useLocale } from '@/lib/i18n/use-locale'
+import { t } from '@/lib/i18n/translations'
+import type { Locale } from '@/lib/i18n'
 
-const navItems = [
-  { label: 'Quran', href: '/quran' },
-  { label: 'Hadith', href: '/hadith' },
-  { label: 'Seerah', href: '/seerah' },
-  { label: 'History', href: '/history' },
-  { label: 'People', href: '/people' },
-  { label: 'Books', href: '/books' },
-  { label: 'Articles', href: '/articles' },
-  { label: 'Wiki', href: '/wiki' },
-  { label: 'Sects', href: '/sects' },
-  { label: 'Video', href: '/videos' },
-  { label: 'Audio', href: '/audio' },
+const NAV_KEYS: { key: string; href: string }[] = [
+  { key: 'quran', href: '/quran' },
+  { key: 'hadith', href: '/hadith' },
+  { key: 'seerah', href: '/seerah' },
+  { key: 'history', href: '/history' },
+  { key: 'people', href: '/people' },
+  { key: 'books', href: '/books' },
+  { key: 'articles', href: '/articles' },
+  { key: 'wiki', href: '/wiki' },
+  { key: 'sects', href: '/sects' },
+  { key: 'video', href: '/videos' },
+  { key: 'audio', href: '/audio' },
 ]
 
 export function Header() {
   const pathname = usePathname()
   const [mobileOpen, setMobileOpen] = useState(false)
   const locale = useLocale()
+  const navItems = NAV_KEYS.map((item) => ({ ...item, label: t(locale as Locale, `nav.${item.key}`) }))
 
   return (
     <header className="fixed top-0 right-0 left-0 z-50 border-b border-iw-border bg-iw-bg/90 backdrop-blur-xl">

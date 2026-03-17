@@ -113,7 +113,7 @@ export function AuthButton() {
             <form action="/api/auth/logout" method="POST">
               <button
                 type="submit"
-                className="w-full rounded-md px-3 py-2 text-left text-sm text-red-400 transition-colors hover:bg-red-500/10"
+                className="w-full rounded-md px-3 py-2 text-start text-sm text-red-400 transition-colors hover:bg-red-500/10"
                 onClick={() => setOpen(false)}
               >
                 Logout
