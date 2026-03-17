@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { RECITERS, type ReciterKey } from '@/hooks/useAudioPlayer'
 
@@ -65,23 +65,17 @@ function lsSet(key: string, value: string): void {
 // ── Component ─────────────────────────────────────────────────────────────────
 
 export default function SettingsPage() {
-  const [lang, setLang] = useState<ReadingLang>('en')
-  const [reciter, setReciter] = useState<ReciterKey>('Alafasy_128kbps')
-  const [translation, setTranslation] = useState<string>('iwq')
-  const [tafsir, setTafsir] = useState<string>('ibn-kathir-en')
+  const [lang, setLang] = useState<ReadingLang>(() => {
+    const s = lsGet('iw_reading_lang')
+    return (s === 'en' || s === 'ar' || s === 'id') ? s : 'en'
+  })
+  const [reciter, setReciter] = useState<ReciterKey>(() => {
+    const s = lsGet('iw_reciter')
+    return (s && s in RECITERS) ? s as ReciterKey : 'Alafasy_128kbps'
+  })
+  const [translation, setTranslation] = useState<string>(() => lsGet('iw_translation') ?? 'iwq')
+  const [tafsir, setTafsir] = useState<string>(() => lsGet('iw_tafsir') ?? 'ibn-kathir-en')
   const [saved, setSaved] = useState(false)
-
-  // Load from localStorage on mount
-  useEffect(() => {
-    const storedLang = lsGet('iw_reading_lang')
-    if (storedLang === 'en' || storedLang === 'ar' || storedLang === 'id') setLang(storedLang)
-    const storedReciter = lsGet('iw_reciter')
-    if (storedReciter && storedReciter in RECITERS) setReciter(storedReciter as ReciterKey)
-    const storedTranslation = lsGet('iw_translation')
-    if (storedTranslation) setTranslation(storedTranslation)
-    const storedTafsir = lsGet('iw_tafsir')
-    if (storedTafsir) setTafsir(storedTafsir)
-  }, [])
 
   function save(updates: { lang?: ReadingLang; reciter?: ReciterKey; translation?: string; tafsir?: string }) {
     if (updates.lang) { setLang(updates.lang); lsSet('iw_reading_lang', updates.lang) }

@@ -9073,7 +9073,7 @@
     "year_written_ce": 1343,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "al-zayla-i",
     "available_languages": [
       "ar"
     ],
@@ -9112,7 +9112,7 @@
     "year_written_ce": 1790,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "sulayman-al-jamal",
     "available_languages": [
       "ar"
     ],
@@ -10148,7 +10148,7 @@
     "year_written_ce": 1517,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "al-qastalani",
     "available_languages": [
       "ar"
     ],
@@ -10450,7 +10450,7 @@
     "year_written_ce": 1360,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "al-zayla-i-hanafi",
     "available_languages": [
       "ar"
     ],
@@ -14841,7 +14841,8 @@
       "the-three-fundamental-principles-explained",
       "the-minor-resurrection"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "umar-sulaiman-al-ashqar"
   },
   {
     "id": 410,
@@ -14878,7 +14879,8 @@
       "critical-analysis-of-shirk",
       "the-three-fundamental-principles-explained"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "umar-sulaiman-al-ashqar"
   },
   {
     "id": 411,
@@ -14915,7 +14917,8 @@
       "critical-analysis-of-shirk",
       "the-three-fundamental-principles-explained"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "umar-sulaiman-al-ashqar"
   },
   {
     "id": 412,
@@ -14952,7 +14955,8 @@
       "critical-analysis-of-shirk",
       "the-three-fundamental-principles-explained"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "umar-sulaiman-al-ashqar"
   },
   {
     "id": 413,
@@ -14989,7 +14993,8 @@
       "fundamentals-of-tawhid",
       "critical-analysis-of-shirk"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "umar-sulaiman-al-ashqar"
   },
   {
     "id": 414,
@@ -15026,7 +15031,8 @@
       "the-three-fundamental-principles-explained",
       "world-of-the-angels"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "umar-sulaiman-al-ashqar"
   },
   {
     "id": 415,
@@ -15063,7 +15069,8 @@
       "world-of-the-jinn",
       "the-minor-resurrection"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "umar-sulaiman-al-ashqar"
   },
   {
     "id": 416,
@@ -15251,7 +15258,8 @@
       "ianat-at-talibin-dimyati",
       "al-bahr-ar-raiq-sharh-kanz-daqaiq"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "saalih-al-sadlaan"
   },
   {
     "id": 421,
@@ -15288,7 +15296,8 @@
       "al-wajiz-fi-usul-fiqh-zuhayli",
       "irshad-al-fuhul-shawkani-usul"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "mohammad-hashim-kamali"
   },
   {
     "id": 422,
@@ -15325,7 +15334,8 @@
       "irshad-al-fuhul-shawkani-usul",
       "principles-of-islamic-jurisprudence-kamali"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-abu-zahrah"
   },
   {
     "id": 423,
@@ -15399,7 +15409,8 @@
       "ghayat-al-maram",
       "ar-risalah-ibn-abi-zayd-maliki"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "wahid-abdussalam-bali"
   },
   {
     "id": 425,
@@ -15436,7 +15447,8 @@
       "al-jarh-wat-tadil-ibn-abi-hatim",
       "hadith-its-relevance"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "suhaib-hasan"
   },
   {
     "id": 426,
@@ -15473,7 +15485,8 @@
       "sahih-ibn-hibban",
       "al-talkhis-al-habir-ibn-hajar"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "mustafa-al-azami"
   },
   {
     "id": 427,
@@ -15701,7 +15714,8 @@
       "hayat-as-sahabah",
       "hayat-as-sahaba-kandhalwi"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "safiur-rahman-mubarakpuri"
   },
   {
     "id": 434,
@@ -15738,7 +15752,8 @@
       "hayat-as-sahabah",
       "hayat-as-sahaba-kandhalwi"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "adil-salahi"
   },
   {
     "id": 435,
@@ -15927,7 +15942,8 @@
       "lives-of-the-sahabah",
       "biographies-companions-of-prophet"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "mahmood-ahmad-ghadanfar"
   },
   {
     "id": 440,
@@ -15964,7 +15980,8 @@
       "muhammad-man-and-prophet",
       "great-women-of-islam"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-ali-qutb"
   },
   {
     "id": 441,
@@ -16001,7 +16018,8 @@
       "biography-uthman-ibn-affan",
       "biography-ali-ibn-abi-talib"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "akbar-shah-najeebabadi"
   },
   {
     "id": 442,
@@ -16038,7 +16056,8 @@
       "al-bidayah-wal-nihayah-ibn-kathir-history",
       "kitab-al-ibar-ibn-khaldun"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "firas-alkhateeb"
   },
   {
     "id": 443,
@@ -16075,7 +16094,8 @@
       "great-women-of-islam",
       "biographies-companions-of-prophet"
     ],
-    "language_source": "arabic"
+    "language_source": "arabic",
+    "author_slug": "muhammad-yusuf-kandhalwi"
   },
   {
     "id": 444,
@@ -16112,7 +16132,8 @@
       "islamic-etiquette",
       "al-adab-al-mufrad-imam-bukhari"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-ali-al-hashimi"
   },
   {
     "id": 445,
@@ -16149,7 +16170,8 @@
       "bringing-up-children",
       "rights-of-neighbors"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-ali-al-hashimi"
   },
   {
     "id": 446,
@@ -16186,7 +16208,8 @@
       "reclaim-your-heart",
       "patience-and-gratitude"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "ahmad-farid"
   },
   {
     "id": 447,
@@ -16376,7 +16399,8 @@
       "miftah-dar-as-saadah",
       "majmu-al-fatawa"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "muzaffar-iqbal"
   },
   {
     "id": 452,
@@ -16450,7 +16474,8 @@
       "radd-al-muhtar-ibn-abidin",
       "ash-sharh-al-kabir-dardir"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "muhammad-umar-chapra"
   },
   {
     "id": 454,
@@ -16487,7 +16512,8 @@
       "al-muqaddimah-al-qayrawaniyyah-ibn-abi-zayd",
       "world-of-the-jinn"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "wahid-abdussalam-bali"
   },
   {
     "id": 455,
@@ -16524,7 +16550,8 @@
       "radd-al-muhtar-ibn-abidin",
       "ash-sharh-al-kabir-dardir"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "muhammad-umar-chapra"
   },
   {
     "id": 456,
@@ -16673,7 +16700,8 @@
       "biography-imam-bukhari",
       "biography-imam-nawawi"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-abu-zahrah"
   },
   {
     "id": 460,
@@ -16748,7 +16776,8 @@
       "diseases-of-hearts-cures",
       "relief-from-distress"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-al-arifi"
   },
   {
     "id": 462,
@@ -16785,7 +16814,8 @@
       "ar-risalah-al-qushayriyyah",
       "qut-al-qulub-abu-talib-al-makki"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "aaidh-al-qarni"
   },
   {
     "id": 463,
@@ -16822,7 +16852,8 @@
       "ideal-muslimah",
       "the-muslim-home"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-al-arifi"
   },
   {
     "id": 464,
@@ -16859,7 +16890,8 @@
       "ar-risalah-al-qushayriyyah",
       "qut-al-qulub-abu-talib-al-makki"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "yasmin-mogahed"
   },
   {
     "id": 465,
@@ -16896,7 +16928,8 @@
       "muhammad-man-and-prophet",
       "al-bidayah-wal-nihayah-ibn-kathir-history"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "khalid-muhammad-khalid"
   },
   {
     "id": 466,
@@ -16933,7 +16966,8 @@
       "introduction-to-tafsir",
       "approach-to-quranic-sciences"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "yahya-al-ghawthani"
   },
   {
     "id": 467,
@@ -17008,7 +17042,8 @@
       "introduction-to-tafsir",
       "approach-to-quranic-sciences"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "mufti-afzal-elias"
   },
   {
     "id": 469,
@@ -17045,7 +17080,8 @@
       "al-milal-wan-nihal-shahrastani",
       "izhar-al-haqq"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "ahmad-deedat"
   },
   {
     "id": 470,
@@ -17082,7 +17118,8 @@
       "izhar-al-haqq",
       "al-jawab-as-sahih"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "ahmad-deedat"
   },
   {
     "id": 471,
@@ -17119,7 +17156,8 @@
       "al-milal-wan-nihal-shahrastani",
       "izhar-al-haqq"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "ahmad-deedat"
   },
   {
     "id": 472,
@@ -17156,7 +17194,8 @@
       "al-milal-wan-nihal-shahrastani",
       "izhar-al-haqq"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "ahmad-deedat"
   },
   {
     "id": 474,
@@ -17193,7 +17232,8 @@
       "polygamy-in-islam",
       "the-muslim-home"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "muhammad-abd-al-rauf"
   },
   {
     "id": 475,
@@ -17230,7 +17270,8 @@
       "bringing-up-children",
       "rights-of-neighbors"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "muhammad-salih-al-munajjid"
   },
   {
     "id": 476,
@@ -17267,7 +17308,8 @@
       "ideal-muslimah",
       "the-muslim-home"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "ruqaiyyah-waris-maqsood"
   },
   {
     "id": 477,
@@ -17304,7 +17346,8 @@
       "radd-al-muhtar-ibn-abidin",
       "ash-sharh-al-kabir-dardir"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "abu-muneer-ismail-davids"
   },
   {
     "id": 478,
@@ -17416,7 +17459,8 @@
       "critical-analysis-of-shirk",
       "the-three-fundamental-principles-explained"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "mustafa-ashour"
   },
   {
     "id": 481,
@@ -17453,7 +17497,8 @@
       "radd-al-muhtar-ibn-abidin",
       "ash-sharh-al-kabir-dardir"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "monzer-kahf"
   },
   {
     "id": 482,
@@ -17567,7 +17612,8 @@
       "critical-analysis-of-shirk",
       "the-three-fundamental-principles-explained"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "badruddin-ahmad"
   },
   {
     "id": 485,
@@ -17642,7 +17688,8 @@
       "at-targhib-wat-tarhib",
       "hisn-al-muslim"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "said-abd-al-azim"
   },
   {
     "id": 487,
@@ -20240,7 +20287,7 @@
     "title_en": "30 Lessons for Those Who Fast",
     "title_ar": "ثلاثون درساً للصائمين",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "ibn-uthaymin",
     "died_ah": null,
     "category": "fiqh",
     "era": "contemporary",
@@ -20829,7 +20876,7 @@
     "title_en": "How to Protect Yourself from Jinn and Shaytan",
     "title_ar": "كيف تحمي نفسك من الجن والشيطان",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "wahid-abdussalam-bali",
     "died_ah": null,
     "category": "aqeedah",
     "era": "contemporary",
