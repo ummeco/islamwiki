@@ -18,7 +18,9 @@ export interface HistoryEvent {
   slug: string
   title_en: string
   title_ar: string
+  title_id?: string
   description_en: string
+  description_id?: string
   year_ah?: number
   year_ce?: number
   date_ah?: string
@@ -151,7 +153,9 @@ export function getAllHistoryEvents(): HistoryEvent[] {
     slug: p.slug,
     title_en: p.title_en,
     title_ar: p.title_ar,
+    title_id: (p as unknown as Record<string, unknown>).title_id as string | undefined,
     description_en: p.description_en,
+    description_id: p.description_id,
     period: p.period,
     section: 'prophets' as HistorySection,
     severity: (p.severity ?? 3) as 1 | 2 | 3,
@@ -166,6 +170,7 @@ export function getAllHistoryEvents(): HistoryEvent[] {
     slug: e.slug,
     title_en: e.title_en,
     title_ar: e.title_ar,
+    title_id: (e as unknown as Record<string, unknown>).title_id as string | undefined,
     description_en: e.description_en,
     period: 'Between Isa and Muhammad ﷺ',
     section: 'post-jesus' as HistorySection,
@@ -181,6 +186,7 @@ export function getAllHistoryEvents(): HistoryEvent[] {
       slug,
       title_en: b.title_en,
       title_ar: b.title_ar,
+      title_id: (b as unknown as Record<string, unknown>).title_id as string | undefined,
       description_en: b.description_en,
       year_ah: b.date_ah,
       year_ce: b.date_ce,
@@ -204,6 +210,7 @@ export function getAllHistoryEvents(): HistoryEvent[] {
     slug: e.slug,
     title_en: e.title_en,
     title_ar: e.title_ar,
+    title_id: e.title_id,
     description_en: e.description_en,
     year_ah: e.year_ah ?? undefined,
     date_ah: e.date_ah ?? undefined,

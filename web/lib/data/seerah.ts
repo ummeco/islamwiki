@@ -5,6 +5,7 @@ interface SeerahEventData {
   slug: string
   title_ar: string
   title_en: string
+  title_id?: string
   date_ah?: string
   date_ce?: string
   year_ah?: number

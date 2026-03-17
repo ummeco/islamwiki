@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getHistoryEventBySlug, getAllHistoryEvents } from '@/lib/data/history'
-import { getSeerahContent } from '@/lib/data/seerah-content'
+import { getHistoryContent } from '@/lib/data/seerah-content'
 import { formatIslamicDate } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { renderContent, extractHeadings, type Heading } from '@/lib/render-content'
+import { getLocale } from '@/lib/i18n/get-locale'
 
 interface Props {
   params: Promise<{ event: string }>
@@ -41,11 +42,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function HistoryEventPage({ params }: Props) {
   const { event: slug } = await params
-  const event = getHistoryEventBySlug(slug)
+  const [event, locale] = [getHistoryEventBySlug(slug), await getLocale()]
   if (!event) notFound()
 
-  // History events share content files with seerah (same slugs)
-  const fullContent = getSeerahContent(slug)
+  const fullContent = getHistoryContent(slug, locale)
   const headings = fullContent ? extractHeadings(fullContent) : []
 
   const allEvents = getAllHistoryEvents()
@@ -108,8 +108,10 @@ export default async function HistoryEventPage({ params }: Props) {
                 </span>
               )}
             </div>
-            <h1 className="text-3xl font-bold text-white">{event.title_en}</h1>
-            {event.title_ar && (
+            <h1 className="text-3xl font-bold text-white">
+              {locale === 'ar' && event.title_ar ? event.title_ar : locale === 'id' && event.title_id ? event.title_id : event.title_en}
+            </h1>
+            {locale !== 'ar' && event.title_ar && (
               <p className="arabic-text mt-2 text-xl text-white/80">{event.title_ar}</p>
             )}
           </div>

@@ -84,13 +84,13 @@ export function TableOfContents({ content, headings: propHeadings }: TocProps) {
       </button>
 
       {!collapsed && (
-        <nav className="max-h-[calc(100vh-8rem)] space-y-0.5 overflow-y-auto border-l border-iw-border">
+        <nav className="max-h-[calc(100vh-8rem)] space-y-0.5 overflow-y-auto border-s border-iw-border">
           {headings.map((h) => (
             <a
               key={h.id}
               href={`#${h.id}`}
-              className={`block border-l-2 py-1 text-xs transition-colors ${
-                h.level === 3 ? 'pl-5' : 'pl-3'
+              className={`block border-s-2 py-1 text-xs transition-colors ${
+                h.level === 3 ? 'ps-5' : 'ps-3'
               } ${
                 activeId === h.id
                   ? 'border-iw-accent text-white'

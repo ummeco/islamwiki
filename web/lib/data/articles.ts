@@ -5,10 +5,13 @@ interface ArticleData {
   slug: string
   title: string
   title_id?: string
+  title_ar?: string
   excerpt?: string
   excerpt_id?: string
+  excerpt_ar?: string
   content?: string
   content_id?: string
+  content_ar?: string
   category: string
   tags: string[]
   language: string

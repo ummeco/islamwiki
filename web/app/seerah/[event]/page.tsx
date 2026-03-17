@@ -7,6 +7,7 @@ import { formatIslamicDate } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { renderContent, extractHeadings, type Heading } from '@/lib/render-content'
+import { getLocale } from '@/lib/i18n/get-locale'
 
 interface Props {
   params: Promise<{ event: string }>
@@ -36,10 +37,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function SeerahEventPage({ params }: Props) {
   const { event: slug } = await params
-  const event = getSeerahEventBySlug(slug)
+  const [event, locale] = [getSeerahEventBySlug(slug), await getLocale()]
   if (!event) notFound()
 
-  const fullContent = getSeerahContent(slug)
+  const fullContent = getSeerahContent(slug, locale)
   const headings = fullContent ? extractHeadings(fullContent) : []
 
   const allEvents = getSeerahEvents()
@@ -105,8 +106,10 @@ export default async function SeerahEventPage({ params }: Props) {
                 {event.significance}
               </span>
             </div>
-            <h1 className="text-3xl font-bold text-white">{event.title_en}</h1>
-            {event.title_ar && (
+            <h1 className="text-3xl font-bold text-white">
+              {locale === 'ar' && event.title_ar ? event.title_ar : locale === 'id' && event.title_id ? event.title_id : event.title_en}
+            </h1>
+            {locale !== 'ar' && event.title_ar && (
               <p className="arabic-text mt-2 text-xl text-white/80">{event.title_ar}</p>
             )}
           </div>

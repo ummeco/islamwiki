@@ -5,6 +5,7 @@ import { getWikiPageBySlug, getWikiPages } from '@/lib/data/wiki'
 import { getSessionUser } from '@/lib/auth'
 import { sanitizeHtml } from '@/lib/sanitize'
 import { getRevisionsByContent } from '@/lib/contributor/revisions'
+import { getLocale } from '@/lib/i18n/get-locale'
 import { WikiLayout } from '@/components/wiki/wiki-layout'
 import { ContentTabs } from '@/components/wiki/content-tabs'
 import { EditButton } from '@/components/wiki/edit-button'
@@ -76,6 +77,7 @@ export default async function WikiPage({ params, searchParams }: Props) {
   const { slug } = await params
   const { pageSlug, mode } = parseSlug(slug)
   const page = getWikiPageBySlug(pageSlug)
+  const locale = await getLocale()
   if (!page) notFound()
 
   const slugParts = pageSlug.split('/')
@@ -254,22 +256,30 @@ export default async function WikiPage({ params, searchParams }: Props) {
 
       <article className="max-w-3xl">
         <div className="mb-6 flex items-start justify-between gap-4">
-          <h1 className="text-3xl font-bold text-white">{page.title}</h1>
+          <h1 className="text-3xl font-bold text-white">
+            {locale === 'ar' && page.title_ar ? page.title_ar : locale === 'id' && page.title_id ? page.title_id : page.title}
+          </h1>
           <EditButton editHref={`/wiki/${pageSlug}/edit`} />
         </div>
 
         <div className="prose prose-invert max-w-none text-iw-text-secondary">
-          {page.content ? (
-            <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(page.content) }} />
-          ) : (
-            <p className="italic text-iw-text-muted">
-              This page is being written. Want to contribute?{' '}
-              <Link href="/signup" className="text-iw-accent hover:text-white">
-                Create an account
-              </Link>{' '}
-              and help build the wiki.
-            </p>
-          )}
+          {(() => {
+            const localizedContent =
+              locale === 'ar' ? page.content_ar || page.content :
+              locale === 'id' ? page.content_id || page.content :
+              page.content
+            return localizedContent ? (
+              <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(localizedContent) }} />
+            ) : (
+              <p className="italic text-iw-text-muted">
+                This page is being written. Want to contribute?{' '}
+                <Link href="/signup" className="text-iw-accent hover:text-white">
+                  Create an account
+                </Link>{' '}
+                and help build the wiki.
+              </p>
+            )
+          })()}
         </div>
 
         <div className="mt-8 border-t border-iw-border pt-4 text-xs text-iw-text-muted">

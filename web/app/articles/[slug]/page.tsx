@@ -10,6 +10,7 @@ import { EditButton } from '@/components/wiki/edit-button'
 import { CrossReferences } from '@/components/articles/cross-references'
 import { ArticleJsonLd } from '@/components/seo/json-ld'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { getLocale } from '@/lib/i18n/get-locale'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ArticlePage({ params }: Props) {
   const { slug } = await params
-  const article = getArticleBySlug(slug)
+  const [article, locale] = [getArticleBySlug(slug), await getLocale()]
   if (!article) notFound()
 
   const relatedArticles = getArticles()
@@ -72,7 +73,7 @@ export default async function ArticlePage({ params }: Props) {
                 {article.category}
               </span>
               <h1 className="text-3xl font-bold text-white">
-                {article.title}
+                {locale === 'ar' && article.title_ar ? article.title_ar : locale === 'id' && article.title_id ? article.title_id : article.title}
               </h1>
             </div>
             <EditButton editHref={`/articles/${slug}/edit`} />
@@ -86,13 +87,19 @@ export default async function ArticlePage({ params }: Props) {
         </header>
 
         <div className="prose prose-invert max-w-none text-iw-text-secondary">
-          {article.content ? (
-            <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(article.content) }} />
-          ) : (
-            <p className="italic text-iw-text-muted">
-              This article is being written.
-            </p>
-          )}
+          {(() => {
+            const localizedContent =
+              locale === 'ar' ? article.content_ar || article.content :
+              locale === 'id' ? article.content_id || article.content :
+              article.content
+            return localizedContent ? (
+              <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(localizedContent) }} />
+            ) : (
+              <p className="italic text-iw-text-muted">
+                This article is being written.
+              </p>
+            )
+          })()}
         </div>
 
         {article.tags.length > 0 && (
