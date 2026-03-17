@@ -282,6 +282,51 @@ async function indexHistory() {
     }
   } catch { /* no post-jesus.json */ }
 
+  // Rashidun Caliphate events
+  try {
+    const rashidun = readJson(join(histDir, 'rashidun-events.json'))
+    for (const e of rashidun) {
+      docs.push({
+        id: `history-rashidun-${e.slug}`,
+        type: 'history',
+        title: e.title_en,
+        snippet: e.description_en ? snippet(e.description_en) : '',
+        url: `/history/${e.slug}`,
+        meta: `History · Rashidun Caliphate`,
+      })
+    }
+  } catch { /* no rashidun-events.json */ }
+
+  // Umayyad Dynasty events
+  try {
+    const umayyad = readJson(join(histDir, 'umayyad-events.json'))
+    for (const e of umayyad) {
+      docs.push({
+        id: `history-umayyad-${e.slug}`,
+        type: 'history',
+        title: e.title_en,
+        snippet: e.description_en ? snippet(e.description_en) : '',
+        url: `/history/${e.slug}`,
+        meta: `History · Umayyad Dynasty`,
+      })
+    }
+  } catch { /* no umayyad-events.json */ }
+
+  // Abbasid Dynasty events
+  try {
+    const abbasid = readJson(join(histDir, 'abbasid-events.json'))
+    for (const e of abbasid) {
+      docs.push({
+        id: `history-abbasid-${e.slug}`,
+        type: 'history',
+        title: e.title_en,
+        snippet: e.description_en ? snippet(e.description_en) : '',
+        url: `/history/${e.slug}`,
+        meta: `History · Abbasid Dynasty`,
+      })
+    }
+  } catch { /* no abbasid-events.json */ }
+
   // Battles
   try {
     const battles = readJson(join(histDir, 'battles.json'))
