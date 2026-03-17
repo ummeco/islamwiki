@@ -1,7 +1,7 @@
 {
   "number": 28,
   "title_en": ". Sabeeb lbn lfibbdn. Beirut: Mu'sasat ar-Risalah, 1404 AH.",
-  "title_ar": "",
+  "title_ar": "قائمة المصادر والمراجع (ب)",
   "content_en": "<p>__ . Ath-Thiqat. Makkah: Maktabat al-'Ilm, 1393 AH. lbn Hisham, Abu Muhammad ibn 'Abdul-Malik. As-Seerat an-Nabawiyah [The Prophet's biography]. Beirut: Dar II) ya' at-Turath, 1997. A/-lf asan ibn 'Ali Ibn Ja'far, Al)mad lbn Abi Ya'qoob. Tareekh al-Ya'qoobi. Beirut: Dar Beirut lit-Tiba'ah wan-Nashr, 1980. Ibn al-Jawzi, Abul-Faraj 'Abdur-Ral)man ibn 'Ali. Al-Muntadham fee Tiireekh al-Mulook wal-Umam. Beirut: Dar al-Kutub al- 'Ilmiyah. __ . Sifat a$-$afivah. Beirut: Dar al-Ma'rifah. __ . Talqeel:z Fuhoom Ahl al-Athar fee 'Uyoon at-Tiireekh wasSayr. Al-Maktab al-A.dab, 1975. Ibn Katheer, Isma'eel. Al-Bidiiyah wan-Nihiiyah. Dar ar-Rayyan, 1988. __ . An-Nihiiyahfil-Ghareeb al-lfadeeth. __ . Tafseer a/-Qur 'iin al- 'Adheem. Beirut: Dar al-Fikr I Dar alQalam. Ibn al-Kazrooni, Zaheer ad-Deen Abul-ijasan. Mukhta$ar atTareekh. Ibn Khaldoon. Al-Muqaddimah .</p>",
   "title_id": "Daftar Pustaka (Bagian 2)",
   "content_id": "<p>Bagian ini memuat daftar pustaka (bagian kedua, dari Ibn Hibban hingga Ibn Khaldun). Di antara sumber-sumber yang dicantumkan: Ibn Hibban, Shahih Ibn Hibban; Ibn Hisyam, As-Sirah an-Nabawiyyah; Al-Hasan ibn Ali ibn Ja'far (Ahmad ibn Abi Ya'qub), Tarikh al-Ya'qubi; Ibn al-Jauzi, Al-Muntadzam fi Tarikh al-Muluk wal-Umam; Ibn Katsir, Al-Bidayah wan-Nihayah; serta karya-karya ilmiah klasik lainnya yang menjadi rujukan utama penulis.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 115 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>ـــ. الثقات. مكة المكرمة: مكتبة العلم، 1393هـ. ابن هشام، أبو محمد بن عبد الملك. السيرة النبوية. بيروت: دار إحياء التراث، 1997م. ابن جعفر، أحمد بن أبي يعقوب. تاريخ اليعقوبي. بيروت: دار بيروت للطباعة والنشر، 1980م. ابن الجوزي، أبو الفرج عبد الرحمن بن علي. المنتظم في تاريخ الملوك والأمم. بيروت: دار الكتب العلمية. ـــ. صفة الصفوة. بيروت: دار المعرفة. ـــ. تلقيح فهوم أهل الأثر في عيون التاريخ والسير. المكتب الأدبي، 1975م. ابن كثير، إسماعيل. البداية والنهاية. دار الريان، 1988م. ـــ. النهاية في غريب الحديث. ـــ. تفسير القرآن العظيم. بيروت: دار الفكر / دار القلم. ابن الكازروني، ظهير الدين أبو الحسن. مختصر التاريخ. ابن خلدون. المقدمة.</p>"
 }

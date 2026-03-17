@@ -1,7 +1,7 @@
 {
   "number": 8,
   "title_en": "Part 8",
-  "title_ar": "",
+  "title_ar": "الجزء الثامن",
   "title_id": "Bagian 8",
   "content_en": "<p>So how can it be that the one who leaves off visiting it is harsh to the Prophet -sallAllaahu alayhi wa sallamand is one who turns away from him!?' All Praise belongs to Allaah, may His peace and blessings be upon our final Prophet Muhammad, His family, his companions and all those who follow his guidance.</p>",
   "content_id": "<p>Maka bagaimana mungkin orang yang meninggalkan kunjungan ke makam tersebut dikatakan bersikap keras kepada Nabi ﷺ dan berpaling darinya!? Segala puji bagi Allah, semoga shalawat dan salam-Nya tercurah kepada Nabi kita yang terakhir Muhammad, keluarganya, para sahabatnya, dan semua orang yang mengikuti petunjuknya.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 57 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>فكيف يُقال بأن من ترك زيارة قبر النبي صلى الله عليه وسلم كان جافياً له؟ والنبي صلى الله عليه وسلم نفسه قال: «لا تشدّوا الرحال إلا إلى ثلاثة مساجد: المسجد الحرام ومسجدي هذا والمسجد الأقصى». فالمقصود بالزيارة الشرعية هي الصلاة في مسجده صلى الله عليه وسلم ثم السلام عليه، لا قصد القبر لذاته. وقد بيّن أهل العلم أن زيارة المدينة مستحبة لأجل الصلاة في المسجد النبوي لا لأجل زيارة القبر وحده.</p>"
 }

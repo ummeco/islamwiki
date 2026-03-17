@@ -1,7 +1,7 @@
 {
   "number": 29,
   "title_en": "62. And the proof for this is what is established from Abu Hurairah (radhiAllaahu",
-  "title_ar": "",
+  "title_ar": "٦٢. والدليل على ذلك ما ثبت عن أبي هريرة رضي الله عنه",
   "content_en": "<p>'anhu) who said: Rasoolullah (sallallaahu 'alaihi wa sallam) said If one of you feels something in his stomach and he isn't sure did anything (wind) come out of it or not - then let him not leave the mosque until he hears a sound or finds a smell. [Muslim (Sharh Al-Nawawi, 4/51), 'Aaridat-ul-Ahwadhee Sharh utTirmidhee, 1/79]. So the hadith is a proof that things remain upon their original state until there is a certainty of a change in that, and doubt does not harm that - so he who is sure of having made wudoo and thinks that he may have broken it, then he remains upon wudoo . A MAN AND WOMAN'S WASHING FROM A SINGLE VESSEL</p>",
   "title_id": "Hadis 62: Keraguan tentang Batalnya Wudu",
   "content_id": "<p>Dalilnya adalah apa yang ditetapkan dari Abu Hurairah (radhiyallahu anhu) yang berkata: Rasulullah ﷺ bersabda: Jika salah seorang dari kalian merasakan sesuatu di perutnya dan tidak yakin apakah ada sesuatu (angin) yang keluar atau tidak, maka janganlah ia keluar dari masjid sampai ia mendengar suara atau mencium bau. [Muslim (Syarh An-Nawawi, 4/51)]. Hadis ini adalah dalil bahwa segala sesuatu tetap pada keadaan asalnya sampai ada kepastian tentang perubahannya. Keraguan tidak berpengaruh. Maka orang yang yakin telah berwudu dan mengira mungkin telah membatalkannya, ia tetap dalam keadaan berwudu. LAKI-LAKI DAN PEREMPUAN BERSUCI DARI SATU WADAH.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 118 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>أنه قال: قال رسول الله صلى الله عليه وسلم: «إِذَا وَجَدَ أَحَدُكُم فِي بَطنِهِ شَيئاً فَأَشكَلَ عَلَيهِ أَخَرَجَ مِنهُ شَيءٌ أَم لا، فَلا يَخرُجَنَّ مِنَ المَسجِدِ حَتَّى يَسمَعَ صَوتاً أَو يَجِدَ رِيحاً». رواه مسلم (شرح النووي ٤/٥١)، وعارضة الأحوذي شرح الترمذي (١/٧٩). فالحديث دليل على أن الأمور تبقى على أصلها حتى يُتيقّن بتغيّرها، والشك لا يضرّ، فمن أيقن بالوضوء وشك في الحدث بقي على وضوئه. <strong>اشتراك الرجل والمرأة في الاغتسال من إناء واحد</strong></p>"
 }

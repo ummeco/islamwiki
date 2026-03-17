@@ -1,7 +1,7 @@
 {
   "number": 28,
   "title_en": "Part 28",
-  "title_ar": "",
+  "title_ar": "الجزء 28",
   "content_en": "<p>Notes are to be extended (al-madd) according to a certain number of beats; the letters noon and meem are melodiously held and their notes emphasized, etc. One is required to learn this method of recitiation. (*272)Authentically related by Abu Dawood and Ahmad bin Hanbal. (*273)I would certainly encourage the likes of Yoosuf Islam (the former Cat Stevens) and others to use this medium for Islamic revival and as a means for dawah (invitation of non-Muslims to the path of Allah). (*274)surah Ar-R'ad, 14:28. (*275)Regardless of whether it be with crossbow, spear or firearms.</p>",
   "title_id": "Bagian 28",
   "content_id": "<p>Catatan harus diperpanjang (al-madd) sesuai jumlah ketukan tertentu; huruf-huruf nun dan mim dilantunkan secara merdu, ditahan dan ditekankan nadanya, dan sebagainya. Seseorang diwajibkan untuk mempelajari metode bacaan ini. (*272) Diriwayatkan secara sahih oleh Abu Dawud dan Ahmad bin Hanbal. (*273) Penulis pasti mendorong orang-orang seperti Yusuf Islam (mantan Cat Stevens) dan lainnya untuk menggunakan media ini untuk kebangkitan Islam dan sebagai sarana dakwah (mengundang non-Muslim ke jalan Allah). (*274) Surah Ar-Ra'd, 13:28. (*275) Terlepas dari apakah itu dengan busur, tombak, atau senjata api.</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 93 words (min 300)"
-  ]
+  ],
+  "content_ar": "Notes are to be extended (al-madd) according to a certain number of beats; the letters noon and meem are melodiously held and their notes emphasized, etc. One is required to learn this method of recitiation. Authentically related by Abu Dawood and Ahmad bin Hanbal. I would certainly encourage the likes of Yoosuf الإسلام (the former Cat Stevens) and others to use this medium for الإسلامي revival and as a means for dawah (invitation of non-المسلمون to the path of الله). surah Ar-R'ad, 14:28. Regardless of whether it be with crossbow, spear or firearms."
 }

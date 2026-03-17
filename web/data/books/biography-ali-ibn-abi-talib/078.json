@@ -1,7 +1,7 @@
 {
   "number": 78,
   "title_en": "8. The shroud is to be paid for from",
-  "title_ar": "",
+  "title_ar": "٨. الكفن يُؤخَذ من مال الميت",
   "title_id": "8. Biaya Kain Kafan Diambil dari Harta Si Mayit",
   "content_en": "<p>the wealth of the deceased The costs of shrouding the deceased are to be taken from his capital if he had any capital, according to 'Ali (4$d).98 It was narrated from Abdullah ibn ad-Dnmayrah from his father from his grandfather that 'Ali (&) said: \"The shroud is to be paid for from the capital (of the de~eased).\"~~ The proof is that when Mus'ab ihn 'Umayr was killed on the day of Ul.~ud, \"We (the Companions) could not find anything with which to shroud him except a woolen clo& which, if we put it on his head, his feet showed, and if we put it over his feet, his head showed. The Messenger of Allah (B) said: 'Put it over his .1.100 head, and put some (of a certain kind of) grass on his feet. The</p>\n<p>'Ali ibn Abi Tiilib point here is that if it was obligatory for the Muslims, he would have taken from the Muslims who were present whatever was needed to shroud him completely. lo'</p>",
   "content_id": "<p>Biaya pengkafanan jenazah diambil dari harta pokok si mayit jika ia memilikinya, menurut Ali radhiyallahu 'anhu. Diriwayatkan dari Abdullah ibn ad-Dumairah dari ayahnya dari kakeknya bahwa Ali berkata: \"Kain kafan diambil biayanya dari harta pokok (si mayit).\" Dalil untuk hukum ini adalah peristiwa ketika Mus'ab ibn Umair gugur pada Perang Uhud. Para sahabat berkata: \"Kami tidak menemukan sesuatu pun untuk mengkafaninya kecuali sehelai jubah bulu, yang jika kami tutupkan di kepalanya maka kakinya terlihat, dan jika kami tutupkan di kakinya maka kepalanya terlihat.\" Rasulullah shallallahu 'alaihi wa sallam bersabda: \"Tutupkanlah di kepalanya, dan letakkanlah rumput di atas kakinya.\"</p>\n<p>Poin pentingnya di sini adalah bahwa jika biaya kain kafan wajib ditanggung oleh kaum Muslim yang hadir, niscaya Rasulullah shallallahu 'alaihi wa sallam akan mengambil dari mereka apa yang diperlukan untuk mengkafani Mus'ab secara sempurna. Kenyataan bahwa beliau tidak melakukan itu menunjukkan bahwa biaya kain kafan merupakan tanggung jawab harta si mayit, bukan tanggung jawab orang lain. Apabila si mayit tidak meninggalkan harta, maka biaya kain kafan menjadi tanggung jawab orang yang wajib menafkahinya semasa hidupnya. Jika tidak ada yang demikian, maka biaya tersebut diambil dari Baitul Mal atau ditanggung secara kolektif oleh masyarakat Muslim.</p>",
@@ -33,5 +33,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 168 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>يُؤخَذ ثمن تكفين الميت من رأس ماله إن كان له مال، عند علي (رضي الله عنه). ورُوي عن عبدالله بن الدميرة عن أبيه عن جده أن عليًّا قال: \"الكفن من رأس المال.\" والدليل على ذلك ما رُوي أن مصعب بن عمير قُتل يوم أُحد فلم يُوجَد ما يُكفَّن به إلا بُردة، فإذا وُضعت على رأسه بدت قدماه، وإذا وُضعت على قدمَيه بدا رأسه، فقال النبي (صلى الله عليه وسلم): \"ضعوها مما يلي رأسه وأجعلوا على قدمَيه من الإذخر.\" وقد أجمع الفقهاء على أن نفقات تجهيز الميت من كفن وغسل مقدَّمة على الديون والوصية والإرث، لأنها من الحوائج الأصلية التي يُقدِّمها الشرع على ما سواها.</p>"
 }
