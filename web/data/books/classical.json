@@ -9444,7 +9444,7 @@
     "year_written_ce": 854,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "sahnun",
     "available_languages": [
       "ar"
     ],
@@ -9783,7 +9783,7 @@
     "year_written_ce": 1126,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "ibn-rushd-al-jadd",
     "available_languages": [
       "ar"
     ],
@@ -9822,7 +9822,7 @@
     "year_written_ce": 1126,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "ibn-rushd-al-jadd",
     "available_languages": [
       "ar"
     ],
@@ -9861,7 +9861,7 @@
     "year_written_ce": 1285,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "al-qarafi",
     "available_languages": [
       "ar"
     ],
@@ -10724,7 +10724,7 @@
     "year_written_ce": 1282,
     "language_original": "ar",
     "author_id": null,
-    "author_slug": null,
+    "author_slug": "ibn-khallikan",
     "available_languages": [
       "ar"
     ],
@@ -14500,7 +14500,8 @@
       "kitab-at-tawhid-al-maturidi",
       "fiqh-al-akbar"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "bilal-philips"
   },
   {
     "id": 402,
@@ -14537,7 +14538,8 @@
       "al-alim-wal-mutaallim",
       "al-wajiz-fi-aqeedah"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "bilal-philips"
   },
   {
     "id": 403,
@@ -14574,7 +14576,8 @@
       "fiqh-al-akbar",
       "at-tadmuriyyah"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "bilal-philips"
   },
   {
     "id": 404,
@@ -14611,7 +14614,8 @@
       "dont-be-sad",
       "reclaim-your-heart"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "bilal-philips"
   },
   {
     "id": 405,
@@ -14648,7 +14652,8 @@
       "at-tadmuriyyah",
       "al-wajiz-fi-aqeedah"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "ibn-uthaymeen"
   },
   {
     "id": 406,
@@ -15098,7 +15103,8 @@
       "ashbah-wan-nazair-suyuti-shafii",
       "ashbah-wan-nazair-hanafi-ibn-nujaym"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "bilal-philips"
   },
   {
     "id": 418,
@@ -15173,7 +15179,8 @@
       "summary-of-islamic-jurisprudence",
       "fiqh-made-easy"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "ibn-uthaymeen"
   },
   {
     "id": 420,
@@ -15622,7 +15629,8 @@
       "quran-made-easy",
       "al-burhan-fi-ulum-al-quran-zarkashi"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "bilal-philips"
   },
   {
     "id": 433,
@@ -15733,7 +15741,8 @@
       "lives-of-the-sahabah",
       "biographies-companions-of-prophet"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "ali-al-sallabi"
   },
   {
     "id": 436,
@@ -15770,7 +15779,8 @@
       "lives-of-the-sahabah",
       "biographies-companions-of-prophet"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "ali-al-sallabi"
   },
   {
     "id": 437,
@@ -15807,7 +15817,8 @@
       "lives-of-the-sahabah",
       "biographies-companions-of-prophet"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "ali-al-sallabi"
   },
   {
     "id": 438,
@@ -15844,7 +15855,8 @@
       "lives-of-the-sahabah",
       "biographies-companions-of-prophet"
     ],
-    "language_source": "ar"
+    "language_source": "ar",
+    "author_slug": "ali-al-sallabi"
   },
   {
     "id": 439,
@@ -16291,7 +16303,8 @@
       "hashiyat-ad-dusuqi-ala-sharh-kabir",
       "manar-as-sabil-sharh-ad-dalil"
     ],
-    "language_source": "en"
+    "language_source": "en",
+    "author_slug": "bilal-philips"
   },
   {
     "id": 451,
@@ -17796,7 +17809,7 @@
     "title_en": "Congregational Prayer",
     "author_id": 0,
     "author_name_en": "Various",
-    "author_slug": "",
+    "author_slug": null,
     "year_written_ah": null,
     "year_written_ce": null,
     "subject": "fiqh",
@@ -18108,7 +18121,7 @@
     "title_en": "Rulings on Itikaf (Seclusion in the Mosque)",
     "author_id": 0,
     "author_name_en": "Various",
-    "author_slug": "",
+    "author_slug": null,
     "year_written_ah": null,
     "year_written_ce": null,
     "subject": "fiqh",
@@ -20149,7 +20162,7 @@
     "title_en": "Description of Paradise",
     "title_ar": "صفة الجنة",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "ibn-qayyim-al-jawziyyah",
     "died_ah": null,
     "category": "aqeedah",
     "era": "contemporary",
@@ -20400,7 +20413,7 @@
     "title_en": "A Guide to Sound Creed",
     "title_ar": "دليل العقيدة الصحيحة",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "salih-al-fawzan",
     "died_ah": null,
     "category": "aqeedah",
     "era": "contemporary",
@@ -20525,7 +20538,7 @@
     "title_en": "Differences of Opinion Among the Scholars: Their Causes and Our Attitude",
     "title_ar": "أسباب اختلاف العلماء",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "ibn-uthaymeen",
     "died_ah": null,
     "category": "usul-al-fiqh",
     "era": "contemporary",
@@ -20611,7 +20624,7 @@
     "title_en": "The Inner Dimensions of Islamic Prayer",
     "title_ar": "أسرار الصلاة",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "al-ghazali",
     "died_ah": null,
     "category": "worship",
     "era": "contemporary",
@@ -20736,7 +20749,7 @@
     "title_en": "Magic and Envy",
     "title_ar": "السحر والحسد",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "ibn-qayyim-al-jawziyyah",
     "died_ah": null,
     "category": "aqeedah",
     "era": "contemporary",
@@ -21732,7 +21745,7 @@
     "title_en": "The Love of Allah",
     "title_ar": "محبة الله",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "ibn-qayyim-al-jawziyyah",
     "died_ah": null,
     "category": "spirituality",
     "era": "contemporary",
@@ -21996,7 +22009,7 @@
     "title_en": "Muslim International Law: Kitab al-Siyar al-Saghir",
     "title_ar": "كتاب السير الصغير",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "muhammad-ash-shaybani",
     "died_ah": null,
     "category": "islamic-law",
     "era": "contemporary",
@@ -22038,7 +22051,7 @@
     "title_en": "Concerning the Celebration of the Mawlid",
     "title_ar": "حكم الاحتفال بالمولد النبوي",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "ibn-taymiyyah",
     "died_ah": null,
     "category": "jurisprudence",
     "era": "contemporary",
@@ -22079,7 +22092,7 @@
     "title_en": "Bid'ah: Innovation in Islam",
     "title_ar": "البدعة في الإسلام",
     "title_transliteration": "",
-    "author_slug": null,
+    "author_slug": "salih-al-fawzan",
     "died_ah": null,
     "category": "aqeedah",
     "era": "contemporary",
