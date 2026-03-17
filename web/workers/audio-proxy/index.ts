@@ -1,3 +1,7 @@
+// @ts-nocheck
+// Cloudflare Worker — types provided by @cloudflare/workers-types at deploy time,
+// not available in Next.js/Turbopack build context. Safe to skip type-checking here.
+
 /**
  * Islam.wiki Audio Proxy Worker
  *
