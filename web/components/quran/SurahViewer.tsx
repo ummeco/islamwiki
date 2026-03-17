@@ -459,19 +459,25 @@ function getStoredReadingLang(): ReadingLang | null {
   return null
 }
 
+function getStoredTranslation(): string | null {
+  if (typeof window === 'undefined') return null
+  try { return localStorage.getItem('iw_translation') } catch { return null }
+}
+
 function getInitialSettings(locale?: string): Settings {
   // Locale-derived reading_lang (IW-QN.3): locale prop takes priority over stored pref on first load
   const localeLang: ReadingLang | null =
     locale === 'ar' ? 'ar' : locale === 'id' ? 'id' : null
   const reading_lang: ReadingLang = localeLang ?? getStoredReadingLang() ?? 'en'
+  const storedTranslation = getStoredTranslation()
 
   if (reading_lang === 'ar') {
-    return { mode: 'section', showArabic: true, showTranslit: false, showEnglish: false, translation: 'iwq', fontSize: 'md', contentWidth: 'wide', reading_lang: 'ar' }
+    return { mode: 'section', showArabic: true, showTranslit: false, showEnglish: false, translation: storedTranslation ?? 'iwq', fontSize: 'md', contentWidth: 'wide', reading_lang: 'ar' }
   }
   if (reading_lang === 'id') {
-    return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'kemenag', fontSize: 'md', contentWidth: 'wide', reading_lang: 'id' }
+    return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: storedTranslation ?? 'kemenag', fontSize: 'md', contentWidth: 'wide', reading_lang: 'id' }
   }
-  return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: 'iwq', fontSize: 'md', contentWidth: 'wide', reading_lang: 'en' }
+  return { mode: 'section', showArabic: false, showTranslit: false, showEnglish: true, translation: storedTranslation ?? 'iwq', fontSize: 'md', contentWidth: 'wide', reading_lang: 'en' }
 }
 
 /** Pick translation text, using the Indonesian map when the key is an id-locale translation */
@@ -520,6 +526,10 @@ export function SurahViewer({
     // Persist reading_lang to localStorage (IW-QN.1)
     if (partial.reading_lang !== undefined) {
       try { localStorage.setItem('iw_reading_lang', partial.reading_lang) } catch { /* ignore */ }
+    }
+    // Persist translation preference
+    if (partial.translation !== undefined) {
+      try { localStorage.setItem('iw_translation', partial.translation) } catch { /* ignore */ }
     }
   }, [])
 

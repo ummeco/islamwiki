@@ -57,7 +57,11 @@ export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAud
   const completedRef = useRef(0)  // # of verses fully finished before the current one
   const totalRef = useRef(totalAyahs)
   const surahRef = useRef(surahNumber)
-  const reciterRef = useRef<ReciterKey>('Alafasy_128kbps')
+  const reciterRef = useRef<ReciterKey>(
+    typeof window !== 'undefined'
+      ? (() => { try { const s = localStorage.getItem('iw_reciter'); return (s && s in RECITERS ? s : 'Alafasy_128kbps') as ReciterKey } catch { return 'Alafasy_128kbps' } })()
+      : 'Alafasy_128kbps'
+  )
   const speedRef = useRef(1)
   const onAyahChangeRef = useRef(onAyahChange)
   const rangeEndRef = useRef<number | null>(null)  // null = play to end of surah
@@ -70,7 +74,14 @@ export function useAudioPlayer({ surahNumber, totalAyahs, onAyahChange }: UseAud
   // ── UI state ─────────────────────────────────────────────────────────────────
   const [state, setState] = useState<AudioState>('idle')
   const [currentAyah, setCurrentAyah] = useState(1)
-  const [reciter, setReciterState] = useState<ReciterKey>('Alafasy_128kbps')
+  const [reciter, setReciterState] = useState<ReciterKey>(() => {
+    if (typeof window === 'undefined') return 'Alafasy_128kbps'
+    try {
+      const stored = localStorage.getItem('iw_reciter')
+      if (stored && stored in RECITERS) return stored as ReciterKey
+    } catch { /* ignore */ }
+    return 'Alafasy_128kbps'
+  })
   const [speed, setSpeedState] = useState(1)
   // Progress 0–1 across the WHOLE SURAH, updated at 60fps via rAF — silky smooth
   const [progress, setProgress] = useState(0)
