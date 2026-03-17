@@ -6,6 +6,7 @@ import { getSeerahContent } from '@/lib/data/seerah-content'
 import { formatIslamicDate } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { SeerahEventJsonLd } from '@/components/seo/json-ld'
 import { renderContent, extractHeadings, type Heading } from '@/lib/render-content'
 import { getLocale } from '@/lib/i18n/get-locale'
 
@@ -49,6 +50,15 @@ export default async function SeerahEventPage({ params }: Props) {
   const nextEvent = idx < allEvents.length - 1 ? allEvents[idx + 1] : null
 
   return (
+    <>
+      <SeerahEventJsonLd
+        name={event.title_en}
+        nameAr={event.title_ar}
+        description={event.description_en.slice(0, 200)}
+        url={`/seerah/${event.slug}`}
+        startDate={event.date_ce ?? undefined}
+        locationName={event.place_name}
+      />
     <div className="section-container py-12">
       {/* Breadcrumbs */}
       <nav className="mb-4 text-sm text-iw-text-secondary">
@@ -200,5 +210,6 @@ export default async function SeerahEventPage({ params }: Props) {
         )}
       </div>
     </div>
+    </>
   )
 }

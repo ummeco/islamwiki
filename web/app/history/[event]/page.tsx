@@ -6,6 +6,7 @@ import { getHistoryContent } from '@/lib/data/seerah-content'
 import { formatIslamicDate } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { HistoryEventJsonLd } from '@/components/seo/json-ld'
 import { renderContent, extractHeadings, type Heading } from '@/lib/render-content'
 import { getLocale } from '@/lib/i18n/get-locale'
 
@@ -57,6 +58,15 @@ export default async function HistoryEventPage({ params }: Props) {
   const { primary, secondary } = formatIslamicDate(event)
 
   return (
+    <>
+      <HistoryEventJsonLd
+        name={event.title_en}
+        nameAr={event.title_ar}
+        description={event.description_en.slice(0, 200)}
+        url={`/history/${slug}`}
+        startDate={event.date_ce ?? (event.year_ce ? String(event.year_ce) : undefined)}
+        locationName={event.place_name}
+      />
     <div className="section-container py-12">
       {/* Breadcrumbs */}
       <nav className="mb-4 text-sm text-iw-text-secondary">
@@ -211,5 +221,6 @@ export default async function HistoryEventPage({ params }: Props) {
         )}
       </div>
     </div>
+    </>
   )
 }

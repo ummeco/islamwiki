@@ -12,6 +12,7 @@ import {
 import { formatIslamicYear } from '@/lib/dates/hijri'
 import { ogImageUrl } from '@/lib/og'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { BookJsonLd } from '@/components/seo/json-ld'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -73,6 +74,15 @@ export default async function BookPage({ params }: Props) {
   const hasIndex = getBookIndex(slug) !== null
 
   return (
+    <>
+      <BookJsonLd
+        title={book.title_en}
+        titleAr={book.title_ar}
+        authorName={book.author_name_en}
+        url={`/books/${slug}`}
+        description={book.description_en ? book.description_en.slice(0, 200) : undefined}
+        inLanguage={book.language_original === 'arabic' ? ['ar', 'en', 'id'] : ['en', 'ar', 'id']}
+      />
     <div className="section-container py-12">
       <nav className="mb-4 text-sm text-iw-text-secondary">
         <Link href="/books" className="hover:text-iw-text">
@@ -296,5 +306,6 @@ export default async function BookPage({ params }: Props) {
         </div>
       </div>
     </div>
+    </>
   )
 }

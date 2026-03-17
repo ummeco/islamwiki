@@ -206,3 +206,134 @@ export function ArticleJsonLd({
     />
   )
 }
+
+export function BookJsonLd({
+  title,
+  titleAr,
+  authorName,
+  url,
+  description,
+  inLanguage,
+  genre,
+}: {
+  title: string
+  titleAr?: string
+  authorName?: string
+  url: string
+  description?: string
+  inLanguage?: string[]
+  genre?: string
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'Book',
+    name: title,
+    alternateName: titleAr,
+    url: `https://islam.wiki${url}`,
+    author: authorName
+      ? { '@type': 'Person', name: authorName }
+      : undefined,
+    description,
+    inLanguage: inLanguage ?? ['ar', 'en'],
+    genre: genre ?? 'Religion',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Islam.wiki',
+      url: 'https://islam.wiki',
+    },
+    isPartOf: {
+      '@type': 'WebSite',
+      name: 'Islam.wiki',
+      url: 'https://islam.wiki',
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
+
+export function HistoryEventJsonLd({
+  name,
+  nameAr,
+  description,
+  url,
+  startDate,
+  locationName,
+}: {
+  name: string
+  nameAr?: string
+  description: string
+  url: string
+  startDate?: string
+  locationName?: string
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name,
+    alternateName: nameAr,
+    description,
+    url: `https://islam.wiki${url}`,
+    startDate,
+    location: locationName
+      ? { '@type': 'Place', name: locationName }
+      : undefined,
+    organizer: {
+      '@type': 'Organization',
+      name: 'Islam.wiki',
+      url: 'https://islam.wiki',
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
+
+export function SeerahEventJsonLd({
+  name,
+  nameAr,
+  description,
+  url,
+  startDate,
+  locationName,
+}: {
+  name: string
+  nameAr?: string
+  description: string
+  url: string
+  startDate?: string
+  locationName?: string
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name,
+    alternateName: nameAr,
+    description,
+    url: `https://islam.wiki${url}`,
+    startDate,
+    location: locationName
+      ? { '@type': 'Place', name: locationName }
+      : undefined,
+    organizer: {
+      '@type': 'Organization',
+      name: 'Islam.wiki',
+      url: 'https://islam.wiki',
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  )
+}
