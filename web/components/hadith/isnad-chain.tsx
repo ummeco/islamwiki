@@ -5,10 +5,15 @@ import { useState } from 'react'
 
 interface NarratorNode {
   position: number
-  person_name_en: string
+  name_en: string
+  name_ar?: string
+  slug?: string
+  type: string
+  // Legacy field aliases
+  person_name_en?: string
   person_name_ar?: string
   person_slug?: string
-  role: string
+  role?: string
 }
 
 interface IsnadChainProps {
@@ -83,25 +88,25 @@ export function IsnadChain({ chain, evaluation, chainTextAr }: IsnadChainProps) 
                 {/* Narrator info */}
                 <div className="min-w-0 pt-0.5">
                   <div className="flex flex-wrap items-baseline gap-x-2">
-                    {narrator.person_slug ? (
+                    {(narrator.slug || narrator.person_slug) ? (
                       <Link
-                        href={`/people/${narrator.person_slug}`}
+                        href={`/people/${narrator.slug || narrator.person_slug}`}
                         className="text-sm font-medium text-iw-accent hover:text-white transition-colors"
                       >
-                        {narrator.person_name_en}
+                        {narrator.name_en || narrator.person_name_en || narrator.name_ar}
                       </Link>
                     ) : (
                       <span className="text-sm font-medium text-iw-text">
-                        {narrator.person_name_en}
+                        {narrator.name_en || narrator.person_name_en || narrator.name_ar}
                       </span>
                     )}
                     <span className="rounded-md bg-iw-elevated/60 px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-iw-text-secondary">
-                      {narrator.role}
+                      {narrator.type || narrator.role}
                     </span>
                   </div>
-                  {narrator.person_name_ar && (
-                    <p className="mt-0.5 font-[var(--font-arabic)] text-xs text-iw-text-secondary/80 direction-rtl">
-                      {narrator.person_name_ar}
+                  {(narrator.name_ar || narrator.person_name_ar) && (
+                    <p className="mt-0.5 font-[var(--font-arabic)] text-xs text-iw-text-secondary/80 direction-rtl" dir="rtl" lang="ar">
+                      {narrator.name_ar || narrator.person_name_ar}
                     </p>
                   )}
                 </div>

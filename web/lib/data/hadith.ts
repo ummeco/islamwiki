@@ -46,7 +46,7 @@ export interface HadithData {
   isnad_ar?: string
   matn_ar?: string
   matn_ar_clean?: string
-  isnad_chain?: string[]
+  isnad_chain?: Array<{ name_ar: string; name_en: string; slug: string; position: number; type: string }>
   sunnah_ref_en?: string
   iwh_en?: string
   iwh_id?: string
@@ -125,7 +125,7 @@ function loadBookData(collectionSlug: string, bookFile: string): HadithData[] {
       isnad_ar: h.isnad_ar as string | undefined,
       matn_ar: h.matn_ar as string | undefined,
       matn_ar_clean: h.matn_ar_clean as string | undefined,
-      isnad_chain: h.isnad_chain as string[] | undefined,
+      isnad_chain: h.isnad_chain as Array<{ name_ar: string; name_en: string; slug: string; position: number; type: string }> | undefined,
       sunnah_ref_en: h.sunnah_ref_en as string | undefined,
       iwh_en: h.iwh_en as string | undefined,
       iwh_id: h.iwh_id as string | undefined,

@@ -15,6 +15,7 @@ import {
 } from '@/lib/data/hadith'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { HadithActions } from '@/components/hadith/HadithActions'
+import { IsnadChain } from '@/components/hadith/isnad-chain'
 
 interface Props {
   params: Promise<{ collection: string; book: string; number: string }>
@@ -189,6 +190,16 @@ export default async function HadithPage({ params }: Props) {
             ) : (
               <p className="quran-text text-lg leading-loose text-white" lang="ar" dir="rtl">{hadith.ar}</p>
             )}
+          </div>
+        )}
+
+        {/* Isnad chain visualization */}
+        {hadith.isnad_chain && hadith.isnad_chain.length > 0 && (
+          <div className="mb-6">
+            <IsnadChain
+              chain={hadith.isnad_chain}
+              chainTextAr={hadith.isnad_ar}
+            />
           </div>
         )}
 
