@@ -24161,5 +24161,177 @@
       "al-Ta'rifat"
     ],
     "bio_en": "Ali ibn Muhammad al-Jurjani (Sayyid Sharif) was an important scholar of theology and logic, known for al-Ta'rifat, a dictionary of Islamic technical terms."
+  },
+  {
+    "slug": "al-subki-taj-al-din",
+    "name_en": "Taj al-Din al-Subki",
+    "name_ar": "تاج الدين السبكي",
+    "born_ah": 727,
+    "died_ah": 771,
+    "era": "medieval",
+    "category": "scholar",
+    "madhab": "shafii",
+    "works": [
+      "Tabaqat al-Shafi'iyya al-Kubra"
+    ],
+    "bio_en": "Taj al-Din Abd al-Wahhab ibn Ali al-Subki was a prominent Shafi'i jurist and son of Taqiy al-Din al-Subki, known for his biographical dictionary of Shafi'i scholars."
+  },
+  {
+    "slug": "al-subki-taqiy-al-din",
+    "name_en": "Taqiy al-Din al-Subki",
+    "name_ar": "تقي الدين السبكي",
+    "born_ah": 683,
+    "died_ah": 756,
+    "era": "medieval",
+    "category": "scholar",
+    "madhab": "shafii",
+    "works": [
+      "Fatawa al-Subki"
+    ],
+    "bio_en": "Taqiy al-Din Ali ibn Abd al-Kafi al-Subki was a leading Shafi'i jurist and hadith scholar of the 8th century AH, father of Taj al-Din al-Subki."
+  },
+  {
+    "slug": "al-bulqini",
+    "name_en": "Al-Bulqini",
+    "name_ar": "البلقيني",
+    "born_ah": 724,
+    "died_ah": 805,
+    "era": "medieval",
+    "category": "scholar",
+    "madhab": "shafii",
+    "works": [
+      "Mahasin al-Istilaah"
+    ],
+    "bio_en": "Siraj al-Din Umar ibn Raslan al-Bulqini was a prominent Shafi'i jurist in Egypt who served as chief qadi and produced important works on hadith methodology."
+  },
+  {
+    "slug": "ibn-abi-al-izz-hanafi",
+    "name_en": "Ibn Abi al-Izz al-Hanafi",
+    "name_ar": "ابن أبي العز الحنفي",
+    "born_ah": 731,
+    "died_ah": 792,
+    "era": "medieval",
+    "category": "theologian",
+    "madhab": "hanafi",
+    "works": [
+      "Sharh al-Aqidah al-Tahawiyyah"
+    ],
+    "bio_en": "Ali ibn Ali ibn Muhammad ibn Abi al-Izz al-Hanafi was a Damascene Hanafi jurist known for his renowned commentary on al-Aqidah al-Tahawiyyah."
+  },
+  {
+    "slug": "al-qurtubi-jurist",
+    "name_en": "Al-Qurtubi (the Jurist)",
+    "name_ar": "القرطبي الفقيه",
+    "born_ah": 578,
+    "died_ah": 656,
+    "era": "medieval",
+    "category": "mufassir",
+    "madhab": "maliki",
+    "works": [
+      "al-Jami li-Ahkam al-Quran"
+    ],
+    "bio_en": "Abu Abdallah Muhammad ibn Ahmad al-Qurtubi was an Andalusian Maliki scholar renowned for his authoritative tafsir al-Jami li-Ahkam al-Quran (al-Tafsir al-Qurtubi)."
+  },
+  {
+    "slug": "ibn-faris-linguist",
+    "name_en": "Ibn Faris al-Lughawi",
+    "name_ar": "ابن فارس اللغوي",
+    "born_ah": 329,
+    "died_ah": 395,
+    "era": "classical",
+    "category": "linguist",
+    "madhab": "shafii",
+    "works": [
+      "Mu'jam Maqayis al-Lugha",
+      "al-Mujmal fi al-Lugha"
+    ],
+    "bio_en": "Ahmad ibn Faris ibn Zakariyya al-Razi was a prominent Arabic linguist and lexicographer who compiled the important dictionary Mu'jam Maqayis al-Lugha."
+  },
+  {
+    "slug": "al-raghib-al-isfahani",
+    "name_en": "Al-Raghib al-Isfahani",
+    "name_ar": "الراغب الأصفهاني",
+    "born_ah": 400,
+    "died_ah": 502,
+    "era": "classical",
+    "category": "linguist",
+    "madhab": "shafii",
+    "works": [
+      "Mufradat Alfaz al-Quran",
+      "al-Dharia ila Makarim al-Sharia"
+    ],
+    "bio_en": "Abu al-Qasim al-Husayn ibn Muhammad al-Raghib al-Isfahani was a classical scholar known for Mufradat Alfaz al-Quran, an important lexicon of Quranic vocabulary."
+  },
+  {
+    "slug": "ibn-hajar-haytami",
+    "name_en": "Ibn Hajar al-Haytami",
+    "name_ar": "ابن حجر الهيتمي",
+    "born_ah": 909,
+    "died_ah": 974,
+    "era": "ottoman",
+    "category": "scholar",
+    "madhab": "shafii",
+    "works": [
+      "Tuhfat al-Muhtaj",
+      "al-Zawajir"
+    ],
+    "bio_en": "Ahmad ibn Muhammad ibn Hajar al-Haytami was a leading Shafi'i jurist of the Ottoman period who wrote Tuhfat al-Muhtaj, a major work in Shafi'i fiqh."
+  },
+  {
+    "slug": "al-ramli-imam",
+    "name_en": "Al-Ramli (Shams al-Din)",
+    "name_ar": "الرملي شمس الدين",
+    "born_ah": 919,
+    "died_ah": 1004,
+    "era": "ottoman",
+    "category": "scholar",
+    "madhab": "shafii",
+    "works": [
+      "Nihayat al-Muhtaj"
+    ],
+    "bio_en": "Shams al-Din Muhammad ibn Ahmad al-Ramli was a prominent Egyptian Shafi'i jurist who wrote Nihayat al-Muhtaj, one of the authoritative references in Shafi'i fiqh."
+  },
+  {
+    "slug": "ibn-battal-maliki",
+    "name_en": "Ibn Battal",
+    "name_ar": "ابن بطال",
+    "born_ah": 370,
+    "died_ah": 449,
+    "era": "classical",
+    "category": "muhaddith",
+    "madhab": "maliki",
+    "works": [
+      "Sharh Sahih al-Bukhari"
+    ],
+    "bio_en": "Abu al-Hasan Ali ibn Khalaf ibn Battal was an Andalusian Maliki scholar best known for his extensive commentary on Sahih al-Bukhari."
+  },
+  {
+    "slug": "abu-bakr-ibn-al-arabi-maliki",
+    "name_en": "Ibn al-Arabi al-Maliki",
+    "name_ar": "ابن العربي المالكي",
+    "born_ah": 468,
+    "died_ah": 543,
+    "era": "classical",
+    "category": "scholar",
+    "madhab": "maliki",
+    "works": [
+      "Ahkam al-Quran",
+      "Aridah al-Ahwadhi"
+    ],
+    "bio_en": "Abu Bakr Muhammad ibn Abdallah ibn al-Arabi al-Maliki was an Andalusian Maliki judge and scholar known for Ahkam al-Quran and his commentary on al-Tirmidhi."
+  },
+  {
+    "slug": "al-khallal-hanbali",
+    "name_en": "Al-Khallal",
+    "name_ar": "الخلال الحنبلي",
+    "born_ah": 234,
+    "died_ah": 311,
+    "era": "classical",
+    "category": "scholar",
+    "madhab": "hanbali",
+    "works": [
+      "al-Jami"
+    ],
+    "bio_en": "Abu Bakr Ahmad ibn Muhammad al-Khallal was a prominent student of Imam Ahmad ibn Hanbal who collected and systematized the imam's legal opinions in al-Jami."
   }
 ]
