@@ -85,7 +85,7 @@ export function Footer() {
             Free forever. Scholar-verified. Community-driven. Part of the{' '}
             <Link
               href="https://ummat.app"
-              className="text-iw-text-secondary hover:text-iw-text"
+              className="text-iw-text-secondary underline hover:text-iw-text"
               target="_blank"
               rel="noopener noreferrer"
             >
