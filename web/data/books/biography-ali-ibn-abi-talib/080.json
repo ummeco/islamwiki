@@ -1,7 +1,7 @@
 {
   "number": 80,
   "title_en": "10. Washing and shrouding of the martyr",
-  "title_ar": "",
+  "title_ar": "١٠. غسل الشهيد وتكفينه",
   "title_id": "10. Memandikan dan Mengkafani Jenazah Syahid",
   "content_en": "<p>The martyr is not to be washed or shrouded, according to 'Ali (&). That was narrated from him by d-Kas2ni and others.Io6 It was narrated that he did not wash those who were killed fighting alongside him against those who opposed him, and he did not instnrct that they should he shrouded. He buried 'Ammir (&) without washing him.'07 This is the view of the majority of scholars, apart from al-Hasan d-Basri and Sa'eed ihn d-Musayyab, whose view is that the deceased is in a state of impurity and needs to he purified by water.'08 Rulings on ZakSh</p>",
   "content_id": "<p>Jenazah syahid tidak perlu dimandikan dan tidak perlu dikafani, menurut Ali radhiyallahu 'anhu. Hal ini diriwayatkan darinya oleh al-Kasani dan ulama-ulama lainnya. Diriwayatkan bahwa beliau tidak memandikan mereka yang gugur bersamanya dalam peperangan melawan para penentangnya, dan beliau tidak memerintahkan agar mereka dikafani. Beliau memakamkan Ammar radhiyallahu 'anhu tanpa memandikannya. Ini adalah pandangan mayoritas ulama, berbeda dengan al-Hasan al-Bashri dan Sa'id ibn al-Musayyab, yang berpendapat bahwa jenazah syahid dalam keadaan najis dan perlu disucikan dengan air.</p>\n<p>Hukum ini berlaku bagi syahid yang gugur di medan perang sebagai akibat langsung dari peperangan melawan musuh. Para ulama menjelaskan bahwa darah syahid adalah suci dan merupakan tanda kemuliaan, sehingga tidak perlu dimandikan. Syahid dimakamkan dalam pakaian yang dikenakannya ketika gugur, sebagai saksi atas pengorbanannya di jalan Allah. Terdapat perbedaan pendapat mengenai apakah jenazah syahid perlu disalatkan atau tidak; mayoritas ulama berpendapat bahwa jenazah syahid tetap perlu disalatkan. Ali radhiyallahu 'anhu mengamalkan hukum ini secara konsisten dalam peperangan-peperangan yang terjadi selama masa kekhalifahannya.</p>",
@@ -33,5 +33,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 98 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>لا يُغسَّل الشهيد ولا يُكفَّن، وفق ما رُوي عن علي رضي الله عنه، نقله عنه الكاساني وغيره. وقد رُوي أنه لم يغسّل من قُتل إلى جانبه في معاركه، ولم يأمر بتكفينهم، وأنه دفن عمّاراً رضي الله عنه دون أن يغسله. وهذا مذهب جمهور العلماء، خلافاً للحسن البصري وسعيد بن المسيب اللذين يريان أن الميت في حالة جنابة يحتاج إلى التطهير بالماء.</p>"
 }

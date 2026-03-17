@@ -1,7 +1,7 @@
 {
   "number": 79,
   "title_en": "9. The shroud of a man and a woman,",
-  "title_ar": "",
+  "title_ar": "٩. تكفين الرجل والمرأة وعدم المغالاة في ذلك",
   "title_id": "9. Kain Kafan Laki-laki dan Perempuan, dan Larangan Berlebihan",
   "content_en": "<p>and not going to extremes in that It is Sunnah to shroud a man in three pieces of cloth and to shroud a woman in five, according to 'Ali (&). That was narrated from him by d-Kas2ui and others.lo2 Going to extremes in shrouding is detested; according to 'Ali (&), this means using more than three pieces of cloth for a man and more than five for a woman.\"3 Amir dMn'mineen 'Ali (&) said: \"The shroud of a woman is five pieces of cloth, and the shroud of a man is three, and transgress not. Verily, 104 ,,lo5 Allah does not like the transgressors .</p>",
   "content_id": "<p>Adalah Sunnah untuk mengkafani seorang laki-laki dengan tiga lembar kain dan seorang perempuan dengan lima lembar kain, menurut Ali radhiyallahu 'anhu. Hal ini diriwayatkan darinya oleh al-Kasani dan ulama-ulama lainnya. Berlebihan dalam mengkafani adalah hal yang dibenci; menurut Ali, ini berarti menggunakan lebih dari tiga lembar kain untuk laki-laki dan lebih dari lima lembar untuk perempuan. Amirul Mukminin Ali radhiyallahu 'anhu bersabda: \"Kain kafan perempuan adalah lima lembar, dan kain kafan laki-laki adalah tiga lembar, dan janganlah berlebihan. Sesungguhnya Allah tidak menyukai orang-orang yang berlebihan.\"</p>\n<p>Hikmah di balik perbedaan jumlah lembar kain kafan antara laki-laki dan perempuan adalah karena perempuan memerlukan penutupan yang lebih sempurna, mengingat auratnya lebih luas daripada aurat laki-laki. Lima lembar kain kafan untuk perempuan terdiri dari: kain bawahan, baju gamis, kerudung kepala, kerudung wajah, dan kain luar yang membungkus seluruh tubuh. Tiga lembar kain kafan untuk laki-laki terdiri dari tiga lapis kain yang menutup seluruh tubuhnya. Islam mengajarkan kesederhanaan dalam hal ini dan melarang kemewahan berlebihan dalam mengkafani jenazah, karena kematian adalah pengingat akan kesetaraan semua manusia di hadapan Allah, tanpa memandang status sosial atau kekayaan.</p>",
@@ -33,5 +33,6 @@
   "qa_passed": true,
   "qa_errors": [
     "content_en too short: 106 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>السنة أن يُكفَّن الرجل في ثلاثة أثواب وأن تُكفَّن المرأة في خمسة، وفق ما رُوي عن علي رضي الله عنه. نقل ذلك عنه الكاساني وغيره. والمغالاة في التكفين مكروهة؛ وهي عند علي رضي الله عنه أن تزيد أثواب الرجل على ثلاثة وأثواب المرأة على خمسة. وقد قال أمير المؤمنين علي رضي الله عنه: «كفن المرأة خمسة أثواب، وكفن الرجل ثلاثة، ولا تتجاوزوا ذلك، فإن الله لا يحب المسرفين.»</p>"
 }
