@@ -1,7 +1,7 @@
 {
   "number": 9,
   "title_en": "Chapter Eight",
-  "title_ar": "",
+  "title_ar": "الفصل الثامن: استخدام وسائل منع الحمل",
   "title_id": "Bab Delapan: Penggunaan Kontrasepsi",
   "content_id": "<p>Pertama: Mencegah Kehamilan Secara Permanen. Ini tidak diperbolehkan karena: (a) akan mengurangi populasi Muslim dan ini bertentangan dengan tujuan Syariah yang bertujuan untuk meningkatkan populasi umat Islam. (b) wanita tidak dapat menjamin anak-anaknya yang ada tidak akan meninggal sehingga ia mungkin mati tanpa memiliki anak. Kedua: Mencegah Kehamilan Sementara. Ini berlaku jika wanita telah mengalami banyak kehamilan dan ini mulai melemahkannya. Jika ia ingin mengatur kehamilannya agar terjadi sekali setiap dua tahun, maka dengan persetujuan suaminya, ia diperbolehkan menggunakan kontrasepsi selama penggunaannya tidak membahayakannya. Para Sahabat dahulu mempraktikkan azl (coitus interruptus) dan mereka tidak dicegah oleh Nabi. Metode ini melibatkan hubungan seksual biasa dengan istri kecuali pada saat ejakulasi, suami menarik diri dan berejakulasi di luar alat kelamin wanita. Jabir meriwayatkan: Kami biasa mempraktikkan azl semasa hidup Rasulullah. (Al-Bukhari dalam Sahih-nya).</p>",
   "content_en": "<p>The Use of Contraceptives FIRST: To Completely Prevent Pregnancy. This is not permissible because: (a) it will diminish the Islamic population and this is against the objective of Sharee'aa which aims at increasing the population of Muslims. (b) the woman is unable to guarantee against the death of her existing children and thus she may die without having any children. SECOND: To Temporarily Prevent Pregnancy. This applies if the woman had many pregnancies and this is beginning to weaken her. If she wants to regulate her pregnancy so as to have it once every two years, then given the approval of her husband, it is permissible for her to use contraceptives as long as their use does not harm her. The Sahabah used to perform Coitus Interrupts57 and they were not prevented (i.e., by the Prophet-\u0002). This method involves regular sexual intercourse with the wife except at the time of ejaculation, the husband pulls out and ejaculates outside the private part of the woman. 57Narrated Jabir: \"we used to practice Coitus Interrupts during the life of time of Allah's Messenger (\u0002).\" Collected by Al-Bukhari in his in sahih (Arabic-English) V.7, P.102</p>",
@@ -32,5 +32,6 @@
   "qa_passed": false,
   "qa_errors": [
     "content_en too short: 191 words (min 300)"
-  ]
+  ],
+  "content_ar": "<p>يُفرّق الشيخ العثيمين في هذه المسألة بين درجتين: الأولى: منع الحمل كليًّا بالتعقيم ونحوه وهو محرم لأنه يُعطّل سنة التناسل التي شرعها الله وحثّ عليها النبي صلى الله عليه وسلم بقوله «تناكحوا تناسلوا»، ولأنه إتلاف للقدرة الإنجابية الموهوبة من الله دون موجب شرعي.</p>\n<p>الثانية: تأخير الحمل مدةً مؤقتةً لمصلحة معتبرة كضعف صحة الأم أو كثرة الأطفال أو الرضاعة الجارية؛ فهذا جائز بشرط موافقة الزوج وألا يترتب عليه ضرر.</p>"
 }
