@@ -7,7 +7,9 @@
     "category": "meta",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "حول الموقع",
+    "title_id": "Tentang Islam.wiki"
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "category": "meta",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "كيفية المساهمة",
+    "title_id": "Cara Berkontribusi"
   },
   {
     "id": 3,
@@ -29,7 +33,8 @@
     "created_at": "2026-02-27",
     "updated_at": "2026-02-27",
     "content_id": "<p>Islam.wiki mengikuti pedoman editorial dan teologis yang ketat untuk menjaga keakuratan dan kepercayaan. Setiap kontributor, terlepas dari tingkat kepercayaannya, diharapkan mengikuti pedoman ini. Pelanggaran yang berulang atau serius akan mengakibatkan penangguhan akun.</p><h2>Persyaratan Sumber</h2><p>Kami menerima konten yang bersumber dari: Al-Qur'an (dengan referensi ayat), koleksi Hadits yang autentik (dengan nama koleksi, buku, dan nomor), karya-karya ulama klasik (dengan nama penulis, judul, dan edisi jika memungkinkan), serta karya ilmiah modern yang terpercaya selama selaras dengan metodologi klasik. Kami tidak menerima konten dari sumber anonim, blog yang tidak ditinjau sejawat, atau situs web tanpa kredensial keilmuan yang dapat ditelusuri. Jika ragu, kutip sumber primer daripada komentar sekunder.</p><h2>Penilaian Hadits</h2><p>Hanya hadits yang dinilai <em>sahih</em> (autentik) atau <em>hasan</em> (baik) yang boleh dikutip sebagai dalil untuk hukum agama. Hadits <em>da'if</em> (lemah) boleh disebutkan untuk konteks tetapi harus diberi label sebagai demikian. Hadits palsu (<em>mawdu'</em>) tidak boleh disajikan sebagai hadits yang valid. Jika Anda tidak yakin tentang penilaian suatu hadits, jangan sertakan — tandai halaman tersebut dan catat bahwa verifikasi diperlukan.</p><h2>Kerangka Teologis</h2><p>Kami mengikuti metodologi Ahl us-Sunnah wal-Jama'ah. Keempat mazhab — Hanafi, Maliki, Syafi'i, dan Hanbali — disajikan secara setara. Dalam masalah aqidah, kami terutama mengikuti akidah Athari seraya menerima Asy'ari dan Maturidi sebagai posisi yang sah dalam Islam Sunni. Posisi yang bertentangan dengan konsensus Ahl us-Sunnah — seperti posisi Mu'tazilah, Khawarij, atau gerakan heterodoks modern — dijelaskan secara objektif bila relevan secara historis, namun tidak disajikan sebagai posisi Islam yang valid.</p><h2>Kelompok dan Aliran</h2><p>Ketika menulis tentang kelompok keagamaan, gunakan bahasa yang netral dan akurat. Jelaskan posisi sebagaimana yang dijelaskan oleh ulama klasik. Jangan gunakan bahasa yang provokatif. Nation of Islam dan Ahmadiyah tidak dianggap sebagai kelompok Muslim berdasarkan konsensus sarjana Islam arus utama dan harus dideskripsikan sesuai dengan itu. Islam Syi'ah diperlakukan sebagai tradisi tersendiri dengan sejarahnya yang kompleks; konten tentang keyakinan Syi'ah harus mendeskripsikannya secara akurat tanpa mendukung atau mengutuk. Untuk tarekat Sufi, evaluasi setiap kelompok berdasarkan manfaatnya — praktik yang berlandaskan Al-Qur'an dan Sunnah dicatat secara positif; inovasi yang tidak didukung oleh dalil dicatat sebagai demikian.</p><h2>Nada dan Bahasa</h2><p>Semua konten harus ditulis dalam nada akademis dan informatif. Hindari polemik, serangan sektarian, atau komentar politik. Ketika para ulama berbeda pendapat, sajikan perbedaan tersebut secara adil dan kutip semua posisi utama. Islam.wiki bukan platform untuk fatwa atau saran agama pribadi — arahkan pembaca kepada ulama yang berkualifikasi untuk pertanyaan agama personal. Tulis untuk audiens global: hindari asumsi budaya, jelaskan istilah Arab pada penggunaan pertama, dan selalu sertakan transliterasi di samping teks Arab.</p>",
-    "title_id": "Panduan Konten"
+    "title_id": "Panduan Konten",
+    "title_ar": "إرشادات المحتوى"
   },
   {
     "id": 4,
@@ -39,7 +44,9 @@
     "category": "meta",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "تواصل معنا",
+    "title_id": "Hubungi Kami"
   },
   {
     "id": 5,
@@ -49,7 +56,9 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "المسرد الإسلامي",
+    "title_id": "Glosarium Islam"
   },
   {
     "id": 6,
@@ -59,7 +68,9 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "الإسلامي Timeline",
+    "title_id": "Islam Timeline"
   },
   {
     "id": 7,
@@ -69,7 +80,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "أركان الإسلام",
+    "title_id": "Rukun Islam",
+    "content_ar": "<h2>أركان الإسلام الخمسة</h2>\n<p>أركان الإسلام هي الأسس التي يقوم عليها الإسلام. قال النبي صلى الله عليه وسلم: \"بُني الإسلام على خمس: شهادة أن لا إله إلا الله وأن محمداً رسول الله، وإقام الصلاة، وإيتاء الزكاة، وصوم رمضان، وحج البيت\" [رواه البخاري ومسلم].</p>\n<h3>أولاً: الشهادتان</h3>\n<p>شهادة أن لا إله إلا الله وأن محمداً رسول الله. هي مفتاح الإسلام وأساس التوحيد.</p>\n<h3>ثانياً: الصلاة</h3>\n<p>خمس صلوات في اليوم والليلة، فُرضت ليلة الإسراء والمعراج، وهي عمود الدين.</p>\n<h3>ثالثاً: الزكاة</h3>\n<p>حق واجب في المال لمستحقيه، نسبتها 2.5% من المال الحولي البالغ النصاب.</p>\n<h3>رابعاً: صوم رمضان</h3>\n<p>صيام شهر رمضان المبارك كاملاً عن الطعام والشراب وسائر المفطرات من الفجر حتى الغروب.</p>\n<h3>خامساً: الحج</h3>\n<p>قصد البيت الحرام لأداء المناسك مرة في العمر لمن استطاع إليه سبيلاً.</p>",
+    "content_id": "<h2>Lima Rukun Islam</h2>\n<p>Rukun Islam adalah pondasi utama agama Islam. Nabi ﷺ bersabda: \"Islam dibangun atas lima perkara: kesaksian bahwa tidak ada ilah yang berhak disembah selain Allah dan bahwa Muhammad adalah utusan Allah, mendirikan shalat, menunaikan zakat, puasa Ramadan, dan haji ke Baitullah.\" (HR. Bukhari-Muslim).</p>\n<h3>Pertama: Dua Kalimat Syahadat</h3>\n<p>Bersaksi bahwa tidak ada ilah selain Allah dan Muhammad adalah utusan Allah. Ini adalah kunci Islam dan pondasi tauhid.</p>\n<h3>Kedua: Shalat</h3>\n<p>Lima shalat sehari semalam, diwajibkan pada malam Isra Mi'raj. Ia adalah tiang agama.</p>\n<h3>Ketiga: Zakat</h3>\n<p>Hak wajib dalam harta untuk orang-orang yang berhak, sebesar 2,5% dari harta yang telah mencapai nisab dan haul.</p>\n<h3>Keempat: Puasa Ramadan</h3>\n<p>Berpuasa sebulan penuh di bulan Ramadan dari makan, minum, dan hal-hal yang membatalkan, dari fajar hingga terbenamnya matahari.</p>\n<h3>Kelima: Haji</h3>\n<p>Mengunjungi Baitullah al-Haram untuk melaksanakan manasik, wajib sekali seumur hidup bagi yang mampu.</p>"
   },
   {
     "id": 8,
@@ -79,7 +94,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "الSix Pillars of Iman (Faith)",
+    "title_id": "Six Pillars of Iman (Faith)",
+    "content_ar": "<h2>أركان الإيمان الستة</h2>\n<p>أركان الإيمان ستة، وردت في قوله صلى الله عليه وسلم لما سُئل عن الإيمان: \"أن تؤمن بالله وملائكته وكتبه ورسله واليوم الآخر وتؤمن بالقدر خيره وشره\" [رواه مسلم].</p>\n<h3>الركن الأول: الإيمان بالله</h3>\n<p>الإيمان بوجود الله ووحدانيته وأسمائه وصفاته. وهو أساس الأركان كلها.</p>\n<h3>الركن الثاني: الإيمان بالملائكة</h3>\n<p>الإيمان بأنهم عباد الله المكرمون، خُلقوا من نور، لا يعصون الله ما أمرهم.</p>\n<h3>الركن الثالث: الإيمان بالكتب</h3>\n<p>الإيمان بأن الله أنزل كتباً على رسله، وأعظمها القرآن الكريم الذي هو المحفوظ الأخير.</p>\n<h3>الركن الرابع: الإيمان بالرسل</h3>\n<p>الإيمان بجميع الأنبياء والرسل من آدم إلى محمد صلى الله عليه وسلم خاتمهم.</p>\n<h3>الركن الخامس: الإيمان باليوم الآخر</h3>\n<p>الإيمان بالبعث والحساب والجنة والنار وكل ما أخبر به النبي مما يكون بعد الموت.</p>\n<h3>الركن السادس: الإيمان بالقدر</h3>\n<p>الإيمان بأن كل شيء بقضاء الله وقدره، وأنه سبحانه علم الأشياء قبل وقوعها وكتبها وشاءها وخلقها.</p>",
+    "content_id": "<h2>Enam Rukun Iman</h2>\n<p>Rukun iman ada enam, sebagaimana sabda Nabi ﷺ ketika ditanya tentang iman: \"Kamu beriman kepada Allah, malaikat-Nya, kitab-kitab-Nya, rasul-rasul-Nya, hari akhir, dan beriman kepada qadar yang baik maupun yang buruk.\" (HR. Muslim).</p>\n<h3>Rukun Pertama: Iman kepada Allah</h3>\n<p>Beriman kepada keberadaan Allah, keesaan-Nya, dan asma serta sifat-Nya. Ini adalah pondasi seluruh rukun.</p>\n<h3>Rukun Kedua: Iman kepada Malaikat</h3>\n<p>Beriman bahwa mereka adalah hamba-hamba Allah yang mulia, diciptakan dari cahaya, tidak pernah mendurhakai Allah.</p>\n<h3>Rukun Ketiga: Iman kepada Kitab-kitab</h3>\n<p>Beriman bahwa Allah menurunkan kitab-kitab kepada para rasul-Nya, dan yang terbesar adalah Al-Qur'an yang merupakan kitab terakhir yang terjaga.</p>\n<h3>Rukun Keempat: Iman kepada Para Rasul</h3>\n<p>Beriman kepada semua nabi dan rasul dari Adam hingga Muhammad ﷺ sebagai penutup mereka.</p>\n<h3>Rukun Kelima: Iman kepada Hari Akhir</h3>\n<p>Beriman kepada kebangkitan, hisab, surga, neraka, dan semua yang diberitakan Nabi tentang apa yang terjadi setelah kematian.</p>\n<h3>Rukun Keenam: Iman kepada Qadar</h3>\n<p>Beriman bahwa semua yang terjadi adalah dengan qadha dan qadar Allah; Dia mengetahui segala sesuatu sebelum terjadi, mencatatnya, menghendakinya, dan menciptakannya.</p>"
   },
   {
     "id": 9,
@@ -89,7 +108,11 @@
     "category": "worship",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "How to Pray في الإسلام",
+    "title_id": "How to Pray dalam Islam",
+    "content_ar": "<h2>كيفية أداء الصلاة</h2>\n<p>الصلاة عمود الدين، وهي أول ما يُحاسب عليه العبد يوم القيامة. وفيما يلي كيفية أدائها وفق السنة النبوية.</p>\n<h3>شروط الصلاة</h3>\n<ol>\n<li>الطهارة: الوضوء للحدث الأصغر، والغسل للأكبر.</li>\n<li>استقبال القبلة.</li>\n<li>ستر العورة.</li>\n<li>دخول الوقت.</li>\n<li>النية.</li>\n</ol>\n<h3>أركان الصلاة</h3>\n<p>القيام مع القدرة، وتكبيرة الإحرام، وقراءة الفاتحة، والركوع والطمأنينة فيه، والرفع منه، والسجود والطمأنينة، والرفع من السجود، والجلوس بين السجدتين، والتشهد الأخير والجلوس له، والصلاة على النبي، والتسليم.</p>\n<h3>واجبات الصلاة</h3>\n<p>تكبيرات الانتقال، وقول سمع الله لمن حمده، وقول ربنا ولك الحمد، والتسبيح في الركوع والسجود، وقول رب اغفر لي بين السجدتين، والتشهد الأول والجلوس له.</p>",
+    "content_id": "<h2>Panduan Shalat</h2><p>Shalat adalah tiang agama dan ibadah terpenting dalam Islam. Rasulullah ﷺ bersabda: \"Shalat adalah tiang agama; siapa yang mendirikannya, maka ia menegakkan agama; dan siapa yang meninggalkannya, maka ia meruntuhkan agama.\" Shalat diwajibkan lima waktu sehari semalam bagi setiap Muslim yang baligh dan berakal.</p><h3>Waktu Shalat Lima Waktu</h3><p>Subuh: dari terbit fajar sampai terbit matahari. Dzuhur: dari tergelincirnya matahari sampai bayangan sama panjang dengan benda. Ashar: dari berakhirnya waktu dzuhur sampai matahari menguning. Maghrib: dari terbenam matahari sampai hilangnya syafak merah. Isya: dari berakhirnya waktu maghrib sampai tengah malam (atau fajar menurut sebagian ulama).</p><h3>Rukun Shalat</h3><p>Niat, takbiratul ihram (Allahu Akbar), berdiri bagi yang mampu, membaca Al-Fatihah, ruku' dengan tuma'ninah, i'tidal, sujud dua kali dengan tuma'ninah, duduk di antara dua sujud, tasyahud akhir, shalawat kepada Nabi, salam pertama, dan tertib.</p><h3>Cara Wudhu</h3><p>Membasuh muka, membasuh kedua tangan sampai siku, mengusap kepala, membasuh kedua kaki sampai mata kaki. Shalat tidak sah tanpa wudhu yang benar. Jika tidak ada air, dapat bertayammum dengan debu yang suci.</p>"
   },
   {
     "id": 10,
@@ -99,7 +122,11 @@
     "category": "worship",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Guide to Ramadan)",
+    "title_id": "Guide to Ramadan",
+    "content_ar": "<h2>رمضان: دليل شامل</h2>\n<p>رمضان هو الشهر التاسع من التقويم الهجري، وهو شهر الصيام المبارك الذي فُرض فيه الصيام على المسلمين. قال الله تعالى: ﴿شَهْرُ رَمَضَانَ الَّذِي أُنزِلَ فِيهِ الْقُرْآنُ هُدًى لِّلنَّاسِ وَبَيِّنَاتٍ مِّنَ الْهُدَىٰ وَالْفُرْقَانِ﴾ [البقرة: 185].</p>\n<h3>فضل رمضان</h3>\n<p>قال النبي صلى الله عليه وسلم: \"إذا جاء رمضان فُتحت أبواب الجنة وغُلقت أبواب جهنم وصُفِّدت الشياطين\" [رواه البخاري ومسلم]. وقال: \"من صام رمضان إيماناً واحتساباً غُفر له ما تقدم من ذنبه\" [رواه البخاري ومسلم].</p>\n<h3>أركان الصيام</h3>\n<p>النية وترك المفطرات من الفجر إلى المغرب. والمفطرات هي: الأكل والشرب، والجماع، والاستمناء، وتعمد القيء، وما في معناها.</p>\n<h3>ليلة القدر</h3>\n<p>ليلة القدر خير من ألف شهر، وهي في العشر الأواخر من رمضان، وأرجحها ليلة السابع والعشرين.</p>\n<h3>زكاة الفطر</h3>\n<p>تجب زكاة الفطر على كل مسلم قادر قبل صلاة العيد، وهي صاع من طعام أهل بلده.</p>",
+    "content_id": "<h2>Ramadan: Panduan Lengkap</h2>\n<p>Ramadan adalah bulan kesembilan dalam kalender Hijriyah, bulan puasa yang diberkahi di mana kewajiban puasa ditetapkan bagi umat Islam. Allah berfirman: \"Bulan Ramadan adalah (bulan) yang di dalamnya diturunkan Al-Qur'an, sebagai petunjuk bagi manusia dan penjelasan-penjelasan mengenai petunjuk itu.\" (QS. Al-Baqarah: 185).</p>\n<h3>Keutamaan Ramadan</h3>\n<p>Nabi ﷺ bersabda: \"Apabila Ramadan datang, pintu-pintu surga dibuka, pintu-pintu neraka ditutup, dan setan-setan dibelenggu.\" (HR. Bukhari-Muslim). Dan: \"Barangsiapa berpuasa Ramadan dengan iman dan mengharap pahala dari Allah, diampuni dosa-dosanya yang telah lalu.\" (HR. Bukhari-Muslim).</p>\n<h3>Rukun Puasa</h3>\n<p>Niat dan menahan diri dari hal-hal yang membatalkan puasa dari fajar hingga terbenamnya matahari. Pembatal puasa: makan, minum, berhubungan suami-istri, onani, sengaja muntah, dan yang semakna.</p>\n<h3>Lailatul Qadar</h3>\n<p>Lailatul Qadar lebih baik dari seribu bulan. Ia terdapat pada 10 malam terakhir Ramadan, dan yang paling kuat pendapatnya adalah malam ke-27.</p>\n<h3>Zakat Fitrah</h3>\n<p>Zakat fitrah wajib atas setiap muslim yang mampu sebelum shalat Idul Fitri, sebesar satu sha' dari makanan pokok penduduk setempat.</p>"
   },
   {
     "id": 11,
@@ -109,7 +136,11 @@
     "category": "worship",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Guide to Hajj)",
+    "title_id": "Guide to Hajj",
+    "content_ar": "<h2>دليل الحج</h2>\n<p>الحج هو الركن الخامس من أركان الإسلام، ويُؤدَّى في شهر ذي الحجة كل عام. وقد حج النبي صلى الله عليه وسلم حجة الوداع في العاشر من الهجرة، وبيّن للأمة مناسك الحج قائلاً: \"خذوا عني مناسككم\".</p>\n<h3>أنواع الحج</h3>\n<ol>\n<li><strong>الإفراد:</strong> الإحرام بالحج وحده.</li>\n<li><strong>التمتع:</strong> الإحرام بالعمرة في أشهر الحج ثم الحج.</li>\n<li><strong>القران:</strong> الإحرام بالحج والعمرة معاً.</li>\n</ol>\n<h3>أركان الحج الأربعة</h3>\n<p>الإحرام، والوقوف بعرفة، والطواف، والسعي. وهذه لا تصح إلا بها.</p>\n<h3>واجبات الحج</h3>\n<p>الإحرام من الميقات، والمبيت بمزدلفة، ورمي الجمرات، والمبيت بمنى، وطواف الوداع.</p>\n<h3>أيام الحج</h3>\n<p>اليوم الثامن (يوم التروية): الإحرام والتوجه إلى منى. التاسع (يوم عرفة): الوقوف بعرفة. العاشر (يوم النحر): رمي جمرة العقبة والذبح والحلق. أيام التشريق (11-13): المبيت بمنى ورمي الجمرات.</p>",
+    "content_id": "<h2>Panduan Haji</h2>\n<p>Haji adalah rukun Islam yang kelima, dilaksanakan pada bulan Dzulhijjah setiap tahun. Nabi ﷺ berhaji pada Haji Wada' di tahun ke-10 Hijriyah, menjelaskan manasik haji seraya bersabda: \"Ambillah dariku manasik kalian.\"</p>\n<h3>Jenis-jenis Haji</h3>\n<ol>\n<li><strong>Ifrad:</strong> Berihram dengan haji saja.</li>\n<li><strong>Tamattu':</strong> Berihram dengan umrah di bulan-bulan haji kemudian berhaji.</li>\n<li><strong>Qiran:</strong> Berihram dengan haji dan umrah sekaligus.</li>\n</ol>\n<h3>Rukun Haji yang Empat</h3>\n<p>Ihram, wukuf di Arafah, thawaf ifadhah, dan sa'i. Ini tidak sah tanpa keempatnya.</p>\n<h3>Wajib Haji</h3>\n<p>Ihram dari miqat, mabit di Muzdalifah, melempar jumrah, mabit di Mina, dan thawaf wada'.</p>\n<h3>Hari-hari Haji</h3>\n<p>Hari ke-8 (Yaum Tarwiyah): Ihram dan berangkat ke Mina. Ke-9 (Yaum Arafah): Wukuf di Arafah. Ke-10 (Yaum Nahr): Melempar jumrah aqabah, menyembelih, mencukur. Hari Tasyriq (11-13): Mabit di Mina dan melempar jumrah.</p>"
   },
   {
     "id": 12,
@@ -119,7 +150,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "الQuran: An Overview",
+    "title_id": "Quran: An Overview",
+    "content_ar": "<h2>القرآن الكريم</h2>\n<p>القرآن الكريم هو كلام الله المنزل على محمد صلى الله عليه وسلم، المتعبد بتلاوته، المتحدى به، المحفوظ في الصدور والسطور. قال الله تعالى: ﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾ [الحجر: 9].</p>\n<h3>حقائق عن القرآن</h3>\n<ul>\n<li>114 سورة، 6,236 آية (أو 6,348 في بعض روايات العد).</li>\n<li>نزل مُفرَّقاً على مدى 23 سنة.</li>\n<li>نزل على النبي بواسطة جبريل عليه السلام.</li>\n<li>جُمع في مصحف زمن أبي بكر، ونُسخت المصاحف زمن عثمان.</li>\n</ul>\n<h3>فضل القرآن</h3>\n<p>قال النبي صلى الله عليه وسلم: \"اقرأوا القرآن فإنه يأتي يوم القيامة شفيعاً لأصحابه\" [رواه مسلم]. وقال: \"خيركم من تعلم القرآن وعلمه\" [رواه البخاري].</p>",
+    "content_id": "<h2>Al-Quran Al-Karim</h2><p>Al-Quran adalah firman Allah yang diturunkan kepada Nabi Muhammad ﷺ melalui malaikat Jibril secara berangsur-angsur selama 23 tahun. Al-Quran adalah mukjizat terbesar Nabi Muhammad ﷺ yang tetap terpelihara hingga kiamat. Allah berfirman: \"Sesungguhnya Kami telah menurunkan Az-Dzikr (Al-Quran) dan sesungguhnya Kami benar-benar memeliharanya\" (Al-Hijr: 9).</p><h3>Struktur Al-Quran</h3><p>Al-Quran terdiri dari 114 surah, 30 juz, dan 6.236 ayat. Surah-surahnya dibagi menjadi Makkiyyah (turun di Mekah) dan Madaniyyah (turun di Madinah). Surah terpanjang adalah Al-Baqarah (286 ayat) dan yang terpendek adalah Al-Kautsar (3 ayat).</p><h3>Keutamaan Membaca Al-Quran</h3><p>Rasulullah ﷺ bersabda: \"Sebaik-baik kalian adalah orang yang mempelajari Al-Quran dan mengajarkannya.\" Setiap huruf yang dibaca dari Al-Quran diganjar satu kebaikan, dan satu kebaikan dilipatgandakan menjadi sepuluh. Membaca Al-Quran dengan tartil adalah sunnah yang sangat dianjurkan.</p><h3>Adab Membaca Al-Quran</h3><p>Bersuci terlebih dahulu, membaca ta'awwudz dan basmalah, membaca dengan tartil dan tadabbur (merenungkan maknanya), menghadap kiblat jika memungkinkan, dan berusaha memahami terjemahannya.</p>"
   },
   {
     "id": 13,
@@ -129,7 +164,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "(Hadith Sciences: An Overview)",
+    "title_id": "Hadith Sciences: An Overview",
+    "content_ar": "<h2>علوم الحديث: نظرة عامة</h2><p>الحديث النبوي هو ما نُقل عن النبي محمد صلى الله عليه وسلم من قول أو فعل أو تقرير أو صفة. وهو المصدر الثاني للتشريع الإسلامي بعد القرآن الكريم.</p><h3>أنواع الحديث بحسب القبول والرد</h3><ul><li><strong>الصحيح:</strong> ما اتصل سنده برواة عدول ضابطين دون شذوذ أو علة.</li><li><strong>الحسن:</strong> ما خف ضبطه مع بقية الشروط.</li><li><strong>الضعيف:</strong> ما فقد شرطاً من شروط القبول.</li><li><strong>الموضوع:</strong> المختلق المكذوب على النبي.</li></ul><h3>أمهات كتب الحديث</h3><p>الكتب الستة (الصحيحان + السنن الأربع): صحيح البخاري وصحيح مسلم وسنن أبي داود والترمذي والنسائي وابن ماجه. وإليها موطأ مالك ومسند أحمد.</p>",
+    "content_id": "<h2>Ilmu-ilmu Hadits: Gambaran Umum</h2><p>Hadits Nabi adalah apa yang dinukil dari Nabi Muhammad ﷺ berupa perkataan, perbuatan, ketetapan, atau sifat. Ini adalah sumber hukum Islam kedua setelah Al-Qur'an al-Karim.</p><h3>Jenis Hadits Berdasarkan Penerimaan dan Penolakan</h3><ul><li><strong>Shahih:</strong> Yang sanadnya bersambung melalui perawi yang adil dan dhabith tanpa syadz dan 'illat.</li><li><strong>Hasan:</strong> Yang dhabit-nya sedikit kurang dengan syarat-syarat lainnya terpenuhi.</li><li><strong>Dha'if:</strong> Yang kehilangan salah satu syarat penerimaan.</li><li><strong>Maudhu':</strong> Yang diada-adakan dan didustakan atas nama Nabi.</li></ul><h3>Kitab-kitab Hadits Utama</h3><p>Kutub as-Sittah (Dua Shahih + Empat Sunan): Shahih Bukhari, Shahih Muslim, Sunan Abu Dawud, Tirmidzi, Nasa'i, dan Ibn Majah. Ditambah Muwatha' Malik dan Musnad Ahmad.</p>"
   },
   {
     "id": 14,
@@ -139,7 +178,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "التقويم الهجري",
+    "title_id": "Kalender Hijriyah",
+    "content_ar": "<h2>التقويم الهجري</h2><p>التقويم الهجري هو التقويم الإسلامي المبني على دورة القمر. أسسه الخليفة عمر بن الخطاب رضي الله عنه سنة 17 هجرية، وجعل أوله هجرة النبي صلى الله عليه وسلم من مكة إلى المدينة.</p><h3>الأشهر الهجرية الاثنا عشر</h3><p>محرم، صفر، ربيع الأول، ربيع الآخر، جمادى الأولى، جمادى الآخرة، رجب، شعبان، رمضان، شوال، ذو القعدة، ذو الحجة.</p><h3>الأشهر الحرم</h3><p>أربعة أشهر حرم حرّم الله فيها القتال: ذو القعدة وذو الحجة ومحرم ورجب. قال الله تعالى: ﴿إِنَّ عِدَّةَ الشُّهُورِ عِندَ اللَّهِ اثْنَا عَشَرَ شَهْرًا فِي كِتَابِ اللَّهِ﴾ [التوبة: 36].</p>",
+    "content_id": "<h2>Kalender Hijriyah</h2><p>Kalender Hijriyah adalah kalender Islam yang didasarkan pada siklus bulan (lunar). Ditetapkan oleh Khalifah Umar bin al-Khattab radhiyallahu 'anhu pada tahun 17 H, dengan awal perhitungan dari peristiwa hijrah Nabi ﷺ dari Makkah ke Madinah.</p><h3>Dua Belas Bulan Hijriyah</h3><p>Muharram, Shafar, Rabi'ul Awwal, Rabi'ul Akhir, Jumadal Ula, Jumadal Akhirah, Rajab, Sya'ban, Ramadan, Syawwal, Dzulqa'dah, Dzulhijjah.</p><h3>Bulan-bulan Haram</h3><p>Ada empat bulan haram yang diharamkan Allah di dalamnya peperangan: Dzulqa'dah, Dzulhijjah, Muharram, dan Rajab. Allah berfirman: \"Sesungguhnya bilangan bulan di sisi Allah ialah dua belas bulan, dalam ketetapan Allah.\" (QS. At-Taubah: 36).</p>"
   },
   {
     "id": 15,
@@ -149,7 +192,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الأنبياء في الإسلام",
+    "title_id": "Para Nabi dalam Islam",
+    "content_ar": "<h2>الأنبياء والرسل في الإسلام</h2>\n<p>الإيمان بالأنبياء والرسل ركن من أركان الإيمان الستة. والأنبياء هم بشر اختارهم الله لتبليغ رسالاته وهداية البشر. قال الله تعالى: ﴿إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَىٰ نُوحٍ وَالنَّبِيِّينَ مِن بَعْدِهِ﴾ [النساء: 163].</p>\n<h3>عدد الأنبياء</h3>\n<p>أجمع العلماء على أن عدد الأنبياء كثير لا يُحصى، وأن الله أرسل لكل أمة نذيراً. وقد ورد في الحديث أن عددهم مائة وأربعة وعشرون ألفاً. أما المذكورون في القرآن فخمسة وعشرون نبياً ورسولاً.</p>\n<h3>أولو العزم من الرسل</h3>\n<p>أفضل الرسل خمسة أولو العزم: نوح وإبراهيم وموسى وعيسى ومحمد صلوات الله وسلامه عليهم أجمعين. قال تعالى: ﴿وَإِذْ أَخَذْنَا مِنَ النَّبِيِّينَ مِيثَاقَهُمْ وَمِنكَ وَمِن نُّوحٍ وَإِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَى ابْنِ مَرْيَمَ﴾ [الأحزاب: 7].</p>\n<h3>خاتم النبيين</h3>\n<p>محمد صلى الله عليه وسلم خاتم الأنبياء والمرسلين. قال تعالى: ﴿مَّا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ﴾ [الأحزاب: 40].</p>",
+    "content_id": "<h2>Para Nabi dan Rasul dalam Islam</h2>\n<p>Beriman kepada para nabi dan rasul adalah salah satu dari enam rukun iman. Para nabi adalah manusia pilihan Allah yang diutus untuk menyampaikan risalah-Nya dan membimbing umat manusia. Allah berfirman: \"Sesungguhnya Kami telah memberikan wahyu kepadamu (Muhammad) sebagaimana Kami telah memberikan wahyu kepada Nuh dan nabi-nabi yang kemudiannya.\" (QS. An-Nisa: 163).</p>\n<h3>Jumlah Para Nabi</h3>\n<p>Para ulama sepakat bahwa jumlah nabi sangat banyak, dan Allah mengutus untuk setiap umat seorang pemberi peringatan. Disebutkan dalam hadits bahwa jumlahnya 124.000 nabi. Sedangkan yang disebutkan dalam Al-Qur'an ada 25 nabi dan rasul.</p>\n<h3>Ulul Azmi — Lima Rasul Terkuat</h3>\n<p>Rasul terbaik adalah lima Ulul Azmi: Nuh, Ibrahim, Musa, Isa, dan Muhammad shalawatullahi wa salamuhu 'alaihim ajma'in. Allah berfirman: \"Dan (ingatlah) ketika Kami mengambil perjanjian dari para nabi dan dari kamu (sendiri), dari Nuh, Ibrahim, Musa, dan Isa putra Maryam.\" (QS. Al-Ahzab: 7).</p>\n<h3>Penutup Para Nabi</h3>\n<p>Muhammad ﷺ adalah penutup para nabi dan rasul. Allah berfirman: \"Muhammad itu bukanlah bapak dari seorang laki-laki di antara kamu, tetapi dia adalah utusan Allah dan penutup para nabi.\" (QS. Al-Ahzab: 40).</p>"
   },
   {
     "id": 16,
@@ -159,7 +206,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Makkah (Mecca))",
+    "title_id": "Makkah (Mecca)",
+    "content_id": "<h2>Makkah al-Mukarramah</h2>\n<p>Makkah al-Mukarramah adalah kota suci Islam yang paling agung, terletak di Jazirah Arab (Arab Saudi saat ini). Di dalamnya terdapat Masjidil Haram dan Ka'bah yang menjadi kiblat seluruh umat Islam. Allah berfirman: \"Sesungguhnya rumah yang pertama kali dibangun untuk (tempat beribadah) manusia, ialah Baitullah yang di Bakkah (Makkah) yang diberkahi dan menjadi petunjuk bagi semua manusia.\" (QS. Ali Imran: 96).</p>\n<h3>Tempat-tempat Penting di Makkah</h3>\n<ul>\n<li><strong>Ka'bah:</strong> Kiblat seluruh muslimin, dibangun pertama kali oleh Ibrahim dan Ismail 'alaihimassalam.</li>\n<li><strong>Masjidil Haram:</strong> Masjid termulia di muka bumi.</li>\n<li><strong>Zamzam:</strong> Sumur yang mengalir sejak zaman Hajar.</li>\n<li><strong>Shafa dan Marwah:</strong> Tempat sa'i dalam ibadah haji dan umrah.</li>\n<li><strong>Gua Hira:</strong> Tempat turunnya wahyu pertama.</li>\n</ul>\n<h3>Hukum Memasuki Makkah</h3>\n<p>Makkah adalah tanah haram; diharamkan berperang di dalamnya, memotong pohonnya, dan masuknya orang kafir. قال الله تعالى: \"Sesungguhnya orang-orang musyrik itu najis, maka janganlah mereka mendekati Masjidil Haram sesudah tahun ini.\" (QS. At-Taubah: 28).</p>",
+    "content_ar": "<h2>مكة المكرمة</h2><p>مكة المكرمة هي أقدس المدن في الإسلام وموطن المسجد الحرام والكعبة المشرفة. وُلد فيها النبي محمد ﷺ عام 570 ميلادي تقريباً، وكانت مركزاً للتجارة والثقافة في شبه الجزيرة العربية قبل الإسلام.</p><h3>المكانة الدينية</h3><p>قال الله تعالى: {إِنَّ أَوَّلَ بَيْتٍ وُضِعَ لِلنَّاسِ لَلَّذِي بِبَكَّةَ مُبَارَكًا وَهُدًى لِّلْعَالَمِينَ} [آل عمران: 96]. الكعبة هي القبلة التي يتجه إليها المسلمون في صلاتهم، وهي البيت الذي بناه إبراهيم وإسماعيل عليهما السلام.</p><h3>الحج والعمرة</h3><p>مكة المكرمة وجهة الحج الواجب على كل مسلم مستطيع مرة في العمر، والعمرة المستحبة في أي وقت من السنة. تستقبل المدينة ملايين الحجاج سنوياً من شتى أنحاء العالم.</p><h3>التاريخ الإسلامي</h3><p>بدأ نزول الوحي في مكة، وقضى النبي ﷺ فيها ثلاثة عشر عاماً يدعو إلى الإسلام. في عام 8 هجري، فُتحت مكة فتحاً عظيماً دون قتال يُذكر، وعفا النبي ﷺ عن أهلها. لا يجوز لغير المسلمين دخول مكة المكرمة.</p>"
   },
   {
     "id": 17,
@@ -169,7 +220,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Madinah (Medina))",
+    "title_id": "Madinah (Medina)",
+    "content_id": "<h2>Madinah al-Munawwarah</h2>\n<p>Madinah al-Munawwarah adalah kota suci Islam kedua, terletak di barat laut Jazirah Arab. Di dalamnya terdapat Masjid Nabawi yang mulia dan makam Nabi Muhammad ﷺ. Nabi bersabda: \"Madinah itu haram (tanah suci), dari 'Ir hingga Tsaur.\" (HR. Bukhari-Muslim).</p>\n<h3>Keutamaan Madinah</h3>\n<p>Nabi ﷺ bersabda: \"Shalat di masjidku ini lebih utama dari seribu shalat di masjid lainnya, kecuali Masjidil Haram.\" (HR. Bukhari-Muslim). Dan: \"Tidaklah seseorang bersabar atas kerasnya hidup di Madinah melainkan aku akan menjadi pemberi syafaat baginya pada hari kiamat.\" (HR. Muslim).</p>\n<h3>Tempat-tempat Penting</h3>\n<ul>\n<li><strong>Masjid Nabawi:</strong> Masjid kedua paling mulia di muka bumi.</li>\n<li><strong>Raudhah:</strong> Antara mimbar dan rumah Nabi — \"taman dari taman-taman surga\".</li>\n<li><strong>Masjid Quba:</strong> Masjid pertama dibangun dalam Islam.</li>\n<li><strong>Pemakaman Baqi':</strong> Tempat dimakamkannya banyak sahabat dan keluarga Nabi.</li>\n</ul>",
+    "content_ar": "<h2>المدينة المنورة</h2><p>المدينة المنورة ثاني أقدس مدينة في الإسلام، وتضم المسجد النبوي الشريف حيث يرقد النبي محمد ﷺ. كانت تُعرف قديماً بيثرب، ثم سُميت المدينة بعد هجرة النبي ﷺ إليها.</p><h3>الهجرة النبوية</h3><p>هاجر النبي ﷺ إلى المدينة عام 622 ميلادي هرباً من اضطهاد قريش، وهذا الحدث العظيم بداية التقويم الهجري. استقبل أهل المدينة - الأنصار - النبيَّ ﷺ والمهاجرين بترحاب بالغ، وآثروهم على أنفسهم.</p><h3>المسجد النبوي</h3><p>المسجد النبوي من أعظم المساجد في العالم، وزيارته مستحبة للحجاج والمعتمرين. روضة من رياض الجنة بين قبر النبي ﷺ ومنبره. الصلاة فيه تعدل ألف صلاة في سائر المساجد إلا المسجد الحرام.</p><h3>المرحلة المدنية</h3><p>في المدينة اكتملت التشريعات الإسلامية، وقامت الدولة الإسلامية الأولى، ونزلت السور المدنية التي تتناول التشريع والمجتمع. توفي النبي ﷺ في المدينة ودُفن فيها عام 11 هجري.</p>"
   },
   {
     "id": 18,
@@ -179,7 +234,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Jerusalem (Al-Quds) في الإسلام",
+    "title_id": "Jerusalem (Al-Quds) dalam Islam",
+    "content_ar": "<h2>القدس في الإسلام</h2><p>القدس - بيت المقدس - ثالث الحرمين الشريفين ومهد الأنبياء. تحتضن المسجد الأقصى المبارك الذي أسري بالنبي محمد ﷺ إليه ليلة المعراج. قال الله تعالى: {سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَى الَّذِي بَارَكْنَا حَوْلَهُ} [الإسراء: 1].</p><h3>المسجد الأقصى</h3><p>المسجد الأقصى ثاني مسجد وُضع في الأرض بعد المسجد الحرام بأربعين عاماً. كانت القدس قبلة المسلمين الأولى قبل تحويل القبلة إلى الكعبة. الصلاة في المسجد الأقصى تعدل خمسمائة صلاة. مجمع المسجد يشمل الصخرة المشرفة وقبة الصخرة والمسجد الأقصى القبلي.</p><h3>الفتح الإسلامي</h3><p>فتح عمر بن الخطاب القدس عام 15 هجري سلماً، وكتب العهدة العمرية لأهلها ضامناً سلامتهم وكنائسهم. ثم صلاح الدين الأيوبي استعادها من الصليبيين عام 583 هجري بعد معركة حطين المشهورة.</p><h3>المكانة والفضل</h3><p>ثبت في الأحاديث استحباب الرحلة إلى المسجد الأقصى للصلاة فيه. يعدها المسلمون أرضاً محتلة واجب تحريرها. تحرير المسجد الأقصى قضية المسلمين الكبرى.</p>",
+    "content_id": "<h2>Yerusalem dalam Islam</h2><p>Yerusalem (Al-Quds, Baitul Maqdis) adalah kota suci ketiga dalam Islam, setelah Mekah dan Madinah. Di sinilah Masjidil Aqsha berada, tujuan Isra' Nabi Muhammad ﷺ. Allah berfirman: \"Maha Suci Allah yang telah memperjalankan hamba-Nya pada suatu malam dari Masjidil Haram ke Masjidil Aqsha yang telah Kami berkahi sekelilingnya.\" (Al-Isra': 1)</p><h3>Masjidil Aqsha</h3><p>Masjidil Aqsha adalah masjid kedua yang dibangun di bumi, empat puluh tahun setelah Masjidil Haram. Yerusalem adalah kiblat pertama umat Islam sebelum dipindahkan ke Ka'bah. Shalat di Masjidil Aqsha bernilai 500 kali lipat shalat biasa. Kompleks masjid mencakup Kubah Shakhrah yang ikonik.</p><h3>Penaklukan Islam</h3><p>Khalifah Umar bin Khattab menaklukkan Yerusalem secara damai pada tahun 15 H, dan memberikan jaminan keamanan kepada seluruh penduduknya melalui Perjanjian Umar. Kemudian Shalahuddin Al-Ayyubi merebut kembali Yerusalem dari tentara Salib pada 583 H setelah Pertempuran Hittin.</p><h3>Status Masa Kini</h3><p>Umat Islam memandang Yerusalem sebagai tanah yang diduduki secara tidak sah. Membebaskan Masjidil Aqsha adalah isu utama dunia Islam. Doa untuk pembebasan Palestina dan Yerusalem selalu hadir dalam shalat-shalat umat Islam di seluruh dunia."
   },
   {
     "id": 19,
@@ -189,7 +248,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "التوحيد",
+    "title_id": "Tauhid",
+    "content_ar": "<h2>التوحيد</h2>\n<p>التوحيد هو أساس الإسلام وجوهره، وهو الإيمان بأن الله واحد أحد لا شريك له في ربوبيته وألوهيته وأسمائه وصفاته. قال الله تعالى: ﴿قُلْ هُوَ اللَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ﴾ [الإخلاص: 1-4].</p>\n<h3>أقسام التوحيد</h3>\n<p>قسّم العلماء التوحيد إلى ثلاثة أقسام رئيسية:</p>\n<ol>\n<li><strong>توحيد الربوبية:</strong> الإقرار بأن الله هو الخالق والرازق والمدبر لشؤون الكون كله، لا شريك له في ذلك.</li>\n<li><strong>توحيد الألوهية:</strong> إفراد الله بالعبادة، فلا يُعبد إلا الله وحده. وهذا هو معنى لا إله إلا الله.</li>\n<li><strong>توحيد الأسماء والصفات:</strong> الإيمان بأسماء الله الحسنى وصفاته العليا على ما يليق بجلاله، دون تحريف أو تعطيل أو تشبيه أو تمثيل.</li>\n</ol>\n<h3>أهمية التوحيد</h3>\n<p>التوحيد هو أول واجب على المكلف، وهو الغاية من خلق الجن والإنس، قال تعالى: ﴿وَمَا خَلَقْتُ الْجِنَّ وَالْإِنسَ إِلَّا لِيَعْبُدُونِ﴾ [الذاريات: 56]. وكل الأنبياء والرسل دعوا إلى توحيد الله، قال تعالى: ﴿وَمَا أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِي إِلَيْهِ أَنَّهُ لَا إِلَهَ إِلَّا أَنَا فَاعْبُدُونِ﴾ [الأنبياء: 25].</p>\n<h3>ضد التوحيد</h3>\n<p>ضد التوحيد هو الشرك، وهو صرف شيء من العبادة لغير الله. والشرك أعظم الذنوب، قال تعالى: ﴿إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ﴾ [النساء: 48].</p>",
+    "content_id": "<h2>Tauhid dalam Islam</h2>\n<p>Tauhid adalah inti dan dasar ajaran Islam, yaitu keyakinan bahwa Allah adalah Esa, tidak ada sekutu bagi-Nya dalam rububiyah (ketuhanan), uluhiyah (peribadahan), maupun dalam asma dan sifat-Nya. Allah berfirman: \"Katakanlah: Dia-lah Allah, Yang Maha Esa. Allah adalah tempat bergantung segala sesuatu. Dia tidak beranak dan tidak pula diperanakkan. Dan tidak ada seorang pun yang setara dengan Dia.\" (QS. Al-Ikhlas: 1-4).</p>\n<h3>Pembagian Tauhid</h3>\n<p>Para ulama membagi tauhid menjadi tiga bagian utama:</p>\n<ol>\n<li><strong>Tauhid Rububiyah:</strong> Mengakui bahwa hanya Allah yang menciptakan, memberi rezeki, dan mengatur seluruh alam semesta.</li>\n<li><strong>Tauhid Uluhiyah:</strong> Mengesakan Allah dalam ibadah — hanya Allah yang berhak disembah. Inilah makna \"Laa ilaaha illallah\".</li>\n<li><strong>Tauhid Asma wa Sifat:</strong> Beriman kepada nama-nama dan sifat-sifat Allah sebagaimana yang terdapat dalam Al-Qur'an dan Sunnah, tanpa menyeleweng, menolak, menyerupakan, atau menggambarkan.</li>\n</ol>\n<h3>Pentingnya Tauhid</h3>\n<p>Tauhid adalah kewajiban pertama bagi setiap mukallaf. Allah berfirman: \"Dan tidaklah Aku ciptakan jin dan manusia melainkan untuk beribadah kepada-Ku.\" (QS. Adz-Dzariyat: 56). Semua nabi dan rasul diutus untuk menegakkan tauhid.</p>\n<h3>Lawan Tauhid</h3>\n<p>Lawan tauhid adalah syirik, yaitu memalingkan sebagian ibadah kepada selain Allah. Syirik adalah dosa terbesar. Allah berfirman: \"Sesungguhnya Allah tidak mengampuni dosa syirik, dan Dia mengampuni segala dosa selain dari (syirik) itu bagi siapa yang dikehendaki-Nya.\" (QS. An-Nisa: 48).</p>"
   },
   {
     "id": 20,
@@ -199,7 +262,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "الCompanions of the Prophet (Sahabah)",
+    "title_id": "Companions of the Prophet (Sahabah)",
+    "content_ar": "<h2>أصحاب النبي ﷺ</h2><p>الصحابة الكرام رضي الله عنهم هم الذين آمنوا بالنبي محمد ﷺ وصحبوه ومات على الإسلام. وصفهم الله تعالى بقوله: {مُّحَمَّدٌ رَّسُولُ اللَّهِ وَالَّذِينَ مَعَهُ أَشِدَّاءُ عَلَى الْكُفَّارِ رُحَمَاءُ بَيْنَهُمْ} [الفتح: 29].</p><h3>فضل الصحابة</h3><p>الصحابة أفضل هذه الأمة بعد الأنبياء. قال النبي ﷺ: \"خير الناس قرني، ثم الذين يلونهم\". أهل السنة والجماعة يحبون جميع الصحابة ويترضون عنهم ويكفون عن الخوض فيما شجر بينهم.</p><h3>أبرز الصحابة</h3><p>أبو بكر الصديق أول الخلفاء وأفضل الأمة بعد النبي ﷺ. عمر بن الخطاب الفاروق موسع الدولة الإسلامية. عثمان بن عفان ذو النورين جامع القرآن. علي بن أبي طالب ابن عم النبي وصهره. أم المؤمنين عائشة رضي الله عنها أكثر من روى الحديث من النساء.</p><h3>الأنصار والمهاجرون</h3><p>الصحابة فريقان: المهاجرون الذين هجروا مكة لله، والأنصار الذين نصروا النبي ﷺ في المدينة. أخى النبي ﷺ بينهم في واحدة من أعظم التجارب الأخوية في التاريخ.</p>",
+    "content_id": "<h2>Para Sahabat Nabi ﷺ</h2><p>Para sahabat Nabi ﷺ adalah orang-orang yang beriman, berjumpa dengan Nabi, dan meninggal dalam keadaan Islam. Allah memuji mereka dalam Al-Quran: \"Muhammad adalah utusan Allah dan orang-orang yang bersama dengan dia bersikap keras terhadap orang-orang kafir, tetapi berkasih sayang sesama mereka.\" (Al-Fath: 29)</p><h3>Kedudukan Para Sahabat</h3><p>Ahlus Sunnah meyakini bahwa para sahabat adalah generasi terbaik umat Islam setelah para nabi. Rasulullah ﷺ bersabda: \"Sebaik-baik manusia adalah generasiku, kemudian generasi berikutnya, kemudian generasi berikutnya.\" Mencintai para sahabat adalah bagian dari iman; mencela mereka adalah perkara yang sangat terlarang.</p><h3>Sahabat Utama</h3><p>Abu Bakar Ash-Shiddiq: khalifah pertama dan sahabat terdekat Nabi. Umar bin Khattab: khalifah kedua, dikenal dengan keadilannya. Utsman bin Affan: khalifah ketiga, yang mengumpulkan Al-Quran. Ali bin Abi Thalib: sepupu dan menantu Nabi, khalifah keempat. Aisyah binti Abu Bakar: Ummul Mukminin yang meriwayatkan ribuan hadits.</p><h3>Kaum Muhajirin dan Anshar</h3><p>Sahabat terbagi dua: Muhajirin yang berhijrah dari Mekah, dan Anshar penduduk Madinah yang menyambut dan menolong mereka. Persaudaraan antara keduanya menjadi teladan abadi dalam sejarah Islam.</p>"
   },
   {
     "id": 21,
@@ -209,7 +276,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "(Mothers of the Believers (Ummahat al-Mu'minin))",
+    "title_id": "Mothers of the Believers (Ummahat al-Mu'minin)",
+    "content_ar": "<h2>أمهات المؤمنين</h2><p>أمهات المؤمنين هن زوجات النبي محمد صلى الله عليه وسلم اللواتي شرّفهن الله بهذا اللقب. قال الله تعالى: ﴿النَّبِيُّ أَوْلَىٰ بِالْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ وَأَزْوَاجُهُ أُمَّهَاتُهُمْ﴾ [الأحزاب: 6].</p><h3>أمهات المؤمنين</h3><p>خديجة بنت خويلد، وسودة بنت زمعة، وعائشة بنت أبي بكر، وحفصة بنت عمر، وزينب بنت خزيمة، وأم سلمة، وزينب بنت جحش، وجويرية بنت الحارث، وأم حبيبة، وصفية بنت حيي، وميمونة بنت الحارث رضي الله عنهن.</p><h3>أفضلهن</h3><p>خديجة رضي الله عنها أول من آمن بالنبي وأعظمهن أثراً في صدر الإسلام. وعائشة رضي الله عنها أعلمهن وأكثرهن رواية للحديث.</p>",
+    "content_id": "<h2>Para Ibu Kaum Mukminin</h2><p>Ummahatul Mukminin adalah istri-istri Nabi Muhammad ﷺ yang dimuliakan Allah dengan gelar tersebut. Allah berfirman: \"Nabi itu (hendaknya) lebih utama bagi orang-orang mukmin dari diri mereka sendiri dan istri-istrinya adalah ibu-ibu mereka.\" (QS. Al-Ahzab: 6).</p><h3>Para Ibu Kaum Mukminin</h3><p>Khadijah bint Khuwaylid, Saudah bint Zam'ah, Aisyah bint Abi Bakr, Hafshah bint Umar, Zainab bint Khuzaimah, Ummu Salamah, Zainab bint Jahsy, Juwairiyah bint al-Harits, Ummu Habibah, Shafiyyah bint Huyay, dan Maimunah bint al-Harits radhiyallahu 'anhunna.</p><h3>Yang Paling Utama</h3><p>Khadijah radhiyallahu 'anha adalah orang pertama yang beriman kepada Nabi dan yang paling besar jasanya di awal Islam. Sedangkan Aisyah radhiyallahu 'anha adalah yang paling berilmu dan paling banyak meriwayatkan hadits.</p>"
   },
   {
     "id": 22,
@@ -219,7 +290,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "Ahl al-Bayt — الProphet's Family",
+    "title_id": "Ahl al-Bayt — Prophet's Family",
+    "content_ar": "<h2>أهل البيت النبوي</h2><p>أهل البيت هم آل النبي محمد صلى الله عليه وسلم الذين حرّمت عليهم الصدقة، وأُمر المؤمنون بمحبتهم. قال الله تعالى: ﴿إِنَّمَا يُرِيدُ اللَّهُ لِيُذْهِبَ عَنكُمُ الرِّجْسَ أَهْلَ الْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا﴾ [الأحزاب: 33].</p><h3>من هم أهل البيت؟</h3><p>أهل البيت في الأصح: آل النبي من بني هاشم وبني المطلب الذين حرّمت عليهم الصدقة، وهم: علي وفاطمة والحسن والحسين وذرياتهم، وزوجات النبي من باب أوسع.</p><h3>محبة أهل البيت</h3><p>محبة آل البيت واجبة ومن علامات الإيمان. قال النبي: \"أذكركم الله في أهل بيتي\" [رواه مسلم]. ولا يجوز سبهم ولا الغلو فيهم.</p>",
+    "content_id": "<h2>Ahli Bait Nabi</h2><p>Ahli Bait adalah keluarga Nabi Muhammad ﷺ yang diharamkan bagi mereka menerima sedekah, dan kaum mukminin diperintahkan untuk mencintai mereka. Allah berfirman: \"Sesungguhnya Allah bermaksud hendak menghilangkan dosa dari kamu, wahai ahlul bait, dan membersihkan kamu sebersih-bersihnya.\" (QS. Al-Ahzab: 33).</p><h3>Siapa Ahli Bait?</h3><p>Ahli Bait menurut pendapat yang paling kuat adalah keluarga Nabi dari Bani Hasyim dan Bani al-Muththalib yang diharamkan bagi mereka sedekah, yaitu: Ali, Fatimah, Hasan, Husain, dan keturunan mereka. Juga termasuk istri-istri Nabi dalam arti yang lebih luas.</p><h3>Kecintaan kepada Ahli Bait</h3><p>Mencintai Ahli Bait adalah kewajiban dan tanda iman. Nabi bersabda: \"Aku ingatkan kalian tentang Allah dalam perlakuan kalian kepada Ahli Baitku.\" (HR. Muslim). Tidak boleh mencaci mereka dan tidak boleh berlebih-lebihan dalam mengagungkan mereka.</p>"
   },
   {
     "id": 23,
@@ -229,7 +304,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "Shariah — الإسلامي Law",
+    "title_id": "Shariah — Islam Law",
+    "content_ar": "<h2>الشريعة الإسلامية</h2>\n<p>الشريعة الإسلامية هي منهج الله الكامل للحياة الإنسانية، شاملةً العقيدة والعبادة والأخلاق والمعاملات. قال الله تعالى: ﴿ثُمَّ جَعَلْنَاكَ عَلَىٰ شَرِيعَةٍ مِّنَ الْأَمْرِ فَاتَّبِعْهَا﴾ [الجاثية: 18].</p>\n<h3>مصادر الشريعة</h3>\n<ol>\n<li><strong>القرآن الكريم:</strong> الأصل الأول للتشريع.</li>\n<li><strong>السنة النبوية:</strong> الأصل الثاني المبينة للقرآن.</li>\n<li><strong>الإجماع:</strong> اتفاق العلماء على حكم.</li>\n<li><strong>القياس:</strong> إلحاق مسألة بأخرى لاشتراكهما في العلة.</li>\n</ol>\n<h3>مقاصد الشريعة</h3>\n<p>الشريعة جاءت لحفظ الضروريات الخمس: الدين والنفس والعقل والنسل والمال. وهذه المقاصد هي المنطلق لفهم كثير من الأحكام الشرعية.</p>\n<h3>خصائص الشريعة</h3>\n<p>الشريعة ربانية المصدر، شاملة لجميع مجالات الحياة، صالحة لكل زمان ومكان، ومتوازنة بين الروحي والمادي، وبين الفرد والمجتمع.</p>",
+    "content_id": "<h2>Syariat Islam</h2>\n<p>Syariat Islam adalah sistem Allah yang sempurna untuk kehidupan manusia, mencakup akidah, ibadah, akhlak, dan muamalah. Allah berfirman: \"Kemudian Kami jadikan kamu berada di atas suatu syariat (peraturan) dari urusan (agama) itu, maka ikutilah syariat itu.\" (QS. Al-Jatsiyah: 18).</p>\n<h3>Sumber-sumber Syariat</h3>\n<ol>\n<li><strong>Al-Qur'an:</strong> Sumber pertama perundangan Islam.</li>\n<li><strong>Sunnah Nabawiyah:</strong> Sumber kedua yang menjelaskan Al-Qur'an.</li>\n<li><strong>Ijma':</strong> Kesepakatan para ulama atas suatu hukum.</li>\n<li><strong>Qiyas:</strong> Menganalogikan suatu masalah dengan masalah lain karena kesamaan illat.</li>\n</ol>\n<h3>Maqashid Syariah</h3>\n<p>Syariat datang untuk menjaga lima hal pokok (dharuriyyat al-khams): agama, jiwa, akal, keturunan, dan harta. Maqashid ini menjadi landasan pemahaman banyak hukum syariat.</p>\n<h3>Ciri-ciri Syariat</h3>\n<p>Syariat bersumber dari Allah, mencakup semua aspek kehidupan, berlaku untuk setiap zaman dan tempat, dan seimbang antara spiritual dan materi, antara individu dan masyarakat.</p>"
   },
   {
     "id": 24,
@@ -239,7 +318,11 @@
     "category": "jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "الHanafi Madhab",
+    "title_id": "Hanafi Madhab",
+    "content_ar": "<h2>المذهب الحنفي</h2><p>المذهب الحنفي أحد المذاهب الفقهية الأربعة المعتبرة، أسسه الإمام أبو حنيفة النعمان بن ثابت الكوفي (80-150هـ). يُعدّ المذهب الأوسع انتشاراً في العالم الإسلامي اليوم، ويهيمن في تركيا وسوريا والعراق وباكستان وأفغانستان وبلدان آسيا الوسطى وشبه القارة الهندية.</p><h3>منهج الحنفية</h3><p>يتميز المذهب الحنفي بالاعتماد الكبير على الرأي والقياس والاستحسان. قال أبو حنيفة: \"إني آخذ بكتاب الله، فما لم أجد فبسنة رسول الله، فإن لم أجد فبقول الصحابة\". ويُنسب إليه توسع في استخدام الاستحسان والمصلحة المرسلة.</p><h3>أبرز علماء الحنفية</h3><p>أبو يوسف القاضي، ومحمد بن الحسن الشيباني، والكرخي، والجصاص، والسرخسي، وابن عابدين صاحب رد المحتار.</p>",
+    "content_id": "<h2>Mazhab Hanafi</h2><p>Mazhab Hanafi adalah salah satu dari empat mazhab fikih yang diakui, didirikan oleh Imam Abu Hanifah an-Nu'man bin Tsabit al-Kufi (80-150 H). Ini adalah mazhab dengan pengikut terbanyak di dunia Islam saat ini, mendominasi di Turki, Suriah, Irak, Pakistan, Afghanistan, Asia Tengah, dan anak benua India.</p><h3>Metode Hanafi</h3><p>Mazhab Hanafi dikenal dengan banyak menggunakan ra'yu (pendapat), qiyas (analogi), dan istihsan (preferensi hukum). Abu Hanifah berkata: \"Aku berpegang pada Kitab Allah; jika tidak ada, maka pada Sunnah Rasulullah; jika tidak ada, maka pada pendapat sahabat.\"</p><h3>Ulama Hanafi Terkemuka</h3><p>Abu Yusuf al-Qadhi, Muhammad bin Hasan asy-Syaibani, Al-Karkhi, Al-Jassash, As-Sarakhsi, dan Ibn Abidin (pengarang Radd al-Muhtar).</p>"
   },
   {
     "id": 25,
@@ -249,7 +332,11 @@
     "category": "jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-02-27"
+    "updated_at": "2026-02-27",
+    "title_ar": "الMaliki Madhab",
+    "title_id": "Maliki Madhab",
+    "content_ar": "<h2>المذهب المالكي</h2><p>المذهب المالكي أحد المذاهب الفقهية الأربعة، أسسه الإمام مالك بن أنس الأصبحي (93-179هـ) إمام دار الهجرة. يسود في شمال أفريقيا (المغرب والجزائر وتونس وليبيا ومصر) وغرب أفريقيا والسودان وبعض دول الخليج.</p><h3>منهج المالكية</h3><p>يتميز المذهب المالكي بالاعتداد بعمل أهل المدينة دليلاً فقهياً، إذ يرى مالك أن اتفاق أهل المدينة حجة لأنهم توارثوا العمل عن النبي. كما يعتمد على المصلحة المرسلة وسد الذرائع.</p><h3>أبرز علماء المالكية</h3><p>ابن القاسم، وسحنون، والقاضي عياض، وابن رشد، وابن خلدون، والشاطبي صاحب الموافقات.</p>",
+    "content_id": "<h2>Mazhab Maliki</h2><p>Mazhab Maliki adalah salah satu dari empat mazhab fikih, didirikan oleh Imam Malik bin Anas al-Ashbahi (93-179 H), Imam Darul Hijrah. Mazhab ini mendominasi di Afrika Utara (Maroko, Aljazair, Tunisia, Libya, Mesir), Afrika Barat, Sudan, dan sebagian negara Teluk.</p><h3>Metode Maliki</h3><p>Mazhab Maliki dikenal dengan mengandalkan amal ahlu Madinah sebagai dalil fikih, karena Malik memandang kesepakatan penduduk Madinah sebagai hujjah yang diwariskan dari Nabi. Juga menggunakan maslahah mursalah dan sadd adz-dzara'i.</p><h3>Ulama Maliki Terkemuka</h3><p>Ibn al-Qasim, Sahnun, Qadhi Iyadh, Ibn Rusyd, Ibn Khaldun, dan Asy-Syathibi (pengarang Al-Muwafaqat).</p>"
   },
   {
     "id": 26,
@@ -259,7 +346,11 @@
     "category": "jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الShafi'i Madhab",
+    "title_id": "Shafi'i Madhab",
+    "content_ar": "<h2>المذهب الشافعي</h2><p>المذهب الشافعي أحد المذاهب الفقهية الأربعة، أسسه الإمام محمد بن إدريس الشافعي (150-204هـ). يسود في مصر وإندونيسيا وماليزيا وجنوب شرق آسيا واليمن وكرياليا وبعض مناطق الشام.</p><h3>مكانة الشافعي</h3><p>يُعدّ الشافعي مؤسس علم أصول الفقه من خلال كتابه الرسالة، وهو أول من أصّل لمنهجية الاستدلال الفقهي. وقد تتلمذ على يد مالك وابن الحسن الشيباني.</p><h3>منهج الشافعية</h3><p>يعتمد الشافعية على القرآن والسنة والإجماع والقياس، مع اعتبار السنة الآحاد حجة في العقيدة والفقه، ورد الاستحسان.</p>",
+    "content_id": "<h2>Mazhab Syafi'i</h2><p>Mazhab Syafi'i adalah salah satu dari empat mazhab fikih, didirikan oleh Imam Muhammad bin Idris asy-Syafi'i (150-204 H). Mendominasi di Mesir, Indonesia, Malaysia, Asia Tenggara, Yaman, dan sebagian wilayah Syam.</p><h3>Kedudukan Asy-Syafi'i</h3><p>Asy-Syafi'i dianggap sebagai pendiri ilmu ushul fikih melalui kitabnya Ar-Risalah, dan ia adalah orang pertama yang mensistematisasikan metodologi penalaran fikih. Ia berguru kepada Imam Malik dan Muhammad bin Hasan asy-Syaibani.</p><h3>Metode Syafi'i</h3><p>Mazhab Syafi'i bersandar pada Al-Qur'an, Sunnah, ijma', dan qiyas, dengan menganggap hadits ahad sebagai hujjah dalam akidah dan fikih, dan menolak istihsan.</p>"
   },
   {
     "id": 27,
@@ -269,7 +360,11 @@
     "category": "jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الHanbali Madhab",
+    "title_id": "Hanbali Madhab",
+    "content_ar": "<h2>المذهب الحنبلي</h2><p>المذهب الحنبلي أحد المذاهب الفقهية الأربعة، أسسه الإمام أحمد بن حنبل الشيباني (164-241هـ). يسود في المملكة العربية السعودية وقطر والكويت وعند كثير من السلفيين في العالم.</p><h3>مكانة أحمد</h3><p>الإمام أحمد إمام أهل السنة، صبر على المحنة الكبرى (مسألة خلق القرآن) وثبت على الحق. قال الشافعي: \"خرجت من بغداد وما خلفت بها أتقى ولا أفقه من أحمد بن حنبل\".</p><h3>منهج الحنابلة</h3><p>يتميز بالتمسك بالنصوص والأثر، وتقديم الحديث الضعيف على الرأي عند بعضهم، والتوسع في قبول الأحاديث المرفوعة والموقوفة.</p>",
+    "content_id": "<h2>Mazhab Hanbali</h2><p>Mazhab Hanbali adalah salah satu dari empat mazhab fikih, didirikan oleh Imam Ahmad bin Hanbal asy-Syaibani (164-241 H). Mendominasi di Arab Saudi, Qatar, Kuwait, dan banyak kalangan Salafi di seluruh dunia.</p><h3>Kedudukan Imam Ahmad</h3><p>Imam Ahmad adalah Imam Ahlus Sunnah yang bersabar dalam Mihnah (fitnah tentang penciptaan Al-Qur'an) dan teguh di atas kebenaran. Asy-Syafi'i berkata: \"Aku meninggalkan Baghdad dan tidak meninggalkan di sana orang yang lebih bertakwa dan lebih berilmu dari Ahmad bin Hanbal.\"</p><h3>Metode Hanbali</h3><p>Dikenal dengan berpegang teguh pada nash dan atsar, mendahulukan hadits dha'if dari ra'yu menurut sebagian mereka, dan lebih luas dalam menerima hadits marfu' dan mauquf.</p>"
   },
   {
     "id": 28,
@@ -279,7 +374,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Ethics (Akhlaq)",
+    "title_id": "Islam Ethics (Akhlaq)",
+    "content_ar": "<h2>الأخلاق الإسلامية</h2><p>الأخلاق الإسلامية منظومة متكاملة من القيم والفضائل التي أمر بها الإسلام. قال النبي صلى الله عليه وسلم: \"إنما بُعثت لأتمم مكارم الأخلاق\" [رواه البيهقي]. وقال الله تعالى: ﴿وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ﴾ [القلم: 4].</p><h3>أبرز الأخلاق الإسلامية</h3><ul><li>الصدق والأمانة</li><li>الكرم والسخاء</li><li>الحياء والعفة</li><li>العدل والإنصاف</li><li>التواضع وترك الكبر</li><li>الرحمة بالضعفاء والحيوانات</li></ul><h3>الصلة بين الأخلاق والعبادة</h3><p>الأخلاق ثمرة الإيمان والعبادة. فالصلاة تنهى عن الفحشاء والمنكر، والزكاة تزكي النفس، والصيام يربي الإرادة والضبط.</p>",
+    "content_id": "<h2>Akhlak Islam</h2><p>Akhlak Islam adalah sistem nilai dan keutamaan yang komprehensif yang diperintahkan oleh Islam. Nabi ﷺ bersabda: \"Sesungguhnya aku diutus hanya untuk menyempurnakan akhlak yang mulia.\" (HR. Baihaqi). Allah berfirman: \"Dan sesungguhnya engkau benar-benar berbudi pekerti yang agung.\" (QS. Al-Qalam: 4).</p><h3>Akhlak Islam yang Utama</h3><ul><li>Kejujuran dan amanah</li><li>Kedermawanan dan kemurahan hati</li><li>Rasa malu dan kesucian</li><li>Keadilan dan kejujuran</li><li>Kerendahan hati dan menjauhi kesombongan</li><li>Kasih sayang kepada yang lemah dan hewan</li></ul><h3>Hubungan Akhlak dan Ibadah</h3><p>Akhlak adalah buah dari iman dan ibadah. Shalat mencegah dari perbuatan keji dan munkar, zakat menyucikan jiwa, dan puasa mendidik kehendak dan pengendalian diri.</p>"
   },
   {
     "id": 29,
@@ -289,7 +388,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Sufism (Tasawwuf) في الإسلام",
+    "title_id": "Sufism (Tasawwuf) dalam Islam",
+    "content_ar": "<h2>التصوف في الإسلام</h2>\n<p>التصوف مصطلح يُطلق على ممارسات روحية تهدف إلى التقرب من الله وتزكية النفس. وقد نشأت الطرق الصوفية في القرن الثالث الهجري وما بعده. وموقف العلماء منه متفاوت.</p>\n<h3>الإيجابيات المشروعة</h3>\n<p>الزهد في الدنيا ومحبة الله والمراقبة والتوبة والإخلاص هي قيم مشروعة أصيلة في الإسلام مأخوذة من الكتاب والسنة.</p>\n<h3>الإشكاليات في التصوف</h3>\n<p>يرى كثير من أهل السنة أن في التصوف أموراً مرفوضة شرعاً، منها: تأسيس الطرق الصوفية كمؤسسة دينية بها بيعة وإذن خاص، والدعاء للأولياء والاستغاثة بهم، والتبرك بقبورهم. وهذه من أوجه الشرك المحرمة.</p>\n<h3>الموقف الصحيح</h3>\n<p>الإسلام يأمر بالزهد والورع وتزكية النفس والذكر، ولكن بالطريقة النبوية المشروعة لا بالابتداع. قال الله تعالى: ﴿وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَانتَهُوا﴾ [الحشر: 7].</p>",
+    "content_id": "<h2>Tasawuf dalam Islam</h2>\n<p>Tasawuf adalah istilah yang digunakan untuk praktik-praktik spiritual yang bertujuan mendekatkan diri kepada Allah dan menyucikan jiwa. Tarikat-tarikat sufi mulai berkembang pada abad ketiga Hijriyah dan seterusnya. Sikap para ulama terhadapnya beragam.</p>\n<h3>Hal-hal Positif yang Disyariatkan</h3>\n<p>Zuhud dari dunia, cinta kepada Allah, muraqabah, taubat, dan ikhlas adalah nilai-nilai yang sah dalam Islam yang diambil dari Al-Qur'an dan Sunnah.</p>\n<h3>Masalah-masalah dalam Tasawuf</h3>\n<p>Banyak ulama Ahlus Sunnah berpandangan bahwa dalam tasawuf terdapat hal-hal yang tertolak secara syariat, di antaranya: mendirikan tarikat sebagai institusi keagamaan dengan baiat dan izin khusus, berdoa dan meminta pertolongan kepada wali yang telah wafat, dan bertabarruk dengan kubur mereka. Ini termasuk bentuk-bentuk syirik yang diharamkan.</p>\n<h3>Sikap yang Benar</h3>\n<p>Islam memerintahkan zuhud, wara', tazkiyatun nafs, dan dzikir — tetapi dengan cara yang disyariatkan oleh Nabi, bukan dengan bid'ah. Allah berfirman: \"Apa yang diberikan Rasul kepadamu maka terimalah. Dan apa yang dilarangnya bagimu maka tinggalkanlah.\" (QS. Al-Hasyr: 7).</p>"
   },
   {
     "id": 30,
@@ -299,7 +402,10 @@
     "category": "culture",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Education System",
+    "title_id": "Islam Education System",
+    "content_ar": "<h2>التعليم في الإسلام</h2><p>أول آية نزلت من القرآن الكريم كانت أمراً بالقراءة: {اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ} [العلق: 1]. طلب العلم فريضة على كل مسلم ومسلمة. جعل الإسلام العلم أساس النهضة والعبادة الحقيقية.</p><h3>فضل العلم والعلماء</h3><p>قال الله تعالى: {يَرْفَعِ اللَّهُ الَّذِينَ آمَنُوا مِنكُمْ وَالَّذِينَ أُوتُوا الْعِلْمَ دَرَجَاتٍ} [المجادلة: 11]. قال النبي ﷺ: \"من سلك طريقاً يلتمس فيه علماً سهل الله له طريقاً إلى الجنة\". فضل العالم على العابد كفضل القمر على سائر الكواكب.</p><h3>منهج التعليم الإسلامي</h3><p>بدأ التعليم الإسلامي في المساجد والكتاتيب، ثم تطور إلى المدارس النظامية كالمدرسة النظامية ببغداد. شمل التعليم: القرآن والحديث والفقه واللغة والمنطق والطب والرياضيات والفلك. الإجازة العلمية نظام فريد لضمان صحة النقل ووثاقة السند.</p><h3>التراث التعليمي</h3><p>أسهم المسلمون في الحضارة الإنسانية بترجمة العلوم اليونانية والهندية وإضافة الجديد إليها. مكتبات بغداد وقرطبة والقاهرة كانت منارات للعلم. علماء كابن سينا والخوارزمي والبيروني أثروا الطب والرياضيات والفيزياء."
   },
   {
     "id": 31,
@@ -309,7 +415,11 @@
     "category": "worship",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Complete Guide to Zakat)",
+    "title_id": "Complete Guide to Zakat",
+    "content_ar": "<h2>الزكاة</h2><p>الزكاة الركن الثالث من أركان الإسلام، فريضة مالية واجبة على كل مسلم بلغ ماله النصاب وحال عليه الحول. قال الله تعالى: {وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ} [البقرة: 43]. قُرنت الزكاة بالصلاة في القرآن أكثر من ثمانية وعشرين مرة.</p><h3>النصاب والحول</h3><p>نصاب الزكاة في الذهب: 85 جراماً. وفي الفضة: 595 جراماً. وفي النقد: ما يعادل نصاب الفضة. الحول: مرور سنة قمرية كاملة على النصاب. مقدار زكاة الأموال والتجارة: 2.5% من المال الزكوي. زكاة الزروع: العُشر في الري بالمطر، ونصف العُشر في الري بالتكلفة.</p><h3>مصارف الزكاة</h3><p>حدد الله تعالى مصارف الزكاة الثمانية: {إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ وَالْعَامِلِينَ عَلَيْهَا وَالْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِي الرِّقَابِ وَالْغَارِمِينَ وَفِي سَبِيلِ اللَّهِ وَابْنِ السَّبِيلِ} [التوبة: 60].</p><h3>زكاة الفطر</h3><p>زكاة الفطر واجبة على كل مسلم عن نفسه ومن تلزمه نفقتهم. مقدارها صاع من طعام البلد (نحو 2.5 - 3 كيلوجرام). تُخرج قبل صلاة العيد.</p>",
+    "content_id": "<h2>Panduan Zakat</h2><p>Zakat adalah rukun Islam ketiga, ibadah wajib berupa mengeluarkan sebagian harta kepada yang berhak menerimanya. Allah berfirman: \"Dirikanlah shalat dan tunaikanlah zakat.\" (Al-Baqarah: 43). Zakat mensucikan harta dan jiwa pemiliknya, dan merupakan jaring sosial Islam untuk membantu kaum dhuafa.</p><h3>Nisab dan Haul</h3><p>Nisab zakat emas: 85 gram. Nisab perak: 595 gram. Nisab uang mengikuti salah satunya (mayoritas ulama mengikuti nisab perak untuk memberi manfaat lebih luas). Haul: berlalu satu tahun hijriah. Zakat harta perniagaan dan tabungan: 2,5% dari total harta zakat.</p><h3>Delapan Golongan Penerima Zakat</h3><p>Allah telah menetapkan 8 golongan mustahiq zakat dalam QS At-Taubah: 60: fakir, miskin, amil zakat, mualaf, memerdekakan budak, orang yang berhutang (gharim), fi sabilillah, dan ibnu sabil (musafir yang kehabisan bekal).</p><h3>Zakat Fitrah</h3><p>Zakat fitrah wajib atas setiap Muslim yang mampu, termasuk anak kecil yang dinafkahi. Besarnya satu sha' makanan pokok daerah setempat (sekitar 2,5-3 kg beras). Dikeluarkan sebelum shalat Idul Fitri. Berfungsi menyucikan puasa Ramadan dari hal-hal yang menguranginya.</p>"
   },
   {
     "id": 32,
@@ -319,7 +429,11 @@
     "category": "family",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Guide to الإسلامي Marriage (Nikah)",
+    "title_id": "Guide to Islam Marriage (Nikah)",
+    "content_ar": "<h2>النكاح في الإسلام</h2><p>النكاح سنة الأنبياء والمرسلين، ونظام اجتماعي رباني لحفظ النسل وصون الأعراض وتحقيق السكينة. قال الله تعالى: {وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً} [الروم: 21].</p><h3>أركان النكاح وشروطه</h3><p>أركان النكاح: الإيجاب والقبول. شروطه: الولي، والشاهدان العادلان، والصداق. لا نكاح إلا بولي وشاهدين، كما قال النبي ﷺ. الصداق حق المرأة يجب على الزوج وإن قَلَّ.</p><h3>اختيار الزوج والزوجة</h3><p>أوصى النبي ﷺ: \"تنكح المرأة لأربع: لمالها ولحسبها وجمالها ولدينها، فاظفر بذات الدين تربت يداك\". ينبغي التحري في الاختيار: الدين والخلق أولاً، ثم المناسبة في الأعراف والعادات.</p><h3>حقوق الزوجين</h3><p>للزوج: الطاعة في المعروف، وحسن التبعل، وصون البيت. للزوجة: المهر، والنفقة، والمعاشرة بالمعروف، والعدل في التعدد. قال ﷺ: \"خيركم خيركم لأهله وأنا خيركم لأهلي\".</p>",
+    "content_id": "<h2>Panduan Nikah dalam Islam</h2><p>Pernikahan dalam Islam adalah ibadah dan sunnah para nabi. Allah berfirman: \"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang.\" (Ar-Rum: 21)</p><h3>Rukun dan Syarat Nikah</h3><p>Rukun nikah: ijab dan kabul. Syarat sahnya: wali nikah, dua saksi laki-laki yang adil, dan mahar. Rasulullah ﷺ bersabda: \"Tidak sah nikah kecuali dengan wali.\" Mahar adalah hak wanita yang wajib dibayar suami, meskipun sedikit.</p><h3>Memilih Pasangan</h3><p>Rasulullah ﷺ bersabda: \"Wanita dinikahi karena empat hal: hartanya, nasabnya, kecantikannya, dan agamanya. Maka pilihlah yang memiliki agama, niscaya kamu akan beruntung.\" Agama dan akhlak adalah kriteria utama dalam memilih pasangan.</p><h3>Hak dan Kewajiban Suami Istri</h3><p>Hak istri: mahar, nafkah (sandang-pangan-papan), perlakuan baik, dan keadilan jika berpoligami. Kewajiban istri: taat kepada suami dalam kebaikan, menjaga kehormatan diri dan rumah tangga. Rasulullah ﷺ bersabda: \"Sebaik-baik kalian adalah yang terbaik kepada istrinya, dan aku adalah yang terbaik di antara kalian kepada istriku.\"</p>"
   },
   {
     "id": 33,
@@ -329,7 +443,11 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Death and the Afterlife في الإسلام",
+    "title_id": "Death and the Afterlife dalam Islam",
+    "content_ar": "<h2>الموت والحياة الآخرة في الإسلام</h2>\n<p>الموت حق مؤكد لكل نفس. قال الله تعالى: ﴿كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ﴾ [آل عمران: 185]. والإيمان بما بعد الموت ركن من أركان الإيمان.</p>\n<h3>مراحل ما بعد الموت</h3>\n<ol>\n<li><strong>الموت:</strong> خروج الروح من الجسد.</li>\n<li><strong>البرزخ:</strong> عالم القبور من الموت إلى القيامة. فيه نعيم القبر أو عذابه.</li>\n<li><strong>البعث:</strong> إحياء الأجساد يوم القيامة.</li>\n<li><strong>الحشر:</strong> جمع الخلائق للحساب.</li>\n<li><strong>الحساب والميزان:</strong> وزن الأعمال والحكم عليها.</li>\n<li><strong>الجنة أو النار:</strong> الجزاء الأبدي.</li>\n</ol>\n<h3>الاستعداد للموت</h3>\n<p>قال النبي صلى الله عليه وسلم: \"أكثروا من ذكر هاذم اللذات\" يعني الموت [رواه الترمذي وابن ماجه]. والاستعداد للموت يكون بإحسان العمل وتصفية النفس والتوبة.</p>",
+    "content_id": "<h2>Kematian dan Kehidupan Akhirat dalam Islam</h2>\n<p>Kematian adalah kepastian bagi setiap jiwa. Allah berfirman: \"Setiap yang bernyawa akan merasakan mati.\" (QS. Ali Imran: 185). Beriman dengan apa yang terjadi setelah kematian adalah rukun iman.</p>\n<h3>Tahapan Setelah Kematian</h3>\n<ol>\n<li><strong>Kematian:</strong> Keluarnya ruh dari jasad.</li>\n<li><strong>Barzakh:</strong> Alam kubur dari kematian hingga hari kiamat. Di dalamnya ada nikmat kubur atau azab kubur.</li>\n<li><strong>Kebangkitan:</strong> Dihidupkannya kembali jasad pada hari kiamat.</li>\n<li><strong>Pengumpulan:</strong> Dikumpulkannya seluruh makhluk untuk dihisab.</li>\n<li><strong>Hisab dan Mizan:</strong> Penimbangan amal dan penghakimannya.</li>\n<li><strong>Surga atau Neraka:</strong> Balasan yang abadi.</li>\n</ol>\n<h3>Mempersiapkan Diri untuk Kematian</h3>\n<p>Nabi ﷺ bersabda: \"Perbanyaklah mengingat pemutus kelezatan\" yaitu kematian (HR. Tirmidzi dan Ibn Majah). Persiapan untuk kematian adalah dengan memperbaiki amal, menyucikan jiwa, dan bertaubat.</p>"
   },
   {
     "id": 34,
@@ -339,7 +457,11 @@
     "category": "culture",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Greetings and Etiquette",
+    "title_id": "Islam Greetings and Etiquette",
+    "content_ar": "<h2>التحية الإسلامية</h2><p>التحية الإسلامية \"السلام عليكم ورحمة الله وبركاته\" من أعظم الشعائر الإسلامية، شعار المسلمين وسنة النبي ﷺ المؤكدة. معناها: السلام عليكم ورحمة الله وبركاته، وهي دعاء للمُلقى عليه بالسلامة والرحمة والبركة.</p><h3>فضل السلام</h3><p>قال رسول الله ﷺ: \"أفشوا السلام بينكم\". السلام حق المسلم على أخيه، وإفشاؤه من أسباب تحابب المسلمين. ابتداء السلام سنة والرد واجب. الرد الكامل: \"وعليكم السلام ورحمة الله وبركاته\".</p><h3>آداب السلام</h3><p>يسلم الصغير على الكبير، والراكب على الماشي، والقليل على الكثير، والقادم على الجالس. لا يُسلَّم بصيغة \"صباح الخير\" ونحوها بديلاً عن السلام الشرعي، وإن كان يجوز كتحية إضافية.</p><h3>تحيات أخرى</h3><p>\"بسم الله\" عند الدخول والأكل والشرب. \"الحمد لله\" عند العطاس، ويُجيب السامع: \"يرحمك الله\". \"إن شاء الله\" عند الوعد بفعل شيء مستقبلاً. \"جزاك الله خيراً\" عبارة شكر وثناء. \"بارك الله فيك\" دعاء بالبركة.</p>",
+    "content_id": "<h2>Salam dan Ucapan Islam</h2><p>Ucapan salam \"Assalamu'alaikum warahmatullahi wabarakatuh\" adalah syiar Islam yang agung dan sunnah Rasulullah ﷺ yang sangat dianjurkan. Maknanya: \"Semoga keselamatan, rahmat Allah, dan berkah-Nya terlimpah atasmu.\" Ini adalah doa yang indah antarsesama Muslim.</p><h3>Keutamaan Mengucapkan Salam</h3><p>Rasulullah ﷺ bersabda: \"Sebarkan salam di antara kalian.\" Mengucapkan salam adalah hak seorang Muslim atas saudaranya. Memulai salam adalah sunnah, sedangkan menjawabnya adalah wajib. Jawaban sempurna: \"Wa'alaikumsalam warahmatullahi wabarakatuh.\"</p><h3>Adab Salam</h3><p>Yang muda mendahului salam kepada yang lebih tua, yang berkendaraan kepada yang berjalan, yang sedikit kepada yang banyak, yang datang kepada yang duduk. Salam diucapkan saat bertemu dan berpisah. Tidak dianjurkan mengganti salam Islam dengan ucapan lain sebagai alternatif.</p><h3>Ucapan-ucapan Islam Lainnya</h3><p>\"Bismillah\" dibaca saat memulai aktivitas. \"Alhamdulillah\" diucapkan saat bersin, dijawab \"Yarhamukallah.\" \"InsyaAllah\" saat berjanji melakukan sesuatu di masa depan. \"Jazakallahu khairan\" (semoga Allah membalas kebaikanmu) untuk berterima kasih. \"Barakallahu fik\" (semoga Allah memberkahimu) sebagai doa berkat."
   },
   {
     "id": 35,
@@ -349,7 +471,9 @@
     "category": "worship",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Significance of الإسلامي Months",
+    "title_id": "Significance of Islam Months"
   },
   {
     "id": 36,
@@ -359,7 +483,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الكعبة المشرفة",
+    "title_id": "Ka'bah",
+    "content_ar": "<h2>الكعبة المشرفة</h2>\n<p>الكعبة المشرفة هي بيت الله الحرام في وسط المسجد الحرام بمكة المكرمة، وهي قبلة المسلمين في صلاتهم. قال الله تعالى: ﴿وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ﴾ [البقرة: 127].</p>\n<h3>بناء الكعبة</h3>\n<p>بنى الكعبة أولاً إبراهيم عليه السلام وابنه إسماعيل بأمر من الله. وقد أُعيد بناؤها عدة مرات في التاريخ، وكانت قريش أعادت بناءها قبيل الإسلام.</p>\n<h3>وصف الكعبة</h3>\n<p>الكعبة بناء مكعب الشكل، ارتفاعه 15 متراً تقريباً. يُكسى بالكسوة السوداء المطرزة بالذهب. في ركنه الشرقي الحجر الأسود، وهو حجر من الجنة.</p>\n<h3>الطواف بالكعبة</h3>\n<p>الطواف سبعة أشواط حول الكعبة عكس عقارب الساعة هو من أركان الحج والعمرة. قال النبي صلى الله عليه وسلم: \"الطواف بالبيت صلاة إلا أن الله أباح فيه الكلام\" [رواه الترمذي].</p>",
+    "content_id": "<h2>Ka'bah</h2>\n<p>Ka'bah adalah Baitullah (rumah Allah) yang berada di tengah Masjidil Haram di Makkah al-Mukarramah, dan merupakan kiblat umat Islam dalam shalat mereka. Allah berfirman: \"Dan (ingatlah) ketika Ibrahim meninggikan pondasi Baitullah bersama Ismail (seraya berdoa).\" (QS. Al-Baqarah: 127).</p>\n<h3>Pembangunan Ka'bah</h3>\n<p>Ka'bah pertama kali dibangun oleh Nabi Ibrahim 'alaihissalam dan putranya Ismail atas perintah Allah. Ka'bah telah dibangun ulang beberapa kali dalam sejarah, dan suku Quraisy membangunnya kembali sebelum masa Islam.</p>\n<h3>Deskripsi Ka'bah</h3>\n<p>Ka'bah adalah bangunan berbentuk kubus, tingginya sekitar 15 meter. Ditutup dengan kiswah (kain penutup) berwarna hitam bersulam emas. Di sudut timurnya terdapat Hajar Aswad (batu hitam) yang berasal dari surga.</p>\n<h3>Thawaf mengelilingi Ka'bah</h3>\n<p>Thawaf adalah tujuh putaran mengelilingi Ka'bah berlawanan arah jarum jam, merupakan salah satu rukun haji dan umrah. Nabi ﷺ bersabda: \"Thawaf di Baitullah adalah shalat, hanya saja Allah membolehkan berbicara di dalamnya.\" (HR. Tirmidzi).</p>"
   },
   {
     "id": 37,
@@ -369,7 +497,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "المسجد الحرام",
+    "title_id": "Masjidil Haram",
+    "content_ar": "<h2>المسجد الحرام</h2><p>المسجد الحرام هو أقدس البقاع في الإسلام وأفضل المساجد على الإطلاق. يقع في قلب مكة المكرمة ويحتضن الكعبة المشرفة. قال النبي صلى الله عليه وسلم: \"صلاة في مسجدي هذا أفضل من ألف صلاة فيما سواه إلا المسجد الحرام، وصلاة في المسجد الحرام أفضل من مائة ألف صلاة\" [رواه ابن ماجه].</p><h3>ما يضمه المسجد</h3><p>الكعبة المشرفة ومقام إبراهيم وزمزم والحجر الأسود وباب الكعبة والميزاب والشاذروان وبئر زمزم والصفا والمروة.</p><h3>التوسعات التاريخية</h3><p>جرت توسعات عديدة في المسجد الحرام عبر التاريخ، أبرزها في زمن الخليفة عمر، ثم عثمان، ثم المهدي العباسي، ثم التوسعة السعودية الكبرى في العصر الحديث.</p>",
+    "content_id": "<h2>Masjidil Haram</h2><p>Masjidil Haram adalah tempat paling suci dalam Islam dan masjid paling utama. Terletak di jantung Makkah al-Mukarramah dan menampung Ka'bah al-Musyarrafah. Nabi ﷺ bersabda: \"Shalat di masjidku ini lebih utama dari seribu shalat di tempat lain kecuali Masjidil Haram, dan shalat di Masjidil Haram lebih utama dari seratus ribu shalat.\" (HR. Ibn Majah).</p><h3>Apa yang Ada di Masjidil Haram</h3><p>Ka'bah al-Musyarrafah, Maqam Ibrahim, Zamzam, Hajar Aswad, Pintu Ka'bah, Mizab Rahmah, Syadzarwan, Sumur Zamzam, Shafa, dan Marwah.</p><h3>Perluasan Bersejarah</h3><p>Masjidil Haram mengalami banyak perluasan sepanjang sejarah, yang paling penting pada masa Khalifah Umar, lalu Utsman, lalu Al-Mahdi al-Abbasi, kemudian perluasan besar Saudi di era modern.</p>"
   },
   {
     "id": 38,
@@ -379,7 +511,11 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "المسجد الأقصى",
+    "title_id": "Masjidil Aqsha",
+    "content_ar": "<h2>المسجد الأقصى</h2>\n<p>المسجد الأقصى هو ثالث أقدس البقاع في الإسلام بعد المسجد الحرام والمسجد النبوي، ويقع في القدس الشريف. قال الله تعالى: ﴿سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَا الَّذِي بَارَكْنَا حَوْلَهُ﴾ [الإسراء: 1].</p>\n<h3>فضل المسجد الأقصى</h3>\n<p>قال النبي صلى الله عليه وسلم: \"لا تُشَدُّ الرحال إلا إلى ثلاثة مساجد: المسجد الحرام، ومسجد الرسول صلى الله عليه وسلم، والمسجد الأقصى\" [رواه البخاري ومسلم]. وقال: \"صلاة في المسجد الأقصى بخمسمائة صلاة\" [رواه ابن ماجه].</p>\n<h3>أهمية القدس في الإسلام</h3>\n<p>القدس كانت أولى القبلتين قبل تحويل القبلة إلى مكة. وفيها أسري بالنبي ليلة الإسراء وصلى بالأنبياء إماماً. وهي أرض مباركة ذكرها الله في القرآن.</p>",
+    "content_id": "<h2>Masjidil Aqsha</h2>\n<p>Masjidil Aqsha adalah tempat suci ketiga dalam Islam setelah Masjidil Haram dan Masjid Nabawi, terletak di Al-Quds (Yerusalem). Allah berfirman: \"Mahasuci (Allah) yang telah memperjalankan hamba-Nya (Muhammad) pada malam hari dari Masjidil Haram ke Masjidil Aqsa yang telah Kami berkahi sekelilingnya.\" (QS. Al-Isra: 1).</p>\n<h3>Keutamaan Masjidil Aqsha</h3>\n<p>Nabi ﷺ bersabda: \"Janganlah bepergian jauh-jauh kecuali ke tiga masjid: Masjidil Haram, Masjidku ini (Masjid Nabawi), dan Masjidil Aqsha.\" (HR. Bukhari-Muslim). Dan: \"Shalat di Masjidil Aqsha senilai 500 shalat.\" (HR. Ibn Majah).</p>\n<h3>Pentingnya Al-Quds dalam Islam</h3>\n<p>Al-Quds adalah kiblat pertama sebelum kiblat dialihkan ke Makkah. Di sana Nabi diisra'kan pada malam Isra Mi'raj dan mengimami shalat para nabi. Ini adalah tanah yang diberkahi yang disebutkan Allah dalam Al-Qur'an.</p>"
   },
   {
     "id": 39,
@@ -389,7 +525,9 @@
     "category": "history",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Women Scholars في الإسلامic History",
+    "title_id": "Women Scholars dalam Islam History"
   },
   {
     "id": 40,
@@ -399,7 +537,9 @@
     "category": "history",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Contributions of الإسلامي Civilization",
+    "title_id": "Contributions of Islam Civilization"
   },
   {
     "id": 41,
@@ -409,7 +549,9 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Dawah Methodology)",
+    "title_id": "Dawah Methodology"
   },
   {
     "id": 42,
@@ -419,7 +561,9 @@
     "category": "culture",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Art and Architecture",
+    "title_id": "Islam Art and Architecture"
   },
   {
     "id": 43,
@@ -429,7 +573,10 @@
     "category": "meta",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(New Muslim's Guide)",
+    "title_id": "New Muslim's Guide",
+    "content_ar": "<h2>دليل الداخلين إلى الإسلام</h2><p>الإسلام دين يُرحب بكل من آمن بالله وشهد أن لا إله إلا الله وأن محمداً رسول الله. دخول الإسلام يسير: النطق بالشهادتين بصدق وإيمان. من أسلم مُحيت ذنوبه كلها وبدأ صفحة بيضاء.</p><h3>أولى الخطوات</h3><p>بعد الشهادتين: تعلم الوضوء والصلاة أولاً، فهي عمود الدين وأول ما يُحاسب عليه العبد. تعلم الفاتحة والسور القصيرة لإقامة الصلاة. البحث عن مسجد ومجتمع إسلامي محلي للدعم والتعلم.</p><h3>أسس العقيدة</h3><p>أركان الإيمان الستة: الإيمان بالله وملائكته وكتبه ورسله واليوم الآخر والقدر. أركان الإسلام الخمسة: الشهادتان والصلاة والزكاة والصوم والحج. التعلم التدريجي ضروري، لا يُطالَب الجديد بكل شيء دفعة واحدة.</p><h3>نصائح عملية</h3><p>ابحث عن مرشد متيسر من أهل العلم. لا تستعجل في التغيير - الإسلام دين اليسر لا العسر. التعلم والتطبيق التدريجي أثبت وأرسخ. مجتمع المسلمين مصدر دعم وأخوة. اقرأ القرآن ولو بالترجمة لتفهم الإسلام من مصدره الأول."
   },
   {
     "id": 44,
@@ -439,7 +586,9 @@
     "category": "reference",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Guide to الإسلامي Finance",
+    "title_id": "Guide to Islam Finance"
   },
   {
     "id": 45,
@@ -449,7 +598,10 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Sects and Groups",
+    "title_id": "Islam Sects and Groups",
+    "content_ar": "<h2>الفرق والمذاهب الإسلامية</h2>\n<p>الإسلام واحد في أصوله وعقيدته، غير أن الأمة افترقت في تفاصيل الفهم والتأويل. قال النبي صلى الله عليه وسلم: \"ستفترق أمتي على ثلاث وسبعين فرقة كلها في النار إلا واحدة\" فقيل: من هي؟ قال: \"ما أنا عليه وأصحابي\" [رواه الترمذي].</p>\n<h3>الفرقة الناجية</h3>\n<p>أهل السنة والجماعة هم الفرقة الناجية، المتمسكون بالكتاب والسنة وفهم السلف الصالح.</p>\n<h3>أكبر الفرق</h3>\n<ul>\n<li><strong>أهل السنة والجماعة:</strong> الجمهور الأكبر من المسلمين.</li>\n<li><strong>الشيعة:</strong> يعتقدون بإمامة علي وذريته نصاً.</li>\n<li><strong>الخوارج:</strong> يكفرون مرتكب الكبيرة.</li>\n<li><strong>المعتزلة:</strong> يُقدمون العقل على النقل.</li>\n<li><strong>الأشاعرة والماتريدية:</strong> مدارس كلامية داخل أهل السنة.</li>\n</ul>"
   },
   {
     "id": 46,
@@ -459,7 +611,9 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Environmental Ethics في الإسلام",
+    "title_id": "Environmental Ethics dalam Islam"
   },
   {
     "id": 47,
@@ -469,7 +623,11 @@
     "category": "worship",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "حفظ القرآن",
+    "title_id": "Hafalan Al-Qur'an",
+    "content_ar": "<h2>حفظ القرآن الكريم</h2>\n<p>حفظ القرآن الكريم فضيلة عظيمة، وهو واجب كفائي على الأمة لحفظ كتاب الله. قال الله تعالى: ﴿إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ﴾ [الحجر: 9].</p>\n<h3>فضل حافظ القرآن</h3>\n<p>قال النبي صلى الله عليه وسلم: \"يُقال لصاحب القرآن اقرأ وارقَ ورتِّل كما كنت ترتِّل في الدنيا فإن منزلك عند آخر آية تقرأ بها\" [رواه أحمد والترمذي]. وقال: \"الذي يقرأ القرآن وهو حافظ له مع السفرة الكرام البررة\" [رواه البخاري].</p>\n<h3>طريقة الحفظ</h3>\n<p>يُستحسن: الإخلاص والنية الصالحة، والتكرار الكثير والمراجعة الدائمة، والحفظ في الصغر، والاستعانة بشيخ متقن، وربط الآيات بمعانيها.</p>",
+    "content_id": "<h2>Hafalan Al-Qur'an</h2>\n<p>Menghafal Al-Qur'an adalah keutamaan yang besar, dan merupakan fardhu kifayah atas umat untuk menjaga Kitab Allah. Allah berfirman: \"Sesungguhnya Kami-lah yang menurunkan Al-Qur'an, dan sesungguhnya Kami benar-benar memeliharanya.\" (QS. Al-Hijr: 9).</p>\n<h3>Keutamaan Penghafal Al-Qur'an</h3>\n<p>Nabi ﷺ bersabda: \"Dikatakan kepada ahli Al-Qur'an, bacalah dan naiki (tingkatan), tartilkan sebagaimana engkau men-tartilkannya di dunia, karena sesungguhnya kedudukanmu ada di akhir ayat yang engkau baca.\" (HR. Ahmad dan Tirmidzi). Dan: \"Orang yang membaca Al-Qur'an dan ia menghafalnya akan bersama para utusan yang mulia lagi berbakti.\" (HR. Bukhari).</p>\n<h3>Metode Hafalan</h3>\n<p>Dianjurkan: ikhlas dan niat yang baik, pengulangan yang banyak dan muraja'ah (review) yang rutin, menghafal sejak kecil, berguru kepada hafiz yang ahli, dan mengaitkan ayat-ayat dengan maknanya.</p>"
   },
   {
     "id": 48,
@@ -479,7 +637,9 @@
     "category": "worship",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Mosque Etiquette (Adab al-Masjid))",
+    "title_id": "Mosque Etiquette (Adab al-Masjid)"
   },
   {
     "id": 49,
@@ -489,7 +649,9 @@
     "category": "theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Psychology (Ilm an-Nafs)",
+    "title_id": "Islam Psychology (Ilm an-Nafs)"
   },
   {
     "id": 50,
@@ -499,7 +661,9 @@
     "category": "culture",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Etiquette of Food and Drink",
+    "title_id": "Islam Etiquette of Food and Drink"
   },
   {
     "id": 51,
@@ -509,7 +673,11 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-20T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Taqwa — God-Consciousness)",
+    "title_id": "Taqwa — God-Consciousness",
+    "content_ar": "<h2>التقوى في الإسلام</h2>\n<p>التقوى هي جعل العبد بينه وبين عذاب الله وقاية بفعل أوامره واجتناب نواهيه. قال الله تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ﴾ [آل عمران: 102].</p>\n<h3>فضل التقوى</h3>\n<p>قال الله تعالى: ﴿إِنَّ أَكْرَمَكُمْ عِندَ اللَّهِ أَتْقَاكُمْ﴾ [الحجرات: 13]. والتقوى هي الزاد الحقيقي: ﴿وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَىٰ﴾ [البقرة: 197].</p>\n<h3>أركان التقوى</h3>\n<p>التقوى تقوم على ثلاثة أركان: الخوف من الله، والرجاء في رحمته، والمحبة له. وهي تكون بفعل الأوامر واجتناب النواهي وترك الشبهات.</p>",
+    "content_id": "<h2>Taqwa dalam Islam</h2>\n<p>Taqwa adalah menjadikan penghalang antara dirimu dengan azab Allah, dengan mengerjakan perintah-Nya dan menjauhi larangan-Nya. Allah berfirman: \"Wahai orang-orang yang beriman! Bertakwalah kepada Allah sebenar-benar takwa kepada-Nya.\" (QS. Ali Imran: 102).</p>\n<h3>Keutamaan Taqwa</h3>\n<p>Allah berfirman: \"Sesungguhnya orang yang paling mulia di antara kamu di sisi Allah ialah orang yang paling bertakwa di antara kamu.\" (QS. Al-Hujurat: 13). Dan: \"Berbekallah, dan sesungguhnya sebaik-baik bekal adalah takwa.\" (QS. Al-Baqarah: 197).</p>\n<h3>Cara Meraih Taqwa</h3>\n<p>Taqwa diraih melalui: mengerjakan kewajiban-kewajiban, menjauhi larangan-larangan, meninggalkan syubhat (hal yang meragukan), dan memperbanyak ibadah sunnah untuk mendekatkan diri kepada Allah.</p>"
   },
   {
     "id": 52,
@@ -519,7 +687,10 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-21T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ihsan — Excellence in Worship)",
+    "title_id": "Ihsan — Excellence in Worship",
+    "content_ar": "<h2>الإحسان في الإسلام</h2>\n<p>الإحسان هو أعلى مراتب الدين، وقد فسره النبي صلى الله عليه وسلم بقوله: \"أن تعبد الله كأنك تراه، فإن لم تكن تراه فإنه يراك\" [رواه البخاري ومسلم].</p>\n<h3>مراتب الدين</h3>\n<p>الدين ثلاث مراتب: الإسلام، والإيمان، والإحسان. وهي مراتب متصاعدة، والإحسان أعلاها وهو مقام المراقبة الدائمة لله.</p>\n<h3>الإحسان في المعاملات</h3>\n<p>الإحسان لا يقتصر على العبادات بل يشمل جميع جوانب الحياة: في العمل والتجارة والأسرة والمجتمع. قال الله تعالى: ﴿إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ﴾ [النحل: 90].</p>"
   },
   {
     "id": 53,
@@ -529,7 +700,11 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-22T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Tawakkul — Reliance on Allah)",
+    "title_id": "Tawakkul — Reliance on Allah",
+    "content_ar": "<h2>التوكل على الله</h2>\n<p>التوكل هو الاعتماد على الله في جلب المنافع ودفع المضار مع الأخذ بالأسباب المشروعة. قال الله تعالى: ﴿وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ﴾ [الطلاق: 3].</p>\n<h3>التوكل والأسباب</h3>\n<p>التوكل لا يعني ترك الأسباب، بل يعني الجمع بين الأخذ بها والاعتماد القلبي على الله. قال النبي صلى الله عليه وسلم لمن سأله عن ترك ناقته: \"اعقلها وتوكل\" [رواه الترمذي].</p>\n<h3>فضل التوكل</h3>\n<p>قال النبي صلى الله عليه وسلم: \"لو أنكم توكلتم على الله حق توكله لرزقكم كما يرزق الطير تغدو خماصاً وتروح بطاناً\" [رواه الترمذي والنسائي].</p>",
+    "content_id": "<h2>Tawakkal kepada Allah</h2>\n<p>Tawakkal adalah bersandar kepada Allah dalam mendatangkan manfaat dan menolak bahaya, sambil mengambil sebab-sebab yang disyariatkan. Allah berfirman: \"Barangsiapa bertawakal kepada Allah niscaya Allah akan mencukupkan (keperluannya).\" (QS. At-Thalaq: 3).</p>\n<h3>Tawakkal dan Sebab</h3>\n<p>Tawakkal bukan berarti meninggalkan usaha, melainkan menggabungkan antara mengambil sebab dan bergantung kepada Allah dalam hati. Nabi ﷺ bersabda kepada seseorang yang bertanya apakah membiarkan untanya: \"Tambatkan untamu, lalu bertawakal.\" (HR. Tirmidzi).</p>\n<h3>Keutamaan Tawakkal</h3>\n<p>Nabi ﷺ bersabda: \"Seandainya kalian benar-benar bertawakal kepada Allah, niscaya Dia akan memberi rezeki kepada kalian sebagaimana Dia memberi rezeki kepada burung yang pergi dalam keadaan lapar dan pulang dalam keadaan kenyang.\" (HR. Tirmidzi dan Nasa'i).</p>"
   },
   {
     "id": 54,
@@ -539,7 +714,11 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-23T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sabr — Patience and Perseverance)",
+    "title_id": "Sabr — Patience and Perseverance",
+    "content_ar": "<h2>الصبر في الإسلام</h2>\n<p>الصبر من أعظم مقامات الدين، وهو حبس النفس على طاعة الله وعن معاصيه وعند أقداره المؤلمة. قال الله تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ﴾ [البقرة: 153].</p>\n<h3>أنواع الصبر</h3>\n<ol>\n<li><strong>الصبر على طاعة الله:</strong> الثبات على فعل العبادات والتكاليف.</li>\n<li><strong>الصبر عن معاصي الله:</strong> كف النفس عن المحرمات والشهوات.</li>\n<li><strong>الصبر على أقدار الله:</strong> تحمل المصائب والبلاء بالرضا والاحتساب.</li>\n</ol>\n<h3>فضل الصبر</h3>\n<p>قال الله تعالى: ﴿إِنَّمَا يُوَفَّى الصَّابِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍ﴾ [الزمر: 10]. وقال النبي صلى الله عليه وسلم: \"ما أُعطي أحد عطاءً خيراً وأوسع من الصبر\" [رواه البخاري ومسلم].</p>",
+    "content_id": "<h2>Sabar dalam Islam</h2>\n<p>Sabar adalah menahan jiwa dalam ketaatan kepada Allah, dari kemaksiatan, dan dari penderitaan. Allah berfirman: \"Wahai orang-orang yang beriman! Mohonlah pertolongan (kepada Allah) dengan sabar dan shalat.\" (QS. Al-Baqarah: 153).</p>\n<h3>Jenis-jenis Sabar</h3>\n<ol>\n<li><strong>Sabar dalam ketaatan:</strong> Teguh dalam melaksanakan ibadah dan kewajiban.</li>\n<li><strong>Sabar dari kemaksiatan:</strong> Menahan diri dari hal-hal yang diharamkan.</li>\n<li><strong>Sabar atas takdir Allah:</strong> Menanggung musibah dan ujian dengan ridha dan ihtisab.</li>\n</ol>\n<h3>Keutamaan Sabar</h3>\n<p>Allah berfirman: \"Sesungguhnya hanya orang-orang yang bersabarlah yang dicukupkan pahala mereka tanpa batas.\" (QS. Az-Zumar: 10). Nabi ﷺ bersabda: \"Tidaklah seseorang diberi sesuatu yang lebih baik dan lebih luas dari kesabaran.\" (HR. Bukhari-Muslim).</p>"
   },
   {
     "id": 55,
@@ -549,7 +728,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-24T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Shukr — Gratitude to Allah)",
+    "title_id": "Shukr — Gratitude to Allah"
   },
   {
     "id": 56,
@@ -559,7 +740,11 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-25T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ikhlas — Sincerity of Intention)",
+    "title_id": "Ikhlas — Sincerity of Intention",
+    "content_ar": "<h2>الإخلاص في الإسلام</h2>\n<p>الإخلاص هو تصفية النية من الشوائب والعمل لله وحده لا لمخلوق. قال الله تعالى: ﴿وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ﴾ [البينة: 5].</p>\n<h3>أهمية الإخلاص</h3>\n<p>الإخلاص شرط لقبول العمل. قال النبي صلى الله عليه وسلم: \"إنما الأعمال بالنيات وإنما لكل امرئ ما نوى\" [رواه البخاري ومسلم]. والعمل بلا إخلاص لا قيمة له عند الله.</p>\n<h3>ضد الإخلاص</h3>\n<p>ضد الإخلاص هو الرياء والسمعة، وهو الشرك الخفي الذي حذر منه النبي صلى الله عليه وسلم بقوله: \"إن أخوف ما أخاف عليكم الشرك الأصغر\" فسُئل عنه فقال: \"الرياء\" [رواه أحمد].</p>",
+    "content_id": "<h2>Ikhlas dalam Islam</h2>\n<p>Ikhlas adalah memurnikan niat dari kotoran dan beramal hanya karena Allah semata. Allah berfirman: \"Padahal mereka hanya diperintah menyembah Allah, dengan ikhlas menaati-Nya semata-mata karena (menjalankan) agama.\" (QS. Al-Bayyinah: 5).</p>\n<h3>Pentingnya Ikhlas</h3>\n<p>Ikhlas adalah syarat diterimanya amal. Nabi ﷺ bersabda: \"Sesungguhnya setiap amal tergantung pada niatnya, dan sesungguhnya setiap orang hanya mendapatkan apa yang dia niatkan.\" (HR. Bukhari-Muslim). Amal tanpa ikhlas tidak bernilai di sisi Allah.</p>\n<h3>Lawan Ikhlas</h3>\n<p>Lawan ikhlas adalah riya dan sum'ah (ingin dilihat dan didengar), dan itu adalah syirik kecil yang Nabi ﷺ peringatkan: \"Sesungguhnya yang paling aku khawatirkan atas kalian adalah syirik kecil.\" Ditanya: apa itu? Beliau menjawab: \"Riya.\" (HR. Ahmad).</p>"
   },
   {
     "id": 57,
@@ -569,7 +754,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2025-01-26T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Khushu — Humility and Focus in Prayer)",
+    "title_id": "Khushu — Humility and Focus in Prayer"
   },
   {
     "id": 58,
@@ -579,7 +766,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-27T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Birr — Righteousness and Good Conduct)",
+    "title_id": "Birr — Righteousness and Good Conduct"
   },
   {
     "id": 59,
@@ -589,7 +778,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-01-28T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Istiqamah — Steadfastness on the Straight Path)",
+    "title_id": "Istiqamah — Steadfastness on the Straight Path"
   },
   {
     "id": 60,
@@ -599,7 +790,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2025-01-29T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Al-Quds (Jerusalem) — الBlessed Land",
+    "title_id": "Al-Quds (Jerusalem) — Blessed Land"
   },
   {
     "id": 61,
@@ -609,7 +802,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2025-01-30T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Damascus في الإسلامic History",
+    "title_id": "Damascus dalam Islam History"
   },
   {
     "id": 62,
@@ -619,7 +814,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2025-01-31T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Baghdad — Capital of the Golden Age)",
+    "title_id": "Baghdad — Capital of the Golden Age"
   },
   {
     "id": 63,
@@ -629,7 +826,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2025-02-01T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Cordoba — Jewel of Al-Andalus)",
+    "title_id": "Cordoba — Jewel of Al-Andalus"
   },
   {
     "id": 64,
@@ -639,7 +838,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2025-02-02T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Istanbul — Where East Meets West)",
+    "title_id": "Istanbul — Where East Meets West"
   },
   {
     "id": 65,
@@ -649,7 +850,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2025-02-03T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Timbuktu — City of 333 Saints)",
+    "title_id": "Timbuktu — City of 333 Saints"
   },
   {
     "id": 66,
@@ -659,7 +862,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2025-02-04T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Cairo — الCity Victorious",
+    "title_id": "Cairo — City Victorious"
   },
   {
     "id": 67,
@@ -669,7 +874,11 @@
     "category": "History",
     "status": "published",
     "created_at": "2025-02-05T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الHijrah — Migration to Madinah",
+    "title_id": "Hijrah — Migration to Madinah",
+    "content_ar": "<h2>الهجرة النبوية</h2>\n<p>الهجرة النبوية هي انتقال النبي محمد صلى الله عليه وسلم من مكة المكرمة إلى المدينة المنورة عام 622م، الموافق للعام الأول من التاريخ الهجري. وهي أعظم حدث في تاريخ الإسلام بعد البعثة النبوية.</p>\n<h3>أسباب الهجرة</h3>\n<p>تصاعد الأذى والاضطهاد الذي تعرض له المسلمون في مكة، وأمر الله بالهجرة، وتهيؤ أهل المدينة (الأنصار) لاستقبال النبي.</p>\n<h3>الهجرة</h3>\n<p>خرج النبي وأبو بكر الصديق رضي الله عنه مستخفيين، ومكثا في غار ثور ثلاثة أيام، ثم انطلقا إلى المدينة. قال الله تعالى: ﴿إِذْ هُمَا فِي الْغَارِ إِذْ يَقُولُ لِصَاحِبِهِ لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا﴾ [التوبة: 40].</p>\n<h3>أهمية الهجرة</h3>\n<p>بعد الهجرة تأسس المجتمع الإسلامي الأول في المدينة، وبُني المسجد النبوي، وآخى النبي بين المهاجرين والأنصار، ووُضع التقويم الهجري.</p>",
+    "content_id": "<h2>Hijrah Nabi ke Madinah</h2>\n<p>Hijrah Nabawiyah adalah perpindahan Nabi Muhammad ﷺ dari Makkah al-Mukarramah ke Madinah al-Munawwarah pada tahun 622 M, yang menjadi awal penanggalan hijriyah. Ini adalah peristiwa terbesar dalam sejarah Islam setelah kenabian.</p>\n<h3>Sebab-sebab Hijrah</h3>\n<p>Meningkatnya gangguan dan penganiayaan terhadap kaum muslimin di Makkah, perintah Allah untuk berhijrah, dan kesiapan penduduk Madinah (Anshar) menyambut Nabi.</p>\n<h3>Perjalanan Hijrah</h3>\n<p>Nabi dan Abu Bakar ash-Shiddiq berangkat secara sembunyi-sembunyi, tinggal di Gua Tsur selama tiga hari, kemudian berangkat ke Madinah. Allah berfirman: \"Ketika keduanya berada dalam gua, ketika itu dia berkata kepada temannya, 'Jangan engkau bersedih, sesungguhnya Allah bersama kita.'\" (QS. At-Taubah: 40).</p>\n<h3>Pentingnya Hijrah</h3>\n<p>Setelah hijrah, terbentuklah masyarakat Islam pertama di Madinah, dibangun Masjid Nabawi, Nabi mempersaudarakan Muhajirin dan Anshar, dan ditetapkan kalender hijriyah.</p>"
   },
   {
     "id": 68,
@@ -679,7 +888,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2025-02-06T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الTreaty of Hudaybiyyah",
+    "title_id": "Treaty of Hudaybiyyah"
   },
   {
     "id": 69,
@@ -689,7 +900,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2025-02-07T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الLiberation of Makkah (Fath Makkah)",
+    "title_id": "Liberation of Makkah (Fath Makkah)"
   },
   {
     "id": 70,
@@ -699,7 +912,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2025-02-08T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الBattle of Badr",
+    "title_id": "Battle of Badr"
   },
   {
     "id": 71,
@@ -709,7 +924,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2025-02-09T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الBattle of Uhud",
+    "title_id": "Battle of Uhud"
   },
   {
     "id": 72,
@@ -719,7 +936,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-10T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الوقف",
+    "title_id": "Wakaf"
   },
   {
     "id": 73,
@@ -729,7 +948,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-11T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Bayt al-Mal — الPublic Treasury",
+    "title_id": "Bayt al-Mal — Public Treasury"
   },
   {
     "id": 74,
@@ -739,7 +960,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-12T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Shura — Consultation في الإسلام",
+    "title_id": "Shura — Consultation dalam Islam"
   },
   {
     "id": 75,
@@ -749,7 +972,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-13T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Hisbah — Enjoining Good and Forbidding Evil)",
+    "title_id": "Hisbah — Enjoining Good and Forbidding Evil"
   },
   {
     "id": 76,
@@ -759,7 +984,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-02-14T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "علم الكلام",
+    "title_id": "Ilmu Kalam"
   },
   {
     "id": 77,
@@ -769,7 +996,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-02-15T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "أصول الفقه",
+    "title_id": "Ushul Fiqih"
   },
   {
     "id": 78,
@@ -779,7 +1008,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-02-16T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ulum al-Quran — Sciences of the Quran)",
+    "title_id": "Ulum al-Quran — Sciences of the Quran"
   },
   {
     "id": 79,
@@ -789,7 +1020,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-02-17T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Mustalah al-Hadith — Hadith Terminology)",
+    "title_id": "Mustalah al-Hadith — Hadith Terminology"
   },
   {
     "id": 80,
@@ -799,7 +1032,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-02-18T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Sirah Studies — الProphetic Biography",
+    "title_id": "Sirah Studies — Prophetic Biography"
   },
   {
     "id": 81,
@@ -809,7 +1044,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-19T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Maqasid al-Shariah — Objectives of الإسلامي Law",
+    "title_id": "Maqasid al-Shariah — Objectives of Islam Law"
   },
   {
     "id": 82,
@@ -819,7 +1056,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-20T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Maslaha — Public Interest في الإسلامic Law",
+    "title_id": "Maslaha — Public Interest dalam Islam Law"
   },
   {
     "id": 83,
@@ -829,7 +1068,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-21T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإجماع",
+    "title_id": "Ijma'"
   },
   {
     "id": 84,
@@ -839,7 +1080,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-22T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "القياس",
+    "title_id": "Qiyas"
   },
   {
     "id": 85,
@@ -849,7 +1092,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-23T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الاجتهاد",
+    "title_id": "Ijtihad"
   },
   {
     "id": 86,
@@ -859,7 +1104,10 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2025-02-24T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "البدعة",
+    "title_id": "Bid'ah",
+    "content_ar": "<h2>البدعة في الإسلام</h2>\n<p>البدعة في الاصطلاح الشرعي هي: ما أُحدث في الدين مما لا أصل له يدل عليه. قال النبي صلى الله عليه وسلم: \"من أحدث في أمرنا هذا ما ليس منه فهو رد\" [رواه البخاري ومسلم]. وقال: \"كل بدعة ضلالة، وكل ضلالة في النار\" [رواه مسلم].</p>\n<h3>ضابط البدعة</h3>\n<p>البدعة المذمومة هي ما خالف الدليل الشرعي في أصل العبادة أو في هيئتها أو في وقتها أو في مقدارها أو في مكانها. أما الأمور الدنيوية فلا تدخل في هذا المفهوم.</p>\n<h3>أمثلة على البدعة</h3>\n<ul>\n<li>الاحتفال بالمولد النبوي باعتباره عيداً ديناً يُتقرب به إلى الله.</li>\n<li>الاجتماع لقراءة القرآن في مناسبات بعينها على صفة معينة لم تُشرع.</li>\n<li>إضافة أذكار أو صلوات لم تُشرع في العبادات المحددة.</li>\n</ul>\n<h3>موقف العلماء من البدعة</h3>\n<p>أجمع العلماء على ذم البدعة المحدثة في الدين. قال الإمام مالك رحمه الله: \"من ابتدع في الإسلام بدعة يراها حسنة فقد زعم أن محمداً صلى الله عليه وسلم خان الرسالة\".</p>"
   },
   {
     "id": 87,
@@ -869,7 +1117,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2025-02-25T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Salat al-Istikharah — الPrayer for Guidance",
+    "title_id": "Salat al-Istikharah — Prayer for Guidance"
   },
   {
     "id": 88,
@@ -879,7 +1129,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2025-02-26T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Daily Dhikr — Remembrance of Allah)",
+    "title_id": "Daily Dhikr — Remembrance of Allah"
   },
   {
     "id": 89,
@@ -889,7 +1141,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2025-02-27T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Morning and Evening Adhkar)",
+    "title_id": "Morning and Evening Adhkar"
   },
   {
     "id": 90,
@@ -899,7 +1153,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2025-02-28T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Dua Etiquette — How to Supplicate)",
+    "title_id": "Dua Etiquette — How to Supplicate"
   },
   {
     "id": 91,
@@ -909,7 +1165,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2025-03-01T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ramadan — A Deeper Look)",
+    "title_id": "Ramadan — A Deeper Look"
   },
   {
     "id": 92,
@@ -919,7 +1177,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2025-03-02T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Dhul Hijjah — الMonth of Hajj",
+    "title_id": "Dhul Hijjah — Month of Hajj"
   },
   {
     "id": 93,
@@ -929,7 +1189,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2025-03-03T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Muharram — الSacred Month and Ashura",
+    "title_id": "Muharram — Sacred Month and Ashura"
   },
   {
     "id": 94,
@@ -939,7 +1201,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-03-04T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sahih al-Bukhari — An Overview)",
+    "title_id": "Sahih al-Bukhari — An Overview"
   },
   {
     "id": 95,
@@ -949,7 +1213,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-03-05T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sahih Muslim — An Overview)",
+    "title_id": "Sahih Muslim — An Overview"
   },
   {
     "id": 96,
@@ -959,7 +1225,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-03-06T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Riyad as-Salihin — Gardens of the Righteous)",
+    "title_id": "Riyad as-Salihin — Gardens of the Righteous"
   },
   {
     "id": 97,
@@ -969,7 +1237,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2025-03-07T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Al-Arba'in al-Nawawiyyah — Nawawi's Forty Hadith)",
+    "title_id": "Al-Arba'in al-Nawawiyyah — Nawawi's Forty Hadith"
   },
   {
     "id": 98,
@@ -979,7 +1249,9 @@
     "category": "Contemporary",
     "status": "published",
     "created_at": "2025-03-08T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Banking — An Overview",
+    "title_id": "Islam Banking — An Overview"
   },
   {
     "id": 99,
@@ -989,7 +1261,9 @@
     "category": "Contemporary",
     "status": "published",
     "created_at": "2025-03-09T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الGlobal Halal Industry",
+    "title_id": "Global Halal Industry"
   },
   {
     "id": 100,
@@ -999,7 +1273,9 @@
     "category": "Contemporary",
     "status": "published",
     "created_at": "2025-03-10T00:00:00Z",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Interfaith Dialogue في الإسلام",
+    "title_id": "Interfaith Dialogue dalam Islam"
   },
   {
     "id": 101,
@@ -1009,7 +1285,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Niyyah (Intention))",
+    "title_id": "Niyyah (Intention)"
   },
   {
     "id": 102,
@@ -1019,7 +1297,11 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الوضوء",
+    "title_id": "Wudhu",
+    "content_ar": "<h2>الوضوء</h2>\n<p>الوضوء هو الطهارة المائية التي يُشترط لها قبل الصلاة والطواف وغيرهما. قال الله تعالى: ﴿يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ﴾ [المائدة: 6].</p>\n<h3>فرائض الوضوء</h3>\n<ol>\n<li>غسل الوجه</li>\n<li>غسل اليدين إلى المرفقين</li>\n<li>مسح الرأس</li>\n<li>غسل الرجلين إلى الكعبين</li>\n</ol>\n<h3>سنن الوضوء</h3>\n<p>التسمية في أوله، والمضمضة والاستنشاق، وغسل اليدين قبله، والترتيب والموالاة، والبدء باليمين.</p>\n<h3>نواقض الوضوء</h3>\n<p>يُنقض الوضوء بالخروج من السبيلين، والنوم المستغرق، وزوال العقل، وأكل لحم الإبل عند بعض العلماء.</p>",
+    "content_id": "<h2>Wudhu dalam Islam</h2>\n<p>Wudhu adalah bersuci dengan air yang diwajibkan sebelum shalat, thawaf, dan lainnya. Allah berfirman: \"Wahai orang-orang yang beriman! Apabila kamu hendak melaksanakan salat, maka basuhlah wajahmu dan tanganmu sampai ke siku, dan usaplah kepalamu dan (basuh) kedua kakimu sampai ke kedua mata kaki.\" (QS. Al-Maidah: 6).</p>\n<h3>Rukun Wudhu</h3>\n<ol>\n<li>Membasuh wajah</li>\n<li>Membasuh kedua tangan hingga siku</li>\n<li>Mengusap kepala</li>\n<li>Membasuh kedua kaki hingga mata kaki</li>\n</ol>\n<h3>Sunah Wudhu</h3>\n<p>Membaca bismillah di awalnya, berkumur dan memasukkan air ke hidung, membasuh kedua tangan sebelumnya, memulai dari bagian kanan, dan berkesinambungan.</p>\n<h3>Pembatal Wudhu</h3>\n<p>Wudhu batal dengan: keluarnya sesuatu dari dua jalan (depan dan belakang), tidur nyenyak, hilangnya akal, dan makan daging unta menurut sebagian ulama.</p>"
   },
   {
     "id": 103,
@@ -1029,7 +1311,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الغسل",
+    "title_id": "Mandi Wajib"
   },
   {
     "id": 104,
@@ -1039,7 +1323,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "التيمم",
+    "title_id": "Tayamum"
   },
   {
     "id": 105,
@@ -1049,7 +1335,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الأذان",
+    "title_id": "Adzan"
   },
   {
     "id": 106,
@@ -1059,7 +1347,11 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "التوبة",
+    "title_id": "Taubat",
+    "content_ar": "<h2>التوبة في الإسلام</h2><p>التوبة هي الرجوع إلى الله والندم على المعصية والعزم على عدم العودة إليها. وهي واجبة فوراً من كل ذنب. قال الله تعالى: ﴿وَتُوبُوا إِلَى اللَّهِ جَمِيعًا أَيُّهَ الْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ﴾ [النور: 31].</p><h3>شروط التوبة</h3><p>الإقلاع عن الذنب، والندم على فعله، والعزم على عدم العودة. وإن كانت تتعلق بحق آدمي فيُضاف: أداء الحق أو الاستحلال منه.</p><h3>قبول التوبة</h3><p>قال الله تعالى: ﴿إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ وَيُحِبُّ الْمُتَطَهِّرِينَ﴾ [البقرة: 222]. وقال النبي صلى الله عليه وسلم: \"الله أفرح بتوبة عبده من أحدكم سقط على بعيره وقد أضله في أرض فلاة\" [رواه مسلم].</p>",
+    "content_id": "<h2>Taubat dalam Islam</h2><p>Taubat adalah kembali kepada Allah, menyesal atas dosa, dan bertekad untuk tidak mengulanginya. Ini adalah kewajiban segera dari setiap dosa. Allah berfirman: \"Dan bertobatlah kamu sekalian kepada Allah, wahai orang-orang yang beriman, agar kamu beruntung.\" (QS. An-Nur: 31).</p><h3>Syarat-syarat Taubat</h3><p>Berhenti dari dosa, menyesal melakukannya, dan bertekad tidak mengulangi. Jika berkaitan dengan hak manusia lain, ditambahkan: menunaikan hak tersebut atau meminta maaf darinya.</p><h3>Diterimanya Taubat</h3><p>Allah berfirman: \"Sesungguhnya Allah menyukai orang-orang yang tobat dan menyukai orang-orang yang menyucikan diri.\" (QS. Al-Baqarah: 222). Nabi ﷺ bersabda: \"Allah lebih gembira dengan tobat hamba-Nya daripada seseorang yang kehilangan kendaraannya di padang luas kemudian menemukannya kembali.\" (HR. Muslim).</p>"
   },
   {
     "id": 107,
@@ -1069,7 +1361,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Zuhd (Asceticism))",
+    "title_id": "Zuhd (Asceticism)"
   },
   {
     "id": 108,
@@ -1079,7 +1373,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Riya (Showing Off))",
+    "title_id": "Riya (Showing Off)"
   },
   {
     "id": 109,
@@ -1089,7 +1385,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Fitrah (Natural Disposition))",
+    "title_id": "Fitrah (Natural Disposition)"
   },
   {
     "id": 110,
@@ -1099,7 +1397,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Nafs (الSelf / Soul)",
+    "title_id": "Nafs (Self / Soul)"
   },
   {
     "id": 111,
@@ -1109,7 +1409,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Qadr (Divine Decree) in Detail)",
+    "title_id": "Qadr (Divine Decree) in Detail"
   },
   {
     "id": 112,
@@ -1119,7 +1421,11 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Angels (Mala'ikah) في الإسلام",
+    "title_id": "Angels (Mala'ikah) dalam Islam",
+    "content_ar": "<h2>الملائكة في الإسلام</h2><p>الملائكة عباد الله المكرمون، خُلقوا من نور، لا يعصون الله ما أمرهم ويفعلون ما يُؤمرون. الإيمان بهم ركن من أركان الإيمان. قال الله تعالى: ﴿آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ مِن رَّبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ﴾ [البقرة: 285].</p><h3>أبرز الملائكة</h3><ul><li><strong>جبريل:</strong> الأمين، ينزل بالوحي.</li><li><strong>ميكائيل:</strong> موكّل بالمطر والأرزاق.</li><li><strong>إسرافيل:</strong> ينفخ في الصور يوم القيامة.</li><li><strong>عزرائيل (ملك الموت):</strong> يقبض الأرواح.</li><li><strong>منكر ونكير:</strong> يسألان الميت في قبره.</li></ul>",
+    "content_id": "<h2>Malaikat dalam Islam</h2><p>Malaikat adalah hamba-hamba Allah yang dimuliakan, diciptakan dari cahaya, tidak pernah mendurhakai Allah atas apa yang Dia perintahkan kepada mereka. Beriman kepada mereka adalah rukun iman. Allah berfirman: \"Rasul telah beriman kepada Al-Qur'an yang diturunkan kepadanya dari Tuhannya, demikian pula orang-orang yang beriman. Semuanya beriman kepada Allah, malaikat-malaikat-Nya.\" (QS. Al-Baqarah: 285).</p><h3>Malaikat Terkemuka</h3><ul><li><strong>Jibril:</strong> Al-Amin, turun dengan wahyu.</li><li><strong>Mikail:</strong> Ditugaskan mengatur hujan dan rezeki.</li><li><strong>Israfil:</strong> Meniup sangkakala di hari kiamat.</li><li><strong>Malakul Maut:</strong> Mencabut nyawa.</li><li><strong>Munkar dan Nakir:</strong> Menanyai orang mati di kuburnya.</li></ul>"
   },
   {
     "id": 113,
@@ -1129,7 +1435,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Jinn في الإسلام",
+    "title_id": "Jinn dalam Islam"
   },
   {
     "id": 114,
@@ -1139,7 +1447,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "البرزخ",
+    "title_id": "Barzakh"
   },
   {
     "id": 115,
@@ -1149,7 +1459,11 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "يوم القيامة",
+    "title_id": "Hari Kiamat",
+    "content_ar": "<h2>يوم القيامة</h2>\n<p>يوم القيامة هو يوم البعث والحشر والحساب والجزاء. قال الله تعالى: ﴿لَا أُقْسِمُ بِيَوْمِ الْقِيَامَةِ﴾ [القيامة: 1]. وهو ركن من أركان الإيمان الستة.</p>\n<h3>أسماء يوم القيامة</h3>\n<p>له أسماء كثيرة في القرآن: يوم الدين، يوم الحساب، يوم الجمع، يوم التغابن، يوم الفصل، الساعة، وغيرها. وكثرة أسمائه تدل على عظم شأنه.</p>\n<h3>أحداث يوم القيامة</h3>\n<ol>\n<li>النفخ في الصور</li>\n<li>البعث من القبور</li>\n<li>الحشر إلى أرض المحشر</li>\n<li>العرض والحساب</li>\n<li>وزن الأعمال في الميزان</li>\n<li>الصراط</li>\n<li>الحوض</li>\n<li>الشفاعة</li>\n<li>دخول الجنة والنار</li>\n</ol>\n<h3>علامات الساعة</h3>\n<p>للساعة علامات صغرى كثيرة وعلامات كبرى عشر: الدخان، والدجال، ونزول عيسى، ويأجوج ومأجوج، وثلاثة خسوف، وطلوع الشمس من مغربها، والدابة، والنار.</p>",
+    "content_id": "<h2>Hari Kiamat dalam Islam</h2>\n<p>Hari Kiamat adalah hari kebangkitan, pengumpulan manusia, hisab, dan pembalasan. Allah berfirman: \"Aku bersumpah demi hari Kiamat.\" (QS. Al-Qiyamah: 1). Ini adalah salah satu dari enam rukun iman.</p>\n<h3>Nama-nama Hari Kiamat</h3>\n<p>Hari Kiamat memiliki banyak nama dalam Al-Qur'an: Yaumud-Din, Yaumul-Hisab, Yaumul-Jam', Yaumut-Taghabun, Yaumul-Fashl, As-Sa'ah, dan lainnya. Banyaknya nama menunjukkan betapa agungnya hari tersebut.</p>\n<h3>Kejadian-kejadian Hari Kiamat</h3>\n<ol>\n<li>Tiupan sangkakala</li>\n<li>Kebangkitan dari kubur</li>\n<li>Pengumpulan di padang mahsyar</li>\n<li>Penampilan dan hisab</li>\n<li>Penimbangan amal dalam mizan</li>\n<li>Melewati shirath</li>\n<li>Masuk surga atau neraka</li>\n</ol>"
   },
   {
     "id": 116,
@@ -1159,7 +1473,11 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Jannah (Paradise))",
+    "title_id": "Jannah (Paradise)",
+    "content_ar": "<h2>الجنة في الإسلام</h2>\n<p>الجنة هي دار النعيم الأبدي التي أعدها الله لعباده المتقين. قال الله تعالى: ﴿وَبَشِّرِ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ﴾ [البقرة: 25].</p>\n<h3>درجات الجنة</h3>\n<p>الجنة درجات، وأعلاها الفردوس الأعلى. قال النبي صلى الله عليه وسلم: \"الجنة مائة درجة أعدها الله للمجاهدين في سبيله، بين كل درجتين كما بين السماء والأرض\" [رواه البخاري].</p>\n<h3>نعيم الجنة</h3>\n<p>قال الله تعالى: ﴿فَلَا تَعْلَمُ نَفْسٌ مَّا أُخْفِيَ لَهُم مِّن قُرَّةِ أَعْيُنٍ﴾ [السجدة: 17]. ونعيم الجنة لا يوصف: الطعام والشراب والحور والقصور والتنعم برؤية الله سبحانه وتعالى.</p>",
+    "content_id": "<h2>Surga dalam Islam</h2>\n<p>Surga adalah negeri kenikmatan abadi yang Allah siapkan untuk hamba-hamba-Nya yang bertakwa. Allah berfirman: \"Dan sampaikanlah kabar gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir di bawahnya sungai-sungai.\" (QS. Al-Baqarah: 25).</p>\n<h3>Tingkatan Surga</h3>\n<p>Surga memiliki tingkatan-tingkatan; yang tertinggi adalah Firdaus al-A'la. Nabi ﷺ bersabda: \"Surga seratus tingkat yang Allah siapkan untuk para mujahid di jalan-Nya, antara dua tingkat seperti jarak antara langit dan bumi.\" (HR. Bukhari).</p>\n<h3>Kenikmatan Surga</h3>\n<p>Allah berfirman: \"Seorang pun tidak mengetahui apa yang disembunyikan untuk mereka yaitu (bermacam-macam nikmat) yang menyedapkan pandangan mata.\" (QS. As-Sajdah: 17). Nikmat surga tak tergambarkan: makanan, minuman, bidadari, istana, dan nikmat tertinggi yaitu melihat Allah Ta'ala.</p>"
   },
   {
     "id": 117,
@@ -1169,7 +1487,10 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Jahannam (Hellfire))",
+    "title_id": "Jahannam (Hellfire)",
+    "content_ar": "<h2>النار في الإسلام</h2>\n<p>النار هي دار العذاب التي أعدها الله للكافرين والمشركين. قال الله تعالى: ﴿إِنَّ اللَّهَ لَعَنَ الْكَافِرِينَ وَأَعَدَّ لَهُمْ سَعِيرًا﴾ [الأحزاب: 64]. والإيمان بالنار ركن من أركان الإيمان باليوم الآخر.</p>\n<h3>أسماء النار</h3>\n<p>للنار أسماء عدة: جهنم، والسعير، والجحيم، والحطمة، وسقر، واللظى، والهاوية.</p>\n<h3>طبقات النار</h3>\n<p>النار سبع طبقات: جهنم، ولظى، والحطمة، والسعير، وسقر، والجحيم، والهاوية، والهاوية أسفلها وأشدها عذاباً.</p>\n<h3>الأعمال المنجية من النار</h3>\n<p>قال النبي صلى الله عليه وسلم: \"اتقوا النار ولو بشق تمرة\" [رواه البخاري ومسلم]. والتوحيد الصحيح والعمل الصالح والإخلاص والتوبة أعظم الأسباب المنجية من النار.</p>"
   },
   {
     "id": 118,
@@ -1179,7 +1500,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Signs of the Last Day)",
+    "title_id": "Signs of the Last Day"
   },
   {
     "id": 119,
@@ -1189,7 +1512,11 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Al-Asma al-Husna (الBeautiful Names of Allah)",
+    "title_id": "Al-Asma al-Husna (Beautiful Names of Allah)",
+    "content_ar": "<h2>أسماء الله الحسنى</h2>\n<p>لله تعالى أسماء حسنى وصفات عليا، وردت في القرآن الكريم والسنة النبوية. قال الله تعالى: ﴿وَلِلَّهِ الْأَسْمَاءُ الْحُسْنَىٰ فَادْعُوهُ بِهَا وَذَرُوا الَّذِينَ يُلْحِدُونَ فِي أَسْمَائِهِ﴾ [الأعراف: 180].</p>\n<h3>العدد المذكور في الحديث</h3>\n<p>قال النبي صلى الله عليه وسلم: \"إن لله تسعة وتسعين اسماً مائة إلا واحداً من أحصاها دخل الجنة\" [رواه البخاري ومسلم]. والمراد حفظها والإيمان بها والتعبد بمعانيها.</p>\n<h3>أبرز الأسماء الحسنى</h3>\n<p>الله، الرحمن، الرحيم، الملك، القدوس، السلام، المؤمن، المهيمن، العزيز، الجبار، المتكبر، الخالق، البارئ، المصور، الغفار، القهار، الوهاب، الرزاق، الفتاح، العليم، القابض، الباسط، الرافع، المعز، المذل، السميع، البصير، الحكم، العدل، اللطيف، الخبير، الحليم، العظيم، الغفور، الشكور، العلي، الكبير، الحفيظ، المقيت، الحسيب، الجليل، الكريم، الرقيب، المجيب، الواسع، الحكيم، الودود، المجيد، الباعث، الشهيد، الحق، الوكيل، القوي، المتين، الولي، الحميد، المحصي، المبدئ، المعيد، المحيي، المميت، الحي، القيوم، الواجد، الماجد، الواحد، الأحد، الصمد، القادر، المقتدر، المقدم، المؤخر، الأول، الآخر، الظاهر، الباطن، الوالي، المتعالي، البر، التواب، المنتقم، العفو، الرؤوف، مالك الملك، ذو الجلال والإكرام، المقسط، الجامع، الغني، المغني، المانع، الضار، النافع، النور، الهادي، البديع، الباقي، الوارث، الرشيد، الصبور.</p>",
+    "content_id": "<h2>Asma ul-Husna — Nama-nama Allah yang Indah</h2>\n<p>Allah memiliki asma ul-husna (nama-nama yang indah) dan sifat-sifat yang mulia, sebagaimana disebutkan dalam Al-Qur'an dan Sunnah. Allah berfirman: \"Dan Allah memiliki asma ul-husna (nama-nama yang terbaik), maka bermohonlah kepada-Nya menyebut asma ul-husna itu.\" (QS. Al-A'raf: 180).</p>\n<h3>Jumlah yang Disebutkan dalam Hadits</h3>\n<p>Nabi ﷺ bersabda: \"Sesungguhnya Allah memiliki sembilan puluh sembilan nama, seratus kurang satu; barangsiapa menghafalnya (dan mengamalkannya) akan masuk surga.\" (HR. Bukhari-Muslim). Yang dimaksud adalah menghafalnya, beriman dengannya, dan beribadah dengan maknanya.</p>\n<h3>Beberapa Asma ul-Husna</h3>\n<p>Allah, Ar-Rahman (Maha Pengasih), Ar-Rahim (Maha Penyayang), Al-Malik (Maha Merajai), Al-Quddus (Maha Suci), As-Salam (Maha Memberi Keselamatan), Al-Mu'min (Maha Memberi Keamanan), Al-Muhaymin (Maha Memelihara), Al-'Aziz (Maha Perkasa), Al-Jabbar (Maha Kuasa), Al-Mutakabbir (Maha Megah), Al-Khaliq (Maha Pencipta), Al-Fattah (Maha Membuka Pintu Rezeki), Al-'Alim (Maha Mengetahui), dan masih banyak lagi.</p>"
   },
   {
     "id": 120,
@@ -1199,7 +1526,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Umrah (Lesser Pilgrimage))",
+    "title_id": "Umrah (Lesser Pilgrimage)"
   },
   {
     "id": 121,
@@ -1209,7 +1538,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Jumu'ah (Friday Prayer))",
+    "title_id": "Jumu'ah (Friday Prayer)"
   },
   {
     "id": 122,
@@ -1219,7 +1550,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Categories of الإسلامي Rulings (Ahkam al-Khamsah)",
+    "title_id": "Categories of Islam Rulings (Ahkam al-Khamsah)"
   },
   {
     "id": 123,
@@ -1229,7 +1562,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Seerah: الLife of Prophet Muhammad",
+    "title_id": "Seerah: Life of Prophet Muhammad"
   },
   {
     "id": 124,
@@ -1239,7 +1574,10 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الخلافة الراشدة",
+    "title_id": "Khulafaur Rasyidin",
+    "content_id": "<h2>Khilafah Rasyidah</h2>\n<p>Khilafah Rasyidah adalah periode kepemimpinan empat khalifah pertama setelah wafatnya Nabi Muhammad ﷺ (11-40 H / 632-661 M): Abu Bakar, Umar, Utsman, dan Ali radhiyallahu 'anhum ajma'in.</p>\n<h3>Abu Bakar ash-Shiddiq (11-13 H)</h3>\n<p>Khalifah pertama. Menghadapi fitnah riddah (kemurtadan), mengumpulkan Al-Qur'an, dan memperluas wilayah Islam ke Persia dan Romawi.</p>\n<h3>Umar ibn al-Khattab (13-23 H)</h3>\n<p>Khalifah kedua. Di masanya Islam meluas ke Syam, Persia, Mesir, dan sebagian Romawi. Mendirikan bait al-mal dan sistem administrasi negara.</p>\n<h3>Utsman ibn Affan (23-35 H)</h3>\n<p>Khalifah ketiga. Menyelesaikan penaklukan Persia, menyatukan mushaf Al-Qur'an pada satu qiraat, dan memperluas Masjidil Haram dan Masjid Nabawi.</p>\n<h3>Ali ibn Abi Thalib (35-40 H)</h3>\n<p>Khalifah keempat. Menghadapi fitna pertama (al-fitna al-kubra) dan peristiwa Perang Jamal dan Shiffin.</p>"
   },
   {
     "id": 125,
@@ -1249,7 +1587,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الخلافة الأموية",
+    "title_id": "Kekhalifahan Umayyah"
   },
   {
     "id": 126,
@@ -1259,7 +1599,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الخلافة العباسية",
+    "title_id": "Kekhalifahan Abbasiyah"
   },
   {
     "id": 127,
@@ -1269,7 +1611,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الOttoman Empire",
+    "title_id": "Ottoman Empire"
   },
   {
     "id": 128,
@@ -1279,7 +1623,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Battle of the Trench (Khandaq))",
+    "title_id": "Battle of the Trench (Khandaq)"
   },
   {
     "id": 129,
@@ -1289,7 +1635,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Battle of Khaybar)",
+    "title_id": "Battle of Khaybar"
   },
   {
     "id": 130,
@@ -1299,7 +1647,11 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Al-Isra wal-Mi'raj (الNight Journey and Ascension)",
+    "title_id": "Al-Isra wal-Mi'raj (Night Journey and Ascension)",
+    "content_ar": "<h2>الإسراء والمعراج</h2>\n<p>الإسراء والمعراج هو رحلة النبي محمد صلى الله عليه وسلم الليلية من المسجد الحرام إلى المسجد الأقصى (الإسراء)، ثم عروجه إلى السماوات العلى (المعراج). قال الله تعالى: ﴿سُبْحَانَ الَّذِي أَسْرَىٰ بِعَبْدِهِ لَيْلًا مِّنَ الْمَسْجِدِ الْحَرَامِ إِلَى الْمَسْجِدِ الْأَقْصَا﴾ [الإسراء: 1].</p>\n<h3>أحداث الإسراء والمعراج</h3>\n<ol>\n<li>الإسراء بالنبي من المسجد الحرام إلى المسجد الأقصى.</li>\n<li>صلاة النبي إماماً بالأنبياء في المسجد الأقصى.</li>\n<li>العروج عبر السماوات السبع ولقاء الأنبياء.</li>\n<li>بلوغ سدرة المنتهى.</li>\n<li>فرض الصلوات الخمسين، ثم تخفيفها إلى خمس.</li>\n</ol>\n<h3>حكمة الإسراء والمعراج</h3>\n<p>كان الإسراء والمعراج تكريماً للنبي وتثبيتاً له بعد عام الحزن، وآية كبرى على صدق رسالته، وتشريفاً لهذه الأمة بفريضة الصلاة.</p>",
+    "content_id": "<h2>Isra dan Mi'raj</h2>\n<p>Isra Mi'raj adalah perjalanan malam Nabi Muhammad ﷺ dari Masjidil Haram ke Masjidil Aqsha (Isra'), kemudian naik ke langit-langit yang tinggi (Mi'raj). Allah berfirman: \"Mahasuci (Allah) yang telah memperjalankan hamba-Nya (Muhammad) pada malam hari dari Masjidil Haram ke Masjidil Aqsa.\" (QS. Al-Isra: 1).</p>\n<h3>Kejadian Isra Mi'raj</h3>\n<ol>\n<li>Perjalanan dari Masjidil Haram ke Masjidil Aqsha.</li>\n<li>Nabi mengimami shalat para nabi di Masjidil Aqsha.</li>\n<li>Naik melewati tujuh langit dan bertemu dengan para nabi.</li>\n<li>Mencapai Sidratul Muntaha.</li>\n<li>Diwajibkan shalat 50 waktu, kemudian dikurangi menjadi 5 waktu.</li>\n</ol>\n<h3>Hikmah Isra Mi'raj</h3>\n<p>Isra Mi'raj adalah kemuliaan bagi Nabi dan penguat beliau setelah 'Amul Huzn (Tahun Kesedihan), tanda kebenaran risalah beliau, dan kemuliaan bagi umat ini dengan kewajiban shalat.</p>"
   },
   {
     "id": 131,
@@ -1309,7 +1661,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الFarewell Sermon (Khutbat al-Wada')",
+    "title_id": "Farewell Sermon (Khutbat al-Wada')"
   },
   {
     "id": 132,
@@ -1319,7 +1673,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الConstitution of Madinah (Sahifat al-Madinah)",
+    "title_id": "Constitution of Madinah (Sahifat al-Madinah)"
   },
   {
     "id": 133,
@@ -1329,7 +1685,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "التجويد",
+    "title_id": "Tajwid"
   },
   {
     "id": 134,
@@ -1339,7 +1697,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Qira'at (Variant Readings of the Quran))",
+    "title_id": "Qira'at (Variant Readings of the Quran)"
   },
   {
     "id": 135,
@@ -1349,7 +1709,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Tafsir (Quranic Exegesis))",
+    "title_id": "Tafsir (Quranic Exegesis)"
   },
   {
     "id": 136,
@@ -1359,7 +1721,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "أسباب النزول",
+    "title_id": "Asbabun Nuzul"
   },
   {
     "id": 137,
@@ -1369,7 +1733,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Nasikh wal-Mansukh (Abrogation in the Quran))",
+    "title_id": "Nasikh wal-Mansukh (Abrogation in the Quran)"
   },
   {
     "id": 138,
@@ -1379,7 +1745,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ilm al-Jarh wal-Ta'dil (Science of Narrator Criticism))",
+    "title_id": "Ilm al-Jarh wal-Ta'dil (Science of Narrator Criticism)"
   },
   {
     "id": 139,
@@ -1389,7 +1757,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Al-Andalus (الإسلامي Spain)",
+    "title_id": "Al-Andalus (Islam Spain)"
   },
   {
     "id": 140,
@@ -1399,7 +1769,11 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "العصر الذهبي الإسلامي",
+    "title_id": "Zaman Keemasan Islam",
+    "content_ar": "<h2>العصر الذهبي الإسلامي</h2><p>العصر الذهبي الإسلامي هو الفترة الممتدة من القرن الثامن حتى القرن الثالث عشر الميلادي تقريباً، التي شهدت ازدهاراً علمياً وثقافياً وحضارياً غير مسبوق في الحضارة الإسلامية.</p><h3>إسهامات المسلمين العلمية</h3><ul><li><strong>الرياضيات:</strong> ابن موسى الخوارزمي مؤسس علم الجبر.</li><li><strong>الطب:</strong> ابن سينا وكتاب القانون.</li><li><strong>الفلك:</strong> البيروني وابن الهيثم.</li><li><strong>الكيمياء:</strong> جابر بن حيان.</li><li><strong>الجغرافيا:</strong> الإدريسي وخرائطه الدقيقة.</li></ul><h3>المراكز العلمية</h3><p>بغداد (بيت الحكمة)، والقاهرة، وقرطبة، وسمرقند، ونيسابور كانت مراكز إشعاع علمي أضاءت العالم.</p>",
+    "content_id": "<h2>Zaman Keemasan Islam</h2><p>Zaman Keemasan Islam adalah periode dari sekitar abad ke-8 hingga abad ke-13 Masehi, yang menyaksikan kemajuan ilmiah, budaya, dan peradaban yang belum pernah ada sebelumnya dalam peradaban Islam.</p><h3>Kontribusi Ilmiah Muslim</h3><ul><li><strong>Matematika:</strong> Al-Khawarizmi, pendiri aljabar.</li><li><strong>Kedokteran:</strong> Ibn Sina dan kitab Al-Qanun.</li><li><strong>Astronomi:</strong> Al-Biruni dan Ibn al-Haytham.</li><li><strong>Kimia:</strong> Jabir bin Hayyan.</li><li><strong>Geografi:</strong> Al-Idrisi dengan peta-petanya yang akurat.</li></ul><h3>Pusat-pusat Ilmu</h3><p>Baghdad (Bait al-Hikmah), Kairo, Cordoba, Samarkand, dan Nishapur adalah pusat-pusat cahaya ilmu yang menerangi dunia.</p>"
   },
   {
     "id": 141,
@@ -1411,7 +1785,8 @@
     "created_at": "2026-02-27",
     "updated_at": "2026-03-09",
     "content_id": "<h2>Perjalanan sebagai Transformasi</h2><p>Haji bukanlah wisata religi semata. Ini adalah penyerahan diri sepenuhnya — salah satu dari lima rukun Islam, wajib sekali seumur hidup bagi setiap Muslim yang mampu secara fisik dan finansial. Allah berfirman: <em>'Mengerjakan haji adalah kewajiban manusia terhadap Allah, yaitu bagi orang yang mampu mengadakan perjalanan ke Baitullah'</em> (Quran 3:97). Ritual-ritualnya, yang dilaksanakan selama lima hari di lembah dan dataran yang diberkahi di sekitar Makkah, merupakan peragaan ulang secara fisik, spiritual, dan historis atas cobaan, pengabdian, serta ketundukan Nabi Ibrahim ؓ dan keluarganya — sekaligus gambaran awal Hari Kiamat.</p><h2>Ihram: Kesetaraan di Hadapan Allah</h2><p>Keadaan <em>ihram</em> — memasukinya di titik-titik batas yang telah ditentukan (<em>mawaqit</em>) dengan niat haji dan mengenakan dua helai kain putih tak berjahit bagi laki-laki — adalah salah satu simbol paling kuat dalam Islam. Kekayaan, status, kebangsaan, dan suku dihapus seketika: eksekutif dan buruh, ulama dan pelajar, raja dan rakyat jelata semuanya berdiri di hadapan Allah dalam pakaian sederhana yang identik. Kain yang menyerupai kain kafan ini merupakan pengingat yang disengaja tentang kematian dan kelemahan setiap manusia di hadapan Allah di akhirat. Perempuan tetap mengenakan pakaian sopan mereka sehari-hari.</p><p>Para jamaah mengumandangkan <em>talbiyah</em> — <em>'Labbayk Allahumma Labbayk, Labbayk la sharika laka labbayk, inna al-hamda wal-ni'mata laka wal-mulk, la sharika lak'</em> — sejak mereka memasuki ihram hingga mulai melempar jumrah di Mina. Ini adalah jawaban atas seruan Ibrahim ketika Allah memerintahkannya mengumumkan haji kepada umat manusia: <em>'Dan serukanlah kepada manusia untuk mengerjakan haji, niscaya mereka akan datang kepadamu dengan berjalan kaki, dan mengendarai unta yang kurus, mereka datang dari segenap penjuru yang jauh'</em> (Quran 22:27). Setiap jamaah sedang menjawab seruan yang dilantunkan empat ribu tahun yang lalu.</p><h2>Tawaf: Mengelilingi Pusat</h2><p>Tawaf — mengelilingi Ka'bah tujuh kali berlawanan arah jarum jam — dilakukan saat tiba di Makkah (tawaf al-qudum), kemudian kembali dilakukan sebagai ritual perpisahan (tawaf al-wada'). Ka'bah itu sendiri tidak disembah; Nabi ﷺ dan para sahabatnya telah menegaskan hal ini. Ka'bah adalah kiblat shalat dan Baitullah — rumah pertama yang dibangun untuk ibadah kepada Tuhan Yang Maha Esa di bumi (Quran 3:96). Gerakan melingkar ribuan orang di sekeliling satu poros merupakan ungkapan visual dari keesaan ilahi: seluruh ciptaan berorientasi kepada Yang Satu.</p><p><strong>Hajar Aswad</strong> (<em>al-Hajar al-Aswad</em>) di salah satu sudut Ka'bah dicium atau diisyaratkan pada awal dan akhir setiap putaran sebagai sunnah Nabi. Umar ibn al-Khattab ؓ mengungkapkan pemahaman yang benar ketika beliau berbicara langsung kepada batu itu: <em>'Demi Allah, aku tahu engkau hanyalah sebuah batu yang tidak dapat mendatangkan manfaat maupun mudarat. Seandainya aku tidak melihat Nabi ﷺ menciummu, tentu aku tidak akan menciummu'</em> (Shahih al-Bukhari 1597). Perbuatan itu adalah cinta yang patuh, bukan penghormatan yang mengandung takhayul.</p><h2>Sa'y: Antara Safa dan Marwa</h2><p>Ritual berjalan tujuh kali antara bukit Safa dan Marwa mengenang pencarian air yang dilakukan Hajar dengan penuh kecemasan untuk putranya, Ismail ؓ, di lembah Makkah yang gersang. Kepercayaannya yang putus asa namun bermartabat kepada Allah — berlari-lari di antara dua bukit mencari pertolongan — dibalas dengan mata air Zamzam yang ajaib yang memancar dari tempat kaki Ismail. Al-Quran memuliakan perbuatan ini dengan menyebut kedua bukit tersebut sebagai <em>sya'airullah</em> (syiar Allah): <em>'Sesungguhnya Shafa dan Marwa adalah sebagian dari syiar Allah'</em> (Quran 2:158). Dengan melaksanakan sa'y, jutaan jamaah menghidupkan kembali keimanan seorang ibu.</p><h2>Arafat: Puncak Haji</h2><p>Wukuf di Arafat pada sore hari tanggal 9 Dzulhijjah adalah puncak spiritual dari seluruh ibadah haji. Nabi ﷺ bersabda: <em>'Haji adalah Arafat'</em> (Sunan al-Nasai 3016; Sunan Abu Dawud 1949), artinya barang siapa tidak hadir di Arafat maka hajinya gugur. Jutaan jamaah berdiri di dataran yang sama, mengenakan pakaian sederhana yang sama, semua menghadap arah yang sama, berdoa, menangis, dan memohon ampunan. Inilah gambaran terdekat di dunia ini dari perkumpulan pada Hari Kiamat. Nabi ﷺ bersabda bahwa Allah turun ke langit dunia pada sore hari Arafat dan membanggakan para jamaah kepada para malaikat, dengan berkata: <em>'Hamba-hamba-Ku telah datang kepada-Ku dalam keadaan kusut dan berdebu, dari setiap penjuru yang jauh'</em> (Musnad Ahmad 9714).</p><h2>Mina, Muzdalifah, dan Hari-Hari Tasyriq</h2><p>Setelah matahari terbenam pada Hari Arafat, para jamaah bergerak menuju Muzdalifah, di mana mereka shalat, tidur di bawah langit terbuka, dan mengumpulkan batu kerikil. Pada pagi hari Idul Adha (10 Dzulhijjah), mereka menuju Mina untuk melempar jumrah — tiga tiang batu yang mewakili tempat-tempat di mana Setan menampakkan diri kepada Ibrahim ؓ untuk membujuknya agar tidak menaati perintah Allah agar menyembelih putranya. Ibrahim melemparinya dengan batu, suatu perbuatan yang ritual haji abadikan sebagai penolakan simbolik terhadap Setan dalam segala wujudnya. Udhiyah (penyembelihan hewan kurban), pencukuran atau pemendekan rambut (tanda berakhirnya ihram), dan tawaf ifadah menyempurnakan ritual-ritual utama. Hari-hari Tasyriq (11–13 Dzulhijjah) dihabiskan di Mina, melempar jumrah di setiap sesi dan berzikir kepada Allah — hari-hari yang Nabi ﷺ gambarkan sebagai 'hari makan, minum, dan mengingat Allah.'</p>",
-    "title_id": "Haji: Tinjauan Lebih Mendalam tentang Ritual-ritualnya"
+    "title_id": "Haji: Tinjauan Lebih Mendalam tentang Ritual-ritualnya",
+    "title_ar": "(Hajj: A Deeper Look at Its Rituals)"
   },
   {
     "id": 142,
@@ -1421,7 +1796,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "عيد الفطر",
+    "title_id": "Idul Fitri"
   },
   {
     "id": 143,
@@ -1431,7 +1808,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "عيد الأضحى",
+    "title_id": "Idul Adha"
   },
   {
     "id": 144,
@@ -1441,7 +1820,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الصدقة",
+    "title_id": "Sedekah"
   },
   {
     "id": 145,
@@ -1451,7 +1832,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الربا",
+    "title_id": "Riba"
   },
   {
     "id": 146,
@@ -1463,7 +1846,8 @@
     "created_at": "2026-02-27",
     "updated_at": "2026-03-09",
     "content_id": "<h2>Definisi dan Dasar Al-Qur'an</h2><p>Tawassul (توسل) berarti mencari <em>wasilah</em> — suatu perantara, sarana, atau titik kedekatan — ketika berdoa kepada Allah. Al-Qur'an memerintahkan: <em>'Wahai orang-orang yang beriman, bertakwalah kepada Allah dan carilah wasilah kepada-Nya'</em> (QS. Al-Ma'idah: 35). Pertanyaan utama dalam topik ini adalah: apa yang termasuk wasilah yang sah? Ini adalah persoalan yang di dalamnya para ulama Ahlus Sunnah ada yang sepakat dan ada yang berbeda pendapat. Memahami titik-titik kesepakatan maupun titik-titik perbedaan pendapat yang sahih di kalangan ulama sangat penting untuk menelusuri topik ini dengan ilmu dan keseimbangan.</p><h2>Bentuk-Bentuk Tawassul yang Disepakati</h2><p>Seluruh ulama Ahlus Sunnah, dari berbagai mazhab fiqh dan tradisi teologi, bersepakat atas kebolehan bentuk-bentuk tawassul berikut:</p><ul><li><strong>Tawassul melalui nama-nama dan sifat-sifat Allah:</strong> Berdoa kepada Allah dengan menggunakan Asma'ul Husna dan sifat-sifat-Nya secara langsung — <em>'Ya Allah, dengan rahmat-Mu, rahmatilah aku'</em> — diperintahkan oleh Al-Qur'an itu sendiri (QS. Al-A'raf: 180).</li><li><strong>Tawassul melalui amal saleh diri sendiri:</strong> Berdoa dengan menyebutkan suatu amalan saleh yang dilakukan dengan ikhlas karena Allah, lalu meminta Allah mengabulkan doa karenanya. Hadits terkenal tentang tiga orang yang terjebak di dalam gua, yang masing-masing berdoa dengan menyebutkan amalnya yang tulus, hingga batu besar itu bergeser, diriwayatkan dalam Shahih al-Bukhari (2272) dan Shahih Muslim (2743) dan diterima secara bulat.</li><li><strong>Tawassul melalui permohonan doa kepada orang saleh yang masih hidup:</strong> Meminta seseorang yang masih hidup dan saleh — seorang ulama, orang yang bertakwa, atau orang tua sendiri — untuk mendoakan kita, hal ini telah mapan dari para sahabat, yang sering meminta Nabi ﷺ mendoakan mereka, serta dari permintaan Umar ibn al-Khattab kepada Abbas ibn Abd al-Muttalib untuk berdoa memohon hujan setelah wafatnya Nabi ﷺ (Shahih al-Bukhari 1010).</li></ul><h2>Titik Perbedaan Pendapat di Kalangan Ulama</h2><p>Perbedaan pendapat yang nyata di kalangan ulama terjadi pada kebolehan tawassul melalui <em>jah</em> (kedudukan atau derajat) Nabi ﷺ atau orang-orang saleh lainnya dalam doa — misalnya dengan mengucapkan: <em>'Ya Allah, aku memohon kepada-Mu dengan kedudukan Nabi-Mu agar Engkau kabulkan doaku.'</em> Bentuk ungkapan ini digunakan oleh sebagian muslim awal dan dikuatkan oleh ulama-ulama dari tradisi Maliki, Syafi'i, dan sebagian Hanbali. Ulama lain, termasuk banyak dari tradisi Hanbali dan mereka yang dipengaruhi analisis Ibnu Taimiyyah, menganggap bentuk tawassul ini tidak memiliki dalil yang kuat dan sebaiknya dihindari sebagai bentuk kehati-hatian, meskipun mereka tidak serta-merta menyatakannya sebagai syirik. Ini adalah perbedaan pendapat ilmiah yang sah di dalam Ahlus Sunnah — tidak satu pun dari kedua posisi ini boleh diperlakukan sebagai bid'ah sesat.</p><h2>Yang Bukan Tawassul, Melainkan Syirik</h2><p>Pembahasan ilmiah tentang tawassul harus dibedakan secara jelas dari praktik-praktik yang sama sekali berada di luar cakupannya dan merupakan syirik atau sarana menuju syirik: mengarahkan doa (<em>du'a al-ibadah</em>) kepada selain Allah, baik yang masih hidup maupun yang telah wafat; menyeru Nabi ﷺ atau wali-wali yang telah meninggal seolah mereka dapat mendengar dan merespons secara mandiri; mengunjungi kuburan untuk meminta pertolongan, kesembuhan, atau syafaat secara langsung kepada orang yang telah wafat; meyakini bahwa wali-wali yang telah meninggal mengetahui perkara gaib atau memiliki kekuasaan untuk mempengaruhi dunia secara mandiri tanpa izin Allah. Praktik-praktik ini bukan tawassul dalam pengertian manapun yang diakui — melainkan bentuk ibadah yang ditujukan kepada selain Allah, dan dilarang berdasarkan dalil yang jelas dan tegas. Perbedaan antara sungguh-sungguh meminta seseorang yang masih hidup untuk mendoakan kita (tawassul) dengan menyeru orang yang telah wafat secara langsung (syirik) harus dipahami dengan baik.</p>",
-    "title_id": "Tawassul (Mencari Perantara untuk Mendekatkan Diri kepada Allah)"
+    "title_id": "Tawassul (Mencari Perantara untuk Mendekatkan Diri kepada Allah)",
+    "title_ar": "التوسل"
   },
   {
     "id": 147,
@@ -1473,7 +1857,11 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الشرك",
+    "title_id": "Syirik",
+    "content_ar": "<h2>الشرك بالله</h2>\n<p>الشرك هو صرف شيء من العبادة لغير الله، وهو أعظم ذنب يُعصى الله به. قال الله تعالى: ﴿إِنَّ اللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَاءُ﴾ [النساء: 48].</p>\n<h3>أنواع الشرك</h3>\n<ol>\n<li><strong>الشرك الأكبر:</strong> وهو صرف نوع من أنواع العبادة لغير الله، كالدعاء والاستغاثة والذبح والنذر لغير الله. وهذا مخرج من الملة.</li>\n<li><strong>الشرك الأصغر:</strong> وهو ما وُصف بالشرك في النصوص ولا يُخرج من الملة، كالرياء واليسير من التعلق بالأسباب.</li>\n<li><strong>الشرك الخفي:</strong> وهو أخفى من دبيب النمل، ومنه الرياء في العبادات.</li>\n</ol>\n<h3>أمثلة على الشرك الأكبر</h3>\n<p>من صور الشرك الأكبر: الدعاء والاستغاثة بالأموات، والذبح لغير الله، والنذر لغير الله، والطواف بالقبور تعبداً، والتحاكم إلى غير شريعة الله اعتقاداً بأنها أفضل منها.</p>\n<h3>خطورة الشرك</h3>\n<p>قال الله تعالى: ﴿وَلَقَدْ أُوحِيَ إِلَيْكَ وَإِلَى الَّذِينَ مِن قَبْلِكَ لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ الْخَاسِرِينَ﴾ [الزمر: 65]. وقال النبي صلى الله عليه وسلم: \"من مات وهو يدعو من دون الله نداً دخل النار\" [رواه البخاري].</p>",
+    "content_id": "<h2>Syirik dalam Islam</h2>\n<p>Syirik adalah memalingkan sebagian ibadah kepada selain Allah. Ini adalah dosa terbesar yang tidak diampuni oleh Allah jika pelakunya mati dalam keadaan tersebut. Allah berfirman: \"Sesungguhnya Allah tidak mengampuni dosa syirik, dan Dia mengampuni segala dosa selain dari (syirik) itu bagi siapa yang dikehendaki-Nya.\" (QS. An-Nisa: 48).</p>\n<h3>Jenis-jenis Syirik</h3>\n<ol>\n<li><strong>Syirik Akbar (Besar):</strong> Memalingkan satu jenis ibadah kepada selain Allah, seperti berdoa, meminta pertolongan, menyembelih, atau bernazar kepada selain Allah. Ini mengeluarkan pelakunya dari Islam.</li>\n<li><strong>Syirik Asghar (Kecil):</strong> Yang disebutkan sebagai syirik dalam nash namun tidak mengeluarkan dari Islam, seperti riya (pamer).</li>\n<li><strong>Syirik Khafi (Tersembunyi):</strong> Lebih tersembunyi dari jejak semut, seperti sedikit riya dalam ibadah.</li>\n</ol>\n<h3>Contoh Syirik Akbar</h3>\n<p>Di antara bentuk syirik akbar: berdoa dan meminta tolong kepada orang yang sudah mati, menyembelih untuk selain Allah, bernazar kepada selain Allah, bertawaf di kuburan sebagai bentuk ibadah.</p>"
   },
   {
     "id": 148,
@@ -1483,7 +1871,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Nikah: الإسلامي Marriage in Detail",
+    "title_id": "Nikah: Islam Marriage in Detail"
   },
   {
     "id": 149,
@@ -1493,7 +1883,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Janazah (الإسلامي Funeral Rites)",
+    "title_id": "Janazah (Islam Funeral Rites)"
   },
   {
     "id": 150,
@@ -1503,7 +1895,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Khilafah (Caliphate) as a Concept)",
+    "title_id": "Khilafah (Caliphate) as a Concept"
   },
   {
     "id": 151,
@@ -1513,7 +1907,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Hasan al-Basri)",
+    "title_id": "Hasan al-Basri"
   },
   {
     "id": 152,
@@ -1523,7 +1919,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Imam al-Ghazali)",
+    "title_id": "Imam al-Ghazali"
   },
   {
     "id": 153,
@@ -1533,7 +1931,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ibn Taymiyyah)",
+    "title_id": "Ibn Taymiyyah"
   },
   {
     "id": 154,
@@ -1543,7 +1943,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ibn al-Qayyim al-Jawziyyah)",
+    "title_id": "Ibn al-Qayyim al-Jawziyyah"
   },
   {
     "id": 155,
@@ -1553,7 +1955,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Imam al-Nawawi)",
+    "title_id": "Imam al-Nawawi"
   },
   {
     "id": 156,
@@ -1563,7 +1967,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Ibn Kathir)",
+    "title_id": "Ibn Kathir"
   },
   {
     "id": 157,
@@ -1573,7 +1979,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Salah al-Layl (Night Prayer / Tahajjud))",
+    "title_id": "Salah al-Layl (Night Prayer / Tahajjud)"
   },
   {
     "id": 158,
@@ -1583,7 +1991,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sunnah Prayers (Rawatib))",
+    "title_id": "Sunnah Prayers (Rawatib)"
   },
   {
     "id": 159,
@@ -1593,7 +2003,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Witr Prayer)",
+    "title_id": "Witr Prayer"
   },
   {
     "id": 160,
@@ -1603,7 +2015,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Voluntary Fasting في الإسلام",
+    "title_id": "Voluntary Fasting dalam Islam"
   },
   {
     "id": 161,
@@ -1613,7 +2027,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(I'tikaf (Spiritual Retreat in the Mosque))",
+    "title_id": "I'tikaf (Spiritual Retreat in the Mosque)"
   },
   {
     "id": 162,
@@ -1623,7 +2039,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Laylat al-Qadr (الNight of Power)",
+    "title_id": "Laylat al-Qadr (Night of Power)"
   },
   {
     "id": 163,
@@ -1633,7 +2051,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Halal and Haram Food في الإسلام",
+    "title_id": "Halal and Haram Food dalam Islam"
   },
   {
     "id": 164,
@@ -1643,7 +2063,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Inheritance في الإسلامic Law (Ilm al-Fara'id)",
+    "title_id": "Inheritance dalam Islam Law (Ilm al-Fara'id)"
   },
   {
     "id": 165,
@@ -1653,7 +2075,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Hudud (Prescribed Punishments في الإسلامic Law)",
+    "title_id": "Hudud (Prescribed Punishments dalam Islam Law)"
   },
   {
     "id": 166,
@@ -1663,7 +2087,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الDhahiri School (Zahiri Madhab)",
+    "title_id": "Dhahiri School (Zahiri Madhab)"
   },
   {
     "id": 167,
@@ -1673,7 +2099,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Waqf: الإسلامي Endowment System",
+    "title_id": "Waqf: Islam Endowment System"
   },
   {
     "id": 168,
@@ -1683,7 +2111,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Hisbah: الإسلامي Market Regulation",
+    "title_id": "Hisbah: Islam Market Regulation"
   },
   {
     "id": 169,
@@ -1693,7 +2123,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الIsnad System (Chain of Narration)",
+    "title_id": "Isnad System (Chain of Narration)"
   },
   {
     "id": 170,
@@ -1703,7 +2135,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Al-Muwatta of Imam Malik)",
+    "title_id": "Al-Muwatta of Imam Malik"
   },
   {
     "id": 171,
@@ -1713,7 +2147,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sunan Abu Dawud)",
+    "title_id": "Sunan Abu Dawud"
   },
   {
     "id": 172,
@@ -1723,7 +2159,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Jami' al-Tirmidhi)",
+    "title_id": "Jami' al-Tirmidhi"
   },
   {
     "id": 173,
@@ -1733,7 +2171,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sunan al-Nasa'i)",
+    "title_id": "Sunan al-Nasa'i"
   },
   {
     "id": 174,
@@ -1743,7 +2183,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sunan Ibn Majah)",
+    "title_id": "Sunan Ibn Majah"
   },
   {
     "id": 175,
@@ -1753,7 +2195,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Musnad Ahmad ibn Hanbal)",
+    "title_id": "Musnad Ahmad ibn Hanbal"
   },
   {
     "id": 176,
@@ -1763,7 +2207,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Muharram and the Day of Ashura)",
+    "title_id": "Muharram and the Day of Ashura"
   },
   {
     "id": 177,
@@ -1773,7 +2219,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Rajab and Sha'ban)",
+    "title_id": "Rajab and Sha'ban"
   },
   {
     "id": 178,
@@ -1783,7 +2231,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Jihad في الإسلامic Theology",
+    "title_id": "Jihad dalam Islam Theology"
   },
   {
     "id": 179,
@@ -1793,7 +2243,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Medicine في الإسلامic Civilization",
+    "title_id": "Medicine dalam Islam Civilization"
   },
   {
     "id": 180,
@@ -1803,7 +2255,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الArabic Language and Islam",
+    "title_id": "Arabic Language and Islam"
   },
   {
     "id": 181,
@@ -1813,7 +2267,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Siwak (Miswak))",
+    "title_id": "Siwak (Miswak)"
   },
   {
     "id": 182,
@@ -1823,7 +2279,9 @@
     "category": "Culture",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Etiquettes (Adab)",
+    "title_id": "Islam Etiquettes (Adab)"
   },
   {
     "id": 183,
@@ -1833,7 +2291,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Rights of Parents في الإسلام (Birr al-Walidayn)",
+    "title_id": "Rights of Parents dalam Islam (Birr al-Walidayn)"
   },
   {
     "id": 184,
@@ -1843,7 +2303,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Rights of Neighbors في الإسلام",
+    "title_id": "Rights of Neighbors dalam Islam"
   },
   {
     "id": 185,
@@ -1853,7 +2315,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Rights of Children في الإسلام",
+    "title_id": "Rights of Children dalam Islam"
   },
   {
     "id": 186,
@@ -1863,7 +2327,11 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "المرأة في الإسلام",
+    "title_id": "Wanita dalam Islam",
+    "content_ar": "<h2>المرأة في الإسلام</h2>\n<p>كرّم الإسلام المرأة وأعطاها حقوقها كاملة. قال الله تعالى: ﴿وَلَهُنَّ مِثْلُ الَّذِي عَلَيْهِنَّ بِالْمَعْرُوفِ﴾ [البقرة: 228]. وكانت المرأة قبل الإسلام مظلومة محرومة من كثير من الحقوق.</p>\n<h3>حقوق المرأة في الإسلام</h3>\n<ul>\n<li>حق الحياة وحرمة الوأد.</li>\n<li>حق التعليم والعلم.</li>\n<li>حق الملكية والعمل الحلال.</li>\n<li>حق الإرث.</li>\n<li>حق اختيار الزوج والرفض.</li>\n<li>حق المهر الذي هو ملكها وحدها.</li>\n</ul>\n<h3>مكانة المرأة</h3>\n<p>قال النبي صلى الله عليه وسلم: \"خيركم خيركم لأهله وأنا خيركم لأهلي\" [رواه الترمذي]. وقال: \"استوصوا بالنساء خيراً\" [رواه البخاري ومسلم].</p>",
+    "content_id": "<h2>Wanita dalam Islam</h2>\n<p>Islam memuliakan wanita dan memberikan haknya secara penuh. Allah berfirman: \"Dan para wanita mempunyai hak yang seimbang dengan kewajibannya menurut cara yang ma'ruf.\" (QS. Al-Baqarah: 228). Sebelum Islam, wanita tertindas dan kehilangan banyak haknya.</p>\n<h3>Hak-hak Wanita dalam Islam</h3>\n<ul>\n<li>Hak untuk hidup dan larangan mengubur hidup-hidup.</li>\n<li>Hak pendidikan dan ilmu pengetahuan.</li>\n<li>Hak kepemilikan dan pekerjaan yang halal.</li>\n<li>Hak warisan.</li>\n<li>Hak memilih suami dan menolak.</li>\n<li>Hak mahar yang menjadi miliknya sepenuhnya.</li>\n</ul>\n<h3>Kedudukan Wanita</h3>\n<p>Nabi ﷺ bersabda: \"Sebaik-baik kalian adalah yang paling baik kepada keluarganya, dan aku adalah yang paling baik di antara kalian kepada keluargaku.\" (HR. Tirmidzi). Dan: \"Berwasiatlah kepada para wanita dengan kebaikan.\" (HR. Bukhari-Muslim).</p>"
   },
   {
     "id": 187,
@@ -1873,7 +2341,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Hijab في الإسلام",
+    "title_id": "Hijab dalam Islam"
   },
   {
     "id": 188,
@@ -1883,7 +2353,9 @@
     "category": "Jurisprudence",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Non-Muslims in the الإسلامي State (Ahl al-Dhimmah)",
+    "title_id": "Non-Muslims in the Islam State (Ahl al-Dhimmah)"
   },
   {
     "id": 189,
@@ -1893,7 +2365,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Samarkand في الإسلامic History",
+    "title_id": "Samarkand dalam Islam History"
   },
   {
     "id": 190,
@@ -1903,7 +2377,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Preservation of the Quran)",
+    "title_id": "Preservation of the Quran"
   },
   {
     "id": 191,
@@ -1913,7 +2389,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Aqiqah (Birth Celebration Sacrifice))",
+    "title_id": "Aqiqah (Birth Celebration Sacrifice)"
   },
   {
     "id": 192,
@@ -1923,7 +2401,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Ruqyah Shar'iyyah (الإسلامي Spiritual Healing)",
+    "title_id": "Ruqyah Shar'iyyah (Islam Spiritual Healing)"
   },
   {
     "id": 193,
@@ -1933,7 +2413,9 @@
     "category": "Culture",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Architecture",
+    "title_id": "Islam Architecture"
   },
   {
     "id": 194,
@@ -1943,7 +2425,9 @@
     "category": "Culture",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Calligraphy (Al-Khatt al-Arabi)",
+    "title_id": "Islam Calligraphy (Al-Khatt al-Arabi)"
   },
   {
     "id": 195,
@@ -1953,7 +2437,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Entering Islam (الShahada)",
+    "title_id": "Entering Islam (Shahada)"
   },
   {
     "id": 196,
@@ -1963,7 +2449,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الScientific Method and الإسلامي Scholarship",
+    "title_id": "Scientific Method and Islam Scholarship"
   },
   {
     "id": 197,
@@ -1973,7 +2461,9 @@
     "category": "History",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الTabi'in (Successors)",
+    "title_id": "Tabi'in (Successors)"
   },
   {
     "id": 198,
@@ -1983,7 +2473,9 @@
     "category": "Contemporary",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Economics: Principles and System",
+    "title_id": "Islam Economics: Principles and System"
   },
   {
     "id": 199,
@@ -1993,7 +2485,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Imam Abu Hanifah)",
+    "title_id": "Imam Abu Hanifah"
   },
   {
     "id": 200,
@@ -2003,7 +2497,9 @@
     "category": "People",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Imam Ahmad ibn Hanbal)",
+    "title_id": "Imam Ahmad ibn Hanbal"
   },
   {
     "id": 201,
@@ -2013,7 +2509,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الShahada: Testimony of Faith",
+    "title_id": "Shahada: Testimony of Faith"
   },
   {
     "id": 202,
@@ -2023,7 +2521,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Salah: الSecond Pillar of Islam",
+    "title_id": "Salah: Second Pillar of Islam"
   },
   {
     "id": 203,
@@ -2033,7 +2533,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Zakat: الThird Pillar of Islam",
+    "title_id": "Zakat: Third Pillar of Islam"
   },
   {
     "id": 204,
@@ -2043,7 +2545,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "(Sawm: Fasting in Ramadan)",
+    "title_id": "Sawm: Fasting in Ramadan"
   },
   {
     "id": 205,
@@ -2053,7 +2557,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Hajj: الFifth Pillar of Islam",
+    "title_id": "Hajj: Fifth Pillar of Islam"
   },
   {
     "id": 206,
@@ -2063,7 +2569,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Belief in Allah: الFirst Pillar of Iman",
+    "title_id": "Belief in Allah: First Pillar of Iman"
   },
   {
     "id": 207,
@@ -2073,7 +2581,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Belief in the Angels: الSecond Pillar of Iman",
+    "title_id": "Belief in the Angels: Second Pillar of Iman"
   },
   {
     "id": 208,
@@ -2085,7 +2595,8 @@
     "created_at": "2026-02-27",
     "updated_at": "2026-03-09",
     "content_id": "<p>Beriman kepada kitab-kitab yang diturunkan adalah rukun iman ketiga dalam Islam. Seorang Muslim wajib meyakini bahwa Allah menurunkan kitab suci kepada para nabi-Nya sebagai petunjuk bagi umat manusia. Keyakinan ini mengakui bahwa komunikasi ilahi tidak terbatas hanya pada Nabi Muhammad ﷺ — Allah menurunkan petunjuk melalui para nabi-Nya sepanjang sejarah — namun kitab suci terakhir yang terpelihara dan otoritatif adalah <strong>Al-Qur'an</strong>, yang menasakh dan mengungguli semua kitab yang datang sebelumnya.</p>\n\n<h2>Kitab-Kitab yang Disebutkan dalam Al-Qur'an dan Sunnah</h2>\n<p>Beberapa kitab suci ilahi disebutkan namanya secara eksplisit dalam Al-Qur'an dan hadits yang sahih:</p>\n<ul>\n<li><strong>Suhuf (Lembaran-Lembaran)</strong>: Diturunkan kepada Ibrahim (Abraham) dan Musa (Moses), 'alaihimas salam, berisi petunjuk ilahi awal. Allah menyebutnya sebagai \"suhuf Ibrahim dan Musa\" (87:19).</li>\n<li><strong>Taurat</strong>: Diturunkan kepada Nabi Musa. Al-Qur'an berulang kali menyebut Taurat sebagai kitab cahaya dan petunjuk yang diturunkan kepada Bani Israil.</li>\n<li><strong>Zabur</strong>: Diturunkan kepada Nabi Dawud. Allah berfirman: \"Dan kepada Dawud Kami berikan Zabur\" (4:163).</li>\n<li><strong>Injil</strong>: Diturunkan kepada Nabi Isa (Jesus), 'alaihis salam, sebagai pembenaran dan penyempurna Taurat. Allah berfirman bahwa Injil mengandung \"petunjuk dan cahaya\" (5:46).</li>\n<li><strong>Al-Qur'an</strong>: Wahyu terakhir yang diturunkan kepada Nabi Muhammad ﷺ, terpelihara dalam bentuk aslinya hingga hari ini.</li>\n</ul>\n\n<h2>Pemeliharaan Al-Qur'an</h2>\n<p>Keyakinan utama dalam rukun ini adalah bahwa meskipun kitab-kitab terdahulu telah diselewengkan, diubah, atau hilang seiring waktu, Al-Qur'an telah terpelihara dalam bentuk aslinya sejak diturunkan. Allah sendiri menjamin pemeliharaannya: \"Sesungguhnya Kamilah yang menurunkan Al-Qur'an, dan sesungguhnya Kami benar-benar memeliharanya\" (15:9). Pemeliharaan ini terlaksana melalui dua jalur sekaligus: hafalan (ratusan sahabat menghafal seluruh Al-Qur'an semasa hidup Nabi ﷺ) dan penulisan (para juru tulis mencatatnya atas arahan Nabi ﷺ). Mushaf yang dikompilasi oleh Utsman ibn Affan menetapkan satu teks yang otoritatif, dan jutaan umat Islam telah menghafalnya di setiap generasi sejak saat itu.</p>\n<p>Perbedaannya dengan kitab-kitab terdahulu sangat nyata. Al-Qur'an mengakui bahwa Ahli Kitab telah mengubah kitab suci mereka: \"Maka celakalah orang-orang yang menulis kitab dengan tangan mereka sendiri, lalu berkata, 'Ini dari Allah'\" (2:79). Kajian biblika modern secara independen mengonfirmasi bahwa teks-teks Alkitab mengalami perubahan dan revisi yang signifikan selama berabad-abad — sebuah temuan yang sejalan dengan keyakinan Islam tentang pemalsuan teks (<em>tahrif</em>) kitab-kitab terdahulu.</p>\n\n<h2>Beriman kepada Asal-Usul Ilahi Al-Qur'an</h2>\n<p>Umat Islam meyakini bahwa setiap kata dalam Al-Qur'an adalah firman Allah secara harfiah, yang diturunkan dalam bahasa Arab kepada Nabi Muhammad ﷺ melalui malaikat Jibril selama kurang lebih dua puluh tiga tahun. Al-Qur'an menantang seluruh umat manusia: \"Jika kamu meragukan apa yang Kami turunkan kepada hamba Kami, maka buatlah satu surah yang serupa dengannya\" (2:23). Tantangan ini — yang dikenal sebagai <em>i'jaz</em> (kemukjizatan) Al-Qur'an — telah bertahan lebih dari 1.400 tahun. Kesempurnaan bahasa Al-Qur'an, konsistensi internalnya, ketepatan prediksinya, dan keselarasannya dengan ilmu pengetahuan merupakan sebagian bukti yang dikemukakan para ulama Muslim atas asal-usul ilahi Al-Qur'an.</p>\n\n<h2>Implikasi Praktis</h2>\n<p>Beriman kepada kitab-kitab yang diturunkan mengharuskan seorang Muslim untuk memuliakan Al-Qur'an di atas semua teks lainnya, membacanya secara rutin, berusaha memahaminya, dan mengamalkan petunjuknya. Nabi ﷺ bersabda: \"Sebaik-baik kalian adalah yang mempelajari Al-Qur'an dan mengajarkannya\" (Bukhari). Umat Islam juga wajib memperlakukan kitab-kitab terdahulu dengan rasa hormat secara umum — tidak membenarkan maupun mendustakan apa yang masih tersisa dari kitab-kitab tersebut, kecuali yang telah dijelaskan oleh Al-Qur'an atau Sunnah. Seseorang tidak bersujud kepada Al-Qur'an atau memperlakukannya sebagai objek pemujaan yang melampaui batas yang semestinya, namun Al-Qur'an harus dijaga dalam keadaan suci dan tidak boleh diletakkan pada posisi yang tidak menghormatinya. Al-Qur'an adalah konstitusi peradaban Islam yang hidup — sumber utama bagi hukum, teologi, etika, dan spiritualitas.</p>",
-    "title_id": "Iman kepada Kitab-Kitab yang Diturunkan: Rukun Iman yang Ketiga"
+    "title_id": "Iman kepada Kitab-Kitab yang Diturunkan: Rukun Iman yang Ketiga",
+    "title_ar": "Belief in the Revealed Books: الThird Pillar of Iman"
   },
   {
     "id": 209,
@@ -2095,7 +2606,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Belief in the Prophets: الFourth Pillar of Iman",
+    "title_id": "Belief in the Prophets: Fourth Pillar of Iman"
   },
   {
     "id": 210,
@@ -2105,7 +2618,9 @@
     "category": "Theology",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Belief in the Last Day: الFifth Pillar of Iman",
+    "title_id": "Belief in the Last Day: Fifth Pillar of Iman"
   },
   {
     "id": 211,
@@ -2117,7 +2632,8 @@
     "created_at": "2026-02-27",
     "updated_at": "2026-03-09",
     "content_id": "<p>Keyakinan terhadap <strong>Qadar</strong> (Takdir Ilahi) adalah rukun keenam dan terakhir dari keimanan Islam, yang menyempurnakan definisi Iman sebagaimana disampaikan dalam hadits Jibril yang masyhur. Nabi ﷺ mendefinisikannya sebagai percaya kepada <em>\"al-qadar, khayrihi wa sharrihi\"</em> — takdir ilahi dalam kebaikan maupun keburukannya (Muslim). Qadar adalah doktrin Islam bahwa Allah mengetahui segala sesuatu, telah mencatat segalanya di al-Lawh al-Mahfuz (Lauh Mahfuzh), berkehendak atas segala yang terjadi, dan menciptakan segala sesuatu termasuk perbuatan manusia. Memahami Qadar dengan benar menjaga seorang mukmin dari dua kesalahan yang berlawanan: kepasifan fatalistis di satu sisi, dan penolakan Mu'tazilah terhadap kehendak ilahi di sisi lain.</p>\n\n<h2>Empat Tingkatan Qadar</h2>\n<p>Para ulama teologi Islam klasik merumuskan empat tingkatan yang wajib diyakini berkenaan dengan Qadar:</p>\n<ul>\n<li><strong>Ilmu (Pengetahuan)</strong>: Allah memiliki pengetahuan yang sempurna dan abadi atas segala sesuatu — masa lalu, masa kini, dan masa depan — mencakup setiap perbuatan, ucapan, dan pikiran manusia. \"Sesungguhnya Allah mengetahui segala sesuatu\" (33:40).</li>\n<li><strong>Kitabah (Pencatatan)</strong>: Segala yang akan terjadi telah tercatat di al-Lawh al-Mahfuz (Lauh Mahfuzh) lima puluh ribu tahun sebelum penciptaan langit dan bumi, sebagaimana disabdakan Nabi ﷺ (Muslim).</li>\n<li><strong>Masyiah (Kehendak)</strong>: Tidak ada sesuatu pun yang terjadi di alam semesta ini kecuali atas kehendak Allah. Apa yang Allah kehendaki pasti terjadi; apa yang tidak Dia kehendaki tidak akan terjadi. Hal ini berlaku bagi perbuatan Allah maupun perbuatan makhluk-Nya.</li>\n<li><strong>Khalq (Penciptaan)</strong>: Allah adalah Pencipta segala sesuatu — termasuk perbuatan manusia. Al-Quran menyatakan: \"Allah menciptakan kalian dan apa yang kalian perbuat\" (37:96). Hal ini tidak meniadakan tanggung jawab manusia, melainkan menegaskan bahwa kemampuan dan pilihan manusia sekalipun adalah ciptaan Allah.</li>\n</ul>\n\n<h2>Kehendak Bebas Manusia dan Takdir Ilahi</h2>\n<p>Salah satu persoalan teologis paling halus dalam pemikiran Islam menyangkut hubungan antara Qadar dan kehendak bebas serta pertanggungjawaban moral manusia. Ahl us-Sunnah mengambil posisi tengah antara dua ekstrem: kaum Jabriyyah, yang sepenuhnya mengingkari kehendak bebas manusia (menjadikan manusia seperti bulu yang tertiup angin), dan kaum Qadariyyah/Mu'tazilah, yang mengingkari pengetahuan dan kehendak Allah yang menyeluruh atas perbuatan manusia. Posisi Sunni menegaskan bahwa manusia sungguh-sungguh memilih dan bertindak, bahwa pilihan-pilihan mereka nyata, dan bahwa mereka menanggung tanggung jawab atasnya — seraya juga menegaskan bahwa ilmu, kehendak, dan tindakan kreatif Allah meliputi pilihan-pilihan tersebut. Ibnu al-Qayyim mencurahkan pembahasan yang panjang dalam <em>Syifa al-Alil</em> untuk menyelaraskan realitas-realitas ini.</p>\n<p>Nabi ﷺ merespons ketegangan ini secara langsung ketika seorang sahabat bertanya tentang kegunaan beramal jika segalanya telah ditakdirkan: \"Beramallah, karena setiap orang akan dimudahkan menuju apa yang ia diciptakan untuknya\" (Bukhari dan Muslim). Takdir tidak menjadikan usaha tak bermakna — justru usaha itu sendiri adalah bagian dari takdir. Petani yang berkata \"mengapa aku harus menanam jika rezekinya sudah ditakdirkan\" salah memahami Qadar: menanam adalah sarana yang dengannya takdir rezeki itu terpenuhi.</p>\n\n<h2>Qadar sebagai Sumber Kekuatan</h2>\n<p>Keyakinan yang benar terhadap Qadar adalah salah satu sumber kekuatan psikologis dan ketenangan spiritual terbesar bagi seorang mukmin. Nabi ﷺ bersabda: \"Ketahuilah bahwa jika seluruh umat berkumpul untuk memberikan manfaat kepadamu dengan sesuatu, mereka hanya mampu memberikan manfaat sesuai dengan apa yang telah Allah tuliskan untukmu. Dan jika mereka berkumpul untuk mencelakakanmu dengan sesuatu, mereka hanya mampu mencelakakanmu sesuai dengan apa yang telah Allah tuliskan atasmu\" (Tirmidzi, disahihkan). Pengetahuan ini membebaskan mukmin dari rasa takut yang berlebihan terhadap orang lain, dari kesedihan atas apa yang tidak dapat diubah, dan dari kesombongan ketika mendapat nikmat. Allah berfirman: \"Tidak ada suatu musibah pun yang menimpa di bumi dan tidak pula pada dirimu sendiri, kecuali telah tertulis dalam sebuah kitab sebelum Kami mewujudkannya\" (57:22).</p>\n\n<h2>Hikmah di Balik Takdir yang Berat</h2>\n<p>Respons seorang mukmin terhadap peristiwa yang menyakitkan dibentuk oleh keimanan kepada Qadar. Ketika Nabi ﷺ ditanya tentang kondisi seorang mukmin, beliau bersabda: \"Sungguh menakjubkan urusan seorang mukmin — sungguh semua urusannya adalah kebaikan. Jika sesuatu yang menyenangkan menimpanya, ia bersyukur dan itu baik baginya. Jika sesuatu yang menyakitkan menimpanya, ia bersabar dan itu baik baginya. Hal ini tidak dimiliki seorang pun kecuali mukmin\" (Muslim). Ujian bukanlah tanda ditinggalkan oleh Allah, melainkan cobaan yang meninggikan derajat, menghapus dosa, dan menguatkan jiwa. Al-Quran memberikan jaminan: \"Sesungguhnya bersama kesulitan ada kemudahan\" (94:5-6). Ketenangan sejati di tengah kesulitan berasal dari keyakinan bahwa tidak ada sesuatu pun yang terjadi di luar hikmah dan rahmat Allah.</p>",
-    "title_id": "Keyakinan terhadap Takdir Ilahi (Qadr): Rukun Iman yang Keenam"
+    "title_id": "Keyakinan terhadap Takdir Ilahi (Qadr): Rukun Iman yang Keenam",
+    "title_ar": "Belief in Divine Decree (Qadr): الSixth Pillar of Iman"
   },
   {
     "id": 212,
@@ -2127,7 +2643,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Muharram: الFirst الإسلامي Month",
+    "title_id": "Muharram: First Islam Month"
   },
   {
     "id": 213,
@@ -2137,7 +2655,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Safar: الSecond الإسلامي Month",
+    "title_id": "Safar: Second Islam Month"
   },
   {
     "id": 214,
@@ -2147,7 +2667,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Rabi al-Awwal: الThird الإسلامي Month",
+    "title_id": "Rabi al-Awwal: Third Islam Month"
   },
   {
     "id": 215,
@@ -2157,7 +2679,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Rabi al-Thani: الFourth الإسلامي Month",
+    "title_id": "Rabi al-Thani: Fourth Islam Month"
   },
   {
     "id": 216,
@@ -2167,7 +2691,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Jumada al-Ula: الFifth الإسلامي Month",
+    "title_id": "Jumada al-Ula: Fifth Islam Month"
   },
   {
     "id": 217,
@@ -2177,7 +2703,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Jumada al-Thani: الSixth الإسلامي Month",
+    "title_id": "Jumada al-Thani: Sixth Islam Month"
   },
   {
     "id": 218,
@@ -2187,7 +2715,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Rajab: الSeventh الإسلامي Month",
+    "title_id": "Rajab: Seventh Islam Month"
   },
   {
     "id": 219,
@@ -2197,7 +2727,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Sha'ban: الEighth الإسلامي Month",
+    "title_id": "Sha'ban: Eighth Islam Month"
   },
   {
     "id": 220,
@@ -2207,7 +2739,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Ramadan: الNinth الإسلامي Month",
+    "title_id": "Ramadan: Ninth Islam Month"
   },
   {
     "id": 221,
@@ -2217,7 +2751,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Shawwal: الTenth الإسلامي Month",
+    "title_id": "Shawwal: Tenth Islam Month"
   },
   {
     "id": 222,
@@ -2227,7 +2763,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Dhul Qa'dah: الEleventh الإسلامي Month",
+    "title_id": "Dhul Qa'dah: Eleventh Islam Month"
   },
   {
     "id": 223,
@@ -2237,7 +2775,9 @@
     "category": "Practices",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Dhul Hijjah: الTwelfth الإسلامي Month",
+    "title_id": "Dhul Hijjah: Twelfth Islam Month"
   },
   {
     "id": 224,
@@ -2247,7 +2787,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Fard: الObligatory في الإسلامic Law",
+    "title_id": "Fard: Obligatory dalam Islam Law"
   },
   {
     "id": 225,
@@ -2257,7 +2799,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Wajib: الNecessary في الإسلامic Law",
+    "title_id": "Wajib: Necessary dalam Islam Law"
   },
   {
     "id": 226,
@@ -2267,7 +2811,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Sunnah: الRecommended في الإسلامic Law",
+    "title_id": "Sunnah: Recommended dalam Islam Law"
   },
   {
     "id": 227,
@@ -2277,7 +2823,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Mustahabb: الPreferred في الإسلامic Law",
+    "title_id": "Mustahabb: Preferred dalam Islam Law"
   },
   {
     "id": 228,
@@ -2287,7 +2835,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Mubah: الPermissible في الإسلامic Law",
+    "title_id": "Mubah: Permissible dalam Islam Law"
   },
   {
     "id": 229,
@@ -2297,7 +2847,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Makruh: الDisliked في الإسلامic Law",
+    "title_id": "Makruh: Disliked dalam Islam Law"
   },
   {
     "id": 230,
@@ -2307,7 +2859,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Haram: الForbidden في الإسلامic Law",
+    "title_id": "Haram: Forbidden dalam Islam Law"
   },
   {
     "id": 231,
@@ -2317,7 +2871,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Fez (Fes): الإسلامي Heritage City",
+    "title_id": "Fez (Fes): Islam Heritage City"
   },
   {
     "id": 232,
@@ -2327,7 +2883,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Bukhara: City of الإسلامي Scholarship",
+    "title_id": "Bukhara: City of Islam Scholarship"
   },
   {
     "id": 233,
@@ -2337,7 +2895,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Granada: الLast Muslim Kingdom in Iberia",
+    "title_id": "Granada: Last Muslim Kingdom in Iberia"
   },
   {
     "id": 234,
@@ -2347,7 +2907,9 @@
     "category": "Places",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Kufa: Birthplace of الإسلامي Jurisprudence",
+    "title_id": "Kufa: Birthplace of Islam Jurisprudence"
   },
   {
     "id": 235,
@@ -2357,7 +2919,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الMihrab: Prayer Niche",
+    "title_id": "Mihrab: Prayer Niche"
   },
   {
     "id": 236,
@@ -2367,7 +2931,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الMinbar: Pulpit of the Mosque",
+    "title_id": "Minbar: Pulpit of the Mosque"
   },
   {
     "id": 237,
@@ -2377,7 +2943,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الMinaret: Tower of the Mosque",
+    "title_id": "Minaret: Tower of the Mosque"
   },
   {
     "id": 238,
@@ -2387,7 +2955,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الDome في الإسلامic Architecture",
+    "title_id": "Dome dalam Islam Architecture"
   },
   {
     "id": 239,
@@ -2397,7 +2967,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Kufic Script: الEarliest Quranic Calligraphy",
+    "title_id": "Kufic Script: Earliest Quranic Calligraphy"
   },
   {
     "id": 240,
@@ -2407,7 +2979,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Naskh Script: الStandard Arabic Calligraphy",
+    "title_id": "Naskh Script: Standard Arabic Calligraphy"
   },
   {
     "id": 241,
@@ -2417,7 +2991,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Thuluth Script: الMonumental Calligraphy",
+    "title_id": "Thuluth Script: Monumental Calligraphy"
   },
   {
     "id": 242,
@@ -2427,7 +3003,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Geometric Patterns في الإسلامic Art",
+    "title_id": "Geometric Patterns dalam Islam Art"
   },
   {
     "id": 243,
@@ -2437,7 +3015,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "Arabesque: Floral Patterns في الإسلامic Art",
+    "title_id": "Arabesque: Floral Patterns dalam Islam Art"
   },
   {
     "id": 244,
@@ -2447,7 +3027,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Astronomy (Ilm al-Falak)",
+    "title_id": "Islam Astronomy (Ilm al-Falak)"
   },
   {
     "id": 245,
@@ -2457,7 +3039,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Mathematics: Algebra and Beyond",
+    "title_id": "Islam Mathematics: Algebra and Beyond"
   },
   {
     "id": 246,
@@ -2467,7 +3051,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Medicine (al-Tibb)",
+    "title_id": "Islam Medicine (al-Tibb)"
   },
   {
     "id": 247,
@@ -2477,7 +3063,9 @@
     "category": "Sciences",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الإسلامي Chemistry and Alchemy (al-Kimiya)",
+    "title_id": "Islam Chemistry and Alchemy (al-Kimiya)"
   },
   {
     "id": 248,
@@ -2487,7 +3075,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الMadrasah: الإسلامي Institution of Learning",
+    "title_id": "Madrasah: Islam Institution of Learning"
   },
   {
     "id": 249,
@@ -2497,7 +3087,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الKhanqah: Sufi Lodge",
+    "title_id": "Khanqah: Sufi Lodge"
   },
   {
     "id": 250,
@@ -2507,7 +3099,9 @@
     "category": "Concepts",
     "status": "published",
     "created_at": "2026-02-27",
-    "updated_at": "2026-03-09"
+    "updated_at": "2026-03-09",
+    "title_ar": "الRibat: الإسلامي Frontier Fortress",
+    "title_id": "Ribat: Islam Frontier Fortress"
   },
   {
     "id": 251,
@@ -2519,7 +3113,8 @@
     "created_at": "2026-03-11",
     "updated_at": "2026-03-11",
     "content_id": "<p>Tafsir al-Kashshaf 'an Haqa'iq Ghawamid at-Tanzil (Penyingkap Realitas dan Rahasia Wahyu) adalah karya tafsir Al-Qur'an yang monumental karangan Abu al-Qasim Mahmud ibn Umar az-Zamakhsyari (467–538 H / 1075–1144 M), seorang ulama linguistik Arab, retorika, dan tata bahasa dari Khawarezm. Karya ini secara luas dipandang sebagai komentar gramatikal dan retoris paling canggih atas Al-Qur'an yang pernah ditulis, dan pengaruhnya terhadap setiap tafsir berikutnya yang serius mengkaji gaya bahasa Arab sangatlah besar. Namun di sisi lain, karya ini memuat kerangka teologis sistematis yang berakar pada akidah Mu'tazilah — suatu pandangan yang menyimpang secara signifikan dari pemahaman Ahlus Sunnah wal Jama'ah dalam perkara-perkara pokok akidah.</p><h2>Pengarang: Az-Zamakhsyari</h2><p>Az-Zamakhsyari adalah seorang linguis cemerlang dan penganut Mu'tazilah yang teguh. Ia tidak dikenal terutama sebagai polemikus Mu'tazilah — kontribusi utamanya adalah di bidang tata bahasa Arab dan kritik sastra — namun komitmen teologisnya meresap ke dalam tafsirnya dan mewarnai penafsirannya atas ayat-ayat krusial Al-Qur'an. Ia dikabarkan pernah menunaikan haji dan dikenal dengan sebutan Jar Allah (\"tetangga Allah\") karena lamanya ia tinggal di Makkah. Ia sangat dihormati oleh para ulama dari berbagai aliran teologis atas penguasaannya terhadap bahasa Arab, meskipun banyak di antara mereka yang tidak sependapat dengan akidahnya.</p><h2>Kerangka Teologis Mu'tazilah</h2><p>Mu'tazilah adalah mazhab teologi spekulatif (kalam) yang berkembang pesat pada abad kedua dan ketiga Hijriah. Prinsip-prinsip pokok mereka, yang tidak pernah diingkari oleh az-Zamakhsyari, mencakup beberapa poin yang dikecam oleh ulama Ahlus Sunnah:</p><ul><li><strong>Al-Qur'an adalah makhluk.</strong> Mu'tazilah berpendapat bahwa Al-Qur'an — kalam Allah — adalah sesuatu yang diciptakan. Pandangan ini secara tegas ditolak oleh Imam Ahmad ibn Hanbal dan menjadi salah satu tolok ukur ortodoksi Sunni. Pandangan Ahlus Sunnah, yang ditegakkan melalui peristiwa Mihnah (Inkuisisi) yang terkenal dan dipertahankan dengan pengorbanan pribadi yang besar oleh Imam Ahmad dan ulama lainnya, adalah bahwa Al-Qur'an merupakan kalam Allah yang tidak diciptakan.</li><li><strong>Pengingkaran terhadap sifat-sifat ilahi.</strong> Mu'tazilah mengingkari sifat-sifat Allah yang kekal dan nyata — ilmu, kuasa, kehendak, dan sifat-sifat lainnya — dengan alasan bahwa menetapkan sifat-sifat tersebut akan mengimplikasikan kemajemukan dalam zat ilahi (ta'til). Mazhab Athari, Asy'ari, dan Maturidi semuanya menetapkan sifat-sifat ilahi dengan cara yang menolak ta'til sekaligus menjaga dari penyerupaan dengan makhluk.</li><li><strong>Kewajiban rasional melakukan \"tindakan terbaik\" (al-ashlah).</strong> Mu'tazilah berpendapat bahwa Allah secara rasional berkewajiban melakukan yang terbaik bagi hamba-hamba-Nya — suatu pandangan yang dianggap oleh para teolog Sunni sebagai pembatasan kehendak dan kedaulatan ilahi yang tidak didukung oleh wahyu.</li><li><strong>Pengingkaran melihat Allah di akhirat.</strong> Mu'tazilah mengingkari bahwa orang-orang beriman akan melihat Allah di akhirat, dengan menafsirkan ayat-ayat Al-Qur'an yang relevan dan hadis-hadis mutawatir dengan cara yang bertentangan dengan apa yang oleh Ahlus Sunnah dipandang sebagai keterangan wahyu yang jelas.</li></ul><h2>Bagaimana Permasalahan Ini Muncul dalam Al-Kashshaf</h2><p>Komitmen Mu'tazilah az-Zamakhsyari bukanlah bagian pinggiran dari al-Kashshaf — permasalahan itu muncul di setiap ayat yang memiliki implikasi hermeneutik bagi pandangan teologisnya. Penafsirannya atas nama-nama dan sifat-sifat ilahi, pembacaannya atas ayat-ayat tentang kalam ilahi, penanganannya terhadap ayat-ayat tentang ru'yatullah, serta uraiannya atas argumen-argumen Al-Qur'an mengenai keesaan ilahi, semuanya dibentuk oleh kerangka teologisnya. Banyak penafsiran ini memerlukan ta'wil (interpretasi alegoris) atas teks-teks yang tampak jelas, dengan cara-cara yang ditolak sepenuhnya atau dianggap bermasalah secara metodologis oleh para ulama Athari, Asy'ari, dan Maturidi.</p><p>Para ulama Sunni klasik telah menyatakan hal ini secara tegas. Imam Ibn Khaldun mencatat bahwa al-Kashshaf adalah karya yang harus dibaca \"dengan kehati-hatian.\" Hafiz Ibn Hajar al-Asqalani menggambarkannya sebagai karya yang memerlukan keahlian untuk memisahkan kecemerlangan linguistiknya dari penyimpangan teologisnya. Ibn al-Munayyir al-Iskandari (w. 683 H / 1284 M) menulis sebuah karya pendamping tersendiri, Al-Inshaf min al-Kashshaf, khusus untuk membantah penyusupan-penyusupan Mu'tazilah dalam komentar az-Zamakhsyari ayat per ayat. Para ulama kemudian sering membaca al-Kashshaf bersama Al-Inshaf untuk mengambil manfaat dari konten linguistiknya sambil mendapat koreksi atas penyimpangan teologisnya.</p><h2>Nilai dan Batasannya</h2><p>Analisis retoris dan linguistik dalam al-Kashshaf sungguh cemerlang dan tidak tertandingi dalam tradisi klasik. Para ulama yang menulis tafsir Sunni yang serius mengkaji gaya bahasa Arab — termasuk kontemporer az-Zamakhsyari sendiri, Fakhr ad-Din ar-Razi dalam Mafatih al-Ghayb, dan kemudian Ibn 'Atiyyah yang merupakan murid dari murid az-Zamakhsyari — banyak mengambil dari pengamatan linguistiknya seraya mengoreksi kesimpulan teologisnya. Tradisi keilmuan Sunni tidak mengabaikan al-Kashshaf: mereka membacanya dengan cermat, mengambil kontribusinya untuk analisis sastra Arab, dan secara sistematis membantah akidahnya.</p><p>Bagi pembaca umum, bagaimanapun, al-Kashshaf bukanlah titik awal atau rujukan utama yang tepat untuk memahami Al-Qur'an. Posisi teologis Mu'tazilah yang tertanam di seluruh teks ini membutuhkan pengetahuan spesialis untuk dapat diidentifikasi dan dievaluasi. Pembaca yang mencari tafsir Sunni yang sahih hendaknya merujuk pada Tafsir Ibn Katsir, yang berlandaskan hadis dan akidah Athari; Tafsir al-Qurthubi, yang komprehensif dalam narasi maupun fikih; atau Tafsir at-Thabari, yang merupakan kumpulan pokok riwayat-riwayat dari para Sahabat dan Tabi'in. Mereka yang tertarik pada gaya dan retorika bahasa Arab Al-Qur'an akan menemukan pengamatan-pengamatan az-Zamakhsyari yang dibahas dan dinilai dalam tafsir-tafsir Sunni tersebut dan tafsir-tafsir lainnya yang mengambil manfaat dari karya linguistiknya tanpa mendukung teologinya.</p><h2>Mengapa Islam.wiki Tidak Memuat Buku Ini</h2><p>Islam.wiki melayani komunitas global Ahlus Sunnah wal Jama'ah. Perpustakaan buku kami menyajikan keilmuan Islam klasik sebagai sumber yang mudah diakses oleh para pelajar, ulama, dan pembaca yang tertarik, yang mungkin tidak memiliki pelatihan untuk mengidentifikasi penyimpangan teologis yang tersembunyi. Al-Kashshaf, mengingat sifat sistematis akidah Mu'tazilahnya dan sulitnya membedakan analisis linguistik dari penyusupan teologisnya tanpa pengetahuan spesialis, tidak memenuhi kriteria untuk dimasukkan dalam perpustakaan umum kami. Kerangka teologisnya tentang persoalan mendasar sifat-sifat ilahi dan hakikat Al-Qur'an bertentangan dengan pandangan Ahlus Sunnah sebagaimana yang didefinisikan oleh ulama ketiga mazhab akidah utama — Athari, Asy'ari, dan Maturidi.</p><p>Ini bukan penilaian atas ketulusan az-Zamakhsyari, kejeniusan linguistiknya, atau kontribusi besar yang telah ia berikan bagi keilmuan Islam. Ini adalah pengakuan bahwa karya khusus ini, jika dibaca tanpa koreksi yang disediakan oleh Al-Inshaf dan keilmuan Sunni spesialis, membawa risiko teologis bagi pembaca umum yang melebihi manfaat aksesibilitasnya. Para ulama bahasa Arab dan tafsir yang ingin mengkaji al-Kashshaf secara langsung dianjurkan untuk melakukannya bersama dengan Al-Inshaf min al-Kashshaf karya Ibn al-Munayyir.</p>",
-    "title_id": "Tafsir al-Kashshaf: Tafsir Al-Zamakhshari dan Teologi Mu'tazilah-nya"
+    "title_id": "Tafsir al-Kashshaf: Tafsir Al-Zamakhshari dan Teologi Mu'tazilah-nya",
+    "title_ar": "تفسير الكشاف"
   },
   {
     "id": 252,
@@ -2556,6 +3151,8 @@
     "category": "meta",
     "status": "published",
     "created_at": "2026-03-13",
-    "updated_at": "2026-03-13"
+    "updated_at": "2026-03-13",
+    "title_ar": "(Contributor Guidelines)",
+    "title_id": "Contributor Guidelines"
   }
 ]

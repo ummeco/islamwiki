@@ -17,7 +17,12 @@
     "muslim_commander": "Khalid ibn al-Walid",
     "opponent": "Tulayha ibn Khuwaylid (false prophet)",
     "outcome": "muslim_victory",
-    "sources": ["Ibn Kathir, Al-Bidaya wan-Nihaya", "al-Tabari, History of the Prophets and Kings"]
+    "sources": [
+      "Ibn Kathir, Al-Bidaya wan-Nihaya",
+      "al-Tabari, History of the Prophets and Kings"
+    ],
+    "title_id": "Perang Buzakha",
+    "description_id": "Perang Buzakha adalah pertempuran penentu pertama dalam Perang Riddah, dilakukan untuk menumpas pemberontakan suku-suku Arab yang murtad setelah wafatnya Nabi ﷺ. Khalid ibn al-Walid memimpin pasukan Muslim melawan Thalihah ibn Khuwaylid si nabi palsu dari Bani Asad. Kemenangan di Buzakha menghancurkan kekuatan utama kemurtadan di Arabia tengah dan membuktikan keteguhan Khalifah Abu Bakar al-Shiddiq yang menolak kompromi apapun terhadap orang yang murtad atau menolak membayar zakat."
   },
   {
     "id": 2,
@@ -37,7 +42,13 @@
     "muslim_commander": "Khalid ibn al-Walid",
     "opponent": "Musaylima al-Kadhdhab (false prophet)",
     "outcome": "muslim_victory",
-    "sources": ["Sahih Bukhari 4986", "Ibn Kathir, Al-Bidaya wan-Nihaya", "al-Tabari vol. 10"]
+    "sources": [
+      "Sahih Bukhari 4986",
+      "Ibn Kathir, Al-Bidaya wan-Nihaya",
+      "al-Tabari vol. 10"
+    ],
+    "title_id": "Perang Yamamah — Kematian Musaylimah si Pendusta",
+    "description_id": "Perang Yamamah adalah pertempuran paling berdarah dalam Perang Riddah, dilakukan untuk menumpas Musaylimah al-Kadzdzab si nabi palsu dari Bani Hanifah di Najd. Sekitar 1.200 sahabat gugur sebagai syuhada termasuk banyak penghafal Al-Qur'an. Musaylimah akhirnya terbunuh oleh Wahshi ibn Harb — tombak yang sama yang pernah membunuh Hamzah di Uhud kini digunakan untuk membunuh musuh Islam. Besarnya korban jiwa para hafizh mendorong Abu Bakar menginisiasi pengumpulan mushaf Al-Qur'an pertama."
   },
   {
     "id": 3,
@@ -57,7 +68,12 @@
     "muslim_commander": "Khalid ibn al-Walid",
     "opponent": "Sasanid Persians and Arab confederates",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari, History vol. 11", "Ibn Kathir, Al-Bidaya wan-Nihaya"]
+    "sources": [
+      "al-Tabari, History vol. 11",
+      "Ibn Kathir, Al-Bidaya wan-Nihaya"
+    ],
+    "title_id": "Perang Ullais",
+    "description_id": "Perang Ullais adalah bagian dari serangkaian kemenangan cemerlang Khalid ibn al-Walid di front Irak. Di tepi Sungai Efrat, pasukan Muslim menghadapi gabungan pasukan Persia dan Arab Kristen. Kemenangan ini memantapkan kendali Muslim atas wilayah-wilayah strategis di selatan Mesopotamia dan membuka jalan menuju Hira, ibukota Arab yang berada di bawah lindungan Persia."
   },
   {
     "id": 4,
@@ -77,7 +93,12 @@
     "muslim_commander": "Khalid ibn al-Walid",
     "opponent": "Sasanid Persians and Bakr ibn Wa'il allies",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari, History vol. 11", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari, History vol. 11",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Perang al-Walaja",
+    "description_id": "Perang al-Walaja adalah kemenangan signifikan Khalid ibn al-Walid dalam kampanye Irak selatan. Khalid menggunakan taktik pengepungan ganda yang brilian untuk menghancurkan pasukan Persia yang lebih besar. Kemenangan demi kemenangan ini semakin melemahkan kemampuan Kekaisaran Sasaniyah untuk mempertahankan wilayah Arab mereka dan mempercepat laju penaklukan Islam di Mesopotamia."
   },
   {
     "id": 5,
@@ -97,7 +118,13 @@
     "muslim_commander": "Khalid ibn al-Walid (after forced march from Iraq)",
     "opponent": "Byzantine Empire",
     "outcome": "muslim_victory",
-    "sources": ["Ibn Kathir, Al-Bidaya wan-Nihaya", "al-Tabari vol. 11", "Sahih Bukhari 4085"]
+    "sources": [
+      "Ibn Kathir, Al-Bidaya wan-Nihaya",
+      "al-Tabari vol. 11",
+      "Sahih Bukhari 4085"
+    ],
+    "title_id": "Perang Ajnadayn",
+    "description_id": "Perang Ajnadayn adalah salah satu kemenangan Muslim pertama yang besar atas pasukan Byzantium di wilayah Suriah-Palestina. Khalid ibn al-Walid memimpin pasukan Muslim dalam pertempuran yang mengalahkan tentara Byzantium yang lebih besar. Kemenangan ini membuka pintu bagi penaklukan Suriah dan Palestina secara besar-besaran dan membuktikan bahwa Islam mampu mengalahkan dua kekuatan adidaya dunia sekaligus — Persia dan Byzantium."
   },
   {
     "id": 6,
@@ -117,7 +144,12 @@
     "muslim_commander": "Abu Ubayd al-Thaqafi",
     "opponent": "Sasanid Persians with war elephants",
     "outcome": "muslim_defeat",
-    "sources": ["al-Tabari, History vol. 11", "Ibn Kathir, Al-Bidaya wan-Nihaya"]
+    "sources": [
+      "al-Tabari, History vol. 11",
+      "Ibn Kathir, Al-Bidaya wan-Nihaya"
+    ],
+    "title_id": "Perang Jembatan (al-Jisr)",
+    "description_id": "Perang Jembatan adalah salah satu kekalahan langka Muslim dalam periode penaklukan. Abu Ubayd al-Thaqafi memimpin pasukan Muslim melintasi jembatan ke wilayah Persia, bertentangan dengan strategi yang lebih bijak. Gajah-gajah perang Persia membuat panik pasukan Muslim, dan Abu Ubayd gugur. Kekalahan ini menjadi pelajaran tentang pentingnya strategi yang tepat, dan pasukan Muslim segera bangkit kembali dengan mengalahkan Persia di Buwayb."
   },
   {
     "id": 7,
@@ -137,7 +169,12 @@
     "muslim_commander": "al-Muthanna ibn Haritha al-Shaybani",
     "opponent": "Sasanid Persians",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari, History vol. 11", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari, History vol. 11",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Perang al-Buwayb",
+    "description_id": "Perang al-Buwayb adalah jawaban pasukan Muslim atas kekalahan di Perang Jembatan. Al-Muthanna ibn Harithah memimpin pasukan Muslim membalas dendam dengan kemenangan gemilang atas pasukan Persia yang lebih besar. Pertempuran ini memulihkan semangat tempur Muslim di front Irak dan membuka jalan bagi penaklukan lebih lanjut yang berujung pada kemenangan besar di Qadisiyyah."
   },
   {
     "id": 8,
@@ -157,7 +194,13 @@
     "muslim_commander": "Khalid ibn al-Walid and Abu Ubayda ibn al-Jarrah",
     "opponent": "Byzantine garrison of Damascus",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "Ibn Kathir, Al-Bidaya wan-Nihaya", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "Ibn Kathir, Al-Bidaya wan-Nihaya",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Pengepungan dan Penaklukan Damaskus",
+    "description_id": "Pengepungan Damaskus berlangsung selama beberapa bulan dengan pasukan Muslim mengepung dari berbagai sisi kota kuno ini. Ketika kota akhirnya jatuh, terjadi situasi unik: satu bagian kota menyerah melalui perjanjian damai kepada Khalid ibn al-Walid dari arah timur, sementara Abu Ubaydah ibn al-Jarrah memasuki dari arah barat melalui pertempuran. Keduanya bertemu di tengah kota dan menyepakati perlakuan damai bagi seluruh penduduk. Damaskus kemudian menjadi ibukota pertama Dinasti Umayyah."
   },
   {
     "id": 9,
@@ -177,7 +220,13 @@
     "muslim_commander": "Abu Ubayda ibn al-Jarrah (Khalid as field commander)",
     "opponent": "Byzantine Empire — Emperor Heraclius",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "Ibn Kathir vol. 7", "Sahih Bukhari 2813"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "Ibn Kathir vol. 7",
+      "Sahih Bukhari 2813"
+    ],
+    "title_id": "Perang Yarmuk",
+    "description_id": "Perang Yarmuk adalah salah satu pertempuran paling menentukan dalam sejarah dunia, terjadi pada 15 H / 636 M. Pasukan Muslim sekitar 24.000-40.000 orang di bawah komando Abu Ubaydah ibn al-Jarrah dan Khalid ibn al-Walid menghadapi tentara Byzantium yang berjumlah jauh lebih besar di tepi Sungai Yarmuk. Setelah pertempuran selama enam hari yang melelahkan, pasukan Muslim meraih kemenangan gemilang. Kekalahan ini mengakhiri kekuasaan Byzantium atas Suriah dan Palestina selamanya."
   },
   {
     "id": 10,
@@ -197,7 +246,13 @@
     "muslim_commander": "Sa'd ibn Abi Waqqas",
     "opponent": "Rustam Farrokhzad, Sasanid Empire",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "Ibn Kathir vol. 7", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "Ibn Kathir vol. 7",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Perang al-Qadisiyyah",
+    "description_id": "Perang al-Qadisiyyah pada 15-17 H / 636-637 M adalah pertempuran yang menghancurkan Kekaisaran Sasaniyah Persia selamanya. Sa'd ibn Abi Waqqas memimpin pasukan Muslim menghadapi tentara Persia yang besar dengan gajah-gajah perang di bawah panglima besar Rustam Farrokhzad. Setelah pertempuran selama empat hari, Rustam terbunuh dan pasukan Persia hancur total. Kemenangan ini membuka seluruh Mesopotamia bagi Islam dan menjadi titik balik definitif dalam sejarah Timur Tengah."
   },
   {
     "id": 11,
@@ -217,7 +272,12 @@
     "muslim_commander": "Sa'd ibn Abi Waqqas",
     "opponent": "Sasanid Empire (Yazdegerd III fled)",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Kejatuhan Ktesifon (al-Mada'in)",
+    "description_id": "Setelah Qadisiyyah, Sa'd ibn Abi Waqqas maju menuju Ktesifon, ibukota Kekaisaran Sasaniyah yang megah. Kaisar Yazdgerd III telah melarikan diri, meninggalkan kota kosong. Pasukan Muslim memasuki istana Khosrow yang legendaris dan menemukan kemewahan yang belum pernah mereka lihat. Sa'd memimpin shalat Shubuh di aula utama istana. Harta yang ditemukan dibagi-bagikan dan seperlima dikirim ke Madinah. Kejatuhan Ktesifon menandai runtuhnya pusat Kekaisaran Sasaniyah."
   },
   {
     "id": 12,
@@ -237,7 +297,13 @@
     "muslim_commander": "Abu Ubayda ibn al-Jarrah (Umar personally received surrender)",
     "opponent": "Byzantine garrison — Patriarch Sophronius",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "Ibn Kathir vol. 7", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "Ibn Kathir vol. 7",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Penaklukan Yerusalem",
+    "description_id": "Penyerahan Yerusalem adalah salah satu momen paling bersejarah dalam Islam. Patriark Sophronius bersikeras menyerahkan kota hanya kepada Khalifah Umar ibn al-Khattab secara langsung. Umar datang dari Madinah dengan penuh kerendahan hati, naik unta bergantian dengan pembantunya. Beliau menandatangani al-'Uhdah al-Umariyyah yang menjamin keselamatan jiwa, harta, dan tempat ibadah semua penduduk. Ketika tiba waktu shalat di dalam Gereja Makam Kudus, Umar menolak shalat di sana agar tidak dijadikan alasan mengubahnya menjadi masjid."
   },
   {
     "id": 13,
@@ -257,7 +323,12 @@
     "muslim_commander": "Hashim ibn Utba",
     "opponent": "Sasanid Persians",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Perang Jalula",
+    "description_id": "Perang Jalula terjadi tidak lama setelah Qadisiyyah, ketika sisa-sisa pasukan Persia Sasaniyah mencoba melakukan perlawanan terakhir di benteng Jalula di tepi Sungai Diyala. Hashim ibn Utbah memimpin pasukan Muslim dalam pertempuran yang memaksa sisa pasukan Persia mundur ke Hulwan di kaki pegunungan Zagros. Kemenangan ini membuka pintu menuju dataran tinggi Iran dan mempercepat runtuhnya Kekaisaran Sasaniyah."
   },
   {
     "id": 14,
@@ -277,7 +348,12 @@
     "muslim_commander": "Sa'd ibn Abi Waqqas",
     "opponent": null,
     "outcome": "administrative",
-    "sources": ["al-Tabari vol. 11", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Pendirian Kufah",
+    "description_id": "Khalifah Umar memerintahkan Sa'd ibn Abi Waqqas mendirikan Kufah sebagai kota garnisun dan pusat administrasi di Irak. Kufah dibangun di tepi Sungai Efrat sebagai kota yang dirancang khusus untuk pasukan Muslim dan keluarga mereka, memisahkan mereka dari penduduk setempat untuk menjaga kemurnian akidah. Kufah kemudian berkembang menjadi salah satu pusat keilmuan Islam terpenting dan menjadi pusat Kekhalifahan Ali ibn Abi Talib."
   },
   {
     "id": 15,
@@ -297,7 +373,12 @@
     "muslim_commander": "Utba ibn Ghazwan",
     "opponent": null,
     "outcome": "administrative",
-    "sources": ["al-Tabari vol. 11", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Pendirian Basra",
+    "description_id": "Basra didirikan oleh Utbah ibn Ghazwan sebagai kota garnisun selatan untuk kampanye Irak, mirip dengan Kufah di utara. Terletak di pertemuan Sungai Tigris dan Efrat, Basra segera berkembang menjadi pelabuhan penting dan pusat perdagangan. Kota ini kemudian menjadi salah satu pusat ilmu dan sastra Arab terbesar, tempat lahirnya berbagai cabang ilmu bahasa Arab dan menjadi saingan intelektual Kufah dalam berbagai bidang keilmuan."
   },
   {
     "id": 16,
@@ -317,7 +398,13 @@
     "muslim_commander": "Amr ibn al-As",
     "opponent": "Byzantine garrison of Egypt — general Theodore",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "al-Baladhuri, Futuh al-Buldan", "Ibn Abd al-Hakam, Futuh Misr"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "al-Baladhuri, Futuh al-Buldan",
+      "Ibn Abd al-Hakam, Futuh Misr"
+    ],
+    "title_id": "Perang Heliopolis",
+    "description_id": "Perang Heliopolis adalah pertempuran penentu dalam penaklukan Muslim atas Mesir. Amr ibn al-As memimpin pasukan Muslim sekitar 15.000 orang melawan pasukan Byzantium yang jauh lebih besar di dekat Kairo modern. Kemenangan telak ini menghancurkan kemampuan Byzantium mempertahankan Mesir dan membuka lembah Nil bagi Islam. Penaklukan Mesir yang kaya raya memberikan sumber daya luar biasa bagi ekspansi Islam lebih lanjut ke Afrika Utara."
   },
   {
     "id": 17,
@@ -337,7 +424,13 @@
     "muslim_commander": "Amr ibn al-As",
     "opponent": "Byzantine garrison and navy",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 11", "al-Baladhuri, Futuh al-Buldan", "Ibn Abd al-Hakam, Futuh Misr"]
+    "sources": [
+      "al-Tabari vol. 11",
+      "al-Baladhuri, Futuh al-Buldan",
+      "Ibn Abd al-Hakam, Futuh Misr"
+    ],
+    "title_id": "Pengepungan Aleksandria",
+    "description_id": "Setelah Heliopolis, Amr ibn al-As mengepung Aleksandria — salah satu kota terbesar dan terkaya di dunia kuno, pusat peradaban Hellenistik dan Kristen Koptik. Meski kota ini sangat kuat, pengepungan berlangsung selama beberapa bulan sebelum akhirnya menyerah melalui negosiasi. Perjanjian yang ditandatangani menjamin keselamatan penduduk dan kebebasan menjalankan agama mereka. Penaklukan Aleksandria melengkapi penguasaan Muslim atas seluruh Mesir."
   },
   {
     "id": 18,
@@ -357,7 +450,13 @@
     "muslim_commander": "al-Nu'man ibn Muqarrin (martyred), then Hudhayfah ibn al-Yaman",
     "opponent": "Sasanid Empire — last organised resistance",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 12", "Ibn Kathir vol. 7", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 12",
+      "Ibn Kathir vol. 7",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Perang Nihawand (Nehavand)",
+    "description_id": "Perang Nihawand, disebut para sejarawan Muslim sebagai 'Fath al-Futuh' (Penaklukan Segala Penaklukan), adalah pertempuran akhir yang menghancurkan Kekaisaran Sasaniyah. Nu'man ibn Muqarrin memimpin pasukan Muslim menghadapi tentara Persia terakhir yang besar. Nu'man gugur sebagai syahid dalam pertempuran ini, namun pasukannya meraih kemenangan telak. Setelah Nihawand, Persia tidak mampu lagi mengorganisir perlawanan besar, dan seluruh dataran tinggi Iran segera berada di bawah kendali Muslim."
   },
   {
     "id": 19,
@@ -377,7 +476,13 @@
     "muslim_commander": null,
     "opponent": "Abu Lu'lu'ah Firuz al-Majusi (Persian assassin)",
     "outcome": "martyrdom",
-    "sources": ["Sahih Bukhari 3700", "Sahih Muslim 2389", "al-Tabari vol. 12"]
+    "sources": [
+      "Sahih Bukhari 3700",
+      "Sahih Muslim 2389",
+      "al-Tabari vol. 12"
+    ],
+    "title_id": "Pembunuhan Umar ibn al-Khattab",
+    "description_id": "Umar ibn al-Khattab رضي الله عنه, Khalifah kedua Islam, ditikam oleh Abu Lu'lu'ah Firuz, seorang budak Persia milik al-Mughirah ibn Shu'bah, saat sedang memimpin shalat Shubuh di masjid Madinah pada 26 Dzulhijjah 23 H / November 644 M. Abu Lu'lu'ah menyerangnya dengan pisau bermata dua. Umar bertahan beberapa hari sebelum wafat. Sebelum wafat, ia menunjuk enam orang untuk bermusyawarah memilih khalifah berikutnya. Wafatnya Umar adalah musibah besar bagi umat Islam."
   },
   {
     "id": 20,
@@ -397,7 +502,12 @@
     "muslim_commander": "Muawiyah ibn Abi Sufyan",
     "opponent": "Byzantine Cyprus",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 12", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 12",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Penaklukan Siprus",
+    "description_id": "Penaklukan Siprus adalah operasi angkatan laut besar pertama dalam sejarah Islam, dilaksanakan pada masa Khalifah Utsman ibn Affan. Muawiyah ibn Abi Sufyan, gubernur Suriah, memimpin armada besar ke Siprus — sebuah pulau strategis yang selama ini menjadi basis operasi angkatan laut Byzantium. Ekspedisi ini membuktikan kemampuan Islam berkembang menjadi kekuatan laut, tidak hanya kekuatan darat."
   },
   {
     "id": 21,
@@ -417,7 +527,12 @@
     "muslim_commander": "Abd Allah ibn Abi Sarh",
     "opponent": "Byzantine Empire — Emperor Constans II",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 12", "al-Baladhuri, Futuh al-Buldan"]
+    "sources": [
+      "al-Tabari vol. 12",
+      "al-Baladhuri, Futuh al-Buldan"
+    ],
+    "title_id": "Perang Dzat al-Shawari (Perang Tiang)",
+    "description_id": "Perang Dzat al-Shawari (Perang Tiang-Tiang Layar) adalah pertempuran laut besar pertama dalam sejarah Islam, di mana armada Muslim mengalahkan armada Byzantium yang dipimpin Kaisar Constantius II sendiri. Terjadi di perairan Mediterania pada 34 H / 655 M, pertempuran ini membuktikan bahwa kekuatan Islam tidak terbatas di darat saja. Kemenangan ini memberikan kendali Muslim atas Mediterania Timur."
   },
   {
     "id": 22,
@@ -437,7 +552,12 @@
     "muslim_commander": "Zayd ibn Thabit (committee head)",
     "opponent": null,
     "outcome": "administrative",
-    "sources": ["Sahih Bukhari 4987-4989", "al-Tabari vol. 12"]
+    "sources": [
+      "Sahih Bukhari 4987-4989",
+      "al-Tabari vol. 12"
+    ],
+    "title_id": "Kompilasi Mushaf Utsmani",
+    "description_id": "Khalifah Utsman ibn Affan memerintahkan penyatuan Al-Qur'an ke dalam satu mushaf standar yang resmi — dikenal sebagai Mushaf Utsmani. Perbedaan dialek bacaan di berbagai wilayah telah menimbulkan kebingungan, mendorong Utsman mengambil tindakan tegas. Zayd ibn Tsabit dan sekelompok sahabat mengerjakan tugas mulia ini. Beberapa salinan mushaf standar dikirimkan ke berbagai wilayah, dan salinan-salinan yang berbeda diperintahkan untuk dibakar. Ini adalah salah satu kontribusi terbesar Utsman bagi Islam."
   },
   {
     "id": 23,
@@ -452,12 +572,18 @@
     "significance": "major",
     "place_name": "Madinah, Arabia",
     "place_lat": 24.46,
-    "place_lng": 39.60,
+    "place_lng": 39.6,
     "description_en": "Uthman ibn Affan was besieged in his home in Medina by rebel groups from Egypt, Kufa, and Basra, who accused his administration of nepotism and misrule. After weeks of siege — during which he refused offers of armed rescue to avoid Muslim bloodshed — rebels broke into his house while he was reading the Quran. He was killed, his blood falling on the mushaf open before him. The assassination of Uthman was the original wound of the first Fitna, splitting the Muslim community in a way that shaped Islamic politics for centuries. The question of his blood — who was responsible, who failed to protect him, and who would avenge him — drove the subsequent wars between Ali, Aisha, and Muawiyah.",
     "muslim_commander": null,
     "opponent": "Rebel factions (Egypt, Kufa, Basra)",
     "outcome": "martyrdom",
-    "sources": ["Sahih Bukhari 3699", "al-Tabari vol. 12", "Ibn Kathir vol. 7"]
+    "sources": [
+      "Sahih Bukhari 3699",
+      "al-Tabari vol. 12",
+      "Ibn Kathir vol. 7"
+    ],
+    "title_id": "Pembunuhan Utsman ibn Affan",
+    "description_id": "Utsman ibn Affan رضي الله عنه, Khalifah ketiga Islam, dikepung di rumahnya di Madinah oleh kelompok-kelompok pemberontak dari Mesir, Irak, dan tempat lain yang mengklaim berbagai ketidakpuasan terhadap pemerintahannya. Setelah pengepungan selama sekitar empat puluh hari, para pemberontak menyerbu masuk dan membunuhnya saat beliau sedang membaca Al-Qur'an pada 18 Dzulhijjah 35 H / Juni 656 M. Pembunuhan Utsman membuka babak kegelapan Fitnah Pertama yang memecah belah umat Islam."
   },
   {
     "id": 24,
@@ -477,7 +603,13 @@
     "muslim_commander": "Ali ibn Abi Talib",
     "opponent": "Aisha, Talha, and Zubayr ibn al-Awwam",
     "outcome": "ali_victory",
-    "sources": ["Sahih Bukhari 7100", "al-Tabari vol. 13", "Ibn Kathir vol. 7"]
+    "sources": [
+      "Sahih Bukhari 7100",
+      "al-Tabari vol. 13",
+      "Ibn Kathir vol. 7"
+    ],
+    "title_id": "Perang Jamal (Perang Unta)",
+    "description_id": "Perang Jamal adalah konflik bersenjata pertama antara sesama Muslim, terjadi pada Jumadil Akhir 36 H / 656 M di Basra. Di satu pihak adalah Khalifah Ali ibn Abi Talib, dan di pihak lain adalah Thalhah ibn Ubaidillah, Zubair ibn al-Awwam, dan Aisyah RA yang menuntut penyelidikan pembunuhan Utsman. Pertempuran ini dinamai 'Perang Unta' karena Aisyah berada di tandu di atas unta. Thalhah dan Zubair terbunuh; Aisyah ditahan dengan penuh hormat dan diantar kembali ke Madinah oleh Ali."
   },
   {
     "id": 25,
@@ -497,7 +629,13 @@
     "muslim_commander": "Ali ibn Abi Talib",
     "opponent": "Muawiyah ibn Abi Sufyan, governor of Syria",
     "outcome": "inconclusive",
-    "sources": ["al-Tabari vol. 13", "Ibn Kathir vol. 7", "Nasr ibn Muzahim, Waq'at Siffin"]
+    "sources": [
+      "al-Tabari vol. 13",
+      "Ibn Kathir vol. 7",
+      "Nasr ibn Muzahim, Waq'at Siffin"
+    ],
+    "title_id": "Perang Shiffin",
+    "description_id": "Perang Shiffin adalah pertempuran terbesar dalam Fitnah Pertama, terjadi di tepi Sungai Efrat antara pasukan Khalifah Ali ibn Abi Talib dan Muawiyah ibn Abi Sufyan, gubernur Suriah yang menuntut pembalasan atas kematian Utsman. Pertempuran berlangsung berhari-hari dengan korban besar di kedua pihak. Ketika pasukan Muawiyah mulai terdesak, Amr ibn al-As memerintahkan mengangkat mushaf Al-Qur'an sebagai isyarat arbitrase. Ali menerima, memicu perpecahan di pihaknya sendiri."
   },
   {
     "id": 26,
@@ -517,7 +655,13 @@
     "muslim_commander": "Ali ibn Abi Talib",
     "opponent": "Khawarij (breakaway faction)",
     "outcome": "muslim_victory",
-    "sources": ["al-Tabari vol. 13", "Ibn Kathir vol. 7", "Sahih Muslim 1066"]
+    "sources": [
+      "al-Tabari vol. 13",
+      "Ibn Kathir vol. 7",
+      "Sahih Muslim 1066"
+    ],
+    "title_id": "Perang Nahrawan",
+    "description_id": "Perang Nahrawan adalah kampanye Ali ibn Abi Talib melawan kaum Khawarij — kelompok yang semula adalah pendukungnya namun kemudian memisahkan diri dan mengkafirkan Ali serta siapa pun yang menerima arbitrase. Kaum Khawarij berkumpul di Nahrawan dan terus melakukan pembunuhan terhadap siapa pun yang berbeda pandangan. Ali membubarkan mereka secara militer dengan kemenangan telak, membunuh sebagian besar. Namun sisa-sisa Khawarij terus menjadi ancaman dan salah satu dari mereka akhirnya membunuh Ali."
   },
   {
     "id": 27,
@@ -537,7 +681,13 @@
     "muslim_commander": null,
     "opponent": "Ibn Muljam al-Khariji (Khawarij assassin)",
     "outcome": "martyrdom",
-    "sources": ["Sahih Bukhari 3699", "al-Tabari vol. 13", "Ibn Kathir vol. 7"]
+    "sources": [
+      "Sahih Bukhari 3699",
+      "al-Tabari vol. 13",
+      "Ibn Kathir vol. 7"
+    ],
+    "title_id": "Pembunuhan Ali ibn Abi Talib",
+    "description_id": "Ali ibn Abi Talib رضي الله عنه, Khalifah keempat dan sepupu sekaligus menantu Nabi ﷺ, ditikam dengan pedang berlumur racun oleh Abd al-Rahman ibn Muljam al-Muradi, seorang Khawarij, saat sedang menuju masjid untuk shalat Shubuh pada 17 Ramadhan 40 H / Januari 661 M. Ali bertahan dua hari sebelum wafat. Dengan wafatnya Ali, berakhirlah era Khulafaur Rasyidin, masa keemasan pemerintahan Islam yang langsung di bawah bimbingan nilai-nilai Nabi ﷺ."
   },
   {
     "id": 28,
@@ -557,6 +707,12 @@
     "muslim_commander": "Hasan ibn Ali",
     "opponent": "Muawiyah ibn Abi Sufyan",
     "outcome": "treaty",
-    "sources": ["Sahih Bukhari 2704", "al-Tabari vol. 13", "Ibn Kathir vol. 8"]
+    "sources": [
+      "Sahih Bukhari 2704",
+      "al-Tabari vol. 13",
+      "Ibn Kathir vol. 8"
+    ],
+    "title_id": "Hasan ibn Ali Mengundurkan Diri — Berakhirnya Era Rasyidin",
+    "description_id": "Setelah pembunuhan Ali, putranya Hasan ibn Ali mendapatkan bai'at sebagai khalifah dari penduduk Irak dan Kufah. Namun dalam menghadapi pasukan Muawiyah yang besar dan demi menghindari pertumpahan darah lebih lanjut di antara kaum Muslimin, Hasan menyerahkan kekuasaan kepada Muawiyah pada 25 Rabi'ul Awal 41 H / 661 M dengan syarat-syarat tertentu. Tahun ini dikenal sebagai 'Am al-Jama'ah (Tahun Persatuan). Tindakan mulia Hasan ini dipuji oleh Nabi ﷺ yang telah memprediksinya."
   }
 ]
