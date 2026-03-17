@@ -7,9 +7,13 @@ import { getHistoryEvents as getSeerahHistoryEvents } from './seerah'
 import prophetsData from '@/data/history/prophets.json'
 import postJesusRaw from '@/data/history/post-jesus.json'
 import battlesRaw from '@/data/history/battles.json'
+import rashidunRaw from '@/data/history/rashidun-events.json'
+import umayyadRaw from '@/data/history/umayyad-events.json'
 
 const postJesusData: PostJesusEntry[] = postJesusRaw as PostJesusEntry[]
 const battlesData: BattleEntry[] = battlesRaw as BattleEntry[]
+const rashidunData: RashidunEntry[] = rashidunRaw as RashidunEntry[]
+const umayyadData: UmayyadEntry[] = umayyadRaw as UmayyadEntry[]
 
 export type HistorySection = 'prophets' | 'post-jesus' | 'islamic-history' | 'modern' | 'battles'
 
@@ -81,6 +85,47 @@ export interface BattleEntry {
   outcome?: 'muslim_victory' | 'muslim_defeat' | 'inconclusive'
   significance?: string
   description_en: string
+  sources?: string[]
+}
+
+export interface RashidunEntry {
+  id: number
+  slug: string
+  title_en: string
+  title_ar: string
+  title_id?: string
+  year_ah?: number
+  date_display?: string
+  caliphate?: string
+  caliph_en?: string
+  section?: string
+  significance?: string
+  place_name?: string
+  place_lat?: number
+  place_lng?: number
+  description_en: string
+  description_id?: string
+  muslim_commander?: string
+  opponent?: string
+  outcome?: 'muslim_victory' | 'muslim_defeat' | 'inconclusive'
+  sources?: string[]
+}
+
+export interface UmayyadEntry {
+  id: number
+  slug: string
+  title_en: string
+  title_ar: string
+  title_id?: string
+  date_ah?: number
+  date_ce?: number
+  date_display?: string
+  period?: string
+  description_en: string
+  description_id?: string
+  location?: string
+  significance?: string
+  people_slug?: string | null
   sources?: string[]
 }
 
@@ -203,7 +248,48 @@ export function getAllHistoryEvents(): HistoryEvent[] {
     }
   })
 
-  // 4. Post-Prophetic seerah events
+  // 4. Rashidun Caliphate events (11–40 AH)
+  const rashidun: HistoryEvent[] = rashidunData.map((r) => ({
+    id: r.id,
+    slug: r.slug,
+    title_en: r.title_en,
+    title_ar: r.title_ar,
+    title_id: r.title_id,
+    description_en: r.description_en,
+    description_id: r.description_id,
+    year_ah: r.year_ah,
+    period: 'Rashidun Caliphate',
+    section: 'islamic-history' as HistorySection,
+    severity: inferSeverity(r),
+    place_name: r.place_name,
+    place_lat: r.place_lat,
+    place_lng: r.place_lng,
+    outcome: r.outcome,
+    muslim_commander: r.muslim_commander,
+    opponent: r.opponent,
+    sources: r.sources,
+  }))
+
+  // 5. Umayyad Dynasty events (41–132 AH)
+  const umayyad: HistoryEvent[] = umayyadData.map((u) => ({
+    id: u.id,
+    slug: u.slug,
+    title_en: u.title_en,
+    title_ar: u.title_ar,
+    title_id: u.title_id,
+    description_en: u.description_en,
+    description_id: u.description_id,
+    year_ah: u.date_ah,
+    year_ce: u.date_ce,
+    period: u.period ?? 'Umayyad Dynasty',
+    section: 'islamic-history' as HistorySection,
+    severity: inferSeverity(u),
+    place_name: u.location,
+    people_slug: u.people_slug ?? undefined,
+    sources: u.sources,
+  }))
+
+  // 6. Post-Prophetic seerah events
   const postProphetic = getSeerahHistoryEvents()
   const seerahEvents: HistoryEvent[] = postProphetic.map((e) => ({
     id: e.id,
@@ -223,7 +309,7 @@ export function getAllHistoryEvents(): HistoryEvent[] {
     place_lng: e.place_lng ?? undefined,
   }))
 
-  cachedEvents = [...prophets, ...postJesus, ...battles, ...seerahEvents]
+  cachedEvents = [...prophets, ...postJesus, ...rashidun, ...umayyad, ...battles, ...seerahEvents]
   return cachedEvents
 }
 
