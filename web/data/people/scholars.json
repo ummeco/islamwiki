@@ -24047,5 +24047,119 @@
       "Islam and Modernity",
       "Major Themes of the Qur'an"
     ]
+  },
+  {
+    "slug": "al-hakim-al-naysaburi-scholar",
+    "name_en": "Al-Hakim al-Naysaburi",
+    "name_ar": "الحاكم النيسابوري",
+    "born_ah": 321,
+    "died_ah": 405,
+    "era": "classical",
+    "category": "muhaddith",
+    "madhab": "shafii",
+    "works": [
+      "al-Mustadrak ala al-Sahihayn"
+    ],
+    "bio_en": "Abu Abdallah Muhammad ibn Abdallah al-Hakim al-Naysaburi was a leading hadith scholar of the 4th/5th century AH. He compiled al-Mustadrak ala al-Sahihayn, a major hadith collection."
+  },
+  {
+    "slug": "abu-al-qasim-al-tabarani",
+    "name_en": "Al-Tabarani",
+    "name_ar": "الطبراني",
+    "born_ah": 260,
+    "died_ah": 360,
+    "era": "classical",
+    "category": "muhaddith",
+    "madhab": "shafii",
+    "works": [
+      "al-Mu'jam al-Kabir",
+      "al-Mu'jam al-Awsat",
+      "al-Mu'jam al-Saghir"
+    ],
+    "bio_en": "Sulayman ibn Ahmad al-Tabarani was a prominent hadith scholar who compiled three major mu'jam hadith collections."
+  },
+  {
+    "slug": "al-amir-al-sanani",
+    "name_en": "Al-Amir al-Sanani",
+    "name_ar": "الأمير الصنعاني",
+    "born_ah": 1059,
+    "died_ah": 1182,
+    "era": "ottoman",
+    "category": "scholar",
+    "madhab": "independent",
+    "works": [
+      "Subul al-Salam"
+    ],
+    "bio_en": "Muhammad ibn Ismail al-Amir al-Sanani was a Yemeni hadith scholar and reformer who wrote Subul al-Salam, a commentary on Bulugh al-Maram."
+  },
+  {
+    "slug": "al-tirmidhi-hadith",
+    "name_en": "Al-Tirmidhi",
+    "name_ar": "الترمذي",
+    "born_ah": 209,
+    "died_ah": 279,
+    "era": "classical",
+    "category": "muhaddith",
+    "madhab": "shafii",
+    "works": [
+      "Jami al-Tirmidhi"
+    ],
+    "bio_en": "Muhammad ibn Isa al-Tirmidhi was a student of Imam Bukhari and compiler of Jami al-Tirmidhi (Sunan al-Tirmidhi), one of the six canonical hadith collections."
+  },
+  {
+    "slug": "abu-dawud-al-sijistani",
+    "name_en": "Abu Dawud al-Sijistani",
+    "name_ar": "أبو داود السجستاني",
+    "born_ah": 202,
+    "died_ah": 275,
+    "era": "classical",
+    "category": "muhaddith",
+    "madhab": "hanbali",
+    "works": [
+      "Sunan Abu Dawud"
+    ],
+    "bio_en": "Sulayman ibn al-Ash'ath Abu Dawud al-Sijistani was a major hadith scholar who compiled Sunan Abu Dawud, one of the six canonical hadith collections, containing about 5,274 hadiths."
+  },
+  {
+    "slug": "al-nasai-hadith",
+    "name_en": "Al-Nasai",
+    "name_ar": "النسائي",
+    "born_ah": 215,
+    "died_ah": 303,
+    "era": "classical",
+    "category": "muhaddith",
+    "madhab": "shafii",
+    "works": [
+      "al-Sunan al-Sughra"
+    ],
+    "bio_en": "Ahmad ibn Shu'ayb al-Nasai was a leading hadith scholar and compiler of al-Sunan al-Sughra (Sunan al-Nasai), one of the six canonical hadith collections."
+  },
+  {
+    "slug": "al-razi-fakhr-al-din",
+    "name_en": "Fakhr al-Din al-Razi",
+    "name_ar": "فخر الدين الرازي",
+    "born_ah": 544,
+    "died_ah": 606,
+    "era": "medieval",
+    "category": "mufassir",
+    "madhab": "shafii",
+    "works": [
+      "Mafatih al-Ghayb"
+    ],
+    "bio_en": "Muhammad ibn Umar Fakhr al-Din al-Razi was a prominent Persian Islamic scholar known for his encyclopedic tafsir Mafatih al-Ghayb (al-Tafsir al-Kabir)."
+  },
+  {
+    "slug": "al-jurjani-sayyid-sharif",
+    "name_en": "Al-Jurjani (Sayyid Sharif)",
+    "name_ar": "الجرجاني السيد الشريف",
+    "born_ah": 740,
+    "died_ah": 816,
+    "era": "medieval",
+    "category": "theologian",
+    "madhab": "hanafi",
+    "works": [
+      "al-Ta'rifat"
+    ],
+    "bio_en": "Ali ibn Muhammad al-Jurjani (Sayyid Sharif) was an important scholar of theology and logic, known for al-Ta'rifat, a dictionary of Islamic technical terms."
   }
 ]
