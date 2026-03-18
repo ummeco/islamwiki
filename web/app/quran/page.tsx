@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { getSurahs } from '@/lib/data/quran'
 import { QuranGrid } from '@/components/listings/quran-grid'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 export const metadata: Metadata = {
   title: 'Quran',
   description:
     'Read the Holy Quran with Arabic text, translations, and tafsir. All 114 surahs with verse-by-verse commentary from Ibn Kathir, al-Jalalayn, and more.',
+  alternates: { languages: getHreflangAlternates('/quran') },
 }
 
 export default function QuranIndexPage() {

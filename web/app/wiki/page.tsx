@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import { getWikiPages } from '@/lib/data/wiki'
 import { WikiGrid } from '@/components/listings/wiki-grid'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 export const metadata: Metadata = {
   title: 'Wiki — Islamic Encyclopedia',
   description:
     'Community-edited encyclopedia of Islamic concepts, terminology, and topics. Scholar-verified and open for contributions.',
+  alternates: { languages: getHreflangAlternates('/wiki') },
 }
 
 export default function WikiIndexPage() {

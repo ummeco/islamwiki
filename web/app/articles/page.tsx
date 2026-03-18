@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import { getArticles } from '@/lib/data/articles'
 import { ArticlesGrid } from '@/components/listings/articles-grid'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 export const metadata: Metadata = {
   title: 'Articles — Islamic Encyclopedia',
   description:
     'Encyclopedic articles on all aspects of Islam: worship, theology, history, jurisprudence, and more. Scholar-verified and community-driven.',
+  alternates: { languages: getHreflangAlternates('/articles') },
 }
 
 export default function ArticlesIndexPage() {

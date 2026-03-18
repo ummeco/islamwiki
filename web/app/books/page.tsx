@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import { getBooks } from '@/lib/data/books'
 import { BooksGrid } from '@/components/listings/books-grid'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 export const metadata: Metadata = {
   title: 'Books — Classical Islamic Texts',
   description:
     'Browse classical Islamic books: hadith collections, fiqh manuals, tafsir works, aqeedah texts, and seerah. Read online in multiple languages.',
+  alternates: { languages: getHreflangAlternates('/books') },
 }
 
 export default function BooksIndexPage() {

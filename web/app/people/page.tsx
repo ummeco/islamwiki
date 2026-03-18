@@ -2,11 +2,13 @@ import type { Metadata } from 'next'
 import { getPeople, getEras } from '@/lib/data/people'
 import { PeopleTimeline } from '@/components/people/timeline'
 import { PeopleGrid } from '@/components/listings/people-grid'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 export const metadata: Metadata = {
   title: 'People — Islamic Scholars & Historical Figures',
   description:
     'Biographies of Islamic scholars, companions of the Prophet, hadith narrators, jurists, and historical figures. Interactive timeline with teacher-student and family relationships.',
+  alternates: { languages: getHreflangAlternates('/people') },
 }
 
 export default function PeopleIndexPage() {

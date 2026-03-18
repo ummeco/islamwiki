@@ -1,11 +1,13 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getCollections } from '@/lib/data/hadith'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 
 export const metadata: Metadata = {
   title: 'Hadith Collections',
   description:
     'Browse all major hadith collections: Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasai, Ibn Majah, Muwatta Malik, and Musnad Ahmad. Full isnad analysis and grading.',
+  alternates: { languages: getHreflangAlternates('/hadith') },
 }
 
 export default function HadithIndexPage() {

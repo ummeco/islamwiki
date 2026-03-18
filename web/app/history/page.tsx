@@ -6,6 +6,7 @@ import {
   getSectionCounts,
   type HistorySection,
 } from '@/lib/data/history'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { HistoryTimeline } from '@/components/history/history-timeline'
 import { ProphetCards } from '@/components/history/prophet-cards'
 import { formatIslamicDate } from '@/lib/dates/hijri'
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
   title: 'Islamic History',
   description:
     'The complete history of Islam — from the 25 Quranic prophets through the life of the Prophet ﷺ to the modern era. Interactive timelines, battles, and the story of the corruption of previous scriptures.',
+  alternates: { languages: getHreflangAlternates('/history') },
 }
 
 const SECTION_TABS: { id: HistorySection | 'all' | 'rashidun'; label: string; description: string }[] = [
