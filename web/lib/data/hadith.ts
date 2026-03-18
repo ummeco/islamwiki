@@ -61,6 +61,7 @@ export interface HadithData {
   iw_id?: string
   duplicates?: string[]
   variants?: string[]
+  muttafaq_alayhi?: boolean
   sharh_refs?: string[]
   ref?: string
   // Mapped fields for backward compatibility
@@ -140,6 +141,7 @@ function loadBookData(collectionSlug: string, bookFile: string): HadithData[] {
       iw_id: h.iw_id as string | undefined,
       duplicates: h.duplicates as string[] | undefined,
       variants: h.variants as string[] | undefined,
+      muttafaq_alayhi: h.muttafaq_alayhi as boolean | undefined,
       sharh_refs: h.sharh_refs as string[] | undefined,
       ref: h.ref as string | undefined,
       // Backward-compatible mapped fields
@@ -214,6 +216,65 @@ export function getSharhSources(): SharhSource[] {
   } catch {
     return []
   }
+}
+
+// ── IW-ID reverse lookup (for duplicates / variants cross-references) ──
+
+interface IwIdRef {
+  collectionSlug: string
+  collectionName: string
+  bookSlug: string
+  n: number
+}
+
+let iwIdReverseMap: Map<string, { collection: string; cn: number }> | null = null
+
+function getIwIdReverseMap(): Map<string, { collection: string; cn: number }> {
+  if (iwIdReverseMap) return iwIdReverseMap
+  iwIdReverseMap = new Map()
+  try {
+    const raw = readFileSync(join(process.cwd(), 'data', 'hadith', 'all', 'iw-id-map.json'), 'utf-8')
+    const forwardMap = JSON.parse(raw) as Record<string, string>
+    for (const [key, iwId] of Object.entries(forwardMap)) {
+      const colonIdx = key.lastIndexOf(':')
+      const collectionSlug = key.slice(0, colonIdx)
+      const cnRaw = key.slice(colonIdx + 1)
+      const cn = parseInt(cnRaw, 10)
+      if (isNaN(cn)) continue // skip non-integer cn keys (e.g. "3930.2")
+      iwIdReverseMap.set(iwId, { collection: collectionSlug, cn })
+    }
+  } catch {
+    // iw-id-map.json missing — silently return empty map
+  }
+  return iwIdReverseMap
+}
+
+export function getHadithRefByIwId(iwId: string): IwIdRef | null {
+  const reverseMap = getIwIdReverseMap()
+  const entry = reverseMap.get(iwId)
+  if (!entry) return null
+
+  const collection = collections.find((c) => c.slug === entry.collection)
+  if (!collection) return null
+
+  const collectionBooks = books
+    .filter((b) => b.collection === entry.collection)
+    .sort((a, b) => a.number - b.number)
+
+  for (const book of collectionBooks) {
+    const fileName = book.file ?? `${String(book.number).padStart(3, '0')}.json`
+    const hadiths = loadBookData(entry.collection, fileName)
+    const hadith = hadiths.find((h) => h.cn === entry.cn)
+    if (hadith) {
+      return {
+        collectionSlug: entry.collection,
+        collectionName: collection.name_en,
+        bookSlug: book.slug,
+        n: hadith.n,
+      }
+    }
+  }
+  return null
 }
 
 export function getSharhForHadith(collectionSlug: string, bookN: number, hadithN: number): SharhEntry[] {

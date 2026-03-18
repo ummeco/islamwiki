@@ -12,6 +12,7 @@ import {
   getHadithsByBook,
   getSharhForHadith,
   getSharhSources,
+  getHadithRefByIwId,
 } from '@/lib/data/hadith'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { HadithActions } from '@/components/hadith/HadithActions'
@@ -151,13 +152,23 @@ export default async function HadithPage({ params }: Props) {
         {/* Header */}
         <div className="mb-6 flex items-center justify-between">
           <h1 className="text-2xl font-bold text-white">Hadith #{hadith.n}</h1>
-          <span
-            className={`rounded-full px-3 py-1 text-xs font-medium ${gradeColor(hadith.grade)}`}
-            title={gradeDescription(hadith.grade)}
-            aria-label={gradeDescription(hadith.grade)}
-          >
-            {hadith.grade_display || hadith.grade || 'Ungraded'}
-          </span>
+          <div className="flex items-center gap-2">
+            {hadith.muttafaq_alayhi && (
+              <span
+                className="rounded-full bg-yellow-500/20 px-3 py-1 text-xs font-medium text-yellow-300"
+                title="Muttafaq 'Alayhi — agreed upon by both Bukhari and Muslim"
+              >
+                Muttafaq &#x2018;Alayhi
+              </span>
+            )}
+            <span
+              className={`rounded-full px-3 py-1 text-xs font-medium ${gradeColor(hadith.grade)}`}
+              title={gradeDescription(hadith.grade)}
+              aria-label={gradeDescription(hadith.grade)}
+            >
+              {hadith.grade_display || hadith.grade || 'Ungraded'}
+            </span>
+          </div>
         </div>
 
         {/* Chapter */}
@@ -266,6 +277,61 @@ export default async function HadithPage({ params }: Props) {
             </div>
           </div>
         )}
+
+        {/* Also Narrated In (duplicates) */}
+        {hadith.duplicates && hadith.duplicates.length > 0 && (() => {
+          const refs = hadith.duplicates!
+            .map((iwId) => ({ iwId, ref: getHadithRefByIwId(iwId) }))
+            .filter((x) => x.ref !== null)
+          if (refs.length === 0) return null
+          return (
+            <div className="mb-6 rounded-xl border border-iw-border bg-iw-surface/50 p-4">
+              <h2 className="mb-3 text-sm font-medium text-iw-accent">Also Narrated In</h2>
+              <div className="space-y-2">
+                {refs.map(({ iwId, ref }) => (
+                  <Link
+                    key={iwId}
+                    href={`/hadith/${ref!.collectionSlug}/${ref!.bookSlug}/${ref!.n}`}
+                    className="flex items-center gap-2 text-sm text-iw-text-secondary hover:text-iw-accent"
+                  >
+                    <svg className="h-3.5 w-3.5 shrink-0 text-iw-accent/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                    </svg>
+                    {ref!.collectionName} — Hadith #{ref!.n}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })()}
+
+        {/* Similar Narrations (variants) */}
+        {hadith.variants && hadith.variants.length > 0 && (() => {
+          const refs = hadith.variants!
+            .map((iwId) => ({ iwId, ref: getHadithRefByIwId(iwId) }))
+            .filter((x) => x.ref !== null)
+          if (refs.length === 0) return null
+          return (
+            <div className="mb-6 rounded-xl border border-iw-border bg-iw-surface/50 p-4">
+              <h2 className="mb-3 text-sm font-medium text-iw-accent">Similar Narrations</h2>
+              <p className="mb-3 text-xs text-iw-text-muted">Hadiths with similar wording or meaning, narrated in other collections.</p>
+              <div className="space-y-2">
+                {refs.map(({ iwId, ref }) => (
+                  <Link
+                    key={iwId}
+                    href={`/hadith/${ref!.collectionSlug}/${ref!.bookSlug}/${ref!.n}`}
+                    className="flex items-center gap-2 text-sm text-iw-text-secondary hover:text-iw-accent"
+                  >
+                    <svg className="h-3.5 w-3.5 shrink-0 text-iw-accent/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                    </svg>
+                    {ref!.collectionName} — Hadith #{ref!.n}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )
+        })()}
 
         {/* Sharh (Commentary) */}
         {sharhEntries.length > 0 && (
