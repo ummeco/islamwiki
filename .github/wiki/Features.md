@@ -32,3 +32,4 @@
 | Hreflang alternates (multilingual SEO) | Done |
 | Scholar database (1,075 entries) | Done |
 | Tabi'un and Tabi' al-Tabi'in coverage | Done |
+| Password reset (email via AWS SES) | Done |
