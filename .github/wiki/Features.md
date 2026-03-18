@@ -26,5 +26,9 @@
 | Seerah timeline | Done |
 | Sects reference | Done |
 | Books browser | Done |
+| Books reading (chapters with EN + AR + ID) | Done |
 | OG image generation | Done |
 | Sitemap | Done |
+| Hreflang alternates (multilingual SEO) | Done |
+| Scholar database (1,075 entries) | Done |
+| Tabi'un and Tabi' al-Tabi'in coverage | Done |
