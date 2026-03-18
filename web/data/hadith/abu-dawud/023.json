@@ -3974,7 +3974,9 @@
     "duplicates": [
       "IWH-11837"
     ],
-    "variants": [],
+    "variants": [
+      "IWH-11837"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -9157,7 +9159,9 @@
     "iw_subcategory": "sunan-collections",
     "iw_id": "IWH-18545",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-11712"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -10192,7 +10196,9 @@
     "iw_subcategory": "sunan-collections",
     "iw_id": "IWH-18552",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-32642"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

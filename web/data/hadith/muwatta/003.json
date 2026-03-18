@@ -11674,7 +11674,9 @@
     "iw_subcategory": "muwatta-collection",
     "iw_id": "IWH-34685",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-24714"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

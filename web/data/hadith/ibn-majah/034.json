@@ -2044,7 +2044,10 @@
     "iw_subcategory": "sunan-collections",
     "iw_id": "IWH-34030",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-08920",
+      "IWH-25608"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -4309,7 +4312,9 @@
     "iw_subcategory": "sunan-collections",
     "iw_id": "IWH-34047",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-48150"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

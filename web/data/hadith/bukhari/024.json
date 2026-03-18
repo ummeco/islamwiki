@@ -11801,7 +11801,9 @@
     "iw_subcategory": "bukhari-collection",
     "iw_id": "IWH-01610",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-26463"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -16700,7 +16702,9 @@
     "iw_subcategory": "bukhari-collection",
     "iw_id": "IWH-01647",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-43706"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

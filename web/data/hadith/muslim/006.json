@@ -8010,7 +8010,9 @@
     "iw_subcategory": "muslim-collection",
     "iw_id": "IWH-09063",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-47928"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -26041,7 +26043,9 @@
     "iw_subcategory": "muslim-collection",
     "iw_id": "IWH-09229",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-00851"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -26134,7 +26138,9 @@
     "iw_subcategory": "muslim-collection",
     "iw_id": "IWH-09230",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-00848"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

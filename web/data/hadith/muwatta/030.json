@@ -1612,7 +1612,9 @@
     "iw_subcategory": "muwatta-collection",
     "iw_id": "IWH-35704",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-27956"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -5786,7 +5788,9 @@
     "iw_subcategory": "muwatta-collection",
     "iw_id": "IWH-35741",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-05362"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -12624,7 +12628,9 @@
     "iw_subcategory": "muwatta-collection",
     "iw_id": "IWH-35802",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-28043"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

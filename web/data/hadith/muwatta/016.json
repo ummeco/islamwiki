@@ -709,7 +709,9 @@
     "iw_subcategory": "muwatta-collection",
     "iw_id": "IWH-35024",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-25450"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -4922,7 +4924,9 @@
     "iw_subcategory": "muwatta-collection",
     "iw_id": "IWH-35062",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-25067"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

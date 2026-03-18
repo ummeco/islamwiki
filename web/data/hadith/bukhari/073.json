@@ -995,7 +995,9 @@
     "iw_subcategory": "bukhari-collection",
     "iw_id": "IWH-05583",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-12710"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

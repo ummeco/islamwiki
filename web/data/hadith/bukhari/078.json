@@ -3731,7 +3731,9 @@
     "duplicates": [
       "IWH-00249"
     ],
-    "variants": [],
+    "variants": [
+      "IWH-61539"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -7677,7 +7679,9 @@
     "iw_subcategory": "bukhari-collection",
     "iw_id": "IWH-05937",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-35275"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -8076,7 +8080,9 @@
     "iw_subcategory": "bukhari-collection",
     "iw_id": "IWH-05941",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-13225"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

@@ -3238,7 +3238,9 @@
     "iw_subcategory": "muslim-collection",
     "iw_id": "IWH-14209",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-06158"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
@@ -3630,7 +3632,9 @@
     "iw_subcategory": "muslim-collection",
     "iw_id": "IWH-14213",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-20069"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,

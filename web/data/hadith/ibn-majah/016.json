@@ -1651,7 +1651,9 @@
     "iw_subcategory": "sunan-collections",
     "iw_id": "IWH-32642",
     "duplicates": [],
-    "variants": [],
+    "variants": [
+      "IWH-18552"
+    ],
     "sharh_refs": [],
     "iwh_verification": {
       "verified": true,
