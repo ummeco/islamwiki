@@ -2,24 +2,25 @@ export const dynamic = 'force-dynamic'
 
 /**
  * Password reset callback handler.
- * Hasura Auth sends the user here after they click the reset email link.
- * URL format: /api/auth/reset-password?ticket=<ticket>
+ * Hasura Auth redirects here after verifying the reset ticket.
+ * URL format: /api/auth/reset-password?refreshToken=<token>&type=passwordReset
  *
- * We exchange the ticket for a session, then redirect to /auth/change-password
- * so the user can set their new password while authenticated.
+ * We exchange the refreshToken for an access token, set auth cookies,
+ * then redirect to /auth/change-password so the user can set their new password.
  */
 import { NextResponse, type NextRequest } from 'next/server'
 import { cookies } from 'next/headers'
-import { exchangeTicket } from '@/lib/auth-client'
+import { refreshAccessToken } from '@/lib/auth-client'
 
 export async function GET(request: NextRequest) {
-  const ticket = request.nextUrl.searchParams.get('ticket')
+  const refreshToken = request.nextUrl.searchParams.get('refreshToken')
+  const type = request.nextUrl.searchParams.get('type')
 
-  if (!ticket) {
+  if (!refreshToken || type !== 'passwordReset') {
     return NextResponse.redirect(new URL('/auth/forgot-password?error=invalid_link', request.url))
   }
 
-  const { data, error } = await exchangeTicket(ticket)
+  const { data, error } = await refreshAccessToken(refreshToken)
 
   if (error || !data) {
     return NextResponse.redirect(new URL('/auth/forgot-password?error=link_expired', request.url))
