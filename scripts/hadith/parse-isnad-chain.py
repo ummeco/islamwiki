@@ -210,6 +210,9 @@ def parse_isnad(isnad_ar, by_name_ar, by_name_en):
     # Strip diacritics for robust splitting — diacritical regex fails to match
     # the same Arabic words with harakāt in the data
     stripped = strip_diacritics(isnad_ar)
+    # Normalize newlines to spaces (some isnad_ar values contain literal \n)
+    stripped = stripped.replace('\n', ' ').replace('\r', ' ')
+    stripped = re.sub(r'\s+', ' ', stripped).strip()
 
     # Split into segments per transmission event
     segments = split_on_transmission(isnad_ar)
@@ -235,8 +238,13 @@ def parse_isnad(isnad_ar, by_name_ar, by_name_en):
         part = part.strip()
         # Strip trailing punctuation
         part = re.sub(r'[،,،\.؛;]+$', '', part).strip()
+        # Strip semicolon and everything after (handles mid-string ; like "ابن عمر; { إن...")
+        part = re.sub(r'\s*[;؛]\s*.*$', '', part).strip()
+        # Strip parenthetical "في X" phrases between dashes (e.g. "- في قصة الأرنب -")
+        part = re.sub(r'\s*-\s*في\s+.*?-\s*', ' ', part).strip()
         # Remove trailing transmission/phrase (bare Arabic, no diacritics)
-        part = re.sub(r'\s+قال.*$', '', part).strip()
+        # Handle both "قال" with space and "-قال" attached with dash
+        part = re.sub(r'\s*[-–]?\s*قال.*$', '', part).strip()
         part = re.sub(r'\s+أن.*$', '', part).strip()
         part = re.sub(r'\s+أخبر.*$', '', part).strip()
         # Remove companion honorifics/epithets that pad the name
@@ -248,8 +256,8 @@ def parse_isnad(isnad_ar, by_name_ar, by_name_en):
         # Strip remaining trailing punctuation
         part = re.sub(r'[،,،\.؛;:]+$', '', part).strip()
         words = part.split()
-        # Names are 1-6 words
-        if 1 <= len(words) <= 6 and part:
+        # Names are 1-8 words (increased from 6 to handle longer compound names)
+        if 1 <= len(words) <= 8 and part:
             simple_names.append(part)
 
     # Deduplicate preserving order
@@ -259,7 +267,7 @@ def parse_isnad(isnad_ar, by_name_ar, by_name_en):
         norm = strip_diacritics(name)
         # Also strip trailing commas for dedup key
         norm_clean = re.sub(r'[،,،\.؛;]+$', '', norm).strip()
-        if norm_clean not in seen and len(norm_clean) > 3:
+        if norm_clean not in seen and len(norm_clean) >= 3:
             seen.add(norm_clean)
             # Clean name before storing
             clean_name = re.sub(r'[،,،\.؛;]+$', '', name).strip()
