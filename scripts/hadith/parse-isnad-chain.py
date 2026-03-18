@@ -240,6 +240,8 @@ def parse_isnad(isnad_ar, by_name_ar, by_name_en):
         part = re.sub(r'[،,،\.؛;]+$', '', part).strip()
         # Strip semicolon and everything after (handles mid-string ; like "ابن عمر; { إن...")
         part = re.sub(r'\s*[;؛]\s*.*$', '', part).strip()
+        # Strip brace notation (Bulugh-Maram matn marker: "{ ... }")
+        part = re.sub(r'\s*\{.*$', '', part).strip()
         # Strip parenthetical "في X" phrases between dashes (e.g. "- في قصة الأرنب -")
         part = re.sub(r'\s*-\s*في\s+.*?-\s*', ' ', part).strip()
         # Remove trailing transmission/phrase (bare Arabic, no diacritics)
@@ -267,7 +269,7 @@ def parse_isnad(isnad_ar, by_name_ar, by_name_en):
         norm = strip_diacritics(name)
         # Also strip trailing commas for dedup key
         norm_clean = re.sub(r'[،,،\.؛;]+$', '', norm).strip()
-        if norm_clean not in seen and len(norm_clean) >= 3:
+        if norm_clean not in seen and len(norm_clean) >= 2:
             seen.add(norm_clean)
             # Clean name before storing
             clean_name = re.sub(r'[،,،\.؛;]+$', '', name).strip()
