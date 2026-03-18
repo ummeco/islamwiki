@@ -21,5 +21,6 @@
   "qa_passed": true,
   "qa_errors": [
     "content_en too short: 42 words (min 300)"
-  ]
+  ],
+  "content_ar_source": "original"
 }
