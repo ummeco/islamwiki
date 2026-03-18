@@ -116,7 +116,11 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         )}
         {/* Cross-references */}
-        <CrossReferences tags={article.tags} category={article.category} />
+        <CrossReferences
+          quranRefs={article.quran_refs}
+          hadithRefs={article.hadith_refs}
+          scholarRefs={article.scholar_refs}
+        />
 
         {/* Related articles */}
         {relatedArticles.length > 0 && (

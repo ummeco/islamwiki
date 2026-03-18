@@ -20,7 +20,12 @@ interface ArticleData {
   author_name?: string | null
   created_at: string
   updated_at: string
+  quran_refs?: string[]
+  hadith_refs?: string[]
+  scholar_refs?: string[]
 }
+
+export type { ArticleData }
 
 const articles: ArticleData[] = articlesData as ArticleData[]
 
