@@ -1,103 +1,24 @@
 [
   {
-    "term": "Arafat",
-    "chapters": [
-      3
-    ]
-  },
-  {
-    "term": "Ashura",
-    "chapters": [
-      2
-    ]
-  },
-  {
-    "term": "Ayat al-Kursi",
-    "chapters": [
-      7
-    ]
-  },
-  {
-    "term": "Farewell Pilgrimage",
-    "chapters": [
-      3
-    ]
-  },
-  {
-    "term": "Hajj",
-    "chapters": [
-      3
-    ]
-  },
-  {
-    "term": "Ibn al-Qayyim",
-    "chapters": [
-      1,
-      3
-    ]
-  },
-  {
-    "term": "Nigella sativa",
-    "chapters": [
-      6
-    ]
-  },
-  {
-    "term": "Quran recitation",
-    "chapters": [
-      7
-    ]
-  },
-  {
-    "term": "Ramadan",
-    "chapters": [
-      2
-    ]
-  },
-  {
-    "term": "Siyar",
-    "chapters": [
-      5
-    ]
-  },
-  {
-    "term": "al-Amin",
-    "chapters": [
-      4
-    ]
-  },
-  {
-    "term": "al-Muawwidhatain",
-    "chapters": [
-      7
-    ]
-  },
-  {
     "term": "aqeedah",
     "chapters": [
       7
     ]
   },
   {
-    "term": "black seed",
+    "term": "arafah",
     "chapters": [
-      6
+      11
     ]
   },
   {
-    "term": "business",
+    "term": "bayyinah",
     "chapters": [
-      4
+      16
     ]
   },
   {
     "term": "commerce",
-    "chapters": [
-      4
-    ]
-  },
-  {
-    "term": "commercial ethics",
     "chapters": [
       4
     ]
@@ -109,15 +30,15 @@
     ]
   },
   {
-    "term": "cupping",
-    "chapters": [
-      6
-    ]
-  },
-  {
     "term": "dhikr",
     "chapters": [
       8
+    ]
+  },
+  {
+    "term": "dhimmi",
+    "chapters": [
+      15
     ]
   },
   {
@@ -132,27 +53,9 @@
     ]
   },
   {
-    "term": "ethics of war",
+    "term": "family",
     "chapters": [
-      5
-    ]
-  },
-  {
-    "term": "fard ayn",
-    "chapters": [
-      5
-    ]
-  },
-  {
-    "term": "fard kifayah",
-    "chapters": [
-      5
-    ]
-  },
-  {
-    "term": "fasting",
-    "chapters": [
-      2
+      17
     ]
   },
   {
@@ -165,13 +68,34 @@
       5,
       6,
       7,
-      8
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
     ]
   },
   {
-    "term": "gharar",
+    "term": "fiqh al harb",
     "chapters": [
-      4
+      14
+    ]
+  },
+  {
+    "term": "fiqh al qada",
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "term": "ghazwat",
+    "chapters": [
+      14
     ]
   },
   {
@@ -181,136 +105,119 @@
     ]
   },
   {
-    "term": "hady nabawi",
-    "chapters": [
-      1
-    ]
-  },
-  {
     "term": "hajj",
     "chapters": [
-      3
-    ]
-  },
-  {
-    "term": "healing",
-    "chapters": [
-      7
-    ]
-  },
-  {
-    "term": "health",
-    "chapters": [
-      6
-    ]
-  },
-  {
-    "term": "heart diseases",
-    "chapters": [
-      8
-    ]
-  },
-  {
-    "term": "hijama",
-    "chapters": [
-      6
+      3,
+      11,
+      12,
+      13
     ]
   },
   {
     "term": "history",
     "chapters": [
-      5
+      5,
+      14
     ]
   },
   {
-    "term": "honey",
+    "term": "hudud",
     "chapters": [
-      6
+      16
     ]
   },
   {
-    "term": "iftar",
+    "term": "ibadah",
     "chapters": [
-      2
+      9,
+      10
     ]
   },
   {
     "term": "ihram",
     "chapters": [
-      3
+      11,
+      13
+    ]
+  },
+  {
+    "term": "itikaf",
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "term": "jamarat",
+    "chapters": [
+      12
     ]
   },
   {
     "term": "jihad",
     "chapters": [
-      5
+      5,
+      14
     ]
   },
   {
-    "term": "marketplace",
+    "term": "mahr",
     "chapters": [
-      4
+      17
     ]
   },
   {
-    "term": "medical-fiqh",
+    "term": "marriage",
     "chapters": [
-      6
+      17
     ]
   },
   {
-    "term": "military campaigns",
-    "chapters": [
-      5
-    ]
-  },
-  {
-    "term": "night prayer",
-    "chapters": [
-      8
-    ]
-  },
-  {
-    "term": "non-combatants",
-    "chapters": [
-      5
-    ]
-  },
-  {
-    "term": "prayer",
-    "chapters": [
-      1
-    ]
-  },
-  {
-    "term": "prophetic guidance",
-    "chapters": [
-      1,
-      2
-    ]
-  },
-  {
-    "term": "prophetic medicine",
+    "term": "medical fiqh",
     "chapters": [
       6
     ]
   },
   {
-    "term": "prophetic rites",
+    "term": "mina",
     "chapters": [
-      3
+      12
     ]
   },
   {
-    "term": "protection",
+    "term": "muamalat",
     "chapters": [
-      7
+      15
     ]
   },
   {
-    "term": "qalb",
+    "term": "muzdalifah",
     "chapters": [
-      8
+      12
+    ]
+  },
+  {
+    "term": "nikah",
+    "chapters": [
+      17
+    ]
+  },
+  {
+    "term": "non muslims",
+    "chapters": [
+      15
+    ]
+  },
+  {
+    "term": "qada",
+    "chapters": [
+      16
+    ]
+  },
+  {
+    "term": "ramadan",
+    "chapters": [
+      9,
+      10
     ]
   },
   {
@@ -320,21 +227,10 @@
     ]
   },
   {
-    "term": "ruku",
+    "term": "sai",
     "chapters": [
-      1
-    ]
-  },
-  {
-    "term": "ruqyah",
-    "chapters": [
-      7
-    ]
-  },
-  {
-    "term": "sa'i",
-    "chapters": [
-      3
+      11,
+      13
     ]
   },
   {
@@ -352,7 +248,8 @@
   {
     "term": "sawm",
     "chapters": [
-      2
+      2,
+      9
     ]
   },
   {
@@ -363,13 +260,20 @@
       3,
       4,
       5,
-      6
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
     ]
   },
   {
-    "term": "shahwa",
+    "term": "sharia",
     "chapters": [
-      8
+      16
     ]
   },
   {
@@ -379,33 +283,21 @@
     ]
   },
   {
-    "term": "shubha",
+    "term": "sincerity ikhlas",
     "chapters": [
       8
     ]
   },
   {
-    "term": "sincerity-ikhlas",
+    "term": "siyar",
     "chapters": [
-      8
+      14
     ]
   },
   {
-    "term": "soul",
+    "term": "siyasah",
     "chapters": [
-      8
-    ]
-  },
-  {
-    "term": "spiritual healing",
-    "chapters": [
-      7
-    ]
-  },
-  {
-    "term": "spiritual medicine",
-    "chapters": [
-      8
+      15
     ]
   },
   {
@@ -416,21 +308,17 @@
     ]
   },
   {
-    "term": "suhur",
+    "term": "talaq",
     "chapters": [
-      2
-    ]
-  },
-  {
-    "term": "sujud",
-    "chapters": [
-      1
+      17
     ]
   },
   {
     "term": "tawaf",
     "chapters": [
-      3
+      11,
+      12,
+      13
     ]
   },
   {
@@ -440,45 +328,16 @@
     ]
   },
   {
-    "term": "taziyat-al-nafs",
+    "term": "taziyat al nafs",
     "chapters": [
       8
     ]
   },
   {
-    "term": "tibb nabawi",
-    "chapters": [
-      6
-    ]
-  },
-  {
-    "term": "trade",
-    "chapters": [
-      4
-    ]
-  },
-  {
     "term": "umrah",
     "chapters": [
-      3
-    ]
-  },
-  {
-    "term": "voluntary fasts",
-    "chapters": [
-      2
-    ]
-  },
-  {
-    "term": "warfare",
-    "chapters": [
-      5
-    ]
-  },
-  {
-    "term": "wudu",
-    "chapters": [
-      1
+      3,
+      13
     ]
   }
 ]

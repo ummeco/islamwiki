@@ -1,15 +1,5 @@
 [
   {
-    "term": "al-risalah",
-    "chapters": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ]
-  },
-  {
     "term": "aqeedah",
     "chapters": [
       1,
@@ -20,7 +10,7 @@
     ]
   },
   {
-    "term": "aqeedah-basics",
+    "term": "aqeedah basics",
     "chapters": [
       1,
       2,
@@ -30,13 +20,43 @@
     ]
   },
   {
-    "term": "ethics-basics",
+    "term": "dietary law",
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "term": "ethics basics",
     "chapters": [
       1,
       2,
       3,
       4,
       5
+    ]
+  },
+  {
+    "term": "expiation",
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "term": "family law",
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "term": "fasting",
+    "chapters": [
+      7
+    ]
+  },
+  {
+    "term": "financial obligations",
+    "chapters": [
+      6
     ]
   },
   {
@@ -46,11 +66,20 @@
       2,
       3,
       4,
-      5
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
     ]
   },
   {
-    "term": "fiqh-general",
+    "term": "fiqh general",
     "chapters": [
       1,
       2,
@@ -60,33 +89,77 @@
     ]
   },
   {
-    "term": "ibn abi zayd al-qayrawani",
+    "term": "hajj",
     "chapters": [
-      1,
-      2,
-      3,
-      4,
-      5
+      9
     ]
   },
   {
-    "term": "maliki fiqh primer",
+    "term": "halal food",
     "chapters": [
-      1,
-      2,
-      3,
-      4,
-      5
+      11,
+      12
     ]
   },
   {
-    "term": "north african maliki",
+    "term": "hunting",
     "chapters": [
-      1,
-      2,
-      3,
-      4,
-      5
+      11
+    ]
+  },
+  {
+    "term": "itikaf",
+    "chapters": [
+      8
+    ]
+  },
+  {
+    "term": "jihad",
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "term": "marriage",
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "term": "nikah",
+    "chapters": [
+      14
+    ]
+  },
+  {
+    "term": "oaths",
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "term": "pilgrimage",
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "term": "prohibited foods",
+    "chapters": [
+      12
+    ]
+  },
+  {
+    "term": "public law",
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "term": "ramadan",
+    "chapters": [
+      7,
+      8
     ]
   },
   {
@@ -100,6 +173,18 @@
     ]
   },
   {
+    "term": "slaughter",
+    "chapters": [
+      11
+    ]
+  },
+  {
+    "term": "spirituality",
+    "chapters": [
+      8
+    ]
+  },
+  {
     "term": "tahara",
     "chapters": [
       1,
@@ -107,6 +192,39 @@
       3,
       4,
       5
+    ]
+  },
+  {
+    "term": "umrah",
+    "chapters": [
+      9
+    ]
+  },
+  {
+    "term": "vows",
+    "chapters": [
+      13
+    ]
+  },
+  {
+    "term": "warfare",
+    "chapters": [
+      10
+    ]
+  },
+  {
+    "term": "worship",
+    "chapters": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "term": "zakat",
+    "chapters": [
+      6
     ]
   }
 ]
