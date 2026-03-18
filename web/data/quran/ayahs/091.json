@@ -500,7 +500,10 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-14408",
+      "IWH-55479"
+    ],
     "iwq_verification": {
       "confidence": "high",
       "verified": true,
@@ -573,7 +576,10 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-14408",
+      "IWH-55479"
+    ],
     "iwq_verification": {
       "confidence": "high",
       "verified": true,
@@ -865,7 +871,14 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-05047",
+      "IWH-14833",
+      "IWH-23803",
+      "IWH-52020",
+      "IWH-52021",
+      "IWH-66480"
+    ],
     "iwq_verification": {
       "confidence": "low",
       "verified": true,

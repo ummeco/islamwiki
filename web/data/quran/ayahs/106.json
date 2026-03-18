@@ -135,7 +135,9 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-62715"
+    ],
     "iwq_verification": {
       "confidence": "high",
       "verified": true,

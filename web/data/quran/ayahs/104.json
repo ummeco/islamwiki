@@ -204,7 +204,9 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-19147"
+    ],
     "iwq_verification": {
       "confidence": "medium",
       "verified": true,

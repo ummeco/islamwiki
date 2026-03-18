@@ -131,7 +131,10 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-08724",
+      "IWH-25412"
+    ],
     "iwq_verification": {
       "confidence": "high",
       "verified": true,
@@ -204,7 +207,10 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-08724",
+      "IWH-25412"
+    ],
     "iwq_verification": {
       "confidence": "high",
       "verified": true,

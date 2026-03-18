@@ -1667,7 +1667,9 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-59789"
+    ],
     "iwq_verification": {
       "confidence": "medium",
       "verified": true,
@@ -1813,7 +1815,9 @@
     ],
     "tags": [],
     "quran_refs": [],
-    "hadith_refs": [],
+    "hadith_refs": [
+      "IWH-18031"
+    ],
     "iwq_verification": {
       "confidence": "medium",
       "verified": true,
