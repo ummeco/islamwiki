@@ -23,7 +23,7 @@ interface Env {
 const AUDIO_CACHE_SECONDS = 365 * 24 * 60 * 60  // 1 year (immutable)
 const CORS_ORIGIN = 'https://islam.wiki'
 
-export default {
+const worker = {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url)
 
@@ -137,6 +137,8 @@ export default {
     })
   },
 }
+
+export default worker
 
 function corsHeaders(request: Request): Record<string, string> {
   const origin = request.headers.get('Origin') ?? ''
