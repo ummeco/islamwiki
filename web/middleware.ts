@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server'
-import { jwtDecode } from 'jwt-decode'
+import { createRemoteJWKSet, jwtVerify } from 'jose'
 
 const LOCALES = ['en', 'ar', 'id'] as const
 const DEFAULT_LOCALE = 'en'
@@ -15,6 +15,9 @@ interface JWTPayload {
   email?: string
 }
 
+const AUTH_URL = process.env.NEXT_PUBLIC_AUTH_URL ?? 'https://auth.ummat.dev'
+const JWKS = createRemoteJWKSet(new URL(`${AUTH_URL}/.well-known/jwks.json`))
+
 function extractLocale(pathname: string): { locale: string; strippedPath: string } {
   const segments = pathname.split('/')
   const maybeLocale = segments[1]
@@ -25,12 +28,10 @@ function extractLocale(pathname: string): { locale: string; strippedPath: string
   return { locale: DEFAULT_LOCALE, strippedPath: pathname }
 }
 
-function decodeJWT(token: string): JWTPayload | null {
+async function verifyJWT(token: string): Promise<JWTPayload | null> {
   try {
-    const payload = jwtDecode<JWTPayload>(token)
-    const now = Math.floor(Date.now() / 1000)
-    if (payload.exp < now) return null
-    return payload
+    const { payload } = await jwtVerify(token, JWKS)
+    return payload as unknown as JWTPayload
   } catch {
     return null
   }
@@ -109,9 +110,9 @@ export async function middleware(request: NextRequest) {
 
   if (!needsAuth) return response
 
-  // Decode JWT from iw_at cookie (edge-compatible — no external calls)
+  // Verify JWT from iw_at cookie using JWKS (cryptographic signature verification)
   const token = request.cookies.get('iw_at')?.value
-  const jwtPayload = token ? decodeJWT(token) : null
+  const jwtPayload = token ? await verifyJWT(token) : null
   const isLoggedIn = jwtPayload !== null
 
   const role = jwtPayload?.['https://hasura.io/jwt/claims']?.['x-hasura-default-role']
