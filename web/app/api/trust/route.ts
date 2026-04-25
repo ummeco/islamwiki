@@ -5,8 +5,8 @@ import { TRUST_DELTAS, canWarnUsers, canBanUsers } from '@/lib/contributor/trust
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
 
 export async function GET(req: NextRequest) {
-  const rl = checkRateLimit(`trust-get:${getClientIp(req.headers)}`, 60, 60_000)
-  if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
+  const rl = await checkRateLimit(`trust-get:${getClientIp(req.headers)}`, { limit: 60, windowMs: 60_000 })
+  if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } })
   const caller = await getSessionUser()
   if (!caller) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
@@ -23,8 +23,8 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
-  const rl = checkRateLimit(`trust-post:${getClientIp(req.headers)}`, 20, 60_000)
-  if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429 })
+  const rl = await checkRateLimit(`trust-post:${getClientIp(req.headers)}`, { limit: 20, windowMs: 60_000 })
+  if (!rl.allowed) return NextResponse.json({ error: 'Too many requests' }, { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } })
 
   const user = await getSessionUser()
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })

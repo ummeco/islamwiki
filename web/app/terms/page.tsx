@@ -1,103 +1,141 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
+// LAST_UPDATED: 2026-04-25
+// DRAFT — under legal review. Shipping for development purposes; will be replaced before public launch.
+
 export const metadata: Metadata = {
-  title: 'Terms of Service',
+  title: 'Terms of Service — Islam.wiki',
   description: 'Islam.wiki terms of service. Rules and guidelines for using our platform.',
 }
 
 export default function TermsPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+
+      {/* Draft banner */}
+      <div className="mb-8 rounded-lg border border-yellow-500/40 bg-yellow-500/10 px-4 py-3 text-sm text-yellow-300">
+        <strong>DRAFT</strong> — This policy is under legal review (2026-04-25). Published for development purposes; will be replaced before public launch.
+      </div>
+
       <div className="mb-12">
+        <Link href="/" className="mb-6 inline-block text-sm text-iw-text-muted hover:text-iw-accent transition-colors">
+          ← Back to Islam.wiki
+        </Link>
         <h1 className="text-3xl font-bold text-white sm:text-4xl">Terms of Service</h1>
-        <p className="mt-3 text-sm text-iw-text-muted">Last updated: March 6, 2026</p>
+        <p className="mt-3 text-sm text-iw-text-muted">Last updated: April 25, 2026</p>
       </div>
 
       <div className="space-y-8 text-iw-text-secondary leading-relaxed">
-        <p>
-          These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the Islam.wiki website operated by Islam.wiki (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;). By using our services, you agree to these terms.
-        </p>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">1. Acceptance of Terms</h2>
-          <p>By accessing or using Islam.wiki, you agree to be bound by these Terms. If you do not agree, do not use our services.</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">1. Acceptance</h2>
+          <p>
+            By accessing or using Islam.wiki (&ldquo;Service&rdquo;), you agree to these Terms. These Terms form a binding agreement between you and <strong className="text-white/90">Ummat</strong> (501(c)(3) application pending).
+          </p>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">2. Accounts</h2>
-          <p>To use certain features (bookmarks, reading history, contributions), you must create an account. You are responsible for maintaining the confidentiality of your account credentials and for all activity under your account.</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">2. Service Description</h2>
+          <p>
+            Islam.wiki is a free, open Islamic knowledge base covering the Quran (with tafsir and translations), Hadith collections, Seerah, biographies of scholars and companions, books, articles, and general Islamic reference. Content is sourced from classical Islamic scholarship and is community-contributed with editorial review.
+          </p>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">3. Acceptable Use</h2>
-          <p className="mb-2">You agree not to:</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">3. Account Requirements</h2>
           <ul className="list-disc space-y-1 pl-6">
-            <li>Use the service for any unlawful purpose.</li>
-            <li>Post content that is offensive, hateful, or violates the rights of others.</li>
-            <li>Attempt to gain unauthorized access to our systems or other users&rsquo; accounts.</li>
-            <li>Use automated tools to scrape or collect data from our services without permission.</li>
-            <li>Interfere with the proper operation of the service.</li>
+            <li>You must be at least 13 years old (US) or 16 years old (EU) to create an account.</li>
+            <li>You must provide accurate information when registering.</li>
+            <li>You are responsible for the security of your account credentials.</li>
+            <li>One account per person. Multiple accounts for abuse are prohibited.</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">4. Islamic Content</h2>
-          <p>Islam.wiki provides Islamic content (Quran, Hadith, tafsir, scholarly articles) for informational and educational purposes. While we strive for accuracy by sourcing from established Islamic scholars and institutions, this content should not be considered a substitute for personal scholarly guidance. Consult qualified scholars for specific religious rulings.</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">4. User Content and Islamic Content Guidelines</h2>
+          <p className="mb-2">
+            If you contribute content (wiki edits, corrections, annotations), you grant us a non-exclusive, royalty-free license to display it within the Service. Contributions are subject to editorial review per Islam.wiki&rsquo;s scholarly standards.
+          </p>
+          <p className="mb-2">This is an Islamic platform. All contributions must:</p>
+          <ul className="list-disc space-y-1 pl-6">
+            <li>Respect Allah, the Prophets (peace be upon them), the Quran, and the Sunnah.</li>
+            <li>Be sourced from recognized Islamic scholarship (classical or contemporary).</li>
+            <li>Not spread fitnah, sectarian attacks, or content that contradicts Ahl us-Sunnah wal-Jama&rsquo;ah.</li>
+            <li>Not promote haram activities or extremist positions.</li>
+          </ul>
+          <p className="mt-3">
+            <strong className="text-white/90">Islamic knowledge disclaimer:</strong> Content is for informational and educational purposes. It does not constitute a fatwa or binding religious ruling. Consult a qualified scholar for specific religious legal matters.
+          </p>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">5. User Contributions</h2>
-          <p>If you contribute content (edits, annotations, corrections), you grant us a non-exclusive, worldwide license to display and distribute your contributions within the service. All contributions are subject to editorial review. We may remove contributions that violate these terms or our content standards.</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">5. Prohibited Use</h2>
+          <ul className="list-disc space-y-1 pl-6">
+            <li>Do not use the Service for any unlawful purpose.</li>
+            <li>Do not attempt unauthorized access to any system or data.</li>
+            <li>Do not scrape or bulk-harvest data without written permission.</li>
+            <li>Do not submit vandalism, false hadith, or fabricated Islamic content.</li>
+            <li>Do not impersonate scholars, institutions, or other users.</li>
+          </ul>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">6. Third-Party Services</h2>
-          <p>Islam.wiki integrates with third-party services (Google Sign-In, Apple Sign-In). Your use of those services is governed by their respective terms. We are not responsible for third-party service availability or practices.</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">6. Donations</h2>
+          <p>
+            We accept voluntary donations. <strong className="text-white/90">Ummat&rsquo;s 501(c)(3) application is pending. Donations are not yet tax-deductible.</strong> We will update this section when tax-exempt status is granted.
+          </p>
         </section>
 
         <section>
           <h2 className="mb-3 text-xl font-semibold text-iw-accent">7. Termination</h2>
           <p>
-            We may suspend or terminate your account if you violate these terms. You may delete your account at any time through account settings. Upon deletion, your personal data will be removed in accordance with our{' '}
-            <a href="/privacy" className="text-iw-accent transition-colors hover:text-iw-accent-light">Privacy Policy</a>.
+            We may suspend or terminate your account for Terms violations. You may delete your account at any time via Account Settings. Data is removed per our <Link href="/privacy" className="text-iw-accent underline">Privacy Policy</Link>.
           </p>
         </section>
 
         <section>
           <h2 className="mb-3 text-xl font-semibold text-iw-accent">8. Disclaimers</h2>
-          <p>Our services are provided &ldquo;as is&rdquo; without warranties of any kind, express or implied. We do not guarantee uninterrupted or error-free operation.</p>
+          <p>
+            The Service is provided &ldquo;as is&rdquo; without warranties of any kind. We do not guarantee uninterrupted or error-free operation. Islamic content on this platform reflects the views of the cited scholars — not an official religious authority. Ummat is not an Islamic legal institution.
+          </p>
         </section>
 
         <section>
           <h2 className="mb-3 text-xl font-semibold text-iw-accent">9. Limitation of Liability</h2>
-          <p>To the fullest extent permitted by law, Islam.wiki shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services.</p>
+          <p>
+            To the maximum extent permitted by applicable law, Ummat is not liable for indirect, incidental, or consequential damages. Our total liability shall not exceed the greater of the amount you paid us in the prior 12 months or $100 USD.
+          </p>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">10. Changes to Terms</h2>
-          <p>We may update these terms from time to time. Continued use of the service after changes constitutes acceptance of the new terms. We will notify you of significant changes.</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">10. Governing Law</h2>
+          <p>
+            These Terms are governed by the laws of <strong className="text-white/90">Delaware, USA</strong> (upon incorporation; Michigan law applies until then). EU/UK users: mandatory consumer protection laws in your country apply.
+          </p>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-semibold text-iw-accent">11. Governing Law</h2>
-          <p>These terms are governed by the laws of the United States. Any disputes shall be resolved in the courts of the State of Ohio.</p>
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">11. Changes to Terms</h2>
+          <p>
+            We will provide at least 14 days&rsquo; notice before material changes take effect. Continued use after the effective date constitutes acceptance.
+          </p>
         </section>
 
         <section>
           <h2 className="mb-3 text-xl font-semibold text-iw-accent">12. Contact</h2>
           <p>
-            Questions about these terms? Contact us at{' '}
-            <a href="mailto:legal@islam.wiki" className="text-iw-accent transition-colors hover:text-iw-accent-light">
-              legal@islam.wiki
-            </a>.
+            Legal: <a href="mailto:legal@ummat.dev" className="text-iw-accent underline">legal@ummat.dev</a><br />
+            Abuse: <a href="mailto:abuse@ummat.dev" className="text-iw-accent underline">abuse@ummat.dev</a><br />
+            <br />
+            <strong className="text-white/90">Ummat</strong> (501(c)(3) application pending) &mdash; United States
           </p>
         </section>
-      </div>
 
-      <div className="mt-12 flex justify-center gap-6 text-sm text-iw-text-muted">
-        <a href="/privacy" className="transition-colors hover:text-iw-accent">Privacy Policy</a>
-        <Link href="/" className="transition-colors hover:text-iw-accent">Back to Islam.wiki</Link>
+        <div className="mt-8 border-t border-white/10 pt-6 text-sm text-iw-text-muted">
+          <Link href="/privacy" className="mr-4 hover:text-iw-accent transition-colors">Privacy Policy</Link>
+          <Link href="/cookies" className="hover:text-iw-accent transition-colors">Cookie Policy</Link>
+        </div>
       </div>
     </div>
   )

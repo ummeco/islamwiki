@@ -67,6 +67,8 @@ export default {
       headers.set('Content-Type', 'audio/mpeg')
       headers.set('Cache-Control', 'public, max-age=31536000, immutable')
       headers.set('X-Cache', 'HIT')
+      // Public audio CDN — wildcard ACAO is correct for unauthenticated static audio files.
+      // Any Islamic app or browser audio player must be able to fetch Quran recitations.
       headers.set('Access-Control-Allow-Origin', '*')
       if (cached.size) {
         headers.set('Content-Length', String(cached.size))
@@ -110,26 +112,18 @@ export default {
       })
     )
 
-    if (request.method === 'HEAD') {
-      return new Response(null, {
-        status: 200,
-        headers: {
-          'Content-Type': 'audio/mpeg',
-          'Cache-Control': 'public, max-age=31536000, immutable',
-          'X-Cache': 'MISS',
-          'Access-Control-Allow-Origin': '*',
-        },
-      })
+    // Public audio CDN — wildcard ACAO is correct for unauthenticated static audio files.
+    const audioCorsHeaders = {
+      'Content-Type': 'audio/mpeg',
+      'Cache-Control': 'public, max-age=31536000, immutable',
+      'X-Cache': 'MISS',
+      'Access-Control-Allow-Origin': '*',
     }
 
-    return new Response(bodyForResponse, {
-      status: 200,
-      headers: {
-        'Content-Type': 'audio/mpeg',
-        'Cache-Control': 'public, max-age=31536000, immutable',
-        'X-Cache': 'MISS',
-        'Access-Control-Allow-Origin': '*',
-      },
-    })
+    if (request.method === 'HEAD') {
+      return new Response(null, { status: 200, headers: audioCorsHeaders })
+    }
+
+    return new Response(bodyForResponse, { status: 200, headers: audioCorsHeaders })
   },
 }

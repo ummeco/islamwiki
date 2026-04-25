@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next'
+import { withSentryConfig } from '@sentry/nextjs'
 
 // CSP is applied per-request in middleware.ts with a unique nonce (removes unsafe-eval/unsafe-inline for scripts)
 const securityHeaders = [
@@ -48,6 +49,12 @@ const nextConfig: any = {
       },
     ]
   },
+  webpack(config: any) {
+    // ioredis is an optional runtime dep (Redis adapter). Mark as external so
+    // Webpack/Turbopack doesn't try to bundle it during the Next.js build.
+    config.externals = [...(config.externals ?? []), 'ioredis']
+    return config
+  },
   async redirects() {
     // Slug-based URLs redirect to canonical numeric URLs: /quran/al-baqarah → /quran/2
     const surahs = require('./data/quran/surahs.json') as Array<{ number: number; slug: string }>
@@ -76,4 +83,11 @@ const nextConfig: any = {
   },
 }
 
-export default nextConfig
+export default withSentryConfig(nextConfig, {
+  org: process.env.SENTRY_ORG ?? 'ummeco',
+  project: process.env.SENTRY_PROJECT ?? 'islamwiki-web',
+  silent: !process.env.CI,
+  widenClientFileUpload: true,
+  sourcemaps: { disable: true },
+  disableLogger: true,
+})

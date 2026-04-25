@@ -162,6 +162,15 @@ function loadBookData(collectionSlug: string, bookFile: string): HadithData[] {
   }
 }
 
+/**
+ * Lightweight sitemap helper: returns only the canonical numbers (n) for each
+ * hadith in a book without loading full HadithData objects.
+ * Used by sitemap.ts to enumerate ~70k URLs without memory overhead.
+ */
+export function getHadithNumbersByBook(bookId: number): number[] {
+  return getHadithsByBook(bookId).map((h) => h.n)
+}
+
 export function getHadithsByBook(bookId: number): HadithData[] {
   const book = books.find((b) => b.id === bookId)
   if (!book) return []

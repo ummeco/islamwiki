@@ -10,7 +10,7 @@ export interface SessionData {
   username: string
   email: string
   displayName: string
-  role: 'user' | 'editor' | 'moderator' | 'admin' | 'owner'
+  role: 'public' | 'user' | 'trusted' | 'curator' | 'editor' | 'moderator' | 'admin' | 'owner'
   trustLevel: 0 | 1 | 2 | 3 | 4 | 5
   mustChangePassword?: boolean
   isLoggedIn: boolean
@@ -41,8 +41,11 @@ function mapRole(hasuraRole: string): SessionData['role'] {
     owner: 'owner',
     admin: 'admin',
     moderator: 'moderator',
+    curator: 'curator',   // Primary-source submitter (Quran verses, canonical hadith)
     editor: 'editor',
+    trusted: 'trusted',   // Trust level 1 — minor edits auto-approved, 5 edits/day cap
     user: 'user',
+    public: 'public',
   }
   return roleMap[hasuraRole] ?? 'user'
 }
@@ -50,7 +53,10 @@ function mapRole(hasuraRole: string): SessionData['role'] {
 // Map role to trust level
 function roleToTrustLevel(role: SessionData['role']): SessionData['trustLevel'] {
   const map: Record<SessionData['role'], SessionData['trustLevel']> = {
+    public: 0,
     user: 0,
+    trusted: 1,
+    curator: 2,
     editor: 2,
     moderator: 3,
     admin: 4,

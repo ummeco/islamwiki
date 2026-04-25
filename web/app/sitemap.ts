@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { getSurahs } from '@/lib/data/quran'
-import { getCollections, getBooksByCollection } from '@/lib/data/hadith'
+import { getCollections, getBooksByCollection, getHadithNumbersByBook } from '@/lib/data/hadith'
 import { getAllPeople } from '@/lib/data/people'
 import { getBooks, getChaptersByBook } from '@/lib/data/books'
 import { getArticles } from '@/lib/data/articles'
@@ -65,7 +65,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   }
 
-  // Hadith collections + books
+  // Hadith collections + books + individual hadith pages (~70k URLs)
   for (const c of getCollections()) {
     entries.push({
       url: `${BASE_URL}/hadith/${c.slug}`,
@@ -83,6 +83,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
       })
+
+      // Individual hadith pages — the primary organic search surface (~70k total)
+      const hadithNums = getHadithNumbersByBook(b.id)
+      for (const n of hadithNums) {
+        entries.push({
+          url: `${BASE_URL}/hadith/${c.slug}/${b.slug}/${n}`,
+          lastModified: now,
+          changeFrequency: 'monthly',
+          priority: 0.8,
+        })
+      }
     }
   }
 

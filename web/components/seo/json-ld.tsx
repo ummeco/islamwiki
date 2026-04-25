@@ -1,3 +1,20 @@
+/**
+ * Safely serializes a JSON-LD payload for inline <script> injection.
+ *
+ * Escapes `</script>` sequences (case-insensitive) and `<` characters so
+ * that user-controlled content cannot break out of the JSON-LD script block
+ * and inject arbitrary HTML. The resulting string is valid JSON — parsing it
+ * back with JSON.parse() returns the original object unchanged.
+ *
+ * Why `<` for `<`:
+ *   JSON.parse() treats `<` as `<`, so the structured-data consumer sees
+ *   the original value. Browsers never execute the text because there is no
+ *   literal `</script>` token to terminate the script block.
+ */
+export function safeJsonLd(data: object): string {
+  return JSON.stringify(data).replace(/</g, '\\u003c')
+}
+
 export function WebsiteJsonLd() {
   const data = {
     '@context': 'https://schema.org',
@@ -26,7 +43,7 @@ export function WebsiteJsonLd() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -50,7 +67,7 @@ export function BreadcrumbJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -89,7 +106,7 @@ export function QuranChapterJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -127,7 +144,7 @@ export function HadithCollectionJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -161,7 +178,7 @@ export function PersonJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -202,7 +219,7 @@ export function ArticleJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -251,7 +268,7 @@ export function BookJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -292,7 +309,7 @@ export function HistoryEventJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }
@@ -333,7 +350,7 @@ export function SeerahEventJsonLd({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(data) }}
     />
   )
 }

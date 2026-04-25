@@ -1,14 +1,16 @@
 import 'server-only'
 
 import Anthropic from '@anthropic-ai/sdk'
-import OpenAI from 'openai'
 
 // ── Provider Types ──
+// NOTE (T1-8-5): OpenAI SDK removed — supply chain risk, no functional dependency.
+// All AI calls use Anthropic Claude exclusively. If OpenAI is needed in future,
+// use XML-isolated field passing per islamwiki AI pipeline isolation doc.
 
 interface Provider {
   id: string
-  type: 'anthropic' | 'openai'
-  client: Anthropic | OpenAI
+  type: 'anthropic'
+  client: Anthropic
   model: string
   available: boolean
   unavailableUntil: number
@@ -49,18 +51,6 @@ function buildProviders(): Provider[] {
       type: 'anthropic',
       client: new Anthropic({ apiKey: uniqueAnthropicKeys[i] }),
       model: process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-4-6',
-      available: true,
-      unavailableUntil: 0,
-    })
-  }
-
-  // OpenAI key
-  if (process.env.OPENAI_API_KEY) {
-    providers.push({
-      id: 'openai-1',
-      type: 'openai',
-      client: new OpenAI({ apiKey: process.env.OPENAI_API_KEY }),
-      model: 'gpt-4o',
       available: true,
       unavailableUntil: 0,
     })
@@ -127,11 +117,7 @@ export async function chat(
     }
 
     try {
-      if (provider.type === 'anthropic') {
-        return await chatAnthropic(provider, messages, options)
-      } else {
-        return await chatOpenAI(provider, messages, options)
-      }
+      return await chatAnthropic(provider, messages, options)
     } catch (err) {
       lastError = err instanceof Error ? err : new Error(String(err))
       markUnavailable(provider)
@@ -146,7 +132,7 @@ async function chatAnthropic(
   messages: ChatMessage[],
   options?: { maxTokens?: number; temperature?: number }
 ): Promise<ChatResponse> {
-  const client = provider.client as Anthropic
+  const client = provider.client
 
   // Extract system message
   const systemMsg = messages.find((m) => m.role === 'system')
@@ -174,36 +160,6 @@ async function chatAnthropic(
     tokens: {
       input: response.usage.input_tokens,
       output: response.usage.output_tokens,
-    },
-  }
-}
-
-async function chatOpenAI(
-  provider: Provider,
-  messages: ChatMessage[],
-  options?: { maxTokens?: number; temperature?: number }
-): Promise<ChatResponse> {
-  const client = provider.client as OpenAI
-
-  const response = await client.chat.completions.create({
-    model: provider.model,
-    max_tokens: options?.maxTokens || 4096,
-    temperature: options?.temperature ?? 0.3,
-    messages: messages.map((m) => ({
-      role: m.role,
-      content: m.content,
-    })),
-  })
-
-  const choice = response.choices[0]
-
-  return {
-    content: choice?.message?.content || '',
-    provider: provider.id,
-    model: provider.model,
-    tokens: {
-      input: response.usage?.prompt_tokens || 0,
-      output: response.usage?.completion_tokens || 0,
     },
   }
 }

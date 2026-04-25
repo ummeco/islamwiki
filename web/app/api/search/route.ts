@@ -6,6 +6,57 @@ const MEILISEARCH_URL = process.env.MEILISEARCH_URL
 const MEILISEARCH_KEY = process.env.MEILISEARCH_KEY
 const MEILISEARCH_INDEX = 'islamwiki'
 
+/**
+ * Allowlist of filter keys accepted in the `filter` query parameter.
+ * Any key outside this list is rejected with HTTP 400 to prevent
+ * Meilisearch filter injection (e.g. _geoRadius, _geoBoundingBox,
+ * internal _vectors fields, etc.).
+ *
+ * Format accepted: `key:value` or `key = value` (Meilisearch filter syntax).
+ * Multiple conditions may be joined with AND/OR but every key must be in this list.
+ */
+export const ALLOWED_FILTER_KEYS = ['category', 'language', 'source', 'verified'] as const
+
+/**
+ * Parse a Meilisearch filter expression and return all attribute keys found.
+ * Supports simple `key:value`, `key = value`, `key != value`, `key > value`,
+ * `key IN [...]`, and compound expressions joined by AND / OR / NOT.
+ * Parentheses are stripped before scanning.
+ */
+export function extractFilterKeys(filter: string): string[] {
+  // Strip parentheses and split on whitespace-delimited AND/OR/NOT
+  const normalised = filter.replace(/[()]/g, ' ')
+  const tokens = normalised.split(/\s+/)
+  const keys: string[] = []
+
+  for (const token of tokens) {
+    if (!token || /^(AND|OR|NOT|IN|\[.*\])$/i.test(token)) continue
+    // token may be `key:value` or just `key` when operator is separate
+    const colonIdx = token.indexOf(':')
+    if (colonIdx > 0) {
+      keys.push(token.slice(0, colonIdx))
+    } else if (/^[a-zA-Z_][a-zA-Z0-9_.]*$/.test(token)) {
+      // Looks like a plain identifier (key before `=`, `!=`, `>`, `<`, `>=`, `<=`)
+      keys.push(token)
+    }
+  }
+
+  return [...new Set(keys)]
+}
+
+/**
+ * Validate that every key in a filter expression is in the allowlist.
+ * Returns null if valid, or an error message string if not.
+ */
+export function validateFilterKeys(filter: string): string | null {
+  const keys = extractFilterKeys(filter)
+  const disallowed = keys.filter((k) => !(ALLOWED_FILTER_KEYS as readonly string[]).includes(k))
+  if (disallowed.length > 0) {
+    return `Filter key(s) not allowed: ${disallowed.join(', ')}. Allowed keys: ${ALLOWED_FILTER_KEYS.join(', ')}.`
+  }
+  return null
+}
+
 // Group order and labels shared with client-side search
 const GROUP_LABELS: Record<string, string> = {
   quran: 'Quran',
@@ -95,17 +146,27 @@ async function searchMeilisearch(q: string, limit: number, filter?: string) {
 export async function GET(request: NextRequest) {
   // Rate limit: 60 search requests per minute per IP
   const ip = getClientIp(request.headers)
-  const rl = checkRateLimit(`search:${ip}`, 60, 60_000)
+  const rl = await checkRateLimit(`search:${ip}`, { limit: 60, windowMs: 60_000 })
   if (!rl.allowed) {
     return NextResponse.json(
       { error: 'Too many requests.' },
-      { status: 429, headers: { 'Retry-After': String(Math.ceil(rl.resetIn / 1000)) } }
+      { status: 429, headers: { 'Retry-After': String(rl.retryAfterSeconds) } }
     )
   }
 
   const q = request.nextUrl.searchParams.get('q') || ''
   const limit = Math.min(parseInt(request.nextUrl.searchParams.get('limit') || '3', 10), 20)
-  const filter = request.nextUrl.searchParams.get('filter') || undefined
+  const rawFilter = request.nextUrl.searchParams.get('filter')
+
+  // Validate filter key allowlist before forwarding to Meilisearch
+  if (rawFilter) {
+    const filterError = validateFilterKeys(rawFilter)
+    if (filterError) {
+      return NextResponse.json({ error: filterError }, { status: 400 })
+    }
+  }
+
+  const filter = rawFilter ?? undefined
 
   if (!q.trim()) {
     return NextResponse.json({ groups: [], total: 0, source: 'empty' })

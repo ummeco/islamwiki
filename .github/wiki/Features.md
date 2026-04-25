@@ -33,3 +33,19 @@
 | Scholar database (1,075 entries) | Done |
 | Tabi'un and Tabi' al-Tabi'in coverage | Done |
 | Password reset (email via AWS SES) | Done |
+| XSS hardening (DOMPurify v3.10 + sanitize.ts FORCE_BODY) | Done |
+| JSON-LD safe escaping (8 schema types) | Done |
+| Meilisearch filter allowlist (blocks geo-attack vectors) | Done |
+| JWT JWKS verification (jose) + user-id header propagation | Done |
+| Trusted role mapping (level 1, 5/day cap) | Done |
+| Primary-source content-type allowlist (Quran/Hadith restricted) | Done |
+| CSP nonce hardening (style-src + script-src) | Done |
+| Rate limiter adapter pattern (memory + Redis) | Done |
+| 70k-hadith sitemap | Done |
+| Anthropic-only AI pipeline | Done |
+| Donate page | Done |
+| Privacy, Terms, Cookies pages | Done |
+| California legal disclosure (AB488) | Done |
+| Age gate | Done |
+| Sentry error monitoring | Done |
+| Umami analytics | Done |

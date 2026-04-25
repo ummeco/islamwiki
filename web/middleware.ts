@@ -37,15 +37,21 @@ async function verifyJWT(token: string): Promise<JWTPayload | null> {
   }
 }
 
+// Canonical Hasura roles → islamwiki trust levels.
+// Must stay in sync with lib/contributor/trust.ts TrustLevel definitions.
+const ROLE_TRUST_MAP: Record<string, number> = {
+  owner: 5,
+  admin: 4,
+  moderator: 3,
+  curator: 2,  // Primary-source submitter — same editorial access as editor
+  editor: 2,
+  trusted: 1,  // Trust level 1: minor edits auto-approved, 5 edits/day cap
+  user: 0,
+  public: 0,
+}
+
 function getTrustLevelFromRole(role: string | undefined): number {
-  const map: Record<string, number> = {
-    owner: 5,
-    admin: 4,
-    moderator: 3,
-    editor: 2,
-    user: 0,
-  }
-  return map[role ?? 'user'] ?? 0
+  return ROLE_TRUST_MAP[role ?? 'user'] ?? 0
 }
 
 function buildCsp(nonce: string): string {
@@ -53,7 +59,10 @@ function buildCsp(nonce: string): string {
     "default-src 'self'",
     // nonce allows Next.js runtime + Vercel analytics scripts; no unsafe-eval
     `script-src 'self' 'nonce-${nonce}' https://va.vercel-scripts.com`,
-    "style-src 'self' 'unsafe-inline'",
+    // style-src hardened in T1-8-1: nonce replaces 'unsafe-inline'.
+    // 'strict-dynamic' propagates trust to dynamically-inserted sheets.
+    // fonts.googleapis.com included for Google Fonts (used by next/font for CSS).
+    `style-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://fonts.googleapis.com`,
     "img-src 'self' https://api.islam.wiki https://islam.wiki data: blob:",
     "media-src https://everyayah.com https://mp3quran.net",
     "font-src 'self' data:",
@@ -81,6 +90,8 @@ export async function middleware(request: NextRequest) {
   // Forward x-nonce to RSCs via request headers
   const requestHeaders = new Headers(request.headers)
   requestHeaders.set('x-nonce', nonce)
+  // x-islamwiki-role will be set after JWT verification below; initialise to public
+  requestHeaders.set('x-islamwiki-role', 'public')
 
   // For non-default locales, rewrite to actual path and set locale header
   let response: NextResponse
@@ -117,6 +128,26 @@ export async function middleware(request: NextRequest) {
 
   const role = jwtPayload?.['https://hasura.io/jwt/claims']?.['x-hasura-default-role']
   const trustLevel = getTrustLevelFromRole(role)
+
+  // Propagate the canonical islamwiki role and user-id to downstream route handlers.
+  // Route handlers read request.headers.get('x-islamwiki-role') / 'x-islamwiki-user-id'
+  // to gate actions without re-verifying the JWT.
+  const islamwikiRole = role && role in ROLE_TRUST_MAP ? role : 'public'
+  requestHeaders.set('x-islamwiki-role', islamwikiRole)
+  if (jwtPayload?.sub) {
+    requestHeaders.set('x-islamwiki-user-id', jwtPayload.sub)
+  }
+
+  // Rebuild response with updated headers (contains the role header now)
+  if (locale !== DEFAULT_LOCALE) {
+    const rewriteUrl = new URL(strippedPath, request.url)
+    response = NextResponse.rewrite(rewriteUrl, { request: { headers: requestHeaders } })
+  } else {
+    response = NextResponse.next({ request: { headers: requestHeaders } })
+  }
+  response.headers.set('Content-Security-Policy', csp)
+  response.headers.set('x-nonce', nonce)
+  response.headers.set('x-locale', locale)
 
   // Already logged in? Redirect away from auth pages
   if (isLoggedIn) {

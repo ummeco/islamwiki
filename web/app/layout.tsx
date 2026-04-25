@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { Geist, Geist_Mono, Amiri, Scheherazade_New, Noto_Naskh_Arabic } from 'next/font/google'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
@@ -6,6 +7,7 @@ import { WebsiteJsonLd } from '@/components/seo/json-ld'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { getLocale, isRtl } from '@/lib/i18n'
+import { headers } from 'next/headers'
 import './globals.css'
 
 const geistSans = Geist({
@@ -111,9 +113,18 @@ export default async function RootLayout({
 }>) {
   const locale = await getLocale()
   const dir = isRtl(locale) ? 'rtl' : 'ltr'
+  // Read CSP nonce propagated by middleware via x-nonce request header.
+  // The nonce is set on <body> so Next.js can attach it to any inline styles
+  // it injects during hydration. See middleware.ts buildCsp() for style-src.
+  const nonce = (await headers()).get('x-nonce') ?? undefined
 
   return (
     <html lang={locale} dir={dir}>
+      <head>
+        {/* CSP nonce propagated to any inline style/script tags injected by Next.js
+            during server rendering. Nonce is generated per-request in middleware.ts */}
+        {nonce && <meta name="csp-nonce" content={nonce} />}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${amiri.variable} ${scheherazade.variable} ${notoNaskhArabic.variable} font-sans antialiased`}
       >
@@ -129,6 +140,17 @@ export default async function RootLayout({
         <Footer />
         <Analytics />
         <SpeedInsights />
+        {/* Umami Analytics — privacy-first, no cookies, no PII, self-hosted.
+            NEXT_PUBLIC_UMAMI_WEBSITE_ID + NEXT_PUBLIC_UMAMI_HOST_URL from Vercel env vars.
+            Vault keys: UMAMI_ISLAMWIKI_WEBSITE_ID, UMAMI_HOST_URL. No-op if not set. */}
+        {process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID && process.env.NEXT_PUBLIC_UMAMI_HOST_URL && (
+          <Script
+            src={`${process.env.NEXT_PUBLIC_UMAMI_HOST_URL}/script.js`}
+            data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
+            strategy="afterInteractive"
+            defer
+          />
+        )}
       </body>
     </html>
   )

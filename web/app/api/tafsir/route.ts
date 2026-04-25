@@ -8,11 +8,11 @@ import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
 export async function GET(req: NextRequest) {
   // Rate limit: 10 AI tafsir requests per 15 minutes per IP
   const ip = getClientIp(req.headers)
-  const rl = checkRateLimit(`tafsir:${ip}`, 10, 15 * 60 * 1000)
+  const rl = await checkRateLimit(`tafsir:${ip}`, { limit: 10, windowMs: 15 * 60 * 1000 })
   if (!rl.allowed) {
     return new Response('Too many requests. Please try again later.', {
       status: 429,
-      headers: { 'Retry-After': String(Math.ceil(rl.resetIn / 1000)) },
+      headers: { 'Retry-After': String(rl.retryAfterSeconds) },
     })
   }
 
