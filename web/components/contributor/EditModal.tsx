@@ -155,7 +155,7 @@ export function EditModal({
                   ref={textareaRef}
                   value={content}
                   onChange={(e) => setContent(e.target.value)}
-                  className="w-full rounded-lg border border-iw-border bg-iw-surface p-4 font-mono text-sm text-iw-text focus:border-iw-accent focus:outline-none resize-y"
+                  className="w-full rounded-lg border border-iw-border bg-iw-surface p-4 font-mono text-sm text-iw-text focus:border-iw-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60 resize-y"
                   rows={20}
                   placeholder="Edit content here..."
                 />
@@ -180,7 +180,7 @@ export function EditModal({
                 value={summary}
                 onChange={(e) => setSummary(e.target.value)}
                 placeholder="Edit summary (optional): e.g. Fixed typo, Added source"
-                className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-2 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent focus:outline-none"
+                className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-2 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
                 maxLength={300}
               />
 

@@ -152,7 +152,7 @@ export function SearchInput({
           onFocus={() => { if (results && results.total > 0) setIsOpen(true) }}
           placeholder={placeholder}
           autoFocus={autoFocus}
-          className="w-full rounded-xl border border-iw-border bg-iw-surface py-3 pr-4 pl-11 text-sm text-white placeholder-iw-text-muted outline-none transition-colors focus:border-iw-accent/50 focus:ring-1 focus:ring-iw-accent/30"
+          className="w-full rounded-xl border border-iw-border bg-iw-surface py-3 pr-4 pl-11 text-sm text-white placeholder-iw-text-muted outline-none transition-colors focus:border-iw-accent/50 focus:ring-1 focus:ring-iw-accent/30 focus-visible:ring-2 focus-visible:ring-iw-accent/60"
         />
         {query && (
           <button

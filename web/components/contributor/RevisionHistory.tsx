@@ -110,7 +110,7 @@ export function RevisionHistory({ revisions, currentUserLevel = 0 }: RevisionHis
                   value={reason}
                   onChange={(e) => setReason(e.target.value)}
                   placeholder="Reason for revert (required)"
-                  className="flex-1 rounded-lg border border-iw-border bg-iw-bg px-3 py-1.5 text-sm text-iw-text focus:border-iw-accent focus:outline-none"
+                  className="flex-1 rounded-lg border border-iw-border bg-iw-bg px-3 py-1.5 text-sm text-iw-text focus:border-iw-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
                 />
                 <button
                   type="button"

@@ -1,5 +1,28 @@
 # Changelog
 
+## [Unreleased]
+
+### Security
+
+- Structured Meilisearch filter API (CVE-internal S9-02, HIGH): `GET /api/search` previously
+  accepted a raw `filter=...` query parameter and forwarded it to Meilisearch after only
+  checking field names, leaving values unsanitized. This allowed filter injection via crafted
+  values (operator keyword smuggling, quote-escape attacks, internal field discovery).
+  The raw `filter` param is now rejected outright (`400 Bad Request`). Callers must use the
+  new structured `filters` param: a JSON-encoded array of `{field, op, value}` clause objects.
+  Field names are validated against an explicit allowlist; values are checked for reserved
+  keywords (`AND`, `OR`, `NOT`, `NULL`, etc.) and stripped of quote/backslash characters.
+  Implemented in `lib/security/meili-filter-sanitize.ts`. 38 unit tests added.
+
+- contentType allowlist on revisions endpoint (CVE-internal S9-01): `POST /api/revisions`
+  previously accepted any string as `contentType`, enabling MIME-type injection and stored-XSS
+  via polyglot payloads. A strict allowlist (`text/markdown`, `text/plain`, `text/html`,
+  `application/json`) is now enforced via `lib/security/content-type-allowlist.ts`. Requests
+  with any other value return `400 Bad Request`. The rejected value is not logged to prevent
+  log-injection attacks.
+
+---
+
 ## [0.1.1] - 2026-04-25
 
 ### Phase 1 Foundation Hardening

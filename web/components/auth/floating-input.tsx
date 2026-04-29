@@ -43,7 +43,7 @@ export function FloatingInput({
         onChange={onChange}
         className={[
           'peer w-full rounded-lg border bg-iw-surface px-4 pt-5 pb-2 text-sm text-iw-text',
-          'outline-none transition-colors duration-200',
+          'outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60 transition-colors duration-200',
           isPassword ? 'pr-11' : '',
           error
             ? 'border-red-500/50 focus:border-red-500/50 focus:ring-1 focus:ring-red-500/30'

@@ -52,7 +52,7 @@ const SOCIAL_PROVIDERS = [
   },
 ]
 
-const inputCls = 'w-full rounded-lg border border-iw-border bg-iw-bg px-3.5 py-2.5 text-sm text-white placeholder:text-iw-text-muted focus:border-iw-accent/50 focus:outline-none transition-colors'
+const inputCls = 'w-full rounded-lg border border-iw-border bg-iw-bg px-3.5 py-2.5 text-sm text-white placeholder:text-iw-text-muted focus:border-iw-accent/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60 transition-colors'
 const submitCls = 'block w-4/5 mx-auto rounded-lg bg-iw-accent px-4 py-2.5 text-sm font-semibold text-[#0a1a05] transition-all hover:bg-iw-accent-light disabled:opacity-50'
 const toggleCls = 'text-xs text-iw-text-muted transition-colors hover:text-iw-text-secondary'
 

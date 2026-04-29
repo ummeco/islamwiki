@@ -4,6 +4,7 @@ import { submitRevision, getRevisionsByContent } from '@/lib/contributor/revisio
 import { getUserTrust } from '@/lib/contributor/user-trust'
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
 import { isIpBlocked } from '@/lib/contributor/ip-block'
+import { validateContentType } from '@/lib/security/content-type-allowlist'
 
 /**
  * Primary source content types — Quran verses and canonical hadith.
@@ -39,7 +40,7 @@ const EDITORIAL_CONTENT_TYPES = new Set([
 export async function POST(req: NextRequest) {
   const ip = getClientIp(req.headers)
 
-  const ipBlock = isIpBlocked(ip)
+  const ipBlock = await isIpBlocked(ip)
   if (ipBlock) {
     return NextResponse.json({ error: 'Your IP has been blocked from editing.' }, { status: 403 })
   }
@@ -51,7 +52,17 @@ export async function POST(req: NextRequest) {
   if (!user) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const body = await req.json()
-  const { contentType, contentSlug, contentId, previousContent, newContent, changeSummary, isMinor } = body
+  const { contentSlug, contentId, previousContent, newContent, changeSummary, isMinor } = body
+
+  // Validate contentType against the allowlist BEFORE any other use.
+  // Accepts only known MIME types; rejects arbitrary strings that could
+  // enable MIME-type injection or stored-XSS via polyglot payloads.
+  let contentType: string
+  try {
+    contentType = validateContentType(body.contentType)
+  } catch {
+    return NextResponse.json({ error: 'Invalid contentType' }, { status: 400 })
+  }
 
   if (!contentType || !contentSlug || !newContent) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })

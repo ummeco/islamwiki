@@ -59,7 +59,7 @@ export function QuranGrid({ surahs }: { surahs: SurahItem[] }) {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search surahs by name or number..."
-            className="w-full rounded-lg border border-iw-border bg-iw-surface py-2 pl-10 pr-4 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none"
+            className="w-full rounded-lg border border-iw-border bg-iw-surface py-2 pl-10 pr-4 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
           />
         </div>
 

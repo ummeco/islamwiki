@@ -86,7 +86,7 @@ export function UserManagement({ users }: Props) {
               <select
                 name="trust_level"
                 defaultValue={user.trust_level}
-                className="rounded border border-iw-border bg-iw-surface px-2 py-1 text-xs text-iw-text focus:border-iw-accent/40 focus:outline-none"
+                className="rounded border border-iw-border bg-iw-surface px-2 py-1 text-xs text-iw-text focus:border-iw-accent/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
               >
                 {TRUST_LABELS.map((label, i) => (
                   <option key={i} value={i}>
@@ -109,7 +109,7 @@ export function UserManagement({ users }: Props) {
               <select
                 name="role"
                 defaultValue={user.role}
-                className="rounded border border-iw-border bg-iw-surface px-2 py-1 text-xs text-iw-text focus:border-iw-accent/40 focus:outline-none"
+                className="rounded border border-iw-border bg-iw-surface px-2 py-1 text-xs text-iw-text focus:border-iw-accent/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
               >
                 {ROLE_OPTIONS.map((r) => (
                   <option key={r} value={r}>

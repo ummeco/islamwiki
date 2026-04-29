@@ -12,7 +12,8 @@ export async function GET() {
   if (!user || !isAdmin(user.trustLevel)) {
     return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
   }
-  return NextResponse.json({ blocks: listBlockedIps() })
+  const blocks = await listBlockedIps()
+  return NextResponse.json({ blocks })
 }
 
 export async function POST(req: NextRequest) {
@@ -26,7 +27,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'ip and reason required' }, { status: 400 })
   }
 
-  blockIp(ip, reason, user.username || user.email || user.userId)
+  await blockIp(ip, reason, user.username || user.email || user.userId)
   return NextResponse.json({ blocked: ip })
 }
 
@@ -39,7 +40,7 @@ export async function DELETE(req: NextRequest) {
   const { ip } = await req.json()
   if (!ip) return NextResponse.json({ error: 'ip required' }, { status: 400 })
 
-  const removed = unblockIp(ip)
+  const removed = await unblockIp(ip)
   return NextResponse.json({ unblocked: removed ? ip : null })
 }
 
@@ -54,6 +55,6 @@ export async function PUT(req: NextRequest) {
   if (!reason) return NextResponse.json({ error: 'reason required' }, { status: 400 })
 
   const ip = getClientIp(req.headers)
-  blockIp(ip, reason, user.username || user.email || user.userId)
+  await blockIp(ip, reason, user.username || user.email || user.userId)
   return NextResponse.json({ blocked: ip })
 }

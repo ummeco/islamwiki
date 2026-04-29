@@ -52,7 +52,7 @@ export default function ForgotPasswordPage() {
             placeholder="Email address"
             autoFocus
             autoComplete="email"
-            className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-3 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none"
+            className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-3 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
           />
           <button
             type="submit"

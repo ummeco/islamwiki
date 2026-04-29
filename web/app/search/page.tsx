@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { searchGrouped, type GroupedResults } from '@/lib/search'
+import { searchMeilisearch, isMeilisearchConfigured } from '@/lib/search-meilisearch'
 import { SearchInput } from '@/components/search/search-input'
 
 export const metadata: Metadata = {
@@ -50,12 +51,34 @@ export default async function SearchPage({
   const typeFilter = params.type || ''
 
   let data: GroupedResults = { groups: [], total: 0 }
+  // S9-16 / S9-20 / S9-24: Use Meilisearch when configured (full-text, Arabic support).
+  // Falls back to static in-memory search when Meilisearch is not available.
   if (query) {
-    data = searchGrouped(query, 0)
-    if (typeFilter) {
-      data = {
-        groups: data.groups.filter((g) => g.type === typeFilter),
-        total: data.groups.filter((g) => g.type === typeFilter).reduce((sum, g) => sum + g.total, 0),
+    if (isMeilisearchConfigured()) {
+      const meiliData = await searchMeilisearch(query, typeFilter, 30)
+      if (meiliData) {
+        data = meiliData
+      } else {
+        // Meilisearch failed (network, empty index) — fall back to static search
+        data = searchGrouped(query, 0)
+        if (typeFilter) {
+          data = {
+            groups: data.groups.filter((g) => g.type === typeFilter),
+            total: data.groups
+              .filter((g) => g.type === typeFilter)
+              .reduce((sum, g) => sum + g.total, 0),
+          }
+        }
+      }
+    } else {
+      data = searchGrouped(query, 0)
+      if (typeFilter) {
+        data = {
+          groups: data.groups.filter((g) => g.type === typeFilter),
+          total: data.groups
+            .filter((g) => g.type === typeFilter)
+            .reduce((sum, g) => sum + g.total, 0),
+        }
       }
     }
   }

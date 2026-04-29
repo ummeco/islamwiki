@@ -33,6 +33,32 @@
   animation: fade-in 150ms ease-out both;
 }
 
+/* B6-03: Page transition — subtle fade + lift for all routed pages */
+@keyframes iw-page-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@utility animate-page-in {
+  animation: iw-page-in 250ms ease-out both;
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+/* B6-04: Drawer slide-in animation (bottom sheet on mobile) */
+@keyframes iw-drawer-in {
+  from { opacity: 0; transform: translateY(100%); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@utility animate-drawer-in {
+  animation: iw-drawer-in 250ms ease-out both;
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
@@ -223,5 +249,30 @@
   .book-prose pre code {
     background: none;
     padding: 0;
+  }
+
+  /* B4-06: Dark-mode-aware code blocks. islamwiki is dark by default;
+     these overrides ensure correct contrast if a light-mode class is ever added. */
+  @media (prefers-color-scheme: light) {
+    .book-prose code {
+      background-color: #f0f4f0;
+      color: #1e3a1e;
+    }
+    .book-prose pre {
+      background-color: #f0f4f0;
+      color: #1e3a1e;
+      border: 1px solid #d4e4d0;
+    }
+  }
+
+  /* Explicit light-mode class override (for future theme switcher) */
+  [data-theme="light"] .book-prose code {
+    background-color: #f0f4f0;
+    color: #1e3a1e;
+  }
+  [data-theme="light"] .book-prose pre {
+    background-color: #f0f4f0;
+    color: #1e3a1e;
+    border: 1px solid #d4e4d0;
   }
 }

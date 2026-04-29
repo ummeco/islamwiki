@@ -1,6 +1,6 @@
 {
   "name": "islamwiki-web",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -10,7 +10,13 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:e2e": "playwright test",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "index:quran": "tsx scripts/index/index-quran.ts",
+    "index:hadith": "tsx scripts/index/index-hadith.ts",
+    "index:books": "tsx scripts/index/index-books.ts",
+    "index:people": "tsx scripts/index/index-people.ts",
+    "index:articles": "tsx scripts/index/index-articles.ts",
+    "index:all": "pnpm index:quran && pnpm index:hadith && pnpm index:books && pnpm index:people && pnpm index:articles"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
@@ -24,6 +30,7 @@
     "marked": "^17.0.3",
     "meilisearch": "^0.55.0",
     "next": "16.1.6",
+    "next-intl": "^4.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "server-only": "^0.0.1"

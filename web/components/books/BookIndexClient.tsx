@@ -35,7 +35,7 @@ export function BookIndexClient({ slug, entries }: BookIndexClientProps) {
         placeholder="Filter terms…"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="mb-8 w-full max-w-sm rounded-lg border border-iw-border bg-iw-surface px-4 py-2 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent focus:outline-none"
+        className="mb-8 w-full max-w-sm rounded-lg border border-iw-border bg-iw-surface px-4 py-2 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
       />
 
       {filtered.length === 0 ? (

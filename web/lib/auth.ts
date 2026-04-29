@@ -77,8 +77,8 @@ async function getUserFromJWT(token: string): Promise<SessionData | null> {
     const defaultRole = hasuraClaims?.['x-hasura-default-role'] ?? 'user'
     const role = mapRole(defaultRole)
 
-    // Use displayName as username — avoids email-prefix collisions across providers
-    // TODO SF-CRIT.2: fetch canonical username from iw_user_profiles for full fix
+    // Use displayName as username — avoids email-prefix collisions across providers.
+    // TODO(P4-15 / SF-CRIT.2): Fetch canonical username from iw_user_profiles for full fix.
     const usernameFromToken = claims.displayName ?? claims.email.split('@')[0]
 
     return {

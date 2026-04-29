@@ -35,7 +35,7 @@ export function SearchBar({ defaultValue = '' }: { defaultValue?: string }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search Quran, Hadith, scholars, books, articles..."
-          className="w-full rounded-xl border border-iw-border bg-iw-surface py-4 pr-4 pl-12 text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none"
+          className="w-full rounded-xl border border-iw-border bg-iw-surface py-4 pr-4 pl-12 text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
         />
       </div>
     </form>

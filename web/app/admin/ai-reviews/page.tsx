@@ -95,7 +95,7 @@ export default function AIReviewsPage() {
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
                 placeholder="e.g. Tawassul in Islamic Jurisprudence"
-                className="w-full rounded-lg border border-iw-border bg-iw-bg px-3 py-2 text-sm text-white placeholder-iw-text-muted outline-none focus:border-iw-accent/50"
+                className="w-full rounded-lg border border-iw-border bg-iw-bg px-3 py-2 text-sm text-white placeholder-iw-text-muted outline-none focus:border-iw-accent/50 focus-visible:ring-2 focus-visible:ring-iw-accent/60"
               />
             </div>
             <div>

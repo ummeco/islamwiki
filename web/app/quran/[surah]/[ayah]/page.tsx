@@ -5,6 +5,9 @@ import { getSurahBySlug, getSurahByNumber, getSurahs, getAyahsBySurah } from '@/
 import { SurahViewer } from '@/components/quran/SurahViewer'
 import { SurahIntroButton } from '@/components/quran/SurahIntroButton'
 import { AyahBookmarkButton } from '@/components/quran/AyahBookmarkButton'
+import { RelatedHadithPanel } from '@/components/quran/RelatedHadithPanel'
+import { TafsirCrossRefPanel } from '@/components/quran/TafsirCrossRefPanel'
+import { getHadithCrossRefsForAyah, getTafsirCrossRefsForAyah } from '@/lib/cross-refs/quran-hadith'
 import { surahTitle, surahTranslit } from '@/lib/quran-utils'
 
 interface Props {
@@ -69,6 +72,19 @@ export default async function AyahPage({ params }: Props) {
   const ayahs = getAyahsBySurah(surah.number)
   const prevSurah = surah.number > 1 ? getSurahByNumber(surah.number - 1) : null
   const nextSurah = surah.number < 114 ? getSurahByNumber(surah.number + 1) : null
+
+  // Fetch cross-refs for a single ayah focus only (not ranges — too broad)
+  const isSingleAyah = focusFrom === focusTo
+  const [hadithRefs, tafsirRefs] = isSingleAyah
+    ? await Promise.all([
+        getHadithCrossRefsForAyah(surah.number, focusFrom, 8),
+        getTafsirCrossRefsForAyah(surah.number, focusFrom, 5),
+      ])
+    : [[], []]
+
+  const ayahLabel = isSingleAyah
+    ? `${surah.number}:${focusFrom}`
+    : `${surah.number}:${focusFrom}–${focusTo}`
 
   // Renders identical to the surah page — the verse number is just an anchor/focus hint
   return (
@@ -146,6 +162,20 @@ export default async function AyahPage({ params }: Props) {
         focusFrom={focusFrom}
         focusTo={focusTo}
       />
+
+      {/* S9-15: Related Hadith cross-refs */}
+      {hadithRefs.length > 0 && (
+        <div className="mx-auto mt-10 max-w-3xl">
+          <RelatedHadithPanel refs={hadithRefs} ayahLabel={ayahLabel} />
+        </div>
+      )}
+
+      {/* S9-27: Tafsir cross-ref panel */}
+      {tafsirRefs.length > 0 && (
+        <div className="mx-auto mt-6 max-w-3xl">
+          <TafsirCrossRefPanel refs={tafsirRefs} ayahLabel={ayahLabel} />
+        </div>
+      )}
 
       {/* Bottom navigation */}
       <div className="mx-auto mt-12 flex max-w-3xl items-center justify-between border-t border-iw-border pt-6">

@@ -149,7 +149,7 @@ export function MarkdownEditor({
             name="content"
             value={content}
             onChange={(e) => setContent(e.target.value)}
-            className="min-h-[400px] w-full resize-y rounded-b-xl border border-iw-border bg-iw-bg/40 p-4 font-mono text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none"
+            className="min-h-[400px] w-full resize-y rounded-b-xl border border-iw-border bg-iw-bg/40 p-4 font-mono text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
             placeholder="Write your content in Markdown..."
           />
         )}
@@ -169,7 +169,7 @@ export function MarkdownEditor({
             required
             minLength={3}
             placeholder="e.g., Added section on early life, fixed dates"
-            className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-2.5 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none"
+            className="w-full rounded-lg border border-iw-border bg-iw-surface px-4 py-2.5 text-sm text-iw-text placeholder:text-iw-text-muted focus:border-iw-accent/40 focus:ring-1 focus:ring-iw-accent/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-iw-accent/60"
           />
         </div>
 

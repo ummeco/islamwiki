@@ -1,6 +1,12 @@
 import type { NextConfig } from 'next'
 import { withSentryConfig } from '@sentry/nextjs'
 
+// S9-28: i18n locale config. Handled in middleware.ts (custom routing) — Next.js
+// App Router doesn't use next.config i18n for routing, but we declare locales here
+// for next-intl compatibility and to ensure the router knows the locale surface.
+// URL prefix: /ar/, /id/ (auto-detected via Accept-Language header; /en/ redirects to /).
+const I18N_LOCALES = ['en', 'ar', 'id'] as const
+
 // CSP is applied per-request in middleware.ts with a unique nonce (removes unsafe-eval/unsafe-inline for scripts)
 const securityHeaders = [
   { key: 'X-Frame-Options', value: 'DENY' },
@@ -83,11 +89,17 @@ const nextConfig: any = {
   },
 }
 
+// S9-05: Source maps are uploaded to Sentry during CI and hidden from the browser.
+// SENTRY_AUTH_TOKEN must be set in the Vercel project env to enable uploads.
 export default withSentryConfig(nextConfig, {
   org: process.env.SENTRY_ORG ?? 'ummeco',
   project: process.env.SENTRY_PROJECT ?? 'islamwiki-web',
   silent: !process.env.CI,
   widenClientFileUpload: true,
-  sourcemaps: { disable: true },
+  // Upload source maps when SENTRY_AUTH_TOKEN is present (CI/Vercel), hide from browser
+  sourcemaps: process.env.SENTRY_AUTH_TOKEN
+    ? { disable: false, deleteSourcemapsAfterUpload: true }
+    : { disable: true },
   disableLogger: true,
+  automaticVercelMonitors: false,
 })

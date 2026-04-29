@@ -1,5 +1,6 @@
 'use server'
 
+import * as Sentry from '@sentry/nextjs'
 import { redirect } from 'next/navigation'
 import { revalidatePath } from 'next/cache'
 import { getSession } from '@/lib/auth'
@@ -60,6 +61,7 @@ export async function submitEdit(
 
     return { success: true, status: revision.status }
   } catch (err) {
+    Sentry.captureException(err)
     console.error('submitEdit error:', err)
     return { error: 'Failed to submit edit. Please try again.' }
   }
