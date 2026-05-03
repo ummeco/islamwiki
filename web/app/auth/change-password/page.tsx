@@ -58,6 +58,7 @@ export default function ChangePasswordPage() {
             />
           </div>
           <button
+            aria-label="Submit"
             type="submit"
             disabled={pending}
             className="w-full rounded-lg bg-iw-accent px-4 py-3 text-sm font-semibold text-iw-bg transition-colors hover:bg-iw-accent-light disabled:opacity-50"

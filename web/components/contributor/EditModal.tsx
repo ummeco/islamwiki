@@ -121,6 +121,7 @@ export function EditModal({
               Your edit has been submitted. It will be reviewed by a moderator.
             </p>
             <button
+              aria-label="Close"
               type="button"
               onClick={onClose}
               className="rounded-lg bg-iw-accent px-6 py-2 text-sm font-semibold text-iw-bg hover:bg-iw-accent-light"
@@ -200,6 +201,7 @@ export function EditModal({
                     <p className="text-xs text-red-400">{errorMsg}</p>
                   )}
                   <button
+                    aria-label="Close"
                     type="button"
                     onClick={onClose}
                     className="rounded-lg border border-iw-border px-4 py-2 text-sm font-medium text-iw-text-secondary hover:text-white"
@@ -207,6 +209,7 @@ export function EditModal({
                     Cancel
                   </button>
                   <button
+                    aria-label="Submit"
                     type="button"
                     onClick={handleSubmit}
                     disabled={!hasChanges || status === 'submitting'}

@@ -24,6 +24,7 @@ export default function Error({
       </p>
       <div className="flex gap-4">
         <button
+          aria-label="Try again"
           type="button"
           onClick={reset}
           className="rounded-lg bg-iw-accent px-6 py-2.5 text-sm font-semibold text-iw-bg transition-colors hover:bg-iw-accent-light"

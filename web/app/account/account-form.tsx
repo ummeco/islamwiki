@@ -232,6 +232,7 @@ export function AccountForm() {
                 autoFocus
               />
               <button type="submit" className={submitCls} disabled={isPending || !email.trim()}>
+                aria-label="Submit"
                 {isPending ? 'Sending…' : 'Send Login Link'}
               </button>
             </form>
@@ -262,6 +263,7 @@ export function AccountForm() {
                 autoComplete="current-password"
               />
               <button
+                aria-label="Submit"
                 type="submit"
                 className={submitCls}
                 disabled={isPending || !email.trim() || !password}
@@ -270,9 +272,11 @@ export function AccountForm() {
               </button>
               <div className="flex items-center justify-between">
                 <button type="button" className={toggleCls} onClick={() => switchMode('register')}>
+                  aria-label="Toggle"
                   Create Account
                 </button>
                 <button type="button" className={toggleCls} onClick={() => switchMode('forgot-password')}>
+                  aria-label="Toggle"
                   Forgot password?
                 </button>
               </div>
@@ -323,6 +327,7 @@ export function AccountForm() {
                 autoComplete="new-password"
               />
               <button
+                aria-label="Submit"
                 type="submit"
                 className={submitCls}
                 disabled={isPending || !email.trim() || !password || !confirmPassword}
@@ -330,6 +335,7 @@ export function AccountForm() {
                 {isPending ? 'Creating account…' : 'Create Account'}
               </button>
               <button
+                aria-label="Toggle"
                 type="button"
                 className={`block w-full text-center ${toggleCls}`}
                 onClick={() => switchMode('password')}
@@ -357,9 +363,11 @@ export function AccountForm() {
                 autoFocus
               />
               <button type="submit" className={submitCls} disabled={isPending || !email.trim()}>
+                aria-label="Submit"
                 {isPending ? 'Sending…' : 'Send Reset Link'}
               </button>
               <button
+                aria-label="Toggle"
                 type="button"
                 className={`block w-full text-center ${toggleCls}`}
                 onClick={() => switchMode('password')}

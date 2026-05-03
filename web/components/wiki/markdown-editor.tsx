@@ -176,6 +176,7 @@ export function MarkdownEditor({
         {/* Submit */}
         <div className="mt-4 flex items-center gap-3">
           <button
+            aria-label="Submit"
             type="submit"
             disabled={pending}
             className="rounded-lg bg-iw-accent px-6 py-2.5 text-sm font-semibold text-iw-bg transition-colors hover:bg-iw-accent-light disabled:opacity-50"

@@ -66,6 +66,7 @@ export function UserManagement({ users }: Props) {
             <form action={toggleBan}>
               <input type="hidden" name="user_id" value={user.id} />
               <button
+                aria-label="Submit"
                 type="submit"
                 className={`rounded-lg px-3 py-1.5 text-xs font-medium ${
                   user.banned
@@ -95,6 +96,7 @@ export function UserManagement({ users }: Props) {
                 ))}
               </select>
               <button
+                aria-label="Submit"
                 type="submit"
                 className="rounded bg-iw-accent/15 px-2 py-1 text-xs text-iw-accent hover:bg-iw-accent/25"
               >
@@ -118,6 +120,7 @@ export function UserManagement({ users }: Props) {
                 ))}
               </select>
               <button
+                aria-label="Submit"
                 type="submit"
                 className="rounded bg-iw-accent/15 px-2 py-1 text-xs text-iw-accent hover:bg-iw-accent/25"
               >

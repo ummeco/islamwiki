@@ -27,6 +27,7 @@ export default function ArticleError({
       </p>
       <div className="flex gap-3">
         <button
+          aria-label="Try again"
           type="button"
           onClick={reset}
           className="rounded-lg bg-iw-accent px-5 py-2 text-sm font-semibold text-iw-bg transition-colors hover:bg-iw-accent-light"

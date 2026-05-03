@@ -116,6 +116,7 @@ export default function SettingsPage() {
           <div className="grid grid-cols-3 gap-2">
             {LANGUAGES.map((l) => (
               <button
+                aria-label="Submit"
                 key={l.id}
                 type="button"
                 onClick={() => save({ lang: l.id, translation: defaultTranslation })}
@@ -141,6 +142,7 @@ export default function SettingsPage() {
           <div className="space-y-1">
             {Object.entries(translationMap).map(([key, label]) => (
               <button
+                aria-label="Submit"
                 key={key}
                 type="button"
                 onClick={() => save({ translation: key })}
@@ -170,6 +172,7 @@ export default function SettingsPage() {
           <div className="space-y-1">
             {(Object.entries(RECITERS) as [ReciterKey, string][]).map(([key, label]) => (
               <button
+                aria-label="Submit"
                 key={key}
                 type="button"
                 onClick={() => save({ reciter: key })}
@@ -199,6 +202,7 @@ export default function SettingsPage() {
           <div className="space-y-1">
             {Object.entries(TAFSIR_SOURCES).map(([key, label]) => (
               <button
+                aria-label="Submit"
                 key={key}
                 type="button"
                 onClick={() => save({ tafsir: key })}

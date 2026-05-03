@@ -39,6 +39,7 @@ export function HadithActions({ textEn, textAr, reference, shareUrl }: Props) {
   return (
     <div className="mt-4 flex gap-3">
       <button
+        aria-label="Copy to clipboard"
         type="button"
         onClick={handleCopy}
         className="rounded-lg border border-iw-border px-4 py-2 text-xs text-iw-text-secondary transition-colors hover:border-iw-accent/30 hover:text-iw-accent"
@@ -47,6 +48,7 @@ export function HadithActions({ textEn, textAr, reference, shareUrl }: Props) {
         {copied ? 'Copied!' : 'Copy'}
       </button>
       <button
+        aria-label="Share"
         type="button"
         onClick={handleShare}
         className="rounded-lg border border-iw-border px-4 py-2 text-xs text-iw-text-secondary transition-colors hover:border-iw-accent/30 hover:text-iw-accent"

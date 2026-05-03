@@ -112,6 +112,7 @@ export function AuthButton() {
             </Link>
             <form action="/api/auth/logout" method="POST">
               <button
+                aria-label="Submit"
                 type="submit"
                 className="w-full rounded-md px-3 py-2 text-start text-sm text-red-400 transition-colors hover:bg-red-500/10"
                 onClick={() => setOpen(false)}

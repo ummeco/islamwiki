@@ -46,6 +46,7 @@ export default function SearchError({
           The search service is temporarily unavailable. Please try again in a moment.
         </p>
         <button
+          aria-label="Try again"
           type="button"
           onClick={reset}
           className="rounded-lg bg-iw-accent px-6 py-2 text-sm font-semibold text-iw-bg transition-colors hover:bg-iw-accent-light focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-iw-accent"

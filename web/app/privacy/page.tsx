@@ -156,6 +156,20 @@ export default function PrivacyPage() {
           </p>
         </section>
 
+        {/* C-07b: Recent Updates — appended 2026-04-30 */}
+        <section className="rounded-lg border border-iw-accent/20 bg-iw-accent/5 px-5 py-4">
+          <h2 className="mb-3 text-xl font-semibold text-iw-accent">Recent Updates (2026-04-25)</h2>
+          <p className="mb-2 text-sm opacity-60">The following changes reflect P3 platform decisions that took effect April 2026:</p>
+          <ul className="list-disc space-y-2 pl-6 text-sm">
+            <li>
+              <strong className="text-white/90">Analytics — PostHog removed:</strong> PostHog is no longer used on any Ummeco product (decision D-P3-21). Islam.wiki uses only self-hosted <strong className="text-white/90">Umami</strong> for privacy-preserving, cookieless analytics. Umami does not fingerprint users or share data with third parties.
+            </li>
+            <li>
+              <strong className="text-white/90">AI features:</strong> Islam.wiki does not currently use AI processing that sends personal data to external AI providers. This policy will be updated if AI features are added.
+            </li>
+          </ul>
+        </section>
+
         <div className="mt-8 border-t border-white/10 pt-6 text-sm text-iw-text-muted">
           <Link href="/terms" className="mr-4 hover:text-iw-accent transition-colors">Terms of Service</Link>
           <Link href="/cookies" className="hover:text-iw-accent transition-colors">Cookie Policy</Link>
