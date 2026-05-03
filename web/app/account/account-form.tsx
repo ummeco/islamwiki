@@ -231,8 +231,12 @@ export function AccountForm() {
                 autoComplete="email"
                 autoFocus
               />
-              <button type="submit" className={submitCls} disabled={isPending || !email.trim()}>
-                aria-label="Submit"
+              <button
+                type="submit"
+                className={submitCls}
+                disabled={isPending || !email.trim()}
+                aria-label="Send login link"
+              >
                 {isPending ? 'Sending…' : 'Send Login Link'}
               </button>
             </form>
@@ -271,12 +275,20 @@ export function AccountForm() {
                 {isPending ? 'Logging in…' : 'Login'}
               </button>
               <div className="flex items-center justify-between">
-                <button type="button" className={toggleCls} onClick={() => switchMode('register')}>
-                  aria-label="Toggle"
+                <button
+                  type="button"
+                  className={toggleCls}
+                  onClick={() => switchMode('register')}
+                  aria-label="Switch to create account"
+                >
                   Create Account
                 </button>
-                <button type="button" className={toggleCls} onClick={() => switchMode('forgot-password')}>
-                  aria-label="Toggle"
+                <button
+                  type="button"
+                  className={toggleCls}
+                  onClick={() => switchMode('forgot-password')}
+                  aria-label="Switch to forgot password"
+                >
                   Forgot password?
                 </button>
               </div>
@@ -362,8 +374,12 @@ export function AccountForm() {
                 autoComplete="email"
                 autoFocus
               />
-              <button type="submit" className={submitCls} disabled={isPending || !email.trim()}>
-                aria-label="Submit"
+              <button
+                type="submit"
+                className={submitCls}
+                disabled={isPending || !email.trim()}
+                aria-label="Send reset link"
+              >
                 {isPending ? 'Sending…' : 'Send Reset Link'}
               </button>
               <button

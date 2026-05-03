@@ -2,7 +2,7 @@
  * S9-11: Tests for the Meilisearch client factory (lib/search/client.ts).
  *
  * Verifies:
- *   - searchClient and adminSearchClient are MeiliSearch instances
+ *   - searchClient and adminSearchClient are Meilisearch instances
  *   - They are distinct objects (different API key contexts)
  *   - .env.example documents all required Meilisearch env vars
  *   - lib/search/schema.ts exports INDEX_NAMES for all 8 corpora
@@ -13,8 +13,8 @@ import { describe, it, expect } from 'vitest'
 import fs from 'fs'
 import path from 'path'
 
-// ── MeiliSearch client factory — structural tests ────────────────────────────
-// MeiliSearch validates the host URL at construction time, so we test the
+// ── Meilisearch client factory — structural tests ────────────────────────────
+// Meilisearch validates the host URL at construction time, so we test the
 // module source structure rather than instantiating with a blank host.
 
 describe('lib/search/client.ts — structural checks (S9-11)', () => {
@@ -24,10 +24,10 @@ describe('lib/search/client.ts — structural checks (S9-11)', () => {
     return fs.readFileSync(path.join(ROOT, 'lib/search/client.ts'), 'utf-8')
   }
 
-  it('imports MeiliSearch from the meilisearch package', () => {
+  it('imports Meilisearch from the meilisearch package', () => {
     const src = readClientSrc()
     expect(src).toContain('meilisearch')
-    expect(src).toMatch(/MeiliSearch/)
+    expect(src).toMatch(/Meilisearch/)
   })
 
   it('exports searchClient as a named export', () => {

@@ -15,18 +15,18 @@
  *   const results = await searchMeilisearch(query, typeFilter)
  */
 
-import { MeiliSearch } from 'meilisearch'
+import { Meilisearch } from 'meilisearch'
 import type { GroupedResults, SearchResult } from './search'
 import { INDEX_NAMES } from './search/schema'
 
 // ── Client (lazy init — avoids module-level errors when env var is missing) ─
 
-let _client: MeiliSearch | null = null
+let _client: Meilisearch | null = null
 
-function getClient(): MeiliSearch | null {
+function getClient(): Meilisearch | null {
   if (!process.env.MEILISEARCH_HOST) return null
   if (!_client) {
-    _client = new MeiliSearch({
+    _client = new Meilisearch({
       host: process.env.MEILISEARCH_HOST,
       apiKey: process.env.MEILISEARCH_SEARCH_KEY ?? process.env.MEILISEARCH_KEY ?? '',
     })

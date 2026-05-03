@@ -10,7 +10,7 @@
  *   MEILISEARCH_KEY   — admin API key
  */
 
-import { MeiliSearch } from 'meilisearch'
+import { Meilisearch } from 'meilisearch'
 import { readFileSync } from 'fs'
 import { join } from 'path'
 
@@ -353,7 +353,7 @@ async function main() {
     process.exit(1)
   }
 
-  const client = new MeiliSearch({ host: url, apiKey: key })
+  const client = new Meilisearch({ host: url, apiKey: key })
 
   // Create or update index
   const index = client.index(INDEX_NAME)

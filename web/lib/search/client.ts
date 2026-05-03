@@ -5,12 +5,12 @@
  *
  * The meilisearch package (already in dependencies) is used directly.
  */
-import { MeiliSearch } from 'meilisearch'
+import { Meilisearch } from 'meilisearch'
 
 const host = process.env.MEILISEARCH_HOST ?? process.env.MEILISEARCH_URL ?? ''
 
 /** Public search client — read-only, safe for browser use */
-export const searchClient = new MeiliSearch({
+export const searchClient = new Meilisearch({
   host,
   apiKey: process.env.MEILISEARCH_SEARCH_KEY ?? process.env.MEILISEARCH_KEY ?? '',
 })
@@ -19,7 +19,7 @@ export const searchClient = new MeiliSearch({
  * Admin search client — for indexing operations only.
  * Never import this in client components or pages — server-only.
  */
-export const adminSearchClient = new MeiliSearch({
+export const adminSearchClient = new Meilisearch({
   host,
   apiKey: process.env.MEILISEARCH_ADMIN_KEY ?? process.env.MEILISEARCH_KEY ?? '',
 })

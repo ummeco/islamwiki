@@ -5,12 +5,12 @@
 import * as dotenv from 'dotenv'
 import * as path from 'path'
 import * as fs from 'fs'
-import { MeiliSearch } from 'meilisearch'
+import { Meilisearch } from 'meilisearch'
 import { INDEX_NAMES } from '../../lib/search/schema'
 
 dotenv.config({ path: path.resolve(process.cwd(), '.env.local') })
 
-const client = new MeiliSearch({
+const client = new Meilisearch({
   host: process.env.MEILISEARCH_HOST ?? '',
   apiKey: process.env.MEILISEARCH_ADMIN_KEY ?? '',
 })
