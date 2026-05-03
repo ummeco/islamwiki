@@ -1,5 +1,8 @@
 import nextConfig from 'eslint-config-next'
-import noBrandLightOnLight from '../../ummat/apps/brand/src/eslint-rule-no-brand-light-on-light.js'
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+// Vendored from ummat/apps/brand/src — keeps islamwiki CI self-contained (no sibling repo checkout needed).
+const noBrandLightOnLight = require('./lib/eslint-rule-no-brand-light-on-light.cjs')
 
 const eslintConfig = [
   ...nextConfig,
