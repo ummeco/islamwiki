@@ -45,8 +45,6 @@ jobs:
           cache-dependency-path: 'web/pnpm-lock.yaml'
       - run: pnpm install --frozen-lockfile
       - run: pnpm test:coverage
-      - run: pnpm audit --audit-level=high
-        continue-on-error: true
 
   e2e-tests:
     name: E2E Tests
