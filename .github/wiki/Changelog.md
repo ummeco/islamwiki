@@ -1,5 +1,18 @@
 # Changelog
 
+## [Unreleased — P4]
+
+### Added
+
+- Reading plan API (`/api/reading-plan`) — Ramadan Quran khatm hub integration (P4-C05)
+- Du'a rotation API (`/api/dua-rotation`) — daily du'a with 9 locales (P4-C06)
+- ChatIslam citation deep-link URL schema (P4-C07) — `islam.wiki/{corpus}/{collection}/...`
+- Meilisearch search param contract v1 (P4-C12) — `X-Search-Version: v1` header
+- Arabic + Bahasa Indonesia i18n foundations (partial — full i18n deferred to P5)
+- nSentry observability wiring (GlitchTip DSN + OTel instrumentation)
+
+---
+
 ## [Unreleased]
 
 ### Security

@@ -89,11 +89,12 @@ const nextConfig: any = {
   },
 }
 
-// S9-05: Source maps are uploaded to Sentry during CI and hidden from the browser.
-// SENTRY_AUTH_TOKEN must be set in the Vercel project env to enable uploads.
+// S9-05 / T25.07: Source maps uploaded to self-hosted GlitchTip at errors.ummat.dev.
+// SENTRY_AUTH_TOKEN (=GLITCHTIP_AUTH_TOKEN) must be set in the Vercel project env.
 export default withSentryConfig(nextConfig, {
   org: process.env.SENTRY_ORG ?? 'ummeco',
   project: process.env.SENTRY_PROJECT ?? 'islamwiki-web',
+  url: 'https://errors.ummat.dev',
   silent: !process.env.CI,
   widenClientFileUpload: true,
   // Upload source maps when SENTRY_AUTH_TOKEN is present (CI/Vercel), hide from browser

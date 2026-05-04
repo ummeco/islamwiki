@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
+import { ThemeProvider } from 'next-themes'
 import { Geist, Geist_Mono, Amiri, Scheherazade_New, Noto_Naskh_Arabic } from 'next/font/google'
 import { Header } from '@/components/layout/header'
 import { Footer } from '@/components/layout/footer'
@@ -134,10 +135,12 @@ export default async function RootLayout({
         >
           Skip to content
         </a>
-        <WebsiteJsonLd />
-        <Header />
-        <main id="main-content" className="min-h-screen pt-20">{children}</main>
-        <Footer />
+        <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>
+          <WebsiteJsonLd />
+          <Header />
+          <main id="main-content" className="min-h-screen pt-20">{children}</main>
+          <Footer />
+        </ThemeProvider>
         <Analytics />
         <SpeedInsights />
         {/* Umami Analytics — privacy-first, no cookies, no PII, self-hosted.

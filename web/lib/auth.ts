@@ -2,6 +2,7 @@ import 'server-only'
 
 import { cookies } from 'next/headers'
 import { createRemoteJWKSet, jwtVerify } from 'jose'
+import { hasuraAdmin } from './hasura-admin'
 
 // ── Session data interface (unchanged — 40 call sites preserved) ──
 
@@ -77,13 +78,31 @@ async function getUserFromJWT(token: string): Promise<SessionData | null> {
     const defaultRole = hasuraClaims?.['x-hasura-default-role'] ?? 'user'
     const role = mapRole(defaultRole)
 
-    // Use displayName as username — avoids email-prefix collisions across providers.
-    // TODO(P4-15 / SF-CRIT.2): Fetch canonical username from iw_user_profiles for full fix.
-    const usernameFromToken = claims.displayName ?? claims.email.split('@')[0]
+    // Fetch canonical username from iw_user_profiles (SF-CRIT.2 / P4-15).
+    // This is the authoritative source — avoids email-prefix collisions across providers.
+    // Falls back to displayName or email prefix if the profile row doesn't exist yet.
+    let username = claims.displayName ?? claims.email.split('@')[0]
+    try {
+      const profileData = await hasuraAdmin<{
+        iw_user_profiles: { username: string }[]
+      }>(
+        `query IwUserProfile($userId: uuid!) {
+          iw_user_profiles(where: { user_id: { _eq: $userId } }, limit: 1) {
+            username
+          }
+        }`,
+        { userId: claims.sub },
+      )
+      if (profileData.iw_user_profiles[0]?.username) {
+        username = profileData.iw_user_profiles[0].username
+      }
+    } catch {
+      // Non-fatal — fall back to token-derived username
+    }
 
     return {
       userId: claims.sub,
-      username: usernameFromToken,
+      username,
       email: claims.email,
       displayName: claims.displayName ?? claims.email.split('@')[0],
       role,
