@@ -94,7 +94,6 @@ const nextConfig: any = {
 export default withSentryConfig(nextConfig, {
   org: process.env.SENTRY_ORG ?? 'ummeco',
   project: process.env.SENTRY_PROJECT ?? 'islamwiki-web',
-  url: 'https://errors.ummat.dev',
   silent: !process.env.CI,
   widenClientFileUpload: true,
   // Upload source maps when SENTRY_AUTH_TOKEN is present (CI/Vercel), hide from browser
