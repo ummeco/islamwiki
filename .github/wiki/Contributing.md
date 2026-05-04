@@ -1,32 +1,35 @@
-# Contributing
+# Contributing to Islam.wiki
 
-We welcome contributions to Islam.wiki, both code and content.
+Thanks for considering a contribution.
 
-## Code Contributions
+## Dev environment
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests (`pnpm test` and `pnpm test:e2e`)
-5. Submit a pull request
+- Node 20+, pnpm 9+
+- Clone the repo
+- `cd web && pnpm install` (sub-project root)
+- See `README.md` for app-specific setup
 
-## Content Contributions
+## Running tests
 
-Content accuracy is critical. For content changes:
-- Provide source references for all claims
-- Follow the [[Theological Guidelines]]
-- Note the hadith grading methodology used
+- `pnpm test` — unit tests
+- `pnpm test:e2e` — end-to-end tests
+- `pnpm lint` and `pnpm typecheck` before opening a PR
 
-## Code Style
+## Submitting changes
 
-- TypeScript with strict mode
-- Tailwind CSS for styling
-- Functional React components
+1. Fork the repo and create a feature branch (`feature/{description}`)
+2. Run lint + tests locally before opening a PR
+3. Open a PR; fill out the template at `.github/PULL_REQUEST_TEMPLATE.md`
+4. Maintainer review: best-effort, expect days to weeks (solo-maintained currently)
 
-## Reporting Issues
+## Code style
 
-Open an issue on [GitHub](https://github.com/ummeco/islamwiki/issues).
+Match existing style. TypeScript strict, ESLint passing, Prettier formatted. No AI attribution in commits.
+
+## Scope
+
+Content contributions must follow the theological guidelines (`.github/wiki/theological-guidelines.md`). Athari aqeedah primary, 4 madhabs + Dhahiri accepted, NOI/Ahmadiyya rejected as outside Islam. Never takfir on individuals. Default Muslim. Cite classical scholars primarily. Translation contributions especially welcome.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the MIT License.
+By contributing you agree your work is licensed under the project's LICENSE.

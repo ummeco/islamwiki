@@ -1,8 +1,16 @@
 # Islam.wiki
 
-Comprehensive Islamic knowledge base. Quran, Hadith, classical books, biographies, and encyclopedic articles. Free forever.
+An authoritative, scholar-verified Islamic knowledge base. Quran, Hadith, Seerah, scholars, books — for everyone.
+
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Build](https://img.shields.io/github/actions/workflow/status/ummeco/islamwiki/ci.yml?branch=main)](https://github.com/ummeco/islamwiki/actions)
+[![Version](https://img.shields.io/github/package-json/v/ummeco/islamwiki?filename=web%2Fpackage.json)](https://github.com/ummeco/islamwiki/releases)
 
 **Live:** [islam.wiki](https://islam.wiki)
+
+## What is this
+
+Islam.wiki is a free, community-built Islamic knowledge base covering Quran, Hadith, Seerah, scholars, classical books, and encyclopedic articles. All content follows strict Ahl us-Sunnah wal-Jama'ah theological guidelines and is reviewed through a trust-level editorial system. It is free forever, with no ads and no paywalls.
 
 ## Features
 
@@ -48,9 +56,7 @@ islamwiki/
 └── scripts/              data pipeline and scrapers
 ```
 
-## Getting Started
-
-### Prerequisites
+## Quick Start
 
 Start the shared Ummat backend first (requires nSelf `search` plugin for Meilisearch):
 
@@ -58,7 +64,7 @@ Start the shared Ummat backend first (requires nSelf `search` plugin for Meilise
 cd ~/Sites/ummeco/ummat/backend && nself start
 ```
 
-### Web App
+**Web app:**
 
 ```bash
 cd web
@@ -78,14 +84,10 @@ All data access goes through Hasura GraphQL. DB tables use the `iw_` prefix in t
 
 Islamic texts are statically compiled into JSON files under `web/data/`. The pipeline in `scripts/` handles fetching, normalizing, and updating content from authoritative sources. All content follows strict Ahl us-Sunnah wal-Jama'ah theological guidelines — see the [wiki](https://github.com/ummeco/islamwiki/wiki) for details.
 
-## Contributing
+## Contribute
 
-See the [wiki](https://github.com/ummeco/islamwiki/wiki) for architecture docs, theological guidelines, content pipeline documentation, and contribution guidelines.
+See [`.github/wiki/Contributing.md`](https://github.com/ummeco/islamwiki/wiki/Contributing) for architecture docs, theological guidelines, content pipeline documentation, and contribution guidelines.
 
 ## License
 
-[MIT](LICENSE)
-
----
-
-*Last updated: 2026-04-28*
+[Apache-2.0](LICENSE)

@@ -1,0 +1,65 @@
+name: Theological Correction
+description: Report an inaccuracy in Islamic content on Islam.wiki
+labels: ["content", "theological-review", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Accuracy in Islamic content is our highest priority. Please provide as much detail as possible so we can review your correction carefully.
+
+  - type: input
+    id: page_slug
+    attributes:
+      label: Page slug or URL
+      description: The URL or slug of the page containing the inaccuracy
+      placeholder: e.g. /topics/salah/fajr-time or https://islam.wiki/topics/salah/fajr-time
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_text
+    attributes:
+      label: Current text
+      description: Copy the exact text that is incorrect
+      placeholder: Paste the inaccurate passage here
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_correction
+    attributes:
+      label: Proposed correction
+      description: What the text should say instead
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source / citation
+      description: |
+        Provide the primary Islamic source supporting your correction.
+        e.g. Quran reference (Surah:Ayah), hadith collection (Bukhari, Muslim, etc.) with book/hadith number, or classical scholarly work.
+      placeholder: |
+        e.g. Sahih al-Bukhari, Book of Salah, Hadith 500
+        e.g. Quran 2:187
+        e.g. Ibn Qudama, al-Mughni, vol. 1 p. 42
+    validations:
+      required: true
+
+  - type: input
+    id: scholar_attribution
+    attributes:
+      label: Scholar attribution (if applicable)
+      description: Name of the scholar or madhab whose position supports this correction
+      placeholder: e.g. Imam al-Nawawi, Hanafi madhab, Sheikh Ibn Baz
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Any other notes, scholarly differences of opinion, or context that would help our review team
+    validations:
+      required: false
