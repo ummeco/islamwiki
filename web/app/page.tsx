@@ -1,7 +1,37 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { SearchInput } from '@/components/search/search-input'
 import { iconMap } from '@/components/ui/icons'
 import { getDailyVerse, getDailyHadith } from '@/lib/data/daily'
+
+export const metadata: Metadata = {
+  title: 'Islam.wiki — The Islamic Reference',
+  description: 'The most comprehensive Islamic knowledge base. Quran with tafsir, authentic Hadith, scholar biographies, classical books, and encyclopedic articles. Free forever.',
+  alternates: {
+    canonical: 'https://islam.wiki',
+    languages: {
+      en: 'https://islam.wiki',
+      ar: 'https://islam.wiki/ar',
+      id: 'https://islam.wiki/id',
+      'x-default': 'https://islam.wiki',
+    },
+  },
+  openGraph: {
+    title: 'Islam.wiki — The Islamic Reference',
+    description: 'Quran, Hadith, Seerah, scholars, books, and Islamic encyclopedic content. Free, authentic, community-first.',
+    url: 'https://islam.wiki',
+    siteName: 'Islam.wiki',
+    type: 'website',
+    locale: 'en_US',
+    images: [{ url: 'https://islam.wiki/og-default.png', width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Islam.wiki',
+    description: 'The most comprehensive Islamic knowledge base.',
+    creator: '@islamwiki',
+  },
+}
 
 const collections = [
   {
