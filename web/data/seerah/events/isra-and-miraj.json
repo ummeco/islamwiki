@@ -1,0 +1,35 @@
+{
+  "slug": "isra-and-miraj",
+  "title_en": "The Night Journey and Ascension",
+  "title_ar": "الإسراء والمعراج",
+  "year_ah": null,
+  "year_ce": 621,
+  "season": null,
+  "place_slug": "makkah",
+  "phase": "meccan-late",
+  "summary": "The Prophet ﷺ was taken on a miraculous night journey (Isra') from Makkah to Jerusalem, and then on an ascension (Miraj) through the heavens to the presence of Allah, where the five daily prayers were prescribed for the Muslim community.",
+  "narrative": "The Isra' (Night Journey) and Mi'raj (Ascension) together constitute one of the most extraordinary events in Islamic history. The journey is established by clear Quranic text and by extensive narrations in Sahih al-Bukhari and Sahih Muslim, narrated by Anas ibn Malik, Abu Dharr al-Ghifari, Abu Hurayrah, and others — making it among the most well-attested events in the Sirah.\n\nThe night journey began at the Masjid al-Haram in Makkah. The Prophet ﷺ was carried by the Buraq — a white riding beast, larger than a donkey but smaller than a mule, that placed each step at the farthest reach of its sight — to Masjid al-Aqsa in Jerusalem (al-Quds). Ibn Hisham and al-Tabari record that at al-Aqsa, the Prophet ﷺ was met by the assembled spirits of all the prophets, from Adam (AS) onward. He led them in prayer, an event of profound symbolic significance establishing his station above all prior messengers. This earthly portion — from Makkah to Jerusalem — is the Isra', explicitly mentioned in Quran 17:1: 'Glory be to the One Who took His servant by night from the Sacred Mosque to the Farthest Mosque, whose surroundings We have blessed, to show him of Our signs.'\n\nFrom Masjid al-Aqsa, the ascent through the heavens began. The detailed account preserved in Sahih al-Bukhari (narrated by Malik ibn Saasaa) describes the Prophet ﷺ ascending through each of the seven heavens in the company of Jibril (AS). In the first heaven he met Adam (AS). In the second, Yahya and Isa (AS). In the third, Yusuf (AS). In the fourth, Idris (AS). In the fifth, Harun (AS). In the sixth, Musa (AS). In the seventh, Ibrahim (AS), who was leaning against al-Bayt al-Ma'mur — the heavenly counterpart of the Kaabah, visited by seventy thousand angels every day who do not return to it. Beyond this, the Prophet ﷺ was taken to a point so near the divine presence that Ibn Kathir and classical scholars describe it as the ultimate proximity granted to any created being — the Sidrat al-Muntaha, the lote-tree of the utmost boundary.\n\nIt was at this station that Allah prescribed fifty daily prayers upon the Muslim community. On the way back down, the Prophet ﷺ passed Musa (AS), who urged him to return and ask for a reduction, saying from his own experience with Bani Isra'il that the community would not be able to fulfill it. The Prophet ﷺ returned repeatedly — each time with a reduction of ten prayers — until only five remained. Musa urged him to go back again; the Prophet ﷺ said: 'I am ashamed before my Lord.' And so five prayers were fixed, each carrying the reward of fifty. This exchange is recorded in Sahih al-Bukhari in Malik ibn Saasaa's narration with precise detail.\n\nWhen the Prophet ﷺ described the journey to the Quraysh the next morning, they responded with disbelief and mockery. Some who had been wavering in their acceptance of Islam left it upon hearing the account. Abu Bakr (RA) however, when told of it, said: 'If he said it, then it is true.' This unwavering affirmation earned him the title al-Siddiq — the one who affirms absolutely. The Prophet ﷺ was also able to describe the caravans he had passed on the road to Jerusalem and details of Masjid al-Aqsa that the Quraysh could verify — and these descriptions proved accurate, as Ibn Hisham records.",
+  "people_slugs": ["abu-bakr", "jibril", "musa-as", "ibrahim-as"],
+  "quranic_reference": ["17:1", "53:1-18", "2:143"],
+  "hadith_references": [
+    {
+      "collection": "Sahih al-Bukhari",
+      "book": "Kitab al-Manaqib",
+      "number": "3887",
+      "text_en": "Narration of Malik ibn Saasaa describing the Night Journey through the heavens, meeting the prophets, and the prescription of the five prayers.",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Sahih al-Bukhari, Kitab al-Manaqib — Night Journey narration (Malik ibn Saasaa)",
+    "Sahih Muslim, Kitab al-Iman — Night Journey narrations",
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — The Night Journey",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Al-Isra' wal-Mi'raj",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — The Night Journey and Ascension",
+    "Ibn Kathir, Tafsir al-Quran al-Adhim — Surah al-Isra' (17:1) and al-Najm (53)"
+  ],
+  "related_events": ["journey-to-taif", "pledges-of-aqaba"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

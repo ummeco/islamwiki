@@ -1,0 +1,43 @@
+{
+  "slug": "al-qurtubi",
+  "name_ar": "محمد بن أحمد القرطبي",
+  "name_en": "Imam al-Qurtubi",
+  "epithet": "Hafiz, Mufassir, Author of al-Jami' li-Ahkam al-Quran",
+  "kunya": "Abu 'Abd Allah",
+  "birth_ah": 600,
+  "birth_ce": 1204,
+  "death_ah": 671,
+  "death_ce": 1273,
+  "era": "classical_late",
+  "category": ["scholars", "tafsir", "hadith", "fiqh", "maliki"],
+  "madhhab": "maliki",
+  "summary": "Imam al-Qurtubi (c. 600–671 AH) was a towering figure in the Maliki tradition: a master of Quranic exegesis, hadith, and jurisprudence. His al-Jami' li-Ahkam al-Quran is among the most comprehensive tafsir works in Islamic history, integrating legal rulings, hadith evaluation, Arabic linguistics, and theological discussion across twenty volumes. Born in Cordoba, he emigrated to Egypt following the Christian Reconquista and died in Upper Egypt.",
+  "biography": "Muhammad ibn Ahmad ibn Abi Bakr al-Ansari al-Khazraji al-Andalusi, known as al-Qurtubi (the Cordoban), was born around 600 AH (1204 CE) in Cordoba (Qurtuba), the capital of Islamic Andalusia and one of the most intellectually vibrant cities in the medieval world. His birth came during a period of profound political crisis in al-Andalus — the Almohad dynasty was in decline and Christian Reconquista forces were steadily advancing — and al-Qurtubi witnessed the fall of his native Cordoba to Fernando III of Castile in 1236 CE (633 AH) when he was in his thirties.\n\nThe fall of Cordoba, the city of Ibn Hazm, Ibn Rushd, and centuries of Islamic civilization, was a formative trauma. Al-Qurtubi emigrated to the East, as many Andalusian scholars did in this period, eventually settling in Egypt. He spent his later years in Upper Egypt at a village near Mallawi (in modern-day Minya Governorate), living in asceticism and devoting himself entirely to scholarship. Al-Dhahabi noted that al-Qurtubi withdrew from the world, avoiding its worldly distractions, and poured his energies into teaching and writing. (Siyar A'lam al-Nubala', Vol. 23)\n\nHis formation as a scholar took place in Andalusia under Maliki masters of Cordoba and likely also during his travels to North Africa. The Maliki school was the overwhelmingly dominant school in al-Andalus and North Africa, and al-Qurtubi's legal reasoning throughout his works reflects the characteristic Maliki emphasis on the practice of Medina (amal ahl al-Madina) and narrated tradition alongside the tools of qiyas and istislah.\n\nHis masterwork is al-Jami' li-Ahkam al-Quran, a twenty-volume tafsir that remains to this day one of the most consulted works in the genre. Its defining characteristic is legal comprehensiveness: al-Qurtubi systematically extracts the legal rulings (ahkam) derivable from each verse and presents the positions of all four schools with their evidence, arguing for the preponderant view in light of the hadith and the practice of the Salaf. The tafsir also includes substantial grammatical analysis, discussion of qira'at (Quranic readings), hadith evaluation, and theological commentary. Its treatment of nearly every verse is so thorough that scholars describe it as combining the functions of a tafsir, a fiqh manual, and a hadith commentary.\n\nAmong his other significant works, al-Tadhkira fi Ahwal al-Mawta wal-Akhira stands as a major compilation on eschatology — death, the barzakh (intermediate realm), resurrection, and the afterlife — drawing on hadith and the sayings of the Salaf. It was widely read and remains in print.\n\nAl-Qurtubi also wrote on hadith methodology and on aspects of Quranic science. Throughout his works he shows a deep grounding in the hadith tradition alongside his mastery of fiqh — a combination that gave his tafsir an authority that purely literary or purely legal tafsirs lacked.\n\nHe died in Munyat Bani Khasib in Upper Egypt in 671 AH (1273 CE). Al-Dhahabi described him as 'a great imam, a pious ascetic, who left behind outstanding works.' (Siyar A'lam al-Nubala', Vol. 23, p. 296)",
+  "key_works": [
+    "al-Jami' li-Ahkam al-Quran (20 vols., major tafsir with legal rulings)",
+    "al-Tadhkira fi Ahwal al-Mawta wal-Akhira (eschatology)",
+    "al-Asna fi Sharh Asma' Allah al-Husna (commentary on divine names)",
+    "al-Mufhim lima Ashkala min Talkhis Kitab Muslim (commentary on Sahih Muslim)"
+  ],
+  "teachers": [
+    {"slug": "ibn-al-jumayzah", "name": "Ibn al-Jumayzah (Andalusian Maliki)"},
+    {"slug": "ibn-rawaj", "name": "Ibn Rawaj (Egyptian hadith scholar)"},
+    {"slug": "abu-al-abbas-al-qurtubi", "name": "Abu al-'Abbas al-Qurtubi (hadith, no relation)"}
+  ],
+  "students": [
+    {"slug": "ibn-abi-al-ahwas", "name": "Ibn Abi al-Ahwas (transmitted from him in Egypt)"},
+    {"slug": "ibn-farhun", "name": "Ibn Farhun (later Maliki scholars benefited from his works)"}
+  ],
+  "birthplace_slug": "cordoba",
+  "death_place_slug": "munyat-bani-khasib",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 23 (biography)",
+    "Ibn Farhun, al-Dibaj al-Mudhhab fi Ma'rifat A'yan 'Ulama' al-Madhhab",
+    "Ibn al-'Imad, Shadharat al-Dhahab, Vol. 5",
+    "al-Zirikli, al-A'lam, Vol. 5",
+    "Ahmad Baba al-Timbukti, Nayl al-Ibtihaj bi-Tatriz al-Dibaj"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "yahya-ibn-main",
+  "name_ar": "يحيى بن معين",
+  "name_en": "Yahya ibn Ma'in",
+  "epithet": "Imam al-Jarh wal-Ta'dil (Master of Hadith Criticism)",
+  "kunya": "Abu Zakariyya",
+  "birth_ah": 158,
+  "birth_ce": 775,
+  "death_ah": 233,
+  "death_ce": 847,
+  "era": "tabi_tabiin_late",
+  "category": ["scholars", "hadith", "rijal", "jarh_wa_tadil"],
+  "madhhab": "hanbali",
+  "summary": "Yahya ibn Ma'in (158–233 AH) was the foremost hadith critic of his generation and a foundational figure in the science of rijal (narrator evaluation). Alongside Ahmad ibn Hanbal and Ali ibn al-Madini, he formed the triumvirate of masters who established the critical framework by which millions of hadith narrations are assessed to this day. Al-Dhahabi called him 'the proof of Islam in the science of narrator criticism.'",
+  "biography": "Yahya ibn Ma'in was born in 158 AH (775 CE) to a family of comfortable means — his father left him an inheritance of one million dirhams, which Yahya reportedly spent entirely in the pursuit of hadith scholarship. This fact, reported by al-Dhahabi (Siyar A'lam al-Nubala', Vol. 11), captures something essential about the man: absolute commitment to the science, pursued at personal cost with no interest in material accumulation.\n\nHe was born in a village near Anbar (modern Iraq) but grew up in Baghdad, which had become by the late second century AH the intellectual capital of the Islamic world. He studied under the great hadith masters of his era, including Sufyan ibn 'Uyayna in Mecca, Hisham ibn Yusuf al-San'ani in Yemen, and Yahya ibn Sa'id al-Qattan in Basra — the last of whom he considered his most important teacher in the science of narrator evaluation. He also narrated from 'Abd al-Razzaq al-San'ani and many others, reportedly studying under more than three hundred teachers across his long scholarly career.\n\nHis primary contribution was to the science of al-jarh wal-ta'dil — the systematic evaluation of hadith transmitters as reliable (thiqa, sadooq) or unreliable (da'if, matruk, kadhdhab). In this field, his judgments carried extraordinary weight precisely because they were meticulously researched, clearly reasoned, and honestly reported — even when they required him to criticize famous scholars or contradict popular opinion. He evaluated thousands of narrators, and his assessments are cited in every major hadith commentary down to the present day.\n\nHis most celebrated student and contemporary was Ahmad ibn Hanbal, with whom he maintained a deep scholarly friendship. The two often consulted each other on narrator reliability, and their agreements and disagreements on specific transmitters are themselves treated as scholarly data by later critics. Imam Ahmad reportedly said of him: 'Yahya ibn Ma'in was created for this — he knows the rijal and their conditions.' (al-Dhahabi, Siyar, Vol. 11, p. 73)\n\nAnother celebrated student was Imam al-Bukhari, who benefited from Ibn Ma'in's assessments and incorporated his methodology into the Sahih. Ibn Ma'in reportedly approved of al-Bukhari's scholarly capacities from an early stage, though al-Bukhari was decades his junior.\n\nIbn Ma'in traveled extensively for hadith — to the Hijaz, Yemen, Syria, and Egypt — a practice that in the second century AH was considered essential for verifying chains of transmission and meeting narrators directly. His written notes on narrators were consulted by contemporaries and students alike, forming one of the earliest systematic bodies of rijal literature.\n\nHe died in Medina in 233 AH (847 CE) during the hajj season. Al-Dhahabi records that he fell ill and died there, away from Baghdad, and that his loss was mourned by the scholarly community as the passing of an irreplaceable institution. His legacy is preserved primarily through the collections of his rijal assessments compiled by students, the most important being the works transmitted by his student 'Abbas al-Duri, known as the Tarikh Ibn Ma'in (al-Riwaya al-Dawriyya). (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 11)",
+  "key_works": [
+    "Tarikh Ibn Ma'in (al-Riwaya al-Dawriyya — narrator assessments transmitted by 'Abbas al-Duri)",
+    "Tarikh Ibn Ma'in (Riwaya Ibn Muhriz — parallel transmission of rijal judgments)",
+    "Su'alat Ibn al-Junayd (questions and answers on narrators)"
+  ],
+  "teachers": [
+    {"slug": "yahya-ibn-said-al-qattan", "name": "Yahya ibn Sa'id al-Qattan"},
+    {"slug": "sufyan-ibn-uyayna", "name": "Sufyan ibn 'Uyayna"},
+    {"slug": "abd-al-razzaq-al-sanani", "name": "'Abd al-Razzaq al-San'ani"},
+    {"slug": "hisham-ibn-yusuf", "name": "Hisham ibn Yusuf al-San'ani"},
+    {"slug": "waki-ibn-al-jarrah", "name": "Waki' ibn al-Jarrah"}
+  ],
+  "students": [
+    {"slug": "ahmad-ibn-hanbal", "name": "Ahmad ibn Hanbal"},
+    {"slug": "al-bukhari", "name": "Muhammad ibn Isma'il al-Bukhari"},
+    {"slug": "ali-ibn-al-madini", "name": "Ali ibn al-Madini"},
+    {"slug": "abbas-al-duri", "name": "'Abbas al-Duri (primary transmitter of his rijal)"},
+    {"slug": "ibn-abi-shaybah", "name": "Ibn Abi Shaybah"}
+  ],
+  "birthplace_slug": "anbar",
+  "death_place_slug": "medina",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 11 (extensive biography)",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 14",
+    "Ibn Abi Hatim al-Razi, al-Jarh wal-Ta'dil (preface)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 6",
+    "al-Mizzi, Tahdhib al-Kamal, Vol. 31"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "al-tabari",
+  "name_ar": "أبو جعفر محمد بن جرير الطبري",
+  "name_en": "Abu Ja'far Muhammad ibn Jarir al-Tabari",
+  "epithet": "Imam al-Mufassirin (The Imam of the Commentators)",
+  "kunya": "Abu Ja'far",
+  "birth_ah": 224,
+  "birth_ce": 839,
+  "death_ah": 310,
+  "death_ce": 923,
+  "era": "classical",
+  "category": ["scholars", "tafsir", "history", "hadith", "fiqh"],
+  "madhhab": "independent_ijtihad",
+  "summary": "Abu Ja'far Muhammad ibn Jarir al-Tabari (224–310 AH) was the greatest Quranic commentator and historian of the classical Islamic period. His Jami' al-Bayan (Tafsir al-Tabari) and Tarikh al-Rusul wa al-Muluk (History of the Prophets and Kings) are foundational monuments of Islamic civilization that no serious student of Islamic knowledge can bypass. Note: this is the Sunni scholar al-Tabari; he is a different person from Ja'far al-Tabari (also called Ibn Rustam al-Tabari), an early Twelver Shia scholar — the two are frequently confused.",
+  "biography": "Muhammad ibn Jarir al-Tabari was born in 224 AH (839 CE) in Amul, the capital of Tabaristan (present-day Mazandaran province in northern Iran) on the shores of the Caspian Sea. He was a Sunni Muslim scholar whose family background was Persian, but who wrote and taught entirely in Arabic and built his scholarly career in the great cities of the Abbasid caliphate. He is not to be confused with Ja'far ibn Muhammad ibn Rustam al-Tabari (also from Tabaristan), an early Shia scholar sometimes called 'Ibn Rustam al-Tabari' or 'al-Tabari al-Imami' who lived in approximately the same period and has been confused with the present subject in some later bibliographic sources. The Sunni al-Tabari — author of the Tafsir and the Tarikh — is Muhammad ibn Jarir.\n\nHis intellectual ambitions were apparent from childhood. He reportedly memorized the Quran at age seven, led prayers at eight, and began his scholarly travels in his teens. He traveled across the Islamic world seeking knowledge: to Ray, Baghdad, Basra, Kufa, Egypt, and Syria, studying hadith, fiqh, and Quranic sciences with the leading scholars of the age. Among his most important teachers were Muhammad ibn Humayd al-Razi and Sufyan ibn Waki' in the hadith sciences. He reportedly sought out Imam Ahmad ibn Hanbal but arrived in Baghdad after Ahmad's death — a loss he mourned deeply. (al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 2)\n\nSettling in Baghdad, al-Tabari founded his own independent school of jurisprudence — the Jariri madhhab — and taught it for several decades. Though it did not survive him institutionally (no student of sufficient stature continued it as a living school), it is attested in later references and indicates the degree of his independent scholarly standing. He was unusual among his contemporaries in possessing genuine mastery across multiple disciplines — not merely a compiler or transmitter but an original thinker in fiqh, hadith evaluation, and Quranic commentary simultaneously.\n\nHis Jami' al-Bayan 'an Ta'wil Ay al-Quran — universally known as Tafsir al-Tabari — is thirty volumes in modern editions and represents the first systematic, comprehensive tafsir in Islamic history. Al-Tabari collects virtually all earlier traditions of Quranic commentary, presents the chains of transmission for each report, and then offers his own judicial assessment of which interpretation is strongest and why. Later generations of mufassirin drew directly on his work: Ibn Kathir's tafsir, for instance, is explicitly built on al-Tabari's framework. The work established the method of tafsir bil-ma'thur (commentary by transmitted reports) as the standard against which all subsequent tafsir would be measured. (al-Suyuti, Tabaqat al-Mufassirin)\n\nHis Tarikh al-Rusul wa al-Muluk (commonly called Tarikh al-Tabari) is equally monumental: a universal history from the creation through al-Tabari's own time, drawing on Quranic narrative, hadith, pre-Islamic Persian and Byzantine annals, and his own era's political chronicles. It is the primary narrative source for enormous stretches of early Islamic political and social history. Modern historians of the early caliphate depend on it as heavily as classical scholars did.\n\nIn aqeedah, al-Tabari wrote a treatise titled Sarih al-Sunnah (The Clear Sunnah) in which he outlined his understanding of the doctrinal positions of Ahl al-Sunnah. He affirmed the divine attributes without ta'wil and without anthropomorphism, consistent with the methodology of the early Sunni scholars. His position on the Quran (that the recited Quran, the words, is the uncreated speech of Allah) was standard Sunni doctrine.\n\nAl-Tabari was known for his astonishing industry. His student Abu Muhammad Abd Allah ibn Ahmad al-Farghani reported that he asked al-Tabari how many pages he had produced over his scholarly career, and al-Tabari calculated approximately fourteen pages per day from age thirteen until he was eighty-six — a total, his student calculated, that no subsequent scholar had matched in a single lifetime. (al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 2, p. 164)\n\nHe died in Baghdad in 310 AH (923 CE) at an advanced age and was buried in his house, as the people's grief made public burial impractical, according to al-Khatib al-Baghdadi.",
+  "key_works": [
+    "Jami' al-Bayan 'an Ta'wil Ay al-Quran (Tafsir al-Tabari — 30 volumes)",
+    "Tarikh al-Rusul wa al-Muluk (History of the Prophets and Kings — universal history)",
+    "Tahdhib al-Athar (hadith with fiqh commentary — incomplete)",
+    "Sarih al-Sunnah (aqeedah treatise)",
+    "Ikhtilaf al-Fuqaha' (comparative fiqh)"
+  ],
+  "teachers": [
+    {"slug": "muhammad-ibn-humayd-al-razi", "name": "Muhammad ibn Humayd al-Razi"},
+    {"slug": "sufyan-ibn-waki", "name": "Sufyan ibn Waki' ibn al-Jarrah"},
+    {"slug": "ismail-ibn-musa-al-fazari", "name": "Ismail ibn Musa al-Fazari"},
+    {"slug": "muhammad-ibn-abd-al-malik-ibn-abi-al-shawarib", "name": "Muhammad ibn Abd al-Malik ibn Abi al-Shawarib"}
+  ],
+  "students": [
+    {"slug": "abu-bakr-ibn-al-mundhir", "name": "Abu Bakr ibn al-Mundhir al-Naysaburi"},
+    {"slug": "abu-muhammad-al-farghani", "name": "Abu Muhammad Abd Allah al-Farghani"},
+    {"slug": "ibn-al-suri", "name": "Ahmad ibn Kamil al-Qadi (Ibn al-Suri)"}
+  ],
+  "birthplace_slug": "amul-tabaristan",
+  "death_place_slug": "baghdad",
+  "sources": [
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 2 (primary biographical source)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 4",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 14",
+    "al-Subki, Tabaqat al-Shafi'iyyah al-Kubra, Vol. 3",
+    "al-Suyuti, Tabaqat al-Mufassirin",
+    "Yaqut al-Hamawi, Mu'jam al-Udaba', Vol. 18"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

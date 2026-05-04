@@ -1,0 +1,16 @@
+{
+  "slug": "maliki",
+  "name_en": "Maliki Madhab",
+  "name_ar": "المذهب المالكي",
+  "parent_slug": "sunni",
+  "children_slugs": [],
+  "founded_ah": 179,
+  "founded_ce": 795,
+  "key_figures_slugs": ["malik-ibn-anas","ibn-al-qasim","al-qurtubi","ibn-rushd-al-hafid","khalil-ibn-ishaq"],
+  "summary": "The Maliki school is one of the four major Sunni legal schools, founded by Imam Malik ibn Anas (d. 179 AH / 795 CE) of Medina. It is the dominant madhab across North and West Africa and was historically influential in Muslim Spain (Andalusia).",
+  "overview": "The Maliki school (Arabic: al-Madhhab al-Maliki) is named after Imam Malik ibn Anas (d. 179 AH / 795 CE), widely regarded as the Imam of Medina and among the greatest hadith scholars of his era. His primary work, al-Muwatta, is one of the earliest surviving compilations of hadith and the legal positions derived from them.\n\nThe Maliki methodology is distinguished by its use of the practice of the people of Medina (amal ahl al-Madinah) as a legal source alongside Quran and Sunnah. Imam Malik reasoned that the Medinans, living in the Prophet's city and inheriting his Companions' practice directly, preserved an unbroken chain of practice that constituted a form of living sunnah. This position is distinctive to the Maliki school and has been both influential and debated in comparative fiqh.\n\nThe school also relies on maslaha mursala (unrestricted public interest) as a subsidiary source when no specific text addresses an issue, and gives particular weight to blocking means to harm (sadd al-dhara'i). These tools give the Maliki school a degree of flexibility in addressing novel legal questions.\n\nThe Maliki school spread through North Africa via early scholars who studied with Imam Malik and his students, particularly in Egypt through Ibn al-Qasim (d. 191 AH), whose transmission of Malik's opinions became the foundational Maliki text (al-Mudawwana). The school then spread westward through the Maghreb and into Muslim Spain (Andalusia), where it was the dominant legal school of the Umayyad Caliphate of Cordoba.\n\nToday, the Maliki school is the dominant madhab in Morocco, Algeria, Tunisia, Libya, Mauritania, Mali, Niger, Chad, Senegal, Sudan, and much of West Africa. Major classical texts include al-Mudawwana of Sahnun (d. 240 AH), the Risalah of Ibn Abi Zayd al-Qayrawani (d. 386 AH), and Mukhtasar Khalil by Khalil ibn Ishaq (d. 767 AH), which remains the standard reference in the Maghreb.\n\nAll four madhabs are presented equally on islam.wiki. No school is ranked above another.",
+  "status": "sunni-mainstream",
+  "disclaimer_tier": 0,
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

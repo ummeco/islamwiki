@@ -1,0 +1,23 @@
+{
+  "slug": "sunan-al-nasai",
+  "title_en": "Sunan al-Nasa'i",
+  "title_ar": "سنن النسائي",
+  "title_full_ar": "السنن الكبرى والمجتبى من السنن",
+  "author_slug": "al-nasai",
+  "subject": "hadith",
+  "subjects": ["hadith", "fiqh", "sunan"],
+  "language": "ar",
+  "year_compiled_ah": 303,
+  "year_compiled_ce": 915,
+  "summary": "Sunan al-Nasa'i (more precisely, al-Mujtaba min al-Sunan) is one of the Kutub al-Sittah, compiled by Imam Ahmad ibn Shu'ayb al-Nasa'i (215–303 AH / 830–915 CE). It is distinguished by al-Nasa'i's exceptionally stringent conditions for narrator criticism, making it in some respects the most selective of the four Sunans in terms of chain evaluation, while also being notable for the breadth of its legal content.",
+  "overview": "Imam Abu Abd al-Rahman Ahmad ibn Shu'ayb al-Nasa'i was born in Nasa (present-day Turkmenistan) around 215 AH and died in Ramla (Palestine) or Mecca in 303 AH. He was a student of Ishaq ibn Rahawayh, Qutayba ibn Said, and later Imam al-Bukhari's peer Ibn Khuzaymah, and he spent much of his scholarly career in Egypt, where he settled and taught for decades.\n\nAl-Nasa'i produced two distinct works: al-Sunan al-Kubra ('the large Sunan'), a comprehensive collection, and al-Mujtaba min al-Sunan ('the selected from the Sunan'), also called al-Sunan al-Sughra or simply al-Mujtaba. When the governor of Ramla asked him to produce only the narrations he considered sahih, al-Nasa'i produced al-Mujtaba by extracting these from al-Kubra. It is al-Mujtaba that is considered canonical in the Kutub al-Sittah, though al-Kubra has been published in modern times and is of great scholarly value.\n\nAmong the compilers of the four Sunans, al-Nasa'i was the most stringent in his evaluation of narrators. He criticised narrators whom al-Bukhari, Muslim, and Abu Dawud accepted, and his jarh (critical comments on narrators) are considered among the most detailed and reliable. This stringency means that narrations al-Nasa'i includes carry considerable weight among hadith scholars.\n\nThe collection is organised strictly on fiqhi lines, covering purity, prayer, zakah, fasting, pilgrimage, marriage, divorce, business transactions, criminal law, and other subjects. The section on prayer (Kitab al-Salah) is particularly extensive and is considered one of the most thorough treatments of prayer-related hadith in the Sunan literature. Al-Nasa'i frequently notes the differences among the Companions and Successors on legal matters, providing the scholar with a broad picture of early Islamic practice.\n\nAl-Mujtaba contains approximately 5,758 hadith. Al-Nasa'i's work is also valued for its attention to the subtle differences between variant wordings of the same hadith (al-ziyadat wal-nuqsan), which has significant implications for deriving legal rulings.\n\nThe standard classical commentary is Sharh Sunan al-Nasa'i by Imam Jalal al-Din al-Suyuti (d. 911 AH) and Zakariyya al-Ansari, a relatively brief work. A more detailed modern commentary is Dhakhirat al-Uqba by Shaykh Muhammad ibn Ali ibn Adam al-Ityubi al-Wulawi, a multivolume work completed in recent decades. The standard Arabic edition is published by Maktab al-Matbuat al-Islamiyyah (Aleppo), edited by Abd al-Fattah Abu Ghuddah, widely regarded as the finest modern critical edition of the Sunan. The English translation is by Nasiruddin al-Khattab (Darussalam, 2007), in six volumes.\n\nAl-Nasa'i's own life is also a subject of scholarly interest. He is reported to have died as a martyr: he reportedly authored a work on the virtues of Imam Ali ibn Abi Talib (r.a.), which displeased a faction who preferred he also produce a book diminishing Ali's status — he refused, and according to various accounts was assaulted in Syria or Palestine and died of his injuries. This account underscores both his independence as a scholar and the charged environment in which he worked. His al-Sunan al-Kubra, from which al-Mujtaba was extracted, has been published in modern times (Dar al-Kutub al-Ilmiyyah, Beirut; and Mu'assasat al-Risalah, Beirut) and contains approximately 11,000 hadith, making it a major source for researchers. Both works are available on sunnah.com.",
+  "structure": "51 books (kutub), approximately 5,758 hadith (al-Mujtaba)",
+  "translations": [
+    {"language": "en", "translator": "Nasiruddin al-Khattab", "publisher": "Darussalam", "year": 2007, "status": "available"}
+  ],
+  "available_at": [
+    "sunnah.com/nasai"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

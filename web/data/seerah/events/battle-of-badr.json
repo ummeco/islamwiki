@@ -1,0 +1,34 @@
+{
+  "slug": "battle-of-badr",
+  "title_en": "The Battle of Badr",
+  "title_ar": "غزوة بدر",
+  "year_ah": 2,
+  "year_ce": 624,
+  "season": "spring",
+  "place_slug": "badr",
+  "phase": "madinan-early",
+  "summary": "The Battle of Badr on 17 Ramadan 2 AH was the first major military confrontation between the Muslim community of Madinah and the Quraysh of Makkah, resulting in a decisive Muslim victory against a significantly larger and better-equipped force — a turning point that the Quran calls 'Yawm al-Furqan,' the Day of Distinction.",
+  "narrative": "The Battle of Badr originated from a Muslim intercept of a Qurayshi caravan led by Abu Sufyan ibn Harb returning from Syria. The original objective was to seize the caravan as recompense for Muslim wealth confiscated in Makkah, but Abu Sufyan received warning and rerouted the caravan safely to Makkah while simultaneously sending word to Makkah for a relief force. The Quraysh mobilized approximately 950-1000 men — a major tribal army with cavalry, archers, and armored veterans — and marched to protect the caravan's return route. The Prophet ﷺ, commanding approximately 313-317 men (the narrations vary slightly), mostly poorly armed, continued to advance after consulting his companions. The Ansar affirmed their Second Aqaba pledge of full military support; Saad ibn Muadh (RA) of the Aws gave a particularly moving speech recorded by Ibn Hisham.\n\nThe engagement took place at the wells of Badr, approximately 80 miles southwest of Madinah, on Friday 17 Ramadan 2 AH. The Prophet ﷺ supervised the positioning of forces and made du'a through the night, raising his hands and saying: 'O Allah, if this group is destroyed today, You will not be worshipped on earth.' Abu Bakr (RA) reportedly told him: 'O Messenger of Allah, enough — Allah will fulfil His promise to you.' Al-Tabari records that the Prophet ﷺ then fell into a brief state of sleep, from which he awoke saying: 'Be of good cheer, Abu Bakr. The help of Allah has come. By Allah, I can see Jibril on his horse between the sky and the earth...' The Quran confirms the divine assistance: 'When you asked for help from your Lord and He responded to you: I will reinforce you with a thousand angels, rank on rank.' (8:9); and: 'Already Allah has helped you at Badr when you were few in number.' (3:123)\n\nThe battle commenced with individual combat, as was the Arab custom. The Quraysh sent forward Utbah ibn Rabiah, his brother Shaybah, and his son al-Walid. From the Muslim side, Hamzah ibn Abd al-Muttalib, Ali ibn Abi Talib, and Ubaydah ibn al-Harith (all Banu Hashim) stepped forward — an indication of the personal and clan dimensions of the conflict. The three Muslims prevailed. The general engagement followed, and the Muslim forces broke the Quraysh line, routing them. Seventy of the Quraysh's leading men were killed; another seventy were captured. Among the dead were Abu Jahl, Utbah ibn Rabiah, Shaybah ibn Rabiah, al-Walid ibn Utbah, Umayyah ibn Khalaf — effectively the entire leadership of the Qurayshi opposition to Islam.\n\nAmong the fourteen Muslim martyrs were Ubaydah ibn al-Harith and others. Zayd ibn Harithah (RA) returned to Madinah with news of the victory; when he arrived with the camel of the Prophet ﷺ, those in Madinah were alarmed, fearing the Prophet ﷺ had been killed, but Zayd delivered the glad tidings.\n\nThe Quran devotes all of Surah al-Anfal (8) to Badr — dealing with the distribution of spoils, the ethics of the battle, the prisoners, and the theological meaning of the victory. Allah called it 'Yawm al-Furqan' — the Day of Separation between truth and falsehood (8:41). Ibn Kathir notes that Badr was the day that established Islam as a political and military force, demonstrating to the tribes of Arabia that the Muslim community could not simply be suppressed.",
+  "people_slugs": ["abu-bakr", "ali-ibn-abi-talib", "hamzah-ibn-abd-al-muttalib", "abu-jahl", "abu-sufyan", "saad-ibn-muadh", "ubaydah-ibn-al-harith"],
+  "quranic_reference": ["8:9", "8:41", "3:123", "8:1-75"],
+  "hadith_references": [
+    {
+      "collection": "Sahih al-Bukhari",
+      "book": "Kitab al-Maghazi",
+      "number": "3958",
+      "text_en": "Ibn Masud (RA) describing the killing of Abu Jahl at Badr by the two sons of Afra.",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — The Battle of Badr",
+    "Sahih al-Bukhari, Kitab al-Maghazi — Badr narrations",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Ghazwat Badr",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3-4 — Badr in Full Detail",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2 — The Participants and Martyrs of Badr"
+  ],
+  "related_events": ["hijra-to-madinah", "battle-of-uhud"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

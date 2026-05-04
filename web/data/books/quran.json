@@ -1,0 +1,31 @@
+{
+  "slug": "quran",
+  "title_en": "The Qur'an",
+  "title_ar": "القرآن الكريم",
+  "title_full_ar": "القرآن الكريم كلام الله المنزَّل على نبيه محمد ﷺ",
+  "author_slug": null,
+  "subject": "quran",
+  "subjects": ["quran", "tafsir", "aqeedah", "fiqh"],
+  "language": "ar",
+  "year_compiled_ah": null,
+  "year_compiled_ce": null,
+  "summary": "The Qur'an is the primary scripture of Islam, held by Muslims to be the verbatim word of Allah revealed to the Prophet Muhammad ﷺ over approximately twenty-three years. It comprises 114 surahs (chapters) arranged not in the order of revelation but in the order established under the first caliph Abu Bakr and standardised under Uthman ibn Affan (r.a.).",
+  "overview": "The Qur'an occupies a position without parallel in the Islamic tradition: it is the first and supreme source of Islamic law, theology, and spirituality, and Muslims consider it the direct, unmediated speech of Allah. Revelation began in 610 CE when the Prophet Muhammad ﷺ, in the Cave of Hira near Mecca, received the first verses of Surah al-Alaq through the Angel Jibril. Revelation continued until shortly before the Prophet's death in 632 CE, spanning the Meccan period (focused on tawhid, eschatology, and ethics) and the Medinan period (focused on law, community, and relations with other faiths).\n\nThe text consists of 114 surahs of varying length, totalling 6,236 verses according to the most widely adopted count (other counting conventions give figures ranging from 6,204 to 6,246 due to differences in whether Bismillah is counted separately in each surah). The longest surah is al-Baqarah (286 verses) and the shortest are al-Kawthar, al-Asr, and al-Nasr (three verses each).\n\nDuring the Prophet's lifetime, the Qur'an was memorised extensively by the Companions (Sahabah) and written on various materials — palm leaves, flat stones, animal hides, and shoulder bones. After the Battle of Yamama (633 CE), in which a significant number of Qur'an memorisers (huffaz) were killed, the first caliph Abu Bakr al-Siddiq (r.a.) commissioned Zayd ibn Thabit to compile the scattered written fragments into a single codex (mushaf). This codex was preserved with Hafsa bint Umar (r.a.).\n\nThe canonical Uthmanic codex (al-mushaf al-uthmani) was produced under the third caliph Uthman ibn Affan (r.a.) around 650 CE. Uthman convened a committee led again by Zayd ibn Thabit and had multiple copies made and distributed to the major Muslim cities, instructing that all divergent written copies be destroyed to prevent textual disputes. This standardised the written consonantal skeleton (rasm) of the Qur'an.\n\nThe Seven Qira'at (recitation traditions) represent accepted variant oral readings transmitted via continuous chains of reliable narrators (tawatur) from the Companions. The seven canonical readers (according to Ibn Mujahid's selection, d. 324 AH) are: Nafi' al-Madani, Ibn Kathir al-Makki, Abu Amr al-Basri, Ibn Amir al-Shami, Asim al-Kufi, Hamza al-Kufi, and al-Kisa'i al-Kufi. Three additional readers (Abu Jafar, Yaqub, Khalaf) constitute the ten accepted readings (al-qira'at al-ashr). The most widely used recitation globally today is Hafs an Asim, followed by Warsh an Nafi'.\n\nThe Qur'an is divided into 30 equal portions (ajza', singular: juz') for the convenience of completing a full reading in a month. It is further divided into 60 hizb, 240 rub', and 7 manzil for weekly recitation. The rasm uthmani script, including diacritical marks (tashkil) added in the early Islamic period to aid non-Arab readers, is the basis of all printed mushafs today.\n\nMajor printed editions include the King Fahd Complex edition (Medina, 1985, based on Hafs an Asim), which is the most widely distributed mushaf in the world, and the Warsh recitation editions common in North and West Africa.\n\nAmong the most authoritative English translations are: Mohammed Marmaduke Pickthall's 'The Meaning of the Glorious Qur'an' (1930), one of the earliest by a Muslim; Abdullah Yusuf Ali's 'The Meaning of the Holy Quran' (1934/1938); Saheeh International (1997), known for its linguistic clarity; Mufti Muhammad Taqi Usmani's 'The Noble Quran' (English with commentary); and M.A.S. Abdel Haleem's Oxford World's Classics translation (2004), widely used in academic settings. Each translation reflects the theological and linguistic priorities of its era and translator; no translation is a substitute for the Arabic original.",
+  "structure": "114 surahs, 6,236 verses (Hafs count), 30 juz, 60 hizb, 7 manzil",
+  "translations": [
+    {"language": "en", "translator": "Mohammed Marmaduke Pickthall", "year": 1930, "status": "available"},
+    {"language": "en", "translator": "Abdullah Yusuf Ali", "year": 1938, "status": "available"},
+    {"language": "en", "translator": "Saheeh International", "year": 1997, "status": "available"},
+    {"language": "en", "translator": "Mufti Muhammad Taqi Usmani", "year": 2006, "status": "available"},
+    {"language": "en", "translator": "M.A.S. Abdel Haleem (Oxford)", "year": 2004, "status": "available"},
+    {"language": "en", "translator": "Dr. Mustafa Khattab (The Clear Quran)", "year": 2016, "status": "available"}
+  ],
+  "available_at": [
+    "quran.com",
+    "tanzil.net",
+    "corpus.quran.com",
+    "legacy.quran.com"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "wudu",
+  "title_en": "Wudu (Ritual Ablution)",
+  "title_ar": "الوضوء",
+  "category": "fiqh",
+  "subcategory": "purification",
+  "summary": "Wudu is the ritual purification performed with water before acts of worship such as prayer, Quran recitation, and tawaf. It is an obligatory condition for the validity of salah and is described in detail in the Quran and the Sunnah of the Prophet ﷺ.",
+  "content": "## Definition\n\nWudu (Arabic: الوضوء) is the minor ritual purification performed using water that removes the state of hadath asghar (minor ritual impurity). It is a prerequisite for several acts of worship, most importantly the five daily prayers.\n\n## Evidence\n\nAllah commands the believers in Surah al-Ma'idah (5:6): \"O you who have believed, when you rise to pray, wash your faces and your forearms to the elbows, and wipe over your heads and wash your feet to the ankles.\"\n\nThe Prophet ﷺ said: \"Allah does not accept the prayer of one who is in a state of minor impurity until he performs wudu.\" (Sahih Muslim, Book 2, Hadith 440)\n\nHe also said: \"The key to prayer is purification.\" (Sunan Abu Dawud, Hadith 61; graded hasan)\n\n## Obligatory Acts (Fard)\n\nThe scholars agree on four foundational obligatory acts based on the Quranic verse:\n\n1. **Washing the face** — from the top of the forehead to the bottom of the chin, and from ear to ear\n2. **Washing both arms to the elbows** (elbows included)\n3. **Wiping (mash) over the head**\n4. **Washing both feet to the ankles** (ankles included)\n\nThe Quran lists these four acts. The scholars also add:\n\n5. **Intention (niyyah)** — held to be obligatory by the Maliki, Shafi'i, and Hanbali schools; the Hanafi school considers it a strongly recommended act (wajib or sunnah mu'akkadah) without whose absence the wudu is still valid\n6. **Sequential order (tartib)** — obligatory per the Shafi'i and Hanbali schools based on the Quranic sequence; not obligatory per the Hanafi and Maliki schools\n\n## Madhab Positions on Key Disputes\n\n### Wiping the Head\n\n**Hanafi:** The minimum obligation is to wipe at least one-quarter of the head. The full head is sunnah.\n\n**Maliki:** Wiping the entire head is obligatory (fard), based on a reading of the Quranic verse without the limiting preposition.\n\n**Shafi'i:** Any portion of the head — even a single hair within its boundaries — satisfies the obligation. The full head is recommended.\n\n**Hanbali:** Wiping the entire head is obligatory, including the ears. The ears are part of the head, not a separate act.\n\n### Sequence and Continuity\n\n**Hanafi and Maliki:** Order is not obligatory; skipping ahead and returning is valid. Continuity (muwalah) is not obligatory per the Hanafi school, though Malikis hold it obligatory.\n\n**Shafi'i and Hanbali:** Both sequence (tartib) and continuity (muwalah) are obligatory conditions.\n\n### Washing vs. Wiping the Feet\n\nAll four schools hold that washing the feet to the ankles is the obligatory act based on the Quranic verse and the practice of the Prophet ﷺ. A minority Quranic reading was used by some early scholars to suggest wiping, but the scholarly consensus (ijma') is that washing is required. The Shia hold that wiping suffices; the four Sunni schools do not.\n\n## Recommended Acts (Sunan)\n\nAmong the sunan of wudu reported in hadith: beginning with bismillah, washing each limb three times, using a miswak before beginning, starting with the right side, rinsing the mouth (madmadah) and nostrils (istinshaq), wiping between the fingers and toes (khilal), and performing wudu from a clean vessel.\n\nThe Prophet ﷺ said: \"Whoever performs wudu as I have performed it, then prays two rak'ahs without letting his mind wander, will have his previous sins forgiven.\" (Sahih al-Bukhari, Hadith 164; Sahih Muslim, Hadith 226)\n\n## What Nullifies Wudu\n\nThe scholars agree (ijma') that the following nullify wudu:\n\n1. **Discharge from the two passages** — urine, stool, gas, and anything emerging from the front or back private parts\n2. **Deep sleep** — that removes consciousness and the ability to maintain one's sitting position\n3. **Loss of consciousness** — fainting, intoxication, madness\n\n**Contested nullifiers:**\n\n- **Touching the private parts (directly):** Nullifies wudu per the Maliki, Shafi'i, and Hanbali schools, based on hadith. The Hanafi school holds it does not nullify based on a different narration. Scholars of hadith regard the nullifying hadith as sound (Sunan Abu Dawud, Hadith 181; graded by many as hasan sahih).\n- **Touching a person of the opposite sex (non-mahram):** Nullifies wudu per the Shafi'i school. Does not nullify per the Hanafi and Maliki schools. The Hanbali school distinguishes between lustful touching (nullifies) and non-lustful (does not).\n- **Eating camel meat:** Nullifies wudu per the Hanbali school, based on explicit hadith (Sahih Muslim, Hadith 360). The other three schools hold it does not nullify.\n- **Bleeding:** Does not nullify per the Maliki and Shafi'i schools. Nullifies (if significant) per the Hanafi and Hanbali schools.\n\n## Summary Note\n\nThis is a matter of scholarly disagreement (ikhtilaf). Each position has textual evidence supporting it. Muslims should follow the ruling of a qualified scholar in their local tradition. The differences in wudu are among the most documented examples of legitimate fiqh diversity within Ahl us-Sunnah.",
+  "evidence_quran": ["5:6"],
+  "evidence_hadith": [
+    "Sahih Muslim, Book 2, Hadith 440 — prayer not accepted without wudu",
+    "Sahih al-Bukhari, Hadith 164; Sahih Muslim, Hadith 226 — virtue of complete wudu",
+    "Sunan Abu Dawud, Hadith 61 — key to prayer is purification (hasan)",
+    "Sunan Abu Dawud, Hadith 181 — touching private parts nullifies (hasan sahih per many)",
+    "Sahih Muslim, Hadith 360 — camel meat nullifies wudu"
+  ],
+  "madhab_positions": {
+    "hanafi": "Four fard acts: face, arms, quarter-head wipe, feet. Intention is not fard but strongly recommended. Order and continuity not obligatory. Touching private parts or opposite sex does not nullify. Significant bleeding nullifies.",
+    "maliki": "Four fard acts plus intention and continuity (muwalah). Full head wipe is obligatory. Order not obligatory. Touching private parts nullifies; direct lustful contact with opposite sex nullifies. Bleeding does not nullify.",
+    "shafii": "Four fard acts plus intention, sequence (tartib), and continuity. Minimum wipe of any part of head is sufficient. Touching non-mahram of opposite sex nullifies. Bleeding does not nullify.",
+    "hanbali": "Four fard acts plus intention and sequence. Full head wipe (including ears) obligatory. Touching private parts and lustful contact with opposite sex nullifies. Eating camel meat nullifies. Significant bleeding nullifies."
+  },
+  "related_slugs": ["ghusl", "tayammum", "salah-overview", "salah-times"],
+  "sources": [
+    "Quran 5:6",
+    "Sahih al-Bukhari, Kitab al-Wudu",
+    "Sahih Muslim, Kitab al-Taharah",
+    "Sunan Abu Dawud, Kitab al-Taharah",
+    "Ibn Qudamah, al-Mughni (Hanbali)",
+    "Al-Nawawi, al-Majmu' Sharh al-Muhadhdhab (Shafi'i)",
+    "Ibn Abidin, Radd al-Muhtar (Hanafi)",
+    "Ibn Rushd, Bidayat al-Mujtahid (Maliki comparative)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

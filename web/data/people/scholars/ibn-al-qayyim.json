@@ -1,0 +1,48 @@
+{
+  "slug": "ibn-al-qayyim",
+  "name_ar": "شمس الدين محمد بن أبي بكر بن أيوب الزرعي الدمشقي",
+  "name_en": "Shams al-Din Muhammad ibn Abi Bakr ibn Ayyub al-Zar'i al-Dimashqi",
+  "epithet": "Ibn al-Qayyim al-Jawziyyah",
+  "kunya": "Abu Abd Allah",
+  "birth_ah": 691,
+  "birth_ce": 1292,
+  "death_ah": 751,
+  "death_ce": 1350,
+  "era": "later_classical",
+  "category": ["scholars", "aqeedah", "fiqh", "hanbali", "athari", "tafsir", "tasawwuf_reformed"],
+  "madhhab": "hanbali",
+  "summary": "Ibn al-Qayyim al-Jawziyyah (691–751 AH) was a Hanbali scholar of Damascus and the most celebrated student of Ibn Taymiyyah. He extended his teacher's Athari theological methodology into prolific writings on aqeedah, fiqh, ethics, spiritual psychology, and Quranic commentary. His works on the spiritual states of the heart and the science of fiqh al-maqasid remain foundational in the classical Sunni tradition.",
+  "biography": "Muhammad ibn Abi Bakr ibn Ayyub, known universally as Ibn al-Qayyim al-Jawziyyah — 'son of the guardian of the Jawziyyah school' — was born in 691 AH (1292 CE) in Damascus. His father had served as the head (qayyim) of a Hanbali madrasa established by Ibn al-Jawzi's descendants, and this institutional connection shaped his early education. He came under the tutelage of Ibn Taymiyyah sometime in his late teens or early twenties and remained the great scholar's closest student and devoted companion until Ibn Taymiyyah's death in 728 AH.\n\nThis relationship was formative in every respect. Ibn al-Qayyim shared Ibn Taymiyyah's imprisonments — he was himself jailed in the Damascus citadel alongside his teacher and later imprisoned on a separate occasion for disagreeing with the permissibility of traveling to visit graves as an act of religious devotion. He transmitted, defended, and expanded upon Ibn Taymiyyah's positions across a body of writing that rivals his teacher's in both volume and influence, though Ibn al-Qayyim's tone was generally more accessible and his works on spiritual development perhaps more widely read across the ummah than his teacher's technical theological treatises.\n\nIbn al-Qayyim's scholarly output was exceptionally wide-ranging. In aqeedah he wrote al-Sawa'iq al-Mursalah (a major refutation of ta'wil of the divine attributes) and Ijtima' al-Juyush al-Islamiyyah (on the affirmation of the divine attributes per the Salaf). His Zad al-Ma'ad (Provisions for the Afterlife) is a monumental work of Prophetic guidance — covering the Prophet's ﷺ worship, legal rulings, military campaigns, and medical practice across five volumes — that remains in continuous use as a reference across the ummah. His Madarij al-Salikin is a three-volume commentary on the Manazil al-Sa'irin of al-Ansari al-Harawi, presenting the stations of the spiritual traveler from the Quran and Sunnah while systematically removing what he considered innovations that had crept into Sufi literature. (Ibn al-Qayyim, Madarij al-Salikin, Introduction; Zad al-Ma'ad, Vol. 1)\n\nHis approach to spiritual development is notable: he did not reject the vocabulary or concerns of Sufi spiritual psychology but insisted on grounding every station (hal, maqam) in the Quran, Sunnah, and the practice of the Companions rather than in the philosophical and metaphysical frameworks that later Sufi tradition had imported. This placed him in a distinctive position — engaging seriously with the interior life of faith while rejecting what he saw as innovations in practice and theology.\n\nIn legal theory, his Ilam al-Muwaqqi'in (Notification to Those Who Issue Fatwas in the Name of the Lord of the Worlds) is a foundational text on the methodology of legal reasoning and the relationship between fatwa and changing circumstances. His I'lam set out the principle that fatwas change with changing times, customs, states, and purposes — a position that has made it a reference point for discussions of Islamic legal methodology across the classical tradition.\n\nIbn al-Qayyim also wrote extensively on the Arabic language and Quranic eloquence (Bada'i al-Fawa'id), on the souls of the deceased and the nature of the afterlife (al-Ruh), and on the relationship between divine wisdom and the divine decree (Shifa al-Alil). His al-Tibb al-Nabawi sections within Zad al-Ma'ad constitute an important treatment of Prophetic medicine.\n\nHe died in Damascus in 751 AH (1350 CE) and was buried in the Bab al-Saghir cemetery. His influence on later Athari and Hanbali scholarship, and through them on broader Sunni revivalist movements, is second only to that of his teacher.",
+  "key_works": [
+    "Zad al-Ma'ad fi Hady Khayr al-Ibad (5 volumes — Prophetic guidance)",
+    "Madarij al-Salikin (3 volumes — spiritual stations commentary)",
+    "Ilam al-Muwaqqi'in an Rabb al-Alamin (legal methodology)",
+    "al-Sawa'iq al-Mursalah ala al-Jahmiyyah wa al-Mu'attilah (aqeedah)",
+    "Miftah Dar al-Sa'adah (epistemology and spiritual well-being)",
+    "Bada'i al-Fawa'id (Quranic eloquence and tafsir notes)",
+    "al-Ruh (treatise on the soul)",
+    "Shifa al-Alil (divine decree and wisdom)",
+    "Hadi al-Arwah ila Bilad al-Afrah (paradise and the afterlife)"
+  ],
+  "teachers": [
+    {"slug": "ibn-taymiyyah", "name": "Taqi al-Din Ibn Taymiyyah (primary teacher)"},
+    {"slug": "al-mizzi", "name": "Jamal al-Din al-Mizzi (hadith)"},
+    {"slug": "ibn-qudama-al-maqdisi", "name": "Ibn Qudama al-Maqdisi (Hanbali fiqh lineage)"}
+  ],
+  "students": [
+    {"slug": "ibn-rajab-al-hanbali", "name": "Ibn Rajab al-Hanbali"},
+    {"slug": "ibn-kathir", "name": "Ibn Kathir (also shared teacher Ibn Taymiyyah)"}
+  ],
+  "birthplace_slug": "damascus",
+  "death_place_slug": "damascus",
+  "sources": [
+    "Ibn Rajab al-Hanbali, al-Dhuyul ala Tabaqat al-Hanabilah, Vol. 2 (primary biography)",
+    "Ibn Hajar al-Asqalani, al-Durar al-Kaminah, Vol. 4",
+    "al-Subki, Tabaqat al-Shafi'iyyah al-Kubra (contemporary hostile account — valuable for disputes)",
+    "Ibn Nasir al-Din al-Dimashqi, al-Radd al-Wafir",
+    "Bakr Abu Zayd, Ibn Qayyim al-Jawziyyah: Hayatuhu wa Atharuhu (modern biography)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "journey-to-taif",
+  "title_en": "The Journey to Taif",
+  "title_ar": "رحلة إلى الطائف",
+  "year_ah": null,
+  "year_ce": 619,
+  "season": "summer",
+  "place_slug": "taif",
+  "phase": "meccan-middle",
+  "summary": "Following the loss of Khadijah (RA) and Abu Talib, the Prophet ﷺ traveled to Taif seeking support and protection from the Thaqif tribe. He was rejected, mocked, and driven out of the city while being pelted with stones by the servants and youths of Taif — one of the most painful experiences recorded in the Sirah.",
+  "narrative": "In the aftermath of losing his greatest supporters, the Prophet ﷺ journeyed approximately sixty miles southeast to the city of Taif — the second largest settlement in the Hijaz and home of the powerful Thaqif tribe. He traveled accompanied only by his freed slave and adopted son Zayd ibn Harithah (RA). His purpose was to call the leadership of Thaqif to Islam and to seek tribal protection that would allow him to continue his mission in Makkah.\n\nIbn Hisham records that the Prophet ﷺ met with the three sons of Amr ibn Umayr, who were among the leading men of Thaqif. He presented Islam to them and asked for their support. Their responses were dismissive: the first said that if Allah had truly sent him as a messenger, he would tear down the coverings of the Kaabah. The second said he could not speak to the Prophet ﷺ because if he was truly a messenger of Allah, then he was too high for him, and if he was a liar, then there was no point speaking. The third said: 'Did Allah find no one to send but you?' — a contemptuous dismissal recorded with its stinging words by Ibn Hisham.\n\nThaqif not only refused to accept the Prophet's call but expressed fear that his presence would stir enmity with the Quraysh. They urged him to leave the city quietly. But then, rather than giving him safe passage out, they turned their servants and the youth of the city against him, having them line the road and pelt him with stones as he walked out. Zayd ibn Harithah (RA) shielded the Prophet ﷺ with his own body, sustaining wounds in the process. The Prophet ﷺ walked until his feet bled and his sandals filled with blood.\n\nHe found shelter at the wall of a garden belonging to Utbah and Shaybah, sons of Rabiah — Qurayshi men who happened to be in Taif. They sent their Christian slave Addas to him with a bunch of grapes. When Addas brought them, the Prophet ﷺ said 'Bismillah' before eating. Addas was startled: 'The people of this land do not say these words.' The Prophet ﷺ asked where he was from; he said Nineveh. The Prophet ﷺ said: 'From the city of the righteous man Yunus ibn Matta.' Addas exclaimed: 'How do you know Yunus ibn Matta?' The Prophet ﷺ said: 'He is my brother — he was a prophet, and I am a prophet.' Addas wept and kissed the Prophet's ﷺ head and hands — a moving encounter recorded by Ibn Hisham.\n\nThe famous du'a of Taif is recorded in several hadith collections: the Prophet ﷺ made a supplication expressing his vulnerability and his reliance solely on Allah. In it he said: '...I complain to You of my weakness and the little esteem in which people hold me. O Most Merciful, You are the Lord of the weak and you are my Lord... As long as You are not angry with me, I do not care... Your pardon is far easier for me to bear...' Al-Tabari records that Jibril (AS) came to the Prophet ﷺ and offered to crush the mountains of Taif upon its people, but the Prophet ﷺ declined, saying: 'Rather, I hope that Allah will cause from their descendants people who will worship Allah alone and associate no partners with Him.' This response is among the most cited examples of his ﷺ mercy and long-term vision.",
+  "people_slugs": ["zayd-ibn-harithah", "addas"],
+  "quranic_reference": ["94:1-8"],
+  "hadith_references": [
+    {
+      "collection": "Sahih al-Bukhari",
+      "book": "Kitab Bad' al-Khalq",
+      "number": "3231",
+      "text_en": "Aisha (RA) asked the Prophet ﷺ if he had ever experienced a day harder than Uhud. He said: 'Yes, the day I met ibn Abd Yalil... [at Taif].'",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — The Journey to Taif",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — The Taif Episode",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — The Journey to Taif",
+    "Sahih al-Bukhari, Kitab Bad' al-Khalq — The Story of Taif",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 1 — Taif and Seeking Protection"
+  ],
+  "related_events": ["year-of-sorrow", "isra-and-miraj"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

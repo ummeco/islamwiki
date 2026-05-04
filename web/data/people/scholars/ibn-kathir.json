@@ -1,0 +1,46 @@
+{
+  "slug": "ibn-kathir",
+  "name_ar": "عماد الدين إسماعيل بن عمر بن كثير القرشي البصروي الدمشقي",
+  "name_en": "Imad al-Din Ismail ibn Umar ibn Kathir al-Qurashi al-Dimashqi",
+  "epithet": "Ibn Kathir",
+  "kunya": "Abu al-Fida",
+  "birth_ah": 701,
+  "birth_ce": 1301,
+  "death_ah": 774,
+  "death_ce": 1373,
+  "era": "later_classical",
+  "category": ["scholars", "tafsir", "history", "hadith", "fiqh", "shafi'i"],
+  "madhhab": "shafi'i",
+  "summary": "Ibn Kathir (701–774 AH) was a Shafi'i jurist and hadith scholar of Damascus whose Tafsir al-Quran al-Azim and al-Bidaya wa al-Nihaya are among the most widely used classical Islamic references in the world today. A student of Ibn Taymiyyah, he brought together mastery of Quranic commentary, hadith criticism, and historical narrative in a body of work that has remained in continuous scholarly use for seven centuries.",
+  "biography": "Ismail ibn Umar ibn Kathir was born around 701 AH (1301 CE) in Majdal, a village in the Busra district of Syria. His father Umar was a local preacher (khatib) who died when Ismail was still a child, and the family subsequently moved to Damascus, where his elder brother Abd al-Wahhab took charge of his education. Damascus was then one of the foremost centers of Islamic scholarship in the Mamluk world, and Ibn Kathir received a comprehensive formation in Quranic sciences, hadith, Shafi'i fiqh, and history.\n\nAmong his teachers, two stand out as particularly formative. The first was Jamal al-Din al-Mizzi (d. 742 AH), the preeminent hadith scholar of his generation and author of the Tahdhib al-Kamal — the defining biographical dictionary of hadith transmitters — whose daughter Ibn Kathir later married. From al-Mizzi he received the hadith sciences at the highest available level. The second was Ibn Taymiyyah (d. 728 AH), the Hanbali theologian and jurist who profoundly influenced Ibn Kathir's Athari approach to aqeedah and his methodology of Quranic commentary, even though Ibn Kathir himself remained throughout his life a Shafi'i in fiqh. The combination of al-Mizzi's hadith rigor and Ibn Taymiyyah's theological methodology is visible in every major work Ibn Kathir produced. He also studied with al-Dhahabi, another student of Ibn Taymiyyah and the foremost hadith critic of his era. (al-Dhahabi, Mu'jam al-Shuyukh; Ibn Hajar, al-Durar al-Kaminah, Vol. 1)\n\nIbn Kathir served as a teacher at the Dar al-Hadith al-Ashrafiyyah in Damascus and later at the Umayyad Mosque. He held the position of preacher (khatib) at several mosques and was appointed Dar al-Hadith head toward the end of his life. His scholarly reputation was well established in his own lifetime; al-Dhahabi described him as a distinguished jurist and hadith master in a short notice written before his own death.\n\nHis Tafsir al-Quran al-Azim — commonly called Tafsir Ibn Kathir — is his most celebrated and enduring work. It is a tafsir bil-ma'thur: commentary primarily through transmitted reports from the Prophet ﷺ, the Companions, and the Tabi'in, rather than through speculative theological interpretation. Ibn Kathir explicitly built on al-Tabari's foundation but filtered it with stricter hadith-critical standards, identifying weak and fabricated reports that al-Tabari had included. He also drew on the Quran itself as its own primary commentary — the method of tafsir al-Quran bil-Quran — citing related verses to illuminate the verse under discussion. The work's combination of accessibility, hadith grading, and doctrinal clarity explains its extraordinary continued reach across the ummah. (Ibn Kathir, Tafsir al-Quran al-Azim, Vol. 1, Introduction)\n\nHis al-Bidaya wa al-Nihaya (The Beginning and the End) is a universal history in fourteen to twenty-one volumes (editions vary) running from creation through his own time. For Seerah, early Islamic history, and the chronicles of the Mamluk period, it is an indispensable primary source. His al-Bidaya preserves a vast quantity of historical material from earlier works now lost and has been used by every subsequent Islamic historian.\n\nIn hadith, Ibn Kathir wrote Jami' al-Masanid wa al-Sunan — a synthesis of eight major hadith collections — and a biography of the Prophet ﷺ (al-Sirah al-Nabawiyyah, extracted from al-Bidaya) that remains widely read. In fiqh he was committed to the Shafi'i school while demonstrating in his fatwas the influence of Ibn Taymiyyah's methodology of direct engagement with the texts.\n\nHe lost his eyesight in the final years of his life and died in Damascus in 774 AH (1373 CE). He was buried near his teacher Ibn Taymiyyah in the Sufi cemetery at Bab al-Nasr.",
+  "key_works": [
+    "Tafsir al-Quran al-Azim (Tafsir Ibn Kathir — 4–8 volumes)",
+    "al-Bidaya wa al-Nihaya (universal history — 14–21 volumes)",
+    "al-Sirah al-Nabawiyyah (Prophetic biography)",
+    "Jami' al-Masanid wa al-Sunan (hadith compilation)",
+    "Tabaqat al-Shafi'iyyah (Shafi'i scholars' biographies)",
+    "al-Ijtihad fi Talab al-Jihad (on jihad)"
+  ],
+  "teachers": [
+    {"slug": "al-mizzi", "name": "Jamal al-Din al-Mizzi (hadith — father-in-law)"},
+    {"slug": "ibn-taymiyyah", "name": "Taqi al-Din Ibn Taymiyyah (aqeedah and methodology)"},
+    {"slug": "al-dhahabi", "name": "Shams al-Din al-Dhahabi"},
+    {"slug": "al-barzali", "name": "al-Hajjaj ibn al-Muzaffar al-Barzali"}
+  ],
+  "students": [
+    {"slug": "ibn-hajar-al-asqalani", "name": "Ibn Hajar al-Asqalani (indirect — studied with his generation)"},
+    {"slug": "ibn-rajab-al-hanbali", "name": "Ibn Rajab al-Hanbali"}
+  ],
+  "birthplace_slug": "majdal-busra",
+  "death_place_slug": "damascus",
+  "sources": [
+    "Ibn Hajar al-Asqalani, al-Durar al-Kaminah, Vol. 1",
+    "al-Dhahabi, Mu'jam al-Shuyukh (contemporary notice)",
+    "al-Suyuti, Tabaqat al-Huffaz",
+    "Ibn Qadi Shuhba, Tabaqat al-Shafi'iyyah",
+    "Ibn Hajar, Inba al-Ghumr, Vol. 1 (obituary notice)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

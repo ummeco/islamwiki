@@ -1,0 +1,26 @@
+{
+  "slug": "expedition-of-tabuk",
+  "title_en": "Expedition of Tabuk",
+  "title_ar": "غزوة تبوك",
+  "year_ah": 9,
+  "year_ce": 630,
+  "season": "summer",
+  "place_slug": "tabuk",
+  "phase": "madinan",
+  "summary": "The Expedition of Tabuk in Rajab of 9 AH was the final campaign personally led by the Prophet ﷺ. Undertaken in intense summer heat against a potential Byzantine advance, it was distinguished by the extraordinary generosity of the companions in financing it and by the trial of those who stayed behind without valid excuse — including the three whose stories were revealed in Surah al-Tawbah.",
+  "narrative": "Reports reached Madinah in the ninth year AH that the Byzantine Empire was massing a large force in the region of al-Sham, with Ghassanid allies, intending to strike at the Islamic state following the reversal at Mutah. The Prophet ﷺ made the unusual decision to announce the destination of the campaign openly — he typically kept expeditions' destinations secret — recognising that the distance, the summer heat, and the scale of the opponent required maximum preparation.\n\nThe campaign was launched in the hottest part of the Arab summer, during a period of severe drought and scarcity. The hardship was so great that this expedition is recorded in the sources as 'al-usrah' — the army of difficulty or hardship. Surah al-Tawbah (9:81) refers to those who refused the heat: 'Those who stayed behind rejoiced in staying behind the Messenger of Allah and disliked to strive with their wealth and their lives in the cause of Allah.'\n\nThe financing of the campaign revealed the depth of the companions' faith and generosity. The Prophet ﷺ appealed for donations and the response was extraordinary. Uthman ibn Affan ؓ — known for his wealth — equipped an entire regiment of 300 camels fully outfitted, along with 50 horses and a large sum of gold, which he poured into the Prophet's ﷺ lap. The Prophet ﷺ reportedly said: 'Nothing that Uthman does after today can harm him.' Abu Bakr al-Siddiq ؓ brought all that he owned — his entire household wealth — to the Prophet ﷺ. When asked what he had left for his family, he replied: 'Allah and His Messenger.' Umar ibn al-Khattab ؓ brought half his wealth. Abd al-Rahman ibn Awf, Talhah, and Sad ibn Abi Waqqas ؓ gave generously. Some of the poor companions came with small amounts of dates and were mocked by the munafiqun (hypocrites), provoking the revelation of 9:79.\n\nThe army — approximately 30,000 strong, the largest of any expedition of the Prophet's lifetime — marched to Tabuk, near the border of Byzantine territory. No Byzantine army materialised to meet them. The Prophet ﷺ camped at Tabuk for roughly twenty days, receiving the submission of regional rulers: Yuhanna ibn Rubah, the Christian ruler of Aylah (Aqaba), came and submitted, making a treaty and agreeing to pay the jizyah. The rulers of Jarba and Adhruh similarly submitted. The Prophet ﷺ issued them written documents of protection.\n\nIbn Hisham records that during the return journey, a group of hypocrites plotted to assassinate the Prophet ﷺ at a mountain pass by stampeding his camel off the edge at night. The Prophet ﷺ was warned by revelation, and Hudhayfa ibn al-Yaman ؓ, who was present, was informed of who they were — a secret he guarded closely. The plotters were not exposed publicly.\n\nThe most significant legacy of Tabuk in the Seerah is the account of the three truthful companions — Kab ibn Malik, Hilal ibn Umayyah, and Murarah ibn al-Rabi — who had no valid excuse for remaining behind but did so without hypocrisy, acknowledging their failure. The Prophet ﷺ, upon return, imposed a social boycott on them: no one in Madinah was to speak to them or their families. For fifty days they endured this isolation. Then the revelation came releasing them in 9:118: 'And the three who were left behind… until the earth, vast as it is, was constricted for them… then He turned to them.' Kab ibn Malik ؓ recorded this story himself in detail, preserved in Sahih al-Bukhari — one of the most vivid personal accounts in all of Seerah literature.",
+  "people_slugs": ["uthman-ibn-affan", "abu-bakr-al-siddiq", "umar-ibn-al-khattab", "kab-ibn-malik", "hudhayfa-ibn-al-yaman"],
+  "quranic_reference": ["9:25", "9:38-39", "9:81", "9:117-118"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Kitab al-Maghazi — Ghazwah Tabuk and story of Kab ibn Malik"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 4 — Ghazwah Tabuk",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Tabuk expedition",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 5 — Ghazwah Tabuk"
+  ],
+  "related_events": ["year-of-delegations", "battle-of-mutah", "conquest-of-makkah"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "battle-of-mutah",
+  "title_en": "Battle of Mutah",
+  "title_ar": "غزوة مؤتة",
+  "year_ah": 8,
+  "year_ce": 629,
+  "season": null,
+  "place_slug": "mutah",
+  "phase": "madinan",
+  "summary": "The Battle of Mutah in Jumada al-Ula of 8 AH was the first major engagement between the Muslims and a Byzantine-affiliated force. Three appointed commanders — Zayd ibn Harithah, Jafar ibn Abi Talib, and Abdullah ibn Rawahah — were killed in succession. Khalid ibn al-Walid took command and conducted a fighting withdrawal, saving the Muslim army. The Prophet ﷺ announced the deaths of all three in Madinah before the news arrived.",
+  "narrative": "The immediate cause of the Battle of Mutah was the killing of al-Harith ibn Umayr al-Azdi, a messenger dispatched by the Prophet ﷺ carrying a letter to the ruler of Busra. He was intercepted and executed by Shurahbil ibn Amr al-Ghassani, a governor under Byzantine suzerainty. The killing of a diplomatic messenger was a grave violation of the norms of the time, and the Prophet ﷺ responded by preparing a significant military expedition.\n\nThe Muslim force numbered approximately 3,000 men — the largest the Muslims had yet fielded. The Prophet ﷺ appointed three commanders in order: Zayd ibn Harithah ؓ, his freed slave and adopted son, was the first commander; if he fell, Jafar ibn Abi Talib ؓ, the Prophet's ﷺ cousin; if he fell, Abdullah ibn Rawahah ؓ, the poet of Madinah. If all three fell, the army was to choose its own commander. Ibn Hisham records that Abdullah ibn Rawahah expressed some reluctance and the Prophet ﷺ encouraged him.\n\nThe Muslim force advanced into the region of Balqa in what is today southern Jordan. They encountered not merely a Ghassanid force but a massive Byzantine army — estimates in the sources range from 100,000 to 200,000 men, though these numbers in classical accounts are often symbolic of 'overwhelming odds.' The actual Byzantine-Ghassanid coalition was certainly far larger than the Muslim force. When the Muslims realised the scale of the enemy, there was debate about whether to send to the Prophet ﷺ for reinforcements. Abdullah ibn Rawahah rallied the men with eloquent words: they were not fighting with numbers but with the same faith that had honoured them, and if they were killed they would be martyrs.\n\nThe battle was fierce and bloody. Zayd ibn Harithah ؓ fought until he fell clutching the standard. Jafar ibn Abi Talib ؓ seized it, continued fighting on horseback, then — when his horse was hamstrung — fought on foot until both his arms were severed holding the banner and he was killed. Ibn Kathir records that the Prophet ﷺ, in Madinah at the time, was shown this in a vision and wept. He described Jafar as having two wings in Paradise, stained with blood, by which he flew — hence Jafar's epithet 'Dhu al-Janahayn' (the one with two wings). Abdullah ibn Rawahah ؓ then took the standard and fought until he too was martyred.\n\nAt this point a companion named Thabit ibn Arqam ؓ held the flag and the companions agreed on Khalid ibn al-Walid ؓ, who had accepted Islam only months before. Al-Tabari records Khalid's tactical brilliance in the subsequent action: he rearranged the army's formations overnight so that fresh troops appeared on the flanks the next morning, and the Byzantines — apparently unsure whether reinforcements had arrived — hesitated. Khalid used this hesitation to execute a disciplined fighting withdrawal, extracting the Muslim force largely intact.\n\nThe Prophet ﷺ announced the deaths of Zayd, Jafar, and Abdullah ibn Rawahah to the companions in Madinah before any messenger from the battle arrived, weeping as he described what he saw. He called Khalid 'the sword of Allah' (Sayf Allah) — a title Khalid bore for the rest of his life. The Muslims who returned were initially met with some who threw dust at them, calling them 'those who fled.' The Prophet ﷺ defended them, saying they had retreated so they could fight again. The battle, though not a victory, demonstrated that the Muslim army could contend with a great power and withdraw in order — a significant military and psychological achievement.",
+  "people_slugs": ["zayd-ibn-harithah", "jafar-ibn-abi-talib", "abdullah-ibn-rawahah", "khalid-ibn-al-walid"],
+  "quranic_reference": [],
+  "hadith_references": [
+    "Sahih al-Bukhari, Kitab al-Maghazi — Battle of Mutah"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 3 — Battle of Mutah",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Mutah campaign",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Ghazwah Mutah and death of Jafar"
+  ],
+  "related_events": ["conquest-of-makkah", "umrat-al-qada"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

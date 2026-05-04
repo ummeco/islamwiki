@@ -1,0 +1,47 @@
+{
+  "slug": "ibn-majah",
+  "name_ar": "محمد بن يزيد بن ماجه القزويني",
+  "name_en": "Muhammad ibn Yazid ibn Majah al-Qazwini",
+  "epithet": "al-Imam al-Hafiz",
+  "kunya": "Abu Abdullah",
+  "birth_ah": 209,
+  "birth_ce": 824,
+  "death_ah": 273,
+  "death_ce": 887,
+  "era": "classical",
+  "category": ["scholars", "hadith", "tafsir"],
+  "madhhab": "shafii",
+  "summary": "Muhammad ibn Yazid ibn Majah al-Qazwini (209–273 AH) compiled the Sunan Ibn Majah, which was later counted as the sixth of the six canonical hadith collections (Kutub al-Sitta). His collection is the most debated of the six in terms of scholarly reception — it contains narrations not found in the other five collections, many of them sound, along with a significant number of weak and some fabricated traditions — and its admission into the canon reflects the scholarly valuation of its unique material alongside acknowledgment of its methodological limitations.",
+  "biography": "Muhammad ibn Yazid ibn Majah was born in Qazwin (in present-day Iran, northwest of Tehran) in 209 AH (824 CE). His surname 'Ibn Majah' — meaning 'son of Majah' — refers to his grandfather or an ancestor; the name Majah is reported by classical scholars to be of non-Arab (possibly Persian) origin. Qazwin was an established scholarly center in the third century AH, and Ibn Majah grew up in a tradition of scholarship before undertaking the extensive travels that were the standard path to hadith mastery in his era.\n\nHe traveled to Iraq, the Hijaz, Syria, Egypt, Khurasan, and the major scholarly centers of his time, studying with many of the leading transmitters of the third century. His teachers included Ali ibn Muhammad al-Tanafisi, Jubarah ibn al-Mughallis, Hisham ibn Ammar, Abu Bakr ibn Abi Shayba, and others who connected him to the chains of the previous generation. He studied with Abu Bakr ibn Abi Shayba — whose al-Musannaf is one of the most important early collections of hadith — and this likely influenced his own approach to comprehensive collection.\n\nAl-Dhahabi recorded that Ibn Majah was a reliable and trustworthy scholar (thiqah) in his own transmissions, a hafiz of high capacity, and a man of broad learning who also compiled a Tafsir of the Quran and a work of history. (Siyar A'lam al-Nubala', Vol. 13) The Tafsir and history are not extant, having been lost over the centuries.\n\nThe Sunan Ibn Majah was compiled according to the juristic organization typical of the sunan genre, arranging narrations by topic relevant to fiqh. The collection contains approximately 4,341 narrations. Its distinctive contribution is the material it preserves that is not found in the other five collections: approximately 1,339 narrations are considered unique to Ibn Majah — transmitted through chains not found in al-Bukhari, Muslim, Abu Dawud, al-Tirmidhi, or al-Nasa'i. Scholars have evaluated this unique material with particular care; a significant portion of it is sound or acceptable, providing important corroborating or supplementary evidence for legal and devotional practice.\n\nHowever, the Sunan Ibn Majah also contains a higher proportion of weak (da'if) and some fabricated (mawdu') narrations than the other five collections. Classical scholars were aware of this. Al-Busiri (d. 840 AH) compiled the Misbah al-Zujaja fi Zawa'id Ibn Majah — a work specifically identifying the additional material in Ibn Majah not found in the other five collections and grading it — which became an important reference for evaluating his unique narrations. Ibn al-Jawzi identified approximately thirty narrations in the Sunan that he considered fabricated, though later scholars disputed some of these assessments.\n\nThe Sunan Ibn Majah's eventual inclusion in the Kutub al-Sitta was not immediate or universal. Early scholars who spoke of 'the five books' (al-usul al-khamsa) meant the Sahihayn and the three Sunans (Abu Dawud, al-Tirmidhi, al-Nasa'i). Ibn Majah's Sunan was added as the sixth by later scholars, particularly Ibn al-Qattan al-Fasi and subsequently Ibn Tahir al-Maqdisi and others. Some classical scholars preferred the Muwatta' of Imam Malik or the Musnad of Ahmad as the sixth. The consensus that eventually settled on the Sunan Ibn Majah as the sixth canonical text reflects a judgment about the unique material it preserves rather than its overall methodological rigor.\n\nIbn Majah also compiled a Tafsir of the Quran — a comprehensive Quranic commentary — that was praised by contemporaries but has not survived. This loss means he is known almost exclusively through the Sunan, though he was a scholar of broader range. He died in Qazwin in 273 AH (887 CE) and was buried there. His work continues to be studied and taught as part of the standard Kutub al-Sitta curriculum across Islamic scholarly institutions worldwide.",
+  "key_works": [
+    "Sunan Ibn Majah (the sixth canonical hadith collection — ~4,341 narrations)",
+    "Tafsir al-Quran (Quranic commentary — not extant)",
+    "Kitab al-Tarikh (history — not extant)"
+  ],
+  "teachers": [
+    {"slug": "ali-ibn-muhammad-al-tanafisi", "name": "Ali ibn Muhammad al-Tanafisi"},
+    {"slug": "abu-bakr-ibn-abi-shayba", "name": "Abu Bakr ibn Abi Shayba"},
+    {"slug": "hisham-ibn-ammar", "name": "Hisham ibn Ammar"},
+    {"slug": "jubarah-ibn-al-mughallis", "name": "Jubarah ibn al-Mughallis"},
+    {"slug": "dawud-ibn-rashid", "name": "Dawud ibn Rashid"}
+  ],
+  "students": [
+    {"slug": "ibrahim-ibn-dinar-al-jarshi", "name": "Ibrahim ibn Dinar al-Jarshi"},
+    {"slug": "ibn-sibawayh-al-qazwini", "name": "Ahmad ibn Ibrahim ibn Sibawayh al-Qazwini"},
+    {"slug": "sulayman-ibn-yazid-al-qazwini", "name": "Sulayman ibn Yazid al-Qazwini"},
+    {"slug": "ali-ibn-ibrahim-al-qattan", "name": "Ali ibn Ibrahim ibn Salamah al-Qattan (primary transmitter of the Sunan)"}
+  ],
+  "birthplace_slug": "qazwin",
+  "death_place_slug": "qazwin",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 13",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 3",
+    "Ibn Khallikan, Wafayat al-A'yan",
+    "al-Busiri, Misbah al-Zujaja fi Zawa'id Ibn Majah (critical evaluation of unique material)",
+    "Ibn Hajar al-Asqalani, Tahdhib al-Tahdhib, Vol. 9",
+    "al-Mizzi, Tahdhib al-Kamal fi Asma al-Rijal"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

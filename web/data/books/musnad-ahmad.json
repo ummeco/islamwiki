@@ -1,0 +1,24 @@
+{
+  "slug": "musnad-ahmad",
+  "title_en": "Musnad Ahmad ibn Hanbal",
+  "title_ar": "مسند أحمد بن حنبل",
+  "title_full_ar": "مسند الإمام أحمد بن محمد بن حنبل الشيباني",
+  "author_slug": "ahmad-ibn-hanbal",
+  "subject": "hadith",
+  "subjects": ["hadith", "athari-aqeedah", "hanbali-fiqh"],
+  "language": "ar",
+  "year_compiled_ah": 241,
+  "year_compiled_ce": 855,
+  "summary": "The Musnad of Imam Ahmad ibn Hanbal (164–241 AH / 780–855 CE) is one of the largest and most important hadith collections in Islam, containing approximately 27,000–30,000 narrations (with repetitions). Unlike the Sunans, it is organised by the name of the Companion who transmitted each narration, making it a primary reference for tracing hadith to their Companion sources and an essential tool in hadith research.",
+  "overview": "Imam Ahmad ibn Muhammad ibn Hanbal al-Shaybani was born in Baghdad in 164 AH and died there in 241 AH. He is the founder of the Hanbali school of jurisprudence and is considered one of the four great Imams of Sunni Islam. As a hadith scholar, he had few equals: he reportedly memorised over one million hadith with their isnads and was a student of Imam al-Shafi'i, Yahya ibn Said al-Qattan, Ibn Uyayna, and many others. His unwavering defence of the orthodox position during the Mu'tazilite Mihna (inquisition) over the createdness of the Qur'an under Abbasid caliphs al-Ma'mun and al-Mu'tasim — during which he was imprisoned and flogged — made him a symbol of Sunni orthodoxy.\n\nImam Ahmad compiled the Musnad from a much larger collection of narrations he had gathered over his lifetime. He reportedly told his son Abdullah: 'Preserve this Musnad — it will be the imam of the people after them.' The work contains between 27,000 and 30,000 narrations depending on the count, with a significant number of repetitions (the unique count is estimated around 10,000–15,000). Unlike collections organised thematically (by legal topic) or by quality of chain, a musnad is organised by Companion: all narrations attributed to Abu Bakr al-Siddiq are grouped together, then those of Umar, then Uthman, then Ali, then the ten promised paradise, and so on through the remaining Companions and Companion-women.\n\nThis organisation makes the Musnad an invaluable reference for answering the question 'What did a particular Companion narrate from the Prophet ﷺ?' It is also frequently consulted to find narrations not present in the Kutub al-Sittah, as the Musnad includes a large body of material found nowhere else. The hadith quality ranges from sahih through hasan and da'if; unlike the Kutub al-Sittah, the Musnad does not claim to contain only authenticated narrations, though scholars have found the majority sound.\n\nAfter Imam Ahmad's death, his son Abdullah (d. 290 AH) revised the work, adding approximately 10,000 narrations from his own notebooks that his father had not formally included — these additions are distinguished as 'Abdullah's additions' (ziyyadat Abdullah). A further 40-odd narrations were added by Abu Bakr al-Qati'i (d. 368 AH), the transmitter of the work from Abdullah.\n\nThe most authoritative modern edition is the Mu'assasat al-Risalah edition (Beirut, 50 volumes, completed 2001), edited and authenticated by Shu'ayb al-Arnaout and a team of researchers over twenty-seven years. This edition grades every hadith individually using classical hadith methodology and is the standard scholarly reference. An earlier edition by Ahmad Muhammad Shakir (d. 1958 CE) authenticated a portion of the Musnad and is also highly regarded.\n\nImam Ahmad's Musnad is also important for Hanbali fiqh: when a ruling is traced to Imam Ahmad's school, scholars frequently consult the Musnad to understand which narrations he relied upon. The work is thus both a hadith collection and a window into Imam Ahmad's legal reasoning.\n\nNo complete classical commentary exists in the manner of Fath al-Bari for al-Bukhari; the Mu'assasat al-Risalah edition provides extensive takhrij (authentication) notes that function as a partial commentary. The Musnad is available online through shamela.ws and in print from multiple publishers.",
+  "structure": "Organised by Companion, approximately 27,000–30,000 narrations with repetitions; unique count estimated 10,000–15,000",
+  "translations": [
+    {"language": "en", "translator": "Partial — various scholars", "status": "partial"}
+  ],
+  "available_at": [
+    "sunnah.com/ahmad",
+    "shamela.ws"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "ibn-rajab",
+  "name_ar": "ابن رجب الحنبلي",
+  "name_en": "Ibn Rajab al-Hanbali",
+  "epithet": "Hafiz, Faqih, Master of Hadith Commentary in the Hanbali Tradition",
+  "kunya": "Abu al-Faraj",
+  "birth_ah": 736,
+  "birth_ce": 1335,
+  "death_ah": 795,
+  "death_ce": 1393,
+  "era": "classical_late",
+  "category": ["scholars", "hadith", "fiqh", "hanbali", "tazkiyah"],
+  "madhhab": "hanbali",
+  "summary": "Ibn Rajab al-Hanbali (736–795 AH) was a leading hadith scholar and Hanbali jurist of Damascus, renowned for his deep, spiritually rich hadith commentaries and his encyclopedic knowledge of the Hanbali school. His Jami' al-'Ulum wal-Hikam, a commentary on forty-two selected hadith, and his Fath al-Bari (commentary on Bukhari, separate from Ibn Hajar's) are among the most celebrated works of their kind in the Islamic scholarly tradition.",
+  "biography": "Abd al-Rahman ibn Ahmad ibn Rajab al-Hanbali was born in Baghdad in 736 AH (1335 CE) but grew up and lived primarily in Damascus, the other great center of Hanbali scholarship in the fourteenth century AH. His father Ahmad ibn Rajab was himself a hadith scholar, and the young Abd al-Rahman grew up immersed in the hadith sciences from childhood.\n\nHe studied under the leading scholars of his era in Damascus and Jerusalem. His most important teachers included the Shafi'i-Hanbali hadith master Ibn Qayyim al-Jawziyya — the celebrated student of Ibn Taymiyya, who died when Ibn Rajab was around fifteen years old — as well as Zayn al-Din al-'Iraqi in Cairo, who was one of the foremost hadith critics of the eighth century AH. He also studied under Ibrahim ibn Ahmad al-Wasiti, Muhammad ibn Isma'il al-Khabaazi, and other senior scholars. (al-Dhahabi, Mu'jam al-Shuyukh; Ibn al-'Imad, Shadharat al-Dhahab, Vol. 6)\n\nIbn Rajab's scholarship has a distinctive quality: it combines encyclopedic hadith knowledge with a profoundly spiritual orientation. His works are not merely technical treatises but are characterized by a sustained concern with the inner dimensions of worship, tawakkul (reliance on God), tawbah (repentance), and the preparation for death. This integration of rigorous hadith scholarship with spiritual depth made him highly valued not only by specialists but by readers seeking to deepen their religious life.\n\nHis most read work today is Jami' al-'Ulum wal-Hikam, a commentary on forty-two hadith selected as comprehensive statements of the religion. The original forty hadith of Imam al-Nawawi are the first forty; Ibn Rajab added two more to reach forty-two. The commentary expands on the legal, theological, and spiritual dimensions of each hadith, drawing on the full range of classical scholarship. It is taught in traditional institutions worldwide.\n\nHis Fath al-Bari fi Sharh Sahih al-Bukhari is a partial commentary on Bukhari, covering the first few books before the manuscript breaks off. Despite its incompleteness, it is recognized as a work of remarkable depth — distinct from Ibn Hajar's later Fath al-Bari (also on Bukhari) and in some respects complementary to it. Scholars have noted that Ibn Rajab's Fath shows particular strength in the areas of hadith 'ilal (hidden defects), isnad analysis, and legal derivation.\n\nIn Hanbali jurisprudence, his al-Qawa'id al-Fiqhiyyah (Legal Maxims) is a foundational reference on the general principles governing Hanbali law, and his Dhayl Tabaqat al-Hanabilah (a biographical supplement to Ibn Abi Ya'la's tabaqat) extended the record of Hanbali scholars up to his own era — an irreplaceable source for the history of the Hanbali school.\n\nHis Lata'if al-Ma'arif lists the special acts of worship associated with the Islamic months and seasons — another work that integrates hadith scholarship with the practical spiritual life of the Muslim community. His Kashf al-Kurba fi Wasf Ahl al-Ghurba, on the station of the 'strangers' (ghuraba') mentioned in hadith, belongs to the same spiritually oriented genre.\n\nHe lived in Damascus as a teacher and scholar, avoiding official positions and living simply. He died in Damascus in 795 AH (1393 CE). Al-Dhahabi described him (in works written before Ibn Rajab reached his full maturity) as a hafiz of great thoroughness, and later biographical sources uniformly praise him as one of the foremost scholars of his generation in the hadith sciences.",
+  "key_works": [
+    "Jami' al-'Ulum wal-Hikam (commentary on 42 hadith — widely taught)",
+    "Fath al-Bari fi Sharh Sahih al-Bukhari (partial commentary)",
+    "Dhayl Tabaqat al-Hanabilah (biographical supplement to Hanbali tabaqat)",
+    "al-Qawa'id al-Fiqhiyyah (Hanbali legal maxims)",
+    "Lata'if al-Ma'arif (seasonal acts of worship)",
+    "Kashf al-Kurba fi Wasf Ahl al-Ghurba (on the 'strangers' of the Sunnah)",
+    "Sharh 'Ilal al-Tirmidhi (commentary on al-Tirmidhi's treatise on hadith defects)"
+  ],
+  "teachers": [
+    {"slug": "ibn-qayyim-al-jawziyya", "name": "Ibn Qayyim al-Jawziyya (studied under him briefly)"},
+    {"slug": "zayn-al-din-al-iraqi", "name": "Zayn al-Din al-'Iraqi (hadith in Cairo)"},
+    {"slug": "ibrahim-al-wasiti", "name": "Ibrahim ibn Ahmad al-Wasiti"},
+    {"slug": "ibn-al-qayyim-lineage", "name": "Scholars of the Hanbali Damascus circle"}
+  ],
+  "students": [
+    {"slug": "ibn-muflih-al-hanbali", "name": "Ibn Muflih al-Hanbali (peer, same generation)"},
+    {"slug": "later-hanbali-scholars", "name": "Later Hanbali scholars through his works"}
+  ],
+  "birthplace_slug": "baghdad",
+  "death_place_slug": "damascus",
+  "sources": [
+    "Ibn al-'Imad, Shadharat al-Dhahab, Vol. 6 (biography)",
+    "Ibn Hajar al-'Asqalani, al-Durar al-Kaminah, Vol. 2",
+    "al-Zirikli, al-A'lam, Vol. 3",
+    "Bakr Abu Zayd, Ibn Rajab al-Hanbali (modern monograph)",
+    "Introduction to Dhayl Tabaqat al-Hanabilah (modern editors' biography)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

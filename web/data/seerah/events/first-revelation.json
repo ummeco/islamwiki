@@ -1,0 +1,35 @@
+{
+  "slug": "first-revelation",
+  "title_en": "The First Revelation",
+  "title_ar": "نزول الوحي الأول",
+  "year_ah": null,
+  "year_ce": 610,
+  "season": "summer",
+  "place_slug": "cave-of-hira",
+  "phase": "meccan-early",
+  "summary": "At the age of forty, while in seclusion in the Cave of Hira on the Mountain of Light (Jabal al-Nur) outside Makkah, Muhammad ﷺ received the first revelation of the Quran from the angel Jibril (AS), marking the beginning of his prophethood and the commencement of the final divine message to humanity.",
+  "narrative": "By his fortieth year, Muhammad ﷺ had developed a regular practice of retreating to the Cave of Hira — a small cave on the summit of Jabal al-Nur, about three miles north of Makkah — for extended periods of solitary worship and contemplation. This practice, known as tahannuth, involved staying for days at a time in meditation and devotion. Ibn Hisham notes that he would provision himself for these retreats and return to Khadijah (RA) when his supplies ran out, before returning to the mountain.\n\nIn the month of Ramadan — the 17th night according to some scholars, though other dates including the 21st and 24th are also reported — the angel Jibril (AS) came to Muhammad ﷺ in the cave. The full account is preserved in the most authoritative narration, recorded in Sahih al-Bukhari and Sahih Muslim, narrated by Aisha (RA) on the authority of what the Prophet ﷺ himself and Khadijah (RA) reported.\n\nJibril embraced him with great force and commanded: 'Iqra' — 'Read' or 'Recite.' The Prophet ﷺ replied: 'I cannot read.' Jibril released him, then embraced him again, then a third time, then said: 'Recite in the name of your Lord who created. Created man from a clinging substance. Recite, and your Lord is the Most Generous, Who taught by the pen, taught man that which he knew not.' (Quran 96:1-5)\n\nThese five ayat — the opening of Surah al-Alaq — are by scholarly consensus the first verses of the Quran to be revealed. Ibn Kathir notes in al-Bidayah wal-Nihayah that the Prophet ﷺ descended from the mountain with his heart trembling intensely, and went directly to Khadijah (RA). He told her: 'Cover me, cover me' — and she covered him until his fear subsided. He then described what had happened and said: 'I feared for myself.' Khadijah (RA) responded with words of profound steadiness that have become among the most celebrated in all of Islamic history: 'No, by Allah, Allah will never disgrace you. You maintain family ties, you bear the burdens of others, you give to the poor what they cannot find for themselves, you honor your guests, and you support people against the wrongs of others.'\n\nKhadijah (RA) then took the Prophet ﷺ to her cousin Waraqah ibn Nawfal — an elderly man who had converted to Christianity and had knowledge of the earlier scriptures. Waraqah recognized the description immediately: 'This is the Namus — the angel who came to Musa.' He affirmed that Muhammad ﷺ was the prophet of this nation and expressed grief that he would not live to support him when his people drove him out. The Prophet ﷺ asked: 'Will they drive me out?' Waraqah replied: 'Yes. No man has ever brought what you have brought except that he was treated with enmity.' Waraqah died shortly afterward.\n\nFollowing this event, revelation paused for a period — the fatra, or interlude — before resuming with Surah al-Muddaththir. The pause caused the Prophet ﷺ distress, which Allah addressed in several subsequent revelations. Al-Tabari and Ibn Hisham both record accounts indicating the Prophet ﷺ was at times deeply troubled during the fatra. Then revelation resumed, and the mission commenced in earnest.",
+  "people_slugs": ["khadijah-bint-khuwaylid", "waraqah-ibn-nawfal", "jibril"],
+  "quranic_reference": ["96:1-5", "74:1-5", "53:1-18"],
+  "hadith_references": [
+    {
+      "collection": "Sahih al-Bukhari",
+      "book": "Kitab Bad' al-Wahy",
+      "number": "3",
+      "text_en": "Aisha (RA) narrated: The first thing that was revealed to the Prophet ﷺ was a righteous vision in his sleep... then seclusion was made dear to him... then the angel came to him while he was in the cave of Hira and said 'Recite.'",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Sahih al-Bukhari, Kitab Bad' al-Wahy, Hadith 3",
+    "Sahih Muslim, Kitab al-Iman, Hadith 160",
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — The Beginning of Prophethood",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Beginning of Revelation",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — The First Revelation",
+    "Ibn Kathir, Tafsir al-Quran al-Adhim — Surah al-Alaq (96)"
+  ],
+  "related_events": ["birth-of-the-prophet", "early-private-dawah"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

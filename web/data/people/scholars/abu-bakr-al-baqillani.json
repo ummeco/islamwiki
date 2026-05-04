@@ -1,0 +1,46 @@
+{
+  "slug": "abu-bakr-al-baqillani",
+  "name_ar": "أبو بكر الباقلاني",
+  "name_en": "Abu Bakr al-Baqillani",
+  "epithet": "Sayf al-Sunnah (Sword of the Sunnah), Consolidator of Ash'ari Kalam",
+  "kunya": "Abu Bakr",
+  "birth_ah": 338,
+  "birth_ce": 950,
+  "death_ah": 403,
+  "death_ce": 1013,
+  "era": "classical",
+  "category": ["scholars", "aqeedah", "ashari", "kalam", "usul"],
+  "madhhab": "maliki",
+  "summary": "Abu Bakr al-Baqillani (338–403 AH) was the foremost theologian of the Ash'ari school after al-Ash'ari himself and is credited with systematizing and consolidating Ash'ari kalam into a coherent scholarly tradition. His al-Tamhid and al-Insaf were foundational texts for generations of Muslim theologians. The Ash'ari school, of which he was a leading exponent, is recognized as part of Ahl al-Sunnah wal-Jama'ah within the mainstream Sunni scholarly tradition.",
+  "biography": "Muhammad ibn al-Tayyib ibn Muhammad al-Baqillani was born around 338 AH (950 CE) in Basra in southern Iraq. He later settled in Baghdad, the intellectual capital of the Abbasid caliphate, where he emerged as the leading representative of the Ash'ari theological school in the generation after its founder, Abu al-Hasan al-Ash'ari (d. 324 AH).\n\nHe studied jurisprudence according to the Maliki school and theology according to the method al-Ash'ari had established — a method that sought to defend the core doctrines of Ahl al-Sunnah using the tools of rational argumentation (kalam) while remaining anchored in Quranic and prophetic sources. Al-Baqillani took this methodology and refined it, building a comprehensive theological system that addressed the major challenges of his era: the Mu'tazilite rationalism that had dominated intellectual discourse for over a century, the philosophical theology of the Shia Ismailis, and the Christian theological tradition that Muslim scholars encountered in the Byzantine sphere. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 17)\n\nHis most celebrated work is al-Tamhid (The Introduction), a systematic presentation of Ash'ari kalam that covers atomism, the proof of the existence of God, divine attributes, prophethood, and the imamate. This work circulated widely and became a standard reference in theological education across the Shafi'i and Maliki madhhabs, both of which historically aligned closely with Ash'ari theology. His al-Insaf dealt with the attributes of God and responded to Mu'tazilite denials, while his I'jaz al-Quran (The Inimitability of the Quran) made an influential case for the miraculous nature of Quranic language.\n\nHe was deployed diplomatically by the Abbasid caliph al-Ta'i as an envoy to the Byzantine emperor, reportedly engaging Christian theologians in debate and acquitting himself impressively. His willingness to engage rival traditions on their own intellectual terms — while defending Sunni positions rigorously — earned him the title Sayf al-Sunnah (Sword of the Sunnah) among his contemporaries.\n\nIn Baghdad he taught large circles of students who carried the Ash'ari tradition into the next generation. His influence on al-Juwayni, who in turn taught al-Ghazali, means that al-Baqillani stands at the head of a direct chain of Ash'ari transmission that shaped Islamic theological education for centuries.\n\nIt should be noted clearly: the Ash'ari school is recognized within this platform as part of Ahl al-Sunnah wal-Jama'ah. Al-Baqillani and the scholars of his tradition affirmed the divine attributes, accepted the prophethood of Muhammad (SAW), and held to the central doctrines of Sunni Islam. Their use of rational argumentation (kalam) was a methodological choice for defending the faith, not a departure from it. The majority of the historical ummah followed Ash'ari or Maturidi theology; this is a well-established fact of Islamic intellectual history.\n\nHe died in Baghdad in 403 AH (1013 CE). Al-Dhahabi wrote: 'He was the imam of the mutakallimun of Ahl al-Sunnah, the master of debate and argumentation, without rival in his generation in the science of kalam.' (Siyar A'lam al-Nubala', Vol. 17, p. 190)",
+  "key_works": [
+    "al-Tamhid fil-Radd 'ala al-Mulhidah wal-Mu'attilah (systematic Ash'ari kalam)",
+    "al-Insaf fima Yajibu I'tiqaduh (on divine attributes, against Mu'tazilah)",
+    "I'jaz al-Quran (inimitability of the Quran — major work)",
+    "al-Bayan 'an al-Farq bayna al-Mu'jizat wal-Karamat",
+    "Kitab al-Tamhid (on the foundations of religion)"
+  ],
+  "teachers": [
+    {"slug": "abu-al-hasan-al-ashari", "name": "Students of Abu al-Hasan al-Ash'ari (transmitted the school)"},
+    {"slug": "ibn-mujahid-al-tai", "name": "Abu Bakr ibn Mujahid (Maliki fiqh)"},
+    {"slug": "abu-al-hasan-al-bahili", "name": "Abu al-Hasan al-Bahili (direct Ash'ari chain)"}
+  ],
+  "students": [
+    {"slug": "al-juwayni", "name": "Imam al-Juwayni (Imam al-Haramayn)"},
+    {"slug": "ibn-furak", "name": "Ibn Furak"},
+    {"slug": "al-isfarayini", "name": "Abu Ishaq al-Isfarayini"},
+    {"slug": "al-qadi-abd-al-wahhab", "name": "al-Qadi 'Abd al-Wahhab al-Maliki"}
+  ],
+  "birthplace_slug": "basra",
+  "death_place_slug": "baghdad",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 17 (extensive biography)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 4",
+    "al-Subki, Tabaqat al-Shafi'iyya al-Kubra, Vol. 5",
+    "Ibn al-'Imad, Shadharat al-Dhahab, Vol. 3",
+    "al-Qadi 'Iyad, Tartib al-Madarik"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

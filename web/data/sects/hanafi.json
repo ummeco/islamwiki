@@ -1,0 +1,16 @@
+{
+  "slug": "hanafi",
+  "name_en": "Hanafi Madhab",
+  "name_ar": "المذهب الحنفي",
+  "parent_slug": "sunni",
+  "children_slugs": [],
+  "founded_ah": 150,
+  "founded_ce": 767,
+  "key_figures_slugs": ["abu-hanifa","abu-yusuf","muhammad-ibn-al-hasan-al-shaybani","al-marghinani","ibn-abidin"],
+  "summary": "The Hanafi school is one of the four major Sunni legal schools (madhabs), founded by Imam Abu Hanifa al-Nu'man ibn Thabit (d. 150 AH / 767 CE) of Kufa. It is the largest madhab by number of followers and historically dominated the Ottoman, Mughal, and Central Asian legal traditions.",
+  "overview": "The Hanafi school (Arabic: al-Madhhab al-Hanafi) is named after its founder, Imam Abu Hanifa al-Nu'man ibn Thabit (d. 150 AH / 767 CE), widely known as 'al-Imam al-A'zam' (the Greatest Imam) by his followers. Abu Hanifa established his school in Kufa, Iraq, where he developed a distinctive methodology that gave significant weight to analogical reasoning (qiyas) and juristic preference (istihsan) alongside Quran and Sunnah.\n\nThe Hanafi methodology is characterized by a systematic use of reason within the framework of Islamic sources. When a clear text (nas) from the Quran or a sahih hadith addresses an issue, the Hanafi school follows it. In cases not directly addressed by text, or where the chain of a hadith is weaker, the school relies more heavily on qiyas and the consensus of scholars than some other madhabs. This approach led to occasional differences with hadith specialists of the same era, though later Hanafi scholars integrated more hadith scholarship into the tradition.\n\nThe Hanafi school spread through the Abbasid caliphate, where Abu Yusuf (Abu Hanifa's student) served as the first official Chief Justice (Qadi al-Qudat) and established Hanafi fiqh as the official law of the state. Through the Ottoman Empire's legal system, Hanafi law governed much of the Muslim world for centuries. Today, the Hanafi school is followed by the majority of Muslims in Turkey, Central Asia, South Asia (Pakistan, India, Bangladesh, Afghanistan), and significant parts of the Arab world.\n\nKey texts of the school include al-Mabsut by al-Sarakhsi (d. 483 AH), al-Hidayah by al-Marghinani (d. 593 AH) — arguably the most studied Hanafi fiqh text in history — and Radd al-Muhtar by Ibn Abidin (d. 1252 AH / 1836 CE), the authoritative late-Ottoman compendium.\n\nAll four madhabs are presented equally on islam.wiki. No school is ranked above another. Differences in fiqh between schools represent legitimate scholarly diversity and not correctness vs. error.",
+  "status": "sunni-mainstream",
+  "disclaimer_tier": 0,
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

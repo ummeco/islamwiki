@@ -1,0 +1,43 @@
+{
+  "slug": "al-shatibi",
+  "name_ar": "إبراهيم بن موسى الشاطبي",
+  "name_en": "Imam al-Shatibi",
+  "epithet": "Imam of Maqasid al-Shari'ah (Objectives of Islamic Law)",
+  "kunya": "Abu Ishaq",
+  "birth_ah": null,
+  "birth_ce": null,
+  "death_ah": 790,
+  "death_ce": 1388,
+  "era": "classical_late",
+  "category": ["scholars", "fiqh", "usul", "maliki", "maqasid"],
+  "madhhab": "maliki",
+  "summary": "Imam al-Shatibi (d. 790 AH) was a Maliki jurist of Granada whose al-Muwafaqat fi Usul al-Shari'ah is the foundational text on the theory of maqasid al-shari'ah — the objectives and purposes of Islamic law. His systematic articulation of the five essential objectives protected by shari'ah (life, intellect, lineage, property, and religion) transformed Islamic legal theory and continues to shape scholarship in Islamic law and ethics. His al-I'tisam on bid'ah (religious innovation) is another standard reference.",
+  "biography": "Ibrahim ibn Musa ibn Muhammad al-Lakhmi al-Gharnati, known as al-Shatibi, was born in Granada (Gharnata) in Andalusia at an unknown date in the mid-eighth century AH. His exact birth year is not recorded in the classical sources, which is unusual for a scholar of his stature and likely reflects the disrupted conditions of Andalusia in its final Islamic centuries. He lived and died in Granada, which was at the time the capital of the Nasrid kingdom — the last Muslim-ruled territory in the Iberian Peninsula.\n\nHe studied the Maliki school of jurisprudence and its theoretical foundations (usul al-fiqh) under leading scholars in Granada, and he also engaged deeply with Arabic linguistics, which informed the philological approach he brought to legal theory. His teachers included Abu Sa'id ibn Lubb, Abu 'Abd Allah al-Maqqari, and Muhammad ibn Ahmad al-Sharif al-Tilimsani — scholars who represented the continuation of the western Islamic scholarly tradition in Andalusia and North Africa. (al-Maqrizi and later sources on Andalusian scholars; al-Dhahabi's Siyar does not cover him, as he died in 790 AH)\n\nAl-Shatibi's intellectual contribution is concentrated in two major works of unusual originality. The first, al-Muwafaqat fi Usul al-Shari'ah (The Reconciliation of the Foundations of Islamic Law), is his systematic treatise on the purposes and objectives of Islamic law. While earlier jurists had discussed maqasid in passing, al-Shatibi produced the first comprehensive and philosophically rigorous treatment. He argued that all shari'ah rulings, whether derived from the Quran, Sunnah, consensus, or analogical reasoning, aim to preserve and advance five essential human interests: religion (al-din), life (al-nafs), intellect (al-'aql), lineage (al-nasl), and property (al-mal). Rulings that protect these objectives are obligatory; practices that threaten them are prohibited. This framework provided Islamic law with a coherent purposive theory and offered a principled basis for dealing with novel situations.\n\nThe implications of al-Shatibi's maqasid theory for Islamic legal methodology have been enormous. Modern Islamic legal scholarship — including debates on fiqh al-aqalliyyat (jurisprudence for Muslim minorities), bioethics, environmental law, and economic justice — routinely invokes al-Muwafaqat as a foundational reference. Scholars of every major madhhab have engaged with his framework.\n\nHis second major work, al-I'tisam (The Holding Fast), is a comprehensive treatment of bid'ah (religious innovation). Al-Shatibi defines bid'ah precisely, distinguishes its categories, and presents a systematic defense of the principle that religious practice must have its basis in the Quran and Sunnah and the practice of the Salaf — not in cultural accretion or later invention. The work is notable for its precision and its careful engagement with counterarguments. It remains a standard reference in discussions of bid'ah across the Sunni scholarly tradition.\n\nAl-Shatibi also wrote Kitab al-Ifadat wal-Inshadat, a collection of poems and literary correspondence, demonstrating that his scholarly range extended to adab (belles-lettres) alongside law and theology.\n\nHe died in Granada in 790 AH (1388 CE). His works were not widely circulated during his lifetime — the isolation of late Andalusia from the main centers of Islamic scholarship in Cairo and Damascus meant that al-Muwafaqat and al-I'tisam gained their full recognition only when they reached scholars in the East in later centuries.",
+  "key_works": [
+    "al-Muwafaqat fi Usul al-Shari'ah (4 vols., foundational text on maqasid and legal theory)",
+    "al-I'tisam (2 vols., comprehensive treatment of bid'ah and adherence to Sunnah)",
+    "Kitab al-Ifadat wal-Inshadat (poetry and literary correspondence)",
+    "Fatawa al-Shatibi (legal opinions)"
+  ],
+  "teachers": [
+    {"slug": "abu-said-ibn-lubb", "name": "Abu Sa'id ibn Lubb"},
+    {"slug": "abu-abd-allah-al-maqqari", "name": "Abu 'Abd Allah al-Maqqari"},
+    {"slug": "muhammad-al-sharif-al-tilimsani", "name": "Muhammad ibn Ahmad al-Sharif al-Tilimsani"}
+  ],
+  "students": [
+    {"slug": "ibn-asim-al-gharnati", "name": "Ibn 'Asim al-Gharnati (transmitted his works)"},
+    {"slug": "later-maliki-scholars", "name": "Later Maliki scholars through his posthumously circulated works"}
+  ],
+  "birthplace_slug": "granada",
+  "death_place_slug": "granada",
+  "sources": [
+    "al-Maqrizi, Durar al-'Uqud al-Farida (biography notes)",
+    "Ibn al-'Imad, Shadharat al-Dhahab, Vol. 6",
+    "al-Wansharisi, al-Mi'yar al-Mu'rib (references his opinions)",
+    "Ahmad Baba al-Timbukti, Nayl al-Ibtihaj",
+    "al-Zirikli, al-A'lam, Vol. 1"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

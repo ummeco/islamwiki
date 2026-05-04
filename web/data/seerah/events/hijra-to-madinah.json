@@ -1,0 +1,34 @@
+{
+  "slug": "hijra-to-madinah",
+  "title_en": "The Hijra to Madinah",
+  "title_ar": "الهجرة إلى المدينة",
+  "year_ah": 1,
+  "year_ce": 622,
+  "season": "autumn",
+  "place_slug": "madinah",
+  "phase": "madinan-early",
+  "summary": "The migration of the Prophet ﷺ and the Muslims from Makkah to Madinah in 622 CE marks the founding event of the first Muslim community-state and the beginning of the Islamic calendar (Hijri), establishing Madinah as the center of the Muslim world.",
+  "narrative": "The Hijra — the migration — was not a sudden flight but a carefully managed movement of an entire community over an extended period. Most Muslims had already migrated to Madinah in advance; the Prophet ﷺ himself was among the last to leave Makkah, remaining to fulfill obligations and ensure his flock was safe.\n\nThe Quraysh, recognizing that the loss of the Prophet ﷺ to a new political base in Madinah would end their ability to suppress Islam, convened an emergency council at Dar al-Nadwah. Ibn Hisham records that they debated multiple options — imprisonment, exile, or assassination — and ultimately settled on assassination: representatives of each clan would strike simultaneously so that blood guilt would be diffused and Banu Hashim could not seek revenge from any single clan. This is alluded to in the Quran: 'And remember when the disbelievers plotted against you to imprison you, kill you, or expel you...' (8:30).\n\nAllah informed the Prophet ﷺ of the plan through Jibril (AS). On the agreed night of departure, the Prophet ﷺ asked Ali ibn Abi Talib (RA) to sleep in his bed wrapped in his green mantle, so that the assassins watching his house would believe he was still there. Ali (RA) agreed without hesitation — an act of extraordinary courage that classical scholars including Ibn Hisham and Ibn Kathir highlight as among Ali's most remarkable services to Islam. The Prophet ﷺ walked out past the assembled assassins, reciting the opening of Surah Ya-Sin: 'And We have set a barrier before them and a barrier behind them and covered them so that they do not see' (36:9), and scattered dust on their heads. They did not see him.\n\nThe Prophet ﷺ went directly to Abu Bakr (RA) and they departed together, heading south toward Taif before turning north — the opposite direction of Madinah — to confuse any pursuit. They hid for three days in the Cave of Thawr. Abu Bakr's son Abdullah gathered intelligence from Makkah daily, and his daughter Asma brought food at night, famously tearing her own waistband to secure the provisions — earning her the title Dhat al-Nitaqayn (She of the Two Waistbands). A spider's web and a bird's nest at the cave entrance reportedly convinced Quraysh searchers who reached the cave that no one could be inside — a narration recorded by Ibn Hisham though Ibn Hajar in Fath al-Bari notes it comes through weak chains.\n\nAllah honored Abu Bakr's companionship explicitly in the Quran: 'If you do not aid him, Allah has already aided him when the disbelievers drove him out, the second of two, when they were in the cave and he said to his companion: Do not grieve; indeed Allah is with us.' (9:40)\n\nAfter three days, the Prophet ﷺ and Abu Bakr (RA) set out with their guide Abdullah ibn Urayyqit along a coastal route. They arrived at Quba, on the outskirts of Madinah, on a Monday in Rabi' al-Awwal of 1 AH (approximately September 622 CE). There, the Prophet ﷺ established the first mosque in Islam — Masjid Quba, whose founding is referenced in Quran 9:108. After several days at Quba, the Prophet ﷺ entered Madinah proper, where the Ansar competed to host him. He let his camel Qaswa proceed at will and said it would stop wherever Allah directed; it stopped at the plot belonging to two orphan boys of the Banu al-Najjar, which was purchased and became the site of the Prophet's Mosque — Masjid al-Nabawi.",
+  "people_slugs": ["abu-bakr", "ali-ibn-abi-talib", "asma-bint-abi-bakr", "abu-hurayrah"],
+  "quranic_reference": ["8:30", "9:40", "9:108"],
+  "hadith_references": [
+    {
+      "collection": "Sahih al-Bukhari",
+      "book": "Kitab Manaqib al-Ansar",
+      "number": "3905",
+      "text_en": "The account of the Hijra narrated from Aisha (RA) including the departure from Makkah and arrival in Madinah.",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1-2 — The Hijra in Full Detail",
+    "Sahih al-Bukhari, Kitab Manaqib al-Ansar — The Hijra Narrations",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — The Migration to Madinah",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — The Hijra",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 1 — The Prophet's Migration"
+  ],
+  "related_events": ["pledges-of-aqaba", "battle-of-badr"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

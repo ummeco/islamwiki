@@ -1,0 +1,34 @@
+{
+  "slug": "battle-of-uhud",
+  "title_en": "The Battle of Uhud",
+  "title_ar": "غزوة أحد",
+  "year_ah": 3,
+  "year_ce": 625,
+  "season": "spring",
+  "place_slug": "uhud",
+  "phase": "madinan-early",
+  "summary": "The Battle of Uhud in Shawwal 3 AH was a military engagement near the mountain of Uhud north of Madinah in which a Muslim force of approximately 700 faced a Qurayshi army of 3,000. An initial Muslim success was reversed when archers abandoned their position, allowing a Qurayshi cavalry charge that wounded the Prophet ﷺ and caused the death of seventy companions including Hamzah ibn Abd al-Muttalib (RA).",
+  "narrative": "Following the catastrophic defeat at Badr, the Quraysh had spent an entire year rebuilding their forces, driven by grief for their killed leaders and the determination to avenge them. Abu Sufyan assembled a force of approximately 3,000 men — including 700 armored warriors and 200 cavalry — with contingents from allied tribes. Notably, Hind bint Utbah, wife of Abu Sufyan and daughter of Utbah ibn Rabiah (killed at Badr), joined the expedition with other women to incite the men to fight by singing battle songs.\n\nIn Madinah, the Prophet ﷺ consulted his companions. The senior companions, including Abd Allah ibn Ubayy, advised staying in Madinah and fighting defensively from within the city. But the younger and more eager companions pressed for going out to meet the enemy, not wanting to appear cowardly. The Prophet ﷺ performed Friday prayer, then donned his armor — and once he was armed, the companions who had urged going out regretted pressuring him, saying they should defer to his judgment. The Prophet ﷺ said: 'It is not fitting for a prophet, once he has put on his armor, to take it off until Allah decides between him and his enemy.'\n\nThe Prophet ﷺ positioned his force of approximately 700 (Abd Allah ibn Ubayy turned back with 300 hypocrites at the last moment, leaving the Muslim force severely depleted) on the slopes below Uhud. He placed fifty archers under the command of Abd Allah ibn Jubayr (RA) on a strategic height (known as the Hill of Archers), with the explicit command: 'Do not leave your position whether we are winning or losing, even if you see birds eating our flesh.' Ibn Hisham records these words precisely.\n\nThe battle began favorably for the Muslims; the Qurayshi army was being pushed back. The Muslim archers, seeing the enemy in retreat and the camp being taken, concluded victory was achieved and descended against the explicit command of their leader to collect spoils. Only a handful remained. Khalid ibn al-Walid — then commanding Qurayshi cavalry and not yet a Muslim — seized this opening, circled around the hill, and charged into the Muslim rear. The tide of battle reversed catastrophically. The standard-bearer Musab ibn Umayr (RA) was killed. A false rumor spread that the Prophet ﷺ had been killed — causing many to flee. The Prophet ﷺ was wounded: a stone struck his face, cutting his lower lip, breaking one of his teeth, and piercing his cheek with a chain link from his helmet. Companions including Abu Dujanah, Talhah ibn Ubaydallah, and Sad ibn Abi Waqqas shielded him with their bodies.\n\nSeventy Muslims were martyred at Uhud, among them the beloved Hamzah ibn Abd al-Muttalib (RA) — the Prophet's uncle and one of the fiercest Muslim warriors, killed by a Javelin thrown by the Abyssinian slave Wahshi. Hind mutilated Hamzah's body, cutting open his chest and chewing on his liver in vengeance for her father. When the Prophet ﷺ saw Hamzah's body, he wept deeply. The Quran addressed the grief of the community and drew the essential lesson: 'What befell you on the day the two armies met was by Allah's permission, so that He might make evident who are the believers and who are the hypocrites.' (3:166). And: 'Do not lose heart nor grieve; you will be superior if you are indeed believers.' (3:139).",
+  "people_slugs": ["hamzah-ibn-abd-al-muttalib", "khalid-ibn-al-walid", "musab-ibn-umayr", "hind-bint-utbah", "abu-sufyan", "talhah-ibn-ubaydallah", "abd-allah-ibn-jubayr"],
+  "quranic_reference": ["3:121-180", "3:139", "3:166"],
+  "hadith_references": [
+    {
+      "collection": "Sahih al-Bukhari",
+      "book": "Kitab al-Maghazi",
+      "number": "4043",
+      "text_en": "The Prophet ﷺ said on the day of Uhud: 'This is Jibril holding the horse's reins.' Referring to the divine support that kept the enemy from annihilating the Muslims.",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — The Battle of Uhud",
+    "Sahih al-Bukhari, Kitab al-Maghazi — Uhud narrations",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Ghazwat Uhud",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Uhud in Detail",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2 — Martyrs of Uhud"
+  ],
+  "related_events": ["battle-of-badr", "battle-of-the-trench"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

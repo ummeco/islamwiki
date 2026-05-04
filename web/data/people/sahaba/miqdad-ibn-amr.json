@@ -1,0 +1,52 @@
+{
+  "slug": "miqdad-ibn-amr",
+  "name_ar": "الْمِقْدَادُ بْنُ عَمْرٍو",
+  "name_en": "al-Miqdad ibn Amr",
+  "epithet": "Fursan al-Islam (Knight of Islam)",
+  "kunya": "Abu Ma'bad",
+  "birth_ah": null,
+  "birth_ce": null,
+  "death_ah": 33,
+  "death_ce": 653,
+  "era": "sahaba",
+  "category": ["sahaba", "muhajirun"],
+  "tribe": "Banu Zuhra (by alliance); originally Kinda (Yemen)",
+  "role": ["One of the First Muslim Cavalry Fighters", "Early Companion and Emigrant", "Participant in Every Major Battle"],
+  "birthplace_slug": "hadramawt",
+  "death_place_slug": "madinah",
+  "summary": "Al-Miqdad ibn Amr (RA) was one of the earliest converts to Islam and the first Muslim to fight on horseback in the way of Allah. He is remembered for his bold public declaration of support for the Prophet ﷺ on the eve of the Battle of Badr and his unwavering commitment to the Muslim cause from the earliest years of the mission.",
+  "biography": "Al-Miqdad ibn Amr ibn Tha'labah al-Bahrani al-Kindi was born in Hadramawt in Yemen and moved to Makkah as a young man, where he was adopted as a client (halif) of al-Aswad ibn Abd Yaghuth of the Banu Zuhra clan of Quraysh. He was therefore sometimes referred to as al-Miqdad ibn al-Aswad, using the name of his patron-father by Arab adoption custom, though the Quran's verse on adoption (Quran 33:5) later directed that people be called by their actual fathers' names. He is correctly identified as al-Miqdad ibn Amr.\n\nAl-Miqdad was among the earliest individuals to accept Islam, doing so at a time when public confession of faith was dangerous and costly. According to Ibn Sa'd in al-Tabaqat al-Kubra, al-Miqdad is counted among the first seven or first ten Muslims to openly embrace the faith, making him part of the founding generation of believers who endured the persecution of the Quraysh.\n\nHe emigrated to Abyssinia with the first group of Muslim emigrants and returned to Makkah before the Hijrah. When the Prophet ﷺ migrated to Madinah, al-Miqdad emigrated with him and was among the core group of Muhajirun (emigrants).\n\nThe most celebrated moment in al-Miqdad's biography comes from the eve of the Battle of Badr (2 AH / 624 CE). The Prophet ﷺ consulted the Companions before engaging the Quraysh army. The Ansar were present in large numbers but had pledged to protect the Prophet ﷺ within Madinah; the Prophet sought to know whether the Muhajirun in particular were committed to battle. Al-Miqdad stood and said: 'O Messenger of Allah, go forward with what Allah has commanded you. We are with you. By Allah, we will not say to you what Banu Israel said to Musa (Moses): \"Go, you and your Lord, and fight; we will sit here.\" Rather, we say: You and your Lord, go and fight, and we will fight alongside you, to our left and to our right, in front of us and behind us, until Allah gives you what He has promised.' Ibn Hisham records that the Prophet ﷺ was visibly moved and made du'a for al-Miqdad. This declaration is one of the most quoted expressions of Companion loyalty in Islamic literature.\n\nAl-Miqdad fought at Badr, Uhud, al-Khandaq, and the Conquest of Makkah. He is described by historians as the first Muslim to fight on horseback — fighting in the cavalry (fursan) rather than on foot — a distinction that earned him the title 'first knight of Islam.' Al-Dhahabi confirms this in Siyar A'lam al-Nubala', noting that at Badr there were few or no horses on the Muslim side, with al-Miqdad's mount being one of a very small number.\n\nBeyond his martial contributions, al-Miqdad was known for his personal piety and the simplicity of his character. He narrated hadith directly from the Prophet ﷺ, though his narrations are fewer in number than some other Companions, partly because he died relatively early and partly because he was a man of action more than instruction.\n\nAl-Miqdad ibn Amr died in 33 AH (653–654 CE) near Madinah, at an advanced age. Uthman ibn Affan led his funeral prayer. Al-Dhahabi records his burial in al-Baqi' cemetery in Madinah.",
+  "key_events": [
+    {"year_ah": null, "year_ce": 613, "event": "Accepted Islam in the early Makkah period; one of the first seven to ten Muslims"},
+    {"year_ah": null, "year_ce": 615, "event": "Emigrated to Abyssinia with the first group of Muslim refugees"},
+    {"year_ah": 1, "year_ce": 622, "event": "Completed the Hijrah to Madinah"},
+    {"year_ah": 2, "year_ce": 624, "event": "Made his famous pledge of support to the Prophet ﷺ on the eve of Badr; fought at Badr on horseback — first Muslim cavalry fighter"},
+    {"year_ah": 3, "year_ce": 625, "event": "Fought at the Battle of Uhud"},
+    {"year_ah": 5, "year_ce": 627, "event": "Participated in the Battle of al-Khandaq (Trench)"},
+    {"year_ah": 8, "year_ce": 630, "event": "Participated in the Conquest of Makkah"},
+    {"year_ah": 33, "year_ce": 653, "event": "Died near Madinah; Uthman ibn Affan led his funeral prayer"}
+  ],
+  "notable_traits": [
+    "First Muslim to fight on horseback — 'first knight of Islam'",
+    "Famous for his bold pre-Badr declaration of unconditional loyalty to the Prophet ﷺ",
+    "Among the first ten Muslims — accepted Islam at a time of severe persecution",
+    "Man of consistent courage and directness throughout his life",
+    "Modest and unpretentious despite his distinguished early standing"
+  ],
+  "key_relationships": {
+    "patron": "al-Aswad ibn Abd Yaghuth of Banu Zuhra (Arab adoption custom)",
+    "tribe": "Kinda by lineage; Banu Zuhra by alliance",
+    "contemporaries": ["Bilal ibn Rabah", "Ammar ibn Yasir", "Suhayb al-Rumi"]
+  },
+  "narrated_hadith_count": "approximately 40 hadith in the major collections",
+  "sources": [
+    "Sahih Muslim — Kitab Fada'il al-Sahaba",
+    "Ibn Hisham, al-Seerah al-Nabawiyyah (pre-Badr declaration)",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 5"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

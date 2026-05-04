@@ -1,0 +1,50 @@
+{
+  "slug": "al-suyuti",
+  "name_ar": "جلال الدين السيوطي",
+  "name_en": "Imam al-Suyuti",
+  "epithet": "Hafiz, Polymath, Mujaddid of the Ninth Century AH",
+  "kunya": "Abu al-Fadl",
+  "birth_ah": 849,
+  "birth_ce": 1445,
+  "death_ah": 911,
+  "death_ce": 1505,
+  "era": "post_classical",
+  "category": ["scholars", "tafsir", "hadith", "fiqh", "shafii", "linguistics", "history"],
+  "madhhab": "shafii",
+  "summary": "Imam Jalal al-Din al-Suyuti (849–911 AH) was one of the most prolific scholars in Islamic history, having authored over five hundred works across virtually every field of the Islamic sciences. A Shafi'i jurist, hadith master, Quranic scholar, and linguist, he is best known for completing the tafsir al-Jalalayn and for his comprehensive works on Quranic sciences and hadith. He claimed the rank of mujtahid and later that of mujaddid (renewer) of the ninth Islamic century.",
+  "biography": "Abd al-Rahman ibn Abi Bakr ibn Muhammad, known as Jalal al-Din al-Suyuti, was born in 849 AH (1445 CE) in Cairo, Egypt, shortly before his father's death — his father died when al-Suyuti was about five years old. He grew up in the household of his father's students and colleagues, who took responsibility for his upbringing and early education. He memorized the Quran as a child and quickly distinguished himself in religious studies. By his early twenties he was already producing scholarly works and gaining recognition as a scholar of unusual breadth and memory. (al-Dhahabi's Siyar does not cover him as he predates this era; the primary biographical sources are al-Suyuti's own autobiography and later biographical dictionaries.)\n\nCairo in the mid-ninth century AH was the undisputed center of Arabic Islamic scholarship, and al-Suyuti benefited from an extraordinary concentration of masters in the city. He studied hadith, fiqh, Arabic language, and the Quranic sciences under dozens of teachers, reportedly studying under more than one hundred and fifty scholars. His most important teachers in hadith included Siraj al-Din al-Bulqini, Taqi al-Din al-Shamunni, and al-Hafiz Sakhawi (with whom his relationship later became famously contentious).\n\nHis scholarly output was unprecedented in sheer volume. He claimed to have authored more than five hundred works — a number that later scholars have partially verified and partially questioned, as some 'works' are short treatises or brief epistles while others are multi-volume encyclopedias. Among his most enduring contributions are his completion of the tafsir al-Jalalayn (begun by Jalal al-Din al-Mahalli, d. 864 AH, who completed approximately half before his death — al-Suyuti completed the remainder in forty days, a fact he himself reported), and his encyclopedic al-Itqan fi 'Ulum al-Quran, which remains the standard reference work on the sciences of the Quran ('ulum al-Quran) to this day.\n\nIn hadith, his Jami' al-Saghir (with its companion al-Jami' al-Kabir) organized hadith by alphabetical order of their opening words, providing grades and references — a reference tool that was widely used for centuries. His al-Dibaj 'ala Sahih Muslim and other hadith commentaries added to the existing body of hadith scholarship.\n\nIn linguistics and Quranic sciences, his al-Muzhir fi 'Ulum al-Lugha wal-Adab is a major encyclopedia of Arabic linguistics, and his al-Durr al-Manthur fi al-Tafsir bil-Ma'thur compiles narrated commentary (athar) on the Quran in six volumes.\n\nAl-Suyuti made the bold claim, in his later years, to be the mujaddid (renewer) of the ninth Islamic century — a claim that generated significant controversy. His contentious relationships with contemporaries, including his public dispute with the Mamluk authorities and his withdrawal from public life to Rawda Island near Cairo around 906 AH, marked the final phase of his career. He reportedly refused to visit the sultan or accept gifts from rulers.\n\nHe was also affiliated with the Shadhili Sufi order, having entered it earlier in his career, though his later writings show a primarily traditional hadith-based orientation. Within the framework of this platform, his Sufi affiliation is noted factually; the specific practices of his path are evaluated against the standards of classical scholarship.\n\nHe died in Cairo in 911 AH (1505 CE) at the age of sixty-two.",
+  "key_works": [
+    "Tafsir al-Jalalayn (completed the second half, with Jalal al-Din al-Mahalli's first half)",
+    "al-Durr al-Manthur fi al-Tafsir bil-Ma'thur (6 vols., narrated Quranic commentary)",
+    "al-Itqan fi 'Ulum al-Quran (encyclopedic Quranic sciences — standard reference)",
+    "Jami' al-Saghir min Ahadith al-Bashir al-Nadhir (hadith compilation, alphabetical)",
+    "al-Jami' al-Kabir (expanded hadith reference)",
+    "al-Muzhir fi 'Ulum al-Lugha wal-Adab (Arabic linguistics encyclopedia)",
+    "Tadrib al-Rawi fi Sharh Taqrib al-Nawawi (hadith methodology)",
+    "Husn al-Muhadara fi Tarikh Misr wal-Qahira (history of Egypt and Cairo)",
+    "al-Ashbah wal-Naza'ir (Shafi'i legal maxims)"
+  ],
+  "teachers": [
+    {"slug": "siraj-al-din-al-bulqini", "name": "Siraj al-Din al-Bulqini"},
+    {"slug": "taqi-al-din-al-shamunni", "name": "Taqi al-Din al-Shamunni"},
+    {"slug": "jalal-al-din-al-mahalli", "name": "Jalal al-Din al-Mahalli (began al-Jalalayn)"},
+    {"slug": "ibn-hajar-al-asqalani-students", "name": "Students of Ibn Hajar al-'Asqalani (transmitted his methods)"}
+  ],
+  "students": [
+    {"slug": "al-sha'rani", "name": "Abd al-Wahhab al-Sha'rani"},
+    {"slug": "ibn-iyas", "name": "Ibn Iyas (historian, contemporary who noted his scholarship)"},
+    {"slug": "later-shafii-scholars", "name": "Generations of Shafi'i scholars through his voluminous writings"}
+  ],
+  "birthplace_slug": "cairo",
+  "death_place_slug": "cairo",
+  "sources": [
+    "al-Suyuti, Husn al-Muhadara (autobiographical sections)",
+    "al-Suyuti, al-Tahadduth bi-Ni'mat Allah (autobiography)",
+    "al-Sha'rani, al-Tabaqat al-Kubra, Vol. 2",
+    "Ibn al-'Imad, Shadharat al-Dhahab, Vol. 8",
+    "al-Zirikli, al-A'lam, Vol. 3"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

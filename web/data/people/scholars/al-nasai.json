@@ -1,0 +1,49 @@
+{
+  "slug": "al-nasai",
+  "name_ar": "أحمد بن شعيب بن علي النسائي",
+  "name_en": "Ahmad ibn Shu'ayb ibn Ali al-Nasa'i",
+  "epithet": "Imam al-Huffaz; Imam al-Muhaddithin fi Asrihi",
+  "kunya": "Abu Abd al-Rahman",
+  "birth_ah": 215,
+  "birth_ce": 830,
+  "death_ah": 303,
+  "death_ce": 915,
+  "era": "classical",
+  "category": ["scholars", "hadith", "rijal"],
+  "madhhab": "shafii",
+  "summary": "Ahmad ibn Shu'ayb al-Nasa'i (215–303 AH) compiled the Sunan al-Nasa'i — also called al-Mujtaba — the fifth of the six canonical hadith collections. Among the compilers of the Kutub al-Sitta, al-Nasa'i is widely regarded as the most exacting in his standards of narrator criticism, and his collection is notable for the frequency with which it exposes weaknesses in the chains of narrations accepted by other compilers.",
+  "biography": "Ahmad ibn Shu'ayb al-Nasa'i was born in Nasa (also spelled Nasa'ah), a city in the Khurasan region in approximately 215 AH (830 CE). Nasa is located in the Khorasan province of what is now Turkmenistan, northeast of the modern city of Ashgabat. He began his scholarly travels in pursuit of hadith early, visiting Khurasan, Iraq, the Hijaz, Syria, Egypt, and eventually settling in Egypt — where he spent the most productive decades of his scholarly career and where his reputation as a hadith critic reached its height.\n\nHis primary scholarly formation was in the hadith sciences, and his rigorous approach to narrator criticism (rijal) became the defining feature of his scholarly identity. Classical scholars who assessed the major hadith critics of the third and fourth centuries consistently rated al-Nasa'i among the strictest: al-Dhahabi writes that al-Nasa'i's standards in accepting narrators were more demanding than those of al-Bukhari and Muslim, and notes that he was particularly skilled at identifying subtle defects in chains that appeared sound to less careful critics. (Siyar A'lam al-Nubala', Vol. 14)\n\nAl-Nasa'i studied with major scholars including Qutayba ibn Sa'id, Ishaq ibn Rahawayh, Ali ibn Khashshram, and — like the other compilers of the Sunan — absorbed the methodological standards of the generation of Ibn Hanbal and al-Bukhari through his teachers. He studied with Abu Dawud al-Sijistani and was influenced by his approach to organizing hadith around juristic topics.\n\nHis principal work went through two stages. He first compiled a large collection called al-Sunan al-Kubra — a comprehensive collection that included both strong and relatively weak narrations, with the weaker narrations explicitly noted. This larger work was then condensed, at the request of the governor of Ramlah, into the selection known as al-Mujtaba (The Chosen), which became the canonical Sunan al-Nasa'i. Al-Mujtaba contains approximately 5,758 narrations and is the version that became the fifth of the Kutub al-Sitta. The full Sunan al-Kubra was also preserved and is a more expansive reference.\n\nThe Sunan al-Nasa'i is organized by juristic topic in the tradition of the sunan genre, but its distinguishing feature is the inclusion of multiple chains for a single narration with commentary on which chains are sound and which are problematic. This approach of presenting ikhtilafs (variations) in chains and then critically evaluating them gives the Sunan an almost textbook-like quality in the science of 'ilal (hadith defects). Scholars of hadith have consistently praised this aspect of his work as making it unusually valuable for understanding the critical evaluation of chains.\n\nA recurring note in biographical sources is that al-Nasa'i applied the same critical rigor to the companions of other hadith scholars that he applied to everyone else — including narrators whose reliability other scholars had accepted. His Kitab al-Du'afa' wal-Matrukin (on weak and abandoned narrators) is one of the standard references in the field of rijal criticism, and it contains assessments that sometimes differ from al-Bukhari and other critics — reflecting his independent judgment rather than deference to earlier consensus.\n\nAl-Nasa'i spent much of his later life in Egypt, particularly in Fustat (old Cairo). His final journey took him to Damascus, where accounts vary on the circumstances of his death: one widely cited account holds that he was asked about Mu'awiya ibn Abi Sufyan — a sensitive political-theological topic — and gave answers that displeased the pro-Umayyad faction in the crowd, leading to his being beaten and expelled. He died from injuries, reportedly in Ramla (Palestine) or Mecca, in 303 AH (915 CE). This account, if accurate, would make him the only compiler of the Kutub al-Sitta to die as a result of political violence. Al-Dhahabi discusses the accounts carefully and notes some uncertainty about the details. (Siyar A'lam al-Nubala', Vol. 14)\n\nHis major students include Ibn al-Sunni (Ahmad ibn Muhammad al-Dinawari, d. 364 AH), al-Tahawi (d. 321 AH), and several other scholars who transmitted his works. His son, Abu Abd al-Rahman Ahmad al-Nasa'i al-Saghir, also transmitted from him. The Sunan al-Nasa'i, through these transmissions, became one of the most studied hadith texts of the medieval Islamic world.",
+  "key_works": [
+    "al-Mujtaba (Sunan al-Nasa'i — the fifth canonical hadith collection, ~5,758 narrations)",
+    "al-Sunan al-Kubra (the larger collection from which al-Mujtaba was selected)",
+    "Kitab al-Du'afa' wal-Matrukin (on weak and rejected narrators)",
+    "Khasa'is Ali (on the merits of Ali ibn Abi Talib — a subject of his extensive study)",
+    "Fadha'il al-Sahaba (on the merits of the Companions)"
+  ],
+  "teachers": [
+    {"slug": "qutayba-ibn-said", "name": "Qutayba ibn Sa'id"},
+    {"slug": "ishaq-ibn-rahawayh", "name": "Ishaq ibn Rahawayh"},
+    {"slug": "ali-ibn-khashshram", "name": "Ali ibn Khashshram"},
+    {"slug": "abu-dawud", "name": "Abu Dawud al-Sijistani"},
+    {"slug": "hisham-ibn-ammar", "name": "Hisham ibn Ammar"}
+  ],
+  "students": [
+    {"slug": "ibn-al-sunni", "name": "Ibn al-Sunni (Ahmad ibn Muhammad al-Dinawari)"},
+    {"slug": "al-tahawi", "name": "Ahmad ibn Muhammad al-Tahawi"},
+    {"slug": "hamza-ibn-muhammad-al-kinani", "name": "Hamza ibn Muhammad al-Kinani"},
+    {"slug": "al-hasan-ibn-rashed", "name": "al-Hasan ibn Rashed al-Andalusi"}
+  ],
+  "birthplace_slug": "nasa",
+  "death_place_slug": "ramla",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 14 (detailed biography and assessment of his methodology)",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 5",
+    "Ibn Khallikan, Wafayat al-A'yan",
+    "Ibn Hajar al-Asqalani, Tahdhib al-Tahdhib, Vol. 1",
+    "al-Mizzi, Tahdhib al-Kamal fi Asma al-Rijal",
+    "al-Sam'ani, al-Ansab"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

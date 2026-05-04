@@ -1,0 +1,52 @@
+{
+  "slug": "al-bukhari",
+  "name_ar": "محمد بن إسماعيل البخاري",
+  "name_en": "Muhammad ibn Ismail al-Bukhari",
+  "epithet": "Amir al-Mu'minin fil-Hadith (Commander of the Faithful in Hadith); Imam al-Muhadditheen",
+  "kunya": "Abu Abdullah",
+  "birth_ah": 194,
+  "birth_ce": 810,
+  "death_ah": 256,
+  "death_ce": 870,
+  "era": "classical",
+  "category": ["scholars", "hadith", "rijal"],
+  "madhhab": "shafii",
+  "summary": "Muhammad ibn Ismail al-Bukhari (194–256 AH) compiled al-Jami' al-Sahih — universally known as Sahih al-Bukhari — the most authoritative collection of Prophetic hadith in Islamic history. His sixteen-year effort to select approximately 7,275 narrations from over 600,000 examined, applying criteria of rigorous chain authentication and narrator criticism, established the gold standard for hadith scholarship and earned him the title 'Amir al-Mu'minin fil-Hadith.'",
+  "biography": "Muhammad ibn Ismail al-Bukhari was born in Bukhara (in present-day Uzbekistan) on 13 Shawwal 194 AH (810 CE). His family was of Persian origin; his grandfather Bardizbah had converted to Islam. His father Ismail was himself a scholar of hadith who had studied under Malik ibn Anas and Hammad ibn Zayd, and his library provided the young Muhammad with access to a remarkable scholarly inheritance. Ismail died while his son was still an infant, and al-Bukhari was raised by his mother with exceptional devotion to his intellectual formation. He reportedly memorized 70,000 hadith with their chains before the age of sixteen. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 12)\n\nAl-Bukhari began his formal travels in pursuit of hadith at approximately sixteen, accompanying his mother and elder brother to Mecca for Hajj and then remaining in the Hijaz to study. Over the following decades he traveled through virtually every major scholarly center of the Islamic world — Madinah, Basra, Kufa, Baghdad, Wasit, Mecca, Egypt, Syria, the Jazira — collecting narrations and, more importantly, interrogating narrators. He was exceptionally interested in rijal ('ilm al-rijal — the science of narrator biography and criticism), and his al-Tarikh al-Kabir, begun in Madinah when he was eighteen while sitting near the tomb of the Prophet ﷺ, remains one of the most valuable resources in the field of hadith scholarship.\n\nThe genesis of the Sahih is recorded in al-Bukhari's own words: he heard his teacher Ishaq ibn Rahawayh express the wish for someone to compile a concise book containing only the sahih (authentic) hadith of the Prophet ﷺ. The remark struck al-Bukhari deeply and he undertook the project. His criteria for inclusion were demanding: every hadith had to have an unbroken chain of transmission back to the Prophet ﷺ, every narrator in every chain had to be established as trustworthy and accurate, and the narrators of each chain had to have been contemporaries who could plausibly have met. He was additionally attentive to subtle defects ('ilal) in chains that appeared sound on their surface — a level of analysis that his contemporaries recognized as exceptional.\n\nThe process of composing the Sahih took approximately sixteen years. Al-Bukhari later said that he did not include a single hadith in it without first performing a ritual bath and two rak'at of prayer. The final collection — typically counted at 7,275 narrations with repetition, or approximately 2,602 distinct narrations — was drawn from an examined corpus he estimated at 600,000. The arrangement of the text is itself a form of juristic commentary: the chapter headings (tarajim al-abwab) that al-Bukhari chose for each section often contain subtle fiqh positions expressed through the organization of material, a feature scholars have analyzed for centuries.\n\nHis primary teachers in hadith included Ishaq ibn Rahawayh, Ahmad ibn Hanbal, Ali ibn al-Madini, Yahya ibn Ma'in, and Muhammad ibn Yusuf al-Firyabi — most of the great hadith masters of the previous generation. His students who transmitted the Sahih included al-Firabri (d. 320 AH), through whose transmission the text has principally survived; Ibrahim ibn Ma'qal al-Nasafi; and Ibn Khuzaymah (d. 311 AH).\n\nAl-Bukhari's final years were shadowed by political difficulty. He had been invited to Nishapur, where his teaching drew enormous crowds, but his relations with the local governor deteriorated after al-Bukhari refused to provide private instruction to the governor's children (insisting that knowledge was not to be brought to rulers' doors). Separately, controversy arose over a statement attributed to him regarding the recitation of the Quran — a controversy that became intertwined with local sectarian tensions. He was eventually asked to leave Nishapur and returned toward Bukhara. He died in the village of Khartank near Samarqand on the night of Eid al-Fitr in 256 AH (870 CE), reportedly in a state of prayer and contentment. He was 62 years old.\n\nThe Sahih al-Bukhari's status in Islamic scholarship cannot be overstated: it is, after the Quran, the most revered text in the Islamic tradition and the first of the Kutub al-Sitta — the six canonical hadith collections. Its commentary literature is among the most extensive in Islamic scholarship, with works like Fath al-Bari by Ibn Hajar al-Asqalani (d. 852 AH) running to thirteen volumes of dense analysis on a single hadith collection.",
+  "key_works": [
+    "al-Jami' al-Sahih (Sahih al-Bukhari — the most authoritative hadith collection)",
+    "al-Tarikh al-Kabir (comprehensive biography of hadith narrators — 8 volumes)",
+    "al-Tarikh al-Awsat",
+    "al-Tarikh al-Saghir",
+    "Khalq Af'al al-Ibad (on the created nature of human acts — aqeedah)",
+    "al-Du'afa' al-Saghir (on weak narrators)",
+    "al-Adab al-Mufrad (hadith on Islamic manners and character)"
+  ],
+  "teachers": [
+    {"slug": "ishaq-ibn-rahawayh", "name": "Ishaq ibn Rahawayh"},
+    {"slug": "ahmad-ibn-hanbal", "name": "Ahmad ibn Hanbal"},
+    {"slug": "ali-ibn-al-madini", "name": "Ali ibn al-Madini"},
+    {"slug": "yahya-ibn-main", "name": "Yahya ibn Ma'in"},
+    {"slug": "muhammad-ibn-yusuf-al-firyabi", "name": "Muhammad ibn Yusuf al-Firyabi"}
+  ],
+  "students": [
+    {"slug": "al-firabri", "name": "Muhammad ibn Yusuf al-Firabri (primary transmitter of the Sahih)"},
+    {"slug": "ibn-khuzayma", "name": "Muhammad ibn Ishaq ibn Khuzayma"},
+    {"slug": "al-tirmidhi", "name": "Muhammad ibn Isa al-Tirmidhi"},
+    {"slug": "muslim-ibn-al-hajjaj", "name": "Muslim ibn al-Hajjaj"},
+    {"slug": "ibrahim-ibn-maqil-al-nasafi", "name": "Ibrahim ibn Ma'qal al-Nasafi"}
+  ],
+  "birthplace_slug": "bukhara",
+  "death_place_slug": "khartank",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 12 (definitive biography)",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 2",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 4",
+    "Ibn Hajar al-Asqalani, Hady al-Sari (introduction to Fath al-Bari)",
+    "al-Nawawi, Tahdhib al-Asma' wal-Lughat",
+    "al-Sam'ani, al-Ansab (biographical notes)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

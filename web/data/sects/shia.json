@@ -1,0 +1,17 @@
+{
+  "slug": "shia",
+  "name_en": "Shia Islam",
+  "name_ar": "الإسلام الشيعي",
+  "parent_slug": null,
+  "children_slugs": ["shia-twelver-imami","shia-zaydi","shia-ismaili","shia-alawite"],
+  "founded_ah": null,
+  "founded_ce": null,
+  "key_figures_slugs": ["ali-ibn-abi-talib","al-husayn-ibn-ali"],
+  "summary": "Shia Islam refers to the collection of Muslim groups that believe leadership of the Muslim community after the Prophet ﷺ belonged by divine designation to Ali ibn Abi Talib and certain of his descendants. Classical Sunni scholars have considered the various Shia branches deviant from Ahl us-Sunnah wal-Jama'ah to varying degrees.",
+  "overview": "The term 'Shia' (Arabic: Shi'at Ali — the 'partisans of Ali') originally described those Muslims who held that Ali ibn Abi Talib (d. 40 AH / 661 CE), the Prophet's cousin and son-in-law, had a special claim to lead the Muslim community. The political and theological dispute over succession to the Prophet ﷺ — between those who accepted Abu Bakr, Umar, Uthman, and then Ali as successive caliphs, and those who believed only Ali was the rightful successor — became the foundational dividing line between Sunni and Shia Islam.\n\nOver time, this political dispute developed into distinct theological positions. For most Shia branches, the key doctrines include: the belief that the Imams (Ali and his designated successors) were divinely appointed and infallible leaders who possessed special religious knowledge, the concept of ghayba (occultation) of the last Imam (in Twelver Shia Islam), and distinctive practices of mourning for the Imam al-Husayn ibn Ali at Karbala (10 Muharram 61 AH / 680 CE).\n\nSunni scholarship has identified several beliefs common to major Shia branches that deviate from Ahl us-Sunnah:\n- Imputing errors or worse to the majority of the Prophet's Companions, who are held in the highest regard in Sunni Islam\n- The doctrine of divinely infallible Imams not established by the Quran or the Sunnah\n- The addition of distinctive elements to Islamic practice derived from Imam traditions rather than the broader scholarly consensus\n\nHowever, the degree of deviation varies significantly between Shia branches. The Zaydis are closest to Sunni practice and theology. The Twelvers (Ithna 'Ashariyya) are further. The Ismailis hold additional theological positions that place them further still. The Alawites have historically maintained beliefs that most Muslim scholars — Sunni and Shia alike — have considered outside orthodox Islam.\n\nIslam.wiki presents each Shia branch with accuracy and academic tone, notes where their beliefs differ from Sunni sources, and evaluates each separately. The goal is clarity without inflammatory language and accuracy without misrepresentation of Shia beliefs.",
+  "status": "deviant-claims-islam",
+  "disclaimer_tier": 2,
+  "disclaimer_note": "Shia Islam encompasses several branches that differ significantly from Ahl us-Sunnah wal-Jama'ah in their beliefs about religious leadership (imama), the status of the Prophet's Companions, and elements of creed and practice. Classical Sunni scholars have considered the Shia branches deviant from the Sunni mainstream to varying degrees. Islam.wiki covers Shia beliefs accurately and with respect, presenting Sunni scholarly positions without inflammatory language. Readers are encouraged to compare sources and consult qualified scholars of their tradition.",
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "dhahiri",
+  "name_en": "Dhahiri Madhab",
+  "name_ar": "المذهب الظاهري",
+  "parent_slug": "sunni",
+  "children_slugs": [],
+  "founded_ah": 270,
+  "founded_ce": 883,
+  "key_figures_slugs": ["dawud-al-zahiri","ibn-hazm"],
+  "summary": "The Dhahiri school is a historical Sunni legal school that insists on the strict apparent (dhahir) meaning of Quranic and hadith texts, rejecting qiyas (analogical reasoning) entirely. Its most famous proponent was the Andalusian scholar Ibn Hazm (d. 456 AH).",
+  "overview": "The Dhahiri school (Arabic: al-Madhhab al-Dhahiri, from dhahir meaning 'apparent' or 'literal') was founded by Dawud ibn Ali al-Zahiri (d. 270 AH / 883 CE) of Baghdad. Its defining principle is the rejection of qiyas — reasoning by analogy to extend legal rulings to cases not explicitly covered in the text — in favor of deriving rulings only from the apparent (dhahir) meaning of the Quran, the Sunnah, and the explicit consensus (ijma') of the early community.\n\nDawud al-Zahiri argued that qiyas introduced subjective human reasoning into Islamic law in a way that the Quran and Sunnah did not sanction. If a text did not address a matter — and neither did reliable consensus — the Dhahiri position was ibaha (permissibility by default), not analogical extension.\n\nThe school never achieved the widespread geographic or institutional reach of the four major madhabs. It remained a minority position, though intellectually significant, particularly in Muslim Spain (Andalusia). Its greatest expositor was Abu Muhammad Ali ibn Ahmad ibn Hazm al-Andalusi (d. 456 AH / 1064 CE), whose encyclopedic works — especially al-Muhalla (a comprehensive fiqh text) and al-Fisal fi al-Milal (on comparative religion and theology) — represent the most systematic development of Dhahiri methodology. Ibn Hazm was also a prolific literary scholar, poet, and polemicist.\n\nIbn Taymiyyah engaged extensively with Dhahiri positions and at times agreed with Ibn Hazm against the positions of other schools, though he did not consider himself Dhahiri.\n\nToday, the Dhahiri school has no significant active community following it as a formal madhab, making it primarily a historical school studied by scholars of Islamic law and used as a reference for positions where the four main schools differ.\n\nIslam.wiki includes Dhahiri positions where relevant, with a note that it is a historical school with few contemporary formal followers.",
+  "status": "accepted-sunni",
+  "disclaimer_tier": 3,
+  "disclaimer_note": "The Dhahiri school is a historical legal school within the Sunni tradition with fewer contemporary followers than the four major madhabs. Its positions are included for scholarly completeness.",
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

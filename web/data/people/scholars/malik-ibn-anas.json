@@ -1,0 +1,46 @@
+{
+  "slug": "malik-ibn-anas",
+  "name_ar": "مالك بن أنس الأصبحي",
+  "name_en": "Malik ibn Anas al-Asbahi",
+  "epithet": "Imam Dar al-Hijra (Imam of the Abode of Migration); Shaykh al-Islam",
+  "kunya": "Abu Abdullah",
+  "birth_ah": 93,
+  "birth_ce": 711,
+  "death_ah": 179,
+  "death_ce": 795,
+  "era": "tabi_tabiin",
+  "category": ["scholars", "fiqh", "hadith", "madhhab_founder", "maliki"],
+  "madhhab": "maliki",
+  "summary": "Malik ibn Anas (93–179 AH) was a Medinan scholar of the Tabi' al-Tabi'in generation who founded the Maliki madhhab, one of the four great schools of Islamic jurisprudence. His al-Muwatta' is among the earliest surviving comprehensive compilations of hadith and fiqh, and his methodology — grounding law in the living practice of Madinah — distinguished the Maliki school from its contemporaries.",
+  "biography": "Malik ibn Anas was born in Madinah in 93 AH (711 CE), into a family with deep roots in the scholarly community of the city. His grandfather Malik was a Companion of the Prophet ﷺ (though some scholars dispute this), and his family belonged to the Yemeni Arab tribe of Asbah. Madinah in the early second century AH was the living custodian of prophetic tradition — the city where the Prophet ﷺ had settled, taught, and died, and where hundreds of Companions had lived and transmitted knowledge to their students. To grow up in Madinah at that time was to grow up surrounded by a living chain of transmission.\n\nMalik's mother reportedly encouraged his scholarly vocation from an early age, directing him to Rabi'a ibn Abi Abd al-Rahman — known as Rabi'at al-Ra'y — as his first major teacher. From Rabi'a he learned the methodology of Medinan jurisprudence. His most consequential teacher, however, was Ibn Shihab al-Zuhri (d. 124 AH), one of the greatest hadith scholars of the era. Through al-Zuhri, Malik accessed an enormous range of Prophetic narrations, and al-Zuhri's methodological precision shaped Malik's own approach to hadith verification throughout his life. He also studied with Nafi', the mawla (freedman) of Ibn Umar, whose transmission of Ibn Umar's practice gave Malik direct access to the life of one of the most eminent Companions.\n\nMalik's defining methodological contribution was his concept of 'amal ahl al-Madinah — the practice ('amal) of the people of Madinah as a source of legal authority independent of, and sometimes superior to, isolated hadith reports. His reasoning was that the practice of Madinah represented a continuous, unbroken chain of action going back to the Prophet ﷺ and his Companions: the people of Madinah had lived, generation after generation, in the city where the Prophet ﷺ had established his community, and their collective practice was itself a form of transmitted knowledge more reliable in some respects than a single reported hadith. This principle distinguished the Maliki school sharply from the Hanafi school — which placed great emphasis on qiyas — and from the hadith-focused methodology that later emerged in the school of Imam al-Shafi'i.\n\nThe al-Muwatta' — Malik's major work — is simultaneously a hadith collection and a legal manual. It was composed over a period of approximately forty years, refined repeatedly as Malik revised it. Its title means 'The Smoothed Path' or 'The Well-Trodden Way,' reflecting its intention to present the agreed-upon practice of Madinah in accessible form. Al-Shafi'i reportedly said: 'After the Book of Allah, there is no book on the face of the earth more sound than the book of Malik.' (Ibn Abd al-Barr, al-Intiqa')\n\nMalik's method of teaching was famous for its formality and deliberateness. He would not answer a question until he was certain of its answer; when uncertain, he said 'I do not know' — a phrase his students noted he used more than any other. He reportedly refused to issue fatwas on certain questions his entire life, considering himself inadequately prepared. He conducted his teaching sessions with great solemnity, reportedly performing ablution and dressing formally before each session in honor of the prophetic hadith he was transmitting.\n\nHe experienced political difficulties under the Abbasid caliph al-Mansur. After Malik issued a fatwa that an oath of divorce given under compulsion was not valid — a position that implied oaths of allegiance given under compulsion were similarly void — he was summoned and reportedly flogged, dislocating his arm. He bore this quietly and never retracted the fatwa. The caliph al-Mansur later apologized personally. Later caliphs, particularly Harun al-Rashid, held him in the highest esteem.\n\nHis major students included Imam al-Shafi'i, who studied the al-Muwatta' with him directly; Ibn al-Qasim al-Misri (d. 191 AH), whose al-Mudawwana became the foundational text of the Maliki school in its Egyptian transmission; Sahnun ibn Sa'id al-Tanukhi (d. 240 AH), whose version of the Mudawwana became the authoritative text of the Maliki school in North Africa; and Ashhab ibn Abd al-Aziz (d. 204 AH). The Maliki madhhab spread from Madinah through Egypt, then through North Africa, and from there to West Africa and Andalusia — regions where it remains the predominant school today.\n\nMalik died in Madinah in 179 AH (795 CE) and was buried in al-Baqi'. He had spent essentially his entire scholarly life in the city of the Prophet ﷺ, leaving it only for Hajj. His commitment to Madinah was a matter of religious principle: he reportedly said, 'I fear that if I leave Madinah I will die in a land other than that in which the Prophet ﷺ died.' He was approximately 85 years old at his death.",
+  "key_works": [
+    "al-Muwatta' (the foundational Maliki text — hadith and fiqh combined)"
+  ],
+  "teachers": [
+    {"slug": "ibn-shihab-al-zuhri", "name": "Ibn Shihab al-Zuhri"},
+    {"slug": "nafi-mawla-ibn-umar", "name": "Nafi', mawla of Ibn Umar"},
+    {"slug": "rabia-ibn-abi-abd-al-rahman", "name": "Rabi'a ibn Abi Abd al-Rahman (Rabi'at al-Ra'y)"},
+    {"slug": "yahya-ibn-said-al-ansari", "name": "Yahya ibn Sa'id al-Ansari"},
+    {"slug": "hisham-ibn-urwa", "name": "Hisham ibn Urwa"}
+  ],
+  "students": [
+    {"slug": "al-shafii", "name": "Muhammad ibn Idris al-Shafi'i"},
+    {"slug": "ibn-al-qasim-al-misri", "name": "Ibn al-Qasim al-Misri (Abd al-Rahman ibn al-Qasim)"},
+    {"slug": "sahnun", "name": "Sahnun ibn Sa'id al-Tanukhi"},
+    {"slug": "ashhab-ibn-abd-al-aziz", "name": "Ashhab ibn Abd al-Aziz"},
+    {"slug": "abdullah-ibn-wahb", "name": "Abdullah ibn Wahb"}
+  ],
+  "birthplace_slug": "madinah",
+  "death_place_slug": "madinah",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 8 (extensive biography)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 4",
+    "al-Qadi Iyad, Tartib al-Madarik wa Taqrib al-Masalik (primary Maliki biographical source)",
+    "Ibn Abd al-Barr, al-Intiqa' fi Fada'il al-Thalatha al-A'imma al-Fuqaha",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 5"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "shafii",
+  "name_en": "Shafi'i Madhab",
+  "name_ar": "المذهب الشافعي",
+  "parent_slug": "sunni",
+  "children_slugs": [],
+  "founded_ah": 204,
+  "founded_ce": 820,
+  "key_figures_slugs": ["al-shafii","al-muzani","al-nawawi","ibn-hajar-al-haitami","al-ramli"],
+  "summary": "The Shafi'i school is one of the four major Sunni legal schools, founded by Imam Muhammad ibn Idris al-Shafi'i (d. 204 AH / 820 CE). Known for establishing the foundational principles of Islamic legal theory (usul al-fiqh), it is the dominant madhab across Egypt, East Africa, Southeast Asia, and parts of the Levant.",
+  "overview": "The Shafi'i school (Arabic: al-Madhhab al-Shafi'i) is named after Imam Muhammad ibn Idris al-Shafi'i (d. 204 AH / 820 CE), one of the most intellectually influential scholars in Islamic legal history. Al-Shafi'i is credited with systematizing the field of usul al-fiqh — the theoretical foundations of Islamic law — through his seminal work al-Risalah, the first dedicated treatise on Islamic legal methodology.\n\nAl-Shafi'i occupied an intellectually intermediary position between the Maliki school's emphasis on Medinan practice and the Hanafi school's extensive use of qiyas. He insisted on the primacy of authentic hadith over local practice and over ungrounded legal reasoning. His famous formulation: if an authenticated hadith is found, it is the ruling — a position that significantly elevated the role of formal hadith scholarship in legal derivation.\n\nAl-Shafi'i revised his legal positions after moving from Iraq to Egypt, producing an early body of opinion (qawl qadim, the 'old school') and a later, revised body (qawl jadid, the 'new school'). The standard Shafi'i school today is based on the later Egyptian positions.\n\nThe Shafi'i school spread through the Arab world via al-Muzani (d. 264 AH) and other direct students, and later through the authoritative synthesis of Imam al-Nawawi (d. 676 AH / 1277 CE), whose works Minhaj al-Talibin and al-Majmu' remain the standard Shafi'i references. The school became dominant in Egypt, the Levant, and East Africa through Arab trade and scholarship, and in Southeast Asia (Indonesia, Malaysia, and the Gulf states of Southeast Asia) through the same routes.\n\nToday, the Shafi'i school is followed by the majority of Muslims in Indonesia, Malaysia, Brunei, southern Philippines, Yemen, Egypt (traditional scholarly circles), parts of East Africa, and the Maldives.\n\nAll four madhabs are presented equally on islam.wiki. No school is ranked above another.",
+  "status": "sunni-mainstream",
+  "disclaimer_tier": 0,
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

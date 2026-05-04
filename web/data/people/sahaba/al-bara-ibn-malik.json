@@ -1,0 +1,47 @@
+{
+  "slug": "al-bara-ibn-malik",
+  "name_ar": "البراء بن مالك الأنصاري",
+  "name_en": "al-Bara' ibn Malik al-Ansari",
+  "epithet": null,
+  "kunya": "Abu Umarah",
+  "birth_ah": null,
+  "birth_ce": 600,
+  "death_ah": 20,
+  "death_ce": 641,
+  "era": "sahaba_ansar",
+  "category": ["sahaba", "ansar", "khazraj", "shuhada"],
+  "tribe": "Ansar - Khazraj - Banu Najjar",
+  "role": ["Warrior of the Battle of Yamama", "Brother of Anas ibn Malik (RA)"],
+  "birthplace_slug": "madinah",
+  "death_place_slug": "tustar",
+  "summary": "al-Bara' ibn Malik al-Ansari (RA) was among the most ferocious warriors of early Islam, the younger brother of the famous servant of the Prophet ﷺ, Anas ibn Malik. He is best known for his role in the Battle of Yamama (11 AH / 632 CE) where he called for his companions to throw him into the garden fortress of Musaylimah al-Kadhdhab over the walls, enabling the Muslims to breach it. He died as a martyr during the campaign in Persia.",
+  "biography": "al-Bara' ibn Malik ibn al-Nadr al-Ansari al-Khazraji was born in Madinah around 600 CE. He was the younger brother of Anas ibn Malik (RA), the famous servant of the Prophet ﷺ who served him for ten years. Their mother, Umm Sulaym bint Milhan, was a devoted Ansari woman celebrated for her own piety and courage. al-Bara' accepted Islam as a youth in Madinah before the arrival of the Prophet ﷺ, as part of the generation of Ansar who embraced the faith following the pledges of Aqabah.\n\nHe was known from the earliest battles for an intensity and ferocity in combat that was remarkable even by the standards of an exceptionally martial generation. Ibn Hajar al-Asqalani in al-Isabah fi Tamyiz al-Sahaba records that the Prophet ﷺ said: 'Many a disheveled, dust-covered person turned away from the doors [of the wealthy] has — if he were to swear by Allah — Allah would fulfil his oath; and from them is al-Bara' ibn Malik.' This statement placed al-Bara' among those whose du'a was so accepted that others sought it, even though he was not prominent in worldly standing.\n\nIn the Battle of Badr (2 AH / 624 CE) al-Bara' was reportedly turned away as too young, though he participated in Uhud and subsequent campaigns. Ibn Sa'd in al-Tabaqat al-Kubra records that he fought in over a hundred individual combats (mubara'at — one-on-one duels) during the campaigns of Islam, and killed some eighty opponents in single combat across his career. He was wounded repeatedly and carried the marks of battle across his body.\n\nHis most famous moment came at the Battle of Yamama in 11 AH (632 CE), during the caliphate of Abu Bakr al-Siddiq. The Muslims faced Musaylimah al-Kadhdhab and his followers in the Yamama region of central Arabia. After fierce fighting in the open field, Musaylimah's forces retreated into an enclosed garden known as Hadiqat al-Rahman (the Garden of the Merciful), barricading its gates. The Muslims could not breach the walls. It was al-Bara' ibn Malik who called out to his companions: 'Throw me over the wall into them.' His fellow fighters hesitated, understanding it was near-certain death, but he insisted. They lifted him and threw him over the walls into the midst of the enemy-held garden. He fought alone inside, driving those near the gate back until he could unbolt it from within and allow the Muslim army to pour in. Ibn Kathir in al-Bidayah wal-Nihayah records this vividly. The garden was taken, Musaylimah was killed, and the ridda in the Yamama was broken. al-Bara' survived but was severely wounded — his body bore over eighty wounds from that battle alone, and it took him a month to recover.\n\nHe continued fighting in the subsequent campaigns of conquest. He was martyred during the siege of Tustar (al-Sus) in Khuzestan during the Persian campaigns under the caliphate of Umar ibn al-Khattab around 20 AH (641 CE). Al-Dhahabi in Siyar A'lam al-Nubala' records that in the assault on Tustar's fortress, al-Bara' again called for his companions to lift him over the wall, and he died during the breach of that fortress — the same manner of heroism with which he had broken the resistance at Yamama years before.\n\nHe narrated relatively few hadith, owing to his life being consumed by military campaigns rather than scholarly transmission. His brother Anas ibn Malik became one of the most prolific hadith narrators in Islam, and their contrasting roles — the soldier and the scholar-narrator — reflect the breadth of the Sahaba's contributions.",
+  "key_events": [
+    {"year_ah": 2, "year_ce": 624, "event": "Battle of Badr (reportedly turned away as too young by some accounts; fought at Uhud certainly)"},
+    {"year_ah": 3, "year_ce": 625, "event": "Fought at the Battle of Uhud"},
+    {"year_ah": 11, "year_ce": 632, "event": "Battle of Yamama — threw himself over the wall of Hadiqat al-Rahman, enabling the breach; badly wounded"},
+    {"year_ah": 20, "year_ce": 641, "event": "Martyred at the siege of Tustar (al-Sus) in Persia"}
+  ],
+  "notable_traits": [
+    "Extraordinary physical courage — volunteered for near-certain death at Yamama and Tustar",
+    "The Prophet ﷺ identified him as one whose oath Allah fulfils",
+    "Fought over a hundred individual combats across his career by classical accounts",
+    "Ascetic in lifestyle despite his warrior nature — lived simply, rarely mentioned in worldly contexts"
+  ],
+  "key_relationships": {
+    "father": "Malik ibn al-Nadr al-Ansari",
+    "mother": "Umm Sulaym bint Milhan al-Ansariyyah (RA)",
+    "brother": "Anas ibn Malik (RA) — servant and narrator of the Prophet ﷺ"
+  },
+  "narrated_hadith_count": "very few — primarily known as a warrior rather than narrator",
+  "sources": [
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 7",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 6 (Battle of Yamama)",
+    "Ibn Hajar al-Asqalani, al-Isabah fi Tamyiz al-Sahaba, Vol. 1",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

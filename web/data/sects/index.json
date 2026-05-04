@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "generated": "2026-05-04",
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "tree": [
+    {
+      "slug": "sunni",
+      "name_en": "Sunni Islam (Ahl us-Sunnah wal-Jama'ah)",
+      "name_ar": "أهل السنة والجماعة",
+      "status": "sunni-mainstream",
+      "disclaimer_tier": 0,
+      "children": [
+        {
+          "slug": "sunni-athari",
+          "name_en": "Athari Aqeedah",
+          "name_ar": "العقيدة الأثرية",
+          "status": "sunni-mainstream",
+          "disclaimer_tier": 0,
+          "children": []
+        },
+        {
+          "slug": "sunni-ashari",
+          "name_en": "Ash'ari Aqeedah",
+          "name_ar": "العقيدة الأشعرية",
+          "status": "accepted-sunni",
+          "disclaimer_tier": 3,
+          "children": []
+        },
+        {
+          "slug": "sunni-maturidi",
+          "name_en": "Maturidi Aqeedah",
+          "name_ar": "العقيدة الماتريدية",
+          "status": "accepted-sunni",
+          "disclaimer_tier": 3,
+          "children": []
+        },
+        {
+          "slug": "hanafi",
+          "name_en": "Hanafi Madhab",
+          "name_ar": "المذهب الحنفي",
+          "status": "sunni-mainstream",
+          "disclaimer_tier": 0,
+          "children": []
+        },
+        {
+          "slug": "maliki",
+          "name_en": "Maliki Madhab",
+          "name_ar": "المذهب المالكي",
+          "status": "sunni-mainstream",
+          "disclaimer_tier": 0,
+          "children": []
+        },
+        {
+          "slug": "shafii",
+          "name_en": "Shafi'i Madhab",
+          "name_ar": "المذهب الشافعي",
+          "status": "sunni-mainstream",
+          "disclaimer_tier": 0,
+          "children": []
+        },
+        {
+          "slug": "hanbali",
+          "name_en": "Hanbali Madhab",
+          "name_ar": "المذهب الحنبلي",
+          "status": "sunni-mainstream",
+          "disclaimer_tier": 0,
+          "children": []
+        },
+        {
+          "slug": "dhahiri",
+          "name_en": "Dhahiri Madhab",
+          "name_ar": "المذهب الظاهري",
+          "status": "accepted-sunni",
+          "disclaimer_tier": 3,
+          "children": []
+        },
+        {
+          "slug": "sufism",
+          "name_en": "Sufism / Tasawwuf",
+          "name_ar": "التصوف",
+          "status": "accepted-sunni",
+          "disclaimer_tier": 2,
+          "note": "Inner purification accepted; organized tariqah system and associated innovations evaluated individually",
+          "children": []
+        }
+      ]
+    },
+    {
+      "slug": "shia",
+      "name_en": "Shia Islam",
+      "name_ar": "الإسلام الشيعي",
+      "status": "deviant-claims-islam",
+      "disclaimer_tier": 2,
+      "children": [
+        {
+          "slug": "shia-zaydi",
+          "name_en": "Zaydi Shia",
+          "name_ar": "الزيدية",
+          "status": "deviant-claims-islam",
+          "disclaimer_tier": 2,
+          "note": "Closest Shia branch to Ahl us-Sunnah",
+          "children": []
+        },
+        {
+          "slug": "shia-twelver-imami",
+          "name_en": "Twelver Shia (Ithna 'Ashariyya)",
+          "name_ar": "الاثنا عشرية",
+          "status": "deviant-claims-islam",
+          "disclaimer_tier": 2,
+          "children": []
+        },
+        {
+          "slug": "shia-ismaili",
+          "name_en": "Ismaili Shia",
+          "name_ar": "الإسماعيلية",
+          "status": "deviant-claims-islam",
+          "disclaimer_tier": 2,
+          "children": []
+        },
+        {
+          "slug": "shia-alawite",
+          "name_en": "Alawite",
+          "name_ar": "العلويون",
+          "status": "deviant-claims-islam",
+          "disclaimer_tier": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "slug": "historical",
+      "name_en": "Historical Theological Schools",
+      "name_ar": "المذاهب الكلامية التاريخية",
+      "status": "historical",
+      "disclaimer_tier": 2,
+      "children": [
+        {
+          "slug": "khawarij",
+          "name_en": "Khawarij",
+          "name_ar": "الخوارج",
+          "status": "historical",
+          "disclaimer_tier": 2,
+          "children": [
+            {
+              "slug": "ibadi",
+              "name_en": "Ibadi",
+              "name_ar": "الإباضية",
+              "status": "deviant-claims-islam",
+              "disclaimer_tier": 2,
+              "note": "Descended from Khawarij; distinct from classical Khawarij; present in Oman today",
+              "children": []
+            }
+          ]
+        },
+        {
+          "slug": "mutazila",
+          "name_en": "Mu'tazila",
+          "name_ar": "المعتزلة",
+          "status": "historical",
+          "disclaimer_tier": 2,
+          "children": []
+        },
+        {
+          "slug": "murjia",
+          "name_en": "Murji'a",
+          "name_ar": "المرجئة",
+          "status": "historical",
+          "disclaimer_tier": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "slug": "outside-islam",
+      "name_en": "Groups Outside Islam That Use Islamic Terminology",
+      "name_ar": "جماعات خارج الإسلام",
+      "status": "outside-islam",
+      "disclaimer_tier": 1,
+      "children": [
+        {
+          "slug": "ahmadiyya",
+          "name_en": "Ahmadiyya (Qadiani)",
+          "name_ar": "القاديانية",
+          "status": "outside-islam",
+          "disclaimer_tier": 1,
+          "children": []
+        },
+        {
+          "slug": "nation-of-islam",
+          "name_en": "Nation of Islam",
+          "name_ar": "أمة الإسلام",
+          "status": "outside-islam",
+          "disclaimer_tier": 1,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

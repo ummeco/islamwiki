@@ -1,0 +1,48 @@
+{
+  "slug": "al-juwayni",
+  "name_ar": "عبد الملك بن عبد الله الجويني",
+  "name_en": "Imam al-Juwayni (Imam al-Haramayn)",
+  "epithet": "Imam al-Haramayn (Imam of the Two Holy Sanctuaries)",
+  "kunya": "Abu al-Ma'ali",
+  "birth_ah": 419,
+  "birth_ce": 1028,
+  "death_ah": 478,
+  "death_ce": 1085,
+  "era": "classical",
+  "category": ["scholars", "aqeedah", "ashari", "kalam", "fiqh", "usul", "shafii"],
+  "madhhab": "shafii",
+  "summary": "Imam al-Juwayni (419–478 AH), known as Imam al-Haramayn for his extended residence in Mecca and Medina, was the preeminent Shafi'i jurist and Ash'ari theologian of his era. His most celebrated legacy is as the teacher of Imam al-Ghazali. His al-Waraqat on usul al-fiqh and his theological Kitab al-Irshad remain standard curriculum texts in traditional Islamic institutions to this day.",
+  "biography": "Abd al-Malik ibn 'Abd Allah ibn Yusuf al-Juwayni was born in 419 AH (1028 CE) in Juwain, a district in the Khorasan region of northeastern Iran. He was born into a scholarly family — his father 'Abd Allah was himself a Shafi'i jurist of high standing — and he began his education under his father's guidance from an early age. After his father's death in 438 AH, the young Abd al-Malik, then around nineteen, assumed his father's teaching circle in Nishapur, demonstrating the precocious mastery of Shafi'i fiqh and Ash'ari kalam for which he would become renowned. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 18)\n\nHis life was shaped by a period of forced exile from Khorasan beginning around 445 AH, when the Hanbali-leaning Seljuk minister al-Kunduri launched a campaign against Ash'ari scholars, ordering them cursed from pulpits across the eastern caliphate. Al-Juwayni left Nishapur and traveled to Baghdad, then to the Hijaz, where he settled for approximately four years, teaching in Mecca and Medina. It was this period of residence at the Two Holy Sanctuaries that earned him the honorific Imam al-Haramayn — the Imam of the Two Holy Mosques.\n\nAfter the death of al-Kunduri and the rise of the great vizier Nizam al-Mulk — himself a champion of Ash'ari scholarship — al-Juwayni was invited back to Nishapur and appointed head of the newly established Nizamiyya college there, one of the first great institutions of systematic Islamic education. He taught at the Nizamiyya for approximately thirty years until his death, producing a generation of scholars who carried Shafi'i fiqh and Ash'ari theology across the Islamic world.\n\nThe most illustrious of his students was Abu Hamid al-Ghazali, who studied under him for many years in Nishapur before al-Ghazali went on to produce the Ihya' 'Ulum al-Din and the other works that established him as one of the most read Muslim scholars in history. The relationship between al-Juwayni and al-Ghazali was one of the most consequential teacher-student bonds in Islamic intellectual history.\n\nIn theology, al-Juwayni built on the foundations laid by al-Ash'ari and systematized by al-Baqillani. His al-Irshad ila Qawati' al-Adilla fi Usul al-I'tiqad is a comprehensive presentation of Ash'ari theology, covering the proofs for God's existence and attributes, prophethood, and the relationship between reason and revelation. His al-Shamil fil-Usul al-Din was a larger, more technical theological encyclopedia. His approach involved rigorous rational argument in defense of Sunni doctrines — a method characteristic of the Ash'ari school, which is recognized as part of Ahl al-Sunnah wal-Jama'ah.\n\nIn jurisprudence, his al-Waraqat — a brief but precise introduction to the principles of Islamic legal methodology (usul al-fiqh) — became one of the most studied texts in traditional Islamic education, with dozens of commentaries written upon it across the centuries. His longer juristic works, including Nihayat al-Matlab (a comprehensive treatment of Shafi'i fiqh), show equal mastery.\n\nHe died in Nishapur in 478 AH (1085 CE) at the age of fifty-nine. Al-Dhahabi recorded that at his death, students and scholars gathered around his bier in grief, and that the scholarly world recognized it had lost an irreplaceable figure. (Siyar A'lam al-Nubala', Vol. 18, p. 469)",
+  "key_works": [
+    "al-Waraqat fi Usul al-Fiqh (foundational text on legal methodology — widely taught)",
+    "al-Irshad ila Qawati' al-Adilla fi Usul al-I'tiqad (Ash'ari theology)",
+    "Nihayat al-Matlab fi Dirayat al-Madhhab (comprehensive Shafi'i fiqh, 20+ vols.)",
+    "al-Shamil fil-Usul al-Din (encyclopedic Ash'ari theology)",
+    "al-Burhan fi Usul al-Fiqh (major work on legal theory)",
+    "Luma' al-Adilla (concise Ash'ari creed)"
+  ],
+  "teachers": [
+    {"slug": "abd-allah-al-juwayni", "name": "'Abd Allah al-Juwayni (his father)"},
+    {"slug": "abu-bakr-al-baqillani", "name": "Abu Bakr al-Baqillani (Ash'ari kalam chain)"},
+    {"slug": "ibrahim-al-isfarayini", "name": "Abu Ishaq al-Isfarayini"},
+    {"slug": "abu-al-qasim-al-isfarayini", "name": "Abu al-Qasim al-Isfarayini (in Nishapur)"}
+  ],
+  "students": [
+    {"slug": "al-ghazali", "name": "Abu Hamid al-Ghazali"},
+    {"slug": "al-kiya-al-harrasi", "name": "al-Kiya al-Harrasi"},
+    {"slug": "abu-al-qasim-al-anasabadi", "name": "Abu al-Qasim al-Anasabadi"},
+    {"slug": "ibn-al-aqil", "name": "Ibn al-'Aqil (Hanbali who studied kalam under him)"}
+  ],
+  "birthplace_slug": "juwain",
+  "death_place_slug": "nishapur",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 18 (extensive biography)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 3",
+    "al-Subki, Tabaqat al-Shafi'iyya al-Kubra, Vol. 5",
+    "Ibn al-'Imad, Shadharat al-Dhahab, Vol. 3",
+    "Ibn Kathir, al-Bidaya wal-Nihaya (death year entry)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

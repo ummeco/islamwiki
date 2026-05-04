@@ -1,0 +1,50 @@
+{
+  "slug": "ahmad-ibn-hanbal",
+  "name_ar": "أحمد بن محمد بن حنبل الشيباني",
+  "name_en": "Ahmad ibn Muhammad ibn Hanbal al-Shaybani",
+  "epithet": "Imam Ahl al-Sunnah (Imam of the People of the Sunnah); Imam al-Muhadditheen",
+  "kunya": "Abu Abdullah",
+  "birth_ah": 164,
+  "birth_ce": 780,
+  "death_ah": 241,
+  "death_ce": 855,
+  "era": "tabi_tabiin",
+  "category": ["scholars", "fiqh", "hadith", "aqeedah", "madhhab_founder", "hanbali"],
+  "madhhab": "hanbali",
+  "summary": "Ahmad ibn Hanbal (164–241 AH) was a Baghdad-born scholar who founded the Hanbali madhhab and became the most celebrated champion of Athari creed in Islamic history. His refusal to affirm the Mu'tazilite doctrine of the created Quran under Abbasid state pressure — enduring flogging and imprisonment across multiple caliphates — made him the defining symbol of scholarly resistance to political theology, and his Musnad is among the largest and most important collections of hadith.",
+  "biography": "Ahmad ibn Hanbal was born in Baghdad in 164 AH (780 CE), though his family originated from Marw in Khurasan (modern Turkmenistan). His father died when he was an infant and he was raised by his mother in modest circumstances. From an early age he showed exceptional commitment to hadith study, copying traditions on fragments of papyrus before he could afford proper materials, and memorizing with an intensity that his contemporaries remarked on even when he was still a young student. He studied in Baghdad under Imam al-Shafi'i when the latter visited the city, and al-Shafi'i's regard for him was mutual and lasting — al-Shafi'i reportedly said of Ahmad: 'I left Baghdad and did not leave behind anyone more pious, more learned in fiqh, or more god-fearing than Ahmad ibn Hanbal.' (Ibn Abi Ya'la, Tabaqat al-Hanabila)\n\nAhmad made multiple journeys in pursuit of hadith — to the Hijaz, Yemen, Syria, Basra, Kufa, and elsewhere — a practice common among the hadith scholars of his generation but pursued by him with unusual persistence. His travels lasted for approximately three decades, and the result was the Musnad, a collection of approximately 27,000 to 30,000 hadith (exact counts vary across recensions) arranged by the name of the Companion who first transmitted each hadith. The Musnad is not primarily a legal manual but a comprehensive archive of prophetic tradition; it was compiled over decades and expanded by his son Abdullah after his death. Al-Dhahabi described it as one of the pillars of Islam. (Siyar A'lam al-Nubala', Vol. 11)\n\nAhmad's defining trial came during the Mihna — the Abbasid inquisition into the doctrine of the creation of the Quran, instituted by Caliph al-Ma'mun in 833 CE (218 AH) and continued under al-Mu'tasim and al-Wathiq. The Mu'tazilite court theologians, with state backing, required scholars to affirm that the Quran was created (makhluq) rather than uncreated. The vast majority of scholars yielded under pressure. Ahmad ibn Hanbal refused, maintaining that affirming the Quran as created was an innovation without basis in the Quran, the Sunnah, or the practice of the Companions. He was imprisoned and flogged under al-Mu'tasim with a severity that left him permanently weakened, but he did not relent.\n\nHis steadfastness became the single most formative event in the development of Sunni self-understanding. When the Mihna was finally ended by Caliph al-Mutawakkil in 234 AH, Ahmad emerged not merely vindicated but transformed in the eyes of the ummah into the embodiment of scholarly integrity. He was called Imam Ahl al-Sunnah — the Imam of the People of the Sunnah — a title that crystallized his theological role. The Athari creed that his school represents is inseparable from his biography.\n\nIn fiqh, the Hanbali school is distinguished by the strongest attachment among the four madhabs to the apparent meaning of Prophetic hadith, a relative reluctance to extend qiyas beyond clear necessity, and a broad use of maslaha (public interest) alongside textual sources in some areas — a feature later developed by scholars like Ibn Taymiyyah and Ibn al-Qayyim. Ahmad himself was reluctant to issue fatwas and reportedly said 'I do not know' on thousands of questions, directing questioners to the established Sunnah. His students — particularly Abu Dawud (d. 275 AH), who studied fiqh with him as well as hadith — documented his positions systematically.\n\nHis major students in fiqh and hadith include Abu Dawud al-Sijistani (compiler of the Sunan), his sons Salih ibn Ahmad and Abdullah ibn Ahmad, Ibrahim al-Harbi, and al-Maymuni. The Hanbali school was institutionalized by later scholars, particularly Ibn Qudama al-Maqdisi (d. 620 AH) whose al-Mughni became the standard reference of the school. The school remains predominant in the Arabian Peninsula today.\n\nAhmad ibn Hanbal died in Baghdad in 241 AH (855 CE). Accounts of his funeral describe a gathering of immense proportions — classical sources cite figures up to several hundred thousand, numbers that are likely exaggerated but reflect the depth of public veneration. He was buried in the al-Harbiyya district of Baghdad. His impact on the theological trajectory of Sunni Islam — through the scholars who drew on his creed (particularly Ibn Taymiyyah, d. 728 AH) — extends far beyond the boundaries of his own madhhab.",
+  "key_works": [
+    "Musnad Ahmad ibn Hanbal (comprehensive hadith collection — ~27,000–30,000 narrations)",
+    "Kitab al-Sunnah (on creed and aqeedah)",
+    "Kitab al-Zuhd (on asceticism and piety)",
+    "al-Radd ala al-Zanadiqah wal-Jahmiyyah (refutation of heretical sects)",
+    "al-Masail (fiqh positions recorded by students)"
+  ],
+  "teachers": [
+    {"slug": "al-shafii", "name": "Muhammad ibn Idris al-Shafi'i"},
+    {"slug": "sufyan-ibn-uyayna", "name": "Sufyan ibn Uyayna"},
+    {"slug": "waki-ibn-al-jarrah", "name": "Waki' ibn al-Jarrah"},
+    {"slug": "yahya-ibn-said-al-qattan", "name": "Yahya ibn Sa'id al-Qattan"},
+    {"slug": "abd-al-razzaq-al-sanani", "name": "Abd al-Razzaq al-Sanani"}
+  ],
+  "students": [
+    {"slug": "abu-dawud", "name": "Abu Dawud al-Sijistani"},
+    {"slug": "salih-ibn-ahmad", "name": "Salih ibn Ahmad ibn Hanbal"},
+    {"slug": "abdullah-ibn-ahmad", "name": "Abdullah ibn Ahmad ibn Hanbal"},
+    {"slug": "ibrahim-al-harbi", "name": "Ibrahim al-Harbi"},
+    {"slug": "al-maymuni", "name": "Abd al-Malik ibn Abd al-Hamid al-Maymuni"}
+  ],
+  "birthplace_slug": "baghdad",
+  "death_place_slug": "baghdad",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 11 (extensive biography)",
+    "Ibn Abi Ya'la, Tabaqat al-Hanabila, Vol. 1",
+    "Ibn al-Jawzi, Manaqib al-Imam Ahmad ibn Hanbal",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 4",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 10",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 1"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

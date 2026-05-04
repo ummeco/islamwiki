@@ -1,0 +1,48 @@
+{
+  "slug": "ali-ibn-al-madini",
+  "name_ar": "علي بن المديني",
+  "name_en": "Ali ibn al-Madini",
+  "epithet": "Imam al-'Ilal (Master of Hidden Defects in Hadith)",
+  "kunya": "Abu al-Hasan",
+  "birth_ah": 161,
+  "birth_ce": 778,
+  "death_ah": 234,
+  "death_ce": 849,
+  "era": "tabi_tabiin_late",
+  "category": ["scholars", "hadith", "rijal", "jarh_wa_tadil", "ilal"],
+  "madhhab": "hanbali",
+  "summary": "Ali ibn al-Madini (161–234 AH) was one of the foremost hadith critics of the Abbasid era and the primary teacher of Imam al-Bukhari in the sciences of narrator evaluation and hadith defects ('ilal). Al-Bukhari said of him: 'I have not considered myself small before anyone the way I considered myself small before Ali ibn al-Madini.' His mastery of the hidden defects of hadith transmission made him a pivotal figure in the consolidation of the hadith sciences.",
+  "biography": "Ali ibn 'Abd Allah ibn Ja'far al-Sa'di, known as Ibn al-Madini, was born in Basra in 161 AH (778 CE) and later moved to Baghdad, where he spent most of his scholarly career. He came from a scholarly family — his father 'Abd Allah was himself a hadith scholar of some standing — and he immersed himself in the sciences of hadith from childhood, studying under the greatest masters of his era.\n\nHis primary teacher was Yahya ibn Sa'id al-Qattan of Basra, from whom he acquired the rigorous methodology of hadith criticism. He also studied extensively under Sufyan ibn 'Uyayna in Mecca, Waki' ibn al-Jarrah in Kufa, and Bishr ibn al-Mufaddal. Through these teachers he gained access to the living oral tradition of hadith transmission and developed his characteristic skill in tracing the chains of transmission (isnad) and identifying the hidden weaknesses ('ilal khafiyyah) that could compromise a hadith's reliability. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 11)\n\nHis most celebrated student was Muhammad ibn Isma'il al-Bukhari, the compiler of the Sahih. Al-Bukhari reportedly said: 'I have not considered myself small before anyone the way I considered myself small before Ali ibn al-Madini.' This remarkable admission from the most famous hadith scholar in Islamic history testifies to Ibn al-Madini's towering authority in the field. Al-Bukhari absorbed Ibn al-Madini's methodology of 'ilal — the systematic identification of hidden transmission defects — and applied it throughout the Sahih, making it the most rigorously screened hadith collection ever compiled.\n\nIbn al-Madini was a contemporary and close associate of Yahya ibn Ma'in and Ahmad ibn Hanbal, the three together comprising the central figures in what al-Dhahabi calls the 'golden generation' of hadith criticism. The three differed at times in their assessments of individual narrators, and these differences are themselves treated as scholarly evidence by later critics — the reasoning behind each position was documented and studied.\n\nHe was highly prolific as a teacher and as an author. His written works on the 'ilal (hidden defects), on the conditions of narrators, and on the classification of hadith transmitters by generation were foundational texts for subsequent generations. His Kitab al-'Ilal wal-As'ila was a key reference in the field, and his assessments of individual narrators appear throughout the major rijal encyclopedias.\n\nOne episode that shadowed his later reputation was his apparent agreement under Mu'tazilite pressure during the Mihna (the Inquisition regarding the createdness of the Quran, 218–234 AH) — unlike Ahmad ibn Hanbal, who famously refused. Later scholars debated whether his acquiescence was genuine or made under extreme duress. Al-Dhahabi and Ibn Hajar both treated this with nuance, noting his subsequent silence and apparent regret, and his standing as a hadith scholar was not diminished. His scholarly contribution was judged on the immense and irreplaceable body of hadith-critical knowledge he produced.\n\nHe died in Baghdad in 234 AH (849 CE), just one year after his near-contemporary Yahya ibn Ma'in. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 11, p. 41)",
+  "key_works": [
+    "Kitab al-'Ilal wal-As'ila (Hidden defects in hadith transmission)",
+    "Kitab al-Dhu'afa' (Weak narrators)",
+    "Kitab al-Tabaqat (Generations of narrators)",
+    "Numerous epistles on narrator assessment transmitted by students"
+  ],
+  "teachers": [
+    {"slug": "yahya-ibn-said-al-qattan", "name": "Yahya ibn Sa'id al-Qattan"},
+    {"slug": "sufyan-ibn-uyayna", "name": "Sufyan ibn 'Uyayna"},
+    {"slug": "waki-ibn-al-jarrah", "name": "Waki' ibn al-Jarrah"},
+    {"slug": "bishr-ibn-al-mufaddal", "name": "Bishr ibn al-Mufaddal"},
+    {"slug": "yahya-ibn-main", "name": "Yahya ibn Ma'in (peer consultation)"}
+  ],
+  "students": [
+    {"slug": "al-bukhari", "name": "Muhammad ibn Isma'il al-Bukhari"},
+    {"slug": "ahmad-ibn-hanbal", "name": "Ahmad ibn Hanbal (peer)"},
+    {"slug": "abu-dawud", "name": "Abu Dawud al-Sijistani"},
+    {"slug": "abu-zur'a-al-razi", "name": "Abu Zur'a al-Razi"},
+    {"slug": "abu-hatim-al-razi", "name": "Abu Hatim al-Razi"}
+  ],
+  "birthplace_slug": "basra",
+  "death_place_slug": "baghdad",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 11 (extensive biography)",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 12",
+    "Ibn Hajar al-'Asqalani, Tahdhib al-Tahdhib, Vol. 7",
+    "al-Mizzi, Tahdhib al-Kamal, Vol. 21",
+    "Ibn Khallikan, Wafayat al-A'yan"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

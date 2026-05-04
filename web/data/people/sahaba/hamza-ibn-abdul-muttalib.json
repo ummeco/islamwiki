@@ -1,0 +1,53 @@
+{
+  "slug": "hamza-ibn-abdul-muttalib",
+  "name_ar": "حمزة بن عبد المطلب",
+  "name_en": "Hamza ibn Abd al-Muttalib",
+  "epithet": "Asad Allah (Lion of Allah), Asad al-Jannah (Lion of Paradise), Sayyid al-Shuhada (Master of the Martyrs)",
+  "kunya": "Abu Umarah / Abu Yaala",
+  "birth_ah": null,
+  "birth_ce": 568,
+  "death_ah": 3,
+  "death_ce": 625,
+  "era": "sahaba",
+  "category": ["sahaba", "martyrs"],
+  "tribe": "Quraysh - Banu Hashim",
+  "role": ["Paternal uncle of the Prophet ﷺ", "Lion of Allah and Master of the Martyrs", "Pivotal warrior in early Islamic battles"],
+  "birthplace_slug": "makkah",
+  "death_place_slug": "uhud",
+  "summary": "Hamza ibn Abd al-Muttalib (RA) was the paternal uncle and milk-brother of the Prophet Muhammad ﷺ and one of the mightiest warriors of early Islam. Given the titles Asad Allah (Lion of Allah) and Sayyid al-Shuhada (Master of the Martyrs) by the Prophet ﷺ himself, he was martyred at the Battle of Uhud in 3 AH. His acceptance of Islam, his ferocity in battle, and the manner of his death are among the most emotionally charged episodes in the early Islamic narrative.",
+  "biography": "Hamza ibn Abd al-Muttalib al-Hashimi al-Qurashi was born in Makkah around 568 CE, approximately two to four years before the Prophet Muhammad ﷺ. He was the son of Abd al-Muttalib, the Prophet's ﷺ grandfather, making Hamza the Prophet's ﷺ paternal uncle. Because Hamza was nursed by Thuwayba, the same woman who nursed the Prophet ﷺ in infancy, the two were also milk-brothers — a bond of special closeness in Arab custom. They grew up together, were near in age, and maintained a deep personal bond throughout their lives.\n\nBefore Islam, Hamza was renowned in Makkah as a skilled hunter and warrior of great physical power and courage — qualities respected above most others in pre-Islamic Arabian culture. He was not immediately among the first converts, but his acceptance of Islam was dramatic and consequential. According to narrations recorded by Ibn Hisham in al-Seerah al-Nabawiyyah and Ibn Sa'd in al-Tabaqat al-Kubra, in approximately the sixth year of the Prophet's mission (616 CE), Abu Jahl verbally abused and physically struck the Prophet ﷺ near al-Safa while the Prophet ﷺ was defenseless. A maidservant of Abdullah ibn Judan witnessed this and later told Hamza when he returned from hunting. Hamza, still carrying his bow, went directly to Abu Jahl in the assembly of the Quraysh, struck him on the head with his bow, and declared: 'I follow his religion and I say what he says.' This public declaration before the Quraysh leadership was a turning point — Hamza was too powerful and too respected for the Quraysh to treat as they treated the vulnerable early Muslims. His conversion strengthened the small Muslim community significantly.\n\nThe Prophet ﷺ deeply loved and honored Hamza. He appointed him commander of the very first military expedition in Islamic history — a reconnaissance party of thirty men sent to monitor a Qurayshi caravan near the Red Sea coast in 1 AH (623 CE). No battle occurred on that occasion, but it marked the formal beginning of organized Muslim military activity.\n\nAt the Battle of Badr (2 AH / 624 CE), Hamza fought with extraordinary ferocity. The early sources record him killing multiple Qurayshi fighters including Utbah ibn Rabi'ah, one of the nobles of Quraysh and the father-in-law of Abu Sufyan. His performance at Badr confirmed him as the most dangerous single warrior in the Muslim army.\n\nAt the Battle of Uhud (3 AH / 625 CE), Hamza again fought in the vanguard, reportedly killing a significant number of the opposing fighters. His death was orchestrated with premeditation: Hind bint Utbah, whose father Utbah had been killed at Badr, hired a skilled Abyssinian spearman named Wahshi ibn Harb to kill specifically Hamza in return for his freedom. Wahshi stalked Hamza through the battle and struck him from a concealed position with a javelin through his flank. Hamza died from the wound. After the battle, Hind mutilated his body — an act the Prophet ﷺ was visibly devastated by, and which moved him to almost vow retaliation until verses were revealed calling for patience (Quran 16:126-127). The Prophet ﷺ buried Hamza himself and prayed over him, reportedly weeping. He is buried at the foot of Mount Uhud, where his tomb remains to this day.\n\nThe Prophet ﷺ gave Hamza the titles Asad Allah wa Asad Rasulihi (Lion of Allah and Lion of His Messenger) and Sayyid al-Shuhada (Master of the Martyrs). The latter title appears in narrations collected by al-Hakim in al-Mustadrak and is referenced by al-Dhahabi and Ibn Kathir, who discuss its chains. Wahshi ibn Harb later accepted Islam, and the Prophet ﷺ accepted his conversion but asked him not to appear before him too often, as the sight of Wahshi recalled Hamza's death. This exchange is preserved in classical seerah literature as an example of the Prophet's ﷺ pain balanced with his commitment to forgiveness and universal da'wah.",
+  "key_events": [
+    {"year_ah": null, "year_ce": 616, "event": "Accepted Islam after Abu Jahl struck the Prophet ﷺ — publicly struck Abu Jahl and declared his faith"},
+    {"year_ah": 1, "year_ce": 623, "event": "Led the first organized Muslim military expedition — reconnaissance toward the Red Sea coast"},
+    {"year_ah": 2, "year_ce": 624, "event": "Battle of Badr — among the most effective fighters; killed Utbah ibn Rabi'ah and others"},
+    {"year_ah": 3, "year_ce": 625, "event": "Battle of Uhud — killed by Wahshi ibn Harb's javelin; body mutilated by Hind bint Utbah"},
+    {"year_ah": 3, "year_ce": 625, "event": "Buried by the Prophet ﷺ at the foot of Mount Uhud; titled Sayyid al-Shuhada (Master of the Martyrs)"}
+  ],
+  "notable_traits": [
+    "Mightiest warrior of early Islam — his conversion significantly strengthened the Muslim community",
+    "Deep personal bond with the Prophet ﷺ as paternal uncle and milk-brother",
+    "Accepted Islam through a spontaneous act of defense of the Prophet's honor",
+    "Led the first organized Muslim military expedition in Islamic history",
+    "Died in battle and titled Sayyid al-Shuhada by the Prophet ﷺ"
+  ],
+  "key_relationships": {
+    "relationship_to_prophet": "Paternal uncle and milk-brother of the Prophet ﷺ",
+    "father": "Abd al-Muttalib (Prophet's grandfather)",
+    "killer": "Wahshi ibn Harb (who later accepted Islam)",
+    "instigator_of_killing": "Hind bint Utbah (wife of Abu Sufyan; father killed at Badr)",
+    "close_companions": ["Ali ibn Abi Talib", "Ubayda ibn al-Harith"]
+  },
+  "narrated_hadith_count": "very few narrations attributed directly; most knowledge comes from Seerah sources",
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah — conversion and Uhud narrative",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3",
+    "Sahih al-Bukhari, Kitab al-Maghazi — Battle of Uhud",
+    "al-Hakim, al-Mustadrak — Sayyid al-Shuhada narration",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4",
+    "Ibn Hajar al-Asqalani, al-Isabah fi Tamyiz al-Sahaba"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

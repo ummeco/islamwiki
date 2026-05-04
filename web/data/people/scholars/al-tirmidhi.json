@@ -1,0 +1,48 @@
+{
+  "slug": "al-tirmidhi",
+  "name_ar": "محمد بن عيسى بن سَوْرة الترمذي",
+  "name_en": "Muhammad ibn Isa ibn Sawra al-Tirmidhi",
+  "epithet": "al-Imam al-Hafiz",
+  "kunya": "Abu Isa",
+  "birth_ah": 209,
+  "birth_ce": 824,
+  "death_ah": 279,
+  "death_ce": 892,
+  "era": "classical",
+  "category": ["scholars", "hadith", "rijal"],
+  "madhhab": "shafii",
+  "summary": "Muhammad ibn Isa al-Tirmidhi (209–279 AH) compiled the Jami' al-Tirmidhi — also called Sunan al-Tirmidhi — the fourth of the six canonical hadith collections. His work is uniquely valuable for its grading of each hadith (sahih, hasan, da'if, gharib) directly in the text and for the juristic commentary that follows many narrations, making it both a hadith reference and an encyclopedia of fiqh disagreements among the early scholars.",
+  "biography": "Muhammad ibn Isa al-Tirmidhi was born in approximately 209 AH (824 CE) in Tirmidh, a city on the Amu Darya river in what is now southern Uzbekistan. The city is also known historically as Termez, a major center of trade and scholarship in the Transoxiana region. He reportedly lost his sight before his death, though sources differ on when this occurred — some say toward the end of his life, others say much earlier.\n\nAl-Tirmidhi traveled extensively for hadith study, visiting Khurasan, Iraq, the Hijaz, and other centers of learning. He studied with al-Bukhari, who had a significant influence on his hadith methodology, and with Abu Dawud al-Sijistani, whose juristic approach to hadith collection shaped his own thinking about how to use hadith in fiqh. He also studied with Ishaq ibn Rahawayh, Ahmad ibn Mani', and many others. Al-Dhahabi considered him a major hafiz (hadith master) and praised the broad range of his teachers. (Siyar A'lam al-Nubala', Vol. 13)\n\nThe Jami' al-Tirmidhi — also called the al-Jami' al-Sahih or al-Jami' al-Kabir — was composed after his return to Khorasan and shows the influence of both al-Bukhari and Abu Dawud in its methodology, while adding distinctive features that make it unlike any other collection in the canon. The most significant of these features is the grading system: unlike al-Bukhari and Muslim, who included only narrations they considered sahih without explicit grading, al-Tirmidhi graded every narration with a classification — and introduced the crucial category of hasan (good), for narrations that fall short of sahih but are reliable enough to be used in jurisprudence. Some scholars credit him with coining or systematizing this category, which became foundational to all subsequent hadith scholarship.\n\nA second distinctive feature is the juristic commentary that follows many narrations. After recording a hadith, al-Tirmidhi typically explains how the major scholarly schools of his era — Hanafi, Maliki, Shafi'i, and the hadith scholars — applied it, noted when the scholars agreed, described their disagreements, and sometimes expressed his own view. This made the Jami' an invaluable reference for understanding the fiqh of the third century AH across all schools, not just within one tradition.\n\nA third feature is his attention to the breadth of transmission: al-Tirmidhi frequently notes how many Companions transmitted a given hadith and from how many chains, and he discusses variant wordings and their implications. His category of gharib — narrations transmitted through only a single chain — and his analysis of munkar and other defect categories show careful systematic thinking about the gradations of reliability below the level of sahih and hasan.\n\nThe collection contains approximately 3,956 narrations. Al-Tirmidhi reportedly presented completed sections of the Jami' to scholars of the Hijaz, Iraq, and Khurasan and was told: 'Whoever has this book in his home, it is as if the Prophet ﷺ is speaking in it.' This account — preserved by al-Dhahabi — reflects the high esteem the work quickly earned.\n\nAl-Tirmidhi also compiled the Shama'il al-Muhammadiyya — a collection of narrations describing the physical appearance, manners, and personal habits of the Prophet ﷺ — which became one of the most beloved reference texts in Islamic spiritual literature. It occupies a distinct genre from the Sunan/Jami' tradition: not primarily legal, but devotional and biographical.\n\nHe died in Tirmidh in 279 AH (892 CE). His grave in the village of Bugh near Tirmidh was a site of scholarly veneration for centuries. His methodological contributions — particularly the formalization of the hasan category and the explicit in-text grading of narrations — influenced every subsequent hadith scholar and continue to shape how hadith are discussed, evaluated, and used in Islamic jurisprudence.",
+  "key_works": [
+    "al-Jami' al-Tirmidhi (also: Sunan al-Tirmidhi — the fourth canonical hadith collection, ~3,956 narrations)",
+    "al-Shama'il al-Muhammadiyya (narrations on the Prophet's appearance and character)",
+    "Kitab al-Ilal al-Kabir (on defective narrations)",
+    "Kitab al-Ilal al-Saghir (appended to the Jami' — methodological notes)",
+    "Kitab al-Asma' wal-Kuna (biographical register)"
+  ],
+  "teachers": [
+    {"slug": "al-bukhari", "name": "Muhammad ibn Ismail al-Bukhari"},
+    {"slug": "abu-dawud", "name": "Abu Dawud al-Sijistani"},
+    {"slug": "ishaq-ibn-rahawayh", "name": "Ishaq ibn Rahawayh"},
+    {"slug": "qutayba-ibn-said", "name": "Qutayba ibn Sa'id"},
+    {"slug": "ibn-abi-umar-al-adani", "name": "Muhammad ibn Yahya al-Duhli"}
+  ],
+  "students": [
+    {"slug": "abu-al-abbas-al-mahbubi", "name": "Abu al-Abbas Muhammad ibn Ahmad al-Mahbubi (primary transmitter of the Jami')"},
+    {"slug": "al-haysam-ibn-kulayb", "name": "al-Haysam ibn Kulayb al-Shashi"},
+    {"slug": "ahmad-ibn-ali-al-muthanna", "name": "Ahmad ibn Ali al-Muthanna (Abu Ya'la al-Mawsili)"}
+  ],
+  "birthplace_slug": "tirmidh",
+  "death_place_slug": "tirmidh",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 13",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 2",
+    "Ibn Khallikan, Wafayat al-A'yan",
+    "al-Tirmidhi, Kitab al-Ilal al-Saghir (methodology described by the author)",
+    "Ibn Hajar al-Asqalani, Tahdhib al-Tahdhib, Vol. 9",
+    "al-Sam'ani, al-Ansab"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

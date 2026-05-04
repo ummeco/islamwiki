@@ -1,0 +1,24 @@
+{
+  "slug": "sunan-abi-dawud",
+  "title_en": "Sunan Abi Dawud",
+  "title_ar": "سنن أبي داود",
+  "title_full_ar": "سنن أبي داود السجستاني",
+  "author_slug": "abu-dawud-al-sijistani",
+  "subject": "hadith",
+  "subjects": ["hadith", "fiqh", "sunan"],
+  "language": "ar",
+  "year_compiled_ah": 275,
+  "year_compiled_ce": 889,
+  "summary": "Sunan Abi Dawud is one of the six canonical hadith collections (Kutub al-Sittah), compiled by Imam Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani (202–275 AH / 817–889 CE). The work is particularly distinguished for its focus on jurisprudential (fiqhi) hadith, covering legal rulings across nearly every domain of Islamic law with approximately 5,274 narrations.",
+  "overview": "Imam Abu Dawud was born in Sijistan (present-day Sistan, spanning Iran and Afghanistan) in 202 AH and died in Basra in 275 AH. He is universally regarded as one of the greatest scholars in the sciences of hadith, known not only for his encyclopaedic knowledge but for his exceptional critical acumen in evaluating narrators and identifying defects (ilal) in hadith chains. He studied under Imam Ahmad ibn Hanbal, Yahya ibn Ma'in, and Ali ibn al-Madini, among many others.\n\nThe Sunan focuses primarily on legal hadith — those with direct jurisprudential application. This gives the collection a distinctly practical character: Abu Dawud organised it along fiqhi lines, following the standard order of Islamic law from ritual purity through prayer, zakah, fasting, pilgrimage, and then the full range of civil, family, criminal, and administrative law. This structure made it indispensable to scholars applying hadith to legal questions.\n\nAbu Dawud reportedly examined some 500,000 hadith and selected approximately 5,274 for his Sunan. Importantly, he departed from the strict criteria of al-Bukhari and Muslim: where no clearly sahih (authentic) narration existed on a topic, he included the strongest available narration even if it was da'if (weak), but accompanied it with comments indicating its weakness. He communicated this methodology in a famous letter to the people of Mecca, in which he also explained that he would indicate whether a hadith was munkar (objectionable) or had serious problems. This letter is preserved and has itself become an important methodological text.\n\nAbu Dawud's approach made his Sunan more comprehensive as a legal resource than the Sahihayn: by recording weaker narrations with explicit grading, he provided jurists with the full landscape of available evidence on a given question. Imam Ahmad ibn Hanbal is reported to have praised the work highly, and the scholar al-Khatib al-Baghdadi recorded that Ibn Dasa said Abu Dawud recited the Sunan to Ahmad, who found it satisfactory.\n\nThe standard commentary is Awn al-Ma'bud by Muhammad Shams al-Haqq al-Azimabadi (d. 1329 AH / 1911 CE), a detailed work in fourteen volumes. Another important commentary is Badhll al-Majhud by Khalil Ahmad al-Saharanpuri (d. 1346 AH). The classical scholars who produced sharhs include Ibn Raslan al-Ramli (d. 844 AH) and al-Khattabi (d. 388 AH), whose Maalim al-Sunan is among the earliest and most respected commentaries.\n\nThe standard Arabic edition is that of Muhammad Muhyi al-Din Abd al-Hamid (Dar al-Fikr). The English translation was produced by Ahmad Hasan (published by Sh. Muhammad Ashraf, Lahore, in three volumes) and later by Nasiruddin al-Khattab (Darussalam, 2008).\n\nThe Sunan has been particularly influential in the Shafi'i and Hanbali traditions, where its legal content is frequently cited alongside the Sahihayn. In Hanafi scholarship, Sunan Abi Dawud serves as a check on the completeness of hadith evidence for legal positions. Al-Nawawi praised the Sunan saying it is sufficient for a person of fiqh. The prominence Abu Dawud gave to identifying weak narrations within the text — unusual among the compilers — made his Sunan a model for later works that combined transmission with evaluation, including al-Tirmidhi's Jami'. The work is available in full on sunnah.com and in critical Arabic editions from Dar al-Risalah al-Alamiyyah (Beirut), edited by Shu'ayb al-Arnaout et al. (2009), which includes grading of every narration.",
+  "structure": "43 books (kutub), approximately 5,274 hadith",
+  "translations": [
+    {"language": "en", "translator": "Ahmad Hasan", "publisher": "Sh. Muhammad Ashraf", "status": "available"},
+    {"language": "en", "translator": "Nasiruddin al-Khattab", "publisher": "Darussalam", "status": "available"}
+  ],
+  "available_at": [
+    "sunnah.com/abudawud"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

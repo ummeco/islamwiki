@@ -1,0 +1,52 @@
+{
+  "slug": "abu-ayyub-al-ansari",
+  "name_ar": "أبو أيوب الأنصاري",
+  "name_en": "Abu Ayyub al-Ansari",
+  "epithet": null,
+  "kunya": "Abu Ayyub",
+  "birth_ah": null,
+  "birth_ce": 591,
+  "death_ah": 50,
+  "death_ce": 670,
+  "era": "sahaba_ansar",
+  "category": ["sahaba", "ansar", "khazraj", "shuhada"],
+  "tribe": "Ansar - Khazraj - Banu al-Najjar",
+  "role": ["Host of the Prophet ﷺ upon his arrival in Madinah", "Veteran of nearly every early campaign", "Martyr at Constantinople"],
+  "birthplace_slug": "madinah",
+  "death_place_slug": "constantinople",
+  "summary": "Abu Ayyub al-Ansari (RA) was the Companion of the Prophet ﷺ who hosted him in his home in Madinah for approximately seven months upon the Hijrah — the greatest honour bestowed on any Ansari. He fought in virtually every campaign from Badr onwards and died as a martyr during the first major Muslim siege of Constantinople around 50 AH (670 CE), fulfilling the Prophet's prophecy that a righteous man would be buried at its walls.",
+  "biography": "Khalid ibn Zayd ibn Kulayb al-Ansari al-Khazraji, known universally by his kunya Abu Ayyub, was a man of the Khazraj tribe of Madinah and among those who took the pledge of Aqabah with the Prophet ﷺ before the Hijrah. When the Prophet ﷺ arrived in Madinah in 1 AH (622 CE) after his migration from Makkah, he let his camel, Qaswa, proceed without directing her, saying she would stop where Allah willed. The camel knelt at a plot near the home of Abu Ayyub al-Ansari. Every family of the Ansar pleaded to host the Prophet ﷺ, but he honoured the custom that a guest stays where his mount rests. Abu Ayyub thus became the host of the Prophet ﷺ for approximately seven months — the period until the Prophet's own rooms adjacent to the mosque were completed.\n\nAbu Ayyub gave the Prophet ﷺ the lower floor of his two-storey house and moved with his wife Umm Ayyub to the upper floor, but he felt tremendous discomfort at being above the Prophet ﷺ and repeatedly asked to move. The Prophet ﷺ allowed it, and they exchanged floors so that the Prophet ﷺ had the upper level for receiving visitors more easily. Ibn Sa'd in al-Tabaqat al-Kubra records that during this period, Abu Ayyub would prepare food for the Prophet ﷺ each day, and the Prophet ﷺ would often return the bowl with his hand-marks visible on it, which Abu Ayyub and his wife would place their lips on out of love.\n\nAbu Ayyub fought at the Battle of Badr (2 AH) and at every major expedition alongside the Prophet ﷺ: Uhud, al-Khandaq, Khaybar, Mu'tah, and the conquest of Makkah. He is recorded among the participants of all the major ghazawat (campaigns led personally by the Prophet). He continued fighting under the Rightly Guided Caliphs: in the ridda campaigns, the conquest of Syria, and the campaigns in North Africa and beyond. Al-Dhahabi in Siyar A'lam al-Nubala' describes him as among the most dedicated veteran fighters among the Ansar, never retiring from jihad as long as he was capable.\n\nThe most remarkable chapter of his life came at the very end. Around 49-50 AH (669-670 CE), during the caliphate of Muawiyah ibn Abi Sufyan, the first major Muslim naval and land expedition to besiege Constantinople was launched under the command of Yazid ibn Muawiyah and the general Sufyan ibn Awf. Abu Ayyub, by then at least in his late seventies or older, joined the expedition refusing to remain behind. When asked why a man of his age and standing was placing himself in such danger, he cited the Quranic verse: 'And spend in the cause of Allah and do not throw yourselves with your own hands into destruction.' (2:195) — noting that the verse was actually revealed about men who stayed home from jihad under the pretext that they had done their share. Ibn Kathir in al-Bidayah wal-Nihayah records this account in the chapter on the siege of Constantinople.\n\nAbu Ayyub fell ill during the campaign and died at or near Constantinople. Before he died, he instructed his companions: 'When I die, carry my body forward as far as you can into enemy territory, and bury me there.' He is reported to have said: 'I heard the Prophet ﷺ say that a righteous man will be buried at the foot of the walls of Constantinople.' They carried him as far as they could advance and buried him at the base of the walls of the city. Ibn Sa'd and al-Dhahabi both record that the Byzantine inhabitants of the city knew of his grave and venerated it, turning to it when they feared drought, as something sacred.\n\nHis tomb in the city that later became Istanbul remains one of the most visited historical sites in the Muslim world. The Eyüp Sultan Mosque in Istanbul is built over what is traditionally identified as the site of his burial, and Ottoman sultans were ceremonially girded with the sword of their office there. He died at an advanced age and was one of the last surviving major Sahaba from the period before the Hijrah.",
+  "key_events": [
+    {"year_ah": null, "year_ce": 621, "event": "Took the pledge of Aqabah with the Prophet ﷺ before the Hijrah"},
+    {"year_ah": 1, "year_ce": 622, "event": "Hosted the Prophet ﷺ in his home for ~7 months upon the Hijrah to Madinah"},
+    {"year_ah": 2, "year_ce": 624, "event": "Fought at the Battle of Badr"},
+    {"year_ah": 3, "year_ce": 625, "event": "Fought at the Battle of Uhud"},
+    {"year_ah": 5, "year_ce": 627, "event": "Fought at the Battle of al-Khandaq"},
+    {"year_ah": 8, "year_ce": 630, "event": "Participated in the Conquest of Makkah"},
+    {"year_ah": 50, "year_ce": 670, "event": "Died at or near Constantinople during the first Muslim siege; buried at the city walls"}
+  ],
+  "notable_traits": [
+    "Chosen by the Prophet's camel — his home became the Prophet's first residence in Madinah",
+    "Extreme personal humility — discomfort at being on a higher floor than the Prophet ﷺ",
+    "Tireless in jihad until very old age — joined the Constantinople expedition in his late seventies",
+    "His grave at Istanbul has been venerated for over a millennium"
+  ],
+  "key_relationships": {
+    "tribe": "Banu al-Najjar (Khazraj), Ansar",
+    "spouse": "Umm Ayyub (name disputed in sources)",
+    "host_of": "The Prophet Muhammad ﷺ upon arrival in Madinah"
+  },
+  "narrated_hadith_count": "approximately 155 hadith in the major collections",
+  "sources": [
+    "Sahih al-Bukhari — various",
+    "Sahih Muslim — various",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 2",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 8",
+    "Ibn Hajar al-Asqalani, al-Isabah fi Tamyiz al-Sahaba, Vol. 2",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "year-of-delegations",
+  "title_en": "Year of Delegations",
+  "title_ar": "عام الوفود",
+  "year_ah": 9,
+  "year_ce": 630,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "madinan",
+  "summary": "The ninth year after the Hijrah was called the Year of Delegations (Aam al-Wufud): tribes from across Arabia streamed into Madinah to accept Islam and pledge allegiance to the Prophet ﷺ. After the conquest of Makkah and the decisive victory at Hunayn, the last hesitations of the Arabian Peninsula dissolved, fulfilling the Quranic vision of people entering Allah's religion in multitudes.",
+  "narrative": "The conquest of Makkah in 8 AH had removed the symbolic and political centre of Arabian resistance to Islam. The Quraysh — the custodians of the Kaabah and the most prestigious tribe in Arabia — had entered Islam. In the ninth year, the consequences cascaded across the peninsula: tribe after tribe sent delegations to Madinah to announce their acceptance of Islam and negotiate their terms of adherence.\n\nIbn Hisham devotes a substantial section of the Seerah to the individual delegations, and al-Tabari expands on these accounts. The delegations came from nearly every region of Arabia: from Yemen, from Bahrain, from Oman, from the Najd, from the Hijaz, and from the northern borders. Each delegation would typically enter Madinah, meet the Prophet ﷺ, recite the shahada, receive instruction in the basic obligations of Islam, and often receive a written document (kitab) from the Prophet ﷺ outlining their rights and duties.\n\nAmong the most notable delegations was that of the Banu Tamim, who arrived with their chief poets and orators and challenged the Muslims to a contest of oratory — a serious matter in a culture where eloquence was the highest art. The Quran references their loud calls outside the Prophet's ﷺ chamber in 49:4: 'Indeed those who call out to you from behind the chambers — most of them do not reason.'\n\nThe delegation of the Thaqif from Taif came in this year — fulfilling the Prophet's ﷺ prayer made after the failed siege. Their delegation included Abd Yalayl ibn Amr and other leaders. They sought to negotiate conditions for accepting Islam: they asked that the tribe's idol, al-Lat, be left standing for three years; that they be exempt from prayer; that they not be required to break their own idols. The Prophet ﷺ rejected all these conditions. Eventually the delegates accepted Islam without conditions, and Abu Sufyan ibn Harb and Mughirah ibn Shubah ؓ — who was from Thaqif — accompanied them home to destroy al-Lat. Ibn Hisham records that some of the women of Thaqif wept when the idol fell.\n\nA delegation of the Banu Abd al-Qays from Bahrain had come earlier; their account in Sahih al-Bukhari shows the Prophet ﷺ teaching them the four things to hold to and four to avoid, and praising them for their intelligence and good disposition. The Najashis of Yemen, the rulers of Oman, and representatives from regions as far as the eastern trade routes sent their pledges.\n\nThe revelation of Surah al-Nasr captures the spiritual meaning of this period: 'When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt Him with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.' Ibn Abbas ؓ, quoted in Ibn Kathir's Tafsir, understood this surah as a sign that the Prophet's ﷺ time on earth was drawing near — the mission was consummated, and what remained was departure. The Prophet ﷺ, according to Aisha ؓ, began to recite 'Glory to Allah and His praise; I seek His forgiveness and repent to Him' very frequently in his prayers after this surah was revealed.",
+  "people_slugs": ["abd-yalayl-ibn-amr", "ibn-abbas"],
+  "quranic_reference": ["110:1-3", "49:4"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Kitab al-Maghazi — Year of Delegations"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 4 — Delegations (Wufud)",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Aam al-Wufud",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 5 — Delegations and Tafsir of Surah al-Nasr"
+  ],
+  "related_events": ["conquest-of-makkah", "siege-of-taif", "expedition-of-tabuk", "last-hajj"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "hanbali",
+  "name_en": "Hanbali Madhab",
+  "name_ar": "المذهب الحنبلي",
+  "parent_slug": "sunni",
+  "children_slugs": [],
+  "founded_ah": 241,
+  "founded_ce": 855,
+  "key_figures_slugs": ["ahmad-ibn-hanbal","ibn-qudama","ibn-taymiyyah","ibn-al-qayyim","mar-i-al-karmi","al-buhuti"],
+  "summary": "The Hanbali school is one of the four major Sunni legal schools, founded by Imam Ahmad ibn Hanbal (d. 241 AH / 855 CE) of Baghdad. Known for its strict adherence to Quran and hadith and reluctance to engage in speculative reasoning, it became the dominant madhab in the Arabian Peninsula.",
+  "overview": "The Hanbali school (Arabic: al-Madhhab al-Hanbali) is named after Imam Ahmad ibn Hanbal (d. 241 AH / 855 CE), one of the foremost hadith scholars and jurists of Islamic history. His famous musnad — a compilation of over 27,000 hadith — remains one of the largest hadith collections ever assembled and a primary source for the school.\n\nThe Hanbali methodology is characterized by maximum deference to textual sources: the Quran, the Sunnah (with a preference for accepting hadith even if weakly graded when no other evidence exists), the statements of the Companions, and the consensus of early scholars. The school is deeply suspicious of legal reasoning that appears to depart from clear text, and historically has been the least inclined among the four schools to rely on qiyas (analogy) or legal stratagems (hiyal).\n\nThis textual orientation made Imam Ahmad the natural champion of the Athari creed in aqeedah. His resistance to the Mu'tazilite inquisition (Mihna) under the Abbasid caliph al-Ma'mun — in which Ahmad was imprisoned and flogged for refusing to affirm the Mu'tazilite position that the Quran was created — cemented his status as the defender of Sunni orthodoxy. He is often referred to as 'Imam Ahl us-Sunnah' (the Imam of the People of the Sunnah).\n\nThe school remained smaller than the other three madhabs through most of classical Islamic history, revived significantly through Ibn Taymiyyah (d. 728 AH) and his student Ibn al-Qayyim al-Jawziyyah (d. 751 AH), who produced a vast body of Hanbali scholarship. In the 18th century, Muhammad ibn Abd al-Wahhab adopted the Hanbali fiqh methodology and Athari aqeedah in his reform movement on the Arabian Peninsula, which eventually became the official legal and theological framework of Saudi Arabia.\n\nToday, the Hanbali school is the official madhab of Saudi Arabia and Qatar, and is followed by significant numbers in Kuwait, the UAE, and the broader Arabian Peninsula.\n\nAll four madhabs are presented equally on islam.wiki. No school is ranked above another.",
+  "status": "sunni-mainstream",
+  "disclaimer_tier": 0,
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

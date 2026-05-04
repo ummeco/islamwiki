@@ -1,0 +1,16 @@
+{
+  "slug": "sunni-athari",
+  "name_en": "Athari Aqeedah",
+  "name_ar": "العقيدة الأثرية",
+  "parent_slug": "sunni",
+  "children_slugs": [],
+  "founded_ah": null,
+  "founded_ce": null,
+  "key_figures_slugs": ["ahmad-ibn-hanbal","ibn-taymiyyah","ibn-al-qayyim","al-dhahabi","ibn-kathir","al-daraqutni"],
+  "summary": "The Athari school affirms the divine attributes as stated in the Quran and Sunnah without seeking to interpret them metaphorically (ta'wil) or compare them to creation (tamtheel). It follows the methodology of the Salaf — the first three generations of Muslims — in matters of creed.",
+  "overview": "The Athari creed (from the Arabic athar, meaning 'narration' or 'trace') takes its name from its methodology: grounding theology entirely in transmitted reports (athar) from the Quran, the authentic Sunnah, and the understanding of the Salaf — the Companions (Sahaba), their Successors (Tabi'in), and the generation after them (Tabi' al-Tabi'in).\n\nThe core principle is the affirmation of Allah's attributes as He described Himself and as His Prophet ﷺ described Him — without distortion (tahreef), denial (ta'til), asking how (takyeef), or comparing them to created things (tamtheel). When the Quran states that Allah has a Hand, an Athari affirms this attribute as befitting Allah's majesty, neither denying it nor imagining it to resemble a human hand.\n\nThe Athari school became most closely associated with Imam Ahmad ibn Hanbal (d. 241 AH / 855 CE), who steadfastly defended the divine attributes during the Mu'tazilite-backed inquisition (Mihna) under Abbasid caliphs. His suffering and resolve became a defining moment for the Athari position.\n\nLater, Ibn Taymiyyah (d. 728 AH / 1328 CE) wrote extensively in defense of Athari methodology, refuting both the Mu'tazilite approach and what he saw as the over-reliance on rationalist kalam in the Ash'ari and Maturidi schools. His student Ibn al-Qayyim al-Jawziyyah (d. 751 AH / 1350 CE) continued this work.\n\nThe Athari approach is sometimes conflated with the modern 'Salafi' movement, but the two are not identical. Classical Athari scholars — including the four Imams, al-Bukhari, Ibn Khuzayma, Ibn Hibban, and al-Daraqutni — predate the modern Salafi movement by centuries. The Athari creed is the primary aqeedah framework for islam.wiki, but without identifying with any particular modern movement that claims this label.\n\nAll three Sunni aqeedah schools — Athari, Ash'ari, and Maturidi — are within Ahl us-Sunnah. The differences between them are real but concern the methodology of understanding divine attributes, not foundational matters of tawhid, prophethood, or the Last Day.",
+  "status": "sunni-mainstream",
+  "disclaimer_tier": 0,
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

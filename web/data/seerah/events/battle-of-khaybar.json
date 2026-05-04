@@ -1,0 +1,27 @@
+{
+  "slug": "battle-of-khaybar",
+  "title_en": "Battle of Khaybar",
+  "title_ar": "غزوة خيبر",
+  "year_ah": 7,
+  "year_ce": 628,
+  "season": null,
+  "place_slug": "khaybar",
+  "phase": "madinan",
+  "summary": "In the seventh year after the Hijrah, the Prophet ﷺ led a Muslim force against the fortified Jewish settlement of Khaybar, whose leaders had been conspiring against Madinah. The campaign lasted several weeks and ended in a negotiated surrender, with the inhabitants permitted to remain and farm their lands in exchange for half the harvest.",
+  "narrative": "Khaybar was a series of heavily fortified strongholds approximately 150 kilometres north of Madinah, inhabited predominantly by the Banu Nadir tribe — who had been expelled from Madinah earlier — and other Jewish clans. Following their expulsion, the leaders of Banu Nadir had actively coordinated with the Quraysh and other tribes against the Muslims, playing a central role in organizing the Confederacy of the Battle of the Trench. After the Treaty of Hudaybiyyah secured the southern front, the Prophet ﷺ turned to neutralize this persistent northern threat.\n\nThe Muslim force of approximately 1,400 to 1,600 men — most of them veterans of Hudaybiyyah, as the Prophet ﷺ restricted the campaign to those who had pledged at the tree — set out in Muharram of the seventh year AH. Ibn Hisham records that the approach was made by night, and the Muslims arrived at Khaybar before dawn. When the farmers came out at first light with their tools and saw the army, they cried out 'Muhammad with his force!' and fled back into the forts.\n\nKhaybar consisted of multiple fortresses, the most formidable being al-Qamus and al-Natat. The siege was prolonged. Al-Tabari records that the Muslims faced fierce resistance, with sorties from the defenders and difficult terrain. On one critical day, after several companions had attempted and failed to breach the gates of the central fortress, the Prophet ﷺ declared: 'Tomorrow I will give the flag to a man who loves Allah and His Messenger and whom Allah and His Messenger love, and Allah will open the fortress at his hands.' The companions spent the night wondering to whom this honour would fall. In the morning, the Prophet ﷺ called for Ali ibn Abi Talib ؓ, who had been suffering from eye pain. The Prophet ﷺ applied his saliva to Ali's eyes and they healed, and he gave him the banner. Ibn Hisham and both Bukhari and Muslim record this incident. Ali ؓ went out, defeated the champion Marhab in single combat, and the fortress fell.\n\nThe last stronghold to fall was al-Qamus, the citadel of the Banu Nadir chief Kinana ibn al-Rabi'. After the battle, Safiyyah bint Huyayy — the daughter of the Banu Nadir chief Huyayy ibn Akhtab — was taken prisoner and later freed and married by the Prophet ﷺ, becoming one of the Mothers of the Believers. Ibn Kathir records her account of the night she was given the choice between returning to her people or accepting Islam and marriage to the Prophet ﷺ.\n\nOne incident recorded by Ibn Hisham and al-Tabari is the attempt by a Jewish woman named Zaynab bint al-Harith to poison the Prophet ﷺ by placing poison in a roasted sheep. The Prophet ﷺ took a bite and immediately spat it out, having perceived the poison by revelation. He reportedly said the shoulder of the sheep spoke to him. The companion Bishr ibn al-Bara, who had also eaten, died from his bite. The woman was brought before the Prophet ﷺ and confessed. She was eventually executed for Bishr's death.\n\nThe settlement reached was one of significance: the inhabitants of Khaybar were permitted to remain on their lands and continue farming, provided they surrendered half of every harvest to the Muslims. This arrangement continued until the caliphate of Umar ibn al-Khattab ؓ, who eventually expelled the remaining Jews from Khaybar in fulfillment of a hadith of the Prophet ﷺ. The campaign also saw the liberation of many captives and a substantial distribution of spoils, including for those companions who had not participated but were entitled by the Prophet's ﷺ discretion.",
+  "people_slugs": ["ali-ibn-abi-talib", "safiyyah-bint-huyayy", "kinana-ibn-al-rabi", "huyayy-ibn-akhtab"],
+  "quranic_reference": ["48:18-21"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Kitab al-Maghazi — Ghazwah Khaybar",
+    "Sahih Muslim, Kitab al-Jihad — Battle of Khaybar"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 3 — Ghazwah Khaybar",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Khaybar campaign",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Battle of Khaybar"
+  ],
+  "related_events": ["battle-of-the-trench", "treaty-of-hudaybiyyah", "letters-to-kings"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "abu-hanifa",
+  "name_ar": "أبو حنيفة النعمان بن ثابت",
+  "name_en": "Abu Hanifa al-Nu'man ibn Thabit",
+  "epithet": "al-Imam al-A'zam (The Greatest Imam)",
+  "kunya": "Abu Hanifa",
+  "birth_ah": 80,
+  "birth_ce": 699,
+  "death_ah": 150,
+  "death_ce": 767,
+  "era": "tabi_tabiin",
+  "category": ["scholars", "fiqh", "madhhab_founder", "hanafi"],
+  "madhhab": "hanafi",
+  "summary": "Abu Hanifa al-Nu'man ibn Thabit (80–150 AH) was a Tabi' al-Tabi'in scholar of Kufa who founded the Hanafi madhhab, the most widely followed school of Islamic jurisprudence. Renowned for his systematic use of reason ('aql) and analogy (qiyas) alongside the Quran and Sunnah, he trained generations of jurists whose scholarship shaped Islamic law across Central Asia, the Ottoman Empire, and the Indian subcontinent.",
+  "biography": "Abu Hanifa was born in Kufa in 80 AH (699 CE) to a family of Persian origin — his grandfather Zuta was reported to have been a freedman of the Banu Taym Allah. His father Thabit is reported to have met Ali ibn Abi Talib as a young man, though Abu Hanifa himself belonged to the generation of the Tabi' al-Tabi'in rather than the Tabi'in in the strict sense. He did, however, reportedly see the Companion Anas ibn Malik when he visited Kufa, and some classical scholars counted him among the Tabi'in on that basis — though al-Dhahabi and others considered this a weak claim. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 6)\n\nHis early career was as a merchant of silk cloth (khazzaz) in Kufa, a city that was at the time one of the intellectual capitals of the early Islamic world. He came to scholarship relatively late, initially through the encouragement of the scholar al-Sha'bi, who reportedly saw his aptitude and urged him to seek knowledge. Abu Hanifa's primary teacher in fiqh was Hammad ibn Abi Sulayman (d. 120 AH), a student of Ibrahim al-Nakha'i and Alqamah — a scholarly chain that connected him to the jurisprudence of Ibn Mas'ud and through him to the companions of the Prophet ﷺ. He studied with Hammad for approximately eighteen years before Hammad's death.\n\nAfter Hammad's death, Abu Hanifa succeeded him as the leading jurist of Kufa. His method was distinctive: he gathered a circle of expert scholars — reportedly between thirty and forty in number at its height — and subjected every legal question to collective deliberation. Legal positions were argued, debated, refined, and recorded. This consultative approach produced a jurisprudence of unusual depth and sophistication. He placed a high value on qiyas (analogical reasoning) and istihsan (juristic preference), in addition to the Quran and established Sunnah, while also applying the principle of ra'y (considered opinion) where he judged strict analogical reasoning to produce unfair or impractical results.\n\nHis teachers included, beyond Hammad, a remarkable range of scholars: Ata ibn Abi Rabah in Mecca, 'Ikrima (the mawla of Ibn Abbas), and others whom he traveled to meet. Al-Dhahabi records that he met roughly four thousand Tabi'in scholars, though this number is likely a later embellishment of a genuine pattern of wide travel and broad scholarly formation. (Siyar A'lam al-Nubala', Vol. 6, p. 390)\n\nAmong his most celebrated students was Abu Yusuf (Ya'qub ibn Ibrahim al-Ansari, d. 182 AH), who later became the first Chief Qadi (Qadi al-Qudat) of the Abbasid caliphate and through whose official position the Hanafi madhhab gained enormous institutional reach. Muhammad ibn al-Hasan al-Shaybani (d. 189 AH) was another foundational student, whose writings — the Zahir al-Riwaya works, the six canonical texts of the Hanafi school — preserved and systematized Abu Hanifa's oral teachings. These two students are collectively the conduit through whom the Hanafi madhhab reached its mature written form.\n\nAbu Hanifa had a famously difficult relationship with the Abbasid authorities. He refused the position of Qadi (judge) under both the Umayyads and the Abbasids, reportedly saying that he did not trust himself to dispense justice without fear or favor under political pressure. This refusal led to his imprisonment under the Abbasid caliph al-Mansur in Baghdad, where he reportedly died in 150 AH (767 CE) — either in prison or shortly after release. His grave is in the Imam al-A'zam complex in the al-A'zamiyyah district of Baghdad.\n\nIn aqeedah, Abu Hanifa's positions are preserved in several treatises attributed to him, the most well-known being al-Fiqh al-Akbar. He affirmed the divine attributes (sifat) without tajsim (anthropomorphism) and without ta'til (denial), broadly consistent with the methodology of the Salaf and with what later became the Maturidi school — which traces its doctrinal lineage through his students. Scholars in the Maturidi tradition have always claimed him as their doctrinal ancestor.\n\nThe Hanafi madhhab today is the largest by number of followers, predominant across Turkey, Central Asia, Afghanistan, Pakistan, India, Bangladesh, and parts of the Arab world. Classical scholars of every period recognized Abu Hanifa's towering intellectual contribution even when they disagreed with specific rulings. Imam al-Shafi'i reportedly said: 'In fiqh, all people are dependent on Abu Hanifa.' (Manaqib Abi Hanifa by al-Karadari)",
+  "key_works": [
+    "al-Fiqh al-Akbar (attributed — creed)",
+    "al-Fiqh al-Absat (attributed — creed)",
+    "al-Alim wal-Muta'allim (attributed — theological dialogue)",
+    "Musnad Abi Hanifa (compiled by students from his oral narrations)"
+  ],
+  "teachers": [
+    {"slug": "hammad-ibn-abi-sulayman", "name": "Hammad ibn Abi Sulayman"},
+    {"slug": "ata-ibn-abi-rabah", "name": "Ata ibn Abi Rabah"},
+    {"slug": "ikrima", "name": "'Ikrima, mawla of Ibn Abbas"},
+    {"slug": "ibn-shihab-al-zuhri", "name": "Ibn Shihab al-Zuhri"},
+    {"slug": "nafi-mawla-ibn-umar", "name": "Nafi', mawla of Ibn Umar"}
+  ],
+  "students": [
+    {"slug": "abu-yusuf", "name": "Abu Yusuf (Ya'qub ibn Ibrahim al-Ansari)"},
+    {"slug": "muhammad-ibn-al-hasan-al-shaybani", "name": "Muhammad ibn al-Hasan al-Shaybani"},
+    {"slug": "zufar-ibn-al-hudhayl", "name": "Zufar ibn al-Hudhayl"},
+    {"slug": "al-hasan-ibn-ziyad-al-lu'lu'i", "name": "al-Hasan ibn Ziyad al-Lu'lu'i"}
+  ],
+  "birthplace_slug": "kufa",
+  "death_place_slug": "baghdad",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 6 (extensive biography)",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 13",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 5",
+    "al-Karadari, Manaqib al-Imam Abi Hanifa",
+    "Ibn Abi al-Wafa al-Qurashi, al-Jawahir al-Mudiyyah fi Tabaqat al-Hanafiyyah",
+    "al-Muwaffaq al-Makki, Manaqib Abi Hanifa"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

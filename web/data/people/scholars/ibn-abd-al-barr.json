@@ -1,0 +1,47 @@
+{
+  "slug": "ibn-abd-al-barr",
+  "name_ar": "ابن عبد البر",
+  "name_en": "Ibn Abd al-Barr",
+  "epithet": "Hafiz al-Maghrib (Chief Hadith Scholar of the Muslim West)",
+  "kunya": "Abu 'Umar",
+  "birth_ah": 368,
+  "birth_ce": 978,
+  "death_ah": 463,
+  "death_ce": 1071,
+  "era": "classical",
+  "category": ["scholars", "hadith", "fiqh", "maliki", "biography"],
+  "madhhab": "maliki",
+  "summary": "Ibn Abd al-Barr (368–463 AH) was the foremost hadith scholar of Andalusia and the Muslim West in his era, earning the title Hafiz al-Maghrib. His al-Tamhid li-ma fil-Muwatta' min al-Ma'ani wal-Asanid — a monumental commentary on the hadith of Imam Malik's Muwatta' — is among the greatest works in the history of hadith scholarship. His al-Isti'ab fi Ma'rifat al-Ashab, a comprehensive biographical dictionary of the Companions, remains an indispensable reference.",
+  "biography": "Yusuf ibn 'Abd Allah ibn Muhammad ibn 'Abd al-Barr al-Nimri al-Qurtubi was born in 368 AH (978 CE) in Cordoba, the capital of the Umayyad caliphate of al-Andalus and the most intellectually sophisticated city in Western Europe at the time. He grew up and received his early formation during the final decades of the Cordoban caliphate, studying under the leading scholars of Andalusia.\n\nHis primary area of distinction was hadith — specifically the study of the narrators of the Muwatta', the body of hadith literature transmitted through them, and the legal implications of those narrations. He studied in Cordoba and later traveled within Andalusia to benefit from scholars in Seville, Almeria, and other centers. Unlike many scholars of equal caliber, he does not appear to have made the journey to the East (Iraq, Egypt, the Hijaz) — his scholarship was built on the rich Andalusian and North African hadith tradition, augmented by the written works that reached al-Andalus from the eastern scholarly world. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 18)\n\nHis masterwork, al-Tamhid li-ma fil-Muwatta' min al-Ma'ani wal-Asanid, is a hadith commentary on an unprecedented scale. For each hadith in Imam Malik's Muwatta', Ibn Abd al-Barr traces the complete chains of transmission, evaluates the narrators, discusses variant narrations, extracts the legal rulings, and presents the positions of the scholars. The work runs to twenty-four volumes in modern editions and is recognized by scholars of hadith as one of the most thorough examinations of any single hadith collection ever produced. Ibn al-Qayyim called it 'a work without equal.' (A'lam al-Muwaqqi'in)\n\nHis companion work, al-Istidhkar, offers a more concise juristic commentary on the same Muwatta', making the pair together an exhaustive reference on the hadith and legal content of Malik's foundational work.\n\nHis al-Isti'ab fi Ma'rifat al-Ashab is a biographical dictionary of the Companions of the Prophet (SAW), organized alphabetically and providing available biographical information, dates, and scholarly assessments for each Companion. It was later supplemented and incorporated by Ibn Hajar al-'Asqalani into the larger al-Isaba fi Tamyiz al-Sahaba.\n\nIbn Abd al-Barr held positions of scholarly leadership in Andalusia throughout his long career, serving as a qadi (judge) in various cities during the period of the Taifa kingdoms that followed the collapse of the Cordoban caliphate. He died in Shatibah (Xàtiva, in present-day Valencia, Spain) in 463 AH (1071 CE) at the remarkable age of ninety-five.\n\nAl-Dhahabi called him 'the hafiz of the West, the greatest scholar of his age in the Islamic lands of the Maghrib, and a man of vast knowledge in the sciences of hadith.' (Siyar A'lam al-Nubala', Vol. 18, p. 153). His works are cited universally in the hadith and fiqh literature of later centuries and remain in active scholarly use.",
+  "key_works": [
+    "al-Tamhid li-ma fil-Muwatta' min al-Ma'ani wal-Asanid (24 vols., comprehensive Muwatta' commentary)",
+    "al-Istidhkar (juristic commentary on the Muwatta')",
+    "al-Isti'ab fi Ma'rifat al-Ashab (biographical dictionary of Companions)",
+    "Jami' Bayan al-'Ilm wa-Fadlih (on the merit and etiquette of seeking knowledge)",
+    "al-Intiqa' fi Fada'il al-A'imma al-Thalatha al-Fuqaha' (on the three imams: Malik, al-Shafi'i, Abu Hanifa)"
+  ],
+  "teachers": [
+    {"slug": "ibn-abi-zayd-al-qayrawani", "name": "Ibn Abi Zayd al-Qayrawani (studied his works)"},
+    {"slug": "abu-al-walid-al-baji", "name": "Abu al-Walid al-Baji (contemporary peer)"},
+    {"slug": "qasim-ibn-asbagh", "name": "Qasim ibn Asbagh"},
+    {"slug": "ibn-al-hindiy", "name": "Ibn al-Hindiy al-Qurtubi"},
+    {"slug": "abu-umar-al-talmanki", "name": "Abu 'Umar al-Talmanki"}
+  ],
+  "students": [
+    {"slug": "abu-al-walid-al-baji", "name": "Abu al-Walid al-Baji"},
+    {"slug": "ibn-hazm-al-andalusi", "name": "Ibn Hazm al-Andalusi (benefited from his works)"},
+    {"slug": "al-humaydi", "name": "al-Humaydi (transmitted from him)"}
+  ],
+  "birthplace_slug": "cordoba",
+  "death_place_slug": "xativa",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 18 (extensive biography)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 7",
+    "al-Qadi 'Iyad, Tartib al-Madarik, Vol. 8",
+    "Ibn Farhun, al-Dibaj al-Mudhhab",
+    "al-Zirikli, al-A'lam, Vol. 8"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

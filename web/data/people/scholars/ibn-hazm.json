@@ -1,0 +1,45 @@
+{
+  "slug": "ibn-hazm",
+  "name_ar": "أبو محمد علي بن أحمد بن سعيد بن حزم الأندلسي الظاهري",
+  "name_en": "Abu Muhammad Ali ibn Ahmad ibn Said ibn Hazm al-Andalusi al-Zahiri",
+  "epithet": "Ibn Hazm al-Andalusi",
+  "kunya": "Abu Muhammad",
+  "birth_ah": 384,
+  "birth_ce": 994,
+  "death_ah": 456,
+  "death_ce": 1064,
+  "era": "classical",
+  "category": ["scholars", "fiqh", "aqeedah", "dhahiri", "literature", "polemics", "philosophy"],
+  "madhhab": "dhahiri",
+  "summary": "Ibn Hazm al-Andalusi (384–456 AH) was a Cordoban polymath — jurist, theologian, literary critic, poet, philosopher, and historian — who championed the Dhahiri school of jurisprudence in al-Andalus and produced one of the most comprehensive works of comparative religion in pre-modern Islamic history. His al-Muhalla is the standard reference of Dhahiri fiqh, and his al-Fasl fi al-Milal wa al-Ahwa wa al-Nihal remains a foundational work of Islamic heresiography.",
+  "biography": "Ali ibn Ahmad ibn Said ibn Hazm was born in 384 AH (994 CE) in Cordoba, the capital of the Umayyad caliphate of al-Andalus, into a family of Persianized Iberian (probably converted) background. His father Ahmad served as a minister (wazir) to the powerful regent al-Hajib al-Mansur ibn Abi Amir, and Ibn Hazm's early childhood was spent in comfortable, even luxurious circumstances in the palace circles of Madinat al-Zahra. The political collapse that followed al-Mansur's death — the fitna (civil strife) that began around 399 AH and eventually destroyed the Cordoban caliphate — devastated the Ibn Hazm family, reduced their fortunes, and drove them into repeated exile.\n\nThis experience of privilege followed by loss seems to have shaped Ibn Hazm's character: he became one of the sharpest, most combative, and most intellectually relentless scholars the Islamic world produced, with a documented tendency to make enemies through the uncompromising directness of his critiques. The literary theorist and poet al-Maqqari described his pen as 'as sharp as Ibn Hazm's tongue.' He himself acknowledged his combative nature in his letters.\n\nHis early legal formation was in the Maliki school, which dominated al-Andalus, and then briefly in the Shafi'i school. By his thirties he had committed himself to the Dhahiri (Literalist) school founded by Dawud al-Zahiri (d. 270 AH) and transmitted through a small chain of scholars to al-Andalus. The Dhahiri school is a recognized historical school within Sunni jurisprudence. It holds that Islamic law is derived from the dhahir (apparent, literal) meaning of the Quran and Sunnah, rejecting qiyas (analogical reasoning) as an independent source of law, and relying instead on ijma' (consensus) and the explicit text. This approach is accepted with notation in the Islamic scholarly tradition; the Dhahiri school has fewer contemporary followers than the four major schools but is recognized as a legitimate position within the range of classical Sunni jurisprudence.\n\nHis al-Muhalla bi al-Athar (The Ornamented with Transmitted Reports) is the definitive work of Dhahiri fiqh — twelve volumes in modern editions — covering the full range of legal questions from purification through inheritance, presenting the Dhahiri position on each question alongside the positions of other schools, and arguing his conclusions with direct reference to Quranic verses and hadith. The work is unusual in its level of comparative engagement: few works in Islamic fiqh give as clear a picture of the full range of scholarly positions across the schools on each question. (Ibn Hazm, al-Muhalla, Vol. 1, Introduction)\n\nHis al-Fasl fi al-Milal wa al-Ahwa wa al-Nihal (Detailed Examination of Religions, Sects, and Schools) is a five-volume work of comparative religion and Islamic heresiography that examines the beliefs of various religions — Judaism, Christianity, Zoroastrianism, the Muslim sects — from a critical Islamic perspective, with a rationalist methodology that draws on both text and logical argument. It is one of the most sophisticated pre-modern works of comparative religion produced by any civilization.\n\nIbn Hazm also wrote al-Ihkam fi Usul al-Ahkam (eight volumes on the principles of legal theory), Tawq al-Hamamah (The Dove's Necklace — a celebrated literary-philosophical treatment of love, one of the best-known works of Arabic prose literature), al-Akhlaq wa al-Siyar (Ethics and Conduct — a treatise on character), and Jawami al-Sirah (a biography of the Prophet ﷺ).\n\nIn aqeedah, Ibn Hazm applied his Dhahiri methodology to theological questions, rejecting kalam (speculative theology) in a manner somewhat parallel to the Athari approach while arriving there through a philosophical-rationalist route that differs from the classical Athari methodology. He opposed both the Ash'ari school's use of kalam and the Mu'tazilah's rationalism, insisting that revelation is the only valid source for theological claims, with pure logic as the tool of analysis. His theological positions are discussed and debated within classical scholarship; they do not represent the mainstream Athari or Ash'ari positions.\n\nHis political involvements — he served briefly as a wazir under the Umayyad pretender Abd al-Rahman V — continued to make him a target of persecution. His books were reportedly burned publicly in Seville on the orders of the Abbadid ruler al-Mu'tamid. He died in exile in Manta Lisham in the Portuguese Alentejo region in 456 AH (1064 CE).",
+  "key_works": [
+    "al-Muhalla bi al-Athar (12 volumes — Dhahiri fiqh)",
+    "al-Fasl fi al-Milal wa al-Ahwa wa al-Nihal (5 volumes — comparative religion and heresiography)",
+    "al-Ihkam fi Usul al-Ahkam (8 volumes — legal theory)",
+    "Tawq al-Hamamah (The Dove's Necklace — literary treatise on love)",
+    "Jawami al-Sirah (biography of the Prophet ﷺ)",
+    "al-Akhlaq wa al-Siyar (ethics and conduct)",
+    "al-Nubdhah al-Kafiyah fi Usul Ahkam al-Din (theology)"
+  ],
+  "teachers": [
+    {"slug": "ibn-al-faradi", "name": "Ibn al-Faradi al-Azdi (history and hadith)"},
+    {"slug": "yusuf-ibn-abd-allah-ibn-abd-al-barr", "name": "Ibn Abd al-Barr (contemporary — mutual acquaintance)"},
+    {"slug": "maslamah-ibn-ahmad-al-majriti", "name": "Maslamah ibn Ahmad al-Majriti (philosophy and sciences)"}
+  ],
+  "students": [
+    {"slug": "al-humaydi", "name": "Muhammad ibn Abi Nasr al-Humaydi (transmitted his works)"}
+  ],
+  "birthplace_slug": "cordoba",
+  "death_place_slug": "manta-lisham",
+  "sources": [
+    "al-Maqqari al-Tilimsani, Nafh al-Tib min Ghusn al-Andalus al-Ratib, Vol. 2 (primary source for his life in al-Andalus)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 3",
+    "Ibn al-Abbar, al-Takmilah li-Kitab al-Silah",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 18",
+    "al-Humaydi, Jadhwat al-Muqtabis (student's account)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

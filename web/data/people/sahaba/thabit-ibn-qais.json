@@ -1,0 +1,49 @@
+{
+  "slug": "thabit-ibn-qais",
+  "name_ar": "ثابت بن قيس",
+  "name_en": "Thabit ibn Qais",
+  "epithet": "Khatib al-Ansar (Orator of the Ansar)",
+  "kunya": "Abu Muhammad",
+  "birth_ah": null,
+  "birth_ce": 590,
+  "death_ah": 12,
+  "death_ce": 633,
+  "era": "sahaba_ansar",
+  "category": ["sahaba", "ansar", "khazraj", "shuhada"],
+  "tribe": "Ansar - Khazraj - Banu al-Harith ibn al-Khazraj",
+  "role": ["Official orator (khatib) of the Prophet ﷺ", "Commander at the Battle of Yamama", "Standard-bearer at al-Khandaq and Hunayn"],
+  "birthplace_slug": "madinah",
+  "death_place_slug": "yamama",
+  "summary": "Thabit ibn Qais al-Ansari (RA) was the official orator (khatib) of the Prophet ﷺ, appointed to answer the speeches of rival tribes with eloquence in defence of Islam. The Prophet ﷺ gave him the glad tidings of Paradise while he was still alive. He was martyred at the Battle of Yamama in 12 AH (633 CE), fighting under the caliphate of Abu Bakr against Musaylimah al-Kadhdhab.",
+  "biography": "Thabit ibn Qais ibn Shammas al-Ansari al-Khazraji was born around 590 CE in Madinah. He belonged to the Banu al-Harith ibn al-Khazraj, one of the clans of the Khazraj, and was known from his youth for a powerful voice, an extraordinary command of Arabic, and natural eloquence. He accepted Islam before the Hijrah and took the pledge of Aqabah, committing himself to the Prophet ﷺ alongside the broader Ansari community.\n\nIn early Islamic society, eloquence and oratory held a position somewhat comparable to what military prowess held in other contexts — it was a means of defending the community's honour, responding to enemies, and rallying allies. The Prophet ﷺ recognized this and designated Thabit ibn Qais as his official khatib — the voice of the Muslim community in formal addresses and counter-speeches. When delegations came to Madinah and delivered boastful orations about their lineage or power, it was Thabit who rose to respond on behalf of the Prophet ﷺ and the Muslims. Ibn Sa'd in al-Tabaqat al-Kubra records that the Prophet ﷺ said of him: 'Thabit is my orator just as Hassan ibn Thabit is my poet.' This pairing — the poet and the orator — reflects the Prophet's recognition that eloquence in both forms was necessary for the community.\n\nThabit ibn Qais was a man deeply affected by a concern over his personal standing before Allah. There is a well-known account, recorded in Sahih al-Bukhari and in Abu Dawud, that the verse of the Quran was revealed: 'O you who believe, do not raise your voices above the voice of the Prophet, and do not be loud in speech to him as you are loud to one another, lest your deeds be nullified while you perceive not.' (Quran 49:2). Thabit, who had a naturally loud voice, was deeply troubled by this verse and feared it referred to him — that his loud voice in proximity to the Prophet ﷺ had destroyed his deeds. He withdrew to his home in grief and the Prophet ﷺ did not see him for some time. When the Prophet ﷺ asked about him and was told, he sent someone to Thabit with the message: 'You are not among those [whose deeds are nullified]. You will live with honour and die as a martyr, and you are among the people of Paradise.' (Sahih al-Bukhari, Kitab al-Tafsir). This glad tiding — given while he was still alive — is one of the clearest examples in the Seerah of a specific individual being given the promise of Paradise by the Prophet ﷺ.\n\nThabit fought at Badr, Uhud, al-Khandaq, and all subsequent campaigns. At Hunayn (8 AH / 630 CE), he carried the standard of the Ansar. His oratory was deployed on multiple occasions to address tribal delegations who came to Madinah, and he served as a regular speaker at the Friday khutbah and other gatherings when designated to do so.\n\nHe was martyred at the Battle of Yamama in 12 AH (633 CE) during the caliphate of Abu Bakr, fighting against Musaylimah al-Kadhdhab and his followers. Multiple classical sources record that he fought with tremendous courage and was among the senior Sahaba who fell in that battle. Al-Dhahabi in Siyar A'lam al-Nubala' states that his martyrdom was foretold by the Prophet ﷺ's own words — 'you will die as a martyr' — and that it was fulfilled at Yamama. Some accounts record that just before the battle he put on his shroud, perfumed himself, and told the Muslims around him that he had seen in a dream that he would be among the martyrs that day.\n\nHis narrations of hadith are found in the major collections. He was a man whose combination of spiritual anxiety, deep love for the Prophet ﷺ, public eloquence, and physical courage represented several of the qualities most valued in the Ansari generation.",
+  "key_events": [
+    {"year_ah": null, "year_ce": 621, "event": "Took the pledge of Aqabah; accepted Islam before the Hijrah"},
+    {"year_ah": 2, "year_ce": 624, "event": "Fought at the Battle of Badr"},
+    {"year_ah": null, "year_ce": 625, "event": "Appointed official khatib (orator) of the Prophet ﷺ"},
+    {"year_ah": null, "year_ce": 626, "event": "Received glad tidings of Paradise from the Prophet ﷺ after his anxiety over Quran 49:2"},
+    {"year_ah": 8, "year_ce": 630, "event": "Carried the standard of the Ansar at the Battle of Hunayn"},
+    {"year_ah": 12, "year_ce": 633, "event": "Martyred at the Battle of Yamama against Musaylimah al-Kadhdhab"}
+  ],
+  "notable_traits": [
+    "Official khatib (orator) of the Prophet ﷺ — the Muslim community's formal voice in speeches",
+    "Given the explicit glad tidings of Paradise by the Prophet ﷺ while still alive",
+    "Deeply sensitive about his religious standing — deeply affected by Quran 49:2",
+    "Martyrdom at Yamama fulfilled the Prophet's prophecy given years before"
+  ],
+  "key_relationships": {
+    "tribe": "Banu al-Harith ibn al-Khazraj (Khazraj), Ansar",
+    "contemporary_pair": "Hassan ibn Thabit (RA) — 'I am the orator as Hassan is the poet' by the Prophet's designation"
+  },
+  "narrated_hadith_count": "approximately 8 hadith in the major collections",
+  "sources": [
+    "Sahih al-Bukhari — Kitab al-Tafsir (Surah al-Hujurat), Kitab al-Maghazi",
+    "Sunan Abu Dawud — Kitab al-Adab",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1",
+    "Ibn Hajar al-Asqalani, al-Isabah fi Tamyiz al-Sahaba, Vol. 1",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 6"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

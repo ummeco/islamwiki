@@ -1,0 +1,51 @@
+{
+  "slug": "saad-ibn-muadh",
+  "name_ar": "سعد بن معاذ",
+  "name_en": "Sa'd ibn Mu'adh",
+  "epithet": null,
+  "kunya": "Abu Amr",
+  "birth_ah": null,
+  "birth_ce": 591,
+  "death_ah": 5,
+  "death_ce": 627,
+  "era": "sahaba_ansar",
+  "category": ["sahaba", "ansar", "aws", "shuhada"],
+  "tribe": "Ansar - Aws - Banu Abd al-Ashhal",
+  "role": ["Chief of the Aws tribe", "Arbiter of the Banu Qurayza judgment", "Commander at the Battle of Badr and al-Khandaq"],
+  "birthplace_slug": "madinah",
+  "death_place_slug": "madinah",
+  "summary": "Sa'd ibn Mu'adh (RA) was the chief of the Aws tribe of Madinah, one of the most influential of all the Ansar, and the man whose judgment determined the fate of Banu Qurayza after their treachery during the Battle of al-Khandaq. The Prophet ﷺ said that the Throne of the Merciful shook at his death, and he died from the wound he sustained at al-Khandaq.",
+  "biography": "Sa'd ibn Mu'adh ibn al-Nu'man al-Awsi al-Ansari was born around 591 CE in Madinah, of the Banu Abd al-Ashhal clan of the Aws tribe. He was the sayyid (chief) of the Aws by the time the Prophet ﷺ arrived in Madinah, a man of immense prestige, well-built physique, and commanding presence. His acceptance of Islam transformed the Aws: when he embraced the faith, his entire clan of Banu Abd al-Ashhal followed, and the clan became one of the most uniformly Muslim groups among the Ansar. Ibn Sa'd in al-Tabaqat al-Kubra records that no woman, man, or child of Banu Abd al-Ashhal remained without entering Islam after Sa'd's conversion.\n\nSa'd accepted Islam through Mus'ab ibn Umayr, the young emissary the Prophet ﷺ had sent to Madinah to teach the faith before the Hijrah. Mus'ab arranged for Sa'd to meet him, and the encounter was initially hostile — Sa'd came armed, threatening Mus'ab for 'misleading his people.' But when he listened to recitation of the Quran, his expression changed, and he accepted Islam on the spot. He then summoned his clan and declared: 'All conversation between me and you is forbidden until you accept what I have accepted.' By that evening his clan had converted.\n\nSa'd fought at the Battle of Badr (2 AH) and was one of the commanders at Uhud. He is most associated with the Battle of al-Khandaq (the Trench, 5 AH / 627 CE), in which he played a major role organising the defence of Madinah. During this battle, he was struck in the radial artery of his arm by an arrow shot by Hibban ibn al-Ariqah. The wound was severe, and Sa'd — knowing he might die — reportedly prayed: 'O Allah, if there remains in this war against Quraysh anything [more for me to witness], then keep me alive for it; and if You have ordained that war between us is over, then let this wound be the cause of my martyrdom.' He asked to live only long enough to see what would happen with Banu Qurayza. (Sahih al-Bukhari, Kitab al-Maghazi)\n\nBanu Qurayza, a Jewish tribe of Madinah bound by treaty to the Muslims, had breached their covenant during al-Khandaq by secretly negotiating with the Quraysh besieging force. After the siege was lifted and the Quraysh withdrew, the Prophet ﷺ turned to address Banu Qurayza's treachery. After their surrender, the Prophet ﷺ offered them the judgment of Sa'd ibn Mu'adh as arbiter — someone the Aws themselves had treated as their chief and whose judgment they had agreed to accept. Sa'd, brought to the site on a donkey due to his wound, rendered his judgment that the male combatants of Banu Qurayza be executed, their women and children taken captive, and their property distributed. The Prophet ﷺ said: 'You have judged by the judgment of Allah from above the seven heavens.' (Sunan Abu Dawud; Musnad Ahmad). Al-Dhahabi and Ibn Kathir record this as one of the most weighty verdicts of the Seerah period.\n\nSa'd did not survive long afterward. His wound from al-Khandaq opened again — some accounts suggest he himself prayed for it to do so once Banu Qurayza's fate was settled. He died in 5 AH (627 CE) from his wound. The Prophet ﷺ wept at his death and said: 'The Throne of the Merciful shook at the death of Sa'd ibn Mu'adh.' (Sahih al-Bukhari, Kitab al-Manaqib). His funeral was attended by seventy thousand angels, according to a hadith in Musnad Ahmad. Al-Dhahabi in Siyar A'lam al-Nubala' records that seventy thousand angels descended for his janazah — angels who had never before come to earth.\n\nHis death was a profound loss for the Ansar. He was in his mid-thirties and at the height of his influence. The Prophet ﷺ carried his bier personally and said: 'I saw the angels crowding around his bier.' He was buried in al-Baqi' in Madinah.",
+  "key_events": [
+    {"year_ah": null, "year_ce": 621, "event": "Accepted Islam through Mus'ab ibn Umayr; his entire clan of Banu Abd al-Ashhal followed"},
+    {"year_ah": 2, "year_ce": 624, "event": "Fought at the Battle of Badr"},
+    {"year_ah": 3, "year_ce": 625, "event": "Fought at the Battle of Uhud"},
+    {"year_ah": 5, "year_ce": 627, "event": "Wounded critically at the Battle of al-Khandaq by an arrow through the arm"},
+    {"year_ah": 5, "year_ce": 627, "event": "Rendered the judgment on Banu Qurayza after their siege-time treachery"},
+    {"year_ah": 5, "year_ce": 627, "event": "Died from his Khandaq wound; the Prophet ﷺ said the Throne of Allah shook at his death"}
+  ],
+  "notable_traits": [
+    "Chief of the Aws — his conversion brought his entire tribe into Islam",
+    "The Prophet ﷺ said the Throne of the Merciful shook at his death",
+    "Rendered the judgment on Banu Qurayza that the Prophet ﷺ endorsed as the judgment of Allah",
+    "Known for commanding physical presence, decisive leadership, and unwavering loyalty"
+  ],
+  "key_relationships": {
+    "tribe": "Banu Abd al-Ashhal (Aws), Ansar",
+    "father": "Mu'adh ibn al-Nu'man",
+    "contemporary": "Sa'd ibn Ubadah — chief of the Khazraj (parallel tribal leadership)"
+  },
+  "narrated_hadith_count": "very few — died relatively early (5 AH) before extensive narration",
+  "sources": [
+    "Sahih al-Bukhari — Kitab al-Maghazi (al-Khandaq and Banu Qurayza chapters)",
+    "Sahih Muslim — Kitab al-Jihad",
+    "Sunan Abu Dawud — Kitab al-Kharaj",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4",
+    "Ibn Hisham, al-Seerah al-Nabawiyyah (al-Khandaq chapter)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

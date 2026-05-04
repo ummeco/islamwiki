@@ -1,0 +1,17 @@
+{
+  "slug": "sunni-ashari",
+  "name_en": "Ash'ari Aqeedah",
+  "name_ar": "العقيدة الأشعرية",
+  "parent_slug": "sunni",
+  "children_slugs": [],
+  "founded_ah": 260,
+  "founded_ce": 874,
+  "key_figures_slugs": ["al-ashari","al-baqillani","al-juwayni","al-ghazali","al-razi","al-nawawi","ibn-hajar-al-asqalani"],
+  "summary": "The Ash'ari school is one of the three accepted aqeedah schools within Ahl us-Sunnah wal-Jama'ah. Founded by Abu al-Hasan al-Ash'ari, it employs rational theology (kalam) to defend Sunni creed while affirming the divine attributes through qualified interpretation (ta'wil) where necessary.",
+  "overview": "The Ash'ari school takes its name from Abu al-Hasan al-Ash'ari (d. 324 AH / 935 CE), a student of the Mu'tazilite theologian al-Jubbai who later broke with his teacher and returned to defending Sunni creed. Al-Ash'ari famously used the tools of rational theology (kalam) — the very tools the Mu'tazilites had deployed against traditional Sunni beliefs — to refute them.\n\nThe defining characteristic of Ash'ari theology is its use of ta'wil (metaphorical interpretation) for divine attributes that, if taken in their apparent meaning, might imply resemblance to created things. For example, where the Athari school affirms Allah's 'Hand' as befitting His majesty without specifying how, the Ash'ari school interprets this as meaning power or grace. Al-Ash'ari insisted, however, that such interpretation remains within the bounds of what the language and the Salaf could accept.\n\nThe Ash'ari school became the dominant aqeedah among Sunni scholars in the Arab world, North Africa, and to a significant degree South and Southeast Asia. Many of the greatest Sunni scholars of the classical and medieval periods — including Imam al-Ghazali (d. 505 AH), Imam al-Nawawi (d. 676 AH), and Ibn Hajar al-Asqalani (d. 852 AH) — operated within or were closely aligned with the Ash'ari framework.\n\nThe relationship between Ash'ari and Athari scholars has been marked by occasional polemical exchange, particularly regarding the limits of kalam and the use of ta'wil. However, the overwhelming scholarly consensus throughout Islamic history has treated both schools as legitimate expressions of Sunni aqeedah. Ibn Taymiyyah's criticisms of certain Ash'ari positions were made from within a shared Sunni framework and do not constitute a declaration that Ash'aris are outside Ahl us-Sunnah.\n\nIslam.wiki presents the Ash'ari school as a fully accepted part of Ahl us-Sunnah. Where Ash'ari and Athari positions differ, both are presented as legitimate scholarly positions within the Sunni tradition.",
+  "status": "accepted-sunni",
+  "disclaimer_tier": 3,
+  "disclaimer_note": "Scholars within Ahl us-Sunnah have differed on certain aqeedah methodologies. The Ash'ari, Maturidi, and Athari schools all fall within the bounds of Ahl us-Sunnah wal-Jama'ah. Differences between them are matters of scholarly disagreement (ikhtilaf), not deviation from the Sunni mainstream.",
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

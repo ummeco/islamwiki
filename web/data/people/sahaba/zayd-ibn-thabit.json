@@ -1,0 +1,51 @@
+{
+  "slug": "zayd-ibn-thabit",
+  "name_ar": "زَيْدُ بْنُ ثَابِت",
+  "name_en": "Zayd ibn Thabit",
+  "epithet": "Katib al-Wahy (Scribe of Revelation)",
+  "kunya": "Abu Sa'id",
+  "birth_ah": null,
+  "birth_ce": 611,
+  "death_ah": 45,
+  "death_ce": 665,
+  "era": "sahaba",
+  "category": ["sahaba", "ansar", "qurra", "fuqaha"],
+  "tribe": "Khazraj - Banu al-Najjar",
+  "role": ["Primary Scribe of Quranic Revelation", "Compiler of the First Mushaf under Abu Bakr", "Head of the Uthman Compilation Committee", "Leading Jurist of Madinah"],
+  "birthplace_slug": "madinah",
+  "death_place_slug": "madinah",
+  "summary": "Zayd ibn Thabit (RA) was the foremost scribe of Quranic revelation during the Prophet's lifetime and the principal figure in both major Quranic compilations: the first collection under Abu Bakr and the standardized mushaf under Uthman ibn Affan. His meticulous scholarship and direct transmission from the Prophet ﷺ made him the anchor of the Quranic textual tradition.",
+  "biography": "Zayd ibn Thabit al-Ansari al-Khazraji was born in Madinah around 611 CE into the Banu al-Najjar clan. His father Thabit was killed at the Battle of Bu'ath, a pre-Islamic tribal conflict, leaving Zayd an orphan. When the Prophet ﷺ arrived in Madinah after the Hijrah in 622 CE, Zayd was approximately eleven years old. He was among the children of the Ansar who rushed to welcome the Prophet ﷺ, and his extraordinary memory and intelligence caught the Prophet's attention almost immediately.\n\nThe Prophet ﷺ asked Zayd to learn the Hebrew (Syriac) script so he could read and respond to correspondence from Jewish and Christian communities. According to Ibn Sa'd in al-Tabaqat al-Kubra, Zayd mastered the script within fifteen or seventeen days — a feat that demonstrated the exceptional intellectual ability that would define his career.\n\nHis primary role became the transcription of Quranic revelation. Whenever Jibril (AS) brought new revelation to the Prophet ﷺ, the Prophet would summon Zayd to write it down. Ibn Kathir records in al-Bidayah wal-Nihayah that Zayd was the most frequent and reliable of the scribes for this task. The Prophet also taught Zayd to recite, so he knew both the written text and the oral tradition simultaneously — a combination that made him uniquely suited for the work of preservation.\n\nZayd also accompanied the Prophet ﷺ in the final Quranic review with Jibril (AS) in the last Ramadan of the Prophet's life, confirming the final arrangement of the surahs. This direct participation gave Zayd an authority in Quranic matters that no subsequent scholar could fully replicate.\n\nAfter the Battle of Yamama in 12 AH (633 CE), during which many huffadh (Quran memorizers) were martyred fighting the false prophet Musaylimah, the Companion Umar ibn al-Khattab urged the Caliph Abu Bakr to undertake a systematic compilation of the Quran into a single document. Abu Bakr tasked Zayd ibn Thabit with this immense responsibility. As recorded in Sahih al-Bukhari (Kitab Fada'il al-Quran), Zayd described his initial reluctance: 'How can you do something the Prophet ﷺ did not do?' Abu Bakr replied that it was for the benefit of the Muslims. Eventually Zayd accepted, saying: 'Allah opened my heart to the matter as He had opened the hearts of Abu Bakr and Umar.' Zayd's method was rigorous: he accepted no verse unless it was attested by two separate witnesses — a combination of written records and oral memory — and he kept the collected sheets with Abu Bakr, then with Umar, and then with Umar's daughter Hafsa bint Umar (RA).\n\nThe second great compilation came during the caliphate of Uthman ibn Affan (RA). Divergences in recitation had emerged across the expanding Muslim world, alarming senior Companions. Uthman formed a standardization committee headed by Zayd ibn Thabit and including Abdullah ibn al-Zubayr, Sa'id ibn al-'As, and Abd al-Rahman ibn al-Harith. They produced multiple copies of a single standardized mushaf, sent them to the major cities, and ordered all variant copies burned. Zayd led the committee's deliberations on every disputed point, and in matters of linguistic dispute between Zayd and the Qurayshi members, Uthman instructed them to follow the dialect of Quraysh — the dialect in which the Quran was revealed. This mushaf, known as the Uthmanic mushaf, became the universal standard for all Muslims and remains so today.\n\nBeyond Quranic work, Zayd was one of the leading jurists of Madinah. He issued fatwas that were widely followed, particularly on matters of inheritance law (fara'id), in which al-Dhahabi records he was regarded as the most knowledgeable of all the Companions. The Prophet ﷺ is reported to have said: 'The most knowledgeable of my ummah regarding the fara'id is Zayd ibn Thabit.' (recorded by al-Tirmidhi and Ibn Majah, with discussion of its chain)\n\nZayd ibn Thabit died in Madinah around 45 AH (665 CE). Ibn Abbas (RA) reportedly wept at his death and said: 'Today a great scholar of this ummah has been buried.' His legacy is inscribed into every copy of the Quran in existence.",
+  "key_events": [
+    {"year_ah": 1, "year_ce": 622, "event": "Met the Prophet ﷺ upon the Hijrah to Madinah; appointed to learn Syriac script"},
+    {"year_ah": 2, "year_ce": 624, "event": "Too young to fight at Badr; participated in later battles from Uhud onward"},
+    {"year_ah": 9, "year_ce": 630, "event": "Accompanied the Prophet ﷺ on the Tabuk expedition"},
+    {"year_ah": 10, "year_ce": 632, "event": "Participated in the Prophet's final Quranic review with Jibril (AS) in the last Ramadan"},
+    {"year_ah": 12, "year_ce": 633, "event": "Commissioned by Abu Bakr to compile the first complete written mushaf after Battle of Yamama"},
+    {"year_ah": 24, "year_ce": 644, "event": "Led Uthman's standardization committee; produced the Uthmanic mushaf sent to all Muslim cities"},
+    {"year_ah": 45, "year_ce": 665, "event": "Died in Madinah; Ibn Abbas wept at his grave"}
+  ],
+  "notable_traits": [
+    "Extraordinary memory and linguistic precision from childhood",
+    "Mastered Syriac script in under three weeks on the Prophet's instruction",
+    "Rigorous scholarly method — required two witnesses for every verse in the first compilation",
+    "Foremost authority on inheritance law (fara'id) among the Companions",
+    "Quiet and methodical — let his scholarship speak rather than seeking public prominence"
+  ],
+  "key_relationships": {
+    "father": "Thabit ibn al-Dahhak (killed at Bu'ath)",
+    "tribe": "Banu al-Najjar (Khazraj, Ansar)",
+    "colleagues": ["Ubay ibn Ka'b", "Abdullah ibn Mas'ud", "Umar ibn al-Khattab"]
+  },
+  "narrated_hadith_count": "approximately 92 hadith in the major collections",
+  "sources": [
+    "Sahih al-Bukhari — Kitab Fada'il al-Quran (full account of both compilations)",
+    "Sahih Muslim — Kitab Fada'il al-Sahaba",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 2",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

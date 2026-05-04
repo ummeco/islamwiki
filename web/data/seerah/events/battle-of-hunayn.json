@@ -1,0 +1,26 @@
+{
+  "slug": "battle-of-hunayn",
+  "title_en": "Battle of Hunayn",
+  "title_ar": "غزوة حنين",
+  "year_ah": 8,
+  "year_ce": 630,
+  "season": null,
+  "place_slug": "hunayn",
+  "phase": "madinan",
+  "summary": "Weeks after the conquest of Makkah, the tribes of Hawazin and Thaqif assembled a large coalition to challenge the Muslims at Hunayn. An initial ambush threw the Muslim vanguard into disarray, but the Prophet ﷺ held his ground and rallied his companions, turning near-rout into decisive victory. The Quran directly addresses the battle's opening reversal as a lesson against self-reliance.",
+  "narrative": "News reached the Prophet ﷺ after the conquest of Makkah that the tribal confederation of Hawazin — among the most powerful of the Arab tribes — was massing its forces under Malik ibn Awf al-Nasri. The Hawazin had brought not only their warriors but also their families, herds, and possessions to the battlefield, as a motivational tactic to ensure the men fought without thought of retreat. Their allies the Thaqif, who controlled the city of Taif, also joined the coalition.\n\nThe Muslim force — approximately 12,000 strong, including 2,000 newly converted Makkans — marched into the valley of Hunayn in the direction of Taif. Ibn Hisham records that some of the newly Muslim Quraysh remarked on the size of the army with a sense of invincibility, saying they could not be defeated by sheer numbers. This became the context for the Quranic rebuke that followed.\n\nThe Hawazin archers had positioned themselves in the passes of the valley and launched a devastating ambush at dawn, when visibility was poor and the narrow terrain channelled the Muslim advance. The vanguard was hit hard and fell back, and the rout quickly spread through the army. Thousands of soldiers — including many of the new Makkan converts — turned and fled. For a few desperate moments, the Prophet ﷺ found himself nearly alone in the valley, with only a handful of his closest companions standing firm.\n\nAllah revealed about this moment: 'And on the day of Hunayn, when your great numbers pleased you, but they availed you nothing, and the earth was constricted for you, vast as it was, and you turned back in flight' (9:25). The Prophet ﷺ himself advanced on his white mule toward the enemy, calling out: 'I am the Prophet, no lie! I am the son of Abd al-Muttalib!' Abu Sufyan ibn al-Harith held his mule's bridle on one side and Abbas ؓ held it on the other. Abbas, who had a powerful voice, called out at the Prophet's ﷺ instruction to the fleeing men, reminding them of their pledge. Hearing his voice and recognising the gravity of the moment, the companions began to turn back.\n\nThe rally was swift. As the Muslims regrouped and counter-attacked, the Hawazin coalition broke. Al-Tabari records that the Prophet ﷺ hurled a handful of dust toward the enemy — as he had at Badr — saying 'May their faces be disgraced.' The battle turned into a complete rout of the Hawazin. Malik ibn Awf fled to Taif.\n\nThe spoils of Hunayn were enormous: tens of thousands of camels, sheep, and cattle, and 6,000 prisoners — including women and children who had been brought to the battlefield. Ibn Kathir records that a delegation from the Hawazin prisoners came to the Prophet ﷺ, including the woman Shayma bint al-Harith, the foster-sister of the Prophet ﷺ from his nursing with Halimah al-Sadiyyah. She identified herself, and the Prophet ﷺ, deeply moved, spread his mantle on the ground for her to sit on and allowed her and her people to return freely.\n\nThe distribution of the spoils caused tension: the Prophet ﷺ gave large shares to the 'hearts to be reconciled' (al-muallafah qulubuhum) — leading figures of the Quraysh who had recently accepted Islam, like Abu Sufyan ibn Harb — while the Ansar of Madinah received nothing. Some of the Ansar expressed their hurt privately. When the Prophet ﷺ heard this, he gathered them, addressed their concern with tenderness, and reminded them that others might take camels and sheep home but they would take the Prophet ﷺ with them. The Ansar wept and were satisfied.",
+  "people_slugs": ["malik-ibn-awf", "abu-sufyan-ibn-al-harith", "abbas-ibn-abd-al-muttalib", "shayma-bint-al-harith"],
+  "quranic_reference": ["9:25-26"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Kitab al-Maghazi — Ghazwah Hunayn"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 4 — Ghazwah Hunayn",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Battle of Hunayn",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Battle of Hunayn and aftermath"
+  ],
+  "related_events": ["conquest-of-makkah", "siege-of-taif"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "abdul-rahman-ibn-awf",
+  "name_ar": "عبد الرحمن بن عوف",
+  "name_en": "Abd al-Rahman ibn Awf",
+  "epithet": "al-Mushaqqar (the Successful Merchant)",
+  "kunya": "Abu Muhammad",
+  "birth_ah": null,
+  "birth_ce": 580,
+  "death_ah": 32,
+  "death_ce": 652,
+  "era": "sahaba",
+  "category": ["sahaba", "asharah_mubasharah"],
+  "tribe": "Quraysh - Banu Zuhrah",
+  "role": ["One of the Ten Promised Paradise", "Leading merchant and financier of early Islam", "Member of Umar's shura council"],
+  "birthplace_slug": "makkah",
+  "death_place_slug": "madinah",
+  "summary": "Abd al-Rahman ibn Awf (RA) was one of the Ten Companions promised Paradise and one of the wealthiest men in Arabia, yet he used his immense fortune entirely in the service of Islam. An early convert, he sacrificed a prosperous Makkan merchant life for his faith and rebuilt his wealth from nothing in Madinah through skill and integrity. He is cited in classical scholarship as a model of how worldly success and religious devotion can coexist.",
+  "biography": "Abd al-Rahman ibn Awf al-Zuhri al-Qurashi was born in Makkah around 580 CE. His birth name before Islam was Abd Amr or Abd al-Ka'bah; the Prophet ﷺ renamed him Abd al-Rahman. He belonged to the Banu Zuhrah clan of Quraysh and had established himself as a prosperous merchant before the advent of Islam.\n\nHe was among the first eight people to embrace Islam, accepting the faith at the hands of Abu Bakr al-Siddiq (RA) within the first few days of the Prophet's ﷺ call. Ibn Sa'd in al-Tabaqat al-Kubra records his conversion as preceding the gathering at the house of al-Arqam ibn Abi al-Arqam, marking him among the absolute earliest Muslims. He endured the persecution of the Quraysh and participated in the first migration to Abyssinia.\n\nAt the Hijrah to Madinah, the Prophet ﷺ paired Abd al-Rahman with Sa'd ibn al-Rabi al-Ansari in the system of brotherhood (mu'akhat). Sa'd offered to share half his property and one of his two wives in divorce so that Abd al-Rahman could marry her. Abd al-Rahman declined, saying: 'May Allah bless you in your family and your property. Just show me where the marketplace is.' (Sahih al-Bukhari, Kitab al-Buyu'). Within a short time, through trade in butter and cheese, he had earned enough to marry and establish himself. This story became a model of dignified self-reliance cited by scholars across the centuries.\n\nHis commercial success in Madinah quickly surpassed what he had left behind in Makkah. When one of his trade caravans arrived in Madinah — described by al-Dhahabi in Siyar A'lam al-Nubala' as 700 camels loaded with goods — Aisha (RA) is reported to have heard the commotion and asked what it was. When told it was Abd al-Rahman's caravan, she recalled the Prophet ﷺ saying: 'Abd al-Rahman ibn Awf will enter Paradise crawling.' When Abd al-Rahman heard this, he wept and said he feared it meant he would enter last. He thereafter gave away the entire caravan as sadaqah.\n\nHis generosity in the cause of Islam is well-documented. He donated 4,000 dirhams early in Madinah. In the expedition to Tabuk (9 AH), he contributed 200 uqiyya of gold — among the largest individual donations. He freed many enslaved people. At the time of his death, his will specified 50,000 dinars to be distributed among the fighters of Badr still living, and his four wives each received 80,000 dinars from a bequest. Yet he lived personally with modesty.\n\nAbd al-Rahman fought in all the major battles: Badr, Uhud, al-Khandaq, Khaybar, and the conquest of Makkah. At the Battle of Uhud, he sustained twenty-one wounds according to some narrations, and he lost several teeth. He was a competent military commander and led expeditions in the Prophet's ﷺ lifetime. The Prophet ﷺ also appointed him to lead the congregational prayers on at least one occasion, a mark of trust reserved for the most senior Companions.\n\nAmong his most significant contributions was his role in Umar's six-member shura council following Umar's assassination in 23 AH. After deliberations, Abd al-Rahman took on the role of mediator and elector: he interviewed hundreds of Companions and leaders over several days to gauge consensus, and it was his declaration that resulted in Uthman ibn Affan (RA) being chosen as caliph. Al-Tabari in Tarikh al-Rusul wal-Muluk documents this process in detail.\n\nHe died in Madinah in 32 AH (652 CE) and was buried in al-Baqi'. The caliph Uthman ibn Affan (RA) led his funeral prayer. He narrated approximately 65 hadith in the major collections.",
+  "key_events": [
+    {"year_ah": null, "year_ce": 610, "event": "Among the first eight people to accept Islam"},
+    {"year_ah": null, "year_ce": 615, "event": "Migration to Abyssinia with early Muslims"},
+    {"year_ah": 1, "year_ce": 622, "event": "Hijrah to Madinah; established himself in trade from nothing"},
+    {"year_ah": 2, "year_ce": 624, "event": "Battle of Badr"},
+    {"year_ah": 3, "year_ce": 625, "event": "Battle of Uhud — sustained 21 wounds"},
+    {"year_ah": 9, "year_ce": 630, "event": "Campaign of Tabuk — donated 200 uqiyya of gold"},
+    {"year_ah": 23, "year_ce": 644, "event": "Led the shura process; declared Uthman ibn Affan caliph"},
+    {"year_ah": 32, "year_ce": 652, "event": "Died in Madinah; buried at al-Baqi'"}
+  ],
+  "notable_traits": [
+    "Model of self-reliance — rebuilt his wealth from zero in Madinah through honest trade",
+    "Extraordinary generosity — donated entire caravans and massive sums to Islamic causes",
+    "Early convert among the first eight Muslims",
+    "Trusted mediator — the Companions deferred to him in the critical shura after Umar's death",
+    "Participated in every major battle of the Prophet's era"
+  ],
+  "key_relationships": {
+    "close_companions": ["Abu Bakr al-Siddiq", "Sa'd ibn Abi Waqqas"],
+    "ansari_brother": "Sa'd ibn al-Rabi al-Ansari",
+    "spouses": ["Umm Kulthum bint Uqba", "Bahra bint Hani", "others"],
+    "children": ["Salim ibn Abd al-Rahman", "Abdullah ibn Abd al-Rahman", "others"]
+  },
+  "narrated_hadith_count": "approximately 65 hadith in the major collections",
+  "sources": [
+    "Sahih al-Bukhari, Kitab al-Buyu' — the marketplace story",
+    "Sahih al-Bukhari, Kitab Fada'il al-Sahaba",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 4 — shura narration",
+    "Ibn Hajar al-Asqalani, al-Isabah fi Tamyiz al-Sahaba"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "sunan-ibn-majah",
+  "title_en": "Sunan Ibn Majah",
+  "title_ar": "سنن ابن ماجه",
+  "title_full_ar": "سنن ابن ماجه القزويني",
+  "author_slug": "ibn-majah",
+  "subject": "hadith",
+  "subjects": ["hadith", "fiqh", "sunan"],
+  "language": "ar",
+  "year_compiled_ah": 273,
+  "year_compiled_ce": 887,
+  "summary": "Sunan Ibn Majah is one of the Kutub al-Sittah, compiled by Imam Muhammad ibn Yazid al-Qazwini, known as Ibn Majah (209–273 AH / 824–887 CE). It contains approximately 4,341 hadith and is the most debated of the six canonical collections in terms of its inclusion criteria, as it contains a higher proportion of weak and even fabricated narrations than the other five works — a factor that classical and modern scholars have consistently noted.",
+  "overview": "Imam Muhammad ibn Yazid al-Qazwini, known universally as Ibn Majah, was born in Qazvin (present-day Iran) around 209 AH and died there in 273 AH. He travelled extensively to study under major scholars of his era, including Ali ibn Muhammad al-Tanafisi, Ibrahim ibn al-Mundhir, and Hisham ibn Ammar, gathering narrations across Iraq, the Hijaz, Egypt, Syria, and Khorasan.\n\nIbn Majah produced his Sunan following the standard fiqhi structure, covering purification, prayer, zakah, fasting, pilgrimage, marriage, business, and the full range of Islamic law. The collection is valued for containing narrations not found in the other five canonical collections — according to some counts, approximately 1,339 hadith in the Sunan are not found in any of the other five works. This additional material, while valuable, is also the source of scholarly caution: a significant portion of these exclusive narrations are weak (da'if) or problematic.\n\nThe question of Ibn Majah's place in the canonical six has an interesting historical dimension. The original Kutub al-Sittah recognised by early scholars was sometimes described as the five works of al-Bukhari, Muslim, Abu Dawud, al-Tirmidhi, and al-Nasa'i, with Imam Malik's Muwatta as the sixth. It was Imam Ibn al-Qaisarani (d. 507 AH) who standardised the configuration with Ibn Majah as the sixth, displacing the Muwatta from that count (though the Muwatta retains its elevated status independently). The scholar Khalaf ibn Muhammad al-Wasiti (d. 401 AH) had previously considered al-Darimi's Musnad as the sixth instead of Ibn Majah.\n\nThe Sunan contains approximately 4,341 hadith. Imam al-Busiri (d. 840 AH) produced a work called Misbah al-Zujajah fi Zawa'id Ibn Majah, identifying and evaluating the narrations in Ibn Majah not found in the other five collections. Modern grading work by Imam al-Albani (see Sahih Sunan Ibn Majah and Da'if Sunan Ibn Majah) has further clarified the status of individual narrations for researchers.\n\nImportant commentaries include Sharh Sunan Ibn Majah by Imam al-Suyuti (d. 911 AH) and al-Dirayah fi Takhrij Ahadith al-Hidayah by Ibn Hajar al-Asqalani, which also engages extensively with Ibn Majah's narrations in a legal context. A dedicated modern commentary is Miftah al-Hajah by Ibn Abd al-Hadi (d. 744 AH) and more recently Sharh Ibn Majah by Shaykh Ahmad ibn al-Siddiq al-Ghumari.\n\nThe standard Arabic edition is published by Dar Ihya al-Kutub al-Arabiyyah (Cairo), edited by Muhammad Fuad Abd al-Baqi, who also provided the standard numbering system. A modern edition with full authentication by Shu'ayb al-Arnaout et al. (Dar al-Risalah al-Alamiyyah, Beirut, 2009) grades every hadith individually. The English translation is by Nasiruddin al-Khattab (Darussalam, 2007), in five volumes.\n\nDespite its contested standing among the six, Sunan Ibn Majah remains practically important. Its chapter on commerce (Kitab al-Tijarah), its sections on medical traditions (tibb nabawi), and its chapters on etiquette contain material not paralleled as fully elsewhere in the canonical six. Legal scholars of all four madhabs cite it extensively, with awareness of the need to verify the chains of its exclusive narrations. For a student approaching Sunan Ibn Majah today, the Albani gradations and the Arnaout edition provide clear guidance on which narrations are sound, making the collection more navigable than it might appear. The Sunan is available in full on sunnah.com.",
+  "structure": "37 books (kutub), approximately 4,341 hadith",
+  "translations": [
+    {"language": "en", "translator": "Nasiruddin al-Khattab", "publisher": "Darussalam", "year": 2007, "status": "available"}
+  ],
+  "available_at": [
+    "sunnah.com/ibnmajah"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

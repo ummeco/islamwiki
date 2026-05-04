@@ -1,0 +1,49 @@
+{
+  "slug": "muslim-ibn-al-hajjaj",
+  "name_ar": "مسلم بن الحجاج القشيري النيسابوري",
+  "name_en": "Muslim ibn al-Hajjaj al-Qushayri al-Naysaburi",
+  "epithet": "Imam Dar al-Sunnah fil-Mashriq (Imam of the Abode of Sunnah in the East)",
+  "kunya": "Abu al-Husayn",
+  "birth_ah": 204,
+  "birth_ce": 820,
+  "death_ah": 261,
+  "death_ce": 875,
+  "era": "classical",
+  "category": ["scholars", "hadith", "rijal"],
+  "madhhab": "shafii",
+  "summary": "Muslim ibn al-Hajjaj (204–261 AH) compiled the Sahih Muslim, considered the second most authoritative hadith collection in Islam and the joint partner of Sahih al-Bukhari in the Sahihayn. His distinctive methodology — emphasizing the continuity of teacher-student chains and the precise consistency of narration wording — produced a collection that some hadith specialists have praised as methodologically cleaner in its arrangement than al-Bukhari's, even while acknowledging al-Bukhari's overall superiority in narrator criticism.",
+  "biography": "Muslim ibn al-Hajjaj was born in Nishapur (in present-day Iran) in approximately 204 AH (820 CE), into an Arab family of the Qushayri tribe — making him one of the few major hadith scholars of the eastern Islamic world with pure Arab tribal lineage. Nishapur in the third century AH was one of the great intellectual cities of the Islamic world, a major center of scholarship in Khurasan, and Muslim grew up in a scholarly environment that gave him early access to teachers of the highest caliber.\n\nHe began studying hadith as a young child, reportedly hearing his first hadith at approximately twelve years old. His teachers in Nishapur included Yahya ibn Yahya al-Naysaburi (d. 226 AH), who was himself a student of Imam Malik and one of the transmitters of the al-Muwatta'. Muslim traveled extensively for hadith study — to Iraq, the Hijaz, Syria, and Egypt — meeting the great masters of his generation including Ahmad ibn Hanbal, Ishaq ibn Rahawayh, Abd Allah ibn Maslama al-Qa'nabi, and — most consequentially — al-Bukhari himself. The relationship between Muslim and al-Bukhari was one of deep respect on Muslim's part; he considered al-Bukhari the greatest hadith critic of the age, and al-Bukhari's influence on Muslim's methodology is visible throughout the Sahih.\n\nThe Sahih Muslim was the result of years of selection from a much larger corpus — Muslim reportedly said he compiled it from 300,000 hadith he had heard, examined, and memorized, selecting approximately 7,275 narrations (with repetitions) or around 3,033 distinct narrations for inclusion. His criteria for sahih were rigorous: unbroken chain, established narrator reliability, and — a feature he emphasized more systematically than al-Bukhari — the requirement that narrators in a chain be explicitly proven to have met (ittissal, or direct contact), not merely contemporary. This methodological emphasis is articulated in his Muqaddima (preface to the Sahih), a remarkable document on hadith methodology that has been analyzed extensively by later scholars.\n\nThe Muqaddima to the Sahih is one of Muslim's most important contributions beyond the collection itself. In it he outlines three grades of hadith: (1) narrations with established, trustworthy chains that form the core of the Sahih; (2) narrations with narrators who have some slight weakness but are corroborated; and (3) narrations from abandoned narrators which he excludes entirely. This explicit tiering of criteria gave the Sahih a methodological clarity that scholars valued highly.\n\nMuslim's arrangement of the Sahih differs from al-Bukhari's in a significant way: he groups all narrations on a single topic together in one chapter, including the different chains through which a narration was transmitted, whereas al-Bukhari often scatters related narrations across many chapters to make juristic points through their arrangement. Muslim's approach makes the Sahih easier to use as a hadith reference; al-Bukhari's approach is richer as a juristic document. These are differences of methodology, not quality.\n\nIn rijal (narrator criticism), Muslim contributed the Kitab al-Tamyiz — a work on distinguishing confused or misattributed narrations — and the Kitab al-Kuna wal-Asma', a biographical register of Companions organized by their kunyas. These demonstrate that his interests extended well beyond the Sahih to the full range of hadith sciences.\n\nHis major students who transmitted the Sahih include Ibrahim ibn Muhammad ibn Sufyan al-Faqih (d. 308 AH), through whose transmission the text has principally survived. Other students included Abu Isa al-Tirmidhi and Abu Bakr ibn Khuzayma.\n\nMuslim died in Nishapur in 261 AH (875 CE) at approximately 57 years of age. A well-known account reports that he died after eating too many dates while deep in study, unwilling to stop work until he had resolved a hadith question — a story that, whether literal or embellished, captures how later scholars remembered the intensity of his scholarly commitment. The Sahih Muslim stands alongside the Sahih al-Bukhari as the highest-ranked authoritative source of Prophetic hadith, together forming the Sahihayn — the two most authenticated hadith books in existence.",
+  "key_works": [
+    "al-Jami' al-Sahih (Sahih Muslim — second most authoritative hadith collection)",
+    "Kitab al-Tamyiz (distinguishing confused narrations)",
+    "Kitab al-Kuna wal-Asma' (biographical register of Companions by kunya)",
+    "Kitab al-Afrad wal-Buldan (unique narrations by region)",
+    "al-Musnad al-Kabir (larger collection from which Sahih was selected)"
+  ],
+  "teachers": [
+    {"slug": "al-bukhari", "name": "Muhammad ibn Ismail al-Bukhari"},
+    {"slug": "ahmad-ibn-hanbal", "name": "Ahmad ibn Hanbal"},
+    {"slug": "yahya-ibn-yahya-al-naysaburi", "name": "Yahya ibn Yahya al-Naysaburi"},
+    {"slug": "ishaq-ibn-rahawayh", "name": "Ishaq ibn Rahawayh"},
+    {"slug": "abd-allah-ibn-maslama-al-qaanabi", "name": "Abd Allah ibn Maslama al-Qa'nabi"}
+  ],
+  "students": [
+    {"slug": "ibrahim-ibn-sufyan-al-faqih", "name": "Ibrahim ibn Muhammad ibn Sufyan al-Faqih (primary transmitter of Sahih Muslim)"},
+    {"slug": "al-tirmidhi", "name": "Muhammad ibn Isa al-Tirmidhi"},
+    {"slug": "ibn-khuzayma", "name": "Muhammad ibn Ishaq ibn Khuzayma"},
+    {"slug": "abu-awana-al-isfarayini", "name": "Abu Awana al-Isfarayini"}
+  ],
+  "birthplace_slug": "nishapur",
+  "death_place_slug": "nishapur",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 12",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 13",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 5",
+    "al-Nawawi, Sharh Sahih Muslim (introduction — extensive biography of Muslim)",
+    "Muslim ibn al-Hajjaj, Muqaddimat al-Sahih (the author's own methodological preface)",
+    "Ibn Hajar al-Asqalani, Tahdhib al-Tahdhib"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

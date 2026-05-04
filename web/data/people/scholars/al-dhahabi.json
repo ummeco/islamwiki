@@ -1,0 +1,51 @@
+{
+  "slug": "al-dhahabi",
+  "name_ar": "شمس الدين محمد بن أحمد بن عثمان الذهبي",
+  "name_en": "Shams al-Din Muhammad ibn Ahmad ibn Uthman al-Dhahabi",
+  "epithet": "Imam al-Jarh wa al-Ta'dil (Imam of Hadith Criticism)",
+  "kunya": "Abu Abd Allah",
+  "birth_ah": 673,
+  "birth_ce": 1274,
+  "death_ah": 748,
+  "death_ce": 1348,
+  "era": "later_classical",
+  "category": ["scholars", "hadith", "rijal", "history", "biography", "shafi'i"],
+  "madhhab": "shafi'i",
+  "summary": "Al-Dhahabi (673–748 AH) was the foremost hadith critic and biographical scholar of the eighth Islamic century. His Siyar A'lam al-Nubala' (Biographies of Noble Figures), Mizan al-I'tidal (Balance of Moderation in Hadith Criticism), and Tarikh al-Islam are the most important classical works of Islamic biographical scholarship and remain essential references for anyone studying Islamic intellectual history.",
+  "biography": "Muhammad ibn Ahmad ibn Uthman al-Dhahabi was born in 673 AH (1274 CE) in Damascus, or possibly in Mayyafariqin according to some accounts, into a family of Turkic origin that had long been settled in Syria. His nisba al-Dhahabi ('the goldsmith') likely derived from his family's trade. He received his education entirely in Damascus and became the central figure of the Damascene scholarly world in the first half of the eighth hijri century.\n\nAmong his approximately ninety teachers, three stand out as critical to his formation. Ibn Taymiyyah (d. 728 AH) influenced his Athari approach to aqeedah and his willingness to engage critically with theological positions he considered innovations. Al-Mizzi (d. 742 AH) — the master of the hadith biography sciences and author of the Tahdhib al-Kamal — was his primary teacher in rijal (narrator criticism) and hadith chains. A third teacher of particular influence in Syrian scholarly circles was the historian Abu Shama al-Maqdisi's generation, whose approach to historical writing al-Dhahabi absorbed and developed. Al-Dhahabi also taught both Ibn Kathir and Ibn al-Qayyim, placing him as a central node in the transmission of this generation's scholarship. (al-Dhahabi, Mu'jam al-Shuyukh al-Kabir; al-Subki, Tabaqat al-Shafi'iyyah)\n\nHis Siyar A'lam al-Nubala' (Biographies of the Noble Figures) is his masterwork of biographical scholarship. Running to twenty-three volumes in modern critical editions, it covers the major scholarly and religious figures of Islamic history from the Companions of the Prophet ﷺ through al-Dhahabi's own time. Each entry combines biographical data, assessment of scholarly standing, account of works produced, and al-Dhahabi's own evaluative judgment — sometimes sharp, sometimes generous, always authoritative. The Siyar is a primary source for biography that no researcher in Islamic history can bypass.\n\nHis Tarikh al-Islam (History of Islam) is even larger: in thirty-three volumes in modern editions, it provides year-by-year coverage of Islamic history from the Prophet ﷺ through 700 AH, combining political chronicle with obituary notices. The obituary sections — listing deaths of scholars, rulers, and significant figures for each year — are invaluable for dating events and cross-referencing biographies.\n\nHis Mizan al-I'tidal fi Naqd al-Rijal (Balance of Moderation in Criticizing Narrators) is a four-volume dictionary of weak and problematic hadith narrators, giving each narrator's name, their weaknesses as assessed by classical hadith critics, and the transmitted reports that reveal those weaknesses. Together with his Kashf al-Dhunun and the related Lisan al-Mizan of Ibn Hajar (who expanded the Mizan to cover later periods), it forms the foundation of classical rijal criticism.\n\nAl-Dhahabi also produced Tadhkirat al-Huffaz (four volumes, biographies of the major huffaz — those who memorized vast quantities of hadith), al-Kashif (a compact one-volume narrator dictionary), and Ma'rifat al-Qurra al-Kibar (biographies of major Quran reciters), among hundreds of other works. His output in both volume and quality earned him in his lifetime the title given in the bio-bibliographic tradition: the foremost hadith scholar of his age.\n\nHis relationship with Ibn Taymiyyah was that of student and admirer, but he was not uncritical. He is reported to have written a private letter to Ibn Taymiyyah — preserved in some manuscript traditions — urging him to moderate his public confrontations with scholars who disagreed with him on points al-Dhahabi thought were within acceptable scholarly disagreement. This demonstrates a characteristic quality: al-Dhahabi, though an Athari in aqeedah, was notably fair to scholars of other theological schools and unusually willing to praise Ash'ari and Mu'tazili scholars for their genuine contributions while noting his disagreements with their positions.\n\nHe died in Damascus in 748 AH (1348 CE), reportedly after losing his eyesight in his final years.",
+  "key_works": [
+    "Siyar A'lam al-Nubala' (23 volumes — major classical biography)",
+    "Tarikh al-Islam (33 volumes — year-by-year Islamic history)",
+    "Mizan al-I'tidal fi Naqd al-Rijal (4 volumes — weak narrator criticism)",
+    "Tadhkirat al-Huffaz (4 volumes — hadith masters biography)",
+    "al-Kashif fi Ma'rifat Man Lahu Riwayah (compact narrator dictionary)",
+    "Ma'rifat al-Qurra al-Kibar (Quran reciters biography)",
+    "al-Kabair (major sins treatise)",
+    "al-Muqiza (hadith terminology manual)",
+    "Talhis al-Mustadrak (abridgment and critique of al-Hakim's al-Mustadrak)"
+  ],
+  "teachers": [
+    {"slug": "al-mizzi", "name": "Jamal al-Din al-Mizzi (hadith biography — primary teacher)"},
+    {"slug": "ibn-taymiyyah", "name": "Taqi al-Din Ibn Taymiyyah (aqeedah)"},
+    {"slug": "ibn-daqiq-al-id", "name": "Ibn Daqiq al-Id (hadith)"},
+    {"slug": "abu-al-faraj-ibn-qudama", "name": "Abu al-Faraj ibn Qudama al-Maqdisi"}
+  ],
+  "students": [
+    {"slug": "ibn-kathir", "name": "Ibn Kathir (Ismail ibn Umar)"},
+    {"slug": "ibn-al-qayyim", "name": "Ibn al-Qayyim al-Jawziyyah"},
+    {"slug": "taj-al-din-al-subki", "name": "Taj al-Din al-Subki"},
+    {"slug": "ibn-hajar-al-asqalani", "name": "Ibn Hajar al-Asqalani (indirect — of later generation)"}
+  ],
+  "birthplace_slug": "damascus",
+  "death_place_slug": "damascus",
+  "sources": [
+    "al-Subki, Tabaqat al-Shafi'iyyah al-Kubra, Vol. 9",
+    "Ibn Hajar al-Asqalani, al-Durar al-Kaminah, Vol. 3",
+    "Ibn Qadi Shuhba, Tabaqat al-Shafi'iyyah, Vol. 3",
+    "al-Sakhawi, al-I'lan bi al-Tawbikh li-man Dhamma al-Tarikh (on al-Dhahabi's historical methodology)",
+    "al-Dhahabi, Mu'jam al-Shuyukh al-Kabir (autobiographical — his teachers list)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

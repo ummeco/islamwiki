@@ -1,0 +1,16 @@
+{
+  "slug": "sunni",
+  "name_en": "Sunni Islam (Ahl us-Sunnah wal-Jama'ah)",
+  "name_ar": "أهل السنة والجماعة",
+  "parent_slug": null,
+  "children_slugs": ["sunni-athari","sunni-ashari","sunni-maturidi","hanafi","maliki","shafii","hanbali","dhahiri","sufism"],
+  "founded_ah": null,
+  "founded_ce": null,
+  "key_figures_slugs": ["abu-bakr-al-siddiq","umar-ibn-al-khattab","uthman-ibn-affan","ali-ibn-abi-talib","ahmad-ibn-hanbal","al-bukhari","muslim-ibn-al-hajjaj"],
+  "summary": "Ahl us-Sunnah wal-Jama'ah — the People of the Sunnah and the Community — is the mainstream body of Islam, encompassing the overwhelming majority of Muslims throughout history and today. It is defined by adherence to the Quran, the authentic Sunnah of the Prophet ﷺ, and the collective understanding of the Companions.",
+  "overview": "Ahl us-Sunnah wal-Jama'ah is not a sect within Islam — it is Islam as understood and practiced by the main body of the Muslim community from the time of the Companions (Sahaba) to the present day. The name itself comes from a famous hadith in which the Prophet ﷺ foretold the division of his community, describing the saved group as those who follow 'what I and my Companions are upon today.'\n\nThe boundaries of Ahl us-Sunnah are defined by shared foundational beliefs: the six pillars of faith (belief in Allah, His angels, His books, His messengers, the Last Day, and divine decree), the five pillars of Islam, and acceptance of the Quran and authentic Sunnah as the supreme sources of guidance.\n\nWithin these boundaries, Ahl us-Sunnah encompasses significant internal diversity. In matters of creed (aqeedah), three major schools exist — Athari, Ash'ari, and Maturidi — all of which are accepted as legitimate expressions of Sunni theology. In matters of jurisprudence (fiqh), four main legal schools (madhabs) operate — Hanafi, Maliki, Shafi'i, and Hanbali — alongside the historical Dhahiri school.\n\nHistorically, the vast majority of Muslims across the Arab world, South Asia, Southeast Asia, Sub-Saharan Africa, and Central Asia identified primarily with Ash'ari or Maturidi aqeedah combined with one of the four madhabs. Today, an estimated 85–90% of the world's 1.8 billion Muslims identify as Sunni.\n\nThe term 'Sunni' is sometimes applied loosely in contrast to 'Shia,' but its classical meaning is more precise: adherence to the Sunnah and the scholarly consensus of the early community, as opposed to relying on an infallible imam from the Prophet's family (as Shia Islam does) or on purely rationalist theological construction (as the Mu'tazila did).\n\nIslam.wiki presents the Sunni tradition as the mainstream and evaluates other groups relative to this standard, while treating intra-Sunni differences — in aqeedah schools or madhabs — as legitimate scholarly diversity within the fold of Ahl us-Sunnah.",
+  "status": "sunni-mainstream",
+  "disclaimer_tier": 0,
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

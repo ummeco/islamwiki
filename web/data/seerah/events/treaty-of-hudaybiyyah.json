@@ -1,0 +1,35 @@
+{
+  "slug": "treaty-of-hudaybiyyah",
+  "title_en": "The Treaty of Hudaybiyyah",
+  "title_ar": "صلح الحديبية",
+  "year_ah": 6,
+  "year_ce": 628,
+  "season": "spring",
+  "place_slug": "hudaybiyyah",
+  "phase": "madinan-middle",
+  "summary": "In Dhu al-Qi'dah 6 AH, the Prophet ﷺ led approximately 1,400 companions toward Makkah for Umrah, but was prevented from entering by the Quraysh. A negotiated treaty at Hudaybiyyah — which appeared disadvantageous to the Muslims at the time — proved to be a decisive strategic victory that the Quran described as a manifest conquest.",
+  "narrative": "In the sixth year after the Hijra, the Prophet ﷺ saw in a dream that he was entering Makkah and performing Tawaf around the Kaabah. He announced his intention to perform Umrah, and approximately 1,400 companions — the largest gathering since the Hijra — set out with him. They traveled in the state of ihram, carrying sacrificial animals but no weapons of war, making clear their peaceful intention.\n\nThe Quraysh, unwilling to allow the Muslims to enter Makkah, sent successive delegations to negotiate and ultimately positioned an armed force to block the Prophet's ﷺ path. The Prophet ﷺ camped at Hudaybiyyah, a well on the boundary of the Haram, approximately nine miles outside Makkah. His she-camel Qaswa sat down and refused to move — those with the Prophet ﷺ suggested she had become exhausted, but the Prophet ﷺ said: 'She has not tired. She was stopped by the same One Who stopped the elephant.' He then resolved to send a message through the blockade.\n\nUthman ibn Affan (RA) was chosen as the Prophet's ambassador — his Umayyad connections gave him protection in Makkah. When Uthman was delayed, a rumor spread that he had been killed. At this, the Prophet ﷺ took the most serious of pledges: he called on his companions to pledge to fight until death under a tree — an event so significant it is mentioned in the Quran as 'Bay'at al-Ridwan': 'Allah was pleased with the believers when they pledged allegiance to you under the tree.' (48:18). The Prophet ﷺ placed his right hand on his left and pledged on behalf of the absent Uthman.\n\nOthman returned safely and negotiations produced a written treaty. The terms, recorded by Ibn Hisham and preserved in al-Tabari, were: a ten-year cessation of hostilities; the Muslims would return this year without performing Umrah but could return the following year for three days; anyone from Makkah who came to the Muslims without permission from their guardian would be returned to Makkah, but any Muslim who returned to Makkah would not be returned to the Muslims; any tribe could ally with either side.\n\nThe companions were devastated. The terms seemed humiliating: Muhammad ﷺ was referred to only as 'ibn Abdullah' — his prophethood not recognized in the document; Muslims were to be returned even if they fled persecution while Qurayshi apostates would not be returned. Umar ibn al-Khattab (RA) expressed his distress openly: 'Are we not upon truth and they upon falsehood? Why should we accept humiliation?' The Prophet ﷺ responded with quiet certainty: 'I am the slave of Allah and His Messenger. I will not disobey His command and He will not neglect me.'\n\nAllah revealed Surah al-Fath (Victory) on the return journey: 'Verily, We have given you a manifest victory.' (48:1). The companions were initially confused — was this really a victory? But events proved the treaty's wisdom decisively. The ten-year truce gave the Muslim community two years of uninterrupted expansion: tribes across Arabia joined Islam freely; the population of Muslims grew dramatically; the Conquest of Khaybar followed. Ibn Kathir, al-Tabari, and Ibn Hisham all agree that Hudaybiyyah was the most consequential diplomatic event before the Conquest of Makkah — and many Seerah scholars consider it the actual turning point, making the subsequent conquest inevitable.",
+  "people_slugs": ["uthman-ibn-affan", "umar-ibn-al-khattab", "abu-bakr", "suhail-ibn-amr"],
+  "quranic_reference": ["48:1-29", "48:18"],
+  "hadith_references": [
+    {
+      "collection": "Sahih al-Bukhari",
+      "book": "Kitab al-Shurut",
+      "number": "2731-2732",
+      "text_en": "Al-Bara ibn Azib (RA) narrated the full account of the writing of the treaty of Hudaybiyyah, including the Prophet's ﷺ instruction to Ali to write it.",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — The Treaty of Hudaybiyyah",
+    "Sahih al-Bukhari, Kitab al-Shurut — Treaty narrations (2731-2732)",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Sulh al-Hudaybiyyah",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Hudaybiyyah and Surah al-Fath",
+    "Ibn Kathir, Tafsir al-Quran al-Adhim — Surah al-Fath (48)",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1 — Account of Bay'at al-Ridwan"
+  ],
+  "related_events": ["battle-of-the-trench", "conquest-of-makkah"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

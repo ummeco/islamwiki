@@ -1,0 +1,28 @@
+{
+  "slug": "letters-to-kings",
+  "title_en": "Letters to the Kings",
+  "title_ar": "رسائل النبي إلى الملوك",
+  "year_ah": 7,
+  "year_ce": 628,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "madinan",
+  "summary": "Following the Treaty of Hudaybiyyah, the Prophet ﷺ dispatched letters to the rulers of the known world — including Heraclius of Byzantium, Khusraw II of Persia, the Negus of Abyssinia, and Muqawqis of Egypt — inviting them to Islam. These letters represent the global scope of the prophetic mission.",
+  "narrative": "In the seventh year after the Hijrah, having secured a period of peace through the Treaty of Hudaybiyyah, the Prophet Muhammad ﷺ turned his attention outward to the great empires of the age. He dispatched a series of letters to the heads of state of the surrounding world, carrying the message of Islam beyond the Arabian Peninsula.\n\nIbn Hisham records that the Prophet ﷺ had a seal ring fashioned of silver, inscribed with 'Muhammad Rasul Allah' in three lines, to authenticate these letters. The text of each letter opened with the formula: 'In the name of Allah, the Most Gracious, the Most Merciful. From Muhammad the servant and Messenger of Allah to [name and title]…' Each letter invited the ruler to accept Islam, warned of the consequences of turning away, and was delivered by a chosen companion-ambassador.\n\nTo Heraclius (Hiraql), the Byzantine Emperor, the Prophet ﷺ sent Dihyah ibn Khalifah al-Kalbi. Al-Tabari and Ibn Hisham record that Heraclius received the letter respectfully and, after questioning Abu Sufyan ibn Harb — who happened to be in Syria on a trading journey — about the Prophet's background and conduct, acknowledged internally that the messenger fit the description of the awaited prophet. He reportedly said to his court that this man would come to own the ground on which his own feet stood. However, fearing the loss of his kingdom, he did not embrace Islam. Sahih al-Bukhari records this encounter in detail in the chapter of revelation.\n\nTo Khusraw II (Kisra), the Sassanid Emperor of Persia, the Prophet ﷺ sent Abdullah ibn Hudhafah al-Sahmi. Khusraw received the letter and, according to al-Tabari, tore it up in contempt. When news of this reached the Prophet ﷺ, he reportedly said: 'His kingdom shall be torn apart.' Ibn Kathir records in al-Bidayah wal-Nihayah that Khusraw was indeed killed by his own son Shiruwayh shortly thereafter, and the Persian Empire fragmented rapidly.\n\nTo the Negus (al-Najashi) Ashama of Abyssinia, the Prophet ﷺ sent Amr ibn Umayyah al-Damri. The Negus, who had already given shelter to the early Muslim emigrants, accepted the letter warmly. According to Ibn Hisham, the Negus embraced Islam and wrote a letter affirming his faith. He remained in his kingdom, and when he died years later, the Prophet ﷺ led the funeral prayer in absentia (salat al-gha'ib) for him in Madinah — an act recorded in Sahih al-Bukhari and Sahih Muslim.\n\nTo Muqawqis, the Coptic ruler of Egypt, the Prophet ﷺ sent Hatib ibn Abi Balta'ah. Muqawqis received the letter with courtesy, composed a respectful reply, but did not embrace Islam. He sent back gifts including two Coptic servant women — Mariyah and her sister Sirin — along with mules and other presents. Mariyah al-Qibtiyyah later became the mother of Ibrahim, the Prophet's ﷺ son.\n\nLetters were also sent to Mundhir ibn Sawa, the ruler of Bahrain (who accepted Islam), to al-Harith ibn Abi Shamir, the Ghassanid king (who rejected it), and to the king of Oman. Ibn Kathir and al-Tabari agree that these letters were a fulfillment of the divine command to convey the message to all of humanity, and they demonstrated the Prophet's ﷺ understanding that his mission was universal — not limited to the Arabs.",
+  "people_slugs": ["dihyah-al-kalbi", "heraclius", "khusraw-ii", "negus-ashama", "muqawqis", "hatib-ibn-abi-baltah", "mariyah-al-qibtiyyah"],
+  "quranic_reference": ["3:64"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Book of Revelation — Account of Heraclius",
+    "Sahih al-Bukhari, Kitab al-Jihad — Letter to Heraclius"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 3 — Letters to the Kings",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Dispatches to foreign rulers",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Letters of the Prophet ﷺ",
+    "al-Bukhari, Sahih al-Bukhari — Book of Revelation, Account of Heraclius"
+  ],
+  "related_events": ["treaty-of-hudaybiyyah", "battle-of-khaybar"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

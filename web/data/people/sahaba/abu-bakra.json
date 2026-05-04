@@ -1,0 +1,48 @@
+{
+  "slug": "abu-bakra",
+  "name_ar": "أبو بكرة الثقفي",
+  "name_en": "Abu Bakra al-Thaqafi",
+  "epithet": null,
+  "kunya": "Abu Bakra",
+  "birth_ah": null,
+  "birth_ce": 600,
+  "death_ah": 52,
+  "death_ce": 672,
+  "era": "sahaba_early",
+  "category": ["sahaba", "thaqif", "narrators"],
+  "tribe": "Thaqif (of Ta'if)",
+  "role": ["Prolific narrator of hadith", "Freed slave who descended from the fortress of Ta'if to join the Muslims"],
+  "birthplace_slug": "taif",
+  "death_place_slug": "basra",
+  "summary": "Abu Bakra al-Thaqafi (RA) was a Companion who accepted Islam by descending from the fortress of Ta'if on a pulley (bakra) to join the Prophet ﷺ during the siege of Ta'if in 8 AH — from which his nickname derived. He became one of the most prolific narrators of hadith, settled in Basra, and is the source of several widely-cited prophetic traditions including the well-known saying concerning women in positions of political leadership.",
+  "biography": "Abu Bakra's full name was Nufay' ibn al-Harith ibn Kaldah al-Thaqafi, though some sources give his name as Nufay' ibn Masruh. He was a freed slave who had belonged to the Thaqif tribe of Ta'if, and was a man of non-Arab origin — possibly of Persian, Ethiopian, or mixed descent according to different reports. His name before Islam is given in the sources as Nufay', but he is universally known by his kunya Abu Bakra.\n\nThe Prophet ﷺ besieged Ta'if in 8 AH (630 CE) after the Battle of Hunayn. Ta'if was a strongly fortified city and the siege was not successfully completed — the Prophet ﷺ eventually lifted the siege and the people of Ta'if later came to Madinah and accepted Islam in 9 AH. However, during the siege, several enslaved men within the fortress climbed down ropes or pulleys (bakra) to join the Muslim camp. Abu Bakra was one of these men — and the word bakra (pulley or wheel) became his epithet. Ibn Sa'd in al-Tabaqat al-Kubra records this account and notes that the Prophet ﷺ declared these men free upon their descent, as they had come to him seeking Islam.\n\nAbu Bakra settled in Madinah initially, then later in Basra, which became the major Muslim garrison city of lower Iraq and a centre of Companion settlement during the caliphate of Umar ibn al-Khattab. He became one of the most prominent and respected figures of Basra, and his descendants settled there permanently. Multiple of his sons also became notable scholars and transmitters of hadith.\n\nHe is one of the more prolific Companions in terms of hadith transmission. Ibn Hajar al-Asqalani in al-Isabah fi Tamyiz al-Sahaba and al-Dhahabi in Siyar A'lam al-Nubala' note that his narrations are found throughout the six major hadith collections. Among the most widely quoted of his narrations is the one recorded in Sahih al-Bukhari: 'The people will never succeed who entrust their affairs to a woman' — a statement he attributed to the Prophet ﷺ and which he cited when he declined to fight on Aisha's side at the Battle of al-Jamal (36 AH / 656 CE). Classical scholars have discussed this hadith extensively in contexts of fiqh and seerah.\n\nDuring the fitnah of Ali and Muawiyah, Abu Bakra maintained a position of non-involvement, consistent with the approach of several senior Companions who refused to take sides. He is recorded as having advised his son against fighting in the civil wars, citing multiple prophetic warnings about Muslims killing one another. Al-Dhahabi regards his neutrality as praiseworthy. He narrated hadith in Basra for decades after the Prophet's death and is counted as one of the senior narrators of his generation in that city alongside Anas ibn Malik and Imran ibn Husayn.\n\nHe died in Basra around 52 AH (672 CE) at an advanced age, having outlived the majority of the major Companions. His children and grandchildren continued the scholarly and transmission traditions he established, making the Abu Bakra family lineage one of the noted scholarly households of early Basra.",
+  "key_events": [
+    {"year_ah": 8, "year_ce": 630, "event": "Descended from the fortress of Ta'if on a pulley to join the Muslim camp; declared free by the Prophet ﷺ"},
+    {"year_ah": 20, "year_ce": 641, "event": "Settled permanently in Basra under Umar's caliphate"},
+    {"year_ah": 36, "year_ce": 656, "event": "Declined to fight at the Battle of al-Jamal; cited the Prophet's hadith on entrusting affairs to women"},
+    {"year_ah": 52, "year_ce": 672, "event": "Died in Basra"}
+  ],
+  "notable_traits": [
+    "His nickname 'Abu Bakra' came from the pulley on which he descended from Ta'if fortress to join Islam",
+    "Principled neutrality during the civil wars — would not fight fellow Muslims",
+    "Prolific narrator — among the most narrated Companions in Basra",
+    "Settled in Basra and helped establish its early scholarly community"
+  ],
+  "key_relationships": {
+    "tribe": "Thaqif (freed slave origin within Thaqif)",
+    "city": "Basra — his home and base of narration for most of his life",
+    "son": "Abd al-Rahman ibn Abi Bakra — also a narrator and scholar of Basra"
+  },
+  "narrated_hadith_count": "approximately 132 hadith in the major collections",
+  "sources": [
+    "Sahih al-Bukhari — Kitab al-Fitan; Kitab al-Adab; Kitab al-Ahkam",
+    "Sahih Muslim — Kitab al-Fitan",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 7",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 2",
+    "Ibn Hajar al-Asqalani, al-Isabah fi Tamyiz al-Sahaba, Vol. 4",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

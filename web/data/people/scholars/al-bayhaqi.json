@@ -1,0 +1,48 @@
+{
+  "slug": "al-bayhaqi",
+  "name_ar": "أحمد بن الحسين البيهقي",
+  "name_en": "Imam al-Bayhaqi",
+  "epithet": "Hafiz, Faqih, Author of al-Sunan al-Kubra",
+  "kunya": "Abu Bakr",
+  "birth_ah": 384,
+  "birth_ce": 994,
+  "death_ah": 458,
+  "death_ce": 1066,
+  "era": "classical",
+  "category": ["scholars", "hadith", "fiqh", "shafii", "aqeedah"],
+  "madhhab": "shafii",
+  "summary": "Imam al-Bayhaqi (384–458 AH) was one of the greatest hadith scholars of the fifth century AH, a master jurist of the Shafi'i school, and a defender of the Ash'ari creed. His al-Sunan al-Kubra is among the most comprehensive collections of hadith related to Islamic law ever compiled, and his works on Shafi'i jurisprudence and Sunni theology remain authoritative references across the Islamic world.",
+  "biography": "Ahmad ibn al-Husayn ibn 'Ali al-Bayhaqi was born in 384 AH (994 CE) in Bayhaq, a district in the Khorasan region of northeastern Iran (near modern Nishapur, in present-day Iran). He grew up in a region that was at the time a flourishing center of Islamic scholarship, and he displayed early aptitude for the religious sciences.\n\nHis most important teacher was Hakim al-Nisaburi (Abu 'Abd Allah Muhammad ibn 'Abd Allah al-Hakim, d. 405 AH), the celebrated hadith master and author of al-Mustadrak. Al-Hakim recognized al-Bayhaqi's extraordinary capacity and guided his formation as a hadith scholar. Al-Bayhaqi later devoted himself to completing and supplementing al-Hakim's work while also correcting what he considered its lenient gradings. He also studied fiqh and theology under leading Shafi'i and Ash'ari scholars of his era, including Abu al-Fath Nasr ibn Muhammad al-Marwazi and the theologian Ibn Furak. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 18)\n\nAl-Bayhaqi traveled extensively for knowledge, visiting Baghdad, the Hijaz, and other centers of scholarship to collect hadith and benefit from masters in multiple disciplines. He settled eventually in Nishapur, which remained the center of his scholarly activity, and then in Bayhaq, where he taught for many years.\n\nHis masterwork is al-Sunan al-Kubra, a monumental compilation of hadith organized according to the chapters of Islamic law (fiqh). The work runs to ten volumes in modern editions and is distinguished by al-Bayhaqi's practice of including not only the hadith text but also extensive commentary on the reliability of narrators, the legal implications of each report, and the positions of the major schools of jurisprudence. It remains to this day one of the most consulted references for scholars researching the hadith foundations of Islamic law.\n\nAlongside the Sunan al-Kubra, al-Bayhaqi produced a complementary work, Ma'rifat al-Sunan wal-Athar, which focuses on the positions of al-Shafi'i and their hadith evidences. Together, these two works constitute the most thorough documentation of the evidential basis for Shafi'i jurisprudence available from the classical period.\n\nIn theology, al-Bayhaqi was a committed proponent of the Ash'ari school, which was at that time the dominant theological approach among Shafi'i scholars and across much of the Islamic world. His al-Asma' wal-Sifat presents the Ash'ari positions on the divine names and attributes in careful dialogue with the textual sources, and his I'tiqad Ahl al-Sunnah wal-Jama'ah is a concise creedal summary reflecting that tradition. Per the theological guidelines of this platform, the Ash'ari school represents an accepted position within Ahl al-Sunnah wal-Jama'ah; al-Bayhaqi's works in aqeedah are treated accordingly.\n\nHe died in Nishapur in 458 AH (1066 CE). Al-Dhahabi wrote of him: 'He was the hafiz, the imam, the most learned in fiqh of his time, the greatest master of hadith in the Khorasan region.' (Siyar A'lam al-Nubala', Vol. 18, p. 163). His influence on subsequent Shafi'i scholarship — in both fiqh and theology — was profound and lasting.",
+  "key_works": [
+    "al-Sunan al-Kubra (10 vols., comprehensive hadith in legal order)",
+    "al-Sunan al-Saghira (abridged version)",
+    "Ma'rifat al-Sunan wal-Athar (Shafi'i jurisprudence with hadith evidence)",
+    "Shu'ab al-Iman (hadith on branches of faith, 11 vols.)",
+    "al-Asma' wal-Sifat (divine names and attributes, Ash'ari theology)",
+    "I'tiqad Ahl al-Sunnah wal-Jama'ah (creedal summary)",
+    "Dala'il al-Nubuwwah (evidences of prophethood)"
+  ],
+  "teachers": [
+    {"slug": "hakim-al-nisaburi", "name": "Hakim al-Nisaburi (Abu 'Abd Allah al-Hakim)"},
+    {"slug": "ibn-furak", "name": "Ibn Furak (Ash'ari theology)"},
+    {"slug": "nasr-ibn-muhammad-al-marwazi", "name": "Abu al-Fath Nasr ibn Muhammad al-Marwazi"},
+    {"slug": "abu-tahir-al-ziyadi", "name": "Abu Tahir ibn Mahmash al-Ziyadi"}
+  ],
+  "students": [
+    {"slug": "al-khatib-al-baghdadi", "name": "al-Khatib al-Baghdadi (benefited from him)"},
+    {"slug": "abu-zakariyya-al-nawawi-lineage", "name": "Later Shafi'i scholars through his works"},
+    {"slug": "ibn-asakir", "name": "Ibn 'Asakir (transmitted from his works)"}
+  ],
+  "birthplace_slug": "bayhaq",
+  "death_place_slug": "nishapur",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 18 (extensive biography)",
+    "al-Subki, Tabaqat al-Shafi'iyya al-Kubra, Vol. 4",
+    "Ibn Khallikan, Wafayat al-A'yan",
+    "Ibn al-'Imad al-Hanbali, Shadharat al-Dhahab, Vol. 3",
+    "al-Nawawi, Tahdhib al-Asma' wal-Lughat"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

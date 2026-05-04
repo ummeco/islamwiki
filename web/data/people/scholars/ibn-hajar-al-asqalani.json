@@ -1,0 +1,50 @@
+{
+  "slug": "ibn-hajar-al-asqalani",
+  "name_ar": "شهاب الدين أحمد بن علي بن محمد بن حجر العسقلاني",
+  "name_en": "Shihab al-Din Ahmad ibn Ali ibn Muhammad ibn Hajar al-Asqalani",
+  "epithet": "Amir al-Mu'minin fi al-Hadith (Commander of the Faithful in Hadith)",
+  "kunya": "Abu al-Fadl",
+  "birth_ah": 773,
+  "birth_ce": 1372,
+  "death_ah": 852,
+  "death_ce": 1449,
+  "era": "later_classical",
+  "category": ["scholars", "hadith", "rijal", "fiqh", "shafi'i", "tafsir"],
+  "madhhab": "shafi'i",
+  "summary": "Ibn Hajar al-Asqalani (773–852 AH) was the preeminent hadith scholar of the ninth Islamic century, whose Fath al-Bari — a fourteen-volume commentary on Sahih al-Bukhari — is the most comprehensive and authoritative work on Bukhari ever written. He served as Chief Justice (Qadi al-Qudat) of Egypt and produced a body of hadith criticism, biographical scholarship, and Shafi'i legal commentary that made him the defining reference for the discipline of hadith sciences in the classical tradition.",
+  "biography": "Ahmad ibn Ali ibn Hajar al-Asqalani was born in 773 AH (1372 CE) in Cairo. His family's origin was in Asqalan (Ashkelon, on the coast of Palestine), from which his nisba derives, though they had long been settled in Egypt. He was orphaned young — his father died when he was about four — and his upbringing was taken over by a guardian, Zaki al-Din al-Kharrubi, who recognized his abilities and supported his education. He memorized the Quran at five, and by his teens was moving in the scholarly circles of Cairo.\n\nThe decisive turn in his formation came through his attachment to the hadith scholar Zayn al-Din al-Iraqi (d. 806 AH), the foremost living authority in the hadith sciences at the time. Ibn Hajar became al-Iraqi's devoted student and eventually his most celebrated transmitter. He also traveled extensively — to the Hijaz, Syria, and Yemen — seeking the highest chains of transmission and studying with every major hadith authority of his generation. His principal teacher in Shafi'i fiqh was Siraj al-Din al-Bulqini. (al-Sakhawi, al-Daw' al-Lami', Vol. 2)\n\nHe was appointed Shafi'i Qadi al-Qudat (Chief Justice) of Egypt in 827 AH, a post he held — with some interruptions — until his death. His judicial career, while significant, is secondary in scholarly memory to his written output.\n\nFath al-Bari Sharh Sahih al-Bukhari is the work for which he is most celebrated. He worked on it for over twenty-five years; al-Sakhawi records that its completion was celebrated in Cairo with public festivities and gifts to the poor. The fourteen-volume work provides for each hadith in Bukhari: full chain evaluation with narrator assessment; the hadith text in its multiple transmitted variants; detailed linguistic and grammatical commentary; a comprehensive survey of legal rulings derived from the hadith across the four madhhabs; responses to textual difficulties; and a summary of scholarly discussions across the centuries. It is an encyclopedia of Sunni scholarship organized around Bukhari's text. No subsequent commentary has superseded it, and it remains the indispensable reference for serious engagement with Sahih al-Bukhari. (Ibn Hajar, Fath al-Bari, Vol. 1, Introduction)\n\nBeyond Fath al-Bari, his Tahdhib al-Tahdhib (twelve volumes) is an expansion of al-Mizzi's Tahdhib al-Kamal — the master biographical dictionary of hadith narrators — and his Taqrib al-Tahdhib condenses it into a one-volume reference giving a single reliability grade per narrator, the most widely used practical tool in hadith studies. His al-Isaba fi Tamyiz al-Sahaba (eight volumes) is the definitive dictionary of the Companions of the Prophet, covering thousands of entries. His Nukhbat al-Fikar became the standard introductory manual of hadith terminology (mustalah al-hadith) across the Islamic world, with his own commentary Nuzhat al-Nazar still taught as a primary text in hadith courses.\n\nIn aqeedah, Ibn Hajar was an Ash'ari, consistent with the dominant position of Shafi'i scholars of Egypt and Syria in his period. His discussions of the divine attributes in Fath al-Bari follow the Ash'ari interpretive framework — scholars of Athari inclination who rely on Fath al-Bari (as they do frequently and necessarily) should bear this in mind.\n\nIbn Hajar died in Cairo in Dhul Hijja 852 AH (1449 CE). His funeral was attended by an enormous crowd including the Mamluk sultan and senior officials. His student al-Sakhawi (d. 902 AH) wrote the most detailed biography of him in al-Jawahir wa al-Durar fi Tarjamat Shaykh al-Islam Ibn Hajar, a work in three volumes.",
+  "key_works": [
+    "Fath al-Bari Sharh Sahih al-Bukhari (14 volumes — commentary on Bukhari)",
+    "al-Isaba fi Tamyiz al-Sahaba (8 volumes — Companions' dictionary)",
+    "Tahdhib al-Tahdhib (12 volumes — narrator biography)",
+    "Taqrib al-Tahdhib (1 volume — narrator grade summary)",
+    "Nukhbat al-Fikar wa Nuzhat al-Nazar (hadith terminology manual)",
+    "Lisan al-Mizan (7 volumes — weak narrators and pseudo-scholars)",
+    "al-Durar al-Kaminah fi A'yan al-Mi'ah al-Thaminah (biographies of 8th-century figures)",
+    "Inba al-Ghumr bi-Anba al-Umr (autobiography and history)",
+    "Bulugh al-Maram min Adillat al-Ahkam (hadith of legal rulings)"
+  ],
+  "teachers": [
+    {"slug": "zayn-al-din-al-iraqi", "name": "Zayn al-Din Abd al-Rahim al-Iraqi (primary teacher in hadith)"},
+    {"slug": "siraj-al-din-al-bulqini", "name": "Siraj al-Din al-Bulqini (Shafi'i fiqh)"},
+    {"slug": "al-haythami", "name": "Nur al-Din al-Haythami"},
+    {"slug": "ibrahim-al-tanukhi", "name": "Ibrahim ibn Ahmad al-Tanukhi"}
+  ],
+  "students": [
+    {"slug": "al-sakhawi", "name": "Shams al-Din al-Sakhawi (primary biographer)"},
+    {"slug": "al-suyuti", "name": "Jalal al-Din al-Suyuti (indirect — of the next generation)"},
+    {"slug": "ibn-qadi-shuhba", "name": "Ibn Qadi Shuhba al-Asqalani"}
+  ],
+  "birthplace_slug": "cairo",
+  "death_place_slug": "cairo",
+  "sources": [
+    "al-Sakhawi, al-Jawahir wa al-Durar fi Tarjamat Shaykh al-Islam Ibn Hajar (3 volumes — definitive biography)",
+    "al-Sakhawi, al-Daw' al-Lami' li-Ahl al-Qarn al-Tasi', Vol. 2",
+    "Ibn Taghribirdi, al-Nujum al-Zahirah, Vol. 15",
+    "al-Suyuti, Nuzhat al-Julasa fi Ashaar al-Nisa (general biographical work mentioning him)",
+    "Ibn Hajar, Inba al-Ghumr (autobiographical)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

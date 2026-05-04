@@ -1,0 +1,34 @@
+{
+  "slug": "birth-of-the-prophet",
+  "title_en": "Birth of the Prophet ﷺ",
+  "title_ar": "مولد النبي ﷺ",
+  "year_ah": null,
+  "year_ce": 570,
+  "season": "spring",
+  "place_slug": "makkah",
+  "phase": "pre-prophethood",
+  "summary": "Muhammad ibn Abdullah ﷺ was born in Makkah in the Year of the Elephant, approximately 570 CE, into the noble Banu Hashim clan of the Quraysh. His father Abdullah had died before his birth, and he was raised first by his wet-nurse Halimah al-Saadiyyah and later under the guardianship of his grandfather Abd al-Muttalib.",
+  "narrative": "The Prophet Muhammad ﷺ was born in Makkah, in the year that the Abyssinian general Abraha attempted to destroy the Kaabah — an event so momentous that the Arabs named the year after it. The exact date is a matter of scholarly discussion: the most widely cited opinion, reported by Ibn Ishaq and preserved in Ibn Hisham's Sirah, is Monday, 12 Rabi' al-Awwal, though other dates — the 8th or 9th of Rabi' al-Awwal — have been preferred by other scholars including Ibn Hazm and al-Biruni. The year 570 CE is the conventional Western approximation, though some scholars place the birth in 571 CE.\n\nHis full lineage as recorded by Ibn Hisham: Muhammad ibn Abdullah ibn Abd al-Muttalib ibn Hashim ibn Abd Manaf ibn Qusayy ibn Kilab, tracing back through the noble lineage of the Quraysh to Adnan and ultimately to Ibrahim (AS). His mother was Aminah bint Wahb of the Banu Zuhrah clan. His father, Abdullah ibn Abd al-Muttalib, had died either before Muhammad's birth or shortly thereafter — accounts differ — while returning from a trading journey to al-Madinah (then called Yathrib). This meant the Prophet ﷺ was born an orphan on his father's side.\n\nAminah is reported to have said that during her pregnancy she saw a light emerge from her that illuminated the palaces of Busra in Syria. Ibn Hisham records this narration, though scholars note it is not from a connected chain. According to Ibn Sa'd in al-Tabaqat al-Kubra, when the Prophet ﷺ was born he was already circumcised — a detail mentioned in some narrations though not universally reported.\n\nIn accordance with Arab custom, the infant was sent to the desert to be nursed. After several wet-nurses declined to take him — reportedly because of his orphaned status, which meant reduced financial reward — Halimah bint Abi Dhuayb of the Banu Sa'd ibn Bakr tribe accepted him. She later reported that blessings multiplied for her household from the day she took him in: her she-camel's milk increased, her donkey became swift, and her flock grew. Ibn Hisham and al-Tabari both record the incident of the opening of the chest (sharh al-sadr) occurring while the Prophet ﷺ was still with Halimah, when two men in white came and washed his heart. Halimah, alarmed, returned him to Aminah.\n\nAfter being returned to his mother, the Prophet ﷺ lost her as well: Aminah died when he was approximately six years old, at Abwa' on the road between Makkah and Madinah, while returning from a visit to his maternal relatives in Yathrib. His care then passed to his grandfather Abd al-Muttalib, who showed him exceptional love and favored him above his own children. Ibn Hisham records that Abd al-Muttalib would have a mat spread for him in the shade of the Kaabah, and the young Muhammad ﷺ alone of all the children was permitted to sit on it. When Abd al-Muttalib died — approximately two years later, when Muhammad ﷺ was eight — his guardianship passed to his uncle Abu Talib.\n\nThe Prophet ﷺ was born into a society steeped in jahiliyyah — the era of ignorance — yet even in his childhood the signs of his noble character were apparent. His companions throughout his life consistently testified that he ﷺ had never engaged in the practices of his people that Islam would later prohibit. Al-Tabari and Ibn Kathir both open their accounts of his biography with the testimony that Allah chose for His final Messenger the noblest lineage, in the best land, at the appointed time.",
+  "people_slugs": ["aminah-bint-wahb", "abd-al-muttalib", "halimah-al-saadiyyah", "abu-talib"],
+  "quranic_reference": ["93:6-8", "94:1"],
+  "hadith_references": [
+    {
+      "collection": "Sahih Muslim",
+      "book": "Kitab al-Fada'il",
+      "number": "2277",
+      "text_en": "The Prophet ﷺ was asked about fasting on Monday. He said: 'That is the day on which I was born and the day on which I received revelation.'",
+      "grade": "Sahih"
+    }
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — Birth and early childhood",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 1 — Birth narratives",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Birth of Muhammad ﷺ",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 2 — Birth and signs of prophethood",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 1 — Lineage and early life"
+  ],
+  "related_events": ["year-of-the-elephant", "first-revelation"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

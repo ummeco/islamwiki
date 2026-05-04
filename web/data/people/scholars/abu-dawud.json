@@ -1,0 +1,50 @@
+{
+  "slug": "abu-dawud",
+  "name_ar": "سليمان بن الأشعث الأزدي السجستاني",
+  "name_en": "Sulayman ibn al-Ash'ath al-Azdi al-Sijistani",
+  "epithet": "Imam Ahl al-Hadith fil-Basra",
+  "kunya": "Abu Dawud",
+  "birth_ah": 202,
+  "birth_ce": 817,
+  "death_ah": 275,
+  "death_ce": 889,
+  "era": "classical",
+  "category": ["scholars", "hadith", "fiqh", "rijal"],
+  "madhhab": "hanbali",
+  "summary": "Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani (202–275 AH) compiled the Sunan Abu Dawud, the third of the six canonical hadith collections (Kutub al-Sitta). His collection focused specifically on ahadith relevant to Islamic legal practice (fiqh), selecting approximately 4,800 narrations from a corpus of 500,000 with an explicit concern for producing a reliable guide to applied jurisprudence — making it the most fiqh-oriented of the major hadith collections.",
+  "biography": "Abu Dawud was born in Sijistan (a historical region in present-day Iran and Afghanistan, with its capital at Zaranj) in 202 AH (817 CE). His family was of the Arab tribe of Azd, and he grew up in the scholarly environment of Khorasan before traveling extensively to seek hadith. He studied with Ahmad ibn Hanbal in Baghdad, a relationship that significantly shaped his approach to both fiqh and hadith methodology. Ahmad ibn Hanbal was reportedly impressed by Abu Dawud's scholarly acumen and described him with high praise — a particularly meaningful endorsement given Ahmad's characteristic restraint in praising contemporaries.\n\nAbu Dawud traveled to Iraq, Khurasan, the Hijaz, Syria, Egypt, and elsewhere in pursuit of hadith. The breadth of his travel gave him access to chains from all the major hadith-transmitting regions of the third century AH. He reportedly examined approximately 500,000 hadith before selecting the 4,800 narrations of the Sunan — a ratio of inclusion of roughly one in a hundred, reflecting rigorous selectivity. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 13)\n\nThe Sunan Abu Dawud differs from the Sahihayn in its explicit scope and purpose. While al-Bukhari and Muslim sought to collect only fully authenticated (sahih) narrations, Abu Dawud was working in a more practically focused genre: the sunan — legal traditions of the Prophet ﷺ organized by juristic category. His stated purpose was to collect the hadith on which the legal practice of the ummah was based, including narrations that fell below the level of sahih but were nonetheless used in fiqh by the scholars. He followed a principled approach to this: he included weaker narrations only when no stronger equivalent existed for a given legal issue, and when he included a narration with a weakness he noted it. He wrote about his methodology: 'I have mentioned in this book the sahih, and that which resembles it and approximates it. If a hadith has a serious weakness I have noted it. That which I have left without comment is at least reasonably sound (salih), and some of it is more sound than others.'\n\nA significant feature of the Sunan is Abu Dawud's own commentary on narrations — his remarks on narrator reliability, chain defects, and the status of specific traditions within the scholarly discussion of his era. These brief notes make the Sunan an unusually transparent record of third-century hadith criticism, capturing not just the narrations but something of the scholarly conversation around them.\n\nAbu Dawud wrote a famous letter to the people of Mecca — Risalat Abi Dawud ila Ahl Makkah fi Wasf al-Sunan — in which he described the collection, his methodology, and the arrangement of material. This letter provides the most direct account of his intentions and is one of the earliest self-descriptions of a hadith collection's methodology by its compiler.\n\nIn fiqh, Abu Dawud belonged to the Hanbali school, having studied directly with Ahmad ibn Hanbal. His Masa'il (questions addressed to Imam Ahmad, preserved in multiple collections) are among the most important primary sources for reconstructing Ahmad's legal positions, as Ahmad himself wrote little and his rulings were largely transmitted through his students' recorded questions. Abu Dawud's Masa'il are considered among the most reliable of these records.\n\nHe settled in Basra later in life, at the invitation of its governor Amr ibn Ubayd Allah al-Tamimi, and taught there for the remainder of his life. He died in Basra in 275 AH (889 CE). His students included Abu Isa al-Tirmidhi, al-Nasa'i, and Ibn Abi al-Dunya, all major figures in subsequent hadith scholarship.\n\nThe Sunan Abu Dawud's place in the Kutub al-Sitta reflects the scholarly consensus that it is among the most valuable references for applied jurisprudence, and it has generated an extensive commentary literature. The most celebrated commentary is Awn al-Ma'bud by Muhammad Shams al-Haqq al-Azimabadi (d. 1329 AH), though earlier scholars including al-Khattabi (d. 388 AH) — who wrote Ma'alim al-Sunan — contributed foundational works in the field.",
+  "key_works": [
+    "Sunan Abu Dawud (the third canonical hadith collection — ~4,800 narrations)",
+    "Risalat Abi Dawud ila Ahl Makkah fi Wasf al-Sunan (methodological letter)",
+    "Masa'il al-Imam Ahmad (questions to Ahmad ibn Hanbal on fiqh)",
+    "al-Marasil (on broken chains of transmission)",
+    "Kitab al-Zuhd (on asceticism)"
+  ],
+  "teachers": [
+    {"slug": "ahmad-ibn-hanbal", "name": "Ahmad ibn Hanbal"},
+    {"slug": "yahya-ibn-main", "name": "Yahya ibn Ma'in"},
+    {"slug": "ali-ibn-al-madini", "name": "Ali ibn al-Madini"},
+    {"slug": "qutayba-ibn-said", "name": "Qutayba ibn Sa'id"},
+    {"slug": "ishaq-ibn-rahawayh", "name": "Ishaq ibn Rahawayh"}
+  ],
+  "students": [
+    {"slug": "al-tirmidhi", "name": "Muhammad ibn Isa al-Tirmidhi"},
+    {"slug": "al-nasai", "name": "Ahmad ibn Shu'ayb al-Nasa'i"},
+    {"slug": "ibn-abi-al-dunya", "name": "Ibn Abi al-Dunya"},
+    {"slug": "abu-ubayd-al-ajurri", "name": "Abu Ubayd al-Ajurri"},
+    {"slug": "al-khattabi", "name": "Hamd ibn Muhammad al-Khattabi (indirect — studied Sunan)"}
+  ],
+  "birthplace_slug": "sijistan",
+  "death_place_slug": "basra",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 13",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 2",
+    "al-Khatib al-Baghdadi, Tarikh Baghdad, Vol. 9",
+    "Abu Dawud, Risalat Abi Dawud ila Ahl Makkah (primary source on methodology)",
+    "al-Khattabi, Ma'alim al-Sunan (introductory remarks on Abu Dawud)",
+    "Ibn Hajar al-Asqalani, Tahdhib al-Tahdhib, Vol. 4"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

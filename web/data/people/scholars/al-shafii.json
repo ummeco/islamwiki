@@ -1,0 +1,50 @@
+{
+  "slug": "al-shafii",
+  "name_ar": "محمد بن إدريس الشافعي",
+  "name_en": "Muhammad ibn Idris al-Shafi'i",
+  "epithet": "Nasir al-Sunnah (Champion of the Sunnah); al-Imam al-Mujaddid",
+  "kunya": "Abu Abdullah",
+  "birth_ah": 150,
+  "birth_ce": 767,
+  "death_ah": 204,
+  "death_ce": 820,
+  "era": "tabi_tabiin",
+  "category": ["scholars", "fiqh", "hadith", "usul_al_fiqh", "madhhab_founder", "shafii"],
+  "madhhab": "shafii",
+  "summary": "Muhammad ibn Idris al-Shafi'i (150–204 AH) founded the Shafi'i madhhab and — more consequentially still — authored al-Risala, the first systematic treatise on usul al-fiqh (the science of legal methodology). By establishing a rigorous framework for how the Quran, Sunnah, ijma', and qiyas relate to one another, he transformed Islamic jurisprudence from a set of regional practices into a theoretically grounded discipline.",
+  "biography": "Al-Shafi'i was born in Gaza or Asqalan (sources differ) in 150 AH — the same year Imam Abu Hanifa died — and was brought to Mecca by his mother at an early age, where he was raised in poverty after the death of his father. His Qurayshi lineage was significant: he descended from the Banu Muttalib, the Prophet's ﷺ own clan, making him the only one of the four Imams who shared the Prophet's tribal descent. Despite his poverty, he memorized the Quran by age seven and the al-Muwatta' of Imam Malik by age ten, reportedly practicing his writing on bones and potsherds when he could not afford paper. (al-Dhahabi, Siyar A'lam al-Nubala', Vol. 10)\n\nHis early education included significant time studying Arabic poetry and rhetoric with Bedouin tribes, giving him a mastery of classical Arabic that scholars of every generation have considered extraordinary. His Arabic prose and poetry alike were held up as models of eloquence by critics who had no particular interest in his legal work. This facility with language underpinned his ability to argue methodological points with precision in al-Risala.\n\nAt approximately nineteen or twenty, al-Shafi'i traveled to Madinah and studied with Imam Malik ibn Anas, reading the al-Muwatta' to him and becoming one of his most distinguished students. He remained with Malik until Malik's death in 179 AH. This period gave him direct access to the Medinan jurisprudential tradition — but also, crucially, exposed him to its limitations in his view: he found that 'amal ahl al-Madinah was not a sufficiently rigorous criterion when it conflicted with clearly transmitted hadith from other regions.\n\nAfter Malik's death, al-Shafi'i went to Yemen, where he served in an administrative capacity, then traveled to Baghdad. In Baghdad he encountered the Hanafi school and engaged in extensive debate with Muhammad ibn al-Hasan al-Shaybani, Abu Hanifa's great student. These debates sharpened his thinking on methodology: he came to believe that both the Medinan school and the Iraqi school had each captured part of the truth — the Medinans were right to anchor law in Sunnah, the Iraqis were right that Sunnah required systematic interpretation — but neither had articulated a comprehensive theoretical account of how these sources related to one another.\n\nThe result was al-Risala, composed initially during his first Baghdad period (around 195 AH) at the request of Abd al-Rahman ibn Mahdi. Al-Risala established the four-source doctrine of Islamic law — Quran, Sunnah, ijma', qiyas — and argued in detail for the authority of Prophetic hadith as a source of law independent of the Quran, against scholars who held that only the Quran's explicit commands were binding. It also systematized the theory of naskh (abrogation), the rules of general and specific commands (amm and khass), and the conditions under which qiyas was applicable. The work was later revised into the version preserved today. There is no parallel to it in the earlier literature; it created the field.\n\nAl-Shafi'i's legal positions are divided into his 'old school' (madhab qadim, Iraqi period) and 'new school' (madhab jadid, Egyptian period). He moved to Egypt around 199 AH, where he revised many of his earlier positions in light of the broader hadith corpus available there, producing a distinct set of rulings that differs from the Iraqi period in numerous points. The Shafi'i madhhab as practiced today is based on the new school, preserved primarily through his Egyptian students.\n\nIn Cairo he taught at the mosque of Amr ibn al-As and wrote prolifically. His major legal work, al-Umm, was dictated to his students during this period. His students in Egypt included al-Muzani (d. 264 AH) and al-Rabi' ibn Sulayman al-Muradi (d. 270 AH), whose transmissions preserved his new school positions. Ahmad ibn Hanbal — who later founded his own madhhab — had studied with al-Shafi'i in Baghdad and considered him among the greatest scholars he had met.\n\nAl-Shafi'i's contribution to usul al-fiqh cannot be overstated. Every subsequent discussion of Islamic legal theory — by scholars of every madhhab — has had to engage with the framework he established in al-Risala. Even scholars who disagreed with specific positions built their arguments using the vocabulary and categories he defined. He died in Egypt in 204 AH (820 CE) and was buried in the Muqattam Hills in Cairo, where his tomb remains a site of scholarly pilgrimage.",
+  "key_works": [
+    "al-Risala (the founding text of usul al-fiqh)",
+    "al-Umm (comprehensive fiqh in the new school)",
+    "Ikhtilaf Malik wal-Shafi'i",
+    "Kitab al-Hujja (old school positions, preserved by Hanafi transmitters)",
+    "Diwan al-Shafi'i (collected poetry)"
+  ],
+  "teachers": [
+    {"slug": "malik-ibn-anas", "name": "Malik ibn Anas"},
+    {"slug": "muhammad-ibn-al-hasan-al-shaybani", "name": "Muhammad ibn al-Hasan al-Shaybani"},
+    {"slug": "sufyan-ibn-uyayna", "name": "Sufyan ibn Uyayna"},
+    {"slug": "ibrahim-ibn-sad-al-ansari", "name": "Ibrahim ibn Sa'd al-Ansari"},
+    {"slug": "muslim-ibn-khalid-al-zanji", "name": "Muslim ibn Khalid al-Zanji (first teacher in Mecca)"}
+  ],
+  "students": [
+    {"slug": "ahmad-ibn-hanbal", "name": "Ahmad ibn Hanbal"},
+    {"slug": "al-muzani", "name": "Ismail ibn Yahya al-Muzani"},
+    {"slug": "al-rabi-ibn-sulayman", "name": "al-Rabi' ibn Sulayman al-Muradi"},
+    {"slug": "al-buwayti", "name": "Yusuf ibn Yahya al-Buwayti"},
+    {"slug": "al-humaydi", "name": "Abdullah ibn al-Zubayr al-Humaydi"}
+  ],
+  "birthplace_slug": "gaza",
+  "death_place_slug": "cairo",
+  "sources": [
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 10 (extensive biography)",
+    "Ibn Khallikan, Wafayat al-A'yan, Vol. 4",
+    "al-Bayhaqi, Manaqib al-Shafi'i",
+    "al-Nawawi, Tahdhib al-Asma' wal-Lughat, Vol. 1",
+    "Ibn Abi Hatim al-Razi, Adab al-Shafi'i wa Manaqibuh",
+    "Ibn Abd al-Barr, al-Intiqa' fi Fada'il al-Thalatha al-A'imma al-Fuqaha"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

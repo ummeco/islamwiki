@@ -1,0 +1,24 @@
+{
+  "slug": "siege-of-taif",
+  "title_en": "Siege of Taif",
+  "title_ar": "حصار الطائف",
+  "year_ah": 8,
+  "year_ce": 630,
+  "season": null,
+  "place_slug": "taif",
+  "phase": "madinan",
+  "summary": "Following Hunayn, the Prophet ﷺ besieged the fortified city of Taif, stronghold of the Thaqif tribe and refuge of the defeated Hawazin commander Malik ibn Awf. After roughly twenty days the siege was lifted without a breach — the only campaign of the Prophet ﷺ that ended without a direct military resolution. Taif came to Islam voluntarily the following year.",
+  "narrative": "After the decisive Muslim victory at Hunayn, Malik ibn Awf al-Nasri, the defeated commander of the Hawazin confederation, took refuge within the heavily fortified city of Taif along with remnants of the Thaqif tribe. Taif was one of the most prosperous cities in Arabia, known for its orchards, vineyards, and cool climate in the mountains southeast of Makkah. Its walls and bastions made it a formidable target.\n\nThe Prophet ﷺ led the Muslim force to Taif and established a siege camp. Al-Tabari records that the Prophet ﷺ prayed two rakahs at the mosque of Addas — a believer from Ninawa who had offered the Prophet ﷺ grapes during the grief-filled visit to Taif before the Hijrah — and it was noted as a place of baraka (blessing). The siege was prosecuted vigorously: catapults (manjaniq) were employed, some accounts suggest siege towers, and the Muslims attempted to breach the walls.\n\nIbn Hisham records that the Thaqif used arrows from their fortifications to devastating effect, killing several of the besieging Muslims. Urwah ibn Masud al-Thaqafi was not in the city at the time, having been absent learning the operation of the catapult and the testudo (dabbabah — mobile covered structure) from Juwayriyah ibn Masud. He arrived after the siege was lifted and attempted to preach Islam to his own tribe, and was killed by them — a martyrdom the Prophet ﷺ had foreshadowed.\n\nAfter approximately twenty days of siege, the Prophet ﷺ called a council and consulted his companions about whether to continue. Umar ibn al-Khattab ؓ suggested pressing on. Nufayl ibn Abdullah al-Azdaqi offered counsel that the city was difficult. The Prophet ﷺ then announced the lifting of the siege and the return march. Some companions were surprised — they had hoped for victory over Taif as they had achieved at Khaybar. Ibn Hisham records that the Prophet ﷺ said: 'Tomorrow morning, travel.' When the companions asked whether this was his firm command or a consultation, he said to proceed. Some grumbled.\n\nThen the Prophet ﷺ said to the companions: 'In the morning, say: We are returning, if Allah wills it, repentant to our Lord, worshipping our Lord.' He was asked: 'Will you not pray for the destruction of Thaqif?' He ﷺ raised his hands and said: 'O Allah, guide the Thaqif and bring them to us.'\n\nIbn Kathir records that this dua was fulfilled in the ninth year AH — the Year of Delegations — when a delegation from the Thaqif arrived in Madinah and accepted Islam. Urwah ibn Masud al-Thaqafi, who had already accepted Islam and was killed by his own people, and Amr ibn Umayyah were among those who came. The city entered Islam peacefully without further military action.\n\nThe Siege of Taif is notable as the only major military campaign of the Prophet ﷺ that ended without direct military success — demonstrating that the Prophet ﷺ exercised strategic patience and did not insist on complete resolution by force when circumstances did not favour it. His prayer for the guidance of Thaqif over their destruction stands as a model of prophetic mercy over vengeance.",
+  "people_slugs": ["malik-ibn-awf", "urwah-ibn-masud-al-thaqafi"],
+  "quranic_reference": [],
+  "hadith_references": [],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 4 — Siege of Taif",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Taif siege",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Ghazwah al-Taif"
+  ],
+  "related_events": ["battle-of-hunayn", "year-of-delegations", "conquest-of-makkah"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

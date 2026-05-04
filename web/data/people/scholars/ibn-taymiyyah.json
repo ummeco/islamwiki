@@ -1,0 +1,52 @@
+{
+  "slug": "ibn-taymiyyah",
+  "name_ar": "تقي الدين أحمد بن عبد الحليم بن تيمية",
+  "name_en": "Taqi al-Din Ahmad ibn Abd al-Halim ibn Taymiyyah",
+  "epithet": "Shaykh al-Islam",
+  "kunya": "Abu al-Abbas",
+  "birth_ah": 661,
+  "birth_ce": 1263,
+  "death_ah": 728,
+  "death_ce": 1328,
+  "era": "later_classical",
+  "category": ["scholars", "aqeedah", "fiqh", "hanbali", "athari", "mujaddid"],
+  "madhhab": "hanbali",
+  "summary": "Ibn Taymiyyah (661–728 AH) was a Hanbali jurist and Athari theologian from Harran who became one of the most influential and controversial scholars in Islamic history. His prolific writings on aqeedah, fiqh, Quranic exegesis, and Sufi practices remain foundational references for Athari scholarship, while his life was marked by repeated imprisonment at the hands of Mamluk authorities over theological and political disputes.",
+  "biography": "Ahmad ibn Abd al-Halim ibn Taymiyyah was born in 661 AH (1263 CE) in Harran, in what is now southeastern Turkey. When the Mongol advance threatened the region, his family fled to Damascus, where he would spend most of his scholarly life. Damascus in the late seventh and early eighth centuries of the hijra was a major center of Islamic scholarship, and Ibn Taymiyyah received his formation in this environment, mastering the Hanbali legal tradition alongside the hadith sciences and Quranic commentary.\n\nHis father Abd al-Halim was himself a scholar and teacher, and Ibn Taymiyyah's early education was intensive. He memorized the Quran in childhood and quickly outpaced his contemporaries in mastery of the scholarly corpus. By his twenties he had begun issuing legal opinions and lecturing publicly, and by his thirties he was recognized as one of the foremost scholars of the Levant. He succeeded his father in teaching at the Dar al-Hadith al-Sukkariyyah in Damascus.\n\nIn aqeedah, Ibn Taymiyyah championed what he understood to be the methodology of the Salaf: accepting the apparent (dhahir) meanings of Quranic verses and authentic hadiths regarding the divine attributes without engaging in ta'wil (metaphorical interpretation) that he believed distorted the text. His Wasitiyyah creed — composed as a legal fatwa in response to a question from the people of Wasit — remains a benchmark of Athari theology and presents his methodology with characteristic precision. He was a fierce critic of both the Jahmiyyah and the Mu'tazilah on the one hand, and of speculative kalam that he saw as importing Greek philosophical categories into Islamic theology on the other. (Ibn Taymiyyah, al-Aqeedah al-Wasitiyyah; al-Tadmuriyyah)\n\nOn the question of tawassul and visiting graves, Ibn Taymiyyah held a position that was considered rigorous even among his contemporaries: he distinguished between forms of tawassul he considered established — such as seeking du'a from the living righteous — and forms he considered innovated or prohibited, such as traveling specifically to visit graves as a form of worship or asking deceased individuals to intercede directly with Allah. His position on these matters generated significant scholarly controversy in his lifetime and has continued to be debated. It is a scholarly position within ongoing intra-Sunni ikhtilaf on the parameters of tawassul, not a creed-defining matter on which all Muslims are required to agree. (Radd al-Muhtarin; Majmu' al-Fatawa, Vol. 1)\n\nIbn Taymiyyah's political and theological positions brought him into repeated conflict with the Mamluk authorities in Egypt and Syria. He was imprisoned multiple times — in Cairo, Alexandria, and finally in the Damascus citadel — over disputes involving aqeedah, his views on divorce pronouncements in rapid succession, and his opposition to what he saw as innovations in religious practice. His final imprisonment in the Damascus citadel, beginning in 720 AH, ended only with his death in 728 AH (1328 CE). He is reported to have continued writing and teaching from prison until his books and writing materials were confiscated.\n\nIbn Taymiyyah's intellectual output was extraordinary in both volume and range. His collected fatwas (Majmu' al-Fatawa) run to thirty-seven volumes in modern editions. He wrote systematic treatments of aqeedah, extended refutations of Greek logic and Neoplatonic philosophy, detailed responses to Shia and Sufi theological positions, a major refutation of Christian theology (al-Jawab al-Sahih), treatises on Quranic sciences, and exhaustive fiqh works. His student Ibn al-Qayyim al-Jawziyyah preserved, transmitted, and extended his teacher's approach, ensuring that this body of work remained a living tradition.\n\nHis historical significance lies in his effort to renew what he saw as the methodology of the Salaf against what he considered to be accumulated theological and practical innovations. Later reform movements across the Islamic world — from the Arabian Peninsula to the Indian subcontinent — drew on his works, though the uses to which his writings have been put vary considerably from his own nuanced scholarly positions.",
+  "key_works": [
+    "al-Aqeedah al-Wasitiyyah (creed)",
+    "al-Aqeedah al-Tadmuriyyah (creed)",
+    "Majmu' al-Fatawa (37 volumes — collected legal opinions)",
+    "Minhaj al-Sunnah al-Nabawiyyah (refutation of Shia theology)",
+    "al-Jawab al-Sahih li-man Baddala Din al-Masih (refutation of Christianity)",
+    "Iqtida al-Sirat al-Mustaqim (on religious innovation)",
+    "Dar' Ta'arud al-Aql wa al-Naql (on reason and revelation)",
+    "Sharh al-Isfayaniyyah (creed commentary)",
+    "Kitab al-Iman (on faith)"
+  ],
+  "teachers": [
+    {"slug": "abd-al-halim-ibn-taymiyyah", "name": "Abd al-Halim ibn Taymiyyah (father)"},
+    {"slug": "ibn-abd-al-da'im", "name": "Ibn Abd al-Da'im al-Maqdisi"},
+    {"slug": "ahmad-ibn-abi-al-khayr", "name": "Ahmad ibn Abi al-Khayr al-Sallami"},
+    {"slug": "al-mizzi", "name": "Jamal al-Din al-Mizzi (hadith)"}
+  ],
+  "students": [
+    {"slug": "ibn-al-qayyim", "name": "Ibn al-Qayyim al-Jawziyyah"},
+    {"slug": "ibn-kathir", "name": "Ibn Kathir (Ismail ibn Umar ibn Kathir)"},
+    {"slug": "al-dhahabi", "name": "Shams al-Din al-Dhahabi"},
+    {"slug": "ibn-abd-al-hadi", "name": "Ibn Abd al-Hadi al-Maqdisi"}
+  ],
+  "birthplace_slug": "harran",
+  "death_place_slug": "damascus",
+  "sources": [
+    "al-Dhahabi, al-Duwal al-Islam, Vol. 2",
+    "Ibn Kathir, al-Bidaya wa al-Nihaya, Vol. 14",
+    "Ibn Abd al-Hadi, al-Uqud al-Durriyyah (dedicated biography of Ibn Taymiyyah)",
+    "Ibn Rajab al-Hanbali, al-Dhuyul ala Tabaqat al-Hanabilah, Vol. 2",
+    "Ibn Hajar al-Asqalani, al-Durar al-Kaminah, Vol. 1",
+    "Ibn Battutah, al-Rihla (contemporary eyewitness account of his imprisonment)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

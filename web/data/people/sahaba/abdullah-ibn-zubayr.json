@@ -1,0 +1,53 @@
+{
+  "slug": "abdullah-ibn-zubayr",
+  "name_ar": "عبد الله بن الزبير",
+  "name_en": "Abdullah ibn al-Zubayr",
+  "epithet": null,
+  "kunya": "Abu Bakr",
+  "birth_ah": 1,
+  "birth_ce": 624,
+  "death_ah": 73,
+  "death_ce": 692,
+  "era": "sahaba_next_generation",
+  "category": ["sahaba", "caliphs", "quraysh", "shuhada"],
+  "tribe": "Quraysh - Banu Asad ibn Abd al-Uzzah",
+  "role": ["Caliph in Makkah and much of the Muslim world (64-73 AH)", "First child born to the Muhajirun in Madinah after the Hijrah", "Son of al-Zubayr ibn al-Awwam and Asma bint Abi Bakr"],
+  "birthplace_slug": "madinah",
+  "death_place_slug": "makkah",
+  "summary": "Abdullah ibn al-Zubayr (RA) was the first child born to the Muhajirun in Madinah after the Hijrah — an event of great symbolic importance to the early Muslim community. A companion of the Prophet ﷺ in his early childhood, he grew into one of the bravest warriors and most ascetically devout men of his generation, and held caliphal authority over Makkah and much of the Muslim world from 64 to 73 AH, challenging the Marwanid Umayyads. He was martyred in Makkah in 73 AH.",
+  "biography": "Abdullah ibn al-Zubayr ibn al-Awwam al-Asadi al-Qurashi was born in Madinah in 1 AH (624 CE) — the very first child born to the emigrants (Muhajirun) after the Hijrah. The Jews of Madinah had spread the rumour that the Muhajirun had been bewitched and would have no children. When Abdullah was born, the Prophet ﷺ came to see him, performed tahnik (placing chewed date in the infant's mouth as the first thing to touch his lips), and named him Abdullah. The Sahaba rejoiced loudly at his birth as a sign that the propaganda was false. This account is recorded in Sahih al-Bukhari and Muslim.\n\nHis parentage was exceptionally distinguished. His father, al-Zubayr ibn al-Awwam (RA), was one of the ten promised Paradise (al-Asharah al-Mubasharah). His mother, Asma bint Abi Bakr (RA) — the elder daughter of the first Caliph — was known as 'Dhat al-Nitaqayn' (She of the Two Belts) for how she tore her own waistcloth to use as provision during the Prophet's Hijrah. His maternal grandfather was Abu Bakr al-Siddiq (RA), and his maternal aunt was Aisha bint Abi Bakr (RA), Mother of the Believers. He grew up in the closest proximity to the Prophet ﷺ and is counted among the Sahaba who knew him from childhood.\n\nAbdullah grew into a man described by al-Dhahabi in Siyar A'lam al-Nubala' as remarkable for three things: extraordinary fasting and devotion (he fasted most of his life and wept intensely in prayer), extraordinary bravery in battle, and extraordinary eloquence. He fought at the Battle of al-Jamal (36 AH / 656 CE) alongside his father, who was killed there. He fought in the conquest of North Africa and was present at many later campaigns. He took no wife until after the fitnah of al-Jamal, out of ascetic choice.\n\nAfter the death of Muawiyah ibn Abi Sufyan (60 AH / 680 CE) and the beginning of Yazid ibn Muawiyah's caliphate, major opposition to Yazid emerged across the Muslim world. When Yazid died in 64 AH (683 CE), Abdullah ibn al-Zubayr had already established authority in Makkah and much of the Hijaz, and now claimed caliphal authority. His claim was recognised by Syria, Iraq, Egypt, Khurasan, Yemen, and the Hijaz — effectively most of the Muslim world outside a core Marwanid hold in parts of Syria. He governed from Makkah and undertook significant works, including rebuilding the Ka'bah on the foundations he attributed to Ibrahim (AS) based on information from Aisha (RA), incorporating the Hijr Isma'il within the structure and adding a second door.\n\nThe Marwanid Umayyads under Abd al-Malik ibn Marwan eventually consolidated power and sent al-Hajjaj ibn Yusuf to retake the Hijaz. Al-Hajjaj besieged Makkah twice. During the second siege (73 AH / 692 CE), the Ka'bah itself was struck by Hajjaj's catapults. Abdullah ibn al-Zubayr's army melted away, and in the final days, his own mother Asma — then nearly one hundred years old — came to see him and told him: 'A man killed for upholding truth does not die in disgrace.' He fought on and was killed at the Ka'bah in Ramadan 73 AH (692 CE) at the age of seventy-two.\n\nClassical Sunni scholars treat Abdullah ibn al-Zubayr's caliphate as legitimate and his stand as principled. Al-Dhahabi calls him a martyr and one of the great figures of his generation. The contest with the Marwanids is treated as a political conflict between two legitimate Sunni claimants to authority in the post-Rightly Guided period, not as a rebellion against established Islam. Ibn Kathir in al-Bidayah wal-Nihayah devotes extensive coverage to his caliphate and death with clear respect.",
+  "key_events": [
+    {"year_ah": 1, "year_ce": 624, "event": "Born in Madinah — first child of the Muhajirun after the Hijrah; the Prophet ﷺ did tahnik and named him"},
+    {"year_ah": 36, "year_ce": 656, "event": "Fought at the Battle of al-Jamal; his father al-Zubayr was killed"},
+    {"year_ah": 60, "year_ce": 680, "event": "Refused bay'ah to Yazid ibn Muawiyah; established authority in Makkah"},
+    {"year_ah": 64, "year_ce": 683, "event": "Declared Caliph after Yazid's death; recognised across most of the Muslim world"},
+    {"year_ah": 65, "year_ce": 684, "event": "Rebuilt the Ka'bah on Abrahamic foundations, incorporating the Hijr Isma'il"},
+    {"year_ah": 73, "year_ce": 692, "event": "Martyred at the Ka'bah during al-Hajjaj's siege of Makkah; aged ~72"}
+  ],
+  "notable_traits": [
+    "First born to the Muhajirun in Madinah — his birth was a source of communal joy",
+    "Extreme asceticism — lifelong fasting and weeping in prayer",
+    "Extraordinary physical courage — fought to the end at the Ka'bah against impossible odds",
+    "Rebuilt the Ka'bah on Ibrahimic foundations; his version was later altered back by al-Hajjaj"
+  ],
+  "key_relationships": {
+    "father": "al-Zubayr ibn al-Awwam (RA) — one of the Asharah Mubasharah",
+    "mother": "Asma bint Abi Bakr (RA) — Dhat al-Nitaqayn",
+    "maternal_grandfather": "Abu Bakr al-Siddiq (RA)",
+    "maternal_aunt": "Aisha bint Abi Bakr (RA)",
+    "son": "Urwa ibn al-Zubayr — major tabi'i scholar and narrator"
+  },
+  "narrated_hadith_count": "approximately 33 hadith in the major collections",
+  "sources": [
+    "Sahih al-Bukhari — Kitab Fada'il al-Sahaba; Kitab al-Haj",
+    "Sahih Muslim — various",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 5",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 3",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 8",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 5-6",
+    "Ibn Hajar al-Asqalani, al-Isabah fi Tamyiz al-Sahaba, Vol. 4"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

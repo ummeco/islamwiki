@@ -1,0 +1,34 @@
+{
+  "slug": "year-of-sorrow",
+  "title_en": "The Year of Sorrow",
+  "title_ar": "عام الحزن",
+  "year_ah": null,
+  "year_ce": 619,
+  "season": null,
+  "place_slug": "makkah",
+  "phase": "meccan-middle",
+  "summary": "In a single devastating year, the Prophet ﷺ lost his beloved wife Khadijah (RA) — the mother of his children and his first and most steadfast supporter — and his uncle Abu Talib, who had provided him tribal protection in Makkah for a decade. Their deaths removed his two greatest pillars of support and exposed him to intensified persecution.",
+  "narrative": "The year 619 CE stands as among the darkest in the personal life of the Prophet ﷺ. Following the grueling three years of the Shi'b boycott, which had exhausted the resources and health of the Banu Hashim, the Prophet ﷺ faced two bereavements within a short span that shook him profoundly.\n\nKhadijah bint Khuwaylid (RA) — his wife of approximately twenty-five years, the first person to believe in him, the anchor of his emotional life — died in Ramadan of this year, approximately at the age of sixty-five. Ibn Hisham states she died three years before the Hijrah. She had stood by the Prophet ﷺ through the earliest terrors of revelation, had spent her entire considerable wealth in support of Islam, had borne his children, and had never given him cause for distress in their marriage. The Prophet ﷺ grieved her deeply throughout his life. Even years later in Madinah, when Aisha (RA) expressed mild jealousy of the deceased Khadijah, the Prophet ﷺ responded: 'Allah did not give me anyone better than her. She believed in me when the people disbelieved. She affirmed me when the people denied me. She gave me her wealth when people deprived me, and Allah blessed me with children through her when He deprived me of children through other women.' (Recorded by Imam Ahmad in his Musnad, and by Ibn Hisham.)\n\nShortly before or after Khadijah's death — scholars differ on the exact sequence — Abu Talib ibn Abd al-Muttalib also died. Abu Talib had never accepted Islam, a fact the Quran addresses in a verse revealed in this context: 'Indeed, you do not guide whom you love, but Allah guides whom He wills' (28:56). The circumstances of his death are recorded by Ibn Hisham in one of the most poignant passages of the Sirah: the Prophet ﷺ came to his uncle on his deathbed and implored him: 'O uncle, say one word — la ilaha illa Allah — by which I may intercede for you before Allah.' Abu Talib refused, saying he feared the Quraysh would accuse him of having done it out of fear of death. He died on the religion of Abd al-Muttalib. The Prophet ﷺ sought to pray for forgiveness for him until Allah revealed a prohibition on praying for polytheists after their death (Quran 9:113-114).\n\nAbu Talib's tribal protection had been the primary shield against the Quraysh's desire to harm the Prophet ﷺ physically. Upon his death, the Prophet ﷺ needed to seek the protection of another respected figure to move safely in Makkah. Al-Tabari records his attempt to obtain the protection of several tribal leaders: he first went to al-Mutim ibn Adi, who initially declined but later granted it. The Prophet ﷺ subsequently attempted to carry his message to the city of Taif, seeking a new base of support — a journey that would result in one of the most painful experiences of his prophetic mission.\n\nIbn Kathir in al-Bidayah wal-Nihayah describes this year as a turning point in the intensity of Quraysh hostility: emboldened by the removal of Abu Talib's protection, they openly insulted and harmed the Prophet ﷺ in ways they had not dared before, including an incident where soil or refuse was thrown on his head. The Prophet ﷺ went home in grief, and it was his daughter Fatimah (RA) who washed his head and wept — to which he said: 'Do not weep, my daughter, for Allah will protect your father.'",
+  "people_slugs": ["khadijah-bint-khuwaylid", "abu-talib", "fatimah-al-zahra"],
+  "quranic_reference": ["28:56", "9:113-114"],
+  "hadith_references": [
+    {
+      "collection": "Musnad Ahmad",
+      "book": "Musnad al-Shami'yyin",
+      "number": "24864",
+      "text_en": "The Prophet ﷺ said of Khadijah: 'She believed in me when the people disbelieved. She affirmed me when the people denied me. She gave me her wealth when people deprived me.'",
+      "grade": "Hasan"
+    }
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — Deaths of Khadijah and Abu Talib",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Year of Sorrow",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — Deaths of the Two Supporters",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 8 — Biography of Khadijah (RA)",
+    "al-Dhahabi, Siyar A'lam al-Nubala', Vol. 2 — Khadijah bint Khuwaylid"
+  ],
+  "related_events": ["boycott-of-banu-hashim", "journey-to-taif"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

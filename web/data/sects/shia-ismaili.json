@@ -1,0 +1,17 @@
+{
+  "slug": "shia-ismaili",
+  "name_en": "Ismaili Shia",
+  "name_ar": "الإسماعيلية",
+  "parent_slug": "shia",
+  "children_slugs": [],
+  "founded_ah": 148,
+  "founded_ce": 765,
+  "key_figures_slugs": ["ismail-ibn-jafar","al-muizz-li-din-allah"],
+  "summary": "The Ismaili school is a branch of Shia Islam that split from the Twelver line by following Ismail ibn Ja'far as the seventh Imam rather than his brother Musa al-Kazim. It is associated with the Fatimid Caliphate, the Druze (as an offshoot), and the contemporary Nizari Ismailis led by the Aga Khan. It holds additional esoteric (batin) theological positions that diverge significantly from Sunni Islam.",
+  "overview": "The Ismaili school (Arabic: al-Isma'iliyyah, also called the Seveners) traces its origin to a dispute over succession after the death of Imam Ja'far al-Sadiq in 148 AH / 765 CE. The majority of his followers accepted his son Musa al-Kazim as the seventh Imam (leading to the Twelver line), but a minority held that al-Sadiq had designated his older son Ismail — who had predeceased him — and that the Imamate continued through Ismail's son Muhammad ibn Ismail.\n\nIsmaili theology is characterized by a strong distinction between the exoteric (zahir) meaning of Islamic texts and an esoteric (batin) inner meaning accessible through the Imam's teachings. This batiniyyah approach — interpreting Quranic commandments as symbolic of deeper spiritual truths — led many Sunni scholars to consider the Ismailis among the most theologically distant from Sunni Islam among the Shia branches.\n\nHistorically, the Ismailis established the Fatimid Caliphate (297-567 AH / 909-1171 CE), which ruled North Africa and Egypt and is famous for founding Cairo (al-Qahira) and al-Azhar University. Their state was a major rival to the Sunni Abbasid Caliphate.\n\nToday, the largest Ismaili community is the Nizari branch, led by the Aga Khan (currently Shah Karim al-Husayni, Aga Khan IV), who traces his lineage to the Fatimid Imams. The Nizari Ismailis number approximately 15-20 million worldwide, with significant communities in South Asia, East Africa, Iran, and the Western diaspora. There is also the Musta'li (Tayyibi) branch, concentrated in South Asia (Dawoodi Bohras and related communities).\n\nThe Druze sect, which emerged from an Ismaili offshoot in the 11th century CE and holds beliefs that diverge more radically from Islam, is considered outside the bounds of Islam by Sunni and Shia scholarly consensus alike and is not catalogued under this entry.",
+  "status": "deviant-claims-islam",
+  "disclaimer_tier": 2,
+  "disclaimer_note": "Ismaili Islam holds theological positions — including esoteric interpretation of Islamic law and divine Imamate doctrines — that deviate significantly from Ahl us-Sunnah wal-Jama'ah. Classical Sunni scholars considered the Ismaili batiniyyah approach among the most serious theological deviations within groups claiming Islam. Islam.wiki covers Ismaili history and beliefs with accuracy and scholarly tone.",
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}
