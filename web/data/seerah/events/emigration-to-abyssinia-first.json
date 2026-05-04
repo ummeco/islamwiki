@@ -1,0 +1,25 @@
+{
+  "slug": "emigration-to-abyssinia-first",
+  "title_en": "First Emigration to Abyssinia",
+  "title_ar": "الهجرة الأولى إلى الحبشة",
+  "year_ah": null,
+  "year_ce": 615,
+  "season": null,
+  "place_slug": "abyssinia",
+  "phase": "makkan",
+  "summary": "In approximately 615 CE, around eighty-three men and nineteen women among the early Muslims emigrated to Abyssinia to escape the persecution of the Quraysh, seeking refuge under the Christian Negus Ashama ibn Abjar, who was known for his justice. This was the first organised emigration in Islam.",
+  "narrative": "As persecution of the early Muslims in Makkah intensified — with the poor, the enslaved, and those without tribal protection suffering physical torture, economic embargo, and social ostracism — the Prophet ﷺ directed a group of his followers to seek safety in Abyssinia. Ibn Hisham records the Prophet's ﷺ words: 'There is in Abyssinia a king under whom none are wronged. It is a land of sincerity. Remain there until Allah creates relief for you.'\n\nThe first emigration comprised a small party, narrated by Ibn Hisham as eleven men and four women according to some accounts, though Ibn Sa'd in al-Tabaqat al-Kubra lists slightly different numbers. Among the prominent emigrants were Uthman ibn Affan and his wife Ruqayyah, the Prophet's ﷺ daughter, as well as Abd al-Rahman ibn Awf and Zubayr ibn al-Awwam. Uthman ibn Affan was among the most conspicuous emigrants, his departure representing a significant social statement given his status in Qurayshi society.\n\nThe Quraysh sent a delegation to the Negus, known in Arabic sources as al-Najashi, to demand the return of the emigrants, arguing that they had abandoned the religion of their forefathers and adopted a new religion that was neither the old Arabian way nor Christianity. The embassy reportedly brought gifts for the Negus and his clergy. The Negus summoned the Muslims and heard from Jafar ibn Abi Talib, the Prophet's ﷺ cousin, who served as their spokesperson.\n\nJafar delivered what became a celebrated speech recorded by Ibn Hisham: he described the state of pre-Islamic Arabia, spoke of the Prophet's ﷺ call to pure monotheism, and recited verses from Surah Maryam (19) concerning Jesus son of Mary and the birth of Yahya (John). The Negus, according to Ibn Hisham and al-Tabari, wept until his beard was wet, and his bishops wept likewise. He declared that the difference between what the Muslims said about Jesus and his own conviction did not exceed the width of a stick he held in his hand. He refused to hand the Muslims over and returned the Qurayshi gifts.\n\nThis first emigrant group returned to Makkah shortly thereafter upon hearing — inaccurately, as the report turned out — that conditions had improved there. Ibn Kathir in al-Bidayah wal-Nihayah and al-Tabari both record this, noting that the report of a reconciliation between the Prophet ﷺ and the Quraysh proved false, and many emigrants returned to Abyssinia in the second emigration shortly after.",
+  "people_slugs": ["uthman-ibn-affan", "ruqayyah", "jafar-ibn-abi-talib", "abd-al-rahman-ibn-awf"],
+  "quranic_reference": ["19:1-36"],
+  "hadith_references": [],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — First emigration to Abyssinia",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 1 — Account of the Abyssinian emigrants",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Abyssinian emigration",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — Emigration to Abyssinia"
+  ],
+  "related_events": ["emigration-to-abyssinia-second", "boycott-of-banu-hashim"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}
