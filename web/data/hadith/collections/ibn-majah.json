@@ -1,0 +1,33 @@
+{
+  "slug": "ibn-majah",
+  "name_en": "Sunan Ibn Majah",
+  "name_ar": "سنن ابن ماجه",
+  "compiler_slug": "ibn-majah",
+  "year_compiled_ah": 273,
+  "year_compiled_ce": 887,
+  "rank": 6,
+  "summary": "The sixth of the canonical Kutub al-Sitta, compiled by Imam Ibn Majah al-Qazwini, distinguished by its broad coverage of legal topics and its inclusion of thousands of narrations not found in the other five collections, though it contains a higher proportion of weak and disputed chains.",
+  "intro_paragraph": "Sunan Ibn Majah was compiled by Imam Abu 'Abdallah Muhammad ibn Yazid ibn Majah al-Rabi'i al-Qazwini (209–273 AH / 824–887 CE), a scholar from Qazwin (in present-day Iran) who traveled widely across the Islamic world to collect hadith. It is the sixth and final work in the Kutub al-Sitta, and its inclusion in the canonical six was formally championed by the Andalusian hafiz Abu al-Fadl Ibn Tahir al-Maqdisi in the fifth Islamic century, a recognition that subsequent scholars accepted.\n\nThe Sunan holds a unique position in the classical literature: it contains approximately 1,339 hadiths not found in any of the other five collections, making it a crucial source for topics where the other books are silent. Al-Busiri, in his work Misbah al-Zujaja fi Zawa'id Ibn Majah, catalogued these unique narrations and evaluated their authenticity — a valuable secondary reference for scholars tracing the exclusive content of the collection.\n\nThis breadth comes at a cost in critical stringency. Ibn Majah's Sunan includes a higher proportion of weak and very weak (munkar) narrations than the other five collections. Classical scholars explicitly noted this, and the hadith critic al-Dhahabi remarked that some of its narrations were fabricated. Students are therefore advised to use the Sunan alongside an authentication reference — most commonly Ibn al-Mulaqqin's al-Badr al-Munir or, in the modern period, Shaykh Nasir al-Din al-Albani's grading in his Sahih and Da'if Sunan Ibn Majah, which remains the most systematic modern survey of the collection's hadith.\n\nDespite these limitations, Sunan Ibn Majah's legal coverage is genuinely wide and its unique narrations give it irreplaceable value. It is heavily used in Hanafi circles and is studied in traditional curricula across South Asia, the Middle East, and North Africa as the capstone of the six-book curriculum.",
+  "scope": "Covers purification, prayer, adhan, mosques, fasting, zakat, pilgrimage, marriage, divorce, commerce, judgments, blood money, oaths, manumission, medicine, food, drink, manners, supplications, and numerous theological and eschatological topics.",
+  "books_count": 37,
+  "hadith_count": 4341,
+  "unique_count": 1339,
+  "criteria": "Includes sahih, hasan, weak (da'if), and some very weak narrations without consistent labeling by the compiler. Critical use requires cross-referencing with authentication works such as al-Albani's Sahih/Da'if Sunan Ibn Majah or al-Busiri's Misbah al-Zujaja.",
+  "key_chapters": [
+    "Muqaddima — Preface on the Excellence of the Companions",
+    "Kitab al-Tahara — The Book of Purification",
+    "Kitab al-Salat — The Book of Prayer",
+    "Kitab al-Tijarat — The Book of Commerce",
+    "Kitab al-Nikah — The Book of Marriage",
+    "Kitab al-Tibb — The Book of Medicine",
+    "Kitab al-Fitan — The Book of Tribulations",
+    "Kitab al-Zuhd — The Book of Asceticism"
+  ],
+  "available_at": [
+    "https://sunnah.com/ibnmajah",
+    "https://islamweb.net/hadith/ibnmajah",
+    "https://dorar.net/hadith/sharh/ibnmajah"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "muwatta",
+  "name_en": "Al-Muwatta",
+  "name_ar": "الموطأ",
+  "compiler_slug": "malik-ibn-anas",
+  "year_compiled_ah": 179,
+  "year_compiled_ce": 795,
+  "rank": 7,
+  "summary": "The oldest surviving canonical hadith and fiqh collection, compiled by Imam Malik ibn Anas of Medina, blending prophetic narrations with the established legal practice of the Companions and the Medinese community, and forming the foundational text of the Maliki legal school.",
+  "intro_paragraph": "Al-Muwatta is the oldest of the major hadith collections still in continuous scholarly use, compiled by Imam Malik ibn Anas al-Asbahi (93–179 AH / 711–795 CE), the scholar of Medina whose work became the foundation of the Maliki school of jurisprudence. Its title — meaning 'the well-trodden path' or 'the smoothed way' — reflects its nature: a work designed to capture the living legal practice of Medina, the city of the Prophet, as transmitted through generations of Companions, Successors, and their students.\n\nMalik began compiling al-Muwatta around 150 AH and continued refining it for decades, reportedly revising it as many as forty times before his death. This extended process of editing and condensation — he reportedly began with roughly 10,000 narrations and reduced the collection to around 1,720 — reflects his belief that legal reliability came not only from isnad strength but from the continuous practice (amal) of the Medinese community, which he considered a living sunnah in its own right.\n\nThe structure of al-Muwatta is unique among the major collections: each chapter interweaves marfu' narrations (traced to the Prophet), mawquf narrations (statements of Companions), and mursal narrations (reports with gaps in the chain), alongside Malik's own legal opinions and records of Medinese custom. This blend reflects the Maliki epistemology that authentic communal practice can carry evidentiary weight alongside formally verified hadith.\n\nThe collection exists in over twenty different recensions transmitted by Malik's students, the most widely studied being those of Yahya ibn Yahya al-Laythi (the standard printed text), Muhammad ibn al-Hasan al-Shaybani (important for Hanafi comparative study), and Abu Mus'ab al-Zuhri. Imam al-Shafi'i famously called al-Muwatta the most authentic book after the Quran before the compilation of al-Bukhari and Muslim. The classical commentary Al-Istidhkar by Ibn 'Abd al-Barr and the later Sharh al-Zarqani by Muhammad ibn 'Abd al-Baqi al-Zarqani remain the key reference works.",
+  "scope": "Covers purification, prayer, zakat, fasting, pilgrimage, marriage, divorce, commerce, inheritance, oaths, manumission, criminal law, judicial procedure, foods and drink, manners, and the 'amal (practice) of Medina. Includes substantial Companion and Successor opinions alongside prophetic narrations.",
+  "books_count": 61,
+  "hadith_count": 1720,
+  "unique_count": 1720,
+  "criteria": "Malik selected narrations based on isnad strength and, crucially, conformity with the living practice of Medina. Includes marfu', mawquf, and mursal narrations; the latter are generally not accepted as standalone evidence by non-Maliki scholars, making independent isnad evaluation necessary for comparative use.",
+  "key_chapters": [
+    "Kitab al-Tahara — The Book of Purification",
+    "Kitab al-Salat — The Book of Prayer",
+    "Kitab al-Zakat — The Book of Zakat",
+    "Kitab al-Hajj — The Book of Pilgrimage",
+    "Kitab al-Nikah — The Book of Marriage",
+    "Kitab al-Buyu' — The Book of Commerce",
+    "Kitab al-'Aql — The Book of Blood Money",
+    "Kitab al-Jami' — Miscellaneous Chapters (etiquette, manners, and Quranic commentary)"
+  ],
+  "available_at": [
+    "https://sunnah.com/malik",
+    "https://islamweb.net/hadith/muwatta",
+    "https://dorar.net/hadith/sharh/muwatta"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

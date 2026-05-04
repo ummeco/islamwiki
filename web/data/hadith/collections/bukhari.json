@@ -1,0 +1,33 @@
+{
+  "slug": "bukhari",
+  "name_en": "Sahih al-Bukhari",
+  "name_ar": "صحيح البخاري",
+  "compiler_slug": "al-bukhari",
+  "year_compiled_ah": 240,
+  "year_compiled_ce": 854,
+  "rank": 1,
+  "summary": "The most authoritative collection of hadith in Sunni Islam, compiled by Imam Muhammad ibn Ismail al-Bukhari after decades of rigorous scrutiny. Universally regarded as the soundest book after the Quran.",
+  "intro_paragraph": "Sahih al-Bukhari stands as the most celebrated and rigorously verified hadith collection in the Islamic tradition. Its compiler, Muhammad ibn Ismail al-Bukhari (194–256 AH / 810–870 CE), devoted over sixteen years to gathering, scrutinizing, and selecting narrations from a corpus he estimated at around 600,000. Only those meeting his exacting standards for chain integrity and narrator reliability were retained — a process he famously performed with ritual purity, offering two units of prayer before recording each hadith.\n\nAl-Bukhari's methodology was built on two foundations: the continuous, unbroken chain of transmission (isnad muttasil) and the highest standard of narrator trustworthiness (thiqa). He required that narrators in a chain not merely be contemporaries but demonstrably likely to have met — a criterion stricter than that applied by his contemporaries. He further tested narrators personally, sometimes traveling weeks to verify a single report.\n\nThe collection is structured into ninety-seven books (kutub), subdivided into chapters (abwab) that serve a secondary legal function: al-Bukhari's chapter headings (tarajim al-abwab) are themselves a form of jurisprudential commentary, often quoting a Quranic verse, posing a legal question, or using a slightly variant phrasing to signal a subtle ruling. Scholars have long said that understanding these chapter titles is an independent science — Ibn Hajar al-Asqalani dedicated his landmark twenty-volume commentary Fath al-Bari almost as much to unlocking these headings as to explaining the hadiths themselves.\n\nReception across the Muslim world has been extraordinary. Al-Bukhari's teacher Ishaq ibn Rahawayh reportedly said upon hearing selections from it that nothing like it had been compiled. The collection became a cornerstone of Islamic legal reasoning, theological argument, and devotional recitation (khatm al-Bukhari) across madrasas and scholarly circles from Khurasan to West Africa. The canonical printed edition most widely used today is based on the recension of al-Firabri, the last surviving student who heard the whole work directly from al-Bukhari.",
+  "scope": "Covers all major domains of Islamic practice and theology: purification, prayer, fasting, zakat, hajj, trade, marriage and divorce, inheritance, criminal law, jihad, virtues of the Companions, exegesis (tafsir), prophetic biography (sira), manners and etiquette, medicine, and eschatology.",
+  "books_count": 97,
+  "hadith_count": 7563,
+  "unique_count": 2602,
+  "criteria": "Highest sahih threshold: unbroken chain with demonstrable contact between each pair of narrators; all narrators fully trustworthy (thiqa) and of sound memory (dabt); no shadh (anomaly) or 'illa (hidden defect). Al-Bukhari's standard is generally considered the most stringent applied to any collection.",
+  "key_chapters": [
+    "Kitab al-Iman — The Book of Faith",
+    "Kitab al-Salat — The Book of Prayer",
+    "Kitab al-Sawm — The Book of Fasting",
+    "Kitab al-Jihad — The Book of Jihad",
+    "Kitab al-Tafsir — The Book of Quranic Commentary",
+    "Kitab al-Manaqib — Virtues of the Prophet and Companions",
+    "Kitab al-Riqaq — The Book of Softening of Hearts",
+    "Kitab al-Tawhid — The Book of Divine Unity"
+  ],
+  "available_at": [
+    "https://sunnah.com/bukhari",
+    "https://islamweb.net/hadith/bukhari",
+    "https://dorar.net/hadith/sharh/bukhari"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

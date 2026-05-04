@@ -1,0 +1,33 @@
+{
+  "slug": "tirmidhi",
+  "name_en": "Jami al-Tirmidhi",
+  "name_ar": "جامع الترمذي",
+  "compiler_slug": "al-tirmidhi",
+  "year_compiled_ah": 270,
+  "year_compiled_ce": 884,
+  "rank": 3,
+  "summary": "A comprehensive hadith collection compiled by Imam al-Tirmidhi notable for its explicit grading of each hadith and its systematic recording of scholarly disagreements on legal questions, making it an essential bridge between hadith literature and Islamic jurisprudence.",
+  "intro_paragraph": "Jami al-Tirmidhi — also known as al-Jami al-Kabir or Sunan al-Tirmidhi — was compiled by Abu 'Isa Muhammad ibn 'Isa al-Tirmidhi (209–279 AH / 824–892 CE), a leading student of Imam al-Bukhari. Among the six canonical collections, al-Tirmidhi's stands apart for a feature unique in classical hadith scholarship: the compiler himself graded virtually every hadith at the end of each entry, using terms such as sahih (sound), hasan (good), da'if (weak), or combinations like hasan sahih. This practice made the Jami an indispensable reference for later scholars assessing the strength of individual narrations.\n\nAl-Tirmidhi was also the first scholar to formally define and systematically deploy the category of hasan — hadith that falls below the strictest sahih standard but is still reliable enough for legal and devotional use. This classification became a cornerstone of the science of hadith evaluation ('ilm al-jarh wa al-ta'dil) and is credited largely to his influence.\n\nBeyond authentication, the Jami serves a jurisprudential function no other collection matches as directly: after each hadith, al-Tirmidhi records which legal schools acted upon it and where scholars disagreed, providing a running survey of fiqh opinion. This makes it an essential reference for comparative jurisprudence (fiqh al-muqaran) and gives the collection a scholarly depth that complements pure hadith transmission.\n\nThe work is one of the Kutub al-Sitta — the six canonical collections — and is categorized as a jami (comprehensive collection) because it covers every major topic of Islamic knowledge including theology, etiquette, Quranic exegesis, and eschatology, not only legal matters. The prominent commentary on the collection is Tuhfat al-Ahwadhi by Muhammad Abd al-Rahman al-Mubarakfuri, completed in the early twentieth century and widely used in South Asian and Arabic academic circles.",
+  "scope": "Covers purification, prayer, zakat, fasting, pilgrimage, trade, marriage, divorce, legal judgments, blood money, manners, food and drink, medicine, Quranic exegesis, faith and creed, etiquette of the Day of Judgment, paradise and hellfire, and virtues of the Prophet and Companions.",
+  "books_count": 46,
+  "hadith_count": 3956,
+  "unique_count": 3956,
+  "criteria": "Includes sahih, hasan, and some weak (da'if) narrations explicitly labeled as such by al-Tirmidhi. The collection is notable for including weaker narrations alongside stronger ones, always with the compiler's own grading, to document what was circulating and in use by legal scholars.",
+  "key_chapters": [
+    "Kitab al-Iman — The Book of Faith",
+    "Kitab al-Salat — The Book of Prayer",
+    "Kitab al-'Ilm — The Book of Knowledge",
+    "Kitab al-Zuhd — The Book of Asceticism",
+    "Kitab al-Fitan — The Book of Tribulations",
+    "Kitab al-Manaqib — Virtues of the Prophet and Companions",
+    "Kitab Tafsir al-Quran — Quranic Commentary",
+    "Kitab al-Da'awat — The Book of Supplications"
+  ],
+  "available_at": [
+    "https://sunnah.com/tirmidhi",
+    "https://islamweb.net/hadith/tirmidhi",
+    "https://dorar.net/hadith/sharh/tirmidhi"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

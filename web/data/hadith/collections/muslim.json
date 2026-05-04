@@ -1,0 +1,33 @@
+{
+  "slug": "muslim",
+  "name_en": "Sahih Muslim",
+  "name_ar": "صحيح مسلم",
+  "compiler_slug": "muslim-ibn-al-hajjaj",
+  "year_compiled_ah": 261,
+  "year_compiled_ce": 875,
+  "rank": 2,
+  "summary": "The second most authoritative hadith collection in Sunni Islam, compiled by Imam Muslim ibn al-Hajjaj with meticulous attention to isnad grouping and textual variants. Together with Sahih al-Bukhari it forms al-Sahihayn, the two most trusted books after the Quran.",
+  "intro_paragraph": "Sahih Muslim, compiled by Imam Muslim ibn al-Hajjaj al-Qushayri al-Naysaburi (204–261 AH / 820–875 CE), is the second pillar of the canonical hadith literature in Sunni Islam. Muslim was a student of Imam al-Bukhari and applied a similarly rigorous methodology, yet his editorial choices give the Sahih a distinct character that has made it, in some respects, the preferred reference for hadith specialists.\n\nMuslim's central innovation was organizational: he gathered all the chains of transmission (asanid) for a single report together in one place, rather than distributing them across chapters as al-Bukhari did. This approach makes Sahih Muslim the superior resource for studying textual variants (turuq al-hadith), identifying the most precise wording of a narration, and tracing how a report was transmitted through different lines. Scholars of 'ilm al-hadith have long valued this arrangement for critical-text analysis.\n\nHis criteria for inclusion were rigorous, though marginally broader than al-Bukhari's in one technical respect: Muslim did not require demonstrated personal contact between narrators in the same generation — contemporaneity was sufficient. This is the primary reason al-Bukhari's collection is ranked first, while Muslim's is ranked second. Both collections are considered sahih throughout; the ranking reflects degrees of strictness, not any doubt about authenticity.\n\nThe work is introduced by a lengthy and theoretically important muqaddima (preface) in which Muslim articulates the principles of hadith criticism, classifies narrators, and explains his methodology — making it one of the earliest systematic treatises on hadith science. This preface is studied independently in traditional curricula.\n\nThe canonical commentary is al-Nawawi's al-Minhaj fi Sharh Sahih Muslim ibn al-Hajjaj, a comprehensive eighteen-volume work that remains the standard reference. Al-Nawawi's explanations of individual narrators, legal implications, and linguistic nuances made the Sahih accessible to generations of students across the Islamic world. The collection is especially popular in the Shafi'i and Maliki scholarly traditions, though universally respected across all legal schools.",
+  "scope": "Covers purification, prayer, zakat, fasting, hajj, sacrifice, trade, marriage, divorce, manners, virtues of the Companions and the Prophet, the characteristics of the Day of Judgment, paradise and hellfire, government and leadership, and a wide range of ethical and legal matters.",
+  "books_count": 56,
+  "hadith_count": 7453,
+  "unique_count": 3033,
+  "criteria": "High sahih threshold: unbroken chain, all narrators trustworthy and of sound memory, absence of shadh and 'illa. Contemporary narrators are presumed to have met unless evidence contradicts this — slightly less strict than al-Bukhari's demonstrable contact requirement.",
+  "key_chapters": [
+    "Kitab al-Iman — The Book of Faith (with the muqaddima)",
+    "Kitab al-Salat — The Book of Prayer",
+    "Kitab al-Hajj — The Book of Pilgrimage",
+    "Kitab al-Nikah — The Book of Marriage",
+    "Kitab al-Hudud — The Book of Prescribed Punishments",
+    "Kitab al-Fitan — The Book of Tribulations",
+    "Kitab al-Janna wa Sifat Na'imiha — Description of Paradise",
+    "Kitab Fada'il al-Sahaba — Virtues of the Companions"
+  ],
+  "available_at": [
+    "https://sunnah.com/muslim",
+    "https://islamweb.net/hadith/muslim",
+    "https://dorar.net/hadith/sharh/muslim"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

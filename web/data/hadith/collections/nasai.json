@@ -1,0 +1,33 @@
+{
+  "slug": "nasai",
+  "name_en": "Sunan al-Nasa'i",
+  "name_ar": "سنن النسائي",
+  "compiler_slug": "al-nasai",
+  "year_compiled_ah": 303,
+  "year_compiled_ce": 915,
+  "rank": 5,
+  "summary": "A rigorously authenticated sunan collection by Imam al-Nasa'i, known for its unusually strict narrator criticism and its expanded treatment of prayer and ritual, making it among the most carefully authenticated of the four sunan in the Kutub al-Sitta.",
+  "intro_paragraph": "Sunan al-Nasa'i was compiled by Imam Ahmad ibn Shu'ayb al-Nasa'i (215–303 AH / 830–915 CE), a scholar of Khurasani origin who spent decades teaching in Egypt and is widely regarded as the most critical narrator evaluator among the compilers of the Kutub al-Sitta. His collection exists in two recensions: the larger al-Sunan al-Kubra, which he compiled first, and the condensed al-Mujtaba (also called al-Sunan al-Sughra), which he extracted from it as a selection of the strongest narrations — the version that became part of the canonical six.\n\nAl-Nasa'i's reputation for narrator criticism was severe to the point that contemporary scholars sometimes faulted him for being too harsh. He rejected narrators that other leading critics considered acceptable, and he was meticulous about distinguishing continuous chains from those with hidden gaps (tadlis and inqita'). As a result, many specialists consider the authenticated portion of his Sunan to sit just below al-Sahihayn in reliability, above the Sunan of Abu Dawud, al-Tirmidhi, and Ibn Majah in terms of the strictness applied to individual chains.\n\nThe Sunan is especially notable for its treatment of salat (prayer). The books on prayer in al-Nasa'i are among the most exhaustive in the classical hadith literature, covering minute details of posture, recitation, timing, and legal variants. This focus reflects al-Nasa'i's scholarly specialization and makes the collection an indispensable reference for the fiqh al-salat tradition across all legal schools.\n\nThe major classical commentary on the collection is Sharh Sunan al-Nasa'i by al-Suyuti, supplemented by the marginalia of al-Sindhi (Hashiyat al-Sindhi), which is printed alongside the text in most modern editions and provides concise chain analysis and lexical notes. In the contemporary period, the Egyptian hadith scholar Ahmad Shakir produced valuable critical notes on portions of the collection.",
+  "scope": "Covers purification, the five daily prayers (in exceptional detail), zakat, fasting, pilgrimage, marriage, divorce, inheritance, oaths, judicial decisions, jihad, buying and selling, gifts, manners, and a range of legal topics. Prayer occupies a disproportionately large share compared to other collections.",
+  "books_count": 51,
+  "hadith_count": 5758,
+  "unique_count": 5758,
+  "criteria": "High sahih and hasan threshold with particularly strict narrator evaluation; al-Nasa'i was known to reject narrators deemed acceptable by peers. The al-Mujtaba recension represents only those narrations al-Nasa'i himself considered worthy of the higher authentication categories.",
+  "key_chapters": [
+    "Kitab al-Tahara — The Book of Purification",
+    "Kitab al-Salat — The Book of Prayer (multiple extensive sub-books)",
+    "Kitab al-Sawm — The Book of Fasting",
+    "Kitab al-Nikah — The Book of Marriage",
+    "Kitab al-Jihad — The Book of Jihad",
+    "Kitab al-Buyu' — The Book of Commerce",
+    "Kitab al-Wasaya — The Book of Bequests",
+    "Kitab Tahrim al-Dam — The Book of the Prohibition of Bloodshed"
+  ],
+  "available_at": [
+    "https://sunnah.com/nasai",
+    "https://islamweb.net/hadith/nasai",
+    "https://dorar.net/hadith/sharh/nasai"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

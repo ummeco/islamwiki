@@ -1,0 +1,33 @@
+{
+  "slug": "abu-dawud",
+  "name_en": "Sunan Abu Dawud",
+  "name_ar": "سنن أبي داود",
+  "compiler_slug": "abu-dawud",
+  "year_compiled_ah": 275,
+  "year_compiled_ce": 889,
+  "rank": 4,
+  "summary": "A canonical hadith collection by Imam Abu Dawud al-Sijistani focused primarily on legal matters (fiqh), selected from nearly half a million narrations and widely regarded as the most important sunan collection for Islamic jurisprudence.",
+  "intro_paragraph": "Sunan Abu Dawud was compiled by Imam Abu Dawud Sulayman ibn al-Ash'ath al-Sijistani (202–275 AH / 817–889 CE), one of the most eminent students of Imam Ahmad ibn Hanbal and a leading hadith scholar of the third Islamic century. The collection occupies a distinctive position within the Kutub al-Sitta: where al-Bukhari and Muslim aimed for the highest degree of authentication across all topics, Abu Dawud's explicit aim was practical fiqh — identifying the hadiths that Muslim jurists actually relied upon in deriving rulings.\n\nAbu Dawud reportedly examined around 500,000 hadith and selected approximately 4,800 for the Sunan. In a letter he wrote describing the work, he stated that he included the strongest hadith available for each legal question, and where a sahih narration existed alongside weaker ones on the same topic, he selected the strongest. When no clear-cut sahih narration was available, he would include the best available narration and note its weakness, because a weak hadith, in his view, was preferable to scholars' unsupported opinions when a question had no other foundation.\n\nThis pragmatic, fiqh-oriented methodology makes the Sunan the go-to reference for practical legal derivation. Imam Ahmad ibn Hanbal, Abu Dawud's own teacher, is reported to have said that for the purpose of religion, five hadiths from the Sunan were sufficient to guide a person. The collection is the backbone of Hanbali and Shafi'i legal literature and is widely cited in Maliki and Hanafi works as well.\n\nThe key scholarly commentary on the Sunan is 'Awn al-Ma'bud by Muhammad Ashraf al-'Azimabadi, a comprehensive explanation used extensively in South Asian and Arab curricula. Another major commentary is Sharh Sunan Abi Dawud by Ibn Raslan, a fifteenth-century Shafi'i scholar. Together, these works illuminate the legal implications and chain analysis of Abu Dawud's selections.",
+  "scope": "Predominantly legal and practical topics: purification, prayer, zakat, fasting, pilgrimage, business transactions, marriage, divorce, inheritance, jihad, governance, judiciary, criminal law (hudud and qisas), oaths, manners, and clothing. Lighter coverage of theology and virtues compared to other collections.",
+  "books_count": 43,
+  "hadith_count": 5274,
+  "unique_count": 4800,
+  "criteria": "Prioritizes strongest available hadith for each legal question. Includes some weak narrations where no stronger alternative exists, always noting the weakness. Sahih, hasan, and labeled da'if narrations all appear — the explicit focus is legal utility rather than authentication threshold alone.",
+  "key_chapters": [
+    "Kitab al-Tahara — The Book of Purification",
+    "Kitab al-Salat — The Book of Prayer",
+    "Kitab al-Jihad — The Book of Jihad",
+    "Kitab al-Buyu' — The Book of Commerce",
+    "Kitab al-Aqdiya — The Book of Judicial Decisions",
+    "Kitab al-Hudud — The Book of Prescribed Punishments",
+    "Kitab al-Libas — The Book of Clothing",
+    "Kitab al-Adab — The Book of Etiquette"
+  ],
+  "available_at": [
+    "https://sunnah.com/abudawud",
+    "https://islamweb.net/hadith/abudawud",
+    "https://dorar.net/hadith/sharh/abudawud"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}
