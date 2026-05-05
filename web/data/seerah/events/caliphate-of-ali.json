@@ -1,0 +1,26 @@
+{
+  "slug": "caliphate-of-ali",
+  "title_en": "Caliphate of Ali ibn Abi Talib",
+  "title_ar": "خلافة علي بن أبي طالب",
+  "year_ah": 35,
+  "year_ce": 656,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "rashidun",
+  "summary": "Ali ibn Abi Talib, the cousin and son-in-law of the Prophet ﷺ, became the fourth Caliph following the assassination of Uthman in 35 AH. His five-year caliphate was the most turbulent of the Rashidun era, marked by internal division and two significant engagements — the Battle of the Camel and the Battle of Siffin — which classical Sunni scholarship treats as tragic civil conflicts in which both sides were sincere Muslims.",
+  "narrative": "Ali ibn Abi Talib was acclaimed Caliph in Madinah by the general body of Companions and Muslims present in the city in 35 AH, following the murder of Uthman. He was approximately fifty-five years old. Al-Tabari records that many senior Companions were reluctant to take leadership in the chaotic circumstances immediately following Uthman's murder, and that Ali eventually accepted after pressure from the community.\n\nThe central challenge of Ali's caliphate was the demand for justice for Uthman's killers — a legitimate claim pressed primarily by Uthman's cousin Muawiyah ibn Abi Sufyan, the powerful governor of Syria, who refused to give bay'ah until the murderers were punished. Ali's position, as recorded by al-Tabari, was that order and governance needed to be re-established before individual punishments could be administered; his opponents held that punishment of the killers was a prerequisite for order.\n\nThe Battle of the Camel (Waqat al-Jamal) in Jumada al-Akhira 36 AH near Basra was the first civil conflict. Aisha, Talhah ibn Ubaydillah, and Zubayr ibn al-Awwam — all of senior standing among the Companions — marched toward Basra demanding justice for Uthman. Al-Tabari records that Ali sought to negotiate and avoid bloodshed; initial talks broke down, possibly through the machinations of elements within both camps who feared a peaceful resolution, and battle commenced. Talhah and Zubayr were killed; Aisha was present near a camel (giving the battle its name) and was treated with great honour by Ali after the battle, who sent her back to Madinah under escort. Al-Tabari records that Ali prayed over Talhah and spoke well of those who had died on both sides.\n\nThe Battle of Siffin (Safar-Saffar 37 AH) on the banks of the Euphrates was longer and more bloody. After months of fighting without resolution, Muawiyah's forces raised copies of the Quran on their spears calling for arbitration — a gesture recorded by al-Tabari and widely seen in classical sources as a tactical manoeuvre. Part of Ali's army demanded he accept arbitration; he did so under pressure. The arbitration process at Adhruh produced no agreed outcome and deepened the division. A faction within Ali's own army, who had demanded arbitration and then condemned Ali for accepting it, broke away and became known as the Khawarij — those who exit. Ali fought and defeated them at the Battle of Nahrawan in 38 AH.\n\nClassical Sunni scholarship — expressed in al-Tabari, Ibn Kathir, Ibn al-Athir, and the aqeedah works of Imam Ahmad ibn Hanbal and Ibn Taymiyyah — holds that both Ali and Muawiyah were sincere Muslims acting according to their understanding of Islamic governance, that neither should be condemned, and that all who died in these conflicts died as Muslims. Ibn Taymiyyah in Minhaj al-Sunnah al-Nabawiyyah elaborates this position in detail. This is the Sunni Athari position on the fitnah era.",
+  "people_slugs": ["ali-ibn-abi-talib", "muawiyah-ibn-abi-sufyan", "aisha", "talhah-ibn-ubaydillah"],
+  "quranic_reference": ["49:9"],
+  "hadith_references": [],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 4 — Ali's caliphate, Battle of Camel, Siffin, Nahrawan",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 3 — Events of 35-40 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3 — Biography of Ali ibn Abi Talib",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7 — Ali's caliphate",
+    "Ibn Taymiyyah, Minhaj al-Sunnah al-Nabawiyyah — Sunni position on the fitnah-era"
+  ],
+  "related_events": ["caliphate-of-uthman", "martyrdom-of-ali-end-of-rashidun"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

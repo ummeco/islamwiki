@@ -1,0 +1,28 @@
+{
+  "slug": "martyrdom-of-ali-end-of-rashidun",
+  "title_en": "Martyrdom of Ali and the End of the Rashidun Caliphate",
+  "title_ar": "استشهاد علي ونهاية الخلافة الراشدة",
+  "year_ah": 40,
+  "year_ce": 661,
+  "season": null,
+  "place_slug": "kufa",
+  "phase": "rashidun",
+  "summary": "Ali ibn Abi Talib was assassinated in Kufa in Ramadan 40 AH by a Khariji named Abd al-Rahman ibn Muljam, who struck him with a poisoned sword while Ali was proceeding to the Fajr prayer. He died two days later. His son al-Hasan subsequently relinquished the caliphate to Muawiyah, ending the Rashidun era and inaugurating the Umayyad caliphate.",
+  "narrative": "The Khawarij, who had been defeated at Nahrawan in 38 AH but not extinguished, harboured deep resentment toward Ali, Muawiyah, and the arbiter Amr ibn al-As — holding all three responsible for what they considered the betrayal of the Islamic order at Siffin. Al-Tabari in his Tarikh records that three Khawarij met and agreed to assassinate all three simultaneously: Abd al-Rahman ibn Muljam undertook to kill Ali in Kufa, Burak ibn Abdullah al-Tamimi agreed to kill Muawiyah in Damascus, and Amr ibn Bakr al-Tamimi agreed to kill Amr ibn al-As in Egypt.\n\nOn 17 Ramadan 40 AH, Abd al-Rahman ibn Muljam struck Ali ibn Abi Talib with a poisoned sword as he walked to lead the Fajr prayer at the mosque in Kufa. The blow fell on his forehead. Al-Tabari records that Ali's companions subdued Ibn Muljam immediately. Ali, recognising the wound was fatal, reportedly said: 'Fauz wa rabb al-Ka'bah' — 'Success, by the Lord of the Kaabah.' He survived for two days, dying on 19 or 21 Ramadan 40 AH according to different narrations recorded in al-Tabari and Ibn al-Athir.\n\nThe assassination of Muawiyah failed — Burak struck him but only wounded him. The assassination of Amr ibn al-As also failed — the assassin struck and killed a substitute who had taken Amr's place in the prayer that morning.\n\nAfter Ali's death, the people of Iraq gave bay'ah to his son al-Hasan ibn Ali. Al-Tabari records that al-Hasan was inclined toward peace and recognised the material and military superiority of Muawiyah's Syrian forces. After several months of tension and a period of negotiations, al-Hasan relinquished the caliphate to Muawiyah in Rabi al-Awwal 41 AH — the year the Prophet ﷺ had reportedly described as the 'year of unity' (aam al-jama'ah) in a narration recorded in Sahih al-Bukhari (Book 56, Hadith 812).\n\nThe thirty years of the Rashidun caliphate — Abu Bakr (2 years), Umar (10 years), Uthman (12 years), Ali (5 years) — are regarded in Sunni tradition as the golden era of Islamic governance. The Prophet ﷺ had specifically commended this period in the hadith recorded by Abu Dawud and al-Tirmidhi: 'Hold fast to my Sunnah and the Sunnah of the Rightly Guided Caliphs after me.' The transition to Muawiyah and the Umayyad caliphate marked the end of the consultative model that had characterised the Rashidun period, though classical scholars regarded Muawiyah as a legitimate and capable ruler who made ijtihad in his political choices during the fitnah, even if his choices were not necessarily the most preferable.",
+  "people_slugs": ["ali-ibn-abi-talib", "hasan-ibn-ali", "muawiyah-ibn-abi-sufyan", "abd-al-rahman-ibn-muljam"],
+  "quranic_reference": [],
+  "hadith_references": [
+    "Sahih al-Bukhari, Book 56 (Jihad), Hadith 812 — Year of unity prophecy regarding al-Hasan's relinquishment",
+    "Sunan Abi Dawud, Hadith 4607 — Hadith on the Rightly Guided Caliphs"
+  ],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 4-5 — Death of Ali and transition to Muawiyah",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 3 — Events of 40-41 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3 — Martyrdom of Ali ibn Abi Talib",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7-8 — End of Ali's caliphate"
+  ],
+  "related_events": ["caliphate-of-ali"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

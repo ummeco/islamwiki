@@ -1,0 +1,27 @@
+{
+  "slug": "caliphate-of-uthman",
+  "title_en": "Caliphate of Uthman ibn Affan",
+  "title_ar": "خلافة عثمان بن عفان",
+  "year_ah": 23,
+  "year_ce": 644,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "rashidun",
+  "summary": "Uthman ibn Affan, the third Caliph, led the Muslim community from 23 to 35 AH (644-656 CE). Known as Dhul Nurayn — Possessor of Two Lights — for marrying two daughters of the Prophet ﷺ, his caliphate saw the canonisation of the Quran's single recitation variant, further conquests, but ended tragically with his murder by rebels, precipitating the first major civil strife (fitnah) in Islamic history.",
+  "narrative": "Uthman ibn Affan was selected by the six-member shura council appointed by Umar before his death. Abd al-Rahman ibn Awf, one of the six, conducted the selection process after the others deferred to his judgment, ultimately choosing Uthman over Ali ibn Abi Talib. Al-Tabari in his Tarikh and Ibn Kathir in al-Bidayah wal-Nihayah record the shura process in detail. Uthman was seventy years old at the time of his election and had been among the earliest converts to Islam — one of the first ten, and among those who had given the greatest financial support to the early community.\n\nThe first half of Uthman's caliphate, roughly the first six years, was productive and largely peaceful. Conquests continued: the rest of Persia was consolidated, Armenia and Azerbaijan were brought under Islamic governance, North Africa was further extended, and the first Islamic naval fleet was built under Muawiyah ibn Abi Sufyan, governor of Syria, leading to the naval battle of the Masts (Dhat al-Sawari) against the Byzantines in 34 AH.\n\nThe most enduring religious contribution of Uthman's caliphate was the standardisation of the Quran's written text. Al-Tabari and Sahih al-Bukhari (Book 66, Hadith 507) record that as conquered territories spread, different communities began reciting the Quran in varying dialects based on the original revelation's seven ahruf (modes of recitation). Disputes arose over which recitation was correct. Uthman commissioned Zayd ibn Thabit, who had led the first compilation under Abu Bakr, to produce a master codex based on the original compilation held by Hafsa bint Umar. Copies were made and sent to major garrison cities — Kufa, Basra, Syria, and Makkah — with orders that all other copies be destroyed. This standardisation, known as the Uthmanic codex (al-Mushaf al-Uthmani), is the text of the Quran in use today.\n\nThe second half of Uthman's caliphate was marked by growing discontent, fuelled by accusations of nepotism in the appointment of governors from his Umayyad clan, fiscal decisions over tribal lands, and the dismissal of popular governors like Abu Musa al-Ashari. Al-Tabari records in detail the emergence of organised opposition, the letters sent to Uthman by disaffected groups in Egypt, Kufa, and Basra, and his responses. In 35 AH, rebels from Egypt and other provinces besieged Madinah and then Uthman's house. The senior Companions debated how to respond; several protected him or offered to do so, including Ali, but Uthman refused to allow fighting to break out among Muslims.\n\nOn 18 Dhul Hijja 35 AH, the rebels entered Uthman's house while he was reading the Quran and killed him. His blood fell on the open mushaf. He was approximately eighty-two years old. Ibn Kathir records his caliphate at twelve years. His martyrdom is considered the opening of the first fitnah (civil strife) and is treated with profound grief in classical sources.",
+  "people_slugs": ["uthman-ibn-affan", "abd-al-rahman-ibn-awf", "zayd-ibn-thabit", "muawiyah-ibn-abi-sufyan"],
+  "quranic_reference": [],
+  "hadith_references": [
+    "Sahih al-Bukhari, Book 66 (Virtues of the Quran), Hadith 507 — Quran standardisation under Uthman"
+  ],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 4 — Caliphate of Uthman",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 3 — Events of 23-35 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3 — Biography of Uthman ibn Affan",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7 — Uthman's caliphate and martyrdom"
+  ],
+  "related_events": ["caliphate-of-umar", "compilation-of-the-quran", "caliphate-of-ali"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

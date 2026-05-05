@@ -1,0 +1,43 @@
+{
+  "slug": "hajj-overview",
+  "title_en": "Hajj (The Pilgrimage)",
+  "title_ar": "الحج",
+  "category": "fiqh",
+  "subcategory": "hajj",
+  "summary": "Hajj is the fifth pillar of Islam, an obligatory pilgrimage to Makkah once in a lifetime for every Muslim who is physically and financially able. Performed in the month of Dhul Hijjah, it commemorates the trials of Ibrahim عليه السلام, Hajar, and Isma'il عليه السلام, and represents the spiritual apex of a Muslim's life.",
+  "content": "## Definition and Obligation\n\nHajj (Arabic: الحج, pilgrimage) is the fifth pillar of Islam. Allah commands in the Quran: 'And pilgrimage to the House is a duty owed to Allah by people who are able to undertake it.' (Surah Al 'Imran, 3:97)\n\nThe Prophet ﷺ said: 'Islam is built on five: testimony that there is no god but Allah and Muhammad is His messenger, establishing prayer, paying zakah, fasting Ramadan, and pilgrimage to the House for whoever is able.' (Sahih al-Bukhari, Hadith 8; Sahih Muslim, Hadith 16)\n\nHajj is obligatory once in a lifetime for every Muslim who fulfils the conditions of istita'ah (capability): physical health, financial means to cover expenses and support dependants while absent, and safety of the route.\n\n## Pillars (Arkan) of Hajj\n\nAll four schools identify the following as obligatory pillars whose omission — whether intentional or due to inability — cannot be compensated by a penalty sacrifice (dam):\n\n1. **Ihram (ritual consecration)** with the intention of Hajj\n2. **Wuquf at 'Arafah** — standing at the Plain of 'Arafah on the 9th of Dhul Hijjah, the essential pillar\n3. **Tawaf al-Ifadah (Tawaf al-Ziyarah)** — circumambulating the Ka'bah after the wuquf\n4. **Sa'y** — walking seven times between al-Safa and al-Marwa (obligatory per majority; Hanafi considers it wajib, not rukn)\n\n**Wuquf at 'Arafah** is the single most essential act. The Prophet ﷺ said: 'Hajj is 'Arafah.' (Sunan Abu Dawud, Hadith 1949; graded sahih by al-Albani)\n\n## Wajibat (Obligatory Acts — Omission Requires Dam)\n\n1. Ihram from the Miqat (prescribed boundary station)\n2. Staying at Muzdalifah on the night of the 10th Dhul Hijjah\n3. Throwing the pebbles (rami al-jimarat) at Mina\n4. Shaving or cutting hair (halq or taqsir) to exit ihram\n5. Tawaf al-Wada' (farewell circumambulation) — required by Hanafi, Shafi'i, and Hanbali; not obligatory per Maliki\n\n## Rites in Order\n\n1. Enter ihram at the Miqat; pronounce talbiyah: 'Labbayk Allahumma Labbayk...'\n2. Arrive in Makkah; perform Tawaf al-Qudum (arrival tawaf, sunnah)\n3. Perform Sa'y between Safa and Marwa\n4. Proceed to Mina on the 8th Dhul Hijjah (Yawm al-Tarwiyah)\n5. Travel to 'Arafah on 9th Dhul Hijjah; stand from Zuhr to sunset\n6. Proceed to Muzdalifah after sunset; pray Maghrib and 'Isha combined; spend the night\n7. Return to Mina on 10th Dhul Hijjah (Yawm al-Nahr); throw pebbles at al-Jamarat al-Kubra (7 pebbles)\n8. Slaughter the hady sacrifice (obligatory per Hajj al-Tamattu' and Hajj al-Qiran)\n9. Perform halq (shaving) or taqsir (trimming) — partial exit from ihram\n10. Return to Makkah; perform Tawaf al-Ifadah and Sa'y — full exit from ihram\n11. Return to Mina for the days of Tashreeq (11th, 12th, 13th Dhul Hijjah); throw pebbles at all three jamarat daily\n12. Before leaving Makkah, perform Tawaf al-Wada'\n\n## Types of Hajj\n\n| Type | Description | Dam Required? |\n|---|---|---|\n| **Ifrad** | Hajj alone, without 'Umrah | No |\n| **Tamattu'** | 'Umrah first, then Hajj | Yes (hady sacrifice) |\n| **Qiran** | Hajj and 'Umrah combined in one ihram | Yes (hady sacrifice) |\n\nThe majority (Maliki, Shafi'i, Hanbali) hold that Tamattu' is preferred for those travelling from outside Makkah, following the Prophet's instruction to his Companions. The Hanafi school considers Qiran as superior.\n\n## Madhab Positions on Key Disputes\n\n**Sa'y as pillar vs. obligatory act:** Hanafi — wajib (omission requires dam); Maliki, Shafi'i, Hanbali — rukn (pillar; omission invalidates Hajj without valid excuse).\n\n**Tawaf al-Wada':** Wajib (omission requires dam) per Hanafi, Shafi'i, Hanbali. Not obligatory per Maliki (but recommended). Menstruating women are excused from it per Hanafi, Shafi'i, Hanbali based on the hadith of Ibn 'Abbas (Sahih al-Bukhari, Hadith 1755).\n\n**Wuquf time at 'Arafah:** All schools hold it obligatory to be present at 'Arafah on the 9th of Dhul Hijjah. The valid time extends from Zawal (noon) on the 9th through dawn of the 10th; the night portion suffices per the majority if one cannot be present by day.",
+  "evidence_quran": [
+    "3:97",
+    "2:196",
+    "2:197",
+    "22:27"
+  ],
+  "evidence_hadith": [
+    "Sahih al-Bukhari, Hadith 8 — five pillars of Islam",
+    "Sunan Abu Dawud, Hadith 1949 — 'Hajj is Arafah'",
+    "Sahih al-Bukhari, Hadith 1755 — exemption of menstruating women from farewell tawaf"
+  ],
+  "madhab_positions": {
+    "hanafi": "Sa'y is wajib (not rukn); omission requires dam. Qiran is the most virtuous form of Hajj. Tawaf al-Wada' is wajib. Stoning can be done any time of day during the days of Tashreeq.",
+    "maliki": "Tamattu' is preferred for non-residents of Makkah. Tawaf al-Wada' is not obligatory. Sa'y is a pillar (rukn). Night stay at Muzdalifah is obligatory.",
+    "shafii": "Ihram is a pillar; intention alone at the Miqat suffices without verbal pronunciation. Sa'y is a pillar. Tawaf al-Wada' is wajib. Tamattu' is preferred.",
+    "hanbali": "Tamattu' is most virtuous. Sa'y is a pillar. Tawaf al-Wada' is wajib. Night stay in Mina during Tashreeq is obligatory."
+  },
+  "related_slugs": [
+    "umrah",
+    "ihram",
+    "salah-overview",
+    "fard-vs-sunnah-vs-mustahabb"
+  ],
+  "sources": [
+    "Quran 3:97",
+    "Surah al-Baqarah 2:196-200",
+    "Sahih al-Bukhari, Kitab al-Hajj",
+    "Ibn Qudamah, al-Mughni, Kitab al-Manasik",
+    "Al-Nawawi, al-Majmu'",
+    "Ibn Rushd, Bidayat al-Mujtahid",
+    "Al-Marghinani, al-Hidayah (Hanafi)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

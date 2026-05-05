@@ -1,0 +1,28 @@
+{
+  "slug": "siege-of-banu-qurayza",
+  "title_en": "Siege and Judgment of Banu Qurayza",
+  "title_ar": "حصار بني قريظة",
+  "year_ah": 5,
+  "year_ce": 627,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "madinan",
+  "summary": "In 5 AH, immediately following the Battle of the Trench, the Prophet ﷺ besieged the Banu Qurayza after they had violated their treaty during the siege. After a twenty-five day siege, they surrendered and accepted the arbitration of Sa'd ibn Mu'adh, whose judgment followed their own Torah's law for treasonous breach of military alliance.",
+  "narrative": "The Banu Qurayza were the last of the three major Jewish tribes in Madinah and the only one to have maintained their treaty relationship with the Prophet ﷺ through the expulsion of both Banu Qaynuqa and Banu Nadir. Their fortresses lay southeast of Madinah.\n\nDuring the Battle of the Trench (5 AH), when the Quraysh and their Ahzab coalition had besieged Madinah for approximately a month, emissaries from the Ahzab — led by the Banu Nadir chieftain Huyayy ibn Akhtab — persuaded the Banu Qurayza to repudiate their treaty with the Muslims. Ibn Hisham records Huyayy's visit and the Banu Qurayza's eventual agreement to side with the Ahzab, which the Muslims learned of through intelligence and which significantly worsened their position during the siege.\n\nWhen the Ahzab coalition withdrew — after the ditch held and the siege became untenable — the Prophet ﷺ, according to Ibn Hisham's account, received the command to march immediately on the Banu Qurayza before laying down his arms. The siege lasted between twenty-five and twenty-eight days according to various narrations in Ibn Hisham and al-Tabari, ending when the Banu Qurayza agreed to surrender unconditionally.\n\nIbn Hisham records that the Banu Qurayza themselves requested that their former ally Sa'd ibn Mu'adh, chief of the Aws tribe, be appointed as arbitrator — anticipating that tribal loyalty might incline him toward leniency. Sa'd had been struck by an arrow during the Battle of the Trench and was gravely wounded; he was brought on a mount. When the Banu Qurayza accepted him as arbitrator, Sa'd administered an oath that they would accept his ruling. He then judged: the fighting men would be killed, the women and children taken captive, and their property distributed.\n\nThe Prophet ﷺ responded, as recorded in Ibn Hisham and in Sahih al-Bukhari (Book 64, Hadith 440): 'You have judged with the judgment of Allah above the seven heavens.' Ibn Sa'd in al-Tabaqat al-Kubra and Ibn Hisham both note that this sentence corresponded to the penalty for treason during wartime found in Deuteronomy (20:10-14) — the Banu Qurayza's own scriptures — a point classical scholars including Ibn Kathir observe explicitly.\n\nHuyayy ibn Akhtab, who had incited the Banu Qurayza's betrayal and was found among them, was also executed. The classical sources record Sa'd died of his wound shortly after, and it is narrated in Sahih al-Bukhari (Book 58, Hadith 171) that the Throne of Allah shook at the death of Sa'd ibn Mu'adh.",
+  "people_slugs": ["sad-ibn-muadh", "huyayy-ibn-akhtab"],
+  "quranic_reference": ["33:26-27"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Book 64 (Military Expeditions), Hadith 440 — Sa'd's judgment and Prophet's ﷺ response",
+    "Sahih al-Bukhari, Book 58 (Companions), Hadith 171 — Throne shook at death of Sa'd ibn Mu'adh"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — Banu Qurayza siege and judgment",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2 — Events of 5 AH and Sa'd ibn Mu'adh",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Account of Banu Qurayza",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Siege of Banu Qurayza"
+  ],
+  "related_events": ["battle-of-the-trench", "expulsion-of-banu-nadir"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

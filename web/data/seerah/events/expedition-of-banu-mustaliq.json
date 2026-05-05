@@ -1,0 +1,25 @@
+{
+  "slug": "expedition-of-banu-mustaliq",
+  "title_en": "Expedition of Banu Mustaliq",
+  "title_ar": "غزوة بني المصطلق",
+  "year_ah": 5,
+  "year_ce": 627,
+  "season": null,
+  "place_slug": "muraisi",
+  "phase": "madinan",
+  "summary": "In 5 AH, the Prophet ﷺ led an expedition against the Banu Mustaliq, a branch of Khuza'ah who were reported to be gathering forces for an attack on Madinah. The Muslims achieved a swift victory at the well of Muraisi. The expedition is notable for the events surrounding Aisha's necklace that preceded the revelation of Surah al-Nur.",
+  "narrative": "The Banu Mustaliq (also known as Banu al-Mustaliq), a sub-tribe of the Khuza'ah from the coastal region near the Red Sea, were reported by intelligence to be mobilising under their chief al-Harith ibn Abi Dirar with the intention of attacking Madinah. Ibn Hisham records the Prophet ﷺ acting swiftly and decisively: he marched before the Banu Mustaliq could fully organise, reaching the well of al-Muraisi.\n\nThe engagement at al-Muraisi was brief. Ibn Hisham and al-Tabari record that the two sides exchanged arrows, then the Muslims charged and the Banu Mustaliq were routed. Al-Harith ibn Abi Dirar's daughter, Juwayriyah, was among the captives. She subsequently came to the Prophet ﷺ regarding her ransom and he offered to pay it and marry her. Their marriage resulted in the release of all captives held by the Muslims who were relatives of the Prophet's ﷺ wife — since it was inappropriate to hold the relatives of the Prophet's ﷺ wife as slaves. Ibn Sa'd records that a hundred families from the Banu Mustaliq were freed as a consequence of this single marriage, after which the entire tribe embraced Islam.\n\nThe return journey from al-Muraisi was the occasion for two significant internal events. The first was a quarrel between a Muhajir and an Ansar over water rights at a well, in which Abdullah ibn Ubayy ibn Salul reportedly made inflammatory remarks — saying words to the effect that when they returned to Madinah, 'the mightier will expel the humbler.' This statement, recorded in Ibn Hisham and al-Tabari, reached the Prophet ﷺ and is the occasion for Surah al-Munafiqun (63), as Ibn Kathir and al-Qurtubi note in their tafsirs.\n\nThe second event was the beginning of the incident of al-Ifk — the slander against Aisha — which unfolded over the weeks following the return from this expedition and culminated in the revelation of Surah al-Nur.",
+  "people_slugs": ["juwayriyah-bint-al-harith", "aisha", "abdullah-ibn-ubayy"],
+  "quranic_reference": ["63:7-8"],
+  "hadith_references": [],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — Expedition of Banu Mustaliq",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Events of 5 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2 — Juwayriyah bint al-Harith",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Ghazwat al-Muraisi"
+  ],
+  "related_events": ["event-of-the-slander-al-ifk", "battle-of-the-trench"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

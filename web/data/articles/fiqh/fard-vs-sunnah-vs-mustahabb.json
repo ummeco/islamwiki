@@ -1,0 +1,38 @@
+{
+  "slug": "fard-vs-sunnah-vs-mustahabb",
+  "title_en": "Fard, Wajib, Sunnah, and Mustahabb",
+  "title_ar": "الفرض والواجب والسنة والمستحب",
+  "category": "fiqh",
+  "subcategory": "usul-al-fiqh",
+  "summary": "Islamic jurisprudence classifies all human actions into five categories (al-ahkam al-khamsah): obligatory (fard/wajib), recommended (sunnah/mustahabb), permissible (mubah), disliked (makruh), and prohibited (haram). Understanding these categories is the foundation of Islamic legal reasoning and daily practice.",
+  "content": "## The Five Legal Rulings (Al-Ahkam al-Khamsah)\n\nEvery act that falls within the scope of Islamic law is assigned one of five legal categories by the scholars of usul al-fiqh (the principles of jurisprudence). These categories determine the spiritual and legal consequences of performing or omitting an action.\n\n## 1. Fard / Wajib (Obligatory)\n\n**Definition:** An act that the Lawgiver (Allah) has commanded in a definitive way, such that omitting it without excuse incurs sin and — in some cases — legal consequences.\n\n**Hanafi Distinction:** The Hanafi school uniquely distinguishes between *fard* and *wajib*:\n- **Fard:** Established by a definitive (qat'i) proof — unambiguous Quranic text or mutawatir hadith. Denial of a fard is disbelief (kufr). Example: the five daily prayers, fasting Ramadan.\n- **Wajib:** Established by a probable (zanni) proof — a solitary (ahad) hadith or Quranic verse open to interpretation. Omission is sinful but denial is not disbelief. Example: the witr prayer, reciting a surah after al-Fatiha in prayer.\n\n**Other three schools (Maliki, Shafi'i, Hanbali):** Use only *fard* (or *wajib* as a synonym) without distinguishing these two levels. An obligatory act is one established by any conclusive evidence.\n\n**Legal consequences of omitting fard:** Sin; some fards require make-up (qada) if missed — e.g., missed prayers. Others cannot be made up — e.g., Hajj at the due time (though it can still be performed later).\n\n## 2. Sunnah / Mustahabb (Recommended)\n\n**Sunnah Mu'akkadah (Emphasized Sunnah):** Acts consistently performed by the Prophet ﷺ and only occasionally omitted. Omitting them regularly is blameworthy but not sinful. Examples: the two rak'ahs before Fajr prayer, the witr prayer (per Shafi'i/Maliki), brushing teeth (siwak).\n\n**Sunnah Ghayir Mu'akkadah (Non-Emphasized Sunnah):** Acts the Prophet ﷺ sometimes performed and sometimes omitted. No blame for omission. Example: praying four rak'ahs before 'Asr.\n\n**Mustahabb / Nafl / Mandub:** All these terms (used variously by different schools) refer to acts that earn reward when performed and incur no blame when omitted. Includes extra prayers, extra fasting, extra charity beyond zakah.\n\n## 3. Mubah (Permissible)\n\nActs that are neither commanded nor prohibited. Neither reward nor sin attaches to the act itself, though intention can elevate or lower it. Example: eating permissible foods, most daily activities.\n\n## 4. Makruh (Disliked)\n\n**Makruh Tahriman (Approaching Prohibited):** Used by Hanafi school for acts established as disliked by probable evidence. Omitting them is rewarded; doing them regularly is sinful, though less severe than a haram act. Example: praying without wudu while it is possible to obtain it.\n\n**Makruh Tanzihan (Mildly Disliked):** Acts that are better left undone but do not incur sin. Example: eating onions before entering the mosque.\n\n**Other schools** use a simpler makruh category without Hanafi's subdivision.\n\n## 5. Haram (Prohibited)\n\nActs the Lawgiver has definitively forbidden. Committing a haram act incurs sin. Denying an established haram constitutes disbelief. Examples: consuming alcohol, eating pork, committing zina (fornication), theft.\n\n## Practical Significance\n\nThese categories determine:\n- Whether missing an act requires make-up (qada) or expiation (kaffarah)\n- Whether omitting acts in prayer requires compensatory prostration (sujud al-sahw)\n- The degree of blame and sin attached to various behaviours\n- Legal consequences in Islamic law courts\n\n**Example — Prayer acts:**\n- Fard in prayer (e.g., al-Fatiha): omission intentionally invalidates prayer\n- Wajib in prayer per Hanafi (e.g., reciting a surah after al-Fatiha): intentional omission = sin; forgetful omission = sujud al-sahw required\n- Sunnah in prayer (e.g., opening supplication istiftah): omission = no sin, no sujud al-sahw",
+  "evidence_quran": [
+    "2:183",
+    "4:103"
+  ],
+  "evidence_hadith": [
+    "Sahih al-Bukhari, Hadith 8 — five obligatory pillars of Islam",
+    "Sahih Muslim, Hadith 11 — description of Islam, iman, ihsan"
+  ],
+  "madhab_positions": {
+    "hanafi": "Distinguishes fard (established by qat'i proof; denial = kufr) from wajib (established by zanni proof; denial not kufr). Witr prayer is wajib. Reciting surah after al-Fatiha is wajib.",
+    "maliki": "Uses fard and wajib as synonyms. Does not maintain Hanafi's two-level distinction for obligatory acts. Has detailed categories of sunnah within worship acts.",
+    "shafii": "Fard and wajib are synonymous. Classifies prayer acts into arkan (pillars), sunan ab'ad (major sunnahs requiring sujud al-sahw if omitted), and sunan hay'ah (minor sunnahs).",
+    "hanbali": "Similar to Shafi'i. Witr prayer is wajib (omission sinful but not unbelief). Classifies prayer acts comprehensively in al-Mughni."
+  },
+  "related_slugs": [
+    "salah-overview",
+    "hajj-overview",
+    "sawm-ramadan",
+    "zakah-overview"
+  ],
+  "sources": [
+    "Al-Ghazali, al-Mustasfa fi 'Ilm al-Usul",
+    "Al-Shafi'i, al-Risalah",
+    "Ibn Qudamah, Rawdat al-Nadhir",
+    "Al-Marghinani, al-Hidayah (Hanafi)",
+    "Ibn 'Abidin, Radd al-Muhtar"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

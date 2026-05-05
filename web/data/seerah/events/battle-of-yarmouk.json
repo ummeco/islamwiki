@@ -1,0 +1,25 @@
+{
+  "slug": "battle-of-yarmouk",
+  "title_en": "Battle of Yarmouk",
+  "title_ar": "معركة اليرموك",
+  "year_ah": 15,
+  "year_ce": 636,
+  "season": null,
+  "place_slug": "yarmouk",
+  "phase": "rashidun",
+  "summary": "The Battle of Yarmouk in 15 AH (636 CE) was one of the most consequential battles in world history. The Muslim army under Abu Ubayda ibn al-Jarrah and Khalid ibn al-Walid decisively defeated a large Byzantine force near the Yarmouk River, effectively ending Byzantine control of Syria and Palestine.",
+  "narrative": "The Battle of Yarmouk was the culmination of several years of campaigning in Syria and the decisive engagement that determined whether the Levant would remain under Byzantine control or pass to the nascent Islamic state. Al-Tabari in his Tarikh and Ibn al-Athir in al-Kamil fil-Tarikh provide the most detailed classical accounts of the engagement.\n\nThe Byzantine emperor Heraclius, alarmed by the fall of Damascus and other early Muslim gains, assembled a large army from Byzantine regulars, Arab Christian tribal auxiliaries (including the Ghassanids), Armenians, and other allied forces. Classical sources give figures ranging from 100,000 to 200,000 for the Byzantine force, which modern historians consider significantly exaggerated, though all sources agree that the Byzantine army substantially outnumbered the Muslims. The Muslim force under Abu Ubayda ibn al-Jarrah — who had been appointed by Umar as supreme commander of the Syrian armies, with Khalid ibn al-Walid serving as field commander — is estimated at approximately 25,000-40,000 men.\n\nThe engagement took place near the confluence of the Yarmouk River with the Jordan Valley over multiple days in Rajab 15 AH. Al-Tabari records several phases: initial probing engagements, a major Byzantine assault that pushed the Muslims back on one wing, and then a decisive Muslim counter-offensive. Khalid ibn al-Walid's tactical command during the fighting is emphasised in both al-Tabari and Ibn al-Athir as pivotal.\n\nThe Byzantine line eventually broke and the army retreated in disorder toward the cliffs of the Yarmouk gorge. Al-Tabari records that large numbers were killed in the gorge itself or drowned crossing the river. The Byzantine commander Vahan was killed. Emperor Heraclius, who had watched the campaign from Antioch, reportedly lamented as he departed Syria: 'Farewell, O Syria, what an excellent land you were for the enemy' — a statement recorded by al-Baladhuri in Futuh al-Buldan and cited by Ibn Kathir.\n\nAfter Yarmouk, Byzantine resistance in Syria effectively collapsed. Jerusalem, Caesarea, and the remaining cities fell in quick succession. Heraclius never recovered the region. The battle opened the route to the conquest of Egypt and laid the geographic foundations of the classical Islamic world.",
+  "people_slugs": ["abu-ubayda-ibn-al-jarrah", "khalid-ibn-al-walid"],
+  "quranic_reference": [],
+  "hadith_references": [],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Battle of Yarmouk",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 2 — Events of 15 AH",
+    "al-Baladhuri, Futuh al-Buldan — Conquest of Syria",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7 — Yarmouk and aftermath"
+  ],
+  "related_events": ["caliphate-of-umar", "early-conquests-iraq-syria", "conquest-of-jerusalem"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

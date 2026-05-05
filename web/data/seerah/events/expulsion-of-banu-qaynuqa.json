@@ -1,0 +1,25 @@
+{
+  "slug": "expulsion-of-banu-qaynuqa",
+  "title_en": "Expulsion of Banu Qaynuqa",
+  "title_ar": "إجلاء بني قينقاع",
+  "year_ah": 2,
+  "year_ce": 624,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "madinan",
+  "summary": "Following the Battle of Badr, the Prophet ﷺ moved against the Banu Qaynuqa, a Jewish tribe of Madinah who had violated the terms of the Constitution of Madinah. After a siege of approximately fifteen days, they surrendered and were expelled, settling in the region of Adhri'at in Syria.",
+  "narrative": "The Banu Qaynuqa were one of three major Jewish tribes in Madinah and were the most numerous and militarily capable of the three, known as smiths, armourers, and goldsmiths. The Constitution of Madinah — the foundational document establishing the political community of the early Islamic state, recorded by Ibn Hisham — included the Banu Qaynuqa as a party with mutual obligations of defense and defined rights within the community.\n\nIbn Hisham and al-Tabari record that the immediate trigger for the conflict came from an incident in their marketplace. A Muslim woman had come to a Jewish goldsmith's stall; the goldsmith or a companion of his fastened her garment to her back without her knowledge, so that when she stood, she was exposed. A Muslim man who witnessed the humiliation killed the goldsmith, and the Jews then killed him in retaliation. The incident escalated into open hostility.\n\nThe Prophet ﷺ assembled the Banu Qaynuqa and warned them that what had befallen the Quraysh at Badr should make them reconsider their position. The tribe responded defiantly, reportedly saying that the Quraysh had no experience of war and that they were not the same. Ibn Hisham records their reply as challenging and contemptuous.\n\nThe Prophet ﷺ besieged the Banu Qaynuqa in their fortresses. Al-Tabari and Ibn Hisham place the duration of the siege at approximately fifteen days before the tribe surrendered unconditionally. The Prophet ﷺ had initially intended a harsher sentence, but Abdullah ibn Ubayy ibn Salul — the leader of the Munafiqin (hypocrites) and an ally of the Banu Qaynuqa — interceded insistently, grasping the Prophet's ﷺ garment until the Prophet ﷺ agreed that they would be expelled rather than killed. Ibn Kathir in al-Bidayah wal-Nihayah records Ibn Ubayy's intercession in detail and notes that the Prophet ﷺ allowed it out of political wisdom rather than obligation.\n\nThe tribe was expelled with their families and moveable property. Ibn Hisham states they moved first toward Wadi al-Qura and eventually settled near Adhri'at in the region of greater Syria (al-Sham), where they disappeared from historical prominence. Ibn Sa'd and al-Tabari confirm this account in their respective works.\n\nSome scholars connect Quran 59:2 — revealed later about the Banu Nadir — as applicable in principle to the entire sequence of Jewish tribal violations. The expulsion of the Banu Qaynuqa was the first of three such actions, followed by the Banu Nadir and the Banu Qurayza.",
+  "people_slugs": ["abdullah-ibn-ubayy"],
+  "quranic_reference": [],
+  "hadith_references": [],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — Banu Qaynuqa incident and siege",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Events of 2 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2 — Military expeditions",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Siege of Banu Qaynuqa"
+  ],
+  "related_events": ["battle-of-badr", "expulsion-of-banu-nadir"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

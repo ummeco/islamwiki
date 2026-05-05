@@ -1,0 +1,28 @@
+{
+  "slug": "emigration-to-abyssinia-second",
+  "title_en": "Second Emigration to Abyssinia",
+  "title_ar": "الهجرة الثانية إلى الحبشة",
+  "year_ah": null,
+  "year_ce": 616,
+  "season": null,
+  "place_slug": "abyssinia",
+  "phase": "makkan",
+  "summary": "Following the failed first emigration, a larger group of Muslims — approximately eighty-three men according to Ibn Hisham — made the second and more sustained emigration to Abyssinia in 616 CE. The community remained there for years, some returning only after the Hijrah to Madinah.",
+  "narrative": "When the first emigrants returned to Makkah and found conditions had not improved — indeed, some narrate the persecution had increased — many departed again quickly and a far larger group joined them, constituting what the seerah scholars identify as the second emigration. Ibn Hisham places the number of men at eighty-three, not counting the women and children, making this the largest single displacement of Muslims prior to the Hijrah to Madinah.\n\nJafar ibn Abi Talib remained the leader and spokesman of the community in Abyssinia. The Quraysh made a more determined effort this time to have them returned, sending Amr ibn al-As and Abdullah ibn Abi Rabia as their emissaries — both capable and persuasive men who were not yet Muslims. They arrived with elaborate gifts for the Negus and his courtiers, seeking to preempt the Muslims before they could speak.\n\nThe Negus summoned the Muslims again. Jafar ibn Abi Talib's speech on this occasion is recorded at greater length in Ibn Hisham's Sirah: he described the moral and spiritual condition of pre-Islamic Arabia, the message of tawhid that the Prophet ﷺ had brought, and when asked about their view of Jesus, Jafar stated what the Quran affirms — that Jesus was the servant and messenger of Allah, His word cast to Mary, and a spirit from Him, born of a virgin — but not the son of God. The Negus is recorded as striking the ground with his staff and saying that the difference between this account and his own belief was no greater than that line.\n\nAl-Tabari and Ibn Sa'd both record that several prominent Abyssinian clergy were hostile to the Muslim position on Jesus and applied pressure on the Negus. The Negus, however, maintained his protection. Ibn Kathir records that when the Muslims in Abyssinia later learned of the Hijrah to Madinah and the establishment of the Islamic community there, many began making their way back. A significant contingent sailed back to the Arabian Peninsula years later, arriving in Madinah around the time of the conquest of Khaybar in 7 AH, when the Prophet ﷺ is reported to have said, according to Sahih al-Bukhari (Book 59, Hadith 541), that he did not know which of the two — Khaybar or their return — was the greater joy.\n\nThe Negus, Ashama, later embraced Islam privately according to several narrations. When news of his death reached the Prophet ﷺ, he prayed the funeral prayer in absentia (salat al-gha'ib) — an event recorded in Sahih al-Bukhari (Book 23, Hadith 337) and cited by scholars as both evidence for the permissibility of that prayer and testimony to the Negus's conversion.",
+  "people_slugs": ["jafar-ibn-abi-talib", "amr-ibn-al-as", "ashama-negus"],
+  "quranic_reference": ["4:97-100"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Book 23 (Funerals), Hadith 337 — Prophet ﷺ prays funeral prayer for the Negus",
+    "Sahih al-Bukhari, Book 59 (Military Expeditions), Hadith 541 — Return of emigrants from Abyssinia"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — Second emigration, Jafar's speech",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 1 — List of Abyssinian emigrants",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Qurayshi delegation and second emigration",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — Events of the Abyssinian emigrations"
+  ],
+  "related_events": ["emigration-to-abyssinia-first", "hijra-to-madinah"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "tafsir-ibn-kathir",
+  "title_en": "Tafsir ibn Kathir",
+  "title_ar": "تفسير القرآن العظيم",
+  "title_full_ar": "تفسير القرآن العظيم",
+  "author_slug": "ibn-kathir",
+  "subject": "tafsir",
+  "subjects": [
+    "tafsir",
+    "hadith",
+    "aqeedah",
+    "fiqh-fragments"
+  ],
+  "language": "ar",
+  "year_compiled_ah": 774,
+  "year_compiled_ce": 1373,
+  "summary": "Tafsir al-Qur'an al-Azim, universally known as Tafsir Ibn Kathir, is the most widely read classical commentary on the Quran in the Sunni world. Authored by Imam Isma'il ibn Kathir al-Dimashqi (d. 774 AH / 1373 CE), it employs the methodology of 'tafsir by narration' (tafsir bil-ma'thur), explaining the Quran primarily through authenticated hadith, Companion statements, and Quranic cross-references.",
+  "overview": "Tafsir al-Qur'an al-Azim by Imam Isma'il ibn Kathir al-Dimashqi (700–774 AH / 1301–1373 CE) is the pre-eminent work of narration-based Quranic exegesis in the Sunni tradition. Ibn Kathir was a Shafi'i jurist and hadith scholar who studied under Ibn Taymiyyah in Damascus and became one of the most prolific scholars of the fourteenth century. His tafsir synthesises the best of earlier exegetical tradition while applying rigorous hadith-critical methodology.\n\nIbn Kathir's methodology follows the hierarchy of Quranic interpretation established by earlier scholars: the Quran is first explained by the Quran itself (using cross-references), then by authentic hadith of the Prophet ﷺ, then by the statements of the Companions (sahaba), then by the Successors (tabi'un). Wherever possible he cites the isnad (chain of transmission) for narrations and grades their authenticity — a feature that distinguishes his work from the primarily opinion-based (tafsir bil-ra'y) school.\n\nThe commentary covers the full Quran in sequence. Each section typically begins with the text of the relevant verses, followed by linguistic analysis where needed, then an aggregation of all relevant hadith and athar (Companion reports), graded by Ibn Kathir's own assessment of their authenticity. He frequently identifies weak, fabricated, or Isra'iliyya narrations and warns against them — this critical apparatus makes his tafsir especially valuable for those seeking authenticated exegetical material.\n\nKey theological commitments are visible throughout: Ibn Kathir consistently interprets the divine attributes (sifat) in accordance with the Athari/Salafi approach, affirming them without negation (ta'til) or anthropomorphism (tashbih), and following the position of his teacher Ibn Taymiyyah on many disputed aqeedah questions.\n\nThe standard modern edition is in eight volumes (Dar Taybah, Riyadh), edited by Sami ibn Muhammad al-Salamah, considered the most critically verified text. A complete English translation is available in ten volumes (Darussalam), translated by a team of scholars. The work is freely available at quranexplorer.com, islamicstudies.info, and quran.com (tafsir section). Its accessibility and relative conciseness compared to works like Tafsir al-Tabari make it the most widely cited tafsir reference globally.",
+  "structure": "8 volumes (Dar Taybah edition); covers all 114 surahs in sequence",
+  "translations": [
+    {
+      "language": "en",
+      "translator": "Darussalam (team translation)",
+      "publisher": "Darussalam",
+      "status": "available"
+    },
+    {
+      "language": "ur",
+      "translator": "Various",
+      "status": "available"
+    }
+  ],
+  "available_at": [
+    "quran.com (tafsir section)",
+    "islamicstudies.info"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "caliphate-of-umar",
+  "title_en": "Caliphate of Umar ibn al-Khattab",
+  "title_ar": "خلافة عمر بن الخطاب",
+  "year_ah": 13,
+  "year_ce": 634,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "rashidun",
+  "summary": "Umar ibn al-Khattab, the second Caliph, led the Muslim community from 13 to 23 AH (634-644 CE). His decade-long caliphate saw the most rapid territorial expansion in the history of early Islam — the conquest of Syria, Iraq, Persia, Egypt, and Jerusalem — alongside foundational administrative reforms that shaped the Islamic state for centuries.",
+  "narrative": "Umar ibn al-Khattab became Caliph by explicit designation of Abu Bakr, who named him successor before his death in Jumada al-Akhira 13 AH. The designation was confirmed by the senior companions without significant dissent. Al-Tabari records that Abu Bakr consulted Abd al-Rahman ibn Awf and Uthman ibn Affan, among others, before writing the appointment. Umar's acceptance speech, recorded by Ibn Sa'd, expressed his awareness of the weight he was taking on: 'I have been appointed over you, though I am not better than any of you.'\n\nUmar titled himself Amir al-Mu'minin — Commander of the Faithful — the first Caliph to use this designation, which became the standard title for all subsequent caliphs and is recorded by al-Tabari and Ibn al-Athir as originating in this period.\n\nThe major military achievements of Umar's caliphate are detailed in al-Tabari's Tarikh and Ibn al-Athir's al-Kamil year by year. In Syria, the Byzantine forces under Heraclius were decisively defeated at the Battle of Yarmouk in 15 AH (636 CE). Damascus had already fallen in 14 AH after a siege; Jerusalem surrendered in 15-16 AH after Umar himself travelled to receive its surrender, issuing the Covenant of Umar guaranteeing the safety of Christians and their holy sites. In Persia (Iraq), the Battle of Qadisiyyah in 15 AH broke the Sassanid military and opened the way to the capture of the Persian capital Ctesiphon (al-Mada'in). Egypt was conquered by Amr ibn al-As beginning in 19 AH, with Alexandria surrendering in 21 AH.\n\nBeyond conquest, Umar's administrative reforms established the foundations of the Islamic state. He instituted the diwan — a register of pensions paid to Companions, veterans, and their descendants, prioritised by precedence in Islam. He established the Islamic calendar dated from the Hijrah. He built garrison cities including Basra and Kufa in Iraq, and Fustat (old Cairo) in Egypt. He appointed governors and judges, established markets, and ordered the first systematic census.\n\nUmar was known for his accessibility and accountability: Ibn Sa'd records that he patrolled Madinah at night to check the welfare of his subjects, and al-Tabari preserves his letters to governors insisting on justice regardless of the subject's faith or social standing.\n\nHe was assassinated in Dhul Hijja 23 AH by Abu Lu'lu'ah al-Firuz, a Persian slave belonging to al-Mughirah ibn Shu'bah, who stabbed him during Fajr prayer. He survived for several days, during which he appointed a six-person shura (consultative council) to select the next Caliph. He died and was buried beside the Prophet ﷺ in Aisha's chamber. Ibn Kathir records his caliphate as lasting ten years, five months, and twenty-one days.",
+  "people_slugs": ["umar-ibn-al-khattab", "khalid-ibn-al-walid", "abu-ubayda-ibn-al-jarrah", "amr-ibn-al-as"],
+  "quranic_reference": [],
+  "hadith_references": [],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3-4 — Caliphate of Umar",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 2-3 — Events of 13-23 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3 — Biography of Umar ibn al-Khattab",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7 — Umar's caliphate and conquests"
+  ],
+  "related_events": ["caliphate-of-abu-bakr", "battle-of-yarmouk", "battle-of-qadisiyyah", "conquest-of-jerusalem", "caliphate-of-uthman"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

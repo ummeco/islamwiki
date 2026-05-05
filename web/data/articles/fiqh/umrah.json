@@ -1,0 +1,34 @@
+{
+  "slug": "umrah",
+  "title_en": "Umrah (The Lesser Pilgrimage)",
+  "title_ar": "العمرة",
+  "category": "fiqh",
+  "subcategory": "hajj",
+  "summary": "Umrah is the lesser pilgrimage to Makkah, consisting of ihram, tawaf, sa'y, and hair cutting. Unlike Hajj it has no fixed time and may be performed at any point in the year. Its legal status — obligatory or recommended — is a point of genuine scholarly difference among the four madhabs.",
+  "content": "## Definition\n\nUmrah (Arabic: العمرة, visitation) is a set of devotional rites performed at the Masjid al-Haram in Makkah: entering the state of ihram, performing tawaf (circumambulation of the Ka'bah), performing sa'y (walking between al-Safa and al-Marwa), and concluding with halq (shaving) or taqsir (trimming) of the hair.\n\nThe Prophet ﷺ said: 'An 'umrah to another 'umrah is an expiation for what occurs between them, and an accepted Hajj has no reward except Paradise.' (Sahih al-Bukhari, Hadith 1773; Sahih Muslim, Hadith 1349)\n\n## Legal Status: Obligatory or Sunnah?\n\nThis is one of the significant fiqh disputes between the four schools:\n\n| School | Status of Umrah |\n|---|---|\n| **Hanafi** | Sunnah mu'akkadah (emphasized sunnah); not obligatory |\n| **Maliki** | Sunnah mu'akkadah; not obligatory |\n| **Shafi'i** | **Fard (obligatory)** once in a lifetime for the able |\n| **Hanbali** | **Wajib (obligatory)** once in a lifetime for the able |\n\nThe Shafi'i and Hanbali positions are based on the hadith: 'Perform Hajj and 'Umrah for Allah' (Sunan al-Tirmidhi, Hadith 930) and Quranic verse 2:196. The Hanafi and Maliki positions hold that the obligation of 'Umrah is not conclusively established by unambiguous evidence.\n\n## Rites of Umrah\n\n1. **Ihram** — Enter the state of ihram at or before the Miqat, making the intention for 'Umrah and pronouncing the talbiyah: 'Labbayk Allahumma 'umrah' or 'Labbayk Allahumma Labbayk'\n2. **Tawaf** — Circumambulate the Ka'bah seven times counterclockwise, beginning and ending at the Black Stone (al-Hajar al-Aswad)\n3. **Sa'y** — Walk seven times between al-Safa and al-Marwa, beginning at al-Safa\n4. **Halq or Taqsir** — Shave the head (halq) or shorten the hair (taqsir) to exit ihram. Men may do either; women do taqsir only (the length of a fingertip)\n\n## Prohibited Acts During Ihram\n\nWhile in the state of ihram for 'Umrah, the following are prohibited:\n- Sexual relations and foreplay (invalidates 'Umrah if committed before first halq/taqsir)\n- Shaving or cutting hair\n- Cutting nails\n- Applying perfume\n- Covering the head (for men)\n- Wearing sewn garments (for men; women wear their normal modest dress)\n- Hunting land animals\n\n## Timing\n\nUmrah may be performed at any time of year. Some scholars (Maliki, Hanbali) hold it disliked (makruh) to perform 'Umrah during the five days from the 9th to the 13th of Dhul Hijjah while at Makkah — the days of Hajj — unless one is performing Hajj al-Tamattu' which combines 'Umrah and Hajj in the same journey.\n\n## Madhab Positions\n\n**Hanafi:** Umrah is sunnah mu'akkadah. Performing it during the five Hajj days (9th–13th Dhul Hijjah) is makruh tahriman (strictly disliked approaching prohibited). Sa'y is wajib (obligatory but not a pillar); omission requires a dam sacrifice.\n\n**Maliki:** Umrah is sunnah mu'akkadah. Sa'y is a pillar (rukn); omission invalidates 'Umrah. Performing it during Hajj days is makruh.\n\n**Shafi'i:** Umrah is obligatory (fard). Sa'y is a pillar. The Shafi'i school holds that combining 'Umrah and Hajj in Tamattu' or Qiran requires a dam sacrifice as acknowledgment of the additional blessing.\n\n**Hanbali:** Umrah is obligatory (wajib). Sa'y is a pillar. Tawaf requires wudu per Hanbali (also Maliki). The Shafi'i and Hanafi schools hold that wudu for tawaf is strongly recommended (wajib per Hanafi) but its omission requires a dam sacrifice, not invalidation.",
+  "evidence_quran": [
+    "2:196"
+  ],
+  "evidence_hadith": [
+    "Sahih al-Bukhari, Hadith 1773 — 'Umrah to 'Umrah is expiation",
+    "Sunan al-Tirmidhi, Hadith 930 — perform Hajj and 'Umrah for Allah"
+  ],
+  "madhab_positions": {
+    "hanafi": "Sunnah mu'akkadah, not obligatory. Disliked (makruh tahriman) during the five Hajj days. Sa'y is wajib.",
+    "maliki": "Sunnah mu'akkadah, not obligatory. Sa'y is a pillar (rukn). Wudu required for tawaf per Maliki.",
+    "shafii": "Obligatory (fard) once in a lifetime. Sa'y is a pillar. Tawaf without wudu — scholarly difference on validity.",
+    "hanbali": "Obligatory (wajib) once in a lifetime. Sa'y is a pillar. Wudu required for tawaf."
+  },
+  "related_slugs": [
+    "hajj-overview",
+    "fard-vs-sunnah-vs-mustahabb"
+  ],
+  "sources": [
+    "Quran 2:196",
+    "Sahih al-Bukhari, Kitab al-Umrah",
+    "Ibn Qudamah, al-Mughni",
+    "Ibn Rushd, Bidayat al-Mujtahid"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

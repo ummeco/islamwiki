@@ -1,0 +1,25 @@
+{
+  "slug": "battle-of-qadisiyyah",
+  "title_en": "Battle of Qadisiyyah",
+  "title_ar": "معركة القادسية",
+  "year_ah": 15,
+  "year_ce": 636,
+  "season": null,
+  "place_slug": "qadisiyyah",
+  "phase": "rashidun",
+  "summary": "The Battle of Qadisiyyah in 15 AH was the decisive engagement that broke Sassanid Persian military power in Iraq. The Muslim army under Sa'd ibn Abi Waqqas, after a multi-day battle, defeated the Persian forces led by Rustam Farrukhzad, opening the road to the Sassanid capital Ctesiphon (al-Mada'in) and ultimately sealing the fate of the Sassanid Empire.",
+  "narrative": "The Battle of Qadisiyyah was fought near the town of al-Qadisiyyah on the edge of the Iraqi alluvial plain, where the desert meets the Sassanid-cultivated heartland. Al-Tabari devotes extensive sections of his Tarikh to this battle, and Ibn al-Athir in al-Kamil provides a systematic account drawn from al-Tabari and other sources.\n\nSa'd ibn Abi Waqqas — a veteran of all major battles with the Prophet ﷺ and one of the ten companions given glad tidings of Paradise in a single hadith — commanded the Muslim army of approximately 30,000. The Sassanid army under the general Rustam Farrukhzad included war elephants, heavy cavalry, and the professional infantry of the Persian imperial military. Classical sources give wildly varying numbers for the Persian force; al-Tabari records estimates between 60,000 and 120,000, which modern historians treat cautiously. Sa'd was ill during the battle and commanded from a litter, overlooking the field from the old Persian castle of al-Qadisiyyah.\n\nAl-Tabari records the battle as lasting three or four days — the days referred to in the sources as Armah, Aghwath, and Amas before the decisive fourth day, Qadis. The first days saw severe fighting, with the Persian war elephants causing significant disruption to the Muslim cavalry. The Muslim commanders adapted: specialist fighters targeted the elephants with arrows and blades directed at their eyes and trunks, eventually routing them back through their own lines.\n\nOn the decisive day, a dust storm from the direction of the desert blew into the Persian faces. The Muslim forces pressed the advantage. Rustam Farrukhzad was killed — accounts differ on who killed him, with Hilal ibn Ullafa or a man of the Banu Asad given credit in different chains. His body was identified when the Muslim forces found the Persian royal banner and treasure beside him. With Rustam's death and the route of the elephants, the Persian line broke. A large portion of the army drowned in the Ateeq canal in the retreat.\n\nAfter Qadisiyyah, the Muslim army advanced on al-Mada'in — Ctesiphon, the Sassanid capital — which fell in 16 AH. The Sassanid emperor Yazdegerd III fled eastward and the empire entered a terminal decline. Al-Tabari records that the amounts of treasure captured at al-Mada'in were staggering, including the famous Carpet of Chosroes, which was divided among the warriors and its portion sent to Madinah as Umar's share of the spoils.",
+  "people_slugs": ["sad-ibn-abi-waqqas"],
+  "quranic_reference": [],
+  "hadith_references": [],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Battle of Qadisiyyah in detail",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 2 — Events of 15 AH",
+    "al-Baladhuri, Futuh al-Buldan — Conquest of Iraq",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7 — Qadisiyyah and fall of al-Mada'in"
+  ],
+  "related_events": ["caliphate-of-umar", "early-conquests-iraq-syria", "battle-of-yarmouk"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

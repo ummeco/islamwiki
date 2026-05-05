@@ -1,0 +1,38 @@
+{
+  "slug": "talaq-fundamentals",
+  "title_en": "Talaq (Divorce in Islam)",
+  "title_ar": "الطلاق",
+  "category": "fiqh",
+  "subcategory": "family-law",
+  "summary": "Talaq is the Islamic mechanism of divorce, initiated by the husband through verbal declaration. Islam permits divorce while strongly discouraging it as 'the most detestable of permitted things.' The Quran and Sunnah establish a structured process with waiting periods (iddah), opportunities for reconciliation, and rights of both parties. This article covers the types, conditions, and legal framework of divorce across the four madhabs.",
+  "content": "## Definition and Status\n\nTalaq (Arabic: الطلاق, divorce/release) is the dissolution of the marriage bond by the husband's declaration. The Prophet ﷺ is reported to have said: 'The most detestable of permitted things before Allah is divorce.' (Sunan Abu Dawud, Hadith 2178; graded hasan)\n\nDivorce is permitted as a last resort when the marriage cannot be sustained. The Quran devotes an entire surah (al-Talaq) to its rulings, reflecting its gravity.\n\n## The Sunnah Method of Divorce\n\nThe preferred (sunnah) manner of divorce:\n1. Pronounce one revocable talaq (talaq raj'i)\n2. During the wife's state of purity (tuhr) — not during menstruation\n3. Without having had intercourse during that period of purity\n4. Leave the iddah (waiting period) to pass\n5. During the iddah: opportunity for reconciliation (ruju')\n\nAllah says: 'O Prophet, when you [Muslims] divorce women, divorce them for their waiting period and keep count of the waiting period.' (Surah al-Talaq, 65:1)\n\n## Types of Talaq\n\n### By Revocability\n- **Talaq Raj'i (Revocable Divorce):** A first or second talaq. The husband may take back the wife (ruju') without a new contract during the iddah, without her consent, simply by verbal statement or intercourse (per Hanafi and Maliki). Ruju' requires witnesses per Shafi'i.\n- **Talaq Ba'in Baynunah Sughra (Minor Irrevocable):** After the iddah of a raj'i talaq expires, or a third talaq has not yet been given. Remarriage requires a new contract and new mahr with the woman's consent.\n- **Talaq Ba'in Baynunah Kubra (Major Irrevocable):** The third talaq. Husband cannot remarry this wife unless she has genuinely married another man, the marriage was consummated, and the second husband divorced her of his own accord. This is the halalah ruling (Surah al-Baqarah, 2:230).\n\n### Talaq al-Bid'ah (Innovated Divorce)\nThe triple divorce in one statement ('I divorce you three times' in one sitting) is **bid'ah and sinful** per the majority of scholars but takes legal effect as three divorces per the Hanafi, Maliki, and Shafi'i schools. The Hanbali school — based on hadith evidence — holds it counts as one revocable divorce. Contemporary scholars including Ibn Taymiyyah and Ibn al-Qayyim held it counts as one; this is the position of many modern fatwa bodies.\n\n## The Iddah (Waiting Period)\n\n| Situation | Iddah |\n|---|---|\n| Menstruating woman | 3 complete menstrual cycles (quru') |\n| Non-menstruating woman | 3 months |\n| Pregnant woman | Until delivery |\n| Unconsummated marriage | No iddah |\n\nPurpose of iddah: ascertain absence of pregnancy, allow time for reconciliation, honour the marriage covenant.\n\n## Woman-Initiated Separation\n- **Khul':** The wife asks for separation in exchange for returning her mahr (or agreed compensation). Requires husband's agreement or a judge's ruling in case of dispute.\n- **Faskh (Judicial Annulment):** The court dissolves the marriage on grounds of harm, neglect, or the husband's incapacity. Available in all four schools with variations in grounds.\n\n## Madhab Differences on Triple Divorce\n\n**Hanafi, Maliki, Shafi'i:** Triple divorce in one sitting counts as three — irrevocable separation requiring halalah before remarriage. This was the dominant historical position.\n\n**Hanbali (following Ibn Taymiyyah and Ibn al-Qayyim):** Triple divorce in one sitting counts as one revocable talaq, based on the hadith: 'During the time of the Messenger of Allah ﷺ, Abu Bakr, and the first two years of Umar's caliphate, three divorces counted as one.' (Sahih Muslim, Hadith 1472). This is also the position of most contemporary Islamic legal bodies.",
+  "evidence_quran": [
+    "2:228-232",
+    "65:1-7",
+    "2:229-230"
+  ],
+  "evidence_hadith": [
+    "Sunan Abu Dawud, Hadith 2178 — divorce most detestable of permitted things",
+    "Sahih Muslim, Hadith 1472 — triple divorce counted as one during Prophet's time"
+  ],
+  "madhab_positions": {
+    "hanafi": "Triple divorce in one session = three divorces (irrevocable). Ruju' by intercourse permitted. Talaq during menstruation is bid'ah but legally effective. Iddah = three quru' (menstrual cycles).",
+    "maliki": "Triple in one session = three. Most detailed rules on harm-based faskh; Maliki courts have broadest grounds for annulment on wife's request. Khul' valid without judge per Maliki.",
+    "shafii": "Triple in one session = three. Witnesses required for ruju'. Iddah = three quru' (interpreted as periods of purity, not menstruation — difference from Hanafi).",
+    "hanbali": "Triple in one session = one revocable divorce per Ibn Taymiyyah/Ibn al-Qayyim. Standard Hanbali fiqh (al-Mughni) held it as three historically but the one-count position is now dominant in Hanbali-influenced scholarship."
+  },
+  "related_slugs": [
+    "nikkah-fundamentals",
+    "inheritance-overview"
+  ],
+  "sources": [
+    "Quran 2:228-232; 65:1-7",
+    "Sahih Muslim, Hadith 1472",
+    "Ibn Qudamah, al-Mughni, Kitab al-Talaq",
+    "Ibn Taymiyyah, Majmu' al-Fatawa (vol. 33)",
+    "Ibn al-Qayyim, Zad al-Ma'ad",
+    "Ibn Rushd, Bidayat al-Mujtahid"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

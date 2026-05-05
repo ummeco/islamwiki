@@ -1,0 +1,41 @@
+{
+  "slug": "nullifiers-of-islam",
+  "title_en": "The Ten Nullifiers of Islam",
+  "title_ar": "نواقض الإسلام",
+  "category": "fiqh",
+  "subcategory": "aqeedah",
+  "summary": "The Ten Nullifiers of Islam are the primary actions and beliefs that take a person outside the fold of Islam, as enumerated and systematised by Imam Muhammad ibn Abd al-Wahhab (d. 1206 AH / 1792 CE) in his influential treatise. Understanding them is essential for knowing the boundaries of Islamic faith and is presented here from the Athari perspective.",
+  "content": "## Introduction\n\nThe scholars of aqeedah have established that certain beliefs and actions take a person outside the fold of Islam (riddah — apostasy). Imam Muhammad ibn Abd al-Wahhab al-Tamimi al-Hanbali (1115–1206 AH / 1703–1792 CE) systematised the most critical of these in his short treatise 'Nawaqid al-Islam' ('The Nullifiers of Islam'), which has become a standard reference in Islamic creedal education, particularly in Hanbali and Athari circles.\n\nThe presentation below follows his enumeration. An important foundational principle: **Takfir (declaring a specific Muslim to be an unbeliever) requires that the evidence (hujjah) be established, conditions (shurut) be met, and obstacles (mawani') be absent.** Ignorance, coercion, and misinterpretation are established obstacles. The nullifiers describe categories of action and belief in the abstract — applying them to individuals requires proper scholarly qualification.\n\n## The Ten Nullifiers\n\n### 1. Shirk (Associating Partners with Allah)\nDiracting any act of worship to other than Allah — supplication (du'a), sacrifice, vow, fear, hope — in the manner reserved for the Divine. Allah says: 'Indeed, Allah does not forgive that partners be associated with Him, but He forgives lesser than that to whom He wills.' (Surah al-Nisa', 4:48). This is the greatest sin in Islam.\n\n### 2. Taking Intermediaries (Wasa'il) as Gods\nMaking intermediaries between oneself and Allah — prophets, pious people, angels — objects of supplication and intercession in the manner of worship, even while believing in Allah. This was the error of pagan Arabs who said: 'We only worship them so that they may bring us closer to Allah.' (Surah al-Zumar, 39:3)\n\n### 3. Not Declaring Polytheists to Be Disbelievers\nDoubling or hesitating about the kufr (disbelief) of clear pagans and polytheists — those who worship idols, the dead, etc. — or considering their religion valid. This is a form of approval of kufr.\n\n### 4. Believing That Other Guidance is More Complete or That Another Ruling System is Better Than the Shari'ah\nConsidering human-made legal systems superior to or equivalent to Islamic law in all domains, or considering it permissible to rule by other than what Allah has revealed while having the ability to implement the Shari'ah.\n\n### 5. Hating Anything the Prophet ﷺ Brought\nDetesting anything that the Messenger of Allah ﷺ came with, even while acting on it. Allah says: 'That is because they hated what Allah revealed, so He rendered worthless their deeds.' (Surah Muhammad, 47:9)\n\n### 6. Mocking Allah, the Qur'an, or the Messenger ﷺ\nRidiculing anything of the religion — Allah's attributes, the Quranic text, religious obligations, or the Prophet ﷺ. Allah says: 'Say, was it Allah and His verses and His Messenger that you were mocking? Make no excuse; you have disbelieved after your belief.' (Surah al-Tawbah, 9:65–66)\n\n### 7. Magic (Sihr)\nPractising or seeking magic (sihr), sorcery, or witchcraft that involves worshipping other than Allah or seeking the assistance of jinn or devils.\n\n### 8. Supporting Polytheists Against Muslims\nAiding and assisting the polytheists and enemies of Islam against the Muslims. Allah says: 'Whoever among you takes them as allies — he is indeed one of them.' (Surah al-Ma'idah, 5:51). This nullifier is among the most nuanced and is understood in context of the classical rules of walaa wal-baraa and in light of necessity.\n\n### 9. Believing That Someone Can Legitimately Abandon the Shari'ah of the Prophet ﷺ\nBelieving that it is permissible for anyone to leave the Shari'ah of Muhammad ﷺ — as some Sufi groups have claimed, holding that the awliya' (saints) who reach a certain spiritual level are exempted from religious obligations.\n\n### 10. Turning Away from the Religion of Allah\nTurning away from Islam entirely — not learning it, not acting upon it. Allah says: 'And who is more unjust than one who is reminded of the verses of his Lord; then he turns away from them?' (Surah al-Sajdah, 32:22)\n\n## Scholarly Note\n\nIbn Abd al-Wahhab himself wrote at the close of this treatise: 'Know that the nullifiers do not apply to a person until the proof is established against him and the argument completed.' The purpose of this knowledge is protection of one's own faith, not tools for declaring other Muslims to be unbelievers. Scholars across the Sunni tradition — including those who differ with some of Ibn Abd al-Wahhab's applications — agree on the general content of these categories.",
+  "evidence_quran": [
+    "4:48",
+    "39:3",
+    "47:9",
+    "9:65-66",
+    "5:51",
+    "32:22"
+  ],
+  "evidence_hadith": [
+    "Sahih Muslim, Hadith 134 — shirk as greatest sin",
+    "Sahih al-Bukhari, Hadith 5765 — magic among the seven destructive sins"
+  ],
+  "madhab_positions": {
+    "hanafi": "Agrees on the substance of major nullifiers. Nuanced positions on the application of apostasy rulings and the requirement to establish proof before any legal consequence.",
+    "maliki": "Consistent with general Sunni consensus on nullifiers. Ibn Rushd and later Maliki scholars discuss conditions for riddah proceedings in Bidayat al-Mujtahid.",
+    "shafii": "Al-Nawawi's Minhaj al-Talibin details the fiqh of riddah. Agrees on major nullifiers; detailed rulings on repentance and reinstatement.",
+    "hanbali": "Ibn Qudamah's al-Mughni covers riddah in detail. This enumeration is Hanbali in origin (Ibn Abd al-Wahhab was Hanbali). General Sunni agreement on substance."
+  },
+  "related_slugs": [
+    "tawhid",
+    "shirk",
+    "iman-six-articles",
+    "fard-vs-sunnah-vs-mustahabb"
+  ],
+  "sources": [
+    "Muhammad ibn Abd al-Wahhab, Nawaqid al-Islam",
+    "Ibn Qudamah, al-Mughni, Kitab al-Riddah",
+    "Al-Nawawi, Minhaj al-Talibin, Kitab al-Riddah",
+    "Quran 4:48; 5:51; 9:65-66; 39:3; 47:9"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

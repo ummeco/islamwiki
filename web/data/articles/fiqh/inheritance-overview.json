@@ -1,0 +1,39 @@
+{
+  "slug": "inheritance-overview",
+  "title_en": "Islamic Inheritance Law (Fara'id)",
+  "title_ar": "الفرائض",
+  "category": "fiqh",
+  "subcategory": "inheritance",
+  "summary": "The science of fara'id (Islamic inheritance) governs the distribution of a deceased Muslim's estate according to precise Quranic shares. The Prophet ﷺ called it 'half of knowledge' due to its importance. The Quran specifies fixed shares for specific heirs, overriding tribal and pre-Islamic customs that excluded women and children.",
+  "content": "## Introduction\n\nFara'id (Arabic: الفرائض, pl. of faridhah — prescribed portions) is the Islamic science governing the distribution of a deceased Muslim's estate. Allah prescribed specific shares for heirs in clear Quranic verses, making this one of the most explicitly legislated areas of Islamic law.\n\nThe Prophet ﷺ said: 'Learn the fara'id and teach it, for it is half of knowledge, and it will be forgotten. It is the first thing that will be extracted from my community.' (Sunan Ibn Majah, Hadith 2719; graded hasan)\n\n## Quranic Foundation\n\nAllah says: 'Allah instructs you regarding your children's shares: the male receives the equivalent of the share of two females.' (Surah al-Nisa', 4:11)\n\nVerses 4:11–12 and 4:176 contain the primary inheritance legislation. Allah concludes: 'These are the limits set by Allah. And whoever obeys Allah and His Messenger will be admitted to gardens beneath which rivers flow, abiding eternally therein; and that is the great attainment. And whoever disobeys Allah and His Messenger and transgresses His limits — He will put him into the Fire, to abide eternally therein, and he will have a humiliating punishment.' (Surah al-Nisa', 4:13–14)\n\n## The Six Quranic Fixed Shares (Fard)\n\n| Share | Who Receives It |\n|---|---|\n| **1/2** | Husband (if no child); Daughter alone; Granddaughter alone; Full sister alone |\n| **1/4** | Husband (if child exists); Wife (if no child) |\n| **1/8** | Wife (if child exists) |\n| **2/3** | Two or more daughters; Two or more granddaughters; Two or more full sisters |\n| **1/3** | Mother (if no child or sibling); Two or more maternal siblings |\n| **1/6** | Father (if child exists); Mother (if child exists); Grandfather; Maternal sibling |\n\n## The Asabah (Residuary Heirs)\n\nAfter fixed shares are distributed, the remainder goes to the 'asabah — male relatives who inherit the residue. The son is the primary asabah; in his absence, the closest male agnate inherits.\n\n## Conditions for Inheritance\n\nThree conditions must be met for inheritance to transfer:\n1. The death of the testator (or legal declaration of death)\n2. The heir being alive at the moment of death\n3. No legal bar (e.g., murder of the deceased by the heir, difference of religion)\n\n## Barriers to Inheritance\n\n1. **Murder:** If the heir caused the death of the deceased (Sunan al-Tirmidhi, Hadith 2109)\n2. **Religious difference:** A Muslim does not inherit from a non-Muslim, and vice versa (Sahih al-Bukhari, Hadith 6764; Sahih Muslim, Hadith 1614)\n3. **Slavery:** No longer applicable in modern contexts\n\n## Madhab Positions on Key Disputes\n\n**The 'Umariyyan (Inheritance to the Mother):**\nWhen a man dies leaving wife, mother, father, and children: Hanafi, Shafi'i, and Hanbali give the mother 1/6. Maliki agrees. When the heirs are husband (or wife), mother, father only: all schools give the mother 1/3 of the remainder (after husband/wife's share) per Ibn Mas'ud's ruling.\n\n**Grandfather and Brothers:**\nWhen a grandfather coexists with full brothers of the deceased: the Hanafi school (following Ibn 'Abbas) gives the grandfather priority over brothers, treating him like a father. The Maliki, Shafi'i, and Hanbali schools follow different positions, with the Hanbali school offering the grandfather a choice of the most beneficial calculation.\n\n**'Awl (Proportional Reduction):**\nWhen fixed shares exceed the estate: all shares are proportionally reduced. This was the ruling of 'Umar ibn al-Khattab رضي الله عنه (Ibn Qudamah, al-Mughni). The Hanafi school follows this; Maliki and others agree.\n\n**Non-Muslim relatives:** All four schools agree: a Muslim does not inherit from a non-Muslim relative, and a non-Muslim does not inherit from a Muslim.",
+  "evidence_quran": [
+    "4:11-12",
+    "4:176",
+    "4:13-14"
+  ],
+  "evidence_hadith": [
+    "Sunan Ibn Majah, Hadith 2719 — fara'id is half of knowledge",
+    "Sahih al-Bukhari, Hadith 6764 — Muslims and non-Muslims do not inherit from each other",
+    "Sunan al-Tirmidhi, Hadith 2109 — killer does not inherit"
+  ],
+  "madhab_positions": {
+    "hanafi": "Grandfather excludes brothers (follows Ibn Abbas). 'Awl applies. Detailed rules in Ibn 'Abidin's Radd al-Muhtar and Siraj al-Wahhaj by Ibn Wahban.",
+    "maliki": "Brothers share with grandfather per specific calculations. 'Awl applies. Classic reference: al-Faraid al-Saniyyah.",
+    "shafii": "Detailed in al-Nawawi's Minhaj al-Talibin. 'Awl applies. Grandfather and brothers share per specific calculations different from Hanafi.",
+    "hanbali": "Grandfather given choice of most beneficial calculation when coexisting with brothers. Detailed in Ibn Qudamah's al-Mughni, Kitab al-Fara'id."
+  },
+  "related_slugs": [
+    "nikkah-fundamentals",
+    "talaq-fundamentals",
+    "business-dealings"
+  ],
+  "sources": [
+    "Quran 4:11-12; 4:176",
+    "Sahih al-Bukhari, Kitab al-Fara'id",
+    "Ibn Qudamah, al-Mughni, Kitab al-Fara'id",
+    "Al-Nawawi, Minhaj al-Talibin",
+    "Ibn Rushd, Bidayat al-Mujtahid"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

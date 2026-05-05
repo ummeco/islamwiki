@@ -1,0 +1,40 @@
+{
+  "slug": "dress-modesty",
+  "title_en": "Dress and Modesty in Islam",
+  "title_ar": "اللباس والحشمة",
+  "category": "fiqh",
+  "subcategory": "dress",
+  "summary": "Islamic dress law prescribes minimum standards of modesty (awrah coverage) for men and women, grounded in Quranic commands and Prophetic guidance. Far from being restrictive, Islam presents modesty as a spiritual virtue protecting human dignity. This article covers the fiqh of awrah, hijab, and the scholarly positions on women's face covering.",
+  "content": "## Foundation\n\n'O children of Adam, We have bestowed upon you clothing to conceal your private parts and as adornment. But the clothing of righteousness — that is best.' (Surah al-A'raf, 7:26)\n\nModesty (haya') is a core Islamic value. The Prophet ﷺ said: 'Haya' is part of faith.' (Sahih al-Bukhari, Hadith 24; Sahih Muslim, Hadith 36)\n\n## The Awrah — What Must Be Covered\n\nThe awrah is the part of the body that must be covered in the presence of others. Its definition depends on gender and context:\n\n### Men's Awrah\n\n**In prayer and before non-mahram women:** From navel to knee. This is the agreed minimum across all four schools. The navel and knee themselves are disputed: majority (Hanafi, Maliki) exclude them from awrah; Shafi'i and Hanbali include the navel and differ on the knee.\n\n**Before men:** Same minimum (navel to knee). Some scholars hold a man may expose more before other men in private contexts.\n\n### Women's Awrah\n\n**In prayer:** The entire body except face and hands — agreed upon by majority (Maliki, Shafi'i, Hanbali). Hanafi adds the feet to what is not awrah in prayer per one position; another Hanafi position includes feet in awrah.\n\n**Before non-mahram men:** All scholars agree the entire body except what is permitted to show must be covered. The major scholarly dispute concerns the **face and hands**:\n- **Majority position (Hanafi majority, Maliki, Shafi'i):** The face and hands are not awrah — they may be uncovered, though covering them is preferred (especially when there is fear of fitna)\n- **Hanbali dominant position (and one Hanafi opinion):** The face is awrah before non-mahram men and must be covered\n\n## Hijab — Quranic Command\n\n'And tell the believing women to lower their gaze and guard their private parts and not expose their adornment except that which [necessarily] appears thereof and to wrap [a portion of] their headcovers over their chests.' (Surah al-Nur, 24:31)\n\n'O Prophet, tell your wives and your daughters and the women of the believers to bring down over themselves [part] of their outer garments. That is more suitable that they will be known and not be abused.' (Surah al-Ahzab, 33:59)\n\nAll four schools agree that covering the hair and body is obligatory for Muslim women before non-mahram men. This is not disputed.\n\n## Face Veil (Niqab)\n\n**Hanafi:** Not obligatory (the face is not awrah in the dominant position); however, covering the face is highly recommended where there is fear of temptation (fitna). Some early Hanafi scholars considered it obligatory in contexts of widespread temptation.\n\n**Maliki:** Face not awrah in the technical sense; covering it is recommended but not obligatory per the majority of Maliki scholars.\n\n**Shafi'i:** Face not awrah (majority position); the detailed discussion is in al-Mughni al-Muhtaj and Minhaj al-Talibin.\n\n**Hanbali:** Face is awrah before non-mahram men; covering it (niqab) is obligatory per the dominant Hanbali position as stated in al-Mughni and al-Insaf.\n\n## Conditions for Valid Dress in Prayer\n\n1. The awrah must be covered\n2. The garment must be clean (free from physical impurity/najasah)\n3. The garment must not be so thin as to reveal what is beneath it\n4. The garment must not be tightly fitted so as to reveal the body's shape (this is a condition of modesty more broadly, and shar'i dress more specifically)\n\n## Prohibited Dress\n\n- **Silk for men:** The Prophet ﷺ prohibited men from wearing silk: 'These two are forbidden for the males of my community.' (Sunan Abu Dawud, Hadith 4057; graded sahih) — Exception: pure silk that is 50% or less of a garment (Hanafi opinion) or for medical necessity.\n- **Imitating the opposite gender:** Prohibited: 'The Messenger of Allah ﷺ cursed men who imitate women and women who imitate men.' (Sahih al-Bukhari, Hadith 5886)\n- **Garments of arrogance (isbaal):** Garments that trail below the ankles for men — from pride: 'Whatever of the lower garment is below the ankles is in the Fire.' (Sahih al-Bukhari, Hadith 5787)",
+  "evidence_quran": [
+    "7:26",
+    "24:31",
+    "33:59"
+  ],
+  "evidence_hadith": [
+    "Sahih al-Bukhari, Hadith 24 — haya' is part of faith",
+    "Sunan Abu Dawud, Hadith 4057 — silk forbidden for men",
+    "Sahih al-Bukhari, Hadith 5886 — curse on cross-gender imitation",
+    "Sahih al-Bukhari, Hadith 5787 — garment below ankles is in Fire"
+  ],
+  "madhab_positions": {
+    "hanafi": "Face and hands not awrah; covering face recommended where there is fitna. Some Hanafi scholars obligate face cover in public. Feet are debated.",
+    "maliki": "Face not awrah technically; covering recommended. Hair covering obligatory. Most detailed on contextual modesty standards.",
+    "shafii": "Face not awrah per majority position. Detailed discussion in al-Nawawi and later Shafi'i scholars.",
+    "hanbali": "Face is awrah; niqab obligatory before non-mahram men per dominant position. Detailed in al-Mughni."
+  },
+  "related_slugs": [
+    "women-in-islam",
+    "salah-overview",
+    "food-laws"
+  ],
+  "sources": [
+    "Quran 24:31; 33:59; 7:26",
+    "Sahih al-Bukhari, Kitab al-Libas",
+    "Ibn Qudamah, al-Mughni, Kitab al-Salah (awrah section)",
+    "Al-Nawawi, al-Majmu'",
+    "Al-Marghinani, al-Hidayah (Hanafi)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

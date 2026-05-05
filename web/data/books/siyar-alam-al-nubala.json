@@ -1,0 +1,30 @@
+{
+  "slug": "siyar-alam-al-nubala",
+  "title_en": "Siyar A'lam al-Nubala'",
+  "title_ar": "سير أعلام النبلاء",
+  "title_full_ar": "سير أعلام النبلاء",
+  "author_slug": "al-dhahabi",
+  "subject": "biography",
+  "subjects": [
+    "biography",
+    "rijal",
+    "history",
+    "hadith"
+  ],
+  "language": "ar",
+  "year_compiled_ah": 748,
+  "year_compiled_ce": 1347,
+  "summary": "Siyar A'lam al-Nubala' ('Biographies of Noble Figures') is the encyclopedic biographical dictionary by Imam Shams al-Din al-Dhahabi (d. 748 AH / 1348 CE), covering approximately five thousand scholars, rulers, Companions, and notable figures from the earliest period of Islam through al-Dhahabi's own era. It is the single most important reference work in classical Islamic biography.",
+  "overview": "Siyar A'lam al-Nubala' by Imam Shams al-Din Muhammad ibn Ahmad al-Dhahabi (673–748 AH / 1274–1348 CE) stands as the pinnacle of classical Islamic biographical literature (tabaqat and tarajim). Al-Dhahabi was a Damascene scholar of Syrian origin, a student of Ibn Taymiyyah, and the foremost hadith critic of his era. His extraordinary memorisation of narrators, chains, and texts enabled him to produce a work of unmatched depth and accuracy.\n\nThe work encompasses approximately 5,000 biographies arranged loosely in tabaqat (generational layers), beginning with the Companions of the Prophet ﷺ and proceeding through each generation of hadith scholars, jurists, mystics, and rulers up to al-Dhahabi's time in the early eighth Islamic century. For each subject, al-Dhahabi typically provides: the name and lineage (nasab), birthplace and death date, primary teachers and students, works authored, a critical assessment of the person's reliability as a narrator (jarh wa ta'dil), and often a personal eulogy or critique.\n\nThe Companions receive detailed treatment, with al-Dhahabi documenting the hadith transmitted through each, their virtues (fada'il), and — where relevant — the scholarly consensus on their reliability (all Companions are considered upright by Sunni hadith methodology). The biographies of the tabi'un (Successors) are especially rich in legal and hadith information.\n\nAl-Dhahabi's critical assessments are authoritative and often severe. His phrases — 'thiqa' (trustworthy), 'sudduq' (truthful), 'layyin' (weak), 'matruk' (abandoned) — became standard in the hadith sciences. His judgements frequently diverge from those of earlier critics (Ibn Hajar al-Asqalani frequently cites agreements and disagreements), and his positions are considered one of the two most important critical schools alongside Ibn Hajar.\n\nThe printed edition by Mu'assasat al-Risalah (Beirut), in 25 volumes edited by Shu'ayb al-Arnaut and a team of scholars, is the standard critical edition and is considered reliable. Al-Dhahabi also wrote the shorter Tadhkirat al-Huffaz (for hadith masters only) and Mizan al-I'tidal (focusing on weak narrators), both of which complement Siyar.",
+  "structure": "25 volumes (Mu'assasat al-Risalah edition); approximately 5,000 biographies organized by generational layers",
+  "translations": [
+    {
+      "language": "en",
+      "translator": "Partial (individual biographies translated by scholars)",
+      "status": "partial"
+    }
+  ],
+  "available_at": [],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

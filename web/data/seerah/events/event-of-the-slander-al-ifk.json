@@ -1,0 +1,28 @@
+{
+  "slug": "event-of-the-slander-al-ifk",
+  "title_en": "The Event of the Slander (al-Ifk)",
+  "title_ar": "حادثة الإفك",
+  "year_ah": 5,
+  "year_ce": 627,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "madinan",
+  "summary": "On the return from the Expedition of Banu Mustaliq, Aisha bint Abi Bakr was accidentally left behind during a halt and was escorted back to Madinah the following day by Safwan ibn al-Mu'attal. Hypocrites led by Abdullah ibn Ubayy spread accusations against her honour, causing profound distress for nearly a month until Allah revealed Surah al-Nur, clearing her name definitively.",
+  "narrative": "The incident of al-Ifk (the Slander) is one of the most painful episodes of the Madinan period and its resolution one of the most direct divine interventions in the personal life of the Prophet ﷺ. The account as narrated by Aisha herself is recorded in Sahih al-Bukhari (Book 48, Hadith 829) and Sahih Muslim (Book 49, Hadith 56) and constitutes one of the longest first-person narrations in the hadith literature.\n\nAisha narrates: On the return journey from the expedition against the Banu Mustaliq, the army halted for a rest. Aisha left the litter to attend to a personal need and, upon returning, discovered that her necklace — described as made of beads from Dhifar — had broken and fallen somewhere. She went back to search for it. In the meantime the army broke camp, and the men who lifted her litter assumed from its weight that she was inside and carried it away. She was left alone.\n\nSafwan ibn al-Mu'attal al-Sulami, who habitually followed behind the army to collect any items left behind, came upon Aisha sleeping under her outer garment. Recognising her from before the verse of hijab, he woke her by calling her name, she mounted his camel, and he led her on foot back to the army camp, arriving at midday when the army had already halted.\n\nAbdullah ibn Ubayy ibn Salul, the leader of the Munafiqin, is identified in the narration and in the classical commentaries as the principal spreader of the slander. The accusation spread in Madinah and reached the Prophet ﷺ, Abu Bakr, and Aisha's mother. Aisha, falling seriously ill, was returned to her parents' home where she remained, initially unaware of what was being said. She later learned of the accusation and was devastated.\n\nThe Prophet ﷺ was himself in an extremely difficult position — distressed but without revelation on the matter. He consulted Ali ibn Abi Talib and Usama ibn Zayd. Ali's reported advice was to divorce and move on; Usama's was to speak well of Aisha. Ibn Hisham records that the Prophet ﷺ defended Aisha publicly while revelation was awaited.\n\nAfter approximately a month of distress, revelation descended. Allah revealed verses 11 through 21 of Surah al-Nur: 'Indeed, those who came with the slander are a group among you. Do not think it bad for you; rather it is good for you. For every person among them is what he has earned from the sin, and the one who took upon himself the greater portion thereof — for him is a great punishment.' Ibn Kathir in his Tafsir, al-Qurtubi, and al-Tabari all record that the Prophet ﷺ came to Aisha with the revelation shining in his face and recited it to her. Her mother told her to go to the Prophet ﷺ, but Aisha said she would praise only Allah, not any person, for her vindication. Three people who had spoken against her — among them the poet Hassan ibn Thabit, Mistah ibn Uthatha, and Hamnah bint Jahsh — received the prescribed punishment of eighty lashes for qadhf (false accusation of adultery without four witnesses).",
+  "people_slugs": ["aisha", "safwan-ibn-al-muattal", "abdullah-ibn-ubayy", "abu-bakr"],
+  "quranic_reference": ["24:11-21"],
+  "hadith_references": [
+    "Sahih al-Bukhari, Book 48 (Witnesses), Hadith 829 — Aisha's own account of al-Ifk",
+    "Sahih Muslim, Book 49 (Repentance), Hadith 56 — Full narration of the slander incident"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — The incident of al-Ifk",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Events of 5 AH",
+    "Ibn Kathir, Tafsir al-Quran al-Adhim — Surah al-Nur 24:11-21",
+    "al-Qurtubi, al-Jami li-Ahkam al-Quran — Tafsir of Surah al-Nur"
+  ],
+  "related_events": ["expedition-of-banu-mustaliq"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

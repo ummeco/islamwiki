@@ -1,0 +1,25 @@
+{
+  "slug": "early-conquests-iraq-syria",
+  "title_en": "Early Conquests: Iraq and Syria",
+  "title_ar": "الفتوحات الأولى: العراق والشام",
+  "year_ah": 12,
+  "year_ce": 633,
+  "season": null,
+  "place_slug": "iraq",
+  "phase": "rashidun",
+  "summary": "Beginning in 12 AH under Abu Bakr and continuing into the caliphate of Umar, the early Islamic conquests of Iraq and Syria dismantled the Sassanid Persian frontier and the Byzantine southern provinces. The campaigns were led principally by Khalid ibn al-Walid, who achieved an unbroken string of victories regarded among the most remarkable in military history.",
+  "narrative": "The conquests of Iraq and Syria were not initially conceived as grand imperial projects but as the natural extension of the Ridda wars' consolidation and the redirecting of tribal military energy outward. Al-Tabari in his Tarikh records that Abu Bakr dispatched Khalid ibn al-Walid eastward toward the Sassanid-controlled Iraqi frontier in late 12 AH, while simultaneously sending forces northward toward the Byzantine borderlands of al-Sham (Syria-Palestine).\n\nIn Iraq, Khalid ibn al-Walid opened the campaigns with the Battle of Dhat al-Salasil and the engagements at al-Walajah, Ullays, and al-Hira. Al-Tabari records that al-Hira — a major city and the seat of the Lakhmid Arab client kingdom of the Sassanids — fell to the Muslims in 12 AH after its garrison agreed to pay the jizyah (a per-capita tax paid by non-Muslim subjects in exchange for protection and exemption from military service). Ibn al-Athir in al-Kamil records these campaigns in detail, noting Khalid's remarkable pace of advance.\n\nSimultaneously, Abu Bakr dispatched four commanders toward Syria: Amr ibn al-As toward Palestine, Yazid ibn Abi Sufyan toward Damascus, Shurahbil ibn Hasana toward Jordan, and Abu Ubayda ibn al-Jarrah toward Homs. The Byzantine emperor Heraclius gathered a substantial force in response. When Abu Bakr recognised that the separate commands needed coordination against a concentrated Byzantine army, he dispatched Khalid ibn al-Walid from Iraq to Syria in one of the fastest recorded forced marches in the ancient world — crossing the Syrian desert with a small force to join the Syrian armies.\n\nKhalid arrived in Syria and unified command of the Muslim forces before the decisive engagements. The Battle of Ajnadayn in Jumada al-Ula 13 AH (634 CE) — fought near present-day Beit Guvrin in what is now Israel — was the first major pitched battle against Byzantine forces in Syria. Al-Tabari and Ibn Kathir both record it as a clear Muslim victory. Abu Bakr died shortly before or immediately upon receiving the news of Ajnadayn's outcome, depending on the narration.\n\nThe campaigns continued under Umar, leading to the fall of Damascus in 14 AH, the Battle of Yarmouk in 15 AH, and the eventual consolidation of the entire region from Iraq to Egypt within a decade — achieved not through a single campaign but through a sustained series of engagements that Ibn al-Athir and Ibn Kathir catalogue year by year in their historical works.",
+  "people_slugs": ["khalid-ibn-al-walid", "abu-ubayda-ibn-al-jarrah", "amr-ibn-al-as"],
+  "quranic_reference": [],
+  "hadith_references": [],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Iraq and Syria campaigns",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 2 — Events of 12-14 AH",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 6-7 — Early conquests",
+    "al-Baladhuri, Futuh al-Buldan — Accounts of the Iraq and Syria conquests"
+  ],
+  "related_events": ["caliphate-of-abu-bakr", "caliphate-of-umar", "battle-of-yarmouk", "battle-of-qadisiyyah"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

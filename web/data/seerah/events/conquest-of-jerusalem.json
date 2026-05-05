@@ -1,0 +1,25 @@
+{
+  "slug": "conquest-of-jerusalem",
+  "title_en": "Conquest of Jerusalem and the Covenant of Umar",
+  "title_ar": "فتح بيت المقدس وعهد عمر",
+  "year_ah": 15,
+  "year_ce": 637,
+  "season": null,
+  "place_slug": "jerusalem",
+  "phase": "rashidun",
+  "summary": "Following the Battle of Yarmouk, the Byzantine Patriarch Sophronius of Jerusalem offered to surrender the city on condition that the Caliph himself come to receive it. Umar ibn al-Khattab travelled from Madinah to Jerusalem in 15 AH and issued the Covenant of Umar — a charter of protection for the Christian and Jewish inhabitants of the holy city.",
+  "narrative": "After the decisive Muslim victory at Yarmouk, the cities of Syria and Palestine fell in rapid succession. When Muslim forces surrounded Jerusalem, the Byzantine Patriarch Sophronius declared that he would only surrender the city to the Caliph of the Muslims in person — a condition recorded by al-Tabari in his Tarikh and confirmed by al-Baladhuri in Futuh al-Buldan. Umar ibn al-Khattab, receiving word of this condition in Madinah, agreed and made the journey north.\n\nAl-Tabari records Umar's journey in notable detail, including his practice of sharing camel-riding duties with his servant — alternating who rode and who walked — so that when they entered the outskirts of Jerusalem his servant happened to be on the camel and Umar was walking, holding the rope. The sight of the powerful Caliph walking while his servant rode made a profound impression on observers, and Abu Ubayda ibn al-Jarrah reportedly urged Umar to ride for the sake of dignity before entering the city; Umar declined.\n\nThe Covenant of Umar (al-Uhda al-Umariyyah) was the document issued upon the surrender and is one of the most celebrated texts of early Islamic governance. Al-Tabari preserves its text, as does al-Baladhuri. Its key provisions guaranteed the lives, property, and churches of the city's inhabitants; promised that their churches would not be seized or diminished; declared that no one would be harmed on account of their religion; and specified that the city's Jews would not be settled within Jerusalem while under this covenant — a provision reflecting the existing Byzantine exclusion of Jews from the city, which the document maintained as a condition of the Christian surrender.\n\nWhen the time for the prayer came while Umar was inside the Church of the Holy Sepulchre with Patriarch Sophronius, Umar declined to pray inside the church, stepping outside to pray at a nearby location. He explained to Sophronius, as al-Tabari records, that had he prayed inside, the Muslims might later claim the right to convert it into a mosque. The spot where Umar prayed subsequently became the Mosque of Umar, which stands near the church to this day.\n\nIbn Kathir in al-Bidayah wal-Nihayah and Ibn al-Athir in al-Kamil both emphasise the significance of Jerusalem's peaceful surrender under these terms as a model of Islamic governance toward religious minorities. Jerusalem had been the first qibla of the Muslims and remains, after Makkah and Madinah, among the three holiest sites in Islam.",
+  "people_slugs": ["umar-ibn-al-khattab", "abu-ubayda-ibn-al-jarrah"],
+  "quranic_reference": ["17:1"],
+  "hadith_references": [],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Conquest of Jerusalem and text of Umar's covenant",
+    "al-Baladhuri, Futuh al-Buldan — Jerusalem chapter",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 2 — Events of 15-16 AH",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 7 — Conquest of Jerusalem"
+  ],
+  "related_events": ["caliphate-of-umar", "battle-of-yarmouk"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

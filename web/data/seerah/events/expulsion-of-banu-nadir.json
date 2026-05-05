@@ -1,0 +1,26 @@
+{
+  "slug": "expulsion-of-banu-nadir",
+  "title_en": "Expulsion of Banu Nadir",
+  "title_ar": "إجلاء بني النضير",
+  "year_ah": 4,
+  "year_ce": 625,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "madinan",
+  "summary": "In 4 AH following the Battle of Uhud, the Banu Nadir — a Jewish tribe of Madinah with estates south of the city — were besieged and expelled after evidence emerged of a plot against the Prophet's ﷺ life and subsequent violations of the treaty of Madinah. Many settled in Khaybar; their abandonment of fortresses is referenced in Surah al-Hashr.",
+  "narrative": "The Banu Nadir were among the more prominent Jewish tribes of Madinah, inhabiting fertile agricultural estates south of the city near a place called al-Nadir. They had maintained a treaty with the Prophet ﷺ under the framework of the Constitution of Madinah, pledging mutual defence and non-aggression.\n\nIbn Hisham records that the immediate occasion for the confrontation arose when the Prophet ﷺ visited the Banu Nadir to seek their cooperation in paying blood money for two men killed by Amr ibn Umayyah al-Damri — an obligation under the existing treaty. The Banu Nadir agreed to help but, according to Ibn Hisham's account drawing on Ibn Ishaq's material, simultaneously conspired to drop a boulder on the Prophet ﷺ while he sat with his back to a wall of their settlement. Allah informed the Prophet ﷺ of the plot through revelation, and he departed without warning.\n\nThe Prophet ﷺ then sent word to the Banu Nadir demanding they leave Madinah within ten days, offering safe passage for their persons and what their camels could carry, excluding weapons. Abdullah ibn Ubayy ibn Salul reportedly sent word encouraging them to remain, pledging two thousand fighters in support — a promise he did not fulfill. The Banu Nadir fortified themselves and refused to leave.\n\nThe Prophet ﷺ led a siege of their fortresses that Ibn Hisham and al-Tabari place at between fourteen and twenty-one days. When their position became untenable, the Banu Nadir requested terms. The Prophet ﷺ permitted them to depart with their families and all their moveable property except weapons. They loaded their belongings onto camels — some reportedly demolishing their own homes so the Muslims could not use them, a detail noted in al-Tabari and referenced obliquely in the Quran.\n\nAllah revealed Surah al-Hashr (Chapter 59) in connection with this event. Its opening verses — 'He it is Who expelled those who disbelieved among the People of the Scripture from their homes at the first gathering. You did not think they would leave, and they thought that their fortresses would protect them from Allah; but Allah came at them from where they had not expected, and He cast terror into their hearts' — are cited by Ibn Kathir in his Tafsir as referring specifically to the Banu Nadir, and most classical exegetes agree.\n\nThe Banu Nadir settled primarily at Khaybar, where they would later contribute to the Ahzab coalition that besieged Madinah at the Battle of the Trench. Their land and property in Madinah became among the first fay' (spoils without battle) distributed to the Muhajirun.",
+  "people_slugs": ["abdullah-ibn-ubayy"],
+  "quranic_reference": ["59:1-7"],
+  "hadith_references": [],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 2 — Siege and expulsion of Banu Nadir",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Events of 4 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2 — Military expeditions of 4 AH",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 4 — Banu Nadir",
+    "Ibn Kathir, Tafsir al-Quran al-Adhim — Surah al-Hashr (59)"
+  ],
+  "related_events": ["expulsion-of-banu-qaynuqa", "battle-of-the-trench", "battle-of-khaybar"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

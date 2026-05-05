@@ -1,0 +1,28 @@
+{
+  "slug": "umar-conversion",
+  "title_en": "Conversion of Umar ibn al-Khattab",
+  "title_ar": "إسلام عمر بن الخطاب",
+  "year_ah": null,
+  "year_ce": 616,
+  "season": null,
+  "place_slug": "makkah",
+  "phase": "makkan",
+  "summary": "Umar ibn al-Khattab, one of the fiercest opponents of the early Muslim community, accepted Islam in approximately 616 CE — six years before the Hijrah. His conversion transformed the position of the Muslims in Makkah and is counted among the greatest turning points of the Makkan period.",
+  "narrative": "Umar ibn al-Khattab was among the most formidable adversaries of the early Muslim community. Physically powerful, socially prominent, and deeply invested in Qurayshi tribal honour, he had on several recorded occasions confronted, threatened, and driven out Muslims. His name appears in accounts of the persecution of early Muslims as a figure who inspired particular fear.\n\nThe classical account of his conversion, recorded at length in Ibn Hisham's Sirah and confirmed in its broad outline by al-Tabari, unfolds through two stages. In the first, Umar set out one evening with the intention of killing the Prophet ﷺ. A man from the Banu Makhzum intercepted him and revealed that Umar's own sister, Fatimah bint al-Khattab, and her husband Said ibn Zayd had already accepted Islam. Umar changed course and went to his sister's home.\n\nUpon arriving, he heard the recitation of what Ibn Hisham identifies as Surah Ta-Ha (20). He entered in fury, struck his brother-in-law, and then struck his sister when she tried to protect her husband — drawing blood. The sight of his sister bleeding, and her composed refusal to recant, struck something in Umar. He demanded to see what they had been reading. His sister told him he was impure and insisted he wash before touching the pages. He did so, then read. What he read — the opening verses of Surah Ta-Ha — moved him profoundly.\n\nIn the second stage, Umar went directly to the house of al-Arqam ibn Abi al-Arqam — the Dar al-Arqam on the slope of Safa where the Prophet ﷺ and his companions had been gathering — knocked, and declared his Islam before the Prophet ﷺ himself. Ibn Hisham records that the Prophet ﷺ and his companions were so moved that their voices of takbir were heard outside.\n\nIbn Sa'd in al-Tabaqat al-Kubra and Ibn Kathir in al-Bidayah wal-Nihayah both note that the number of Muslims at the time of Umar's conversion is given as thirty-nine or forty in various narrations, with Umar being the fortieth. The conversion is linked in the sources to the Prophet's ﷺ reported supplication: 'O Allah, strengthen Islam with the one more beloved to you of the two Umars — Abu Jahl or Umar ibn al-Khattab' — recorded in Sunan al-Tirmidhi (Hadith 3681) and Musnad Ahmad.\n\nUmar's conversion altered the public posture of the Muslim community. Ibn Hisham records that after it, the Muslims began praying openly at the Kaabah for the first time — something the community had not dared do previously. The Prophet ﷺ later gave him the title al-Faruq, the one who distinguishes between truth and falsehood.",
+  "people_slugs": ["umar-ibn-al-khattab", "fatimah-bint-al-khattab", "said-ibn-zayd"],
+  "quranic_reference": ["20:1-14"],
+  "hadith_references": [
+    "Sunan al-Tirmidhi, Hadith 3681 — Prophet's ﷺ supplication for Umar's conversion",
+    "Musnad Ahmad — Supplication narration with corroborating chain"
+  ],
+  "sources": [
+    "Ibn Hisham, al-Seerah al-Nabawiyyah, Vol. 1 — Account of Umar's conversion",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3 — Biography of Umar ibn al-Khattab",
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 2 — Events of the early Makkan period",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 3 — Conversion of Umar"
+  ],
+  "related_events": ["public-dawah-begins", "emigration-to-abyssinia-second"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "caliphate-of-abu-bakr",
+  "title_en": "Caliphate of Abu Bakr al-Siddiq",
+  "title_ar": "خلافة أبي بكر الصديق",
+  "year_ah": 11,
+  "year_ce": 632,
+  "season": null,
+  "place_slug": "madinah",
+  "phase": "rashidun",
+  "summary": "Abu Bakr al-Siddiq was the first Caliph of Islam, leading the Muslim community from 11 to 13 AH (632-634 CE). His two-year caliphate was defined by suppressing the Ridda wars, completing the Quran's preservation in written form, and initiating the great conquests that would define the coming generation.",
+  "narrative": "When the Prophet ﷺ died in Rabi al-Awwal 11 AH, the Muslim community faced an existential crisis without precedent. The question of leadership was resolved at the Saqifah of Banu Sa'idah, where Abu Bakr was acclaimed as the first Caliph — the Khalifah (successor) of the Messenger of Allah. Umar ibn al-Khattab, who would succeed him, was among the first to give bay'ah (pledge of allegiance), followed swiftly by the Muhajirun and Ansar.\n\nAbu Bakr Abdullah ibn Abi Quhafah al-Siddiq was born approximately fifty-one years before the Hijrah, making him approximately sixty-one years at the time of his caliphate. His title al-Siddiq — the Truthful One — was earned through his immediate affirmation of the Isra and Miraj when others doubted, as recorded in Ibn Hisham and Ibn Kathir. He had served as the Prophet's ﷺ closest companion, accompanying him in the cave of Thawr during the Hijrah, referenced in Quran 9:40.\n\nThe first and most critical test of his caliphate was the Ridda (apostasy) wars. Tribes across Arabia — some apostasising, some refusing to pay zakat while claiming to retain Islam, and some following false prophets including Musaylimah al-Kadhdhab in Yamama and Tulayha ibn Khuwaylid in Najd — rose in widespread revolt. Abu Bakr's response, recorded in detail by al-Tabari in his Tarikh, was uncompromising. Against the advice of some companions including Umar, who argued for a softer approach toward those who still prayed, Abu Bakr held that zakat was not separable from salah: 'By Allah, I shall fight those who differentiate between salah and zakat.' Al-Tabari and Ibn Kathir both record this as one of the defining judgments of the caliphate.\n\nAbu Bakr dispatched eleven armies simultaneously under commanders including Khalid ibn al-Walid, Amr ibn al-As, and Shurahbil ibn Hasana to suppress the revolts. Within approximately a year, the Arabian Peninsula had been brought back under Islamic governance. The battle of Yamama against Musaylimah resulted in such significant casualties among the Quran's memorisers that it prompted the compilation of the Quran in written form under Zayd ibn Thabit's supervision.\n\nIn the final year of his caliphate, Abu Bakr initiated the northern campaigns that would become the great Islamic conquests — dispatching Khalid ibn al-Walid toward Iraq and Usama ibn Zayd's army toward the Byzantine borderlands. He died in Jumada al-Akhira 13 AH at approximately sixty-three years of age after a brief illness, having designated Umar ibn al-Khattab as his successor. Ibn Kathir and Ibn al-Athir in al-Kamil fil-Tarikh record that his rule lasted two years, three months, and ten days.",
+  "people_slugs": ["abu-bakr-al-siddiq", "umar-ibn-al-khattab", "khalid-ibn-al-walid"],
+  "quranic_reference": ["9:40"],
+  "hadith_references": [],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Caliphate of Abu Bakr",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 6 — Abu Bakr's caliphate",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 2 — Events of 11-13 AH",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 3 — Biography of Abu Bakr al-Siddiq"
+  ],
+  "related_events": ["saqifah-and-abu-bakrs-bayah", "ridda-wars", "compilation-of-the-quran", "caliphate-of-umar"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

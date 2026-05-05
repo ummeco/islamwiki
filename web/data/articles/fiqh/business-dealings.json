@@ -1,0 +1,40 @@
+{
+  "slug": "business-dealings",
+  "title_en": "Business Dealings and Riba Avoidance",
+  "title_ar": "المعاملات وتحريم الربا",
+  "category": "fiqh",
+  "subcategory": "muamalat",
+  "summary": "Islamic commercial law (fiqh al-mu'amalat) governs all financial transactions with the objective of justice, transparency, and mutual benefit. Central to Islamic finance is the absolute prohibition of riba (interest/usury), which Allah declared war upon, and the encouragement of risk-sharing contracts. This article covers the core principles, contract types, and the riba prohibition across the four madhabs.",
+  "content": "## Foundation\n\nIslam encourages lawful trade and commerce. Allah says: 'Allah has permitted trading and forbidden riba.' (Surah al-Baqarah, 2:275)\n\nThe Prophet ﷺ praised the honest trader: 'The truthful, trustworthy merchant will be with the prophets, the truthful, and the martyrs.' (Sunan al-Tirmidhi, Hadith 1209; graded hasan)\n\n## Riba — The Central Prohibition\n\nRiba (Arabic: الربا) means increase or excess. In Islamic law it refers to:\n\n1. **Riba al-Nasi'ah (Interest on Loans):** Any predetermined increase stipulated in a loan contract. This is the primary form — charging interest on money lent. Unanimously prohibited by all four schools and all scholars throughout history.\n\n2. **Riba al-Fadl (Exchange Riba):** Exchanging ribawi (usurious) commodities of the same type in unequal quantities, or with deferred payment. The six ribawi items from hadith: gold, silver, wheat, barley, dates, salt (Sahih Muslim, Hadith 1587).\n\nAllah says: 'O you who believe, fear Allah and give up what remains of riba, if you should be believers. And if you do not, then be informed of a war from Allah and His Messenger.' (Surah al-Baqarah, 2:278–279)\n\nThe Prophet ﷺ cursed the one who takes riba, the one who pays it, the one who records it, and the two witnesses to it. (Sahih Muslim, Hadith 1598)\n\n## Conditions of a Valid Sale Contract\n\n1. **Offer and acceptance (Ijab and Qabul)** — explicit agreement of both parties\n2. **The contracting parties** — must be capable of contracting (sane, adult or discerning child)\n3. **The subject of the contract** — must exist, be deliverable, be owned by the seller, and be lawful\n4. **The price** — must be known and agreed upon\n\n## Major Contract Types\n\n**Bay' (Sale):** Exchange of property for property. Requires delivery of goods.\n\n**Murabahah:** Cost-plus sale — seller discloses cost price and adds an agreed profit. Widely used in Islamic banking as an alternative to interest-bearing loans.\n\n**Musharakah:** Partnership — two or more parties contribute capital and share profit/loss proportionally. All schools accept this.\n\n**Mudarabah:** Silent partnership — one party provides capital, other provides labour/management; profit shared by agreement, loss borne by capital provider. All four schools permit this with some conditions.\n\n**Ijara:** Lease — exchange of benefit for rent. Analogous to conventional leasing. Used in Islamic mortgages.\n\n**Salam:** Forward sale — price paid upfront, goods delivered later. Permitted by specific hadith evidence as an exception to the general rule against selling what you do not possess. (Sahih al-Bukhari, Hadith 2240)\n\n**Istisna:** Manufacturing contract — payment for goods to be manufactured. Permitted per Hanafi school and later accepted by others for necessity.\n\n## Prohibited Transactions\n\n1. **Riba** — all forms, as above\n2. **Gharar (excessive uncertainty)** — contracts with fundamental uncertainty about subject or price\n3. **Maysir (gambling/speculation)** — transactions based on chance\n4. **Bay' al-Mu'awadhah (two-condition sales)** — prohibited forms of combined contracts\n5. **Selling what one does not possess** (with exceptions like salam)\n6. **Bay' al-'Inah** — selling an item for credit and repurchasing for cash to manufacture money — prohibited per Maliki, Shafi'i (later position), Hanbali; debated among Hanafi and early Shafi'i\n\n## Madhab Positions on Bay' al-'Inah\n\n**Hanafi:** Generally permitted in al-Hidayah; later Hanafi scholars applied it cautiously.\n**Maliki:** Prohibited as a device for riba; Maliki courts historically voided such transactions.\n**Shafi'i (authoritative position):** The Al-Umm position permits it formally, but later Shafi'i scholars moved to prohibition.\n**Hanbali:** Prohibited — Ibn Taymiyyah's extensive treatises on riba strongly oppose all workarounds.",
+  "evidence_quran": [
+    "2:275",
+    "2:278-279",
+    "4:29"
+  ],
+  "evidence_hadith": [
+    "Sahih Muslim, Hadith 1587 — six ribawi items",
+    "Sahih Muslim, Hadith 1598 — curse on riba parties",
+    "Sunan al-Tirmidhi, Hadith 1209 — honest trader",
+    "Sahih al-Bukhari, Hadith 2240 — salam contract permitted"
+  ],
+  "madhab_positions": {
+    "hanafi": "Most detailed commercial jurisprudence. Bay' al-'inah debated. Istisna' uniquely permitted. Gharar definition broader.",
+    "maliki": "Strong anti-riba position with broad concept of sadd al-dhara'i' (blocking pretexts). Bay' al-'inah prohibited. Most restrictive on riba-adjacent transactions.",
+    "shafii": "Al-Umm permits bay' al-'inah formally; later dominant view is prohibition. Comprehensive treatment in al-Nawawi's al-Majmu'.",
+    "hanbali": "Strong prohibition of all riba workarounds, per Ibn Taymiyyah. Bay' al-'inah prohibited. Detailed in Ibn Qudamah's al-Mughni."
+  },
+  "related_slugs": [
+    "zakah-overview",
+    "inheritance-overview",
+    "nikkah-fundamentals"
+  ],
+  "sources": [
+    "Quran 2:275-279; 4:29",
+    "Sahih Muslim, Kitab al-Buyu'",
+    "Ibn Qudamah, al-Mughni, Kitab al-Buyu'",
+    "Ibn Taymiyyah, al-Qawa'id al-Nuraniyyah al-Fiqhiyyah",
+    "Al-Nawawi, al-Majmu', Kitab al-Buyu'"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

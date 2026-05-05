@@ -1,0 +1,27 @@
+{
+  "slug": "battle-of-yamama",
+  "title_en": "Battle of Yamama",
+  "title_ar": "معركة اليمامة",
+  "year_ah": 12,
+  "year_ce": 633,
+  "season": null,
+  "place_slug": "yamama",
+  "phase": "rashidun",
+  "summary": "The Battle of Yamama in 12 AH was the decisive engagement of the Ridda wars, fought between the Muslim army under Khalid ibn al-Walid and the followers of Musaylimah al-Kadhdhab — the false prophet of Yamama in central Arabia. Musaylimah was killed and his movement destroyed, but the Muslim casualties were so severe they prompted the first written compilation of the Quran.",
+  "narrative": "Musaylimah ibn Habib, known in Islamic history as Musaylimah al-Kadhdhab (the Liar), was a leader of the Banu Hanifa tribe of Yamama in central Arabia who claimed prophethood — even, according to some accounts, requesting that Muhammad ﷺ share prophethood with him during his lifetime. After the death of the Prophet ﷺ, he mobilised tens of thousands of followers, representing one of the most serious threats to the young Muslim state.\n\nAl-Tabari records in detail the two-phase battle. In the first phase, the Banu Hanifa proved formidable fighters, pushing the Muslims back and at one point entering the camp of Khalid ibn al-Walid. Khalid reorganised his forces by tribal groupings rather than mixing them — a tactical response to the confused fighting — and on the second advance the tide turned decisively. The Banu Hanifa withdrew into a large walled garden known in the sources as Hadiqat al-Mawt — the Garden of Death.\n\nWahshi ibn Harb, who had killed the Prophet's ﷺ uncle Hamza at the Battle of Uhud and had since embraced Islam, is recorded by Ibn Kathir and al-Tabari as having thrown his spear at Musaylimah, wounding him. Abu Dujana or a companion named al-Wahshi — the sources give both — is credited with the killing blow. Musaylimah died in the garden. Al-Tabari records his corpse was identified among the dead by a woman of the Banu Hanifa who cried out that the master of her people had been killed.\n\nThe Muslim casualties at Yamama were severe. Ibn Hisham and Ibn Sa'd record the death of approximately seven hundred men who had memorised the Quran — the hurrass (memorisers) — in the battle or the preceding fighting of the Ridda wars. This figure prompted Abu Bakr's companion Umar ibn al-Khattab to approach the Caliph urgently, arguing that if the memorisers continued to be lost in battle, large portions of the Quran might be lost forever. Abu Bakr initially hesitated — performing an act that the Prophet ﷺ had not done seemed to him an innovation — but Umar pressed the point until Abu Bakr was convinced. He summoned Zayd ibn Thabit to undertake the compilation.\n\nIbn al-Athir in al-Kamil fil-Tarikh and Ibn Kathir both confirm the Yamama casualties as the direct impetus for the written Quran compilation, connecting the two events explicitly. The battle was fought in 12 AH, approximately one year into Abu Bakr's caliphate.",
+  "people_slugs": ["khalid-ibn-al-walid", "musaylimah-al-kadhdhab", "wahshi-ibn-harb", "zayd-ibn-thabit"],
+  "quranic_reference": [],
+  "hadith_references": [
+    "Sahih al-Bukhari, Book 66 (Virtues of the Quran), Hadith 507 — Abu Bakr, Umar, and Quran compilation after Yamama"
+  ],
+  "sources": [
+    "al-Tabari, Tarikh al-Rusul wal-Muluk, Vol. 3 — Battle of Yamama and Ridda wars",
+    "Ibn Sa'd, al-Tabaqat al-Kubra, Vol. 2 — Military operations of Abu Bakr's caliphate",
+    "Ibn Kathir, al-Bidayah wal-Nihayah, Vol. 6 — Yamama and Musaylimah",
+    "Ibn al-Athir, al-Kamil fil-Tarikh, Vol. 2 — Events of 12 AH"
+  ],
+  "related_events": ["ridda-wars", "caliphate-of-abu-bakr", "compilation-of-the-quran"],
+  "reviewed_by_human": false,
+  "review_status": "pending",
+  "draft_date": "2026-05-04"
+}

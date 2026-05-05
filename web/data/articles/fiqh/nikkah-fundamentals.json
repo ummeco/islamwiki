@@ -1,0 +1,41 @@
+{
+  "slug": "nikkah-fundamentals",
+  "title_en": "Nikkah (Marriage in Islam)",
+  "title_ar": "النكاح",
+  "category": "fiqh",
+  "subcategory": "family-law",
+  "summary": "Nikkah is the Islamic marriage contract, a solemn covenant (mithaq ghalizh) binding two individuals in lawful union. It is the only legitimate means for sexual relations in Islam and is strongly encouraged as part of completing one's deen. This article covers the conditions, pillars, and legal requirements of marriage across the four major madhabs.",
+  "content": "## Definition and Status\n\nNikkah (Arabic: النكاح, marriage) is the contract establishing lawful marital union between a man and a woman. Allah describes it as a solemn covenant (mithaq ghalizh): 'And they (women) have taken from you a solemn covenant.' (Surah al-Nisa', 4:21)\n\nThe Prophet ﷺ said: 'O youth, whoever among you is able to marry, let him marry, for it is more lowering to the gaze and more protective of the private parts. And whoever cannot, let him fast, for fasting is a deterrent for him.' (Sahih al-Bukhari, Hadith 5066; Sahih Muslim, Hadith 1400)\n\n**Legal status of marriage:**\n- **Obligatory (wajib):** When one fears falling into prohibited sexual acts without it and is capable\n- **Recommended (mustahabb):** The general ruling for those with desire and means\n- **Permissible (mubah):** For those with no strong urge\n- **Disliked (makruh):** If one would neglect the wife's rights\n- **Prohibited (haram):** If marriage would lead to harm to the spouse without justification\n\n## Pillars and Conditions\n\n### Pillars (Arkan) — All Four Schools\n1. **Offer and acceptance (Ijab and Qabul)** — The verbal contract between the guardian (wali) of the bride and the groom (or their representatives)\n2. **The two parties (spouses)** — Must be capable of contracting\n3. **The wali (guardian)** — The bride's closest male relative (required per Shafi'i, Maliki, Hanbali; see below for Hanafi)\n\n### Conditions (Shurut) for Validity\n1. **Identified spouses** — Both parties clearly named or known\n2. **Absence of prohibitions** — No existing marriage that would make this union prohibited (e.g., a woman cannot marry while in the waiting period iddah)\n3. **Two witnesses** — Required by all schools for validity\n4. **Mahr (dower)** — A gift from the groom to the bride, her exclusive right; the marriage is valid without specifying it but the mahr of equivalent (mahr al-mithl) becomes due\n\n## The Wali (Guardian) — Key Scholarly Difference\n\n| School | Wali Required? | Woman's Ability to Contract |\n|---|---|---|\n| **Hanafi** | Not a pillar; a woman can contract her own marriage | Valid without wali if parties are suitable (kafaa) |\n| **Maliki** | Required; but woman with a non-functioning wali can have a qadi (judge) act | Judge or sultan acts as wali |\n| **Shafi'i** | **Required; pillar of the contract** | Marriage without wali is invalid |\n| **Hanbali** | **Required; pillar of the contract** | Marriage without wali is invalid |\n\nThe Prophet ﷺ said: 'There is no marriage except with a wali.' (Sunan Abu Dawud, Hadith 2085; graded sahih) — This is the basis for the majority position. Hanafis interpret this hadith differently or as applying to specific circumstances.\n\n## Mahr (Dower)\n\nThe mahr is an obligatory gift from the groom to the bride. It is her exclusive property — not the family's. It may be paid immediately (mu'ajjal) or deferred (mu'ajjal ila ajal). There is no minimum or maximum amount per Shafi'i and Hanbali schools; Hanafi and Maliki set minimum amounts (10 dirhams per Hanafi; 3 dirhams per Maliki in some narrations).\n\nAllah says: 'And give the women their dowers willingly.' (Surah al-Nisa', 4:4)\n\n## Prohibitions in Marriage\n\n**Permanent prohibitions (mahram):**\n- Blood relatives: mother, daughter, sister, aunt (paternal/maternal), niece\n- Milk relatives (rada'ah): those with whom one shared suckling in infancy\n- Affinal relatives: mother-in-law, stepdaughter (if marriage consummated), daughter-in-law, stepmother\n\n**Temporary prohibitions:**\n- A fifth wife while already having four\n- A woman currently in iddah (waiting period)\n- Combining two sisters in marriage\n- Marrying a woman who is a polytheist (mushrik)\n\n## Forbidden Marriages\n\nMut'ah (temporary marriage) — explicitly prohibited in the Sunnah: 'The Prophet ﷺ forbade mut'ah marriage on the day of Khaybar.' (Sahih al-Bukhari, Hadith 5115; Sahih Muslim, Hadith 1407). This is agreed upon by all four Sunni schools. Shi'a Muslims permit it, which is rejected by the Sunni scholarly consensus.",
+  "evidence_quran": [
+    "4:4",
+    "4:21",
+    "2:221",
+    "4:24"
+  ],
+  "evidence_hadith": [
+    "Sahih al-Bukhari, Hadith 5066 — marry O youth",
+    "Sunan Abu Dawud, Hadith 2085 — no marriage without wali",
+    "Sahih al-Bukhari, Hadith 5115 — prohibition of mut'ah"
+  ],
+  "madhab_positions": {
+    "hanafi": "Wali not a pillar; adult woman may contract own marriage. No minimum mahr established in some positions; 10 dirhams per other Hanafi sources. Broad definition of valid contracts.",
+    "maliki": "Wali required; judge substitutes for absent/non-functioning wali. Minimum mahr (3 dirhams per some reports). Oral contract sufficient if witnessed.",
+    "shafii": "Wali is a pillar; marriage without wali is invalid. No minimum mahr. Two witnesses required. Salawat in the khutbah al-nikah is sunnah.",
+    "hanbali": "Wali is a pillar. No minimum mahr. Two witnesses required. Conditions for kafaa (compatibility) discussed extensively in al-Mughni."
+  },
+  "related_slugs": [
+    "talaq-fundamentals",
+    "inheritance-overview",
+    "fard-vs-sunnah-vs-mustahabb"
+  ],
+  "sources": [
+    "Quran 4:4; 4:21; 2:221",
+    "Sahih al-Bukhari, Kitab al-Nikah",
+    "Ibn Qudamah, al-Mughni, Kitab al-Nikah",
+    "Al-Nawawi, al-Majmu'",
+    "Al-Marghinani, al-Hidayah (Hanafi)",
+    "Ibn Rushd, Bidayat al-Mujtahid"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

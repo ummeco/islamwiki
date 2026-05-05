@@ -1,0 +1,34 @@
+{
+  "slug": "nuzhat-al-nazar",
+  "title_en": "Nuzhat al-Nazar",
+  "title_ar": "نزهة النظر في توضيح نخبة الفكر",
+  "title_full_ar": "نزهة النظر في توضيح نخبة الفكر في مصطلح أهل الأثر",
+  "author_slug": "ibn-hajar-al-asqalani",
+  "subject": "usul-al-hadith",
+  "subjects": [
+    "usul-al-hadith",
+    "hadith",
+    "mustalah-al-hadith"
+  ],
+  "language": "ar",
+  "year_compiled_ah": 852,
+  "year_compiled_ce": 1448,
+  "summary": "Nuzhat al-Nazar fi Tawdih Nukhbat al-Fikar is the explanatory commentary by Imam Ibn Hajar al-Asqalani on his own foundational text Nukhbat al-Fikar fi Mustalah Ahl al-Athar. Together they form the most widely studied classical introduction to the science of hadith terminology (mustalah al-hadith), covering the classification of hadith by chain strength, narrator reliability, and textual variants.",
+  "overview": "Nuzhat al-Nazar fi Tawdih Nukhbat al-Fikar ('The Pleasant Excursion in Clarifying the Elite Thoughts') by Imam Ibn Hajar al-Asqalani (773–852 AH / 1372–1449 CE) is a self-commentary by the author on his original concise treatise Nukhbat al-Fikar. Together the two texts form the standard introductory syllabus for the science of hadith terminology (mustalah al-hadith, also called ulum al-hadith) in Islamic institutions worldwide.\n\nThe Nukhba (as it is commonly called) presents a systematic classification of all types of hadith based on the strength and nature of their chains of transmission (isnad). Ibn Hajar organises the classification in a logical tree structure, proceeding from the single-narrator report (khabar al-wahid) through degrees of chain strength, distinguishing the sahih (sound), hasan (good), da'if (weak), and mawdu' (fabricated) grades, and then further subdivisions. The Nuzha provides detailed explanation, examples, and legal implications for each category.\n\nKey concepts covered include: mutawatir vs. ahad transmission; the conditions for a sahih isnad (upright narrator, precise memory, connected chain, absence of anomaly, absence of hidden defect); the categories of da'if hadith (munqati'/broken, mursal/missing Companion, mudallas/deceptively transmitted, shadhdh/anomalous, mu'allal/secretly defective); the categories of narrator reliability (thiqa, hasan, da'if, matruk, kadhdhab); and the rules for using weak hadith in non-legal contexts (fadha'il al-a'mal debates).\n\nThe Nuzha's conciseness made it ideal for memorisation and pedagogical use. Dozens of commentaries and supercommentaries have been written on it. The most widely used modern explanation is by Shaykh Ali ibn Hasan al-Halabi and the critical edition with notes by Nur al-Din Itr. The text is the first book assigned to hadith students in most Islamic universities from Saudi Arabia to Pakistan to West Africa, making it the most influential introduction to hadith methodology ever written.",
+  "structure": "One volume; the Nukhba text is concise (~15 pages); Nuzha commentary extends it to 80-150 pages depending on edition",
+  "translations": [
+    {
+      "language": "en",
+      "translator": "Musa Furber",
+      "status": "available"
+    },
+    {
+      "language": "en",
+      "translator": "Various academic translations",
+      "status": "partial"
+    }
+  ],
+  "available_at": [],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

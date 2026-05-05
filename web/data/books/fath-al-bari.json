@@ -1,0 +1,32 @@
+{
+  "slug": "fath-al-bari",
+  "title_en": "Fath al-Bari",
+  "title_ar": "فتح الباري شرح صحيح البخاري",
+  "title_full_ar": "فتح الباري بشرح صحيح الإمام أبي عبد الله محمد بن إسماعيل البخاري",
+  "author_slug": "ibn-hajar-al-asqalani",
+  "subject": "hadith-commentary",
+  "subjects": [
+    "hadith",
+    "fiqh",
+    "rijal",
+    "usul-al-hadith"
+  ],
+  "language": "ar",
+  "year_compiled_ah": 852,
+  "year_compiled_ce": 1448,
+  "summary": "Fath al-Bari is the definitive multi-volume commentary on Sahih al-Bukhari by Imam Ibn Hajar al-Asqalani (d. 852 AH / 1449 CE), universally regarded as the most authoritative explanation of the most authoritative hadith collection in the Sunni tradition. It remains the primary scholarly reference for understanding the legal, theological, and biographical dimensions of al-Bukhari's work.",
+  "overview": "Fath al-Bari — 'The Opening of the Creator' — is the masterwork of Shihab al-Din Ahmad ibn Ali ibn Hajar al-Asqalani (773–852 AH / 1372–1449 CE), the chief judge (qadi al-qudat) of Egypt and the foremost hadith scholar of the ninth Islamic century. The work is a complete, chapter-by-chapter commentary on Sahih al-Bukhari, widely held to be the most comprehensively researched explanation of that text ever produced.\n\nIbn Hajar began the project in 817 AH and completed it in 842 AH — a labour spanning approximately twenty-five years. He reportedly spent several years on the introductory volume alone (Hady al-Sari, 'The Guide of the Night Traveller'), which functions as a standalone encyclopedia of al-Bukhari's method, biographical information on his narrators, and responses to criticisms levelled at the collection.\n\nThe main body of Fath al-Bari addresses each chapter heading (tarjama al-bab) composed by al-Bukhari — a notoriously subtle art, since al-Bukhari embedded his fiqh positions within his chapter titles. Ibn Hajar unpacks the legal intent behind these headings, resolves apparent contradictions between hadiths, grades narrators in the chains, cross-references parallel narrations in Sahih Muslim and the Sunan works, and synthesises the positions of all four major madhabs on each legal question. His treatment of rijal (narrator evaluation) is exhaustive, drawing on his own monumental Tahdhib al-Tahdhib and Taqrib al-Tahdhib as primary references.\n\nThe commentary also contains significant contributions to Quranic exegesis (tafsir) in the relevant sections, extensive discussion of Arabic linguistics, and biographical notes on hundreds of Companions and Successors. Ibn Hajar's judgements on hadith authenticity, often phrased as 'its isnad is hasan' or 'in its chain is so-and-so who is weak', are cited by scholars across all madhabs as authoritative determinations.\n\nFath al-Bari is printed in thirteen or fourteen volumes depending on the edition. The standard modern edition is published by Dar al-Ma'rifah (Beirut), based on the text verified by Muhibb al-Din al-Khatib. It is accompanied by Ibn Hajar's own index, Taghliq al-Ta'liq. Ibn Hajar also wrote Nukhbat al-Fikar on hadith methodology, which serves as a companion to understanding the critical framework employed throughout Fath al-Bari.\n\nOther major commentaries on Sahih al-Bukhari include Umdah al-Qari by al-Ayni (d. 855 AH), a Hanafi counterpart that disputes many of Ibn Hajar's positions from a Hanafi-legal lens, and Irshad al-Sari by al-Qastallani (d. 923 AH), which largely condenses and harmonises the two earlier works. Ibn Hajar's is universally considered the most complete.",
+  "structure": "Introductory volume (Hady al-Sari) + 13 volumes of commentary covering 97 books of Sahih al-Bukhari",
+  "translations": [
+    {
+      "language": "en",
+      "translator": "Partial translations available",
+      "status": "partial"
+    }
+  ],
+  "available_at": [
+    "sunnah.com/bukhari (text basis)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}

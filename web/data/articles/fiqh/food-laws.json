@@ -1,0 +1,42 @@
+{
+  "slug": "food-laws",
+  "title_en": "Food Laws in Islam (Halal and Haram)",
+  "title_ar": "أحكام الأطعمة",
+  "category": "fiqh",
+  "subcategory": "food-and-drink",
+  "summary": "Islamic food law (ahkam al-at'imah) permits most foods and prohibits a defined set of items including pork, blood, carrion, and intoxicants. Permitted meat requires slaughter by a Muslim (or People of the Book) with a prescribed method (tasmiyyah and dhaka). Understanding these rules is essential for Muslims living in all contexts.",
+  "content": "## Foundation\n\nAllah created the earth's provisions for humanity: 'He it is who created for you all that is in the earth.' (Surah al-Baqarah, 2:29)\n\nThe Quranic principle is that all food is permissible unless explicitly prohibited: 'O mankind, eat from whatever is on earth [that is] lawful and good.' (Surah al-Baqarah, 2:168)\n\n## Explicitly Prohibited Foods\n\nAllah enumerates the primary prohibitions: 'He has only forbidden to you dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allah. But whoever is forced [by necessity], neither desiring [it] nor transgressing [its limit] — there is no sin upon him.' (Surah al-Baqarah, 2:173; repeated in 5:3; 6:145; 16:115)\n\n1. **Maytah (Carrion):** Animals that died without proper slaughter — from natural death, strangling, beating, falling, being gored, or being attacked by a predator. Exception: fish and locusts are permitted even without slaughter.\n2. **Blood (dam masfuh):** Flowing blood. Blood that remains in the meat after proper slaughter is forgiven.\n3. **Pork (lahm al-khinzir):** The pig in its entirety including its fat (per the majority; some scholars restrict the prohibition to flesh only).\n4. **Animals slaughtered for other than Allah:** Those over which a name other than Allah's was invoked at the time of slaughter.\n5. **Intoxicants (khamr and all intoxicating substances):** All drinks and substances that intoxicate are prohibited, regardless of quantity. 'Whatever intoxicates in large quantities, a small quantity of it is also forbidden.' (Sunan Abu Dawud, Hadith 3681; graded sahih)\n\n## Dhaka — The Islamic Method of Slaughter\n\nFor land animals to be permissible, they must be slaughtered according to the Islamic method:\n1. The slaughterer must be Muslim or from the People of the Book (Ahl al-Kitab — Jews and Christians)\n2. The name of Allah must be mentioned (tasmiyyah: 'Bismillah Allahu Akbar') at the time of slaughter\n3. The throat, windpipe, and two jugular veins must be cut with a sharp instrument\n4. The animal should be alive and healthy at the time of slaughter\n\n**Food of the People of the Book:** 'This day, the good foods have been made lawful, and the food of those who were given the Scripture is lawful for you, and your food is lawful for them.' (Surah al-Ma'idah, 5:5) — This verse allows eating meat slaughtered by Jews and Christians without requiring tasmiyyah to be individually witnessed.\n\n## Animals Prohibited by Sunnah\n\nBeyond the Quranic prohibitions, the Prophet ﷺ prohibited additional categories:\n- Predatory animals with fangs (siba' al-wuhush): lions, tigers, wolves, dogs (Sahih Muslim, Hadith 1934)\n- Birds of prey with talons: hawks, eagles, falcons (Sahih Muslim, Hadith 1934)\n- Donkeys (Sahih al-Bukhari, Hadith 5520)\n- Insects with the exception of locusts per the majority\n\n## Madhab Positions on Sea Creatures\n\n**Hanafi:** Only fish is permitted from the sea. Other sea creatures (shrimp, lobster, crab, oyster) are prohibited or disliked (makruh) per the dominant Hanafi position.\n**Maliki, Shafi'i, Hanbali:** All sea creatures are permissible — based on: 'Its water is pure and its dead are halal.' (Muwatta Imam Malik, Hadith 43; Sunan al-Tirmidhi, Hadith 69)\n\n## Necessity (Darurah)\n\nIf a Muslim faces death by starvation and no permitted food is available, it becomes permissible to consume otherwise prohibited food in the minimum amount necessary to sustain life. This is an established principle from Surah al-Baqarah 2:173.",
+  "evidence_quran": [
+    "2:168",
+    "2:173",
+    "5:3",
+    "5:5",
+    "6:145"
+  ],
+  "evidence_hadith": [
+    "Sahih Muslim, Hadith 1934 — prohibition of predatory animals and birds with talons",
+    "Sahih al-Bukhari, Hadith 5520 — prohibition of domestic donkey",
+    "Sunan Abu Dawud, Hadith 3681 — small quantity of intoxicant also forbidden",
+    "Muwatta Imam Malik, Hadith 43 — sea: its dead are halal"
+  ],
+  "madhab_positions": {
+    "hanafi": "Sea creatures other than fish are prohibited or makruh. Prohibition of eating all animals slaughtered without tasmiyyah even by People of the Book — stricter position than majority.",
+    "maliki": "All sea creatures permitted. Food of People of the Book permitted. More permissive on doubtful cases.",
+    "shafii": "All sea creatures permitted. Fat of pig included in prohibition. Detailed rules on hunting in al-Nawawi's Majmu'.",
+    "hanbali": "All sea creatures permitted. Detailed treatment in al-Mughni. Follows same broad permissibility as Maliki and Shafi'i."
+  },
+  "related_slugs": [
+    "dress-modesty",
+    "ibadah-overview",
+    "fard-vs-sunnah-vs-mustahabb"
+  ],
+  "sources": [
+    "Quran 2:173; 5:3; 5:5; 6:145",
+    "Sahih Muslim, Kitab al-Sayd wal-Dhaba'ih",
+    "Ibn Qudamah, al-Mughni, Kitab al-At'imah",
+    "Al-Nawawi, al-Majmu'",
+    "Al-Marghinani, al-Hidayah (Hanafi)"
+  ],
+  "reviewed_by_human": false,
+  "review_status": "pending"
+}
