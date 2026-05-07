@@ -9,6 +9,8 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { getLocale, isRtl } from '@/lib/i18n'
 import { headers } from 'next/headers'
+// S05-06: @ummat/consent — anonymous-visitor default; explicit-opt-in per D-P3-21
+import { ConsentProvider, CookieBanner } from '@ummat/consent'
 import './globals.css'
 
 const geistSans = Geist({
@@ -125,6 +127,12 @@ export default async function RootLayout({
         {/* CSP nonce propagated to any inline style/script tags injected by Next.js
             during server rendering. Nonce is generated per-request in middleware.ts */}
         {nonce && <meta name="csp-nonce" content={nonce} />}
+        {/* D-P3-21: Umami analytics script */}
+        <Script
+          async
+          src="https://cloud.umami.is/script.js"
+          data-website-id="<UMAMI_WEBSITE_ID>"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${amiri.variable} ${scheherazade.variable} ${notoNaskhArabic.variable} font-sans antialiased`}
@@ -135,25 +143,23 @@ export default async function RootLayout({
         >
           Skip to content
         </a>
-        <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>
-          <WebsiteJsonLd />
-          <Header />
-          <main id="main-content" className="min-h-screen pt-20">{children}</main>
-          <Footer />
-        </ThemeProvider>
+        {/* S05-06: ConsentProvider — anonymous visitors default; explicit-opt-in per D-P3-21.
+            islamwiki: no user accounts = minimal data collection. */}
+        <ConsentProvider>
+          <ThemeProvider attribute="data-theme" defaultTheme="system" enableSystem>
+            <WebsiteJsonLd />
+            <Header />
+            <main id="main-content" className="min-h-screen pt-20">{children}</main>
+            <Footer />
+          </ThemeProvider>
+          {/* S30-T03: GDPR/CCPA cookie banner — Umami fires only after analytics consent. */}
+          <CookieBanner
+            privacyPolicyUrl="/legal/privacy"
+            cookiePolicyUrl="/legal/cookies"
+          />
+        </ConsentProvider>
         <Analytics />
         <SpeedInsights />
-        {/* Umami Analytics — privacy-first, no cookies, no PII, self-hosted.
-            NEXT_PUBLIC_UMAMI_WEBSITE_ID + NEXT_PUBLIC_UMAMI_HOST_URL from Vercel env vars.
-            Vault keys: UMAMI_ISLAMWIKI_WEBSITE_ID, UMAMI_HOST_URL. No-op if not set. */}
-        {process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID && process.env.NEXT_PUBLIC_UMAMI_HOST_URL && (
-          <Script
-            src={`${process.env.NEXT_PUBLIC_UMAMI_HOST_URL}/script.js`}
-            data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
-            strategy="afterInteractive"
-            defer
-          />
-        )}
       </body>
     </html>
   )

@@ -72,6 +72,13 @@ export function LocaleSwitcher({ currentLocale }: LocaleSwitcherProps) {
                 locale === currentLocale ? 'font-medium text-iw-accent' : 'text-iw-text'
               }`}
               onClick={() => {
+                // Track translation toggle
+                if (typeof window !== 'undefined' && window.umami) {
+                  window.umami.track('islamwiki.translation.toggled', {
+                    from_locale: currentLocale,
+                    to_locale: locale,
+                  })
+                }
                 setOpen(false)
                 if (typeof window !== 'undefined') {
                   localStorage.setItem('iw-locale', locale)

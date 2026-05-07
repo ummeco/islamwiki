@@ -76,6 +76,14 @@ export function EditModal({
         return
       }
 
+      // Track article contribution
+      if (typeof window !== 'undefined' && window.umami) {
+        window.umami.track('islamwiki.article.contributed', {
+          content_type: contentType,
+          edit_type: isMinor ? 'minor' : 'major',
+        })
+      }
+
       setStatus('success')
     } catch {
       setErrorMsg('Network error. Please try again.')
