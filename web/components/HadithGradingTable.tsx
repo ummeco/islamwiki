@@ -56,11 +56,11 @@ export function HadithGradingTable({ hadith_id, gradings, isLoading }: HadithGra
           >
             {isExpanded ? (
               <>
-                <ChevronDown size={14} /> Collapse
+                <ChevronDown width={14} height={14} /> Collapse
               </>
             ) : (
               <>
-                <ChevronRight size={14} /> Expand
+                <ChevronRight width={14} height={14} /> Expand
               </>
             )}
           </button>
