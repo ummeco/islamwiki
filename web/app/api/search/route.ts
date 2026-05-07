@@ -13,11 +13,17 @@ const MEILISEARCH_INDEX = 'islamwiki'
  * When `type` param is provided, queries the dedicated per-type index for
  * higher relevance and type-specific filterable attributes.
  * Falls back to the monolithic `islamwiki` index for multi-type searches.
+ *
+ * S30-02: Added type=all for backwards compat; defaults to all indices.
  */
+const ALLOWED_TYPES = ['quran', 'hadith', 'book', 'article', 'all'] as const
+
 const TYPE_TO_INDEX: Record<string, string> = {
   quran: INDEX_NAMES.quran,
   hadith: INDEX_NAMES.hadith,
   book: INDEX_NAMES.books,
+  article: INDEX_NAMES.articles,
+  all: MEILISEARCH_INDEX,
 }
 
 /**

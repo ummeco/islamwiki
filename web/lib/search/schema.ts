@@ -30,7 +30,7 @@ export const INDEX_SCHEMAS: IndexSchema[] = [
     name: INDEX_NAMES.quran,
     primaryKey: 'id',
     settings: {
-      searchableAttributes: ['text_en', 'text_ar', 'surah_slug', 'surah_number_str'],
+      searchableAttributes: ['text_en', 'text_ar', 'arabic_root', 'phonetic', 'surah_slug', 'surah_number_str'],
       filterableAttributes: ['surah_number', 'juz', 'revelation_type', 'page'],
       sortableAttributes: ['surah_number', 'ayah_number', 'juz'],
       rankingRules: [
@@ -54,7 +54,7 @@ export const INDEX_SCHEMAS: IndexSchema[] = [
     name: INDEX_NAMES.hadith,
     primaryKey: 'id',
     settings: {
-      searchableAttributes: ['text_en', 'text_ar', 'collection_name', 'book_name'],
+      searchableAttributes: ['text_en', 'text_ar', 'arabic_root', 'phonetic', 'collection_name', 'book_name'],
       filterableAttributes: ['collection_slug', 'book_slug', 'grade'],
       sortableAttributes: ['collection_slug', 'number'],
       rankingRules: [
