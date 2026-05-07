@@ -1,0 +1,186 @@
+{
+  "terms": [
+    {
+      "term": "Muhammad",
+      "arabic": "محمد",
+      "transliteration": "Muhammad",
+      "misspellings": ["Mohammed", "Mohammad", "Mahomet", "Mohamed", "Mahammad"],
+      "arabic_root": "ح م د",
+      "tags": ["prophet", "name", "personal"]
+    },
+    {
+      "term": "Quran",
+      "arabic": "القرآن",
+      "transliteration": "al-Qur'an",
+      "misspellings": ["Koran", "Qur'an", "Quran", "Kuraan", "Al-Quran"],
+      "arabic_root": "ق ر ن",
+      "tags": ["scripture", "revelation", "primary-source"]
+    },
+    {
+      "term": "Salat",
+      "arabic": "الصلاة",
+      "transliteration": "as-Salah",
+      "misspellings": ["Salah", "Solah", "Salaat", "Salaah", "Prayer"],
+      "arabic_root": "ص ل ي",
+      "tags": ["pillar", "worship", "daily-practice"]
+    },
+    {
+      "term": "Zakat",
+      "arabic": "الزكاة",
+      "transliteration": "az-Zakah",
+      "misspellings": ["Zaka", "Zakaat", "Zakaah", "Charity", "Almsgiving"],
+      "arabic_root": "ز ك و",
+      "tags": ["pillar", "charity", "purification"]
+    },
+    {
+      "term": "Hajj",
+      "arabic": "الحج",
+      "transliteration": "al-Hajj",
+      "misspellings": ["Haj", "Hadji", "Hajji", "Hajg", "Pilgrimage"],
+      "arabic_root": "ح ج ج",
+      "tags": ["pillar", "journey", "mecca"]
+    },
+    {
+      "term": "Hijab",
+      "arabic": "الحجاب",
+      "transliteration": "al-Hijab",
+      "misspellings": ["Hijaab", "Hijabh", "Hijab", "Veil", "Headscarf"],
+      "arabic_root": "ح ج ب",
+      "tags": ["dress", "modesty", "women"]
+    },
+    {
+      "term": "Hadith",
+      "arabic": "الحديث",
+      "transliteration": "al-Hadith",
+      "misspellings": ["Hadis", "Hadis", "Hadeeth", "Hadees", "Tradition"],
+      "arabic_root": "ح د ث",
+      "tags": ["scripture", "prophetic-tradition", "secondary-source"]
+    },
+    {
+      "term": "Surah",
+      "arabic": "السورة",
+      "transliteration": "as-Surah",
+      "misspellings": ["Sura", "Surah", "Chapter", "Soroh", "Surat"],
+      "arabic_root": "س و ر",
+      "tags": ["scripture", "quranic-structure"]
+    },
+    {
+      "term": "Ayah",
+      "arabic": "الآية",
+      "transliteration": "al-Ayah",
+      "misspellings": ["Aya", "Ayat", "Ayah", "Verse", "Ayah"],
+      "arabic_root": "ا ي ة",
+      "tags": ["scripture", "quranic-unit"]
+    },
+    {
+      "term": "Fiqh",
+      "arabic": "الفقه",
+      "transliteration": "al-Fiqh",
+      "misspellings": ["Figh", "Figah", "Jurisprudence", "Fiqah", "Fiq"],
+      "arabic_root": "ف ق ه",
+      "tags": ["jurisprudence", "law", "understanding"]
+    },
+    {
+      "term": "Aqeedah",
+      "arabic": "العقيدة",
+      "transliteration": "al-'Aqidah",
+      "misspellings": ["Aqida", "Aqeedah", "Aqeeda", "Creed", "Aqeedah"],
+      "arabic_root": "ع ق د",
+      "tags": ["theology", "belief", "doctrine"]
+    },
+    {
+      "term": "Sunnah",
+      "arabic": "السنة",
+      "transliteration": "as-Sunnah",
+      "misspellings": ["Sunah", "Sunnah", "Sunneh", "Sunnoh", "Tradition"],
+      "arabic_root": "س ن ن",
+      "tags": ["prophetic-example", "tradition", "precedent"]
+    },
+    {
+      "term": "Ramadan",
+      "arabic": "رمضان",
+      "transliteration": "Ramadhan",
+      "misspellings": ["Ramzan", "Ramazan", "Ramadaan", "Ramadan", "Ramadhaan"],
+      "arabic_root": "ر م ض",
+      "tags": ["month", "fasting", "islamic-calendar"]
+    },
+    {
+      "term": "Tafsir",
+      "arabic": "التفسير",
+      "transliteration": "at-Tafsir",
+      "misspellings": ["Tafseer", "Tafsir", "Tafsiir", "Exegesis", "Commentary"],
+      "arabic_root": "ف س ر",
+      "tags": ["quran-study", "interpretation", "scholarship"]
+    },
+    {
+      "term": "Isnad",
+      "arabic": "الإسناد",
+      "transliteration": "al-Isnad",
+      "misspellings": ["Isnad", "Isnād", "Isnod", "Chain", "Authority"],
+      "arabic_root": "س ن د",
+      "tags": ["hadith-science", "chain-of-narrators", "authentication"]
+    },
+    {
+      "term": "Masjid",
+      "arabic": "المسجد",
+      "transliteration": "al-Masjid",
+      "misspellings": ["Mosque", "Masjid", "Mesjid", "Mosq", "Majid"],
+      "arabic_root": "س ج د",
+      "tags": ["place-of-worship", "prayer-space", "community"]
+    },
+    {
+      "term": "Dua",
+      "arabic": "الدعاء",
+      "transliteration": "ad-Du'a",
+      "misspellings": ["Dua", "Doaa", "Duaa", "Supplication", "Prayer"],
+      "arabic_root": "د ع و",
+      "tags": ["worship", "supplication", "invocation"]
+    },
+    {
+      "term": "Seerah",
+      "arabic": "السيرة",
+      "transliteration": "as-Sirah",
+      "misspellings": ["Sirah", "Seerah", "Sira", "Biography", "Siroh"],
+      "arabic_root": "س ي ر",
+      "tags": ["biography", "prophetic-history", "narrative"]
+    },
+    {
+      "term": "Madhab",
+      "arabic": "المذهب",
+      "transliteration": "al-Madhab",
+      "misspellings": ["Madhhab", "Madhab", "Madab", "School", "Mashhab"],
+      "arabic_root": "ذ ه ب",
+      "tags": ["jurisprudence", "school-of-law", "methodology"]
+    },
+    {
+      "term": "Ihram",
+      "arabic": "الإحرام",
+      "transliteration": "al-Ihram",
+      "misspellings": ["Ehram", "Ihram", "Ihraam", "Sacred-state", "Consecration"],
+      "arabic_root": "ح ر م",
+      "tags": ["hajj", "state-of-ritual-purity", "preparation"]
+    }
+  ],
+  "synonyms": [
+    { "term": "Muhammad", "variants": ["Mohammed", "Mohammad", "Mohamed"] },
+    { "term": "Quran", "variants": ["Koran", "Al-Quran"] },
+    { "term": "Salat", "variants": ["Salah", "Prayer"] },
+    { "term": "Zakat", "variants": ["Zakah", "Charity"] },
+    { "term": "Hajj", "variants": ["Haj", "Pilgrimage"] },
+    { "term": "Hijab", "variants": ["Hijaab", "Veil"] },
+    { "term": "Hadith", "variants": ["Hadeeth", "Tradition"] },
+    { "term": "Fiqh", "variants": ["Jurisprudence", "Islamic-Law"] },
+    { "term": "Ramadan", "variants": ["Ramzan", "Ramazan"] },
+    { "term": "Tafsir", "variants": ["Tafseer", "Exegesis"] },
+    { "term": "Masjid", "variants": ["Mosque"] },
+    { "term": "Dua", "variants": ["Supplication", "Prayer"] }
+  ],
+  "metadata": {
+    "total_terms": 20,
+    "coverage": "core Islamic terminology",
+    "transliteration_standard": "ISO 233-3 (modified for English phonetics)",
+    "generated": "2026-05-07",
+    "for_meilisearch_typo_tolerance": true,
+    "note": "Phonetic variations and Arabic roots enable fuzzy search + transliteration discovery"
+  }
+}
