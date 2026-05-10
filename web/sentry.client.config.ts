@@ -9,7 +9,7 @@ Sentry.init({
   replaysSessionSampleRate: 0.0,
   replaysOnErrorSampleRate: 1.0,
   integrations: [
-    Sentry.replayIntegration({ maskAllText: true, blockAllMedia: true }),
+    Sentry.replayIntegration({ maskAllText: true, maskAllInputs: true, blockAllMedia: true }),
   ],
   // SEC-M6 / T25.15: Full PII scrub — headers, body, user fields, extras, contexts.
   beforeSend: scrubPII,
