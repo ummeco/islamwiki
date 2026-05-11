@@ -40,6 +40,8 @@ const nextConfig: any = {
     ],
   },
   images: {
+    // T-P7-Q-PERF-06: AVIF first, WebP fallback. Next.js handles JPEG/PNG fallback automatically.
+    formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
         protocol: 'https',

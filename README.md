@@ -8,6 +8,14 @@ An authoritative, scholar-verified Islamic knowledge base. Quran, Hadith, Seerah
 
 **Live:** [islam.wiki](https://islam.wiki)
 
+## Engineering Charter — Required Reading
+
+Before contributing, read [`.github/wiki/ENGINEERING-CHARTER.md`](.github/wiki/ENGINEERING-CHARTER.md). It is the single source of truth for code standards across every Ummeco repo. The most-read sections:
+
+- [§ 21 Common AI-Agent Mistakes](.github/wiki/ENGINEERING-CHARTER.md#21-common-ai-agent-mistakes-read-before-any-change)
+- [§ 4 Naming Conventions](.github/wiki/ENGINEERING-CHARTER.md#4-naming-conventions-master-reference)
+- [§ 6 Documentation Bar](.github/wiki/ENGINEERING-CHARTER.md#6-documentation-bar)
+
 ## What is this
 
 Islam.wiki is a free, community-built Islamic knowledge base covering Quran, Hadith, Seerah, scholars, classical books, and encyclopedic articles. All content follows strict Ahl us-Sunnah wal-Jama'ah theological guidelines and is reviewed through a trust-level editorial system. It is free forever, with no ads and no paywalls.
