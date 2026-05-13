@@ -6,8 +6,8 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     globals: true,
-    setupFiles: ['./tests/setup.ts'],
-    exclude: ['tests/e2e/**', 'node_modules/**', '.next/**', 'workers/**'],
+    setupFiles: ['./__tests__/setup.ts'],
+    exclude: ['__tests__/e2e/**', 'node_modules/**', '.next/**', 'workers/**'],
     coverage: {
       // P7 Q-TEST T01 baseline (80/80/75/80, perFile).
       provider: 'v8',
@@ -38,7 +38,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './'),
-      'server-only': path.resolve(__dirname, './tests/__mocks__/server-only.ts'),
+      'server-only': path.resolve(__dirname, './__tests__/__mocks__/server-only.ts'),
     },
   },
 })

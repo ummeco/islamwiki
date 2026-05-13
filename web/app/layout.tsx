@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Script from 'next/script'
 import { ThemeProvider } from 'next-themes'
 import { Geist, Geist_Mono, Amiri, Scheherazade_New, Noto_Naskh_Arabic } from 'next/font/google'
 import { Header } from '@/components/layout/header'
@@ -10,7 +9,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import { getLocale, isRtl } from '@/lib/i18n'
 import { headers } from 'next/headers'
 // S05-06: @ummat/consent — anonymous-visitor default; explicit-opt-in per D-P3-21
-import { ConsentProvider, CookieBanner } from '@ummat/consent'
+import { ConsentProvider, CookieBanner, ConsentGatedScript } from '@ummat/consent'
 import './globals.css'
 
 const geistSans = Geist({
@@ -127,12 +126,6 @@ export default async function RootLayout({
         {/* CSP nonce propagated to any inline style/script tags injected by Next.js
             during server rendering. Nonce is generated per-request in middleware.ts */}
         {nonce && <meta name="csp-nonce" content={nonce} />}
-        {/* D-P3-21: Umami analytics script */}
-        <Script
-          async
-          src="https://cloud.umami.is/script.js"
-          data-website-id="<UMAMI_WEBSITE_ID>"
-        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${amiri.variable} ${scheherazade.variable} ${notoNaskhArabic.variable} font-sans antialiased`}
@@ -156,6 +149,13 @@ export default async function RootLayout({
           <CookieBanner
             privacyPolicyUrl="/legal/privacy"
             cookiePolicyUrl="/legal/cookies"
+          />
+          {/* S-C-S05-T08: Umami gated behind analytics consent — GDPR Art 7 compliance.
+              Removed unconditional <Script> in <head>; now only loads after explicit grant. */}
+          <ConsentGatedScript
+            category="analytics"
+            src="https://cloud.umami.is/script.js"
+            data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}
           />
         </ConsentProvider>
         <Analytics />

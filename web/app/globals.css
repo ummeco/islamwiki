@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
+/*
+ * Brand tokens — Tailwind v4 @theme configuration.
+ * Canonical source: packages/brand/src/tokens/colors.ts (green palette).
+ * iw-* namespace: islamwiki app-specific semantic names over the shared green palette.
+ * When @ummat/brand ships CSS codegen, replace brand vars with @import "@ummat/brand/css".
+ * REF: T-P7-C-S10-02
+ */
 @theme {
-  /* Green accent palette — used sparingly */
-  --color-iw-accent: #79C24C;
-  --color-iw-accent-light: #C9F27A;
-  --color-iw-accent-dark: #1E5E2F;
+  /* Green accent palette — sourced from @ummat/brand green tokens */
+  --color-iw-accent:      #79C24C; /* green-400 / brand.DEFAULT */
+  --color-iw-accent-mid:  #5A9438; /* green-500 / WCAG AA on white (4.5:1) */
+  --color-iw-accent-light: #C9F27A; /* green-100 */
+  --color-iw-accent-dark: #1E5E2F; /* green-700 */
 
   /* Neutral palette — primary UI colors */
   --color-iw-bg: #0a0a0a;

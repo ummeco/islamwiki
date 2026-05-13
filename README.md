@@ -8,6 +8,8 @@ An authoritative, scholar-verified Islamic knowledge base. Quran, Hadith, Seerah
 
 **Live:** [islam.wiki](https://islam.wiki)
 
+**P7 status (2026-05):** Engineering Excellence Foundation phase complete. CI quality gates, ADR standards, and documentation enforcement now in place. See [Changelog](.github/wiki/Changelog.md) for details.
+
 ## Engineering Charter — Required Reading
 
 Before contributing, read [`.github/wiki/ENGINEERING-CHARTER.md`](.github/wiki/ENGINEERING-CHARTER.md). It is the single source of truth for code standards across every Ummeco repo. The most-read sections:

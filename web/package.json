@@ -3,9 +3,9 @@
   "version": "0.1.3",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack --port 3041",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 3041",
     "lint": "eslint .",
     "test": "vitest",
     "test:ui": "vitest --ui",
@@ -16,7 +16,16 @@
     "index:books": "tsx scripts/index/index-books.ts",
     "index:people": "tsx scripts/index/index-people.ts",
     "index:articles": "tsx scripts/index/index-articles.ts",
-    "index:all": "pnpm index:quran && pnpm index:hadith && pnpm index:books && pnpm index:people && pnpm index:articles"
+    "index:all": "pnpm index:quran && pnpm index:hadith && pnpm index:books && pnpm index:people && pnpm index:articles",
+    "setup": "pnpx tsx ~/Sites/ummeco/scripts/setup.sh",
+    "doctor": "pnpx tsx ~/Sites/ummeco/scripts/doctor.ts",
+    "codegen": "graphql-codegen --config codegen.ts",
+    "codegen:watch": "graphql-codegen --config codegen.ts --watch",
+    "env:refresh": "bash ~/Sites/ummeco/scripts/env-refresh.sh",
+    "console:hasura": "open http://localhost:5543",
+    "console:mail": "open http://localhost:5043",
+    "console:storage": "open http://localhost:5443",
+    "console:search": "open http://localhost:7700"
   },
   "dependencies": {
     "@ummat/consent": "file:./vendor/consent",

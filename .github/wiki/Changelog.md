@@ -1,5 +1,24 @@
 # Changelog
 
+## [Unreleased — P7] — 2026-05 (Engineering Excellence Foundation cascade)
+
+> No version bump. P7 ships nothing publicly (Version Lock).
+
+### Changed
+
+- Workspace test config and rate-limit canonical patterns aligned with Ummat monorepo
+- `iw_` prefix unchanged; shared backend remains canonical at `api.islam.wiki` → `ummat-prod`
+- Naskh font canonical (Noto Naskh Arabic) for Arabic RTL surfaces matches Pro Sites template requirements
+
+### Added
+
+- README P7 status update linking to Engineering Excellence Foundation changes (T-P7-DOC-08)
+
+### Decisions inherited
+
+- D-P7-10 (Umm al-Qura Hijri default) — Islamic content rendering aligns where Hijri dates surface
+- D-P7-18 (Stripe TEST only) — N/A directly; Islam.wiki has no billing surface
+
 ## [Unreleased — P4]
 
 ### Added
