@@ -32,7 +32,7 @@ export default function CaliforniaPrivacyPage() {
       </p>
       <p className="mb-10 text-iw-text-secondary max-w-2xl text-sm leading-relaxed">
         Islam.wiki is a free, public Islamic knowledge base. <strong className="text-white/80">No account is required to use Islam.wiki</strong>, and we collect minimal personal information.
-        {/* TODO(U-15): Insert full legal entity details. */}
+        {' '}Islam.wiki is operated by Ummeco, LLC, 1679 S. Dupont Hwy, Suite 100, Dover, DE 19901. Contact: <a href="mailto:privacy@ummat.dev" className="text-iw-accent hover:underline">privacy@ummat.dev</a>.
       </p>
 
       {/* Do Not Sell — prominent */}
