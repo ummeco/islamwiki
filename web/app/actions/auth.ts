@@ -4,6 +4,7 @@ import { cookies } from 'next/headers'
 import { redirect } from 'next/navigation'
 import * as authClient from '@/lib/auth-client'
 import { validateEmail } from '@/lib/validation'
+import { verifyTurnstileToken } from '@/lib/turnstile'
 
 // ── Cookie helpers ──
 
@@ -48,9 +49,16 @@ export async function login(
   const email = formData.get('email') as string
   const password = formData.get('password') as string
   const redirectTo = formData.get('redirect') as string | null
+  const turnstileToken = (formData.get('cf-turnstile-response') as string | null) ?? ''
 
   if (!email || !password) {
     return { error: 'Email and password are required.' }
+  }
+
+  // T09: Turnstile — fail closed in production
+  const turnstileOk = await verifyTurnstileToken(turnstileToken)
+  if (!turnstileOk && process.env.NODE_ENV === 'production') {
+    return { error: 'Bot check failed. Please try again.' }
   }
 
   const { data, error } = await authClient.signIn(email, password)
@@ -84,9 +92,16 @@ export async function register(
   const email = formData.get('email') as string
   const password = formData.get('password') as string
   const confirmPassword = formData.get('confirm_password') as string
+  const turnstileToken = (formData.get('cf-turnstile-response') as string | null) ?? ''
 
   if (!displayName || !email || !password) {
     return { error: 'All fields are required.' }
+  }
+
+  // T09: Turnstile — fail closed in production
+  const turnstileOk = await verifyTurnstileToken(turnstileToken)
+  if (!turnstileOk && process.env.NODE_ENV === 'production') {
+    return { error: 'Bot check failed. Please try again.' }
   }
 
   if (!validateEmail(email)) {
