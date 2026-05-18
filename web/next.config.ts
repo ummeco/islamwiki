@@ -1,5 +1,9 @@
 import type { NextConfig } from 'next'
 import { withSentryConfig } from '@sentry/nextjs'
+import withBundleAnalyzer from '@next/bundle-analyzer'
+
+// T12: Bundle analyzer — run with ANALYZE=true pnpm build
+const analyzeBundles = withBundleAnalyzer({ enabled: process.env.ANALYZE === 'true' })
 
 // S9-28: i18n locale config. Handled in middleware.ts (custom routing) — Next.js
 // App Router doesn't use next.config i18n for routing, but we declare locales here
@@ -55,6 +59,13 @@ const nextConfig: any = {
         source: '/(.*)',
         headers: securityHeaders,
       },
+      {
+        // T11: API routes must never be cached — prevent stale auth/data responses.
+        source: '/api/:path*',
+        headers: [
+          { key: 'Cache-Control', value: 'no-store, max-age=0' },
+        ],
+      },
     ]
   },
   webpack(config: any) {
@@ -93,7 +104,7 @@ const nextConfig: any = {
 
 // S9-05 / T25.07: Source maps uploaded to self-hosted GlitchTip at errors.ummat.dev.
 // SENTRY_AUTH_TOKEN (=GLITCHTIP_AUTH_TOKEN) must be set in the Vercel project env.
-export default withSentryConfig(nextConfig, {
+export default withSentryConfig(analyzeBundles(nextConfig), {
   org: process.env.SENTRY_ORG ?? 'ummeco',
   project: process.env.SENTRY_PROJECT ?? 'islamwiki-web',
   silent: !process.env.CI,
