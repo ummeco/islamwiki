@@ -1,4 +1,14 @@
+// T09-LEGAL-COUNSEL-PACK: Legal section added to footer bottom bar.
+// Links to Privacy/Terms/Cookies/AUP as required by app store submission.
 import Link from 'next/link'
+
+const LEGAL_LINKS = [
+  { label: 'Privacy Policy', href: '/privacy' },
+  { label: 'Terms of Service', href: '/terms' },
+  { label: 'Cookie Policy', href: '/cookies' },
+  { label: 'Acceptable Use', href: '/aup' },
+  { label: 'Open Source', href: '/legal/attribution' },
+]
 
 const sections = [
   {
@@ -94,6 +104,22 @@ export function Footer() {
             ecosystem.
           </p>
         </div>
+
+        {/* T09-LEGAL-COUNSEL-PACK: Legal links — Privacy · Terms · Cookies · AUP */}
+        <nav
+          aria-label="Legal links"
+          className="mt-6 flex flex-wrap items-center justify-center gap-x-4 gap-y-1"
+        >
+          {LEGAL_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-xs text-iw-text-muted transition-colors hover:text-iw-text-secondary"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
       </div>
     </footer>
   )

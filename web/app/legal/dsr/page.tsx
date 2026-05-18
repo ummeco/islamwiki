@@ -64,7 +64,7 @@ export default function DsrPage() {
             <h2 className="text-xl font-semibold mb-3">Submit a Request</h2>
             <p>
               Email{' '}
-              <a href="mailto:privacy@ummat.dev" className="text-[#79C24C] hover:underline">
+              <a href="mailto:privacy@ummat.dev" className="text-[#5A9438] hover:underline">
                 privacy@ummat.dev
               </a>{' '}
               with subject line &ldquo;DSR Request — Islam.wiki — [right type]&rdquo;.
@@ -84,7 +84,7 @@ export default function DsrPage() {
           <section>
             <h2 className="text-xl font-semibold mb-3">Contact</h2>
             <p>
-              <a href="mailto:privacy@ummat.dev" className="text-[#79C24C] hover:underline">
+              <a href="mailto:privacy@ummat.dev" className="text-[#5A9438] hover:underline">
                 privacy@ummat.dev
               </a>
             </p>
@@ -92,8 +92,8 @@ export default function DsrPage() {
 
           <section className="border-t border-white/10 pt-6">
             <ul className="space-y-1">
-              <li><Link href="/privacy" className="text-[#79C24C] hover:underline">Privacy Policy</Link></li>
-              <li><Link href="/legal/attribution" className="text-[#79C24C] hover:underline">Open Source Attribution</Link></li>
+              <li><Link href="/privacy" className="text-[#5A9438] hover:underline">Privacy Policy</Link></li>
+              <li><Link href="/legal/attribution" className="text-[#5A9438] hover:underline">Open Source Attribution</Link></li>
             </ul>
           </section>
 
