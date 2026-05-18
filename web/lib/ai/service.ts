@@ -1,6 +1,24 @@
 import 'server-only'
 
+/**
+ * FILE:     lib/ai/service.ts
+ * PURPOSE:  AI chat service — routes through nself-ai (D-P3-44) when available,
+ *           falls back to direct @anthropic-ai/sdk during Track A6 transition.
+ * INVARIANTS:
+ *   - nself-ai is preferred when NSELF_AI_URL is set
+ *   - Direct SDK fallback is TRANSITIONAL — remove after Track A6 deploys
+ *   - ESLint no-restricted-imports blocks new direct SDK imports; this file is the
+ *     only allowlisted exception (via eslint.config.mjs allow pattern)
+ * DO NOT: Import @anthropic-ai/sdk anywhere else — only this file and tafsir/route.ts (legacy)
+ *
+ * NOTE (T1-8-5): OpenAI SDK removed — supply chain risk, no functional dependency.
+ * All AI calls use Anthropic Claude exclusively. If OpenAI is needed in future,
+ * use XML-isolated field passing per islamwiki AI pipeline isolation doc.
+ */
+
+// eslint-disable-next-line no-restricted-imports
 import Anthropic from '@anthropic-ai/sdk'
+import { isNselfAiAvailable, nselfAiChat } from './nself-ai-client'
 
 // ── Provider Types ──
 // NOTE (T1-8-5): OpenAI SDK removed — supply chain risk, no functional dependency.
@@ -107,6 +125,17 @@ export async function chat(
   messages: ChatMessage[],
   options?: { maxTokens?: number; temperature?: number }
 ): Promise<ChatResponse> {
+  // Prefer nself-ai when Track A6 endpoint is configured (D-P3-44)
+  if (isNselfAiAvailable()) {
+    try {
+      return await nselfAiChat(messages, options)
+    } catch (err) {
+      // Log and fall through to direct SDK fallback during transition
+      console.warn('[ai/service] nself-ai request failed, falling back to direct SDK:', err)
+    }
+  }
+
+  // TRANSITIONAL: direct Anthropic SDK fallback — remove after Track A6 deploys
   const maxAttempts = getProviders().length
   let lastError: Error | null = null
 

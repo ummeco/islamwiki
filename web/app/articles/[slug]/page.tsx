@@ -11,6 +11,8 @@ import { CrossReferences } from '@/components/articles/cross-references'
 import { ArticleJsonLd } from '@/components/seo/json-ld'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { getLocale } from '@/lib/i18n/get-locale'
+import { MadhabVariancePanel } from '@/components/fiqh/MadhabVariancePanel'
+import { getMadhabRulings } from '@/lib/fiqh/madhab-rulings'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -40,6 +42,8 @@ export default async function ArticlePage({ params }: Props) {
   const { slug } = await params
   const [article, locale] = [getArticleBySlug(slug), await getLocale()]
   if (!article) notFound()
+
+  const madhabRulings = await getMadhabRulings('article', slug)
 
   const relatedArticles = getArticles()
     .filter((a) => a.category === article.category && a.slug !== slug)
@@ -115,6 +119,9 @@ export default async function ArticlePage({ params }: Props) {
             ))}
           </div>
         )}
+        {/* Madhab variance */}
+        <MadhabVariancePanel rulings={madhabRulings} />
+
         {/* Cross-references */}
         <CrossReferences
           quranRefs={article.quran_refs}

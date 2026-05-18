@@ -166,5 +166,47 @@
     "total_books": 56,
     "total": 402,
     "books": 56
+  },
+  {
+    "id": 13,
+    "slug": "ibn-hibban",
+    "name_en": "Sahih Ibn Hibban",
+    "name_ar": "صحيح ابن حبان",
+    "author_en": "Ibn Hibban al-Busti",
+    "author_ar": "ابن حبان البستي",
+    "total_hadiths": 7505,
+    "author_name_en": "Ibn Hibban al-Busti",
+    "total_hadith": 7505,
+    "total_books": 14,
+    "total": 7505,
+    "books": 14
+  },
+  {
+    "id": 14,
+    "slug": "hakim",
+    "name_en": "Al-Mustadrak alaa al-Sahihayn",
+    "name_ar": "المستدرك على الصحيحين",
+    "author_en": "Al-Hakim al-Naysaburi",
+    "author_ar": "الحاكم النيسابوري",
+    "total_hadiths": 8803,
+    "author_name_en": "Al-Hakim al-Naysaburi",
+    "total_hadith": 8803,
+    "total_books": 4,
+    "total": 8803,
+    "books": 4
+  },
+  {
+    "id": 15,
+    "slug": "bayhaqi",
+    "name_en": "Al-Sunan al-Kubra",
+    "name_ar": "السنن الكبرى",
+    "author_en": "Imam al-Bayhaqi",
+    "author_ar": "الإمام البيهقي",
+    "total_hadiths": 21535,
+    "author_name_en": "Imam al-Bayhaqi",
+    "total_hadith": 21535,
+    "total_books": 10,
+    "total": 21535,
+    "books": 10
   }
 ]

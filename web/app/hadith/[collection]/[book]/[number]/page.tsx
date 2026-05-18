@@ -17,6 +17,8 @@ import {
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { HadithActions } from '@/components/hadith/HadithActions'
 import { IsnadChain } from '@/components/hadith/isnad-chain'
+import { MadhabVariancePanel } from '@/components/fiqh/MadhabVariancePanel'
+import { getMadhabRulings } from '@/lib/fiqh/madhab-rulings'
 
 interface Props {
   params: Promise<{ collection: string; book: string; number: string }>
@@ -89,6 +91,10 @@ export default async function HadithPage({ params }: Props) {
   // Sharh (commentary) data
   const sharhEntries = getSharhForHadith(col.slug, book.number, num)
   const sharhSources = sharhEntries.length > 0 ? getSharhSources() : []
+
+  // Madhab variance rulings (keyed by iw_id when available, else collection:book:number)
+  const madhabRefId = hadith.iw_id ?? `${colSlug}:${bookSlug}:${num}`
+  const madhabRulings = await getMadhabRulings('hadith', madhabRefId)
 
   const booksInCollection = getBooksByCollection(col.id)
   const currentBookIdx = booksInCollection.findIndex((b) => b.id === book.id)
@@ -356,6 +362,9 @@ export default async function HadithPage({ params }: Props) {
             </div>
           </div>
         )}
+
+        {/* Madhab variance */}
+        <MadhabVariancePanel rulings={madhabRulings} />
 
         {/* Reference block */}
         <div className="rounded-xl border border-iw-border bg-iw-surface/50 p-4 text-xs text-iw-text-secondary">

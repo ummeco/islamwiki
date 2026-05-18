@@ -8,6 +8,8 @@ import { AyahBookmarkButton } from '@/components/quran/AyahBookmarkButton'
 import { RelatedHadithPanel } from '@/components/quran/RelatedHadithPanel'
 import { TafsirCrossRefPanel } from '@/components/quran/TafsirCrossRefPanel'
 import { getHadithCrossRefsForAyah, getTafsirCrossRefsForAyah } from '@/lib/cross-refs/quran-hadith'
+import { MadhabVariancePanel } from '@/components/fiqh/MadhabVariancePanel'
+import { getMadhabRulings } from '@/lib/fiqh/madhab-rulings'
 import { surahTitle, surahTranslit } from '@/lib/quran-utils'
 
 interface Props {
@@ -75,12 +77,14 @@ export default async function AyahPage({ params }: Props) {
 
   // Fetch cross-refs for a single ayah focus only (not ranges — too broad)
   const isSingleAyah = focusFrom === focusTo
-  const [hadithRefs, tafsirRefs] = isSingleAyah
+  const ayahRefId = `${surah.number}:${focusFrom}`
+  const [hadithRefs, tafsirRefs, madhabRulings] = isSingleAyah
     ? await Promise.all([
         getHadithCrossRefsForAyah(surah.number, focusFrom, 8),
         getTafsirCrossRefsForAyah(surah.number, focusFrom, 5),
+        getMadhabRulings('ayah', ayahRefId),
       ])
-    : [[], []]
+    : [[], [], []]
 
   const ayahLabel = isSingleAyah
     ? `${surah.number}:${focusFrom}`
@@ -174,6 +178,13 @@ export default async function AyahPage({ params }: Props) {
       {tafsirRefs.length > 0 && (
         <div className="mx-auto mt-6 max-w-3xl">
           <TafsirCrossRefPanel refs={tafsirRefs} ayahLabel={ayahLabel} />
+        </div>
+      )}
+
+      {/* Madhab variance */}
+      {madhabRulings.length > 0 && (
+        <div className="mx-auto mt-6 max-w-3xl">
+          <MadhabVariancePanel rulings={madhabRulings} />
         </div>
       )}
 

@@ -186,6 +186,9 @@ const COLLECTION_DISPLAY_NAMES: Record<string, string> = {
   darimi: 'Sunan al-Darimi',
   'riyadh-salihin': 'Riyad as-Salihin',
   shamail: 'Shamail al-Muhammadiyya',
+  'ibn-hibban': 'Sahih Ibn Hibban',
+  hakim: 'Al-Mustadrak (al-Hakim)',
+  bayhaqi: 'Al-Sunan al-Kubra (al-Bayhaqi)',
 }
 
 const TAFSIR_DISPLAY_NAMES: Record<string, string> = {

@@ -17,6 +17,34 @@ const eslintConfig = [
       'ummat/no-brand-light-on-light': 'error',
     },
   },
+  // D-P3-44: Block direct @anthropic-ai/sdk imports everywhere except the two
+  // transitional allowlist files. All new AI calls must go through lib/ai/service.ts,
+  // which routes to nself-ai when NSELF_AI_URL is set (Track A6).
+  // Remove allowlist entries after Track A6 deploys.
+  {
+    files: ['**/*.ts', '**/*.tsx'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        {
+          paths: [
+            {
+              name: '@anthropic-ai/sdk',
+              message:
+                'Direct Anthropic SDK usage is banned (D-P3-44). Use lib/ai/service.ts instead.',
+            },
+          ],
+        },
+      ],
+    },
+  },
+  // Transitional allowlist — these two files use the SDK directly until Track A6 deploys.
+  {
+    files: ['lib/ai/service.ts', 'app/api/tafsir/route.ts'],
+    rules: {
+      'no-restricted-imports': 'off',
+    },
+  },
 ]
 
 export default eslintConfig
