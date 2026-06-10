@@ -7,7 +7,8 @@ const noBrandLightOnLight = require('./lib/eslint-rule-no-brand-light-on-light.c
 const eslintConfig = [
   ...nextConfig,
   {
-    ignores: ['scripts/**', 'data/**', 'coverage/**'],
+    // vendor/** = third-party code vendored into this repo — not subject to project lint rules.
+    ignores: ['scripts/**', 'data/**', 'coverage/**', 'vendor/**'],
   },
   // C-09a-FIX-01: brand contrast guard — block text-brand-light / text-brand-mid in JSX/TSX.
   // These fail WCAG 2.2 AA on white/light surfaces (1.28:1 and 2.18:1 respectively).
