@@ -18,22 +18,79 @@ jobs:
   lighthouse:
     name: Lighthouse CI
     # TODO(P2-E5): wire CI services — lhci needs a running Next.js server + Chromium sandbox.
-    # CHROME_INTERSTITIAL_ERROR fires because the server isn't serving before lhci connects.
-    # Port mismatch (lhci defaults 3000, app starts on 3041) also contributes.
-    # Re-enable as hard failure once CI services + correct port config are wired.
+    # CHROME_INTERSTITIAL_ERROR fires because the server is not ready before lhci connects.
+    # Port corrected to 3041 (matches pnpm start in package.json).
+    # Re-enable as hard failure (remove continue-on-error) once CI services are wired.
     continue-on-error: true
-    uses: ./.github/workflows/_reusable-lighthouse.yml
-    with:
-      project_path: web
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          cache-dependency-path: web/pnpm-lock.yaml
+      - name: Install dependencies
+        working-directory: web
+        run: pnpm install --frozen-lockfile
+      - name: Build
+        working-directory: web
+        run: pnpm build
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli@0.13.x
+      - name: Run Lighthouse CI
+        working-directory: web
+        run: lhci autorun
+      - name: Upload Lighthouse report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-web
+          path: web/.lighthouseci
+          retention-days: 30
 
   axe:
     name: axe WCAG 2.1 AA
-    # TODO(P2-E5): wire CI services — axe wait-on times out because pnpm start is not running
-    # before axe connects. Re-enable as hard failure once CI services are wired.
+    # TODO(P2-E5): wire CI services — axe wait-on times out because pnpm start requires env vars
+    # (NEXTAUTH_SECRET etc.) that are not available without CI services.
+    # Re-enable as hard failure (remove continue-on-error) once CI services are wired.
     continue-on-error: true
-    uses: ./.github/workflows/_reusable-axe.yml
-    with:
-      project_path: web
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          cache-dependency-path: web/pnpm-lock.yaml
+      - name: Install dependencies
+        working-directory: web
+        run: pnpm install --frozen-lockfile
+      - name: Build
+        working-directory: web
+        run: pnpm build
+      - name: Start dev server
+        working-directory: web
+        run: pnpm start &
+      - name: Wait for server
+        run: npx wait-on http://localhost:3041 -t 60000
+      - name: Install axe-core CLI
+        run: npm install -g @axe-core/cli
+      - name: Run axe — root route
+        working-directory: web
+        run: |
+          axe \
+            http://localhost:3041 \
+            --exit \
+            --tags wcag2a,wcag2aa,wcag21a,wcag21aa \
+            --chromedriver-path "$(which chromedriver)"
 
   bundle-size:
     name: Bundle size check (web)
