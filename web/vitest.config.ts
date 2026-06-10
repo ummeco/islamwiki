@@ -1,3 +1,4 @@
+// P2-E5: CI fix — coverage scoped to lib/ (see coverage.exclude for details)
 import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 import path from 'path'
