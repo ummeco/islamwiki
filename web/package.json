@@ -39,7 +39,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "diff": "^8.0.3",
     "isomorphic-dompurify": "^3.10.0",
-    "jose": "^6.2.1",
+    "jose": "^6.2.3",
     "leaflet": "^1.9.4",
     "marked": "^17.0.3",
     "meilisearch": "^0.58.0",
