@@ -14,6 +14,12 @@ export async function submitEdit(
   _prevState: { error?: string; success?: boolean; status?: string } | undefined,
   formData: FormData
 ) {
+  // Kill switch — set ISLAMWIKI_KILL_SWITCH=1 in Vercel to disable wiki editing
+  // without a deploy (P2-E1-W01 Track E).
+  if (process.env.ISLAMWIKI_KILL_SWITCH === '1') {
+    return { error: 'Wiki editing is temporarily unavailable. Please try again later.' }
+  }
+
   const session = await getSession()
   if (!session.isLoggedIn) {
     redirect('/account')
