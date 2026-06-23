@@ -38,6 +38,12 @@ importers:
       '@ummat/consent':
         specifier: file:./vendor/consent
         version: file:vendor/consent(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      '@ummat/errors':
+        specifier: file:./vendor/errors
+        version: file:vendor/errors(react@19.2.4)
+      '@ummat/ui':
+        specifier: file:./vendor/ui
+        version: file:vendor/ui(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(tailwindcss@4.2.1)
       '@vercel/analytics':
         specifier: ^1.5.0
         version: 1.6.1(next@16.2.7(@babel/core@7.29.0)(@opentelemetry/api@1.9.0)(@playwright/test@1.58.2)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)
@@ -2308,11 +2314,38 @@ packages:
     resolution: {integrity: sha512-KiROIzYdEV85YygXw6BI/Dx4fnBlFQu6Mq4QE4MOH9fFnhohw6wX/OAvDY2/C+ut0I3RSPKenvZJIVYqJNkhEw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  '@ummat/api-conventions@file:vendor/api-conventions':
+    resolution: {directory: vendor/api-conventions, type: directory}
+
   '@ummat/consent@file:vendor/consent':
     resolution: {directory: vendor/consent, type: directory}
     peerDependencies:
       react: ^18 || ^19
       react-dom: ^18 || ^19
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+
+  '@ummat/errors@file:vendor/errors':
+    resolution: {directory: vendor/errors, type: directory}
+    peerDependencies:
+      react: '>=19.0.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+
+  '@ummat/ui@file:vendor/ui':
+    resolution: {directory: vendor/ui, type: directory}
+    peerDependencies:
+      '@ummat/brand': file:../brand
+      react: '>=18'
+      react-dom: '>=18'
+      tailwindcss: '>=3.4.0 <4'
+    peerDependenciesMeta:
+      '@ummat/brand':
+        optional: true
+      tailwindcss:
+        optional: true
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
     resolution: {integrity: sha512-ppLRUgHVaGRWUx0R0Ut06Mjo9gBaBkg3v/8AxusGLhsIotbBLuRk51rAzqLC8gq6NyyAojEXglNjzf6R948DNw==}
@@ -4791,6 +4824,10 @@ packages:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
 
+  uuidv7@1.2.1:
+    resolution: {integrity: sha512-4kPkK3/XTQW9Hbm4CaqfICn+kY9LJtDVEOfgsRRra/+n2Ofg4NqzRFceAkxvQ/Ud/6BpHOPzj8cirqM7TzTN5Q==}
+    hasBin: true
+
   vite-node@3.2.4:
     resolution: {integrity: sha512-EbKSKh+bh1E1IFxeO0pg1n4dvoOTt0UDiXMd/qn++r98+jPO1xtJilvXldeuQ8giIB5IkpjCgMleHMNEsGH6pg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
@@ -5041,6 +5078,9 @@ packages:
 
   zod@4.3.6:
     resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
+
+  zod@4.4.3:
+    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
   zustand@4.5.7:
     resolution: {integrity: sha512-CHOUy7mu3lbD6o6LJLfllpjkzhHXSBlX8B9+qPddUsIfeF5S/UZ5q0kmCsnRqT1UHFQZchNFDDzMbQsuesHWlw==}
@@ -7488,10 +7528,29 @@ snapshots:
       '@typescript-eslint/types': 8.56.1
       eslint-visitor-keys: 5.0.1
 
+  '@ummat/api-conventions@file:vendor/api-conventions':
+    dependencies:
+      uuidv7: 1.2.1
+      zod: 4.4.3
+
   '@ummat/consent@file:vendor/consent(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       react: 19.2.4
+    optionalDependencies:
       react-dom: 19.2.4(react@19.2.4)
+
+  '@ummat/errors@file:vendor/errors(react@19.2.4)':
+    dependencies:
+      '@ummat/api-conventions': file:vendor/api-conventions
+    optionalDependencies:
+      react: 19.2.4
+
+  '@ummat/ui@file:vendor/ui(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(tailwindcss@4.2.1)':
+    dependencies:
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
+    optionalDependencies:
+      tailwindcss: 4.2.1
 
   '@unrs/resolver-binding-android-arm-eabi@1.11.1':
     optional: true
@@ -10230,6 +10289,8 @@ snapshots:
 
   uuid@9.0.1: {}
 
+  uuidv7@1.2.1: {}
+
   vite-node@3.2.4(@types/node@20.19.35)(jiti@2.6.1)(terser@5.46.0)(yaml@2.9.0):
     dependencies:
       cac: 6.7.14
@@ -10507,6 +10568,8 @@ snapshots:
       zod: 4.3.6
 
   zod@4.3.6: {}
+
+  zod@4.4.3: {}
 
   zustand@4.5.7(@types/react@19.2.14)(react@19.2.4):
     dependencies:
