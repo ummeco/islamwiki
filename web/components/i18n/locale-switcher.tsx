@@ -7,6 +7,8 @@ import { LOCALES, LOCALE_NAMES, DEFAULT_LOCALE, type Locale } from '@/lib/i18n/c
 const LOCALE_FLAGS: Record<Locale, string> = {
   en: '🇬🇧',
   ar: '🇸🇦',
+  ur: '🇵🇰',
+  fa: '🇮🇷',
   id: '🇮🇩',
 }
 

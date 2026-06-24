@@ -1,0 +1,33 @@
+/**
+ * FILE: styles/global.css
+ * PURPOSE: Global styles for islamwiki/read Astro surface.
+ *   Imports Tailwind layers, Arabic font, Latin font.
+ * REF: P2-E3-W02-S02-T01
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Geist:wght@300;400;500;600;700&display=swap');
+
+/* RTL body direction for Arabic articles */
+[lang="ar"] {
+  direction: rtl;
+  font-family: 'Noto Naskh Arabic', 'Amiri', serif;
+}
+
+/* Custom prose styles for article content */
+.article-content {
+  @apply prose prose-lg max-w-none;
+}
+
+.article-content[dir="rtl"] {
+  @apply text-right;
+}
+
+/* Skeleton loading */
+.skeleton {
+  @apply animate-pulse bg-gray-200 rounded;
+}

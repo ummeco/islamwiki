@@ -1,0 +1,20 @@
+# ApproveRevision.graphql
+# PURPOSE: Moderator approves a revision — sets article status to published.
+#   HARD RULE: Must verify theology_check.status != 'failed' before calling.
+#   After approval, the editor calls the cache purge webhook.
+# REF: p2-islamwiki-astro-vite-spec.md §6.3 §8
+
+mutation ApproveRevision($revision_id: uuid!, $article_id: uuid!) {
+  update_iw_articles_by_pk(
+    pk_columns: { id: $article_id }
+    _set: {
+      status: "published"
+      published_revision_id: $revision_id
+    }
+  ) {
+    id
+    status
+    published_revision_id
+    slug
+  }
+}

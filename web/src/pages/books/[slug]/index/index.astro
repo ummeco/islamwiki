@@ -1,0 +1,57 @@
+---
+/**
+ * books/[slug]/index/index.astro — Book subject index (/books/:slug/index).
+ *
+ * PURPOSE: Ports app/books/[slug]/index/page.tsx. getStaticParams → getStaticPaths
+ *   over books that are canonical AND have an index.json. Reads getBookIndex()
+ *   server-side and renders the BookIndexIsland (client:load) for live filtering.
+ * NOTE: Lives at books/[slug]/index/index.astro so its URL is /books/:slug/index;
+ *   the static "index" segment takes priority over the [chapter] dynamic route.
+ * REF: ports app/books/[slug]/index/page.tsx · D-P2-STACK-CANON
+ */
+import Base from '../../../../layouts/Base.astro'
+import { getBooks, getBookBySlug, getBookIndex } from '@/lib/data/books'
+import BookIndexIsland from '../../../../components/books/BookIndexIsland'
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  return getBooks()
+    .filter((b) => b.canonical !== false && getBookIndex(b.slug) !== null)
+    .map((b) => ({ params: { slug: b.slug } }))
+}
+
+const { slug } = Astro.params
+const book = getBookBySlug(slug!)
+if (!book) {
+  return Astro.redirect('/404')
+}
+
+const entries = getBookIndex(slug!)
+if (!entries) {
+  return Astro.redirect('/404')
+}
+
+const title = `Index — ${book.title_en}`
+const description = `Subject index for ${book.title_en} by ${book.author_name_en}.`
+---
+
+<Base title={title} description={description}>
+  <main id="main-content">
+    <div class="section-container py-12">
+      <nav class="mb-4 text-sm text-iw-text-secondary">
+        <a href="/books" class="hover:text-iw-text">Books</a>
+        <span class="mx-2">/</span>
+        <a href={`/books/${slug}`} class="hover:text-iw-text">{book.title_en}</a>
+        <span class="mx-2">/</span>
+        <span class="text-iw-text">Index</span>
+      </nav>
+
+      <h1 class="mb-2 text-2xl font-bold text-white">Subject Index</h1>
+      <p class="mb-8 text-sm text-iw-text-muted">{entries.length} terms · {book.title_en}</p>
+
+      <BookIndexIsland slug={slug!} entries={entries} client:load />
+    </div>
+  </main>
+</Base>

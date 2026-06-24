@@ -1,0 +1,27 @@
+---
+/**
+ * admin/ai-reviews/index.astro — manual AI content-review console
+ *
+ * PURPOSE: Shell wrapping the AIReviewsPanel island. Ports app/admin/ai-reviews/page.tsx.
+ *
+ * AUTH GUARD (server-side, preserved + defense-in-depth):
+ *   src/middleware.ts gates /admin* at trustLevel>=4; this frontmatter re-checks and redirects
+ *   to / when <4. The island POSTs to /api/ai/review, which independently enforces trustLevel>=3
+ *   + rate limiting and keeps the Anthropic key server-only.
+ * REF: ports app/admin/ai-reviews (auth-interactive migration group)
+ */
+import Base from '../../../layouts/Base.astro'
+import { AIReviewsPanel } from '../../../components/admin/AIReviewsPanel'
+
+export const prerender = false
+
+if ((Astro.locals.trustLevel ?? 0) < 4) {
+  return Astro.redirect('/', 302)
+}
+---
+
+<Base title="AI Content Reviews | Islam.wiki" description="Manually trigger theological compliance checks.">
+  <main id="main-content">
+    <AIReviewsPanel client:load />
+  </main>
+</Base>

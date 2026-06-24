@@ -1,0 +1,145 @@
+---
+/**
+ * hadith/[collection].astro — Single hadith collection page (SSG)
+ *
+ * PURPOSE: Ports app/hadith/[collection]/page.tsx. Lists the books of a collection
+ *          with prev/next collection navigation. Reads the same lib/data/hadith reader.
+ *          generateStaticParams → getStaticPaths.
+ * CONSTRAINTS:
+ *   - prerender=true (static). No next/* imports.
+ *   - JSON-LD (HadithCollection + Breadcrumb) reuses lib safeJsonLd (XSS-escaped via set:html).
+ *   - Hreflang alternates reuse lib SEO helper.
+ * REF: ports app/hadith/[collection]/page.tsx · D-P2-STACK-CANON
+ */
+export const prerender = true
+
+import Base from '../../layouts/Base.astro'
+import { getCollectionBySlug, getCollections, getBooksByCollection } from '@/lib/data/hadith'
+import { safeJsonLd } from '@/components/seo/json-ld'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
+
+export function getStaticPaths() {
+  return getCollections().map((c) => ({ params: { collection: c.slug } }))
+}
+
+const { collection: slug } = Astro.params
+const col = getCollectionBySlug(slug!)
+if (!col) return Astro.redirect('/404')
+
+const books = getBooksByCollection(col.id)
+const allCollections = getCollections()
+const colIdx = allCollections.findIndex((c) => c.slug === slug)
+const prevCol = colIdx > 0 ? allCollections[colIdx - 1] : null
+const nextCol = colIdx < allCollections.length - 1 ? allCollections[colIdx + 1] : null
+
+const title = `${col.name_en} — Islam.wiki`
+const description = `Browse ${col.name_en} by ${col.author_name_en}. ${col.total_hadith.toLocaleString()} hadith in ${col.total_books} books. Arabic and English with grading.`
+const alternates = getHreflangAlternates(`/hadith/${slug}`)
+
+// JSON-LD: HadithCollection (Book) + Breadcrumb — reuses lib safeJsonLd for XSS-safe output.
+const collectionLd = safeJsonLd({
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: col.name_en,
+  alternateName: col.name_ar,
+  author: { '@type': 'Person', name: col.author_name_en },
+  numberOfPages: col.total_hadith,
+  url: `https://islam.wiki/hadith/${col.slug}`,
+  inLanguage: ['ar', 'en'],
+  genre: 'Hadith',
+  publisher: { '@type': 'Organization', name: 'Islam.wiki', url: 'https://islam.wiki' },
+})
+const breadcrumbLd = safeJsonLd({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { name: 'Hadith', url: '/hadith' },
+    { name: col.name_en, url: `/hadith/${col.slug}` },
+  ].map((item, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: item.name,
+    item: `https://islam.wiki${item.url}`,
+  })),
+})
+---
+
+<Base title={title} description={description}>
+  <script is:inline type="application/ld+json" slot="head" set:html={collectionLd} />
+  <script is:inline type="application/ld+json" slot="head" set:html={breadcrumbLd} />
+  {Object.entries(alternates).map(([lang, href]) => (
+    <link slot="head" rel="alternate" hreflang={lang} href={href} />
+  ))}
+  <main id="main-content">
+    <div class="section-container py-12">
+      {/* Header */}
+      <nav class="mb-4 text-sm text-iw-text-secondary">
+        <a href="/hadith" class="hover:text-iw-text">Hadith</a>
+        <span class="mx-2">/</span>
+        <span class="text-iw-text">{col.name_en}</span>
+      </nav>
+
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold text-white">{col.name_en}</h1>
+        <p class="arabic-text mt-2 text-xl text-white/80">{col.name_ar}</p>
+        <p class="mt-2 text-iw-text-secondary">
+          By {col.author_name_en} · {col.total_hadith.toLocaleString()} hadith · {col.total_books} books
+        </p>
+        {col.description_en && (
+          <p class="mt-4 max-w-2xl text-sm text-iw-text-secondary/80">{col.description_en}</p>
+        )}
+      </div>
+
+      {/* Books list */}
+      <div class="space-y-2">
+        {books.map((book) => (
+          <a
+            href={`/hadith/${slug}/${book.slug}`}
+            class="flex items-center justify-between rounded-lg border border-iw-border p-4 transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface"
+          >
+            <div class="flex items-center gap-4">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded bg-iw-accent/10 text-xs font-bold text-iw-accent">
+                {book.number}
+              </span>
+              <div>
+                <h2 class="font-medium text-iw-text">{book.name_en}</h2>
+                <p class="arabic-text text-sm text-iw-text-secondary">{book.name_ar}</p>
+              </div>
+            </div>
+            <span class="text-xs text-iw-text-secondary">{book.hadith_count} hadith</span>
+          </a>
+        ))}
+      </div>
+
+      {/* Collection prev/next */}
+      <div class="mt-10 grid grid-cols-2 gap-4 border-t border-iw-border pt-6">
+        {prevCol ? (
+          <a
+            href={`/hadith/${prevCol.slug}`}
+            class="group rounded-lg border border-iw-border p-4 transition-colors hover:border-iw-text-muted/20"
+          >
+            <span class="text-xs text-iw-text-muted">Previous Collection</span>
+            <p class="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
+              {prevCol.name_en}
+            </p>
+          </a>
+        ) : (
+          <div />
+        )}
+        {nextCol ? (
+          <a
+            href={`/hadith/${nextCol.slug}`}
+            class="group rounded-lg border border-iw-border p-4 text-right transition-colors hover:border-iw-text-muted/20"
+          >
+            <span class="text-xs text-iw-text-muted">Next Collection</span>
+            <p class="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">
+              {nextCol.name_en}
+            </p>
+          </a>
+        ) : (
+          <div />
+        )}
+      </div>
+    </div>
+  </main>
+</Base>

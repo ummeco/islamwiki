@@ -1,0 +1,118 @@
+---
+/**
+ * FILE: pages/search/index.astro
+ * PURPOSE: Search results page — SSR, fetches published articles matching query.
+ *   Accepts ?q= and ?locale= query params.
+ * CONSTRAINTS:
+ *   - prerender = false (SSR only).
+ *   - No auth required.
+ * REF: P2-E3-W02-S02-T01 · spec §3.2 surface map
+ */
+
+export const prerender = false;
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SearchBar from '../../components/SearchBar.tsx';
+import { createUrqlClient } from '@ummat/graphql-client';
+import type { IwArticleSummary } from '../../types/article.ts';
+
+const url = Astro.url;
+const query = url.searchParams.get('q') ?? '';
+const locale = url.searchParams.get('locale') ?? 'en';
+
+let results: IwArticleSummary[] = [];
+let searchError: Error | null = null;
+
+if (query.length >= 2) {
+  const graphqlUrl =
+    import.meta.env.PUBLIC_GRAPHQL_URL ?? 'https://api.ummat.dev/v1/graphql';
+
+  const client = createUrqlClient({ url: graphqlUrl });
+
+  const QUERY = `
+    query SearchArticles($query: String!, $locale: String) {
+      iw_articles(
+        where: {
+          status: { _eq: "published" }
+          language: { _eq: $locale }
+          _or: [
+            { title: { _ilike: $query } }
+          ]
+        }
+        limit: 20
+      ) {
+        id slug title language category { slug name }
+      }
+    }
+  `;
+
+  try {
+    const result = await client.query(QUERY, {
+      query: `%${query}%`,
+      locale: locale || null,
+    });
+    results =
+      (result.data as { iw_articles: IwArticleSummary[] } | null)?.iw_articles ?? [];
+  } catch (e) {
+    searchError = e instanceof Error ? e : new Error(String(e));
+  }
+}
+
+const dir = locale === 'ar' ? 'rtl' : 'ltr';
+const lang = (locale === 'ar' ? 'ar' : 'en') as 'en' | 'ar';
+---
+
+<BaseLayout
+  title={query ? `Search: ${query}` : 'Search'}
+  description="Search Islam.wiki articles"
+  lang={lang}
+  noIndex={true}
+>
+  <div class="min-h-screen" dir={dir}>
+    <nav class="border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+      <a href="/" class="font-semibold text-brand-dark text-lg">Islam.wiki</a>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-4 py-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-6">Search Islam.wiki</h1>
+
+      <SearchBar client:load defaultQuery={query} locale={locale} />
+
+      {searchError && (
+        <div class="mt-6 bg-red-50 border border-red-200 rounded-lg p-4 text-red-700">
+          Search is temporarily unavailable. Please try again.
+        </div>
+      )}
+
+      {query && !searchError && (
+        <div class="mt-8">
+          <p class="text-sm text-gray-500 mb-4">
+            {results.length} result{results.length !== 1 ? 's' : ''} for "{query}"
+          </p>
+
+          {results.length === 0 ? (
+            <div class="text-gray-500 py-8 text-center">
+              No articles found for "{query}".
+            </div>
+          ) : (
+            <ul class="space-y-4">
+              {results.map((article) => (
+                <li class="border-b border-gray-100 pb-4">
+                  <a
+                    href={`${article.language === 'ar' ? '/ar' : ''}/wiki/${article.slug}`}
+                    class="block hover:text-brand-mid"
+                  >
+                    <h2 class="text-lg font-semibold text-gray-900">{article.title}</h2>
+                    {article.category && (
+                      <span class="text-xs text-brand-mid">{article.category.name}</span>
+                    )}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+    </main>
+  </div>
+</BaseLayout>

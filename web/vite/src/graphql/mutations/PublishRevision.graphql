@@ -1,0 +1,29 @@
+# PublishRevision.graphql
+# PURPOSE: Submit a revision for review — sets article status to pending_review.
+#   Triggers theology check on the backend (iw_trigger_theology_check called separately).
+# REF: p2-islamwiki-astro-vite-spec.md §6.3 §5.3
+
+mutation PublishRevision(
+  $article_id: uuid!
+  $content_md: String!
+  $content_html: String!
+) {
+  revision: insert_iw_article_revisions_one(
+    object: {
+      article_id: $article_id
+      content_md: $content_md
+      content_html: $content_html
+    }
+  ) {
+    id
+    article_id
+    created_at
+  }
+  article: update_iw_articles_by_pk(
+    pk_columns: { id: $article_id }
+    _set: { status: "pending_review" }
+  ) {
+    id
+    status
+  }
+}

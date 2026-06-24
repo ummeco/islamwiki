@@ -1,0 +1,23 @@
+---
+/**
+ * account/index.astro — Sign in / create account (auth card shell)
+ *
+ * PURPOSE: Static shell wrapping the AccountForm island (magic-link / password / register /
+ *   forgot). Ports app/account/page.tsx + account-form.tsx.
+ *
+ * AUTH GUARD (server-side, preserved): src/middleware.ts already redirects an authenticated
+ *   visitor away from /account to / (302). This page only renders for signed-out users; the
+ *   island POSTs credentials to the cookie-setting /api/auth/* routes (secrets stay server-side).
+ * REF: ports app/account (auth-interactive migration group)
+ */
+import Base from '../../layouts/Base.astro'
+import { AccountForm } from '../../components/auth/AccountForm'
+
+export const prerender = false
+---
+
+<Base title="Account | Islam.wiki" description="Sign in or create your Islam.wiki account.">
+  <main id="main-content">
+    <AccountForm client:load />
+  </main>
+</Base>

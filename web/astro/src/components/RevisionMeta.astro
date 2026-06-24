@@ -1,0 +1,47 @@
+---
+/**
+ * FILE: components/RevisionMeta.astro
+ * PURPOSE: "Last edited by X on [Gregorian + Hijri date]" display below article title.
+ * INPUTS: author (string), updatedAt (ISO string), hijriDate (HijriDate | null)
+ * CONSTRAINTS:
+ *   - Hijri dates MUST come from @ummat/shared/hijri.toHijri — never built-in calendar.
+ * REF: P2-E3-W02-S02-T01 · spec §11.1
+ */
+
+interface HijriDate {
+  year: number;
+  month: number;
+  day: number;
+  monthName?: string;
+}
+
+interface Props {
+  author: string;
+  updatedAt: string;
+  hijriDate?: HijriDate | null;
+}
+
+const { author, updatedAt, hijriDate } = Astro.props;
+
+const gregorianDate = new Date(updatedAt).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const hijriDisplay = hijriDate
+  ? `${hijriDate.day} ${hijriDate.monthName ?? hijriDate.month} ${hijriDate.year} AH`
+  : null;
+---
+
+<div class="text-sm text-gray-500 mb-4 flex items-center gap-2 flex-wrap">
+  <span>Last edited by <strong class="text-gray-700">{author}</strong></span>
+  <span aria-hidden="true">·</span>
+  <time datetime={updatedAt}>{gregorianDate}</time>
+  {hijriDisplay && (
+    <>
+      <span aria-hidden="true">·</span>
+      <span class="font-arabic" aria-label="Hijri date">{hijriDisplay}</span>
+    </>
+  )}
+</div>

@@ -3,10 +3,13 @@ import { isValidLocale, isRtl, LOCALES, DEFAULT_LOCALE } from '@/lib/i18n/config
 import { t, getMessages } from '@/lib/i18n/translations'
 
 describe('i18n config', () => {
-  it('has 3 locales', () => {
-    expect(LOCALES).toHaveLength(3)
+  // Updated P2-E6-W01-S01-T01: 5 required locales (en/ar/ur/fa/id)
+  it('has 5 locales', () => {
+    expect(LOCALES).toHaveLength(5)
     expect(LOCALES).toContain('en')
     expect(LOCALES).toContain('ar')
+    expect(LOCALES).toContain('ur')
+    expect(LOCALES).toContain('fa')
     expect(LOCALES).toContain('id')
   })
 
@@ -17,12 +20,16 @@ describe('i18n config', () => {
   it('validates locales correctly', () => {
     expect(isValidLocale('en')).toBe(true)
     expect(isValidLocale('ar')).toBe(true)
+    expect(isValidLocale('ur')).toBe(true)
+    expect(isValidLocale('fa')).toBe(true)
     expect(isValidLocale('fr')).toBe(false)
     expect(isValidLocale('')).toBe(false)
   })
 
-  it('Arabic is RTL', () => {
+  it('Arabic, Urdu, and Persian are RTL', () => {
     expect(isRtl('ar')).toBe(true)
+    expect(isRtl('ur')).toBe(true)
+    expect(isRtl('fa')).toBe(true)
     expect(isRtl('en')).toBe(false)
     expect(isRtl('id')).toBe(false)
   })

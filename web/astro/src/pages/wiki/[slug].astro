@@ -1,0 +1,64 @@
+---
+/**
+ * FILE: pages/wiki/[slug].astro
+ * PURPOSE: English article read page — SSR per request.
+ *   Fetches single published article from Hasura via @ummat/graphql-client.
+ *   Returns 404 for draft/unpublished/missing articles (Googlebot never sees them).
+ * CONSTRAINTS:
+ *   - prerender = false (SSR only — never SSG).
+ *   - Cache-Control: public, s-maxage=300 set by ArticleLayout.
+ *   - No auth required.
+ *   - Hijri dates via @ummat/shared/hijri — NEVER use built-in Islamic calendar.
+ * REF: P2-E3-W02-S02-T01 · p2-islamwiki-astro-vite-spec.md §4.1 §5.2
+ */
+
+export const prerender = false;
+
+import { createUrqlClient } from '@ummat/graphql-client';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import type { IwArticle } from '../../types/article.ts';
+
+const { slug } = Astro.params;
+
+if (!slug) {
+  return Astro.redirect('/404');
+}
+
+const graphqlUrl =
+  import.meta.env.PUBLIC_GRAPHQL_URL ?? 'https://api.ummat.dev/v1/graphql';
+
+const client = createUrqlClient({ url: graphqlUrl });
+
+const QUERY = `
+  query GetArticle($slug: String!) {
+    iw_articles(where: { slug: { _eq: $slug }, status: { _eq: "published" } }) {
+      id slug title language status created_at
+      published_revision {
+        id content_html content_md created_at
+        author { id display_name }
+      }
+      category { id slug name }
+      tags { tag { id slug name } }
+      citations { id source_type source_url source_title verified_at }
+    }
+  }
+`;
+
+const result = await client.query(QUERY, { slug });
+
+const articles = (result.data as { iw_articles: IwArticle[] } | null)?.iw_articles;
+
+if (result.error || !articles || articles.length === 0) {
+  // Return 404 — draft/unpublished articles are never served publicly
+  return new Response(null, { status: 404 });
+}
+
+const article = articles[0]!;
+
+// Double-check: only serve English articles on this path
+if (article.language === 'ar') {
+  return Astro.redirect(`/ar/wiki/${slug}`);
+}
+---
+
+<ArticleLayout article={article} />

@@ -1,11 +1,13 @@
 import type { Locale } from './config'
 import en from './messages/en.json'
 import ar from './messages/ar.json'
+import ur from './messages/ur.json'
+import fa from './messages/fa.json'
 import id from './messages/id.json'
 
 type Messages = typeof en
 
-const messages: Record<Locale, Messages> = { en, ar, id }
+const messages: Record<Locale, Messages> = { en, ar, ur, fa, id }
 
 /**
  * Get a nested translation value by dot-path key.

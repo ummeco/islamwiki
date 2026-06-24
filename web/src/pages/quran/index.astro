@@ -1,0 +1,92 @@
+---
+/**
+ * quran/index.astro — Quran index (114 surahs grid), static/SSG
+ *
+ * PURPOSE: Ports app/quran/page.tsx. Lists all surahs + juz quick links.
+ * CONVERSION NOTES:
+ *   - getSurahs() imported VERBATIM from lib/data/quran (framework-independent).
+ *   - QuranGrid is a 'use client' React component → React island via client:load.
+ *   - next/link → <a>; next/Metadata title/description → <Base> props.
+ *   - getHreflangAlternates dropped (Next-metadata-only helper; canonical handled by Base).
+ *   - Prerendered (SSG) to match the Next static page.
+ * REF: P2 quran group · ports app/quran/page.tsx
+ */
+export const prerender = true
+
+import Base from '../../layouts/Base.astro'
+import { getSurahs } from '@/lib/data/quran'
+import { QuranGrid } from '@/components/listings/quran-grid'
+
+const surahs = getSurahs()
+
+const title = 'Quran · Islam.wiki'
+const description =
+  'Read the Holy Quran with Arabic text, translations, and tafsir. All 114 surahs with verse-by-verse commentary from Ibn Kathir, al-Jalalayn, and more.'
+
+const juzList = Array.from({ length: 30 }, (_, i) => i + 1)
+---
+
+<Base title={title} description={description}>
+  <main id="main-content">
+    <div class="section-container py-12">
+      <div class="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <h1 class="text-3xl font-bold text-white">The Holy Quran</h1>
+          <p class="mt-2 text-iw-text-secondary">
+            114 surahs, 6,236 verses. Arabic text with translations and tafsir commentary.
+          </p>
+        </div>
+        <a
+          href="/quran/1"
+          class="inline-flex items-center gap-2 rounded-xl border border-iw-accent/40 bg-iw-accent/10 px-5 py-2.5 text-sm font-semibold text-iw-accent transition-colors hover:bg-iw-accent/20"
+        >
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7L8 5z" />
+          </svg>
+          Read from Al-Fatiha
+        </a>
+      </div>
+
+      {/* Quick links row */}
+      <div class="mb-6 flex flex-wrap gap-3">
+        <a
+          href="/quran/page/1"
+          class="inline-flex items-center gap-1.5 rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+        >
+          Mushaf Pages
+        </a>
+        <a
+          href="/quran/bookmarks"
+          class="inline-flex items-center gap-1.5 rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+        >
+          My Bookmarks
+        </a>
+        <a
+          href="/quran/stats"
+          class="inline-flex items-center gap-1.5 rounded-lg border border-iw-border px-3 py-1.5 text-xs text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+        >
+          Statistics
+        </a>
+      </div>
+
+      {/* Juz quick links */}
+      <div class="mb-8 rounded-xl border border-iw-border bg-iw-surface p-4">
+        <p class="mb-3 text-[11px] font-semibold uppercase tracking-wider text-iw-text-muted">
+          Read by Juz (Para)
+        </p>
+        <div class="flex flex-wrap gap-1.5">
+          {juzList.map((juz) => (
+            <a
+              href={`/quran/juz/${juz}`}
+              class="flex h-8 w-8 items-center justify-center rounded-lg border border-iw-border text-[12px] font-medium text-iw-text-secondary transition-colors hover:border-iw-accent/50 hover:text-iw-accent"
+            >
+              {juz}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <QuranGrid surahs={surahs} client:load />
+    </div>
+  </main>
+</Base>

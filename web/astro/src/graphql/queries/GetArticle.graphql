@@ -1,0 +1,44 @@
+# GetArticle.graphql
+# PURPOSE: Fetch a single published article by slug for Astro SSR rendering.
+# Only returns articles with status=published — draft/pending articles return empty.
+# REF: p2-islamwiki-astro-vite-spec.md §6.2
+
+query GetArticle($slug: String!) {
+  iw_articles(where: { slug: { _eq: $slug }, status: { _eq: "published" } }) {
+    id
+    slug
+    title
+    language
+    status
+    created_at
+    published_revision {
+      id
+      content_html
+      content_md
+      created_at
+      author {
+        id
+        display_name
+      }
+    }
+    category {
+      id
+      slug
+      name
+    }
+    tags {
+      tag {
+        id
+        slug
+        name
+      }
+    }
+    citations {
+      id
+      source_type
+      source_url
+      source_title
+      verified_at
+    }
+  }
+}

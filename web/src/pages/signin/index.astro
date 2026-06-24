@@ -1,0 +1,23 @@
+---
+/**
+ * signin/index.astro — standalone sign-in card (Turnstile)
+ *
+ * PURPOSE: Shell wrapping the SignInForm island. Ports app/signin/signin-form.tsx.
+ *
+ * ROUTING NOTE: astro.config.mjs redirects '/signin' → '/account', and src/middleware.ts
+ *   redirects authenticated users away from /signin. This page therefore renders only if the
+ *   config redirect is removed; it is kept for parity with the Next surface. The island POSTs
+ *   to /api/auth/signin (Turnstile verified server-side; cookies set server-side).
+ * REF: ports app/signin (auth-interactive migration group)
+ */
+import Base from '../../layouts/Base.astro'
+import { SignInForm } from '../../components/auth/SignInForm'
+
+export const prerender = false
+---
+
+<Base title="Sign In | Islam.wiki" description="Sign in to your Islam.wiki account.">
+  <main id="main-content">
+    <SignInForm client:load />
+  </main>
+</Base>

@@ -1,0 +1,278 @@
+---
+/**
+ * wiki/[...slug].astro — Wiki page reader with read / history / diff modes (SSG) [XSS]
+ *
+ * PURPOSE: Ports the read/history/diff modes of app/wiki/[...slug]/page.tsx.
+ *   generateStaticParams → getStaticPaths (read + history + diff routes per page).
+ *   parseSlug logic is preserved verbatim to detect the mode from the rest slug.
+ *
+ * SECURITY [XSS RELEASE GATE]:
+ *   In read mode the localized wiki HTML is sanitized SERVER-SIDE via lib/sanitize.ts
+ *   sanitizeHtml() before set:html, exactly as the Next page wrapped it in
+ *   sanitizeHtml() inside dangerouslySetInnerHTML. Sanitized output is rendered in
+ *   Astro server output, never inside a client island.
+ *
+ * CONVERSION:
+ *   - getLocale() → Astro.locals.locale.
+ *   - getRevisionsByContent (Hasura admin, server-only) runs in frontmatter; admin
+ *     secret stays server-side, never passed to any island.
+ *   - WikiLayout → Astro chrome; ContentTabs / EditButton / RevisionDiff → islands.
+ *   - next/link → <a>; notFound() → 404 response.
+ *   - EDIT MODE: the Next edit branch uses getSessionUser (next/headers cookies) +
+ *     MarkdownEditor (a Next server action import). That authed editor belongs to the
+ *     interactive/authed migration group, not this SSG content group. Here edit
+ *     requests redirect to the account-gated edit flow, preserving the auth gate.
+ * REF: ports app/wiki/[...slug]/page.tsx read/history/diff (articles-wiki group)
+ */
+import Base from '../../layouts/Base.astro'
+import { getWikiPageBySlug, getWikiPages } from '../../../lib/data/wiki'
+import { sanitizeHtml } from '../../../lib/sanitize'
+import { getRevisionsByContent } from '../../../lib/contributor/revisions'
+import { WikiSidebar } from '../../components/wiki/WikiSidebar'
+import { ContentTabs } from '../../components/wiki/ContentTabs'
+import { EditButton } from '../../components/wiki/EditButton'
+import { RevisionDiff } from '../../components/wiki/RevisionDiff'
+
+type Mode = 'read' | 'edit' | 'history' | 'diff'
+
+function parseSlug(parts: string[]): { pageSlug: string; mode: Mode } {
+  const last = parts[parts.length - 1]
+  const secondLast = parts.length >= 2 ? parts[parts.length - 2] : null
+
+  if (last === 'diff' && secondLast === 'history') {
+    return { pageSlug: parts.slice(0, -2).join('/'), mode: 'diff' }
+  }
+  if (last === 'history') {
+    return { pageSlug: parts.slice(0, -1).join('/'), mode: 'history' }
+  }
+  if (last === 'edit') {
+    return { pageSlug: parts.slice(0, -1).join('/'), mode: 'edit' }
+  }
+  return { pageSlug: parts.join('/'), mode: 'read' }
+}
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  const pages = getWikiPages()
+  const paths: { params: { slug: string } }[] = []
+  for (const p of pages) {
+    paths.push({ params: { slug: p.slug } })
+    paths.push({ params: { slug: `${p.slug}/edit` } })
+    paths.push({ params: { slug: `${p.slug}/history` } })
+    paths.push({ params: { slug: `${p.slug}/history/diff` } })
+  }
+  return paths
+}
+
+const slugParam = Astro.params.slug ?? ''
+const slugParts = slugParam.split('/').filter(Boolean)
+const { pageSlug, mode } = parseSlug(slugParts)
+const page = getWikiPageBySlug(pageSlug)
+if (!page) {
+  return new Response(null, { status: 404 })
+}
+
+// Edit mode: route to the account-gated edit flow (authed editor is out of the
+// SSG content group). Preserves the original auth gate intent.
+if (mode === 'edit') {
+  return Astro.redirect(`/account?redirect=/wiki/${pageSlug}/edit`)
+}
+
+const locale = Astro.locals.locale ?? 'en'
+const pageSlugParts = pageSlug.split('/')
+
+const titlePrefix =
+  mode === 'history' ? 'History: ' : mode === 'diff' ? 'Diff: ' : ''
+const pageTitle = `${titlePrefix}${page.title}`
+const description = `${page.title} — Islam.wiki encyclopedia article.`
+
+// Breadcrumbs (matches Next's slug-segment breadcrumbs).
+type Crumb = { label: string; href?: string }
+const breadcrumbs: Crumb[] = pageSlugParts.map((s, i) => ({
+  label: s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase()),
+  ...(i < pageSlugParts.length - 1
+    ? { href: `/wiki/${pageSlugParts.slice(0, i + 1).join('/')}` }
+    : mode !== 'read'
+      ? { href: `/wiki/${pageSlug}` }
+      : {}),
+}))
+if (mode === 'history') {
+  breadcrumbs.push({ label: 'History' })
+} else if (mode === 'diff') {
+  breadcrumbs.push({ label: 'History', href: `/wiki/${pageSlug}/history` })
+  breadcrumbs.push({ label: 'Diff' })
+}
+
+// ── Read-mode content (server-side sanitized) ──
+const localizedContent =
+  locale === 'ar'
+    ? page.content_ar || page.content
+    : locale === 'id'
+      ? page.content_id || page.content
+      : page.content
+const safeContent = localizedContent ? sanitizeHtml(localizedContent) : ''
+
+const displayTitle =
+  locale === 'ar' && page.title_ar
+    ? page.title_ar
+    : locale === 'id' && page.title_id
+      ? page.title_id
+      : page.title
+
+// ── History/diff revisions ──
+const revisions =
+  mode === 'history' || mode === 'diff'
+    ? await getRevisionsByContent('wiki', pageSlug).catch(() => [])
+    : []
+
+const oldId = Astro.url.searchParams.get('old') ?? undefined
+const newId = Astro.url.searchParams.get('new') ?? undefined
+const oldRev = mode === 'diff' ? revisions.find((r) => r.id === oldId) : undefined
+const newRev = mode === 'diff' ? revisions.find((r) => r.id === newId) : undefined
+const oldDate = oldRev ? new Date(oldRev.created_at).toLocaleString() : ''
+const newDate = newRev ? new Date(newRev.created_at).toLocaleString() : ''
+---
+
+<Base title={pageTitle} description={description}>
+  <div class="section-container">
+    <nav class="flex items-center gap-1.5 py-3 text-xs text-iw-text-secondary" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-iw-text">Home</a>
+      {breadcrumbs.map((crumb) => (
+        <span class="flex items-center gap-1.5">
+          <span class="text-iw-border">/</span>
+          {crumb.href ? (
+            <a href={crumb.href} class="hover:text-iw-text">{crumb.label}</a>
+          ) : (
+            <span class="text-iw-text">{crumb.label}</span>
+          )}
+        </span>
+      ))}
+    </nav>
+
+    <div class="flex gap-6">
+      <div class="hidden border-r border-iw-border pr-4 lg:block">
+        <WikiSidebar client:load />
+      </div>
+
+      <main class="min-w-0 flex-1 py-4">
+        {mode === 'read' && (
+          <>
+            <ContentTabs basePath={`/wiki/${pageSlug}`} activeTab="read" canEdit client:load />
+            <article class="max-w-3xl">
+              <div class="mb-6 flex items-start justify-between gap-4">
+                <h1 class="text-3xl font-bold text-white">{displayTitle}</h1>
+                <EditButton editHref={`/wiki/${pageSlug}/edit`} client:load />
+              </div>
+
+              <div class="prose prose-invert max-w-none text-iw-text-secondary">
+                {safeContent ? (
+                  <div set:html={safeContent} />
+                ) : (
+                  <p class="italic text-iw-text-muted">
+                    This page is being written. Want to contribute?{' '}
+                    <a href="/signup" class="text-iw-accent hover:text-white">Create an account</a>{' '}
+                    and help build the wiki.
+                  </p>
+                )}
+              </div>
+
+              <div class="mt-8 border-t border-iw-border pt-4 text-xs text-iw-text-muted">
+                {page.updated_at && <>Last updated: {new Date(page.updated_at).toLocaleDateString()}</>}
+              </div>
+            </article>
+          </>
+        )}
+
+        {mode === 'history' && (
+          <>
+            <ContentTabs basePath={`/wiki/${pageSlug}`} activeTab="history" canEdit client:load />
+            <div class="max-w-3xl">
+              <h1 class="mb-6 text-2xl font-bold text-white">Revision history: {page.title}</h1>
+              {revisions.length === 0 ? (
+                <div class="rounded-xl border border-iw-border bg-iw-surface p-8 text-center">
+                  <svg class="mx-auto mb-4 h-12 w-12 text-iw-text-secondary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <p class="text-sm text-iw-text-secondary">No revision history yet.</p>
+                  <p class="mt-2 text-xs text-iw-text-muted">Revisions will appear here once edits are made to this page.</p>
+                </div>
+              ) : (
+                <div class="space-y-2">
+                  {revisions.map((rev, i) => (
+                    <div class="flex items-start gap-4 rounded-lg border border-iw-border bg-iw-surface/60 px-4 py-3">
+                      <div class="flex-1">
+                        <div class="flex items-center gap-2">
+                          <span class={`inline-block rounded px-1.5 py-0.5 text-xs font-medium ${rev.status === 'approved' ? 'bg-emerald-500/15 text-emerald-400' : rev.status === 'pending' ? 'bg-amber-500/15 text-amber-400' : 'bg-red-500/15 text-red-400'}`}>
+                            {rev.status}
+                          </span>
+                          <span class="text-sm text-iw-text">{rev.change_summary}</span>
+                        </div>
+                        <div class="mt-1 flex items-center gap-3 text-xs text-iw-text-secondary/70">
+                          <span>{rev.editor_username}</span>
+                          <span>{new Date(rev.created_at).toLocaleString()}</span>
+                        </div>
+                      </div>
+                      {i < revisions.length - 1 && (
+                        <a
+                          href={`/wiki/${pageSlug}/history/diff?old=${revisions[i + 1].id}&new=${rev.id}`}
+                          class="rounded border border-iw-border px-2.5 py-1 text-xs text-iw-text-secondary hover:border-iw-text-muted hover:text-iw-text"
+                        >
+                          Diff
+                        </a>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </>
+        )}
+
+        {mode === 'diff' && (
+          !oldRev || !newRev ? (
+            <div class="max-w-3xl">
+              <h1 class="mb-6 text-2xl font-bold text-white">Revision not found</h1>
+              <p class="text-sm text-iw-text-secondary">
+                One or both revisions could not be found.{' '}
+                <a href={`/wiki/${pageSlug}/history`} class="text-iw-accent hover:text-white">Return to history</a>
+              </p>
+            </div>
+          ) : (
+            <div class="max-w-4xl">
+              <h1 class="mb-2 text-2xl font-bold text-white">Comparing revisions: {page.title}</h1>
+              <p class="mb-6 text-sm text-iw-text-secondary/70">
+                Changes between {oldRev.editor_username} ({oldDate}) and {newRev.editor_username} ({newDate})
+              </p>
+              <div class="mb-4 grid grid-cols-2 gap-4">
+                <div class="rounded-lg border border-iw-border bg-iw-surface/40 px-3 py-2">
+                  <div class="text-xs font-medium text-iw-text-secondary/70">Old revision</div>
+                  <div class="mt-0.5 text-sm text-iw-text">{oldRev.change_summary}</div>
+                  <div class="mt-1 text-xs text-iw-text-secondary/50">{oldRev.editor_username} &middot; {oldDate}</div>
+                </div>
+                <div class="rounded-lg border border-iw-border bg-iw-surface/40 px-3 py-2">
+                  <div class="text-xs font-medium text-iw-text-secondary/70">New revision</div>
+                  <div class="mt-0.5 text-sm text-iw-text">{newRev.change_summary}</div>
+                  <div class="mt-1 text-xs text-iw-text-secondary/50">{newRev.editor_username} &middot; {newDate}</div>
+                </div>
+              </div>
+              <RevisionDiff
+                oldContent={oldRev.previous_content ?? ''}
+                newContent={newRev.new_content}
+                oldLabel={`${oldRev.editor_username} (${oldDate})`}
+                newLabel={`${newRev.editor_username} (${newDate})`}
+                client:load
+              />
+              <div class="mt-4">
+                <a href={`/wiki/${pageSlug}/history`} class="text-sm text-iw-accent hover:text-white">
+                  Back to revision history
+                </a>
+              </div>
+            </div>
+          )
+        )}
+      </main>
+    </div>
+  </div>
+</Base>

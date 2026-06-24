@@ -1,0 +1,190 @@
+---
+/**
+ * articles/[slug].astro — Article reading page (static, SSG) [XSS]
+ *
+ * PURPOSE: Ports app/articles/[slug]/page.tsx (read mode).
+ *   generateStaticParams → getStaticPaths over getArticles().
+ *
+ * SECURITY [XSS RELEASE GATE]:
+ *   The localized article HTML is sanitized SERVER-SIDE here via lib/sanitize.ts
+ *   sanitizeHtml() before it is emitted with set:html — exactly as the Next page
+ *   wrapped it in sanitizeHtml() inside dangerouslySetInnerHTML. The sanitized
+ *   string is rendered in Astro (server output), never inside a client island.
+ *
+ * CONVERSION:
+ *   - getLocale() (next/headers) → Astro.locals.locale (set by middleware).
+ *   - WikiLayout → Astro chrome (breadcrumbs + WikiSidebar/TableOfContents islands).
+ *   - ContentTabs / EditButton / MadhabVariancePanel / CrossReferences → islands.
+ *   - getMadhabRulings (Hasura admin, server-only) runs in frontmatter; admin secret
+ *     stays server-side and is never passed to any client island.
+ *   - next/link → <a>; notFound() → Astro.redirect to 404 via 404 response.
+ * REF: ports app/articles/[slug]/page.tsx (articles-wiki migration group)
+ */
+import Base from '../../layouts/Base.astro'
+import { getArticleBySlug, getArticles } from '../../../lib/data/articles'
+import { sanitizeHtml } from '../../../lib/sanitize'
+import { getMadhabRulings } from '../../../lib/fiqh/madhab-rulings'
+import { resolveCrossRefs } from '../../lib/cross-refs-resolve'
+import { WikiSidebar } from '../../components/wiki/WikiSidebar'
+import { ContentTabs } from '../../components/wiki/ContentTabs'
+import { EditButton } from '../../components/wiki/EditButton'
+import { MadhabVariancePanel } from '../../components/fiqh/MadhabVariancePanel'
+import { CrossReferences } from '../../components/articles/CrossReferences'
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  return getArticles().map((a) => ({ params: { slug: a.slug } }))
+}
+
+const { slug } = Astro.params
+const article = getArticleBySlug(slug!)
+if (!article) {
+  return new Response(null, { status: 404 })
+}
+
+const locale = Astro.locals.locale ?? 'en'
+
+const madhabRulings = await getMadhabRulings('article', slug!)
+
+const relatedArticles = getArticles()
+  .filter((a) => a.category === article.category && a.slug !== slug)
+  .slice(0, 4)
+
+const displayTitle =
+  locale === 'ar' && article.title_ar
+    ? article.title_ar
+    : locale === 'id' && article.title_id
+      ? article.title_id
+      : article.title
+
+const localizedContent =
+  locale === 'ar'
+    ? article.content_ar || article.content
+    : locale === 'id'
+      ? article.content_id || article.content
+      : article.content
+
+// [XSS] Server-side sanitization before set:html.
+const safeContent = localizedContent ? sanitizeHtml(localizedContent) : ''
+
+const crossRefs = resolveCrossRefs({
+  quranRefs: article.quran_refs,
+  hadithRefs: article.hadith_refs,
+  scholarRefs: article.scholar_refs,
+})
+
+const metaDescription =
+  article.excerpt || `${article.title} — Islamic encyclopedia article on Islam.wiki.`
+const updatedDate = new Date(article.updated_at).toLocaleDateString('en-GB', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+})
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.title,
+  description: metaDescription,
+  url: `https://islam.wiki/articles/${slug}`,
+  datePublished: article.created_at || article.updated_at,
+  dateModified: article.updated_at,
+  publisher: { '@type': 'Organization', name: 'Islam.wiki', url: 'https://islam.wiki' },
+  isPartOf: { '@type': 'WebSite', name: 'Islam.wiki', url: 'https://islam.wiki' },
+}
+---
+
+<Base title={article.title} description={metaDescription}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <div class="section-container">
+    <nav class="flex items-center gap-1.5 py-3 text-xs text-iw-text-secondary" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-iw-text">Home</a>
+      <span class="flex items-center gap-1.5">
+        <span class="text-iw-border">/</span>
+        <a href="/articles" class="hover:text-iw-text">Articles</a>
+      </span>
+      <span class="flex items-center gap-1.5">
+        <span class="text-iw-border">/</span>
+        <span class="text-iw-text">{article.title}</span>
+      </span>
+    </nav>
+
+    <div class="flex gap-6">
+      <div class="hidden border-r border-iw-border pr-4 lg:block">
+        <WikiSidebar client:load />
+      </div>
+
+      <main class="min-w-0 flex-1 py-4">
+        <ContentTabs basePath={`/articles/${slug}`} activeTab="read" canEdit client:load />
+
+        <article class="max-w-3xl">
+          <header class="mb-8">
+            <div class="flex items-start justify-between gap-4">
+              <div>
+                <span class="badge bg-iw-accent/10 text-iw-accent mb-3">{article.category}</span>
+                <h1 class="text-3xl font-bold text-white">{displayTitle}</h1>
+              </div>
+              <EditButton editHref={`/articles/${slug}/edit`} client:load />
+            </div>
+            <div class="mt-3 flex items-center gap-4 text-sm text-iw-text-secondary">
+              {article.author_name && <span>By {article.author_name}</span>}
+              <span>{updatedDate}</span>
+            </div>
+          </header>
+
+          <div class="prose prose-invert max-w-none text-iw-text-secondary">
+            {safeContent ? (
+              <div set:html={safeContent} />
+            ) : (
+              <p class="italic text-iw-text-muted">This article is being written.</p>
+            )}
+          </div>
+
+          {article.tags.length > 0 && (
+            <div class="mt-8 flex flex-wrap gap-2">
+              {article.tags.map((tag) => (
+                <a
+                  href={`/search?q=${encodeURIComponent(tag)}`}
+                  class="rounded-full border border-iw-border px-3 py-1 text-xs text-iw-text-secondary hover:border-iw-text-muted"
+                >
+                  {tag}
+                </a>
+              ))}
+            </div>
+          )}
+
+          <MadhabVariancePanel rulings={madhabRulings} client:load />
+
+          <CrossReferences
+            quran={crossRefs.quran}
+            hadith={crossRefs.hadith}
+            scholars={crossRefs.scholars}
+            client:load
+          />
+
+          {relatedArticles.length > 0 && (
+            <div class="mt-10 border-t border-iw-border pt-8">
+              <h2 class="mb-4 text-lg font-semibold text-white">Related Articles</h2>
+              <div class="grid gap-3 sm:grid-cols-2">
+                {relatedArticles.map((ra) => (
+                  <a
+                    href={`/articles/${ra.slug}`}
+                    class="rounded-lg border border-iw-border p-3 transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface"
+                  >
+                    <p class="text-sm font-medium text-iw-text line-clamp-2">{ra.title}</p>
+                    {ra.excerpt && (
+                      <p class="mt-1 text-xs text-iw-text-muted line-clamp-2">{ra.excerpt}</p>
+                    )}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </article>
+      </main>
+    </div>
+  </div>
+</Base>

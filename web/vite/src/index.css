@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Geist:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --brand-light: #C9F27A;
+  --brand-mid: #79C24C;
+  --brand-dark: #1E5E2F;
+  --brand-deep: #0D2F17;
+}
+
+body {
+  font-family: 'Geist', Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* TipTap editor prose styles */
+.ProseMirror {
+  outline: none;
+  min-height: 300px;
+  padding: 1rem;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: #adb5bd;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}

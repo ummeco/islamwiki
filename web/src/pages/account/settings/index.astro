@@ -1,0 +1,19 @@
+---
+/**
+ * account/settings/index.astro — Reading preferences (client-only, localStorage)
+ *
+ * PURPOSE: Static shell wrapping the SettingsForm island. Ports app/account/settings/page.tsx.
+ *   No account required; settings persist in the browser. No server auth needed here.
+ * REF: ports app/account/settings (auth-interactive migration group)
+ */
+import Base from '../../../layouts/Base.astro'
+import { SettingsForm } from '../../../components/account/SettingsForm'
+
+export const prerender = false
+---
+
+<Base title="Preferences | Islam.wiki" description="Reading preferences for Islam.wiki — language, translation, reciter, tafsir.">
+  <main id="main-content">
+    <SettingsForm client:load />
+  </main>
+</Base>

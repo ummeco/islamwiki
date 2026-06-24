@@ -1,0 +1,101 @@
+---
+/**
+ * articles/[slug]/history/index.astro — Article revision history (SSG)
+ *
+ * PURPOSE: Ports app/articles/[slug]/history/page.tsx.
+ *   generateStaticParams → getStaticPaths over getArticles().
+ * CONVERSION:
+ *   - getRevisions (lib/data/revisions, server-only fs reader) runs in frontmatter.
+ *   - WikiLayout → Astro chrome (breadcrumbs + WikiSidebar island).
+ *   - ContentTabs → island. next/link → <a>. notFound() → 404 response.
+ * REF: ports app/articles/[slug]/history/page.tsx (articles-wiki migration group)
+ */
+import Base from '../../../../layouts/Base.astro'
+import { getArticleBySlug, getArticles } from '../../../../../lib/data/articles'
+import { getRevisions } from '../../../../../lib/data/revisions'
+import { WikiSidebar } from '../../../../components/wiki/WikiSidebar'
+import { ContentTabs } from '../../../../components/wiki/ContentTabs'
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  return getArticles().map((a) => ({ params: { slug: a.slug } }))
+}
+
+const { slug } = Astro.params
+const article = getArticleBySlug(slug!)
+if (!article) {
+  return new Response(null, { status: 404 })
+}
+
+const revisions = getRevisions('article', slug!)
+
+const title = `History: ${article.title}`
+const description = `Revision history for "${article.title}" on Islam.wiki.`
+---
+
+<Base title={title} description={description}>
+  <div class="section-container">
+    <nav class="flex items-center gap-1.5 py-3 text-xs text-iw-text-secondary" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-iw-text">Home</a>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><a href="/articles" class="hover:text-iw-text">Articles</a></span>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><a href={`/articles/${slug}`} class="hover:text-iw-text">{article.title}</a></span>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><span class="text-iw-text">History</span></span>
+    </nav>
+
+    <div class="flex gap-6">
+      <div class="hidden border-r border-iw-border pr-4 lg:block">
+        <WikiSidebar client:load />
+      </div>
+
+      <main class="min-w-0 flex-1 py-4">
+        <ContentTabs basePath={`/articles/${slug}`} activeTab="history" canEdit client:load />
+
+        <div class="max-w-3xl">
+          <h1 class="mb-6 text-2xl font-bold text-white">Revision history: {article.title}</h1>
+
+          {revisions.length === 0 ? (
+            <div class="rounded-xl border border-iw-border bg-iw-surface p-8 text-center">
+              <svg class="mx-auto mb-4 h-12 w-12 text-iw-text-secondary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <p class="text-sm text-iw-text-secondary">No revision history yet.</p>
+              <p class="mt-2 text-xs text-iw-text-muted">Revisions will appear here once edits are made to this article.</p>
+            </div>
+          ) : (
+            <div class="space-y-2">
+              {revisions.map((rev, i) => (
+                <div class="flex items-start gap-4 rounded-lg border border-iw-border bg-iw-surface/60 px-4 py-3">
+                  <div class="flex-1">
+                    <div class="flex items-center gap-2">
+                      <span class={`inline-block rounded px-1.5 py-0.5 text-xs font-medium ${rev.status === 'approved' ? 'bg-emerald-500/15 text-emerald-400' : rev.status === 'pending' ? 'bg-amber-500/15 text-amber-400' : 'bg-red-500/15 text-red-400'}`}>
+                        {rev.status}
+                      </span>
+                      <span class="text-sm text-iw-text">{rev.edit_summary}</span>
+                    </div>
+                    <div class="mt-1 flex items-center gap-3 text-xs text-iw-text-secondary/70">
+                      <span>{rev.editor_name}</span>
+                      <span>{new Date(rev.created_at).toLocaleString()}</span>
+                      {rev.reviewed_by && <span>Reviewed by: {rev.reviewed_by}</span>}
+                    </div>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    {i < revisions.length - 1 && (
+                      <a
+                        href={`/articles/${slug}/history/diff?old=${revisions[i + 1].id}&new=${rev.id}`}
+                        class="rounded border border-iw-border px-2.5 py-1 text-xs text-iw-text-secondary hover:border-iw-text-muted hover:text-iw-text"
+                      >
+                        Diff
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      </main>
+    </div>
+  </div>
+</Base>

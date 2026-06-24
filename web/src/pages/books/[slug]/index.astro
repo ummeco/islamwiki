@@ -1,0 +1,288 @@
+---
+/**
+ * books/[slug]/index.astro — Book detail page (SSG, dynamic route).
+ *
+ * PURPOSE: Ports app/books/[slug]/page.tsx. getStaticParams → getStaticPaths over
+ *   getBooks(). Resolves canonical/alias slugs (301 redirect for aliases), renders
+ *   metadata, table of contents, details sidebar, related/other-by-author, and the
+ *   Book JSON-LD (built with safeJsonLd, reused verbatim from components/seo/json-ld).
+ * NOTE: This sits at books/[slug]/index.astro (not [slug].astro) so the sibling
+ *   routes books/[slug]/index/ (subject index) and books/[slug]/[chapter] resolve.
+ * REF: ports app/books/[slug]/page.tsx · D-P2-STACK-CANON
+ */
+import Base from '../../../layouts/Base.astro'
+import {
+  getCanonicalBook,
+  getBooks,
+  getChaptersByBook,
+  getBooksByAuthor,
+  getBookBySlug,
+  getBookIndex,
+} from '@/lib/data/books'
+import { formatIslamicYear } from '@/lib/dates/hijri'
+import { ogImageUrl } from '@/lib/og'
+import { safeJsonLd } from '@/components/seo/json-ld'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  return getBooks().map((b) => ({ params: { slug: b.slug } }))
+}
+
+const CATEGORY_LABELS: Record<string, string> = {
+  fiqh: 'Fiqh',
+  sharh: 'Sharh',
+  'ethics-spirituality': 'Ethics & Spirituality',
+  'hadith-sciences': 'Hadith Sciences',
+  aqeedah: 'Aqeedah',
+  biography: 'Biography',
+  'usul-al-fiqh': 'Usul al-Fiqh',
+  tafsir: 'Tafsir',
+  history: 'History',
+  seerah: 'Seerah',
+  'quran-sciences': 'Quran Sciences',
+  general: 'General',
+  'arabic-language': 'Arabic Language',
+  'comparative-religion': 'Comparative Religion',
+}
+
+const { slug } = Astro.params
+const result = getCanonicalBook(slug!)
+if (!result) {
+  return Astro.redirect('/404')
+}
+// 301 redirect for non-canonical alias slugs.
+if (result.redirectTo) {
+  return Astro.redirect(result.redirectTo, 301)
+}
+
+const { book } = result
+const chapters = getChaptersByBook(slug!)
+const otherBooksByAuthor = book.author_slug
+  ? getBooksByAuthor(book.author_slug).filter((b) => b.id !== book.id)
+  : []
+const relatedBooks = (book.related_slugs ?? [])
+  .map((s) => getBookBySlug(s))
+  .filter(Boolean)
+const hasIndex = getBookIndex(slug!) !== null
+
+const title = book.title_en
+const description = `Read ${book.title_en} by ${book.author_name_en}. ${book.description_en || 'Classical Islamic text available online.'}`
+const ogImage = ogImageUrl({ title: book.title_en, section: 'Books', subtitle: book.author_name_en })
+const hreflang = getHreflangAlternates(`/books/${slug}`)
+
+const jsonLd = safeJsonLd({
+  '@context': 'https://schema.org',
+  '@type': 'Book',
+  name: book.title_en,
+  alternateName: book.title_ar,
+  url: `https://islam.wiki/books/${slug}`,
+  author: book.author_name_en
+    ? { '@type': 'Person', name: book.author_name_en }
+    : undefined,
+  description: book.description_en ? book.description_en.slice(0, 200) : undefined,
+  inLanguage: book.language_original === 'arabic' ? ['ar', 'en', 'id'] : ['en', 'ar', 'id'],
+  genre: 'Religion',
+  publisher: { '@type': 'Organization', name: 'Islam.wiki', url: 'https://islam.wiki' },
+  isPartOf: { '@type': 'WebSite', name: 'Islam.wiki', url: 'https://islam.wiki' },
+})
+---
+
+<Base title={title} description={description} ogImage={ogImage}>
+  <Fragment slot="head">
+    {Object.entries(hreflang).map(([lang, href]) => (
+      <link rel="alternate" hreflang={lang} href={href} />
+    ))}
+    <script type="application/ld+json" set:html={jsonLd} is:inline />
+  </Fragment>
+
+  <main id="main-content">
+    <div class="section-container py-12">
+      <nav class="mb-4 text-sm text-iw-text-secondary">
+        <a href="/books" class="hover:text-iw-text">Books</a>
+        <span class="mx-2">/</span>
+        <span class="text-iw-text">{book.title_en}</span>
+      </nav>
+
+      <div class="grid gap-8 lg:grid-cols-3">
+        <div class="lg:col-span-2">
+          <h1 class="text-3xl font-bold text-white">{book.title_en}</h1>
+          {book.title_ar && (
+            <p class="arabic-text mt-2 text-2xl text-white/80">{book.title_ar}</p>
+          )}
+
+          <div class="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-iw-text-secondary">
+            <span>
+              By <a href={`/people/${book.author_slug}`} class="text-iw-accent hover:text-white">{book.author_name_en}</a>
+            </span>
+            {(book.year_written_ah || book.year_written_ce) && (
+              <Fragment>
+                <span aria-hidden="true" class="text-iw-text-muted">·</span>
+                <span>{formatIslamicYear(book.year_written_ah, book.year_written_ce)}</span>
+              </Fragment>
+            )}
+            {book.volumes && (
+              <Fragment>
+                <span aria-hidden="true" class="text-iw-text-muted">·</span>
+                <span>{book.volumes} volumes</span>
+              </Fragment>
+            )}
+            {book.pages && (
+              <Fragment>
+                <span aria-hidden="true" class="text-iw-text-muted">·</span>
+                <span>{book.pages} pages</span>
+              </Fragment>
+            )}
+          </div>
+
+          {book.description_en && (
+            <p class="mt-6 leading-relaxed text-iw-text-secondary">{book.description_en}</p>
+          )}
+
+          {/* Table of contents */}
+          <div class="mt-8">
+            <h2 class="mb-4 text-lg font-semibold text-white">Table of Contents</h2>
+            {chapters.length > 0 ? (
+              <div class="space-y-2">
+                {chapters.map((ch) => (
+                  <a
+                    href={`/books/${slug}/${ch.number}`}
+                    class={`flex items-center gap-3 rounded-lg border p-3 transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface ${
+                      ch.number === 0 ? 'border-iw-accent/20 bg-iw-accent/5' : 'border-iw-border'
+                    }`}
+                  >
+                    <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded bg-iw-accent/10 text-[10px] font-bold text-iw-accent">
+                      {ch.number === 0 ? 'INTRO' : ch.number}
+                    </span>
+                    <span class="text-sm text-iw-text">{ch.title_en}</span>
+                  </a>
+                ))}
+              </div>
+            ) : (
+              <p class="text-sm italic text-iw-text-muted">Chapter listings are being added.</p>
+            )}
+          </div>
+        </div>
+
+        {/* Sidebar */}
+        <div class="space-y-6">
+          <div class="card">
+            <h3 class="mb-3 text-sm font-semibold text-white">Details</h3>
+            <dl class="space-y-2 text-sm">
+              {book.category_primary && (
+                <div>
+                  <dt class="text-iw-text-muted">Category</dt>
+                  <dd class="text-iw-text">
+                    {CATEGORY_LABELS[book.category_primary] ?? book.category_primary}
+                    {book.category_secondary && (
+                      <span class="text-iw-text-muted">
+                        {' / '}{CATEGORY_LABELS[book.category_secondary] ?? book.category_secondary}
+                      </span>
+                    )}
+                  </dd>
+                </div>
+              )}
+              {book.madhab && (
+                <div>
+                  <dt class="text-iw-text-muted">Madhab</dt>
+                  <dd>
+                    <span class="inline-block rounded-full bg-iw-accent/10 px-2 py-0.5 text-xs font-medium capitalize text-iw-accent">
+                      {book.madhab}
+                    </span>
+                  </dd>
+                </div>
+              )}
+              {book.subject && (
+                <div>
+                  <dt class="text-iw-text-muted">Subject</dt>
+                  <dd class="text-iw-text capitalize">{book.subject.replace(/_/g, ' ')}</dd>
+                </div>
+              )}
+              <div>
+                <dt class="text-iw-text-muted">Original Language</dt>
+                <dd class="text-iw-text uppercase">{book.language_original}</dd>
+              </div>
+              {book.available_languages && book.available_languages.length > 0 && (
+                <div>
+                  <dt class="text-iw-text-muted">Available In</dt>
+                  <dd class="flex flex-wrap gap-1 pt-0.5">
+                    {book.available_languages.map((lang) => (
+                      <span class="rounded bg-iw-surface px-1.5 py-0.5 text-[11px] uppercase text-iw-text-muted">
+                        {lang}
+                      </span>
+                    ))}
+                  </dd>
+                </div>
+              )}
+              {(book.year_written_ah || book.year_written_ce) && (
+                <div>
+                  <dt class="text-iw-text-muted">Written</dt>
+                  <dd class="text-iw-text">{formatIslamicYear(book.year_written_ah, book.year_written_ce)}</dd>
+                </div>
+              )}
+              {book.died_ah && (
+                <div>
+                  <dt class="text-iw-text-muted">Author Died</dt>
+                  <dd class="text-iw-text">{book.died_ah}h</dd>
+                </div>
+              )}
+              {book.volumes && (
+                <div>
+                  <dt class="text-iw-text-muted">Volumes</dt>
+                  <dd class="text-iw-text">{book.volumes}</dd>
+                </div>
+              )}
+            </dl>
+          </div>
+
+          {/* Book index link */}
+          {hasIndex && (
+            <div class="card">
+              <h3 class="mb-3 text-sm font-semibold text-white">Index</h3>
+              <a href={`/books/${slug}/index`} class="text-sm text-iw-accent hover:text-white">
+                Browse subject index →
+              </a>
+            </div>
+          )}
+
+          {/* See also: related books */}
+          {relatedBooks.length > 0 && (
+            <div class="card">
+              <h3 class="mb-3 text-sm font-semibold text-white">See Also</h3>
+              <ul class="space-y-2">
+                {relatedBooks.map((b) => b && (
+                  <li>
+                    <a href={`/books/${b.slug}`} class="text-sm text-iw-text-secondary hover:text-iw-accent">
+                      {b.title_en}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {/* Other books by this author */}
+          {otherBooksByAuthor.length > 0 && (
+            <div class="card">
+              <h3 class="mb-3 text-sm font-semibold text-white">More by {book.author_name_en}</h3>
+              <ul class="space-y-2">
+                {otherBooksByAuthor.slice(0, 8).map((b) => (
+                  <li>
+                    <a href={`/books/${b.slug}`} class="text-sm text-iw-text-secondary hover:text-iw-accent">
+                      {b.title_en}
+                    </a>
+                  </li>
+                ))}
+                {otherBooksByAuthor.length > 8 && (
+                  <li class="text-xs text-iw-text-muted">and {otherBooksByAuthor.length - 8} more</li>
+                )}
+              </ul>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </main>
+</Base>

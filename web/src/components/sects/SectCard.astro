@@ -1,0 +1,48 @@
+---
+/**
+ * SectCard.astro — single sect tile. Ports the SectCard sub-component from
+ *   app/sects/page.tsx (fully static — no interactivity, no markdown). next/link → <a>.
+ * REF: ports app/sects/page.tsx · people-history group
+ */
+import type { SectData } from '../../../lib/data/sects'
+
+interface Props {
+  sect: SectData
+}
+const { sect } = Astro.props
+
+const STATUS_COLORS: Record<SectData['status'], string> = {
+  mainstream: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30',
+  accepted: 'bg-blue-500/20 text-blue-300 border-blue-500/30',
+  deviant: 'bg-amber-500/20 text-amber-300 border-amber-500/30',
+  rejected: 'bg-red-500/20 text-red-300 border-red-500/30',
+}
+const STATUS_LABELS: Record<SectData['status'], string> = {
+  mainstream: 'Mainstream',
+  accepted: 'Accepted',
+  deviant: 'Deviant',
+  rejected: 'Outside the Fold',
+}
+const colorCls = STATUS_COLORS[sect.status]
+---
+
+<a
+  href={`/sects/${sect.slug}`}
+  class="block rounded-xl border border-iw-border bg-iw-surface/40 p-4 transition-colors hover:border-iw-text-muted/30 hover:bg-iw-surface"
+>
+  <div class="mb-1 flex items-start gap-2">
+    <div class="flex-1">
+      <span class="font-semibold text-white">{sect.name_en}</span>
+      {sect.name_ar && <span class="arabic-text ml-2 text-sm text-white/60">{sect.name_ar}</span>}
+    </div>
+    <span class={`shrink-0 rounded-full border px-2 py-0.5 text-xs font-medium ${colorCls}`}>
+      {STATUS_LABELS[sect.status]}
+    </span>
+  </div>
+  {sect.founded_year_ce && (
+    <p class="mb-1 text-xs text-iw-text-muted">
+      Est. {sect.founded_year_ah ? `${sect.founded_year_ah}h` : `${sect.founded_year_ce} CE`}{sect.founded_year_ah && sect.founded_year_ce ? ` (${sect.founded_year_ce} CE)` : ''}
+    </p>
+  )}
+  <p class="line-clamp-2 text-sm text-iw-text-secondary">{sect.description_en}</p>
+</a>

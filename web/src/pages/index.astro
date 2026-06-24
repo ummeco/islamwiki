@@ -1,0 +1,288 @@
+---
+/**
+ * index.astro — Islam.wiki home page (static, SSR)
+ *
+ * PURPOSE: Ports app/page.tsx verbatim copy/content. Search hero, "Start here",
+ *   collections grid, wiki, stats, verse + hadith of the day, API CTA.
+ *
+ * CONVERSION NOTES:
+ *   - getDailyVerse / getDailyHadith imported VERBATIM from lib/data/daily (framework-
+ *     independent; runs in the Astro frontmatter at request time, same as the Next RSC).
+ *   - The Next.js <SearchInput> client component imports next/navigation + next/link, so
+ *     it cannot be reused as-is in Astro. It is replaced by a plain accessible GET <form>
+ *     to /search (same destination the island used) — no behavior or copy is lost; the
+ *     page stays static with no broken next/* imports.
+ *   - Collection icons (iconMap) are inlined as SVGs faithful to components/ui/icons.tsx
+ *     so no React island is needed for decorative graphics.
+ * REF: P2-E3-W02-S02-T01 · ports app/page.tsx
+ */
+import Base from '../layouts/Base.astro'
+import { getDailyVerse, getDailyHadith } from '../../lib/data/daily'
+
+const title = 'Islam.wiki — The Islamic Reference'
+const description =
+  'The most comprehensive Islamic knowledge base. Quran with tafsir, authentic Hadith, scholar biographies, classical books, and encyclopedic articles. Free forever.'
+
+const verse = getDailyVerse()
+const hadith = getDailyHadith()
+
+// Inner SVG markup per icon name — faithful to components/ui/icons.tsx (iconMap).
+const ICON_PATHS: Record<string, string> = {
+  quran:
+    '<path d="M2 4c0-1.1.9-2 2-2h5a3 3 0 0 1 3 3v15a2 2 0 0 0-2-2H4a2 2 0 0 1-2-2V4Z"/><path d="M22 4c0-1.1-.9-2-2-2h-5a3 3 0 0 0-3 3v15a2 2 0 0 1 2-2h6a2 2 0 0 0 2-2V4Z"/><path d="M6 7h3"/><path d="M6 11h3"/><path d="M15 7h3"/><path d="M15 11h3"/>',
+  hadith:
+    '<path d="M5 3a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h1v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9h1a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5Z"/><path d="M3 5v2a2 2 0 0 0 2 2"/><path d="M21 5v2a2 2 0 0 1-2 2"/><path d="M9 12h6"/><path d="M9 15h4"/><circle cx="12" cy="6" r="0.5" fill="currentColor" stroke="none"/>',
+  seerah:
+    '<path d="M6 21V12"/><path d="M18 21V12"/><path d="M6 12h12"/><path d="M6 12c0-4 3-7 6-9 3 2 6 5 6 9"/><path d="M3 21h18"/><path d="M10 21v-4a2 2 0 0 1 4 0v4"/><line x1="12" y1="3" x2="12" y2="2"/><path d="M3 21v-3a1 1 0 0 1 1-1h1"/><path d="M21 21v-3a1 1 0 0 0-1-1h-1"/>',
+  people:
+    '<circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/><path d="M9 4.5C9 3.1 10.3 2 12 2s3 1.1 3 2.5"/>',
+  books:
+    '<rect x="3" y="14" width="7" height="7" rx="1"/><rect x="8" y="8" width="7" height="7" rx="1"/><rect x="13" y="3" width="7" height="7" rx="1"/><path d="M5 14v-1a1 1 0 0 1 1-1h1"/><path d="M10 8V7a1 1 0 0 1 1-1h1"/>',
+  articles:
+    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h5"/><path d="M8 9h2"/>',
+  videos:
+    '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m10 9 5 3-5 3V9Z" fill="currentColor" stroke="none"/>',
+  audio:
+    '<path d="M2 13v-2"/><path d="M5 17V7"/><path d="M8 20V4"/><path d="M11 17V7"/><path d="M14 14v-4"/><path d="M17 18V6"/><path d="M20 16V8"/><path d="M22 13v-2"/>',
+}
+
+const collections = [
+  { title: 'Quran', description: '114 surahs with translations, tafsir by Ibn Kathir and Al-Jalalayn', href: '/quran', stat: '6,236 verses', icon: 'quran' },
+  { title: 'Hadith', description: '8 major collections with full isnad chains and grading', href: '/hadith', stat: '50,000+ hadith', icon: 'hadith' },
+  { title: 'Seerah', description: 'Interactive timeline and maps of the Prophet’s life', href: '/seerah', stat: 'Full timeline', icon: 'seerah' },
+  { title: 'People', description: 'Scholars, companions, and narrators with biographies', href: '/people', stat: '450+ scholars', icon: 'people' },
+  { title: 'Books', description: 'Classical Islamic texts in multiple languages', href: '/books', stat: '400+ books', icon: 'books' },
+  { title: 'Articles', description: 'Encyclopedic articles on all aspects of Islam', href: '/articles', stat: '400+ articles', icon: 'articles' },
+  { title: 'Video', description: 'Lectures and series with searchable transcripts', href: '/videos', stat: 'Transcribed', icon: 'videos' },
+  { title: 'Audio', description: 'Recitations, lectures, and podcasts', href: '/audio', stat: 'Transcribed', icon: 'audio' },
+]
+
+const searchTags = ['Wudhu', 'Salah', 'Fasting', 'Zakat', 'Hajj', 'Tawheed', 'Sunnah', 'Dua', 'Jannah', 'Nikah']
+
+const startHere = [
+  { title: 'The Quran', description: 'The word of God, revealed to Prophet Muhammad ﷺ. Start with Al-Fatiha — the opening chapter.', href: '/quran/al-fatiha', label: 'Read Al-Fatiha', external: false },
+  { title: 'Hadith', description: "The Prophet's sayings and actions. Start with Sahih al-Bukhari — the most authentic collection.", href: '/hadith/bukhari', label: 'Browse Bukhari', external: false },
+  { title: 'Who was Muhammad ﷺ?', description: 'The biography of the Prophet — his life, character, and mission over 23 years.', href: '/seerah', label: 'Our Interactive Seerah', external: false },
+  { title: 'Ask a Question', description: 'Have a question about Islam? Get a thoughtful, scholarly answer from ChatIslam.', href: 'https://chatislam.org', label: 'Ask ChatIslam', external: true },
+]
+
+const wikiTopics = ['Fiqh', 'Aqeedah', 'Tawheed', 'Seerah', 'Dawah', 'Hajj', 'Ramadan', 'Jihad', 'Sharia', 'Madhab', 'Sufism', 'Salafiyyah']
+
+const stats = [
+  { label: 'Surahs', value: '114' },
+  { label: 'Verses', value: '6,236' },
+  { label: 'Hadith', value: '50,000+' },
+  { label: 'Scholars', value: '450+' },
+  { label: 'Books', value: '400+' },
+]
+---
+
+<Base title={title} description={description}>
+  <main id="main-content">
+    <div>
+      <!-- Search -->
+      <section class="relative pt-20 pb-10">
+        <div class="section-container relative">
+          <div class="mx-auto max-w-2xl">
+            <form action="/search" method="GET" role="search" class="relative">
+              <label for="site-search" class="sr-only">Search Islam.wiki</label>
+              <input
+                id="site-search"
+                name="q"
+                type="search"
+                placeholder="Search Quran, Hadith, scholars, topics..."
+                class="w-full rounded-xl border border-iw-border bg-iw-surface px-4 py-3 text-iw-text placeholder-iw-text-muted focus:border-iw-accent focus:outline-none focus:ring-2 focus:ring-iw-accent/40"
+              />
+            </form>
+          </div>
+          <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
+            {searchTags.map((tag) => (
+              <a
+                href={`/search?q=${encodeURIComponent(tag)}`}
+                class="rounded-full border border-iw-border px-3 py-1 text-xs text-iw-text-muted transition-colors hover:border-iw-text-muted hover:text-iw-text-secondary"
+              >
+                {tag}
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Start Here — for new visitors -->
+      <section class="py-8">
+        <div class="section-container">
+          <h2 class="mb-4 text-lg font-semibold text-iw-text-muted">New here? Start with</h2>
+          <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {startHere.map((item) =>
+              item.external ? (
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex flex-col rounded-xl border border-iw-accent/20 bg-iw-accent/5 p-4 transition-colors hover:border-iw-accent/40 hover:bg-iw-accent/10"
+                >
+                  <h3 class="font-semibold text-white">{item.title}</h3>
+                  <p class="mt-1 text-xs text-iw-text-muted">{item.description}</p>
+                  <span class="mt-auto self-end pt-2 text-xs font-medium text-iw-accent">{item.label} →</span>
+                </a>
+              ) : (
+                <a
+                  href={item.href}
+                  class="flex flex-col rounded-xl border border-iw-accent/20 bg-iw-accent/5 p-4 transition-colors hover:border-iw-accent/40 hover:bg-iw-accent/10"
+                >
+                  <h3 class="font-semibold text-white">{item.title}</h3>
+                  <p class="mt-1 text-xs text-iw-text-muted">{item.description}</p>
+                  <span class="mt-auto self-end pt-2 text-xs font-medium text-iw-accent">{item.label} →</span>
+                </a>
+              )
+            )}
+          </div>
+        </div>
+      </section>
+
+      <!-- Collections grid -->
+      <section class="py-12">
+        <div class="section-container">
+          <h2 class="mb-6 text-2xl font-bold text-white">
+            Explore
+          </h2>
+          <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {collections.map((item) => (
+              <a href={item.href} class="card group h-full">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="mb-3 text-iw-accent"
+                  aria-hidden="true"
+                  set:html={ICON_PATHS[item.icon]}
+                />
+                <h3 class="text-lg font-semibold text-iw-text group-hover:text-white">
+                  {item.title}
+                </h3>
+                <p class="mt-1 text-sm text-iw-text-muted">{item.description}</p>
+                <p class="mt-auto self-end pt-3 text-xs font-medium text-iw-accent">
+                  {item.stat} →
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Wiki -->
+      <section class="py-12">
+        <div class="section-container">
+          <div class="card p-6">
+            <div class="flex items-center justify-between">
+              <div>
+                <h2 class="text-xl font-bold text-white">Wiki</h2>
+                <p class="mt-1 text-sm text-iw-text-muted">
+                  Community-edited encyclopedia of Islamic concepts, terminology, and encyclopedic topics.
+                </p>
+              </div>
+              <a
+                href="/wiki"
+                class="shrink-0 rounded-lg border border-iw-border px-4 py-2 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-white"
+              >
+                Browse all
+              </a>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">
+              {wikiTopics.map((topic) => (
+                <a
+                  href={`/wiki/${topic.toLowerCase()}`}
+                  class="rounded-md border border-iw-border bg-iw-surface px-3 py-1.5 text-xs font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-white"
+                >
+                  {topic}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section class="border-y border-iw-border bg-iw-surface py-10">
+        <div class="section-container">
+          <div class="grid grid-cols-2 gap-8 md:grid-cols-5">
+            {stats.map((stat) => (
+              <div class="text-center">
+                <p class="text-2xl font-bold text-white">{stat.value}</p>
+                <p class="mt-1 text-sm text-iw-text-muted">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <!-- Verse of the Day + Hadith of the Day -->
+      <section class="py-12">
+        <div class="section-container">
+          <div class="grid gap-4 md:grid-cols-2">
+            <div class="card flex flex-col p-6">
+              <p class="mb-4 text-xs font-semibold uppercase tracking-wider text-iw-accent">Verse of the Day</p>
+              <p class="font-arabic text-right text-2xl leading-loose text-white" dir="rtl" lang="ar">
+                {verse.textAr}
+              </p>
+              <p class="mt-3 text-sm text-iw-text-secondary">
+                &ldquo;{verse.textEn}&rdquo;
+              </p>
+              <p class="mt-2 text-xs text-iw-text-muted">
+                {verse.surahNameEn} {verse.surah}:{verse.ayah}
+              </p>
+              <a
+                href={`/quran/${verse.surahSlug}/${verse.ayah}`}
+                class="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light"
+              >
+                Read in context →
+              </a>
+            </div>
+            <div class="card flex flex-col p-6">
+              <p class="mb-4 text-xs font-semibold uppercase tracking-wider text-iw-accent">Hadith of the Day</p>
+              <p class="text-sm leading-relaxed text-white">
+                &ldquo;{hadith.textEn}&rdquo;
+              </p>
+              <p class="mt-3 text-xs text-iw-text-muted">
+                {hadith.collectionName} {hadith.number} · Narrated by {hadith.narrator} · {hadith.grade}
+              </p>
+              <a
+                href={`/hadith/${hadith.collection}`}
+                class="mt-auto self-end pt-3 text-xs font-medium text-iw-accent hover:text-iw-accent-light"
+              >
+                Browse {hadith.collectionName} →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Developer / API -->
+      <section class="border-t border-iw-border py-10">
+        <div class="section-container">
+          <div class="flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
+            <div>
+              <h2 class="text-lg font-bold text-white">Use Our API</h2>
+              <p class="mt-1 text-sm text-iw-text-muted">
+                Free access to Quran, Hadith, and Islamic content for your app or website. No API key required for basic use.
+              </p>
+            </div>
+            <div class="flex shrink-0 gap-3">
+              <a
+                href="/search"
+                class="rounded-lg bg-iw-accent px-4 py-2 text-sm font-medium text-iw-bg transition-colors hover:bg-iw-accent/80"
+              >
+                Explore Content
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</Base>

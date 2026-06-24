@@ -1,0 +1,83 @@
+---
+/**
+ * recent-changes/index.astro — Recent changes feed (SSR)
+ *
+ * PURPOSE: Ports app/recent-changes/page.tsx. Reads getRecentRevisions(100) from the
+ *   same server-only lib/data/revisions reader the Next page used (note: the Next
+ *   page uses this fs-backed reader, not Hasura, so it is ported verbatim).
+ * CONVERSION:
+ *   - WikiLayout (showToc=false) → Astro chrome (breadcrumbs + WikiSidebar island).
+ *   - next/link → <a>.
+ * REF: ports app/recent-changes/page.tsx (articles-wiki migration group)
+ */
+import Base from '../../layouts/Base.astro'
+import { getRecentRevisions } from '../../../lib/data/revisions'
+import { WikiSidebar } from '../../components/wiki/WikiSidebar'
+
+const revisions = getRecentRevisions(100)
+
+function contentPath(type: string, slug: string): string {
+  if (type === 'article') return `/articles/${slug}`
+  return `/${type}/${slug}`
+}
+
+const title = 'Recent Changes'
+const description = 'View the most recent edits and contributions on Islam.wiki.'
+---
+
+<Base title={title} description={description}>
+  <div class="section-container">
+    <nav class="flex items-center gap-1.5 py-3 text-xs text-iw-text-secondary" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-iw-text">Home</a>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><span class="text-iw-text">Recent Changes</span></span>
+    </nav>
+
+    <div class="flex gap-6">
+      <div class="hidden border-r border-iw-border pr-4 lg:block">
+        <WikiSidebar client:load />
+      </div>
+
+      <main class="min-w-0 flex-1 py-4">
+        <h1 class="mb-6 text-2xl font-bold text-white">Recent Changes</h1>
+
+        {revisions.length === 0 ? (
+          <div class="rounded-xl border border-iw-border bg-iw-surface p-8 text-center">
+            <svg class="mx-auto mb-4 h-12 w-12 text-iw-text-secondary/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <p class="text-sm text-iw-text-secondary">No recent changes yet. Be the first to contribute!</p>
+            <p class="mt-2 text-xs text-iw-text-muted">
+              Recent edits across all content types will appear here once the editing system is active.
+            </p>
+          </div>
+        ) : (
+          <div class="space-y-1">
+            {revisions.map((rev) => (
+              <div class="flex items-start gap-3 rounded-lg px-3 py-2 hover:bg-iw-surface/40">
+                <span class={`mt-0.5 inline-block rounded px-1.5 py-0.5 text-xs font-medium ${rev.status === 'approved' ? 'bg-emerald-500/15 text-emerald-400' : rev.status === 'pending' ? 'bg-amber-500/15 text-amber-400' : 'bg-red-500/15 text-red-400'}`}>
+                  {rev.status}
+                </span>
+                <div class="flex-1">
+                  <div class="flex items-center gap-2 text-sm">
+                    <a href={contentPath(rev.content_type, rev.content_slug)} class="font-medium text-iw-accent hover:text-white">
+                      {rev.content_title}
+                    </a>
+                    <span class="text-iw-text-secondary/50">&middot;</span>
+                    <span class="text-iw-text-secondary/70">{rev.edit_summary}</span>
+                  </div>
+                  <div class="mt-0.5 text-xs text-iw-text-secondary/50">
+                    <span>{rev.editor_name}</span>
+                    <span class="mx-1.5">&middot;</span>
+                    <span>{new Date(rev.created_at).toLocaleString()}</span>
+                    <span class="mx-1.5">&middot;</span>
+                    <span class="capitalize">{rev.content_type}</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </main>
+    </div>
+  </div>
+</Base>

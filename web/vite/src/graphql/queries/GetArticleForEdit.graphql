@@ -1,0 +1,47 @@
+# GetArticleForEdit.graphql
+# PURPOSE: Fetch full article data for editor — includes revisions + theology checks.
+# REF: p2-islamwiki-astro-vite-spec.md §7.1
+
+query GetArticleForEdit($slug: String!) {
+  iw_articles(where: { slug: { _eq: $slug } }) {
+    id
+    slug
+    title
+    status
+    language
+    category_id
+    created_at
+    published_revision_id
+    category {
+      id
+      slug
+      name
+    }
+    tags {
+      tag {
+        id
+        slug
+        name
+      }
+    }
+    revisions: iw_article_revisions(order_by: { created_at: desc }, limit: 20) {
+      id
+      content_md
+      content_html
+      created_at
+      reviewed_by
+      review_note
+      author {
+        id
+        display_name
+      }
+      theology_checks(order_by: { created_at: desc }, limit: 1) {
+        id
+        status
+        flags
+        created_at
+        completed_at
+      }
+    }
+  }
+}

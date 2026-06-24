@@ -1,0 +1,57 @@
+---
+/**
+ * hadith/index.astro — Hadith collections index (SSG)
+ *
+ * PURPOSE: Ports app/hadith/page.tsx. Lists all major hadith collections.
+ *          Reads the same lib/data/hadith reader (getCollections).
+ * CONSTRAINTS:
+ *   - prerender=true (static). No next/* imports.
+ *   - Hreflang alternates reuse lib SEO helper (getHreflangAlternates).
+ * REF: ports app/hadith/page.tsx · D-P2-STACK-CANON
+ */
+export const prerender = true
+
+import Base from '../../layouts/Base.astro'
+import { getCollections } from '@/lib/data/hadith'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
+
+const collections = getCollections()
+
+const title = 'Hadith Collections — Islam.wiki'
+const description =
+  'Browse all major hadith collections: Bukhari, Muslim, Abu Dawud, Tirmidhi, Nasai, Ibn Majah, Muwatta Malik, and Musnad Ahmad. Full isnad analysis and grading.'
+const alternates = getHreflangAlternates('/hadith')
+---
+
+<Base title={title} description={description}>
+  {Object.entries(alternates).map(([lang, href]) => (
+    <link slot="head" rel="alternate" hreflang={lang} href={href} />
+  ))}
+  <main id="main-content">
+    <div class="section-container py-12">
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold text-white">Hadith Collections</h1>
+        <p class="mt-2 text-iw-text-secondary">
+          Eight major collections with full Arabic and English text, hadith grading, and isnad chain analysis.
+        </p>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        {collections.map((col) => (
+          <a href={`/hadith/${col.slug}`} class="card group">
+            <h2 class="text-lg font-semibold text-iw-text group-hover:text-white">
+              {col.name_en}
+            </h2>
+            <p class="arabic-text mt-1 text-white/80">{col.name_ar}</p>
+            <p class="mt-2 text-sm text-iw-text-secondary">
+              {col.author_name_en} · {col.total_hadith.toLocaleString()} hadith · {col.total_books} books
+            </p>
+            {col.description_en && (
+              <p class="mt-2 text-xs text-iw-text-muted">{col.description_en}</p>
+            )}
+          </a>
+        ))}
+      </div>
+    </div>
+  </main>
+</Base>

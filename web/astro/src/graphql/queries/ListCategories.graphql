@@ -1,0 +1,17 @@
+# ListCategories.graphql
+# PURPOSE: Fetch all categories for navigation and homepage display.
+# REF: p2-islamwiki-astro-vite-spec.md §6.2
+
+query ListCategories {
+  iw_categories(order_by: { name: asc }) {
+    id
+    slug
+    name
+    parent_id
+    articles_aggregate(where: { status: { _eq: "published" } }) {
+      aggregate {
+        count
+      }
+    }
+  }
+}

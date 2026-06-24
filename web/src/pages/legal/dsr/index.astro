@@ -1,0 +1,104 @@
+---
+/**
+ * legal/dsr/index.astro — GDPR/CCPA Data Subject Rights (static)
+ *
+ * PURPOSE: Ports app/legal/dsr/page.tsx verbatim. DRAFT — counsel pending (U-15).
+ * REF: P2-E3-W02-S02-T01 · ports app/legal/dsr/page.tsx
+ */
+import Base from '../../../layouts/Base.astro'
+
+const title = 'Your Data Rights — Islam.wiki'
+const description =
+  'Islam.wiki data subject rights: GDPR access, deletion, portability, and correction requests; CCPA opt-out.'
+
+const rights: { right: string; desc: string }[] = [
+  { right: 'Access', desc: 'Request a copy of personal data we hold about you.' },
+  { right: 'Deletion', desc: 'Request deletion of your personal data, including any contributor account.' },
+  { right: 'Portability', desc: 'Receive your data in a structured, machine-readable format.' },
+  { right: 'Correction', desc: 'Request correction of inaccurate personal data.' },
+  { right: 'Opt-out', desc: 'We do not sell personal data. CCPA opt-out available on request.' },
+]
+---
+
+<Base title={title} description={description}>
+  <main class="min-h-screen" id="main-content">
+    <div class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+
+      <!-- Draft gate -->
+      <div class="mb-8 rounded-lg border border-yellow-500/40 bg-yellow-500/10 px-4 py-3 text-sm text-yellow-300">
+        <strong>DRAFT — Not yet effective.</strong> Counsel review pending (U-15).
+      </div>
+
+      <a href="/legal" class="mb-8 inline-block text-sm opacity-60 hover:opacity-90 transition-opacity">
+        &larr; Legal
+      </a>
+
+      <h1 class="mt-4 text-3xl font-bold sm:text-4xl">Your Data Rights</h1>
+      <p class="mt-3 mb-10 text-sm opacity-50">
+        Islam.wiki — Ummeco, LLC · Effective: pending counsel review
+      </p>
+
+      <div class="space-y-10 leading-relaxed text-sm opacity-80">
+
+        <section class="rounded-xl border border-[#79C24C]/30 bg-[#1E5E2F]/30 px-6 py-5">
+          <p>
+            Islam.wiki primarily serves unauthenticated readers and collects minimal personal
+            data. We collect standard web server logs (IP address, user agent, referrer) and
+            optional account data for registered contributors. This page explains your rights
+            under GDPR (EEA/UK) and CCPA (California).
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-semibold mb-3">Rights You Have</h2>
+          <ul class="space-y-3 list-none pl-0">
+            {rights.map(({ right, desc }) => (
+              <li class="flex gap-2">
+                <span class="font-semibold text-[#C9F27A] w-24 shrink-0">{right}</span>
+                <span>{desc}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-semibold mb-3">Submit a Request</h2>
+          <p>
+            Email
+            <a href="mailto:privacy@ummat.dev" class="text-[#5A9438] hover:underline">
+              privacy@ummat.dev
+            </a>
+            with subject line &ldquo;DSR Request — Islam.wiki — [right type]&rdquo;.
+            We will respond within 30 days (GDPR) or 45 days (CCPA).
+          </p>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-semibold mb-3">What Data We Collect</h2>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>Server access logs (IP address, pages visited, timestamps) — retained 30 days</li>
+            <li>Contributor accounts: email, username, contributions — retained until deletion requested</li>
+            <li>Search queries — anonymised, not linked to identifiers</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="text-xl font-semibold mb-3">Contact</h2>
+          <p>
+            <a href="mailto:privacy@ummat.dev" class="text-[#5A9438] hover:underline">
+              privacy@ummat.dev
+            </a>
+          </p>
+        </section>
+
+        <section class="border-t border-white/10 pt-6">
+          <ul class="space-y-1">
+            <li><a href="/privacy" class="text-[#5A9438] hover:underline">Privacy Policy</a></li>
+            <li><a href="/legal/attribution" class="text-[#5A9438] hover:underline">Open Source Attribution</a></li>
+          </ul>
+        </section>
+
+      </div>
+    </div>
+  </main>
+</Base>

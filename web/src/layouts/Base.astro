@@ -1,0 +1,96 @@
+---
+/**
+ * Base.astro — islam.wiki base HTML shell
+ *
+ * PURPOSE: Wraps every page. Sets lang/dir from the detected locale, injects the
+ *          per-request CSP nonce (from middleware via Astro.locals.nonce) onto
+ *          inline <script>/<style> tags, loads Tailwind global styles, and renders
+ *          the skip link + slot.
+ * INPUTS:  title, description, ogImage, canonical (locale comes from Astro.locals)
+ * OUTPUTS: Full <html> document shell
+ * CONSTRAINTS:
+ *   - No Next.js imports.
+ *   - CSP nonce must be applied to any inline script/style so strict-dynamic CSP
+ *     (set in src/middleware.ts) does not block them.
+ *   - RTL locale: ar (Arabic) → dir="rtl" + Amiri font.
+ * REF: P2-E3-W02-S02-T01 · ports app/layout.tsx shell
+ */
+
+import '../styles/global.css'
+
+export interface Props {
+  title: string
+  description?: string
+  canonical?: string
+  ogImage?: string
+}
+
+const {
+  title,
+  description = 'Islam.wiki — the most comprehensive, accurate, accessible Islamic reference. Free, scholar-verified, community-contributed.',
+  canonical,
+  ogImage,
+} = Astro.props
+
+// Locale + CSP nonce are set per-request by src/middleware.ts.
+const locale = Astro.locals.locale ?? 'en'
+const nonce = Astro.locals.nonce ?? ''
+
+const RTL_LOCALES = new Set(['ar', 'ur', 'fa'])
+const isRtl = RTL_LOCALES.has(locale.split('-')[0] ?? 'en')
+
+const siteUrl = import.meta.env.PUBLIC_BASE_URL ?? 'https://islam.wiki'
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, siteUrl).href
+
+const umamiId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID ?? ''
+---
+
+<html lang={locale} dir={isRtl ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1E5E2F" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Islam.wiki" />
+    <meta property="og:url" content={canonicalUrl} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Per-page <head> additions (hreflang alternates, JSON-LD, etc.) -->
+    <slot name="head" />
+
+    <!-- Umami analytics (D-P3-21) — no cookie, GDPR-safe. Nonce satisfies strict CSP. -->
+    {umamiId && (
+      <script
+        defer
+        nonce={nonce}
+        src="https://analytics.ummat.dev/script.js"
+        data-website-id={umamiId}
+      />
+    )}
+
+    <!-- Per-page <head> extras (hreflang alternates, JSON-LD, etc.) -->
+    <slot name="head" />
+  </head>
+  <body>
+    <!-- WCAG 2.4.1 skip link -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <slot />
+  </body>
+</html>

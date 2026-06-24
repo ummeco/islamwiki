@@ -1,0 +1,170 @@
+---
+/**
+ * sects/[slug].astro — Sect detail page (static SSG). Ports app/sects/[slug]/page.tsx.
+ *
+ * CONVERSION NOTES:
+ *   - generateStaticParams → getStaticPaths (getSects, reused verbatim).
+ *   - Fully static (no markdown, no islands). description_en / key_beliefs / etc. are plain
+ *     data fields rendered as text (auto-escaped by Astro — no set:html needed). next/link → <a>.
+ *   - OG image + hreflang via ogImageUrl / getHreflangAlternates (reused verbatim).
+ *   - Theological copy/labels preserved verbatim (content-correctness release gate).
+ * REF: ports app/sects/[slug]/page.tsx · people-history group
+ */
+import Base from '../../layouts/Base.astro'
+import { getSectBySlug, getSects } from '../../../lib/data/sects'
+import { ogImageUrl } from '../../../lib/og'
+import { getHreflangAlternates } from '../../../components/seo/hreflang'
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  return getSects().map((s) => ({ params: { slug: s.slug } }))
+}
+
+const { slug } = Astro.params as { slug: string }
+const sect = getSectBySlug(slug)
+if (!sect) return Astro.redirect('/404')
+
+const allSects = getSects()
+const children = allSects.filter((s) => s.parent_sect_id === sect.id)
+const parent = sect.parent_sect_id
+  ? allSects.find((s) => s.id === sect.parent_sect_id)
+  : null
+
+const statusColors: Record<string, string> = {
+  mainstream: 'bg-emerald-500/20 text-emerald-300',
+  accepted: 'bg-blue-500/20 text-blue-300',
+  deviant: 'bg-amber-500/20 text-amber-300',
+  rejected: 'bg-red-500/20 text-red-300',
+}
+const statusLabels: Record<string, string> = {
+  mainstream: 'Mainstream',
+  accepted: 'Accepted',
+  deviant: 'Deviant',
+  rejected: 'Outside the Fold',
+}
+
+const title = `${sect.name_en} — Islamic Groups`
+const description = sect.description_en.slice(0, 160)
+const ogImage = ogImageUrl({
+  title: sect.name_en,
+  section: 'Sects',
+  subtitle: 'Islamic Groups & Movements',
+})
+const alternates = getHreflangAlternates(`/sects/${slug}`)
+---
+
+<Base title={title} description={description} ogImage={ogImage}>
+  <Fragment slot="head">
+    {Object.entries(alternates).map(([loc, href]) => (
+      <link rel="alternate" hreflang={loc} href={href} />
+    ))}
+  </Fragment>
+
+  <main id="main-content">
+    <div class="section-container py-12">
+      <nav class="mb-4 text-sm text-iw-text-secondary">
+        <a href="/sects" class="hover:text-iw-text">Sects</a>
+        <span class="mx-2">/</span>
+        <span class="text-iw-text">{sect.name_en}</span>
+      </nav>
+
+      <div class="mx-auto max-w-3xl">
+        <div class="mb-8">
+          <div class="flex items-center gap-3">
+            <h1 class="text-3xl font-bold text-white">{sect.name_en}</h1>
+            <span class={`badge ${statusColors[sect.status] ?? 'bg-gray-500/20 text-gray-300'}`}>
+              {statusLabels[sect.status] ?? sect.status}
+            </span>
+          </div>
+          {sect.name_ar && <p class="arabic-text mt-2 text-xl text-white/80">{sect.name_ar}</p>}
+        </div>
+
+        <div class="space-y-6">
+          <div>
+            <h2 class="mb-3 text-lg font-semibold text-white">Overview</h2>
+            <p class="text-iw-text-secondary">{sect.description_en}</p>
+          </div>
+
+          {sect.key_beliefs && sect.key_beliefs.length > 0 && (
+            <div>
+              <h2 class="mb-3 text-lg font-semibold text-white">Key Beliefs</h2>
+              <ul class="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
+                {sect.key_beliefs.map((belief) => <li>{belief}</li>)}
+              </ul>
+            </div>
+          )}
+
+          {sect.scholarly_evaluation && (
+            <div class="rounded-xl border border-iw-border bg-iw-surface/50 p-5">
+              <h2 class="mb-3 text-lg font-semibold text-white">Scholarly Evaluation</h2>
+              <p class="text-sm leading-relaxed text-iw-text-secondary">{sect.scholarly_evaluation}</p>
+            </div>
+          )}
+
+          {sect.key_figures && sect.key_figures.length > 0 && (
+            <div>
+              <h2 class="mb-3 text-lg font-semibold text-white">Key Figures</h2>
+              <ul class="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
+                {sect.key_figures.map((figure) => <li>{figure}</li>)}
+              </ul>
+            </div>
+          )}
+
+          {sect.sources && sect.sources.length > 0 && (
+            <div>
+              <h2 class="mb-3 text-lg font-semibold text-white">Sources</h2>
+              <ul class="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
+                {sect.sources.map((src) => <li>{src}</li>)}
+              </ul>
+            </div>
+          )}
+
+          {parent && (
+            <div>
+              <h2 class="mb-3 text-lg font-semibold text-white">Parent Group</h2>
+              <a href={`/sects/${parent.slug}`} class="text-iw-accent hover:text-white">{parent.name_en}</a>
+            </div>
+          )}
+
+          {sect.founder_name && (
+            <div>
+              <h2 class="mb-3 text-lg font-semibold text-white">Founder</h2>
+              <p class="text-iw-text-secondary">{sect.founder_name}</p>
+            </div>
+          )}
+
+          {sect.founded_year_ce && (
+            <div>
+              <h2 class="mb-3 text-lg font-semibold text-white">Founded</h2>
+              <p class="text-iw-text-secondary">
+                {sect.founded_year_ah ? `${sect.founded_year_ah}h` : `${sect.founded_year_ce} CE`}
+                {sect.founded_year_ah && sect.founded_year_ce ? ` (${sect.founded_year_ce} CE)` : ''}
+              </p>
+            </div>
+          )}
+
+          {children.length > 0 && (
+            <div>
+              <h2 class="mb-3 text-lg font-semibold text-white">Sub-Groups</h2>
+              <div class="space-y-2">
+                {children.map((child) => (
+                  <a
+                    href={`/sects/${child.slug}`}
+                    class="flex items-center gap-2 rounded-lg border border-iw-border p-3 text-sm transition-colors hover:border-iw-text-muted/20 hover:bg-iw-surface"
+                  >
+                    <span class="text-iw-text">{child.name_en}</span>
+                    <span class={`badge text-xs ${statusColors[child.status] ?? 'bg-gray-500/20 text-gray-300'}`}>
+                      {statusLabels[child.status] ?? child.status}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </main>
+</Base>

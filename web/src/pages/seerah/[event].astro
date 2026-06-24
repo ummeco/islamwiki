@@ -1,0 +1,215 @@
+---
+/**
+ * seerah/[event].astro — Seerah event page (static SSG). Ports app/seerah/[event]/page.tsx.
+ *
+ * CONVERSION NOTES:
+ *   - generateStaticParams → getStaticPaths (getSeerahEvents, reused verbatim).
+ *   - getLocale() (next/headers) → Astro.locals.locale.
+ *   - getSeerahContent markdown rendered through renderMarkdownSafe() — wiki-editable, so
+ *     it passes lib/sanitize.ts sanitizeHtml() before set:html (XSS release gate).
+ *   - SeerahEventJsonLd JSX → safeJsonLd() + inline <script type="application/ld+json">.
+ *   - extractHeadings reused verbatim for the sticky TOC. next/link → <a>.
+ * REF: ports app/seerah/[event]/page.tsx · people-history group · [XSS] event content
+ */
+import Base from '../../layouts/Base.astro'
+import { getSeerahEventBySlug, getSeerahEvents } from '../../../lib/data/seerah'
+import { getSeerahContent } from '../../../lib/data/seerah-content'
+import { formatIslamicDate } from '../../../lib/dates/hijri'
+import { extractHeadings } from '../../../lib/render-content'
+import { safeJsonLd } from '../../../components/seo/json-ld'
+import { getHreflangAlternates } from '../../../components/seo/hreflang'
+import { ogImageUrl } from '../../../lib/og'
+import { renderMarkdownSafe } from '../../lib/render-markdown'
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  return getSeerahEvents().map((e) => ({ params: { event: e.slug } }))
+}
+
+const { event: slug } = Astro.params as { event: string }
+const event = getSeerahEventBySlug(slug)
+if (!event) return Astro.redirect('/404')
+
+const locale = Astro.locals.locale ?? 'en'
+
+const fullContent = getSeerahContent(slug, locale)
+const headings = fullContent ? extractHeadings(fullContent) : []
+const contentHtml = fullContent ? renderMarkdownSafe(fullContent) : ''
+
+const allEvents = getSeerahEvents()
+const idx = allEvents.findIndex((e) => e.slug === slug)
+const prevEvent = idx > 0 ? allEvents[idx - 1] : null
+const nextEvent = idx < allEvents.length - 1 ? allEvents[idx + 1] : null
+
+const { primary, secondary } = formatIslamicDate(event)
+const dateLabel = secondary ? `${primary} (${secondary})` : primary
+
+const headTitle = locale === 'ar' && event.title_ar ? event.title_ar : locale === 'id' && event.title_id ? event.title_id : event.title_en
+
+const significanceCls =
+  event.significance === 'major'
+    ? 'bg-amber-500/15 text-amber-400'
+    : event.significance === 'moderate'
+      ? 'bg-iw-accent/10 text-iw-accent'
+      : 'bg-iw-surface text-iw-text-secondary'
+
+const title = event.title_en
+const description = `${event.title_en}${dateLabel ? ` — ${dateLabel}` : ''}. ${event.description_en.slice(0, 160)}`
+const ogImage = ogImageUrl({
+  title: event.title_en,
+  section: 'Seerah',
+  arabic: event.title_ar,
+  subtitle: dateLabel,
+})
+const alternates = getHreflangAlternates(`/seerah/${slug}`)
+
+const eventJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: event.title_en,
+  alternateName: event.title_ar,
+  description: event.description_en.slice(0, 200),
+  url: `https://islam.wiki/seerah/${event.slug}`,
+  startDate: event.date_ce ?? undefined,
+  location: event.place_name ? { '@type': 'Place', name: event.place_name } : undefined,
+  organizer: { '@type': 'Organization', name: 'Islam.wiki', url: 'https://islam.wiki' },
+}
+
+function datePrimary(e: { date_ah?: string | null; year_ah?: number | null; date_ce?: string | null }): string {
+  return formatIslamicDate(e).primary
+}
+---
+
+<Base title={title} description={description} ogImage={ogImage}>
+  <Fragment slot="head">
+    {Object.entries(alternates).map(([loc, href]) => (
+      <link rel="alternate" hreflang={loc} href={href} />
+    ))}
+    <script type="application/ld+json" set:html={safeJsonLd(eventJsonLd)} />
+  </Fragment>
+
+  <main id="main-content">
+    <div class="section-container py-12">
+      <!-- Breadcrumbs -->
+      <nav class="mb-4 text-sm text-iw-text-secondary">
+        <a href="/seerah" class="hover:text-iw-text">Seerah</a>
+        <span class="mx-2">/</span>
+        <span class="text-iw-text">{event.title_en}</span>
+      </nav>
+
+      <!-- Top prev/next -->
+      <div class="mb-6 flex items-center justify-between">
+        {prevEvent ? (
+          <a href={`/seerah/${prevEvent.slug}`} class="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            <span class="max-w-[200px] truncate">{prevEvent.title_en}</span>
+          </a>
+        ) : <div />}
+        <span class="text-xs text-iw-text-muted">Event {idx + 1} of {allEvents.length}</span>
+        {nextEvent ? (
+          <a href={`/seerah/${nextEvent.slug}`} class="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent">
+            <span class="max-w-[200px] truncate">{nextEvent.title_en}</span>
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        ) : <div />}
+      </div>
+
+      <!-- Two-column: content + sticky TOC -->
+      <div class="flex gap-10 xl:gap-16">
+        <div class="min-w-0 flex-1">
+          <!-- Event header -->
+          <div class="mb-8">
+            <div class="mb-2 flex items-center gap-3">
+              {primary && (
+                <span class="text-sm font-medium text-iw-accent">
+                  {primary}
+                  {secondary && <span class="ml-1 font-normal text-iw-text-muted/70">({secondary})</span>}
+                </span>
+              )}
+              <span class={`badge ${significanceCls}`}>{event.significance}</span>
+            </div>
+            <h1 class="text-3xl font-bold text-white">{headTitle}</h1>
+            {locale !== 'ar' && event.title_ar && (
+              <p class="arabic-text mt-2 text-xl text-white/80">{event.title_ar}</p>
+            )}
+          </div>
+
+          <!-- Location -->
+          {event.place_name && (
+            <div class="mb-6 flex items-center gap-2 text-sm text-iw-text-secondary">
+              <svg class="h-4 w-4 text-iw-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              {event.place_name}
+            </div>
+          )}
+
+          <!-- Content (sanitized markdown) -->
+          <div class="prose prose-invert max-w-none leading-relaxed text-iw-text-secondary">
+            {contentHtml ? <div set:html={contentHtml} /> : <p>{event.description_en}</p>}
+          </div>
+
+          <!-- Sources -->
+          {event.sources && event.sources.length > 0 && (
+            <div class="mt-8 rounded-xl border border-iw-border bg-iw-surface/50 p-5">
+              <h2 class="mb-3 text-sm font-semibold text-white">Sources</h2>
+              <ul class="list-inside list-disc space-y-1 text-sm text-iw-text-secondary">
+                {event.sources.map((src) => <li>{src}</li>)}
+              </ul>
+            </div>
+          )}
+
+          <!-- Bottom prev/next -->
+          <div class="mt-10 grid grid-cols-2 gap-4 border-t border-iw-border pt-6">
+            {prevEvent ? (
+              <a href={`/seerah/${prevEvent.slug}`} class="group rounded-lg border border-iw-border p-4 transition-colors hover:border-iw-text-muted/20">
+                <span class="text-xs text-iw-text-muted">Previous Event</span>
+                <p class="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">{prevEvent.title_en}</p>
+                {datePrimary(prevEvent) && <p class="mt-0.5 text-xs text-iw-text-muted">{datePrimary(prevEvent)}</p>}
+              </a>
+            ) : <div />}
+            {nextEvent ? (
+              <a href={`/seerah/${nextEvent.slug}`} class="group rounded-lg border border-iw-border p-4 text-right transition-colors hover:border-iw-text-muted/20">
+                <span class="text-xs text-iw-text-muted">Next Event</span>
+                <p class="mt-1 text-sm font-medium text-iw-text-secondary group-hover:text-iw-accent">{nextEvent.title_en}</p>
+                {datePrimary(nextEvent) && <p class="mt-0.5 text-xs text-iw-text-muted">{datePrimary(nextEvent)}</p>}
+              </a>
+            ) : <div />}
+          </div>
+        </div>
+
+        <!-- Sticky TOC sidebar -->
+        {headings.length > 2 && (
+          <aside class="hidden w-52 flex-shrink-0 xl:block">
+            <div class="sticky top-28">
+              <p class="mb-3 text-[11px] font-bold uppercase tracking-widest text-iw-text-muted">On this page</p>
+              <nav class="space-y-1 border-l border-iw-border/60 pl-3">
+                {headings.map((h) => (
+                  <a
+                    href={`#${h.id}`}
+                    class={[
+                      'block py-0.5 text-[13px] leading-snug text-iw-text-muted transition-colors hover:text-iw-accent',
+                      h.level === 3 ? 'pl-3 text-[12px]' : '',
+                    ].join(' ')}
+                  >
+                    {h.text}
+                  </a>
+                ))}
+                <a href="#" class="mt-4 block py-0.5 text-[11px] text-iw-text-muted/40 transition-colors hover:text-iw-text-muted">
+                  ↑ Back to top
+                </a>
+              </nav>
+            </div>
+          </aside>
+        )}
+      </div>
+    </div>
+  </main>
+</Base>

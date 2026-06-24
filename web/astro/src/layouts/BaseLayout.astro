@@ -1,0 +1,95 @@
+---
+/**
+ * FILE: layouts/BaseLayout.astro
+ * PURPOSE: Base HTML shell for all islamwiki/read pages.
+ *   Injects CSP nonce (FGAP-03), Sentry, Umami, brand tokens.
+ *   Sets lang + dir attributes for RTL support.
+ * INPUTS: title, description, lang (defaults 'en'), canonical
+ * OUTPUTS: Full HTML page with head, body, slot
+ * CONSTRAINTS:
+ *   - FGAP-03: All inline scripts MUST use nonce. No inline script without nonce.
+ *   - Never embed JWT or auth claims in inline scripts (FGAP-03 XSS gate).
+ *   - CSP header set via vercel.json + this nonce.
+ * REF: P2-E3-W02-S02-T01 · FGAP-03
+ */
+
+import '../styles/global.css';
+import { getHtmlDir } from '@ummat/i18n/direction';
+
+interface Props {
+  title: string;
+  description?: string;
+  lang?: 'en' | 'ar';
+  canonical?: string;
+  noIndex?: boolean;
+}
+
+const {
+  title,
+  description = 'Islam.wiki — the authoritative Islamic knowledge base.',
+  lang = 'en',
+  canonical,
+  noIndex = false,
+} = Astro.props;
+
+const dir = getHtmlDir(lang);
+const siteUrl = import.meta.env.PUBLIC_SITE_URL ?? 'https://islam.wiki';
+const canonicalUrl = canonical ?? `${siteUrl}${Astro.url.pathname}`;
+
+// FGAP-03: Generate per-request nonce for CSP
+// The nonce is set as a response header and used on all inline scripts
+const nonce = crypto.randomUUID().replace(/-/g, '');
+Astro.response.headers.set(
+  'Content-Security-Policy',
+  [
+    `default-src 'self'`,
+    `script-src 'self' 'nonce-${nonce}' https://cdn.umami.is`,
+    `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
+    `font-src 'self' https://fonts.gstatic.com`,
+    `img-src 'self' data: https:`,
+    `connect-src 'self' ${import.meta.env.PUBLIC_GRAPHQL_URL ?? 'https://api.ummat.dev'} https://o*.ingest.sentry.io`,
+    `frame-ancestors 'none'`,
+  ].join('; ')
+);
+---
+
+<!doctype html>
+<html lang={lang} dir={dir}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} — Islam.wiki</title>
+    <meta name="description" content={description} />
+    {noIndex && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="canonical" href={canonicalUrl} />
+
+    <!-- Preload Arabic font for RTL pages -->
+    {dir === 'rtl' && (
+      <link
+        rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap"
+        as="style"
+      />
+    )}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={`${title} — Islam.wiki`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="Islam.wiki" />
+    <meta property="og:type" content="website" />
+
+    <!-- Umami Analytics — FGAP-03: nonce required -->
+    {import.meta.env.PUBLIC_UMAMI_WEBSITE_ID && (
+      <script
+        nonce={nonce}
+        async
+        src="https://cdn.umami.is/script.js"
+        data-website-id={import.meta.env.PUBLIC_UMAMI_WEBSITE_ID}
+      ></script>
+    )}
+  </head>
+  <body class="bg-white text-gray-900 antialiased">
+    <slot />
+  </body>
+</html>

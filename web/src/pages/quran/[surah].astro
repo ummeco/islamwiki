@@ -1,0 +1,183 @@
+---
+/**
+ * quran/[surah].astro — single surah viewer, SSG (all 114 prerendered)
+ *
+ * PURPOSE: Ports app/quran/[surah]/page.tsx. Renders one surah with the
+ *   interactive SurahViewer + intro, prev/next navigation, JSON-LD.
+ * CONVERSION NOTES:
+ *   - generateStaticParams → getStaticPaths(): all 114 surahs by number.
+ *   - Slug→numeric redirect is handled by astro.config.mjs surahRedirects, so this
+ *     page only accepts numeric params; invalid numbers Astro.redirect to 404.
+ *   - SurahViewer / SurahIntroButton are 'use client' React components → islands (client:load).
+ *   - QuranChapterJsonLd / BreadcrumbJsonLd emit <script type=ld+json>; safeJsonLd() inside
+ *     them already escapes content. Rendered as islands (they output a script tag, harmless SSR).
+ *     To avoid pulling client JS for inert JSON-LD, we inline the same JSON-LD via set:html of
+ *     the component-equivalent string built with the same shape — but reuse is preferred, so
+ *     the JSON-LD components are rendered as static islands (no client directive needed since
+ *     they have no interactivity; Astro renders their HTML server-side).
+ *   - locale comes from Astro.locals (middleware), replacing the Next getLocale() (next/headers).
+ *   - getSurahByNumber / getAyahsBySurah imported VERBATIM from lib/data/quran.
+ * REF: P2 quran group · ports app/quran/[surah]/page.tsx
+ */
+export const prerender = true
+
+import Base from '../../layouts/Base.astro'
+import { getSurahByNumber, getSurahs, getAyahsBySurah } from '@/lib/data/quran'
+import { SurahViewer } from '@/components/quran/SurahViewer'
+import { SurahIntroButton } from '@/components/quran/SurahIntroButton'
+import { surahTitle, surahTranslit } from '@/lib/quran-utils'
+
+export function getStaticPaths() {
+  return getSurahs().map((s) => ({ params: { surah: String(s.number) } }))
+}
+
+const { surah: surahParam } = Astro.params
+const asNum = parseInt(surahParam ?? '', 10)
+
+// Slug URLs are redirected to numeric by astro.config redirects; here we only
+// accept exact numeric params. Anything else → 404.
+const surah =
+  !Number.isNaN(asNum) && String(asNum) === surahParam ? getSurahByNumber(asNum) : undefined
+if (!surah) return Astro.redirect('/404')
+
+const ayahs = getAyahsBySurah(surah.number)
+const locale = Astro.locals.locale ?? 'en'
+const prevSurah = surah.number > 1 ? getSurahByNumber(surah.number - 1) : null
+const nextSurah = surah.number < 114 ? getSurahByNumber(surah.number + 1) : null
+
+const title = `${surahTitle(surah.name_transliteration, surah.name_en)} — Quran · Islam.wiki`
+const description = `Read ${surahTitle(
+  surah.name_transliteration,
+  surah.name_en,
+)} — ${surah.verses_count} verses. Arabic text with English translation, transliteration, and tafsir.`
+
+// JSON-LD (ported inline — equivalent to QuranChapterJsonLd + BreadcrumbJsonLd).
+const chapterLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CreativeWork',
+  name: `Surah ${surahTranslit(surah.name_transliteration)}`,
+  alternateName: surah.name_ar,
+  position: surah.number,
+  isPartOf: { '@type': 'Book', name: 'The Holy Quran' },
+}
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Quran', item: 'https://islam.wiki/quran' },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: `Surah ${surahTranslit(surah.name_transliteration)}`,
+      item: `https://islam.wiki/quran/${surah.number}`,
+    },
+  ],
+}
+// JSON.stringify already escapes; additionally guard </script> breakout.
+const ldJson = (o: object) => JSON.stringify(o).replace(/</g, '\\u003c')
+---
+
+<Base title={title} description={description}>
+  <script type="application/ld+json" is:inline set:html={ldJson(chapterLd)} />
+  <script type="application/ld+json" is:inline set:html={ldJson(breadcrumbLd)} />
+  <main id="main-content">
+    <div class="section-container py-12">
+      {/* Breadcrumb */}
+      <nav class="mb-6 flex items-center justify-between text-sm text-iw-text-secondary">
+        <div>
+          <a href="/quran" class="hover:text-iw-text">Quran</a>
+          <span class="mx-2 text-iw-border">/</span>
+          <span class="text-iw-text">Surat {surahTranslit(surah.name_transliteration)}</span>
+        </div>
+        <a href="/quran/stats" class="text-xs text-iw-text-muted hover:text-iw-accent">
+          Quran statistics →
+        </a>
+      </nav>
+
+      {/* Surah header */}
+      <div class="mb-8 text-center">
+        <div class="mx-auto mb-5 flex max-w-2xl items-center justify-between px-2">
+          {prevSurah ? (
+            <a
+              href={`/quran/${prevSurah.number}`}
+              class="flex items-center gap-2 rounded-lg border border-iw-border px-3 py-1.5 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-iw-accent"
+            >
+              ← Surat {surahTranslit(prevSurah.name_transliteration)}
+            </a>
+          ) : <div />}
+          <p class="text-sm font-medium text-iw-accent">Surah {surah.number} of 114</p>
+          {nextSurah ? (
+            <a
+              href={`/quran/${nextSurah.number}`}
+              class="flex items-center gap-2 rounded-lg border border-iw-border px-3 py-1.5 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-iw-accent"
+            >
+              Surat {surahTranslit(nextSurah.name_transliteration)} →
+            </a>
+          ) : <div />}
+        </div>
+
+        <h1 class="text-3xl font-bold text-white">
+          {surahTitle(surah.name_transliteration, surah.name_en)}
+        </h1>
+
+        <div class="mt-4 flex justify-center">
+          <SurahIntroButton
+            surahNumber={surah.number}
+            surahName={surah.name_en}
+            surahNameAr={surah.name_ar}
+            surahTranslitName={surah.name_transliteration}
+            verseCount={surah.verses_count}
+            revelationType={surah.revelation_type}
+            juzStart={surah.juz_start}
+            pageStart={surah.page_start}
+            wordCount={surah.word_count}
+            description={surah.description_en}
+            client:load
+          />
+        </div>
+      </div>
+
+      {/* Verses + audio (React island) — bismillah handled internally */}
+      <SurahViewer
+        surahNumber={surah.number}
+        surahName={surah.name_en}
+        surahNameAr={surah.name_ar}
+        totalAyahs={surah.verses_count}
+        ayahs={ayahs}
+        locale={locale}
+        client:load
+      />
+
+      {/* Bottom navigation */}
+      <div class="mx-auto mt-12 flex max-w-3xl items-center justify-between border-t border-iw-border pt-6">
+        {prevSurah ? (
+          <a
+            href={`/quran/${prevSurah.number}`}
+            class="flex items-center gap-2 text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
+          >
+            <span>←</span>
+            <div>
+              <div class="text-xs text-iw-text-muted">Previous</div>
+              <div class="font-medium">Surat {surahTranslit(prevSurah.name_transliteration)}</div>
+            </div>
+          </a>
+        ) : <div />}
+        <a href="/quran" class="text-xs text-iw-text-muted transition-colors hover:text-iw-accent">
+          All Surahs
+        </a>
+        {nextSurah ? (
+          <a
+            href={`/quran/${nextSurah.number}`}
+            class="flex items-center gap-2 text-right text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
+          >
+            <div>
+              <div class="text-xs text-iw-text-muted">Next</div>
+              <div class="font-medium">Surat {surahTranslit(nextSurah.name_transliteration)}</div>
+            </div>
+            <span>→</span>
+          </a>
+        ) : <div />}
+      </div>
+    </div>
+  </main>
+</Base>

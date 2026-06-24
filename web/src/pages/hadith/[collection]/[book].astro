@@ -1,0 +1,94 @@
+---
+/**
+ * hadith/[collection]/[book].astro — Hadith book page (SSG)
+ *
+ * PURPOSE: Ports app/hadith/[collection]/[book]/page.tsx. Renders a book's hadith via
+ *          the PaginatedHadithList island (client:load). Reads the same lib/data/hadith
+ *          reader. generateStaticParams → getStaticPaths.
+ * CONSTRAINTS:
+ *   - prerender=true (static). No next/* imports.
+ *   - Hadith fields are passed to the island as data (auto-escaped by React on render).
+ *   - Hreflang alternates reuse lib SEO helper.
+ * REF: ports app/hadith/[collection]/[book]/page.tsx · D-P2-STACK-CANON
+ */
+export const prerender = true
+
+import Base from '../../../layouts/Base.astro'
+import {
+  getCollections,
+  getCollectionBySlug,
+  getBooksByCollection,
+  getBookBySlug,
+  getHadithsByBook,
+} from '@/lib/data/hadith'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { PaginatedHadithList } from '../../../components/hadith/PaginatedHadithListIsland'
+
+export function getStaticPaths() {
+  const collections = getCollections()
+  const paths: Array<{ params: { collection: string; book: string } }> = []
+  for (const col of collections) {
+    const books = getBooksByCollection(col.id)
+    for (const book of books) {
+      paths.push({ params: { collection: col.slug, book: book.slug } })
+    }
+  }
+  return paths
+}
+
+const { collection: colSlug, book: bookSlug } = Astro.params
+const col = getCollectionBySlug(colSlug!)
+if (!col) return Astro.redirect('/404')
+const book = getBookBySlug(col.id, bookSlug!)
+if (!book) return Astro.redirect('/404')
+
+const hadiths = getHadithsByBook(book.id)
+const items = hadiths.map((h) => ({
+  n: h.n,
+  ar: h.ar,
+  text_en: h.text_en,
+  grade: h.grade,
+  chapter_en: h.chapter_en,
+  chapter_ar: h.chapter_ar,
+}))
+
+const title = `${book.name_en} — ${col.name_en} — Islam.wiki`
+const description = `${book.name_en} from ${col.name_en}. ${book.hadith_count} hadith with Arabic, English translation, and grading.`
+const alternates = getHreflangAlternates(`/hadith/${colSlug}/${bookSlug}`)
+---
+
+<Base title={title} description={description}>
+  {Object.entries(alternates).map(([lang, href]) => (
+    <link slot="head" rel="alternate" hreflang={lang} href={href} />
+  ))}
+  <main id="main-content">
+    <div class="section-container py-12">
+      <nav class="mb-4 text-sm text-iw-text-secondary">
+        <a href="/hadith" class="hover:text-iw-text">Hadith</a>
+        <span class="mx-2">/</span>
+        <a href={`/hadith/${colSlug}`} class="hover:text-iw-text">{col.name_en}</a>
+        <span class="mx-2">/</span>
+        <span class="text-iw-text">{book.name_en}</span>
+      </nav>
+
+      <div class="mb-8">
+        <h1 class="text-2xl font-bold text-white">{book.name_en}</h1>
+        {book.name_ar && (
+          <p class="arabic-text mt-1 text-lg text-white/80" lang="ar" dir="rtl">{book.name_ar}</p>
+        )}
+        <p class="mt-2 text-sm text-iw-text-secondary">
+          {hadiths.length} hadith{hadiths.length !== 1 ? 's' : ''}
+        </p>
+      </div>
+
+      <div class="mx-auto max-w-3xl">
+        <PaginatedHadithList
+          hadiths={items}
+          colSlug={colSlug!}
+          bookSlug={bookSlug!}
+          client:load
+        />
+      </div>
+    </div>
+  </main>
+</Base>

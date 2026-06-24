@@ -1,0 +1,174 @@
+---
+/**
+ * quran/juz/[juz].astro — full juz (para) viewer, SSG (all 30 prerendered)
+ *
+ * PURPOSE: Ports app/quran/juz/[juz]/page.tsx. Renders all ayahs in a juz,
+ *   grouped by surah, each as its own SurahViewer section.
+ * CONVERSION NOTES:
+ *   - generateStaticParams → getStaticPaths(): juz 1..30.
+ *   - getJuzAyahs() imported VERBATIM from lib/data/quran (framework-independent).
+ *   - SurahViewer is 'use client' → React island (client:load) per group.
+ *   - Invalid juz or empty groups → Astro.redirect('/404') (replaces notFound()).
+ * REF: P2 quran group · ports app/quran/juz/[juz]/page.tsx
+ */
+export const prerender = true
+
+import Base from '../../../layouts/Base.astro'
+import { getJuzAyahs } from '@/lib/data/quran'
+import { SurahViewer } from '@/components/quran/SurahViewer'
+import { surahTranslit } from '@/lib/quran-utils'
+
+export function getStaticPaths() {
+  return Array.from({ length: 30 }, (_, i) => ({ params: { juz: String(i + 1) } }))
+}
+
+const { juz: juzParam } = Astro.params
+const juz = parseInt(juzParam ?? '', 10)
+
+if (Number.isNaN(juz) || juz < 1 || juz > 30) return Astro.redirect('/404')
+
+const groups = getJuzAyahs(juz)
+if (!groups.length) return Astro.redirect('/404')
+
+const prevJuz = juz > 1 ? juz - 1 : null
+const nextJuz = juz < 30 ? juz + 1 : null
+
+const totalVerses = groups.reduce((sum, g) => sum + g.ayahs.length, 0)
+const title = `Juz ${juz} — Quran · Islam.wiki`
+const description = `Read Juz ${juz} of the Quran with Arabic text, translation, and tafsir.`
+---
+
+<Base title={title} description={description}>
+  <main id="main-content">
+    <div class="section-container py-12">
+      {/* Breadcrumb */}
+      <nav class="mb-6 text-sm text-iw-text-secondary">
+        <a href="/quran" class="hover:text-iw-text">Quran</a>
+        <span class="mx-2 text-iw-border">/</span>
+        <span class="text-iw-text">Juz {juz}</span>
+      </nav>
+
+      {/* Header */}
+      <div class="mb-8 text-center">
+        <p class="text-sm text-iw-accent">Juz {juz} of 30</p>
+        <h1 class="mt-2 text-3xl font-bold text-white">Juz {juz}</h1>
+        <p class="mt-2 text-sm text-iw-text-secondary">
+          {groups[0].surah.name_en}
+          {groups.length > 1 && ` — ${groups[groups.length - 1].surah.name_en}`}
+          {' · '}
+          {totalVerses} verses
+        </p>
+      </div>
+
+      {/* Prev/Next juz navigation */}
+      <div class="mx-auto mb-8 flex max-w-3xl items-center justify-between">
+        {prevJuz ? (
+          <a
+            href={`/quran/juz/${prevJuz}`}
+            class="flex items-center gap-2 rounded-lg border border-iw-border px-4 py-2 text-sm text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+          >
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            Juz {prevJuz}
+          </a>
+        ) : <div />}
+        {nextJuz ? (
+          <a
+            href={`/quran/juz/${nextJuz}`}
+            class="flex items-center gap-2 rounded-lg border border-iw-border px-4 py-2 text-sm text-iw-text-secondary transition-colors hover:border-iw-text-muted hover:text-iw-text"
+          >
+            Juz {nextJuz}
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        ) : <div />}
+      </div>
+
+      {/* Surahs in this juz — each renders as its own SurahViewer section */}
+      <div class="space-y-12">
+        {groups.map(({ surah, ayahs }) => {
+          const isFullSurah = ayahs.length === surah.verses_count
+          const from = ayahs[0].number_in_surah
+          const to = ayahs[ayahs.length - 1].number_in_surah
+          const rangeLabel = isFullSurah ? null : `${from}–${to}`
+
+          return (
+            <div>
+              {/* Surah header within juz */}
+              <div class="mb-6 flex items-center gap-4">
+                <div class="h-px flex-1 bg-iw-border" />
+                <div class="text-center">
+                  <a href={`/quran/${surah.number}`} class="group">
+                    <span class="text-[11px] font-bold uppercase tracking-widest text-iw-accent">
+                      Surah {surah.number}
+                    </span>
+                    <h2 class="text-xl font-bold text-white group-hover:text-iw-accent transition-colors">
+                      Surat {surahTranslit(surah.name_transliteration)} ({surah.name_en})
+                    </h2>
+                    <p class="arabic-text text-lg text-iw-text-secondary">{surah.name_ar}</p>
+                    {rangeLabel && (
+                      <p class="text-[11px] text-iw-text-muted">Verses {rangeLabel}</p>
+                    )}
+                  </a>
+                </div>
+                <div class="h-px flex-1 bg-iw-border" />
+              </div>
+
+              {/* Bismillah — all except Al-Fatiha (1) and Al-Tawbah (9), only at surah start */}
+              {surah.number !== 1 && surah.number !== 9 && from === 1 && (
+                <p class="arabic-text mb-6 text-center text-2xl text-iw-text-secondary">
+                  بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ
+                </p>
+              )}
+
+              <SurahViewer
+                surahNumber={surah.number}
+                surahName={surah.name_en}
+                totalAyahs={surah.verses_count}
+                ayahs={ayahs}
+                client:load
+              />
+            </div>
+          )
+        })}
+      </div>
+
+      {/* Bottom navigation */}
+      <div class="mx-auto mt-12 flex max-w-3xl items-center justify-between border-t border-iw-border pt-6">
+        {prevJuz ? (
+          <a
+            href={`/quran/juz/${prevJuz}`}
+            class="flex items-center gap-2 text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
+          >
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            <div>
+              <div class="text-xs text-iw-text-muted">Previous</div>
+              <div class="font-medium">Juz {prevJuz}</div>
+            </div>
+          </a>
+        ) : <div />}
+        <a href="/quran" class="text-xs text-iw-text-muted transition-colors hover:text-iw-accent">
+          All Surahs
+        </a>
+        {nextJuz ? (
+          <a
+            href={`/quran/juz/${nextJuz}`}
+            class="flex items-center gap-2 text-right text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
+          >
+            <div>
+              <div class="text-xs text-iw-text-muted">Next</div>
+              <div class="font-medium">Juz {nextJuz}</div>
+            </div>
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        ) : <div />}
+      </div>
+    </div>
+  </main>
+</Base>

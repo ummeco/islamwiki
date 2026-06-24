@@ -1,0 +1,50 @@
+# ListArticles.graphql
+# PURPOSE: Fetch paginated list of published articles, optionally filtered by category.
+# REF: p2-islamwiki-astro-vite-spec.md §6.2
+
+query ListArticles($categorySlug: String, $locale: String, $limit: Int = 20, $offset: Int = 0) {
+  iw_articles(
+    where: {
+      status: { _eq: "published" }
+      language: { _eq: $locale }
+      category: { slug: { _eq: $categorySlug } }
+    }
+    limit: $limit
+    offset: $offset
+    order_by: { created_at: desc }
+  ) {
+    id
+    slug
+    title
+    language
+    created_at
+    category {
+      id
+      slug
+      name
+    }
+    tags {
+      tag {
+        slug
+        name
+      }
+    }
+    published_revision {
+      created_at
+      author {
+        display_name
+      }
+    }
+  }
+  iw_articles_aggregate(
+    where: {
+      status: { _eq: "published" }
+      language: { _eq: $locale }
+      category: { slug: { _eq: $categorySlug } }
+    }
+  ) {
+    aggregate {
+      count
+    }
+  }
+}

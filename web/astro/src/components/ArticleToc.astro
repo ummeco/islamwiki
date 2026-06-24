@@ -1,0 +1,42 @@
+---
+/**
+ * FILE: components/ArticleToc.astro
+ * PURPOSE: Sticky table of contents for article pages.
+ *   Headings are extracted from article content (passed in as props).
+ * INPUTS: headings — array of { depth, text, slug }
+ * REF: P2-E3-W02-S02-T01 · spec §11.1
+ */
+
+interface Heading {
+  depth: number;
+  text: string;
+  slug: string;
+}
+
+interface Props {
+  headings: Heading[];
+}
+
+const { headings } = Astro.props;
+const visibleHeadings = headings.filter((h) => h.depth <= 3);
+---
+
+{visibleHeadings.length > 1 && (
+  <nav aria-label="Table of contents" class="text-sm">
+    <h2 class="font-semibold text-gray-700 mb-3 uppercase tracking-wide text-xs">
+      Contents
+    </h2>
+    <ol class="space-y-2">
+      {visibleHeadings.map((h) => (
+        <li class={h.depth === 2 ? 'ps-0' : 'ps-4'}>
+          <a
+            href={`#${h.slug}`}
+            class="text-gray-600 hover:text-brand-mid transition-colors line-clamp-2"
+          >
+            {h.text}
+          </a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

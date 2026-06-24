@@ -1,0 +1,89 @@
+---
+/**
+ * admin/edits/index.astro — pending-edits moderation (server + EditModal island)
+ *
+ * PURPOSE: Ports app/admin/edits/page.tsx. Server-fetches pending + recently-reviewed revisions
+ *   (Hasura admin secret stays server-only in the data reader). The pending list is handed to the
+ *   PendingEditsList island, which renders a SANITIZED preview + diff and approves/rejects via
+ *   /api/admin/edits. The "recently reviewed" list is static server output.
+ *
+ * AUTH GUARD (server-side, preserved + defense-in-depth):
+ *   src/middleware.ts gates /admin* at trustLevel>=4; re-checked here. The review API
+ *   (/api/admin/edits) independently re-verifies the moderator session (trustLevel>=2).
+ *
+ * SECURITY (XSS release gate): only the structured revision fields are serialized to the island
+ *   (no admin secret); the island sanitizes the preview HTML via lib/sanitize before rendering.
+ * REF: ports app/admin/edits (auth-interactive migration group)
+ */
+import Base from '../../../layouts/Base.astro'
+import { getPendingRevisions, getRecentReviewedRevisions } from '../../../../lib/contributor/revisions'
+import { PendingEditsList } from '../../../components/admin/EditModal'
+
+export const prerender = false
+
+if ((Astro.locals.trustLevel ?? 0) < 4) {
+  return Astro.redirect('/', 302)
+}
+
+const [pending, recent] = await Promise.all([
+  getPendingRevisions(),
+  getRecentReviewedRevisions(50),
+])
+
+// Serialize only the fields the island needs (no admin secret crosses the boundary).
+const pendingForIsland = pending.map((r) => ({
+  id: r.id,
+  content_type: r.content_type,
+  content_slug: r.content_slug,
+  editor_username: r.editor_username,
+  previous_content: r.previous_content,
+  new_content: r.new_content,
+  change_summary: r.change_summary,
+  is_minor: r.is_minor,
+  diff_size_pct: r.diff_size_pct,
+  created_at: r.created_at,
+}))
+---
+
+<Base title="Pending Edits | Islam.wiki" description="Review and moderate pending wiki edits.">
+  <div class="section-container py-12">
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-white">Pending Edits</h1>
+      <p class="mt-2 text-sm text-iw-text-secondary">
+        Review, approve, or reject pending contributions.
+      </p>
+    </div>
+
+    <PendingEditsList revisions={pendingForIsland} client:load />
+
+    {recent.length > 0 && (
+      <div class="mt-10">
+        <h2 class="mb-4 text-xl font-semibold text-white">Recently Reviewed</h2>
+        <div class="space-y-2">
+          {recent.map((rev) => (
+            <div class="flex items-start gap-3 rounded-lg border border-iw-border bg-iw-surface/60 px-4 py-3">
+              <span
+                class={`mt-0.5 rounded px-1.5 py-0.5 text-xs font-medium ${
+                  rev.status === 'approved'
+                    ? 'bg-emerald-500/15 text-emerald-400'
+                    : rev.status === 'reverted'
+                      ? 'bg-orange-500/15 text-orange-400'
+                      : 'bg-red-500/15 text-red-400'
+                }`}
+              >
+                {rev.status}
+              </span>
+              <div class="flex-1">
+                <div class="text-sm text-iw-text">{rev.content_type} / {rev.content_slug}</div>
+                <div class="mt-0.5 text-xs text-iw-text-secondary/70">
+                  {rev.change_summary && <>{rev.change_summary} &middot; </>}
+                  {rev.editor_username} &middot; {new Date(rev.created_at).toLocaleString()}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+</Base>

@@ -1,0 +1,32 @@
+---
+/**
+ * wiki/index.astro — Wiki listing (static, SSG)
+ *
+ * PURPOSE: Ports app/wiki/page.tsx. Reads getWikiPages() from the same
+ *   framework-independent lib/data/wiki reader, renders the grid as a React island.
+ * CONVERSION: WikiGrid 'use client' component → client:load island.
+ * REF: ports app/wiki/page.tsx (articles-wiki migration group)
+ */
+import Base from '../../layouts/Base.astro'
+import { getWikiPages } from '../../../lib/data/wiki'
+import { WikiGrid } from '../../components/listings/WikiGrid'
+
+const pages = getWikiPages()
+
+const title = 'Wiki — Islamic Encyclopedia'
+const description =
+  'Community-edited encyclopedia of Islamic concepts, terminology, and topics. Scholar-verified and open for contributions.'
+---
+
+<Base title={title} description={description}>
+  <div class="section-container py-12">
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-white">Wiki</h1>
+      <p class="mt-2 text-iw-text-secondary">
+        Community-edited encyclopedia of Islamic concepts, terminology, and topics.
+      </p>
+    </div>
+
+    <WikiGrid pages={pages} client:load />
+  </div>
+</Base>

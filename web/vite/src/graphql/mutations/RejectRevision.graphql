@@ -1,0 +1,24 @@
+# RejectRevision.graphql
+# PURPOSE: Moderator rejects a revision — sets article status back to draft.
+#   Requires a review_note explaining the rejection reason.
+# REF: p2-islamwiki-astro-vite-spec.md §6.3
+
+mutation RejectRevision(
+  $revision_id: uuid!
+  $article_id: uuid!
+  $review_note: String!
+) {
+  update_iw_article_revisions_by_pk(
+    pk_columns: { id: $revision_id }
+    _set: { review_note: $review_note }
+  ) {
+    id
+  }
+  update_iw_articles_by_pk(
+    pk_columns: { id: $article_id }
+    _set: { status: "rejected" }
+  ) {
+    id
+    status
+  }
+}

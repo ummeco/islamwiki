@@ -1,0 +1,20 @@
+# SaveDraft.graphql
+# PURPOSE: Save current editor content as a draft revision. Does NOT change status.
+# REF: p2-islamwiki-astro-vite-spec.md §7.2
+
+mutation SaveDraft(
+  $article_id: uuid!
+  $content_md: String!
+  $content_html: String!
+) {
+  insert_iw_article_revisions_one(
+    object: {
+      article_id: $article_id
+      content_md: $content_md
+      content_html: $content_html
+    }
+  ) {
+    id
+    created_at
+  }
+}

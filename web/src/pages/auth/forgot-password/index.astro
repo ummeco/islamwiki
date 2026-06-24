@@ -1,0 +1,22 @@
+---
+/**
+ * auth/forgot-password/index.astro — request password reset
+ *
+ * PURPOSE: Shell wrapping the ForgotPasswordForm island. Ports app/auth/forgot-password/page.tsx.
+ *
+ * AUTH GUARD (server-side, preserved): src/middleware.ts redirects authenticated users away from
+ *   /auth/* (except change-password). The island POSTs to /api/auth/password-reset, which always
+ *   returns { sent: true } to avoid email enumeration.
+ * REF: ports app/auth/forgot-password (auth-interactive migration group)
+ */
+import Base from '../../../layouts/Base.astro'
+import { ForgotPasswordForm } from '../../../components/auth/ForgotPasswordForm'
+
+export const prerender = false
+---
+
+<Base title="Reset Password | Islam.wiki" description="Request a password reset link for your Islam.wiki account.">
+  <main id="main-content">
+    <ForgotPasswordForm client:load />
+  </main>
+</Base>

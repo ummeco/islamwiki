@@ -1,0 +1,129 @@
+---
+/**
+ * profile/[username].astro — public contributor profile
+ *
+ * PURPOSE: Ports app/profile/[username]/page.tsx. Server-renders a contributor's trust level,
+ *   reputation, edit counts, and recent contributions. Public page — no auth guard.
+ *
+ * CONVERSION (Next → Astro):
+ *   - getUserTrustByUsername / getRevisionsByEditor run in frontmatter (server-only; Hasura admin
+ *     secret never reaches the client). The Next-only <TrustBadge>/<TrustProgress> components
+ *     (which did not exist as Astro islands) are inlined as static server markup using
+ *     getTrustLevelName + TRUST_THRESHOLDS from lib/contributor/trust.
+ *   - This is SSR (prerender=false) so any username resolves per-request.
+ * REF: ports app/profile/[username] (auth-interactive migration group)
+ */
+import Base from '../../layouts/Base.astro'
+import { getUserTrustByUsername } from '../../../lib/contributor/user-trust'
+import { getRevisionsByEditor } from '../../../lib/contributor/revisions'
+import { getTrustLevelName, TRUST_THRESHOLDS, type TrustLevel } from '../../../lib/contributor/trust'
+
+export const prerender = false
+
+const { username } = Astro.params
+
+const [trust, revisions] = await Promise.all([
+  getUserTrustByUsername(username!).catch(() => null),
+  getRevisionsByEditor(username!, 20).catch(() => []),
+])
+
+const trustLevel = (trust?.trust_level ?? 0) as TrustLevel
+const trustScore = trust?.trust_score ?? 0
+const totalEdits = (trust?.edits_approved ?? 0) + (trust?.edits_rejected ?? 0) + (trust?.edits_pending ?? 0)
+
+// Trust progress toward the next level (inlined from the Next TrustProgress component).
+const nextThreshold = trustLevel < 4 ? TRUST_THRESHOLDS[(trustLevel + 1) as 1 | 2 | 3 | 4] : null
+const progressPct =
+  nextThreshold && nextThreshold > 0 ? Math.min(100, Math.round((trustScore / nextThreshold) * 100)) : 100
+
+const STATUS_COLORS: Record<string, string> = {
+  approved: 'bg-emerald-500/15 text-emerald-400',
+  denied: 'bg-red-500/15 text-red-400',
+  pending: 'bg-amber-500/15 text-amber-400',
+  reverted: 'bg-orange-500/15 text-orange-400',
+}
+---
+
+<Base title={`@${username} — Contributor Profile | Islam.wiki`} description={`Contribution history and trust level for @${username} on Islam.wiki.`}>
+  <div class="section-container py-12">
+    <div class="mx-auto max-w-3xl">
+      <div class="flex items-center gap-4">
+        <div class="flex h-16 w-16 items-center justify-center rounded-full bg-iw-accent/15 text-2xl font-bold text-iw-accent">
+          {username?.[0]?.toUpperCase()}
+        </div>
+        <div>
+          <h1 class="text-2xl font-bold text-white">@{username}</h1>
+          <div class="mt-1 flex items-center gap-2">
+            <span class="inline-flex items-center gap-1.5 rounded-full bg-iw-accent/15 px-2.5 py-0.5 text-xs font-medium text-iw-accent">
+              {getTrustLevelName(trustLevel)} ({trustLevel}) · {trustScore} pts
+            </span>
+          </div>
+          {trust && nextThreshold && (
+            <div class="mt-2 max-w-xs">
+              <div class="h-1.5 w-full overflow-hidden rounded-full bg-iw-border">
+                <div class="h-full rounded-full bg-iw-accent" style={`width:${progressPct}%`}></div>
+              </div>
+              <p class="mt-1 text-[11px] text-iw-text-muted">{trustScore} / {nextThreshold} to next level</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {trust?.is_banned && (
+        <div class="mt-4 rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-2">
+          <p class="text-sm text-red-400">This account has been suspended.</p>
+        </div>
+      )}
+
+      <div class="mt-8 grid gap-4 sm:grid-cols-4">
+        <div class="card text-center">
+          <p class="text-2xl font-bold text-iw-accent">{trustScore}</p>
+          <p class="text-sm text-iw-text-secondary">Reputation</p>
+        </div>
+        <div class="card text-center">
+          <p class="text-2xl font-bold text-white">{totalEdits}</p>
+          <p class="text-sm text-iw-text-secondary">Total Edits</p>
+        </div>
+        <div class="card text-center">
+          <p class="text-2xl font-bold text-emerald-400">{trust?.edits_approved ?? 0}</p>
+          <p class="text-sm text-iw-text-secondary">Approved</p>
+        </div>
+        <div class="card text-center">
+          <p class="text-2xl font-bold text-red-400">{trust?.edits_rejected ?? 0}</p>
+          <p class="text-sm text-iw-text-secondary">Rejected</p>
+        </div>
+      </div>
+
+      <div class="mt-8">
+        <h2 class="mb-4 text-lg font-semibold text-white">Recent Contributions</h2>
+        {revisions.length === 0 ? (
+          <p class="text-sm italic text-iw-text-muted">
+            No contributions yet.{' '}
+            <a href="/wiki/contribute" class="text-iw-accent hover:text-white">Start contributing</a>.
+          </p>
+        ) : (
+          <div class="space-y-2">
+            {revisions.map((rev) => (
+              <div class="flex items-start gap-3 rounded-lg border border-iw-border bg-iw-surface/60 px-4 py-3">
+                <span class={`mt-0.5 rounded px-1.5 py-0.5 text-xs font-medium ${STATUS_COLORS[rev.status] ?? ''}`}>
+                  {rev.status}
+                </span>
+                <div class="min-w-0 flex-1">
+                  <div class="truncate text-sm font-medium text-iw-text">
+                    {rev.content_type} / {rev.content_slug}
+                  </div>
+                  {rev.change_summary && <p class="mt-0.5 text-xs text-iw-text-secondary">{rev.change_summary}</p>}
+                  <p class="mt-0.5 text-xs text-iw-text-muted">
+                    {new Date(rev.created_at).toLocaleDateString()}
+                    {rev.is_minor && ' · minor'}
+                    {rev.auto_approved && ' · auto-approved'}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</Base>

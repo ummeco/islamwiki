@@ -1,0 +1,218 @@
+---
+/**
+ * quran/[surah]/[ayah].astro — single ayah / verse-range viewer (SSR, on-demand)
+ *
+ * PURPOSE: Ports app/quran/[surah]/[ayah]/page.tsx. Same layout as the surah page,
+ *   focused on a verse (or range), plus hadith / tafsir / madhab cross-ref panels.
+ * CONVERSION NOTES:
+ *   - NOT prerendered: the ayah param accepts ranges ("5-10"), which getStaticPaths
+ *     cannot enumerate, so this route stays SSR (on-demand) to support any verse/range.
+ *     This matches the Next page's `dynamicParams = true` (only first 10 prebuilt).
+ *   - Slug→numeric redirect handled by astro.config surahRedirects for /quran/<slug>/<ayah>.
+ *   - Invalid surah/ayah/range → Astro.redirect('/404') (replaces Next notFound()).
+ *   - SurahViewer / SurahIntroButton / AyahBookmarkButton / RelatedHadithPanel /
+ *     TafsirCrossRefPanel / MadhabVariancePanel are 'use client' → React islands (client:load).
+ *   - Cross-ref + madhab data readers imported VERBATIM from lib/ (framework-independent).
+ * REF: P2 quran group · ports app/quran/[surah]/[ayah]/page.tsx
+ */
+import Base from '../../../layouts/Base.astro'
+import { getSurahByNumber, getAyahsBySurah } from '@/lib/data/quran'
+import { SurahViewer } from '@/components/quran/SurahViewer'
+import { SurahIntroButton } from '@/components/quran/SurahIntroButton'
+import { AyahBookmarkButton } from '@/components/quran/AyahBookmarkButton'
+import { RelatedHadithPanel } from '@/components/quran/RelatedHadithPanel'
+import { TafsirCrossRefPanel } from '@/components/quran/TafsirCrossRefPanel'
+import {
+  getHadithCrossRefsForAyah,
+  getTafsirCrossRefsForAyah,
+} from '@/lib/cross-refs/quran-hadith'
+import { MadhabVariancePanel } from '@/components/fiqh/MadhabVariancePanel'
+import { getMadhabRulings } from '@/lib/fiqh/madhab-rulings'
+import { surahTitle, surahTranslit } from '@/lib/quran-utils'
+
+const { surah: surahParam, ayah: ayahParam } = Astro.params
+
+const asNum = parseInt(surahParam ?? '', 10)
+// Numeric-only here; slug variants are redirected by astro.config.
+const surah =
+  !Number.isNaN(asNum) && String(asNum) === surahParam ? getSurahByNumber(asNum) : undefined
+if (!surah) return Astro.redirect('/404')
+
+// Parse single verse or range: "5" or "5-10"
+const rangeMatch = (ayahParam ?? '').match(/^(\d+)(?:-(\d+))?$/)
+if (!rangeMatch) return Astro.redirect('/404')
+
+const focusFrom = parseInt(rangeMatch[1], 10)
+const focusTo = rangeMatch[2] ? parseInt(rangeMatch[2], 10) : focusFrom
+
+if (
+  focusFrom < 1 ||
+  focusTo < focusFrom ||
+  focusFrom > surah.verses_count ||
+  focusTo > surah.verses_count
+) {
+  return Astro.redirect('/404')
+}
+
+const ayahs = getAyahsBySurah(surah.number)
+const prevSurah = surah.number > 1 ? getSurahByNumber(surah.number - 1) : null
+const nextSurah = surah.number < 114 ? getSurahByNumber(surah.number + 1) : null
+
+// Cross-refs only for a single-ayah focus (ranges too broad)
+const isSingleAyah = focusFrom === focusTo
+const ayahRefId = `${surah.number}:${focusFrom}`
+const [hadithRefs, tafsirRefs, madhabRulings] = isSingleAyah
+  ? await Promise.all([
+      getHadithCrossRefsForAyah(surah.number, focusFrom, 8),
+      getTafsirCrossRefsForAyah(surah.number, focusFrom, 5),
+      getMadhabRulings('ayah', ayahRefId),
+    ])
+  : [[], [], []]
+
+const ayahLabel = isSingleAyah
+  ? `${surah.number}:${focusFrom}`
+  : `${surah.number}:${focusFrom}–${focusTo}`
+
+const isRange = (ayahParam ?? '').includes('-')
+const label = isRange ? `Verses ${ayahParam}` : `Verse ${ayahParam}`
+const title = `${surahTitle(surah.name_transliteration, surah.name_en)} ${label} — Quran · Islam.wiki`
+const description = `Surah ${surahTitle(
+  surah.name_transliteration,
+  surah.name_en,
+)}, ${label}. Arabic text with English translation and tafsir.`
+---
+
+<Base title={title} description={description}>
+  <main id="main-content">
+    <div class="section-container py-12">
+      {/* Breadcrumb */}
+      <nav class="mb-6 text-sm text-iw-text-secondary">
+        <a href="/quran" class="hover:text-iw-text">Quran</a>
+        <span class="mx-2 text-iw-border">/</span>
+        <a href={`/quran/${surah.number}`} class="hover:text-iw-text">
+          Surat {surahTranslit(surah.name_transliteration)}
+        </a>
+        <span class="mx-2 text-iw-border">/</span>
+        <span class="inline-flex items-center gap-2 text-iw-text">
+          {focusFrom === focusTo ? `Verse ${focusFrom}` : `Verses ${focusFrom}–${focusTo}`}
+          {focusFrom === focusTo && (
+            <AyahBookmarkButton
+              surahNumber={surah.number}
+              ayahNumber={focusFrom}
+              surahNameEn={surah.name_en}
+              surahNameAr={surah.name_ar}
+              client:load
+            />
+          )}
+        </span>
+      </nav>
+
+      {/* Surah header — same as the surah page */}
+      <div class="mb-8 text-center">
+        <div class="mx-auto mb-5 flex max-w-2xl items-center justify-between px-2">
+          {prevSurah ? (
+            <a
+              href={`/quran/${prevSurah.number}`}
+              class="flex items-center gap-2 rounded-lg border border-iw-border px-3 py-1.5 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-iw-accent"
+            >
+              ← Surat {surahTranslit(prevSurah.name_transliteration)}
+            </a>
+          ) : <div />}
+          <p class="text-sm font-medium text-iw-accent">Surah {surah.number} of 114</p>
+          {nextSurah ? (
+            <a
+              href={`/quran/${nextSurah.number}`}
+              class="flex items-center gap-2 rounded-lg border border-iw-border px-3 py-1.5 text-sm font-medium text-iw-text-secondary transition-colors hover:border-iw-accent hover:text-iw-accent"
+            >
+              Surat {surahTranslit(nextSurah.name_transliteration)} →
+            </a>
+          ) : <div />}
+        </div>
+
+        <h1 class="text-3xl font-bold text-white">
+          {surahTitle(surah.name_transliteration, surah.name_en)}
+        </h1>
+
+        <div class="mt-4 flex justify-center">
+          <SurahIntroButton
+            surahNumber={surah.number}
+            surahName={surah.name_en}
+            surahNameAr={surah.name_ar}
+            surahTranslitName={surah.name_transliteration}
+            verseCount={surah.verses_count}
+            revelationType={surah.revelation_type}
+            juzStart={surah.juz_start}
+            pageStart={surah.page_start}
+            wordCount={surah.word_count}
+            description={surah.description_en}
+            client:load
+          />
+        </div>
+      </div>
+
+      {/* Verses + audio — focus on target verse(s) */}
+      <SurahViewer
+        surahNumber={surah.number}
+        surahName={surah.name_en}
+        surahNameAr={surah.name_ar}
+        totalAyahs={surah.verses_count}
+        ayahs={ayahs}
+        focusFrom={focusFrom}
+        focusTo={focusTo}
+        client:load
+      />
+
+      {/* Related Hadith cross-refs */}
+      {hadithRefs.length > 0 && (
+        <div class="mx-auto mt-10 max-w-3xl">
+          <RelatedHadithPanel refs={hadithRefs} ayahLabel={ayahLabel} client:load />
+        </div>
+      )}
+
+      {/* Tafsir cross-ref panel */}
+      {tafsirRefs.length > 0 && (
+        <div class="mx-auto mt-6 max-w-3xl">
+          <TafsirCrossRefPanel refs={tafsirRefs} ayahLabel={ayahLabel} client:load />
+        </div>
+      )}
+
+      {/* Madhab variance */}
+      {madhabRulings.length > 0 && (
+        <div class="mx-auto mt-6 max-w-3xl">
+          <MadhabVariancePanel rulings={madhabRulings} client:load />
+        </div>
+      )}
+
+      {/* Bottom navigation */}
+      <div class="mx-auto mt-12 flex max-w-3xl items-center justify-between border-t border-iw-border pt-6">
+        {prevSurah ? (
+          <a
+            href={`/quran/${prevSurah.number}`}
+            class="flex items-center gap-2 text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
+          >
+            <span>←</span>
+            <div>
+              <div class="text-xs text-iw-text-muted">Previous</div>
+              <div class="font-medium">Surat {surahTranslit(prevSurah.name_transliteration)}</div>
+            </div>
+          </a>
+        ) : <div />}
+        <a href="/quran" class="text-xs text-iw-text-muted transition-colors hover:text-iw-accent">
+          All Surahs
+        </a>
+        {nextSurah ? (
+          <a
+            href={`/quran/${nextSurah.number}`}
+            class="flex items-center gap-2 text-right text-sm text-iw-text-secondary transition-colors hover:text-iw-text"
+          >
+            <div>
+              <div class="text-xs text-iw-text-muted">Next</div>
+              <div class="font-medium">Surat {surahTranslit(nextSurah.name_transliteration)}</div>
+            </div>
+            <span>→</span>
+          </a>
+        ) : <div />}
+      </div>
+    </div>
+  </main>
+</Base>

@@ -1,0 +1,11 @@
+# TriggerTheologyCheck.graphql
+# PURPOSE: Trigger the async theology gate for a revision.
+#   Called after PublishRevision — backend runs LLM pre-screen per D-P5-14 Tier 1.
+#   Moderators CANNOT approve a revision with theology_check.status = 'failed'.
+# REF: p2-islamwiki-astro-vite-spec.md §8 · theology-standards.md
+
+mutation TriggerTheologyCheck($revision_id: uuid!) {
+  iw_trigger_theology_check(args: { revision_id: $revision_id }) {
+    check_id
+  }
+}

@@ -1,0 +1,22 @@
+# UpdateArticle.graphql
+# PURPOSE: Update article metadata (title, category, tags).
+# REF: p2-islamwiki-astro-vite-spec.md §6.3
+
+mutation UpdateArticle(
+  $article_id: uuid!
+  $title: String!
+  $category_id: uuid
+) {
+  update_iw_articles_by_pk(
+    pk_columns: { id: $article_id }
+    _set: {
+      title: $title
+      category_id: $category_id
+    }
+  ) {
+    id
+    title
+    slug
+    status
+  }
+}

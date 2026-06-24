@@ -1,0 +1,24 @@
+# CreateArticle.graphql
+# PURPOSE: Create a new article draft in the iw_ schema.
+# REF: p2-islamwiki-astro-vite-spec.md §6.3
+
+mutation CreateArticle(
+  $title: String!
+  $slug: String!
+  $language: String!
+  $category_id: uuid!
+) {
+  insert_iw_articles_one(
+    object: {
+      title: $title
+      slug: $slug
+      language: $language
+      category_id: $category_id
+      status: "draft"
+    }
+  ) {
+    id
+    slug
+    status
+  }
+}

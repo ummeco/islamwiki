@@ -1,0 +1,16 @@
+---
+/**
+ * signup/index.astro — registration entry point
+ *
+ * PURPOSE: Ports app/signup/page.tsx, which simply redirect()'d to the registration surface.
+ *   The unified auth card lives at /account (register tab), so /signup redirects there — matching
+ *   the Next behavior (it redirected to /auth/register, which itself aliases to /account).
+ *
+ * AUTH GUARD (server-side, preserved): src/middleware.ts redirects authenticated users away from
+ *   /signup to / before this page renders.
+ * REF: ports app/signup (auth-interactive migration group)
+ */
+export const prerender = false
+
+return Astro.redirect('/account', 302)
+---

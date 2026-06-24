@@ -1,0 +1,138 @@
+---
+/**
+ * FILE: pages/index.astro
+ * PURPOSE: Islam.wiki homepage — featured articles, category list, search.
+ *   Server-rendered on every request (prerender=false).
+ *   Fetches iw_categories and featured iw_articles from Hasura via @ummat/graphql-client.
+ * CONSTRAINTS:
+ *   - prerender = false (SSR only — never SSG).
+ *   - No auth required — public page.
+ * REF: P2-E3-W02-S02-T01 · p2-islamwiki-astro-vite-spec.md §3.2 surface map
+ */
+
+export const prerender = false;
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBar from '../components/SearchBar.tsx';
+import { createUrqlClient } from '@ummat/graphql-client';
+import type { IwArticleSummary, IwCategory } from '../types/article.ts';
+
+const graphqlUrl =
+  import.meta.env.PUBLIC_GRAPHQL_URL ?? 'https://api.ummat.dev/v1/graphql';
+
+const client = createUrqlClient({ url: graphqlUrl });
+
+// Fetch categories and recent published articles
+let categories: IwCategory[] = [];
+let recentArticles: IwArticleSummary[] = [];
+let fetchError: Error | null = null;
+
+try {
+  const [catResult, artResult] = await Promise.allSettled([
+    client.query(
+      `query ListCategories { iw_categories(order_by: { name: asc }) { id slug name parent_id } }`,
+      {}
+    ),
+    client.query(
+      `query RecentArticles { iw_articles(where: { status: { _eq: "published" } }, limit: 12, order_by: { created_at: desc }) { id slug title language created_at category { id slug name } } }`,
+      {}
+    ),
+  ]);
+
+  if (catResult.status === 'fulfilled' && !catResult.value.error) {
+    categories = (catResult.value.data as { iw_categories: IwCategory[] })?.iw_categories ?? [];
+  }
+  if (artResult.status === 'fulfilled' && !artResult.value.error) {
+    recentArticles =
+      (artResult.value.data as { iw_articles: IwArticleSummary[] })?.iw_articles ?? [];
+  }
+} catch (e) {
+  fetchError = e instanceof Error ? e : new Error(String(e));
+}
+---
+
+<BaseLayout
+  title="Islamic Knowledge Base"
+  description="Islam.wiki — the most comprehensive, accurate, and accessible Islamic reference. Free, scholar-verified, community-contributed, multilingual."
+>
+  <div class="min-h-screen">
+    <!-- Nav -->
+    <nav class="border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+      <span class="font-semibold text-brand-dark text-lg">Islam.wiki</span>
+      <div class="flex items-center gap-4">
+        <a href="/search" class="text-sm text-gray-600 hover:text-brand-dark">Search</a>
+        <a href="/edit/new" class="text-sm text-brand-mid hover:text-brand-dark">Contribute</a>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-brand-deep text-white px-4 py-16 text-center">
+      <h1 class="text-4xl font-bold mb-4">Islam.wiki</h1>
+      <p class="text-lg text-brand-light mb-8 max-w-xl mx-auto">
+        The authoritative Islamic knowledge base. Free, scholar-verified, community-contributed.
+      </p>
+      <SearchBar client:load placeholder="Search articles..." />
+    </section>
+
+    <main class="max-w-7xl mx-auto px-4 py-12">
+      {fetchError && (
+        <div class="bg-red-50 border border-red-200 rounded-lg p-4 mb-8 text-red-700">
+          Unable to load content. Please try again shortly.
+        </div>
+      )}
+
+      <!-- Categories -->
+      {categories.length > 0 && (
+        <section class="mb-12">
+          <h2 class="text-2xl font-semibold text-brand-dark mb-6">Browse by Topic</h2>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            {categories.map((cat) => (
+              <a
+                href={`/wiki/?category=${cat.slug}`}
+                class="block p-4 border border-gray-200 rounded-lg hover:border-brand-mid hover:bg-brand-light/10 transition-colors"
+              >
+                <span class="font-medium text-gray-800">{cat.name}</span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Recent articles -->
+      {recentArticles.length > 0 && (
+        <section>
+          <h2 class="text-2xl font-semibold text-brand-dark mb-6">Recent Articles</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {recentArticles.map((article) => (
+              <a
+                href={`${article.language === 'ar' ? '/ar' : ''}/wiki/${article.slug}`}
+                class="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"
+              >
+                {article.category && (
+                  <span class="text-xs font-medium text-brand-mid uppercase tracking-wide">
+                    {article.category.name}
+                  </span>
+                )}
+                <h3 class="mt-1 font-semibold text-gray-900 leading-snug">
+                  {article.title}
+                </h3>
+                {article.language === 'ar' && (
+                  <span class="mt-1 inline-block text-xs text-gray-500">عربي</span>
+                )}
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {!fetchError && categories.length === 0 && recentArticles.length === 0 && (
+        <div class="text-center py-16 text-gray-500">
+          <p class="text-lg">No articles published yet.</p>
+          <a href="/edit/new" class="mt-4 inline-block text-brand-mid hover:text-brand-dark">
+            Be the first to contribute →
+          </a>
+        </div>
+      )}
+    </main>
+  </div>
+</BaseLayout>

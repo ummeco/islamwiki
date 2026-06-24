@@ -1,0 +1,20 @@
+---
+/**
+ * preferences/index.astro — GDPR consent management
+ *
+ * PURPOSE: Shell wrapping the PreferencesForm island. Ports app/preferences/page.tsx.
+ *   The island is hydrated with client:only="react" because @ummat/consent reads browser-only
+ *   consent storage and must not SSR. No server auth required (no account model).
+ * REF: ports app/preferences (auth-interactive migration group)
+ */
+import Base from '../../layouts/Base.astro'
+import { PreferencesForm } from '../../components/preferences/PreferencesForm'
+
+export const prerender = false
+---
+
+<Base title="Privacy Preferences | Islam.wiki" description="Manage your privacy and cookie preferences for Islam.wiki.">
+  <main id="main-content">
+    <PreferencesForm client:only="react" />
+  </main>
+</Base>

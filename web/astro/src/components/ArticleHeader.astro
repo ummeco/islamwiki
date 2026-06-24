@@ -1,0 +1,49 @@
+---
+/**
+ * FILE: components/ArticleHeader.astro
+ * PURPOSE: Article title, category breadcrumb, and language badge.
+ * INPUTS: title (string), category (IwCategory|null), language ('en'|'ar')
+ * REF: P2-E3-W02-S02-T01 · spec §11.1
+ */
+
+import type { IwCategory } from '../types/article.ts';
+
+interface Props {
+  title: string;
+  category?: IwCategory | null;
+  language: 'en' | 'ar';
+}
+
+const { title, category, language } = Astro.props;
+---
+
+<header class="mb-6">
+  <!-- Breadcrumb -->
+  <nav aria-label="Breadcrumb" class="text-sm text-gray-500 mb-3">
+    <ol class="flex items-center gap-2">
+      <li><a href="/" class="hover:text-brand-mid">Home</a></li>
+      {category && (
+        <>
+          <li aria-hidden="true">/</li>
+          <li>
+            <a href={`/wiki/?category=${category.slug}`} class="hover:text-brand-mid">
+              {category.name}
+            </a>
+          </li>
+        </>
+      )}
+      <li aria-hidden="true">/</li>
+      <li class="text-gray-700 truncate max-w-xs">{title}</li>
+    </ol>
+  </nav>
+
+  <!-- Title -->
+  <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{title}</h1>
+
+  <!-- Language badge -->
+  {language === 'ar' && (
+    <span class="mt-2 inline-block px-2 py-0.5 bg-brand-light/30 text-brand-dark text-xs rounded font-arabic">
+      عربي
+    </span>
+  )}
+</header>

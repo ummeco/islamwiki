@@ -1,0 +1,414 @@
+---
+/**
+ * hadith/[collection]/[book]/[number].astro — Single hadith detail page (SSG)
+ *
+ * PURPOSE: Ports app/hadith/[collection]/[book]/[number]/page.tsx. Renders one hadith
+ *          with Arabic/English text, grading, isnad chain, topics, quran refs, cross-refs,
+ *          sharh (commentary), madhab variance, and copy/share actions.
+ *          generateStaticParams (implicit via numbers) → getStaticPaths.
+ * STACK NOTE: Next page used ISR (revalidate=604800) to avoid building ~70k pages at once.
+ *          Per D-P2-STACK-CANON migration brief this becomes prerender=true (static).
+ * CONSTRAINTS:
+ *   - No next/* imports.
+ *   - Hadith text rendered as plain JSX/Astro expressions (auto-escaped) — no raw HTML,
+ *     so no sanitize call site is required here (parity with the Next page).
+ *   - getMadhabRulings uses the server-only Hasura admin secret; it runs in frontmatter
+ *     (server-side) only — never shipped to a client island.
+ *   - Interactive bits (IsnadChain toggle, HadithActions copy/share) are islands (client:load);
+ *     MadhabVariancePanel is a pure display component rendered server-side.
+ * REF: ports app/hadith/[collection]/[book]/[number]/page.tsx · D-P2-STACK-CANON
+ */
+export const prerender = true
+
+import Base from '../../../../layouts/Base.astro'
+import {
+  getCollections,
+  getCollectionBySlug,
+  getBookBySlug,
+  getHadithByNumber,
+  getBooksByCollection,
+  getHadithsByBook,
+  getSharhForHadith,
+  getSharhSources,
+  getHadithRefByIwId,
+} from '@/lib/data/hadith'
+import { getHreflangAlternates } from '@/components/seo/hreflang'
+import { getMadhabRulings } from '@/lib/fiqh/madhab-rulings'
+import { MadhabVariancePanel } from '@/components/fiqh/MadhabVariancePanel'
+import { IsnadChain } from '../../../../components/hadith/IsnadChainIsland'
+import { HadithActions } from '../../../../components/hadith/HadithActionsIsland'
+
+export function getStaticPaths() {
+  const collections = getCollections()
+  const paths: Array<{ params: { collection: string; book: string; number: string } }> = []
+  for (const col of collections) {
+    const books = getBooksByCollection(col.id)
+    for (const book of books) {
+      for (const h of getHadithsByBook(book.id)) {
+        paths.push({ params: { collection: col.slug, book: book.slug, number: String(h.n) } })
+      }
+    }
+  }
+  return paths
+}
+
+function gradeColor(grade: string | undefined): string {
+  if (!grade) return 'bg-gray-500/20 text-gray-300'
+  const g = grade.toLowerCase()
+  if (g.includes('sahih')) return 'bg-green-500/20 text-green-300'
+  if (g.includes('hasan')) return 'bg-yellow-500/20 text-yellow-300'
+  if (g.includes('daif') || g.includes("da'if")) return 'bg-red-500/20 text-red-300'
+  return 'bg-gray-500/20 text-gray-300'
+}
+
+function gradeDescription(grade: string | undefined): string {
+  if (!grade) return 'Grade: Ungraded'
+  const g = grade.toLowerCase()
+  if (g.includes('sahih')) return 'Grade: Sahih — authentic hadith'
+  if (g.includes('hasan sahih')) return 'Grade: Hasan Sahih — good and authentic'
+  if (g.includes('hasan')) return 'Grade: Hasan — good hadith'
+  if (g.includes('daif') || g.includes("da'if")) return "Grade: Daʿif — weak hadith"
+  return `Grade: ${grade}`
+}
+
+const { collection: colSlug, book: bookSlug, number } = Astro.params
+const col = getCollectionBySlug(colSlug!)
+if (!col) return Astro.redirect('/404')
+const book = getBookBySlug(col.id, bookSlug!)
+if (!book) return Astro.redirect('/404')
+
+const num = parseInt(number!, 10)
+const hadith = getHadithByNumber(book.id, num)
+if (!hadith) return Astro.redirect('/404')
+
+// Navigation: find actual prev/next from the loaded data
+const allHadiths = getHadithsByBook(book.id)
+const currentIdx = allHadiths.findIndex((h) => h.n === num)
+const prevHadith = currentIdx > 0 ? allHadiths[currentIdx - 1] : null
+const nextHadith = currentIdx < allHadiths.length - 1 ? allHadiths[currentIdx + 1] : null
+
+// Sharh (commentary) data
+const sharhEntries = getSharhForHadith(col.slug, book.number, num)
+const sharhSources = sharhEntries.length > 0 ? getSharhSources() : []
+
+// Madhab variance rulings (keyed by iw_id when available, else collection:book:number).
+// Server-only: getMadhabRulings uses the Hasura admin secret — runs in frontmatter only.
+const madhabRefId = hadith.iw_id ?? `${colSlug}:${bookSlug}:${num}`
+const madhabRulings = await getMadhabRulings('hadith', madhabRefId)
+
+const booksInCollection = getBooksByCollection(col.id)
+const currentBookIdx = booksInCollection.findIndex((b) => b.id === book.id)
+const prevBook = currentBookIdx > 0 ? booksInCollection[currentBookIdx - 1] : null
+const nextBook = currentBookIdx < booksInCollection.length - 1 ? booksInCollection[currentBookIdx + 1] : null
+
+// Cross-reference resolution (Also Narrated In / Similar Narrations)
+const duplicateRefs = (hadith.duplicates ?? [])
+  .map((iwId) => ({ iwId, ref: getHadithRefByIwId(iwId) }))
+  .filter((x) => x.ref !== null)
+const variantRefs = (hadith.variants ?? [])
+  .map((iwId) => ({ iwId, ref: getHadithRefByIwId(iwId) }))
+  .filter((x) => x.ref !== null)
+
+const title = `Hadith #${number} — ${book.name_en} — ${col.name_en}`
+const desc = hadith.text_en ? hadith.text_en.slice(0, 160) : `${col.name_en}, ${book.name_en}, Hadith ${number}`
+const ogImage = `/api/og/hadith?collection=${colSlug}&book=${bookSlug}&cn=${number}`
+const alternates = getHreflangAlternates(`/hadith/${colSlug}/${bookSlug}/${number}`)
+---
+
+<Base title={title} description={desc} ogImage={ogImage}>
+  {Object.entries(alternates).map(([lang, href]) => (
+    <link slot="head" rel="alternate" hreflang={lang} href={href} />
+  ))}
+  <main id="main-content">
+    <div class="section-container py-12">
+      <nav class="mb-4 text-sm text-iw-text-secondary">
+        <a href="/hadith" class="hover:text-iw-text">Hadith</a>
+        <span class="mx-2">/</span>
+        <a href={`/hadith/${colSlug}`} class="hover:text-iw-text">{col.name_en}</a>
+        <span class="mx-2">/</span>
+        <a href={`/hadith/${colSlug}/${bookSlug}`} class="hover:text-iw-text">{book.name_en}</a>
+        <span class="mx-2">/</span>
+        <span class="text-iw-text">#{number}</span>
+      </nav>
+
+      {/* Top navigation */}
+      <div class="mb-6 flex items-center justify-between">
+        {prevHadith ? (
+          <a
+            href={`/hadith/${colSlug}/${bookSlug}/${prevHadith.n}`}
+            class="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent"
+          >
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            Hadith #{prevHadith.n}
+          </a>
+        ) : prevBook ? (
+          <a href={`/hadith/${colSlug}/${prevBook.slug}`} class="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            {prevBook.name_en}
+          </a>
+        ) : <div />}
+        <span class="text-xs text-iw-text-muted">{currentIdx + 1} of {allHadiths.length}</span>
+        {nextHadith ? (
+          <a
+            href={`/hadith/${colSlug}/${bookSlug}/${nextHadith.n}`}
+            class="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent"
+          >
+            Hadith #{nextHadith.n}
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        ) : nextBook ? (
+          <a href={`/hadith/${colSlug}/${nextBook.slug}`} class="flex items-center gap-1.5 text-sm text-iw-text-secondary hover:text-iw-accent">
+            {nextBook.name_en}
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        ) : <div />}
+      </div>
+
+      <div class="mx-auto max-w-3xl">
+        {/* Header */}
+        <div class="mb-6 flex items-center justify-between">
+          <h1 class="text-2xl font-bold text-white">Hadith #{hadith.n}</h1>
+          <div class="flex items-center gap-2">
+            {hadith.muttafaq_alayhi && (
+              <span
+                class="rounded-full bg-yellow-500/20 px-3 py-1 text-xs font-medium text-yellow-300"
+                title="Muttafaq 'Alayhi — agreed upon by both Bukhari and Muslim"
+              >
+                Muttafaq &#x2018;Alayhi
+              </span>
+            )}
+            <span
+              class={`rounded-full px-3 py-1 text-xs font-medium ${gradeColor(hadith.grade)}`}
+              title={gradeDescription(hadith.grade)}
+              aria-label={gradeDescription(hadith.grade)}
+            >
+              {hadith.grade_display || hadith.grade || 'Ungraded'}
+            </span>
+          </div>
+        </div>
+
+        {/* Chapter */}
+        {hadith.chapter_en && (
+          <div class="mb-4 rounded-lg border border-iw-border/50 bg-iw-bg/50 px-4 py-2">
+            <p class="text-sm text-iw-text-secondary">
+              <span class="font-medium text-iw-accent">Chapter:</span> {hadith.chapter_en}
+            </p>
+            {hadith.chapter_ar && (
+              <p class="arabic-text mt-0.5 text-sm text-white/60" lang="ar" dir="rtl">{hadith.chapter_ar}</p>
+            )}
+          </div>
+        )}
+
+        {/* Arabic text — with isnad/matn separation if available */}
+        {hadith.ar && (
+          <div class="mb-6 rounded-xl border border-iw-border bg-iw-surface p-6">
+            <h2 class="mb-3 text-sm font-medium text-iw-accent">Arabic Text</h2>
+            {hadith.isnad_ar && hadith.matn_ar ? (
+              <div class="space-y-3">
+                <div>
+                  <span class="mb-1 block text-xs font-medium text-iw-text-muted">Chain of Narration (Isnad)</span>
+                  <p class="quran-text text-base leading-loose text-white/70" lang="ar" dir="rtl">{hadith.isnad_ar}</p>
+                </div>
+                <div class="border-t border-iw-border/50 pt-3">
+                  <span class="mb-1 block text-xs font-medium text-iw-text-muted">Body (Matn)</span>
+                  <p class="quran-text text-lg leading-loose text-white" lang="ar" dir="rtl">{hadith.matn_ar}</p>
+                </div>
+              </div>
+            ) : (
+              <p class="quran-text text-lg leading-loose text-white" lang="ar" dir="rtl">{hadith.ar}</p>
+            )}
+          </div>
+        )}
+
+        {/* Isnad chain visualization */}
+        {hadith.isnad_chain && hadith.isnad_chain.length > 0 && (
+          <div class="mb-6">
+            <IsnadChain chain={hadith.isnad_chain} chainTextAr={hadith.isnad_ar} client:load />
+          </div>
+        )}
+
+        {/* English translation */}
+        {hadith.text_en && (
+          <div class="mb-6 rounded-xl border border-iw-border bg-iw-surface p-6">
+            <h2 class="mb-3 text-sm font-medium text-iw-accent">English Translation</h2>
+            <p class="leading-relaxed text-iw-text">{hadith.text_en}</p>
+          </div>
+        )}
+
+        {/* Grade details */}
+        {hadith.grades && hadith.grades.length > 0 && (
+          <div class="mb-6 rounded-xl border border-iw-border bg-iw-surface p-6">
+            <h2 class="mb-3 text-sm font-medium text-iw-accent">Grading</h2>
+            <div class="space-y-2">
+              {hadith.grades.map((g) => (
+                <div class="flex items-center justify-between text-sm">
+                  <span class="text-iw-text-secondary">{g.graded_by}</span>
+                  <span class={`rounded-full px-2 py-0.5 text-xs font-medium ${gradeColor(g.grade)}`}>
+                    {g.grade}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Topics */}
+        {hadith.topics && hadith.topics.length > 0 && (
+          <div class="mb-6">
+            <h2 class="mb-2 text-sm font-medium text-iw-accent">Topics</h2>
+            <div class="flex flex-wrap gap-2">
+              {hadith.topics.map((topic) => (
+                <a
+                  href={`/search?q=${encodeURIComponent(topic)}`}
+                  class="rounded-full bg-iw-accent/10 px-3 py-1 text-xs text-iw-accent transition-colors hover:bg-iw-accent/20"
+                >
+                  {topic}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Quran References */}
+        {hadith.quran_refs && hadith.quran_refs.length > 0 && (
+          <div class="mb-6">
+            <h2 class="mb-2 text-sm font-medium text-iw-accent">Quran References</h2>
+            <div class="flex flex-wrap gap-2">
+              {hadith.quran_refs.map((ref) => {
+                const [surah, ayah] = ref.split(':')
+                return (
+                  <a
+                    href={`/quran/${surah}${ayah ? `/${ayah}` : ''}`}
+                    class="rounded-full bg-iw-accent/10 px-3 py-1 text-xs text-iw-accent hover:bg-iw-accent/20"
+                  >
+                    {ref}
+                  </a>
+                )
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Also Narrated In (duplicates) */}
+        {duplicateRefs.length > 0 && (
+          <div class="mb-6 rounded-xl border border-iw-border bg-iw-surface/50 p-4">
+            <h2 class="mb-3 text-sm font-medium text-iw-accent">Also Narrated In</h2>
+            <div class="space-y-2">
+              {duplicateRefs.map(({ ref }) => (
+                <a
+                  href={`/hadith/${ref!.collectionSlug}/${ref!.bookSlug}/${ref!.n}`}
+                  class="flex items-center gap-2 text-sm text-iw-text-secondary hover:text-iw-accent"
+                >
+                  <svg class="h-3.5 w-3.5 shrink-0 text-iw-accent/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                  </svg>
+                  {ref!.collectionName} — Hadith #{ref!.n}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Similar Narrations (variants) */}
+        {variantRefs.length > 0 && (
+          <div class="mb-6 rounded-xl border border-iw-border bg-iw-surface/50 p-4">
+            <h2 class="mb-3 text-sm font-medium text-iw-accent">Similar Narrations</h2>
+            <p class="mb-3 text-xs text-iw-text-muted">Hadiths with similar wording or meaning, narrated in other collections.</p>
+            <div class="space-y-2">
+              {variantRefs.map(({ ref }) => (
+                <a
+                  href={`/hadith/${ref!.collectionSlug}/${ref!.bookSlug}/${ref!.n}`}
+                  class="flex items-center gap-2 text-sm text-iw-text-secondary hover:text-iw-accent"
+                >
+                  <svg class="h-3.5 w-3.5 shrink-0 text-iw-accent/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                  </svg>
+                  {ref!.collectionName} — Hadith #{ref!.n}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Sharh (Commentary) */}
+        {sharhEntries.length > 0 && (
+          <div class="mb-6">
+            <h3 class="mb-3 text-sm font-semibold text-white">Commentary (Sharh)</h3>
+            <div class="space-y-4">
+              {sharhEntries.map((entry) => {
+                const source = sharhSources.find((s) => s.id === entry.source_id)
+                return (
+                  <div class="rounded-xl border border-iw-border bg-iw-surface/50 p-4">
+                    {source && (
+                      <p class="mb-2 text-xs font-medium text-iw-accent">
+                        {source.name_en} — {source.author}
+                      </p>
+                    )}
+                    <p class="text-sm leading-relaxed text-iw-text-secondary">{entry.text_en}</p>
+                  </div>
+                )
+              })}
+            </div>
+          </div>
+        )}
+
+        {/* Madhab variance (pure display component, server-rendered) */}
+        <MadhabVariancePanel rulings={madhabRulings} />
+
+        {/* Reference block */}
+        <div class="rounded-xl border border-iw-border bg-iw-surface/50 p-4 text-xs text-iw-text-secondary">
+          <p>
+            <span class="font-medium text-iw-text">Reference:</span>{' '}
+            {col.name_en}, {book.name_en}, Hadith {hadith.n}
+          </p>
+          {hadith.ref && (
+            <p class="mt-1">
+              <span class="font-medium text-iw-text">Sunnah.com ref:</span> {hadith.ref}
+            </p>
+          )}
+          {hadith.iw_id && (
+            <p class="mt-1">
+              <span class="font-medium text-iw-text">Islam.wiki ID:</span> {hadith.iw_id}
+            </p>
+          )}
+        </div>
+
+        {/* Copy/Share */}
+        <HadithActions
+          textEn={hadith.text_en ?? ''}
+          textAr={hadith.ar}
+          reference={`${col.name_en} ${hadith.n}`}
+          shareUrl={`https://islam.wiki/hadith/${colSlug}/${bookSlug}/${num}`}
+          client:load
+        />
+
+        {/* Bottom navigation */}
+        <div class="mt-8 flex items-center justify-between border-t border-iw-border pt-6">
+          {prevHadith ? (
+            <a href={`/hadith/${colSlug}/${bookSlug}/${prevHadith.n}`} class="group flex flex-col items-start">
+              <span class="text-xs text-iw-text-muted">Previous</span>
+              <span class="text-sm text-iw-text-secondary group-hover:text-iw-accent">Hadith #{prevHadith.n}</span>
+            </a>
+          ) : <div />}
+          <a href={`/hadith/${colSlug}/${bookSlug}`} class="text-xs text-iw-text-muted hover:text-iw-accent">
+            Back to {book.name_en}
+          </a>
+          {nextHadith ? (
+            <a href={`/hadith/${colSlug}/${bookSlug}/${nextHadith.n}`} class="group flex flex-col items-end">
+              <span class="text-xs text-iw-text-muted">Next</span>
+              <span class="text-sm text-iw-text-secondary group-hover:text-iw-accent">Hadith #{nextHadith.n}</span>
+            </a>
+          ) : <div />}
+        </div>
+      </div>
+    </div>
+  </main>
+</Base>

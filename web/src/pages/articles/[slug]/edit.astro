@@ -1,0 +1,75 @@
+---
+/**
+ * articles/[slug]/edit.astro — authenticated article editor
+ *
+ * PURPOSE: Ports app/articles/[slug]/edit/page.tsx. Server-resolves the article, enforces auth,
+ *   then renders the ArticleEditForm island (edit / preview / diff + submit to /api/revisions).
+ *
+ * CONVERSION (Next to Astro):
+ *   - generateStaticParams becomes getStaticPaths over getArticles(). NOTE: this route is SSR
+ *     (prerender=false) because it is auth-gated; the param list is still derived from
+ *     getArticles() for parity, but the page renders per-request so the auth guard runs.
+ *   - getSessionUser() redirect: src/middleware.ts already redirects unauthenticated visitors
+ *     on any edit path to /account, re-checked here via Astro.locals.userId for
+ *     defense-in-depth. notFound() becomes a 404 Response.
+ * SECURITY: the submit API (/api/revisions) re-verifies the session and applies IP-block,
+ *   rate-limit, trust, ban, daily-cap gates server-side. No secret reaches the island.
+ * REF: ports the article edit page (auth-interactive migration group)
+ */
+import Base from '../../../layouts/Base.astro'
+import { getArticleBySlug, getArticles, type ArticleData } from '../../../../lib/data/articles'
+import { ContentTabs } from '../../../components/wiki/ContentTabs'
+import { ArticleEditForm } from '../../../components/wiki/ArticleEditForm'
+
+export const prerender = false
+
+export function getStaticPaths() {
+  return getArticles().map((a: ArticleData) => ({ params: { slug: a.slug } }))
+}
+
+const { slug } = Astro.params
+const article = getArticleBySlug(slug!)
+if (!article) {
+  return new Response(null, { status: 404 })
+}
+
+// Defense-in-depth: middleware redirects unauthenticated visitors on '*/edit' to /account.
+if (!Astro.locals.userId) {
+  return Astro.redirect(`/account?redirect=/articles/${slug}/edit`, 302)
+}
+---
+
+<Base title={`Edit: ${article.title} | Islam.wiki`} description={`Edit the article "${article.title}" on Islam.wiki.`}>
+  <div class="section-container py-12">
+    <nav class="mb-4 flex items-center gap-1.5 text-sm text-iw-text-secondary">
+      <a href="/articles" class="hover:text-white">Articles</a>
+      <span class="text-iw-text-muted">/</span>
+      <a href={`/articles/${slug}`} class="hover:text-white">{article.title}</a>
+      <span class="text-iw-text-muted">/</span>
+      <span class="text-iw-text">Edit</span>
+    </nav>
+
+    <ContentTabs basePath={`/articles/${slug}`} activeTab="edit" canEdit />
+
+    <div class="max-w-3xl">
+      <h1 class="mb-6 text-2xl font-bold text-white">Editing: {article.title}</h1>
+
+      <div class="mb-4 rounded-lg border border-iw-border/50 bg-iw-bg/40 px-4 py-3 text-xs text-iw-text-secondary">
+        <p>
+          You are editing this article. Use{' '}
+          <a href="https://www.markdownguide.org/basic-syntax/" class="text-iw-accent hover:text-white" target="_blank" rel="noopener noreferrer">
+            Markdown syntax
+          </a>{' '}
+          for formatting. Please provide an edit summary describing your changes.
+        </p>
+      </div>
+
+      <ArticleEditForm
+        contentSlug={slug!}
+        contentTitle={article.title}
+        currentContent={article.content || ''}
+        client:load
+      />
+    </div>
+  </div>
+</Base>

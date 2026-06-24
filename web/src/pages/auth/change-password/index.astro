@@ -1,0 +1,23 @@
+---
+/**
+ * auth/change-password/index.astro — set new password (post reset-link)
+ *
+ * PURPOSE: Shell wrapping the ChangePasswordForm island. Ports app/auth/change-password/page.tsx.
+ *
+ * AUTH GUARD (server-side, preserved): src/middleware.ts allows /auth/change-password even when
+ *   logged in (it is the only /auth/* page not redirected for authenticated users). The island
+ *   POSTs to /api/auth/change-password, which itself requires a valid iw_at cookie (401 → /account)
+ *   — so an unauthenticated visitor cannot change a password. No token reaches the client.
+ * REF: ports app/auth/change-password (auth-interactive migration group)
+ */
+import Base from '../../../layouts/Base.astro'
+import { ChangePasswordForm } from '../../../components/auth/ChangePasswordForm'
+
+export const prerender = false
+---
+
+<Base title="Set New Password | Islam.wiki" description="Choose a new password for your Islam.wiki account.">
+  <main id="main-content">
+    <ChangePasswordForm client:load />
+  </main>
+</Base>

@@ -1,0 +1,38 @@
+---
+/**
+ * seerah/index.astro — Seerah index (static SSG). Ports app/seerah/page.tsx.
+ *
+ * CONVERSION NOTES:
+ *   - getSeerahEvents imported VERBATIM from lib/data/seerah (framework-independent).
+ *   - The Next page is a single <SeerahExplorer> client component (next/dynamic Leaflet
+ *     map + next/link). It is replaced by SeerahExplorerIsland (client:load) — same logic,
+ *     next/dynamic → React.lazy gated behind a browser-only mount, next/link → <a>.
+ *   - Full-viewport-below-header wrapper (h-[calc(100vh-5rem)]) preserved exactly.
+ * REF: ports app/seerah/page.tsx · people-history group
+ */
+import Base from '../../layouts/Base.astro'
+import { getSeerahEvents } from '../../../lib/data/seerah'
+import { getHreflangAlternates } from '../../../components/seo/hreflang'
+import { SeerahExplorer } from '../../components/seerah/SeerahExplorerIsland'
+
+const events = getSeerahEvents()
+
+const title = 'Seerah — Life of Prophet Muhammad ﷺ'
+const description =
+  'An interactive journey through the life of Prophet Muhammad ﷺ. Explore 200+ chronological events with geographic routes, battle maps, and the Hijrah — from birth in Mecca to the establishment of the Islamic state in Medina.'
+const alternates = getHreflangAlternates('/seerah')
+---
+
+<Base title={title} description={description}>
+  <Fragment slot="head">
+    {Object.entries(alternates).map(([loc, href]) => (
+      <link rel="alternate" hreflang={loc} href={href} />
+    ))}
+  </Fragment>
+
+  <main id="main-content">
+    <div class="h-[calc(100vh-5rem)] overflow-hidden">
+      <SeerahExplorer events={events} client:load />
+    </div>
+  </main>
+</Base>

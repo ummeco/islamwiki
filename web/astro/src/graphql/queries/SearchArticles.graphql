@@ -1,0 +1,30 @@
+# SearchArticles.graphql
+# PURPOSE: Search published articles by title or content for Astro SSR search page.
+# REF: p2-islamwiki-astro-vite-spec.md §6.2
+
+query SearchArticles($query: String!, $locale: String) {
+  iw_articles(
+    where: {
+      status: { _eq: "published" }
+      language: { _eq: $locale }
+      _or: [
+        { title: { _ilike: $query } }
+        { published_revision: { content_md: { _ilike: $query } } }
+      ]
+    }
+    limit: 20
+    order_by: { created_at: desc }
+  ) {
+    id
+    slug
+    title
+    language
+    category {
+      slug
+      name
+    }
+    published_revision {
+      content_md
+    }
+  }
+}

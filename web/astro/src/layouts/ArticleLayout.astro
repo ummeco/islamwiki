@@ -1,0 +1,103 @@
+---
+/**
+ * FILE: layouts/ArticleLayout.astro
+ * PURPOSE: Article page shell: BaseLayout + nav + TOC + content area + footer.
+ *   Wraps article content with RTL support, citation list, revision meta.
+ * INPUTS: article (IwArticle), lang
+ * OUTPUTS: Full HTML article page
+ * CONSTRAINTS:
+ *   - Must set Cache-Control: public, s-maxage=300 on response (§5.2 spec).
+ *   - prerender = false enforced (never SSG).
+ * REF: P2-E3-W02-S02-T01 · p2-islamwiki-astro-vite-spec.md §11.1
+ */
+
+import BaseLayout from './BaseLayout.astro';
+import ArticleHeader from '../components/ArticleHeader.astro';
+import ArticleToc from '../components/ArticleToc.astro';
+import ArticleFooter from '../components/ArticleFooter.astro';
+import RevisionMeta from '../components/RevisionMeta.astro';
+import CitationList from '../components/CitationList.astro';
+import type { IwArticle } from '../types/article.ts';
+import { getHtmlDir } from '@ummat/i18n/direction';
+import { toHijri } from '@ummat/shared/hijri';
+
+interface Props {
+  article: IwArticle;
+}
+
+const { article } = Astro.props;
+const lang = (article.language ?? 'en') as 'en' | 'ar';
+const dir = getHtmlDir(lang);
+
+// §5.2: SSR cache header — allow CDN cache with stale-while-revalidate
+Astro.response.headers.set(
+  'Cache-Control',
+  'public, s-maxage=300, stale-while-revalidate=60'
+);
+
+// Hijri date for the revision
+const publishedAt = article.published_revision?.created_at
+  ? new Date(article.published_revision.created_at)
+  : null;
+const hijriDate = publishedAt ? toHijri(publishedAt) : null;
+---
+
+<BaseLayout
+  title={article.title}
+  description={article.published_revision?.content_md?.slice(0, 160)}
+  lang={lang}
+  canonical={`https://islam.wiki/${lang === 'ar' ? 'ar/' : ''}wiki/${article.slug}`}
+>
+  <div class="min-h-screen flex flex-col">
+    <!-- Nav placeholder — TODO: extract to shared Nav component -->
+    <nav class="border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+      <a href="/" class="font-semibold text-brand-dark text-lg">Islam.wiki</a>
+      <div class="flex items-center gap-4">
+        <a href="/search" class="text-sm text-gray-600 hover:text-brand-dark">Search</a>
+        <a href={`/edit/${article.slug}`} class="text-sm text-brand-mid hover:text-brand-dark">
+          Edit this article
+        </a>
+      </div>
+    </nav>
+
+    <div class="flex flex-1 max-w-7xl mx-auto w-full px-4 py-8 gap-8" dir={dir}>
+      <!-- Main content -->
+      <main class="flex-1 min-w-0">
+        <ArticleHeader
+          title={article.title}
+          category={article.category}
+          language={lang}
+        />
+
+        {article.published_revision && (
+          <RevisionMeta
+            author={article.published_revision.author?.display_name ?? 'Community'}
+            updatedAt={article.published_revision.created_at}
+            hijriDate={hijriDate}
+          />
+        )}
+
+        <article
+          class="article-content mt-6"
+          dir={dir}
+          set:html={article.published_revision?.content_html ?? ''}
+        />
+
+        {article.citations && article.citations.length > 0 && (
+          <CitationList citations={article.citations} />
+        )}
+      </main>
+
+      <!-- Sidebar TOC -->
+      <aside class="hidden lg:block w-64 shrink-0">
+        <div class="sticky top-8">
+          <ArticleToc headings={[]} />
+        </div>
+      </aside>
+    </div>
+
+    <footer class="border-t border-gray-200 px-4 py-6 text-center text-sm text-gray-500">
+      <ArticleFooter />
+    </footer>
+  </div>
+</BaseLayout>

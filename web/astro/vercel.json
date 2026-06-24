@@ -1,0 +1,57 @@
+{
+  "rewrites": [
+    {
+      "source": "/edit/:path*",
+      "destination": "https://editor.islam.wiki/edit/:path*"
+    },
+    {
+      "source": "/review/:path*",
+      "destination": "https://editor.islam.wiki/review/:path*"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "https://editor.islam.wiki/admin/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/wiki/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=300, stale-while-revalidate=60"
+        }
+      ]
+    },
+    {
+      "source": "/ar/wiki/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=300, stale-while-revalidate=60"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ]
+}

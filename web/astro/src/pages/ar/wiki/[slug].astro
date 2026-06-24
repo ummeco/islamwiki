@@ -1,0 +1,57 @@
+---
+/**
+ * FILE: pages/ar/wiki/[slug].astro
+ * PURPOSE: Arabic article read page — SSR per request, dir="rtl".
+ *   Serves Arabic (language=ar) articles only. Returns 404 for missing/unpublished.
+ * CONSTRAINTS:
+ *   - prerender = false (SSR only).
+ *   - Cache-Control: public, s-maxage=300 set by ArticleLayout.
+ *   - RTL direction set by ArticleLayout (delegates to @ummat/i18n/direction).
+ *   - Hijri dates via @ummat/shared/hijri.
+ * REF: P2-E3-W02-S02-T01 · spec §9
+ */
+
+export const prerender = false;
+
+import { createUrqlClient } from '@ummat/graphql-client';
+import ArticleLayout from '../../../layouts/ArticleLayout.astro';
+import type { IwArticle } from '../../../types/article.ts';
+
+const { slug } = Astro.params;
+
+if (!slug) {
+  return Astro.redirect('/404');
+}
+
+const graphqlUrl =
+  import.meta.env.PUBLIC_GRAPHQL_URL ?? 'https://api.ummat.dev/v1/graphql';
+
+const client = createUrqlClient({ url: graphqlUrl });
+
+const QUERY = `
+  query GetArabicArticle($slug: String!) {
+    iw_articles(where: { slug: { _eq: $slug }, status: { _eq: "published" }, language: { _eq: "ar" } }) {
+      id slug title language status created_at
+      published_revision {
+        id content_html content_md created_at
+        author { id display_name }
+      }
+      category { id slug name }
+      tags { tag { id slug name } }
+      citations { id source_type source_url source_title verified_at }
+    }
+  }
+`;
+
+const result = await client.query(QUERY, { slug });
+
+const articles = (result.data as { iw_articles: IwArticle[] } | null)?.iw_articles;
+
+if (result.error || !articles || articles.length === 0) {
+  return new Response(null, { status: 404 });
+}
+
+const article = articles[0]!;
+---
+
+<ArticleLayout article={article} />

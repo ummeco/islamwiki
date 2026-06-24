@@ -1,0 +1,79 @@
+---
+/**
+ * people/index.astro — People index (static, SSR). Ports app/people/page.tsx.
+ *
+ * CONVERSION NOTES:
+ *   - getEras / getPeople imported VERBATIM from lib/data/people (framework-independent).
+ *   - The Next <PeopleTimeline> and <PeopleGrid> were 'use client' components importing
+ *     next/link; replaced by the equivalent Astro islands (PeopleTimelineIsland /
+ *     PeopleGridIsland, client:load) which serialize the same data and use plain <a>.
+ *   - hreflang alternates (getHreflangAlternates, reused verbatim) are emitted into <head>
+ *     via Base's named `head` slot (Base owns the document <head>).
+ * REF: ports app/people/page.tsx · people-history group
+ */
+import Base from '../../layouts/Base.astro'
+import { getPeople, getEras } from '../../../lib/data/people'
+import { getHreflangAlternates } from '../../../components/seo/hreflang'
+import { PeopleTimeline as PeopleTimelineIsland } from '../../components/people/PeopleTimelineIsland'
+import PeopleGridIsland from '../../components/people/PeopleGridIsland'
+
+const eras = getEras()
+const people = getPeople()
+
+// Serialize to the island prop shapes (only the fields each island reads).
+const timelinePeople = people.map((p) => ({
+  id: p.id,
+  slug: p.slug,
+  name_en: p.name_en,
+  name_ar: p.name_ar,
+  birth_year_ce: p.birth_year_ce,
+  death_year_ce: p.death_year_ce,
+  era: p.era,
+  category: p.category,
+}))
+
+const gridPeople = people.map((p) => ({
+  id: p.id,
+  slug: p.slug,
+  name_en: p.name_en,
+  name_ar: p.name_ar,
+  birth_year_ah: p.birth_year_ah,
+  birth_year_ce: p.birth_year_ce,
+  death_year_ah: p.death_year_ah,
+  death_year_ce: p.death_year_ce,
+  era: p.era,
+  category: p.category,
+  bio_short_en: p.bio_short_en,
+}))
+
+const title = 'People — Islamic Scholars & Historical Figures'
+const description =
+  'Biographies of Islamic scholars, companions of the Prophet, hadith narrators, jurists, and historical figures. Interactive timeline with teacher-student and family relationships.'
+const alternates = getHreflangAlternates('/people')
+---
+
+<Base title={title} description={description}>
+  {Object.entries(alternates).map(([locale, href]) => (
+    <link slot="head" rel="alternate" hreflang={locale} href={href} />
+  ))}
+  <main id="main-content">
+    <div class="section-container py-12">
+      <div class="mb-8">
+        <h1 class="text-3xl font-bold text-white">People</h1>
+        <p class="mt-2 text-iw-text-secondary">
+          Scholars, companions, narrators, and historical figures across Islamic history.
+        </p>
+      </div>
+
+      <div class="mb-10">
+        <h2 class="mb-4 text-xl font-bold text-white">Interactive Timeline</h2>
+        <PeopleTimelineIsland people={timelinePeople} client:load />
+      </div>
+
+      <div class="mt-10">
+        <h2 class="mb-4 text-xl font-bold text-white">Browse All</h2>
+        <PeopleGridIsland people={gridPeople} eras={eras} client:load />
+      </div>
+    </div>
+  </main>
+</Base>

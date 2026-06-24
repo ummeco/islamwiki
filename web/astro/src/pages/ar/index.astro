@@ -1,0 +1,87 @@
+---
+/**
+ * FILE: pages/ar/index.astro
+ * PURPOSE: Arabic homepage — SSR, dir="rtl", Noto Naskh Arabic font.
+ * CONSTRAINTS:
+ *   - prerender = false (SSR only).
+ *   - RTL via @ummat/i18n/direction — NEVER set dir manually.
+ * REF: P2-E3-W02-S02-T01 · spec §9
+ */
+
+export const prerender = false;
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { createUrqlClient } from '@ummat/graphql-client';
+import type { IwArticleSummary } from '../../types/article.ts';
+
+const graphqlUrl =
+  import.meta.env.PUBLIC_GRAPHQL_URL ?? 'https://api.ummat.dev/v1/graphql';
+
+const client = createUrqlClient({ url: graphqlUrl });
+
+let recentArticles: IwArticleSummary[] = [];
+
+try {
+  const result = await client.query(
+    `query RecentArabicArticles { iw_articles(where: { status: { _eq: "published" }, language: { _eq: "ar" } }, limit: 12, order_by: { created_at: desc }) { id slug title language created_at category { id slug name } } }`,
+    {}
+  );
+  recentArticles =
+    (result.data as { iw_articles: IwArticleSummary[] } | null)?.iw_articles ?? [];
+} catch {
+  // Graceful error — show empty state
+}
+---
+
+<BaseLayout
+  title="الموسوعة الإسلامية"
+  description="إسلام ويكي — الموسوعة الإسلامية الشاملة"
+  lang="ar"
+  canonical="https://islam.wiki/ar"
+>
+  <div class="min-h-screen">
+    <nav class="border-b border-gray-200 px-4 py-3 flex items-center justify-between" dir="rtl">
+      <a href="/ar" class="font-semibold text-brand-dark text-lg">إسلام ويكي</a>
+      <div class="flex items-center gap-4">
+        <a href="/search?locale=ar" class="text-sm text-gray-600">بحث</a>
+        <a href="/" class="text-sm text-gray-500">English</a>
+      </div>
+    </nav>
+
+    <section class="bg-brand-deep text-white px-4 py-16 text-center" dir="rtl">
+      <h1 class="text-4xl font-bold mb-4 font-arabic">إسلام ويكي</h1>
+      <p class="text-lg text-brand-light mb-4 font-arabic">
+        الموسوعة الإسلامية الشاملة — مجانية، محققة من العلماء، مساهمة من المجتمع
+      </p>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-4 py-12" dir="rtl">
+      {recentArticles.length > 0 ? (
+        <section>
+          <h2 class="text-2xl font-semibold text-brand-dark mb-6 font-arabic">المقالات الأخيرة</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {recentArticles.map((article) => (
+              <a
+                href={`/ar/wiki/${article.slug}`}
+                class="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"
+              >
+                {article.category && (
+                  <span class="text-xs font-medium text-brand-mid uppercase tracking-wide font-arabic">
+                    {article.category.name}
+                  </span>
+                )}
+                <h3 class="mt-1 font-semibold text-gray-900 leading-snug font-arabic">
+                  {article.title}
+                </h3>
+              </a>
+            ))}
+          </div>
+        </section>
+      ) : (
+        <div class="text-center py-16 text-gray-500 font-arabic">
+          <p class="text-lg">لا توجد مقالات منشورة بعد</p>
+        </div>
+      )}
+    </main>
+  </div>
+</BaseLayout>

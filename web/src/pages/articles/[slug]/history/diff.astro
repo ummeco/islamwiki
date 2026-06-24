@@ -1,0 +1,110 @@
+---
+/**
+ * articles/[slug]/history/diff.astro — Article revision diff (SSG + query params)
+ *
+ * PURPOSE: Ports app/articles/[slug]/history/diff/page.tsx.
+ *   generateStaticParams → getStaticPaths over getArticles(); searchParams (old/new)
+ *   → Astro.url.searchParams.
+ * CONVERSION:
+ *   - getRevisions (server-only fs reader) runs in frontmatter.
+ *   - RevisionDiff 'use client' → island; diff content is rendered as React text
+ *     (auto-escaped) so no HTML sanitization is needed for the diff body.
+ *   - WikiLayout → Astro chrome. next/link → <a>. notFound() → 404 response.
+ * REF: ports app/articles/[slug]/history/diff/page.tsx (articles-wiki migration group)
+ */
+import Base from '../../../../layouts/Base.astro'
+import { getArticleBySlug, getArticles } from '../../../../../lib/data/articles'
+import { getRevisions } from '../../../../../lib/data/revisions'
+import { WikiSidebar } from '../../../../components/wiki/WikiSidebar'
+import { RevisionDiff } from '../../../../components/wiki/RevisionDiff'
+
+// Static content page — prerendered to HTML at build time (SSG content/SEO).
+export const prerender = true
+
+export function getStaticPaths() {
+  return getArticles().map((a) => ({ params: { slug: a.slug } }))
+}
+
+const { slug } = Astro.params
+const article = getArticleBySlug(slug!)
+if (!article) {
+  return new Response(null, { status: 404 })
+}
+
+const oldId = Astro.url.searchParams.get('old') ?? undefined
+const newId = Astro.url.searchParams.get('new') ?? undefined
+
+const revisions = getRevisions('article', slug!)
+const oldRev = revisions.find((r) => r.id === oldId)
+const newRev = revisions.find((r) => r.id === newId)
+
+const title = `Diff: ${article.title}`
+const description = `Compare revisions of "${article.title}" on Islam.wiki.`
+
+const oldDate = oldRev ? new Date(oldRev.created_at).toLocaleString() : ''
+const newDate = newRev ? new Date(newRev.created_at).toLocaleString() : ''
+---
+
+<Base title={title} description={description}>
+  <div class="section-container">
+    <nav class="flex items-center gap-1.5 py-3 text-xs text-iw-text-secondary" aria-label="Breadcrumb">
+      <a href="/" class="hover:text-iw-text">Home</a>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><a href="/articles" class="hover:text-iw-text">Articles</a></span>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><a href={`/articles/${slug}`} class="hover:text-iw-text">{article.title}</a></span>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><a href={`/articles/${slug}/history`} class="hover:text-iw-text">History</a></span>
+      <span class="flex items-center gap-1.5"><span class="text-iw-border">/</span><span class="text-iw-text">Diff</span></span>
+    </nav>
+
+    <div class="flex gap-6">
+      <div class="hidden border-r border-iw-border pr-4 lg:block">
+        <WikiSidebar client:load />
+      </div>
+
+      <main class="min-w-0 flex-1 py-4">
+        {!oldRev || !newRev ? (
+          <div class="max-w-3xl">
+            <h1 class="mb-6 text-2xl font-bold text-white">Revision not found</h1>
+            <p class="text-sm text-iw-text-secondary">
+              One or both of the specified revisions could not be found.{' '}
+              <a href={`/articles/${slug}/history`} class="text-iw-accent hover:text-white">Return to history</a>
+            </p>
+          </div>
+        ) : (
+          <div class="max-w-4xl">
+            <h1 class="mb-2 text-2xl font-bold text-white">Comparing revisions: {article.title}</h1>
+            <p class="mb-6 text-sm text-iw-text-secondary/70">
+              Showing changes between revisions by {oldRev.editor_name} ({oldDate}) and {newRev.editor_name} ({newDate})
+            </p>
+
+            <div class="mb-4 grid grid-cols-2 gap-4">
+              <div class="rounded-lg border border-iw-border bg-iw-surface/40 px-3 py-2">
+                <div class="text-xs font-medium text-iw-text-secondary/70">Old revision</div>
+                <div class="mt-0.5 text-sm text-iw-text">{oldRev.edit_summary}</div>
+                <div class="mt-1 text-xs text-iw-text-secondary/50">{oldRev.editor_name} &middot; {oldDate}</div>
+              </div>
+              <div class="rounded-lg border border-iw-border bg-iw-surface/40 px-3 py-2">
+                <div class="text-xs font-medium text-iw-text-secondary/70">New revision</div>
+                <div class="mt-0.5 text-sm text-iw-text">{newRev.edit_summary}</div>
+                <div class="mt-1 text-xs text-iw-text-secondary/50">{newRev.editor_name} &middot; {newDate}</div>
+              </div>
+            </div>
+
+            <RevisionDiff
+              oldContent={oldRev.content}
+              newContent={newRev.content}
+              oldLabel={`${oldRev.editor_name} (${oldDate})`}
+              newLabel={`${newRev.editor_name} (${newDate})`}
+              client:load
+            />
+
+            <div class="mt-4">
+              <a href={`/articles/${slug}/history`} class="text-sm text-iw-accent hover:text-white">
+                Back to revision history
+              </a>
+            </div>
+          </div>
+        )}
+      </main>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,95 @@
+---
+/**
+ * history/index.astro — Islamic History index (static SSG). Ports app/history/page.tsx.
+ *
+ * CONVERSION NOTES:
+ *   - getAllHistoryEvents / getHistoryPeriods / getSectionCounts imported VERBATIM from
+ *     lib/data/history (framework-independent).
+ *   - The Next page chose the active section via `searchParams.tab` (server). Astro SSG has
+ *     no per-request search param, so tab state + the three sub-views (ProphetCards,
+ *     HistoryTimeline, Rashidun map explorer) are consolidated into a single client:load
+ *     island (HistoryExplorerIsland). All event serialization + date formatting still runs
+ *     here on the server (formatIslamicDate reused verbatim), exactly as the Next RSC did.
+ *   - rashidun-events.json imported the same way the Next page did.
+ *   - next/link → <a> inside the island.
+ * REF: ports app/history/page.tsx · people-history group
+ */
+import Base from '../../layouts/Base.astro'
+import {
+  getAllHistoryEvents,
+  getHistoryPeriods,
+  getSectionCounts,
+  type HistorySection,
+} from '../../../lib/data/history'
+import { formatIslamicDate } from '../../../lib/dates/hijri'
+import { getHreflangAlternates } from '../../../components/seo/hreflang'
+import HistoryExplorerIsland from '../../components/history/HistoryExplorerIsland'
+import type { RashidunMapEvent } from '../../components/history/RashidunExplorerIsland'
+import rashidunEventsRaw from '../../../data/history/rashidun-events.json'
+
+const rashidunEvents = rashidunEventsRaw as RashidunMapEvent[]
+
+const allEvents = getAllHistoryEvents()
+const periods = getHistoryPeriods()
+const counts = getSectionCounts()
+
+const SECTION_IDS: HistorySection[] = [
+  'prophets',
+  'post-jesus',
+  'islamic-history',
+  'modern',
+  'battles',
+]
+
+function serialize(section: HistorySection) {
+  return allEvents
+    .filter((e) => e.section === section)
+    .map((e) => {
+      const { primary, secondary } = formatIslamicDate(e)
+      return {
+        id: e.id,
+        slug: e.slug,
+        title_en: e.title_en,
+        title_ar: e.title_ar,
+        description_en: e.description_en,
+        period: e.period,
+        section: e.section,
+        severity: e.severity,
+        place_name: e.place_name,
+        datePrimary: primary,
+        dateSecondary: secondary,
+        outcome: e.outcome,
+        muslim_commander: e.muslim_commander,
+        opponent: e.opponent,
+        people_slug: e.people_slug,
+      }
+    })
+}
+
+const sections = Object.fromEntries(
+  SECTION_IDS.map((s) => [s, serialize(s)]),
+) as Record<HistorySection, ReturnType<typeof serialize>>
+
+const title = 'Islamic History'
+const description =
+  'The complete history of Islam — from the 25 Quranic prophets through the life of the Prophet ﷺ to the modern era. Interactive timelines, battles, and the story of the corruption of previous scriptures.'
+const alternates = getHreflangAlternates('/history')
+---
+
+<Base title={title} description={description}>
+  <Fragment slot="head">
+    {Object.entries(alternates).map(([loc, href]) => (
+      <link rel="alternate" hreflang={loc} href={href} />
+    ))}
+  </Fragment>
+
+  <main id="main-content">
+    <HistoryExplorerIsland
+      sections={sections}
+      rashidunEvents={rashidunEvents}
+      periods={periods}
+      counts={counts}
+      client:load
+    />
+  </main>
+</Base>

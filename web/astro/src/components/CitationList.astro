@@ -1,0 +1,47 @@
+---
+/**
+ * FILE: components/CitationList.astro
+ * PURPOSE: Renders article citations/footnotes (iw_citations).
+ * INPUTS: citations (IwCitation[])
+ * REF: P2-E3-W02-S02-T01 · spec §11.1
+ */
+
+import type { IwCitation } from '../types/article.ts';
+
+interface Props {
+  citations: IwCitation[];
+}
+
+const { citations } = Astro.props;
+---
+
+{citations.length > 0 && (
+  <section class="mt-8 pt-6 border-t border-gray-200" aria-label="Citations">
+    <h2 class="text-lg font-semibold text-gray-800 mb-4">Sources & Citations</h2>
+    <ol class="space-y-2 text-sm text-gray-600">
+      {citations.map((citation, i) => (
+        <li class="flex gap-3">
+          <span class="font-medium text-gray-400 shrink-0">[{i + 1}]</span>
+          <div>
+            <span class="font-medium capitalize">{citation.source_type}:</span>{' '}
+            {citation.source_url ? (
+              <a
+                href={citation.source_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-brand-mid hover:text-brand-dark underline"
+              >
+                {citation.source_title}
+              </a>
+            ) : (
+              <span>{citation.source_title}</span>
+            )}
+            {citation.verified_at && (
+              <span class="ml-2 text-xs text-green-600">✓ Verified</span>
+            )}
+          </div>
+        </li>
+      ))}
+    </ol>
+  </section>
+)}
