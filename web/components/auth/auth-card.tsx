@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import { Image } from "@/lib/compat/next-shims";
+import { Link } from "@/lib/compat/next-shims";
 
 interface AuthCardProps {
   children: React.ReactNode

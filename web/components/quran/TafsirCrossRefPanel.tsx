@@ -9,7 +9,7 @@
  * Pure display component — data fetched server-side and passed as props.
  */
 
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 import type { TafsirRef } from '@/lib/cross-refs/quran-hadith'
 
 interface TafsirCrossRefPanelProps {

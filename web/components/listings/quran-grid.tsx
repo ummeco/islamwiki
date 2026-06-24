@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 import { useState, useMemo } from 'react'
 import { surahTranslit } from '@/lib/quran-utils'
 

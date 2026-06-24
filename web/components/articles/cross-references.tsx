@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 import { getSurahByNumber } from '@/lib/data/quran'
 import { getPeople } from '@/lib/data/people'
 

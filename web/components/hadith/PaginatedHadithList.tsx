@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import Link from 'next/link'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { Link } from "@/lib/compat/next-shims";
+import { useRouter, useSearchParams } from "@/lib/compat/next-shims";
 
 interface HadithItem {
   n: number

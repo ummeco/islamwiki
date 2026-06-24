@@ -1,8 +1,8 @@
 'use client'
 
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { useRouter } from 'next/navigation'
-import Link from 'next/link'
+import { useRouter } from "@/lib/compat/next-shims";
+import { Link } from "@/lib/compat/next-shims";
 
 interface SearchResult {
   type: string

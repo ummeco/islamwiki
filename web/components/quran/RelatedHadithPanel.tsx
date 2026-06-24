@@ -9,7 +9,7 @@
  * as props — this is a pure display component (no client state needed).
  */
 
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 
 export interface RelatedHadithRef {
   id: string

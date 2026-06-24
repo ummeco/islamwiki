@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 import type { BookIndexEntry } from '@/lib/data/books'
 
 interface BookIndexClientProps {

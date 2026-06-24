@@ -1,6 +1,6 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
+import { useRouter } from "@/lib/compat/next-shims";
 import { useState } from 'react'
 
 export function SearchBar({ defaultValue = '' }: { defaultValue?: string }) {

@@ -12,12 +12,10 @@ export async function register() {
   }
 }
 
-export async function onRequestError(err: unknown, request: unknown, context: unknown) {
-  const Sentry = await import('@sentry/nextjs')
-  // Cast to Parameters<> to satisfy TypeScript — runtime values are correct Next.js types.
-  Sentry.captureRequestError(
-    err,
-    request as Parameters<typeof Sentry.captureRequestError>[1],
-    context as Parameters<typeof Sentry.captureRequestError>[2],
-  )
+// NOTE: Under Astro the @sentry/astro integration captures request errors via its
+// middleware automatically, so this hook is not wired into the request path. It is
+// retained as a framework-agnostic manual-capture helper (no next/* dependency).
+export async function onRequestError(err: unknown, _request?: unknown, _context?: unknown) {
+  const Sentry = await import('@sentry/astro')
+  Sentry.captureException(err)
 }

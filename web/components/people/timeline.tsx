@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 import { useCallback, useMemo, useRef, useState } from 'react'
 
 // ── Types ──

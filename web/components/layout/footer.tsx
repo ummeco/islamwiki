@@ -1,6 +1,6 @@
 // T09-LEGAL-COUNSEL-PACK: Legal section added to footer bottom bar.
 // Links to Privacy/Terms/Cookies/AUP as required by app store submission.
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 
 const LEGAL_LINKS = [
   { label: 'Privacy Policy', href: '/privacy' },

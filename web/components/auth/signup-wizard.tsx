@@ -1,7 +1,7 @@
 'use client'
 
 import { useCallback, useEffect, useState } from 'react'
-import { useSearchParams } from 'next/navigation'
+import { useSearchParams } from "@/lib/compat/next-shims";
 import { useActionState } from 'react'
 import { FloatingInput } from './floating-input'
 import { PasswordStrength } from './password-strength'

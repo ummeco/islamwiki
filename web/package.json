@@ -43,7 +43,6 @@
     "@astrojs/sitemap": "^3.2.0",
     "@astrojs/vercel": "^7.8.0",
     "@sentry/astro": "^9.0.0",
-    "@sentry/nextjs": "^9.0.0",
     "@opentelemetry/auto-instrumentations-node": "^0.76.0",
     "@opentelemetry/exporter-trace-otlp-http": "^0.218.0",
     "@opentelemetry/sdk-node": "^0.218.0",
@@ -56,9 +55,6 @@
     "leaflet": "^1.9.4",
     "marked": "^17.0.3",
     "meilisearch": "^0.58.0",
-    "next": "16.2.7",
-    "next-intl": "^4.9.2",
-    "next-themes": "^0.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "reactflow": "^11.11.4",
@@ -70,6 +66,7 @@
     "@astrojs/check": "^0.9.9",
     "@playwright/test": "^1.50.0",
     "@tailwindcss/vite": "^4.3.1",
+    "@testing-library/dom": "^10.0.0",
     "@testing-library/jest-dom": "^6.6.0",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.0",
@@ -87,6 +84,9 @@
     "vitest": "^3.2.6"
   },
   "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["next"]
+    },
     "overrides": {
       "@grpc/grpc-js": ">=1.14.4 <2",
       "@opentelemetry/exporter-prometheus": ">=0.217.0",

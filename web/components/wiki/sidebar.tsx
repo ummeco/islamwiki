@@ -1,7 +1,7 @@
 'use client'
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { Link } from "@/lib/compat/next-shims";
+import { usePathname } from "@/lib/compat/next-shims";
 import { useState } from 'react'
 
 const sections = [

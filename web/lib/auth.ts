@@ -1,8 +1,17 @@
 import 'server-only'
 
-import { cookies } from 'next/headers'
 import { createRemoteJWKSet, jwtVerify } from 'jose'
 import { hasuraAdmin } from './hasura-admin'
+
+/**
+ * Framework-agnostic cookie reader.
+ * Satisfied by Astro's `Astro.cookies` (pages) and `context.cookies`
+ * (API routes / middleware) — both expose `get(name).value`.
+ * Replaces the previous next/headers `cookies()` coupling.
+ */
+export interface CookieReader {
+  get(name: string): { value: string } | undefined
+}
 
 // ── Session data interface (unchanged — 40 call sites preserved) ──
 
@@ -116,9 +125,10 @@ async function getUserFromJWT(token: string): Promise<SessionData | null> {
 
 // ── getSession — same interface as iron-session version ──
 
-export async function getSession(): Promise<SessionData & { save: () => Promise<void>; destroy: () => Promise<void> }> {
-  const cookieStore = await cookies()
-  const token = cookieStore.get('iw_at')?.value
+export async function getSession(
+  cookies: CookieReader,
+): Promise<SessionData & { save: () => Promise<void>; destroy: () => Promise<void> }> {
+  const token = cookies.get('iw_at')?.value
 
   let sessionData: SessionData = {
     userId: '',
@@ -151,8 +161,8 @@ export async function getSession(): Promise<SessionData & { save: () => Promise<
 
 // ── getSessionUser — same interface as iron-session version ──
 
-export async function getSessionUser(): Promise<SessionData | null> {
-  const session = await getSession()
+export async function getSessionUser(cookies: CookieReader): Promise<SessionData | null> {
+  const session = await getSession(cookies)
   if (!session.isLoggedIn) return null
   return session
 }

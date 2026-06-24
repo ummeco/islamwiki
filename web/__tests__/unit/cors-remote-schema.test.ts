@@ -6,10 +6,11 @@
  */
 
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
-import { NextRequest } from 'next/server'
 
+// Web-standard Request replaces next/server's NextRequest (next removed in P2).
+// The Astro API handler receives a standard Request via context.request.
 function makeOptions(origin: string) {
-  return new NextRequest('http://localhost/api/graphql', {
+  return new Request('http://localhost/api/graphql', {
     method: 'OPTIONS',
     headers: { Origin: origin },
   })

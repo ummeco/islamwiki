@@ -1,4 +1,4 @@
-import * as Sentry from '@sentry/nextjs'
+import * as Sentry from '@sentry/astro'
 import { scrubPII } from './lib/sentry-scrub'
 
 Sentry.init({

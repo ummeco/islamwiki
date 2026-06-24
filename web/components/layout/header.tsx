@@ -1,8 +1,8 @@
 'use client'
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { Image } from "@/lib/compat/next-shims";
+import { Link } from "@/lib/compat/next-shims";
+import { usePathname } from "@/lib/compat/next-shims";
 import { useState } from 'react'
 import { AuthButton } from './auth-button'
 import { SearchModal } from '@/components/search/search-modal'

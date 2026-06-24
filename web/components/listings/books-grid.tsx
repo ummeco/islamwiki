@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import { Link } from "@/lib/compat/next-shims";
 import { PaginatedGrid } from '@/components/ui/paginated-grid'
 import { formatIslamicYear } from '@/lib/dates/hijri'
 

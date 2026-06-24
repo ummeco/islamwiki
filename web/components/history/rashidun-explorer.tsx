@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect, useRef, useCallback, startTransition } from 'react'
-import dynamic from 'next/dynamic'
+import { dynamic } from "@/lib/compat/next-shims";
 import type { RashidunMapEvent } from './rashidun-map'
 
 export type { RashidunMapEvent }

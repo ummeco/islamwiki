@@ -1,4 +1,4 @@
-import * as Sentry from '@sentry/nextjs'
+import * as Sentry from '@sentry/astro'
 
 // Edge-runtime Sentry initialization for Islam.wiki.
 // D3 fix: guard includes !!process.env.SENTRY_DSN — without it, SDK initializes

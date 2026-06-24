@@ -1,6 +1,6 @@
 'use client'
 
-import dynamic from 'next/dynamic'
+import { dynamic } from "@/lib/compat/next-shims";
 import { Suspense } from 'react'
 
 interface IsnadNode {

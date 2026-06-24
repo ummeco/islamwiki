@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useState, useEffect, useRef, useCallback, startTransition } from 'react'
-import dynamic from 'next/dynamic'
-import Link from 'next/link'
+import { dynamic } from "@/lib/compat/next-shims";
+import { Link } from "@/lib/compat/next-shims";
 import type { SeerahMapEvent } from './seerah-map'
 
 const SeerahMap = dynamic(

@@ -13,7 +13,7 @@
  * Redis attack).
  */
 
-import * as Sentry from '@sentry/nextjs'
+import * as Sentry from '@sentry/astro'
 import type { RateLimitAdapter, RateLimitOptions, RateLimitResult } from './rate-limit'
 
 interface RedisClient {

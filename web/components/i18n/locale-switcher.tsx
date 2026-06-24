@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { usePathname } from 'next/navigation'
+import { usePathname } from "@/lib/compat/next-shims";
 import { LOCALES, LOCALE_NAMES, DEFAULT_LOCALE, type Locale } from '@/lib/i18n/config'
 
 const LOCALE_FLAGS: Record<Locale, string> = {
