@@ -1,13 +1,13 @@
 ---
 /**
- * hadith/[collection]/[book]/[number].astro — Single hadith detail page (SSG)
+ * hadith/[collection]/[book]/[number].astro — Single hadith detail page (SSR, on-demand)
  *
  * PURPOSE: Ports app/hadith/[collection]/[book]/[number]/page.tsx. Renders one hadith
  *          with Arabic/English text, grading, isnad chain, topics, quran refs, cross-refs,
  *          sharh (commentary), madhab variance, and copy/share actions.
- *          generateStaticParams (implicit via numbers) → getStaticPaths.
  * STACK NOTE: Next page used ISR (revalidate=604800) to avoid building ~70k pages at once.
- *          Per D-P2-STACK-CANON migration brief this becomes prerender=true (static).
+ *          Converted from prerender=true to SSR (on-demand) because ~70k static pages made
+ *          the build explode. Matches the original Next ISR intent.
  * CONSTRAINTS:
  *   - No next/* imports.
  *   - Hadith text rendered as plain JSX/Astro expressions (auto-escaped) — no raw HTML,
@@ -18,11 +18,10 @@
  *     MadhabVariancePanel is a pure display component rendered server-side.
  * REF: ports app/hadith/[collection]/[book]/[number]/page.tsx · D-P2-STACK-CANON
  */
-export const prerender = true
+export const prerender = false
 
 import Base from '../../../../layouts/Base.astro'
 import {
-  getCollections,
   getCollectionBySlug,
   getBookBySlug,
   getHadithByNumber,
@@ -37,20 +36,6 @@ import { getMadhabRulings } from '@/lib/fiqh/madhab-rulings'
 import { MadhabVariancePanel } from '@/components/fiqh/MadhabVariancePanel'
 import { IsnadChain } from '../../../../components/hadith/IsnadChainIsland'
 import { HadithActions } from '../../../../components/hadith/HadithActionsIsland'
-
-export function getStaticPaths() {
-  const collections = getCollections()
-  const paths: Array<{ params: { collection: string; book: string; number: string } }> = []
-  for (const col of collections) {
-    const books = getBooksByCollection(col.id)
-    for (const book of books) {
-      for (const h of getHadithsByBook(book.id)) {
-        paths.push({ params: { collection: col.slug, book: book.slug, number: String(h.n) } })
-      }
-    }
-  }
-  return paths
-}
 
 function gradeColor(grade: string | undefined): string {
   if (!grade) return 'bg-gray-500/20 text-gray-300'

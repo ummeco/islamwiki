@@ -1,10 +1,11 @@
 ---
 /**
- * books/[slug]/[chapter].astro — Book chapter reader (/books/:slug/:chapter).
+ * books/[slug]/[chapter].astro — Book chapter reader (/books/:slug/:chapter, SSR on-demand).
  *
- * PURPOSE: Ports app/books/[slug]/[chapter]/page.tsx. getStaticParams →
- *   getStaticPaths over every (book, chapter) pair. Renders chapter sidebar,
+ * PURPOSE: Ports app/books/[slug]/[chapter]/page.tsx. Renders chapter sidebar,
  *   header, language tabs (island), taxonomy, and prev/next nav.
+ * STACK NOTE: Converted from prerender=true to SSR because ~7,926 book/chapter
+ *   combinations caused build explosion. Matches the original Next ISR intent.
  * SECURITY (HARD / XSS): The EN/AR/ID chapter HTML is sanitized SERVER-SIDE here
  *   via lib/sanitize sanitizeHtml() BEFORE being passed into ChapterLangTabsIsland.
  *   The Next page sanitized inside the client ChapterLangTabs component; here the
@@ -13,25 +14,14 @@
  * REF: ports app/books/[slug]/[chapter]/page.tsx · D-P2-STACK-CANON
  */
 import Base from '../../../layouts/Base.astro'
-import { getBooks, getBookBySlug, getChaptersByBook, getChapter } from '@/lib/data/books'
+import { getBookBySlug, getChaptersByBook, getChapter } from '@/lib/data/books'
 import { sanitizeHtml } from '@/lib/sanitize'
 import { ogImageUrl } from '@/lib/og'
 import ChapterLangTabsIsland from '../../../components/books/ChapterLangTabsIsland'
 import ChapterTaxonomy from '../../../components/books/ChapterTaxonomy.astro'
 
-// Static content page — prerendered to HTML at build time (SSG content/SEO).
-export const prerender = true
-
-export function getStaticPaths() {
-  const paths: { params: { slug: string; chapter: string } }[] = []
-  for (const book of getBooks()) {
-    const chapters = getChaptersByBook(book.slug)
-    for (const ch of chapters) {
-      paths.push({ params: { slug: book.slug, chapter: String(ch.number) } })
-    }
-  }
-  return paths
-}
+// On-demand SSR — too many book/chapter pairs (~7,926) to prerender at build time.
+export const prerender = false
 
 const { slug, chapter: chNum } = Astro.params
 const book = getBookBySlug(slug!)
