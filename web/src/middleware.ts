@@ -106,10 +106,16 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const { url, request } = context
   const pathname = url.pathname
 
-  // Pin the runtime content base to the live request origin so SSR data fetches
-  // in lib/data/runtime-data.ts resolve to the correct host (env inlining of
-  // import.meta.env.SITE is unreliable in the Vercel serverless bundle).
-  setRuntimeContentBase(url.origin)
+  // Pin the runtime content base to the live PUBLIC request origin so SSR data
+  // fetches in lib/data/runtime-data.ts resolve to the correct host. On Vercel,
+  // context.url.origin is "https://localhost" inside the function — use the
+  // forwarded host header instead, and never pin a localhost origin (so the
+  // VERCEL_PROJECT_PRODUCTION_URL / PUBLIC_BASE_URL fallbacks win locally).
+  const fwdHost = request.headers.get('x-forwarded-host') ?? request.headers.get('host')
+  const fwdProto = request.headers.get('x-forwarded-proto') ?? 'https'
+  if (fwdHost && !fwdHost.includes('localhost') && !fwdHost.startsWith('127.')) {
+    setRuntimeContentBase(`${fwdProto}://${fwdHost}`)
+  }
 
   // --- CSP nonce (per-request) ---
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
