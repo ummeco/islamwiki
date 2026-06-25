@@ -16,6 +16,7 @@
 
 import { defineMiddleware } from 'astro:middleware'
 import { createRemoteJWKSet, jwtVerify } from 'jose'
+import { setRuntimeContentBase } from '@/lib/data/runtime-data'
 
 const LOCALES = ['en', 'ar', 'id'] as const
 const DEFAULT_LOCALE = 'en'
@@ -104,6 +105,11 @@ const SECURITY_HEADERS: Array<[string, string]> = [
 export const onRequest = defineMiddleware(async (context, next) => {
   const { url, request } = context
   const pathname = url.pathname
+
+  // Pin the runtime content base to the live request origin so SSR data fetches
+  // in lib/data/runtime-data.ts resolve to the correct host (env inlining of
+  // import.meta.env.SITE is unreliable in the Vercel serverless bundle).
+  setRuntimeContentBase(url.origin)
 
   // --- CSP nonce (per-request) ---
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64')

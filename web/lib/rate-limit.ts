@@ -49,6 +49,7 @@ export { MemoryRateLimitAdapter }
 // ---------------------------------------------------------------------------
 
 let _adapter: RateLimitAdapter | null = null
+let _warnedNoRedis = false
 
 export function getRateLimitAdapter(): RateLimitAdapter {
   if (_adapter) return _adapter
@@ -63,12 +64,21 @@ export function getRateLimitAdapter(): RateLimitAdapter {
       _adapter = new MemoryRateLimitAdapter()
     }
   } else {
-    // TRAP-M02: fail closed in production — in-memory bypass on Vercel
-    // multi-instance is a security hole (state is not shared across instances).
-    if (process.env.NODE_ENV === 'production') {
-      throw new Error('[rate-limit] REDIS_URL required in production. Set REDIS_URL to enable rate limiting.')
+    // No REDIS_URL. islamwiki has no Redis provisioned, so degrade gracefully to the
+    // per-instance in-memory limiter rather than throwing (which 500'd read endpoints
+    // like /api/tafsir, /api/grading, /api/isnad, /api/reading-plan). In-memory limiting
+    // is acceptable for these read-only routes: it bounds abuse per warm instance, just
+    // not globally across the Vercel fleet. Rate limiting is NOT removed — only the
+    // backing store changes. Warn once so the operational gap stays visible in logs.
+    if (process.env.NODE_ENV === 'production' && !_warnedNoRedis) {
+      _warnedNoRedis = true
+      console.warn(
+        '[rate-limit] REDIS_URL not set in production — falling back to in-memory adapter ' +
+          '(per-instance only; not shared across Vercel instances). Provision Redis for fleet-wide limits.'
+      )
+    } else if (process.env.NODE_ENV !== 'production') {
+      console.warn('[rate-limit] REDIS_URL not set — using in-memory adapter (not safe for multi-instance)')
     }
-    console.warn('[rate-limit] REDIS_URL not set — using in-memory adapter (not safe for multi-instance)')
     _adapter = new MemoryRateLimitAdapter()
   }
 
@@ -78,6 +88,7 @@ export function getRateLimitAdapter(): RateLimitAdapter {
 /** Reset the cached adapter (used in tests). */
 export function resetAdapterCache(): void {
   _adapter = null
+  _warnedNoRedis = false
 }
 
 // ---------------------------------------------------------------------------

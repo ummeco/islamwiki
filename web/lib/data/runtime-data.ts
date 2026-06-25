@@ -33,11 +33,36 @@ import 'server-only'
 // ── Base URL resolution ──────────────────────────────────────────────────────
 // Astro injects the configured `site` into import.meta.env.SITE at build time.
 // PUBLIC_BASE_URL is the deployed origin (set in astro.config define / Vercel env).
+//
+// RUNTIME ROBUSTNESS (P2 fix): import.meta.env.SITE is NOT reliably inlined into the
+// Vercel serverless function bundle, so it can resolve to the localhost fallback at
+// runtime, making every content fetch hit a dead origin → fetchJson returns null →
+// SSR pages 404. To guarantee the correct origin on every request we:
+//   1. Let the Astro middleware push the LIVE request origin here via
+//      setRuntimeContentBase(context.url.origin) — checked FIRST, always correct.
+//   2. Fall back to the Vercel-provided production / preview URLs (always set by Vercel).
+//   3. Then the build-time SITE / PUBLIC_BASE_URL, then localhost (dev only).
+let runtimeContentBase: string | null = null
+
+/**
+ * Set the content base origin at runtime from the live request (Astro middleware).
+ * Takes precedence over all env-derived values. Idempotent; cheap to call per request.
+ * @param origin Absolute origin, e.g. "https://islam.wiki"
+ */
+export function setRuntimeContentBase(origin: string): void {
+  if (origin) runtimeContentBase = origin.replace(/\/$/, '')
+}
+
 function contentBaseUrl(): string {
+  const vercelProdUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  const vercelUrl = process.env.VERCEL_URL
   const site =
+    runtimeContentBase ??
     (import.meta.env.SITE as string | undefined) ??
     (import.meta.env.PUBLIC_BASE_URL as string | undefined) ??
     process.env.PUBLIC_BASE_URL ??
+    (vercelProdUrl ? `https://${vercelProdUrl}` : undefined) ??
+    (vercelUrl ? `https://${vercelUrl}` : undefined) ??
     'http://localhost:4321'
   return site.replace(/\/$/, '')
 }
@@ -63,16 +88,19 @@ export async function fetchContentJson<T>(relPath: string): Promise<T | null> {
 async function fetchJson<T>(relPath: string): Promise<T | null> {
   if (missCache.has(relPath)) return null
   if (jsonCache.has(relPath)) return jsonCache.get(relPath) as T
+  const url = contentUrl(relPath)
   try {
-    const res = await fetch(contentUrl(relPath))
+    const res = await fetch(url)
     if (!res.ok) {
+      console.error('[content-fetch-fail]', url, `status ${res.status}`)
       missCache.add(relPath)
       return null
     }
     const data = (await res.json()) as T
     jsonCache.set(relPath, data)
     return data
-  } catch {
+  } catch (err) {
+    console.error('[content-fetch-fail]', url, String(err))
     missCache.add(relPath)
     return null
   }
