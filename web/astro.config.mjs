@@ -21,7 +21,91 @@ import sentry from '@sentry/astro'
 import tailwindcss from '@tailwindcss/vite'
 
 import { createRequire } from 'node:module'
+import { cp, mkdir, readdir, writeFile, stat } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import path from 'node:path'
 const require = createRequire(import.meta.url)
+
+/**
+ * copyContentData — Astro integration that publishes the on-disk content corpus
+ * (`data/`) as STATIC assets under `/content-data/` in the build output, instead of
+ * letting it get bundled into the Vercel serverless function.
+ *
+ * WHY: The two SSR pages used to import the fs-backed readers in lib/data/*, whose
+ *   readFileSync(process.cwd()/data/...) calls made Vercel's nft tracer pull the entire
+ *   ~1GB data/ into the function (over the 250MB limit). Those pages now fetch single
+ *   records over HTTP from /content-data/ via lib/data/runtime-data.ts. This hook copies
+ *   data/ into the static output so those URLs resolve, and emits a `chapters.json`
+ *   manifest per book directory (HTTP has no readdir, so the runtime reader needs an
+ *   explicit list of chapter numbers).
+ *
+ * RUNS: astro:build:done — after the Vercel adapter has written .vercel/output/static.
+ *   `dir` is the configured outDir; the Vercel adapter also mirrors to
+ *   .vercel/output/static. We copy into BOTH the reported dir and the Vercel static dir
+ *   if present, so the assets ship regardless of which path Vercel serves from.
+ */
+function copyContentData() {
+  const projectRoot = path.dirname(fileURLToPath(import.meta.url))
+  const dataDir = path.join(projectRoot, 'data')
+
+  async function emitBookManifests(targetContentDir) {
+    const booksDir = path.join(targetContentDir, 'books')
+    if (!existsSync(booksDir)) return
+    const entries = await readdir(booksDir, { withFileTypes: true })
+    for (const entry of entries) {
+      if (!entry.isDirectory()) continue
+      const bookDir = path.join(booksDir, entry.name)
+      const files = await readdir(bookDir)
+      const numbers = files
+        .filter((f) => /^\d+\.json$/.test(f))
+        .map((f) => parseInt(f.replace(/\.json$/, ''), 10))
+        .filter((n) => !Number.isNaN(n))
+        .sort((a, b) => a - b)
+      if (numbers.length === 0) continue
+      await writeFile(path.join(bookDir, 'chapters.json'), JSON.stringify({ numbers }))
+    }
+  }
+
+  async function publishTo(staticRoot) {
+    if (!existsSync(dataDir)) return
+    const target = path.join(staticRoot, 'content-data')
+    await mkdir(target, { recursive: true })
+    await cp(dataDir, target, { recursive: true })
+    await emitBookManifests(target)
+  }
+
+  return {
+    name: 'copy-content-data',
+    hooks: {
+      'astro:build:done': async ({ dir, logger }) => {
+        const log = logger ?? console
+        const candidates = new Set()
+        // Astro-reported output dir (file:// URL).
+        try {
+          candidates.add(fileURLToPath(dir))
+        } catch {
+          /* dir may already be a path string */
+          if (typeof dir === 'string') candidates.add(dir)
+        }
+        // Vercel adapter static output.
+        const vercelStatic = path.join(projectRoot, '.vercel', 'output', 'static')
+        if (existsSync(vercelStatic)) candidates.add(vercelStatic)
+
+        for (const root of candidates) {
+          try {
+            const s = await stat(root).catch(() => null)
+            if (!s || !s.isDirectory()) continue
+            await publishTo(root)
+            log.info?.(`[copy-content-data] published data/ → ${path.join(root, 'content-data')}`)
+          } catch (err) {
+            log.warn?.(`[copy-content-data] skip ${root}: ${err}`)
+          }
+        }
+      },
+    },
+  }
+}
 
 // Slug-based URLs redirect to canonical numeric URLs: /quran/al-baqarah → /quran/2
 // Ported verbatim from next.config.ts redirects(). 114 surahs × 2 patterns = 228 entries.
@@ -38,6 +122,12 @@ export default defineConfig({
   adapter: vercel({
     webAnalytics: { enabled: false }, // Umami handles analytics (D-P3-21)
     imageService: true,
+    // Keep the 1GB content corpus OUT of the serverless function. The SSR pages read
+    // single records over HTTP from /content-data/ (lib/data/runtime-data.ts), and the
+    // copyContentData() integration publishes data/ as static assets. Excluding data/**
+    // here stops Vercel's nft tracer from bundling any residual data files into the
+    // function, keeping it well under the 250MB limit.
+    excludeFiles: ['./data/**/*'],
   }),
   i18n: {
     defaultLocale: 'en',
@@ -54,6 +144,7 @@ export default defineConfig({
     '/signin': '/account',
   },
   integrations: [
+    copyContentData(),
     react(),
     sitemap(),
     sentry({

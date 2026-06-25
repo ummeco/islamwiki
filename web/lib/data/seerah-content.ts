@@ -1,8 +1,10 @@
 import fs from 'fs'
 import path from 'path'
+import { dataDir } from './data-dir'
 
-const CONTENT_DIR = path.join(process.cwd(), 'data', 'seerah', 'content')
-const HISTORY_CONTENT_DIR = path.join(process.cwd(), 'data', 'history', 'content')
+// dataDir() is tracer-opaque so @vercel/nft does not bundle data/ into the function.
+const CONTENT_DIR = path.join(dataDir(), 'seerah', 'content')
+const HISTORY_CONTENT_DIR = path.join(dataDir(), 'history', 'content')
 
 /**
  * Returns the full markdown content for a seerah/history event.

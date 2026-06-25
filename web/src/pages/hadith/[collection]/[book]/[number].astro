@@ -21,16 +21,20 @@
 export const prerender = false
 
 import Base from '../../../../layouts/Base.astro'
+// Runtime fetch-based reader — reads single records over HTTP from /content-data/ so the
+// 1GB content corpus is NOT bundled into the Vercel serverless function. Do NOT import
+// from '@/lib/data/hadith' here: its readFileSync(process.cwd()/data/...) calls make the
+// Vercel tracer pull the entire data/ tree into this function (the 1.1GB bloat).
 import {
   getCollectionBySlug,
-  getBookBySlug,
+  getHadithBookBySlug,
   getHadithByNumber,
   getBooksByCollection,
   getHadithsByBook,
   getSharhForHadith,
   getSharhSources,
   getHadithRefByIwId,
-} from '@/lib/data/hadith'
+} from '@/lib/data/runtime-data'
 import { getHreflangAlternates } from '@/components/seo/hreflang'
 import { getMadhabRulings } from '@/lib/fiqh/madhab-rulings'
 import { MadhabVariancePanel } from '@/components/fiqh/MadhabVariancePanel'
@@ -57,42 +61,46 @@ function gradeDescription(grade: string | undefined): string {
 }
 
 const { collection: colSlug, book: bookSlug, number } = Astro.params
-const col = getCollectionBySlug(colSlug!)
+const col = await getCollectionBySlug(colSlug!)
 if (!col) return Astro.redirect('/404')
-const book = getBookBySlug(col.id, bookSlug!)
+const book = await getHadithBookBySlug(col.id, bookSlug!)
 if (!book) return Astro.redirect('/404')
 
 const num = parseInt(number!, 10)
-const hadith = getHadithByNumber(book.id, num)
+const hadith = await getHadithByNumber(book.id, num)
 if (!hadith) return Astro.redirect('/404')
 
 // Navigation: find actual prev/next from the loaded data
-const allHadiths = getHadithsByBook(book.id)
+const allHadiths = await getHadithsByBook(book.id)
 const currentIdx = allHadiths.findIndex((h) => h.n === num)
 const prevHadith = currentIdx > 0 ? allHadiths[currentIdx - 1] : null
 const nextHadith = currentIdx < allHadiths.length - 1 ? allHadiths[currentIdx + 1] : null
 
 // Sharh (commentary) data
-const sharhEntries = getSharhForHadith(col.slug, book.number, num)
-const sharhSources = sharhEntries.length > 0 ? getSharhSources() : []
+const sharhEntries = await getSharhForHadith(col.slug, book.number, num)
+const sharhSources = sharhEntries.length > 0 ? await getSharhSources() : []
 
 // Madhab variance rulings (keyed by iw_id when available, else collection:book:number).
 // Server-only: getMadhabRulings uses the Hasura admin secret — runs in frontmatter only.
 const madhabRefId = hadith.iw_id ?? `${colSlug}:${bookSlug}:${num}`
 const madhabRulings = await getMadhabRulings('hadith', madhabRefId)
 
-const booksInCollection = getBooksByCollection(col.id)
+const booksInCollection = await getBooksByCollection(col.id)
 const currentBookIdx = booksInCollection.findIndex((b) => b.id === book.id)
 const prevBook = currentBookIdx > 0 ? booksInCollection[currentBookIdx - 1] : null
 const nextBook = currentBookIdx < booksInCollection.length - 1 ? booksInCollection[currentBookIdx + 1] : null
 
 // Cross-reference resolution (Also Narrated In / Similar Narrations)
-const duplicateRefs = (hadith.duplicates ?? [])
-  .map((iwId) => ({ iwId, ref: getHadithRefByIwId(iwId) }))
-  .filter((x) => x.ref !== null)
-const variantRefs = (hadith.variants ?? [])
-  .map((iwId) => ({ iwId, ref: getHadithRefByIwId(iwId) }))
-  .filter((x) => x.ref !== null)
+const duplicateRefs = (
+  await Promise.all(
+    (hadith.duplicates ?? []).map(async (iwId) => ({ iwId, ref: await getHadithRefByIwId(iwId) }))
+  )
+).filter((x) => x.ref !== null)
+const variantRefs = (
+  await Promise.all(
+    (hadith.variants ?? []).map(async (iwId) => ({ iwId, ref: await getHadithRefByIwId(iwId) }))
+  )
+).filter((x) => x.ref !== null)
 
 const title = `Hadith #${number} — ${book.name_en} — ${col.name_en}`
 const desc = hadith.text_en ? hadith.text_en.slice(0, 160) : `${col.name_en}, ${book.name_en}, Hadith ${number}`

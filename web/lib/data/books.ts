@@ -1,5 +1,6 @@
 import fs from 'fs'
 import path from 'path'
+import { dataDir } from './data-dir'
 import booksData from '@/data/books/classical.json'
 
 export interface BookData {
@@ -107,7 +108,8 @@ export interface ChapterData {
 }
 
 const books: BookData[] = booksData as unknown as BookData[]
-const CHAPTERS_DIR = path.join(process.cwd(), 'data', 'books')
+// dataDir() is tracer-opaque so @vercel/nft does not bundle data/books into the function.
+const CHAPTERS_DIR = path.join(dataDir(), 'books')
 
 // Cache chapter lists per book slug
 const chapterCache = new Map<string, ChapterData[]>()

@@ -7,10 +7,12 @@
 
 import type { APIRoute } from 'astro'
 import Anthropic from '@anthropic-ai/sdk'
-import { join } from 'node:path'
-import { readFileSync } from 'node:fs'
 import type { AyahJSON } from '@/types/quran-json'
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit'
+// Read the ayah file over HTTP from the static /content-data/ assets instead of from a
+// bundled file. A readFileSync(process.cwd()/data/quran/ayahs/...) here made @vercel/nft
+// bundle the entire 275MB data/quran tree into this serverless function.
+import { fetchContentJson } from '@/lib/data/runtime-data'
 
 export const prerender = false
 
@@ -36,15 +38,9 @@ export const GET: APIRoute = async ({ request }) => {
     return new Response('Invalid parameters', { status: 400 })
   }
 
-  let allAyahs: AyahJSON[]
-  try {
-    const pad = String(surah).padStart(3, '0')
-    const raw = readFileSync(
-      join(process.cwd(), 'data', 'quran', 'ayahs', `${pad}.json`),
-      'utf-8'
-    )
-    allAyahs = JSON.parse(raw)
-  } catch {
+  const pad = String(surah).padStart(3, '0')
+  const allAyahs = await fetchContentJson<AyahJSON[]>(`quran/ayahs/${pad}.json`)
+  if (!allAyahs) {
     return new Response('Surah not found', { status: 404 })
   }
 

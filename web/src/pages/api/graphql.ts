@@ -14,8 +14,18 @@
  */
 
 import type { APIRoute } from 'astro'
-import { getSurahs, getAyah } from '@/lib/data/quran'
-import { getCollections, getBooksByCollection, getHadithByNumber } from '@/lib/data/hadith'
+// Runtime fetch-based readers — read single records over HTTP from /content-data/ so the
+// 1GB content corpus is NOT bundled into this serverless function. Do NOT import the
+// fs-backed lib/data/quran or lib/data/hadith here: their readFileSync over data/ makes
+// the Vercel tracer bundle data/quran (275MB) + data/hadith (619MB) into this function.
+import {
+  getSurahsRuntime,
+  getAyahRuntime,
+  getCollectionBySlug,
+  getBooksByCollection,
+  getHadithByNumber,
+  getHadithBookBySlug,
+} from '@/lib/data/runtime-data'
 
 export const prerender = false
 
@@ -143,9 +153,9 @@ function buildIntrospectionResponse() {
 
 // ── Resolvers ─────────────────────────────────────────────────────────────
 
-function resolveQuranSurah(args: Record<string, unknown>) {
+async function resolveQuranSurah(args: Record<string, unknown>) {
   const slug = String(args.slug ?? '')
-  const surahs = getSurahs()
+  const surahs = await getSurahsRuntime()
   const s = surahs.find((x) => x.slug === slug || x.slug === slug.toLowerCase())
   if (!s) return null
   return {
@@ -159,22 +169,21 @@ function resolveQuranSurah(args: Record<string, unknown>) {
   }
 }
 
-function resolveQuranAyah(args: Record<string, unknown>) {
+async function resolveQuranAyah(args: Record<string, unknown>) {
   const surahSlug = String(args.surahSlug ?? '')
   const number = Number(args.number ?? 0)
-  const surahs = getSurahs()
+  const surahs = await getSurahsRuntime()
   const surah = surahs.find((s) => s.slug === surahSlug)
   if (!surah) return null
 
-  // getAyah may not exist in all builds — graceful fallback
   try {
-    const ayah = getAyah?.(surah.number, number)
+    const ayah = await getAyahRuntime(surah.number, number)
     if (!ayah) return null
     return {
       surah_number: surah.number,
       ayah_number: number,
       text_ar: ayah.text_ar,
-      text_en: ayah.translations?.en ?? ayah.translations?.['en-sahih'] ?? null,
+      text_en: ayah.text_en,
       juz: ayah.juz,
       page: ayah.page,
     }
@@ -183,21 +192,27 @@ function resolveQuranAyah(args: Record<string, unknown>) {
   }
 }
 
-function resolveHadithEntry(args: Record<string, unknown>) {
+async function resolveHadithEntry(args: Record<string, unknown>) {
   const collectionSlug = String(args.collection ?? '')
   const bookSlug = String(args.book ?? '')
   const number = Number(args.number ?? 0)
 
   try {
-    const collections = getCollections()
-    const coll = collections.find((c) => c.slug === collectionSlug)
+    const coll = await getCollectionBySlug(collectionSlug)
     if (!coll) return null
 
-    const books = getBooksByCollection(coll.id)
-    const book = books.find((b) => b.slug === bookSlug)
-    if (!book) return null
+    const book = await getHadithBookBySlug(coll.id, bookSlug)
+    if (!book) {
+      // Fallback: scan the collection's books (parity with the previous reader).
+      const books = await getBooksByCollection(coll.id)
+      const found = books.find((b) => b.slug === bookSlug)
+      if (!found) return null
+      const e = await getHadithByNumber(found.id, number)
+      if (!e) return null
+      return { collection_slug: collectionSlug, book_slug: bookSlug, number, text_ar: e.text_ar ?? null, text_en: e.text_en ?? null, grade: e.grade ?? null }
+    }
 
-    const entry = getHadithByNumber?.(book.id, number)
+    const entry = await getHadithByNumber(book.id, number)
     if (!entry) return null
 
     return {
@@ -268,13 +283,13 @@ export const POST: APIRoute = async ({ request }) => {
   let result: unknown = null
   switch (field) {
     case 'quranSurah':
-      result = resolveQuranSurah(args)
+      result = await resolveQuranSurah(args)
       break
     case 'quranAyah':
-      result = resolveQuranAyah(args)
+      result = await resolveQuranAyah(args)
       break
     case 'hadithEntry':
-      result = resolveHadithEntry(args)
+      result = await resolveHadithEntry(args)
       break
     default:
       result = true

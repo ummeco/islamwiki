@@ -1,6 +1,7 @@
 import 'server-only'
 import { readFileSync } from 'fs'
 import { join } from 'path'
+import { dataDir } from './data-dir'
 import surahsData from '@/data/quran/surahs.json'
 import type { AyahJSON } from '@/types/quran-json'
 
@@ -61,7 +62,8 @@ const ayahCache = new Map<number, AyahData[]>()
 export function getAyahsBySurah(surahNumber: number): AyahData[] {
   if (ayahCache.has(surahNumber)) return ayahCache.get(surahNumber)!
   const pad = String(surahNumber).padStart(3, '0')
-  const filePath = join(process.cwd(), 'data', 'quran', 'ayahs', `${pad}.json`)
+  // dataDir() is tracer-opaque so @vercel/nft does not bundle data/quran into the function.
+  const filePath = join(dataDir(), 'quran', 'ayahs', `${pad}.json`)
   try {
     const raw = readFileSync(filePath, 'utf-8')
     const ayahs: AyahJSON[] = JSON.parse(raw)

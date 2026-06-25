@@ -14,7 +14,11 @@
  * REF: ports app/books/[slug]/[chapter]/page.tsx · D-P2-STACK-CANON
  */
 import Base from '../../../layouts/Base.astro'
-import { getBookBySlug, getChaptersByBook, getChapter } from '@/lib/data/books'
+// Runtime fetch-based reader — reads single records over HTTP from /content-data/ so the
+// 1GB content corpus is NOT bundled into the Vercel serverless function. Do NOT import
+// from '@/lib/data/books' here: its fs.readFileSync/readdirSync over process.cwd()/data
+// make the Vercel tracer pull the entire data/ tree into this function (the 1.1GB bloat).
+import { getBookBySlug, getChaptersByBook, getChapter } from '@/lib/data/runtime-data'
 import { sanitizeHtml } from '@/lib/sanitize'
 import { ogImageUrl } from '@/lib/og'
 import ChapterLangTabsIsland from '../../../components/books/ChapterLangTabsIsland'
@@ -24,18 +28,18 @@ import ChapterTaxonomy from '../../../components/books/ChapterTaxonomy.astro'
 export const prerender = false
 
 const { slug, chapter: chNum } = Astro.params
-const book = getBookBySlug(slug!)
+const book = await getBookBySlug(slug!)
 if (!book) {
   return Astro.redirect('/404')
 }
 
 const chapterNumber = parseInt(chNum!, 10)
-const ch = getChapter(slug!, chapterNumber)
+const ch = await getChapter(slug!, chapterNumber)
 if (!ch) {
   return Astro.redirect('/404')
 }
 
-const allChapters = getChaptersByBook(slug!)
+const allChapters = await getChaptersByBook(slug!)
 const idx = allChapters.findIndex((c) => c.number === chapterNumber)
 const prevChapter = idx > 0 ? allChapters[idx - 1] : null
 const nextChapter = idx < allChapters.length - 1 ? allChapters[idx + 1] : null

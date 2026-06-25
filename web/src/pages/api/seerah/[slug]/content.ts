@@ -5,7 +5,11 @@
 // plain SSR endpoint, so static-params generation is dropped (pages, not the
 // API, own getStaticPaths).
 import type { APIRoute } from 'astro'
-import { getSeerahContent } from '@/lib/data/seerah-content'
+// Markdown content read over HTTP from /content-data/ instead of the fs-backed
+// getSeerahContent — that reader's readFileSync over data/seerah & data/history made the
+// Vercel tracer bundle those dirs into this function. getSeerahEventBySlug /
+// getAllHistoryEvents stay on lib/data (small inlined JSON, no fs, build-safe).
+import { getSeerahContentRuntime } from '@/lib/data/runtime-data'
 import { getSeerahEventBySlug } from '@/lib/data/seerah'
 import { getAllHistoryEvents } from '@/lib/data/history'
 
@@ -34,7 +38,7 @@ export const GET: APIRoute = async ({ params }) => {
     return jsonResponse({ error: 'Not found' }, 404)
   }
 
-  const content = getSeerahContent(slug)
+  const content = await getSeerahContentRuntime(slug)
   if (!content) {
     return jsonResponse({ content: null }, 200)
   }

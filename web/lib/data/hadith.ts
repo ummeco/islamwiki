@@ -1,5 +1,6 @@
 import { readFileSync } from 'fs'
 import { join } from 'path'
+import { dataDir } from './data-dir'
 import collectionsData from '@/data/hadith/collections.json'
 import booksData from '@/data/hadith/books.json'
 
@@ -107,7 +108,8 @@ function loadBookData(collectionSlug: string, bookFile: string): HadithData[] {
   if (cached) return cached
 
   try {
-    const filePath = join(process.cwd(), 'data', 'hadith', collectionSlug, bookFile)
+    // dataDir() is tracer-opaque so @vercel/nft does not bundle data/hadith into the function.
+    const filePath = join(dataDir(), 'hadith', collectionSlug, bookFile)
     const raw = readFileSync(filePath, 'utf-8')
     const entries = JSON.parse(raw) as Array<Record<string, unknown>>
 
@@ -219,7 +221,7 @@ const sharhEntriesCache = new Map<string, SharhEntry[]>()
 export function getSharhSources(): SharhSource[] {
   if (sharhSourcesCache) return sharhSourcesCache
   try {
-    const raw = readFileSync(join(process.cwd(), 'data', 'hadith', 'sharh', 'sources.json'), 'utf-8')
+    const raw = readFileSync(join(dataDir(), 'hadith', 'sharh', 'sources.json'), 'utf-8')
     sharhSourcesCache = JSON.parse(raw) as SharhSource[]
     return sharhSourcesCache
   } catch {
@@ -242,7 +244,7 @@ function getIwIdReverseMap(): Map<string, { collection: string; cn: number }> {
   if (iwIdReverseMap) return iwIdReverseMap
   iwIdReverseMap = new Map()
   try {
-    const raw = readFileSync(join(process.cwd(), 'data', 'hadith', 'all', 'iw-id-map.json'), 'utf-8')
+    const raw = readFileSync(join(dataDir(), 'hadith', 'all', 'iw-id-map.json'), 'utf-8')
     const forwardMap = JSON.parse(raw) as Record<string, string>
     for (const [key, iwId] of Object.entries(forwardMap)) {
       const colonIdx = key.lastIndexOf(':')
@@ -291,7 +293,7 @@ export function getSharhForHadith(collectionSlug: string, bookN: number, hadithN
   let entries = sharhEntriesCache.get(cacheKey)
   if (!entries) {
     try {
-      const filePath = join(process.cwd(), 'data', 'hadith', 'sharh', 'entries', `${cacheKey}.json`)
+      const filePath = join(dataDir(), 'hadith', 'sharh', 'entries', `${cacheKey}.json`)
       const raw = readFileSync(filePath, 'utf-8')
       entries = JSON.parse(raw) as SharhEntry[]
       sharhEntriesCache.set(cacheKey, entries)
