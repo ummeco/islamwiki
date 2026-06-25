@@ -54,6 +54,14 @@ export function setRuntimeContentBase(origin: string): void {
 }
 
 function contentBaseUrl(): string {
+  // CONTENT_CDN_URL (Cloudflare R2 public origin) is preferred: a DIFFERENT origin
+  // than islam.wiki, so the serverless function does not self-fetch its own domain
+  // (Vercel blocks function→own-domain with 403). All /content-data is mirrored to R2.
+  const cdn =
+    (import.meta.env.CONTENT_CDN_URL as string | undefined) ??
+    process.env.CONTENT_CDN_URL
+  if (cdn) return cdn.replace(/\/$/, '')
+
   const vercelProdUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
   const vercelUrl = process.env.VERCEL_URL
   const site =
@@ -74,7 +82,6 @@ function contentUrl(relPath: string): string {
 
 // ── Generic cached JSON fetch ────────────────────────────────────────────────
 const jsonCache = new Map<string, unknown>()
-const missCache = new Set<string>()
 
 /**
  * Public: fetch an arbitrary content JSON file by its path under data/ (e.g.
@@ -86,14 +93,14 @@ export async function fetchContentJson<T>(relPath: string): Promise<T | null> {
 }
 
 async function fetchJson<T>(relPath: string): Promise<T | null> {
-  if (missCache.has(relPath)) return null
   if (jsonCache.has(relPath)) return jsonCache.get(relPath) as T
+  // NOTE: misses are intentionally NOT cached — a transient failure (cold origin,
+  // propagation lag) must not permanently poison a warm function instance.
   const url = contentUrl(relPath)
   try {
     const res = await fetch(url)
     if (!res.ok) {
       console.error('[content-fetch-fail]', url, `status ${res.status}`)
-      missCache.add(relPath)
       return null
     }
     const data = (await res.json()) as T
@@ -101,7 +108,6 @@ async function fetchJson<T>(relPath: string): Promise<T | null> {
     return data
   } catch (err) {
     console.error('[content-fetch-fail]', url, String(err))
-    missCache.add(relPath)
     return null
   }
 }
