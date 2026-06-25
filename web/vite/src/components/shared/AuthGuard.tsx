@@ -134,7 +134,7 @@ export default function AuthGuard({ children, requiredRole = 'contributor' }: Au
             Your account ({authState.role}) does not have the {requiredRole} role
             required to access this page.
           </p>
-          <a href="/" className="text-brand-mid hover:text-brand-dark underline">
+          <a href="/" className="text-brand-on-light hover:text-brand-dark underline">
             Return to Islam.wiki
           </a>
         </div>

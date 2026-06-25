@@ -1,4 +1,7 @@
 # S05-12: Consent Banner Presence Gate — islamwiki/web
+# Post Next->Astro migration (D-P2-STACK-CANON): the consent banner is rendered
+# from the Astro base layout (src/layouts/Base.astro) via the ConsentBannerIsland
+# React island, which wraps @ummat/consent's ConsentProvider + CookieBanner.
 
 name: Consent Banner Gate
 
@@ -6,10 +9,12 @@ on:
   push:
     branches: [main]
     paths:
-      - 'web/app/layout.tsx'
+      - 'web/src/layouts/Base.astro'
+      - 'web/src/components/consent/**'
   pull_request:
     paths:
-      - 'web/app/layout.tsx'
+      - 'web/src/layouts/Base.astro'
+      - 'web/src/components/consent/**'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -23,25 +28,39 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Check ConsentProvider in root layout
+      - name: Check consent banner in base layout
         run: |
-          LAYOUT="web/app/layout.tsx"
-          if [ ! -f "$LAYOUT" ]; then
-            echo "::error::Root layout not found at $LAYOUT"
-            exit 1
-          fi
-          if ! grep -q "ConsentProvider" "$LAYOUT"; then
-            echo "::error file=$LAYOUT::[islamwiki] Root layout missing ConsentProvider."
-            exit 1
-          fi
-          echo "✓ ConsentProvider present"
+          LAYOUT="web/src/layouts/Base.astro"
+          ISLAND="web/src/components/consent/ConsentBannerIsland.tsx"
 
+          if [ ! -f "$LAYOUT" ]; then
+            echo "::error::Base layout not found at $LAYOUT"
+            exit 1
+          fi
+          if ! grep -q "ConsentBannerIsland" "$LAYOUT"; then
+            echo "::error file=$LAYOUT::[islamwiki] Base layout does not render <ConsentBannerIsland>."
+            exit 1
+          fi
+          echo "✓ ConsentBannerIsland rendered in base layout"
+
+          if [ ! -f "$ISLAND" ]; then
+            echo "::error::Consent banner island not found at $ISLAND"
+            exit 1
+          fi
+          if ! grep -q "ConsentProvider" "$ISLAND"; then
+            echo "::error file=$ISLAND::[islamwiki] Consent island missing ConsentProvider."
+            exit 1
+          fi
+          if ! grep -q "CookieBanner" "$ISLAND"; then
+            echo "::error file=$ISLAND::[islamwiki] Consent island missing CookieBanner."
+            exit 1
+          fi
+          echo "✓ ConsentProvider + CookieBanner present in consent island"
+
+          # Umami is the cookieless, GDPR-safe variant (D-P3-21) — loaded as a plain
+          # script in the layout head with no cookies, so it does not require consent
+          # gating. If a cookie-setting analytics script is ever added, it must be
+          # wrapped in <ConsentGatedScript category="analytics">.
           if grep -qiE 'src=.*umami' "$LAYOUT"; then
-            if ! grep -q "ConsentGatedScript" "$LAYOUT"; then
-              echo "::error file=$LAYOUT::[islamwiki] Unconditional Umami script. Use <ConsentGatedScript category=\"analytics\">."
-              exit 1
-            fi
-            echo "✓ Umami script is consent-gated"
-          else
-            echo "✓ No unconditional Umami script"
+            echo "✓ Umami present (cookieless variant — no consent gate required)"
           fi

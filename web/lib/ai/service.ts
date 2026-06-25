@@ -16,7 +16,6 @@ import 'server-only'
  * use XML-isolated field passing per islamwiki AI pipeline isolation doc.
  */
 
-// eslint-disable-next-line no-restricted-imports
 import Anthropic from '@anthropic-ai/sdk'
 import { isNselfAiAvailable, nselfAiChat } from './nself-ai-client'
 

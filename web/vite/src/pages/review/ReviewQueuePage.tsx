@@ -65,7 +65,7 @@ export default function ReviewQueuePage() {
         <button
           type="button"
           onClick={() => reexecuteQuery({ requestPolicy: 'network-only' })}
-          className="text-sm text-brand-mid hover:text-brand-dark"
+          className="text-sm text-brand-on-light hover:text-brand-dark"
         >
           Refresh
         </button>

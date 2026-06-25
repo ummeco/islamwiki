@@ -50,7 +50,6 @@ export default function ChapterLangTabsIsland({
     if (langParam && available.includes(langParam)) {
       setActiveLang(langParam)
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   function switchLang(lang: Lang) {

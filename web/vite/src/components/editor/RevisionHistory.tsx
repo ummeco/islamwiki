@@ -82,7 +82,7 @@ export default function RevisionHistory({ articleId }: RevisionHistoryProps) {
                         onClick={() =>
                           setDiffPair(diffPair?.[0].id === revision.id ? null : [revision, prev])
                         }
-                        className="text-xs text-brand-mid hover:text-brand-dark shrink-0"
+                        className="text-xs text-brand-on-light hover:text-brand-dark shrink-0"
                       >
                         {diffPair?.[0].id === revision.id ? 'Hide diff' : 'Diff'}
                       </button>

@@ -71,7 +71,6 @@ export async function searchBooks(
 
   const res = await fetch(`/api/search?${params.toString()}`, {
     headers: { Accept: 'application/json' },
-    next: { revalidate: 60 },
   })
 
   if (!res.ok) {

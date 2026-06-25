@@ -173,7 +173,7 @@ export default function EditPage({ slug }: EditPageProps) {
               href={`https://islam.wiki/wiki/${article.slug}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm text-brand-mid hover:text-brand-dark"
+              className="text-sm text-brand-on-light hover:text-brand-dark"
             >
               View published →
             </a>

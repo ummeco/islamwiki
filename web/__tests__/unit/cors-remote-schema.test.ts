@@ -6,14 +6,17 @@
  */
 
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
+import type { OPTIONS } from '@/src/pages/api/graphql'
 
 // Web-standard Request replaces next/server's NextRequest (next removed in P2).
-// The Astro API handler receives a standard Request via context.request.
+// The Astro API handler receives the request via the APIContext object ({ request }).
 function makeOptions(origin: string) {
-  return new Request('http://localhost/api/graphql', {
+  const request = new Request('http://localhost/api/graphql', {
     method: 'OPTIONS',
     headers: { Origin: origin },
   })
+  // Minimal Astro APIContext stub — the OPTIONS handler only reads `request`.
+  return { request } as Parameters<typeof OPTIONS>[0]
 }
 
 describe('OPTIONS /api/graphql — CORS preflight (Islam.wiki)', () => {
@@ -27,14 +30,14 @@ describe('OPTIONS /api/graphql — CORS preflight (Islam.wiki)', () => {
   })
 
   it('returns 204 with correct origin for prod Hasura (api.ummat.dev)', async () => {
-    const { OPTIONS } = await import('../../app/api/graphql/route')
+    const { OPTIONS } = await import('@/src/pages/api/graphql')
     const res = await OPTIONS(makeOptions('https://api.ummat.dev'))
     expect(res.status).toBe(204)
     expect(res.headers.get('Access-Control-Allow-Origin')).toBe('https://api.ummat.dev')
   })
 
   it('returns 204 with correct origin for local dev (api.islamwiki.local.nself.org:8543)', async () => {
-    const { OPTIONS } = await import('../../app/api/graphql/route')
+    const { OPTIONS } = await import('@/src/pages/api/graphql')
     const res = await OPTIONS(makeOptions('https://api.islamwiki.local.nself.org:8543'))
     expect(res.status).toBe(204)
     expect(res.headers.get('Access-Control-Allow-Origin')).toBe(
@@ -43,7 +46,7 @@ describe('OPTIONS /api/graphql — CORS preflight (Islam.wiki)', () => {
   })
 
   it('returns no ACAO header for unknown origin', async () => {
-    const { OPTIONS } = await import('../../app/api/graphql/route')
+    const { OPTIONS } = await import('@/src/pages/api/graphql')
     const res = await OPTIONS(makeOptions('https://evil.example.com'))
     expect(res.status).toBe(204)
     expect(res.headers.get('Access-Control-Allow-Origin')).toBeNull()
@@ -51,14 +54,14 @@ describe('OPTIONS /api/graphql — CORS preflight (Islam.wiki)', () => {
 
   it('returns no ACAO header for browser (islam.wiki app origin)', async () => {
     // RS endpoint is Hasura-to-Next — not called from the browser
-    const { OPTIONS } = await import('../../app/api/graphql/route')
+    const { OPTIONS } = await import('@/src/pages/api/graphql')
     const res = await OPTIONS(makeOptions('https://islam.wiki'))
     expect(res.status).toBe(204)
     expect(res.headers.get('Access-Control-Allow-Origin')).toBeNull()
   })
 
   it('allowed headers do NOT include x-hasura-admin-secret', async () => {
-    const { OPTIONS } = await import('../../app/api/graphql/route')
+    const { OPTIONS } = await import('@/src/pages/api/graphql')
     const res = await OPTIONS(makeOptions('https://api.ummat.dev'))
     const headers = res.headers.get('Access-Control-Allow-Headers') ?? ''
     expect(headers.toLowerCase()).not.toContain('admin-secret')
@@ -66,7 +69,7 @@ describe('OPTIONS /api/graphql — CORS preflight (Islam.wiki)', () => {
   })
 
   it('allowed methods are POST and OPTIONS only', async () => {
-    const { OPTIONS } = await import('../../app/api/graphql/route')
+    const { OPTIONS } = await import('@/src/pages/api/graphql')
     const res = await OPTIONS(makeOptions('https://api.ummat.dev'))
     const methods = res.headers.get('Access-Control-Allow-Methods') ?? ''
     expect(methods).toContain('POST')

@@ -53,7 +53,9 @@ jobs:
         id: audit
         continue-on-error: true
         run: |
-          pnpm audit --audit-level=high --json > audit-report.json 2>&1 || true
+          # Capture only stdout (the JSON report) — stderr would pollute the JSON and
+          # break the parser, silently passing the gate.
+          pnpm audit --audit-level=high --json > audit-report.json 2>/dev/null || true
 
       - name: Filter allowlist and check for violations
         id: check

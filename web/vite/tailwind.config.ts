@@ -14,6 +14,9 @@ const config: Config = {
         brand: {
           light: '#C9F27A',
           mid: '#79C24C',
+          // on-light: WCAG 2.2 AA-compliant green for text on white/light surfaces
+          // (>=7.38:1). Replaces text-brand-mid (2.18:1) for body/link text. C-09a-FIX-01.
+          'on-light': '#1E5E2F',
           dark: '#1E5E2F',
           deep: '#0D2F17',
         },

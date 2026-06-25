@@ -66,7 +66,6 @@ export default defineConfig({
     }),
   ],
   vite: {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     plugins: [tailwindcss()],
     build: {
       // @astrojs/react v5 destructuring params can't lower to legacy targets.

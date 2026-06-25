@@ -56,7 +56,6 @@ export function getRateLimitAdapter(): RateLimitAdapter {
   if (process.env.REDIS_URL) {
     try {
       // ioredis is an optional dep — loaded only when REDIS_URL is present
-      // eslint-disable-next-line @typescript-eslint/no-require-imports
       const { RedisRateLimitAdapter } = require('./rate-limit-redis')
       _adapter = new RedisRateLimitAdapter(process.env.REDIS_URL)
     } catch {

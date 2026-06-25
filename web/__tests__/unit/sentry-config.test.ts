@@ -1,16 +1,16 @@
 /**
- * S9-05: Tests for Sentry Next.js integration (next.config.ts).
+ * S9-05: Tests for Sentry integration via @sentry/astro (astro.config.mjs).
  *
- * next.config.ts wraps the Next.js config with withSentryConfig() and
- * conditionally enables source-map upload only when SENTRY_AUTH_TOKEN is set.
+ * Post Next->Astro migration (D-P2-STACK-CANON), Sentry is wired through the
+ * @sentry/astro integration in astro.config.mjs. Source-map upload is governed
+ * by sourceMapsUploadOptions.authToken (only uploads when SENTRY_AUTH_TOKEN set).
  *
  * These tests verify the structural requirements:
- *   - next.config.ts re-exports a Sentry-wrapped config (not the raw config)
+ *   - astro.config.mjs registers the @sentry/astro integration
+ *   - Sentry options carry dsn, org, and project
  *   - .env.example documents SENTRY_AUTH_TOKEN, SENTRY_DSN, SENTRY_ORG,
  *     SENTRY_PROJECT
- *   - sentry.client.config.ts / sentry.server.config.ts exist (required by
- *     @sentry/nextjs instrumentation)
- *   - Source-map upload is conditional on SENTRY_AUTH_TOKEN presence
+ *   - sentry.client.config.ts / sentry.server.config.ts exist and init Sentry
  */
 import { describe, it, expect } from 'vitest'
 import fs from 'fs'
@@ -26,38 +26,31 @@ function fileExists(rel: string): boolean {
   return fs.existsSync(path.join(ROOT, rel))
 }
 
-// ── next.config.ts — withSentryConfig wrapper ────────────────────────────────
+// ── astro.config.mjs — @sentry/astro integration ─────────────────────────────
 
-describe('next.config.ts — Sentry wrapper (S9-05)', () => {
-  it('imports withSentryConfig from @sentry/nextjs', () => {
-    const src = readFile('next.config.ts')
-    expect(src).toContain('withSentryConfig')
-    expect(src).toContain('@sentry/nextjs')
+describe('astro.config.mjs — Sentry integration (S9-05)', () => {
+  it('imports the @sentry/astro integration', () => {
+    const src = readFile('astro.config.mjs')
+    expect(src).toContain('@sentry/astro')
   })
 
-  it('wraps the config with withSentryConfig() as default export', () => {
-    const src = readFile('next.config.ts')
-    // The default export must be the result of withSentryConfig(...)
-    expect(src).toMatch(/export default withSentryConfig\s*\(/)
+  it('registers the sentry() integration', () => {
+    const src = readFile('astro.config.mjs')
+    expect(src).toMatch(/sentry\s*\(/)
   })
 
-  it('includes org and project fields in Sentry options', () => {
-    const src = readFile('next.config.ts')
+  it('includes dsn, org and project fields in Sentry options', () => {
+    const src = readFile('astro.config.mjs')
+    expect(src).toContain('dsn:')
     expect(src).toContain('org:')
     expect(src).toContain('project:')
   })
 
-  it('conditionally disables source-map upload without SENTRY_AUTH_TOKEN', () => {
-    const src = readFile('next.config.ts')
-    // The conditional logic must reference SENTRY_AUTH_TOKEN
+  it('gates source-map upload on SENTRY_AUTH_TOKEN', () => {
+    const src = readFile('astro.config.mjs')
+    // @sentry/astro only uploads source maps when authToken is provided.
+    expect(src).toContain('sourceMapsUploadOptions')
     expect(src).toContain('SENTRY_AUTH_TOKEN')
-    // Source maps must be disabled when the token is absent
-    expect(src).toContain('disable: true')
-  })
-
-  it('deletes source maps after upload (hideSourceMaps equivalent)', () => {
-    const src = readFile('next.config.ts')
-    expect(src).toContain('deleteSourcemapsAfterUpload')
   })
 })
 

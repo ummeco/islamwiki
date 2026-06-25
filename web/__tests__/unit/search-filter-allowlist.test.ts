@@ -3,7 +3,7 @@ import {
   ALLOWED_FILTER_KEYS,
   extractFilterKeys,
   validateFilterKeys,
-} from '@/app/api/search/route'
+} from '@/src/pages/api/search'
 
 // ---------------------------------------------------------------------------
 // extractFilterKeys

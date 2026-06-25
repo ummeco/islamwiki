@@ -17,6 +17,7 @@
  */
 
 import '../styles/global.css'
+import ConsentBannerIsland from '../components/consent/ConsentBannerIsland'
 
 export interface Props {
   title: string
@@ -92,5 +93,9 @@ const umamiId = import.meta.env.PUBLIC_UMAMI_WEBSITE_ID ?? ''
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <slot />
+
+    <!-- GDPR consent banner — ConsentProvider + CookieBanner (S05-12).
+         client:only because @ummat/consent reads browser-only consent storage. -->
+    <ConsentBannerIsland client:only="react" />
   </body>
 </html>

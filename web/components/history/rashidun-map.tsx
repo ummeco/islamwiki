@@ -294,7 +294,6 @@ export function RashidunMap({ events, activeIndex, onEventClick }: RashidunMapPr
       map.remove()
       mapInstanceRef.current = null
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // Redraw routes + active marker on activeIndex change

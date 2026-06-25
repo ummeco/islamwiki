@@ -32,7 +32,6 @@ export function ChapterLangTabs({ contentEn, contentAr, contentId }: ChapterLang
     if (langParam && available.includes(langParam)) {
       setActiveLang(langParam)
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   function switchLang(lang: Lang) {
