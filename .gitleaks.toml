@@ -126,6 +126,10 @@ regexes = [
   '''^\\?\$\{?[A-Z_]+[:\-}]*.*$''',
   # Numbered env-var identifiers compared/deduped in code (e.g. ANTHROPIC_API_KEY_1)
   '''^[A-Z_]+_[0-9]+$''',
+  # Quran reciter identifier literals (public CDN audio-source keys, not secrets),
+  # e.g. 'Alafasy_128kbps', 'Abdul_Basit_Murattal_192kbps', 'Husary_128kbps'
+  # — flagged by generic-api-key due to bitrate-suffix entropy.
+  '''^[A-Z][a-zA-Z_]*_[0-9]+kbps$''',
 ]
 # NOTE: gitleaks `paths` entries are Go REGEXES, not globs. Glob syntax like
 # "**/*.test.ts" is an invalid regex ("missing argument to repetition operator")
