@@ -70,7 +70,7 @@ Requires ummat backend migration 0042 to be applied (included in ummat v0.1.0 re
 
 ## Tag command
 ```
-git -C /Volumes/X9/Sites/ummeco/islamwiki tag v0.1.0 && git -C /Volumes/X9/Sites/ummeco/islamwiki push origin v0.1.0
+git -C /Volumes/UG/Sites/ummeco/islamwiki tag v0.1.0 && git -C /Volumes/UG/Sites/ummeco/islamwiki push origin v0.1.0
 ```
 
 ## gh release create command
@@ -78,5 +78,5 @@ git -C /Volumes/X9/Sites/ummeco/islamwiki tag v0.1.0 && git -C /Volumes/X9/Sites
 gh release create v0.1.0 \
   --repo ummeco/islamwiki \
   --title "islamwiki v0.1.0" \
-  --notes-file /Volumes/X9/Sites/ummeco/islamwiki/.github/wiki/releases/release-islamwiki-v0.1.0-2026-04-27.md
+  --notes-file /Volumes/UG/Sites/ummeco/islamwiki/.github/wiki/releases/release-islamwiki-v0.1.0-2026-04-27.md
 ```
