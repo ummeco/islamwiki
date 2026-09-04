@@ -53,22 +53,72 @@ jobs:
         id: audit
         continue-on-error: true
         run: |
-          # Capture only stdout (the JSON report) — stderr would pollute the JSON and
-          # break the parser, silently passing the gate.
-          pnpm audit --audit-level=high --json > audit-report.json 2>/dev/null || true
+          # `pnpm audit --json` posts the dependency tree to the npm advisory
+          # API. When that API is slow the command exits non-zero with a
+          # transport error (ERR_SOCKET_TIMEOUT etc.), same failure mode
+          # documented in .github/scripts/pnpm-audit-gate.sh (chatislam/praycalc).
+          # A bare command turns that registry blip into a red security gate —
+          # islamwiki's own history shows it: red on 08-31/09-01/09-02/09-03,
+          # green on 09-04, all on commit b689b9e with zero dependency changes.
+          #
+          # Only retry on RECOGNISED transport errors. A real advisory result
+          # (exit 0 with findings, or a non-transport error) is never retried —
+          # retrying would risk masking a genuine finding as a fluke.
+          # Capture stderr into a separate file so the retry/transient check can
+          # see it, without letting it pollute the JSON report stdout captures.
+          TRANSIENT='ERR_SOCKET_TIMEOUT|ERR_PNPM_META_FETCH_FAIL|Socket timeout|socket hang up|ECONNRESET|ECONNREFUSED|ETIMEDOUT|EAI_AGAIN|ENOTFOUND|FetchError|network timeout|502 Bad Gateway|503 Service|504 Gateway'
+          ATTEMPTS=5
+          success=0
+          for attempt in $(seq 1 "$ATTEMPTS"); do
+            if pnpm audit --audit-level=high --json > audit-report.json 2>audit-stderr.log; then
+              success=1
+              break
+            fi
+            if grep -qE "$TRANSIENT" audit-stderr.log; then
+              echo "pnpm-audit: transport error on attempt ${attempt}/${ATTEMPTS}; retrying"
+              grep -E "$TRANSIENT" audit-stderr.log | head -3
+              [ "$attempt" -lt "$ATTEMPTS" ] && sleep $((attempt * 15))
+              continue
+            fi
+            # pnpm audit exits non-zero on findings at/above --audit-level too —
+            # that is a real result (JSON is still on stdout), not a transport
+            # failure, so stop retrying and let the JSON parser evaluate it.
+            success=1
+            break
+          done
+          cat audit-stderr.log >&2 || true
+          if [ "$success" -ne 1 ]; then
+            echo "pnpm-audit: could not reach the npm advisory API after ${ATTEMPTS} attempts."
+            echo "audit_unreachable=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "audit_unreachable=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Filter allowlist and check for violations
         id: check
+        env:
+          AUDIT_UNREACHABLE: ${{ steps.audit.outputs.audit_unreachable }}
         run: |
           node - <<'JS'
           const fs = require('fs');
+
+          // Failing closed: the tree was never verified, so this is not a
+          // clean result. An empty/missing/unparseable report must FAIL the
+          // gate, not pass it — a parser that treats "no data" as "no
+          // vulnerabilities" is a gate that learned nothing and passes anyway.
+          if (process.env.AUDIT_UNREACHABLE === 'true') {
+            console.error('pnpm-audit: npm advisory API was unreachable after retries.');
+            console.error('Failing closed: the dependency tree was NOT verified. Re-run the job.');
+            process.exit(1);
+          }
 
           let report;
           try {
             report = JSON.parse(fs.readFileSync('audit-report.json', 'utf8'));
           } catch (e) {
-            console.log('No audit report found or parse error:', e.message);
-            process.exit(0);
+            console.error('pnpm-audit: audit-report.json missing or unparseable:', e.message);
+            console.error('Failing closed: the dependency tree was NOT verified. Re-run the job.');
+            process.exit(1);
           }
 
           let allowlist = {};
