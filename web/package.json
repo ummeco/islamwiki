@@ -96,19 +96,29 @@
     "overrides": {
       "@grpc/grpc-js": ">=1.14.4 <2",
       "@opentelemetry/exporter-prometheus": ">=0.217.0",
+      "@opentelemetry/propagator-jaeger": ">=2.9.0 <3",
       "@opentelemetry/sdk-node": ">=0.217.0",
+      "brace-expansion@1": "1.1.18",
+      "brace-expansion@2": "2.1.4",
+      "brace-expansion@5": "5.0.9",
+      "browserslist": ">=4.28.7 <5",
       "esbuild": ">=0.28.1 <1",
-      "fast-uri": ">=3.1.2 <4",
+      "fast-uri": ">=3.1.6 <4",
       "flatted": ">=3.4.2",
-      "picomatch": ">=4.0.4",
-      "postcss": ">=8.5.14",
-      "serialize-javascript": ">=7.0.3",
-      "vite": "^6.4.3",
-      "ws": ">=8.21.0",
-      "protobufjs": ">=7.6.1",
-      "undici": ">=7.28.0 <8",
+      "html-encoding-sniffer": "4.0.0",
+      "js-yaml": ">=4.3.1 <5",
       "jsdom": "26.1.0",
-      "html-encoding-sniffer": "4.0.0"
+      "nanoid@3": "3.3.18",
+      "picomatch": ">=4.0.4",
+      "postcss": ">=8.5.18 <9",
+      "protobufjs": ">=7.6.1",
+      "serialize-javascript": ">=7.0.3",
+      "sharp": ">=0.35.0 <0.36",
+      "svgo": ">=4.0.2 <5",
+      "tar": ">=7.5.21 <8",
+      "undici": ">=7.28.0 <8",
+      "vite": "^6.4.3",
+      "ws": ">=8.21.0"
     }
   }
 }
