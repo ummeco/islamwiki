@@ -1,11 +1,12 @@
 // FILE: astro.config.mjs
-// PURPOSE: Astro 5 SSR configuration for islam.wiki (Islamic knowledge base).
+// PURPOSE: Astro 6 SSR configuration for islam.wiki (Islamic knowledge base).
 //
 // Stack decision: D-P2-STACK-CANON — Astro for content/SEO, React islands for
 // interactive auth/edit widgets via client:load. Ports the Next.js 15 app.
 //
 // CONSTRAINTS:
-//   - output: 'server' (SSR) via @astrojs/vercel/serverless adapter.
+//   - output: 'server' (SSR) via the @astrojs/vercel adapter (v10; the /serverless
+//     subpath was collapsed into the root export in v8).
 //   - React 19 islands via @astrojs/react.
 //   - Tailwind v4 via @tailwindcss/vite (NOT @astrojs/tailwind — v4 is a Vite plugin).
 //   - Slug→numeric surah redirects ported from next.config.ts (data/quran/surahs.json).
@@ -15,10 +16,13 @@
 
 import { defineConfig } from 'astro/config'
 import react from '@astrojs/react'
-import vercel from '@astrojs/vercel/serverless'
+// @astrojs/vercel v8 collapsed the /serverless and /static entrypoints into a
+// single root export; the subpath no longer exists in the package's exports map.
+import vercel from '@astrojs/vercel'
 import sitemap from '@astrojs/sitemap'
 import sentry from '@sentry/astro'
 import tailwindcss from '@tailwindcss/vite'
+import { defaultServerConditions } from 'vite'
 
 import { createRequire } from 'node:module'
 import { cp, mkdir, readdir, writeFile, stat } from 'node:fs/promises'
@@ -107,6 +111,67 @@ function copyContentData() {
   }
 }
 
+/**
+ * serverOnlyResolution — Vite plugin that applies the `server-only` guard's own
+ * `react-server` export condition to EVERY server-side Vite environment.
+ *
+ * WHY THIS EXISTS (Astro 6 regression):
+ *   `import 'server-only'` is the RSC marker used across lib/** (hasura-admin, auth,
+ *   oauth, admin-guard, data/*, contributor/*). The package exports a no-op `empty.js`
+ *   under the `react-server` condition and a module that THROWS on load under any other.
+ *   That throw is the guard: an island that reaches an admin-secret module drags the
+ *   throwing index.js into its client chunk, so the island dies loudly on first load
+ *   instead of the secret quietly shipping. (Verified by experiment, 2026-09-04: adding
+ *   `import '../../../lib/hasura-admin'` to SearchInput.tsx put the throw into
+ *   dist/client/_astro/SearchInput.*.js. Note it is a load-time throw in the browser,
+ *   NOT a build-time error — the build stays green. Same before and after this change.)
+ *
+ *   Astro 5 had a single server Vite environment, so the `vite.ssr.noExternal` +
+ *   `vite.ssr.resolve.conditions` block below covered the whole server build.
+ *   Astro 6 splits the server build into TWO Vite environments — `ssr` and a separate
+ *   `prerender` one (output: dist/server/.prerender/). Vite backfills the top-level
+ *   `ssr.*` shorthand into the `ssr` environment ONLY, so the prerender pass reverted to
+ *   defaults: `server-only` stayed external, and Node's own CJS resolver (which has no
+ *   `react-server` condition) loaded the throwing index.js while generating pages.
+ *   Astro's own source calls this out in core/constants.ts: "If your plugin runs in
+ *   ASTRO_VITE_ENVIRONMENT_NAMES.ssr, you might want to add ...prerender too."
+ *
+ *   Declaring `vite.environments.prerender.resolve` in this config does NOT work:
+ *   Astro's createViteBuildConfig() spreads the user `environments` and then reassigns
+ *   `environments.prerender` wholesale to its own `{ build }` object, dropping any
+ *   sibling `resolve`. The `configEnvironment` plugin hook runs later, during Vite's
+ *   config resolution, and its return value is merged in — so it survives.
+ *
+ * WHAT THIS DOES NOT DO: it never touches the `client` environment, so a client island
+ *   that reaches one of the guarded libs still resolves `server-only` to the throwing
+ *   index.js exactly as it did on Astro 5. The admin-secret boundary is unchanged; this
+ *   only grants the SERVER environments the resolution the package already ships for
+ *   them. Do NOT "fix" a future recurrence by aliasing server-only to an empty module
+ *   globally (the way vitest.config.ts does for tests) — that would delete the guard on
+ *   the one side it actually protects.
+ */
+const SERVER_ENVIRONMENTS = new Set(['ssr', 'prerender', 'astro'])
+
+function serverOnlyResolution() {
+  return {
+    name: 'islamwiki:server-only-resolution',
+    configEnvironment(name) {
+      // Astro's server-side environments (core/constants.ts ASTRO_VITE_ENVIRONMENT_NAMES):
+      // `ssr` (the deployed server bundle), `prerender` (the static-generation pass) and
+      // `astro` (the runnable dev variant of ssr). `client` is deliberately excluded — see
+      // the WHAT THIS DOES NOT DO note above. Matching on the name rather than
+      // `config.consumer` is required: consumer is not resolved yet when this hook runs.
+      if (!SERVER_ENVIRONMENTS.has(name)) return
+      return {
+        resolve: {
+          conditions: ['react-server', ...defaultServerConditions],
+          noExternal: ['server-only'],
+        },
+      }
+    },
+  }
+}
+
 // Slug-based URLs redirect to canonical numeric URLs: /quran/al-baqarah → /quran/2
 // Ported verbatim from next.config.ts redirects(). 114 surahs × 2 patterns = 228 entries.
 const surahs = require('./data/quran/surahs.json')
@@ -157,7 +222,7 @@ export default defineConfig({
     }),
   ],
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss(), serverOnlyResolution()],
     build: {
       // @astrojs/react v5 destructuring params can't lower to legacy targets.
       target: 'es2022',
@@ -184,12 +249,12 @@ export default defineConfig({
       // libs. We force Vite to BUNDLE server-only into the SSR output (noExternal) and apply
       // the `react-server` condition (ssr.resolve) so it inlines the no-op empty.js — exactly
       // as Next.js does for Server Components. Without noExternal, Node's own CJS resolver
-      // loads the default (throwing) index.js at prerender time. The CLIENT build gets neither
-      // setting: if any island imported a server-only lib at runtime, the client build would
-      // still throw at build time, preserving the admin-secret boundary. Secrets stay server-only.
+      // loads the default (throwing) index.js. On Astro 6 this block reaches the `ssr`
+      // environment ONLY — see serverOnlyResolution() above, which extends it to the
+      // separate `prerender` environment where the static-generation pass actually runs.
       noExternal: ['server-only'],
       resolve: {
-        conditions: ['react-server'],
+        conditions: ['react-server', ...defaultServerConditions],
       },
     },
   },
