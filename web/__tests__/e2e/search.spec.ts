@@ -52,19 +52,21 @@ test.describe('Search', () => {
   // See the note above: the clear button is part of the /search island. Unlike the
   // dropdown it needs no search backend — it renders purely off React state
   // (`{query && <button aria-label="Clear search">}`), so it works without
-  // Meilisearch. It does need the island to be HYDRATED first: locator.fill()
-  // sets the DOM value and dispatches an event, but if client:load hydration has
-  // not run yet React never sees it, `query` stays empty and the button is never
-  // rendered. Wait for the network to settle, then type real keystrokes.
+  // Meilisearch. It does need the island to be HYDRATED: fill() sets the DOM value
+  // and dispatches an event, but until client:load hydration runs React never sees
+  // it, `query` stays empty and the button is never rendered.
+  //
+  // Do NOT wait for 'networkidle' here — `astro dev` holds an open Vite HMR
+  // websocket, so the network never goes idle and the wait burns the timeout.
+  // Type real keystrokes and let the assertion's own timeout cover hydration.
   test('clear button removes query', async ({ page }) => {
     await page.goto('/search')
-    await page.waitForLoadState('networkidle')
     const searchInput = page.locator('input[placeholder*="Search"]').first()
     await searchInput.click()
     await searchInput.pressSequentially('quran', { delay: 30 })
-    // Clear button should appear
+    // Clear button should appear once the island is interactive.
     const clearBtn = page.locator('button[aria-label="Clear search"]').first()
-    await expect(clearBtn).toBeVisible({ timeout: 10000 })
+    await expect(clearBtn).toBeVisible({ timeout: 15000 })
     await clearBtn.click()
     await expect(searchInput).toHaveValue('')
   })

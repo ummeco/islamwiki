@@ -79,6 +79,32 @@ function getTrustLevelFromRole(role: string | undefined): number {
 }
 
 function buildCsp(nonce: string): string {
+  // DEV: `astro dev` serves Vite's own client runtime (@vite/client, HMR,
+  // astro:scripts/page.js, the dev toolbar) as inline + module scripts that
+  // carry no nonce. Under the production policy below those are all blocked,
+  // and because 'strict-dynamic' is present the browser ignores host/inline
+  // allowances entirely — so NOTHING loads, no island ever hydrates, and every
+  // client:load component is inert. That made local development islandless and
+  // made e2e tests of any interactive component impossible against the dev
+  // server (they saw server-rendered markup that never became interactive).
+  //
+  // So in dev we drop 'strict-dynamic' (required — it would neuter the
+  // allowances below) and permit inline/eval, which Vite's HMR needs, plus the
+  // localhost websocket. Production is completely unchanged: still nonce-based
+  // with 'strict-dynamic' and no unsafe-inline / unsafe-eval anywhere.
+  if (import.meta.env.DEV) {
+    return [
+      "default-src 'self'",
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+      "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+      "img-src 'self' data: blob:",
+      'media-src https://everyayah.com https://mp3quran.net',
+      "font-src 'self' data:",
+      "connect-src 'self' ws://localhost:* http://localhost:* https://api.islam.wiki https://everyayah.com https://auth.ummat.dev",
+      "frame-ancestors 'none'",
+    ].join('; ')
+  }
+
   return [
     "default-src 'self'",
     // nonce allows runtime + analytics scripts; no unsafe-eval.
