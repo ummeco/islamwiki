@@ -10,7 +10,14 @@ test.describe('Search', () => {
     await expect(searchInput).toBeVisible()
   })
 
+  // The live dropdown belongs to the <SearchInput> island, which the Astro port
+  // mounts on /search (client:load) — NOT on the home page. index.astro
+  // deliberately replaced the island with a plain GET <form action="/search">,
+  // so the home page has no dropdown and no clear button by design. These two
+  // tests were written against the old Next.js home page and must target
+  // /search, where the island actually lives.
   test('typing a query shows dropdown results', async ({ page }) => {
+    await page.goto('/search')
     const searchInput = page.locator('input[placeholder*="Search"]').first()
     await searchInput.fill('prayer')
     // Wait for debounce + API response
@@ -36,7 +43,9 @@ test.describe('Search', () => {
     await expect(page).toHaveURL(/\/search\?q=Bukhari/i, { timeout: 5000 })
   })
 
+  // See the note above: the clear button is part of the /search island.
   test('clear button removes query', async ({ page }) => {
+    await page.goto('/search')
     const searchInput = page.locator('input[placeholder*="Search"]').first()
     await searchInput.fill('quran')
     await page.waitForTimeout(300)
