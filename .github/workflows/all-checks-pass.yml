@@ -1,9 +1,17 @@
 name: All Checks Pass
 
-# Aggregating gate workflow — branch protection requires the `all-checks-pass` status check.
-# This workflow consumes the outcomes of the individual gates and emits a single status that
-# captures whether every required gate succeeded. CR-C + QA-C may require additional gates;
-# add new dependencies to the `needs` block + reference the status check in branch protection.
+# Aggregating gate workflow — emits a single status summarising every other check
+# run on the same commit.
+#
+# WHY THIS IS NOT A `needs:` BLOCK: `needs:` only works between jobs in the SAME
+# workflow file. The gates this must cover live in other workflows (Islam.wiki CI,
+# Quality Gates, Dependency Security Audit, ...), so the only way to aggregate them
+# is to read the Checks API for this commit.
+#
+# HISTORY: this job used to be a bare `echo "all checks passed"` with no `needs:`
+# and no API call. It reported success unconditionally, including on commits where
+# E2E Tests, Lighthouse CI and axe were all failing. It is the reason a run of main
+# with three failing jobs still looked green.
 
 on:
   pull_request:
@@ -15,15 +23,69 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  checks: read
+  contents: read
+
 jobs:
   all-checks-pass:
     name: all-checks-pass
     runs-on: ubuntu-latest
-    if: always()
+    timeout-minutes: 45
     steps:
-      - name: Verify all required gates have run
-        # NOTE: GitHub branch protection rules consume the *status check name* (job name).
-        # Failed required checks block merge automatically — this job acts as the
-        # canonical aggregation status. Add specific `needs:` once each gate runs in
-        # the same workflow file or use Required Workflows (org-level) to enforce.
-        run: echo "all checks passed"
+      - name: Wait for and aggregate all other check runs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+          SELF: all-checks-pass
+        run: |
+          set -euo pipefail
+
+          # Poll until every check run on this commit other than ourselves has
+          # finished. Settle for a couple of rounds so late-registering jobs are
+          # not missed (matrix legs in particular appear a few seconds apart).
+          settled=0
+          for _ in $(seq 1 80); do
+            runs=$(gh api --paginate \
+              "repos/$REPO/commits/$SHA/check-runs?per_page=100" \
+              --jq ".check_runs[] | select(.name != \"$SELF\") | \"\(.status)\t\(.conclusion // \"-\")\t\(.name)\"")
+
+            pending=$(printf '%s\n' "$runs" | grep -cv '^completed' || true)
+
+            if [ "$pending" -eq 0 ] && [ -n "$runs" ]; then
+              settled=$((settled + 1))
+              [ "$settled" -ge 2 ] && break
+            else
+              settled=0
+            fi
+            sleep 20
+          done
+
+          echo "── Check runs for $SHA ─────────────────────────────"
+          printf '%s\n' "$runs"
+          echo "────────────────────────────────────────────────────"
+
+          if [ -z "$runs" ]; then
+            echo "::error::No sibling check runs found for $SHA — refusing to report success."
+            exit 1
+          fi
+
+          still_running=$(printf '%s\n' "$runs" | grep -v '^completed' || true)
+          if [ -n "$still_running" ]; then
+            echo "::error::Timed out waiting for these checks to finish:"
+            printf '%s\n' "$still_running"
+            exit 1
+          fi
+
+          # `neutral` and `skipped` are accepted; everything else is a failure.
+          bad=$(printf '%s\n' "$runs" \
+            | awk -F'\t' '$2 != "success" && $2 != "neutral" && $2 != "skipped"' || true)
+
+          if [ -n "$bad" ]; then
+            echo "::error::The following checks did not pass:"
+            printf '%s\n' "$bad"
+            exit 1
+          fi
+
+          echo "All $(printf '%s\n' "$runs" | wc -l | tr -d ' ') sibling checks passed."

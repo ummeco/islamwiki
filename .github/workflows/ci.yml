@@ -55,7 +55,12 @@ jobs:
   e2e-tests:
     name: E2E Tests
     runs-on: ubuntu-latest
-    continue-on-error: true # TODO(P2-E5): wire CI services — app needs NEXTAUTH_SECRET + DB to boot
+    # This job is BLOCKING. It previously carried continue-on-error, so it failed
+    # on every run while "Islam.wiki CI" still reported success — the failure was
+    # invisible in `gh run list`. The old comment blamed NEXTAUTH_SECRET + a DB,
+    # but this app is Astro, not Next.js, and needs neither: Playwright's
+    # webServer pointed at `pnpm start` (= `astro preview`), which the
+    # @astrojs/vercel adapter does not implement, so the server never bound.
     strategy:
       matrix:
         node: ['22']
@@ -69,9 +74,8 @@ jobs:
           cache-dependency-path: 'web/pnpm-lock.yaml'
       - run: pnpm install --frozen-lockfile
       - run: pnpm exec playwright install --with-deps chromium
-      - run: pnpm build
-        env:
-          NEXT_PUBLIC_SENTRY_DSN: ''
+      # No `pnpm build` step: Playwright's webServer runs `astro dev`, which does
+      # not read build output. Build validity is covered by the `build` job.
       - run: pnpm test:e2e --project=chromium
         env:
           CI: true

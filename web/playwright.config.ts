@@ -4,7 +4,7 @@ export default defineConfig({
   fullyParallel: true,
   retries: process.env.CI ? 2 : 0,
   use: {
-    baseURL: 'http://localhost:3041',
+    baseURL: 'http://localhost:3040',
     trace: 'on-first-retry',
   },
   projects: [
@@ -24,9 +24,16 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'], viewport: { width: 1280, height: 800 } },
     },
   ],
+  // `pnpm start` (= `astro preview`) CANNOT be used here: the @astrojs/vercel
+  // adapter does not implement the preview command, so the process exits
+  // immediately ("The @astrojs/vercel adapter does not support the preview
+  // command") and Playwright times out waiting for the URL. `astro dev` serves
+  // SSR routes under any adapter, so it is the only way to exercise these
+  // routes locally. Port 3040 matches `pnpm dev`; the previous 3041 came from
+  // the abandoned web/astro/ scaffold and never matched this app.
   webServer: {
-    command: 'pnpm start',
-    url: 'http://localhost:3041',
+    command: 'pnpm dev',
+    url: 'http://localhost:3040',
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
   },

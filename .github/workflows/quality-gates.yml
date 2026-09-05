@@ -17,11 +17,12 @@ concurrency:
 jobs:
   lighthouse:
     name: Lighthouse CI
-    # TODO(P2-E5): wire CI services — lhci needs a running Next.js server + Chromium sandbox.
-    # CHROME_INTERSTITIAL_ERROR fires because the server is not ready before lhci connects.
-    # Port corrected to 3041 (matches pnpm start in package.json).
-    # Re-enable as hard failure (remove continue-on-error) once CI services are wired.
-    continue-on-error: true
+    # This job is BLOCKING. It previously carried continue-on-error, which made the
+    # whole workflow report success while the job failed on every single run —
+    # the failure was invisible in `gh run list`. The underlying cause was not
+    # "CI services need wiring": `pnpm start` is `astro preview`, which the
+    # @astrojs/vercel adapter does not implement, so no server ever bound.
+    # lighthouserc.cjs now uses staticDistDir instead of starting a server.
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -53,10 +54,12 @@ jobs:
 
   axe:
     name: axe WCAG 2.1 AA
-    # TODO(P2-E5): wire CI services — axe wait-on times out because pnpm start requires env vars
-    # (NEXTAUTH_SECRET etc.) that are not available without CI services.
-    # Re-enable as hard failure (remove continue-on-error) once CI services are wired.
-    continue-on-error: true
+    # This job is BLOCKING. It previously carried continue-on-error and failed on
+    # every run while the workflow still reported success. The old comment blamed
+    # missing NEXTAUTH_SECRET, but this app is Astro, not Next.js — wait-on timed
+    # out because `pnpm start` (= `astro preview`) is unsupported by the
+    # @astrojs/vercel adapter and exited instantly, on a port (3041) that belonged
+    # to the abandoned web/astro/ scaffold rather than to this app.
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -76,11 +79,15 @@ jobs:
       - name: Build
         working-directory: web
         run: pnpm build
+      # `astro dev`, NOT `astro preview` — the Vercel adapter has no preview
+      # command, so `pnpm start` exits immediately and wait-on always times out.
+      # The dev server serves SSR routes under any adapter. Port 3040 matches
+      # `pnpm dev` in web/package.json.
       - name: Start dev server
         working-directory: web
-        run: pnpm start &
+        run: pnpm dev &
       - name: Wait for server
-        run: npx wait-on http://localhost:3041 -t 60000
+        run: npx wait-on http://localhost:3040 -t 120000
       # @axe-core/cli bundles a `chromedriver` pinned to the latest Chrome stable,
       # which drifts out of sync with the runner's installed Chrome. When they
       # disagree the session comes up broken and axe fails with
@@ -101,7 +108,7 @@ jobs:
         working-directory: web
         run: |
           axe \
-            http://localhost:3041 \
+            http://localhost:3040 \
             --exit \
             --tags wcag2a,wcag2aa,wcag21a,wcag21aa \
             --chromedriver-path /usr/local/bin/chromedriver \
