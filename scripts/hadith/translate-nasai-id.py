@@ -16,6 +16,24 @@ import urllib.error
 
 DATA_DIR = "/Users/admin/Sites/ummeco/islamwiki/web/data/hadith/nasai"
 
+# Placeholder for the ﷺ symbol — protects it from being mangled by the
+# translation API (observed corrupting it to the U+262F yin-yang glyph ☯).
+PBUH_PLACEHOLDER = "PBUH_SYMBOL"
+
+
+def protect_pbuh(text: str) -> str:
+    """Replace ﷺ with a plain-ASCII placeholder before sending to the API."""
+    return text.replace("ﷺ", PBUH_PLACEHOLDER) if text else text
+
+
+def restore_pbuh(text: str) -> str:
+    """Restore ﷺ from the placeholder after translation, tolerating case drift."""
+    if not text:
+        return text
+    for variant in (PBUH_PLACEHOLDER, PBUH_PLACEHOLDER.title(), PBUH_PLACEHOLDER.lower()):
+        text = text.replace(variant, "ﷺ")
+    return text
+
 
 def get_api_key():
     key = os.environ.get("ANTHROPIC_API_KEY", "")
@@ -122,7 +140,7 @@ def process_file(filepath: str, api_key: str, batch_size: int = 10):
     total = len(data)
     print(f"  {total} hadiths", end="", flush=True)
 
-    texts = [h.get("iwh_en", "") for h in data]
+    texts = [protect_pbuh(h.get("iwh_en", "")) for h in data]
 
     all_translations = []
     for start in range(0, total, batch_size):
@@ -150,7 +168,7 @@ def process_file(filepath: str, api_key: str, batch_size: int = 10):
     for i, hadith in enumerate(data):
         translation = all_translations[i] if i < len(all_translations) else ""
         if translation:
-            hadith["iwh_id"] = translation
+            hadith["iwh_id"] = restore_pbuh(translation)
             modified += 1
 
     print(f" [{modified} translated]")
