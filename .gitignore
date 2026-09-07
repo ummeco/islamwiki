@@ -84,3 +84,7 @@ AGENTS.md
 desktop.ini
 *~
 ehthumbs.db
+
+# Python bytecode (translation scripts under scripts/)
+__pycache__/
+*.pyc
