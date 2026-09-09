@@ -24,7 +24,7 @@ overrides:
   postcss: '>=8.5.18 <9'
   protobufjs: '>=7.6.1'
   serialize-javascript: '>=7.0.3'
-  sharp: '>=0.35.0 <0.36'
+  sharp: '>=0.35.4 <0.36'
   svgo: '>=4.0.2 <5'
   tar: '>=7.5.21 <8'
   undici: '>=7.28.0 <8'
@@ -2803,6 +2803,7 @@ packages:
   eslint@9.39.3:
     resolution: {integrity: sha512-VmQ+sifHUbI/IcSopBCF/HO3YiHQx/AVd3UVyYL6weuwW+HvON9VYn5l6Zl1WZzPWXPNZrSQpxwkkZ/VuvJZzg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
