@@ -1,0 +1,12 @@
+{"message":"You passed in additional options (dsn) to the Sentry integration. This is deprecated and will stop working in a future version. Instead, configure the Sentry SDK in your `sentry.client.config.(js|ts)` or `sentry.server.config.(js|ts)` files.","label":"@sentry/astro","level":"warn"}
+{"message":"You or a plugin you are using have set `optimizeDeps.esbuildOptions` but this option is now deprecated. Vite now uses Rolldown to optimize the dependencies. Please use `optimizeDeps.rolldownOptions` instead.","label":"vite","level":"warn"}
+{"message":"Both esbuild and oxc options were set. oxc options will be used and esbuild options will be ignored. The following esbuild options were set: `{ target: 'es2022' }`","label":"vite","level":"warn"}
+{"message":"connected.","label":"vite","level":"info"}
+{"message":"Generated 7ms","label":"types","level":"info"}
+{"message":"connected.","label":"vite","level":"info"}
+{"message":"Re-optimizing dependencies because vite config has changed","label":"vite","level":"info"}
+{"message":" astro  v7.3.2 ready in 4127 ms\n┃ Local    http://localhost:3040/\n┃ Network  use --host to expose","label":"SKIP_FORMAT","level":"info"}
+{"message":"watching for file changes...","label":null,"level":"info"}
+{"message":"[200] / 214ms","label":null,"level":"info"}
+{"message":"[200] / 219ms","label":null,"level":"info"}
+{"message":"[200] / 3ms","label":null,"level":"info"}

@@ -155,6 +155,15 @@ const SERVER_ENVIRONMENTS = new Set(['ssr', 'prerender', 'astro'])
 function serverOnlyResolution() {
   return {
     name: 'islamwiki:server-only-resolution',
+    // BUILD ONLY. Under Vite 8 this plugin's configEnvironment hook makes the
+    // dev server hang fetching /src/styles/global.css through the module
+    // runner: every request to a page that uses Base.astro times out after 60s
+    // and returns a 500. The axe gate then scans the error page and fails on
+    // its contrast, which is how this was found rather than by anyone loading
+    // the site. Dev does not need the hook — `vite.ssr.resolve.conditions`
+    // below already reaches dev's ssr environment — but the build does, since
+    // without it the prerender pass loads server-only's throwing index.js.
+    apply: 'build',
     configEnvironment(name) {
       // Astro's server-side environments (core/constants.ts ASTRO_VITE_ENVIRONMENT_NAMES):
       // `ssr` (the deployed server bundle), `prerender` (the static-generation pass) and
