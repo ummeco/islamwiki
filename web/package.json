@@ -41,14 +41,14 @@
     "@anthropic-ai/sdk": "^0.91.1",
     "@astrojs/react": "^6.0.5",
     "@astrojs/sitemap": "^3.2.0",
-    "@astrojs/vercel": "^10.0.8",
+    "@astrojs/vercel": "^11.0.10",
     "@sentry/astro": "^10.61.0",
     "@opentelemetry/auto-instrumentations-node": "^0.76.0",
     "@opentelemetry/exporter-trace-otlp-http": "^0.218.0",
     "@opentelemetry/sdk-node": "^0.218.0",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
-    "astro": "^6.4.6",
+    "astro": "^7.3.2",
     "diff": "^8.0.3",
     "isomorphic-dompurify": "^3.10.0",
     "jose": "^6.2.1",
@@ -63,7 +63,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.9",
+    "@astrojs/check": "^0.9.10",
     "@playwright/test": "^1.50.0",
     "@tailwindcss/vite": "^4.3.1",
     "@testing-library/dom": "^10.0.0",
@@ -72,11 +72,11 @@
     "@testing-library/user-event": "^14.5.0",
     "@types/diff": "^8.0.0",
     "@types/leaflet": "^1.9.21",
-    "@vitest/coverage-v8": "^3.2.6",
+    "@vitest/coverage-v8": "^5.0.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@vitejs/plugin-react": "^5.2.0",
+    "@vitejs/plugin-react": "^6.1.1",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "eslint": "^9",
@@ -85,8 +85,8 @@
     "jsdom": "^26.0.0",
     "tailwindcss": "^4.3.0",
     "typescript": "^5.7.0",
-    "vite": "^7.3.6",
-    "vitest": "^3.2.6"
+    "vite": "^8.3.0",
+    "vitest": "^5.0.0"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -119,7 +119,7 @@
       "svgo": ">=4.0.2 <5",
       "tar": ">=7.5.21 <8",
       "undici": ">=7.28.0 <8",
-      "vite": ">=7.3.5 <8",
+      "vite": ">=8.3.0 <9",
       "ws": ">=8.21.0"
     }
   }
