@@ -99,6 +99,25 @@ describe('MemoryRateLimitAdapter', () => {
     expect(adapter.storeSize).toBe(0)
   })
 
+  it('_clear empties the store', async () => {
+    const adapter = new MemoryRateLimitAdapter()
+    await adapter.check(uk(), GENERAL_API)
+    await adapter.check(uk(), GENERAL_API)
+    expect(adapter.storeSize).toBeGreaterThan(0)
+    adapter._clear()
+    expect(adapter.storeSize).toBe(0)
+  })
+
+  it('_clear forgets a previously exhausted window', async () => {
+    const adapter = new MemoryRateLimitAdapter()
+    const key = uk()
+    const opts = { limit: 1, windowSeconds: 60 }
+    expect((await adapter.check(key, opts)).allowed).toBe(true)
+    expect((await adapter.check(key, opts)).allowed).toBe(false)
+    adapter._clear()
+    expect((await adapter.check(key, opts)).allowed).toBe(true)
+  })
+
   it('retryAfterSeconds is positive and accurate', async () => {
     const key = uk()
     const opts = { limit: 1, windowMs: 5_000 }
